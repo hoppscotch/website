@@ -1,0 +1,69 @@
+@import './markdown.css';
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  @apply transition;
+  @apply bg-primary;
+  @apply text-secondary;
+}
+
+@mixin lightMode {
+  --color-primary: theme("colors.light.200");
+  --color-primaryLight: theme("colors.light.100");
+  --color-primaryDark: theme("colors.light.300");
+  --color-secondary: theme("colors.true-gray.600");
+  --color-secondaryLight: theme("colors.true-gray.500");
+  --color-secondaryDark: theme("colors.true-gray.800");
+  --color-accent: theme("colors.green.500");
+  --color-accentLight: theme("colors.green.300");
+  --color-accentDark: theme("colors.green.800");
+  --color-divider: theme("colors.light.600");
+  --color-dividerLight: theme("colors.light.400");
+  --color-dividerDark: theme("colors.light.800");
+}
+
+@mixin darkMode {
+  --color-primary: theme("colors.dark.800");
+  --color-primaryLight: theme("colors.dark.700");
+  --color-primaryDark: theme("colors.dark.900");
+  --color-secondary: theme("colors.true-gray.200");
+  --color-secondaryLight: theme("colors.true-gray.300");
+  --color-secondaryDark: theme("colors.true-gray.100");
+  --color-accent: theme("colors.green.500");
+  --color-accentLight: theme("colors.green.800");
+  --color-accentDark: theme("colors.green.300");
+  --color-divider: theme("colors.dark.600");
+  --color-dividerLight: theme("colors.dark.400");
+  --color-dividerDark: theme("colors.dark.800");
+}
+
+html {
+  @include lightMode;
+}
+
+html.dark {
+  @include darkMode;
+}
+
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  @apply bg-teal-600 opacity-75;
+
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 2px;
+}

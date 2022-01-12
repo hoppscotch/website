@@ -1,36 +1,47 @@
 <script setup lang="ts">
 import { isDark, toggleDark } from '~/composables'
-
-const { t, availableLocales, locale } = useI18n()
-
-const toggleLocales = () => {
-  // change to some real logic
-  const locales = availableLocales
-  locale.value = locales[(locales.indexOf(locale.value) + 1) % locales.length]
-}
+import { navigation } from '~/assets/data/navigation'
+const { t } = useI18n()
 </script>
 
 <template>
-  <nav class="text-xl mt-6">
-    <router-link class="icon-btn mx-2" to="/" :title="t('button.home')">
-      <carbon-campsite />
-    </router-link>
-
-    <button class="icon-btn mx-2 !outline-none" :title="t('button.toggle_dark')" @click="toggleDark()">
-      <carbon-moon v-if="isDark" />
-      <carbon-sun v-else />
-    </button>
-
-    <a class="icon-btn mx-2" :title="t('button.toggle_langs')" @click="toggleLocales">
-      <carbon-language />
-    </a>
-
-    <router-link class="icon-btn mx-2" to="/about" :title="t('button.about')">
-      <carbon-dicom-overlay />
-    </router-link>
-
-    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank" title="GitHub">
-      <carbon-logo-github />
-    </a>
-  </nav>
+  <footer class="flex flex-col px-8 py-16">
+    <nav class="grid grid-cols-2 gap-4 md:grid-cols-5">
+      <div class="flex flex-col space-y-2">
+        <h5 class="flex my-2 text-sm font-bold text-secondaryLight">
+          {{ t("logo") }}
+        </h5>
+        <div>
+          <button class="inline-flex mx-2 outline-none" @click="toggleDark()">
+            <lucide-moon v-if="isDark" />
+            <lucide-sun v-else />
+          </button>
+        </div>
+      </div>
+      <div
+        v-for="(category, categoryIndex) in navigation" :key="`category-${categoryIndex}`"
+        class="flex flex-col space-y-2"
+      >
+        <h5 class="flex my-2 text-sm font-bold text-secondaryLight">
+          {{ category.name }}
+        </h5>
+        <ul
+          class="space-y-2"
+        >
+          <li
+            v-for="(item, itemIndex) in category.links"
+            :key="`item-${itemIndex}`"
+            class="flex"
+          >
+            <router-link
+              :to="item.link"
+              class="flex text-xs text-secondaryLight hover:text-secondaryDark"
+            >
+              {{ item.name }}
+            </router-link>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </footer>
 </template>

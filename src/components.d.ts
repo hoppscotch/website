@@ -4,8 +4,15 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
-    Counter: typeof import('./components/Counter.vue')['default']
+    AnnouncementGradient: typeof import('./components/AnnouncementGradient.vue')['default']
     Footer: typeof import('./components/Footer.vue')['default']
+    LandingAnnouncement: typeof import('./components/LandingAnnouncement.vue')['default']
+    LandingFeatures: typeof import('./components/LandingFeatures.vue')['default']
+    LandingHero: typeof import('./components/LandingHero.vue')['default']
+    LucideArrowRight: typeof import('~icons/lucide/arrow-right')['default']
+    LucideLightbulb: typeof import('~icons/lucide/lightbulb')['default']
+    LucideMoon: typeof import('~icons/lucide/moon')['default']
+    LucideSun: typeof import('~icons/lucide/sun')['default']
     README: typeof import('./components/README.md')['default']
   }
 }

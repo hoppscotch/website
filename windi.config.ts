@@ -1,42 +1,31 @@
 import { defineConfig } from 'windicss/helpers'
-import colors from 'windicss/colors'
 import typography from 'windicss/plugin/typography'
 
 export default defineConfig({
   darkMode: 'class',
-  // https://windicss.org/posts/v30.html#attributify-mode
   attributify: true,
-
-  plugins: [
-    typography(),
-  ],
+  plugins: [typography()],
   theme: {
+    fontFamily: {
+      sans: ['Inter', 'sans-serif'],
+    },
+    container: {
+      center: true,
+    },
     extend: {
-      typography: {
-        DEFAULT: {
-          css: {
-            maxWidth: '65ch',
-            color: 'inherit',
-            a: {
-              'color': 'inherit',
-              'opacity': 0.75,
-              'fontWeight': '500',
-              'textDecoration': 'underline',
-              '&:hover': {
-                opacity: 1,
-                color: colors.teal[600],
-              },
-            },
-            b: { color: 'inherit' },
-            strong: { color: 'inherit' },
-            em: { color: 'inherit' },
-            h1: { color: 'inherit' },
-            h2: { color: 'inherit' },
-            h3: { color: 'inherit' },
-            h4: { color: 'inherit' },
-            code: { color: 'inherit' },
-          },
-        },
+      colors: {
+        primary: 'var(--color-primary)',
+        primaryLight: 'var(--color-primaryLight)',
+        primaryDark: 'var(--color-primaryDark)',
+        secondary: 'var(--color-secondary)',
+        secondaryLight: 'var(--color-secondaryLight)',
+        secondaryDark: 'var(--color-secondaryDark)',
+        accent: 'var(--color-accent)',
+        accentLight: 'var(--color-accentLight)',
+        accentDark: 'var(--color-accentDark)',
+        divider: 'var(--color-divider)',
+        dividerLight: 'var(--color-dividerLight)',
+        dividerDark: 'var(--color-dividerDark)',
       },
     },
   },
