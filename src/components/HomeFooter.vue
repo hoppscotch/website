@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { isDark, toggleDark } from '~/composables'
-import { navigation } from '~/assets/data/navigation'
+import { footerNavigation } from '~/assets/data/footerNavigation'
 const { t } = useI18n()
 </script>
 
@@ -19,7 +19,7 @@ const { t } = useI18n()
         </div>
       </div>
       <div
-        v-for="(category, categoryIndex) in navigation" :key="`category-${categoryIndex}`"
+        v-for="(category, categoryIndex) in footerNavigation" :key="`category-${categoryIndex}`"
         class="flex flex-col space-y-2"
       >
         <h5 class="flex my-2 text-sm font-bold text-secondaryLight">

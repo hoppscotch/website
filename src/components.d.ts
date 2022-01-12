@@ -5,15 +5,24 @@
 declare module 'vue' {
   export interface GlobalComponents {
     AnnouncementGradient: typeof import('./components/AnnouncementGradient.vue')['default']
-    Footer: typeof import('./components/Footer.vue')['default']
+    HomeFooter: typeof import('./components/HomeFooter.vue')['default']
+    HomeHeader: typeof import('./components/HomeHeader.vue')['default']
     LandingAnnouncement: typeof import('./components/LandingAnnouncement.vue')['default']
     LandingFeatures: typeof import('./components/LandingFeatures.vue')['default']
     LandingHero: typeof import('./components/LandingHero.vue')['default']
     LucideArrowRight: typeof import('~icons/lucide/arrow-right')['default']
     LucideLightbulb: typeof import('~icons/lucide/lightbulb')['default']
+    LucideMenu: typeof import('~icons/lucide/menu')['default']
     LucideMoon: typeof import('~icons/lucide/moon')['default']
     LucideSun: typeof import('~icons/lucide/sun')['default']
+    LucideX: typeof import('~icons/lucide/x')['default']
+    MenuCompany: typeof import('./components/MenuCompany.vue')['default']
+    MenuMobile: typeof import('./components/MenuMobile.vue')['default']
+    MenuPlatform: typeof import('./components/MenuPlatform.vue')['default']
+    MenuSolutions: typeof import('./components/MenuSolutions.vue')['default']
     README: typeof import('./components/README.md')['default']
+    SmartItem: typeof import('./components/SmartItem.vue')['default']
+    TranslateDown: typeof import('./components/TranslateDown.vue')['default']
   }
 }
 

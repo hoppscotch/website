@@ -8,3 +8,9 @@ home:
     short_description: Empowering creators
     long_link_text: Read Manifesto
     short_link_text: Manifesto
+  hero:
+    heading_line_1: Open Source
+    heading_line_2: api development ecosystem
+    subheading: Kooli help you monetize open source projects, accept payments, publish exclusive contents and manage customers online.
+header:
+  open: Open App

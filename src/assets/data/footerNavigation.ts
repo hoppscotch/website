@@ -1,4 +1,4 @@
-export const navigation = [
+export const footerNavigation = [
   {
     name: 'Product',
     links: [
