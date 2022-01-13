@@ -7,7 +7,7 @@ const showMenu = ref(false)
 <template>
   <header class="sticky top-0 z-20">
     <nav class="flex transition bg-opacity-75 bg-glass backdrop-blur">
-      <div class="container flex items-center justify-between max-w-6xl p-4">
+      <div class="flex items-center justify-between flex-1 p-4">
         <div class="md:w-0 md:flex-1">
           <router-link
             to="/"
@@ -27,7 +27,9 @@ const showMenu = ref(false)
               placement="bottom"
             >
               <template #default>
-                abcd
+                <SmartItem
+                  label="Solutions"
+                />
               </template>
               <template #content>
                 <MenuSolutions />
@@ -44,7 +46,9 @@ const showMenu = ref(false)
               placement="bottom"
             >
               <template #default>
-                abcd
+                <SmartItem
+                  label="Platform"
+                />
               </template>
               <template #content>
                 <MenuPlatform />
@@ -61,7 +65,9 @@ const showMenu = ref(false)
               placement="bottom"
             >
               <template #default>
-                abcd
+                <SmartItem
+                  label="Company"
+                />
               </template>
               <template #content>
                 <MenuCompany />
@@ -73,9 +79,11 @@ const showMenu = ref(false)
         <div
           class="items-center justify-end hidden space-x-8 md:flex md:flex-1 lg:w-0"
         >
-          <button>
-            Open App
-          </button>
+          <span>
+            <SmartItem
+              label="Open App"
+            />
+          </span>
         </div>
         <div class="md:hidden">
           <button

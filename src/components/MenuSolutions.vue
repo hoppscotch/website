@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { solutions } from '~/assets/data/menuSolutions'
 // const { t } = useI18n()
+import lightbulb from '~icons/lucide/lightbulb'
 </script>
 
 <template>
@@ -15,20 +16,20 @@ import { solutions } from '~/assets/data/menuSolutions'
         :description="item.description"
       />
     </div>
-    <div class="flex mt-2 transition rounded-lg bg-primaryDark">
+    <div class="mt-2 transition rounded-lg bg-primaryDark">
       <SmartItem
         label="API"
-        icon="layers"
+        :icon="lightbulb"
         to="https://docs.kooli.tech/api"
       />
       <SmartItem
         label="Guides"
-        icon="local_library"
+        :icon="lightbulb"
         to="https://docs.kooli.tech/guides"
       />
       <SmartItem
         label="Contact"
-        icon="contact_support"
+        :icon="lightbulb"
         to="/about/contact"
       />
     </div>

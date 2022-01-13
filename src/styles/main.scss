@@ -68,6 +68,10 @@ html.dark {
   height: 2px;
 }
 
+.tippy-content {
+  @apply p-0;
+}
+
 .tippy-box[data-theme~="tooltip"] {
   @apply bg-secondary;
   @apply text-primaryLight;
@@ -86,7 +90,7 @@ html.dark {
   @apply bg-primaryLight;
   @apply text-secondary;
   @apply p-2;
-  @apply shadow-md;
+  @apply shadow-xl;
 
   & > .tippy-arrow {
     @apply text-primaryLight;

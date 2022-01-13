@@ -17,19 +17,24 @@ import { guides } from '~/assets/data/menuGuides'
       />
     </div>
     <div class="flex flex-col p-4 mt-2 transition rounded-lg bg-primaryDark">
-      <h4 class="mb-2 font-semibold">
+      <h4 class="mb-2 font-medium">
         Pupular guides
       </h4>
       <ul class="flex flex-col space-y-2">
         <li v-for="(guide, guideIndex) in guides" :key="`guide-${guideIndex}`">
-          <router-link :to="guide.link" class="link">
-            {{ guide.title }}
-            <i class="material-icons">chevron_right</i>
+          <router-link :to="guide.link" class="inline-flex items-center">
+            <span class="mr-2">
+              {{ guide.title }}
+            </span>
+            <lucide-arrow-right />
           </router-link>
         </li>
         <li>
-          <router-link to="https://docs.kooli.tech/guides" class="link">
-            View all guides <i class="material-icons">chevron_right</i>
+          <router-link to="https://docs.kooli.tech/guides" class="inline-flex items-center">
+            <span class="mr-2">
+              View all guides
+            </span>
+            <lucide-arrow-right />
           </router-link>
         </li>
       </ul>
