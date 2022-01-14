@@ -1,84 +1,84 @@
 export const footerNavigation = [
   {
-    name: 'navigation.product.title',
+    name: 'footer.product.title',
     links: [
       {
-        name: 'navigation.product.links.web',
+        name: 'footer.product.links.web',
         link: '/settings',
       },
       {
-        name: 'navigation.product.links.native',
+        name: 'footer.product.links.native',
         link: '/settings',
       },
       {
-        name: 'navigation.product.links.cli',
+        name: 'footer.product.links.cli',
         link: '/settings',
       },
       {
-        name: 'navigation.product.links.embeds',
+        name: 'footer.product.links.embeds',
         link: '/settings',
       },
     ],
   },
   {
-    name: 'navigation.platform.title',
+    name: 'footer.platform.title',
     links: [
       {
-        name: 'navigation.platform.links.design',
+        name: 'footer.platform.links.design',
         link: '/settings',
       },
       {
-        name: 'navigation.platform.links.development',
+        name: 'footer.platform.links.development',
         link: '/settings',
       },
       {
-        name: 'navigation.platform.links.testing',
+        name: 'footer.platform.links.testing',
         link: '/testing',
       },
       {
-        name: 'navigation.platform.links.documentation',
+        name: 'footer.platform.links.documentation',
         link: '/documentation',
       },
     ],
   },
   {
-    name: 'navigation.protocols.title',
+    name: 'footer.protocols.title',
     links: [
       {
-        name: 'navigation.protocols.links.rest',
+        name: 'footer.protocols.links.rest',
         link: '/about',
       },
       {
-        name: 'navigation.protocols.links.graphql',
+        name: 'footer.protocols.links.graphql',
         link: '/about/jobs',
       },
       {
-        name: 'navigation.protocols.links.realtime',
+        name: 'footer.protocols.links.realtime',
         link: '/about/integrations',
       },
       {
-        name: 'navigation.protocols.links.grpc',
+        name: 'footer.protocols.links.grpc',
         link: '',
       },
     ],
   },
   {
-    name: 'navigation.company.title',
+    name: 'footer.company.title',
     links: [
       {
-        name: 'navigation.company.links.about',
+        name: 'footer.company.links.about',
         link: '/about',
       },
       {
-        name: 'navigation.company.links.careers',
+        name: 'footer.company.links.careers',
         link: '/about/jobs',
       },
       {
-        name: 'navigation.company.links.blog',
+        name: 'footer.company.links.blog',
         link: '/about/integrations',
       },
       {
-        name: 'navigation.company.links.press',
+        name: 'footer.company.links.press',
         link: '/press',
       },
     ],

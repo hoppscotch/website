@@ -23,6 +23,8 @@ home:
       6:
         title: Pay with your Google Pay
         description: Pay with your Google Pay
+  users:
+    title: Empowering developers to build better products
   announcement:
     long_description: Empowering and rewarding today’s creators
     short_description: Empowering creators
@@ -103,7 +105,7 @@ header:
           name: To design and develop an interactive globe
         3:
           name: We built Checkout so you don\'t have to
-navigation:
+footer:
   product:
     title: Product
     links:

@@ -3,6 +3,7 @@
 <template>
   <div class="flex flex-col divide-y divide-divider">
     <LandingHero />
+    <LandingUsers />
     <LandingFeatures />
   </div>
 </template>
