@@ -13,7 +13,7 @@ const { t } = useI18n()
       class="flex flex-col"
     >
       <p class="p-4 font-medium uppercase text-secondaryLight">
-        {{ category.name }}
+        {{ t(category.name) }}
       </p>
       <div class="grid grid-cols-2">
         <SmartItem
@@ -21,14 +21,14 @@ const { t } = useI18n()
           :key="`item-${itemIndex}`"
           :to="item.link"
           :icon="item.icon"
-          :label="item.shortName"
+          :label="t(item.name)"
         />
       </div>
     </div>
     <div class="flex flex-col">
       <SmartItem
         to="/pricing"
-        label="Pricing"
+        :label="t('header.pricing')"
         icon="chevron_right"
         class="my-4"
         reverse

@@ -15,6 +15,7 @@ declare module 'vue' {
     LucideMenu: typeof import('~icons/lucide/menu')['default']
     LucideMoon: typeof import('~icons/lucide/moon')['default']
     LucideSun: typeof import('~icons/lucide/sun')['default']
+    LucideWarning: typeof import('~icons/lucide/warning')['default']
     LucideX: typeof import('~icons/lucide/x')['default']
     MenuCompany: typeof import('./components/MenuCompany.vue')['default']
     MenuMobile: typeof import('./components/MenuMobile.vue')['default']

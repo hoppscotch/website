@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { features } from '~/assets/data/features'
+import { features } from '~/assets/data/landingFeatures'
 const { t } = useI18n()
 </script>
 
@@ -28,15 +28,15 @@ const { t } = useI18n()
         </i>
         <div class="flex-grow">
           <h2 class="flex mt-4 mb-2 text-lg font-semibold text-secondaryDark">
-            {{ feature.title }}
+            {{ t(feature.title) }}
           </h2>
           <p class="flex">
-            {{ feature.description }}
+            {{ t(feature.description) }}
           </p>
           <p class="mt-2">
             <router-link :to="feature.link.target" class="inline-flex items-center transition text-accent hover:text-accentDark">
               <span class="mr-2">
-                {{ feature.link.title }}
+                {{ t(feature.link.title) }}
               </span>
               <lucide-arrow-right />
             </router-link>

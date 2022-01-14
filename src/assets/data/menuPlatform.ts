@@ -2,30 +2,26 @@ import lightbulb from '~icons/lucide/lightbulb'
 
 export const platform = [
   {
-    name: 'Payment Processing',
-    shortName: 'Payments',
-    description: 'Online payments',
+    name: 'header.menu.platform.links.1.name',
+    description: 'header.menu.platform.links.1.description',
     icon: lightbulb,
     link: '/settings',
   },
   {
-    name: 'Subscription Billing',
-    shortName: 'Subscription',
-    description: 'Subscriptions & invoicing',
+    name: 'header.menu.platform.links.2.name',
+    description: 'header.menu.platform.links.2.description',
     icon: lightbulb,
     link: '/settings',
   },
   {
-    name: 'API Documentation',
-    shortName: 'API',
-    description: 'Start integrating Kooli\'s products and tools',
+    name: 'header.menu.platform.links.3.name',
+    description: 'header.menu.platform.links.3.description',
     icon: lightbulb,
     link: 'https://docs.kooli.tech/api',
   },
   {
-    name: 'Guides',
-    shortName: 'Guides',
-    description: 'Learn how to make the best out of Kooli',
+    name: 'header.menu.platform.links.4.name',
+    description: 'header.menu.platform.links.4.description',
     icon: lightbulb,
     link: 'https://docs.kooli.tech/guides',
   },

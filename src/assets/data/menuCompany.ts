@@ -2,33 +2,23 @@ import lightbulb from '~icons/lucide/lightbulb'
 
 export const company = [
   {
-    name: 'About',
+    name: 'header.menu.company.links.1.name',
     icon: lightbulb,
     link: '/about',
   },
   {
-    name: 'Jobs',
+    name: 'header.menu.company.links.2.name',
     icon: lightbulb,
     link: '/about/jobs',
   },
   {
-    name: 'Integrations',
+    name: 'header.menu.company.links.3.name',
     icon: lightbulb,
     link: '/about/integrations',
   },
   {
-    name: 'Contact',
+    name: 'header.menu.company.links.4.name',
     icon: lightbulb,
     link: '/about/contact',
-  },
-  {
-    name: 'Support',
-    icon: lightbulb,
-    link: '',
-  },
-  {
-    name: 'Blog',
-    icon: lightbulb,
-    link: 'https://blog.kooli.tech',
   },
 ]

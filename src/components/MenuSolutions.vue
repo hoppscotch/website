@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { solutions } from '~/assets/data/menuSolutions'
-// const { t } = useI18n()
 import lightbulb from '~icons/lucide/lightbulb'
+const { t } = useI18n()
 </script>
 
 <template>
@@ -12,23 +12,23 @@ import lightbulb from '~icons/lucide/lightbulb'
         :key="`item-${itemIndex}`"
         :to="item.link"
         :icon="item.icon"
-        :label="item.name"
-        :description="item.description"
+        :label="t(item.name)"
+        :description="t(item.description)"
       />
     </div>
     <div class="mt-2 transition rounded-lg bg-primaryDark">
       <SmartItem
-        label="API"
+        :label="t('header.menu.solutions.api')"
         :icon="lightbulb"
         to="https://docs.kooli.tech/api"
       />
       <SmartItem
-        label="Guides"
+        :label="t('header.menu.solutions.guides')"
         :icon="lightbulb"
         to="https://docs.kooli.tech/guides"
       />
       <SmartItem
-        label="Contact"
+        :label="t('header.menu.solutions.contact')"
         :icon="lightbulb"
         to="/about/contact"
       />

@@ -1,84 +1,84 @@
 export const footerNavigation = [
   {
-    name: 'Product',
+    name: 'navigation.product.title',
     links: [
       {
-        name: 'Web',
+        name: 'navigation.product.links.web',
         link: '/settings',
       },
       {
-        name: 'Native',
+        name: 'navigation.product.links.native',
         link: '/settings',
       },
       {
-        name: 'CLI',
+        name: 'navigation.product.links.cli',
         link: '/settings',
       },
       {
-        name: 'Embeds',
+        name: 'navigation.product.links.embeds',
         link: '/settings',
       },
     ],
   },
   {
-    name: 'Platform',
+    name: 'navigation.platform.title',
     links: [
       {
-        name: 'Design',
+        name: 'navigation.platform.links.design',
         link: '/settings',
       },
       {
-        name: 'Development',
+        name: 'navigation.platform.links.development',
         link: '/settings',
       },
       {
-        name: 'Testing',
+        name: 'navigation.platform.links.testing',
         link: '/testing',
       },
       {
-        name: 'Documentation',
+        name: 'navigation.platform.links.documentation',
         link: '/documentation',
       },
     ],
   },
   {
-    name: 'Protocols',
+    name: 'navigation.protocols.title',
     links: [
       {
-        name: 'REST',
+        name: 'navigation.protocols.links.rest',
         link: '/about',
       },
       {
-        name: 'GraphQL',
+        name: 'navigation.protocols.links.graphql',
         link: '/about/jobs',
       },
       {
-        name: 'Realtime',
+        name: 'navigation.protocols.links.realtime',
         link: '/about/integrations',
       },
       {
-        name: 'gRPC',
+        name: 'navigation.protocols.links.grpc',
         link: '',
       },
     ],
   },
   {
-    name: 'Company',
+    name: 'navigation.company.title',
     links: [
       {
-        name: 'About',
+        name: 'navigation.company.links.about',
         link: '/about',
       },
       {
-        name: 'Careers',
+        name: 'navigation.company.links.careers',
         link: '/about/jobs',
       },
       {
-        name: 'Blog',
+        name: 'navigation.company.links.blog',
         link: '/about/integrations',
       },
       {
-        name: 'Press',
+        name: 'navigation.company.links.press',
         link: '/press',
       },
     ],

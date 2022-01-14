@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { company } from '~/assets/data/menuCompany'
 import { blogs } from '~/assets/data/menuBlogs'
-// const { t } = useI18n()
+const { t } = useI18n()
 </script>
 
 <template>
@@ -12,18 +12,18 @@ import { blogs } from '~/assets/data/menuBlogs'
         :key="`item-${itemIndex}`"
         :to="item.link"
         :icon="item.icon"
-        :label="item.name"
+        :label="t(item.name)"
       />
     </div>
     <div class="flex flex-col p-4 mt-2 transition rounded-lg bg-primaryDark">
       <h4 class="mb-2 font-medium">
-        Recent blogs
+        {{ t('header.menu.blog.title') }}
       </h4>
       <ul class="flex flex-col space-y-2">
         <li v-for="(blog, blogIndex) in blogs" :key="`blog-${blogIndex}`">
           <router-link :to="blog.link" class="inline-flex items-center">
             <span class="mr-2">
-              {{ blog.title }}
+              {{ t(blog.title) }}
             </span>
             <lucide-arrow-right />
           </router-link>
@@ -31,7 +31,7 @@ import { blogs } from '~/assets/data/menuBlogs'
         <li>
           <router-link to="https://blog.kooli.tech" class="inline-flex items-center">
             <span class="mr-2">
-              Read all blogs
+              {{ t('header.menu.blog.read_more') }}
             </span>
             <lucide-arrow-right />
           </router-link>
