@@ -13,10 +13,6 @@ withDefaults(
       top: string
       left: string
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> eb7e247b218b8f3f973fa3c469665339bf0491af
   }>(), {
     id: 0,
     name: '',
