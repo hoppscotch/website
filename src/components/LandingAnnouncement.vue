@@ -5,10 +5,10 @@ const { t } = useI18n()
 <template>
   <div class="flex items-center justify-center flex-1 py-16">
     <div class="relative">
-      <AnnouncementGradient />
+      <SmartGradient />
       <router-link
         to="/manifesto"
-        class="relative flex items-center justify-center px-4 py-3 transition rounded-lg shadow-lg group bg-primaryLight"
+        class="relative flex items-center justify-center px-4 py-3 transition rounded-lg group bg-primaryLight"
       >
         <lucide-lightbulb class="hidden h-6 mr-4 md:flex" />
         <span class="text-secondaryDark">

@@ -1,7 +1,6 @@
 <template>
   <div
     class="pulse gradient-bg"
-    style="filter: blur(12px)"
   />
 </template>
 

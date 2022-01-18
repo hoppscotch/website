@@ -22,8 +22,9 @@ const { t } = useI18n()
         {{ t("home.hero.subheading") }}
       </p>
       <div class="relative flex w-full my-16">
+        <SmartGradient />
         <img
-          class="object-cover object-center w-full h-full transition rounded-lg shadow-lg"
+          class="object-cover object-center w-full relative h-full transition rounded-lg"
           :src="`/src/assets/images/${isDark?'dark':'light'}-banner.png`"
           alt="Screenshot"
           loading="lazy"

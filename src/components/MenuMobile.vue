@@ -5,15 +5,15 @@ const { t } = useI18n()
 
 <template>
   <nav
-    class="flex flex-col space-y-4 divide-y rounded-lg divide-dashed divide-divider"
+    class="divide-y divide-dashed divide-divider rounded-lg flex flex-col space-y-4"
   >
     <div
       v-for="(category, categoryIndex) in mobileNavigation"
       :key="`category-${categoryIndex}`"
       class="flex flex-col"
     >
-      <p class="p-4 font-medium uppercase text-secondaryLight">
-        {{ category.name }}
+      <p class="font-medium text-secondaryLight p-4 uppercase">
+        {{ t(category.name) }}
       </p>
       <div class="grid grid-cols-2">
         <SmartItem
@@ -21,22 +21,20 @@ const { t } = useI18n()
           :key="`item-${itemIndex}`"
           :to="item.link"
           :icon="item.icon"
-          :label="item.shortName"
+          :label="t(item.name)"
         />
       </div>
     </div>
     <div class="flex flex-col">
       <SmartItem
         to="/pricing"
-        label="Pricing"
+        :label="t('header.pricing')"
         icon="chevron_right"
         class="my-4"
         reverse
       />
-      <div class="flex justify-center p-4 transition rounded-lg bg-primaryDark">
-        <router-link to="/">
-          {{ t("header.open") }}
-        </router-link>
+      <div class="bg-primaryDark rounded-lg flex p-4 transition justify-center">
+        <ButtonPrimary to="/" :label="t('header.open')" />
       </div>
     </div>
   </nav>

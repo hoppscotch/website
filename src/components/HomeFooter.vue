@@ -23,7 +23,7 @@ const { t } = useI18n()
         class="flex flex-col space-y-2"
       >
         <h5 class="flex my-2 text-sm font-bold text-secondaryLight">
-          {{ category.name }}
+          {{ t(category.name) }}
         </h5>
         <ul
           class="space-y-2"
@@ -37,7 +37,7 @@ const { t } = useI18n()
               :to="item.link"
               class="flex text-xs text-secondaryLight hover:text-secondaryDark"
             >
-              {{ item.name }}
+              {{ t(item.name) }}
             </router-link>
           </li>
         </ul>

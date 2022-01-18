@@ -23,6 +23,7 @@ export default defineConfig({
         accent: 'var(--color-accent)',
         accentLight: 'var(--color-accentLight)',
         accentDark: 'var(--color-accentDark)',
+        accentContrast: 'var(--color-accentContrast)',
         divider: 'var(--color-divider)',
         dividerLight: 'var(--color-dividerLight)',
         dividerDark: 'var(--color-dividerDark)',

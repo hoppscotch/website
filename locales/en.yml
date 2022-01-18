@@ -6,6 +6,28 @@ home:
   features:
     title: Features
     description: A technology-first approach to payments and finance
+    button: Get Started
+    items:
+      1:
+        title: Pay with your bank account
+        description: Pay with your bank account
+      2:
+        title: Pay with your credit card
+        description: Pay with your credit card
+      3:
+        title: Pay with your debit card
+        description: Pay with your debit card
+      4:
+        title: Pay with your PayPal account
+        description: Pay with your PayPal account
+      5:
+        title: Pay with your Apple Pay
+        description: Pay with your Apple Pay
+      6:
+        title: Pay with your Google Pay
+        description: Pay with your Google Pay
+  users:
+    title: Empowering developers to build better products
   announcement:
     long_description: Empowering and rewarding today’s creators
     short_description: Empowering creators
@@ -17,3 +39,101 @@ home:
     subheading: Kooli help you monetize open source projects, accept payments, publish exclusive contents and manage customers online.
 header:
   open: Open App
+  pricing: Pricing
+  menu:
+    platform:
+      links:
+        1:
+          name: About
+          description: "Neque porro quisquam est qui dolorem ipsum"
+        2:
+          name: Careers
+          description: "Neque porro quisquam est qui dolorem ipsum"
+        3:
+          name: Blog
+          description: "Neque porro quisquam est qui dolorem ipsum"
+        4:
+          name: Press
+          description: "Neque porro quisquam est qui dolorem ipsum"
+    solutions:
+      api: API
+      guides: Guides
+      contact: Contact
+      links:
+        1:
+          name: About
+          description: "Neque porro quisquam est qui dolorem ipsum"
+        2:
+          name: Careers
+          description: "Neque porro quisquam est qui dolorem ipsum"
+        3:
+          name: Blog
+          description: "Neque porro quisquam est qui dolorem ipsum"
+        4:
+          name: Press
+          description: "Neque porro quisquam est qui dolorem ipsum"
+        5:
+          name: About
+          description: "Neque porro quisquam est qui dolorem ipsum"
+        6:
+          name: Careers
+          description: "Neque porro quisquam est qui dolorem ipsum"
+    company:
+      links:
+        1:
+          name: About
+        2:
+          name: Careers
+        3:
+          name: Blog
+        4:
+          name: Press
+    blog:
+      title: Recent blogs
+      read_more: Read More
+      links:
+        1:
+          name: Why we build Kooli?
+        2:
+          name: To design and develop an interactive globe
+        3:
+          name: We built Checkout so you don\'t have to
+    guide:
+      title: Popular Guides
+      read_more: Read all guides
+      links:
+        1:
+          name: Why we build Kooli?
+        2:
+          name: To design and develop an interactive globe
+        3:
+          name: We built Checkout so you don\'t have to
+footer:
+  product:
+    title: Product
+    links:
+      web: Web
+      native: Native
+      cli: CLI
+      embeds: Embeds
+  platform:
+    title: Platform
+    links:
+      design: Design
+      development: Development
+      testing: Testing
+      documentation: Documentation
+  protocols:
+    title: Protocols
+    links:
+      rest: Rest
+      graphql: GraphQL
+      realtime: Realtime
+      grpc: gRPC
+  company:
+    title: Company
+    links:
+      about: About
+      careers: Careers
+      blog: Blog
+      press: Press

@@ -1,8 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="flex flex-col divide-y divide-divider">
+  <div class="flex flex-col divide-y divide-dividerLight">
     <LandingHero />
+    <LandingUsers />
     <LandingFeatures />
     <LandingContributersList />
   </div>

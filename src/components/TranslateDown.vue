@@ -9,6 +9,6 @@
     leave-class="translate-y-0 opacity-100"
     leave-to-class="-translate-y-3 opacity-0"
   >
-    <slot></slot>
+    <slot />
   </transition>
 </template>

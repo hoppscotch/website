@@ -1,17 +1,15 @@
 <script setup lang="ts">
-// const { t } = useI18n()
-
 const showMenu = ref(false)
 </script>
 
 <template>
-  <header class="sticky top-0 z-20">
-    <nav class="flex transition bg-opacity-75 bg-glass backdrop-blur">
-      <div class="flex items-center justify-between flex-1 p-4">
-        <div class="md:w-0 md:flex-1">
+  <header class="max-h-screen top-0 z-20 sticky <md:overflow-auto">
+    <nav class="bg-glass flex bg-opacity-75 transition backdrop-blur">
+      <div class="flex flex-1 p-4 items-center justify-between">
+        <div class="md:flex-1 md:w-0">
           <router-link
             to="/"
-            class="inline-flex items-center px-4 py-2 rounded-lg focus:outline-none"
+            class="rounded-lg py-2 px-4 inline-flex items-center focus:outline-none"
           >
             <lucide-lightbulb class="h-8" />
           </router-link>
@@ -77,10 +75,10 @@ const showMenu = ref(false)
           <TabPrimary to="/pricing" label="Pricing" />
         </nav>
         <div
-          class="items-center justify-end hidden space-x-8 md:flex md:flex-1 lg:w-0"
+          class="space-x-8 items-center justify-end hidden md:flex md:flex-1 lg:w-0"
         >
           <span>
-            <SmartItem
+            <ButtonPrimary
               label="Open App"
             />
           </span>
@@ -97,7 +95,7 @@ const showMenu = ref(false)
     </nav>
     <TranslateDown
       v-if="showMenu"
-      class="p-2 mx-4 transition shadow-lg bg-primaryLight md:hidden"
+      class="bg-primaryLight shadow-lg mx-4 p-2 transition md:hidden"
     >
       <MenuMobile />
     </TranslateDown>

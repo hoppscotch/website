@@ -1,14 +1,14 @@
 export const blogs = [
   {
-    title: 'Why we build Kooli?',
-    link: '/settings',
+    title: 'header.menu.blog.links.1.name',
+    link: '/blog/a',
   },
   {
-    title: 'To design and develop an interactive globe',
-    link: '/settings',
+    title: 'header.menu.blog.links.2.name',
+    link: '/blog/a',
   },
   {
-    title: 'We built Checkout so you don\'t have to',
-    link: '/settings',
+    title: 'header.menu.blog.links.3.name',
+    link: '/blog/a',
   },
 ]
