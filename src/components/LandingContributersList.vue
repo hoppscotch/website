@@ -1,8 +1,5 @@
 <script setup lang="ts">
-<<<<<<< HEAD
-=======
 import { computed, ref } from 'vue'
->>>>>>> ce83a3c... added contributers bubble section
 import { contributers } from '~/assets/data/contributers'
 const { t } = useI18n()
 
@@ -67,7 +64,7 @@ const randomPositionGenerator = () => {
 <template>
   <div class="px-2 py-5 md:py-16">
     <div class="h-min-100vh md:h-min-90vh w-full flex items-center justify-between overflow-hidden  ">
-      <div class="h-full w-0 md:w-[calc(100%/3)] ">
+      <div class="h-full w-[calc(100%/3)] ">
         <div class="relative h-full">
           <div v-for="(contributer,index) in contributers" :key="`contributer-${index}`" class="w-c">
             <ContibuterUserBubble
@@ -80,7 +77,7 @@ const randomPositionGenerator = () => {
           </div>
         </div>
       </div>
-      <div class="flex flex-col justify-between h-full w-full md:w-[calc(100%/3)]  ">
+      <div class="flex flex-col justify-between h-full w-full w-[calc(100%/3)]  ">
         <div class="relative h-[calc(100%/3)] md:h-33% w-full">
           <div v-for="(contributer,index) in (contributers.slice(0,5))" :key="`contributer-${index}`">
             <ContibuterUserBubble
@@ -114,7 +111,7 @@ const randomPositionGenerator = () => {
           </div>
         </div>
       </div>
-      <div class="h-full w-0 md:w-[calc(100%/3)]">
+      <div class="h-full w-[calc(100%/3)]">
         <div class="relative h-full">
           <div v-for="(contributer,index) in contributers" :key="`contributer-${index}`">
             <ContibuterUserBubble
