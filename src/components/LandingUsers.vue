@@ -3,27 +3,25 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div class="flex flex-col px-8 py-16">
-    <div class="flex flex-col items-center p-4">
+  <div class="flex flex-col py-16 px-8">
+    <div class="flex flex-col p-4 items-center">
       <p
-        class="mb-8 text-sm font-semibold tracking-widest text-center uppercase text-accent"
+        class="font-semibold text-sm text-center text-accent mb-8 tracking-widest uppercase"
       >
         {{ t("home.users.title") }}
       </p>
     </div>
-    <div class="grid grid-cols-3 gap-4 md:grid-cols-4 lg:grid-cols-6">
+    <div class="grid gap-4 grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
       <div
         v-for="userIndex in 12"
         :key="`user-${userIndex}`"
-        class="inline-flex flex-col items-center justify-center p-4"
+        class="flex-col p-4 inline-flex items-center justify-center"
       >
         <img
-          :src="`https://i.pravatar.cc/${Math.floor(
-            Math.random() * (600 - 400 + 1) + 400
-          )}`"
+          :src="`/assets/images/users/${userIndex}.svg`"
           :alt="`${userIndex}`"
           loading="lazy"
-          class="inline-flex flex-col object-cover object-center rounded-full shadow-inner max-h-24"
+          class="flex-col object-cover object-center shadow-inner max-h-16 text-blue-500 inline-flex"
         >
       </div>
     </div>

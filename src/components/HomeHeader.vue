@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const showMenu = ref(false)
+const { t } = useI18n()
 </script>
 
 <template>
@@ -78,9 +79,7 @@ const showMenu = ref(false)
           class="space-x-8 items-center justify-end hidden md:flex md:flex-1 lg:w-0"
         >
           <span>
-            <ButtonPrimary
-              label="Open App"
-            />
+            <ButtonPrimary to="/" :label="t('header.open')" rounded />
           </span>
         </div>
         <div class="md:hidden">

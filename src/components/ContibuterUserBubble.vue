@@ -1,7 +1,5 @@
 
 <script setup lang="ts">
-import { computed, method } from 'vue'
-
 withDefaults(
   defineProps<{
     id: number
@@ -13,26 +11,24 @@ withDefaults(
       top: string
       left: string
     }
-
   }>(), {
     id: 0,
     name: '',
     image: '',
     link: '',
-    size: 11,
-    position: {
+    size: 8,
+    position: () => ({
       top: '',
       left: '',
-    },
+    }),
   },
-
 )
 
 </script>
 
 <template>
-  <a class="relative block rounded-full cloudAnimation " :class="`h-${size} w-${size}`" :style="{ top:position.top,left:position.left}" :href="link" :title="name">
-    <img :src="image" :alt="name" loading="lazy" class="h-full w-full object-cover rounded-full transition-transform ease-in-out  ">
+  <a class="rounded-full relative block cloudAnimation " :class="`h-${size} w-${size}`" :style="{ top:position.top,left:position.left}" :href="link" :title="name">
+    <img :src="image" :alt="name" loading="lazy" class="rounded-full h-full object-cover w-full transition-transform ease-in-out  ">
   </a>
 </template>
 

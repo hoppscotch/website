@@ -30,7 +30,7 @@ withDefaults(
     gradient: false,
     shadow: false,
     outline: false,
-    shortcut: [],
+    shortcut: () => [],
   },
 )
 </script>
@@ -38,7 +38,7 @@ withDefaults(
 <template>
   <router-link
     :to="to"
-    class="bg-accent font-bold text-accentContrast py-2 transition inline-flex items-center justify-center hover:bg-accentDark focus:outline-none focus-visible:bg-accentDark "
+    class="bg-accent font-bold text-accentContrast py-2 transition inline-flex items-center justify-center hover:bg-accentDark focus:outline-none focus-visible:bg-accentDark"
     :class="[
       label ? 'px-4' : 'px-2',
       rounded ? 'rounded-full' : 'rounded',

@@ -34,7 +34,7 @@ const { t } = useI18n()
         reverse
       />
       <div class="bg-primaryDark rounded-lg flex p-4 transition justify-center">
-        <ButtonPrimary to="/" :label="t('header.open')" />
+        <ButtonPrimary to="/" :label="t('header.open')" rounded />
       </div>
     </div>
   </nav>
