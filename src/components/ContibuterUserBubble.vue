@@ -1,5 +1,10 @@
 
 <script setup lang="ts">
+<<<<<<< HEAD
+=======
+import { computed, method } from 'vue'
+
+>>>>>>> ce83a3c... added contributers bubble section
 withDefaults(
   defineProps<{
     id: number
@@ -11,24 +16,43 @@ withDefaults(
       top: string
       left: string
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> ce83a3c... added contributers bubble section
   }>(), {
     id: 0,
     name: '',
     image: '',
     link: '',
+<<<<<<< HEAD
     size: 8,
     position: () => ({
       top: '',
       left: '',
     }),
   },
+=======
+    size: 11,
+    position: {
+      top: '',
+      left: '',
+    },
+  },
+
+>>>>>>> ce83a3c... added contributers bubble section
 )
 
 </script>
 
 <template>
+<<<<<<< HEAD
   <a class="rounded-full relative block cloudAnimation " :class="`h-${size} w-${size}`" :style="{ top:position.top,left:position.left}" :href="link" :title="name">
     <img :src="image" :alt="name" loading="lazy" class="rounded-full h-full object-cover w-full transition-transform ease-in-out  ">
+=======
+  <a class="relative block rounded-full cloudAnimation " :class="`h-${size} w-${size}`" :style="{ top:position.top,left:position.left}" :href="link" :title="name">
+    <img :src="image" :alt="name" loading="lazy" class="h-full w-full object-cover rounded-full transition-transform ease-in-out  ">
+>>>>>>> ce83a3c... added contributers bubble section
   </a>
 </template>
 

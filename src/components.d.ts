@@ -4,6 +4,7 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    AnnouncementGradient: typeof import('./components/AnnouncementGradient.vue')['default']
     ButtonPrimary: typeof import('./components/ButtonPrimary.vue')['default']
     ContibuterUserBubble: typeof import('./components/ContibuterUserBubble.vue')['default']
     HomeFooter: typeof import('./components/HomeFooter.vue')['default']
