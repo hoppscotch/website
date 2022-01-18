@@ -1,5 +1,8 @@
 logo: Hoppscotch
 home:
+  contributers:
+    title: Made by our contributers
+    description: Hoppscotch is a thing thanks to the efforts of developers who believe in us.
   features:
     title: Features
     description: A technology-first approach to payments and finance

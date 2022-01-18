@@ -4,10 +4,13 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    AnnouncementGradient: typeof import('./components/AnnouncementGradient.vue')['default']
     ButtonPrimary: typeof import('./components/ButtonPrimary.vue')['default']
+    ContibuterUserBubble: typeof import('./components/ContibuterUserBubble.vue')['default']
     HomeFooter: typeof import('./components/HomeFooter.vue')['default']
     HomeHeader: typeof import('./components/HomeHeader.vue')['default']
     LandingAnnouncement: typeof import('./components/LandingAnnouncement.vue')['default']
+    LandingContributersList: typeof import('./components/LandingContributersList.vue')['default']
     LandingFeatures: typeof import('./components/LandingFeatures.vue')['default']
     LandingHero: typeof import('./components/LandingHero.vue')['default']
     LandingUsers: typeof import('./components/LandingUsers.vue')['default']
@@ -16,6 +19,7 @@ declare module 'vue' {
     LucideMenu: typeof import('~icons/lucide/menu')['default']
     LucideMoon: typeof import('~icons/lucide/moon')['default']
     LucideSun: typeof import('~icons/lucide/sun')['default']
+    LucideWarning: typeof import('~icons/lucide/warning')['default']
     LucideX: typeof import('~icons/lucide/x')['default']
     MenuCompany: typeof import('./components/MenuCompany.vue')['default']
     MenuMobile: typeof import('./components/MenuMobile.vue')['default']

@@ -5,6 +5,7 @@
     <LandingHero />
     <LandingUsers />
     <LandingFeatures />
+    <LandingContributersList />
   </div>
 </template>
 
