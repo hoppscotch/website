@@ -4,6 +4,7 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    ButtonPrimary: typeof import('./components/ButtonPrimary.vue')['default']
     HomeFooter: typeof import('./components/HomeFooter.vue')['default']
     HomeHeader: typeof import('./components/HomeHeader.vue')['default']
     LandingAnnouncement: typeof import('./components/LandingAnnouncement.vue')['default']
@@ -23,6 +24,7 @@ declare module 'vue' {
     README: typeof import('./components/README.md')['default']
     SmartGradient: typeof import('./components/SmartGradient.vue')['default']
     SmartItem: typeof import('./components/SmartItem.vue')['default']
+    SmartSpinner: typeof import('./components/SmartSpinner.vue')['default']
     TranslateDown: typeof import('./components/TranslateDown.vue')['default']
   }
 }
