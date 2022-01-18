@@ -4,6 +4,7 @@
   <div class="flex flex-col divide-y divide-divider">
     <LandingHero />
     <LandingFeatures />
+    <LandingContributersList />
   </div>
 </template>
 
