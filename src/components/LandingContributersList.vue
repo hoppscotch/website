@@ -64,9 +64,9 @@ const randomPositionGenerator = () => {
 <template>
   <div class="px-2 py-5 md:py-16">
     <div class="h-min-100vh md:h-min-90vh w-full flex items-center justify-between overflow-hidden  ">
-      <div class="h-full w-0 md:w-[calc(100%/3)] ">
+      <div class="h-full w-0 md:w-33vw ">
         <div class="relative h-full">
-          <div v-for="(contributer,index) in contributers" :key="`contributer-${index}`" class="w-c">
+          <div v-for="(contributer,index) in contributers" :key="`contributer-${index}`">
             <ContibuterUserBubble
               :name="contributer.name"
               :image="contributer.image"
@@ -77,8 +77,8 @@ const randomPositionGenerator = () => {
           </div>
         </div>
       </div>
-      <div class="flex flex-col justify-between h-full w-full md:w-[calc(100%/3)]  ">
-        <div class="relative h-[calc(100%/4)] md:h-33% w-full">
+      <div class="flex flex-col justify-between h-full w-full md:w-33vw  ">
+        <div class="relative h-25vh md:h-33vh w-full">
           <div v-for="(contributer,index) in (contributers.slice(0,5))" :key="`contributer-${index}`">
             <ContibuterUserBubble
               :name="contributer.name"
@@ -90,7 +90,7 @@ const randomPositionGenerator = () => {
           </div>
         </div>
 
-        <div class="flex flex-col items-center bg-primary h-50% md:h-min-[calc(100%/3)] lg:h-33% relative py-6 px-5 md:p-5 z-2">
+        <div class="flex flex-col items-center bg-primary h-50vh xl:h-min-33vh relative py-6 px-5 md:p-5 z-2">
           <h2 class="max-w-xl my-4 text-4xl font-bold leading-tight tracking-tight text-center text-secondaryDark">
             {{ t("home.contributers.title") }}
           </h2>
@@ -99,7 +99,7 @@ const randomPositionGenerator = () => {
           </p>
         </div>
 
-        <div class="relative h-[calc(100%4)] md:[calc(100%3)] w-full ">
+        <div class="relative h-25vh md:h-33vh w-full ">
           <div v-for="(contributer,index) in (contributers.slice(0,5))" :key="`contributer-${index}`">
             <ContibuterUserBubble
               :name="contributer.name"
@@ -111,7 +111,7 @@ const randomPositionGenerator = () => {
           </div>
         </div>
       </div>
-      <div class="h-full w-0 md:w-[calc(100%/3)]">
+      <div class="h-full w-0 md:w-33vw">
         <div class="relative h-full">
           <div v-for="(contributer,index) in contributers" :key="`contributer-${index}`">
             <ContibuterUserBubble
