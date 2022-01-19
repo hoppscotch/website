@@ -6,7 +6,6 @@ withDefaults(
     label: String
     description: String
     icon: String
-    svg: String
     infoIcon: String
     reverse: Boolean
     rounded: Boolean
@@ -21,7 +20,6 @@ withDefaults(
     label: '',
     description: '',
     icon: '',
-    svg: '',
     infoIcon: '',
     reverse: false,
     rounded: false,
@@ -61,24 +59,11 @@ withDefaults(
       class="inline-flex items-center justify-center whitespace-nowrap"
       :class="{ 'flex-row-reverse': reverse }"
     >
-      <i
+      <component
+        :is="icon"
         v-if="icon"
-        class="material-icons"
-        :class="[
-          { '!text-2xl': large },
-          label ? (reverse ? 'ml-2' : 'mr-2') : '',
-        ]"
-      >
-        {{ icon }}
-      </i>
-      <SmartIcon
-        v-if="svg"
-        :name="svg"
-        class="svg-icons"
-        :class="[
-          { '!h-6 !w-6': large },
-          label ? (reverse ? 'ml-2' : 'mr-2') : '',
-        ]"
+        :class="label ? (reverse ? 'ml-4 opacity-75' : 'mr-4 opacity-75') : ''"
+        class="inline-flex flex-shrink-0"
       />
       {{ label }}
       <div v-if="shortcut.length" class="ml-2 <sm:hidden">

@@ -73,7 +73,7 @@ const { t } = useI18n()
               </template>
             </tippy>
           </span>
-          <TabPrimary to="/pricing" label="Pricing" />
+          <SmartItem to="/pricing" label="Pricing" />
         </nav>
         <div
           class="space-x-8 items-center justify-end hidden md:flex md:flex-1 lg:w-0"
