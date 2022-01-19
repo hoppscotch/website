@@ -5,11 +5,11 @@
 declare module 'vue' {
   export interface GlobalComponents {
     ButtonPrimary: typeof import('./components/ButtonPrimary.vue')['default']
-    ContibuterUserBubble: typeof import('./components/ContibuterUserBubble.vue')['default']
+    ContibutorBubble: typeof import('./components/ContibutorBubble.vue')['default']
     HomeFooter: typeof import('./components/HomeFooter.vue')['default']
     HomeHeader: typeof import('./components/HomeHeader.vue')['default']
     LandingAnnouncement: typeof import('./components/LandingAnnouncement.vue')['default']
-    LandingContributersList: typeof import('./components/LandingContributersList.vue')['default']
+    LandingContributors: typeof import('./components/LandingContributors.vue')['default']
     LandingFeatures: typeof import('./components/LandingFeatures.vue')['default']
     LandingHero: typeof import('./components/LandingHero.vue')['default']
     LandingUsers: typeof import('./components/LandingUsers.vue')['default']

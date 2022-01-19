@@ -1,42 +1,35 @@
-
 <script setup lang="ts">
 withDefaults(
   defineProps<{
-    id: number
-    name: string
+    username: string
     image: string
     link: string
-    size: number
-    position: {
-      top: string
-      left: string
-    }
-  }>(), {
-    id: 0,
+    size: string
+  }>(),
+  {
     name: '',
     image: '',
     link: '',
-    size: 8,
-    position: () => ({
-      top: '',
-      left: '',
-    }),
+    size: 'w-16 h-16',
   },
 )
-
 </script>
 
 <template>
-  <a class="rounded-full relative block cloudAnimation " :class="`h-${size} w-${size}`" :style="{ top:position.top,left:position.left}" :href="link" :title="name">
-    <img :src="image" :alt="name" loading="lazy" class="rounded-full h-full object-cover w-full transition-transform ease-in-out  ">
-  </a>
+  <img
+    :src="image"
+    :alt="username"
+    loading="lazy"
+    class="flex flex-shrink-0 rounded-full cloudAnimation"
+    :class="`${size}`"
+  >
 </template>
 
 <style lang="scss" scoped>
-.cloudAnimation{
+.cloudAnimation {
   animation: 15s infinite alternate ease-in-out cloudAnimation;
-  &:hover{
-    img{
+  &:hover {
+    img {
       transform: scale(1.2);
     }
   }
@@ -64,6 +57,5 @@ withDefaults(
   100% {
     transform: translate(0px, 0px) rotate(0deg);
   }
-
 }
 </style>
