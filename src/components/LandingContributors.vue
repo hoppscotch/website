@@ -57,7 +57,6 @@ const { t } = useI18n()
 }
 
 .contributor-img:nth-child(2) {
-  border-radius: 50%;
   left: 15%;
   animation-delay: 2s;
 }
@@ -94,6 +93,94 @@ const { t } = useI18n()
 .contributor-img:nth-child(8) {
   left: 75%;
   animation-duration: 7s;
+}
+
+.contributor-img:nth-child(9) {
+  left: 0%;
+  animation-delay: 2s;
+}
+
+.contributor-img:nth-child(10) {
+  left: 10%;
+  animation-delay: 10s;
+}
+
+.contributor-img:nth-child(11) {
+  left: 20%;
+  animation-delay: 5s;
+  animation-duration: 7s;
+}
+
+.contributor-img:nth-child(12) {
+  left: 30%;
+  animation-duration: 5s;
+}
+
+.contributor-img:nth-child(13) {
+  left: 40%;
+  animation-delay: 3s;
+  animation-duration: 7s;
+}
+
+.contributor-img:nth-child(14) {
+  left: 50%;
+  animation-delay: 1s;
+  animation-duration: 8s;
+}
+
+.contributor-img:nth-child(15) {
+  left: 60%;
+  animation-delay: 6s;
+  animation-duration: 8s;
+}
+
+.contributor-img:nth-child(16) {
+  left: 70%;
+  animation-duration: 2s;
+}
+
+.contributor-img:nth-child(17) {
+  left: 0%;
+  animation-delay: 2s;
+}
+
+.contributor-img:nth-child(18) {
+  left: 10%;
+  animation-delay: 10s;
+}
+
+.contributor-img:nth-child(19) {
+  left: 20%;
+  animation-delay: 5s;
+  animation-duration: 7s;
+}
+
+.contributor-img:nth-child(20) {
+  left: 30%;
+  animation-duration: 5s;
+}
+
+.contributor-img:nth-child(21) {
+  left: 40%;
+  animation-delay: 3s;
+  animation-duration: 7s;
+}
+
+.contributor-img:nth-child(22) {
+  left: 50%;
+  animation-delay: 1s;
+  animation-duration: 8s;
+}
+
+.contributor-img:nth-child(23) {
+  left: 60%;
+  animation-delay: 6s;
+  animation-duration: 8s;
+}
+
+.contributor-img:nth-child(24) {
+  left: 70%;
+  animation-duration: 2s;
 }
 
 @keyframes up {

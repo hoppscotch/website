@@ -25,7 +25,7 @@ const { t } = useI18n()
         <SmartGradient />
         <img
           class="object-cover object-center w-full relative h-full transition rounded-lg"
-          :src="`/src/assets/images/${isDark?'dark':'light'}-banner.png`"
+          :src="`/assets/images/screenshots/${isDark?'dark':'light'}-banner.png`"
           alt="Screenshot"
           loading="lazy"
         >

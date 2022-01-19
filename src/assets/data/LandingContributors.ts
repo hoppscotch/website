@@ -130,6 +130,18 @@ export const contributors = [
     image: 'https://github.com/YasiOnFire.png',
     username: 'YasiOnFire',
     link: '/settings',
-    size: 'w-28 h-28',
+    size: 'w-18 h-18',
+  },
+  {
+    image: 'https://github.com/sboulema.png',
+    username: 'sboulema',
+    link: '/settings',
+    size: 'w-24 h-24',
+  },
+  {
+    image: 'https://github.com/yq314.png',
+    username: 'yq314',
+    link: '/settings',
+    size: 'w-16 h-16',
   },
 ]
