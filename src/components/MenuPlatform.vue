@@ -6,7 +6,7 @@ const { t } = useI18n()
 
 <template>
   <div>
-    <div class="grid grid-cols-1">
+    <div class="grid grid-cols-1 gap-2">
       <SmartItem
         v-for="(item, itemIndex) in platform"
         :key="`item-${itemIndex}`"
@@ -17,24 +17,28 @@ const { t } = useI18n()
       />
     </div>
     <div class="flex flex-col p-4 mt-2 transition rounded-lg bg-primaryDark">
-      <h4 class="mb-2 font-medium">
+      <h4 class="mb-2 font-medium border-b-1 border-dividerDark pb-2 rounded-sm">
         {{ t('header.menu.guide.title') }}
       </h4>
-      <ul class="flex flex-col space-y-2">
-        <li v-for="(guide, guideIndex) in guides" :key="`guide-${guideIndex}`">
-          <router-link :to="guide.link" class="inline-flex items-center">
-            <span class="mr-2">
+      <ul class="flex flex-col space-y-3">
+        <li v-for="(guide, guideIndex) in guides" :key="`guide-${guideIndex}`" >
+          <router-link :to="guide.link" class="group inline-flex items-center">
+            <span class="mr-2 group-hover:text-secondaryDark">
               {{ t(guide.title) }}
             </span>
-            <lucide-arrow-right />
+            <span class="transition group-hover:text-accent">
+              <lucide-arrow-right />
+            </span>
           </router-link>
         </li>
         <li>
-          <router-link to="https://docs.kooli.tech/guides" class="inline-flex items-center">
-            <span class="mr-2">
+          <router-link to="https://docs.kooli.tech/guides" class="group inline-flex items-center">
+            <span class="mr-2 group-hover:text-secondaryDark">
               {{ t('header.menu.guide.read_more') }}
             </span>
-            <lucide-arrow-right />
+           <span class="transition group-hover:text-accent">
+              <lucide-arrow-right />
+           </span>
           </router-link>
         </li>
       </ul>

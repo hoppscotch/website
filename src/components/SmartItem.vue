@@ -37,7 +37,7 @@ withDefaults(
       <div class="font-medium">
         {{ label }}
       </div>
-      <p v-if="description" class="my-2 text-xs text-left text-secondaryLight">
+      <p v-if="description" class="mt-1 text-xs text-left text-secondaryLight">
         {{ description }}
       </p>
     </div>

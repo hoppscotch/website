@@ -6,7 +6,7 @@ const { t } = useI18n()
 
 <template>
   <div>
-    <div class="grid grid-cols-2">
+    <div class="grid grid-cols-2 gap-2">
       <SmartItem
         v-for="(item, itemIndex) in company"
         :key="`item-${itemIndex}`"
@@ -16,24 +16,28 @@ const { t } = useI18n()
       />
     </div>
     <div class="flex flex-col p-4 mt-2 transition rounded-lg bg-primaryDark">
-      <h4 class="mb-2 font-medium">
+      <h4 class="mb-2 font-medium border-b-1 border-dividerDark pb-2 rounded-sm">
         {{ t('header.menu.blog.title') }}
       </h4>
-      <ul class="flex flex-col space-y-2">
+      <ul class="flex flex-col space-y-3">
         <li v-for="(blog, blogIndex) in blogs" :key="`blog-${blogIndex}`">
-          <router-link :to="blog.link" class="inline-flex items-center">
-            <span class="mr-2">
+          <router-link :to="blog.link" class="group inline-flex items-center">
+            <span class="mr-2 group-hover:text-secondaryDark">
               {{ t(blog.title) }}
             </span>
-            <lucide-arrow-right />
+             <span class="transition group-hover:text-accent">
+              <lucide-arrow-right />
+            </span>
           </router-link>
         </li>
         <li>
-          <router-link to="https://blog.kooli.tech" class="inline-flex items-center">
-            <span class="mr-2">
+          <router-link to="https://blog.kooli.tech" class="group inline-flex items-center">
+            <span class="mr-2 group-hover:text-secondaryDark">
               {{ t('header.menu.blog.read_more') }}
             </span>
-            <lucide-arrow-right />
+            <span class="transition group-hover:text-accent">
+              <lucide-arrow-right />
+            </span>
           </router-link>
         </li>
       </ul>
