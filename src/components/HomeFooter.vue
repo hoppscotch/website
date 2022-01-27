@@ -35,7 +35,7 @@ const { t } = useI18n()
           >
             <router-link
               :to="item.link"
-              class="flex text-xs text-secondaryLight hover:text-secondaryDark"
+              class="flex text-xs text-secondaryLight hover:text-secondaryDark transition"
             >
               {{ t(item.name) }}
             </router-link>
