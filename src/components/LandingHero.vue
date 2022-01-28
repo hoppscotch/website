@@ -21,6 +21,10 @@ const { t } = useI18n()
       <p class="my-4 text-xl text-center md:w-3/5">
         {{ t("home.hero.subheading") }}
       </p>
+      <p class="my-4 text-xl text-center flex space-x-4">
+        <GitHubStarButton />
+        <ButtonPrimary to="/" :label="t('header.open')" rounded />
+      </p>
       <div class="relative flex w-full my-16">
         <SmartGradient />
         <img
