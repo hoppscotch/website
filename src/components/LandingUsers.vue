@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { landingUserLogos } from '~/assets/data/landingUserLogos'
 const { t } = useI18n()
 </script>
 
@@ -13,16 +14,11 @@ const { t } = useI18n()
     </div>
     <div class="grid gap-4 grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
       <div
-        v-for="userIndex in 12"
-        :key="`user-${userIndex}`"
+        v-for="userIndex in landingUserLogos"
+        :key="`user-${userIndex.title}`"
         class="flex-col p-4 inline-flex items-center justify-center"
       >
-        <img
-          :src="`/assets/images/users/${userIndex}.svg`"
-          :alt="`${userIndex}`"
-          loading="lazy"
-          class="flex-col object-cover object-center shadow-inner max-h-16 text-blue-500 inline-flex"
-        >
+        <div class="userSvg h-16 w-16 text-secondary hover:text-secondaryLight transition-colors" :title="userIndex.title" v-html="userIndex.svg" />
       </div>
     </div>
   </div>
