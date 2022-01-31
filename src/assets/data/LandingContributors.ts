@@ -1,4 +1,3 @@
-
 export const contributors = [
   {
     image: 'https://github.com/liyasthomas.png',
@@ -141,6 +140,96 @@ export const contributors = [
   {
     image: 'https://github.com/yq314.png',
     username: 'yq314',
+    link: '/settings',
+    size: 'w-16 h-16',
+  },
+  {
+    image: 'https://github.com/Hydrophobefireman.png',
+    username: 'Hydrophobefireman',
+    link: '/settings',
+    size: 'w-16 h-16',
+  },
+  {
+    image: 'https://github.com/thomasbnt.png',
+    username: 'thomasbnt',
+    link: '/settings',
+    size: 'w-16 h-16',
+  },
+  {
+    image: 'https://github.com/anwarulislam.png',
+    username: 'anwarulislam',
+    link: '/settings',
+    size: 'w-16 h-16',
+  },
+  {
+    image: 'https://github.com/piraces.png',
+    username: 'piraces',
+    link: '/settings',
+    size: 'w-16 h-16',
+  },
+  {
+    image: 'https://github.com/joelcamus.png',
+    username: 'joelcamus',
+    link: '/settings',
+    size: 'w-16 h-16',
+  },
+  {
+    image: 'https://github.com/GustavoBezerra.png',
+    username: 'GustavoBezerra',
+    link: '/settings',
+    size: 'w-16 h-16',
+  },
+  {
+    image: 'https://github.com/KoHcoJlb.png',
+    username: 'KoHcoJlb',
+    link: '/settings',
+    size: 'w-16 h-16',
+  },
+  {
+    image: 'https://github.com/realabbas.png',
+    username: 'realabbas',
+    link: '/settings',
+    size: 'w-16 h-16',
+  },
+  {
+    image: 'https://github.com/JoelJacobStephen.png',
+    username: 'JoelJacobStephen',
+    link: '/settings',
+    size: 'w-16 h-16',
+  },
+  {
+    image: 'https://github.com/gopishankarharidas.png',
+    username: 'gopishankarharidas',
+    link: '/settings',
+    size: 'w-16 h-16',
+  },
+  {
+    image: 'https://github.com/hughobrien.png',
+    username: 'hughobrien',
+    link: '/settings',
+    size: 'w-16 h-16',
+  },
+  {
+    image: 'https://github.com/guastallaigor.png',
+    username: 'guastallaigor',
+    link: '/settings',
+    size: 'w-16 h-16',
+  },
+  {
+    image: 'https://github.com/oshhh.png',
+    username: 'oshhh',
+    link: '/settings',
+    size: 'w-16 h-16',
+  },
+  {
+    image: 'https://github.com/moonrailgun.png',
+    username: 'moonrailgun',
+    link: '/settings',
+    size: 'w-16 h-16',
+  },
+  {
+    image: 'https://github.com/mateusppereira.png',
+    username: 'mateusppereira',
     link: '/settings',
     size: 'w-16 h-16',
   },

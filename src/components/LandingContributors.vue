@@ -1,14 +1,22 @@
 <script setup lang="ts">
 import { contributors } from '~/assets/data/LandingContributors'
 const { t } = useI18n()
-
-
+let ranContributors = [];
+let i = contributors.length;
+let j = 0;
+while(i--){
+  j = Math.floor(Math.random()*(i+1));
+  ranContributors.push(contributors[j]);
+  contributors.splice(j,1);
+}
+//get random 20 contributors
+ranContributors.length > 20 && ranContributors.splice(20)
 // Number of circles we are trying to fit (not guaranteed if we don't have space)
-const CIRCLE_COUNT = contributors.length;
+const CIRCLE_COUNT = ranContributors.length;
 // Size of the biggest allowed circle
-const MAX_CIRCLE_SIZE = window.innerWidth > 900 ? 90 : 50;
+const MAX_CIRCLE_SIZE = window.innerWidth > 900 ? 90 : 45;
 // Size of the smallest allowed circle
-const MIN_CIRCLE_SIZE = window.innerWidth > 900 ? 40 : 20;
+const MIN_CIRCLE_SIZE = window.innerWidth > 900 ? 40 : 15;
 // How relatively sized sizes should be
 // Keep this greater than one
 // Bigger values mean more strong drop-off in size
@@ -31,7 +39,6 @@ const isOutsideBox = (bWidth, bHeight, cx, cy, cr) =>
 // -1 means the position itself is invalid and can't even fit the minimum
 const getMaximumCircleSize = (currentCircles, bWidth, bHeight, cx, cy) => {
   if (cx < MIN_CIRCLE_SIZE || cy < MIN_CIRCLE_SIZE) return -1;
-
   let decidedSize = MAX_CIRCLE_SIZE;
   while (
     (hasOverlap(currentCircles, cx, cy, decidedSize) ||
@@ -77,7 +84,7 @@ const circles = computed(() => {
       class="h-min-100vh md:h-min-90vh relative w-full flex items-center justify-between overflow-hidden"
     >
       <div
-        class="flex flex-col items-center justify-center mx-auto 50vw md:w-25vw h-50vh xl:h-min-33vh relative py-6 px-5 md:p-5 z-2"
+        class="flex flex-col items-center justify-center mx-auto 50vw md:w-25vw h-50vh xl:h-min-33vh pointer-events-none relative py-6 px-5 md:p-5 z-2"
       >
         <h2
           class="max-w-xl my-4 text-4xl font-bold leading-tight tracking-tight text-center text-secondaryDark"
@@ -90,11 +97,11 @@ const circles = computed(() => {
         <div ref="parent" class="relative h-full w-full">
          <a  v-for="(circle, index) in circles"
             :key="index"
-            :href="contributors[index]?.link"
+            :href="ranContributors[index]?.link"
             >
             <img
-            :src="contributors[index]?.image"
-            :username="contributors[index]?.username"
+            :src="ranContributors[index]?.image"
+            :username="ranContributors[index]?.username"
             loading="lazy"
             class="contributor-bubble absolute rounded-full object-cover "
             :class="`contributor-bubble-${index+1}`" 
@@ -111,7 +118,6 @@ const circles = computed(() => {
     </div>
   </div>
 </template>
-
 <style lang="scss" scoped>
 //random animation movement with index
 $CIRCLE-COUNT:50;
@@ -120,7 +126,6 @@ $CIRCLE-COUNT:50;
     animation: randomBubbleMovement 10s #{$i * 1.5}s ease-in-out infinite alternate;
   }
 }
-
 @keyframes randomBubbleMovement {
   0% {
     transform: translate(0px, 0px) rotate(0deg);
@@ -145,9 +150,7 @@ $CIRCLE-COUNT:50;
   }
   
 }
-
 .contributor-bubble:hover{
   animation-play-state: paused;
 }
-
 </style>
