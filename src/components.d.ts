@@ -28,6 +28,8 @@ declare module 'vue' {
     MenuMobile: typeof import('./components/MenuMobile.vue')['default']
     MenuPlatform: typeof import('./components/MenuPlatform.vue')['default']
     MenuSolutions: typeof import('./components/MenuSolutions.vue')['default']
+    PlatformGrid: typeof import('./components/PlatformGrid.vue')['default']
+    PlatformHero: typeof import('./components/PlatformHero.vue')['default']
     SmartGradient: typeof import('./components/SmartGradient.vue')['default']
     SmartItem: typeof import('./components/SmartItem.vue')['default']
     SmartSpinner: typeof import('./components/SmartSpinner.vue')['default']
