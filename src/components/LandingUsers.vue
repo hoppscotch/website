@@ -21,7 +21,7 @@ const { t } = useI18n()
           :src="`/assets/images/users/${userIndex}.svg`"
           :alt="`${userIndex}`"
           loading="lazy"
-          class="flex-col object-cover object-center shadow-inner max-h-16 text-blue-500 inline-flex"
+          class="flex-col object-cover object-center max-h-16 text-blue-500 inline-flex"
         >
       </div>
     </div>

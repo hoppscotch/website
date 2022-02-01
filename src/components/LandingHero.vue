@@ -5,8 +5,16 @@ const { t } = useI18n()
 
 <template>
   <div class="flex flex-col px-8 py-16">
-    <LandingAnnouncement />
     <div class="flex flex-col items-center">
+      <div class="relative flex max-w-4xl my-16">
+        <SmartGradient />
+        <img
+          class="relative object-cover object-center w-full h-full transition rounded-lg"
+          :src="`/assets/images/screenshots/${isDark?'dark':'light'}-banner.png`"
+          alt="Screenshot"
+          loading="lazy"
+        >
+      </div>
       <h1
         class="max-w-xl my-4 text-5xl font-semibold leading-none tracking-tighter text-center transition text-secondaryDark md:text-6xl lg:text-7xl"
       >
@@ -21,19 +29,14 @@ const { t } = useI18n()
       <p class="my-4 text-xl text-center md:w-3/5">
         {{ t("home.hero.subheading") }}
       </p>
-      <p class="my-4 text-xl text-center flex space-x-4">
+      <p class="flex my-4 space-x-4 text-xl text-center">
         <GitHubStarButton />
         <ButtonPrimary to="/" :label="t('header.open')" rounded />
       </p>
-      <div class="relative flex w-full my-16">
-        <SmartGradient />
-        <img
-          class="object-cover object-center w-full relative h-full transition rounded-lg"
-          :src="`/assets/images/screenshots/${isDark?'dark':'light'}-banner.png`"
-          alt="Screenshot"
-          loading="lazy"
-        >
-      </div>
+      <p class="text-xs text-secondaryLight">
+        {{ t("home.hero.stats.1.title") }} | {{ t("home.hero.stats.2.title") }} | {{ t("home.hero.stats.3.title") }}
+      </p>
     </div>
+    <LandingAnnouncement />
   </div>
 </template>

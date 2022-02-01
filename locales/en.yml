@@ -29,14 +29,30 @@ home:
   users:
     title: Empowering developers to build better products
   announcement:
-    long_description: Empowering and rewarding today’s creators
-    short_description: Empowering creators
-    long_link_text: Read Manifesto
-    short_link_text: Manifesto
+    long_description: Hoppscotch raises $3M in seed round
+    short_description: Hoppscotch raises $3M
+    long_link_text: Read accouncement
+    short_link_text: Read
   hero:
     heading_line_1: Open Source
     heading_line_2: api development ecosystem
     subheading: Kooli help you monetize open source projects, accept payments, publish exclusive contents and manage customers online.
+    stats:
+      1:
+        title: 1M+ users
+      2:
+        title: 36k+ GitHub Stars
+      3:
+        title: 35k+ Monthly users
+  social:
+    twitter:
+      title: Twitter
+      description: Follow us on Twitter
+      cta: Follow
+    github:
+      title: GitHub
+      description: Follow us on GitHub
+      cta: Follow
 header:
   open: Open App
   pricing: Pricing

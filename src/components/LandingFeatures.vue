@@ -17,11 +17,11 @@ const { t } = useI18n()
         {{ t("home.features.description") }}
       </h3>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
       <div
         v-for="(feature, index) in features"
         :key="`feature-${index}`"
-        class="inline-flex flex-col p-8 border border-divider"
+        class="inline-flex flex-col p-8 border border-divider rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-400"
       >
         <i class="text-3xl text-accent">
           <component :is="feature.icon" />
