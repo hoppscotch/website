@@ -1,0 +1,19 @@
+<script setup lang="ts">
+const { t } = useI18n()
+</script>
+
+<template>
+  <div class="flex flex-col px-8 py-16">
+    <div class="flex flex-col items-center">
+      <h1
+        class="max-w-xl my-4 text-5xl font-semibold leading-none text-center transition text-secondaryDark md:text-6xl lg:text-7xl"
+      >
+        {{ t("platforms.hero.heading_line_1") }}
+        <br>
+      </h1>
+      <p class="my-4 text-xl text-center md:w-3/5">
+        {{ t("platforms.hero.subheading") }}
+      </p>
+    </div>
+  </div>
+</template>

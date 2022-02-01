@@ -153,3 +153,19 @@ footer:
       careers: Careers
       blog: Blog
       press: Press
+platforms:
+    hero:
+      heading_line_1: Platforms
+      subheading: Some two line para about Platforms where Hoppscotch are available.
+    gridItems:
+      web:
+        title: Web
+        description: Lightweight and Fast web interface providing all the functionality needed for API developers with minimalist, unobtrusive UI with PWA feature.  
+      cli:
+        title: CLI
+        description: Inspired by the command line interface, your tools are unified as commands, and follow the same structure to make you more productive. 
+      extension:
+        title: Extension
+        description: Overrides CORS restrictions for cross-origin requests (it allows requests against localhost).  
+      
+    

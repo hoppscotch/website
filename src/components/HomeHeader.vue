@@ -47,6 +47,7 @@ const { t } = useI18n()
               <template #default>
                 <SmartItem
                   label="Platform"
+                  to="/platforms"
                 />
               </template>
               <template #content>
