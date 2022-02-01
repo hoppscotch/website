@@ -2,12 +2,13 @@
 import { contributors } from '~/assets/data/LandingContributors'
 const { t } = useI18n()
 const ranContributors = []
-let i = contributors.length
+const tempContributors = [...contributors]
+let i = tempContributors.length
 let j = 0
 while (i--) {
   j = Math.floor(Math.random() * (i + 1))
-  ranContributors.push(contributors[j])
-  contributors.splice(j, 1)
+  ranContributors.push(tempContributors[j])
+  tempContributors.splice(j, 1)
 }
 // get random 20 contributors
 ranContributors.length > 20 && ranContributors.splice(20)
