@@ -21,7 +21,7 @@ const { t } = useI18n()
       <div
         v-for="(feature, index) in features"
         :key="`feature-${index}`"
-        class="inline-flex flex-col p-8 border border-divider rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-400"
+        class="inline-flex flex-col p-8 border border-divider rounded bg-gradient-to-r from-emerald-500 to-cyan-400"
       >
         <i class="text-3xl text-accent">
           <component :is="feature.icon" />

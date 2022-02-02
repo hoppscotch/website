@@ -6,7 +6,7 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
       <div
-        class="inline-flex flex-col p-8 border border-divider bg-gradient-to-r from-cyan-400 to-teal-400 rounded-xl"
+        class="inline-flex flex-col p-8 border border-divider bg-gradient-to-r from-cyan-400 to-teal-400 rounded"
       >
         <i class="text-3xl text-accentContrast">
           <lucide-github />
@@ -29,7 +29,7 @@ const { t } = useI18n()
         </div>
       </div>
       <div
-        class="inline-flex flex-col p-8 border border-divider bg-gradient-to-r from-cyan-400 to-blue-500 rounded-xl"
+        class="inline-flex flex-col p-8 border border-divider bg-gradient-to-r from-cyan-400 to-blue-500 rounded"
       >
         <i class="text-3xl text-accentContrast">
           <lucide-twitter />

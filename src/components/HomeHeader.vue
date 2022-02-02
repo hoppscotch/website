@@ -12,7 +12,10 @@ const { t } = useI18n()
             to="/"
             class="rounded-lg py-2 px-4 inline-flex items-center focus:outline-none"
           >
-            <lucide-lightbulb class="h-8" />
+            <img src="/assets/images/logo.svg" :alt="t('logo')" class="h-8 w-8 mr-4">
+            <span class="uppercase font-semibold">
+              {{ t("logo") }}
+            </span>
           </router-link>
         </div>
         <nav class="hidden md:flex">
@@ -74,7 +77,7 @@ const { t } = useI18n()
               </template>
             </tippy>
           </span>
-          <SmartItem to="/pricing" label="Pricing" />
+          <SmartItem to="/pricing" :label="t('header.pricing')" />
         </nav>
         <div
           class="space-x-8 items-center justify-end hidden md:flex md:flex-1 lg:w-0"

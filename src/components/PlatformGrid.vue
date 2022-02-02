@@ -4,33 +4,32 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div class="flex flex-col px-8 py-20">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3   ">
+  <div class="flex flex-col px-8 py-16">
+    <div class="grid grid-cols-1  gap-4 md:grid-cols-2 lg:grid-cols-3">
       <div
         v-for="(platform, index) in platforms"
         :key="`platform-${index}`"
-        class="inline-flex flex-col justify-between p-8 border border-divider transition-colors duration-200 ease-linear transi pointer-events-none hover:bg-primaryLight"
+        class="inline-flex flex-col p-8 border border-divider rounded bg-gradient-to-r from-emerald-500 to-cyan-400"
       >
-        <div>
-          <i class="text-3xl text-accent">
-            <component :is="platform.icon" />
-          </i>
-
+        <i class="text-3xl text-accent">
+          <component :is="platform.icon" />
+        </i>
+        <div class="flex-grow">
           <h2 class="flex mt-4 mb-2 text-lg font-semibold text-secondaryDark">
             {{ t(platform.title) }}
           </h2>
-          <p class="flex ">
+          <p class="flex">
             {{ t(platform.description) }}
           </p>
+          <p class="my-2">
+            <router-link :to="platform.link.target" class="inline-flex items-center transition text-accent hover:text-accentDark">
+              <span class="mr-2">
+                {{ t(platform.link.title) }}
+              </span>
+              <lucide-arrow-right />
+            </router-link>
+          </p>
         </div>
-        <p class="my-2">
-          <a :href="platform.link.target" class="inline-flex items-center transition pointer-events-auto text-accent hover:text-accentDark ">
-            <span class="mr-2">
-              {{ t(platform.link.title) }}
-            </span>
-            <lucide-arrow-right />
-          </a>
-        </p>
       </div>
     </div>
   </div>

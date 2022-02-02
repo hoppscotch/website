@@ -7,6 +7,7 @@ export const install: UserModule = ({ app }) => {
     directive: 'tippy', // => v-tippy
     component: 'tippy', // => <tippy/>
     componentSingleton: 'tippy-singleton', // => <tippy-singleton/>,
+    allowHTML: false,
     defaultProps: {
       placement: 'auto-end',
       allowHTML: true,
