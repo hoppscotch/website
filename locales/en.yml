@@ -30,7 +30,7 @@ home:
     title: Empowering developers to build better products
   announcement:
     long_description: Hoppscotch raises $3M in seed round
-    short_description: Hoppscotch raises $3M
+    short_description: Hoppscotch raises $3M in seed
     long_link_text: Read accouncement
     short_link_text: Read
   hero:
@@ -167,5 +167,7 @@ platforms:
       extension:
         title: Extension
         description: Overrides CORS restrictions for cross-origin requests (it allows requests against localhost).  
-      
-    
+error:
+  404: "Page not found"
+action:
+  back: Back

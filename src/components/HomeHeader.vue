@@ -5,15 +5,21 @@ const { t } = useI18n()
 
 <template>
   <header class="max-h-screen top-0 z-20 sticky <md:overflow-auto">
-    <nav class="bg-glass flex bg-opacity-75 transition backdrop-blur">
-      <div class="flex flex-1 p-4 items-center justify-between">
+    <nav
+      class="flex transition backdrop-blur backdrop-filter"
+    >
+      <div class="flex items-center justify-between flex-1 p-4">
         <div class="md:flex-1 md:w-0">
           <router-link
             to="/"
-            class="rounded-lg py-2 px-4 inline-flex items-center focus:outline-none"
+            class="inline-flex items-center px-4 py-2 rounded-lg focus:outline-none"
           >
-            <img src="/assets/images/logo.svg" :alt="t('logo')" class="h-8 w-8 mr-4">
-            <span class="uppercase font-semibold">
+            <img
+              src="/assets/images/logo.svg"
+              :alt="t('logo')"
+              class="w-8 h-8 mr-4"
+            >
+            <span class="font-semibold uppercase">
               {{ t("logo") }}
             </span>
           </router-link>
@@ -29,9 +35,7 @@ const { t } = useI18n()
               placement="bottom"
             >
               <template #default>
-                <SmartItem
-                  label="Solutions"
-                />
+                <SmartItem label="Solutions" />
               </template>
               <template #content>
                 <MenuSolutions />
@@ -48,10 +52,7 @@ const { t } = useI18n()
               placement="bottom"
             >
               <template #default>
-                <SmartItem
-                  label="Platform"
-                  to="/platforms"
-                />
+                <SmartItem label="Platform" to="/platforms" />
               </template>
               <template #content>
                 <MenuPlatform />
@@ -68,9 +69,7 @@ const { t } = useI18n()
               placement="bottom"
             >
               <template #default>
-                <SmartItem
-                  label="Company"
-                />
+                <SmartItem label="Company" />
               </template>
               <template #content>
                 <MenuCompany />
@@ -80,16 +79,14 @@ const { t } = useI18n()
           <SmartItem to="/pricing" :label="t('header.pricing')" />
         </nav>
         <div
-          class="space-x-8 items-center justify-end hidden md:flex md:flex-1 lg:w-0"
+          class="items-center justify-end hidden space-x-8 md:flex md:flex-1 lg:w-0"
         >
           <span>
             <ButtonPrimary to="/" :label="t('header.open')" rounded />
           </span>
         </div>
         <div class="md:hidden">
-          <button
-            @click="showMenu = !showMenu"
-          >
+          <button @click="showMenu = !showMenu">
             <lucide-menu v-if="!showMenu" />
             <lucide-x v-else />
           </button>
@@ -98,15 +95,9 @@ const { t } = useI18n()
     </nav>
     <TranslateDown
       v-if="showMenu"
-      class="bg-primaryLight shadow-lg mx-4 p-2 transition md:hidden"
+      class="p-2 mx-4 transition shadow-lg bg-primaryLight md:hidden"
     >
       <MenuMobile />
     </TranslateDown>
   </header>
 </template>
-
-<style lang="scss" scoped>
-.backdrop-blur {
-  backdrop-filter: blur(16px);
-}
-</style>

@@ -1,5 +1,37 @@
 @import "./markdown.css";
 
+* {
+  @apply backface-hidden;
+  @apply before:backface-hidden;
+  @apply after:backface-hidden;
+  @apply selection:bg-accentDark;
+  @apply selection:text-accentContrast;
+}
+
+:root {
+  @apply antialiased;
+
+  accent-color: var(--accent-color);
+  font-variant-ligatures: common-ligatures;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-divider bg-clip-content;
+  @apply rounded-full;
+  @apply border-solid border-transparent border-4;
+  @apply hover:bg-dividerDark;
+  @apply hover:bg-clip-content;
+}
+
+::-webkit-scrollbar {
+  @apply w-4;
+  @apply h-4;
+}
+
 html,
 body,
 #app {
@@ -12,6 +44,8 @@ html {
   @apply transition;
   @apply bg-primary;
   @apply text-secondary;
+
+  scroll-behavior: smooth;
 }
 
 @mixin lightMode {
@@ -52,6 +86,36 @@ html {
 
 html.dark {
   @include darkMode;
+}
+
+body {
+  @apply bg-primary;
+  @apply text-secondary;
+  @apply font-medium;
+  @apply select-none;
+  @apply overflow-x-hidden;
+  @apply text-body;
+  @apply leading-body;
+
+  animation: fade 300ms forwards;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+@keyframes fade {
+  0% {
+    @apply opacity-0;
+  }
+
+  100% {
+    @apply opacity-100;
+  }
+}
+
+input::placeholder,
+textarea::placeholder {
+  @apply text-secondary;
+  @apply opacity-35;
 }
 
 #nprogress {
@@ -108,4 +172,25 @@ html.dark {
   @apply ml-2;
   @apply px-1;
   @apply transition;
+}
+
+a {
+  @apply inline-flex;
+  @apply text-current;
+  @apply no-underline;
+  @apply outline-none;
+  @apply transition;
+  @apply text-body;
+  @apply leading-body;
+
+  &.link {
+    @apply items-center;
+    @apply py-0.5 px-1;
+    @apply -my-0.5 -mx-1;
+    @apply text-accent;
+    @apply rounded;
+    @apply hover:text-accentDark;
+    @apply focus-visible:ring;
+    @apply focus-visible:ring-accent;
+  }
 }

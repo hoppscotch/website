@@ -3,7 +3,7 @@ import github from '~icons/lucide/github'
 </script>
 
 <template>
-<div>
-    <ButtonSecondary :icon="github" label="GitHub" :shortcut="['36,800+ Stars']" />
-</div>
+  <div>
+    <ButtonSecondary :icon="github" label="GitHub" />
+  </div>
 </template>
