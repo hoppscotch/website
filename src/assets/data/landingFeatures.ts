@@ -8,19 +8,19 @@ export const features = [
     imageDark: 'https://docs.hoppscotch.io/realtime/Realtime-dark.png',
     imageLight: 'https://docs.hoppscotch.io/realtime/Realtime-light.png',
     video: 'https://docs.hoppscotch.io/api/APIvid.webm',
-    // featureList: [
-    //   {
-    //     title: 'home.features.items.1.websockets.title',
-    //     description: 'home.features.items.1.websockets.description',
-    //     imageDark: 'https://docs.hoppscotch.io/realtime/Websocket-dark.png',
-    //     imageLight: 'https://docs.hoppscotch.io/realtime/Websocket-light.png',
-    //   },
-    //   {
-    //     title: 'home.features.items.1.mqtt.title',
-    //     description: 'home.features.items.1.mqtt.description',
-    //     video: 'https://docs.hoppscotch.io/realtime/mqtt.webm',
-    //   },
-    // ],
+    featureList: [
+      {
+        title: 'home.features.items.1.websockets.title',
+        description: 'home.features.items.1.websockets.description',
+        imageDark: 'https://docs.hoppscotch.io/realtime/Websocket-dark.png',
+        imageLight: 'https://docs.hoppscotch.io/realtime/Websocket-light.png',
+      },
+      {
+        title: 'home.features.items.1.mqtt.title',
+        description: 'home.features.items.1.mqtt.description',
+        video: 'https://docs.hoppscotch.io/realtime/mqtt.webm',
+      },
+    ],
     link: { title: 'Learn more', target: '/features/realtime-platform' },
   },
   {

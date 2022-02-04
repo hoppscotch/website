@@ -13,7 +13,7 @@ console.log(singleFeature)
 <template>
   <div v-if="singleFeature" class="flex flex-col divide-y divide-dividerLight">
     <FeatureHero :title="singleFeature?.title" :description="singleFeature?.description" :image-dark="singleFeature?.imageDark" :image-light="singleFeature?.imageLight" :icon="singleFeature?.icon" />
-    <FeatureExplanation :feature-list="singleFeature?.featureList" />
+    <FeatureExplanation :feature-list="singleFeature?.featureList" :description2="singleFeature.description2" />
   </div>
   <div v-else class="px-4 py-10 text-center text-teal-700 dark:text-gray-200">
     <div>

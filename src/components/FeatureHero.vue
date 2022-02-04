@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { isDark } from '~/composables'
+import book from '~icons/lucide/book-open'
 const { t } = useI18n()
 
 withDefaults(
@@ -29,16 +30,16 @@ withDefaults(
         <i class="text-xl text-accent bg-secondaryDark p-2 rounded-md">
           <component :is="icon" />
         </i>
-        <span class="text-5xl">
+        <span class="text-6xl">
           {{ t(title) }}
         </span>
       </h1>
-      <p class="py-6 max-w-xl">
+      <p class="py-6 max-w-xl text-xl">
         {{ t(description) }}
       </p>
 
       <div class="flex ">
-        <ButtonSecondary label="See Documentation" />
+        <ButtonPrimary label="See Documentation" />
       </div>
     </div>
 
