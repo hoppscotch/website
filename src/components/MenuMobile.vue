@@ -5,7 +5,7 @@ const { t } = useI18n()
 
 <template>
   <nav
-    class="flex flex-col space-y-4 divide-y rounded-lg divide-dashed divide-divider"
+    class="flex flex-col space-y-4 rounded-lg"
   >
     <div
       v-for="(category, categoryIndex) in mobileNavigation"
@@ -28,13 +28,13 @@ const { t } = useI18n()
     <div class="flex flex-col">
       <SmartItem
         to="/pricing"
-        :label="t('header.pricing')"
+        :label="t('header.menu.pricing.title')"
         icon="chevron_right"
         class="my-4"
         reverse
       />
       <div class="flex justify-center p-4 transition rounded-lg bg-primaryDark">
-        <ButtonPrimary to="/" :label="t('header.open')" rounded />
+        <ButtonSecondary to="/" :label="t('button.open-app')" rounded />
       </div>
     </div>
   </nav>

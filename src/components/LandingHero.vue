@@ -29,12 +29,12 @@ const { t } = useI18n()
       <p class="max-w-md my-4 text-xl text-center md:w-3/5">
         {{ t("home.hero.subheading") }}
       </p>
-      <p class="flex my-4 space-x-4 text-xl text-center">
-        <GitHubStarButton />
-        <ButtonPrimary to="/" :label="t('header.open')" rounded />
+      <p class="flex my-4 space-x-4 text-center">
+        <ButtonSecondary label="GitHub" />
+        <ButtonSecondary to="/" :label="t('button.open-app')" rounded />
       </p>
       <p class="text-xs text-secondaryLight">
-        {{ t("home.hero.stats.1.title") }} | {{ t("home.hero.stats.2.title") }} | {{ t("home.hero.stats.3.title") }}
+        {{ t("home.hero.stats.1.title") }} &nbsp; | &nbsp; {{ t("home.hero.stats.2.title") }} &nbsp; | &nbsp; {{ t("home.hero.stats.3.title") }}
       </p>
     </div>
     <LandingAnnouncement />

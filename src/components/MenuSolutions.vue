@@ -16,7 +16,7 @@ const { t } = useI18n()
         :description="t(item.description)"
       />
     </div>
-    <div class="mt-2 transition rounded-lg bg-primaryDark">
+    <div class="mt-2 rounded-lg bg-primaryDark">
       <SmartItem
         :label="t('header.menu.solutions.api')"
         :icon="lightbulb"

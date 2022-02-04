@@ -7,7 +7,7 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <p
-        class="my-4 text-sm font-semibold tracking-widest text-center uppercase text-accent"
+        class="my-4 font-semibold tracking-widest text-center uppercase text-accent"
       >
         {{ t("home.features.title") }}
       </p>

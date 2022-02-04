@@ -93,7 +93,7 @@ const circles = computed(() => {
           {{ t("home.contributors.title") }}
         </h2>
         <p
-          class="my-2 text-sm font-semibold text-accent"
+          class="my-2 font-semibold text-accent"
         >
           {{ t("home.contributors.description") }}
         </p>

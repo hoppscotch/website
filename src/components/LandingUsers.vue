@@ -6,7 +6,7 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center p-4">
       <p
-        class="mb-8 text-sm font-semibold tracking-widest text-center uppercase text-accent"
+        class="mb-8 font-semibold tracking-widest text-center uppercase text-accent"
       >
         {{ t("home.users.title") }}
       </p>

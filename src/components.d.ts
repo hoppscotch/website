@@ -7,7 +7,6 @@ declare module 'vue' {
     ButtonPrimary: typeof import('./components/ButtonPrimary.vue')['default']
     ButtonSecondary: typeof import('./components/ButtonSecondary.vue')['default']
     ContibutorBubble: typeof import('./components/ContibutorBubble.vue')['default']
-    GitHubStarButton: typeof import('./components/GitHubStarButton.vue')['default']
     HomeFooter: typeof import('./components/HomeFooter.vue')['default']
     HomeHeader: typeof import('./components/HomeHeader.vue')['default']
     LandingAnnouncement: typeof import('./components/LandingAnnouncement.vue')['default']

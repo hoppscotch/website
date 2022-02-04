@@ -38,8 +38,6 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  scroll-behavior: smooth;
 }
 
 html {
@@ -51,9 +49,9 @@ html {
 @mixin lightMode {
   --color-primary: theme("colors.white");
   --color-primaryLight: theme("colors.light.200");
-  --color-primaryDark: theme("colors.light.400");
+  --color-primaryDark: theme("colors.light.500");
   --color-secondary: theme("colors.true-gray.700");
-  --color-secondaryLight: theme("colors.true-gray.600");
+  --color-secondaryLight: theme("colors.true-gray.500");
   --color-secondaryDark: theme("colors.true-gray.800");
   --color-accent: theme("colors.green.600");
   --color-accentLight: theme("colors.green.400");
@@ -67,7 +65,7 @@ html {
 @mixin darkMode {
   --color-primary: theme("colors.dark.800");
   --color-primaryLight: theme("colors.dark.500");
-  --color-primaryDark: theme("colors.dark.900");
+  --color-primaryDark: theme("colors.dark.600");
   --color-secondary: theme("colors.true-gray.300");
   --color-secondaryLight: theme("colors.true-gray.500");
   --color-secondaryDark: theme("colors.true-gray.200");
@@ -89,15 +87,14 @@ html.dark {
 }
 
 body {
-  @apply bg-primary;
-  @apply text-secondary;
-  @apply font-medium;
-  @apply select-none;
+  @apply text-sm;
   @apply overflow-x-hidden;
-  @apply text-body;
-  @apply leading-body;
+  @apply select-none;
 
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
   animation: fade 300ms forwards;
+
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
 }
@@ -143,8 +140,8 @@ textarea::placeholder {
   @apply text-primaryLight;
   @apply text-xs;
   @apply font-semibold;
-  @apply px-2;
-  @apply px-4;
+  @apply py-1;
+  @apply px-3;
   @apply shadow;
 
   & > .tippy-arrow {
@@ -165,23 +162,16 @@ textarea::placeholder {
 
 .shortcut-key {
   @apply inline-flex;
-  @apply font-sans;
-  @apply text-tiny;
   @apply bg-divider;
   @apply rounded;
   @apply ml-2;
   @apply px-1;
-  @apply transition;
 }
 
 a {
   @apply inline-flex;
-  @apply text-current;
   @apply no-underline;
   @apply outline-none;
-  @apply transition;
-  @apply text-body;
-  @apply leading-body;
 
   &.link {
     @apply items-center;

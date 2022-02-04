@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import x from '~icons/lucide/x'
+import menu from '~icons/lucide/menu'
 const showMenu = ref(false)
 const { t } = useI18n()
 </script>
@@ -6,13 +8,13 @@ const { t } = useI18n()
 <template>
   <header class="max-h-screen top-0 z-20 sticky <md:overflow-auto">
     <nav
-      class="flex transition backdrop-blur backdrop-filter"
+      class="flex backdrop-blur backdrop-filter"
     >
       <div class="flex items-center justify-between flex-1 p-4">
-        <div class="md:flex-1 md:w-0">
+        <div class="flex md:flex-1 md:w-0">
           <router-link
             to="/"
-            class="inline-flex items-center px-4 py-2 rounded-lg focus:outline-none"
+            class="inline-flex items-center rounded-lg focus:outline-none"
           >
             <img
               src="/assets/images/logo.svg"
@@ -76,20 +78,15 @@ const { t } = useI18n()
               </template>
             </tippy>
           </span>
-          <SmartItem to="/pricing" :label="t('header.pricing')" />
+          <SmartItem to="/pricing" :label="t('header.menu.pricing.title')" />
         </nav>
         <div
-          class="items-center justify-end hidden space-x-8 md:flex md:flex-1 lg:w-0"
+          class="items-center justify-end hidden md:flex md:flex-1 lg:w-0"
         >
-          <span>
-            <ButtonPrimary to="/" :label="t('header.open')" rounded />
-          </span>
+          <ButtonSecondary to="/" :label="t('button.open-app')" rounded />
         </div>
         <div class="md:hidden">
-          <button @click="showMenu = !showMenu">
-            <lucide-menu v-if="!showMenu" />
-            <lucide-x v-else />
-          </button>
+          <ButtonSecondary :icon="showMenu ? x : menu" @click="showMenu = !showMenu" />
         </div>
       </div>
     </nav>

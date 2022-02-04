@@ -1,6 +1,6 @@
 <template>
   <main
-    class="container flex flex-col transition border-l border-r border-dashed divide-y border-dividerLight divide-dividerLight"
+    class="container flex flex-col"
   >
     <HomeHeader />
     <router-view />

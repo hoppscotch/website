@@ -56,8 +56,6 @@ home:
       title: Help shape the product
       description: Some of the best ideas come from our users. Join our Discord community to help create the future of Hoppscotch.
 header:
-  open: Open App
-  pricing: Pricing
   menu:
     platform:
       links:
@@ -126,6 +124,8 @@ header:
           name: To design and develop an interactive globe
         3:
           name: We built Checkout so you don\'t have to
+    pricing:
+     title: Pricing
 footer:
   product:
     title: Product
@@ -159,7 +159,7 @@ platforms:
     hero:
       heading_line_1: Platforms
       subheading: Some two line para about Platforms where Hoppscotch are available.
-    gridItems:
+    items:
       web:
         title: Web
         description: Lightweight and Fast web interface providing all the functionality needed for API developers with minimalist, unobtrusive UI with PWA feature.  
@@ -173,3 +173,7 @@ error:
   404: "Page not found"
 action:
   back: Back
+button:
+  dark: Dark
+  light: Light
+  open-app: Open App

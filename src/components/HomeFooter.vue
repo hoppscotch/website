@@ -11,7 +11,7 @@ const { t } = useI18n()
         v-for="(category, categoryIndex) in footerNavigation" :key="`category-${categoryIndex}`"
         class="flex flex-col space-y-2"
       >
-        <h5 class="flex my-2 text-sm font-bold text-secondaryLight">
+        <h5 class="flex my-2 font-bold text-secondaryLight">
           {{ t(category.name) }}
         </h5>
         <ul
@@ -32,11 +32,16 @@ const { t } = useI18n()
         </ul>
       </div>
       <div class="flex flex-col space-y-2">
-        <h5 class="flex my-2 text-sm font-bold text-secondaryLight">
+        <h5 class="flex my-2 font-bold text-secondaryLight">
           {{ t("logo") }}
         </h5>
         <div>
-          <button class="inline-flex mx-2 outline-none" @click="toggleDark()">
+          <button
+            v-tippy="{ theme: 'tooltip', content: isDark ? t('button.light') : t('button.dark') }"
+            class="inline-flex mx-2 outline-none text-secondaryLight hover:text-secondaryDark"
+
+            @click="toggleDark()"
+          >
             <lucide-moon v-if="isDark" />
             <lucide-sun v-else />
           </button>

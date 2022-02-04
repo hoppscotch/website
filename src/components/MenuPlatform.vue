@@ -16,7 +16,7 @@ const { t } = useI18n()
         :description="t(item.description)"
       />
     </div>
-    <div class="flex flex-col p-4 mt-2 transition rounded-lg bg-primaryDark">
+    <div class="flex flex-col p-4 mt-2 rounded-lg bg-primaryDark">
       <h4 class="mb-2 font-medium">
         {{ t('header.menu.guide.title') }}
       </h4>
