@@ -80,7 +80,7 @@ const circles = computed(() => {
 </script>
 
 <template>
-  <div class="px-2 py-5 md:py-16">
+  <div class="flex flex-col px-8 py-16">
     <div
       class="flex items-center justify-between w-full overflow-hidden h-min-100vh md:h-min-90vh"
     >

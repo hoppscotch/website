@@ -19,7 +19,7 @@ const { t } = useI18n()
               :alt="t('logo')"
               class="w-8 h-8 mr-4"
             >
-            <span class="font-semibold uppercase">
+            <span class="font-semibold">
               {{ t("logo") }}
             </span>
           </router-link>

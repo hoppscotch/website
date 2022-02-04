@@ -5,14 +5,14 @@ const { t } = useI18n()
 
 <template>
   <nav
-    class="divide-y divide-dashed divide-divider rounded-lg flex flex-col space-y-4"
+    class="flex flex-col space-y-4 divide-y rounded-lg divide-dashed divide-divider"
   >
     <div
       v-for="(category, categoryIndex) in mobileNavigation"
       :key="`category-${categoryIndex}`"
       class="flex flex-col"
     >
-      <p class="font-medium text-secondaryLight p-4 uppercase">
+      <p class="p-4 font-medium uppercase text-secondaryLight">
         {{ t(category.name) }}
       </p>
       <div class="grid grid-cols-2">
@@ -33,7 +33,7 @@ const { t } = useI18n()
         class="my-4"
         reverse
       />
-      <div class="bg-primaryDark rounded-lg flex p-4 transition justify-center">
+      <div class="flex justify-center p-4 transition rounded-lg bg-primaryDark">
         <ButtonPrimary to="/" :label="t('header.open')" rounded />
       </div>
     </div>

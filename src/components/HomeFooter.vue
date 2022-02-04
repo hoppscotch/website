@@ -7,17 +7,6 @@ const { t } = useI18n()
 <template>
   <footer class="flex flex-col px-8 py-16">
     <nav class="grid grid-cols-2 gap-4 md:grid-cols-5">
-      <div class="flex flex-col space-y-2">
-        <h5 class="flex my-2 text-sm font-bold text-secondaryLight">
-          {{ t("logo") }}
-        </h5>
-        <div>
-          <button class="inline-flex mx-2 outline-none" @click="toggleDark()">
-            <lucide-moon v-if="isDark" />
-            <lucide-sun v-else />
-          </button>
-        </div>
-      </div>
       <div
         v-for="(category, categoryIndex) in footerNavigation" :key="`category-${categoryIndex}`"
         class="flex flex-col space-y-2"
@@ -35,12 +24,23 @@ const { t } = useI18n()
           >
             <router-link
               :to="item.link"
-              class="flex text-xs text-secondaryLight hover:text-secondaryDark transition"
+              class="flex text-xs transition text-secondaryLight hover:text-secondaryDark"
             >
               {{ t(item.name) }}
             </router-link>
           </li>
         </ul>
+      </div>
+      <div class="flex flex-col space-y-2">
+        <h5 class="flex my-2 text-sm font-bold text-secondaryLight">
+          {{ t("logo") }}
+        </h5>
+        <div>
+          <button class="inline-flex mx-2 outline-none" @click="toggleDark()">
+            <lucide-moon v-if="isDark" />
+            <lucide-sun v-else />
+          </button>
+        </div>
       </div>
     </nav>
   </footer>

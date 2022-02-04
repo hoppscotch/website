@@ -38,14 +38,14 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
 }
 
 html {
   @apply transition;
   @apply bg-primary;
   @apply text-secondary;
-
-  scroll-behavior: smooth;
 }
 
 @mixin lightMode {

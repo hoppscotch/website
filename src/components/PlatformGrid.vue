@@ -5,11 +5,11 @@ const { t } = useI18n()
 
 <template>
   <div class="flex flex-col px-8 py-16">
-    <div class="grid grid-cols-1  gap-4 md:grid-cols-2 lg:grid-cols-3">
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
       <div
         v-for="(platform, index) in platforms"
         :key="`platform-${index}`"
-        class="inline-flex flex-col p-8 border border-divider rounded bg-gradient-to-r from-emerald-500 to-cyan-400"
+        class="inline-flex flex-col p-8 border rounded border-divider bg-gradient-to-r from-emerald-500 to-cyan-400"
       >
         <i class="text-3xl text-accent">
           <component :is="platform.icon" />

@@ -36,7 +36,7 @@ withDefaults(
 <template>
   <router-link
     :to="to"
-    class="bg-primaryLight font-bold text-secondaryDark py-2 transition inline-flex items-center justify-center hover:bg-primaryDark focus:outline-none focus-visible:bg-primaryDark"
+    class="inline-flex items-center justify-center py-2 font-bold transition bg-primaryLight text-secondaryDark hover:bg-primaryDark focus:outline-none focus-visible:bg-primaryDark"
     :class="[
       label ? 'px-4' : 'px-2',
       rounded ? 'rounded-full' : 'rounded',

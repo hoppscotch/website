@@ -11,7 +11,6 @@
   @apply rounded-lg;
   @apply opacity-75;
   @apply transition;
-
   @apply z-0;
 
   background: conic-gradient(
