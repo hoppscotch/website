@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="flex flex-col divide-y divide-dividerLight">
+  <div class="flex flex-col transition divide-y divide-dividerLight">
     <LandingHero />
     <LandingUsers />
     <LandingFeatures />
