@@ -6,6 +6,7 @@
     <LandingUsers />
     <LandingFeatures />
     <LandingContributors />
+    <LandingCTA />
     <LandingSocial />
   </div>
 </template>

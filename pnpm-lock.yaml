@@ -2,6 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@antfu/eslint-config': ^0.16.1
+  '@iconify-json/logos': ^1.0.4
   '@iconify-json/lucide': ^1.0.19
   '@intlify/vite-plugin-vue-i18n': ^3.2.1
   '@types/markdown-it-link-attributes': ^3.0.1
@@ -61,6 +62,7 @@ dependencies:
 
 devDependencies:
   '@antfu/eslint-config': 0.16.1_eslint@8.8.0+typescript@4.5.5
+  '@iconify-json/logos': 1.0.4
   '@iconify-json/lucide': 1.0.19
   '@intlify/vite-plugin-vue-i18n': 3.2.1_vite@2.7.13+vue-i18n@9.1.9
   '@types/markdown-it-link-attributes': 3.0.1
@@ -1417,6 +1419,12 @@ packages:
 
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    dev: true
+
+  /@iconify-json/logos/1.0.4:
+    resolution: {integrity: sha512-jxNfvLj5ZCQUSe8bBN3mUxePKWcS9JbmoNd4t95PI5nDbwjOqAs1B4pgsJAn0T99foeThTn7r/69AQDqPQXCBA==}
+    dependencies:
+      '@iconify/types': 1.0.12
     dev: true
 
   /@iconify-json/lucide/1.0.19:

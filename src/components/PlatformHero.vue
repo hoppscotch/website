@@ -11,7 +11,7 @@ const { t } = useI18n()
         {{ t("platforms.hero.heading_line_1") }}
         <br>
       </h1>
-      <p class="my-4 text-xl text-center md:w-3/5">
+      <p class="max-w-md my-4 text-xl text-center md:w-3/5">
         {{ t("platforms.hero.subheading") }}
       </p>
     </div>

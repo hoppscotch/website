@@ -44,15 +44,17 @@ home:
         title: 36k+ GitHub Stars
       3:
         title: 35k+ Monthly users
+  cta:
+    title: Ready for take-off?
+    description: Get started by downloading the Raycast app, and take your productivity to the next level.
+    button: Get Started
   social:
     twitter:
-      title: Twitter
-      description: Follow us on Twitter
-      cta: Follow
-    github:
-      title: GitHub
-      description: Follow us on GitHub
-      cta: Follow
+      title: Stay up to date
+      description: We want to stay connected with our users on Twitter. Follow Hoppscotch to get the latest updates.
+    discord:
+      title: Help shape the product
+      description: Some of the best ideas come from our users. Join our Discord community to help create the future of Hoppscotch.
 header:
   open: Open App
   pricing: Pricing

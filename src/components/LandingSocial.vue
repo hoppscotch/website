@@ -5,52 +5,42 @@ const { t } = useI18n()
 <template>
   <div class="flex flex-col px-8 py-16">
     <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
-      <div
-        class="inline-flex flex-col p-8 border border-divider bg-gradient-to-r from-cyan-400 to-teal-400 rounded"
+      <a
+        class="inline-flex flex-col p-8 rounded-xl text-accentContrast bg-gradient-to-r from-indigo-800 to-indigo-600 dark:to-indigo-800 group"
+        href="https://hoppscotch.io/twitter"
+        target="_blank"
+        rel="noopener noreferrer"
       >
-        <i class="text-3xl text-accentContrast">
-          <lucide-github />
+        <i class="text-3xl">
+          <logos-twitter />
         </i>
         <div class="flex-grow">
-          <h2 class="flex mt-4 mb-2 text-lg font-semibold text-secondaryDark">
-            {{ t('home.social.github.title') }}
-          </h2>
-          <p class="flex">
-            {{ t('home.social.github.description') }}
-          </p>
-          <p class="mt-2">
-            <router-link to="https:hoppscotch.io/github" class="inline-flex items-center transition text-accent hover:text-accentDark">
-              <span class="mr-2">
-                {{ t('home.social.github.cta') }}
-              </span>
-              <lucide-arrow-right />
-            </router-link>
-          </p>
-        </div>
-      </div>
-      <div
-        class="inline-flex flex-col p-8 border border-divider bg-gradient-to-r from-cyan-400 to-blue-500 rounded"
-      >
-        <i class="text-3xl text-accentContrast">
-          <lucide-twitter />
-        </i>
-        <div class="flex-grow">
-          <h2 class="flex mt-4 mb-2 text-lg font-semibold text-secondaryDark">
+          <h2 class="flex mt-4 mb-2 text-lg font-semibold">
             {{ t('home.social.twitter.title') }}
           </h2>
-          <p class="flex">
+          <p class="flex w-4/5 text-sm transition opacity-60 group-hover:opacity-80">
             {{ t('home.social.twitter.description') }}
           </p>
-          <p class="mt-2">
-            <router-link to="https:hoppscotch.io/twitter" class="inline-flex items-center transition text-accent hover:text-accentDark">
-              <span class="mr-2">
-                {{ t('home.social.twitter.cta') }}
-              </span>
-              <lucide-arrow-right />
-            </router-link>
+        </div>
+      </a>
+      <a
+        class="inline-flex flex-col p-8 rounded-xl text-accentContrast bg-gradient-to-r from-gray-800 to-gray-600 dark:to-blue-gray-800 group"
+        href="https://hoppscotch.io/discord"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="text-3xl">
+          <logos-discord-icon />
+        </i>
+        <div class="flex-grow">
+          <h2 class="flex mt-4 mb-2 text-lg font-semibold">
+            {{ t('home.social.discord.title') }}
+          </h2>
+          <p class="flex w-4/5 text-sm transition opacity-60 group-hover:opacity-80">
+            {{ t('home.social.discord.description') }}
           </p>
         </div>
-      </div>
+      </a>
     </div>
   </div>
 </template>

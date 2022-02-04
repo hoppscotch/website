@@ -26,7 +26,7 @@ const { t } = useI18n()
           {{ t("home.hero.heading_line_2") }}
         </span>
       </h1>
-      <p class="my-4 text-xl text-center md:w-3/5">
+      <p class="max-w-md my-4 text-xl text-center md:w-3/5">
         {{ t("home.hero.subheading") }}
       </p>
       <p class="flex my-4 space-x-4 text-xl text-center">
