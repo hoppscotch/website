@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import ButtonPrimary1 from './ButtonPrimary.vue'
-import check from '~icons/lucide/check'
 import { isDark } from '~/composables'
 const { t } = useI18n()
 
