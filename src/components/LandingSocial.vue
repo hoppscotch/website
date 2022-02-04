@@ -6,13 +6,13 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
       <a
-        class="inline-flex flex-col p-8 rounded-xl text-accentContrast bg-gradient-to-r from-indigo-800 to-indigo-600 dark:to-indigo-800 group"
+        class="inline-flex flex-col p-8 rounded-xl text-accentContrast bg-gradient-to-r from-indigo-800 to-indigo-200 dark:to-transparent group"
         href="https://hoppscotch.io/twitter"
         target="_blank"
         rel="noopener noreferrer"
       >
         <i class="text-3xl">
-          <logos-twitter />
+          <logos-twitter class="transition origin-center transform group-hover:rotate-12" />
         </i>
         <div class="flex-grow">
           <h2 class="flex mt-4 mb-2 text-lg font-semibold">
@@ -24,13 +24,13 @@ const { t } = useI18n()
         </div>
       </a>
       <a
-        class="inline-flex flex-col p-8 rounded-xl text-accentContrast bg-gradient-to-r from-gray-800 to-gray-600 dark:to-blue-gray-800 group"
+        class="inline-flex flex-col p-8 rounded-xl text-accentContrast bg-gradient-to-r from-gray-800 to-gray-200 dark:to-transparent group"
         href="https://hoppscotch.io/discord"
         target="_blank"
         rel="noopener noreferrer"
       >
         <i class="text-3xl">
-          <logos-discord-icon />
+          <logos-discord-icon class="transition origin-center transform group-hover:rotate-12" />
         </i>
         <div class="flex-grow">
           <h2 class="flex mt-4 mb-2 text-lg font-semibold">

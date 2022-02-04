@@ -8,7 +8,7 @@ const { t } = useI18n()
 <template>
   <header class="max-h-screen top-0 z-20 sticky <md:overflow-auto">
     <nav
-      class="flex transition bg-white !bg-opacity-90 dark:bg-dark-800 backdrop-blur backdrop-filter"
+      class="flex transition bg-white !bg-opacity-90 dark:bg-dark-900 backdrop-blur backdrop-filter"
     >
       <div class="flex items-center justify-between flex-1 px-8 py-4">
         <div class="flex md:flex-1 md:w-0">
@@ -21,7 +21,7 @@ const { t } = useI18n()
               :alt="t('logo')"
               class="w-8 h-8 mr-4"
             >
-            <span class="font-semibold">
+            <span class="font-semibold uppercase">
               {{ t("logo") }}
             </span>
           </router-link>

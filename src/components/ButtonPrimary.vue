@@ -39,7 +39,7 @@ withDefaults(
     class="inline-flex items-center justify-center py-2 font-bold transition bg-accent text-accentContrast hover:bg-accentDark focus:outline-none focus-visible:bg-accentDark"
     :class="[
       label ? 'px-4' : 'px-2',
-      rounded ? 'rounded-full' : 'rounded',
+      rounded ? 'rounded-full' : 'rounded-lg',
       { 'pointer-events-none': loading },
       { 'px-6 py-4 text-lg': large },
       { 'shadow-lg hover:shadow-xl': shadow },

@@ -6,12 +6,12 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <h1
-        class="max-w-xl my-4 text-4xl font-semibold leading-none text-center transition text-secondaryDark md:text-5xl lg:text-6xl"
+        class="max-w-xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
       >
         {{ t("home.cta.title") }}
         <br>
       </h1>
-      <p class="max-w-md my-4 text-xl text-center md:w-3/5">
+      <p class="max-w-md my-4 text-lg text-center md:w-3/5">
         {{ t("home.cta.description") }}
       </p>
       <p class="flex my-4 text-center space-x-4">

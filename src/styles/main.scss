@@ -48,8 +48,8 @@ html {
 
 @mixin lightMode {
   --color-primary: theme("colors.white");
-  --color-primaryLight: theme("colors.light.200");
-  --color-primaryDark: theme("colors.light.500");
+  --color-primaryLight: theme("colors.light.600");
+  --color-primaryDark: theme("colors.light.800");
   --color-secondary: theme("colors.true-gray.700");
   --color-secondaryLight: theme("colors.true-gray.500");
   --color-secondaryDark: theme("colors.true-gray.800");
@@ -63,8 +63,8 @@ html {
 }
 
 @mixin darkMode {
-  --color-primary: theme("colors.dark.800");
-  --color-primaryLight: theme("colors.dark.500");
+  --color-primary: theme("colors.dark.900");
+  --color-primaryLight: theme("colors.dark.400");
   --color-primaryDark: theme("colors.dark.600");
   --color-secondary: theme("colors.true-gray.300");
   --color-secondaryLight: theme("colors.true-gray.500");

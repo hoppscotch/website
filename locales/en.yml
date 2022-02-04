@@ -5,7 +5,7 @@ home:
     description: Hoppscotch is a thing thanks to the efforts of developers who believe in us.
   features:
     title: Features
-    description: A technology-first approach to payments and finance
+    description: A technology-first approach to API development and testing
     button: Get Started
     items:
       1:
@@ -36,7 +36,7 @@ home:
   hero:
     heading_line_1: Open Source
     heading_line_2: api development ecosystem
-    subheading: Kooli help you monetize open source projects, accept payments, publish exclusive contents and manage customers online.
+    subheading: Hoppscotch helps you build, test, save, and share APIs online.
     stats:
       1:
         title: 1M+ users
@@ -46,8 +46,7 @@ home:
         title: 35k+ Monthly users
   cta:
     title: Ready for take-off?
-    description: Get started by downloading the Raycast app, and take your productivity to the next level.
-    button: Get Started
+    description: Get started with the Hoppscotch app, and take your API development process to the next level.
   social:
     twitter:
       title: Stay up to date

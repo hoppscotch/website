@@ -12,7 +12,7 @@ const { t } = useI18n()
         {{ t("home.features.title") }}
       </p>
       <h3
-        class="max-w-xl my-8 text-4xl font-bold leading-tight tracking-tight text-center"
+        class="max-w-xl mt-8 mb-16 text-4xl font-bold leading-tight tracking-tight text-center"
       >
         {{ t("home.features.description") }}
       </h3>
@@ -21,7 +21,7 @@ const { t } = useI18n()
       <div
         v-for="(feature, index) in features"
         :key="`feature-${index}`"
-        class="inline-flex flex-col p-8 bg-light-300 dark:bg-dark-600 rounded-xl dark:text-accentContrast "
+        class="inline-flex flex-col p-8 bg-light-200 dark:bg-dark-800 rounded-xl dark:text-accentContrast "
       >
         <i class="text-3xl">
           <component :is="feature.icon" />

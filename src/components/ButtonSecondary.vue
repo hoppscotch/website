@@ -36,10 +36,10 @@ withDefaults(
 <template>
   <router-link
     :to="to"
-    class="inline-flex items-center justify-center py-2 font-bold transition bg-primaryLight text-secondaryDark hover:bg-primaryDark focus:outline-none focus-visible:bg-primaryDark"
+    class="inline-flex items-center justify-center py-3 font-bold transition bg-primaryLight text-secondaryDark hover:bg-primaryDark focus:outline-none focus-visible:bg-primaryDark"
     :class="[
-      label ? 'px-4' : 'px-2',
-      rounded ? 'rounded-full' : 'rounded',
+      label ? 'px-6' : 'px-2',
+      rounded ? 'rounded-full' : 'rounded-lg',
       { 'pointer-events-none': loading },
       { 'px-6 py-4 text-lg': large },
       { 'shadow-lg hover:shadow-xl': shadow },
