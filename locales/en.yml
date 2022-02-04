@@ -9,8 +9,15 @@ home:
     button: Get Started
     items:
       1:
-        title: Pay with your bank account
-        description: Pay with your bank account
+        title: Realtime platform
+        description: Hoppscotch helps you develop Real-time web apps that require persistent connection between the server and client. 
+        websockets:
+          title: WebSockets
+          description: Enter Your Websocket URL, valid protocols and click on connect . Once successfully connected you can send messages and see the realtime response on the log pane.
+        mqtt:
+          title: MQTT
+          description: MQTT (Message Queuing Telemetry Transport) protocol.
+            Once connected to the MQTT server, You can either publish a message under a topic or subscribe to a topic to get messages pertaining to that topic being sent across the server in real-time.
       2:
         title: Pay with your credit card
         description: Pay with your credit card
@@ -168,6 +175,10 @@ platforms:
       extension:
         title: Extension
         description: Overrides CORS restrictions for cross-origin requests (it allows requests against localhost).  
+feature:
+    hero:
+      heading_line_1: Feature
+      subheading: Some two line para about Feature where Hoppscotch are available.
 error:
   404: "Page not found"
 action:
