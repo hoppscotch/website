@@ -24,7 +24,7 @@ withDefaults(
 <template>
   <router-link
     :to="to"
-    class="inline-flex items-start px-4 py-2 rounded-lg transition focus:bg-primaryDark focus:text-secondaryDark hover:bg-primaryDark hover:text-secondaryDark focus:outline-none"
+    class="inline-flex items-start px-4 py-2 rounded-lg transition text-secondary focus:bg-primaryDark focus:text-secondaryDark hover:bg-primaryDark hover:text-secondaryDark focus:outline-none"
     :class="[{ 'flex-1': label }, { 'flex-row-reverse justify-end': reverse }]"
   >
     <component

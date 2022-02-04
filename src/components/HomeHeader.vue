@@ -8,13 +8,13 @@ const { t } = useI18n()
 <template>
   <header class="max-h-screen top-0 z-20 sticky <md:overflow-auto">
     <nav
-      class="flex backdrop-blur backdrop-filter"
+      class="flex transition bg-white !bg-opacity-90 dark:bg-dark-800 backdrop-blur backdrop-filter"
     >
-      <div class="flex items-center justify-between flex-1 p-4">
+      <div class="flex items-center justify-between flex-1 px-8 py-4">
         <div class="flex md:flex-1 md:w-0">
           <router-link
             to="/"
-            class="inline-flex items-center rounded-lg focus:outline-none"
+            class="inline-flex items-center rounded-lg focus:outline-none text-secondaryDark"
           >
             <img
               src="/assets/images/logo.svg"
