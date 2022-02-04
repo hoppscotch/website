@@ -14,7 +14,7 @@ const { t } = useI18n()
       <p class="max-w-md my-4 text-xl text-center md:w-3/5">
         {{ t("home.cta.description") }}
       </p>
-      <p class="flex my-4 space-x-4 text-center">
+      <p class="flex my-4 text-center space-x-4">
         <ButtonSecondary label="GitHub" />
         <ButtonSecondary to="/" :label="t('button.open-app')" rounded />
       </p>

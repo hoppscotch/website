@@ -8,7 +8,7 @@ const { t } = useI18n()
       <SmartGradient />
       <router-link
         to="/manifesto"
-        class="relative flex items-center justify-center px-4 py-3 transition rounded-lg group bg-primaryLight"
+        class="relative flex items-center justify-center px-4 py-3 rounded-lg transition group bg-primaryLight"
       >
         <lucide-lightbulb class="hidden h-6 mr-4 md:flex" />
         <span class="text-secondaryDark">
@@ -18,7 +18,7 @@ const { t } = useI18n()
           </span>
         </span>
         <span
-          class="flex items-center justify-center pl-4 ml-4 font-medium transition border-l group-hover:text-accentDark border-divider text-accent"
+          class="flex items-center justify-center pl-4 ml-4 font-medium border-l transition group-hover:text-accentDark border-divider text-accent"
         >
           <span class="md:hidden"> {{ t("home.announcement.short_link_text") }} </span>
           <span class="hidden md:inline"> {{ t("home.announcement.long_link_text") }} </span>

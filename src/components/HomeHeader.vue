@@ -92,7 +92,7 @@ const { t } = useI18n()
     </nav>
     <TranslateDown
       v-if="showMenu"
-      class="p-2 mx-4 transition shadow-lg bg-primaryLight md:hidden"
+      class="p-2 mx-4 shadow-lg transition bg-primaryLight md:hidden"
     >
       <MenuMobile />
     </TranslateDown>

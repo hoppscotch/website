@@ -9,7 +9,7 @@ const { t } = useI18n()
       <div class="relative flex max-w-4xl my-16">
         <SmartGradient />
         <img
-          class="relative object-cover object-center w-full h-full transition rounded-lg"
+          class="relative object-cover object-center w-full h-full rounded-lg transition"
           :src="`/assets/images/screenshots/${isDark?'dark':'light'}-banner.png`"
           alt="Screenshot"
           loading="lazy"
@@ -29,7 +29,7 @@ const { t } = useI18n()
       <p class="max-w-md my-4 text-xl text-center md:w-3/5">
         {{ t("home.hero.subheading") }}
       </p>
-      <p class="flex my-4 space-x-4 text-center">
+      <p class="flex my-4 text-center space-x-4">
         <ButtonSecondary label="GitHub" />
         <ButtonSecondary to="/" :label="t('button.open-app')" rounded />
       </p>
