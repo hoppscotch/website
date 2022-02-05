@@ -48,8 +48,8 @@ html {
 
 @mixin lightMode {
   --color-primary: theme("colors.white");
-  --color-primaryLight: theme("colors.light.600");
-  --color-primaryDark: theme("colors.light.800");
+  --color-primaryLight: theme("colors.light.500");
+  --color-primaryDark: theme("colors.light.700");
   --color-secondary: theme("colors.true-gray.700");
   --color-secondaryLight: theme("colors.true-gray.500");
   --color-secondaryDark: theme("colors.true-gray.800");
@@ -60,6 +60,8 @@ html {
   --color-divider: theme("colors.light.600");
   --color-dividerLight: theme("colors.light.400");
   --color-dividerDark: theme("colors.light.800");
+  --color-tooltip: theme("colors.light.200");
+  --color-tooltipSecondary: theme("colors.true-gray.800");
 }
 
 @mixin darkMode {
@@ -76,6 +78,8 @@ html {
   --color-divider: theme("colors.dark.400");
   --color-dividerLight: theme("colors.dark.500");
   --color-dividerDark: theme("colors.dark.300");
+  --color-tooltip: theme("colors.dark.800");
+  --color-tooltipSecondary: theme("colors.true-gray.300");
 }
 
 html {
@@ -91,7 +95,7 @@ body {
   @apply overflow-x-hidden;
   @apply select-none;
 
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
   animation: fade 300ms forwards;
 
@@ -136,8 +140,8 @@ textarea::placeholder {
 }
 
 .tippy-box[data-theme~="tooltip"] {
-  @apply bg-secondary;
-  @apply text-primaryLight;
+  @apply bg-tooltip;
+  @apply text-tooltipSecondary;
   @apply text-xs;
   @apply font-semibold;
   @apply py-1;
@@ -145,18 +149,18 @@ textarea::placeholder {
   @apply shadow;
 
   & > .tippy-arrow {
-    @apply text-secondary;
+    @apply text-tooltip;
   }
 }
 
 .tippy-box[data-theme~="popover"] {
-  @apply bg-primaryLight;
-  @apply text-secondary;
+  @apply bg-tooltip;
+  @apply text-tooltipSecondary;
   @apply p-2;
   @apply shadow-xl;
 
   & > .tippy-arrow {
-    @apply text-primaryLight;
+    @apply text-tooltip;
   }
 }
 

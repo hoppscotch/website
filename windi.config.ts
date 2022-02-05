@@ -27,6 +27,8 @@ export default defineConfig({
         divider: 'var(--color-divider)',
         dividerLight: 'var(--color-dividerLight)',
         dividerDark: 'var(--color-dividerDark)',
+        tooltip: 'var(--color-tooltip)',
+        tooltipSecondary: 'var(--color-tooltipSecondary)',
       },
     },
   },

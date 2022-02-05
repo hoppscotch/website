@@ -9,23 +9,23 @@ home:
     button: Get Started
     items:
       1:
-        title: Pay with your bank account
-        description: Pay with your bank account
+        title: Lightweight and snappy
+        description: Designed to be seamless and instant. Make an API request and hit "Send" to simply get it's response in milliseconds.
       2:
-        title: Pay with your credit card
-        description: Pay with your credit card
+        title: Directly from browser
+        description: No need to switch back-and-forth between multiple apps. Hoppscotch is consumes resources as low as 20kb.
       3:
-        title: Pay with your debit card
-        description: Pay with your debit card
+        title: Open source community
+        description: Hoppscotch is built on top of open source technologies. We are a community of developers who believe in the power of open source.
       4:
-        title: Pay with your PayPal account
-        description: Pay with your PayPal account
+        title: Be part of the story
+        description: We listen to our community and build Hoppscotch in collaboration with developers, to build the best product and developer experience across the platform.
       5:
-        title: Pay with your Apple Pay
-        description: Pay with your Apple Pay
+        title: Build what you’ve always wanted
+        description: Start building your perfect APIs with the Hoppscotch platform, and streamline your workflows.
       6:
-        title: Pay with your Google Pay
-        description: Pay with your Google Pay
+        title: One up your productivity
+        description: Everything you’ve asked for, in one place. Build, test and share APIs with your teams. Get started with the integrated developer tools in Hoppscotch and build your first API in no time.
   users:
     title: Empowering developers to build better products
   announcement:

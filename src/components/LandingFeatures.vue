@@ -24,7 +24,7 @@ const { t } = useI18n()
         class="inline-flex flex-col p-8 bg-light-200 dark:bg-dark-800 rounded-xl dark:text-accentContrast "
       >
         <i class="text-3xl">
-          <component :is="feature.icon" />
+          <img :src="`/assets/${feature.image}`" alt="icon" class="w-16 h-16">
         </i>
         <div class="flex-grow">
           <h2 class="flex mt-4 mb-2 text-lg font-semibold">
@@ -32,14 +32,6 @@ const { t } = useI18n()
           </h2>
           <p class="flex opacity-60">
             {{ t(feature.description) }}
-          </p>
-          <p class="mt-2">
-            <router-link :to="feature.link.target" class="inline-flex items-center transition text-accent hover:text-accentDark">
-              <span class="mr-2">
-                {{ t(feature.link.title) }}
-              </span>
-              <lucide-arrow-right />
-            </router-link>
           </p>
         </div>
       </div>

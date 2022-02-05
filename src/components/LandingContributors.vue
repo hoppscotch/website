@@ -1,122 +1,37 @@
 <script setup lang="ts">
 import { contributors } from '~/assets/data/LandingContributors'
 const { t } = useI18n()
-const ranContributors = []
-const tempContributors = [...contributors]
-let i = tempContributors.length
-let j = 0
-while (i--) {
-  j = Math.floor(Math.random() * (i + 1))
-  ranContributors.push(tempContributors[j])
-  tempContributors.splice(j, 1)
-}
-// get random 20 contributors
-ranContributors.length > 20 && ranContributors.splice(20)
-// Number of circles we are trying to fit (not guaranteed if we don't have space)
-const CIRCLE_COUNT = ranContributors.length
-// Size of the biggest allowed circle
-const MAX_CIRCLE_SIZE = window.innerWidth > 900 ? 90 : 45
-// Size of the smallest allowed circle
-const MIN_CIRCLE_SIZE = window.innerWidth > 900 ? 40 : 15
-// How relatively sized sizes should be
-// Keep this greater than one
-// Bigger values mean more strong drop-off in size
-const SIZE_FACTOR = 1.001
-// Template Ref
-const parent = ref(null)
-// Square
-const sqr = x => x * x
-// Euclidean Distance
-const distance = (x1, y1, x2, y2) => Math.sqrt(sqr(x2 - x1) + sqr(y2 - y1))
-// Check if there is an overlap
-const hasOverlap = (currentCircles, cx, cy, cr) =>
-  currentCircles.findIndex(({ x, y, r }) => distance(x, y, cx, cy) < r + cr)
-  !== -1
-// Checks if the circle is outside the bounding box
-const isOutsideBox = (bWidth, bHeight, cx, cy, cr) =>
-  cx - cr < 0 || cx + cr > bWidth || cy - cr < 0 || cy + cr > bHeight
-// Gets the maximum size a circle at this position in the current state can take
-// The size is not exact, we start with the maximum size, and then tone down by SIZE_FACTOR
-// -1 means the position itself is invalid and can't even fit the minimum
-const getMaximumCircleSize = (currentCircles, bWidth, bHeight, cx, cy) => {
-  if (cx < MIN_CIRCLE_SIZE || cy < MIN_CIRCLE_SIZE) return -1
-  let decidedSize = MAX_CIRCLE_SIZE
-  while (
-    (hasOverlap(currentCircles, cx, cy, decidedSize)
-      || isOutsideBox(bWidth, bHeight, cx, cy, decidedSize))
-    && decidedSize > MIN_CIRCLE_SIZE
-  )
-    decidedSize /= SIZE_FACTOR
-  if (decidedSize < MIN_CIRCLE_SIZE) return -1
-  return decidedSize
-}
-const random = (min, max) => Math.random() * (max - min) + min
-const circles = computed(() => {
-  if (!parent.value) return
-  const bWidth = parent.value.clientWidth
-  const bHeight = parent.value.clientHeight
-  const result = []
-  for (let i = 0; i < CIRCLE_COUNT; i++) {
-    // If we couldn't fit in a circle in 1000 tries, it may just not be possible and hence we stop adding circles
-    let attempt = 0
-    let pX = random(MIN_CIRCLE_SIZE, bWidth - MIN_CIRCLE_SIZE)
-    let pY = random(MIN_CIRCLE_SIZE, bHeight - MIN_CIRCLE_SIZE)
-    let size = getMaximumCircleSize(result, bWidth, bHeight, pX, pY)
-    while (size === -1 && attempt < 1000) {
-      attempt++
-      pX = random(MIN_CIRCLE_SIZE, bWidth - MIN_CIRCLE_SIZE)
-      pY = random(MIN_CIRCLE_SIZE, bHeight - MIN_CIRCLE_SIZE)
-      size = getMaximumCircleSize(result, bWidth, bHeight, pX, pY)
-    }
-    if (attempt >= 1000) break
-    result.push({
-      x: pX,
-      y: pY,
-      r: random(MIN_CIRCLE_SIZE, size),
-    })
-  }
-  return result
-})
 </script>
 
 <template>
   <div class="flex flex-col px-8 py-16">
-    <div
-      class="flex items-center justify-between w-full overflow-hidden h-min-100vh md:h-min-90vh"
-    >
-      <div
-        class="flex flex-col items-center justify-center px-5 py-6 mx-auto pointer-events-none 50vw md:w-25vw h-50vh xl:h-min-33vh md:p-5 z-2"
+    <div class="flex flex-col items-center">
+      <h2
+        class="max-w-xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
       >
-        <h2
-          class="max-w-xl my-4 text-4xl font-bold leading-tight tracking-tight text-secondaryDark"
-        >
-          {{ t("home.contributors.title") }}
-        </h2>
-        <p
-          class="my-2 text-secondaryLight"
-        >
-          {{ t("home.contributors.description") }}
-        </p>
-      </div>
+        {{ t("home.contributors.title") }}
+      </h2>
+      <p class="max-w-md mt-4 mb-16 text-lg text-center md:w-3/5">
+        {{ t("home.contributors.description") }}
+      </p>
+    </div>
+    <div
+      class="flex items-center justify-between w-full overflow-hidden"
+    >
       <div class="flex w-full h-full mx-auto">
-        <div ref="parent" class="relative w-full h-full">
+        <div class="grid grid-cols-5 gap-4 md:grid-cols-8 lg:grid-cols-10">
           <a
-            v-for="(circle, index) in circles"
+            v-for="(contributor, index) in contributors"
             :key="index"
-            :href="ranContributors[index]?.link"
+            :href="`https://github.com/${contributor.username}`"
+            class="inline-flex flex-col items-center justify-center p-4"
           >
             <img
-              :src="ranContributors[index]?.image"
-              :username="ranContributors[index]?.username"
+              :src="contributor.image"
+              :username="contributor.username"
               loading="lazy"
-              class="absolute object-cover rounded-full contributor-bubble"
+              class="object-cover rounded-full contributor-bubble"
               :class="`contributor-bubble-${index+1}`"
-              :style="{
-                width: `${circle.r * 2}px`,
-                height: `${circle.r * 2}px`,
-                top: `${circle.y - circle.r}px`,
-                left: `${circle.x - circle.r}px`,
-              }"
             >
           </a>
         </div>
@@ -126,12 +41,14 @@ const circles = computed(() => {
 </template>
 <style lang="scss" scoped>
 //random animation movement with index
-$CIRCLE-COUNT:50;
+$CIRCLE_COUNT:40;
+
 @for $i from 1 through $CIRCLE_COUNT {
   .contributor-bubble-#{$i} {
-    animation: randomBubbleMovement 10s #{$i * 1.5}s ease-in-out infinite alternate;
+    animation: randomBubbleMovement 10s #{$i * 1}s ease-in-out infinite alternate;
   }
 }
+
 @keyframes randomBubbleMovement {
   0% {
     transform: translate(0px, 0px) rotate(0deg);
@@ -154,8 +71,8 @@ $CIRCLE-COUNT:50;
   100% {
     transform: translate(0px, 0px) rotate(0deg);
   }
-
 }
+
 .contributor-bubble:hover{
   animation-play-state: paused;
 }
