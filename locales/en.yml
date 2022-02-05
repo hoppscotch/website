@@ -13,7 +13,7 @@ home:
         description: Designed to be seamless and instant. Make an API request and hit "Send" to simply get it's response in milliseconds.
       2:
         title: Directly from browser
-        description: No need to switch back-and-forth between multiple apps. Hoppscotch is consumes resources as low as 20kb.
+        description: No need to switch back-and-forth between multiple apps. Build, test, and share APIs in the browser.
       3:
         title: Open source community
         description: Hoppscotch is built on top of open source technologies. We are a community of developers who believe in the power of open source.
@@ -26,6 +26,15 @@ home:
       6:
         title: One up your productivity
         description: Everything you’ve asked for, in one place. Build, test and share APIs with your teams. Get started with the integrated developer tools in Hoppscotch and build your first API in no time.
+      7:
+        title: Built for teams
+        description: Have all your teams in one shared workspace. Synchronized in real-time across all users. Collaborate with your team and share your APIs in real-time.
+      8:
+        title: Light and dark UI
+        description: We have multiple themes and accent colors. Use light or dark, your choice. Customizable combinations for background, foreground, and accent colors.
+      9:
+        title: Keyboard first design
+        description: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
   users:
     title: Empowering developers to build better products
   announcement:
@@ -34,9 +43,9 @@ home:
     long_link_text: Read accouncement
     short_link_text: Read
   hero:
-    heading_line_1: Open Source
-    heading_line_2: API Development Ecosystem
-    subheading: Hoppscotch helps you build, test, save, and share APIs online.
+    heading_line_1: The fastest way to
+    heading_line_2: Build, Test and Share APIs
+    subheading: Millions of developers and companies build, ship, and maintain their APIs on Hoppscotch.
     stats:
       1:
         title: 1M+ users

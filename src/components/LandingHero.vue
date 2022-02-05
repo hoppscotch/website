@@ -5,23 +5,15 @@ const { t } = useI18n()
 
 <template>
   <div class="flex flex-col px-8 py-16">
+    <LandingAnnouncement />
     <div class="flex flex-col items-center">
-      <div class="relative flex max-w-4xl my-16">
-        <SmartGradient />
-        <img
-          class="relative object-cover object-center w-full h-full rounded-lg transition"
-          :src="`/assets/images/screenshots/${isDark?'dark':'light'}-banner.png`"
-          alt="Screenshot"
-          loading="lazy"
-        >
-      </div>
       <h1
-        class="max-w-2xl my-4 text-5xl font-black leading-none text-center transition text-secondaryDark md:text-6xl lg:text-7xl"
+        class="max-w-2xl my-4 text-5xl font-black leading-none text-center text-secondaryDark transition md:text-6xl lg:text-7xl"
       >
         {{ t("home.hero.heading_line_1") }}
         <br>
         <span
-          class="text-transparent transition bg-clip-text bg-gradient-to-tr from-green-600 via-team-400 to-emerald-600"
+          class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-green-500 to-green-600 transition"
         >
           {{ t("home.hero.heading_line_2") }}
         </span>
@@ -34,9 +26,17 @@ const { t } = useI18n()
         <ButtonSecondary to="/" :label="t('button.open-app')" rounded />
       </p>
       <p class="text-xs text-center text-secondaryLight">
-        {{ t("home.hero.stats.1.title") }}  |  {{ t("home.hero.stats.2.title") }}  |  {{ t("home.hero.stats.3.title") }}
+        {{ t("home.hero.stats.1.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.2.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.3.title") }}
       </p>
+      <div class="relative flex my-16">
+        <SmartGradient />
+        <img
+          class="relative object-cover object-center w-full h-full rounded-lg transition"
+          :src="`/assets/images/screenshots/${isDark?'dark':'light'}-banner.png`"
+          alt="Screenshot"
+          loading="lazy"
+        >
+      </div>
     </div>
-    <LandingAnnouncement />
   </div>
 </template>

@@ -19,7 +19,7 @@ const { t } = useI18n()
         <ButtonSecondary to="/" :label="t('button.open-app')" rounded />
       </p>
       <p class="text-xs text-center text-secondaryLight">
-        {{ t("home.hero.stats.1.title") }}  |  {{ t("home.hero.stats.2.title") }}  |  {{ t("home.hero.stats.3.title") }}
+        {{ t("home.hero.stats.1.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.2.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.3.title") }}
       </p>
     </div>
   </div>

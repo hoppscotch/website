@@ -8,13 +8,13 @@ const { t } = useI18n()
 <template>
   <header class="max-h-screen top-0 z-20 sticky <md:overflow-auto">
     <nav
-      class="flex transition bg-white !bg-opacity-90 dark:bg-dark-900 backdrop-blur backdrop-filter"
+      class="bg-white flex transition backdrop-blur backdrop-filter !bg-opacity-90 dark:bg-dark-900"
     >
       <div class="flex items-center justify-between flex-1 px-8 py-4">
         <div class="flex md:flex-1 md:w-0">
           <router-link
             to="/"
-            class="inline-flex items-center rounded-lg focus:outline-none text-secondaryDark"
+            class="inline-flex items-center rounded-lg text-secondaryDark focus:outline-none"
           >
             <img
               src="/assets/images/logo.svg"
@@ -86,13 +86,13 @@ const { t } = useI18n()
           <ButtonSecondary to="/" :label="t('button.open-app')" rounded />
         </div>
         <div class="md:hidden">
-          <ButtonSecondary :icon="showMenu ? x : menu" @click="showMenu = !showMenu" />
+          <SmartItem :icon="showMenu ? x : menu" @click="showMenu = !showMenu" />
         </div>
       </div>
     </nav>
     <TranslateDown
       v-if="showMenu"
-      class="p-2 mx-4 shadow-lg transition bg-primaryLight md:hidden"
+      class="p-2 mx-4 shadow-lg bg-primaryLight transition md:hidden"
     >
       <MenuMobile />
     </TranslateDown>
