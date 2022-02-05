@@ -18,7 +18,7 @@ const { t } = useI18n()
           </span>
         </span>
         <span
-          class="flex items-center justify-center pl-4 ml-4 font-medium border-l transition group-hover:text-accentDark border-divider text-accent"
+          class="flex items-center justify-center pl-4 ml-4 font-semibold border-l transition group-hover:text-accentDark border-divider text-accent"
         >
           <span class="md:hidden"> {{ t("home.announcement.short_link_text") }} </span>
           <span class="hidden md:inline"> {{ t("home.announcement.long_link_text") }} </span>

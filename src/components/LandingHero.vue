@@ -16,7 +16,7 @@ const { t } = useI18n()
         >
       </div>
       <h1
-        class="max-w-xl my-4 text-5xl font-semibold leading-none tracking-tighter text-center transition text-secondaryDark md:text-6xl lg:text-7xl"
+        class="max-w-2xl my-4 text-5xl font-black leading-none text-center transition text-secondaryDark md:text-6xl lg:text-7xl"
       >
         {{ t("home.hero.heading_line_1") }}
         <br>
@@ -26,15 +26,15 @@ const { t } = useI18n()
           {{ t("home.hero.heading_line_2") }}
         </span>
       </h1>
-      <p class="max-w-md my-4 text-xl text-center md:w-3/5">
+      <p class="max-w-md my-4 text-xl font-semibold text-center md:w-3/5">
         {{ t("home.hero.subheading") }}
       </p>
       <p class="flex my-4 text-center space-x-4">
         <ButtonSecondary label="GitHub" />
         <ButtonSecondary to="/" :label="t('button.open-app')" rounded />
       </p>
-      <p class="text-xs text-secondaryLight">
-        {{ t("home.hero.stats.1.title") }} &nbsp; | &nbsp; {{ t("home.hero.stats.2.title") }} &nbsp; | &nbsp; {{ t("home.hero.stats.3.title") }}
+      <p class="text-xs text-center text-secondaryLight">
+        {{ t("home.hero.stats.1.title") }}  |  {{ t("home.hero.stats.2.title") }}  |  {{ t("home.hero.stats.3.title") }}
       </p>
     </div>
     <LandingAnnouncement />

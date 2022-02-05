@@ -17,10 +17,10 @@ const { t } = useI18n()
       />
     </div>
     <div class="flex flex-col p-4 mt-2 rounded-lg bg-primaryDark">
-      <h4 class="mb-2 font-medium">
+      <h4 class="mb-2 font-semibold">
         {{ t('header.menu.guide.title') }}
       </h4>
-      <ul class="flex flex-col space-y-2">
+      <ul class="flex flex-col text-xs space-y-2">
         <li v-for="(guide, guideIndex) in guides" :key="`guide-${guideIndex}`">
           <router-link :to="guide.link" class="inline-flex items-center">
             <span class="mr-2">

@@ -7,7 +7,7 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <h2
-        class="max-w-xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
       >
         {{ t("home.contributors.title") }}
       </h2>
@@ -24,13 +24,13 @@ const { t } = useI18n()
             v-for="(contributor, index) in contributors"
             :key="index"
             :href="`https://github.com/${contributor.username}`"
-            class="inline-flex flex-col items-center justify-center p-4"
+            class="inline-flex flex-col items-center justify-center p-3"
           >
             <img
               :src="contributor.image"
               :username="contributor.username"
               loading="lazy"
-              class="object-cover rounded-full contributor-bubble"
+              class="object-cover rounded-full shadow-inner transition contributor-bubble hover:ring-3 ring-accentDark"
               :class="`contributor-bubble-${index+1}`"
             >
           </a>
@@ -39,13 +39,20 @@ const { t } = useI18n()
     </div>
   </div>
 </template>
+
 <style lang="scss" scoped>
 //random animation movement with index
+@function randomNum($min, $max) {
+  $rand: random();
+  $randomNum: $min + floor($rand * (($max - $min) + 1));
+  @return $randomNum;
+}
+
 $CIRCLE_COUNT:40;
 
 @for $i from 1 through $CIRCLE_COUNT {
   .contributor-bubble-#{$i} {
-    animation: randomBubbleMovement 10s #{$i * 1}s ease-in-out infinite alternate;
+    animation: randomBubbleMovement 10s #{randomNum(1, 10)}s ease-in-out infinite alternate;
   }
 }
 

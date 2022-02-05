@@ -12,7 +12,7 @@ const { t } = useI18n()
       :key="`category-${categoryIndex}`"
       class="flex flex-col"
     >
-      <p class="p-4 font-medium uppercase text-secondaryLight">
+      <p class="p-4 font-semibold uppercase text-secondaryLight">
         {{ t(category.name) }}
       </p>
       <div class="grid grid-cols-2">
