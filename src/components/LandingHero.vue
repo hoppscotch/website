@@ -8,12 +8,12 @@ const { t } = useI18n()
     <LandingAnnouncement />
     <div class="flex flex-col items-center">
       <h1
-        class="max-w-2xl my-4 text-5xl font-black leading-none text-center text-secondaryDark transition md:text-6xl lg:text-7xl"
+        class="max-w-2xl my-4 text-5xl font-black leading-none text-center transition text-secondaryDark md:text-6xl lg:text-7xl"
       >
         {{ t("home.hero.heading_line_1") }}
         <br>
         <span
-          class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-green-500 to-green-600 transition"
+          class="text-transparent transition bg-clip-text bg-gradient-to-r from-green-400 via-green-500 to-green-600"
         >
           {{ t("home.hero.heading_line_2") }}
         </span>
@@ -21,11 +21,11 @@ const { t } = useI18n()
       <p class="max-w-md my-4 text-xl text-center md:w-3/5">
         {{ t("home.hero.subheading") }}
       </p>
-      <p class="flex my-4 text-center space-x-4">
+      <p class="flex my-4 text-xl text-center space-x-4">
         <ButtonSecondary label="GitHub" />
-        <ButtonPrimary to="/" :label="t('button.open-app')" />
+        <ButtonPrimary :label="t('button.open-app')" />
       </p>
-      <p class="text-xs text-center text-secondaryLight">
+      <p class="my-2 text-xs text-center text-secondaryLight">
         {{ t("home.hero.stats.1.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.2.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.3.title") }}
       </p>
       <div class="relative flex my-16">
