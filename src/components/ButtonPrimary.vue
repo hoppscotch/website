@@ -36,7 +36,7 @@ withDefaults(
 <template>
   <router-link
     :to="to"
-    class="inline-flex items-center justify-center py-2 font-bold transition bg-accent text-accentContrast hover:bg-accentDark focus:outline-none focus-visible:bg-accentDark"
+    class="inline-flex items-center justify-center py-2 font-bold bg-green-600 text-accentContrast transition hover:bg-green-800 focus:outline-none focus-visible:bg-green-800"
     :class="[
       label ? 'px-4' : 'px-2',
       rounded ? 'rounded-full' : 'rounded-lg',
@@ -44,7 +44,7 @@ withDefaults(
       { 'px-6 py-4 text-lg': large },
       { 'shadow-lg hover:shadow-xl': shadow },
       {
-        'text-white bg-gradient-to-tr from-gradientFrom via-gradientVia to-gradientTo':
+        'text-accentContrast bg-gradient-to-r from-green-400 via-green-500 to-green-600':
           gradient,
       },
       {

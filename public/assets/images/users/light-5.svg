@@ -6,12 +6,12 @@
 <style type="text/css">
 	.st0{display:none;}
 	.st1{display:inline;fill:#333333;}
-	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FCE01A;}
-	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#31ACFF;}
-	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#FEFEFE;}
-	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#3EDD46;}
-	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#027FD3;}
-	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#0194C1;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#333;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#fff;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:none;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#333;}
+	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#fff;}
+	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#fff;}
 	.st8{fill:#333333;}
 </style>
 <g class="st0">

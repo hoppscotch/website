@@ -83,7 +83,7 @@ const { t } = useI18n()
         <div
           class="items-center justify-end hidden md:flex md:flex-1 lg:w-0"
         >
-          <ButtonSecondary to="/" :label="t('button.open-app')" rounded />
+          <ButtonPrimary to="/" :label="t('button.open-app')" />
         </div>
         <div class="md:hidden">
           <SmartItem :icon="showMenu ? x : menu" @click="showMenu = !showMenu" />
