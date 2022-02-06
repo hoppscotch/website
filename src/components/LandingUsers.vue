@@ -6,14 +6,12 @@ const { t } = useI18n()
 
 <template>
   <div class="flex flex-col px-8 py-16">
-    <div class="flex flex-col items-center p-4">
-      <p
-        class="mb-8 font-semibold tracking-widest text-center uppercase text-accent"
-      >
-        {{ t("home.users.title") }}
-      </p>
-    </div>
-    <div class="grid gap-4 grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+    <p
+      class="my-4 font-semibold tracking-widest text-center uppercase text-accent"
+    >
+      {{ t("home.users.title") }}
+    </p>
+    <div class="mx-auto mt-8 grid grid-cols-3 gap-4 md:grid-cols-4 lg:grid-cols-6 lg:max-w-4xl">
       <div
         v-for="(user, index) in users"
         :key="`user-${index}`"

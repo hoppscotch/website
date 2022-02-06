@@ -4,38 +4,45 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <nav
-    class="flex flex-col rounded-lg space-y-4"
+  <div
+    class="mx-4 mb-4 rounded-lg shadow-lg transition bg-primaryLight md:hidden"
   >
-    <div
-      v-for="(category, categoryIndex) in navigation"
-      :key="`category-${categoryIndex}`"
-      class="flex flex-col"
+    <nav
+      class="flex flex-col rounded-lg space-y-4 divide-y divide-dividerDark"
     >
-      <p class="p-4 font-semibold uppercase text-secondaryLight">
-        {{ t(category.name) }}
-      </p>
-      <div class="grid grid-cols-2">
+      <div
+        v-for="(category, categoryIndex) in navigation"
+        :key="`category-${categoryIndex}`"
+        class="flex flex-col p-4"
+      >
+        <p class="p-4 font-semibold uppercase text-secondaryLight">
+          {{ t(category.name) }}
+        </p>
+        <div class="grid grid-cols-2">
+          <SmartItem
+            v-for="(item, itemIndex) in category.links"
+            :key="`item-${itemIndex}`"
+            :to="item.link"
+            :icon="item.icon"
+            :label="t(item.name)"
+          />
+        </div>
+      </div>
+      <div
+        class="flex flex-col p-4"
+      >
         <SmartItem
-          v-for="(item, itemIndex) in category.links"
-          :key="`item-${itemIndex}`"
-          :to="item.link"
-          :icon="item.icon"
-          :label="t(item.name)"
+          to="/pricing"
+          :label="t('header.menu.pricing.title')"
+          icon="chevron_right"
+          class="mb-4"
+          reverse
         />
+        <div class="flex justify-center p-4 rounded-lg space-x-4 transition bg-primaryDark">
+          <ButtonSecondary to="https://github.com/hoppscotch/hoppscotch" blank label="GitHub" outline />
+          <ButtonPrimary to="https://hoppscotch.io" :label="t('button.open-app')" outline />
+        </div>
       </div>
-    </div>
-    <div class="flex flex-col">
-      <SmartItem
-        to="/pricing"
-        :label="t('header.menu.pricing.title')"
-        icon="chevron_right"
-        class="my-4"
-        reverse
-      />
-      <div class="flex justify-center p-4 rounded-lg bg-primaryDark transition">
-        <ButtonPrimary to="https://hoppscotch.io" :label="t('button.open-app')" />
-      </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 </template>

@@ -21,7 +21,7 @@ const { t } = useI18n()
               :alt="t('logo')"
               class="w-8 h-8 mr-4"
             >
-            <span class="font-semibold uppercase">
+            <span class="font-semibold">
               {{ t("logo") }}
             </span>
           </router-link>
@@ -29,7 +29,6 @@ const { t } = useI18n()
         <nav class="hidden md:flex">
           <span>
             <tippy
-              trigger="mouseenter click focus"
               theme="popover"
               arrow
               interactive
@@ -46,7 +45,6 @@ const { t } = useI18n()
           </span>
           <span>
             <tippy
-              trigger="mouseenter click focus"
               theme="popover"
               arrow
               interactive
@@ -63,7 +61,6 @@ const { t } = useI18n()
           </span>
           <span>
             <tippy
-              trigger="mouseenter click focus"
               theme="popover"
               arrow
               interactive
@@ -81,20 +78,18 @@ const { t } = useI18n()
           <SmartItem to="/pricing" :label="t('header.menu.pricing.title')" />
         </nav>
         <div
-          class="items-center justify-end hidden md:flex md:flex-1 lg:w-0"
+          class="items-center justify-end hidden space-x-4 md:flex md:flex-1 lg:w-0"
         >
-          <ButtonPrimary to="/" :label="t('button.open-app')" />
+          <ButtonSecondary to="https://github.com/hoppscotch/hoppscotch" blank label="GitHub" outline />
+          <ButtonPrimary to="https://hoppscotch.io" :label="t('button.open-app')" outline />
         </div>
         <div class="md:hidden">
           <SmartItem :icon="showMenu ? x : menu" @click="showMenu = !showMenu" />
         </div>
       </div>
     </nav>
-    <TranslateDown
+    <MenuMobile
       v-if="showMenu"
-      class="p-2 mx-4 shadow-lg bg-primaryLight transition md:hidden"
-    >
-      <MenuMobile />
-    </TranslateDown>
+    />
   </header>
 </template>

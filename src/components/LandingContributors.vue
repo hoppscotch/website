@@ -1,43 +1,38 @@
 <script setup lang="ts">
 import { contributors } from '~/assets/data/landingContributors'
 const { t } = useI18n()
+const randomContributors = computed(() => contributors.sort(() => Math.random() - 0.5))
 </script>
 
 <template>
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <h2
-        class="max-w-2xl my-4 text-3xl font-black leading-none text-center text-secondaryDark transition md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
       >
         {{ t("home.contributors.title") }}
       </h2>
-      <p class="max-w-md mt-4 mb-16 text-lg text-center md:w-3/5">
+      <p class="max-w-md my-4 text-lg text-center md:w-3/5">
         {{ t("home.contributors.description") }}
       </p>
     </div>
-    <div
-      class="flex items-center justify-between w-full overflow-hidden"
-    >
-      <div class="flex w-full h-full mx-auto">
-        <div class="grid gap-4 grid-cols-5 md:grid-cols-8 lg:grid-cols-10">
-          <a
-            v-for="(contributor, index) in contributors"
-            :key="index"
-            :href="`https://github.com/${contributor.username}`"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="inline-flex flex-col items-center justify-center m-2 rounded-full"
-          >
-            <img
-              :src="contributor.image"
-              :username="contributor.username"
-              loading="lazy"
-              class="object-cover rounded-full shadow-inner ring-accentDark transition contributor-bubble hover:ring-3"
-              :class="`contributor-bubble-${index+1}`"
-            >
-          </a>
-        </div>
-      </div>
+    <div class="mt-8 grid grid-cols-5 gap-4 md:grid-cols-8 lg:grid-cols-10">
+      <a
+        v-for="(contributor, index) in randomContributors"
+        :key="index"
+        :href="`https://github.com/${contributor.username}`"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex flex-col items-center justify-center m-2 rounded-full"
+      >
+        <img
+          :src="contributor.image"
+          :username="contributor.username"
+          loading="lazy"
+          class="object-cover rounded-full shadow-inner transition ring-accentDark contributor-bubble hover:ring-3"
+          :class="`contributor-bubble-${index+1}`"
+        >
+      </a>
     </div>
   </div>
 </template>

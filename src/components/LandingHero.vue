@@ -8,12 +8,12 @@ const { t } = useI18n()
     <LandingAnnouncement />
     <div class="flex flex-col items-center">
       <h1
-        class="max-w-2xl my-4 text-5xl font-black leading-none text-center text-secondaryDark transition md:text-6xl lg:text-7xl"
+        class="max-w-2xl my-4 text-5xl font-black leading-none text-center transition text-secondaryDark md:text-6xl lg:text-7xl"
       >
         {{ t("home.hero.heading_line_1") }}
         <br>
         <span
-          class="text-transparent bg-clip-text bg-gradient-to-br from-gradientFrom via-gradientVia to-gradientTo transition"
+          class="text-transparent transition bg-clip-text bg-gradient-to-br from-gradientFrom via-gradientVia to-gradientTo"
         >
           {{ t("home.hero.heading_line_2") }}
         </span>
@@ -22,13 +22,13 @@ const { t } = useI18n()
         {{ t("home.hero.subheading") }}
       </p>
       <p class="flex my-4 text-center space-x-4">
-        <ButtonSecondary to="https://github.com/hoppscotch/hoppscotch" blank label="GitHub" />
-        <ButtonPrimary to="https://hoppscotch.io" :label="t('button.open-app')" />
+        <ButtonSecondary to="https://github.com/hoppscotch/hoppscotch" blank label="GitHub" outline />
+        <ButtonPrimary to="https://hoppscotch.io" :label="t('button.open-app')" outline />
       </p>
       <p class="my-2 text-xs text-center text-secondaryLight">
         {{ t("home.hero.stats.1.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.2.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.3.title") }}
       </p>
-      <div class="relative flex mt-16">
+      <div class="relative flex mt-8">
         <SmartGradient :blur="256" />
         <img
           class="object-cover object-center w-full h-full max-w-6xl rounded-lg shadow-2xl transition "

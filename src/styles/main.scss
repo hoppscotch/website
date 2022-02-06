@@ -33,40 +33,43 @@ html {
   --color-primary: theme("colors.white");
   --color-primaryLight: theme("colors.light.500");
   --color-primaryDark: theme("colors.light.700");
+
   --color-secondary: theme("colors.true-gray.700");
   --color-secondaryLight: theme("colors.true-gray.500");
   --color-secondaryDark: theme("colors.true-gray.800");
-  --color-accent: theme("colors.green.600");
-  --color-accentLight: theme("colors.green.400");
-  --color-accentDark: theme("colors.green.800");
-  --color-accentContrast: theme("colors.white");
+
   --color-divider: theme("colors.light.600");
   --color-dividerLight: theme("colors.light.400");
   --color-dividerDark: theme("colors.light.800");
-  --color-tooltip: theme("colors.light.200");
-  --color-tooltipSecondary: theme("colors.true-gray.800");
+
+  --color-tooltip: theme("colors.white");
+  --color-tooltipSecondary: theme("colors.true-gray.600");
 }
 
 @mixin darkMode {
   --color-primary: theme("colors.dark.900");
   --color-primaryLight: theme("colors.dark.400");
-  --color-primaryDark: theme("colors.dark.600");
+  --color-primaryDark: theme("colors.dark.800");
+
   --color-secondary: theme("colors.true-gray.300");
   --color-secondaryLight: theme("colors.true-gray.500");
   --color-secondaryDark: theme("colors.white");
-  --color-accent: theme("colors.green.400");
-  --color-accentLight: theme("colors.green.600");
-  --color-accentDark: theme("colors.green.300");
-  --color-accentContrast: theme("colors.white");
+
   --color-divider: theme("colors.dark.400");
   --color-dividerLight: theme("colors.dark.500");
   --color-dividerDark: theme("colors.dark.300");
-  --color-tooltip: theme("colors.dark.800");
-  --color-tooltipSecondary: theme("colors.true-gray.300");
+
+  --color-tooltip: theme("colors.dark.600");
+  --color-tooltipSecondary: theme("colors.true-gray.400");
 }
 
 html {
   @include lightMode;
+
+  --color-accent: theme("colors.green.600");
+  --color-accentLight: theme("colors.green.400");
+  --color-accentDark: theme("colors.green.800");
+  --color-accentContrast: theme("colors.white");
 
   --color-gradientFrom: 16, 185, 129;
   --color-gradientVia: 16, 185, 129;
@@ -130,10 +133,10 @@ textarea::placeholder {
   @apply bg-tooltip;
   @apply text-tooltipSecondary;
   @apply text-xs;
-  @apply font-semibold;
-  @apply py-1;
+  @apply font-medium;
+  @apply py-2;
   @apply px-3;
-  @apply shadow;
+  @apply shadow-md;
 
   & > .tippy-arrow {
     @apply text-tooltip;

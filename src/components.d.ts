@@ -20,6 +20,7 @@ declare module 'vue' {
     LogosTwitter: typeof import('~icons/logos/twitter')['default']
     LucideArrowRight: typeof import('~icons/lucide/arrow-right')['default']
     LucideLightbulb: typeof import('~icons/lucide/lightbulb')['default']
+    LucideMegaphone: typeof import('~icons/lucide/megaphone')['default']
     LucideMoon: typeof import('~icons/lucide/moon')['default']
     LucideSun: typeof import('~icons/lucide/sun')['default']
     MenuCompany: typeof import('./components/MenuCompany.vue')['default']
@@ -31,7 +32,6 @@ declare module 'vue' {
     SmartGradient: typeof import('./components/SmartGradient.vue')['default']
     SmartItem: typeof import('./components/SmartItem.vue')['default']
     SmartSpinner: typeof import('./components/SmartSpinner.vue')['default']
-    TranslateDown: typeof import('./components/TranslateDown.vue')['default']
   }
 }
 

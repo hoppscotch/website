@@ -5,8 +5,8 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <footer class="container flex flex-col px-8 py-16">
-    <nav class="grid gap-4 grid-cols-2 md:grid-cols-5">
+  <footer class="container flex flex-col flex-1 px-8 py-16 lg:max-w-4xl">
+    <nav class="grid grid-cols-2 gap-4 md:grid-cols-5">
       <div
         v-for="(category, categoryIndex) in navigation" :key="`category-${categoryIndex}`"
         class="flex flex-col space-y-2"
@@ -24,7 +24,7 @@ const { t } = useI18n()
           >
             <router-link
               :to="item.link"
-              class="flex text-xs text-secondaryLight transition hover:text-secondaryDark"
+              class="flex text-xs transition text-secondaryLight hover:text-secondaryDark"
             >
               {{ t(item.name) }}
             </router-link>
@@ -37,7 +37,7 @@ const { t } = useI18n()
         </h5>
         <div>
           <button
-            v-tippy="{ theme: 'tooltip', content: isDark ? t('button.light') : t('button.dark') }"
+            v-tippy="{ theme: 'tooltip', content: isDark ? t('button.light') : t('button.dark'), placement: 'bottom' }"
             class="inline-flex mx-2 outline-none text-secondaryLight hover:text-secondaryDark"
 
             @click="toggleDark()"

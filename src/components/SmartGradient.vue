@@ -1,6 +1,6 @@
 <template>
   <div
-    class="gradient-bg"
+    class="flex gradient-bg"
     :style="`filter: blur(${blur}px)`"
     :class="{ pulse: animate }"
   />
