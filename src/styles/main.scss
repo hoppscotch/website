@@ -137,8 +137,10 @@ textarea::placeholder {
   @apply py-2;
   @apply px-3;
   @apply shadow-md;
+  @apply transition;
 
   & > .tippy-arrow {
+    @apply transition;
     @apply text-tooltip;
   }
 }
@@ -148,8 +150,10 @@ textarea::placeholder {
   @apply text-tooltipSecondary;
   @apply p-2;
   @apply shadow-xl;
+  @apply transition;
 
   & > .tippy-arrow {
+    @apply transition;
     @apply text-tooltip;
   }
 }

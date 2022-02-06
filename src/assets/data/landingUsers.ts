@@ -1,50 +1,50 @@
 export const users = [
   {
     title: 'Delivery Hero',
-    image: '1.svg',
+    image: 'deliveryhero.svg',
   },
   {
     title: 'ByteDance',
-    image: '2.svg',
+    image: 'bytedance.svg',
   },
   {
     title: 'Alibaba Cloud',
-    image: '3.svg',
+    image: 'alibabacloud.svg',
   },
   {
     title: 'Shopee',
-    image: '4.svg',
+    image: 'shopee.svg',
   },
   {
     title: 'clearTax',
-    image: '5.svg',
+    image: 'cleartax.svg',
   },
   {
     title: 'Google',
-    image: '6.svg',
+    image: 'google.svg',
   },
   {
     title: 'thoughtworks',
-    image: '7.svg',
+    image: 'thoughtworks.svg',
   },
   {
     title: 'ZOHO',
-    image: '8.svg',
+    image: 'zoho.svg',
   },
   {
     title: 'intel',
-    image: '9.svg',
+    image: 'intel.svg',
   },
   {
     title: 'DECATHLON',
-    image: '10.svg',
+    image: 'decathlon.svg',
   },
   {
     title: 'GitHub',
-    image: '11.svg',
+    image: 'github.svg',
   },
   {
     title: 'accenture',
-    image: '12.svg',
+    image: 'accenture.svg',
   },
 ]

@@ -3,20 +3,20 @@ export const navigation = [
     name: 'footer.product.title',
     links: [
       {
-        name: 'footer.product.links.web',
+        name: 'footer.product.links.design',
         link: '/settings',
       },
       {
-        name: 'footer.product.links.native',
+        name: 'footer.product.links.development',
         link: '/settings',
       },
       {
-        name: 'footer.product.links.cli',
-        link: '/settings',
+        name: 'footer.product.links.testing',
+        link: '/testing',
       },
       {
-        name: 'footer.product.links.embeds',
-        link: '/settings',
+        name: 'footer.product.links.documentation',
+        link: '/documentation',
       },
     ],
   },
@@ -24,20 +24,20 @@ export const navigation = [
     name: 'footer.platform.title',
     links: [
       {
-        name: 'footer.platform.links.design',
+        name: 'footer.platform.links.web',
         link: '/settings',
       },
       {
-        name: 'footer.platform.links.development',
+        name: 'footer.platform.links.cli',
         link: '/settings',
       },
       {
-        name: 'footer.platform.links.testing',
-        link: '/testing',
+        name: 'footer.platform.links.embeds',
+        link: '/settings',
       },
       {
-        name: 'footer.platform.links.documentation',
-        link: '/documentation',
+        name: 'footer.platform.links.native',
+        link: '/settings',
       },
     ],
   },

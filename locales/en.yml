@@ -138,17 +138,17 @@ footer:
   product:
     title: Product
     links:
-      web: Web
-      native: Native
-      cli: CLI
-      embeds: Embeds
-  platform:
-    title: Platform
-    links:
       design: Design
       development: Development
       testing: Testing
       documentation: Documentation
+  platform:
+    title: Platform
+    links:
+      web: Web
+      native: Native
+      cli: CLI
+      embeds: Embeds
   protocols:
     title: Protocols
     links:

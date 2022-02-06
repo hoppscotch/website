@@ -11,7 +11,7 @@ const { t } = useI18n()
         v-for="(category, categoryIndex) in navigation" :key="`category-${categoryIndex}`"
         class="flex flex-col space-y-2"
       >
-        <h5 class="flex my-2 font-bold text-secondaryLight">
+        <h5 class="flex my-2 font-bold opacity-50 text-secondaryLight">
           {{ t(category.name) }}
         </h5>
         <ul
@@ -32,7 +32,7 @@ const { t } = useI18n()
         </ul>
       </div>
       <div class="flex flex-col space-y-2">
-        <h5 class="flex my-2 font-bold text-secondaryLight">
+        <h5 class="flex my-2 font-bold opacity-50 text-secondaryLight">
           {{ t("logo") }}
         </h5>
         <div>
