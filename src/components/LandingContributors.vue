@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { contributors } from '~/assets/data/landingContributors'
+import { contributors } from '~/assets/data/landingContributor'
 const { t } = useI18n()
 </script>
 
