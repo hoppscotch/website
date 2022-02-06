@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { platform } from '~/assets/data/menuPlatform'
+import { platforms } from '~/assets/data/menuPlatform'
 import { guides } from '~/assets/data/menuGuides'
 const { t } = useI18n()
 </script>
@@ -8,7 +8,7 @@ const { t } = useI18n()
   <div>
     <div class="grid grid-cols-1">
       <SmartItem
-        v-for="(item, itemIndex) in platform"
+        v-for="(item, itemIndex) in platforms"
         :key="`item-${itemIndex}`"
         :to="item.link"
         :icon="item.icon"

@@ -46,7 +46,7 @@ const computedComponent = computed(() => {
     v-bind="$attrs"
     :href="props.to"
     :to="props.to"
-    class="inline-flex items-start px-4 py-2 rounded-lg transition text-secondary focus:bg-primaryDark focus:text-secondaryDark hover:bg-primaryDark hover:text-secondaryDark focus:outline-none"
+    class="inline-flex items-start px-4 py-2 rounded-lg text-secondary transition hover:bg-primaryDark hover:text-secondaryDark focus:bg-primaryDark focus:outline-none focus:text-secondaryDark"
     :class="[{ 'flex-1': label }, { 'flex-row-reverse justify-end': reverse }]"
   >
     <component

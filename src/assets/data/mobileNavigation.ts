@@ -1,6 +1,6 @@
 import lightbulb from '~icons/lucide/lightbulb'
 
-export const mobileNavigation = [
+export const navigation = [
   {
     name: 'Solutions',
     links: [

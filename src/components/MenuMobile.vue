@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { mobileNavigation } from '~/assets/data/mobileNavigation'
+import { navigation } from '~/assets/data/mobileNavigation'
 const { t } = useI18n()
 </script>
 
@@ -8,7 +8,7 @@ const { t } = useI18n()
     class="flex flex-col rounded-lg space-y-4"
   >
     <div
-      v-for="(category, categoryIndex) in mobileNavigation"
+      v-for="(category, categoryIndex) in navigation"
       :key="`category-${categoryIndex}`"
       class="flex flex-col"
     >
@@ -33,7 +33,7 @@ const { t } = useI18n()
         class="my-4"
         reverse
       />
-      <div class="flex justify-center p-4 rounded-lg transition bg-primaryDark">
+      <div class="flex justify-center p-4 rounded-lg bg-primaryDark transition">
         <ButtonPrimary to="https://hoppscotch.io" :label="t('button.open-app')" />
       </div>
     </div>

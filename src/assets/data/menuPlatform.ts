@@ -1,6 +1,6 @@
 import lightbulb from '~icons/lucide/lightbulb'
 
-export const platform = [
+export const platforms = [
   {
     name: 'header.menu.platform.links.1.name',
     description: 'header.menu.platform.links.1.description',
