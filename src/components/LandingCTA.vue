@@ -16,7 +16,7 @@ const { t } = useI18n()
       </p>
       <p class="flex my-4 text-center space-x-4">
         <ButtonSecondary label="GitHub" />
-        <ButtonSecondary to="/" :label="t('button.open-app')" rounded />
+        <ButtonPrimary to="/" :label="t('button.open-app')" />
       </p>
       <p class="text-xs text-center text-secondaryLight">
         {{ t("home.hero.stats.1.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.2.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.3.title") }}

@@ -24,7 +24,9 @@ const { t } = useI18n()
             v-for="(contributor, index) in contributors"
             :key="index"
             :href="`https://github.com/${contributor.username}`"
-            class="inline-flex flex-col items-center justify-center p-3"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex flex-col items-center justify-center m-2 rounded-full"
           >
             <img
               :src="contributor.image"
@@ -52,7 +54,7 @@ $CIRCLE_COUNT:40;
 
 @for $i from 1 through $CIRCLE_COUNT {
   .contributor-bubble-#{$i} {
-    animation: randomBubbleMovement 10s #{randomNum(1, 10)}s ease-in-out infinite alternate;
+    animation: randomBubbleMovement 20s #{randomNum(1, 10)}s ease-in-out infinite alternate;
   }
 }
 
@@ -60,20 +62,32 @@ $CIRCLE_COUNT:40;
   0% {
     transform: translate(0px, 0px) rotate(0deg);
   }
-  20% {
+  10% {
     transform: translate(8px, 8px) rotate(1deg);
+  }
+  20% {
+    transform: translate(12px, 12px) rotate(2deg);
+  }
+  30% {
+    transform: translate(8px, -8px) rotate(3deg);
   }
   40% {
-    transform: translate(12px, 12px) rotate(2deg);
+    transform: translate(-8px, -8px) rotate(2deg);
+  }
+  50% {
+    transform: translate(0px, 0px) rotate(0deg);
   }
   60% {
-    transform: translate(16px, 16px) rotate(3deg);
+    transform: translate(8px, 8px) rotate(1deg);
   }
-  80% {
+  70% {
     transform: translate(12px, 12px) rotate(2deg);
   }
   80% {
-    transform: translate(8px, 8px) rotate(1deg);
+    transform: translate(8px, -8px) rotate(3deg);
+  }
+  90% {
+    transform: translate(-8px, -8px) rotate(2deg);
   }
   100% {
     transform: translate(0px, 0px) rotate(0deg);

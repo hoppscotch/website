@@ -33,8 +33,8 @@ const { t } = useI18n()
         class="my-4"
         reverse
       />
-      <div class="flex justify-center p-4 rounded-lg transition bg-primaryDark">
-        <ButtonSecondary to="/" :label="t('button.open-app')" rounded />
+      <div class="flex justify-center p-4 rounded-lg bg-primaryDark transition">
+        <ButtonPrimary to="/" :label="t('button.open-app')" />
       </div>
     </div>
   </nav>
