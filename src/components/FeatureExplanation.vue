@@ -15,7 +15,6 @@ withDefaults(
         link: string
       },
     ]
-    description2?: string
     link?: string
   }>(),
   {
@@ -29,7 +28,6 @@ withDefaults(
         link: '',
       },
     ],
-    description2: '',
     link: '',
   },
 )
@@ -38,9 +36,6 @@ withDefaults(
 
 <template>
   <div class="flex flex-col px-8 py-16">
-    <!-- <div v-if="description2" class="py-18">
-      <p class="text-lg max-w-2xl" v-html="t(description2) " />
-    </div> -->
     <div v-if="methods[0].title">
       <div v-for="(method,index) in methods" :key="index" class="flex flex-col justify-between gap-20 items-start my-50" :class="index%2 === 0 ? 'sm:flex-row-reverse' : 'sm:flex-row'">
         <div class="basis-1/2">

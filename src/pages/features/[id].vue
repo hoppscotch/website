@@ -4,13 +4,12 @@ const { t } = useI18n()
 const router = useRouter()
 const props = defineProps<{ id: string }>()
 const singleFeature = features.find(feature => t(feature.title).toLocaleLowerCase().replaceAll(' ', '-') === props.id.toLocaleLowerCase())
-console.log(singleFeature)
 </script>
 
 <template>
   <div v-if="singleFeature" class="flex flex-col divide-y divide-dividerLight">
     <FeatureHero :title="singleFeature?.title" :description="singleFeature?.description" :image-dark="singleFeature?.imageDark" :image-light="singleFeature?.imageLight" :video-link="singleFeature?.videoLink" :link="singleFeature?.link" :icon="singleFeature?.icon" />
-    <FeatureExplanation :methods="singleFeature?.methods" :link="singleFeature?.link" :description2="singleFeature.description2" />
+    <FeatureExplanation :methods="singleFeature?.methods" :link="singleFeature?.link" />
   </div>
   <div v-else class="px-4 py-10 text-center text-teal-700 dark:text-gray-200">
     <div>
