@@ -1,6 +1,6 @@
 import zap from '~icons/lucide/zap'
 import box from '~icons/lucide/box'
-import heart from '~icons/lucide/heart'
+import network from '~icons/lucide/network'
 
 export const features = [
   {
@@ -116,7 +116,7 @@ export const features = [
   {
     title: 'features.featureLists.realtime.title',
     description: 'features.featureLists.realtime.description',
-    icon: heart,
+    icon: network,
     imageDark: 'https://docs.hoppscotch.io/realtime/Realtime-dark.png',
     imageLight: 'https://docs.hoppscotch.io/realtime/Realtime-light.png',
     link: 'https://docs.hoppscotch.io/realtimesocket',

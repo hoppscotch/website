@@ -180,8 +180,7 @@ platforms:
       native:
         title: Native
         description: Native applications for Mac, PC and Linux.
-        title: Extension
-        description: Overrides CORS restrictions for cross-origin requests (it allows requests against localhost).  
+       
 features:
   hero:
     heading_line_1: Features
@@ -233,8 +232,7 @@ features:
           description: All your recent Requests can be accessed from the History tab, and you can pick up right were left it.
         collections:
           title: Collections
-          description: Just Like Rest API collections, Hoppscotch lets you organize your GraphQL queries in collections.
-
+          description: Just Like Rest API collections, Hoppscotch lets you organize your GraphQL queries in collections.You can Import existing collections(JSON) to replace current collection, or preserve current collection as well as add new collection from your sources. Collections can be Exported as JSON as well.
     realtime:
       title: Realtime platform
       description: Hoppscotch helps you develop Real-time web apps that require persistent connection between the server and client.   
@@ -245,7 +243,6 @@ features:
         MQTT:
           title: MQTT (Message Queuing Telemetry Transport)
           description: Once connected to the MQTT server, You can either publish a message under a topic or subscribe to a topic to get messages pertaining to that topic being sent across the server in real-time.
-
 error:
   404: "Page not found"
 action:
