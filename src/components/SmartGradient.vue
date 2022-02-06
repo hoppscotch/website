@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="pulse gradient-bg"
-  />
+  <div class="pulse gradient-bg" />
 </template>
 
 <style lang="scss" scoped>
@@ -12,6 +10,8 @@
   @apply opacity-75;
   @apply transition;
   @apply z-0;
+  @apply filter;
+  @apply blur-md;
 
   background: conic-gradient(
     from 217.29deg at 51.63% 52.16%,
@@ -31,23 +31,15 @@
 @keyframes pulse {
   0% {
     transform: rotate(0deg);
-    filter: blur(8px);
-    border-radius: 6px;
   }
   33% {
     transform: rotate(-0.5deg) translate(1px, -1px) scale(1.01);
-    filter: blur(10px);
-    border-radius: 4px;
   }
   67% {
-    transform: rotate(1deg) translate(-1px, -1px) scale(0.99);
-    filter: blur(14px);
-    border-radius: 8px;
+    transform: rotate(0.5deg) translate(-1px, -1px) scale(0.99);
   }
   100% {
     transform: rotate(0deg);
-    filter: blur(8px);
-    border-radius: 6px;
   }
 }
 </style>
