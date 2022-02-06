@@ -6,7 +6,7 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
       <a
-        class="inline-flex flex-col p-8 rounded-xl text-accentContrast bg-gradient-to-r from-indigo-800 to-indigo-200 dark:to-transparent group"
+        class="inline-flex flex-col p-8 rounded-xl text-accentContrast bg-gradient-to-r from-indigo-800 to-indigo-200 dark:to-dark-800 group"
         href="https://hoppscotch.io/twitter"
         target="_blank"
         rel="noopener noreferrer"
@@ -24,7 +24,7 @@ const { t } = useI18n()
         </div>
       </a>
       <a
-        class="inline-flex flex-col p-8 rounded-xl text-accentContrast bg-gradient-to-r from-gray-800 to-gray-200 dark:to-transparent group"
+        class="inline-flex flex-col p-8 rounded-xl text-accentContrast bg-gradient-to-r from-gray-800 to-gray-200 dark:to-dark-800 group"
         href="https://hoppscotch.io/discord"
         target="_blank"
         rel="noopener noreferrer"
