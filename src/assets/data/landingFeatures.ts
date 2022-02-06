@@ -18,7 +18,6 @@ export const features = [
     title: 'home.features.items.2.title',
     description: 'home.features.items.2.description',
     icon: box,
-    imageDark: 'https://docs.hoppscotch.io/realtime/Realtime-dark.png',
   },
   {
     title: 'home.features.items.3.title',
