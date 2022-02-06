@@ -1,16 +1,22 @@
 
 <script setup lang="ts">
-withDefaults(
+import { computed } from 'vue'
+
+const props = withDefaults(
   defineProps<{
-    to: String
-    label: String
-    description: String
-    icon: String
-    svg: String
-    infoIcon: String
-    reverse: Boolean
+    to: string
+    exact: boolean
+    blank: boolean
+    label: string
+    description: string
+    icon: string
+    svg: string
+    infoIcon: string
+    reverse: boolean
   }>(), {
     to: '',
+    exact: false,
+    blank: false,
     label: '',
     description: '',
     icon: '',
@@ -19,11 +25,27 @@ withDefaults(
     reverse: false,
   },
 )
+
+const linkMode = computed(() => {
+  if (!props.to) return 'button'
+  if (props.blank) return 'anchor'
+  if (/^\/(?!\/).*$/.test(props.to)) return 'router-link'
+  return 'anchor'
+})
+
+const computedComponent = computed(() => {
+  if (linkMode.value === 'anchor') return 'a'
+  if (linkMode.value === 'router-link') return 'router-link'
+  return 'anchor'
+})
 </script>
 
 <template>
-  <router-link
-    :to="to"
+  <component
+    :is="computedComponent"
+    v-bind="$attrs"
+    :href="props.to"
+    :to="props.to"
     class="inline-flex items-start px-4 py-2 rounded-lg transition text-secondary focus:bg-primaryDark focus:text-secondaryDark hover:bg-primaryDark hover:text-secondaryDark focus:outline-none"
     :class="[{ 'flex-1': label }, { 'flex-row-reverse justify-end': reverse }]"
   >
@@ -41,5 +63,5 @@ withDefaults(
         {{ description }}
       </p>
     </div>
-  </router-link>
+  </component>
 </template>

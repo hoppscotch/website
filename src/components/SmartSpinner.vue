@@ -25,7 +25,7 @@
 <script setup lang="ts">
 withDefaults(
   defineProps<{
-    size: Number
+    size: number
   }>(), {
     size: 6,
   },

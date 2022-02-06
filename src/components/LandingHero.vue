@@ -22,8 +22,8 @@ const { t } = useI18n()
         {{ t("home.hero.subheading") }}
       </p>
       <p class="flex my-4 text-xl text-center space-x-4">
-        <ButtonSecondary label="GitHub" />
-        <ButtonPrimary :label="t('button.open-app')" />
+        <ButtonSecondary to="https://github.com/hoppscotch/hoppscotch" blank label="GitHub" />
+        <ButtonPrimary to="https://hoppscotch.io" :label="t('button.open-app')" />
       </p>
       <p class="my-2 text-xs text-center text-secondaryLight">
         {{ t("home.hero.stats.1.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.2.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.3.title") }}

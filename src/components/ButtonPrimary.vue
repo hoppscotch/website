@@ -1,22 +1,28 @@
 
 <script setup lang="ts">
-withDefaults(
+import { computed } from 'vue'
+
+const props = withDefaults(
   defineProps<{
-    to: String
-    label: String
-    description: String
-    icon: String
-    infoIcon: String
-    reverse: Boolean
-    rounded: Boolean
-    loading: Boolean
-    large: Boolean
-    shadow: Boolean
-    gradient: Boolean
-    outline: Boolean
-    shortcut: String[]
+    to: string
+    exact: boolean
+    blank: boolean
+    label: string
+    description: string
+    icon: string
+    infoIcon: string
+    reverse: boolean
+    rounded: boolean
+    loading: boolean
+    large: boolean
+    shadow: boolean
+    gradient: boolean
+    outline: boolean
+    shortcut: string[]
   }>(), {
     to: '',
+    exact: false,
+    blank: false,
     label: '',
     description: '',
     icon: '',
@@ -31,12 +37,28 @@ withDefaults(
     shortcut: () => [],
   },
 )
+
+const linkMode = computed(() => {
+  if (!props.to) return 'button'
+  if (props.blank) return 'anchor'
+  if (/^\/(?!\/).*$/.test(props.to)) return 'router-link'
+  return 'anchor'
+})
+
+const computedComponent = computed(() => {
+  if (linkMode.value === 'anchor') return 'a'
+  if (linkMode.value === 'router-link') return 'router-link'
+  return 'anchor'
+})
 </script>
 
 <template>
-  <router-link
-    :to="to"
-    class="inline-flex items-center justify-center py-2 font-bold bg-green-600 text-accentContrast transition hover:bg-green-800 focus:outline-none focus-visible:bg-green-800"
+  <component
+    :is="computedComponent"
+    v-bind="$attrs"
+    :href="props.to"
+    :to="props.to"
+    class="inline-flex items-center justify-center py-2 font-bold bg-green-600 transition text-accentContrast hover:bg-green-800 focus:outline-none focus-visible:bg-green-800"
     :class="[
       label ? 'px-4' : 'px-2',
       rounded ? 'rounded-full' : 'rounded-lg',
@@ -77,5 +99,5 @@ withDefaults(
       </div>
     </span>
     <SmartSpinner v-else />
-  </router-link>
+  </component>
 </template>
