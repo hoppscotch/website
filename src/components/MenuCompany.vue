@@ -21,7 +21,7 @@ const { t } = useI18n()
       </h4>
       <ul class="flex flex-col text-xs space-y-2">
         <li v-for="(blog, blogIndex) in blogs" :key="`blog-${blogIndex}`">
-          <router-link :to="blog.link" class="inline-flex items-center">
+          <router-link :to="blog.link" class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark">
             <span class="mr-2">
               {{ t(blog.title) }}
             </span>
@@ -29,7 +29,7 @@ const { t } = useI18n()
           </router-link>
         </li>
         <li>
-          <router-link to="https://blog.kooli.tech" class="inline-flex items-center">
+          <router-link to="https://blog.hoppscotch.io" class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark">
             <span class="mr-2">
               {{ t('header.menu.blog.read_more') }}
             </span>

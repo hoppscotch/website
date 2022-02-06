@@ -1,4 +1,3 @@
-
 <script setup lang="ts">
 import { computed } from 'vue'
 
@@ -13,7 +12,8 @@ const props = withDefaults(
     svg: string
     infoIcon: string
     reverse: boolean
-  }>(), {
+  }>(),
+  {
     to: '',
     exact: false,
     blank: false,
@@ -46,14 +46,14 @@ const computedComponent = computed(() => {
     v-bind="$attrs"
     :href="props.to"
     :to="props.to"
-    class="inline-flex items-start px-4 py-2 rounded-lg cursor-pointer transition text-secondary hover:bg-primaryDark hover:text-secondaryDark focus:bg-primaryDark focus:outline-none focus:text-secondaryDark"
+    class="inline-flex px-4 py-2 text-sm rounded-lg cursor-pointer transition hover:bg-primaryDark hover:text-secondaryDark focus:bg-primaryDark focus:outline-none focus:text-secondaryDark"
     :class="[{ 'flex-1': label }, { 'flex-row-reverse justify-end': reverse }]"
   >
     <component
       :is="icon"
       v-if="icon"
       :class="label ? (reverse ? 'ml-4 opacity-75' : 'mr-4 opacity-75') : ''"
-      class="inline-flex flex-shrink-0"
+      class="flex-shrink-0 my-0.5 inline-flex"
     />
     <div class="inline-flex items-start" :class="{ 'flex-col': description }">
       <div class="font-semibold">

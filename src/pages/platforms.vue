@@ -3,7 +3,6 @@
 <template>
   <div class="flex flex-col">
     <PlatformHero />
-    <PlatformGrid />
   </div>
 </template>
 

@@ -68,39 +68,39 @@ header:
     platform:
       links:
         1:
-          name: About
+          name: Web
           description: "Neque porro quisquam est qui dolorem ipsum"
         2:
-          name: Careers
+          name: CLI
           description: "Neque porro quisquam est qui dolorem ipsum"
         3:
-          name: Blog
+          name: Embeds
           description: "Neque porro quisquam est qui dolorem ipsum"
         4:
-          name: Press
+          name: Native
           description: "Neque porro quisquam est qui dolorem ipsum"
     solutions:
-      api: API
+      documentation: Documentation
       guides: Guides
-      contact: Contact
+      support: Support
       links:
         1:
-          name: About
+          name: Design
           description: "Neque porro quisquam est qui dolorem ipsum"
         2:
-          name: Careers
+          name: Development
           description: "Neque porro quisquam est qui dolorem ipsum"
         3:
-          name: Blog
+          name: Testing
           description: "Neque porro quisquam est qui dolorem ipsum"
         4:
-          name: Press
+          name: Documentation
           description: "Neque porro quisquam est qui dolorem ipsum"
         5:
-          name: About
+          name: Deployment
           description: "Neque porro quisquam est qui dolorem ipsum"
         6:
-          name: Careers
+          name: Maintanance
           description: "Neque porro quisquam est qui dolorem ipsum"
     company:
       links:
@@ -111,23 +111,23 @@ header:
         3:
           name: Blog
         4:
-          name: Press
+          name: Support
     blog:
       title: Recent blogs
       read_more: Read More
       links:
         1:
-          name: Why we build Kooli?
+          name: Why we build Hoppscotch?
         2:
           name: To design and develop an interactive globe
         3:
-          name: We built Checkout so you don\'t have to
+          name: We built Checkout so you don't have to
     guide:
-      title: Popular Guides
+      title: Popular guides
       read_more: Read all guides
       links:
         1:
-          name: Why we build Kooli?
+          name: Why we build Hoppscotch?
         2:
           name: To design and develop an interactive globe
         3:
@@ -135,8 +135,8 @@ header:
     pricing:
      title: Pricing
 footer:
-  product:
-    title: Product
+  solutions:
+    title: Solutions
     links:
       design: Design
       development: Development
@@ -162,7 +162,7 @@ footer:
       about: About
       careers: Careers
       blog: Blog
-      press: Press
+      support: Support
 platforms:
     hero:
       heading_line_1: Platforms
@@ -175,8 +175,11 @@ platforms:
         title: CLI
         description: Inspired by the command line interface, your tools are unified as commands, and follow the same structure to make you more productive. 
       extension:
-        title: Extension
-        description: Overrides CORS restrictions for cross-origin requests (it allows requests against localhost).  
+        title: Embeds
+        description: Overrides CORS restrictions for cross-origin requests (it allows requests against localhost).
+      native:
+        title: Native
+        description: Native applications for Mac, PC and Linux.
 error:
   404: "Page not found"
 action:

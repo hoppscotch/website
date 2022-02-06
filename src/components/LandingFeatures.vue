@@ -12,7 +12,7 @@ const { t } = useI18n()
         {{ t("home.features.title") }}
       </p>
       <h3
-        class="max-w-2xl my-8 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
       >
         {{ t("home.features.description") }}
       </h3>
@@ -26,11 +26,11 @@ const { t } = useI18n()
         <i class="text-3xl text-accent">
           <component :is="feature.icon" />
         </i>
-        <div class="flex-grow">
+        <div class="flex flex-col flex-1">
           <h2 class="flex mt-4 mb-2 text-lg font-semibold">
             {{ t(feature.title) }}
           </h2>
-          <p class="flex opacity-60">
+          <p class="flex flex-1 opacity-60">
             {{ t(feature.description) }}
           </p>
         </div>

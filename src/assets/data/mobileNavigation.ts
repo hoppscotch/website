@@ -1,4 +1,19 @@
-import lightbulb from '~icons/lucide/lightbulb'
+import globe from '~icons/lucide/globe'
+import cli from '~icons/lucide/package'
+import terminal from '~icons/lucide/terminal-square'
+import server from '~icons/lucide/server'
+
+import layers from '~icons/lucide/layers'
+import code from '~icons/lucide/code-2'
+import flask from '~icons/lucide/flask-conical'
+import file from '~icons/lucide/file-text'
+import check from '~icons/lucide/shield-check'
+import wrench from '~icons/lucide/wrench'
+
+import at from '~icons/lucide/at-sign'
+import briefcase from '~icons/lucide/briefcase'
+import edit from '~icons/lucide/edit'
+import support from '~icons/lucide/life-buoy'
 
 export const navigation = [
   {
@@ -6,32 +21,32 @@ export const navigation = [
     links: [
       {
         name: 'header.menu.solutions.links.1.name',
-        icon: lightbulb,
+        icon: layers,
         link: '/settings',
       },
       {
         name: 'header.menu.solutions.links.2.name',
-        icon: lightbulb,
+        icon: code,
         link: '/settings',
       },
       {
         name: 'header.menu.solutions.links.3.name',
-        icon: lightbulb,
+        icon: flask,
         link: '/settings',
       },
       {
         name: 'header.menu.solutions.links.4.name',
-        icon: lightbulb,
+        icon: file,
         link: '/settings',
       },
       {
         name: 'header.menu.solutions.links.5.name',
-        icon: lightbulb,
+        icon: check,
         link: '/settings',
       },
       {
         name: 'header.menu.solutions.links.6.name',
-        icon: lightbulb,
+        icon: wrench,
         link: '/settings',
       },
     ],
@@ -41,23 +56,23 @@ export const navigation = [
     links: [
       {
         name: 'header.menu.platform.links.1.name',
-        icon: lightbulb,
+        icon: globe,
         link: '/settings',
       },
       {
         name: 'header.menu.platform.links.2.name',
-        icon: lightbulb,
+        icon: cli,
         link: '/settings',
       },
       {
         name: 'header.menu.platform.links.3.name',
-        icon: lightbulb,
-        link: 'https://docs.kooli.tech/api',
+        icon: terminal,
+        link: 'https://docs.hoppscotch.io',
       },
       {
         name: 'header.menu.platform.links.4.name',
-        icon: lightbulb,
-        link: 'https://docs.kooli.tech/guides',
+        icon: server,
+        link: 'https://docs.hoppscotch.io/guides',
       },
     ],
   },
@@ -66,22 +81,22 @@ export const navigation = [
     links: [
       {
         name: 'header.menu.company.links.1.name',
-        icon: lightbulb,
+        icon: at,
         link: '/about',
       },
       {
         name: 'header.menu.company.links.2.name',
-        icon: lightbulb,
+        icon: briefcase,
         link: '/about/jobs',
       },
       {
         name: 'header.menu.company.links.3.name',
-        icon: lightbulb,
+        icon: edit,
         link: '/about/integrations',
       },
       {
         name: 'header.menu.company.links.4.name',
-        icon: lightbulb,
+        icon: support,
         link: '/about/contact',
       },
     ],

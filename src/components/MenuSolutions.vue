@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { solutions } from '~/assets/data/menuSolutions'
-import lightbulb from '~icons/lucide/lightbulb'
+import book from '~icons/lucide/book-open'
+import guides from '~icons/lucide/graduation-cap'
+import support from '~icons/lucide/life-buoy'
 const { t } = useI18n()
 </script>
 
@@ -18,18 +20,18 @@ const { t } = useI18n()
     </div>
     <div class="mt-2 rounded-lg bg-primaryDark">
       <SmartItem
-        :label="t('header.menu.solutions.api')"
-        :icon="lightbulb"
-        to="https://docs.kooli.tech/api"
+        :label="t('header.menu.solutions.documentation')"
+        :icon="book"
+        to="https://docs.hoppscotch.io"
       />
       <SmartItem
         :label="t('header.menu.solutions.guides')"
-        :icon="lightbulb"
-        to="https://docs.kooli.tech/guides"
+        :icon="guides"
+        to="https://docs.hoppscotch.io/guides"
       />
       <SmartItem
-        :label="t('header.menu.solutions.contact')"
-        :icon="lightbulb"
+        :label="t('header.menu.solutions.support')"
+        :icon="support"
         to="/about/contact"
       />
     </div>

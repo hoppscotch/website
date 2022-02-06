@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { platforms } from '~/assets/data/platformsList'
 const { t } = useI18n()
 </script>
 
@@ -6,14 +7,41 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <h1
-        class="max-w-2xl my-4 text-5xl font-black leading-none text-center text-secondaryDark transition md:text-6xl lg:text-7xl"
+        class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
       >
         {{ t("platforms.hero.heading_line_1") }}
         <br>
       </h1>
-      <p class="max-w-md my-4 text-xl font-semibold text-center md:w-3/5">
+      <p class="max-w-md my-4 text-lg text-center md:w-3/5">
         {{ t("platforms.hero.subheading") }}
       </p>
+    </div>
+    <div class="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
+      <div
+        v-for="(platform, index) in platforms"
+        :key="`platform-${index}`"
+        class="inline-flex flex-col p-8 rounded-xl bg-light-200 dark:bg-dark-800 dark:text-accentContrast "
+      >
+        <i class="text-3xl text-accent">
+          <component :is="platform.icon" />
+        </i>
+        <div class="flex flex-col flex-1">
+          <h2 class="flex mt-4 mb-2 text-lg font-semibold">
+            {{ t(platform.title) }}
+          </h2>
+          <p class="flex flex-1 opacity-60">
+            {{ t(platform.description) }}
+          </p>
+          <p class="mt-2">
+            <router-link :to="platform.link.target" class="inline-flex items-center transition text-accent hover:text-accentDark">
+              <span class="mr-2">
+                {{ t(platform.link.title) }}
+              </span>
+              <lucide-arrow-right />
+            </router-link>
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </template>

@@ -1,21 +1,21 @@
 export const navigation = [
   {
-    name: 'footer.product.title',
+    name: 'footer.solutions.title',
     links: [
       {
-        name: 'footer.product.links.design',
+        name: 'footer.solutions.links.design',
         link: '/settings',
       },
       {
-        name: 'footer.product.links.development',
+        name: 'footer.solutions.links.development',
         link: '/settings',
       },
       {
-        name: 'footer.product.links.testing',
+        name: 'footer.solutions.links.testing',
         link: '/testing',
       },
       {
-        name: 'footer.product.links.documentation',
+        name: 'footer.solutions.links.documentation',
         link: '/documentation',
       },
     ],
