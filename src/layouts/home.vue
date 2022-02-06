@@ -1,9 +1,11 @@
 <template>
-  <main
-    class="container flex flex-col"
-  >
+  <div class="relative">
     <HomeHeader />
-    <router-view />
+    <main
+      class="container flex flex-col"
+    >
+      <router-view />
+    </main>
     <HomeFooter />
-  </main>
+  </div>
 </template>

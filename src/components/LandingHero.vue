@@ -21,7 +21,7 @@ const { t } = useI18n()
       <p class="max-w-md my-4 text-xl text-center md:w-3/5">
         {{ t("home.hero.subheading") }}
       </p>
-      <p class="flex my-4 text-xl text-center space-x-4">
+      <p class="flex my-4 space-x-4 text-xl text-center">
         <ButtonSecondary to="https://github.com/hoppscotch/hoppscotch" blank label="GitHub" />
         <ButtonPrimary to="https://hoppscotch.io" :label="t('button.open-app')" />
       </p>
@@ -29,9 +29,9 @@ const { t } = useI18n()
         {{ t("home.hero.stats.1.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.2.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.3.title") }}
       </p>
       <div class="relative flex my-16">
-        <SmartGradient />
+        <SmartGradient :blur="256" />
         <img
-          class="relative object-cover object-center w-full h-full rounded-lg transition"
+          class="relative object-cover object-center w-full h-full max-w-6xl transition rounded-lg shadow-2xl"
           :src="`/assets/images/screenshots/${isDark?'dark':'light'}-banner.png`"
           alt="Screenshot"
           loading="lazy"

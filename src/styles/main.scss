@@ -15,23 +15,6 @@
   font-variant-ligatures: common-ligatures;
 }
 
-::-webkit-scrollbar-track {
-  @apply bg-transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  @apply bg-divider bg-clip-content;
-  @apply rounded-full;
-  @apply border-solid border-transparent border-4;
-  @apply hover:bg-dividerDark;
-  @apply hover:bg-clip-content;
-}
-
-::-webkit-scrollbar {
-  @apply w-4;
-  @apply h-4;
-}
-
 html,
 body,
 #app {

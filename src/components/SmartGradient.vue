@@ -1,6 +1,23 @@
 <template>
-  <div class="pulse gradient-bg" />
+  <div
+    class="gradient-bg"
+    :style="`filter: blur(${blur}px)`"
+    :class="{ pulse: animate }"
+  />
 </template>
+
+<script setup lang="ts">
+withDefaults(
+  defineProps<{
+    blur: number
+    animate: boolean
+  }>(),
+  {
+    blur: 12,
+    animate: false,
+  },
+)
+</script>
 
 <style lang="scss" scoped>
 .gradient-bg {
@@ -9,9 +26,7 @@
   @apply rounded-lg;
   @apply opacity-75;
   @apply transition;
-  @apply z-0;
-  @apply filter;
-  @apply blur-md;
+  @apply -z-1;
 
   background: conic-gradient(
     from 217.29deg at 51.63% 52.16%,
@@ -31,15 +46,23 @@
 @keyframes pulse {
   0% {
     transform: rotate(0deg);
+    filter: blur(8px);
+    border-radius: 6px;
   }
   33% {
     transform: rotate(-0.5deg) translate(1px, -1px) scale(1.01);
+    filter: blur(10px);
+    border-radius: 4px;
   }
   67% {
-    transform: rotate(0.5deg) translate(-1px, -1px) scale(0.99);
+    transform: rotate(1deg) translate(-1px, -1px) scale(0.99);
+    filter: blur(14px);
+    border-radius: 8px;
   }
   100% {
     transform: rotate(0deg);
+    filter: blur(8px);
+    border-radius: 6px;
   }
 }
 </style>

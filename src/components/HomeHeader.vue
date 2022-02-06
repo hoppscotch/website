@@ -8,9 +8,9 @@ const { t } = useI18n()
 <template>
   <header class="max-h-screen top-0 z-20 sticky <md:overflow-auto">
     <nav
-      class="bg-white flex transition backdrop-blur backdrop-filter !bg-opacity-90 dark:bg-dark-900"
+      class="bg-white flex transition backdrop-blur backdrop-filter !bg-opacity-80 dark:bg-dark-900"
     >
-      <div class="flex items-center justify-between flex-1 px-8 py-4">
+      <div class="container flex items-center justify-between flex-1 px-8 py-4">
         <div class="flex md:flex-1 md:w-0">
           <router-link
             to="/"
