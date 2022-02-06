@@ -66,7 +66,7 @@ const computedComponent = computed(() => {
       { 'px-6 py-4 text-lg': large },
       { 'shadow-lg hover:shadow-xl': shadow },
       {
-        'text-accentContrast bg-gradient-to-r from-green-400 via-green-500 to-green-600':
+        'text-accentContrast bg-gradient-to-tr from-gradientFrom via-gradientVia to-gradientTo':
           gradient,
       },
       {

@@ -67,6 +67,10 @@ html {
 
 html {
   @include lightMode;
+
+  --color-gradientFrom: 16, 185, 129;
+  --color-gradientVia: 16, 185, 129;
+  --color-gradientTo: 4, 120, 87;
 }
 
 html.dark {
