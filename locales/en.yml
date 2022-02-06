@@ -180,6 +180,72 @@ platforms:
       native:
         title: Native
         description: Native applications for Mac, PC and Linux.
+        title: Extension
+        description: Overrides CORS restrictions for cross-origin requests (it allows requests against localhost).  
+features:
+  hero:
+    heading_line_1: Features
+    subheading: Some two line para about Features of Hoppscotch.
+  featureLists:
+    restAPI:
+      title: RestAPI platform
+      description: You can make API requests and examine responses using Hoppscotch. An API request allows you to retrieve or send data to and from an API endpoint.
+      methods:
+        choosingMethod:
+          title: Choosing Method
+          description: User can select from any methods like GET, POST, PUT, DELETE, PATCH etc. 
+        collections:
+          title: Collections
+          description: Click on the save button, next to SEND, name your request and add to existing or new collections.
+        dynamicBehavior:
+          title: Adding dynamic behavior to requests
+          description: The editor allows you to add dynamic behaviour to requests and collections.This lets you add parameters, Headers, Authentication, build pre-request scripts and write tests. 
+        responseBody:
+          title: Response body
+          description: The response from the API endpoint can be viewed here. You can download or copy the response for further use. 
+        environments:
+          title: Environments
+          description: Environment variables allow you to store and reuse values in your requests and scripts   
+    graphQL:
+      title: GraphQL
+      description: GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API.
+      methods:
+        url:
+          title: URL
+          description: Enter The URL of the GraphQL End point here.
+        headers:
+          title: Headers
+          description: The editor lets you add header-value pairs to your GraphQL Request. Use case:Accessing a secure endpoint may need Authentication.
+        schema:
+          title: Schema
+          description: You can view the schema of GraphQL Endpoint that you’ve connected to in this panel. The Schema can be downloaded as a JSON file or copied to your clipboard.
+        queries:
+          title: Queries
+          description: Any Queries to be made to the GraphQL endpoint are typed out in this section, there is an inbuilt formatter that Prettifies the Query. 
+        response:
+          title: Response
+          description: The response returned by the endpoint on your query is displayed at the end of the page, this can be copied to your clipboard or exported as a JSON file.
+        schemaDoc:
+          title: Schema Documentation
+          description: In the right sidebar you can view the documentation of the GraphQL endpoint you are working with. The documentation is searchable and documentation for Queries, Mutations, Subscriptions and Types are present in the Tabs below the search bar.
+        history:
+          title: History
+          description: All your recent Requests can be accessed from the History tab, and you can pick up right were left it.
+        collections:
+          title: Collections
+          description: Just Like Rest API collections, Hoppscotch lets you organize your GraphQL queries in collections.
+
+    realtime:
+      title: Realtime platform
+      description: Hoppscotch helps you develop Real-time web apps that require persistent connection between the server and client.   
+      methods:
+        websocket:
+          title: WebSockets
+          description: Enter Your Websocket URL, valid protocols and click on connect . Once successfully connected you can send messages and see the realtime response on the log pane.
+        MQTT:
+          title: MQTT (Message Queuing Telemetry Transport)
+          description: Once connected to the MQTT server, You can either publish a message under a topic or subscribe to a topic to get messages pertaining to that topic being sent across the server in real-time.
+
 error:
   404: "Page not found"
 action:

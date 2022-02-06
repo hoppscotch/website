@@ -7,6 +7,8 @@ declare module 'vue' {
     ButtonPrimary: typeof import('./components/ButtonPrimary.vue')['default']
     ButtonSecondary: typeof import('./components/ButtonSecondary.vue')['default']
     ContibutorBubble: typeof import('./components/ContibutorBubble.vue')['default']
+    FeatureExplanation: typeof import('./components/FeatureExplanation.vue')['default']
+    FeatureHero: typeof import('./components/FeatureHero.vue')['default']
     HomeFooter: typeof import('./components/HomeFooter.vue')['default']
     HomeHeader: typeof import('./components/HomeHeader.vue')['default']
     LandingAnnouncement: typeof import('./components/LandingAnnouncement.vue')['default']
@@ -27,10 +29,12 @@ declare module 'vue' {
     MenuMobile: typeof import('./components/MenuMobile.vue')['default']
     MenuPlatform: typeof import('./components/MenuPlatform.vue')['default']
     MenuSolutions: typeof import('./components/MenuSolutions.vue')['default']
+    PlatformGrid: typeof import('./components/PlatformGrid.vue')['default']
     PlatformHero: typeof import('./components/PlatformHero.vue')['default']
     SmartGradient: typeof import('./components/SmartGradient.vue')['default']
     SmartItem: typeof import('./components/SmartItem.vue')['default']
     SmartSpinner: typeof import('./components/SmartSpinner.vue')['default']
+    TranslateDown: typeof import('./components/TranslateDown.vue')['default']
   }
 }
 
