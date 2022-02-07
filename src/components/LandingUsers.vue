@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { users } from "~/assets/data/landingUsers"
-import { isDark } from "~/composables"
+import { users } from '~/assets/data/landingUsers'
+import { isDark } from '~/composables'
 const { t } = useI18n()
 </script>
 

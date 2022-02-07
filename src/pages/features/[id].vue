@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { features } from "~/assets/data/featuresList"
+import { features } from '~/assets/data/featuresList'
 const { t } = useI18n()
 const router = useRouter()
 const props = defineProps<{ id: string }>()
-const singleFeature = features.find(feature => t(feature.title).toLocaleLowerCase().replaceAll(" ", "-") === props.id.toLocaleLowerCase())
+const singleFeature = features.find(feature => t(feature.title).toLocaleLowerCase().replaceAll(' ', '-') === props.id.toLocaleLowerCase())
 </script>
 
 <template>

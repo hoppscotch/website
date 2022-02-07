@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { isDark, toggleDark } from "~/composables"
-import { navigation } from "~/assets/data/footerNavigation"
+import { isDark, toggleDark } from '~/composables'
+import { navigation } from '~/assets/data/footerNavigation'
 const { t } = useI18n()
 </script>
 

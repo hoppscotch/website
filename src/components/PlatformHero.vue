@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { platforms } from "~/assets/data/platformsList"
+import { platforms } from '~/assets/data/platformsList'
 const { t } = useI18n()
 </script>
 

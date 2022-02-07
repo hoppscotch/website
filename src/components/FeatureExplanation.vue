@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { isDark } from "~/composables"
-import book from "~icons/lucide/book-open"
+import { isDark } from '~/composables'
+import book from '~icons/lucide/book-open'
 const { t } = useI18n()
 
 withDefaults(
@@ -20,15 +20,15 @@ withDefaults(
   {
     methods: () => [
       {
-        title: "",
-        description: "",
-        imageDark: "",
-        imageLight: "",
-        videoLink: "",
-        link: "",
+        title: '',
+        description: '',
+        imageDark: '',
+        imageLight: '',
+        videoLink: '',
+        link: '',
       },
     ],
-    link: "",
+    link: '',
   },
 )
 

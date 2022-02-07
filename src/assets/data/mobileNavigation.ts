@@ -1,103 +1,103 @@
-import globe from "~icons/lucide/globe"
-import cli from "~icons/lucide/package"
-import terminal from "~icons/lucide/terminal-square"
-import server from "~icons/lucide/server"
+import globe from '~icons/lucide/globe'
+import cli from '~icons/lucide/package'
+import terminal from '~icons/lucide/terminal-square'
+import server from '~icons/lucide/server'
 
-import layers from "~icons/lucide/layers"
-import code from "~icons/lucide/code-2"
-import flask from "~icons/lucide/flask-conical"
-import file from "~icons/lucide/file-text"
-import check from "~icons/lucide/shield-check"
-import wrench from "~icons/lucide/wrench"
+import layers from '~icons/lucide/layers'
+import code from '~icons/lucide/code-2'
+import flask from '~icons/lucide/flask-conical'
+import file from '~icons/lucide/file-text'
+import check from '~icons/lucide/shield-check'
+import wrench from '~icons/lucide/wrench'
 
-import at from "~icons/lucide/at-sign"
-import briefcase from "~icons/lucide/briefcase"
-import edit from "~icons/lucide/edit"
-import support from "~icons/lucide/life-buoy"
+import at from '~icons/lucide/at-sign'
+import briefcase from '~icons/lucide/briefcase'
+import edit from '~icons/lucide/edit'
+import support from '~icons/lucide/life-buoy'
 
 export const navigation = [
   {
-    name: "Solutions",
+    name: 'Solutions',
     links: [
       {
-        name: "header.menu.solutions.links.1.name",
+        name: 'header.menu.solutions.links.1.name',
         icon: layers,
-        link: "/settings",
+        link: '/settings',
       },
       {
-        name: "header.menu.solutions.links.2.name",
+        name: 'header.menu.solutions.links.2.name',
         icon: code,
-        link: "/settings",
+        link: '/settings',
       },
       {
-        name: "header.menu.solutions.links.3.name",
+        name: 'header.menu.solutions.links.3.name',
         icon: flask,
-        link: "/settings",
+        link: '/settings',
       },
       {
-        name: "header.menu.solutions.links.4.name",
+        name: 'header.menu.solutions.links.4.name',
         icon: file,
-        link: "/settings",
+        link: '/settings',
       },
       {
-        name: "header.menu.solutions.links.5.name",
+        name: 'header.menu.solutions.links.5.name',
         icon: check,
-        link: "/settings",
+        link: '/settings',
       },
       {
-        name: "header.menu.solutions.links.6.name",
+        name: 'header.menu.solutions.links.6.name',
         icon: wrench,
-        link: "/settings",
+        link: '/settings',
       },
     ],
   },
   {
-    name: "Platform",
+    name: 'Platform',
     links: [
       {
-        name: "header.menu.platform.links.1.name",
+        name: 'header.menu.platform.links.1.name',
         icon: globe,
-        link: "/settings",
+        link: '/settings',
       },
       {
-        name: "header.menu.platform.links.2.name",
+        name: 'header.menu.platform.links.2.name',
         icon: cli,
-        link: "/settings",
+        link: '/settings',
       },
       {
-        name: "header.menu.platform.links.3.name",
+        name: 'header.menu.platform.links.3.name',
         icon: terminal,
-        link: "https://docs.hoppscotch.io",
+        link: 'https://docs.hoppscotch.io',
       },
       {
-        name: "header.menu.platform.links.4.name",
+        name: 'header.menu.platform.links.4.name',
         icon: server,
-        link: "https://docs.hoppscotch.io/guides",
+        link: 'https://docs.hoppscotch.io/guides',
       },
     ],
   },
   {
-    name: "Company",
+    name: 'Company',
     links: [
       {
-        name: "header.menu.company.links.1.name",
+        name: 'header.menu.company.links.1.name',
         icon: at,
-        link: "/about",
+        link: '/about',
       },
       {
-        name: "header.menu.company.links.2.name",
+        name: 'header.menu.company.links.2.name',
         icon: briefcase,
-        link: "/about/jobs",
+        link: '/about/jobs',
       },
       {
-        name: "header.menu.company.links.3.name",
+        name: 'header.menu.company.links.3.name',
         icon: edit,
-        link: "/about/integrations",
+        link: '/about/integrations',
       },
       {
-        name: "header.menu.company.links.4.name",
+        name: 'header.menu.company.links.4.name',
         icon: support,
-        link: "/about/contact",
+        link: '/about/contact',
       },
     ],
   },

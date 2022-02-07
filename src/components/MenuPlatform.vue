@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { platforms } from "~/assets/data/menuPlatform"
-import { guides } from "~/assets/data/menuGuides"
+import { platforms } from '~/assets/data/menuPlatform'
+import { guides } from '~/assets/data/menuGuides'
 const { t } = useI18n()
 </script>
 

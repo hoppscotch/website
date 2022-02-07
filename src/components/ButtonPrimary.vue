@@ -1,6 +1,6 @@
 
 <script setup lang="ts">
-import { computed } from "vue"
+import { computed } from 'vue'
 
 const props = withDefaults(
   defineProps<{
@@ -20,13 +20,13 @@ const props = withDefaults(
     outline: boolean
     shortcut: string[]
   }>(), {
-    to: "",
+    to: '',
     exact: false,
     blank: false,
-    label: "",
-    description: "",
-    icon: "",
-    infoIcon: "",
+    label: '',
+    description: '',
+    icon: '',
+    infoIcon: '',
     reverse: false,
     rounded: false,
     loading: false,
@@ -39,16 +39,16 @@ const props = withDefaults(
 )
 
 const linkMode = computed(() => {
-  if (!props.to) return "button"
-  if (props.blank) return "anchor"
-  if (/^\/(?!\/).*$/.test(props.to)) return "router-link"
-  return "anchor"
+  if (!props.to) return 'button'
+  if (props.blank) return 'anchor'
+  if (/^\/(?!\/).*$/.test(props.to)) return 'router-link'
+  return 'anchor'
 })
 
 const computedComponent = computed(() => {
-  if (linkMode.value === "anchor") return "a"
-  if (linkMode.value === "router-link") return "router-link"
-  return "anchor"
+  if (linkMode.value === 'anchor') return 'a'
+  if (linkMode.value === 'router-link') return 'router-link'
+  return 'anchor'
 })
 </script>
 

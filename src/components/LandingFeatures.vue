@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { features } from "~/assets/data/landingFeatures"
+import { features } from '~/assets/data/landingFeatures'
 const { t } = useI18n()
 </script>
 

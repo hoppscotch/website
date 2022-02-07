@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import x from "~icons/lucide/x"
-import menu from "~icons/lucide/menu"
+import x from '~icons/lucide/x'
+import menu from '~icons/lucide/menu'
 const showMenu = ref(false)
 const { t } = useI18n()
 </script>

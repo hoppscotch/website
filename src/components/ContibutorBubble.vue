@@ -7,10 +7,10 @@ withDefaults(
     size: string
   }>(),
   {
-    name: "",
-    image: "",
-    link: "",
-    size: "w-16 h-16",
+    name: '',
+    image: '',
+    link: '',
+    size: 'w-16 h-16',
   },
 )
 </script>

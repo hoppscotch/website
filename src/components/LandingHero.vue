@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { isDark } from "~/composables"
+import { isDark } from '~/composables'
 const { t } = useI18n()
 </script>
 

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { navigation } from "~/assets/data/mobileNavigation"
+import { navigation } from '~/assets/data/mobileNavigation'
 const { t } = useI18n()
 </script>
 

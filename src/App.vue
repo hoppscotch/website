@@ -3,9 +3,9 @@
 // you can use this to manipulate the document head in any components,
 // they will be rendered correctly in the html results with vite-ssg
 useHead({
-  title: "Hoppscotch",
+  title: 'Hoppscotch',
   meta: [
-    { name: "description", content: "Open source API development ecosystem" },
+    { name: 'description', content: 'Open source API development ecosystem' },
   ],
 })
 </script>
