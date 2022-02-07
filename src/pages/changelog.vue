@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col">
-    <FeaturesTree />
+    <ChangelogTree />
   </div>
 </template>
 

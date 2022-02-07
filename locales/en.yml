@@ -244,10 +244,10 @@ protocols:
         MQTT:
           title: MQTT (Message Queuing Telemetry Transport)
           description: Once connected to the MQTT server, You can either publish a message under a topic or subscribe to a topic to get messages pertaining to that topic being sent across the server in real-time.
-features:
+changelog:
   hero:
-    heading: Features
-    subheading: Some two line para about features of Hoppscotch.
+    heading: Changelog
+    subheading: Some two line para about changelogs of Hoppscotch.
   items:
     snappy:
       title: Lightweight and snappy
