@@ -4,15 +4,15 @@ const { t } = useI18n()
 
 <template>
   <div class="flex flex-col px-8 py-16">
-    <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+    <div class="grid gap-8 grid-cols-1 md:grid-cols-2">
       <a
-        class="inline-flex flex-col p-8 transition bg-gradient-to-r rounded-xl from-indigo-800 to-indigo-600/20 text-accentContrast group dark:to-indigo-900/20"
+        class="inline-flex flex-col p-8 bg-gradient-to-r rounded-xl from-indigo-800 to-indigo-600/20 text-accentContrast transition group dark:to-indigo-900/20"
         href="https://hoppscotch.io/twitter"
         target="_blank"
         rel="noopener noreferrer"
       >
         <i class="text-3xl">
-          <logos-twitter class="transition origin-center transform group-hover:rotate-12" />
+          <logos-twitter class="transform origin-center transition group-hover:rotate-12" />
         </i>
         <div class="flex-grow">
           <h2 class="flex mt-4 mb-2 text-lg font-semibold">
@@ -24,13 +24,13 @@ const { t } = useI18n()
         </div>
       </a>
       <a
-        class="inline-flex flex-col p-8 transition bg-gradient-to-r rounded-xl from-gray-800 to-gray-600/20 text-accentContrast group dark:to-gray-800/20"
+        class="inline-flex flex-col p-8 bg-gradient-to-r rounded-xl from-gray-800 to-gray-600/20 text-accentContrast transition group dark:to-gray-800/20"
         href="https://hoppscotch.io/discord"
         target="_blank"
         rel="noopener noreferrer"
       >
         <i class="text-3xl">
-          <logos-discord-icon class="transition origin-center transform group-hover:rotate-12" />
+          <logos-discord-icon class="transform origin-center transition group-hover:rotate-12" />
         </i>
         <div class="flex-grow">
           <h2 class="flex mt-4 mb-2 text-lg font-semibold">

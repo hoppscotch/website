@@ -19,7 +19,7 @@ const { t } = useI18n()
       <div
         v-for="(platform, index) in platforms"
         :key="`platform-${index}`"
-        class="inline-flex flex-col p-8 transition rounded-xl bg-light-200 dark:bg-dark-800 dark:text-accentContrast "
+        class="inline-flex flex-col p-8 bg-primaryLight rounded-xl transition"
       >
         <i class="text-3xl text-accentLight">
           <component :is="platform.icon" />
