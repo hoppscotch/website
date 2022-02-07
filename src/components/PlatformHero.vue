@@ -9,7 +9,7 @@ const { t } = useI18n()
       <h1
         class="max-w-2xl my-4 text-3xl font-black leading-none text-center text-secondaryDark transition md:text-4xl lg:text-5xl"
       >
-        {{ t("platforms.hero.heading_line_1") }}
+        {{ t("platforms.hero.heading") }}
       </h1>
       <p class="max-w-md my-4 text-lg text-center md:w-3/5">
         {{ t("platforms.hero.subheading") }}

@@ -22,7 +22,7 @@ const { t } = useI18n()
           </span>
         </span>
         <span
-          class="flex px-4 py-3 items-center justify-center font-semibold transition text-accent group-hover:text-accentDark"
+          class="flex items-center justify-center px-4 py-3 font-semibold transition text-accent group-hover:text-accentDark"
         >
           <span class="md:hidden">
             {{ t("home.announcement.short_link_text") }}

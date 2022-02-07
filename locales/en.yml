@@ -39,11 +39,11 @@ home:
     title: Empowering developers to build better products
   announcement:
     long_description: Hoppscotch raises $3M in seed round
-    short_description: Hoppscotch raises $3M in seed
+    short_description: Hoppscotch raises $3M
     long_link_text: Read accouncement
     short_link_text: Read
   hero:
-    heading_line_1: The fastest way to
+    heading: The fastest way to
     heading_line_2: Build, Test and Share APIs
     subheading: Millions of developers and companies build, ship, and maintain their APIs on Hoppscotch.
     stats:
@@ -135,7 +135,7 @@ header:
         3:
           name: We built Checkout so you don\'t have to
     pricing:
-     title: Pricing
+      title: Pricing
 footer:
   solutions:
     title: Solutions
@@ -166,26 +166,26 @@ footer:
       blog: Blog
       support: Support
 platforms:
-    hero:
-      heading_line_1: Platforms
-      subheading: Some two line para about Platforms where Hoppscotch are available.
-    items:
-      web:
-        title: Web
-        description: Lightweight and Fast web interface providing all the functionality needed for API developers with minimalist, unobtrusive UI with PWA feature.  
-      cli:
-        title: CLI
-        description: Inspired by the command line interface, your tools are unified as commands, and follow the same structure to make you more productive. 
-      extension:
-        title: Embeds
-        description: Overrides CORS restrictions for cross-origin requests (it allows requests against localhost).
-      native:
-        title: Native
-        description: Native applications for Mac, PC and Linux.
+  hero:
+    heading: Platforms
+    subheading: Some two line para about platforms where Hoppscotch are available.
+  items:
+    web:
+      title: Web
+      description: Lightweight and Fast web interface providing all the functionality needed for API developers with minimalist, unobtrusive UI with PWA feature.
+    cli:
+      title: CLI
+      description: Inspired by the command line interface, your tools are unified as commands, and follow the same structure to make you more productive.
+    extension:
+      title: Embeds
+      description: Overrides CORS restrictions for cross-origin requests (it allows requests against localhost).
+    native:
+      title: Native
+      description: Native applications for Mac, PC and Linux.
 protocols:
   hero:
-    heading_line_1: Features
-    subheading: Some two line para about Features of Hoppscotch.
+    heading: Features
+    subheading: Some two line para about protocols of Hoppscotch.
   items:
     rest:
       title: RESTful platform
@@ -193,19 +193,19 @@ protocols:
       methods:
         choosingMethod:
           title: Choosing Method
-          description: User can select from any methods like GET, POST, PUT, DELETE, PATCH etc. 
+          description: User can select from any methods like GET, POST, PUT, DELETE, PATCH etc.
         collections:
           title: Collections
           description: Click on the save button, next to SEND, name your request and add to existing or new collections.
         dynamicBehavior:
           title: Adding dynamic behavior to requests
-          description: The editor allows you to add dynamic behaviour to requests and collections.This lets you add parameters, Headers, Authentication, build pre-request scripts and write tests. 
+          description: The editor allows you to add dynamic behaviour to requests and collections.This lets you add parameters, Headers, Authentication, build pre-request scripts and write tests.
         responseBody:
           title: Response body
-          description: The response from the API endpoint can be viewed here. You can download or copy the response for further use. 
+          description: The response from the API endpoint can be viewed here. You can download or copy the response for further use.
         environments:
           title: Environments
-          description: Environment variables allow you to store and reuse values in your requests and scripts   
+          description: Environment variables allow you to store and reuse values in your requests and scripts
     graphql:
       title: GraphQL
       description: GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API.
@@ -221,7 +221,7 @@ protocols:
           description: You can view the schema of GraphQL Endpoint that you’ve connected to in this panel. The Schema can be downloaded as a JSON file or copied to your clipboard.
         queries:
           title: Queries
-          description: Any Queries to be made to the GraphQL endpoint are typed out in this section, there is an inbuilt formatter that Prettifies the Query. 
+          description: Any Queries to be made to the GraphQL endpoint are typed out in this section, there is an inbuilt formatter that Prettifies the Query.
         response:
           title: Response
           description: The response returned by the endpoint on your query is displayed at the end of the page, this can be copied to your clipboard or exported as a JSON file.
@@ -236,7 +236,7 @@ protocols:
           description: Just Like Rest API collections, Hoppscotch lets you organize your GraphQL queries in collections.You can Import existing collections(JSON) to replace current collection, or preserve current collection as well as add new collection from your sources. Collections can be Exported as JSON as well.
     realtime:
       title: Realtime platform
-      description: Hoppscotch helps you develop Real-time web apps that require persistent connection between the server and client.   
+      description: Hoppscotch helps you develop Real-time web apps that require persistent connection between the server and client.
       methods:
         websocket:
           title: WebSockets
@@ -244,6 +244,38 @@ protocols:
         MQTT:
           title: MQTT (Message Queuing Telemetry Transport)
           description: Once connected to the MQTT server, You can either publish a message under a topic or subscribe to a topic to get messages pertaining to that topic being sent across the server in real-time.
+features:
+  hero:
+    heading: Features
+    subheading: Some two line para about features of Hoppscotch.
+  items:
+    snappy:
+      title: Lightweight and snappy
+      description: Designed to be seamless and instant. Make an API request and hit "Send" to simply get it's response in milliseconds.
+    browser:
+      title: Directly from browser
+      description: No need to switch back-and-forth between multiple apps. Build, test, and share APIs in the browser.
+    open:
+      title: Open source community
+      description: Hoppscotch is built on top of open source technologies. We are a community of developers who believe in the power of open source.
+    community:
+      title: Be part of the story
+      description: We listen to our community and build Hoppscotch in collaboration with developers, to build the best product and developer experience across the platform.
+    contribution:
+      title: Build what you’ve always wanted
+      description: Start building your perfect APIs with the Hoppscotch platform, and streamline your workflows.
+    productivity:
+      title: One up your productivity
+      description: Everything you’ve asked for, in one place. Build, test and share APIs with your teams. Get started with the integrated developer tools in Hoppscotch and build your first API in no time.
+    teams:
+      title: Built for teams
+      description: Have all your teams in one shared workspace. Synchronized in real-time across all users. Collaborate with your team and share your APIs in real-time.
+    modes:
+      title: Light and dark UI
+      description: We have multiple themes and accent colors. Use light or dark, your choice. Customizable combinations for background, foreground, and accent colors.
+    keyboard:
+      title: Keyboard first design
+      description: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
 error:
   404: "Page not found"
 action:
