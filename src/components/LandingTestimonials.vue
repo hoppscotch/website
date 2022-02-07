@@ -12,9 +12,9 @@ const { t } = useI18n()
         {{ t("home.testimonials.title") }}
       </h1>
     </div>
-    <div class="flex flex-wrap mt-8">
+    <div class="mt-8 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       <div
-        v-for="(testimonialBlock, testimonialBlockIndex) in testimonials" :key="`testimonial-${testimonialBlockIndex}`" class="flex flex-col w-full px-2 md:w-1/2 lg:w-1/3"
+        v-for="(testimonialBlock, testimonialBlockIndex) in testimonials" :key="`testimonial-${testimonialBlockIndex}`" class="flex flex-col flex-1"
         :class="{
           'hidden lg:flex': testimonialBlockIndex === 2
         }"

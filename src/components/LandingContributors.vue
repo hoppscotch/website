@@ -8,7 +8,7 @@ const randomContributors = computed(() => contributors.sort(() => Math.random() 
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <h2
-        class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl font-black leading-none text-center text-secondaryDark transition md:text-4xl lg:text-5xl"
       >
         {{ t("home.contributors.title") }}
       </h2>
@@ -16,7 +16,7 @@ const randomContributors = computed(() => contributors.sort(() => Math.random() 
         {{ t("home.contributors.description") }}
       </p>
     </div>
-    <div class="mt-8 grid grid-cols-5 gap-4 md:grid-cols-8 lg:grid-cols-10">
+    <div class="mt-8 grid gap-4 grid-cols-5 md:grid-cols-8 lg:grid-cols-10">
       <a
         v-for="(contributor, index) in randomContributors"
         :key="index"
@@ -29,7 +29,7 @@ const randomContributors = computed(() => contributors.sort(() => Math.random() 
           :src="contributor.image"
           :username="contributor.username"
           loading="lazy"
-          class="object-cover rounded-full shadow-inner transition ring-dividerDark contributor-bubble hover:ring-4"
+          class="object-cover rounded-full shadow-inner bg-primaryDark ring-dividerDark transition contributor-bubble hover:ring-4"
           :class="`contributor-bubble-${index+1}`"
         >
       </a>
