@@ -14,7 +14,7 @@ const { t } = useI18n()
     </div>
     <div class="mt-8 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       <div
-        v-for="(testimonialBlock, testimonialBlockIndex) in testimonials" :key="`testimonial-${testimonialBlockIndex}`" class="flex flex-col flex-1"
+        v-for="(testimonialBlock, testimonialBlockIndex) in testimonials" :key="`testimonial-${testimonialBlockIndex}`" class="flex flex-col flex-1 grid gap-4 grid-cols-1"
         :class="{
           'hidden lg:flex': testimonialBlockIndex === 2
         }"
@@ -24,17 +24,19 @@ const { t } = useI18n()
           :href="testimonial.link"
           target="_blank"
           rel="noopener noreferrer"
-          class="flex flex-col w-full p-4 mb-4 rounded-lg shadow bg-primaryLight transition group hover:shadow-md"
+          class="flex flex-col w-full p-8 rounded-lg shadow bg-primaryLight transition group hover:shadow-md"
         >
           <div class="flex items-center w-full mb-4">
-            <img :src="testimonial.picture" :alt="testimonial.username" class="w-10 h-10 rounded-full shadow-inner bg-primaryDark transition">
+            <img :src="testimonial.picture" :alt="testimonial.username" class="flex flex-shrink-0 w-10 h-10 rounded-full shadow-inner bg-primaryDark transition">
             <div class="flex-grow pl-4">
-              <h6 class="font-bold text-secondaryDark">
-                {{ testimonial.author }}
-              </h6>
+              <div class="flex items-center justify-between">
+                <h6 class="font-bold text-secondaryDark">
+                  {{ testimonial.author }}
+                </h6>
+                <component :is="testimonial.icon" />
+              </div>
               <span class="text-xs text-secondaryLight">{{ testimonial.username }}</span>
             </div>
-            <component :is="testimonial.icon" />
           </div>
           <p class="w-full text-xs text-secondary transition group-hover:text-secondaryDark">
             {{ testimonial.text }}
