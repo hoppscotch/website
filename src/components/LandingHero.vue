@@ -11,7 +11,6 @@ const { t } = useI18n()
         class="max-w-2xl my-4 text-5xl font-black leading-none text-center transition text-secondaryDark md:text-6xl lg:text-7xl"
       >
         {{ t("home.hero.heading_line_1") }}
-        <br>
         <span
           class="text-transparent transition bg-clip-text bg-gradient-to-br from-gradientFrom via-gradientVia to-gradientTo"
         >

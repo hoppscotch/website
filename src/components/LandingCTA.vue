@@ -9,7 +9,6 @@ const { t } = useI18n()
         class="max-w-2xl my-4 text-3xl font-black leading-none text-center text-secondaryDark transition md:text-4xl lg:text-5xl"
       >
         {{ t("home.cta.title") }}
-        <br>
       </h1>
       <p class="max-w-md my-4 text-lg text-center md:w-3/5">
         {{ t("home.cta.description") }}

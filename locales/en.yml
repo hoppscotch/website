@@ -56,6 +56,8 @@ home:
   cta:
     title: Ready for take-off?
     description: Get started with the Hoppscotch app, and take your API development process to the next level.
+  testimonials:
+    title: Loved by product people
   social:
     twitter:
       title: Stay up to date

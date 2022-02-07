@@ -6,6 +6,7 @@
     <LandingUsers />
     <LandingFeatures />
     <LandingContributors />
+    <LandingTestimonials />
     <LandingCTA />
     <LandingSocial />
   </div>

@@ -7,20 +7,19 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <h1
-        class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl font-black leading-none text-center text-secondaryDark transition md:text-4xl lg:text-5xl"
       >
         {{ t("platforms.hero.heading_line_1") }}
-        <br>
       </h1>
       <p class="max-w-md my-4 text-lg text-center md:w-3/5">
         {{ t("platforms.hero.subheading") }}
       </p>
     </div>
-    <div class="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
+    <div class="mt-8 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
       <div
         v-for="(platform, index) in platforms"
         :key="`platform-${index}`"
-        class="inline-flex flex-col p-8 rounded-xl bg-light-200 dark:bg-dark-800 dark:text-accentContrast "
+        class="inline-flex flex-col p-8 transition rounded-xl bg-light-200 dark:bg-dark-800 dark:text-accentContrast "
       >
         <i class="text-3xl text-accentLight">
           <component :is="platform.icon" />
@@ -33,7 +32,7 @@ const { t } = useI18n()
             {{ t(platform.description) }}
           </p>
           <p class="mt-2">
-            <router-link :to="platform.link.target" class="inline-flex items-center transition text-accent hover:text-accentDark">
+            <router-link :to="platform.link.target" class="inline-flex items-center text-accent transition hover:text-accentDark">
               <span class="mr-2">
                 {{ t(platform.link.title) }}
               </span>
