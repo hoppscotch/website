@@ -180,13 +180,13 @@ platforms:
       native:
         title: Native
         description: Native applications for Mac, PC and Linux.
-features:
+protocols:
   hero:
     heading_line_1: Features
     subheading: Some two line para about Features of Hoppscotch.
-  featureLists:
-    restAPI:
-      title: RestAPI platform
+  items:
+    rest:
+      title: RESTful platform
       description: You can make API requests and examine responses using Hoppscotch. An API request allows you to retrieve or send data to and from an API endpoint.
       methods:
         choosingMethod:
@@ -204,7 +204,7 @@ features:
         environments:
           title: Environments
           description: Environment variables allow you to store and reuse values in your requests and scripts   
-    graphQL:
+    graphql:
       title: GraphQL
       description: GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API.
       methods:

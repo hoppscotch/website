@@ -46,19 +46,19 @@ export const navigation = [
     links: [
       {
         name: 'footer.protocols.links.rest',
-        link: '/about',
+        link: '/protocols/rest',
       },
       {
         name: 'footer.protocols.links.graphql',
-        link: '/about/jobs',
+        link: '/protocols/graphql',
       },
       {
         name: 'footer.protocols.links.realtime',
-        link: '/about/integrations',
+        link: '/protocols/realtime',
       },
       {
         name: 'footer.protocols.links.grpc',
-        link: '',
+        link: '/protocols/grpc',
       },
     ],
   },
