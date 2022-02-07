@@ -18,7 +18,7 @@ const { t } = useI18n()
           <h2 class="flex mt-4 mb-2 text-lg font-semibold">
             {{ t('home.social.twitter.title') }}
           </h2>
-          <p class="flex w-4/5 transition opacity-60 group-hover:opacity-80">
+          <p class="flex w-4/5 opacity-50 transition group-hover:opacity-75">
             {{ t('home.social.twitter.description') }}
           </p>
         </div>
@@ -36,7 +36,7 @@ const { t } = useI18n()
           <h2 class="flex mt-4 mb-2 text-lg font-semibold">
             {{ t('home.social.discord.title') }}
           </h2>
-          <p class="flex w-4/5 transition opacity-60 group-hover:opacity-80">
+          <p class="flex w-4/5 opacity-50 transition group-hover:opacity-75">
             {{ t('home.social.discord.description') }}
           </p>
         </div>

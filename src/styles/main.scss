@@ -1,4 +1,5 @@
 @import "./markdown.css";
+@import "./themes.scss";
 
 * {
   @apply backface-hidden;
@@ -27,57 +28,6 @@ html {
   @apply transition;
   @apply bg-primary;
   @apply text-secondary;
-}
-
-@mixin lightMode {
-  --color-primary: theme("colors.white");
-  --color-primaryLight: theme("colors.light.500");
-  --color-primaryDark: theme("colors.light.700");
-
-  --color-secondary: theme("colors.true-gray.700");
-  --color-secondaryLight: theme("colors.true-gray.500");
-  --color-secondaryDark: theme("colors.true-gray.800");
-
-  --color-divider: theme("colors.light.600");
-  --color-dividerLight: theme("colors.light.400");
-  --color-dividerDark: theme("colors.light.800");
-
-  --color-tooltip: theme("colors.white");
-  --color-tooltipSecondary: theme("colors.true-gray.600");
-}
-
-@mixin darkMode {
-  --color-primary: theme("colors.dark.900");
-  --color-primaryLight: theme("colors.dark.400");
-  --color-primaryDark: theme("colors.dark.800");
-
-  --color-secondary: theme("colors.true-gray.300");
-  --color-secondaryLight: theme("colors.true-gray.500");
-  --color-secondaryDark: theme("colors.white");
-
-  --color-divider: theme("colors.dark.400");
-  --color-dividerLight: theme("colors.dark.500");
-  --color-dividerDark: theme("colors.dark.300");
-
-  --color-tooltip: theme("colors.dark.600");
-  --color-tooltipSecondary: theme("colors.true-gray.400");
-}
-
-html {
-  @include lightMode;
-
-  --color-accent: theme("colors.green.600");
-  --color-accentLight: theme("colors.green.400");
-  --color-accentDark: theme("colors.green.800");
-  --color-accentContrast: theme("colors.white");
-
-  --color-gradientFrom: 16, 185, 129;
-  --color-gradientVia: 16, 185, 129;
-  --color-gradientTo: 4, 120, 87;
-}
-
-html.dark {
-  @include darkMode;
 }
 
 body {
@@ -114,7 +64,7 @@ textarea::placeholder {
 }
 
 #nprogress .bar {
-  @apply bg-teal-600 opacity-75;
+  @apply bg-accentLight opacity-75;
 
   position: fixed;
   z-index: 1031;
@@ -160,10 +110,19 @@ textarea::placeholder {
 
 .shortcut-key {
   @apply inline-flex;
-  @apply bg-divider;
-  @apply rounded;
+  @apply items-center;
+  @apply justify-center;
+  @apply bg-dividerLight;
+  @apply text-secondaryLight;
+  @apply text-xs;
+  @apply font-sans;
+  @apply font-medium;
+  @apply rounded-full;
   @apply ml-2;
-  @apply px-1;
+  @apply px-2;
+  @apply transition;
+  @apply border;
+  @apply border-dividerDark;
 }
 
 a {

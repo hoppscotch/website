@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { features } from '~/assets/data/featuresList'
+import { features } from "~/assets/data/featuresList"
 const { t } = useI18n()
 const router = useRouter()
 const props = defineProps<{ id: string }>()
-const singleFeature = features.find(feature => t(feature.title).toLocaleLowerCase().replaceAll(' ', '-') === props.id.toLocaleLowerCase())
+const singleFeature = features.find(feature => t(feature.title).toLocaleLowerCase().replaceAll(" ", "-") === props.id.toLocaleLowerCase())
 </script>
 
 <template>
@@ -13,7 +13,7 @@ const singleFeature = features.find(feature => t(feature.title).toLocaleLowerCas
   </div>
   <div v-else class="px-4 py-10 text-center text-teal-700 dark:text-gray-200">
     <div>
-      <p class="text-4xl my-8">
+      <p class="my-8 text-4xl">
         <lucide-lightbulb class="inline-block" />
       </p>
     </div>

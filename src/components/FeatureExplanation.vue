@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { isDark } from '~/composables'
-import book from '~icons/lucide/book-open'
+import { isDark } from "~/composables"
+import book from "~icons/lucide/book-open"
 const { t } = useI18n()
 
 withDefaults(
@@ -18,17 +18,17 @@ withDefaults(
     link?: string
   }>(),
   {
-    methods: [
+    methods: () => [
       {
-        title: '',
-        description: '',
-        imageDark: '',
-        imageLight: '',
-        videoLink: '',
-        link: '',
+        title: "",
+        description: "",
+        imageDark: "",
+        imageLight: "",
+        videoLink: "",
+        link: "",
       },
     ],
-    link: '',
+    link: "",
   },
 )
 
@@ -37,7 +37,7 @@ withDefaults(
 <template>
   <div class="flex flex-col px-8 py-16">
     <div v-if="methods[0].title">
-      <div v-for="(method,index) in methods" :key="index" class="flex flex-col justify-between gap-20 items-start my-50" :class="index%2 === 0 ? 'sm:flex-row-reverse' : 'sm:flex-row'">
+      <div v-for="(method,index) in methods" :key="index" class="flex flex-col items-start justify-between my-50 gap-20" :class="index%2 === 0 ? 'sm:flex-row-reverse' : 'sm:flex-row'">
         <div class="basis-1/2">
           <h2 class="text-3xl">
             {{ t(method.title) }}
@@ -57,15 +57,15 @@ withDefaults(
           </p>
         </div>
         <div class="w-full basis-1/2 ">
-          <img v-if="method.imageDark" :src="isDark ? method.imageDark : method.imageLight" :alt="t(method.title)" class="h-full w-full object-cover object-center transition shadow-sm rounded-lg">
-          <video v-if="method.videoLink" class="h-full max-w-full object-cover object-center transition rounded-lg" muted controls>
+          <img v-if="method.imageDark" :src="isDark ? method.imageDark : method.imageLight" :alt="t(method.title)" class="object-cover object-center w-full h-full rounded-lg shadow-sm transition">
+          <video v-if="method.videoLink" class="object-cover object-center h-full max-w-full rounded-lg transition" muted controls>
             <source :src="method.videoLink" type="video/mp4">
             <source :src="method.videoLink" type="video/webm">
           </video>
         </div>
       </div>
     </div>
-    <div class="flex justify-center items-center gap-4">
+    <div class="flex items-center justify-center gap-4">
       <ButtonSecondary label="See Documentation" :icon="book" blank :to="link" />
       <ButtonPrimary label="Open App" blank to="https:www.hoppscotch.io" />
     </div>

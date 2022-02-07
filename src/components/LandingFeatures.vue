@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { features } from '~/assets/data/landingFeatures'
+import { features } from "~/assets/data/landingFeatures"
 const { t } = useI18n()
 </script>
 
@@ -7,7 +7,7 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <p
-        class="my-4 font-semibold tracking-widest text-center uppercase text-accent"
+        class="my-4 font-semibold tracking-widest text-center uppercase text-accentLight"
       >
         {{ t("home.features.title") }}
       </p>
@@ -23,14 +23,14 @@ const { t } = useI18n()
         :key="`feature-${index}`"
         class="inline-flex flex-col p-8 rounded-xl bg-light-200 dark:bg-dark-800 dark:text-accentContrast "
       >
-        <i class="text-3xl text-accent">
+        <i class="text-3xl text-accentLight">
           <component :is="feature.icon" />
         </i>
         <div class="flex flex-col flex-1">
           <h2 class="flex mt-4 mb-2 text-lg font-semibold">
             {{ t(feature.title) }}
           </h2>
-          <p class="flex flex-1 opacity-60">
+          <p class="flex flex-1 opacity-75">
             {{ t(feature.description) }}
           </p>
         </div>

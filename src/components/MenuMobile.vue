@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { navigation } from '~/assets/data/mobileNavigation'
+import { navigation } from "~/assets/data/mobileNavigation"
 const { t } = useI18n()
 </script>
 
@@ -40,7 +40,7 @@ const { t } = useI18n()
         />
         <div class="flex justify-center p-4 rounded-lg space-x-4 transition bg-primaryDark">
           <ButtonSecondary to="https://github.com/hoppscotch/hoppscotch" blank label="GitHub" outline />
-          <ButtonPrimary to="https://hoppscotch.io" :label="t('button.open-app')" outline />
+          <ButtonPrimary to="https://hoppscotch.io" :label="t('action.open_app')" outline />
         </div>
       </div>
     </nav>

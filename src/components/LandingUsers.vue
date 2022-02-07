@@ -1,17 +1,17 @@
 <script setup lang="ts">
-import { users } from '~/assets/data/landingUsers'
-import { isDark } from '~/composables'
+import { users } from "~/assets/data/landingUsers"
+import { isDark } from "~/composables"
 const { t } = useI18n()
 </script>
 
 <template>
   <div class="flex flex-col px-8 py-16">
     <p
-      class="my-4 font-semibold tracking-widest text-center uppercase text-accent"
+      class="my-4 font-semibold tracking-widest text-center uppercase text-accentLight"
     >
       {{ t("home.users.title") }}
     </p>
-    <div class="mx-auto mt-8 grid grid-cols-3 gap-4 md:grid-cols-4 lg:grid-cols-6 lg:max-w-4xl">
+    <div class="mx-auto mt-8 grid gap-4 grid-cols-3 md:grid-cols-4 lg:max-w-4xl lg:grid-cols-6">
       <div
         v-for="(user, index) in users"
         :key="`user-${index}`"

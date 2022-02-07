@@ -1,6 +1,6 @@
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed } from "vue"
 
 const props = withDefaults(
   defineProps<{
@@ -20,13 +20,13 @@ const props = withDefaults(
     outline: boolean
     shortcut: string[]
   }>(), {
-    to: '',
+    to: "",
     exact: false,
     blank: false,
-    label: '',
-    description: '',
-    icon: '',
-    infoIcon: '',
+    label: "",
+    description: "",
+    icon: "",
+    infoIcon: "",
     reverse: false,
     rounded: false,
     loading: false,
@@ -39,16 +39,16 @@ const props = withDefaults(
 )
 
 const linkMode = computed(() => {
-  if (!props.to) return 'button'
-  if (props.blank) return 'anchor'
-  if (/^\/(?!\/).*$/.test(props.to)) return 'router-link'
-  return 'anchor'
+  if (!props.to) return "button"
+  if (props.blank) return "anchor"
+  if (/^\/(?!\/).*$/.test(props.to)) return "router-link"
+  return "anchor"
 })
 
 const computedComponent = computed(() => {
-  if (linkMode.value === 'anchor') return 'a'
-  if (linkMode.value === 'router-link') return 'router-link'
-  return 'anchor'
+  if (linkMode.value === "anchor") return "a"
+  if (linkMode.value === "router-link") return "router-link"
+  return "anchor"
 })
 </script>
 
@@ -58,7 +58,7 @@ const computedComponent = computed(() => {
     v-bind="$attrs"
     :href="props.to"
     :to="props.to"
-    class="inline-flex items-center justify-center py-2 font-bold cursor-pointer transition bg-primaryLight text-secondaryDark hover:bg-primaryDark focus:outline-none focus-visible:bg-primaryDark"
+    class="inline-flex items-center justify-center py-2 font-bold cursor-pointer bg-primaryLight text-secondaryDark transition hover:bg-primaryDark focus:outline-none focus-visible:bg-primaryDark"
     :class="[
       label ? 'px-4' : 'px-2',
       rounded ? 'rounded-full' : 'rounded-lg',
@@ -92,7 +92,7 @@ const computedComponent = computed(() => {
         <kbd
           v-for="(key, index) in shortcut"
           :key="`key-${index}`"
-          class="shortcut-key !bg-accentLight"
+          class="shortcut-key"
         >
           {{ key }}
         </kbd>

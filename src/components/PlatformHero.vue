@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { platforms } from '~/assets/data/platformsList'
+import { platforms } from "~/assets/data/platformsList"
 const { t } = useI18n()
 </script>
 
@@ -22,14 +22,14 @@ const { t } = useI18n()
         :key="`platform-${index}`"
         class="inline-flex flex-col p-8 rounded-xl bg-light-200 dark:bg-dark-800 dark:text-accentContrast "
       >
-        <i class="text-3xl text-accent">
+        <i class="text-3xl text-accentLight">
           <component :is="platform.icon" />
         </i>
         <div class="flex flex-col flex-1">
           <h2 class="flex mt-4 mb-2 text-lg font-semibold">
             {{ t(platform.title) }}
           </h2>
-          <p class="flex flex-1 opacity-60">
+          <p class="flex flex-1 opacity-75">
             {{ t(platform.description) }}
           </p>
           <p class="mt-2">

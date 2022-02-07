@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { contributors } from '~/assets/data/landingContributors'
+import { contributors } from "~/assets/data/landingContributors"
 const { t } = useI18n()
 const randomContributors = computed(() => contributors.sort(() => Math.random() - 0.5))
 </script>

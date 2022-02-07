@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { platforms } from '~/assets/data/menuPlatform'
-import { guides } from '~/assets/data/menuGuides'
+import { platforms } from "~/assets/data/menuPlatform"
+import { guides } from "~/assets/data/menuGuides"
 const { t } = useI18n()
 </script>
 
@@ -22,7 +22,7 @@ const { t } = useI18n()
       </h4>
       <ul class="flex flex-col text-xs space-y-2">
         <li v-for="(guide, guideIndex) in guides" :key="`guide-${guideIndex}`">
-          <router-link :to="guide.link" class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark">
+          <router-link :to="guide.link" class="inline-flex items-center text-secondaryLight transition hover:text-secondaryDark">
             <span class="mr-2">
               {{ t(guide.title) }}
             </span>
@@ -30,7 +30,7 @@ const { t } = useI18n()
           </router-link>
         </li>
         <li>
-          <router-link to="https://docs.hoppscotch.io/guides" class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark">
+          <router-link to="https://docs.hoppscotch.io/guides" class="inline-flex items-center text-secondaryLight transition hover:text-secondaryDark">
             <span class="mr-2">
               {{ t('header.menu.guide.read_more') }}
             </span>

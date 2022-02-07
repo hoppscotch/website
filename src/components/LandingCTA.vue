@@ -16,7 +16,7 @@ const { t } = useI18n()
       </p>
       <p class="flex my-4 text-center space-x-4">
         <ButtonSecondary to="https://github.com/hoppscotch/hoppscotch" blank label="GitHub" outline />
-        <ButtonPrimary to="https://hoppscotch.io" :label="t('button.open-app')" outline />
+        <ButtonPrimary to="https://hoppscotch.io" :label="t('action.open_app')" outline />
       </p>
       <p class="my-2 text-xs text-center text-secondaryLight">
         {{ t("home.hero.stats.1.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.2.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.3.title") }}

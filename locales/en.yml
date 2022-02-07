@@ -180,7 +180,6 @@ platforms:
       native:
         title: Native
         description: Native applications for Mac, PC and Linux.
-       
 features:
   hero:
     heading_line_1: Features
@@ -247,7 +246,6 @@ error:
   404: "Page not found"
 action:
   back: Back
-button:
   dark: Dark mode
   light: Light mode
-  open-app: Open App
+  open_app: Open app
