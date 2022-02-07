@@ -1,8 +1,8 @@
 <template>
-  <div class="flex items-center justify-center w-6 h-full">
-    <div class="w-1 h-full bg-blue-800 pointer-events-none" />
+  <div class="flex items-center justify-center w-4 h-full">
+    <div class="w-0.5 h-full transition rounded-full pointer-events-none bg-accent" />
   </div>
   <div
-    class="absolute w-6 h-6 -mt-3 bg-blue-500 rounded-full shadow top-1/2"
+    class="absolute w-4 h-4 -mt-2 rounded-full transition bg-accent top-12"
   />
 </template>
