@@ -71,16 +71,16 @@ header:
       links:
         1:
           name: Web
-          description: "Neque porro quisquam est qui dolorem ipsum"
+          description: Neque porro quisquam est qui dolorem ipsum
         2:
           name: CLI
-          description: "Neque porro quisquam est qui dolorem ipsum"
+          description: Neque porro quisquam est qui dolorem ipsum
         3:
           name: Embeds
-          description: "Neque porro quisquam est qui dolorem ipsum"
+          description: Neque porro quisquam est qui dolorem ipsum
         4:
           name: Native
-          description: "Neque porro quisquam est qui dolorem ipsum"
+          description: Neque porro quisquam est qui dolorem ipsum
     solutions:
       documentation: Documentation
       guides: Guides
@@ -88,22 +88,22 @@ header:
       links:
         1:
           name: Design
-          description: "Neque porro quisquam est qui dolorem ipsum"
+          description: Neque porro quisquam est qui dolorem ipsum
         2:
           name: Development
-          description: "Neque porro quisquam est qui dolorem ipsum"
+          description: Neque porro quisquam est qui dolorem ipsum
         3:
           name: Testing
-          description: "Neque porro quisquam est qui dolorem ipsum"
+          description: Neque porro quisquam est qui dolorem ipsum
         4:
           name: Documentation
-          description: "Neque porro quisquam est qui dolorem ipsum"
+          description: Neque porro quisquam est qui dolorem ipsum
         5:
           name: Deployment
-          description: "Neque porro quisquam est qui dolorem ipsum"
+          description: Neque porro quisquam est qui dolorem ipsum
         6:
           name: Maintanance
-          description: "Neque porro quisquam est qui dolorem ipsum"
+          description: Neque porro quisquam est qui dolorem ipsum
     company:
       links:
         1:
@@ -165,6 +165,13 @@ footer:
       careers: Careers
       blog: Blog
       support: Support
+  product:
+    title: Product
+    links:
+      changelog: Changelog
+      terms: Terms
+      privacy: Privacy
+      roadmap: Roadmap
 platforms:
   hero:
     heading: Platforms
@@ -247,37 +254,34 @@ protocols:
 changelog:
   hero:
     heading: Changelog
-    subheading: Some two line para about changelogs of Hoppscotch.
+    subheading: New updates and improvements to Hoppscotch.
   items:
-    snappy:
-      title: Lightweight and snappy
-      description: Designed to be seamless and instant. Make an API request and hit "Send" to simply get it's response in milliseconds.
-    browser:
-      title: Directly from browser
-      description: No need to switch back-and-forth between multiple apps. Build, test, and share APIs in the browser.
-    open:
-      title: Open source community
-      description: Hoppscotch is built on top of open source technologies. We are a community of developers who believe in the power of open source.
-    community:
-      title: Be part of the story
-      description: We listen to our community and build Hoppscotch in collaboration with developers, to build the best product and developer experience across the platform.
-    contribution:
-      title: Build what you’ve always wanted
-      description: Start building your perfect APIs with the Hoppscotch platform, and streamline your workflows.
-    productivity:
-      title: One up your productivity
-      description: Everything you’ve asked for, in one place. Build, test and share APIs with your teams. Get started with the integrated developer tools in Hoppscotch and build your first API in no time.
-    teams:
-      title: Built for teams
-      description: Have all your teams in one shared workspace. Synchronized in real-time across all users. Collaborate with your team and share your APIs in real-time.
-    modes:
-      title: Light and dark UI
-      description: We have multiple themes and accent colors. Use light or dark, your choice. Customizable combinations for background, foreground, and accent colors.
-    keyboard:
-      title: Keyboard first design
-      description: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+    single_collection:
+      title: Import and export single collection
+      description: Users can now export and import single collection from collection's menu.
+    snappy_teams:
+      title: Snappy teams and collections
+      description: Teams and collections are now faster and more intuitive.
+    improved_curl:
+      title: Improved code editors and cURL importer
+      description: Code editors now occupy full height of the section, and cURL importer now has a paste from clipboard button.
+    improved_env:
+      title: Improved environment variables in request section
+      description: Environment variables now respect mixed strings in endpoints and are more intuitive.
+    urlencoded:
+      title: Better URL encoded body type
+      description: Adding URL encoded body type now support key-value pairs and raw YAML editor.
+    updated_hungarian_translations:
+      title: Updated Hungarian translations
+      description: Translations are now updated to match the latest strings.
+    new_importer:
+      title: Added support to Postman and Insomnia collections
+      description: Collection importer now supports importing from Postman and Insomnia collections.
+    openapi_support:
+      title: Added support for OpenAPI
+      description: Hoppscotch now supports OpenAPI specifications.
 error:
-  404: "Page not found"
+  404: Page not found
 action:
   back: Back
   dark: Dark mode

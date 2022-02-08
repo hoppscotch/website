@@ -83,4 +83,25 @@ export const navigation = [
       },
     ],
   },
+  {
+    name: 'footer.product.title',
+    links: [
+      {
+        name: 'footer.product.links.changelog',
+        link: '/changelog',
+      },
+      {
+        name: 'footer.product.links.terms',
+        link: '/terms',
+      },
+      {
+        name: 'footer.product.links.privacy',
+        link: '/privacy',
+      },
+      {
+        name: 'footer.product.links.roadmap',
+        link: '/roadmap',
+      },
+    ],
+  },
 ]
