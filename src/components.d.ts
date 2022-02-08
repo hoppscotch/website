@@ -34,6 +34,8 @@ declare module 'vue' {
     MenuPlatform: typeof import('./components/MenuPlatform.vue')['default']
     MenuSolutions: typeof import('./components/MenuSolutions.vue')['default']
     PlatformHero: typeof import('./components/PlatformHero.vue')['default']
+    ProtocolAssetBlock: typeof import('./components/ProtocolAssetBlock.vue')['default']
+    ProtocolDetailBlock: typeof import('./components/ProtocolDetailBlock.vue')['default']
     SmartGradient: typeof import('./components/SmartGradient.vue')['default']
     SmartItem: typeof import('./components/SmartItem.vue')['default']
     SmartSpinner: typeof import('./components/SmartSpinner.vue')['default']
