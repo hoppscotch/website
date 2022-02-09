@@ -1,24 +1,72 @@
 import zap from '~icons/lucide/zap'
 import box from '~icons/lucide/box'
 import network from '~icons/lucide/network'
+import check from '~icons/lucide/check-circle'
 
 export const protocols = [
   {
     slug: 'rest',
     title: 'protocols.items.rest.title',
+    title2: 'protocols.items.rest.title2',
     description: 'protocols.items.rest.description',
     icon: zap,
     imageDark: 'https://docs.hoppscotch.io/guides/Illustration-dark.png',
     imageLight: 'https://docs.hoppscotch.io/guides/Illustration-light.png',
     link: 'https://docs.hoppscotch.io/rest',
-    methods: [
+    httpMethods: [
       {
-        title: 'protocols.items.rest.methods.choosingMethod.title',
-        description: 'protocols.items.rest.methods.choosingMethod.description',
-        imageDark: 'https://docs.hoppscotch.io/api/method-dark.png',
-        imageLight: 'https://docs.hoppscotch.io/api/method-light.png',
-        link: 'https://docs.hoppscotch.io/rest#choosing-method',
+        title: 'protocols.items.rest.http_methods.get.title',
+        description: 'protocols.items.rest.http_methods.get.description',
+        icon: check,
       },
+      {
+        title: 'protocols.items.rest.http_methods.post.title',
+        description: 'protocols.items.rest.http_methods.post.description',
+        icon: check,
+      },
+      {
+        title: 'protocols.items.rest.http_methods.put.title',
+        description: 'protocols.items.rest.http_methods.put.description',
+        icon: check,
+      },
+      {
+        title: 'protocols.items.rest.http_methods.delete.title',
+        description: 'protocols.items.rest.http_methods.delete.description',
+        icon: check,
+      },
+      {
+        title: 'protocols.items.rest.http_methods.head.title',
+        description: 'protocols.items.rest.http_methods.head.description',
+        icon: check,
+      },
+      {
+        title: 'protocols.items.rest.http_methods.connect.title',
+        description: 'protocols.items.rest.http_methods.connect.description',
+        icon: check,
+      },
+      {
+        title: 'protocols.items.rest.http_methods.options.title',
+        description: 'protocols.items.rest.http_methods.options.description',
+        icon: check,
+      },
+      {
+        title: 'protocols.items.rest.http_methods.trace.title',
+        description: 'protocols.items.rest.http_methods.trace.description',
+        icon: check,
+      },
+      {
+        title: 'protocols.items.rest.http_methods.patch.title',
+        description: 'protocols.items.rest.http_methods.patch.description',
+        icon: check,
+      },
+      {
+        title: 'protocols.items.rest.http_methods.custom.title',
+        description: 'protocols.items.rest.http_methods.custom.description',
+        icon: check,
+      },
+    ],
+    methods: [
+
       {
         title: 'protocols.items.rest.methods.collections.title',
         description: 'protocols.items.rest.methods.collections.description',
@@ -125,11 +173,31 @@ export const protocols = [
   {
     slug: 'realtime',
     title: 'protocols.items.realtime.title',
+    title2: 'protocols.items.realtime.title2',
     description: 'protocols.items.realtime.description',
     icon: network,
     imageDark: 'https://docs.hoppscotch.io/realtime/Realtime-dark.png',
     imageLight: 'https://docs.hoppscotch.io/realtime/Realtime-light.png',
     link: 'https://docs.hoppscotch.io/realtimesocket',
+    communicationProtocols: [
+      {
+        title: 'protocols.items.realtime.methods.websocket.title',
+        icon: check,
+      },
+      {
+        title: 'protocols.items.realtime.methods.sse.title',
+        icon: check,
+      },
+      {
+        title: 'protocols.items.realtime.methods.socket.title',
+        icon: check,
+      },
+      {
+        title: 'protocols.items.realtime.methods.mqtt.title',
+        icon: check,
+      },
+
+    ],
     methods: [
       {
         title: 'protocols.items.realtime.methods.websocket.title',
@@ -139,8 +207,51 @@ export const protocols = [
         link: 'https://docs.hoppscotch.io/realtimesocket#websockets',
       },
       {
-        title: 'protocols.items.realtime.methods.MQTT.title',
-        description: 'protocols.items.realtime.methods.MQTT.description',
+        title: 'protocols.items.realtime.methods.mqtt.title',
+        description: 'protocols.items.realtime.methods.mqtt.description',
+        videoLink: 'https://docs.hoppscotch.io/realtime/mqtt.webm',
+        link: 'https://docs.hoppscotch.io/realtimesocket#mqtt',
+      },
+    ],
+  },
+  {
+    slug: 'grpc',
+    title: 'protocols.items.grpc.title',
+    description: 'protocols.items.grpc.description',
+    icon: network,
+    imageDark: 'https://docs.hoppscotch.io/realtime/Realtime-dark.png',
+    imageLight: 'https://docs.hoppscotch.io/realtime/Realtime-light.png',
+    link: 'https://docs.hoppscotch.io/realtimesocket',
+    communicationProtocols: [
+      {
+        title: 'protocols.items.realtime.methods.websocket.title',
+        icon: check,
+      },
+      {
+        title: 'protocols.items.realtime.methods.sse.title',
+        icon: check,
+      },
+      {
+        title: 'protocols.items.realtime.methods.socket.title',
+        icon: check,
+      },
+      {
+        title: 'protocols.items.realtime.methods.mqtt.title',
+        icon: check,
+      },
+
+    ],
+    methods: [
+      {
+        title: 'protocols.items.realtime.methods.websocket.title',
+        description: 'protocols.items.realtime.methods.websocket.description',
+        imageDark: 'https://docs.hoppscotch.io/realtime/Websocket-dark.png',
+        imageLight: 'https://docs.hoppscotch.io/realtime/Websocket-light.png',
+        link: 'https://docs.hoppscotch.io/realtimesocket#websockets',
+      },
+      {
+        title: 'protocols.items.realtime.methods.mqtt.title',
+        description: 'protocols.items.realtime.methods.mqtt.description',
         videoLink: 'https://docs.hoppscotch.io/realtime/mqtt.webm',
         link: 'https://docs.hoppscotch.io/realtimesocket#mqtt',
       },
