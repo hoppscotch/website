@@ -39,7 +39,7 @@ withDefaults(
       {{ t(description) }}
     </p>
 
-    <div v-if="hero" class="flex flex-wrap sm:flex-nowrap items-center justify-center gap-5">
+    <div v-if="hero" class="flex flex-wrap items-center justify-center sm:flex-nowrap gap-5">
       <ButtonPrimary label="Open App" blank to="https://www.hoppscotch.io" />
       <ButtonSecondary label="See Documentation" :icon="book" blank :to="link" />
     </div>

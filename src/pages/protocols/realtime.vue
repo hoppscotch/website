@@ -8,30 +8,30 @@ const { t } = useI18n()
   <div class="flex flex-col divide-y divide-dividerLight">
     <div class="flex flex-col items-center justify-between px-8 py-16 lg:flex-row">
       <ProtocolDetailBlock
-        :title="protocols[2].title"
-        :description="protocols[2].description"
-        :icon="protocols[2].icon"
-        :link="protocols[2].link"
+        :title="protocols.realtime.title"
+        :description="protocols.realtime.description"
+        :icon="protocols.realtime.icon"
+        :link="protocols.realtime.link"
         hero
       />
       <div class="w-full h-auto sm:w-150 my-15">
         <ProtocolAssetBlock
-          :title="protocols[2].title"
-          :image-dark="protocols[2].imageDark"
-          :image-light="protocols[2].imageLight"
+          :title="protocols.realtime.title"
+          :image-dark="protocols.realtime.imageDark"
+          :image-light="protocols.realtime.imageLight"
         />
       </div>
     </div>
 
-    <div class="py-10 px-8 flex flex-col items-center gap-10">
-      <h2 class="text-2xl sm:text-3xl text-center">
-        {{ t(protocols[2].title2) }}
+    <div class="flex flex-col items-center px-8 py-10 gap-10">
+      <h2 class="text-2xl text-center sm:text-3xl">
+        {{ t(protocols.realtime.title2) }}
       </h2>
-      <div class="flex flex-col sm:flex-row justify-between items-center w-full gap-10 py-10 ">
+      <div class="flex flex-col items-center justify-between w-full py-10 sm:flex-row gap-10 ">
         <div class="basis-1/2 lg:basis-1/4">
           <div class="grid grid-cols-2 gap-8">
-            <p v-for="communicationProtocol in protocols[2].communicationProtocols" :key="communicationProtocol.title" class="flex items-center space-x-2">
-              <i v-if="communicationProtocol.icon" class="p-1 text-md rounded-full text-accent">
+            <p v-for="communicationProtocol in protocols.realtime.communicationProtocols" :key="communicationProtocol.title" class="flex items-center space-x-2">
+              <i v-if="communicationProtocol.icon" class="p-1 rounded-full text-md text-accent">
                 <component :is="communicationProtocol.icon" />
               </i>
               <span class="text-lg">{{ t(communicationProtocol.title) }}</span>
@@ -40,7 +40,7 @@ const { t } = useI18n()
         </div>
         <div class="basis-1/2 ">
           <ProtocolAssetBlock
-            :title="protocols[2].title"
+            :title="protocols.realtime.title"
             image-dark="https://docs.hoppscotch.io/Realtime/socketio-dark.png"
             image-light="https://docs.hoppscotch.io/Realtime/socketio-light.png"
           />
@@ -48,8 +48,8 @@ const { t } = useI18n()
       </div>
     </div>
 
-    <div v-if="protocols[2].methods" class="flex flex-col px-8 py-16">
-      <div v-for="(method,index) in protocols[2].methods" :key="index" class="flex flex-col items-start justify-between my-20 gap-20" :class="index%2 === 0 ? 'sm:flex-row-reverse' : 'sm:flex-row'">
+    <div v-if="protocols.realtime.methods" class="flex flex-col px-8 py-16">
+      <div v-for="(method,index) in protocols.realtime.methods" :key="index" class="flex flex-col items-start justify-between my-20 gap-20" :class="index%2 === 0 ? 'sm:flex-row-reverse' : 'sm:flex-row'">
         <div class="w-full basis-1/2">
           <ProtocolDetailBlock
             :title="method.title"
@@ -66,7 +66,7 @@ const { t } = useI18n()
           />
         </div>
       </div>
-      <div class="flex items-center justify-center gap-4 py-5">
+      <div class="flex items-center justify-center py-5 gap-4">
         <ButtonPrimary label="Open App" blank to="https://www.hoppscotch.io" />
         <ButtonSecondary label="See Documentation" :icon="book" blank :to="link" />
       </div>

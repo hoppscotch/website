@@ -3,8 +3,8 @@ import box from '~icons/lucide/box'
 import network from '~icons/lucide/network'
 import check from '~icons/lucide/check-circle'
 
-export const protocols = [
-  {
+export const protocols = {
+  rest: {
     slug: 'rest',
     title: 'protocols.items.rest.title',
     title2: 'protocols.items.rest.title2',
@@ -97,7 +97,7 @@ export const protocols = [
       },
     ],
   },
-  {
+  graphql: {
     slug: 'graphql',
     title: 'protocols.items.graphql.title',
     description: 'protocols.items.graphql.description',
@@ -170,7 +170,7 @@ export const protocols = [
       },
     ],
   },
-  {
+  realtime: {
     slug: 'realtime',
     title: 'protocols.items.realtime.title',
     title2: 'protocols.items.realtime.title2',
@@ -214,7 +214,7 @@ export const protocols = [
       },
     ],
   },
-  {
+  grpc: {
     slug: 'grpc',
     title: 'protocols.items.grpc.title',
     description: 'protocols.items.grpc.description',
@@ -257,4 +257,4 @@ export const protocols = [
       },
     ],
   },
-]
+}

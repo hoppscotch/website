@@ -46,10 +46,17 @@ const changelogCount = ref(5)
         </div>
       </div>
     </div>
-    <div class="flex items-center justify-center mt-2">
+    <div
+      class="flex items-center justify-center h-0 my-6 my-12 border-b border-dashed border-divider"
+    >
       <ButtonPrimary
         v-if="changelogCount < changelogs.length"
         :label="t('action.show_more')" @click="changelogCount += 5"
+      />
+      <ButtonPrimary
+        v-else
+        :label="t('action.show_more')"
+        to="https://github.com/hoppscotch/hoppscotch/releases"
       />
     </div>
   </div>

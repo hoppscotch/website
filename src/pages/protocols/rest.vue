@@ -8,30 +8,30 @@ const { t } = useI18n()
   <div class="flex flex-col divide-y divide-dividerLight">
     <div class="flex flex-col items-center justify-between px-8 py-16 lg:flex-row">
       <ProtocolDetailBlock
-        :title="protocols[0].title"
-        :description="protocols[0].description"
-        :icon="protocols[0].icon"
-        :link="protocols[0].link"
+        :title="protocols.rest.title"
+        :description="protocols.rest.description"
+        :icon="protocols.rest.icon"
+        :link="protocols.rest.link"
         hero
       />
-      <div class="w-full h-auto sm:w-150 my-15">
+      <div class="w-full h-auto my-15 sm:w-150">
         <ProtocolAssetBlock
-          :title="protocols[0].title"
-          :image-dark="protocols[0].imageDark"
-          :image-light="protocols[0].imageLight"
+          :title="protocols.rest.title"
+          :image-dark="protocols.rest.imageDark"
+          :image-light="protocols.rest.imageLight"
         />
       </div>
     </div>
 
-    <div class="py-10 px-8 flex flex-col items-center gap-10">
+    <div class="flex flex-col items-center px-8 py-10 gap-10">
       <h2 class="text-3xl text-center">
-        {{ t(protocols[0].title2) }}
+        {{ t(protocols.rest.title2) }}
       </h2>
-      <div class="flex flex-col sm:flex-row justify-between items-center w-full gap-10 py-10 ">
+      <div class="flex flex-col items-center justify-between w-full py-10 gap-10 sm:flex-row ">
         <div class="basis-1/2 lg:basis-1/4">
-          <div class="grid grid-cols-2 gap-5">
-            <p v-for="httpMethod in protocols[0].httpMethods" :key="httpMethod.title" class="flex items-center space-x-2">
-              <i v-if="httpMethod.icon" class="p-1 text-md rounded-full text-accent">
+          <div class="grid gap-5 grid-cols-2">
+            <p v-for="httpMethod in protocols.rest.httpMethods" :key="httpMethod.title" class="flex items-center space-x-2">
+              <i v-if="httpMethod.icon" class="p-1 rounded-full text-md text-accent">
                 <component :is="httpMethod.icon" />
               </i>
               <span class="text-lg">{{ t(httpMethod.title) }}</span>
@@ -40,7 +40,7 @@ const { t } = useI18n()
         </div>
         <div class="basis-1/2 ">
           <ProtocolAssetBlock
-            :title="protocols[0].title"
+            :title="protocols.rest.title"
             image-dark="https://docs.hoppscotch.io/api/method-dark.png"
             image-light="https://docs.hoppscotch.io/api/method-light.png"
           />
@@ -49,7 +49,7 @@ const { t } = useI18n()
     </div>
 
     <div class="flex flex-col px-8 py-16">
-      <div v-for="(method,index) in protocols[0].methods" :key="index" class="flex flex-col items-start justify-between my-20 gap-20" :class="index%2 === 0 ? 'sm:flex-row-reverse' : 'sm:flex-row'">
+      <div v-for="(method,index) in protocols.rest.methods" :key="index" class="flex flex-col items-start justify-between my-20 gap-20" :class="index%2 === 0 ? 'sm:flex-row-reverse' : 'sm:flex-row'">
         <div class=" basis-1/2">
           <ProtocolDetailBlock
             :title="method.title"
@@ -65,7 +65,7 @@ const { t } = useI18n()
           />
         </div>
       </div>
-      <div class="flex items-center justify-center gap-4 py-5">
+      <div class="flex items-center justify-center py-5 gap-4">
         <ButtonPrimary label="Open App" blank to="https://www.hoppscotch.io" />
         <ButtonSecondary label="See Documentation" :icon="book" blank :to="link" />
       </div>

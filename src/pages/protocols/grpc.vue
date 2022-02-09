@@ -8,23 +8,23 @@ const { t } = useI18n()
   <div class="flex flex-col divide-y divide-dividerLight">
     <div class="flex flex-col items-center justify-between px-8 py-16 lg:flex-row">
       <ProtocolDetailBlock
-        :title="protocols[3].title"
-        :description="protocols[3].description"
-        :icon="protocols[3].icon"
-        :link="protocols[3].link"
+        :title="protocols.grpc.title"
+        :description="protocols.grpc.description"
+        :icon="protocols.grpc.icon"
+        :link="protocols.grpc.link"
         hero
       />
       <div class="w-full h-auto sm:w-150 my-15">
         <ProtocolAssetBlock
-          :title="protocols[3].title"
-          :image-dark="protocols[3].imageDark"
-          :image-light="protocols[3].imageLight"
+          :title="protocols.grpc.title"
+          :image-dark="protocols.grpc.imageDark"
+          :image-light="protocols.grpc.imageLight"
         />
       </div>
     </div>
 
     <div class="flex flex-col px-8 py-16">
-      <div v-for="(method,index) in protocols[0].methods" :key="index" class="flex flex-col items-start justify-between my-20 gap-20" :class="index%2 === 0 ? 'sm:flex-row-reverse' : 'sm:flex-row'">
+      <div v-for="(method,index) in protocols.rest.methods" :key="index" class="flex flex-col items-start justify-between my-20 gap-20" :class="index%2 === 0 ? 'sm:flex-row-reverse' : 'sm:flex-row'">
         <div class=" basis-1/2">
           <ProtocolDetailBlock
             :title="method.title"
@@ -40,7 +40,7 @@ const { t } = useI18n()
           />
         </div>
       </div>
-      <div class="flex items-center justify-center gap-4 py-5">
+      <div class="flex items-center justify-center py-5 gap-4">
         <ButtonPrimary label="Open App" blank to="https://www.hoppscotch.io" />
         <ButtonSecondary label="See Documentation" :icon="book" blank :to="link" />
       </div>
