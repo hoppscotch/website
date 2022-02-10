@@ -196,39 +196,7 @@ protocols:
   items:
     rest:
       title: RESTful platform
-      title2: Supported HTTP Methods
       description: You can make API requests and examine responses using Hoppscotch. An API request allows you to retrieve or send data to and from an API endpoint.
-      http_methods:
-        get: 
-          title: GET
-          description: Retrieve information about the REST API resource 
-        post: 
-          title: POST
-          description: Create a REST API resource 
-        put: 
-          title: PUT
-          description: Update a REST API resource 
-        delete: 
-          title: DELETE
-          description: Delete a REST API resource or related component 
-        head: 
-          title: HEAD
-          description: Delete a REST API resource or related component 
-        connect: 
-          title: CONNECT
-          description: Delete a REST API resource or related component 
-        options: 
-          title: OPTIONS
-          description: Delete a REST API resource or related component 
-        trace: 
-          title: TRACE
-          description: Delete a REST API resource or related component 
-        patch: 
-          title: PATCH
-          description: Delete a REST API resource or related component 
-        custom: 
-          title: CUSTOM
-          description: Delete a REST API resource or related component 
       methods:
         choosingMethod:
           title: Choosing Method
@@ -275,7 +243,6 @@ protocols:
           description: Just Like Rest API collections, Hoppscotch lets you organize your GraphQL queries in collections.You can Import existing collections(JSON) to replace current collection, or preserve current collection as well as add new collection from your sources. Collections can be Exported as JSON as well.
     realtime:
       title: Realtime platform
-      title2: Real-time Communication protocols
       description: Hoppscotch helps you develop Real-time web apps that require persistent connection between the server and client.
       methods:
         websocket:

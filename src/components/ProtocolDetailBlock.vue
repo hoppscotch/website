@@ -1,15 +1,12 @@
 <script setup lang="ts">
-import { isDark } from '~/composables'
-import book from '~icons/lucide/book-open'
 const { t } = useI18n()
 
 withDefaults(
   defineProps<{
     title: string
     description: string
-    icon: string
     link: string
-    hero: boolean
+    hero?: boolean
   }>(),
   {
     title: '',
@@ -23,33 +20,16 @@ withDefaults(
 </script>
 
 <template>
-  <div class="flex flex-col  lg:items-start lg:text-left" :class="hero ? 'text-center items-center' : ''">
-    <h1 v-if="hero" class="flex flex-col items-center justify-center md:flex-row gap-3">
-      <i v-if="icon" class="p-2 text-5xl text-accent rounded-md">
-        <component :is="icon" />
-      </i>
-      <span class="text-5xl sm:text-6xl">
-        {{ t(title) }}
-      </span>
-    </h1>
-    <h2 v-else class="text-3xl">
+  <div class="flex flex-col items-center text-center min-w-1/2 lg:text-left lg:items-start">
+    <h1 class="max-w-2xl my-4 text-3xl font-black leading-none text-center text-secondaryDark transition md:text-4xl lg:text-left lg:text-5xl">
       {{ t(title) }}
-    </h2>
-    <p class="max-w-xl py-6 text-lg">
+    </h1>
+    <p class="max-w-md my-4 text-lg text-center md:w-3/5  lg:text-left">
       {{ t(description) }}
     </p>
-
-    <div v-if="hero" class="flex flex-wrap items-center justify-center sm:flex-nowrap gap-5">
-      <ButtonPrimary label="Open App" blank to="https://www.hoppscotch.io" />
-      <ButtonSecondary label="See Documentation" :icon="book" blank :to="link" />
+    <div v-if="hero" class="flex my-4 text-center space-x-4">
+      <ButtonSecondary to="https://github.com/hoppscotch/hoppscotch" blank label="GitHub" outline />
+      <ButtonPrimary to="https://hoppscotch.io" :label="t('action.open_app')" outline />
     </div>
-    <p v-else>
-      <a :href="link" class="inline-flex items-center font-semibold text-accent transition hover:text-accentLight">
-        <span class="mr-2">
-          Explore Documentation
-        </span>
-        <lucide-arrow-right />
-      </a>
-    </p>
   </div>
 </template>
