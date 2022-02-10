@@ -37,6 +37,7 @@ declare module 'vue' {
     ProtocolDetailBlock: typeof import('./components/ProtocolDetailBlock.vue')['default']
     SmartGradient: typeof import('./components/SmartGradient.vue')['default']
     SmartItem: typeof import('./components/SmartItem.vue')['default']
+    SmartLink: typeof import('./components/SmartLink.vue')['default']
     SmartSpinner: typeof import('./components/SmartSpinner.vue')['default']
   }
 }

@@ -67,19 +67,19 @@ export const navigation = [
     links: [
       {
         name: 'footer.company.links.about',
-        link: '/about',
+        link: 'https://company.hoppscotch.io/about',
       },
       {
         name: 'footer.company.links.careers',
-        link: '/about/jobs',
+        link: 'https://company.hoppscotch.io/careers',
       },
       {
         name: 'footer.company.links.blog',
-        link: '/about/integrations',
+        link: 'https://company.hoppscotch.io/blog',
       },
       {
         name: 'footer.company.links.support',
-        link: '/support',
+        link: 'https://company.hoppscotch.io/contact',
       },
     ],
   },
@@ -92,15 +92,15 @@ export const navigation = [
       },
       {
         name: 'footer.product.links.terms',
-        link: '/terms',
+        link: 'https://docs.hoppscotch.io/terms',
       },
       {
         name: 'footer.product.links.privacy',
-        link: '/privacy',
+        link: 'https://docs.hoppscotch.io/privacy',
       },
       {
         name: 'footer.product.links.roadmap',
-        link: '/roadmap',
+        link: 'https://github.com/hoppscotch/hoppscotch/issues',
       },
     ],
   },
