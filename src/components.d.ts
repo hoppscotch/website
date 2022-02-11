@@ -10,8 +10,6 @@ declare module 'vue' {
     ChangelogIndicator: typeof import('./components/ChangelogIndicator.vue')['default']
     ChangelogTree: typeof import('./components/ChangelogTree.vue')['default']
     ContibutorBubble: typeof import('./components/ContibutorBubble.vue')['default']
-    FeatureExplanation: typeof import('./components/FeatureExplanation.vue')['default']
-    FeatureHero: typeof import('./components/FeatureHero.vue')['default']
     HomeFooter: typeof import('./components/HomeFooter.vue')['default']
     HomeHeader: typeof import('./components/HomeHeader.vue')['default']
     LandingAnnouncement: typeof import('./components/LandingAnnouncement.vue')['default']

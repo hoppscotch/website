@@ -28,16 +28,16 @@ const { t } = useI18n()
           <h2 class="flex mt-4 mb-2 text-lg font-semibold">
             {{ t(platform.title) }}
           </h2>
-          <p class="flex flex-1 opacity-75">
+          <p class="flex flex-1 text-secondaryLight">
             {{ t(platform.description) }}
           </p>
           <p class="mt-2">
-            <router-link :to="platform.link.target" class="inline-flex items-center text-accent transition hover:text-accentDark">
+            <SmartLink :to="platform.link.target" class="inline-flex items-center text-accent transition hover:text-accentDark">
               <span class="mr-2">
                 {{ t(platform.link.title) }}
               </span>
               <lucide-arrow-right />
-            </router-link>
+            </SmartLink>
           </p>
         </div>
       </div>

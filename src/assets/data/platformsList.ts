@@ -8,15 +8,15 @@ export const platforms = [
     icon: browser,
     title: 'platforms.items.web.title',
     description: 'platforms.items.web.description',
-    link: { title: 'Learn more', target: 'https://hoppscotch.io' },
+    link: { title: 'action.learn_more', target: '/platforms/web' },
   },
   {
     icon: cli,
     title: 'platforms.items.cli.title',
     description: 'platforms.items.cli.description',
     link: {
-      title: 'Learn more',
-      target: 'https://github.com/hoppscotch/hopp-cli',
+      title: 'action.learn_more',
+      target: '/platforms/cli',
     },
   },
   {
@@ -24,8 +24,8 @@ export const platforms = [
     title: 'platforms.items.extension.title',
     description: 'platforms.items.extension.description',
     link: {
-      title: 'Learn more',
-      target: 'https://github.com/hoppscotch/hoppscotch-extension',
+      title: 'action.learn_more',
+      target: '/platforms/extensions',
     },
   },
   {
@@ -33,8 +33,8 @@ export const platforms = [
     title: 'platforms.items.native.title',
     description: 'platforms.items.native.description',
     link: {
-      title: 'Learn more',
-      target: 'https://github.com/hoppscotch/hoppscotch',
+      title: 'action.learn_more',
+      target: '/platforms/native',
     },
   },
 ]
