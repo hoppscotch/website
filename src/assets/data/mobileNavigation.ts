@@ -20,32 +20,32 @@ export const navigation = [
     name: 'Solutions',
     links: [
       {
-        name: 'header.menu.solutions.links.1.name',
+        name: 'header.menu.solutions.links.design.name',
         icon: layers,
         link: '/settings',
       },
       {
-        name: 'header.menu.solutions.links.2.name',
+        name: 'header.menu.solutions.links.development.name',
         icon: code,
         link: '/settings',
       },
       {
-        name: 'header.menu.solutions.links.3.name',
+        name: 'header.menu.solutions.links.testing.name',
         icon: flask,
         link: '/settings',
       },
       {
-        name: 'header.menu.solutions.links.4.name',
+        name: 'header.menu.solutions.links.documentation.name',
         icon: file,
         link: '/settings',
       },
       {
-        name: 'header.menu.solutions.links.5.name',
+        name: 'header.menu.solutions.links.deployment.name',
         icon: check,
         link: '/settings',
       },
       {
-        name: 'header.menu.solutions.links.6.name',
+        name: 'header.menu.solutions.links.maintanance.name',
         icon: wrench,
         link: '/settings',
       },
@@ -55,22 +55,22 @@ export const navigation = [
     name: 'Platform',
     links: [
       {
-        name: 'header.menu.platform.links.1.name',
+        name: 'header.menu.platform.links.web.name',
         icon: globe,
         link: '/settings',
       },
       {
-        name: 'header.menu.platform.links.2.name',
+        name: 'header.menu.platform.links.cli.name',
         icon: cli,
         link: '/settings',
       },
       {
-        name: 'header.menu.platform.links.3.name',
+        name: 'header.menu.platform.links.embeds.name',
         icon: terminal,
         link: 'https://docs.hoppscotch.io',
       },
       {
-        name: 'header.menu.platform.links.4.name',
+        name: 'header.menu.platform.links.native.name',
         icon: server,
         link: 'https://docs.hoppscotch.io/guides',
       },

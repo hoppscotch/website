@@ -69,16 +69,16 @@ header:
   menu:
     platform:
       links:
-        1:
+        web:
           name: Web
           description: Neque porro quisquam est qui dolorem ipsum
-        2:
+        cli:
           name: CLI
           description: Neque porro quisquam est qui dolorem ipsum
-        3:
+        embeds:
           name: Embeds
           description: Neque porro quisquam est qui dolorem ipsum
-        4:
+        native:
           name: Native
           description: Neque porro quisquam est qui dolorem ipsum
     solutions:
@@ -86,22 +86,22 @@ header:
       guides: Guides
       support: Support
       links:
-        1:
+        design:
           name: Design
           description: Neque porro quisquam est qui dolorem ipsum
-        2:
+        development:
           name: Development
           description: Neque porro quisquam est qui dolorem ipsum
-        3:
+        testing:
           name: Testing
           description: Neque porro quisquam est qui dolorem ipsum
-        4:
+        documentation:
           name: Documentation
           description: Neque porro quisquam est qui dolorem ipsum
-        5:
+        deployment:
           name: Deployment
           description: Neque porro quisquam est qui dolorem ipsum
-        6:
+        maintanance:
           name: Maintanance
           description: Neque porro quisquam est qui dolorem ipsum
     company:
@@ -211,6 +211,34 @@ platforms:
     cli:
       title: CLI
       description: Inspired by the command line interface, your tools are unified as commands, and follow the same structure to make you more productive.
+      features:
+        1:
+          title: Lightweight
+          description: Hoppscotch is designed to be lightweight and easy to use.
+        2:
+          title: Fast
+          description: Hoppscotch is built on top of open source technologies. We are a community of developers who believe in the power of open source.
+        3:
+          title: Simple
+          description: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+        4:
+          title: PWA
+          description: Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+        5:
+          title: Minimalist
+          description: Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+        6:
+          title: Unobtrusive
+          description: Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+        7:
+          title: Customizable
+          description: Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+        8:
+          title: Mobile Friendly
+          description: Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+        9:
+          title: Accessibility
+          description: Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
     extension:
       title: Embeds
       description: Overrides CORS restrictions for cross-origin requests (it allows requests against localhost).

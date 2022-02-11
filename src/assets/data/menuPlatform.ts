@@ -5,26 +5,26 @@ import server from '~icons/lucide/server'
 
 export const platforms = [
   {
-    name: 'header.menu.platform.links.1.name',
-    description: 'header.menu.platform.links.1.description',
+    name: 'header.menu.platform.links.web.name',
+    description: 'header.menu.platform.links.web.description',
     icon: globe,
     link: '/settings',
   },
   {
-    name: 'header.menu.platform.links.2.name',
-    description: 'header.menu.platform.links.2.description',
+    name: 'header.menu.platform.links.cli.name',
+    description: 'header.menu.platform.links.cli.description',
     icon: cli,
     link: '/settings',
   },
   {
-    name: 'header.menu.platform.links.3.name',
-    description: 'header.menu.platform.links.3.description',
+    name: 'header.menu.platform.links.embeds.name',
+    description: 'header.menu.platform.links.embeds.description',
     icon: terminal,
     link: 'https://docs.hoppscotch.io',
   },
   {
-    name: 'header.menu.platform.links.4.name',
-    description: 'header.menu.platform.links.4.description',
+    name: 'header.menu.platform.links.native.name',
+    description: 'header.menu.platform.links.native.description',
     icon: server,
     link: 'https://docs.hoppscotch.io/guides',
   },

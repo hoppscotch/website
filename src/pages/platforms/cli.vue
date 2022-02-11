@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col">
-    <PlatformWebHero />
+    <PlatformCliHero />
     <LandingCTA />
     <LandingSocial />
   </div>

@@ -4,6 +4,7 @@
   <div class="flex flex-col">
     <LandingHero />
     <LandingUsers />
+    <PlatformWebHero />
     <LandingFeatures />
     <LandingContributors />
     <LandingTestimonials />
