@@ -65,7 +65,7 @@ const solutionClicked = (solution: string) => {
           </div>
         </div>
       </div>
-      <div class="mt-10 p-5 sm:px-10 sm:py-18 h-max z-10 sticky top-18 sm:top-20 rounded-md" :class="selectedSolutionDetail.background">
+      <div class="mt-10 p-8 h-max z-10 sticky top-18 sm:top-20 rounded-md" :class="selectedSolutionDetail.background">
         <h1 class="text-xl md:text-4xl lg:text-5xl font-black text-secondary">
           {{ t(selectedSolutionDetail.title) }}
         </h1>
