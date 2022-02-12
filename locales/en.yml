@@ -358,6 +358,29 @@ changelog:
     openapi_support:
       title: Added support for OpenAPI
       description: Hoppscotch now supports OpenAPI specifications.
+solutions: 
+  hero: 
+    heading: Solutions
+    subheading: Solutions provided by Hoppscotch.
+  items:
+    design:
+      title: Design
+      description: Users can now export and import single collection from collection's menu.
+    development:
+      title: Development
+      description: Teams and collections are now faster and more intuitive.
+    testing:
+      title: Testing
+      description: Code editors now occupy full height of the section, and cURL importer now has a paste from clipboard button.
+    documentation:
+      title: Documentation
+      description: Environment variables now respect mixed strings in endpoints and are more intuitive.
+    deployment:
+      title: Deployment
+      description: Adding URL encoded body type now support key-value pairs and raw YAML editor.
+    maintanance:
+      title: Maintanance
+      description: Translations are now updated to match the latest strings.
 error:
   404: Page not found
 action:
