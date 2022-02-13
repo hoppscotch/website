@@ -39,6 +39,7 @@ declare module 'vue' {
     SmartItem: typeof import('./components/SmartItem.vue')['default']
     SmartLink: typeof import('./components/SmartLink.vue')['default']
     SmartSpinner: typeof import('./components/SmartSpinner.vue')['default']
+    SolutionCard: typeof import('./components/SolutionCard.vue')['default']
     SolutionIndicator: typeof import('./components/SolutionIndicator.vue')['default']
     SolutionTimeline: typeof import('./components/SolutionTimeline.vue')['default']
   }

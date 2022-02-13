@@ -34,7 +34,7 @@ const solutionClicked = (solution: string) => {
         {{ t("solutions.hero.subheading") }}
       </p>
     </div>
-    <div class="py-15 flex flex-col-reverse sm:grid sm:grid-cols-2 min-h-[200vh] ">
+    <div class="py-15 flex flex-col-reverse sm:grid sm:grid-cols-2 ">
       <div
         class="flex flex-col mx-auto py-15 grid-cols-9 md:grid "
       >
@@ -51,29 +51,21 @@ const solutionClicked = (solution: string) => {
             <h2 v-if="solution.placement === 'left'" class="h-full min-h-50 w-20 md:w-30 transition transition-all flex justify-center items-center" :class="(selectedSolution === t(solution.title)) ? 'text-xl font-bold' : 'texl-md font-medium'">
               {{ t(solution.title) }}
             </h2>
-            <SolutionIndicator v-else :icon="solution.icon" :title="solution.title" :is-active="selectedSolution === t(solution.title)" @clicked-solution="solutionClicked" />
+            <SolutionIndicator v-else :icon="solution.icon" :title="solution.title" :is-active="selectedSolution === t(solution.title)" @clicked-solution="solutionClicked"  />
           </div>
           <div
             :class="solution.placement === 'left'
               ? 'col-start-5 col-end-6 md:mx-auto relative mr-8'
               : 'col-start-6 col-end-10 mr-auto pl-8'"
           >
-            <SolutionIndicator v-if="solution.placement === 'left'" :icon="solution.icon" :title="solution.title" :is-active="selectedSolution === t(solution.title)" @clicked-solution="solutionClicked" />
+            <SolutionIndicator v-if="solution.placement === 'left'" :icon="solution.icon" :title="solution.title" :is-active="selectedSolution === t(solution.title)" @clicked-solution="solutionClicked"  />
             <h2 v-else class="h-full min-h-50 w-20 md:w-30 transition transition-all flex justify-center items-center" :class="(selectedSolution === t(solution.title)) ? 'text-xl font-bold' : 'texl-md font-medium'">
               {{ t(solution.title) }}
             </h2>
           </div>
         </div>
       </div>
-      <div class="mt-10 p-8 h-max z-10 sticky top-18 sm:top-20 rounded-md" :class="selectedSolutionDetail.background">
-        <h1 class="text-xl md:text-4xl lg:text-5xl font-black text-secondary">
-          {{ t(selectedSolutionDetail.title) }}
-        </h1>
-        <p class="py-4 sm:py-8 text-md sm:text-lg">
-          {{ t(selectedSolutionDetail.description) }}
-        </p>
-        <img :src="t(selectedSolutionDetail.image)" :alt="t(selectedSolutionDetail.title)" class="rounded-lg object-cover object-center transition ">
-      </div>
+     <SolutionCard :selected-solution-detail="selectedSolutionDetail"/>
     </div>
   </div>
 </template>
