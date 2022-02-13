@@ -51,7 +51,7 @@ const solutionClicked = (solution: string) => {
             <h2 v-if="solution.placement === 'left'" class="flex items-center justify-center w-20 h-full transition-all transition min-h-50 md:w-30" :class="(selectedSolution === t(solution.title)) ? 'text-xl font-bold' : 'texl-md font-medium'">
               {{ t(solution.title) }}
             </h2>
-            <SolutionIndicator v-else :icon="solution.icon" :title="solution.title" :is-active="selectedSolution === t(solution.title)" @clicked-solution="solutionClicked" />
+            <SolutionIndicator v-else :icon="solution.icon" :title="solution.title" :is-active="selectedSolution === t(solution.title)" @clicked-solution="solutionClicked"  />
           </div>
           <div
             :class="solution.placement === 'left'
