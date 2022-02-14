@@ -34,9 +34,9 @@ const solutionClicked = (solution: string) => {
         {{ t("solutions.hero.subheading") }}
       </p>
     </div>
-    <div class="py-15 flex flex-col-reverse sm:grid sm:grid-cols-2 ">
+    <div class="flex flex-col-reverse py-15 sm:grid sm:grid-cols-2 ">
       <div
-        class="flex flex-col mx-auto py-15 grid-cols-9 md:grid "
+        class="flex flex-col mx-auto grid-cols-9 py-15 md:grid "
       >
         <div
           v-for="(solution, index) in solutions" :key="`solution-${index}`"
@@ -48,24 +48,24 @@ const solutionClicked = (solution: string) => {
               ? 'col-start-1 col-end-5 ml-auto pr-8'
               : 'col-start-5 col-end-6 md:mx-auto relative mr-8'"
           >
-            <h2 v-if="solution.placement === 'left'" class="h-full min-h-50 w-20 md:w-30 transition transition-all flex justify-center items-center" :class="(selectedSolution === t(solution.title)) ? 'text-xl font-bold' : 'texl-md font-medium'">
+            <h2 v-if="solution.placement === 'left'" class="flex items-center justify-center w-20 h-full transition-all transition min-h-50 md:w-30" :class="(selectedSolution === t(solution.title)) ? 'text-xl font-bold' : 'texl-md font-medium'">
               {{ t(solution.title) }}
             </h2>
-            <SolutionIndicator v-else :icon="solution.icon" :title="solution.title" :is-active="selectedSolution === t(solution.title)" @clicked-solution="solutionClicked"  />
+            <SolutionIndicator v-else :icon="solution.icon" :title="solution.title" :is-active="selectedSolution === t(solution.title)" @clicked-solution="solutionClicked" />
           </div>
           <div
             :class="solution.placement === 'left'
               ? 'col-start-5 col-end-6 md:mx-auto relative mr-8'
               : 'col-start-6 col-end-10 mr-auto pl-8'"
           >
-            <SolutionIndicator v-if="solution.placement === 'left'" :icon="solution.icon" :title="solution.title" :is-active="selectedSolution === t(solution.title)" @clicked-solution="solutionClicked"  />
-            <h2 v-else class="h-full min-h-50 w-20 md:w-30 transition transition-all flex justify-center items-center" :class="(selectedSolution === t(solution.title)) ? 'text-xl font-bold' : 'texl-md font-medium'">
+            <SolutionIndicator v-if="solution.placement === 'left'" :icon="solution.icon" :title="solution.title" :is-active="selectedSolution === t(solution.title)" @clicked-solution="solutionClicked" />
+            <h2 v-else class="flex items-center justify-center w-20 h-full transition-all transition min-h-50 md:w-30" :class="(selectedSolution === t(solution.title)) ? 'text-xl font-bold' : 'texl-md font-medium'">
               {{ t(solution.title) }}
             </h2>
           </div>
         </div>
       </div>
-     <SolutionCard :selected-solution-detail="selectedSolutionDetail"/>
+      <SolutionCard :selected-solution-detail="selectedSolutionDetail" />
     </div>
   </div>
 </template>

@@ -17,7 +17,7 @@ const { t } = useI18n()
       </p>
     </div>
     <div class="mt-8 grid gap-4 grid-cols-2">
-      <div v-for="(feature, index) in features" :key="`feature-${index}`" class="w-full p-8 mb-4 overflow-hidden rounded-xl col-span-2" :class="feature.styles">
+      <div v-for="(feature, index) in features" :key="`feature-${index}`" class="w-full p-8 overflow-hidden rounded-xl col-span-2" :class="feature.styles">
         <i class="text-3xl text-secondaryLight">
           <component :is="feature.icon" />
         </i>

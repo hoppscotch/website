@@ -17,6 +17,7 @@ declare module 'vue' {
     LandingCTA: typeof import('./components/LandingCTA.vue')['default']
     LandingFeatures: typeof import('./components/LandingFeatures.vue')['default']
     LandingHero: typeof import('./components/LandingHero.vue')['default']
+    LandingPlatforms: typeof import('./components/LandingPlatforms.vue')['default']
     LandingSocial: typeof import('./components/LandingSocial.vue')['default']
     LandingTestimonials: typeof import('./components/LandingTestimonials.vue')['default']
     LandingUsers: typeof import('./components/LandingUsers.vue')['default']

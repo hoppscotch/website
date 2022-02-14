@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { features } from '~/assets/data/platformCli'
+import { features } from '~/assets/data/landingPlatforms'
 import { isDark } from '~/composables'
 const { t } = useI18n()
 </script>
@@ -10,10 +10,10 @@ const { t } = useI18n()
       <h1
         class="max-w-2xl my-4 text-3xl font-black leading-none text-center text-secondaryDark transition md:text-4xl lg:text-5xl"
       >
-        {{ t("platforms.items.cli.title") }}
+        {{ t("home.platforms.title") }}
       </h1>
       <p class="max-w-md my-4 text-lg text-center md:w-3/5">
-        {{ t("platforms.items.cli.description") }}
+        {{ t("home.platforms.description") }}
       </p>
     </div>
     <div class="mt-8 grid gap-4 grid-cols-2">

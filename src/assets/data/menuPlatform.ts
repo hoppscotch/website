@@ -8,24 +8,24 @@ export const platforms = [
     name: 'header.menu.platform.links.web.name',
     description: 'header.menu.platform.links.web.description',
     icon: globe,
-    link: '/settings',
+    link: '/platforms/web',
   },
   {
     name: 'header.menu.platform.links.cli.name',
     description: 'header.menu.platform.links.cli.description',
     icon: cli,
-    link: '/settings',
+    link: '/platforms/cli',
   },
   {
     name: 'header.menu.platform.links.embeds.name',
     description: 'header.menu.platform.links.embeds.description',
     icon: terminal,
-    link: 'https://docs.hoppscotch.io',
+    link: '/platforms/embeds',
   },
   {
     name: 'header.menu.platform.links.native.name',
     description: 'header.menu.platform.links.native.description',
     icon: server,
-    link: 'https://docs.hoppscotch.io/guides',
+    link: '/platforms/native',
   },
 ]

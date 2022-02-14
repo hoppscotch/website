@@ -37,6 +37,39 @@ home:
         description: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
   users:
     title: Empowering developers to build better products
+  platforms:
+    title: Productivity, levelled up.
+    description: Make Hoppscotch your own, using the bundle of features available from day one.
+    features:
+      1:
+        title: Web. Lightweight as feather.
+        description: Hoppscotch is designed to be lightweight and easy to use.
+      2:
+        title: Fast
+        description: Hoppscotch is built on top of open source technologies. We are a community of developers who believe in the power of open source.
+      3:
+        title: Simple
+        description: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+      4:
+        title: PWA
+        description: Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+      5:
+        title: Minimalist
+        description: Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+      6:
+        title: Unobtrusive
+        description: Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+      7:
+        title: Customizable
+        description: Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+      8:
+        title: Mobile Friendly
+        description: Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+      9:
+        title: Accessibility
+        description: Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+    
+
   announcement:
     long_description: Hoppscotch raises $3M in seed round
     short_description: Hoppscotch raises $3M
