@@ -19,7 +19,7 @@ export const solutions = [
     description: 'solutions.items.development.description',
     icon: code,
     placement: 'right',
-    image: '/assets/images/screenshots/dark-banner.png',
+    image: '/assets/images/screenshots/light-banner.png',
     background: 'bg-gradient-to-r from-light-200 dark:from-dark-800 dark:from-dark-800 to-green-600',
 
   },
@@ -37,7 +37,7 @@ export const solutions = [
     description: 'solutions.items.documentation.description',
     icon: file,
     placement: 'right',
-    image: '/assets/images/screenshots/dark-banner.png',
+    image: '/assets/images/screenshots/light-banner.png',
     background: 'bg-gradient-to-r from-pink-200 dark:from-pink-800 to-pink-600',
 
   },
@@ -55,7 +55,7 @@ export const solutions = [
     description: 'solutions.items.maintanance.description',
     icon: wrench,
     placement: 'right',
-    image: '/assets/images/screenshots/dark-banner.png',
+    image: '/assets/images/screenshots/light-banner.png',
     background: 'bg-gradient-to-r from-light-200 dark:from-dark-800 dark:from-dark-800 to-green-600',
 
   },
