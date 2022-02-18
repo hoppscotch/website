@@ -2,28 +2,17 @@
 import { solutions } from '~/assets/data/solutionsList'
 const { t } = useI18n()
 
-const selectedSolution = ref('Design')
-const selectedSolutionDetail = ref()
-selectedSolutionDetail.value = solutions.find(
-  solution => t(solution.title) === selectedSolution.value,
-)
-watch(
-  () => selectedSolution.value,
-  (newValue) => {
-    selectedSolutionDetail.value = solutions.find(
-      solution => t(solution.title) === newValue,
-    )
-  },
-)
+const activeSolutionIndex = ref(0) 
 
-const solutionClicked = (solution: string) => {
-  selectedSolution.value = t(solution)
+const setActiveSolution = (index : number) => {
+  activeSolutionIndex.value = index
 }
+
 
 </script>
 
 <template>
-  <div class="flex flex-col px-8 py-16">
+  <div class="flex flex-col px-8 py-16" >
     <div class="flex flex-col items-center">
       <h1
         class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
@@ -34,38 +23,14 @@ const solutionClicked = (solution: string) => {
         {{ t("solutions.hero.subheading") }}
       </p>
     </div>
-    <div class="flex flex-col-reverse py-15 sm:grid sm:grid-cols-2 ">
-      <div
-        class="flex flex-col mx-auto grid-cols-9 py-15 md:grid "
-      >
-        <div
-          v-for="(solution, index) in solutions" :key="`solution-${index}`"
-          class="flex md:contents"
-          :class="{'flex-row-reverse': solution.placement === 'left'}"
-        >
-          <div
-            :class="solution.placement === 'left'
-              ? 'col-start-1 col-end-5 ml-auto pr-8'
-              : 'col-start-5 col-end-6 md:mx-auto relative mr-8'"
-          >
-            <h2 v-if="solution.placement === 'left'" class="flex items-center justify-center w-20 h-full transition-all transition min-h-50 md:w-30" :class="(selectedSolution === t(solution.title)) ? 'text-xl font-bold' : 'texl-md font-medium'">
-              {{ t(solution.title) }}
-            </h2>
-            <SolutionIndicator v-else :icon="solution.icon" :title="solution.title" :is-active="selectedSolution === t(solution.title)" @clicked-solution="solutionClicked" />
-          </div>
-          <div
-            :class="solution.placement === 'left'
-              ? 'col-start-5 col-end-6 md:mx-auto relative mr-8'
-              : 'col-start-6 col-end-10 mr-auto pl-8'"
-          >
-            <SolutionIndicator v-if="solution.placement === 'left'" :icon="solution.icon" :title="solution.title" :is-active="selectedSolution === t(solution.title)" @clicked-solution="solutionClicked" />
-            <h2 v-else class="flex items-center justify-center w-20 h-full transition-all transition min-h-50 md:w-30" :class="(selectedSolution === t(solution.title)) ? 'text-xl font-bold' : 'texl-md font-medium'">
-              {{ t(solution.title) }}
-            </h2>
-          </div>
+      <div  class="grid grid-cols-1 sm:grid-cols-2 justify-between items-start relative py-25 gap-30">
+        <div class="sticky h-[40vh] top-20 sm:top-[25%] left-0 flex flex-col justify-center items-center bg-primary"  >
+          <SolutionImage v-for="(solution,index) in solutions" :key="solution.title" :visible-solution="solution" :isVisible="activeSolutionIndex === index"  />
+        </div>
+        <div class="flex flex-col gap-40 sm:gap-60 2xl:gap-150" >
+          <SolutionCard v-for="(solution,index) in solutions" :key="solution.title" :visible-solution="solution" :solutionIndex="index" @set-active-solution="setActiveSolution"  />
         </div>
       </div>
-      <SolutionCard :selected-solution-detail="selectedSolutionDetail" />
-    </div>
+      
   </div>
 </template>

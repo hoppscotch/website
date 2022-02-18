@@ -1,27 +1,48 @@
 <script setup lang="ts">
 const { t } = useI18n()
 
-withDefaults(
-  defineProps<{
-    selectedSolutionDetail: {
-      title: string
-      description: string
-      background: string
-      image: string
-    }
-  }>(),
-  {},
+const props = defineProps<{
+  visibleSolution: {
+    title: string
+    description: string
+    background: string
+  }
+  solutionIndex: number
+}>()
+
+const emit = defineEmits<{
+  (e: 'setActiveSolution', index: number): void
+}>()
+
+const target = ref(null)
+// const targetVisible = useElementVisibility(target)
+const targetVisible = ref(false)
+
+useIntersectionObserver(
+  target,
+  ([{ isIntersecting }]) => {
+    targetVisible.value = isIntersecting
+  },
+  { threshold: 1, root: null },
 )
+
+watch(
+  () => targetVisible.value,
+  (newValue) => {
+    if (newValue)
+      emit('setActiveSolution', props.solutionIndex)
+  },
+)
+
 </script>
 
 <template>
-  <div class="sticky z-10 p-8 mt-10 h-max top-18 sm:top-20 rounded-md" :class="selectedSolutionDetail.background">
-    <h1 class="text-xl font-black md:text-4xl lg:text-5xl text-secondary">
-      {{ t(selectedSolutionDetail.title) }}
+  <div ref="target" class="px-5 py-8 rounded">
+    <h1 class="text-2xl font-black md:text-4xl lg:text-5xl text-secondary">
+      {{ t(visibleSolution.title) }}
     </h1>
     <p class="py-4 sm:py-8 text-md sm:text-lg">
-      {{ t(selectedSolutionDetail.description) }}
+      {{ t(visibleSolution.description) }}
     </p>
-    <img :src="t(selectedSolutionDetail.image)" :alt="t(selectedSolutionDetail.title)" loading="lazy" class="object-cover object-center rounded-lg transition ">
   </div>
 </template>
