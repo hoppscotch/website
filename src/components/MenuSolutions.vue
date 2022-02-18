@@ -32,7 +32,7 @@ const { t } = useI18n()
       <SmartItem
         :label="t('header.menu.solutions.support')"
         :icon="support"
-        to="/about/contact"
+        to="/company/contact"
       />
     </div>
   </div>

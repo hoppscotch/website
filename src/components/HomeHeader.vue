@@ -36,7 +36,7 @@ const { t } = useI18n()
               placement="bottom"
             >
               <template #default>
-                <SmartItem label="Solutions" />
+                <SmartItem :label="t('header.menu.solutions.title')" to="/solutions" />
               </template>
               <template #content>
                 <MenuSolutions />
@@ -52,7 +52,7 @@ const { t } = useI18n()
               placement="bottom"
             >
               <template #default>
-                <SmartItem label="Platform" to="/platforms" />
+                <SmartItem :label="t('header.menu.platform.title')" to="/platforms" />
               </template>
               <template #content>
                 <MenuPlatform />
@@ -68,14 +68,14 @@ const { t } = useI18n()
               placement="bottom"
             >
               <template #default>
-                <SmartItem label="Company" />
+                <SmartItem :label="t('header.menu.company.title')" to="/company" />
               </template>
               <template #content>
                 <MenuCompany />
               </template>
             </tippy>
           </span>
-          <SmartItem to="/pricing" :label="t('header.menu.pricing.title')" />
+          <SmartItem :label="t('header.menu.pricing.title')" to="/pricing" />
         </nav>
         <div
           class="items-center justify-end hidden space-x-4 md:flex md:flex-1 lg:w-0"

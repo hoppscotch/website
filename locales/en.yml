@@ -92,6 +92,7 @@ home:
 header:
   menu:
     platform:
+      title: Platform
       links:
         web:
           name: Web
@@ -106,6 +107,7 @@ header:
           name: Native
           description: Neque porro quisquam est qui dolorem ipsum
     solutions:
+      title: Solutions
       documentation: Documentation
       guides: Guides
       support: Support
@@ -129,6 +131,7 @@ header:
           name: Maintanance
           description: Neque porro quisquam est qui dolorem ipsum
     company:
+      title: Company
       links:
         1:
           name: About

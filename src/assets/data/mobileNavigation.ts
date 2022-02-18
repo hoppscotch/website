@@ -82,22 +82,22 @@ export const navigation = [
       {
         name: 'header.menu.company.links.1.name',
         icon: at,
-        link: '/about',
+        link: '/company/about',
       },
       {
         name: 'header.menu.company.links.2.name',
         icon: briefcase,
-        link: '/about/jobs',
+        link: '/company/jobs',
       },
       {
         name: 'header.menu.company.links.3.name',
         icon: edit,
-        link: '/about/integrations',
+        link: '/company/integrations',
       },
       {
         name: 'header.menu.company.links.4.name',
         icon: support,
-        link: '/about/contact',
+        link: '/company/contact',
       },
     ],
   },
