@@ -18,21 +18,12 @@ home:
         title: Open source community
         description: Hoppscotch is built on top of open source technologies. We are a community of developers who believe in the power of open source.
       4:
-        title: Be part of the story
-        description: We listen to our community and build Hoppscotch in collaboration with developers, to build the best product and developer experience across the platform.
-      5:
-        title: Build what you’ve always wanted
-        description: Start building your perfect APIs with the Hoppscotch platform, and streamline your workflows.
-      6:
-        title: One up your productivity
-        description: Everything you’ve asked for, in one place. Build, test and share APIs with your teams. Get started with the integrated developer tools in Hoppscotch and build your first API in no time.
-      7:
         title: Built for teams
         description: Have all your teams in one shared workspace. Synchronized in real-time across all users. Collaborate with your team and share your APIs in real-time.
-      8:
+      5:
         title: Light and dark UI
         description: We have multiple themes and accent colors. Use light or dark, your choice. Customizable combinations for background, foreground, and accent colors.
-      9:
+      6:
         title: Keyboard first design
         description: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
   users:

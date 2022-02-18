@@ -18,18 +18,18 @@ const { t } = useI18n()
     </div>
     <div class="mt-8 grid gap-4 grid-cols-2">
       <div v-for="(feature, index) in features" :key="`feature-${index}`" class="w-full p-8 overflow-hidden rounded-xl col-span-2" :class="feature.styles">
-        <i class="text-3xl text-secondaryLight">
+        <i class="text-3xl text-secondaryDark">
           <component :is="feature.icon" />
         </i>
         <div class="flex flex-col flex-1">
-          <h2 class="flex mt-4 mb-2 text-lg font-semibold">
+          <h2 class="flex mt-4 mb-2 text-lg font-semibold text-secondaryDark">
             {{ t(feature.title) }}
           </h2>
-          <p class="flex w-4/5 max-w-xl opacity-75">
+          <p class="flex w-4/5 max-w-xl opacity-75 text-secondaryDark">
             {{ t(feature.description) }}
           </p>
         </div>
-        <img :src="`/assets/images/screenshots/${isDark?'dark':'light'}-${feature.image}`" :alt="t(feature.title)" class="rounded-lg h-auto object-top mt-8 w-full transition <lg:mt-8 ">
+        <img :src="`/assets/images/platforms/web/${isDark?'dark':'light'}-${feature.image}`" :alt="t(feature.title)" class="rounded-lg h-auto object-top mt-8 w-full transition <lg:mt-8 ">
       </div>
     </div>
   </div>
