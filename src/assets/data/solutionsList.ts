@@ -12,7 +12,8 @@ export const solutions = [
     icon: layers,
     placement: 'left',
     image: '/assets/images/screenshots/dark-banner.png',
-    background: 'bg-gradient-to-r from-blue-200 dark:from-blue-800 to-blue-600',
+    background: ' bg-gradient-to-r from-blue-200 dark:from-blue-800 to-blue-600/20',
+    link: { title: 'action.learn_more', target: '/solutions/design' },
   },
   {
     title: 'solutions.items.development.title',
@@ -20,7 +21,8 @@ export const solutions = [
     icon: code,
     placement: 'right',
     image: '/assets/images/screenshots/light-banner.png',
-    background: 'bg-gradient-to-r from-light-200 dark:from-dark-800 dark:from-dark-800 to-green-600',
+    background: ' bg-gradient-to-r from-light-200 dark:from-dark-800 dark:from-dark-800 to-green-600/20',
+    link: { title: 'action.learn_more', target: '/solutions/development' },
 
   },
   {
@@ -29,7 +31,8 @@ export const solutions = [
     icon: flask,
     placement: 'left',
     image: '/assets/images/screenshots/dark-banner.png',
-    background: 'bg-gradient-to-r from-light-200 dark:from-dark-800 dark:from-dark-800 to-purple-600',
+    background: 'bg-gradient-to-r from-light-200 dark:from-dark-800 dark:from-dark-800 to-indigo-600/20',
+    link: { title: 'action.learn_more', target: '/solutions/testing' },
 
   },
   {
@@ -39,6 +42,7 @@ export const solutions = [
     placement: 'right',
     image: '/assets/images/screenshots/light-banner.png',
     background: 'bg-gradient-to-r from-pink-200 dark:from-pink-800 to-pink-600',
+    link: { title: 'action.learn_more', target: '/solutions/documentation' },
 
   },
   {
@@ -47,7 +51,8 @@ export const solutions = [
     icon: check,
     placement: 'left',
     image: '/assets/images/screenshots/dark-banner.png',
-    background: 'bg-gradient-to-r from-light-200 dark:from-dark-800 dark:from-dark-800 to-blue-600',
+    background: 'bg-gradient-to-r from-pink-200 dark:from-pink-800 to-pink-600/20',
+    link: { title: 'action.learn_more', target: '/solutions/deployment' },
 
   },
   {
@@ -56,7 +61,8 @@ export const solutions = [
     icon: wrench,
     placement: 'right',
     image: '/assets/images/screenshots/light-banner.png',
-    background: 'bg-gradient-to-r from-light-200 dark:from-dark-800 dark:from-dark-800 to-green-600',
+    background: 'bg-gradient-to-r from-light-200 dark:from-dark-800 dark:from-dark-800 to-yellow-600/20',
+    link: { title: 'action.learn_more', target: '/solutions/maintanance' },
 
   },
 ]
