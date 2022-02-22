@@ -28,10 +28,10 @@ withDefaults(
     <h2 class="flex my-3 text-3xl font-black text-secondaryDark">
       {{ t(feature.title) }}
     </h2>
-    <p class="flex text-lg max-w-lg  py-3">
+    <p class="flex text-lg text-secondaryDark max-w-lg py-3">
       {{ t(feature.description) }}
     </p>
-    <p class="flex text-lg max-w-lg ">
+    <p class="flex text-md max-w-lg ">
       {{ t(feature.longDescription) }}
     </p>
     <ul v-if="feature.lists" class="py-3">
