@@ -393,15 +393,123 @@ solutions:
     design:
       title: Design
       description: Users can now export and import single collection from collection's menu.
+      features:
+        1:
+          title: Lightweight
+          description: Hoppscotch is designed to be lightweight and easy to use.
+          longDescription: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+        2:
+          title: Fast
+          description: Hoppscotch is built on top of open source technologies. We are a community of developers who believe in the power of open source.
+          longDescription: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+        3:
+          title: Simple
+          description: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+          longDescription: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+          lists:
+            1:
+              title: Design Phase 1
+              description: You can create a collection that contains your API tests and link it to a specific version of your API.
+            2:
+              title: Design Phase 2
+              description: You can create a collection that contains your API tests and link it to a specific version of your API.
+            3:
+              title: Design Phase 3
+              description: You can create a collection that contains your API tests and link it to a specific version of your API.
+        4:
+          title: PWA
+          description: Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+          longDescription: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
     development:
       title: Development
       description: Teams and collections are now faster and more intuitive.
+      features:
+        1:
+          title: Lightweight
+          description: Hoppscotch is designed to be lightweight and easy to use.
+          longDescription: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+          lists:
+            1:
+              title: Development Phase 1
+              description: You can create a collection that contains your API tests and link it to a specific version of your API.
+            2:
+              title: Development Phase 2
+              description: You can create a collection that contains your API tests and link it to a specific version of your API.
+            3:
+              title: Development Phase 3
+              description: You can create a collection that contains your API tests and link it to a specific version of your API.
+        2:
+          title: Fast
+          description: Hoppscotch is built on top of open source technologies. We are a community of developers who believe in the power of open source.
+          longDescription: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+        3:
+          title: Simple
+          description: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+          longDescription: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+        4:
+          title: PWA
+          description: Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+          longDescription: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
     testing:
       title: Testing
       description: Code editors now occupy full height of the section, and cURL importer now has a paste from clipboard button.
+      features:
+        1:
+          title: Lightweight
+          description: Hoppscotch is designed to be lightweight and easy to use.
+          longDescription: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+        2:
+          title: Fast
+          description: Hoppscotch is designed to be lightweight and easy to use.
+          longDescription: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+          lists:
+            1:
+              title: Create new test
+              description: You can create a collection that contains your API tests and link it to a specific version of your API.
+            2:
+              title: Create new test 2
+              description: You can create a collection that contains your API tests and link it to a specific version of your API.
+            3:
+              title: Create new test 3
+              description: You can create a collection that contains your API tests and link it to a specific version of your API.
+        3:
+          title: Simple
+          description: Hoppscotch is designed to be lightweight and easy to use.
+          longDescription: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+        4:
+          title: PWA
+          description: Hoppscotch is designed to be lightweight and easy to use.
+          longDescription: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
     documentation:
       title: Documentation
       description: Environment variables now respect mixed strings in endpoints and are more intuitive.
+      features:
+        1:
+          title: Lightweight
+          description: Hoppscotch is designed to be lightweight and easy to use.
+          longDescription: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+        2:
+          title: Fast
+          description: Hoppscotch is designed to be lightweight and easy to use.
+          longDescription: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+        3:
+          title: Simple
+          description: Hoppscotch is designed to be lightweight and easy to use.
+          longDescription: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+        4:
+          title: PWA
+          description: Hoppscotch is designed to be lightweight and easy to use.
+          longDescription: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+          lists:
+            1:
+              title: Documentation Phase 1
+              description: You can create a collection that contains your API tests and link it to a specific version of your API.
+            2:
+              title: Documentation Phase 2
+              description: You can create a collection that contains your API tests and link it to a specific version of your API.
+            3:
+              title: Documentation Phase 3
+              description: You can create a collection that contains your API tests and link it to a specific version of your API.
     deployment:
       title: Deployment
       description: Adding URL encoded body type now support key-value pairs and raw YAML editor.
