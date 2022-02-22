@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { features } from '~/assets/data/solutionDesign'
+import { features } from '~/assets/data/solutionDevelopment'
 import { isDark } from '~/composables'
 const { t } = useI18n()
+
 </script>
 
 <template>
@@ -10,10 +11,10 @@ const { t } = useI18n()
       <h1
         class="max-w-2xl my-4 text-3xl font-black leading-none text-center text-secondaryDark transition md:text-4xl lg:text-5xl"
       >
-        {{ t("solutions.items.design.title") }}
+        {{ t("solutions.items.development.title") }}
       </h1>
       <p class="max-w-md my-4 text-lg text-center md:w-3/5">
-        {{ t("solutions.items.design.description") }}
+        {{ t("solutions.items.development.description") }}
       </p>
     </div>
     <div class="flex flex-col my-10">
