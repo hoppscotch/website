@@ -7,6 +7,8 @@ export const features = [
     description: 'solutions.items.documentation.features.1.description',
     longDescription: 'solutions.items.documentation.features.1.longDescription',
     image: 'testing.png',
+    placement: 'left',
+    background: 'bg-gradient-to-t from-green-300 via-blue-500 to-purple-300 dark:to-purple-600',
   },
   {
     icon: check,
@@ -14,6 +16,8 @@ export const features = [
     description: 'solutions.items.documentation.features.2.description',
     longDescription: 'solutions.items.documentation.features.2.longDescription',
     image: 'testing.png',
+    placement: 'right',
+    background: ' bg-gradient-to-t from-yellow-200 via-green-200 to-green-300 dark:to-green-500',
   },
   {
     icon: check,
@@ -21,6 +25,8 @@ export const features = [
     description: 'solutions.items.documentation.features.3.description',
     longDescription: 'solutions.items.documentation.features.3.longDescription',
     image: 'testing.png',
+    placement: 'left',
+    background: 'bg-gradient-to-t from-green-200 via-green-400 to-purple-300 dark:to-purple-700',
   },
   {
     icon: check,
@@ -42,5 +48,7 @@ export const features = [
         description: 'solutions.items.documentation.features.2.lists.3.description',
       },
     ],
+    placement: 'right',
+    background: 'bg-gradient-to-b from-purple-400 to-yellow-200 dark:to-yellow-500',
   },
 ]

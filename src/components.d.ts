@@ -24,7 +24,6 @@ declare module 'vue' {
     LogosDiscordIcon: typeof import('~icons/logos/discord-icon')['default']
     LogosTwitter: typeof import('~icons/logos/twitter')['default']
     LucideArrowRight: typeof import('~icons/lucide/arrow-right')['default']
-    LucideLightbulb: typeof import('~icons/lucide/lightbulb')['default']
     LucideMegaphone: typeof import('~icons/lucide/megaphone')['default']
     LucideMoon: typeof import('~icons/lucide/moon')['default']
     LucideSun: typeof import('~icons/lucide/sun')['default']
@@ -47,6 +46,7 @@ declare module 'vue' {
     SolutionDevelopmentHero: typeof import('./components/SolutionDevelopmentHero.vue')['default']
     SolutionDocumentationHero: typeof import('./components/SolutionDocumentationHero.vue')['default']
     SolutionImage: typeof import('./components/SolutionImage.vue')['default']
+    SolutionImageBlock: typeof import('./components/SolutionImageBlock.vue')['default']
     SolutionTestHero: typeof import('./components/SolutionTestHero.vue')['default']
     SolutionTimeline: typeof import('./components/SolutionTimeline.vue')['default']
   }
