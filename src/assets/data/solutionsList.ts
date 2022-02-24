@@ -11,7 +11,7 @@ export const solutions = [
     description: 'solutions.items.design.description',
     icon: layers,
     placement: 'left',
-    image: '/assets/images/screenshots/dark-banner.png',
+    image: 'banner.png',
     background: ' bg-gradient-to-r from-blue-200 dark:from-blue-800 to-blue-600/20',
     link: { title: 'action.learn_more', target: '/solutions/design' },
   },
@@ -20,7 +20,7 @@ export const solutions = [
     description: 'solutions.items.development.description',
     icon: code,
     placement: 'right',
-    image: '/assets/images/screenshots/light-banner.png',
+    image: 'banner.png',
     background: ' bg-gradient-to-r from-light-200 dark:from-dark-800 dark:from-dark-800 to-green-600/20',
     link: { title: 'action.learn_more', target: '/solutions/development' },
 
@@ -30,7 +30,7 @@ export const solutions = [
     description: 'solutions.items.testing.description',
     icon: flask,
     placement: 'left',
-    image: '/assets/images/screenshots/dark-banner.png',
+    image: 'banner.png',
     background: 'bg-gradient-to-r from-light-200 dark:from-dark-800 dark:from-dark-800 to-indigo-600/20',
     link: { title: 'action.learn_more', target: '/solutions/testing' },
 
@@ -40,7 +40,7 @@ export const solutions = [
     description: 'solutions.items.documentation.description',
     icon: file,
     placement: 'right',
-    image: '/assets/images/screenshots/light-banner.png',
+    image: 'banner.png',
     background: 'bg-gradient-to-r from-pink-200 dark:from-pink-800 to-pink-600',
     link: { title: 'action.learn_more', target: '/solutions/documentation' },
 
@@ -50,7 +50,7 @@ export const solutions = [
     description: 'solutions.items.deployment.description',
     icon: check,
     placement: 'left',
-    image: '/assets/images/screenshots/dark-banner.png',
+    image: 'banner.png',
     background: 'bg-gradient-to-r from-pink-200 dark:from-pink-800 to-pink-600/20',
     link: { title: 'action.learn_more', target: '/solutions/deployment' },
 
@@ -60,7 +60,7 @@ export const solutions = [
     description: 'solutions.items.maintanance.description',
     icon: wrench,
     placement: 'right',
-    image: '/assets/images/screenshots/light-banner.png',
+    image: 'banner.png',
     background: 'bg-gradient-to-r from-light-200 dark:from-dark-800 dark:from-dark-800 to-yellow-600/20',
     link: { title: 'action.learn_more', target: '/solutions/maintanance' },
 
