@@ -90,6 +90,8 @@ home:
       title: Help shape the product
       description: Some of the best ideas come from our users. Join our Discord community to help create the future of Hoppscotch.
 header:
+  main_navigation_aria_label: Main Navigation
+  navigation_link_aria_label: Navigation Links
   menu:
     platform:
       title: Platform
@@ -199,6 +201,7 @@ footer:
       terms: Terms
       privacy: Privacy
       roadmap: Roadmap
+  theme_toggle_aria_label: Toggle between dark mode and light mode    
 platforms:
   hero:
     heading: Platforms

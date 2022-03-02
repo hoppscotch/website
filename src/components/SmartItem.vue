@@ -48,6 +48,8 @@ const computedComponent = computed(() => {
     :to="props.to"
     class="inline-flex px-4 py-2 rounded-lg cursor-pointer text-secondary transition hover:bg-primaryDark hover:text-secondaryDark focus:bg-primaryDark focus:outline-none focus:text-secondaryDark"
     :class="[{ 'flex-1': label }, { 'flex-row-reverse justify-end': reverse }]"
+    :role="linkMode === 'button' ? 'button' : 'link'"
+    :aria-label="label"
   >
     <component
       :is="icon"

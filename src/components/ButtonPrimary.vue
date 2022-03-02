@@ -75,6 +75,8 @@ const computedComponent = computed(() => {
       },
     ]"
     :tabindex="loading ? '-1' : '0'"
+    :role="linkMode === 'button' ? 'button' : 'link'"
+    :aria-label="label"
   >
     <span
       v-if="!loading"

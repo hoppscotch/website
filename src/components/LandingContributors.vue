@@ -21,6 +21,7 @@ const randomContributors = computed(() => contributors.sort(() => Math.random() 
         v-for="(contributor, index) in randomContributors"
         :key="index"
         :href="`https://github.com/${contributor.username}`"
+        :aria-label="`${contributor.username} on GitHub`"
         target="_blank"
         rel="noopener noreferrer"
         class="inline-flex flex-col items-center justify-center m-2 rounded-full"
@@ -28,6 +29,7 @@ const randomContributors = computed(() => contributors.sort(() => Math.random() 
         <img
           :src="contributor.image"
           :username="contributor.username"
+          :alt="contributor.username"
           loading="lazy"
           class="object-cover rounded-full shadow-inner bg-primaryDark ring-dividerDark transition contributor-bubble hover:ring-4"
           :class="`contributor-bubble-${index+1}`"

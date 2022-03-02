@@ -34,6 +34,7 @@ const computedComponent = computed(() => {
     v-bind="$attrs"
     :href="props.to"
     :to="props.to"
+    :role="linkMode === 'button' ? 'button' : 'link'"
   >
     <slot />
   </component>

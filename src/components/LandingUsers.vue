@@ -21,6 +21,7 @@ const { t } = useI18n()
           :src="`/assets/images/users/${isDark?'dark':'light'}-${user.image}`"
           :alt="user.title"
           :title="user.title"
+          :aria-label="`${user.title} logo image`"
           loading="lazy"
           class="inline-flex flex-col object-cover object-center text-blue-500 max-h-16"
         >

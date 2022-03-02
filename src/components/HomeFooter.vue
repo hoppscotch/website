@@ -39,7 +39,9 @@ const { t } = useI18n()
           <button
             v-tippy="{ theme: 'tooltip', content: isDark ? t('action.light') : t('action.dark'), placement: 'bottom' }"
             class="inline-flex mx-2 outline-none text-secondaryLight hover:text-secondaryDark"
-
+            role="button"
+            :aria-pressed="isDark === true"
+            :aria-label="t('footer.theme_toggle_aria_label')"
             @click="toggleDark()"
           >
             <lucide-moon v-if="isDark" />

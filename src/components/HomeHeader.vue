@@ -9,6 +9,7 @@ const { t } = useI18n()
   <header class="max-h-screen top-0 z-20 sticky <md:overflow-auto">
     <nav
       class="bg-white flex transition backdrop-blur backdrop-filter !bg-opacity-75 dark:bg-dark-900"
+      :aria-label="t('header.main_navigation_aria_label')"
     >
       <div class="container flex items-center justify-between flex-1 px-8 py-4">
         <div class="flex md:flex-1 md:w-0">
@@ -26,7 +27,7 @@ const { t } = useI18n()
             </span>
           </router-link>
         </div>
-        <nav class="hidden md:flex">
+        <nav class="hidden md:flex" :aria-label="t('header.navigation_link_aria_label')">
           <span>
             <tippy
               theme="popover"
