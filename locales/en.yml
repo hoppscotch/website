@@ -59,8 +59,6 @@ home:
       9:
         title: Accessibility
         description: Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
-    
-
   announcement:
     long_description: Hoppscotch raises $3M in seed round
     short_description: Hoppscotch raises $3M
@@ -525,3 +523,20 @@ action:
   open_app: Open app
   show_more: Show more
   learn_more: Learn more
+company:
+  hero:
+    heading: Company
+    subheading: Some two line para about company where Hoppscotch are available.
+  items:
+    about:
+      title: About
+      description: Some two line para about company where Hoppscotch are available.
+    careers:
+      title: Careers
+      description: Some two line para about company where Hoppscotch are available.
+    blog:
+      title: Blog
+      description: Some two line para about company where Hoppscotch are available.
+    support:
+      title: Support
+      description: Some two line para about company where Hoppscotch are available.
