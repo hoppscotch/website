@@ -523,6 +523,10 @@ action:
   open_app: Open app
   show_more: Show more
   learn_more: Learn more
+newsletter:
+  title: Subscribe to newsletter
+  subscribe: Subscribe
+  email: Email
 company:
   hero:
     heading: Company

@@ -10,6 +10,7 @@
     <LandingTestimonials />
     <LandingCTA />
     <LandingSocial />
+    <LandingNewsletter />
   </div>
 </template>
 
