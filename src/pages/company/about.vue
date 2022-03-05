@@ -1,6 +1,9 @@
 <template>
   <div class="flex flex-col">
-    <CompanyHero />
+    <AboutHero />
+    <LandingContributors />
+    <LandingUsers />
+    <LandingTestimonials />
     <LandingCTA />
     <LandingSocial />
     <LandingNewsletter />

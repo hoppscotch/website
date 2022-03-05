@@ -15,7 +15,7 @@ const { t } = useI18n()
         <h4 class="flex mb-2 text-lg font-semibold text-secondaryDark">
           {{ t('newsletter.title') }}
         </h4>
-        <p class="max-w-md text-secondaryLight">
+        <p class="text-secondaryLight">
           {{ t('newsletter.description') }}
         </p>
       </div>

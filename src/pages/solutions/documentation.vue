@@ -3,6 +3,7 @@
     <SolutionDocumentationHero />
     <LandingCTA />
     <LandingSocial />
+    <LandingNewsletter />
   </div>
 </template>
 

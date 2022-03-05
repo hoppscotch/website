@@ -546,3 +546,20 @@ company:
     support:
       title: Support
       description: Some two line para about company where Hoppscotch are available.
+about:
+  hero:
+    heading: We're on a mission to make API development easier
+    subheading: Hoppscotch is a tool that helps you create, test, and document APIs.
+  stats:
+    1:
+      title: 40K+
+      description: GitHub Stars
+    2:
+      title: 1M+
+      description: Users
+    3:
+      title: 1M+
+      description: Monthly requests
+    4:
+      title: 50k+
+      description: Monthly users

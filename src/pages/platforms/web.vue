@@ -3,6 +3,7 @@
     <PlatformWebHero />
     <LandingCTA />
     <LandingSocial />
+    <LandingNewsletter />
   </div>
 </template>
 

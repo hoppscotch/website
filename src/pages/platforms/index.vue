@@ -1,6 +1,9 @@
 <template>
   <div class="flex flex-col">
     <PlatformHero />
+    <LandingCTA />
+    <LandingSocial />
+    <LandingNewsletter />
   </div>
 </template>
 
