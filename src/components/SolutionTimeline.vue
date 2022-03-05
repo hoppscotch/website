@@ -26,7 +26,7 @@ const setActiveSolution = (index: number) => {
       <div class="sticky min-h-[30vh] sm:min-h-[40vh] lg:min-h-[60vh] top-20 md:top-15 lg:top-[20%] left-0 flex flex-col justify-center items-center bg-primary">
         <SolutionImage v-for="(solution,index) in solutions" :key="solution.title" :visible-solution="solution" :is-visible="activeSolutionIndex === index" />
       </div>
-      <div class="flex flex-col ">
+      <div class="flex flex-col">
         <SolutionCard v-for="(solution,index) in solutions" :key="solution.title" :visible-solution="solution" :solution-index="index" @set-active-solution="setActiveSolution" />
       </div>
     </div>

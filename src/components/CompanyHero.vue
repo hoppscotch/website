@@ -4,10 +4,10 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div class="flex flex-col py-16 px-8">
+  <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <h1
-        class="font-black my-4 text-center text-secondaryDark leading-none max-w-2xl transition text-3xl md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl font-black leading-none text-center text-secondaryDark transition md:text-4xl lg:text-5xl"
       >
         {{ t("company.hero.heading") }}
       </h1>
@@ -19,20 +19,20 @@ const { t } = useI18n()
       <div
         v-for="(platform, index) in company"
         :key="`platform-${index}`"
-        class="bg-primaryLight rounded-xl flex-col p-8 transition inline-flex"
+        class="inline-flex flex-col p-8 bg-primaryLight rounded-xl transition"
       >
-        <i class="text-accentLight text-3xl">
+        <i class="text-3xl text-accentLight">
           <component :is="platform.icon" />
         </i>
         <div class="flex flex-col flex-1">
-          <h2 class="flex font-semibold mt-4 text-lg mb-2">
+          <h2 class="flex mt-4 mb-2 text-lg font-semibold">
             {{ t(platform.title) }}
           </h2>
           <p class="flex flex-1 text-secondaryLight">
             {{ t(platform.description) }}
           </p>
           <p class="mt-2">
-            <SmartLink :to="platform.link.target" class="text-accent transition inline-flex items-center hover:text-accentDark">
+            <SmartLink :to="platform.link.target" class="inline-flex items-center text-accent transition hover:text-accentDark">
               <span class="mr-2">
                 {{ t(platform.link.title) }}
               </span>

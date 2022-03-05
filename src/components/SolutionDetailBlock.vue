@@ -21,21 +21,21 @@ withDefaults(
 </script>
 
 <template>
-  <div class="flex flex-col ">
-    <i class="text-accent text-3xl py-2">
+  <div class="flex flex-col">
+    <i class="py-2 text-3xl text-accent">
       <component :is="feature.icon" />
     </i>
     <h2 class="flex my-3 text-3xl font-black text-secondaryDark">
       {{ t(feature.title) }}
     </h2>
-    <p class="flex text-lg text-secondaryDark max-w-lg py-3">
+    <p class="flex max-w-lg py-3 text-lg text-secondaryDark">
       {{ t(feature.description) }}
     </p>
-    <p class="flex text-md max-w-lg ">
+    <p class="flex max-w-lg text-md">
       {{ t(feature.longDescription) }}
     </p>
     <ul v-if="feature.lists" class="py-3">
-      <li v-for="(item, listIndex) in feature.lists" :key="`item-${listIndex}`" class="flex items-center gap-2 my-3 pl-5">
+      <li v-for="(item, listIndex) in feature.lists" :key="`item-${listIndex}`" class="flex items-center pl-5 my-3 gap-2">
         <i class="text-accent">
           <component :is="check" />
         </i>

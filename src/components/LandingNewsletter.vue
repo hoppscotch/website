@@ -3,38 +3,52 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div class="flex flex-col py-16 px-8">
-    <form
-      action="https://launchaco.us20.list-manage.com/subscribe/post?u=807aba6832422fc0a3a1ac751&amp;id=03385b483f"
-      method="post"
-      target="_blank"
-      validate
-    >
-      <label for="mce-EMAIL" class="flex font-bold flex-1 mb-8 text-2xl justify-center">{{ t('newsletter.title') }}</label>
-      <div class="flex flex-col space-y-2 justify-center md:(space-x-2 space-y-0 flex-row) ">
-        <input
-          id="mce-EMAIL"
-          name="EMAIL"
-          class="form-input"
-          type="email"
-          :placeholder="t('newsletter.email')"
-          required
-        >
-        <input
-          id="mc-embedded-subscribe"
-          type="submit"
-          :value="t('newsletter.subscribe')"
-          name="subscribe"
-          class="form-button"
-        >
+  <form
+    action="https://launchaco.us20.list-manage.com/subscribe/post?u=807aba6832422fc0a3a1ac751&amp;id=03385b483f"
+    method="post"
+    target="_blank"
+    validate
+    class="flex flex-col flex-1 px-8 py-16 mx-auto lg:max-w-4xl"
+  >
+    <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+      <div class="flex flex-col">
+        <h4 class="flex mb-2 text-lg font-semibold text-secondaryDark">
+          {{ t('newsletter.title') }}
+        </h4>
+        <p class="max-w-md text-secondaryLight">
+          {{ t('newsletter.description') }}
+        </p>
       </div>
-    </form>
-  </div>
+      <div class="flex flex-col">
+        <div class="inline-flex space-x-2">
+          <input
+            id="mce-EMAIL"
+            name="EMAIL"
+            class="form-input"
+            type="email"
+            :placeholder="t('newsletter.email')"
+            required
+          >
+          <input
+            id="mc-embedded-subscribe"
+            type="submit"
+            :value="t('newsletter.subscribe')"
+            name="subscribe"
+            class="form-button"
+          >
+        </div>
+        <p class="mt-4 text-xs text-secondaryLight">
+          {{ t('newsletter.prompt') }}
+        </p>
+      </div>
+    </div>
+  </form>
 </template>
 
 <style scoped>
 .form-input {
-  @apply flex;
+  @apply inline-flex;
+  @apply flex-1;
   @apply px-4;
   @apply py-2;
   @apply rounded-lg;
@@ -47,6 +61,7 @@ const { t } = useI18n()
 }
 
 .form-button {
+  @apply inline-flex;
   @apply px-4;
   @apply py-2;
   @apply rounded-lg;

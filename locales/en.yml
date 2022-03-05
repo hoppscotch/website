@@ -525,8 +525,10 @@ action:
   learn_more: Learn more
 newsletter:
   title: Subscribe to newsletter
+  description: Get a summary of what we've shipped during the last month, behind the scenes updates, and team picks.
   subscribe: Subscribe
   email: Email
+  prompt: Pure information and no spam. Unsubscribe any time.
 company:
   hero:
     heading: Company

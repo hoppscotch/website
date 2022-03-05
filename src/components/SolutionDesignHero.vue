@@ -16,7 +16,7 @@ const { t } = useI18n()
       </p>
     </div>
     <div class="flex flex-col my-10">
-      <div v-for="(feature, index) in features" :key="`feature-${index}`" class="grid grid-cols-1 lg:grid-cols-2 gap-15 lg:gap-30 py-15 sm:py-20 items-center">
+      <div v-for="(feature, index) in features" :key="`feature-${index}`" class="items-center grid grid-cols-1 lg:grid-cols-2 gap-15 lg:gap-30 py-15 sm:py-20">
         <SolutionDetailBlock :feature="feature" />
         <SolutionImageBlock :feature="feature" />
       </div>
