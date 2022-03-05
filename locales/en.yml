@@ -563,3 +563,25 @@ about:
     4:
       title: 50k+
       description: Monthly users
+  values:
+    title: Our core values
+    description: These values are more than just aspirational jargon that we come up with to check a box. They are the foundational framing we use when assessing potential partners to join our team.
+    items:
+      dream:
+        title: Dream big
+        description: Our promise to each other is to lead with originality and creativity. We approach each problem and opportunity with fearless energy and passion. You will never do boring work at Hoppscotch because “great” is never good enough.
+      velocity:
+        title: High velocity
+        description: We believe quality and speed are not binary choices. We ship work early, welcome feedback, fail fast, and iterate. We learn from the best to hone our crafts and draw inspiration from unlikely places.
+      empathy:
+        title: Empathy, always
+        description: From users to partners to colleagues - we default to respect. We ask thoughtful questions and make time to talk. We offer a hand or two. Above all, we know that we only succeed when our users succeed.
+      ownership:
+        title: Ownership mindset
+        description: With a bias for action, we take pride in our work and our results. We’re accountable to one another. We cultivate trust with our users. We communicate with transparency and above all, we operate with integrity.
+      grow:
+        title: Grit to grow
+        description: Through a culture of learning and non-complacency, we are always improving. We seek out the hardest problems that have the most impact. We inspire each other. The power of a growth mindset enables us to accomplish amazing things.
+      
+
+
