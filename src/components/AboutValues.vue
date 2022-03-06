@@ -20,7 +20,7 @@ const { t } = useI18n()
           :key="`platform-${index}`"
           class="inline-flex flex-col p-4 sm:p-8 rounded-xl transition group"
         >
-          <i class="text-xl text-accentContrast flex justify-center items-center w-13 h-13 p-2 rounded-full transition transform bg-accentDark group-hover:bg-accentLight">
+          <i class="flex items-center justify-center p-2 text-xl rounded-full text-accentContrast w-13 h-13 transition transform bg-accentDark group-hover:bg-accentLight">
             <component :is="value.icon" class="transition transform group-hover:scale-110" />
           </i>
           <div class="flex flex-col flex-1">
