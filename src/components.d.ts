@@ -6,6 +6,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     AboutHero: typeof import('./components/AboutHero.vue')['default']
     AboutValues: typeof import('./components/AboutValues.vue')['default']
+    BlogCard: typeof import('./components/BlogCard.vue')['default']
     BlogGrid: typeof import('./components/BlogGrid.vue')['default']
     BlogHero: typeof import('./components/BlogHero.vue')['default']
     ButtonPrimary: typeof import('./components/ButtonPrimary.vue')['default']
@@ -30,7 +31,6 @@ declare module 'vue' {
     LogosDiscordIcon: typeof import('~icons/logos/discord-icon')['default']
     LogosTwitter: typeof import('~icons/logos/twitter')['default']
     LucideArrowRight: typeof import('~icons/lucide/arrow-right')['default']
-    LucideLightbulb: typeof import('~icons/lucide/lightbulb')['default']
     LucideMegaphone: typeof import('~icons/lucide/megaphone')['default']
     LucideMoon: typeof import('~icons/lucide/moon')['default']
     LucideSun: typeof import('~icons/lucide/sun')['default']
