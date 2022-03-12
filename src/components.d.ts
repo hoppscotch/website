@@ -6,6 +6,9 @@ declare module 'vue' {
   export interface GlobalComponents {
     AboutHero: typeof import('./components/AboutHero.vue')['default']
     AboutValues: typeof import('./components/AboutValues.vue')['default']
+    BlogCard: typeof import('./components/BlogCard.vue')['default']
+    BlogGrid: typeof import('./components/BlogGrid.vue')['default']
+    BlogHero: typeof import('./components/BlogHero.vue')['default']
     ButtonPrimary: typeof import('./components/ButtonPrimary.vue')['default']
     ButtonSecondary: typeof import('./components/ButtonSecondary.vue')['default']
     ChangelogCard: typeof import('./components/ChangelogCard.vue')['default']
