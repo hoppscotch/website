@@ -22,6 +22,14 @@ withDefaults(
   {},
 )
 
+const getComputedDate = (date: string) => {
+  const dateObj = new Date(date)
+  const month = dateObj.toLocaleString('default', { month: 'long' })
+  const day = dateObj.getDate()
+  const year = dateObj.getFullYear()
+  return `${month} ${day}, ${year}`
+}
+
 </script>
 
 <template>
@@ -39,7 +47,7 @@ withDefaults(
         </h2>
         <div class="flex items-center gap-2 my-2 text-secondaryDark text-xs ">
           <p class="opacity-60">
-            {{ new Date(blog.dateOfPublish).toDateString().split(' ').slice(1).join(' ') }}
+            {{ getComputedDate(blog.dateOfPublish) }}
           </p>
           <span class="opacity-60">
             •
