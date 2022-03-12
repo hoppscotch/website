@@ -2,7 +2,7 @@
 import { isDark } from '~/composables'
 const { t } = useI18n()
 
-withDefaults(
+const props = withDefaults(
   defineProps<{
     blog: {
       title: string
@@ -22,13 +22,13 @@ withDefaults(
   {},
 )
 
-const getComputedDate = (date: string) => {
-  const dateObj = new Date(date)
-  const month = dateObj.toLocaleString('default', { month: 'long' })
-  const day = dateObj.getDate()
-  const year = dateObj.getFullYear()
+const getComputedDate = computed(() => {
+  const date = new Date(props.blog.dateOfPublish)
+  const month = date.toLocaleString('default', { month: 'long' })
+  const day = date.getDate()
+  const year = date.getFullYear()
   return `${month} ${day}, ${year}`
-}
+})
 
 </script>
 
@@ -47,7 +47,7 @@ const getComputedDate = (date: string) => {
         </h2>
         <div class="flex items-center gap-2 my-2 text-secondaryDark text-xs ">
           <p class="opacity-60">
-            {{ getComputedDate(blog.dateOfPublish) }}
+            {{ getComputedDate }}
           </p>
           <span class="opacity-60">
             •
