@@ -25,7 +25,7 @@ export const company = [
     description: 'company.items.blog.description',
     link: {
       title: 'action.learn_more',
-      target: '/company/blogs',
+      target: '/company/blog',
     },
   },
   {

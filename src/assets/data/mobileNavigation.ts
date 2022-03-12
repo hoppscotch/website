@@ -92,7 +92,7 @@ export const navigation = [
       {
         name: 'header.menu.company.links.3.name',
         icon: edit,
-        link: '/company/integrations',
+        link: '/company/blog',
       },
       {
         name: 'header.menu.company.links.4.name',
