@@ -1,5 +1,5 @@
 ---
-title: Hoppscotch Blog | Hacktoberfest with Hoppscotch
+title: Hoppscotch Blog | Hoppscotch v1
 ---
 
 # Hoppscotch v1
