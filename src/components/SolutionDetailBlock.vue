@@ -35,7 +35,7 @@ withDefaults(
       {{ t(feature.longDescription) }}
     </p>
     <ul v-if="feature.lists" class="py-3">
-      <li v-for="(item, listIndex) in feature.lists" :key="`item-${listIndex}`" class="flex items-center pl-5 my-3 gap-2">
+      <li v-for="(item, listIndex) in feature.lists" :key="`item-${listIndex}`" class="flex items-center pl-5 my-3">
         <i class="text-accent">
           <component :is="check" />
         </i>

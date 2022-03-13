@@ -15,7 +15,8 @@ import Inspect from 'vite-plugin-inspect'
 import Prism from 'markdown-it-prism'
 import LinkAttributes from 'markdown-it-link-attributes'
 
-const markdownWrapperClasses = 'prose prose-md m-auto px-8 py-16 text-left'
+const markdownWrapperClasses
+  = 'prose prose-md text-left container flex flex-col px-8 py-16 lg:max-w-4xl'
 
 export default defineConfig({
   resolve: {
@@ -87,9 +88,7 @@ export default defineConfig({
       headEnabled: true,
       markdownItSetup(md) {
         // https://prismjs.com/
-        // @ts-expect-error types mismatch
         md.use(Prism)
-        // @ts-expect-error types mismatch
         md.use(LinkAttributes, {
           pattern: /^https?:\/\//,
           attrs: {
