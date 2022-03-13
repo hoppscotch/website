@@ -1,8 +1,7 @@
-import check from '~icons/lucide/shield-check'
 
 export const blogs = [
   {
-    slug: 'teams-in-hoppscotch',
+    slug: 'create-teams-for-collaboration-in-hoppscotch',
     title: 'blog.items.1.title',
     description: 'blog.items.1.description',
     image: 'banner.png',
@@ -29,7 +28,7 @@ export const blogs = [
     styles: 'md:col-span-3 lg:col-span-2',
   },
   {
-    slug: '30,000-gitHub-stars',
+    slug: 'hoppscotch-is-celebrating-30-000-github-stars',
     title: 'blog.items.3.title',
     description: 'blog.items.3.description',
     image: 'banner.png',
@@ -42,7 +41,7 @@ export const blogs = [
     styles: 'md:col-span-3 xl:col-span-2',
   },
   {
-    slug: 'hoppscotch',
+    slug: 'github-externship-hoppscotch',
     title: 'blog.items.4.title',
     description: 'blog.items.4.description',
     image: 'banner.png',
@@ -55,7 +54,7 @@ export const blogs = [
     styles: 'md:col-span-3 xl:col-span-2',
   },
   {
-    slug: 'hoppscotch',
+    slug: 'hoppscotch-celebrating-25-000-github-stars',
     title: 'blog.items.5.title',
     description: 'blog.items.5.description',
     image: 'banner.png',
@@ -68,7 +67,7 @@ export const blogs = [
     styles: 'md:col-span-3 xl:col-span-2',
   },
   {
-    slug: 'hoppscotch',
+    slug: 'hacktoberfest-with-hoppscotch',
     title: 'blog.items.6.title',
     description: 'blog.items.6.description',
     image: 'banner.png',
@@ -81,7 +80,7 @@ export const blogs = [
     styles: 'md:col-span-3 xl:col-span-2',
   },
   {
-    slug: 'hoppscotch',
+    slug: 'hoppscotch-v1',
     title: 'blog.items.7.title',
     description: 'blog.items.7.description',
     image: 'banner.png',
