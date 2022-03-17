@@ -22,6 +22,6 @@ export const company = [
   {
     name: 'header.menu.company.links.4.name',
     icon: support,
-    link: '/company/contact',
+    link: '/company/support',
   },
 ]

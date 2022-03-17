@@ -56,6 +56,7 @@ declare module 'vue' {
     SolutionImageBlock: typeof import('./components/SolutionImageBlock.vue')['default']
     SolutionTestHero: typeof import('./components/SolutionTestHero.vue')['default']
     SolutionTimeline: typeof import('./components/SolutionTimeline.vue')['default']
+    SupportHero: typeof import('./components/SupportHero.vue')['default']
   }
 }
 
