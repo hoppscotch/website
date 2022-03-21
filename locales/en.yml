@@ -619,5 +619,22 @@ blog:
       title: Creating Hoppscotch
       description: The story behind Hoppscotch, The very first task I was assigned is an API integration of an old project. That's when I came across the Postman...
       author: 'Liyas Thomas'    
-
+support:
+  hero:
+    heading: Get Support
+    subheading: Need a bit of help or found some bugs ? Check out our current issues, GitHub discussions, or get email support.
+  items:
+    1:
+      title: Email Support
+      description: We offer email based support. If you need SLAs, guaranteed response times, or have an issue, please contact us here. 
+      link_text: Get Support     
+    2:
+      title: GitHub Issues
+      description: We're always looking for new features and bug fixes. If you have an issue, please open an issue on GitHub.
+      link_text: See Issues
+    3:
+      title: GitHub Discussions
+      description: For help and queries, join our GitHub discussions.
+      link_text: Join Discussions
+  
 
