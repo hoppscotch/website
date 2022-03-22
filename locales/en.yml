@@ -636,5 +636,123 @@ support:
       title: GitHub Discussions
       description: For help and queries, join our GitHub discussions.
       link_text: Join Discussions
-  
+jobs:
+  hero:
+    heading: Join Hoppscotch
+    subheading: We’re on a mission to empower developers to focus on their work of creating software, and we’d like your help to get there.
+    open_position_btn: See Open Positions
+  howWeWork:
+    items:
+      1:
+        title: We trust in autonomy
+        description: We’re building a company where team members set their own quality bar, take pride in their workmanship, and are trusted to do their life's best work without supervision.
+      2:
+        title: We see work as positive-sum
+        description: We believe that shipping software is a positive-sum endeavor — there are no winners and losers at Hoppscotch. No bureaucracy and paper pushing. No interpersonal scorecards. We play together as a team, and we win as a team. We're working really hard to keep it that way.
+      3:
+        title: We don't rely too much on meetings
+        description: We have a longer weekly meeting on Monday where we catch up on each other weekends and discuss goals for the week and then shorter stand-ups on Wednesday and Friday morning.
+      4:
+        title: We believe this is a marathon, not a sprint
+        description: Building a meaningful company that has a massive impact takes time. We plan to run to the last mile and do it with great care for health and wellbeing. As important as work is to us, it isn't everything.
+      5:
+        title: Modern tooling
+        description: We move fast, operating mostly on Zoom and Slack. When we want company, we casually hang out and work together in Discord. We use email and Notion for long-form writing, which we encourage when communicating more complex subjects. We rely on Figma for design and prototyping ideas.
+      6:
+        title: We do our best to live by these values
+        description: It's easy to say these words, and it's hard to live by them. We make it a real point to try.
+  benefits:
+    heading: Benefits & balance
+    subheading: We're committed to providing a safe, stable, and rewarding environment for our team members.
+    items:  
+      1:
+        title: Remote
+        description: Our entire company is distributed, so we take remote work seriously. If you’d rather not work from home, we will cover the cost of a co-working or office space.     
+      2:
+        title: Flexible days and hours
+        description: We're an asynchronous remote team working in different time zones, from GMT-4 to GMT+5:30. Choose the hours and days that work best for you.    
+      3:
+        title: Healthcare
+        description: Employees receive generous medical, dental, vision, and life insurance. Full-time contractors will have the cost of healthcare factored into their salary. Our recruiting team can help confirm which applies to you.    
+      4:
+        title: Open source sponsorship
+        description: We would love to give an annual sponsorship to any open source project of your choice.    
+      5:
+        title: Learning
+        description: Hoppscotch provides $3,000 for employees to attend conferences, take classes, buy books, or otherwise further their education.    
+      6:
+        title: Gatherings
+        description: We typically meet up a couple of times a year in person for work and fun! What will be our next location? NYC, London, LA, or Barcelona? Help us decide!    
+      7:
+        title: Top-notch equipments
+        description: Hoppscotch will let you choose a new laptop of your choice and will reimburse you for any other accessories you need to do your best work.    
+      8:
+        title: Unlimited swags
+        description: At Hoppscotch, we really love swags. Every team member gets unlimited credits to grab any official Hoppscotch swags that she or he wishes.    
+      9:
+        title: Stock options
+        description: Get generous stock options for a company that is growing blazing fast and is backed by top VCs and angels. 
+  hiringProcess:
+    heading: Interview process
+    subheading: A few tips to help you get the most out of your interview with us.
+    process:
+        1:
+          title: Apply 
+          tips:
+            1: Apply to your preferred role.
+            2: We will reach out to you in 3-5 days.
+        2:
+          title: A 15-min phone call
+          tips:
+            1: We answer any questions you have.
+            2: We talk about specific compensation and the role.  
+            3: We'll arrange a 60-min call with our tech team.
+        3:
+          title: A 60-min phone call with CTO / tech team
+          tips:
+            1: You join our CTO / tech team members for a 60 min technical interview.
+            2: There are no DSA questions.
+            3: You get invited to all our internal stuff right about here.
+        4:
+          title: A 60-min phone call with CEO
+          tips:
+            1: You join our CEO for a 60 min casual interview.
+            2: We talk about the work culture, tools, and vision of Hoppscotch. 
+            3: After the call, you'll receive an email in 2 days.
+  openPositions:
+    heading: Open Positions
+    subheading: We're always looking for new developers to join our team.
+    engineering: 
+      heading: Engineering
+      items: 
+        1:
+          title: Full-stack Engineer
+          description: We're looking for a talented software engineer to join our team.
+        2:
+          title: Back-end Engineer
+          description: We're looking for a talented software engineer to join our team.
+        3:
+          title: Front-end Engineer
+          description: We're looking for a talented software engineer to join our team.
+        4:
+          title: DevOps Engineer
+          description: We're looking for a talented software engineer to join our team.
+    design: 
+      heading: Design
+      items: 
+        1:
+          title: User Interface and Experience Designer
+          description: We're looking for a talented software engineer to join our team.
+    product: 
+      heading: Product
+      items: 
+        1:
+          title: Product Manager
+          description: We're looking for a talented software engineer to join our team.
+        2:
+          title: Developer Relations Manager
+          description: We're looking for a talented software engineer to join our team.
+       
+      
+    
 

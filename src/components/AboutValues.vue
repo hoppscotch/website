@@ -15,23 +15,10 @@ const { t } = useI18n()
         {{ t("about.values.description") }}
       </p>
       <div class="py-15 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        <article
+        <SmartCard
           v-for="(value, index) in values"
-          :key="`platform-${index}`"
-          class="inline-flex flex-col p-4 sm:p-8 rounded-xl transition group"
-        >
-          <i class="flex items-center justify-center p-2 text-xl rounded-full text-accentContrast w-13 h-13 transition transform bg-accentDark group-hover:bg-accentLight">
-            <component :is="value.icon" class="transition transform group-hover:scale-110" />
-          </i>
-          <div class="flex flex-col flex-1">
-            <h3 class="flex mt-5 mb-3 text-xl font-semibold">
-              {{ t(value.title) }}
-            </h3>
-            <p class="flex flex-1 text-secondaryLight leading-6">
-              {{ t(value.description) }}
-            </p>
-          </div>
-        </article>
+          :key="`platform-${index}`" :title="t(value.title)" :description="t(value.description)" :icon="value.icon"
+        />
       </div>
     </div>
   </div>
