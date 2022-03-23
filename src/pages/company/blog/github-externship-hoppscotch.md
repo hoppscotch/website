@@ -10,7 +10,7 @@ Tags: app, community
 
 India 🇮🇳 is home to one of the largest communities of student developers in the world. In 2020 we saw the number of students participating in the GitHub Campus program increase by 142 percent, over 100,000 students signed up to GitHub Student Developer Pack, and campus offering was adopted by more than 100 higher-education institutions in India.
 
-This growth is great to see, as the student ecosystem is incredibly important to the continued growth and pace of innovation in India. However, students do not have enough opportunities to get mentorship that can make them real-world-ready and enhance their job prospects.
+This growth is great to see, as the student ecosystem is incredibly important to the continued growth and pace of innovation in India. However, students do not have enough opportunities to get mentorship that can make them real-world-ready and enhance their careers prospects.
 
 ### We are super excited to be a ‘Partner Organization’ of [GitHub Externship](https://github-externships.github.io/externship/) and look forward to supporting all interested students to participate and contribute to our [open-source projects](https://github.com/hoppscotch).
 

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { howWeWorks } from '~/assets/data/jobsHowWeWork'
+import { howWeWorks } from '~/assets/data/careersHowWeWork'
 const { t } = useI18n()
 </script>
 

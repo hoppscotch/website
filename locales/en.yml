@@ -636,7 +636,7 @@ support:
       title: GitHub Discussions
       description: For help and queries, join our GitHub discussions.
       link_text: Join Discussions
-jobs:
+careers:
   hero:
     heading: Join Hoppscotch
     subheading: We’re on a mission to empower developers to focus on their work of creating software, and we’d like your help to get there.
@@ -755,4 +755,3 @@ jobs:
        
       
     
-

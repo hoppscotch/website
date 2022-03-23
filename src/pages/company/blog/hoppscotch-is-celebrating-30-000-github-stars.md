@@ -23,7 +23,7 @@ This is an achievement of our whole community. Thank you for each contribution, 
 
 Most developers have side projects. That’s how we try out new things or make something that we miss on the market or in our dev stack. But most side projects end up unfinished and never actually see the light of day. And even if a developer builds up the courage to show his work to the public, he quickly finds out that just publishing a repository doesn’t bring the masses to his doorstep.
 
-When I set out to create Hoppscotch, of course, I haven’t had the faintest idea if anyone else would be interested in it. But I was mainly scratching my own itch — I knew how to make a web app and I hoped I’d build something that would serve my needs much better than existing tools on the market. That should be your primary motivator — not to chase stars, likes, and other popular content, but to create something for yourself that will make your job easier. There’s a chance you will not be the only one that will find it useful.
+When I set out to create Hoppscotch, of course, I haven’t had the faintest idea if anyone else would be interested in it. But I was mainly scratching my own itch — I knew how to make a web app and I hoped I’d build something that would serve my needs much better than existing tools on the market. That should be your primary motivator — not to chase stars, likes, and other popular content, but to create something for yourself that will make your careers easier. There’s a chance you will not be the only one that will find it useful.
 
 I’d like to share with you what I did to make sure that the project doesn’t end up in the dustbin of history. I will concentrate on open source software, but the following advice may as well apply to any creative endeavor.
 

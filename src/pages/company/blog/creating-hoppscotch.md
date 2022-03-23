@@ -20,7 +20,7 @@ Tags: app, release
 - Have multi-device support
 - Accessible from anywhere
 
-That's how Hoppscotch was born (this is not at all an alternative to Postman - yet, it does the job very beautifully and minimally. It needs more features and love which I hope we all can give by [contributing on GitHub](https://github.com/hoppscotch/hoppscotch)).
+That's how Hoppscotch was born (this is not at all an alternative to Postman - yet, it does the careers very beautifully and minimally. It needs more features and love which I hope we all can give by [contributing on GitHub](https://github.com/hoppscotch/hoppscotch)).
 
 When I did a background check on API request builders, Postman offered various Plans & Pricing, there were a lot of other API request builders based on cURL, etc. But none of them seems simple, minimal, and efficient.
 

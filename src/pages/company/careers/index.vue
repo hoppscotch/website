@@ -1,13 +1,11 @@
 <template>
   <div class="flex flex-col">
-    <JobHero />
-    <JobHowWeWork />
+    <CareersHero />
+    <CareersHowWeWork />
     <AboutValues />
-    <JobBenefits />
-    <JobHiringProcess />
-    <JobOpenPositions />
-    <LandingUsers />
-    <LandingCTA />
+    <CareersBenefits />
+    <CareersHiringProcess />
+    <CareersOpenPositions />
     <LandingSocial />
     <LandingNewsletter />
   </div>

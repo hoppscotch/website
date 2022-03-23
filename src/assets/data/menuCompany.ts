@@ -12,7 +12,7 @@ export const company = [
   {
     name: 'header.menu.company.links.2.name',
     icon: briefcase,
-    link: '/company/jobs',
+    link: '/company/careers',
   },
   {
     name: 'header.menu.company.links.3.name',

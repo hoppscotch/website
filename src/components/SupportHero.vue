@@ -21,7 +21,7 @@ const { t } = useI18n()
         :key="`support-${index}`"
         class="inline-flex flex-col p-8 bg-primaryLight rounded-xl transition"
       >
-        <i class="w-10 h-10 flex items-center justify-center text-xl text-accentContrast bg-accent p-2 rounded-full">
+        <i class="flex items-center justify-center w-10 h-10 p-2 text-xl rounded-full text-accentContrast bg-accent">
           <component :is="support.icon" />
         </i>
         <div class="flex flex-col flex-1">

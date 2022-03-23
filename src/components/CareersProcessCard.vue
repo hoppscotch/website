@@ -38,9 +38,9 @@ watch(
 
 <template>
   <div ref="targetTip" class="rounded-lg flex flex-col h-[40vh] py-8 px-5 justify-center md:h-[60vh] ">
-    <ul class="bg-primaryLight p-5 rounded max-w-lg">
-      <li v-for="tip in tipProps.visibleTip.tips" :key="tip" class="md:text-lg my-3 inline-flex gap-2 items-center">
-        <check class="h-5 w-5" />
+    <ul class="max-w-lg p-5 rounded bg-primaryLight">
+      <li v-for="tip in tipProps.visibleTip.tips" :key="tip" class="inline-flex items-center my-3 md:text-lg gap-2">
+        <check class="w-5 h-5" />
         {{ t(tip) }}
       </li>
     </ul>

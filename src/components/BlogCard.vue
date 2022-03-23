@@ -33,13 +33,13 @@ const getComputedDate = computed(() => {
 </script>
 
 <template>
-  <article class="w-full col-span-6 overflow-hidden rounded-lg shadow-md bg-primaryLight group" :class="blog.styles">
+  <article class="w-full overflow-hidden rounded-lg shadow-md col-span-6 bg-primaryLight group" :class="blog.styles">
     <SmartLink :to="`blog/${blog.slug}`" class="flex-col w-full h-full">
       <div class="overflow-hidden h-80">
         <img :src="`/assets/images/platforms/web/${isDark?'dark':'light'}-${blog.image}`" :alt="t(blog.title)" class="object-cover object-top w-full h-full transition duration-700 transform group-hover:scale-105">
       </div>
       <div class="flex flex-col flex-1 px-5 py-8">
-        <h2 class="flex items-center gap-4 text-xl font-semibold lg:text-2xl text-secondaryDark">
+        <h2 class="flex items-center text-xl font-semibold gap-4 lg:text-2xl text-secondaryDark">
           {{ t(blog.title) }}
           <span v-if="blog.new" class="px-2 py-1 text-sm rounded-full text-accentContrast bg-gradient-to-br from-gradientFrom via-gradientVia to-gradientTo">
             New
@@ -56,7 +56,7 @@ const getComputedDate = computed(() => {
             </span>
           </p>
         </div>
-        <p class="flex w-11/12 max-w-xl my-2 leading-6 opacity-75 text-secondaryDark">
+        <p class="flex w-11/12 max-w-xl my-2 opacity-75 leading-6 text-secondaryDark">
           {{ t(blog.description) }}
         </p>
         <ul class="flex flex-wrap my-4">

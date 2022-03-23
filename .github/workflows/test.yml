@@ -9,7 +9,7 @@ on:
     branches:
       - main
 
-jobs:
+careers:
   build:
     runs-on: ${{ matrix.os }}
 

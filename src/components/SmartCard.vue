@@ -17,7 +17,7 @@ withDefaults(
 </script>
 
 <template>
-  <div class="flex flex-col p-4 sm:p-6 rounded-xl transition shadow bg-primaryLight group">
+  <div class="flex flex-col p-4 shadow sm:p-6 rounded-xl transition bg-primaryLight group">
     <div class="flex flex-col w-full">
       <i class="flex items-center justify-center p-2 text-xl rounded-full text-accentContrast w-13 h-13 transition transform bg-accentDark group-hover:bg-accentLight">
         <component :is="icon" class="transition transform group-hover:scale-110" />
