@@ -4,9 +4,11 @@ title: Hoppscotch Blog | Creating Hoppscotch
 
 # Creating Hoppscotch
 
-Author: Liyas Thomas
-Date: August 22, 2019
-Tags: app, release
+Author: Liyas Thomas<br/>
+Date: August 22, 2019<br/>
+Tags: app, release<br/>
+
+<hr/>
 
 *In case you missed it!*
 

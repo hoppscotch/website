@@ -26,6 +26,7 @@ export const interviewProcess = [
     tips: [
       'careers.hiringProcess.process.4.tips.1',
       'careers.hiringProcess.process.4.tips.2',
+      'careers.hiringProcess.process.4.tips.3',
     ],
   },
 ]

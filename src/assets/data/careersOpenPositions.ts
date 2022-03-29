@@ -27,7 +27,7 @@ export const openPositions = [
       {
         title: 'careers.openPositions.engineering.items.4.title',
         description: 'careers.openPositions.engineering.items.4.description',
-        link: 'devOps-engineer',
+        link: 'devops-engineer',
       },
     ],
   },

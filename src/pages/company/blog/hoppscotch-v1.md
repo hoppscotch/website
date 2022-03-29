@@ -5,9 +5,11 @@ title: Hoppscotch Blog | Hoppscotch v1
 # Hoppscotch v1
 
 
-Author: Liyas Thomas
-Date: November 5, 2019
-Tags: app, release
+Author: Liyas Thomas<br/>
+Date: November 5, 2019<br/>
+Tags: app, release<br/>
+
+<hr/>
 
 So, here’s how [**Hoppscotch**](https://hoppscotch.io/) happened.
 

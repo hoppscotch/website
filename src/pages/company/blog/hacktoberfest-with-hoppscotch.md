@@ -4,9 +4,11 @@ title: Hoppscotch Blog | Hacktoberfest with Hoppscotch
 
 # Hacktoberfest with Hoppscotch
 
-Author: Liyas Thomas
-Date: October 14, 2020
-Tags: app, community
+Author: Liyas Thomas<br/>
+Date: October 14, 2020<br/>
+Tags: app, community<br/>
+
+<hr/>
 
 ### Are you looking to contribute to an open-source project in this Hacktoberfest? or want to get started with the latest technologies like VueJS & NuxtJS?
 

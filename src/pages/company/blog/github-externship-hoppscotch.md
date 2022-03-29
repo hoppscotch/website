@@ -4,9 +4,11 @@ title: Hoppscotch Blog | GitHub Externship ❤️ Hoppscotch
 
 # GitHub Externship ❤️ Hoppscotch
 
-Author: Liyas Thomas
-Date: April 22, 2021
-Tags: app, community
+Author: Liyas Thomas<br/>
+Date: April 22, 2021<br/>
+Tags: app, community<br/>
+
+<hr/>
 
 India 🇮🇳 is home to one of the largest communities of student developers in the world. In 2020 we saw the number of students participating in the GitHub Campus program increase by 142 percent, over 100,000 students signed up to GitHub Student Developer Pack, and campus offering was adopted by more than 100 higher-education institutions in India.
 
