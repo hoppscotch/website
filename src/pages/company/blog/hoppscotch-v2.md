@@ -4,9 +4,11 @@ title: Hoppscotch Blog | Hoppscotch v2
 
 # Hoppscotch v2
 
-Author: Liyas Thomas
-Date: August 28, 2021
-Tags: app, release
+Author: Liyas Thomas<br/>
+Date: August 28, 2021<br/>
+Tags: app, release<br/>
+
+<hr/>
 
 Today we're rolling out [Hoppscotch v2 for everyone](https://hoppscotch.io/) — [GitHub](https://github.com/hoppscotch/hoppscotch).
 

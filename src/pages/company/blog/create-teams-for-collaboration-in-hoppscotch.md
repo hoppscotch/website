@@ -4,9 +4,11 @@ title: Hoppscotch Blog | Teams in Hoppscotch
 
 # Create Teams for Collaboration in Hoppscotch
 
-Author: Liyas Thomas
-Date: November 2, 2021
-Tags: app, teams
+Author: Liyas Thomas<br/>
+Date: November 2, 2021<br/>
+Tags: app, teams<br/>
+
+<hr/>
 
 **Hoppscotch is an open-source API development ecosystem.**
 
