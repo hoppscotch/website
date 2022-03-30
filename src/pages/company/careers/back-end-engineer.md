@@ -49,9 +49,11 @@ As a back-end engineer, you will design and develop backend applications i.e. th
 - The ability to multitask is a must
 - Attention to detail
 
-
-<div class="relative py-8">
-    <iframe src="https://careers.hoppscotch.io/?role=Back-end%20Engineer" frameborder="0" sandbox="allow-scripts allow-popups allow-top-navigation-by-user-activation allow-forms allow-same-origin" class="w-full text-secondary min-h-100vh" />
+<div class="h-full w-full mt-4">
+  <div class="relative flex justify-center w-full" style="height:960px;">
+    <iframe allowfullscreen="" frameborder="0" sandbox="allow-scripts allow-popups allow-top-navigation-by-user-activation allow-forms      allow-same-origin" src="https://careers.hoppscotch.io/?role=Back-end%20Engineer" class="absolute left-0 top-0 w-full h-full">
+  </iframe>
+  </div>
 </div>
 
 <route lang="yaml">
