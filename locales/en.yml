@@ -727,31 +727,31 @@ careers:
       items: 
         1:
           title: Full-stack Engineer
-          description: We're looking for a talented software engineer to join our team.
+          description: As a full-stack engineer, you should be an expert in software coding languages, tools, frameworks, and platforms to create high-level designs.
         2:
           title: Back-end Engineer
-          description: We're looking for a talented software engineer to join our team.
+          description: You will be responsible for maintaining and managing the back-end infrastructure of our software applications.
         3:
           title: Front-end Engineer
-          description: We're looking for a talented software engineer to join our team.
+          description: You will be responsible for building a highly performant and minimal UI.
         4:
           title: DevOps Engineer
-          description: We're looking for a talented software engineer to join our team.
+          description: As a DevOps engineer, you will be responsible for making the lives of our development team easier
     design: 
       heading: Design
       items: 
         1:
           title: User Interface and Experience Designer
-          description: We're looking for a talented software engineer to join our team.
+          description: Help us create outstanding user interfaces for our users
     product: 
       heading: Product
       items: 
         1:
           title: Product Manager
-          description: We're looking for a talented software engineer to join our team.
+          description: Help us to develop product strategies through market research and identify specifications.
         2:
           title: Developer Relations Manager
-          description: We're looking for a talented software engineer to join our team.
+          description: Help us reach out to our users and educate the community.
        
       
     

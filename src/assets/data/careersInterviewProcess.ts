@@ -12,6 +12,7 @@ export const interviewProcess = [
     tips: [
       'careers.hiringProcess.process.2.tips.1',
       'careers.hiringProcess.process.2.tips.2',
+      'careers.hiringProcess.process.2.tips.3',
     ],
   },
   {
@@ -19,6 +20,7 @@ export const interviewProcess = [
     tips: [
       'careers.hiringProcess.process.3.tips.1',
       'careers.hiringProcess.process.3.tips.2',
+      'careers.hiringProcess.process.3.tips.3',
     ],
   },
   {

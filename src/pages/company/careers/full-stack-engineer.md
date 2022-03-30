@@ -44,8 +44,11 @@ You will also be collaborating with the other team members such as the content t
 - Quick decision-making abilities
 - A keen eye for detail
 
-<div class="relative py-8">
-    <iframe src="https://careers.hoppscotch.io/?role=Full-stack%20Engineer" frameborder="0" sandbox="allow-scripts allow-popups allow-top-navigation-by-user-activation allow-forms allow-same-origin" class="w-full text-secondary min-h-100vh" />
+<div class="h-full w-full mt-4">
+  <div class="relative flex justify-center w-full" style="height:960px;">
+    <iframe allowfullscreen="" frameborder="0" sandbox="allow-scripts allow-popups allow-top-navigation-by-user-activation allow-forms      allow-same-origin" src="https://careers.hoppscotch.io/?role=Full-stack%20Engineer" class="absolute left-0 top-0 w-full h-full">
+  </iframe>
+  </div>
 </div>
 
 <route lang="yaml">
