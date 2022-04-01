@@ -62,9 +62,9 @@ You will also play a vital role in developing advanced business procedures and r
 - Exceptional people and problem-solving skills
 - Engineer mindset
 
-<div class="h-full w-full mt-4">
+<div class="w-full h-full mt-4">
   <div class="relative flex justify-center w-full" style="height:960px;">
-    <iframe allowfullscreen="" frameborder="0" sandbox="allow-scripts allow-popups allow-top-navigation-by-user-activation allow-forms      allow-same-origin" src="https://careers.hoppscotch.io/?role=Developer%20Relations%20Manager" class="absolute left-0 top-0 w-full h-full">
+    <iframe allowfullscreen="" frameborder="0" sandbox="allow-scripts allow-popups allow-top-navigation-by-user-activation allow-forms      allow-same-origin" src="https://careers.hoppscotch.io/?role=Developer%20Relations%20Manager" class="absolute top-0 left-0 w-full h-full">
   </iframe>
   </div>
 </div>

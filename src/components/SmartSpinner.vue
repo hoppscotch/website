@@ -1,3 +1,13 @@
+<script setup lang="ts">
+withDefaults(
+  defineProps<{
+    size: number
+  }>(), {
+    size: 6,
+  },
+)
+</script>
+
 <template>
   <svg
     class="animate-spin"
@@ -21,13 +31,3 @@
     />
   </svg>
 </template>
-
-<script setup lang="ts">
-withDefaults(
-  defineProps<{
-    size: number
-  }>(), {
-    size: 6,
-  },
-)
-</script>

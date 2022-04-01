@@ -1,11 +1,3 @@
-<template>
-  <div
-    class="flex gradient-bg"
-    :style="`filter: blur(${blur}px)`"
-    :class="{ pulse: animate }"
-  />
-</template>
-
 <script setup lang="ts">
 withDefaults(
   defineProps<{
@@ -18,6 +10,14 @@ withDefaults(
   },
 )
 </script>
+
+<template>
+  <div
+    class="flex gradient-bg"
+    :style="`filter: blur(${blur}px)`"
+    :class="{ pulse: animate }"
+  />
+</template>
 
 <style lang="scss" scoped>
 .gradient-bg {

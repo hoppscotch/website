@@ -49,9 +49,9 @@ You should have an eye for artful, clean design and possess exceptional UI skill
 - Strong organizational skills
 - Exceptional problem-solving abilities
 
-<div class="h-full w-full mt-4">
+<div class="w-full h-full mt-4">
   <div class="relative flex justify-center w-full" style="height:960px;">
-    <iframe allowfullscreen="" frameborder="0" sandbox="allow-scripts allow-popups allow-top-navigation-by-user-activation allow-forms      allow-same-origin" src="https://careers.hoppscotch.io/?role=Front-end%20Engineer" class="absolute left-0 top-0 w-full h-full">
+    <iframe allowfullscreen="" frameborder="0" sandbox="allow-scripts allow-popups allow-top-navigation-by-user-activation allow-forms      allow-same-origin" src="https://careers.hoppscotch.io/?role=Front-end%20Engineer" class="absolute top-0 left-0 w-full h-full">
   </iframe>
   </div>
 </div>
