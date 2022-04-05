@@ -27,13 +27,13 @@ const { t } = useI18n()
         </div>
       </div>
       <div class="flex flex-col p-4">
-        <SmartItem
+        <!-- <SmartItem
           to="/pricing"
           :label="t('header.menu.pricing.title')"
           icon="chevron_right"
           class="mb-4"
           reverse
-        />
+        /> -->
         <div
           class="flex justify-center p-4 rounded-lg space-x-4 transition bg-primaryDark"
         >

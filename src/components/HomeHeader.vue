@@ -75,7 +75,7 @@ const { t } = useI18n()
               </template>
             </tippy>
           </span>
-          <SmartItem :label="t('header.menu.pricing.title')" to="/pricing" />
+          <!-- <SmartItem :label="t('header.menu.pricing.title')" to="/pricing" /> -->
         </nav>
         <div
           class="items-center justify-end hidden space-x-4 md:flex md:flex-1 lg:w-0"
