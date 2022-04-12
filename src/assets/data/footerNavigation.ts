@@ -4,19 +4,19 @@ export const navigation = [
     links: [
       {
         name: 'footer.solutions.links.design',
-        link: '/settings',
+        link: '/solutions/design',
       },
       {
         name: 'footer.solutions.links.development',
-        link: '/settings',
+        link: '/solutions/development',
       },
       {
         name: 'footer.solutions.links.testing',
-        link: '/testing',
+        link: '/solutions/testing',
       },
       {
         name: 'footer.solutions.links.documentation',
-        link: '/documentation',
+        link: '/solutions/documentation',
       },
     ],
   },
@@ -25,19 +25,19 @@ export const navigation = [
     links: [
       {
         name: 'footer.platform.links.web',
-        link: '/settings',
+        link: '/platforms/web',
       },
       {
         name: 'footer.platform.links.cli',
-        link: '/settings',
+        link: '/platforms/cli',
       },
       {
         name: 'footer.platform.links.embeds',
-        link: '/settings',
+        link: '/platforms/embeds',
       },
       {
         name: 'footer.platform.links.native',
-        link: '/settings',
+        link: '/platforms/native',
       },
     ],
   },
@@ -67,19 +67,19 @@ export const navigation = [
     links: [
       {
         name: 'footer.company.links.about',
-        link: 'https://company.hoppscotch.io/about',
+        link: '/company/about',
       },
       {
         name: 'footer.company.links.careers',
-        link: 'https://company.hoppscotch.io/careers',
+        link: '/company/careers',
       },
       {
         name: 'footer.company.links.blog',
-        link: 'https://company.hoppscotch.io/blog',
+        link: '/company/blog',
       },
       {
         name: 'footer.company.links.support',
-        link: 'https://company.hoppscotch.io/contact',
+        link: '/company/support',
       },
     ],
   },

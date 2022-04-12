@@ -22,32 +22,32 @@ export const navigation = [
       {
         name: 'header.menu.solutions.links.design.name',
         icon: layers,
-        link: '/settings',
+        link: '/solutions/design',
       },
       {
         name: 'header.menu.solutions.links.development.name',
         icon: code,
-        link: '/settings',
+        link: '/solutions/development',
       },
       {
         name: 'header.menu.solutions.links.testing.name',
         icon: flask,
-        link: '/settings',
+        link: '/solutions/testing',
       },
       {
         name: 'header.menu.solutions.links.documentation.name',
         icon: file,
-        link: '/settings',
+        link: '/solutions/documentation',
       },
       {
         name: 'header.menu.solutions.links.deployment.name',
         icon: check,
-        link: '/settings',
+        link: '/solutions/deployment',
       },
       {
         name: 'header.menu.solutions.links.maintanance.name',
         icon: wrench,
-        link: '/settings',
+        link: '/solutions/maintanance',
       },
     ],
   },
@@ -57,12 +57,12 @@ export const navigation = [
       {
         name: 'header.menu.platform.links.web.name',
         icon: globe,
-        link: '/settings',
+        link: '/platforms/web',
       },
       {
         name: 'header.menu.platform.links.cli.name',
         icon: cli,
-        link: '/settings',
+        link: '/platforms/cli',
       },
       {
         name: 'header.menu.platform.links.embeds.name',
