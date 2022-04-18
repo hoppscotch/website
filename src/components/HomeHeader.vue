@@ -9,6 +9,19 @@ const showMenu = ref(false)
 router.afterEach(() => {
   showMenu.value = false
 })
+
+onMounted(() => {
+  const navLinksTippyLinks = document.querySelectorAll('span [data-v-tippy]')
+  navLinksTippyLinks.forEach((el) => {
+    el.addEventListener('mouseenter', (e) => {
+      document.querySelectorAll('div [data-tippy-root]').forEach((ele) => {
+        if (el && ele && ele.parentNode && el !== ele.parentNode.querySelector('span [data-v-tippy]'))
+          ele._tippy.hide()
+      })
+    })
+  })
+})
+
 </script>
 
 <template>
