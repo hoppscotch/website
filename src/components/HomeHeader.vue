@@ -11,8 +11,9 @@ router.afterEach(() => {
 })
 
 onMounted(() => {
-  const navLinksTippyLinks = document.querySelectorAll('span [data-v-tippy]')
-  navLinksTippyLinks.forEach((link) => {
+  const navTippyLinks = document.querySelectorAll('span [data-v-tippy]')
+
+  navTippyLinks.forEach((link) => {
     link.addEventListener('mouseenter', () => {
       document.querySelectorAll('div [data-tippy-root]').forEach((popup) => {
         if (link && popup && popup.parentNode && link !== popup.parentNode.querySelector('span [data-v-tippy]'))
