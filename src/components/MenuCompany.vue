@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { company } from '~/assets/data/menuCompany'
-import { blogs } from '~/assets/data/menuBlogs'
+// import { blogs } from '~/assets/data/menuBlogs'
+import { blogs } from '~/assets/data/blogList'
 const { t } = useI18n()
 </script>
 
@@ -20,8 +21,8 @@ const { t } = useI18n()
         {{ t('header.menu.blog.title') }}
       </h4>
       <ul class="flex flex-col text-xs space-y-2">
-        <li v-for="(blog, blogIndex) in blogs" :key="`blog-${blogIndex}`">
-          <router-link :to="blog.link" class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark">
+        <li v-for="(blog, blogIndex) in blogs.slice(0,3)" :key="`blog-${blogIndex}`">
+          <router-link :to="`/company/blog/${blog.slug}`" class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark">
             <span class="mr-2">
               {{ t(blog.title) }}
             </span>
@@ -29,7 +30,7 @@ const { t } = useI18n()
           </router-link>
         </li>
         <li>
-          <router-link to="https://blog.hoppscotch.io" class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark">
+          <router-link to="/company/blog" class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark">
             <span class="mr-2">
               {{ t('header.menu.blog.read_more') }}
             </span>

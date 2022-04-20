@@ -23,6 +23,7 @@ const { t } = useI18n()
             :to="item.link"
             :icon="item.icon"
             :label="t(item.name)"
+            :disabled="item.disabled"
           />
         </div>
       </div>
