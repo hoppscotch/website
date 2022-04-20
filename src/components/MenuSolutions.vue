@@ -29,6 +29,10 @@ const { t } = useI18n()
       <SmartItem
         :label="t('header.menu.solutions.guides')"
         :icon="guides"
+<<<<<<< HEAD
+=======
+        :disabled="true"
+>>>>>>> 5cba5fe... fix: disabled 404 links and added comming soon tags in header links
         :comming-soon="true"
         to="https://docs.hoppscotch.io/guides"
       />
