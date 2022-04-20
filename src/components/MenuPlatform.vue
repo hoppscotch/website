@@ -37,7 +37,7 @@ const { t } = useI18n()
           </router-link>
         </li>
         <li>
-          <router-link to="https://docs.hoppscotch.io/guides" disabled class="inline-flex items-center text-secondaryLight pointer-events-none transition hover:text-secondaryDark">
+          <router-link to="https://docs.hoppscotch.io/guides" class="inline-flex items-center text-secondaryLight pointer-events-none transition hover:text-secondaryDark">
             <span class="mr-2">
               {{ t('header.menu.guide.read_more') }}
             </span>
