@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { company } from '~/assets/data/menuCompany'
-// import { blogs } from '~/assets/data/menuBlogs'
 import { blogs } from '~/assets/data/blogList'
 const { t } = useI18n()
 </script>
