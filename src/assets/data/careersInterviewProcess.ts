@@ -1,4 +1,3 @@
-
 export const interviewProcess = [
   {
     title: 'careers.hiringProcess.process.1.title',

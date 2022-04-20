@@ -1,4 +1,3 @@
-
 <script setup lang="ts">
 import { changelogs } from '~/assets/data/changelogsList'
 const { t } = useI18n()

@@ -27,15 +27,20 @@ const props = withDefaults(
 )
 
 const linkMode = computed(() => {
-  if (!props.to) return 'button'
-  if (props.blank) return 'anchor'
-  if (/^\/(?!\/).*$/.test(props.to)) return 'router-link'
+  if (!props.to)
+    return 'button'
+  if (props.blank)
+    return 'anchor'
+  if (/^\/(?!\/).*$/.test(props.to))
+    return 'router-link'
   return 'anchor'
 })
 
 const computedComponent = computed(() => {
-  if (linkMode.value === 'anchor') return 'a'
-  if (linkMode.value === 'router-link') return 'router-link'
+  if (linkMode.value === 'anchor')
+    return 'a'
+  if (linkMode.value === 'router-link')
+    return 'router-link'
   return 'anchor'
 })
 </script>

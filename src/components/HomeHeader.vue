@@ -13,11 +13,11 @@ router.afterEach(() => {
 onMounted(() => {
   const navTippyLinks = document.querySelectorAll('span [data-v-tippy]')
 
-  navTippyLinks.forEach((link) => {
+  navTippyLinks.forEach((link: EventTarget) => {
     link.addEventListener('mouseenter', () => {
       document.querySelectorAll('div [data-tippy-root]').forEach((popup) => {
         if (link && popup && popup.parentNode && link !== popup.parentNode.querySelector('span [data-v-tippy]'))
-          popup._tippy.hide()
+          popup.parentNode.removeChild(popup)
       })
     })
   })

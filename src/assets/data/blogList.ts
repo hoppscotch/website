@@ -1,4 +1,3 @@
-
 export const blogs = [
   {
     slug: 'create-teams-for-collaboration-in-hoppscotch',
