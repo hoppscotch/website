@@ -11,8 +11,20 @@
 .prose h3,
 .prose h4,
 .prose h5,
-.prose h6 {
+.prose h6,
+.prose a,
+.prose strong,
+.prose blockquote,
+.prose code,
+.prose ol > li::before{
   @apply text-secondaryDark;
+}
+
+.prose > ul > li > *:last-child,
+.prose > ul > li > *:first-child,
+.prose > ol > li > *:last-child,
+.prose > ol > li > *:first-child{
+  margin:0;
 }
 
 .prose img {
