@@ -8,6 +8,9 @@ const showMenu = ref(false)
 
 router.afterEach(() => {
   showMenu.value = false
+  document.querySelectorAll('div [data-tippy-root]').forEach((popup) => {
+    popup.parentNode.removeChild(popup)
+  })
 })
 
 onMounted(() => {

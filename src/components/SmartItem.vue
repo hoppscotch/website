@@ -12,6 +12,8 @@ const props = withDefaults(
     svg: string
     infoIcon: string
     reverse: boolean
+    disabled: boolean
+    commingSoon: boolean
   }>(),
   {
     to: '',
@@ -23,6 +25,8 @@ const props = withDefaults(
     svg: '',
     infoIcon: '',
     reverse: false,
+    disabled: false,
+    commingSoon: false,
   },
 )
 
@@ -51,8 +55,8 @@ const computedComponent = computed(() => {
     v-bind="$attrs"
     :href="props.to"
     :to="props.to"
-    class="inline-flex px-4 py-2 rounded-lg cursor-pointer text-secondary transition hover:bg-primaryDark hover:text-secondaryDark focus:bg-primaryDark focus:outline-none focus:text-secondaryDark"
-    :class="[{ 'flex-1': label }, { 'flex-row-reverse justify-end': reverse }]"
+    class="inline-flex px-3 sm:px-4 py-2 rounded-lg cursor-pointer text-secondary transition hover:bg-primaryDark hover:text-secondaryDark focus:bg-primaryDark focus:outline-none focus:text-secondaryDark"
+    :class="[{ 'flex-1': label }, { 'flex-row-reverse justify-end': reverse },{ 'pointer-events-none opacity-50 md:opacity-100 ': disabled }]"
   >
     <component
       :is="icon"
@@ -60,9 +64,14 @@ const computedComponent = computed(() => {
       :class="label ? (reverse ? 'ml-4 opacity-75' : 'mr-4 opacity-75') : ''"
       class="flex-shrink-0 my-0.5 inline-flex"
     />
-    <div class="inline-flex items-start" :class="{ 'flex-col': description }">
-      <div class="font-semibold">
-        {{ label }}
+    <div class="inline-flex items-start" :class="[{ 'flex-col': description }]">
+      <div class="flex items-center">
+        <div class="font-semibold">
+          {{ label }}
+        </div>
+        <div v-if="commingSoon" class="py-1 px-0.5 sm:px-2 mx-0.5 sm:mx-2 text-[6px] sm:text-[10px] font-medium rounded-full text-accentContrast bg-accent ">
+          Comming soon
+        </div>
       </div>
       <p v-if="description" class="my-2 text-xs text-left text-secondaryLight">
         {{ description }}

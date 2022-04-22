@@ -27,6 +27,8 @@ const { t } = useI18n()
       <SmartItem
         :label="t('header.menu.solutions.guides')"
         :icon="guides"
+        :disabled="true"
+        :comming-soon="true"
         to="https://docs.hoppscotch.io/guides"
       />
       <SmartItem
