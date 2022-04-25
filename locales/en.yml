@@ -755,3 +755,25 @@ careers:
         2:
           title: Developer Relations Manager
           description: Help us reach out to our users and educate the community.
+  form:
+    heading: Apply
+    success_message: Application has been submitted
+    success_message_subheading: We will be in touch with you shortly.
+    name:
+      label: Name
+      placeholder: Your name
+    email:
+      label: Email
+      placeholder: Your email
+    resume:
+      label: Resume
+    linkedin:
+      label: LinkedIn profile
+      placeholder: Your LinkedIn profile
+    github:
+      label: GitHub profile
+      placeholder: Your GitHub profile
+    message:
+      label: What is most important to you in your next role?
+      placeholder: Type here
+    submit_btn: Submit Application  
