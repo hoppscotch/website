@@ -153,12 +153,14 @@ header:
       title: Popular guides
       read_more: Read all guides
       links:
-        1:
-          name: Why we build Hoppscotch?
+        1: 
+          name: How to test REST API using Hoppscotch
         2:
-          name: To design and develop an interactive globe
+          name: Best practices for API Design
         3:
-          name: We built Checkout so you don\'t have to
+          name: How to test WebSockets in Hoppscotch
+        4:
+          name: Comprehensive guidelines on using Hoppscotch in 2022
     pricing:
       title: Pricing
 footer:
@@ -264,7 +266,7 @@ platforms:
         9:
           title: Accessibility
           description: Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
-    extension:
+    embeds:
       title: Embeds
       description: Overrides CORS restrictions for cross-origin requests (it allows requests against localhost).
     native:

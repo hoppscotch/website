@@ -35,9 +35,10 @@ const computedComponent = computed(() => {
 <template>
   <component
     :is="computedComponent"
-    v-bind="$attrs"
     :href="props.to"
     :to="props.to"
+    :exact="props.exact"
+    :target="props.blank"
   >
     <slot />
   </component>

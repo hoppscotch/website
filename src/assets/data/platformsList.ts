@@ -21,11 +21,11 @@ export const platforms = [
   },
   {
     icon: extension,
-    title: 'platforms.items.extension.title',
-    description: 'platforms.items.extension.description',
+    title: 'platforms.items.embeds.title',
+    description: 'platforms.items.embeds.description',
     link: {
       title: 'action.learn_more',
-      target: '/platforms/extensions',
+      target: '/platforms/embeds',
     },
   },
   {
