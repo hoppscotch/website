@@ -3,6 +3,8 @@ import { reactive, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import CheckCircle from '~icons/lucide/check-circle'
 
+const { t } = useI18n()
+
 const route = useRoute()
 const formRef = ref(null)
 const formSubmit = ref(false)
@@ -31,7 +33,6 @@ const isCompleted = computed(() => (
 ))
 
 const handleFormSubmit = () => {
-  console.log('user-details', user)
   formSubmit.value = true
 }
 
@@ -40,7 +41,7 @@ const handleFormSubmit = () => {
 <template>
   <div v-if="!formSubmit" class="flex flex-col py-5">
     <h2>
-      Apply
+      {{t("careers.form.heading")}}
     </h2>
     <form ref="formRef" class="max-w-xl" netlify @submit.prevent="handleFormSubmit">
       <SmartInput
@@ -91,9 +92,9 @@ const handleFormSubmit = () => {
     </form>
   </div>
   <div v-if="formSubmit" class="flex flex-col items-center justify-center my-8 py-10 border-2 border-accent border-solid rounded">
-    <CheckCircle class="text-3xl my-5 text-accent" />
-    <h1>Application has been submitted</h1>
-    <p>We will be in touch with you shortly.</p>
+    <CheckCircle class="text-3xl my-8 text-accent" />
+    <h1>{{t("careers.form.success_message")}}</h1>
+    <p>{{t("careers.form.success_message_subheading")}}</p>
   </div>
 </template>
 

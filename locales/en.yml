@@ -753,3 +753,7 @@ careers:
         2:
           title: Developer Relations Manager
           description: Help us reach out to our users and educate the community.
+  form:
+    heading: Apply
+    success_message: Application has been submitted
+    success_message_subheading: We will be in touch with you shortly.
