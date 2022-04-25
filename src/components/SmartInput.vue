@@ -53,7 +53,7 @@ const computedComponent = computed(() => {
       :type="type"
       :placeholder="placeholder"
       :rows="rows"
-      :name="modelValue"
+      :name="name"
       class="rounded transition py-2 px-3 my-1 text-secondary bg-primary border-1 border-solid border-primaryLight outline-0 hover:border-accent focus:border-accent"
       @input="updateValue($event.target.value)"
     />
