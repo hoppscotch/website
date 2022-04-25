@@ -58,12 +58,8 @@ Your knowledge of the latest industry trends will prove beneficial in designing 
 - Familiarity with deployment process and tools
 - Ability to maintain the confidentiality of any sensitive information
 
-<div class="w-full h-full mt-4">
-  <div class="relative flex justify-center w-full" style="height:960px;">
-    <iframe allowfullscreen="" frameborder="0" sandbox="allow-scripts allow-popups allow-top-navigation-by-user-activation allow-forms      allow-same-origin" src="https://careers.hoppscotch.io/?role=DevOps%20Engineer" class="absolute top-0 left-0 w-full h-full">
-  </iframe>
-  </div>
-</div>
+<CareerForm/>
+
 
 <route lang="yaml">
 meta:
