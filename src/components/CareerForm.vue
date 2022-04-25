@@ -40,10 +40,8 @@ const handleFormSubmit = () => {
 
 <template>
   <div v-if="!formSubmit" class="flex flex-col py-5">
-    <h2>
-      {{t("careers.form.heading")}}
-    </h2>
-    <form ref="formRef" class="max-w-xl" netlify @submit.prevent="handleFormSubmit">
+    <h2>{{ t("careers.form.heading") }}</h2>
+    <form ref="formRef" netlify @submit.prevent="handleFormSubmit">
       <SmartInput
         v-model="user.name"
         :label="t('careers.form.name.label')"
@@ -91,10 +89,10 @@ const handleFormSubmit = () => {
       <input :value="t('careers.form.submit_btn')" :disabled="!isCompleted" class="form-button" type="submit">
     </form>
   </div>
-  <div v-if="formSubmit" class="flex flex-col items-center justify-center my-8 py-10 border-2 border-accent border-solid rounded">
-    <CheckCircle class="text-3xl my-8 text-accent" />
-    <h1>{{t("careers.form.success_message")}}</h1>
-    <p>{{t("careers.form.success_message_subheading")}}</p>
+  <div v-if="formSubmit" class="flex flex-col items-center justify-center py-10 my-8 border-2 border-solid rounded border-accent">
+    <CheckCircle class="my-8 text-3xl text-accent" />
+    <h1>{{ t("careers.form.success_message") }}</h1>
+    <p>{{ t("careers.form.success_message_subheading") }}</p>
   </div>
 </template>
 

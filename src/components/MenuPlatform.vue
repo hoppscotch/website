@@ -24,7 +24,7 @@ const { t } = useI18n()
           {{ t('header.menu.guide.title') }}
         </h4>
       </div>
-      <ul class="flex flex-col space-y-2 text-xs">
+      <ul class="flex flex-col text-xs space-y-2">
         <li v-for="(guide, guideIndex) in guides" :key="`guide-${guideIndex}`">
           <SmartLink blank :to="guide.link" class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark">
             <span class="mr-2">

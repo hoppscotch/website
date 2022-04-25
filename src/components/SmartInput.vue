@@ -54,7 +54,7 @@ const computedComponent = computed(() => {
       :placeholder="placeholder"
       :rows="rows"
       :name="name"
-      class="rounded transition py-2 px-3 my-1 text-secondary bg-primary border-1 border-solid border-primaryLight outline-0 hover:border-accent focus:border-accent"
+      class="px-3 py-2 my-1 font-sans border rounded transition text-secondary bg-primary border-primaryLight outline-0 hover:border-accent focus:border-accent"
       @input="updateValue($event.target.value)"
     />
   </div>
