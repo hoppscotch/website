@@ -46,49 +46,49 @@ const handleFormSubmit = () => {
     <form ref="formRef" class="max-w-xl" netlify @submit.prevent="handleFormSubmit">
       <SmartInput
         v-model="user.name"
-        label="Name"
-        placeholder="Your name"
+        :label="t('careers.form.name.label')"
+        :placeholder="t('careers.form.name.placeholder')"
         name="name"
         type="text"
         required
       />
       <SmartInput
         v-model="user.email"
-        label="Email"
-        placeholder="Your email"
+        :label="t('careers.form.email.label')"
+        :placeholder="t('careers.form.email.placeholder')"
         name="email"
         type="email"
         required
       />
       <SmartInput
         v-model="user.resume"
-        label="Resume"
+        :label="t('careers.form.resume.label')"
         name="resume"
         type="file"
       />
       <SmartInput
         v-model="user.linkedin"
-        label="LinkedIn profile"
-        placeholder="Your LinkedIn profile"
+        :label="t('careers.form.linkedin.label')"
+        :placeholder="t('careers.form.linkedin.placeholder')"
         name="linkedin"
         type="url"
       />
       <SmartInput
         v-model="user.github"
-        label="GitHub profile"
-        placeholder="Your GitHub profile"
+        :label="t('careers.form.github.label')"
+        :placeholder="t('careers.form.github.placeholder')"
         name="github"
         type="url"
       />
       <SmartInput
         v-model="user.message"
-        label="What is most important to you in your next role?"
-        placeholder="Type here"
+        :label="t('careers.form.message.label')"
+        :placeholder="t('careers.form.message.placeholder')"
         name="message"
         rows="6"
         required
       />
-      <input value="Submit Application" :disabled="!isCompleted" class="form-button" type="submit">
+      <input :value="t('careers.form.submit_btn')" :disabled="!isCompleted" class="form-button" type="submit">
     </form>
   </div>
   <div v-if="formSubmit" class="flex flex-col items-center justify-center my-8 py-10 border-2 border-accent border-solid rounded">
