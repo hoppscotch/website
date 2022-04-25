@@ -20,7 +20,7 @@ const { t } = useI18n()
         </p>
       </div>
       <div class="flex flex-col">
-        <div class="inline-flex space-x-2">
+        <div class="inline-flex flex-col space-y-2 md:space-y-0 md:flex-row md:space-x-2">
           <input
             id="mce-EMAIL"
             name="EMAIL"

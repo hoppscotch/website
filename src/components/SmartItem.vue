@@ -13,7 +13,7 @@ const props = withDefaults(
     infoIcon: string
     reverse: boolean
     disabled: boolean
-    commingSoon: boolean
+    tag: boolean
   }>(),
   {
     to: '',
@@ -26,7 +26,7 @@ const props = withDefaults(
     infoIcon: '',
     reverse: false,
     disabled: false,
-    commingSoon: false,
+    tag: false,
   },
 )
 
@@ -55,7 +55,7 @@ const computedComponent = computed(() => {
     v-bind="$attrs"
     :href="props.to"
     :to="props.to"
-    class="inline-flex px-3 sm:px-4 py-2 rounded-lg cursor-pointer text-secondary transition hover:bg-primaryDark hover:text-secondaryDark focus:bg-primaryDark focus:outline-none focus:text-secondaryDark"
+    class="inline-flex px-3 py-2 rounded-lg cursor-pointer transition sm:px-4 text-secondary hover:bg-primaryDark hover:text-secondaryDark focus:bg-primaryDark focus:outline-none focus:text-secondaryDark"
     :class="[{ 'flex-1': label }, { 'flex-row-reverse justify-end': reverse },{ 'pointer-events-none opacity-50 md:opacity-100 ': disabled }]"
   >
     <component
@@ -69,8 +69,8 @@ const computedComponent = computed(() => {
         <div class="font-semibold">
           {{ label }}
         </div>
-        <div v-if="commingSoon" class="py-1 px-0.5 sm:px-2 mx-0.5 sm:mx-2 text-[6px] sm:text-[10px] font-medium rounded-full text-accentContrast bg-accent ">
-          Comming soon
+        <div v-if="tag" class="ml-2 py-1 px-2 text-[8px] font-medium rounded-full text-secondaryLight bg-primaryLight border border-dividerDark">
+          {{ tag }}
         </div>
       </div>
       <p v-if="description" class="my-2 text-xs text-left text-secondaryLight">

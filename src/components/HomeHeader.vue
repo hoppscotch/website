@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import x from '~icons/lucide/x'
 import menu from '~icons/lucide/menu'
+
 const { t } = useI18n()
 const router = useRouter()
 
@@ -9,7 +10,7 @@ const showMenu = ref(false)
 router.afterEach(() => {
   showMenu.value = false
   document.querySelectorAll('div [data-tippy-root]').forEach((popup) => {
-    popup.parentNode.removeChild(popup)
+    popup.parentNode?.removeChild(popup)
   })
 })
 

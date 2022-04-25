@@ -1,4 +1,4 @@
-logo: Hoppscotch
+logo: HOPPSCOTCH
 home:
   contributors:
     title: Made by our contributors
@@ -72,9 +72,9 @@ home:
       1:
         title: 1M+ users
       2:
-        title: 36K+ GitHub stars
+        title: 42K+ GitHub stars
       3:
-        title: 35K+ monthly users
+        title: 100K+ monthly users
   cta:
     title: Ready for take-off?
     description: Get started with the Hoppscotch app, and take your API development process to the next level.
@@ -520,9 +520,10 @@ action:
   back: Back
   dark: Dark mode
   light: Light mode
-  open_app: Open app
+  open_app: Open App
   show_more: Show more
   learn_more: Learn more
+  comming_soon: COMMING SOON
 newsletter:
   title: Subscribe to newsletter
   description: Get a summary of what we've shipped during the last month, behind the scenes updates, and team picks.
@@ -752,6 +753,3 @@ careers:
         2:
           title: Developer Relations Manager
           description: Help us reach out to our users and educate the community.
-       
-      
-    

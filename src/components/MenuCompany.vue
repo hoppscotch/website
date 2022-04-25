@@ -16,10 +16,12 @@ const { t } = useI18n()
       />
     </div>
     <div class="flex flex-col p-4 mt-2 rounded-lg bg-primaryDark">
-      <h4 class="mb-2 font-semibold">
-        {{ t('header.menu.blog.title') }}
-      </h4>
-      <ul class="flex flex-col text-xs space-y-2">
+      <div class="flex items-center mb-2">
+        <h4 class="font-semibold text-secondaryDark">
+          {{ t('header.menu.blog.title') }}
+        </h4>
+      </div>
+      <ul class="flex flex-col space-y-2 text-xs">
         <li v-for="(blog, blogIndex) in blogs.slice(0,3)" :key="`blog-${blogIndex}`">
           <router-link :to="`/company/blog/${blog.slug}`" class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark">
             <span class="mr-2">

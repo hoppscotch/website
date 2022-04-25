@@ -36,7 +36,7 @@ watch(
 </script>
 
 <template>
-  <div ref="targetTip" class="rounded-lg flex flex-col h-[40vh] py-8 px-5 justify-center md:h-[60vh] ">
+  <div ref="targetTip" class="rounded-lg flex flex-col h-[40vh] py-8 px-5 justify-center md:h-[60vh]">
     <ul class="max-w-lg p-5 rounded bg-primaryLight">
       <li v-for="tip in tipProps.visibleTip.tips" :key="tip" class="inline-flex items-center my-3 gap-2">
         <check class="w-4 h-4" />

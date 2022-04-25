@@ -16,6 +16,8 @@ const { t } = useI18n()
         :icon="item.icon"
         :label="t(item.name)"
         :description="t(item.description)"
+        :disabled="item.disabled"
+        :tag="item.tag ? t(item.tag) : false"
       />
     </div>
     <div class="mt-2 rounded-lg bg-primaryDark">
@@ -27,7 +29,6 @@ const { t } = useI18n()
       <SmartItem
         :label="t('header.menu.solutions.guides')"
         :icon="guides"
-        :disabled="true"
         :comming-soon="true"
         to="https://docs.hoppscotch.io/guides"
       />

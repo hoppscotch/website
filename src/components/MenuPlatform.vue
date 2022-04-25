@@ -15,21 +15,18 @@ const { t } = useI18n()
         :label="t(item.name)"
         :description="t(item.description)"
         :disabled="item.disabled"
-        :comming-soon="item.commingSoon"
+        :tag="item.tag ? t(item.tag) : false"
       />
     </div>
     <div class="flex flex-col p-4 mt-2 rounded-lg bg-primaryDark">
       <div class="flex items-center mb-2">
-        <h4 class=" font-semibold">
+        <h4 class="font-semibold text-secondaryDark">
           {{ t('header.menu.guide.title') }}
         </h4>
-        <span class="py-1 px-2 mx-2 text-[10px] font-medium rounded-full text-accentContrast bg-accent ">
-          Comming soon
-        </span>
       </div>
-      <ul class="flex flex-col text-xs space-y-2">
+      <ul class="flex flex-col space-y-2 text-xs">
         <li v-for="(guide, guideIndex) in guides" :key="`guide-${guideIndex}`">
-          <router-link :to="guide.link" class="inline-flex items-center text-secondaryLight pointer-events-none transition hover:text-secondaryDark">
+          <router-link :to="guide.link" class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark">
             <span class="mr-2">
               {{ t(guide.title) }}
             </span>
@@ -37,7 +34,7 @@ const { t } = useI18n()
           </router-link>
         </li>
         <li>
-          <router-link to="https://docs.hoppscotch.io/guides" class="inline-flex items-center text-secondaryLight pointer-events-none transition hover:text-secondaryDark">
+          <router-link to="https://docs.hoppscotch.io/guides" class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark">
             <span class="mr-2">
               {{ t('header.menu.guide.read_more') }}
             </span>

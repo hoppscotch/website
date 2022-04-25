@@ -10,7 +10,7 @@ export const platforms = [
     icon: globe,
     link: '/platforms/web',
     disabled: false,
-    commingSoon: false,
+    tag: '',
   },
   {
     name: 'header.menu.platform.links.cli.name',
@@ -18,7 +18,7 @@ export const platforms = [
     icon: cli,
     link: '/platforms/cli',
     disabled: false,
-    commingSoon: false,
+    tag: '',
   },
   {
     name: 'header.menu.platform.links.embeds.name',
@@ -26,7 +26,7 @@ export const platforms = [
     icon: terminal,
     link: '/platforms/embeds',
     disabled: true,
-    commingSoon: true,
+    tag: 'action.comming_soon',
   },
   {
     name: 'header.menu.platform.links.native.name',
@@ -34,6 +34,6 @@ export const platforms = [
     icon: server,
     link: '/platforms/native',
     disabled: true,
-    commingSoon: true,
+    tag: 'action.comming_soon',
   },
 ]
