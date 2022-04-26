@@ -25,6 +25,9 @@ body,
 }
 
 html {
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+
   @apply transition;
   @apply bg-primary;
   @apply text-secondary;

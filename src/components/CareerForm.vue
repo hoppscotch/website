@@ -9,7 +9,10 @@ const props = defineProps<{
 <template>
   <div class="flex flex-col py-5">
     <h2>{{ t("careers.form.heading") }}</h2>
-    <form action="/company/careers/success" netlify class="flex flex-col space-y-6">
+    <form
+      method="POST" action="/company/careers/success" netlify data-netlify="true" class="flex flex-col space-y-6" :name="props.role"
+    >
+      <input type="hidden" name="form-name" :value="props.role">
       <input
         id="role" type="text" name="role" :value="props.role" readonly
         class="form-input"
