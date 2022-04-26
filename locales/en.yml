@@ -758,7 +758,7 @@ careers:
   form:
     heading: Apply
     success_message: Application has been submitted
-    success_message_subheading: We will be in touch with you shortly.
+    success_message_subheading: We'll reach out to you in 3-5 days if we decide to proceed with your application.
     name:
       label: Name
       placeholder: Your name
@@ -776,4 +776,4 @@ careers:
     message:
       label: What is most important to you in your next role?
       placeholder: Type here
-    submit_btn: Submit Application  
+    submit: Submit Application  

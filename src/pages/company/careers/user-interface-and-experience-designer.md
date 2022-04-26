@@ -43,8 +43,7 @@ Your ultimate goal is to design the functionality of the product. You will have 
 - Ability to multitask and outstanding time management skills
 - Should be a team player
 
-<CareerForm/>
-
+<CareerForm role="User Interface and Experience Designer" />
 
 <route lang="yaml">
 meta:

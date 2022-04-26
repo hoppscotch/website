@@ -62,8 +62,7 @@ You will also play a vital role in developing advanced business procedures and r
 - Exceptional people and problem-solving skills
 - Engineer mindset
 
-<CareerForm/>
-
+<CareerForm role="Developer Relations Manager" />
 
 <route lang="yaml">
 meta:

@@ -1,104 +1,124 @@
 <script setup lang="ts">
-import { reactive, ref } from 'vue'
-import { useRoute } from 'vue-router'
-import CheckCircle from '~icons/lucide/check-circle'
-
 const { t } = useI18n()
 
-const route = useRoute()
-const formRef = ref(null)
-const formSubmit = ref(false)
-
-const user = reactive({
-  name: '',
-  email: '',
-  resume: '',
-  linkedin: '',
-  github: '',
-  message: '',
-  role: route.fullPath.split('/').pop(),
-})
-
-const validateEmail = (email: string) => {
-  const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-  return re.test(String(email).toLowerCase())
-}
-
-const validateMessage = (message: string) => {
-  return message.length > 10
-}
-
-const isCompleted = computed(() => (
-  user.name && validateEmail(user.email) && validateMessage(user.message) && user.role
-))
-
-const handleFormSubmit = () => {
-  formSubmit.value = true
-}
-
+const props = defineProps<{
+  role: string
+}>()
 </script>
 
 <template>
-  <div v-if="!formSubmit" class="flex flex-col py-5">
+  <div class="flex flex-col py-5">
     <h2>{{ t("careers.form.heading") }}</h2>
-    <form ref="formRef" netlify @submit.prevent="handleFormSubmit">
-      <SmartInput
-        v-model="user.name"
-        :label="t('careers.form.name.label')"
-        :placeholder="t('careers.form.name.placeholder')"
-        name="name"
-        type="text"
-        required
-      />
-      <SmartInput
-        v-model="user.email"
-        :label="t('careers.form.email.label')"
-        :placeholder="t('careers.form.email.placeholder')"
-        name="email"
-        type="email"
-        required
-      />
-      <SmartInput
-        v-model="user.resume"
-        :label="t('careers.form.resume.label')"
-        name="resume"
-        type="file"
-      />
-      <SmartInput
-        v-model="user.linkedin"
-        :label="t('careers.form.linkedin.label')"
-        :placeholder="t('careers.form.linkedin.placeholder')"
-        name="linkedin"
-        type="url"
-      />
-      <SmartInput
-        v-model="user.github"
-        :label="t('careers.form.github.label')"
-        :placeholder="t('careers.form.github.placeholder')"
-        name="github"
-        type="url"
-      />
-      <SmartInput
-        v-model="user.message"
-        :label="t('careers.form.message.label')"
-        :placeholder="t('careers.form.message.placeholder')"
-        name="message"
-        rows="6"
-        required
-      />
-      <input :value="t('careers.form.submit_btn')" :disabled="!isCompleted" class="form-button" type="submit">
+    <form action="/company/careers/success" netlify class="flex flex-col space-y-6">
+      <input
+        id="role" type="text" name="role" :value="props.role" readonly
+        class="form-input"
+      >
+      <label class="flex flex-col" for="name">
+        <strong>
+          {{ t('careers.form.name.label') }}
+          <span class="required">*</span>
+        </strong>
+        <input
+          id="name"
+          class="form-input"
+          type="text"
+          name="name"
+          :placeholder="t('careers.form.name.placeholder')"
+          required
+        >
+      </label>
+      <label class="flex flex-col" for="email">
+        <strong>
+          {{ t('careers.form.email.label') }}
+          <span class="required">*</span>
+        </strong>
+        <input
+          id="email"
+          class="form-input"
+          type="email"
+          name="email"
+          :placeholder="t('careers.form.email.placeholder')"
+          required
+        >
+      </label>
+      <label class="flex flex-col" for="resume">
+        <strong>
+          {{ t('careers.form.resume.label') }}
+        </strong>
+        <input
+          id="resume" type="file" name="resume"
+          class="p-1 cursor-pointer text-secondaryLight text-tiny transition file:border-dividerLight form-input file:transition file:cursor-pointer file:rounded file:text-tiny file:text-secondary file:bg-primaryLight file:border file:mr-2 file:py-1 file:px-4 hover:text-secondaryDark hover:file:text-secondaryDark hover:file:bg-primaryDark"
+        >
+      </label>
+      <label class="flex flex-col" for="linked">
+        <strong>
+          {{ t('careers.form.linkedin.label') }}
+        </strong>
+        <input
+          id="linkedin"
+          class="form-input"
+          type="url"
+          name="linkedin"
+          :placeholder="t('careers.form.linkedin.placeholder')"
+        >
+      </label>
+      <label class="flex flex-col" for="github">
+        <strong>
+          {{ t('careers.form.github.label') }}
+        </strong>
+        <input
+          id="github"
+          class="form-input"
+          type="url"
+          name="github"
+          :placeholder="t('careers.form.github.placeholder')"
+        >
+      </label>
+      <label class="flex flex-col" for="message">
+        <strong>
+          {{ t('careers.form.message.label') }}
+          <span class="required">*</span>
+        </strong>
+        <textarea
+          id="message"
+          name="message"
+          :placeholder="t('careers.form.message.placeholder')"
+          required
+          rows="6"
+          class="form-input"
+        />
+      </label>
+      <input type="submit" :value="t('careers.form.submit')" class="form-button">
     </form>
-  </div>
-  <div v-if="formSubmit" class="flex flex-col items-center justify-center py-10 my-8 border-2 border-solid rounded border-accent">
-    <CheckCircle class="my-8 text-3xl text-accent" />
-    <h1>{{ t("careers.form.success_message") }}</h1>
-    <p>{{ t("careers.form.success_message_subheading") }}</p>
   </div>
 </template>
 
 <style>
+.required {
+  @apply text-red-500;
+  @apply font-bold;
+  @apply mr-2;
+}
+
+.form-input {
+ @apply mt-1;
+ @apply transition;
+ @apply rounded;
+ @apply text-secondary;
+ @apply bg-primaryLight;
+ @apply py-2;
+ @apply px-4;
+ @apply border-none;
+ @apply hover:text-secondaryDark;
+ @apply hover:bg-primaryDark;
+ @apply focus-visible:outline-accent;
+}
+
 .form-button {
   @apply inline-flex;
+  @apply items-center;
+  @apply justify-center;
   @apply px-4;
   @apply py-2;
   @apply rounded-lg;
@@ -106,13 +126,11 @@ const handleFormSubmit = () => {
   @apply text-accentContrast;
   @apply bg-accent;
   @apply outline-none;
-  @apply focus:(outline-none bg-accentDark);
+  @apply focus:bg-accentDark;
+  @apply focus:outline-none;
   @apply hover:bg-accentDark;
   @apply transition-all;
   @apply cursor-pointer;
   @apply my-4;
-}
-.form-button:disabled {
-  @apply cursor-not-allowed opacity-50 hover: bg-accent;
 }
 </style>

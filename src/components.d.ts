@@ -56,7 +56,6 @@ declare module '@vue/runtime-core' {
     RouterView: typeof import('vue-router')['RouterView']
     SmartCard: typeof import('./components/SmartCard.vue')['default']
     SmartGradient: typeof import('./components/SmartGradient.vue')['default']
-    SmartInput: typeof import('./components/SmartInput.vue')['default']
     SmartItem: typeof import('./components/SmartItem.vue')['default']
     SmartLink: typeof import('./components/SmartLink.vue')['default']
     SmartSpinner: typeof import('./components/SmartSpinner.vue')['default']

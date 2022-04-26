@@ -44,8 +44,7 @@ You will also be collaborating with the other team members such as the content t
 - Quick decision-making abilities
 - A keen eye for detail
 
-<CareerForm/>
-
+<CareerForm role="Full-stack Engineer" />
 
 <route lang="yaml">
 meta:
