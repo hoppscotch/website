@@ -4,8 +4,7 @@ title: Hoppscotch Career | Product Manager
 
 # Product Manager
 
-Created: June 18, 2021 3:13 PM<br/>
-Location: Remote
+<span class="bg-accent rounded text-accentContrast py-1 px-4 inline-flex">Location: Remote</span>
 
 ### Overview
 

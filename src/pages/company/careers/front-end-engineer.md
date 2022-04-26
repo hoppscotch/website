@@ -4,8 +4,7 @@ title: Hoppscotch Career | Front-end Engineer
 
 # Front-end Engineer
 
-Created: June 18, 2021 3:34 PM<br/>
-Location: Remote
+<span class="bg-accent rounded text-accentContrast py-1 px-4 inline-flex">Location: Remote</span>
 
 ### Overview
 

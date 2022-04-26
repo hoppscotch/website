@@ -10,9 +10,9 @@ const props = defineProps<{
   <div class="flex flex-col py-5">
     <h2>{{ t("careers.form.heading") }}</h2>
     <form
-      method="POST" action="/company/careers/success" netlify data-netlify="true" class="flex flex-col space-y-6" :name="props.role"
+      method="POST" action="/company/careers/success" netlify data-netlify="true" class="flex flex-col space-y-6" name="Careers"
     >
-      <input type="hidden" name="form-name" :value="props.role">
+      <input type="hidden" name="form-name" value="Careers">
       <input
         id="role" type="text" name="role" :value="props.role" readonly
         class="form-input"
@@ -51,7 +51,7 @@ const props = defineProps<{
         </strong>
         <input
           id="resume" type="file" name="resume"
-          class="p-1 cursor-pointer text-secondaryLight text-tiny transition file:border-dividerLight form-input file:transition file:cursor-pointer file:rounded file:text-tiny file:text-secondary file:bg-primaryLight file:border file:mr-2 file:py-1 file:px-4 hover:text-secondaryDark hover:file:text-secondaryDark hover:file:bg-primaryDark"
+          class="cursor-pointer text-secondaryLight text-tiny p-1 transition file:border-dividerLight form-input file:transition file:cursor-pointer file:rounded file:text-tiny file:text-secondary file:bg-primaryLight file:border file:mr-2 file:py-1 file:px-4 hover:text-secondaryDark hover:file:text-secondaryDark hover:file:bg-primaryDark"
         >
       </label>
       <label class="flex flex-col" for="linked">

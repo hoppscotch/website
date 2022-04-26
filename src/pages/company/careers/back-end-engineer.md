@@ -4,8 +4,7 @@ title: Hoppscotch Career | Back-end Engineer
 
 # Back-end Engineer
 
-Created: June 18, 2021 3:40 PM<br/>
-Location: Remote
+<span class="bg-accent rounded text-accentContrast py-1 px-4 inline-flex">Location: Remote</span>
 
 ### Overview
 
