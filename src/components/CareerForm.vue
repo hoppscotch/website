@@ -15,7 +15,7 @@ const props = defineProps<{
       <input type="hidden" name="form-name" value="Careers">
       <input
         id="role" type="text" name="role" :value="props.role" readonly
-        class="form-input"
+        class="pointer-events-none form-input"
       >
       <label class="flex flex-col" for="name">
         <strong>
@@ -51,7 +51,7 @@ const props = defineProps<{
         </strong>
         <input
           id="resume" type="file" name="resume"
-          class="cursor-pointer text-secondaryLight text-tiny p-1 transition file:border-dividerLight form-input file:transition file:cursor-pointer file:rounded file:text-tiny file:text-secondary file:bg-primaryLight file:border file:mr-2 file:py-1 file:px-4 hover:text-secondaryDark hover:file:text-secondaryDark hover:file:bg-primaryDark"
+          class="p-1 cursor-pointer text-secondaryLight text-tiny transition file:border-dividerLight form-input file:transition file:cursor-pointer file:rounded file:text-tiny file:text-secondary file:bg-primaryLight file:border file:mr-2 file:py-1 file:px-4 hover:text-secondaryDark hover:file:text-secondaryDark hover:file:bg-primaryDark"
         >
       </label>
       <label class="flex flex-col" for="linked">
@@ -105,7 +105,7 @@ const props = defineProps<{
 }
 
 .form-input {
- @apply mt-1;
+ @apply mt-2;
  @apply transition;
  @apply rounded;
  @apply text-secondary;
@@ -113,6 +113,7 @@ const props = defineProps<{
  @apply py-2;
  @apply px-4;
  @apply border-none;
+ @apply outline-none;
  @apply hover:text-secondaryDark;
  @apply hover:bg-primaryDark;
  @apply focus-visible:outline-accent;

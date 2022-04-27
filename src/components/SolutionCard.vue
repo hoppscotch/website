@@ -20,7 +20,6 @@ const emit = defineEmits<{
 }>()
 
 const target = ref(null)
-// const targetVisible = useElementVisibility(target)
 const targetVisible = ref(false)
 
 useIntersectionObserver(
@@ -43,7 +42,7 @@ watch(
 
 <template>
   <div ref="target" class="rounded-lg flex flex-col h-[50vh] py-8 px-5 justify-center md:h-[60vh]">
-    <i class="flex items-center justify-center w-10 h-10 text-xl rounded-full bg-accent text-contrast">
+    <i class="flex items-center justify-center w-10 h-10 text-xl rounded-full bg-accent text-accentContrast">
       <component :is="visibleSolution.icon" />
     </i>
     <h1 class="py-5 text-2xl font-black text-secondary md:text-4xl lg:text-5xl">

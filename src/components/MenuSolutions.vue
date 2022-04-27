@@ -29,8 +29,7 @@ const { t } = useI18n()
       <SmartItem
         :label="t('header.menu.solutions.guides')"
         :icon="guides"
-        :comming-soon="true"
-        to="https://docs.hoppscotch.io/guides"
+        to="https://aviyel.com/projects/5/hoppscotch/resources/discussion"
       />
       <SmartItem
         :label="t('header.menu.solutions.support')"

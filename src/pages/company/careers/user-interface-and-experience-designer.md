@@ -4,7 +4,7 @@ title: Hoppscotch Career | User Interface and Experience Designer
 
 # User Interface and Experience Designer
 
-<span class="bg-accent rounded text-accentContrast py-1 px-4 inline-flex">Location: Remote</span>
+<span class="inline-flex px-4 py-1 rounded bg-accent text-accentContrast">Location: Remote</span>
 
 ### Overview
 

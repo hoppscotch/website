@@ -52,7 +52,7 @@ export const solutions = [
     placement: 'left',
     image: 'banner.png',
     background: 'bg-gradient-to-r from-pink-200 dark:from-pink-800 to-pink-600/20',
-    link: { title: 'action.learn_more', target: '/solutions/deployment' },
+    link: { title: 'action.comming_soon', target: '/solutions' },
 
   },
   {
@@ -62,7 +62,7 @@ export const solutions = [
     placement: 'right',
     image: 'banner.png',
     background: 'bg-gradient-to-r from-light-200 dark:from-dark-800 dark:from-dark-800 to-yellow-600/20',
-    link: { title: 'action.learn_more', target: '/solutions/maintanance' },
+    link: { title: 'action.comming_soon', target: '/solutions' },
 
   },
 ]

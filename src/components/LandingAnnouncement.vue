@@ -5,15 +5,15 @@ const { t } = useI18n()
 <template>
   <div class="flex flex-col py-16">
     <div class="relative flex items-center justify-center flex-1">
-      <a
-        href="https://company.hoppscotch.io/hoppscotch-raises-3m-in-seed-funding-to-build-open-source-api-development-ecosystem"
+      <router-link
+        to="/company/blog/hoppscotch-raises-3m-in-seed-funding-to-build-open-source-api-development-ecosystem"
         target="_blank"
         rel="noopener noreferrer"
-        class="relative flex items-center justify-center rounded-lg transition bg-primary group dark:bg-primaryDark"
+        class="relative flex items-center justify-center rounded-lg bg-primary transition group dark:bg-primaryDark"
       >
         <SmartGradient animate />
         <lucide-megaphone class="hidden h-6 ml-4 md:flex" />
-        <span class="px-4 py-3 border-r text-secondaryDark border-divider">
+        <span class="px-4 py-3 border-r border-divider text-secondaryDark">
           <span class="md:hidden">
             {{ t("home.announcement.short_description") }}
           </span>
@@ -22,7 +22,7 @@ const { t } = useI18n()
           </span>
         </span>
         <span
-          class="flex items-center justify-center px-4 py-3 font-semibold transition text-accent group-hover:text-accentDark"
+          class="flex items-center justify-center px-4 py-3 font-semibold text-accent transition group-hover:text-accentDark"
         >
           <span class="md:hidden">
             {{ t("home.announcement.short_link_text") }}
@@ -32,7 +32,7 @@ const { t } = useI18n()
           </span>
           <lucide-arrow-right class="ml-4" />
         </span>
-      </a>
+      </router-link>
     </div>
   </div>
 </template>
