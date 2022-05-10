@@ -18,7 +18,7 @@ const { t } = useI18n()
         class="inline-flex flex-col items-center justify-center p-4"
       >
         <img
-          :src="`/assets/images/users/${isDark?'dark':'light'}-${user.image}`"
+          :src="`/assets/images/users/${isDark ? 'dark' : 'light'}-${user.image}`"
           :alt="user.title"
           :title="user.title"
           loading="lazy"

@@ -1,6 +1,4 @@
 <script setup lang="ts">
-const { t } = useI18n()
-
 const props = defineProps<{
   visibleSolution: {
     title: string
@@ -14,10 +12,10 @@ const props = defineProps<{
   }
   solutionIndex: number
 }>()
-
 const emit = defineEmits<{
   (e: 'setActiveSolution', index: number): void
 }>()
+const { t } = useI18n()
 
 const target = ref(null)
 const targetVisible = ref(false)
@@ -37,7 +35,6 @@ watch(
       emit('setActiveSolution', props.solutionIndex)
   },
 )
-
 </script>
 
 <template>

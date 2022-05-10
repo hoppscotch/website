@@ -50,9 +50,9 @@ export const navigation = [
         disabled: true,
       },
       {
-        name: 'header.menu.solutions.links.maintanance.name',
+        name: 'header.menu.solutions.links.maintenance.name',
         icon: wrench,
-        link: '/solutions/maintanance',
+        link: '/solutions/maintenance',
         disabled: true,
       },
     ],

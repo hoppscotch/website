@@ -7,7 +7,6 @@ const activeSolutionIndex = ref(0)
 const setActiveSolution = (index: number) => {
   activeSolutionIndex.value = index
 }
-
 </script>
 
 <template>
@@ -22,12 +21,12 @@ const setActiveSolution = (index: number) => {
         {{ t("solutions.hero.subheading") }}
       </p>
     </div>
-    <div class="relative items-start justify-between grid grid-cols-1 lg:grid-cols-2 py-25 gap-30">
-      <div class="sticky min-h-[30vh] sm:min-h-[40vh] lg:min-h-[60vh] top-20 md:top-15 lg:top-[20%] left-0 flex flex-col justify-center items-center bg-primary">
-        <SolutionImage v-for="(solution,index) in solutions" :key="solution.title" :visible-solution="solution" :is-visible="activeSolutionIndex === index" />
+    <div class="relative grid items-start justify-between grid-cols-1 lg:grid-cols-2 py-25 gap-30">
+      <div class="lg:sticky lg:min-h-[60vh] lg:top-[20%] lg:left-0 flex flex-1 justify-center items-center bg-primary">
+        <SolutionImage v-for="(solution, index) in solutions" :key="solution.title" :visible-solution="solution" :is-visible="activeSolutionIndex === index" />
       </div>
       <div class="flex flex-col">
-        <SolutionCard v-for="(solution,index) in solutions" :key="solution.title" :visible-solution="solution" :solution-index="index" @set-active-solution="setActiveSolution" />
+        <SolutionCard v-for="(solution, index) in solutions" :key="solution.title" :visible-solution="solution" :solution-index="index" @set-active-solution="setActiveSolution" />
       </div>
     </div>
   </div>

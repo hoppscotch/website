@@ -22,7 +22,7 @@ const { t } = useI18n()
         </h4>
       </div>
       <ul class="flex flex-col text-xs space-y-2">
-        <li v-for="(blog, blogIndex) in blogs.slice(0,2)" :key="`blog-${blogIndex}`">
+        <li v-for="(blog, blogIndex) in blogs.slice(0, 2)" :key="`blog-${blogIndex}`">
           <router-link :to="`/company/blog/${blog.slug}`" class="inline-flex items-center text-secondaryLight transition hover:text-secondaryDark">
             <span class="mr-2">
               {{ t(blog.title) }}

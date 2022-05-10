@@ -3,7 +3,6 @@ import { features } from '~/assets/data/solutionTest'
 import { isDark } from '~/composables'
 import check from '~icons/lucide/check-circle'
 const { t } = useI18n()
-
 </script>
 
 <template>

@@ -125,8 +125,8 @@ header:
         deployment:
           name: Deployment
           description: Neque porro quisquam est qui dolorem ipsum
-        maintanance:
-          name: Maintanance
+        maintenance:
+          name: Maintenance
           description: Neque porro quisquam est qui dolorem ipsum
     company:
       title: Company
@@ -513,8 +513,8 @@ solutions:
     deployment:
       title: Deployment
       description: Adding URL encoded body type now support key-value pairs and raw YAML editor.
-    maintanance:
-      title: Maintanance
+    maintenance:
+      title: Maintenance
       description: Translations are now updated to match the latest strings.
 error:
   404: Page not found

@@ -17,7 +17,7 @@ const { t } = useI18n()
     </div>
     <div class="mt-8 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       <div
-        v-for="(support,index) in supports"
+        v-for="(support, index) in supports"
         :key="`support-${index}`"
         class="inline-flex flex-col p-8 bg-primaryLight rounded-xl transition"
       >

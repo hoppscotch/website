@@ -2,7 +2,6 @@
 import { features } from '~/assets/data/solutionDevelopment'
 import { isDark } from '~/composables'
 const { t } = useI18n()
-
 </script>
 
 <template>

@@ -1,6 +1,4 @@
 <script setup lang="ts">
-const { t } = useI18n()
-
 withDefaults(
   defineProps<{
     changelog: {
@@ -13,6 +11,7 @@ withDefaults(
   }>(),
   {},
 )
+const { t } = useI18n()
 </script>
 
 <template>

@@ -56,8 +56,8 @@ export const solutions = [
 
   },
   {
-    title: 'solutions.items.maintanance.title',
-    description: 'solutions.items.maintanance.description',
+    title: 'solutions.items.maintenance.title',
+    description: 'solutions.items.maintenance.description',
     icon: wrench,
     placement: 'right',
     image: 'banner.png',

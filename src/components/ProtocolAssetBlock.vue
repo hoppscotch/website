@@ -1,6 +1,4 @@
 <script setup lang="ts">
-const { t } = useI18n()
-
 withDefaults(
   defineProps<{
     title: string
@@ -11,7 +9,7 @@ withDefaults(
     image: '',
   },
 )
-
+const { t } = useI18n()
 </script>
 
 <template>

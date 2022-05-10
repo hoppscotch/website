@@ -17,7 +17,7 @@ const { t } = useI18n()
     </div>
     <div />
     <div class="py-8 divide-dividerDark divide-y">
-      <div v-for="(position,index) in openPositions" :key="`careers-${index}`" class="py-10">
+      <div v-for="(position, index) in openPositions" :key="`careers-${index}`" class="py-10">
         <h3 class="flex items-center text-2xl font-bold gap-3">
           <i class="text-xl text-secondaryDark">
             <component :is="position.heading.icon" />
@@ -25,7 +25,7 @@ const { t } = useI18n()
           {{ t(position.heading.title) }}
         </h3>
         <ul class="my-4">
-          <li v-for="(opening,openingIndex) in position.positions" :key="`opening-${openingIndex}`" class="max-w-xl my-5 text-lg rounded bg-primaryLight transition hover:bg-primaryDark">
+          <li v-for="(opening, openingIndex) in position.positions" :key="`opening-${openingIndex}`" class="max-w-xl my-5 text-lg rounded bg-primaryLight transition hover:bg-primaryDark">
             <SmartLink :to="`careers/${opening.link}`" class="block p-4">
               <span>
                 {{ t(opening.title) }}

@@ -1,6 +1,4 @@
 <script setup lang="ts">
-const { t } = useI18n()
-
 withDefaults(
   defineProps<{
     title: string
@@ -16,7 +14,7 @@ withDefaults(
     hero: false,
   },
 )
-
+const { t } = useI18n()
 </script>
 
 <template>

@@ -30,7 +30,7 @@ const randomContributors = computed(() => contributors.sort(() => Math.random() 
           :username="contributor.username"
           loading="lazy"
           class="object-cover rounded-full shadow-inner bg-primaryDark ring-dividerDark transition contributor-bubble hover:ring-4"
-          :class="`contributor-bubble-${index+1}`"
+          :class="`contributor-bubble-${index + 1}`"
         >
       </a>
     </div>

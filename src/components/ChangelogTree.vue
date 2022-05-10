@@ -22,10 +22,10 @@ const changelogCount = ref(5)
       <div
         v-for="(changelog, index) in changelogs.slice(
           0,
-          changelogCount
+          changelogCount,
         )" :key="`changelog-${index}`"
         class="flex md:contents"
-        :class="{'flex-row-reverse': changelog.placement === 'left'}"
+        :class="{ 'flex-row-reverse': changelog.placement === 'left' }"
       >
         <div
           :class="changelog.placement === 'left'

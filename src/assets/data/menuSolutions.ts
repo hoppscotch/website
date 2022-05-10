@@ -47,10 +47,10 @@ export const solutions = [
     tag: 'action.comming_soon',
   },
   {
-    name: 'header.menu.solutions.links.maintanance.name',
-    description: 'header.menu.solutions.links.maintanance.description',
+    name: 'header.menu.solutions.links.maintenance.name',
+    description: 'header.menu.solutions.links.maintenance.description',
     icon: wrench,
-    link: '/solutions/maintanance',
+    link: '/solutions/maintenance',
     disabled: true,
     tag: 'action.comming_soon',
   },

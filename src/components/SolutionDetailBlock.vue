@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import check from '~icons/lucide/check-circle'
-const { t } = useI18n()
-
 withDefaults(
   defineProps<{
     feature: {
@@ -18,6 +16,7 @@ withDefaults(
   }>(),
   {},
 )
+const { t } = useI18n()
 </script>
 
 <template>

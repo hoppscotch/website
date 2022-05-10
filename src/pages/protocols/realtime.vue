@@ -16,7 +16,7 @@ import { protocols } from '~/assets/data/protocolsList'
         :image="protocols.realtime.image"
       />
     </div>
-    <div v-for="(method,index) in protocols.realtime.methods" :key="index" class="flex flex-col items-center justify-between px-8 py-16 lg:flex-row">
+    <div v-for="(method, index) in protocols.realtime.methods" :key="index" class="flex flex-col items-center justify-between px-8 py-16 lg:flex-row">
       <ProtocolDetailBlock
         :title="method.title"
         :description="method.description"

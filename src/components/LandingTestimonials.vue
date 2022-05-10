@@ -16,7 +16,7 @@ const { t } = useI18n()
       <div
         v-for="(testimonialBlock, testimonialBlockIndex) in testimonials" :key="`testimonial-${testimonialBlockIndex}`" class="flex flex-col flex-1 grid gap-4 grid-cols-1"
         :class="{
-          'hidden lg:flex': testimonialBlockIndex === 2
+          'hidden lg:flex': testimonialBlockIndex === 2,
         }"
       >
         <a

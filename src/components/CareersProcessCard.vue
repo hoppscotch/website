@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import check from '~icons/lucide/check'
-const { t } = useI18n()
-
 const tipProps = defineProps<{
   visibleTip: {
     title: string
@@ -9,10 +7,10 @@ const tipProps = defineProps<{
   }
   tipIndex: number
 }>()
-
 const tipEmit = defineEmits<{
   (e: 'setActiveTip', index: number): void
 }>()
+const { t } = useI18n()
 
 const targetTip = ref(null)
 const targetVisibleTip = ref(false)
@@ -32,7 +30,6 @@ watch(
       tipEmit('setActiveTip', tipProps.tipIndex)
   },
 )
-
 </script>
 
 <template>
