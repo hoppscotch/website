@@ -4,7 +4,7 @@
     <main
       class="container flex flex-col flex-1"
     >
-      <router-view />
+      <RouterView />
     </main>
     <HomeFooter />
   </div>

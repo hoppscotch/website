@@ -10,7 +10,7 @@ const { t } = useI18n()
         <lucide-lightbulb class="inline-block" />
       </p>
     </div>
-    <router-view />
+    <RouterView />
     <div class="my-8">
       <ButtonSecondary
         :label="t('action.back')"

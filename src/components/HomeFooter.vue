@@ -5,7 +5,7 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <footer class="container flex flex-col px-8 py-16 lg:max-w-4xl">
+  <footer class="container flex flex-col px-8 py-16">
     <nav class="grid grid-cols-2 gap-4 md:grid-cols-5">
       <div
         v-for="(category, categoryIndex) in navigation" :key="`category-${categoryIndex}`"

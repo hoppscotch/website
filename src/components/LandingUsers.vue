@@ -11,7 +11,7 @@ const { t } = useI18n()
     >
       {{ t("home.users.title") }}
     </p>
-    <div class="mx-auto mt-8 grid gap-4 grid-cols-3 md:grid-cols-4 lg:max-w-4xl lg:grid-cols-6">
+    <div class="grid grid-cols-3 gap-4 mx-auto mt-8 md:grid-cols-4 lg:max-w-4xl lg:grid-cols-6">
       <div
         v-for="(user, index) in users"
         :key="`user-${index}`"
@@ -22,7 +22,7 @@ const { t } = useI18n()
           :alt="user.title"
           :title="user.title"
           loading="lazy"
-          class="inline-flex flex-col object-cover object-center text-blue-500 max-h-16"
+          class="inline-flex flex-col object-cover object-center max-h-16"
         >
       </div>
     </div>
