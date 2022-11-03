@@ -38,7 +38,7 @@ watch(
 </script>
 
 <template>
-  <div ref="target" class="rounded-lg flex flex-col h-[50vh] py-8 px-5 justify-center md:h-[60vh]">
+  <div ref="target" class="rounded flex flex-col h-[50vh] py-8 px-5 justify-center md:h-[60vh]">
     <i class="flex items-center justify-center w-10 h-10 text-xl rounded-full bg-accent text-accentContrast">
       <component :is="visibleSolution.icon" />
     </i>

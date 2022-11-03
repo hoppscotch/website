@@ -56,8 +56,3 @@ We are grateful for all the support we have received from our customers, partner
 **Liyas Thomas**
 
 Founder & CEO, Hoppscotch
-
-<route lang="yaml">
-meta:
-  layout: home
-</route>

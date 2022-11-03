@@ -20,7 +20,7 @@ const { t } = useI18n()
         :tag="item.tag ? t(item.tag) : false"
       />
     </div>
-    <div class="mt-2 rounded-lg bg-primaryDark">
+    <div class="mt-2 rounded bg-primaryDark">
       <SmartItem
         :label="t('header.menu.solutions.documentation')"
         :icon="book"

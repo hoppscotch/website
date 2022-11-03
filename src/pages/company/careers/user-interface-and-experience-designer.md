@@ -43,8 +43,3 @@ Your ultimate goal is to design the functionality of the product. You will have 
 - Should be a team player
 
 <CareerForm role="User Interface and Experience Designer" />
-
-<route lang="yaml">
-meta:
-  layout: home
-</route>

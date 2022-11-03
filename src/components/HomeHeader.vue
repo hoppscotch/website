@@ -37,7 +37,7 @@ onMounted(() => {
         <div class="flex md:flex-1 md:w-0">
           <RouterLink
             to="/"
-            class="inline-flex items-center rounded-lg text-secondaryDark focus:outline-none"
+            class="inline-flex items-center rounded text-secondaryDark focus:outline-none"
           >
             <img
               src="/assets/images/logo.svg"
@@ -101,9 +101,9 @@ onMounted(() => {
           <!-- <SmartItem :label="t('header.menu.pricing.title')" to="/pricing" /> -->
         </nav>
         <div
-          class="items-center justify-end hidden space-x-4 md:flex md:flex-1 lg:w-0"
+          class="items-center justify-end hidden space-x-2 md:flex md:flex-1 lg:w-0"
         >
-          <ButtonSecondary to="https://github.com/hoppscotch/hoppscotch" blank label="GitHub" outline />
+          <ButtonSecondary to="https://github.com/hoppscotch/hoppscotch" label="GitHub" outline />
           <ButtonPrimary to="https://hoppscotch.io" :label="t('action.open_app')" outline />
         </div>
         <div class="md:hidden">

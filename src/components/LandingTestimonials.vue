@@ -24,7 +24,7 @@ const { t } = useI18n()
           :href="testimonial.link"
           target="_blank"
           rel="noopener noreferrer"
-          class="flex flex-col w-full p-8 rounded-lg shadow bg-primaryLight transition group hover:shadow-md"
+          class="flex flex-col w-full p-8 rounded shadow bg-primaryLight transition group hover:shadow-md"
         >
           <div class="flex items-center w-full mb-4">
             <img :src="testimonial.picture" :alt="testimonial.username" class="flex flex-shrink-0 w-10 h-10 rounded-full shadow-inner bg-primaryDark transition">

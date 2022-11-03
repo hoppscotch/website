@@ -51,7 +51,7 @@ const { t } = useI18n()
   @apply flex-1;
   @apply px-4;
   @apply py-2;
-  @apply rounded-lg;
+  @apply rounded;
   @apply text-secondaryDark;
   @apply bg-primaryLight;
   @apply outline-none;
@@ -64,7 +64,7 @@ const { t } = useI18n()
   @apply inline-flex;
   @apply px-4;
   @apply py-2;
-  @apply rounded-lg;
+  @apply rounded;
   @apply font-bold;
   @apply text-accentContrast;
   @apply bg-accentLight;

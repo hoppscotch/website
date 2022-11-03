@@ -30,7 +30,7 @@ const getComputedDate = computed(() => {
 </script>
 
 <template>
-  <article class="w-full overflow-hidden rounded-lg shadow-md bg-primaryLight col-span-6 group" :class="blog.styles">
+  <article class="w-full overflow-hidden rounded shadow-md bg-primaryLight col-span-6 group" :class="blog.styles">
     <SmartLink :to="`blog/${blog.slug}`" class="flex-col w-full h-full">
       <div class="overflow-hidden h-80">
         <img :src="`/assets/images/platforms/web/${isDark ? 'dark' : 'light'}-${blog.image}`" :alt="t(blog.title)" class="object-cover object-top w-full h-full transform transition duration-700 group-hover:scale-105">

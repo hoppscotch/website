@@ -20,8 +20,8 @@ const { t } = useI18n()
       <p class="max-w-md my-4 text-xl text-center md:w-3/5">
         {{ t("home.hero.subheading") }}
       </p>
-      <p class="flex my-4 text-center space-x-4">
-        <ButtonSecondary to="https://github.com/hoppscotch/hoppscotch" blank label="GitHub" outline />
+      <p class="flex my-4 space-x-2 text-center">
+        <ButtonSecondary to="https://github.com/hoppscotch/hoppscotch" label="GitHub" outline />
         <ButtonPrimary to="https://hoppscotch.io" :label="t('action.open_app')" outline />
       </p>
       <p class="my-2 text-xs text-center text-secondaryLight">
@@ -30,7 +30,7 @@ const { t } = useI18n()
       <div class="relative flex mt-8">
         <SmartGradient :blur="256" />
         <img
-          class="object-cover object-center w-full h-full max-w-6xl rounded-lg shadow transition"
+          class="object-cover object-center w-full h-full transition rounded shadow"
           :src="`/assets/images/screenshots/${isDark ? 'dark' : 'light'}-banner.png`"
           alt="Screenshot"
           loading="lazy"

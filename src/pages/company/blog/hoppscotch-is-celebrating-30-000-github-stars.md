@@ -64,8 +64,3 @@ We started to work on different features among which are the capability for team
 To put it in a nutshell, we'll work on our main focus and priority: making our users happy with new features and improving Hoppscotch as much as we can do.
 
 Contact: [liyas@hoppscotch.io](mailto:liyas@hoppscotch.io)
-
-<route lang="yaml">
-meta:
-  layout: home
-</route>

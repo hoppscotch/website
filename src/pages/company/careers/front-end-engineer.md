@@ -49,8 +49,3 @@ You should have an eye for artful, clean design and possess exceptional UI skill
 - Exceptional problem-solving abilities
 
 <CareerForm role="Front-end Engineer" />
-
-<route lang="yaml">
-meta:
-  layout: home
-</route>

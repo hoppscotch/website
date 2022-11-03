@@ -25,7 +25,7 @@ const setActiveTip = (index: number) => {
     </div>
     <div class="relative items-start justify-between py-5 grid grid-cols-1 md:grid-cols-2 gap-30">
       <div class="sticky min-h-[40vh] lg:min-h-[60vh] top-0 md:top-15 md:top-[20%] left-0 flex flex-col justify-center items-center">
-        <div v-for="(processTitle, processTitleIndex) in interviewProcess" :key="`interview-process-${processTitleIndex}`" class="absolute left-0 md:left-[25%] bg-primary md:bg-transparent w-full flex flex-col items-center md:items-start text-center md:text-left rounded-lg transition-all duration-300 p-5 lg:py-10" :class="[activeTipIndex === processTitleIndex ? 'opacity-100' : 'opacity-0']">
+        <div v-for="(processTitle, processTitleIndex) in interviewProcess" :key="`interview-process-${processTitleIndex}`" class="absolute left-0 md:left-[25%] bg-primary md:bg-transparent w-full flex flex-col items-center md:items-start text-center md:text-left rounded transition-all duration-300 p-5 lg:py-10" :class="[activeTipIndex === processTitleIndex ? 'opacity-100' : 'opacity-0']">
           <h3 class="flex items-center justify-center text-5xl border-2 rounded-full h-18 w-18">
             {{ processTitleIndex + 1 }}
           </h3>

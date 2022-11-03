@@ -110,8 +110,3 @@ Besides unlocking some karma points, you know what would be cool with your contr
 **Support open-source and pick a limited edition T-shirt 👕 or plant a tree! 🌱**
 
 **Rules:** To qualify for the official limited edition Hacktoberfest shirt, you must [register](https://hacktoberfest.digitalocean.com/) and make four pull requests (PRs) between October 1-31 (in any time zone). PRs can be made to any public repo on GitHub, not only the ones with issues labeled Hacktoberfest. This year, the first 70,000 participants who successfully complete the challenge will earn a Hacktoberfest tee or plant a tree.
-
-<route lang="yaml">
-meta:
-  layout: home
-</route>

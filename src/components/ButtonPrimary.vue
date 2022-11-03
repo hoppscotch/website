@@ -27,7 +27,7 @@ const props = withDefaults(
     icon: '',
     infoIcon: '',
     reverse: false,
-    rounded: false,
+    rounded: true,
     loading: false,
     large: false,
     gradient: false,
@@ -62,10 +62,10 @@ const computedComponent = computed(() => {
     v-bind="$attrs"
     :href="props.to"
     :to="props.to"
-    class="inline-flex items-center justify-center py-2 font-bold cursor-pointer bg-accent text-accentContrast transition hover:bg-accentDark focus:outline-none focus-visible:bg-accentDark"
+    class="inline-flex items-center justify-center py-2 font-bold transition cursor-pointer bg-accent text-accentContrast hover:bg-accentDark focus:outline-none focus-visible:bg-accentDark"
     :class="[
       label ? 'px-4' : 'px-2',
-      rounded ? 'rounded-full' : 'rounded-lg',
+      rounded ? 'rounded-full' : 'rounded',
       { 'pointer-events-none': loading },
       { 'px-6 py-4 text-lg': large },
       { 'shadow-lg hover:shadow-xl': shadow },

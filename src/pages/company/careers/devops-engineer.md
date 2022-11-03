@@ -58,8 +58,3 @@ Your knowledge of the latest industry trends will prove beneficial in designing 
 - Ability to maintain the confidentiality of any sensitive information
 
 <CareerForm role="DevOps Engineer" />
-
-<route lang="yaml">
-meta:
-  layout: home
-</route>

@@ -124,7 +124,7 @@ const { t } = useI18n()
   @apply justify-center;
   @apply px-4;
   @apply py-2;
-  @apply rounded-lg;
+  @apply rounded;
   @apply font-bold;
   @apply text-accentContrast;
   @apply bg-accent;

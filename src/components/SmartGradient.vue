@@ -23,7 +23,7 @@ withDefaults(
 .gradient-bg {
   @apply absolute;
   @apply inset-0;
-  @apply rounded-lg;
+  @apply rounded;
   @apply opacity-75;
   @apply transition;
   @apply -z-1;
@@ -32,9 +32,9 @@ withDefaults(
     from 217.29deg at 51.63% 52.16%,
     rgb(36, 0, 255) 0deg,
     rgb(0, 135, 255) 19.5deg,
-    rgb(255, 29, 122) 102.75deg,
-    rgb(245, 56, 27) 152.25deg,
-    rgb(255, 83, 53) 208.88deg,
+    rgb(84, 29, 255) 102.75deg,
+    rgb(8, 56, 255) 152.25deg,
+    rgb(93, 83, 255) 208.88deg,
     rgb(105, 30, 255) 291deg
   );
 }

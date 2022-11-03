@@ -9,7 +9,7 @@ const { t } = useI18n()
         to="/company/blog/hoppscotch-raises-3m-in-seed-funding-to-build-open-source-api-development-ecosystem"
         target="_blank"
         rel="noopener noreferrer"
-        class="relative flex items-center justify-center rounded-lg bg-primary transition group dark:bg-primaryDark"
+        class="relative flex items-center justify-center transition rounded-full bg-primary group dark:bg-primaryDark"
       >
         <SmartGradient animate />
         <lucide-megaphone class="hidden h-6 ml-4 md:flex" />
@@ -22,7 +22,7 @@ const { t } = useI18n()
           </span>
         </span>
         <span
-          class="flex items-center justify-center px-4 py-3 font-semibold text-accent transition group-hover:text-accentDark"
+          class="flex items-center justify-center px-4 py-3 font-semibold transition text-accent group-hover:text-accentDark"
         >
           <span class="md:hidden">
             {{ t("home.announcement.short_link_text") }}

@@ -40,8 +40,3 @@ Join our **[Discord server](https://hoppscotch.io/discord)** to stay up to dat
 Join our journey to build Hoppscotch for an API-first software era.
 
 We're hiring in the product, engineering, and design teams - [Apply now →](https://hoppscotch.io/careers).
-
-<route lang="yaml">
-meta:
-  layout: home
-</route>

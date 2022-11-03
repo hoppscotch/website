@@ -43,8 +43,3 @@ You will be working with a team of software engineers, and marketing professiona
 - Team player with the ability to work on multiple tasks at a time
 
 <CareerForm role="Product Manager" />
-
-<route lang="yaml">
-meta:
-  layout: home
-</route>

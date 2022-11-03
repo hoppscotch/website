@@ -4,7 +4,7 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div class="flex flex-col px-8 pt-16">
+  <div class="flex flex-col px-8 py-16">
     <div class="relative">
       <div class="absolute inset-0 flex items-center justify-center z-2">
         <span class="shadow-xl rounded-2xl">

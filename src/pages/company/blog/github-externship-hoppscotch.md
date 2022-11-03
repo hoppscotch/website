@@ -33,8 +33,3 @@ For more details please go to the [program page here](https://github-externship
 If you have any questions or queries please contact us via [Telegram](https://t.me/hoppscotch_externship), [Discord](https://discord.gg/GAMWxmR), or send an email to us at [support@hoppscotch.io](mailto:support@hoppscotch.io).
 
 [Join GitHub Externship @ Hoppscotch](https://github.com/hoppscotch/hoppscotch/blob/main/GITHUB_EXTERNSHIP.md)
-
-<route lang="yaml">
-meta:
-  layout: home
-</route>

@@ -62,8 +62,3 @@ You will also play a vital role in developing advanced business procedures and r
 - Engineer mindset
 
 <CareerForm role="Developer Relations Manager" />
-
-<route lang="yaml">
-meta:
-  layout: home
-</route>

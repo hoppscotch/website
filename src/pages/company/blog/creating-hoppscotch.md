@@ -51,8 +51,3 @@ The Hoppscotch API request builder helps you create your requests faster, saving
 - ~~History~~ **UPDATE: Added History support**
 
 🎁 Bonus: Hoppscotch is in dark mode 🌚
-
-<route lang="yaml">
-meta:
-  layout: home
-</route>

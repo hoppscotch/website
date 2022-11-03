@@ -49,8 +49,3 @@ As a back-end engineer, you will design and develop backend applications i.e. th
 - Attention to detail
 
 <CareerForm role="Back-end Engineer"/>
-
-<route lang="yaml">
-meta:
-  layout: home
-</route>
