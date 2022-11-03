@@ -13,7 +13,7 @@ const { t } = useI18n()
       >
         <SmartGradient :blur="8" class="rounded-full" />
         <lucide-megaphone class="hidden h-6 ml-4 md:flex" />
-        <span class="px-4 py-3 border-r border-divider text-secondaryDark">
+        <span class="px-4 py-3 border-r rounded-l-full border-divider text-secondaryDark">
           <span class="md:hidden">
             {{ t("home.announcement.short_description") }}
           </span>
@@ -22,7 +22,7 @@ const { t } = useI18n()
           </span>
         </span>
         <span
-          class="flex items-center justify-center px-4 py-3 font-semibold transition text-accent group-hover:text-accentDark"
+          class="flex items-center justify-center px-4 py-3 font-semibold transition rounded-r-full text-accent group-hover:text-accentDark"
         >
           <span class="md:hidden">
             {{ t("home.announcement.short_link_text") }}

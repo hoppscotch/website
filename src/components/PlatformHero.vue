@@ -11,7 +11,7 @@ const { t } = useI18n()
       {{ t("home.platforms.title") }}
     </p>
     <div class="relative flex flex-col items-center">
-      <SmartGradient :blur="500" class="rounded-full" />
+      <SmartGradient :blur="300" class="rounded-full" />
       <h1
         class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
       >

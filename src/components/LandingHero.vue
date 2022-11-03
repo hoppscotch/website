@@ -12,7 +12,7 @@ const { t } = useI18n()
       >
         {{ t("home.hero.heading") }}
         <span
-          class="text-transparent transition bg-clip-text bg-gradient-to-br from-gradientFrom via-gradientVia to-gradientTo"
+          class="text-transparent transition bg-clip-text bg-gradient-to-r from-gradientFrom via-gradientVia to-gradientTo"
         >
           {{ t("home.hero.heading_line_2") }}
         </span>
@@ -27,10 +27,10 @@ const { t } = useI18n()
       <p class="my-2 text-xs text-center text-secondaryLight">
         {{ t("home.hero.stats.1.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.2.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.3.title") }}
       </p>
-      <div class="relative flex mt-8">
-        <SmartGradient :blur="500" />
+      <div class="relative flex p-1 mt-8 rounded-xl bg-gradient-to-r from-gradientFrom via-gradientVia to-gradientTo">
+        <SmartGradient :blur="300" />
         <img
-          class="object-cover object-center w-full h-full transition rounded shadow"
+          class="object-cover object-center w-full h-full transition shadow rounded-xl"
           :src="`/assets/images/screenshots/${isDark ? 'dark' : 'light'}-banner.png`"
           alt="Screenshot"
           loading="lazy"

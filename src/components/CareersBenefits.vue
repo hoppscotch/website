@@ -5,7 +5,7 @@ const { t } = useI18n()
 
 <template>
   <div class="relative flex flex-col px-8">
-    <SmartGradient :blur="500" />
+    <SmartGradient :blur="300" />
     <div class="flex flex-col items-center">
       <h2
         class="max-w-2xl my-4 text-3xl font-black leading-none text-center text-secondaryDark transition md:text-4xl lg:text-5xl"

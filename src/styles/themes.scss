@@ -36,14 +36,14 @@
 html {
   @include lightMode;
 
-  --color-accent: theme("colors.green.600");
-  --color-accentLight: theme("colors.green.500");
-  --color-accentDark: theme("colors.green.700");
+  --color-accent: theme("colors.indigo.600");
+  --color-accentLight: theme("colors.indigo.500");
+  --color-accentDark: theme("colors.indigo.700");
   --color-accentContrast: theme("colors.white");
 
-  --color-gradientFrom: 255, 255, 255;
-  --color-gradientVia: 255, 255, 255;
-  --color-gradientTo: 255, 255, 255;
+  --color-gradientFrom: 26, 98, 255;
+  --color-gradientVia: 168, 85, 247;
+  --color-gradientTo: 236, 72, 153;
 }
 
 html.dark {

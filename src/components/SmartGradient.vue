@@ -27,15 +27,7 @@ withDefaults(
   @apply transition;
   @apply -z-1;
 
-  background: conic-gradient(
-    from 217.29deg at 51.63% 52.16%,
-    rgb(36, 0, 255) 0deg,
-    rgb(0, 135, 255) 19.5deg,
-    rgb(84, 29, 255) 102.75deg,
-    rgb(8, 56, 255) 152.25deg,
-    rgb(93, 83, 255) 208.88deg,
-    rgb(105, 30, 255) 291deg
-  );
+  background: linear-gradient(45deg,#f83a3a 10%,#f13dd4 50%,#7000ff 90%)
 }
 
 .pulse {

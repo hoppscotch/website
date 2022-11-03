@@ -37,6 +37,7 @@ body {
   @apply text-sm;
   @apply overflow-x-hidden;
   @apply select-none;
+  @apply font-medium;
 
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
