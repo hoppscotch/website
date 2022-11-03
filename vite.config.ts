@@ -155,19 +155,13 @@ export default defineConfig({
   },
 
   optimizeDeps: {
-    include: [
-      'vue',
-      'vue-router',
-      '@vueuse/core',
-      '@vueuse/head',
-    ],
-    exclude: [
-      'vue-demi',
-    ],
+    include: ['vue', 'vue-router', '@vueuse/core', '@vueuse/head'],
+    exclude: ['vue-demi'],
   },
 
   // https://github.com/vitest-dev/vitest
   test: {
+    globals: true,
     include: ['test/**/*.test.ts'],
     environment: 'jsdom',
     deps: {

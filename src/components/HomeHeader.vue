@@ -35,7 +35,7 @@ onMounted(() => {
     >
       <div class="container flex items-center justify-between flex-1 px-8 py-4">
         <div class="flex md:flex-1 md:w-0">
-          <router-link
+          <RouterLink
             to="/"
             class="inline-flex items-center rounded-lg text-secondaryDark focus:outline-none"
           >
@@ -47,7 +47,7 @@ onMounted(() => {
             <span class="font-semibold">
               {{ t("logo") }}
             </span>
-          </router-link>
+          </RouterLink>
         </div>
         <nav class="hidden space-x-2 md:flex">
           <span>

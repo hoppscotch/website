@@ -5,7 +5,7 @@ const { t } = useI18n()
 <template>
   <div class="flex flex-col py-16">
     <div class="relative flex items-center justify-center flex-1">
-      <router-link
+      <RouterLink
         to="/company/blog/hoppscotch-raises-3m-in-seed-funding-to-build-open-source-api-development-ecosystem"
         target="_blank"
         rel="noopener noreferrer"
@@ -32,7 +32,7 @@ const { t } = useI18n()
           </span>
           <lucide-arrow-right class="ml-4" />
         </span>
-      </router-link>
+      </RouterLink>
     </div>
   </div>
 </template>
