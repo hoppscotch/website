@@ -3,7 +3,7 @@ import { protocols } from '~/assets/data/protocolsList'
 </script>
 
 <template>
-  <div class="flex flex-col">
+  <div class="flex flex-col divide-y divide-divider">
     <div class="flex flex-col items-center justify-between px-8 py-16 lg:flex-row">
       <ProtocolDetailBlock
         :title="protocols.realtime.title"

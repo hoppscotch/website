@@ -5,9 +5,14 @@ const { t } = useI18n()
 
 <template>
   <div class="flex flex-col px-8 py-16">
+    <p
+      class="my-4 font-semibold tracking-widest text-center uppercase text-accentLight"
+    >
+      {{ t("home.users.title") }}
+    </p>
     <div class="flex flex-col items-center">
       <h1
-        class="max-w-2xl my-4 text-3xl font-black leading-none text-center text-secondaryDark transition md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
       >
         {{ t("platforms.hero.heading") }}
       </h1>
@@ -15,11 +20,11 @@ const { t } = useI18n()
         {{ t("platforms.hero.subheading") }}
       </p>
     </div>
-    <div class="mt-8 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+    <div class="grid grid-cols-1 gap-4 mt-8 md:grid-cols-2 lg:grid-cols-4">
       <div
         v-for="(platform, index) in platforms"
         :key="`platform-${index}`"
-        class="inline-flex flex-col p-8 bg-primaryLight rounded-xl transition"
+        class="inline-flex flex-col p-8 transition bg-primaryLight rounded-xl"
       >
         <i class="text-3xl text-accentLight">
           <component :is="platform.icon" />
@@ -32,7 +37,7 @@ const { t } = useI18n()
             {{ t(platform.description) }}
           </p>
           <p class="mt-2">
-            <SmartLink :to="platform.link.target" class="inline-flex items-center text-accent transition hover:text-accentDark">
+            <SmartLink :to="platform.link.target" class="inline-flex items-center transition text-accent hover:text-accentDark">
               <span class="mr-2">
                 {{ t(platform.link.title) }}
               </span>

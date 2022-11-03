@@ -1,118 +1,132 @@
 <script setup lang="ts">
 import { banners } from '~/assets/data/platformBanners'
+const { t } = useI18n()
 </script>
 
 <template>
-  <div class="flex flex-col px-8 py-16 space-y-8">
-    <div
-      class="relative grid w-full h-auto overflow-hidden place-items-center slider"
-    >
-      <div class="w-full space-x-8 slide-track1">
-        <div
-          v-for="(banner, index) in banners"
-          :key="`banner-${index}`"
-          class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
-        >
-          <component :is="banner.icon" class="w-8 h-8 m-4" />
-        </div>
-        <!-- same 10 slides doubled (duplicate) -->
-        <div
-          v-for="(banner, index) in banners"
-          :key="`banner-${index}`"
-          class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
-        >
-          <component :is="banner.icon" class="w-8 h-8 m-4" />
-        </div>
-        <!-- same 10 slides doubled (duplicate) -->
-        <div
-          v-for="(banner, index) in banners"
-          :key="`banner-${index}`"
-          class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
-        >
-          <component :is="banner.icon" class="w-8 h-8 m-4" />
-        </div>
+  <div class="flex flex-col px-8 pt-16">
+    <div class="relative">
+      <div class="absolute inset-0 flex items-center justify-center z-2">
+        <span class="shadow-xl rounded-2xl">
+          <img
+            src="/assets/images/logo.svg"
+            :alt="t('logo')"
+            class="w-32 h-32 shadow-2xl rounded-2xl"
+          >
+        </span>
       </div>
-    </div>
-    <div class="relative grid w-full h-auto overflow-hidden place-items-center slider">
-      <div class="w-full space-x-8 slide-track2">
+      <div class="space-y-8">
         <div
-          v-for="(banner, index) in banners"
-          :key="`banner-${index}`"
-          class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
+          class="relative grid w-full h-auto overflow-hidden place-items-center slider"
         >
-          <component :is="banner.icon" class="w-8 h-8 m-4" />
+          <div class="w-full space-x-8 slide-track1">
+            <div
+              v-for="(banner, index) in banners"
+              :key="`banner-${index}`"
+              class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
+            >
+              <component :is="banner.icon" class="w-8 h-8 m-4" />
+            </div>
+            <!-- same 10 slides doubled (duplicate) -->
+            <div
+              v-for="(banner, index) in banners"
+              :key="`banner-${index}`"
+              class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
+            >
+              <component :is="banner.icon" class="w-8 h-8 m-4" />
+            </div>
+            <!-- same 10 slides doubled (duplicate) -->
+            <div
+              v-for="(banner, index) in banners"
+              :key="`banner-${index}`"
+              class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
+            >
+              <component :is="banner.icon" class="w-8 h-8 m-4" />
+            </div>
+          </div>
         </div>
-        <!-- same 10 slides doubled (duplicate) -->
-        <div
-          v-for="(banner, index) in banners"
-          :key="`banner-${index}`"
-          class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
-        >
-          <component :is="banner.icon" class="w-8 h-8 m-4" />
+        <div class="relative grid w-full h-auto overflow-hidden place-items-center slider">
+          <div class="w-full space-x-8 slide-track2">
+            <div
+              v-for="(banner, index) in banners"
+              :key="`banner-${index}`"
+              class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
+            >
+              <component :is="banner.icon" class="w-8 h-8 m-4" />
+            </div>
+            <!-- same 10 slides doubled (duplicate) -->
+            <div
+              v-for="(banner, index) in banners"
+              :key="`banner-${index}`"
+              class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
+            >
+              <component :is="banner.icon" class="w-8 h-8 m-4" />
+            </div>
+            <!-- same 10 slides doubled (duplicate) -->
+            <div
+              v-for="(banner, index) in banners"
+              :key="`banner-${index}`"
+              class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
+            >
+              <component :is="banner.icon" class="w-8 h-8 m-4" />
+            </div>
+          </div>
         </div>
-        <!-- same 10 slides doubled (duplicate) -->
         <div
-          v-for="(banner, index) in banners"
-          :key="`banner-${index}`"
-          class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
+          class="relative grid w-full h-auto overflow-hidden place-items-center slider"
         >
-          <component :is="banner.icon" class="w-8 h-8 m-4" />
+          <div class="w-full space-x-8 slide-track3">
+            <div
+              v-for="(banner, index) in banners"
+              :key="`banner-${index}`"
+              class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
+            >
+              <component :is="banner.icon" class="w-8 h-8 m-4" />
+            </div>
+            <!-- same 10 slides doubled (duplicate) -->
+            <div
+              v-for="(banner, index) in banners"
+              :key="`banner-${index}`"
+              class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
+            >
+              <component :is="banner.icon" class="w-8 h-8 m-4" />
+            </div>
+            <!-- same 10 slides doubled (duplicate) -->
+            <div
+              v-for="(banner, index) in banners"
+              :key="`banner-${index}`"
+              class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
+            >
+              <component :is="banner.icon" class="w-8 h-8 m-4" />
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <div
-      class="relative grid w-full h-auto overflow-hidden place-items-center slider"
-    >
-      <div class="w-full space-x-8 slide-track3">
-        <div
-          v-for="(banner, index) in banners"
-          :key="`banner-${index}`"
-          class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
-        >
-          <component :is="banner.icon" class="w-8 h-8 m-4" />
-        </div>
-        <!-- same 10 slides doubled (duplicate) -->
-        <div
-          v-for="(banner, index) in banners"
-          :key="`banner-${index}`"
-          class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
-        >
-          <component :is="banner.icon" class="w-8 h-8 m-4" />
-        </div>
-        <!-- same 10 slides doubled (duplicate) -->
-        <div
-          v-for="(banner, index) in banners"
-          :key="`banner-${index}`"
-          class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
-        >
-          <component :is="banner.icon" class="w-8 h-8 m-4" />
-        </div>
-      </div>
-    </div>
-    <div class="relative grid w-full h-auto overflow-hidden place-items-center slider">
-      <div class="w-full space-x-8 slide-track4">
-        <div
-          v-for="(banner, index) in banners"
-          :key="`banner-${index}`"
-          class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
-        >
-          <component :is="banner.icon" class="w-8 h-8 m-4" />
-        </div>
-        <!-- same 10 slides doubled (duplicate) -->
-        <div
-          v-for="(banner, index) in banners"
-          :key="`banner-${index}`"
-          class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
-        >
-          <component :is="banner.icon" class="w-8 h-8 m-4" />
-        </div>
-        <!-- same 10 slides doubled (duplicate) -->
-        <div
-          v-for="(banner, index) in banners"
-          :key="`banner-${index}`"
-          class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
-        >
-          <component :is="banner.icon" class="w-8 h-8 m-4" />
+        <div class="relative grid w-full h-auto overflow-hidden place-items-center slider">
+          <div class="w-full space-x-8 slide-track4">
+            <div
+              v-for="(banner, index) in banners"
+              :key="`banner-${index}`"
+              class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
+            >
+              <component :is="banner.icon" class="w-8 h-8 m-4" />
+            </div>
+            <!-- same 10 slides doubled (duplicate) -->
+            <div
+              v-for="(banner, index) in banners"
+              :key="`banner-${index}`"
+              class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
+            >
+              <component :is="banner.icon" class="w-8 h-8 m-4" />
+            </div>
+            <!-- same 10 slides doubled (duplicate) -->
+            <div
+              v-for="(banner, index) in banners"
+              :key="`banner-${index}`"
+              class="inline-flex items-center justify-center rounded-xl bg-primaryLight"
+            >
+              <component :is="banner.icon" class="w-8 h-8 m-4" />
+            </div>
+          </div>
         </div>
       </div>
     </div>

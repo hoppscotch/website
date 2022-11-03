@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col">
+  <div class="flex flex-col divide-y divide-divider">
     <SolutionDesignHero />
     <LandingCTA />
     <LandingSocial />
