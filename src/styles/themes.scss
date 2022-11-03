@@ -41,9 +41,9 @@ html {
   --color-accentDark: theme("colors.green.700");
   --color-accentContrast: theme("colors.white");
 
-  --color-gradientFrom: 16, 185, 129;
-  --color-gradientVia: 16, 185, 129;
-  --color-gradientTo: 4, 120, 87;
+  --color-gradientFrom: 255, 255, 255;
+  --color-gradientVia: 255, 255, 255;
+  --color-gradientTo: 255, 255, 255;
 }
 
 html.dark {

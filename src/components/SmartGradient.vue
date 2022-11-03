@@ -23,7 +23,6 @@ withDefaults(
 .gradient-bg {
   @apply absolute;
   @apply inset-0;
-  @apply rounded;
   @apply opacity-75;
   @apply transition;
   @apply -z-1;

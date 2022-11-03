@@ -8,9 +8,10 @@ const { t } = useI18n()
     <p
       class="my-4 font-semibold tracking-widest text-center uppercase text-accentLight"
     >
-      {{ t("home.users.title") }}
+      {{ t("home.platforms.title") }}
     </p>
-    <div class="flex flex-col items-center">
+    <div class="relative flex flex-col items-center">
+      <SmartGradient :blur="500" class="rounded-full" />
       <h1
         class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
       >

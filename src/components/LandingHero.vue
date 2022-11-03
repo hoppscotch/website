@@ -28,7 +28,7 @@ const { t } = useI18n()
         {{ t("home.hero.stats.1.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.2.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.3.title") }}
       </p>
       <div class="relative flex mt-8">
-        <SmartGradient :blur="256" />
+        <SmartGradient :blur="500" />
         <img
           class="object-cover object-center w-full h-full transition rounded shadow"
           :src="`/assets/images/screenshots/${isDark ? 'dark' : 'light'}-banner.png`"

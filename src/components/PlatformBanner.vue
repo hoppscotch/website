@@ -6,7 +6,7 @@ const { t } = useI18n()
 <template>
   <div class="flex flex-col px-8 py-16">
     <div class="relative">
-      <div class="absolute inset-0 flex items-center justify-center z-2">
+      <div class="absolute inset-0 flex items-center justify-center z-5">
         <span class="shadow-xl rounded-2xl">
           <img
             src="/assets/images/logo.svg"

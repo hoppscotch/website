@@ -11,7 +11,7 @@ const { t } = useI18n()
         rel="noopener noreferrer"
         class="relative flex items-center justify-center transition rounded-full bg-primary group dark:bg-primaryDark"
       >
-        <SmartGradient animate />
+        <SmartGradient :blur="8" class="rounded-full" />
         <lucide-megaphone class="hidden h-6 ml-4 md:flex" />
         <span class="px-4 py-3 border-r border-divider text-secondaryDark">
           <span class="md:hidden">
