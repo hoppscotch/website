@@ -69,7 +69,7 @@ const computedComponent = computed(() => {
         <div class="font-semibold">
           {{ label }}
         </div>
-        <div v-if="tag" class="ml-2 py-1 px-2 text-[8px] font-medium rounded-full text-secondaryLight bg-primaryLight border border-dividerDark">
+        <div v-if="tag" class="ml-2 py-1 px-2 text-[8px] font-medium rounded-full text-secondaryLight bg-primaryLight border border-dividerDarkborder border-dividerDark">
           {{ tag }}
         </div>
       </div>

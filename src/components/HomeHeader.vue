@@ -44,7 +44,7 @@ onMounted(() => {
               :alt="t('logo')"
               class="w-8 h-8 mr-4"
             >
-            <span class="font-semibold">
+            <span class="font-bold tracking-wide uppercase">
               {{ t("logo") }}
             </span>
           </RouterLink>

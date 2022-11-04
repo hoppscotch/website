@@ -1,3 +1,4 @@
+import { gradients } from './gradients'
 import layers from '~icons/lucide/layers'
 import code from '~icons/lucide/code-2'
 import flask from '~icons/lucide/flask-conical'
@@ -12,7 +13,7 @@ export const solutions = [
     icon: layers,
     placement: 'left',
     image: 'banner.png',
-    background: ' bg-gradient-to-r from-blue-200 dark:from-blue-800 to-blue-600/20',
+    background: gradients.purple,
     link: { title: 'action.learn_more', target: '/solutions/design' },
   },
   {
@@ -21,9 +22,8 @@ export const solutions = [
     icon: code,
     placement: 'right',
     image: 'banner.png',
-    background: ' bg-gradient-to-r from-light-200 dark:from-dark-800 dark:from-dark-800 to-green-600/20',
+    background: gradients.green,
     link: { title: 'action.learn_more', target: '/solutions/development' },
-
   },
   {
     title: 'solutions.items.testing.title',
@@ -31,9 +31,8 @@ export const solutions = [
     icon: flask,
     placement: 'left',
     image: 'banner.png',
-    background: 'bg-gradient-to-r from-light-200 dark:from-dark-800 dark:from-dark-800 to-indigo-600/20',
+    background: gradients.indigo,
     link: { title: 'action.learn_more', target: '/solutions/testing' },
-
   },
   {
     title: 'solutions.items.documentation.title',
@@ -41,9 +40,8 @@ export const solutions = [
     icon: file,
     placement: 'right',
     image: 'banner.png',
-    background: 'bg-gradient-to-r from-pink-200 dark:from-pink-800 to-pink-600',
+    background: gradients.pink,
     link: { title: 'action.learn_more', target: '/solutions/documentation' },
-
   },
   {
     title: 'solutions.items.deployment.title',
@@ -51,9 +49,8 @@ export const solutions = [
     icon: check,
     placement: 'left',
     image: 'banner.png',
-    background: 'bg-gradient-to-r from-pink-200 dark:from-pink-800 to-pink-600/20',
+    background: gradients.purple,
     link: { title: 'action.comming_soon', target: '/solutions' },
-
   },
   {
     title: 'solutions.items.maintenance.title',
@@ -61,8 +58,7 @@ export const solutions = [
     icon: wrench,
     placement: 'right',
     image: 'banner.png',
-    background: 'bg-gradient-to-r from-light-200 dark:from-dark-800 dark:from-dark-800 to-yellow-600/20',
+    background: gradients.green,
     link: { title: 'action.comming_soon', target: '/solutions' },
-
   },
 ]

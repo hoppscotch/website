@@ -11,7 +11,7 @@ const { t } = useI18n()
       >
         {{ t("careers.openPositions.heading") }}
       </h2>
-      <p class="max-w-md my-4 text-lg text-center md:w-1/2">
+      <p class="max-w-md my-4 text-2xl text-center md:w-1/2">
         {{ t("careers.openPositions.subheading") }}
       </p>
     </div>
@@ -25,7 +25,7 @@ const { t } = useI18n()
           {{ t(position.heading.title) }}
         </h3>
         <ul class="my-4">
-          <li v-for="(opening, openingIndex) in position.positions" :key="`opening-${openingIndex}`" class="max-w-xl my-5 text-lg rounded bg-primaryLight transition hover:bg-primaryDark">
+          <li v-for="(opening, openingIndex) in position.positions" :key="`opening-${openingIndex}`" class="max-w-xl my-5 text-2xl rounded bg-primaryLight border border-dividerDarktransition hover:bg-primaryDark">
             <SmartLink :to="`careers/${opening.link}`" class="block p-4">
               <span>
                 {{ t(opening.title) }}

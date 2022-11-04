@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import { gradients } from '~/assets/data/gradients'
 
 const props = withDefaults(
   defineProps<{
@@ -67,16 +68,13 @@ const computedComponent = computed(() => {
       label ? 'px-4' : 'px-2',
       rounded ? 'rounded-full' : 'rounded',
       { 'pointer-events-none': loading },
-      { 'px-6 py-4 text-lg': large },
+      { 'px-6 py-4 text-2xl': large },
       { 'shadow-lg hover:shadow-xl': shadow },
-      {
-        'text-accentContrast bg-gradient-to-tr from-gradientFrom via-gradientVia to-gradientTo':
-          gradient,
-      },
       {
         'border border-accent hover:border-accentDark focus-visible:border-accentDark':
           outline,
       },
+      gradient ? `text-accentContrast bg-gradient-to-tr bg-gradient-to-r ${gradients.accent}` : '',
     ]"
     :tabindex="loading ? '-1' : '0'"
   >

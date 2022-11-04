@@ -11,7 +11,7 @@ const { t } = useI18n()
       >
         {{ t("about.values.title") }}
       </h2>
-      <p class="max-w-md my-4 text-lg text-center md:w-1/2">
+      <p class="max-w-md my-4 text-2xl text-center md:w-1/2">
         {{ t("about.values.description") }}
       </p>
       <div class="py-15 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">

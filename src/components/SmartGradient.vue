@@ -37,23 +37,15 @@ withDefaults(
 @keyframes pulse {
   0% {
     transform: rotate(0deg);
-    filter: blur(8px);
-    border-radius: 6px;
   }
   33% {
     transform: rotate(-0.5deg) translate(1px, -1px) scale(1.01);
-    filter: blur(10px);
-    border-radius: 4px;
   }
   67% {
     transform: rotate(1deg) translate(-1px, -1px) scale(0.99);
-    filter: blur(14px);
-    border-radius: 8px;
   }
   100% {
     transform: rotate(0deg);
-    filter: blur(8px);
-    border-radius: 6px;
   }
 }
 </style>

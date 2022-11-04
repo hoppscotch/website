@@ -14,7 +14,7 @@ const { t } = useI18n()
         {{ t("about.hero.subheading") }}
       </p>
     </div>
-    <div class="mt-8 grid grid-cols-2 gap-8 md:grid-cols-4 md:divide-x divide-divider md:gap-0">
+    <div class="mt-8 grid grid-cols-2 gap-4 md:gap-8 md:grid-cols-4 md:divide-x divide-divider md:gap-0">
       <div class="flex flex-col items-center md:p-4">
         <div class="text-xl font-bold text-accent sm:text-2xl md:text-3xl">
           {{ t("about.stats.1.title") }}

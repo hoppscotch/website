@@ -19,13 +19,13 @@ const { t } = useI18n()
       <div
         v-for="(support, index) in supports"
         :key="`support-${index}`"
-        class="inline-flex flex-col p-8 bg-primaryLight rounded-xl transition"
+        class="inline-flex flex-col p-8 bg-primaryLight border border-dividerDark rounded-xl transition"
       >
         <i class="flex items-center justify-center w-10 h-10 p-2 text-xl rounded-full text-accentContrast bg-accent">
           <component :is="support.icon" />
         </i>
         <div class="flex flex-col flex-1">
-          <h2 class="flex mt-4 mb-2 text-lg font-semibold">
+          <h2 class="flex mt-4 mb-2 text-2xl font-semibold">
             {{ t(support.title) }}
           </h2>
           <p class="flex flex-1 text-secondaryLight">

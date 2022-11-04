@@ -5,7 +5,7 @@ const { t } = useI18n()
 
 <template>
   <div
-    class="mx-4 mb-4 rounded shadow-lg transition bg-primaryLight md:hidden"
+    class="mx-4 mb-4 rounded shadow-lg transition bg-primaryLight border border-dividerDarkmd:hidden"
   >
     <nav class="flex flex-col rounded divide-y divide-dividerDark">
       <div

@@ -45,7 +45,7 @@ watch(
     <h1 class="py-5 text-2xl font-black text-secondary md:text-4xl lg:text-5xl">
       {{ t(visibleSolution.title) }}
     </h1>
-    <p class=" text-md sm:text-lg">
+    <p class=" text-md sm:text-2xl">
       {{ t(visibleSolution.description) }}
     </p>
     <SmartLink :to="visibleSolution.link.target" class="inline-flex items-center py-4 text-accent transition hover:text-accentDark">

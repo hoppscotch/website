@@ -10,9 +10,9 @@ const { t } = useI18n()
     validate
     class="flex flex-col flex-1 px-8 py-16 mx-auto lg:max-w-4xl"
   >
-    <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
       <div class="flex flex-col">
-        <h4 class="flex mb-2 text-lg font-semibold text-secondaryDark">
+        <h4 class="flex mb-2 text-2xl font-semibold text-secondaryDark">
           {{ t('newsletter.title') }}
         </h4>
         <p class="text-secondaryLight">

@@ -24,13 +24,13 @@ const { t } = useI18n()
       <div
         v-for="(platform, index) in platforms"
         :key="`platform-${index}`"
-        class="inline-flex flex-col p-8 transition bg-primaryLight rounded-xl"
+        class="inline-flex flex-col p-8 transition bg-primaryLight border border-dividerDark rounded-xl border border-dividerDark"
       >
         <i class="text-3xl text-accentLight">
           <component :is="platform.icon" />
         </i>
         <div class="flex flex-col flex-1">
-          <h2 class="flex mt-4 mb-2 text-lg font-semibold">
+          <h2 class="flex mt-4 mb-2 text-2xl font-semibold">
             {{ t(platform.title) }}
           </h2>
           <p class="flex flex-1 text-secondaryLight">

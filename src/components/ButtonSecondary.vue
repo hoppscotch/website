@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import { gradients } from '~/assets/data/gradients'
 
 const props = withDefaults(
   defineProps<{
@@ -62,21 +63,18 @@ const computedComponent = computed(() => {
     v-bind="$attrs"
     :href="props.to"
     :to="props.to"
-    class="inline-flex items-center justify-center py-2 font-bold transition cursor-pointer bg-primaryLight text-secondaryDark hover:bg-primaryDark focus:outline-none focus-visible:bg-primaryDark"
+    class="inline-flex items-center justify-center py-2 font-bold transition border cursor-pointer bg-primaryLight border-dividerDarktext-secondaryDark hover:bg-primaryDark focus:outline-none focus-visible:bg-primaryDark"
     :class="[
       label ? 'px-4' : 'px-2',
       rounded ? 'rounded-full' : 'rounded',
       { 'pointer-events-none': loading },
-      { 'px-6 py-4 text-lg': large },
+      { 'px-6 py-4 text-2xl': large },
       { 'shadow-lg hover:shadow-xl': shadow },
-      {
-        'text-white bg-gradient-to-tr from-gradientFrom via-gradientVia to-gradientTo':
-          gradient,
-      },
       {
         'border border-accent hover:border-accentDark focus-visible:border-accentDark':
           outline,
       },
+      gradient ? `text-accentContrast bg-gradient-to-tr bg-gradient-to-r ${gradients.accent}` : '',
     ]"
     :tabindex="loading ? '-1' : '0'"
   >
