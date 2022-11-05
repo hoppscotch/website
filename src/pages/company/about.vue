@@ -5,8 +5,5 @@
     <LandingContributors />
     <LandingUsers />
     <LandingTestimonials />
-    <LandingCTA />
-    <LandingSocial />
-    <LandingNewsletter />
   </div>
 </template>

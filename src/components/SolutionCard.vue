@@ -48,11 +48,9 @@ watch(
     <p class=" text-md sm:text-2xl">
       {{ t(visibleSolution.description) }}
     </p>
-    <SmartLink :to="visibleSolution.link.target" class="inline-flex items-center py-4 text-accent transition hover:text-accentDark">
-      <span class="mr-2">
-        {{ t(visibleSolution.link.title) }}
-      </span>
-      <lucide-arrow-right />
+    <SmartLink :to="visibleSolution.link.target" class="inline-flex items-center py-4 transition text-accent hover:text-accentDark">
+      {{ t(visibleSolution.link.title) }}
+      <lucide-arrow-right class="ml-2" />
     </SmartLink>
   </div>
 </template>

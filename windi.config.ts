@@ -35,6 +35,7 @@ export default defineConfig({
       },
       animation: {
         'marquee-infinite': 'marquee 25s linear infinite',
+        'shine': 'shine 1s',
       },
       keyframes: {
         marquee: {
@@ -44,6 +45,9 @@ export default defineConfig({
         marquee2: {
           '0%': { transform: 'translateX(100%)' },
           '100%': { transform: 'translateX(0%)' },
+        },
+        shine: {
+          '100%': { left: '125%' },
         },
       },
     },

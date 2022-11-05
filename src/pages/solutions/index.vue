@@ -1,8 +1,6 @@
 <template>
   <div class="flex flex-col">
+    <SolutionBanner />
     <SolutionTimeline />
-    <LandingCTA />
-    <LandingSocial />
-    <LandingNewsletter />
   </div>
 </template>

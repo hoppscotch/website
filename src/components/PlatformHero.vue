@@ -5,11 +5,6 @@ const { t } = useI18n()
 
 <template>
   <div class="flex flex-col px-8 py-16">
-    <p
-      class="my-4 font-semibold tracking-widest text-center uppercase text-accentLight"
-    >
-      {{ t("home.platforms.title") }}
-    </p>
     <div class="flex flex-col items-center ">
       <h1
         class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
@@ -21,31 +16,28 @@ const { t } = useI18n()
       </p>
     </div>
     <div class="grid grid-cols-1 gap-4 mt-8 md:grid-cols-2 lg:grid-cols-4">
-      <div
+      <SmartLink
         v-for="(platform, index) in platforms"
         :key="`platform-${index}`"
-        class="inline-flex flex-col p-8 transition bg-primaryLight border border-dividerDark rounded-xl border border-dividerDark"
+        :to="platform.link.target"
+        class="inline-flex flex-col p-8 transition border bg-primaryLight border-dividerDark rounded-xl group"
       >
-        <i class="text-3xl text-accentLight">
-          <component :is="platform.icon" />
-        </i>
+        <img :src="`/assets/images/platforms/banners/${platform.icon}`" :alt="platform.title" class="w-16 h-16 transition grayscale opacity-50 group-hover:(grayscale-0 opacity-100) filter">
         <div class="flex flex-col flex-1">
-          <h2 class="flex mt-4 mb-2 text-2xl font-semibold">
+          <h2 class="flex mt-4 mb-2 text-lg font-semibold">
             {{ t(platform.title) }}
           </h2>
           <p class="flex flex-1 text-secondaryLight">
             {{ t(platform.description) }}
           </p>
-          <p class="mt-2">
-            <SmartLink :to="platform.link.target" class="inline-flex items-center transition text-accent hover:text-accentDark">
-              <span class="mr-2">
-                {{ t(platform.link.title) }}
-              </span>
-              <lucide-arrow-right />
-            </SmartLink>
-          </p>
+          <div class="mt-2">
+            <div :to="platform.link.target" class="inline-flex items-center transition text-accent group-hover:text-accentDark">
+              {{ t(platform.link.title) }}
+              <lucide-arrow-right class="ml-2" />
+            </div>
+          </div>
         </div>
-      </div>
+      </SmartLink>
     </div>
   </div>
 </template>

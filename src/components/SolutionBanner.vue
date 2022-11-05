@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { banners } from '~/assets/data/platformBanners'
+import { banners } from '~/assets/data/solutionBanners'
 const { t } = useI18n()
 </script>
 

@@ -19,13 +19,13 @@ const { t } = useI18n()
       <div
         v-for="(platform, index) in company"
         :key="`platform-${index}`"
-        class="inline-flex flex-col p-8 transition bg-primaryLight border border-dividerDark rounded-xl border border-dividerDark"
+        class="inline-flex flex-col p-8 transition border bg-primaryLight border-dividerDark rounded-xl"
       >
         <i class="text-3xl text-accentLight">
           <component :is="platform.icon" />
         </i>
         <div class="flex flex-col flex-1">
-          <h2 class="flex mt-4 mb-2 text-2xl font-semibold">
+          <h2 class="flex mt-4 mb-2 text-lg font-semibold">
             {{ t(platform.title) }}
           </h2>
           <p class="flex flex-1 text-secondaryLight">
@@ -33,10 +33,8 @@ const { t } = useI18n()
           </p>
           <p class="mt-2">
             <SmartLink :to="platform.link.target" class="inline-flex items-center transition text-accent hover:text-accentDark">
-              <span class="mr-2">
-                {{ t(platform.link.title) }}
-              </span>
-              <lucide-arrow-right />
+              {{ t(platform.link.title) }}
+              <lucide-arrow-right class="ml-2" />
             </SmartLink>
           </p>
         </div>

@@ -24,21 +24,17 @@ const { t } = useI18n()
           {{ t('header.menu.guide.title') }}
         </h4>
       </div>
-      <ul class="flex flex-col text-xs space-y-2">
+      <ul class="flex flex-col space-y-2 text-xs">
         <li v-for="(guide, guideIndex) in guides" :key="`guide-${guideIndex}`">
           <SmartLink blank :to="guide.link" class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark">
-            <span class="mr-2">
-              {{ t(guide.title) }}
-            </span>
-            <lucide-arrow-right />
+            {{ t(guide.title) }}
+            <lucide-arrow-right class="ml-2" />
           </SmartLink>
         </li>
         <li>
           <SmartLink blank to="https://aviyel.com/projects/5/hoppscotch/resources/discussion" class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark">
-            <span class="mr-2">
-              {{ t('header.menu.guide.read_more') }}
-            </span>
-            <lucide-arrow-right />
+            {{ t('header.menu.guide.read_more') }}
+            <lucide-arrow-right class="ml-2" />
           </SmartLink>
         </li>
       </ul>

@@ -1,17 +1,12 @@
-import browser from '~icons/lucide/globe'
-import extension from '~icons/lucide/package'
-import cli from '~icons/lucide/terminal-square'
-import server from '~icons/lucide/server'
-
 export const platforms = [
   {
-    icon: browser,
+    icon: 'rocket.png',
     title: 'platforms.items.web.title',
     description: 'platforms.items.web.description',
     link: { title: 'action.learn_more', target: '/platforms/web' },
   },
   {
-    icon: cli,
+    icon: 'robot.png',
     title: 'platforms.items.cli.title',
     description: 'platforms.items.cli.description',
     link: {
@@ -20,7 +15,7 @@ export const platforms = [
     },
   },
   {
-    icon: extension,
+    icon: 'extension.png',
     title: 'platforms.items.embeds.title',
     description: 'platforms.items.embeds.description',
     link: {
@@ -29,7 +24,7 @@ export const platforms = [
     },
   },
   {
-    icon: server,
+    icon: 'computer.png',
     title: 'platforms.items.native.title',
     description: 'platforms.items.native.description',
     link: {

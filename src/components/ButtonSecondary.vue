@@ -74,7 +74,7 @@ const computedComponent = computed(() => {
         'border border-accent hover:border-accentDark focus-visible:border-accentDark':
           outline,
       },
-      gradient ? `text-accentContrast bg-gradient-to-tr bg-gradient-to-r ${gradients.accent}` : '',
+      gradient ? `text-accentContrast bg-gradient-to-tr ${gradients.accent}` : '',
     ]"
     :tabindex="loading ? '-1' : '0'"
   >
