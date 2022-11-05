@@ -4,10 +4,10 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div class="flex flex-col px-8 py-16">
+  <div class="flex flex-col py-16 px-8">
     <div class="flex flex-col items-center">
       <h1
-        class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+        class="font-black my-4 text-center text-secondaryDark leading-none max-w-2xl transition text-3xl md:text-4xl lg:text-5xl"
       >
         {{ t("home.platforms.title") }}
       </h1>
@@ -15,19 +15,19 @@ const { t } = useI18n()
         {{ t("home.platforms.description") }}
       </p>
     </div>
-    <div class="grid grid-cols-2 gap-4 mt-8 md:gap-8">
-      <div v-for="(feature, index) in features" :key="`feature-${index}`" class="w-full col-span-2 p-8 overflow-hidden md:p-16 rounded-xl" :class="feature.styles">
+    <div class="mt-8 grid gap-4 grid-cols-2 md:gap-8">
+      <div v-for="(feature, index) in features" :key="`feature-${index}`" class="bg-gradient-to-br rounded-xl w-full p-8 col-span-2 overflow-hidden md:p-16" :class="feature.styles">
         <i
-          class="inline-flex items-center justify-center text-3xl shadow text-secondaryDark rounded-xl"
+          class="bg-gradient-to-tl rounded-xl shadow text-secondaryDark text-3xl inline-flex items-center justify-center"
           :class="feature.styles"
         >
-          <component :is="feature.icon" class="w-8 h-8 m-4" />
+          <component :is="feature.icon" class="h-8 m-4 w-8" />
         </i>
         <div class="flex flex-col flex-1">
-          <h2 class="flex mt-8 mb-2 text-2xl font-semibold text-secondaryDark">
+          <h2 class="flex font-semibold mt-8 text-secondaryDark mb-2 text-2xl">
             {{ t(feature.title) }}
           </h2>
-          <p class="flex w-4/5 max-w-xl opacity-75 text-secondaryDark">
+          <p class="flex max-w-xl text-secondaryDark opacity-75 w-4/5">
             {{ t(feature.description) }}
           </p>
         </div>
