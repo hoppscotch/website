@@ -12,8 +12,8 @@ export const contributors = [
     username: 'jamesgeorge007',
   },
   {
-    image: 'https://github.com/dmitryyankowski.png',
-    username: 'dmitryyankowski',
+    image: 'https://github.com/iliketowritecode.png',
+    username: 'iliketowritecode',
   },
   {
     image: 'https://github.com/SamJakob.png',

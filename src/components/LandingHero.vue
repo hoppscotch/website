@@ -13,7 +13,7 @@ const { t } = useI18n()
       >
         {{ t("home.hero.heading") }}
         <span
-          class="text-transparent transition bg-clip-text bg-gradient-to-r"
+          class="text-transparent bg-clip-text bg-gradient-to-r"
           :class="gradients.accent"
         >
           {{ t("home.hero.heading_line_2") }}
@@ -30,12 +30,12 @@ const { t } = useI18n()
         {{ t("home.hero.stats.1.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.2.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.3.title") }}
       </p>
       <div
-        class="relative flex p-1 mt-8 rounded-xl bg-gradient-to-r"
+        class="relative flex p-1 mt-8 rounded md:rounded-xl bg-gradient-to-r"
         :class="gradients.accent"
       >
         <SmartGradient animate :blur="300" />
         <img
-          class="object-cover object-center w-full h-full transition shadow rounded-xl"
+          class="object-cover object-center w-full h-full transition rounded shadow-2xl md:rounded-xl"
           :src="`/assets/images/screenshots/${isDark ? 'dark' : 'light'}-banner.png`"
           alt="Screenshot"
           loading="lazy"

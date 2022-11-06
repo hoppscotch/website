@@ -26,6 +26,12 @@ home:
       6:
         title: Keyboard first design
         description: Hoppscotch is designed to be intuitive and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.
+      7:
+        title: Cross-platform apps
+        description: Works on web, Mac, Windows, and mobile
+      8:
+        title: Save and secure
+        description: Designed to keep your data safe and protected. Private teams and user profiles for system-level privileges.
   users:
     title: Empowering developers to build better products
   platforms:
@@ -388,7 +394,7 @@ changelog:
 solutions: 
   hero: 
     heading: Solutions
-    subheading: Solutions provided by Hoppscotch.
+    subheading: API development and testing solutions provided by Hoppscotch.
   items:
     design:
       title: Design

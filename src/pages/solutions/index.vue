@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col">
     <SolutionBanner />
-    <SolutionTimeline />
+    <SolutionHero />
   </div>
 </template>
