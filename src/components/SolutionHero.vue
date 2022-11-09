@@ -22,8 +22,8 @@ const { t } = useI18n()
         :to="solution.link.target"
         class="inline-flex flex-col transition border bg-primaryLight border-dividerDark rounded-xl group"
       >
-        <div class="flex flex-col h-40">
-          <img :src="`/assets/images/solutions/banners/${solution.icon}`" :alt="solution.title" class="w-full h-auto flex transition grayscale  group-hover:(grayscale-0 opacity-100) filter">
+        <div class="flex flex-col min-h-40">
+          <img :src="`/assets/images/solutions/banners/${solution.icon}`" :alt="solution.title" class="flex h-auto w-full transition grayscale  filter group-hover:(grayscale-0 opacity-100) ">
         </div>
         <div class="flex flex-col flex-1 px-8 pb-8">
           <h2 class="flex my-2 text-lg font-semibold">

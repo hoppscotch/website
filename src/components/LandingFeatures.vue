@@ -23,7 +23,7 @@ const { t } = useI18n()
         :key="`feature-${index}`"
         class="inline-flex flex-col transition border bg-primaryLight border-dividerDark rounded-xl group"
       >
-        <div class="flex flex-col h-40">
+        <div class="flex flex-col min-h-40">
           <img :src="`/assets/images/home/features/${feature.icon}`" :alt="feature.title" class="w-full h-auto flex transition grayscale  group-hover:(grayscale-0 opacity-100) filter">
         </div>
         <div class="flex flex-col flex-1 px-8 pb-8">
