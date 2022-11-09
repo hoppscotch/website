@@ -30,8 +30,12 @@ const getComputedDate = computed(() => {
 </script>
 
 <template>
-  <article class="w-full col-span-6 overflow-hidden rounded shadow-md bg-primaryLight border border-dividerDark group" :class="blog.styles">
-    <SmartLink :to="`blog/${blog.slug}`" class="flex-col w-full h-full">
+  <SmartLink
+    v-hover-animation
+    :to="`blog/${blog.slug}`"
+    class="w-full col-span-6 overflow-hidden border rounded shadow-md card-hover-animation bg-primaryLight border-divider hover:border-dividerDark group" :class="blog.styles"
+  >
+    <div class="flex-col w-full h-full">
       <div class="overflow-hidden h-80">
         <img :src="`/assets/images/platforms/web/${isDark ? 'dark' : 'light'}-${blog.image}`" :alt="t(blog.title)" class="object-cover object-top w-full h-full transition duration-700 transform group-hover:scale-105">
       </div>
@@ -61,8 +65,8 @@ const getComputedDate = computed(() => {
           </div>
         </div>
       </div>
-    </SmartLink>
-  </article>
+    </div>
+  </SmartLink>
 </template>
 
 <style scoped lang="scss">

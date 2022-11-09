@@ -32,6 +32,8 @@ export default defineConfig({
         gradientFrom: 'var(--color-gradientFrom)',
         gradientVia: 'var(--color-gradientVia)',
         gradientTo: 'var(--color-gradientTo)',
+        lightTransparent: 'var(--color-lightTransparent)',
+        darkTransparent: 'var(--color-darkTransparent)',
       },
       animation: {
         'marquee-infinite': 'marquee 25s linear infinite',

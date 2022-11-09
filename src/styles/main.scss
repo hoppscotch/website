@@ -145,3 +145,38 @@ a {
     @apply focus-visible:ring-accent;
   }
 }
+
+.card-hover-animation {
+  --x-px: calc(var(--x) * 1px);
+  --y-px: calc(var(--y) * 1px);
+
+  @apply relative;
+
+  &:before,
+  &:after {
+    @apply content-DEFAULT;
+    @apply absolute;
+    @apply inset-0;
+    @apply transition;
+    @apply opacity-0;
+    @apply rounded-xl;
+
+    background: radial-gradient(
+      320px circle at var(--x-px) var(--y-px),
+      var(--color-primaryTransparent),
+      transparent 100%
+    );
+  }
+
+  &:before {
+    z-index: 1;
+  }
+
+  &:after {
+    z-index: 2;
+  }
+
+  &:hover:after,&:hover:before {
+    @apply opacity-5
+  }
+}

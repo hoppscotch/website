@@ -3,17 +3,17 @@ import { computed } from 'vue'
 
 const props = withDefaults(
   defineProps<{
-    to: string
-    exact: boolean
-    blank: boolean
-    label: string
-    description: string
-    icon: string
-    svg: string
-    infoIcon: string
-    reverse: boolean
-    disabled: boolean
-    tag: boolean
+    to?: string
+    exact?: boolean
+    blank?: boolean
+    label?: string
+    description?: string
+    icon?: string | {}
+    svg?: string
+    infoIcon?: string
+    reverse?: boolean
+    disabled?: boolean
+    tag?: string
   }>(),
   {
     to: '',
@@ -26,7 +26,7 @@ const props = withDefaults(
     infoIcon: '',
     reverse: false,
     disabled: false,
-    tag: false,
+    tag: '',
   },
 )
 
@@ -55,7 +55,7 @@ const computedComponent = computed(() => {
     v-bind="$attrs"
     :href="props.to"
     :to="props.to"
-    class="inline-flex px-3 py-2 rounded cursor-pointer transition sm:px-4 text-secondary hover:bg-primaryDark hover:text-secondaryDark focus:bg-primaryDark focus:outline-none focus:text-secondaryDark"
+    class="inline-flex px-3 py-2 transition rounded cursor-pointer sm:px-4 text-secondary hover:bg-primaryDark hover:text-secondaryDark focus:bg-primaryDark focus:outline-none focus:text-secondaryDark"
     :class="[{ 'flex-1': label }, { 'flex-row-reverse justify-end': reverse }, { 'pointer-events-none opacity-50 md:opacity-100 ': disabled }]"
   >
     <component

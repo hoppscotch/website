@@ -19,7 +19,8 @@ const { t } = useI18n()
       <div
         v-for="(platform, index) in company"
         :key="`platform-${index}`"
-        class="inline-flex flex-col p-8 transition border bg-primaryLight border-dividerDark rounded-xl"
+        v-hover-animation
+        class="inline-flex flex-col p-8 transition border card-hover-animation bg-primaryLight border-divider hover:border-dividerDark rounded-xl"
       >
         <i class="text-3xl text-accentLight">
           <component :is="platform.icon" />

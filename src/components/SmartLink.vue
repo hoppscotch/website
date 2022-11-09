@@ -4,8 +4,8 @@ import { computed } from 'vue'
 const props = withDefaults(
   defineProps<{
     to: string
-    exact: boolean
-    blank: boolean
+    exact?: boolean
+    blank?: boolean
   }>(), {
     to: '',
     exact: false,
