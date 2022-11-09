@@ -1,6 +1,15 @@
 <script setup lang="ts">
 import { benefits } from '~/assets/data/careersBenefits'
 const { t } = useI18n()
+
+const xPos = ref(0)
+const yPos = ref(0)
+
+const handlePointerMove = (ev: MouseEvent) => {
+  const { x, y } = ev
+  xPos.value = x
+  yPos.value = y
+}
 </script>
 
 <template>
@@ -16,11 +25,11 @@ const { t } = useI18n()
         {{ t("careers.benefits.subheading") }}
       </p>
     </div>
-    <div class="py-8 grid gap-4 grid-cols-1 md:grid-cols-3">
+    <div class="py-8 grid gap-4 grid-cols-1 md:grid-cols-3" @pointermove="handlePointerMove">
       <div
         v-for="(benefitBlock, benefitIndex) in benefits" :key="`benefit-${benefitIndex}`" class="flex flex-col grid gap-4 grid-cols-1"
       >
-        <SmartCard v-for="(benefit, index) in benefitBlock" :key="index" :title="t(benefit.title)" :description="t(benefit.description)" :icon="benefit.icon" />
+        <SmartCard v-for="(benefit, index) in benefitBlock" :key="index" :title="t(benefit.title)" :description="t(benefit.description)" :icon="benefit.icon" :x-pos="xPos" :y-pos="yPos" />
       </div>
     </div>
   </div>
