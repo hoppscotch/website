@@ -5,20 +5,20 @@ import { gradients } from '~/assets/data/gradients'
 const props = withDefaults(
   defineProps<{
     to: string
-    exact: boolean
-    blank: boolean
+    exact?: boolean
+    blank?: boolean
     label: string
-    description: string
-    icon: string
-    infoIcon: string
-    reverse: boolean
-    rounded: boolean
-    loading: boolean
-    large: boolean
-    shadow: boolean
-    gradient: boolean
-    outline: boolean
-    shortcut: string[]
+    description?: string
+    icon?: string
+    infoIcon?: string
+    reverse?: boolean
+    rounded?: boolean
+    loading?: boolean
+    large?: boolean
+    shadow?: boolean
+    gradient?: boolean
+    outline?: boolean
+    shortcut?: string[]
   }>(), {
     to: '',
     exact: false,

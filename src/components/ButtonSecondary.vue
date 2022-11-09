@@ -5,20 +5,20 @@ import { gradients } from '~/assets/data/gradients'
 const props = withDefaults(
   defineProps<{
     to: string
-    exact: boolean
-    blank: boolean
+    exact?: boolean
+    blank?: boolean
     label: string
-    description: string
-    icon: string
-    infoIcon: string
-    reverse: boolean
-    rounded: boolean
-    loading: boolean
-    large: boolean
-    shadow: boolean
-    gradient: boolean
-    outline: boolean
-    shortcut: string[]
+    description?: string
+    icon?: string
+    infoIcon?: string
+    reverse?: boolean
+    rounded?: boolean
+    loading?: boolean
+    large?: boolean
+    shadow?: boolean
+    gradient?: boolean
+    outline?: boolean
+    shortcut?: string[]
   }>(), {
     to: '',
     exact: false,
@@ -63,7 +63,7 @@ const computedComponent = computed(() => {
     v-bind="$attrs"
     :href="props.to"
     :to="props.to"
-    class="inline-flex items-center justify-center py-2 font-bold transition border cursor-pointer bg-primaryLight border-dividerDarktext-secondaryDark hover:bg-primaryDark focus:outline-none focus-visible:bg-primaryDark"
+    class="inline-flex items-center justify-center py-2 font-bold transition border cursor-pointer bg-primaryLight border-divider hover:border-dividerDarktext-secondaryDark hover:bg-primaryDark focus:outline-none focus-visible:bg-primaryDark"
     :class="[
       label ? 'px-4' : 'px-2',
       rounded ? 'rounded-full' : 'rounded',

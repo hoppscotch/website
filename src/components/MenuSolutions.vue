@@ -8,7 +8,7 @@ const { t } = useI18n()
 
 <template>
   <div>
-    <div class="max-w-2xl grid grid-cols-2">
+    <div class="grid max-w-2xl grid-cols-2">
       <SmartItem
         v-for="(item, itemIndex) in solutions"
         :key="`item-${itemIndex}`"
@@ -17,7 +17,7 @@ const { t } = useI18n()
         :label="t(item.name)"
         :description="t(item.description)"
         :disabled="item.disabled"
-        :tag="item.tag ? t(item.tag) : false"
+        :tag="item.tag ? t(item.tag) : ''"
       />
     </div>
     <div class="mt-2 rounded bg-primaryDark">

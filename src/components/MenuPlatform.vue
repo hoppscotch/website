@@ -15,7 +15,7 @@ const { t } = useI18n()
         :label="t(item.name)"
         :description="t(item.description)"
         :disabled="item.disabled"
-        :tag="item.tag ? t(item.tag) : false"
+        :tag="item.tag ? t(item.tag) : ''"
       />
     </div>
     <div class="flex flex-col p-4 mt-2 rounded bg-primaryDark">
