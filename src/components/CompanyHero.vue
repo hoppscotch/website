@@ -16,30 +16,31 @@ const { t } = useI18n()
       </p>
     </div>
     <div class="grid grid-cols-1 gap-4 mt-8 md:grid-cols-2 lg:grid-cols-4">
-      <div
-        v-for="(platform, index) in company"
-        :key="`platform-${index}`"
-        v-hover-animation
-        class="inline-flex flex-col p-8 transition border card-hover-animation bg-primaryLight border-divider hover:border-dividerDark rounded-xl"
+      <SmartLink
+        v-for="(item, index) in company"
+        :key="`item-${index}`"
+        v-interactive-hover-animation
+        :to="item.link.target"
+        class="inline-flex flex-col p-8 transition border rounded-xl bg-primaryLight border-divider interactive-hover-animation hover:border-dividerDark"
       >
         <i class="text-3xl text-accentLight">
-          <component :is="platform.icon" />
+          <component :is="item.icon" />
         </i>
         <div class="flex flex-col flex-1">
           <h2 class="flex mt-4 mb-2 text-lg font-semibold">
-            {{ t(platform.title) }}
+            {{ t(item.title) }}
           </h2>
           <p class="flex flex-1 text-secondaryLight">
-            {{ t(platform.description) }}
+            {{ t(item.description) }}
           </p>
-          <p class="mt-2">
-            <SmartLink :to="platform.link.target" class="inline-flex items-center transition text-accent hover:text-accentDark">
-              {{ t(platform.link.title) }}
+          <div class="mt-2">
+            <div class="inline-flex items-center transition text-accent group-hover:text-accentDark">
+              {{ t(item.link.title) }}
               <lucide-arrow-right class="ml-2" />
-            </SmartLink>
-          </p>
+            </div>
+          </div>
         </div>
-      </div>
+      </SmartLink>
     </div>
   </div>
 </template>

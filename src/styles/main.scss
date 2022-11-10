@@ -146,11 +146,17 @@ a {
   }
 }
 
-.card-hover-animation {
+.interactive-hover-animation {
   --x-px: calc(var(--x) * 1px);
   --y-px: calc(var(--y) * 1px);
 
+  @apply transform;
   @apply relative;
+  @apply rounded-xl;
+
+  &:hover {
+    @apply scale-102;
+  }
 
   &:before,
   &:after {
@@ -176,7 +182,8 @@ a {
     z-index: 2;
   }
 
-  &:hover:after,&:hover:before {
-    @apply opacity-5
+  &:hover:after,
+  &:hover:before {
+    @apply opacity-5;
   }
 }

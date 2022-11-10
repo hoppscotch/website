@@ -19,9 +19,9 @@ const { t } = useI18n()
       <SmartLink
         v-for="(platform, index) in platforms"
         :key="`platform-${index}`"
-        v-hover-animation
+        v-interactive-hover-animation
         :to="platform.link.target"
-        class="inline-flex flex-col p-8 transition border card-hover-animation bg-primaryLight border-divider hover:border-dividerDark rounded-xl group"
+        class="inline-flex flex-col p-8 transition border interactive-hover-animation bg-primaryLight border-divider hover:border-dividerDark rounded-xl group"
       >
         <img :src="`/assets/images/platforms/banners/${platform.icon}`" :alt="platform.title" class="w-16 h-16 transition grayscale opacity-50 group-hover:(grayscale-0 opacity-100) filter">
         <div class="flex flex-col flex-1">

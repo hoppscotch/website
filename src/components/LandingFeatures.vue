@@ -21,8 +21,8 @@ const { t } = useI18n()
       <div
         v-for="(feature, index) in features"
         :key="`feature-${index}`"
-        v-hover-animation
-        class="inline-flex flex-col transition border card-hover-animation bg-primaryLight border-divider hover:border-dividerDark rounded-xl group"
+        v-interactive-hover-animation
+        class="inline-flex flex-col transition border interactive-hover-animation bg-primaryLight border-divider hover:border-dividerDark rounded-xl group"
       >
         <div class="flex flex-col min-h-40">
           <img :src="`/assets/images/home/features/${feature.icon}`" :alt="feature.title" class="w-full h-auto flex transition grayscale  group-hover:(grayscale-0 opacity-100) filter">

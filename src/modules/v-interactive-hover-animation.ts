@@ -1,9 +1,9 @@
 import type { UserModule } from '~/types'
 
 export const install: UserModule = ({ app }) => {
-  app.directive('hover-animation', (el) => {
+  app.directive('interactive-hover-animation', (el) => {
     el.pointermove = (ev: MouseEvent) => {
-      if (el.classList.contains('card-hover-animation')) {
+      if (el.classList.contains('interactive-hover-animation')) {
         const rect = el.getBoundingClientRect()
 
         el.style.setProperty('--x', `${ev.clientX - rect.left}`)

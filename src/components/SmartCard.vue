@@ -20,8 +20,8 @@ const { t } = useI18n()
 
 <template>
   <div
-    v-hover-animation
-    class="flex flex-col p-4 overflow-hidden transition border shadow card-hover-animation sm:p-6 rounded-xl bg-primaryLight border-divider hover:border-dividerDark group"
+    v-interactive-hover-animation
+    class="flex flex-col p-4 overflow-hidden transition border shadow interactive-hover-animation sm:p-6 rounded-xl bg-primaryLight border-divider hover:border-dividerDark group"
   >
     <div class="flex flex-col w-full">
       <i class="flex items-center justify-center p-2 text-xl transition transform rounded-full text-accentContrast w-13 h-13 bg-accentDark group-hover:bg-accentLight">

@@ -31,9 +31,9 @@ const getComputedDate = computed(() => {
 
 <template>
   <SmartLink
-    v-hover-animation
+    v-interactive-hover-animation
     :to="`blog/${blog.slug}`"
-    class="w-full col-span-6 overflow-hidden border rounded shadow-md card-hover-animation bg-primaryLight border-divider hover:border-dividerDark group" :class="blog.styles"
+    class="w-full col-span-6 overflow-hidden border rounded shadow-md interactive-hover-animation bg-primaryLight border-divider hover:border-dividerDark group" :class="blog.styles"
   >
     <div class="flex-col w-full h-full">
       <div class="overflow-hidden h-80">
