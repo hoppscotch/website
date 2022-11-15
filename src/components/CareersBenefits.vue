@@ -18,7 +18,8 @@ const { t } = useI18n()
     </div>
     <div class="grid grid-cols-1 gap-4 py-8 md:grid-cols-3">
       <div
-        v-for="(benefitBlock, benefitIndex) in benefits" :key="`benefit-${benefitIndex}`" class="flex grid flex-col grid-cols-1 gap-4"
+        v-for="(benefitBlock, benefitIndex) in benefits" :key="`benefit-${benefitIndex}`" v-interactive-hover-animation
+        class="flex grid flex-col grid-cols-1 gap-4"
       >
         <SmartCard v-for="(benefit, index) in benefitBlock" :key="index" :title="t(benefit.title)" :description="t(benefit.description)" :icon="benefit.icon" />
       </div>

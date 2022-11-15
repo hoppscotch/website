@@ -14,7 +14,10 @@ const { t } = useI18n()
       <p class="max-w-md my-4 text-2xl text-center md:w-1/2">
         {{ t("about.values.description") }}
       </p>
-      <div class="grid grid-cols-1 gap-4 py-15 md:grid-cols-2 lg:grid-cols-3">
+      <div
+        v-interactive-hover-animation
+        class="grid w-full grid-cols-1 gap-4 py-15 md:grid-cols-2 lg:grid-cols-3"
+      >
         <SmartCard
           v-for="(value, index) in values" :key="`platform-${index}`" :title="t(value.title)"
           :description="t(value.description)" :icon="value.icon"

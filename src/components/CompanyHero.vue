@@ -15,28 +15,34 @@ const { t } = useI18n()
         {{ t("company.hero.subheading") }}
       </p>
     </div>
-    <div class="grid grid-cols-1 gap-4 mt-8 md:grid-cols-2 lg:grid-cols-4">
+    <div
+      v-interactive-hover-animation
+      class="grid grid-cols-1 gap-4 mt-8 md:grid-cols-2 lg:grid-cols-4"
+    >
       <SmartLink
         v-for="(item, index) in company"
         :key="`item-${index}`"
-        v-interactive-hover-animation
         :to="item.link.target"
-        class="inline-flex flex-col p-8 transition border rounded-xl bg-primaryLight border-divider interactive-hover-animation hover:border-dividerDark"
+        class="h-72 interactive-hover-animation"
       >
-        <i class="text-3xl text-accentLight">
-          <component :is="item.icon" />
-        </i>
-        <div class="flex flex-col flex-1">
-          <h2 class="flex mt-4 mb-2 text-lg font-semibold">
-            {{ t(item.title) }}
-          </h2>
-          <p class="flex flex-1 text-secondaryLight">
-            {{ t(item.description) }}
-          </p>
-          <div class="mt-2">
-            <div class="inline-flex items-center transition text-accent group-hover:text-accentDark">
-              {{ t(item.link.title) }}
-              <lucide-arrow-right class="ml-2" />
+        <div class="interactive-hover-contents">
+          <div class="flex flex-col h-32">
+            <i class="text-3xl text-accentLight">
+              <component :is="item.icon" />
+            </i>
+          </div>
+          <div class="flex flex-col flex-1 h-40">
+            <h2 class="flex mt-4 mb-2 text-lg font-semibold">
+              {{ t(item.title) }}
+            </h2>
+            <p class="flex flex-1 text-secondaryLight">
+              {{ t(item.description) }}
+            </p>
+            <div class="mt-2">
+              <div class="inline-flex items-center transition text-accent group-hover:text-accentDark">
+                {{ t(item.link.title) }}
+                <lucide-arrow-right class="ml-2" />
+              </div>
             </div>
           </div>
         </div>

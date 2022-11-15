@@ -20,14 +20,15 @@ const { t } = useI18n()
 
 <template>
   <div
-    v-interactive-hover-animation
-    class="flex flex-col p-4 overflow-hidden transition border shadow interactive-hover-animation sm:p-6 rounded-xl bg-primaryLight border-divider hover:border-dividerDark group"
+    class="h-72 interactive-hover-animation group"
   >
-    <div class="flex flex-col w-full">
-      <i class="flex items-center justify-center p-2 text-xl transition transform rounded-full text-accentContrast w-13 h-13 bg-accentDark group-hover:bg-accentLight">
-        <component :is="icon" class="transition transform group-hover:scale-110" />
-      </i>
-      <div class="flex flex-col flex-1">
+    <div class="interactive-hover-contents">
+      <div class="flex flex-col h-32">
+        <i class="flex items-center justify-center p-2 text-xl transition transform rounded-full text-accentContrast w-13 h-13 bg-accentDark group-hover:bg-accentLight">
+          <component :is="icon" class="transition transform group-hover:scale-110" />
+        </i>
+      </div>
+      <div class="flex flex-col justify-end h-40">
         <h3 class="flex mt-5 mb-3 text-lg font-semibold">
           {{ t(title) }}
         </h3>

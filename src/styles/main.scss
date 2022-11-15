@@ -147,16 +147,11 @@ a {
 }
 
 .interactive-hover-animation {
-  --x-px: calc(var(--x) * 1px);
-  --y-px: calc(var(--y) * 1px);
-
-  @apply transform;
+  @apply bg-primaryTransparentContrast;
+  @apply inline-flex;
+  @apply flex-col;
   @apply relative;
   @apply rounded-xl;
-
-  &:hover {
-    @apply scale-102;
-  }
 
   &:before,
   &:after {
@@ -166,24 +161,79 @@ a {
     @apply transition;
     @apply opacity-0;
     @apply rounded-xl;
+  }
 
-    background: radial-gradient(
-      320px circle at var(--x-px) var(--y-px),
-      var(--color-primaryTransparent),
-      transparent 100%
-    );
+  &:hover::before {
+    @apply opacity-100;
   }
 
   &:before {
-    z-index: 1;
+    z-index: 3;
+    background: radial-gradient(
+      1000px circle at var(--x) var(--y),
+      var(--color-primaryTransparent),
+      transparent 35%
+    );
   }
 
   &:after {
-    z-index: 2;
+    z-index: 1;
+    background: radial-gradient(
+      600px circle at var(--x) var(--y),
+      var(--color-primaryTransparent),
+      transparent 40%
+    );
   }
 
-  &:hover:after,
   &:hover:before {
     @apply opacity-5;
+  }
+
+  .interactive-hover-contents {
+    @apply transition;
+    @apply bg-primaryLight;
+    @apply flex;
+    @apply flex-col;
+    @apply flex-1;
+    @apply inset-0.25;
+    @apply absolute;
+    @apply rounded-xl;
+
+    z-index: 2;
+  }
+}
+
+.interactive-hover-animation-container {
+  &:hover {
+    .interactive-hover-animation::after {
+      @apply opacity-25;
+    }
+  }
+}
+
+.interactive-font span {
+  --add: 0;
+
+  font-weight: calc(400 + 500 * var(--add));
+  font-stretch: calc(100% + 25% * var(--add));
+  transition: font-stretch 0.2s, font-weight 0.2s;
+
+  &:hover {
+    --add: 1;
+  }
+
+  &:hover + span,
+  &:has(+ span:hover) {
+    --add: 0.7;
+  }
+
+  &:hover + span + span,
+  &:has(+ span + span:hover) {
+    --add: 0.45;
+  }
+
+  &:hover + span + span + span,
+  &:has(+ span + span + span:hover) {
+    --add: 0.2;
   }
 }

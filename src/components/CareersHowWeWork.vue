@@ -7,7 +7,8 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-5">
     <div class="grid grid-cols-1 gap-4 py-5 md:grid-cols-2 lg:grid-cols-3">
       <div
-        v-for="(workBlock, workIndex) in howWeWorks" :key="`work-${workIndex}`" class="flex grid flex-col grid-cols-1 gap-4"
+        v-for="(workBlock, workIndex) in howWeWorks" :key="`work-${workIndex}`" v-interactive-hover-animation
+        class="flex grid flex-col grid-cols-1 gap-4"
         :class="{
           'flex md:hidden lg:flex': workIndex === 2,
         }"

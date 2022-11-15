@@ -2,6 +2,19 @@
 import { gradients } from '~/assets/data/gradients'
 import { isDark } from '~/composables'
 const { t } = useI18n()
+
+onMounted(() => {
+  const headlines = [...document.querySelectorAll('.interactive-font')]
+  headlines.forEach((headline) => {
+    const letters = headline.innerText.split('')
+    headline.innerText = ''
+    letters.forEach((letter: string) => {
+      const span = document.createElement('span')
+      span.innerHTML = letter.trim().length ? letter : '&nbsp;'
+      headline.append(span)
+    })
+  })
+})
 </script>
 
 <template>
@@ -9,15 +22,15 @@ const { t } = useI18n()
     <LandingAnnouncement />
     <div class="flex flex-col items-center">
       <h1
-        class="max-w-2xl my-4 text-5xl font-black leading-none text-center transition text-secondaryDark md:text-6xl lg:text-7xl"
+        class="block w-full max-w-2xl mt-4 text-5xl leading-none tracking-tighter text-center transition interactive-font text-secondaryDark md:text-6xl lg:text-7xl"
       >
         {{ t("home.hero.heading") }}
-        <span
-          class="text-transparent bg-clip-text bg-gradient-to-r"
-          :class="gradients.accent"
-        >
-          {{ t("home.hero.heading_line_2") }}
-        </span>
+      </h1>
+      <h1
+        class="block w-full max-w-2xl mb-4 text-5xl leading-none tracking-tighter text-center text-transparent transition interactive-font bg-clip-text bg-gradient-to-r md:text-6xl lg:text-7xl"
+        :class="gradients.accent"
+      >
+        {{ t("home.hero.heading_line_2") }}
       </h1>
       <p class="max-w-md my-4 text-xl text-center md:w-3/5">
         {{ t("home.hero.subheading") }}

@@ -71,8 +71,8 @@ home:
     long_link_text: Read accouncement
     short_link_text: Read
   hero:
-    heading: The fastest way to
-    heading_line_2: Build, Test and Share APIs
+    heading: Better way to
+    heading_line_2: build apis
     subheading: Millions of developers and companies build, ship, and maintain their APIs on Hoppscotch.
     stats:
       1:

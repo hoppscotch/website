@@ -31,13 +31,12 @@ const getComputedDate = computed(() => {
 
 <template>
   <SmartLink
-    v-interactive-hover-animation
     :to="`blog/${blog.slug}`"
-    class="w-full col-span-6 overflow-hidden border rounded shadow-md interactive-hover-animation bg-primaryLight border-divider hover:border-dividerDark group" :class="blog.styles"
+    class="col-span-6 h-128 interactive-hover-animation group" :class="blog.styles"
   >
-    <div class="flex-col w-full h-full">
-      <div class="overflow-hidden h-80">
-        <img :src="`/assets/images/platforms/web/${isDark ? 'dark' : 'light'}-${blog.image}`" :alt="t(blog.title)" class="object-cover object-top w-full h-full transition duration-700 transform group-hover:scale-105">
+    <div class="interactive-hover-contents">
+      <div class="flex flex-col h-64 overflow-hidden rounded-t-xl">
+        <img :src="`/assets/images/platforms/web/${isDark ? 'dark' : 'light'}-${blog.image}`" :alt="t(blog.title)" class="object-cover object-center w-full h-full transition transform group-hover:scale-105">
       </div>
       <div class="flex flex-col flex-1 p-8">
         <h2 class="flex items-center gap-4 text-xl font-semibold text-secondaryDark lg:text-2xl">
@@ -49,7 +48,7 @@ const getComputedDate = computed(() => {
             <span class="text-sm font-semibold text-secondaryDark">
               {{ t(blog.author.name) }}
             </span>
-            <span class="text-xs text-tiny opacity-60 text-secondaryLight">
+            <span class="text-xs text-tiny text-secondaryLight opacity-60">
               {{ getComputedDate }}
             </span>
           </p>

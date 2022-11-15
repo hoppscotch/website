@@ -15,26 +15,32 @@ const { t } = useI18n()
         {{ t("platforms.hero.subheading") }}
       </p>
     </div>
-    <div class="grid grid-cols-1 gap-4 mt-8 md:grid-cols-2 lg:grid-cols-4">
+    <div
+      v-interactive-hover-animation
+      class="grid grid-cols-1 gap-4 mt-8 md:grid-cols-2 lg:grid-cols-4"
+    >
       <SmartLink
         v-for="(platform, index) in platforms"
         :key="`platform-${index}`"
-        v-interactive-hover-animation
         :to="platform.link.target"
-        class="inline-flex flex-col p-8 transition border interactive-hover-animation bg-primaryLight border-divider hover:border-dividerDark rounded-xl group"
+        class="h-72 interactive-hover-animation group"
       >
-        <img :src="`/assets/images/platforms/banners/${platform.icon}`" :alt="platform.title" class="w-16 h-16 transition grayscale opacity-50 group-hover:(grayscale-0 opacity-100) filter">
-        <div class="flex flex-col flex-1">
-          <h2 class="flex mt-4 mb-2 text-lg font-semibold">
-            {{ t(platform.title) }}
-          </h2>
-          <p class="flex flex-1 text-secondaryLight">
-            {{ t(platform.description) }}
-          </p>
-          <div class="mt-2">
-            <div :to="platform.link.target" class="inline-flex items-center transition text-accent group-hover:text-accentDark">
-              {{ t(platform.link.title) }}
-              <lucide-arrow-right class="ml-2" />
+        <div class="interactive-hover-contents">
+          <div class="flex flex-col h-32">
+            <img :src="`/assets/images/platforms/banners/${platform.icon}`" :alt="platform.title" class="w-16 h-16 transition grayscale opacity-50 group-hover:(grayscale-0 opacity-100) filter">
+          </div>
+          <div class="flex flex-col flex-1 h-40">
+            <h2 class="flex mt-4 mb-2 text-lg font-semibold">
+              {{ t(platform.title) }}
+            </h2>
+            <p class="flex flex-1 text-secondaryLight">
+              {{ t(platform.description) }}
+            </p>
+            <div class="mt-2">
+              <div :to="platform.link.target" class="inline-flex items-center transition text-accent group-hover:text-accentDark">
+                {{ t(platform.link.title) }}
+                <lucide-arrow-right class="ml-2" />
+              </div>
             </div>
           </div>
         </div>
