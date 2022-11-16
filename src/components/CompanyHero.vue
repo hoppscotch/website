@@ -23,15 +23,15 @@ const { t } = useI18n()
         v-for="(item, index) in company"
         :key="`item-${index}`"
         :to="item.link.target"
-        class="h-72 interactive-hover-animation"
+        class="h-64 interactive-hover-animation"
       >
         <div class="interactive-hover-contents">
-          <div class="flex flex-col h-32">
+          <div class="flex flex-col h-24 p-8">
             <i class="text-3xl text-accentLight">
               <component :is="item.icon" />
             </i>
           </div>
-          <div class="flex flex-col flex-1 h-40">
+          <div class="flex flex-col flex-1 h-32 px-8 pb-8">
             <h2 class="flex mt-4 mb-2 text-lg font-semibold">
               {{ t(item.title) }}
             </h2>

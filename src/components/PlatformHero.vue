@@ -23,13 +23,13 @@ const { t } = useI18n()
         v-for="(platform, index) in platforms"
         :key="`platform-${index}`"
         :to="platform.link.target"
-        class="h-72 interactive-hover-animation group"
+        class="h-84 interactive-hover-animation group"
       >
         <div class="interactive-hover-contents">
-          <div class="flex flex-col h-32">
+          <div class="flex flex-col p-8 h-28">
             <img :src="`/assets/images/platforms/banners/${platform.icon}`" :alt="platform.title" class="w-16 h-16 transition grayscale opacity-50 group-hover:(grayscale-0 opacity-100) filter">
           </div>
-          <div class="flex flex-col flex-1 h-40">
+          <div class="flex flex-col flex-1 h-56 px-8 pb-8">
             <h2 class="flex mt-4 mb-2 text-lg font-semibold">
               {{ t(platform.title) }}
             </h2>
