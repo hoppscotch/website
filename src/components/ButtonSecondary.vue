@@ -63,7 +63,7 @@ const computedComponent = computed(() => {
     v-bind="$attrs"
     :href="props.to"
     :to="props.to"
-    class="inline-flex items-center justify-center py-2 font-bold transition border cursor-pointer bg-primaryLight border-divider hover:border-dividerDarktext-secondaryDark hover:bg-primaryDark focus:outline-none focus-visible:bg-primaryDark"
+    class="bg-primaryLight border border-divider cursor-pointer font-bold text-secondaryDark py-2 transition inline-flex items-center justify-center hover:bg-primaryDark hover:border-dividerDark focus:outline-none focus-visible:bg-primaryDark"
     :class="[
       label ? 'px-4' : 'px-2',
       rounded ? 'rounded-full' : 'rounded',
@@ -71,7 +71,7 @@ const computedComponent = computed(() => {
       { 'px-6 py-4 text-2xl': large },
       { 'shadow-lg hover:shadow-xl': shadow },
       {
-        'border border-accent hover:border-accentDark focus-visible:border-accentDark':
+        '!border-accent !hover:border-accentDark focus-visible:border-accentDark':
           outline,
       },
       gradient ? `text-accentContrast bg-gradient-to-tr ${gradients.accent}` : '',
@@ -87,7 +87,7 @@ const computedComponent = computed(() => {
         :is="icon"
         v-if="icon"
         :class="label ? (reverse ? 'ml-4 opacity-75' : 'mr-4 opacity-75') : ''"
-        class="inline-flex flex-shrink-0"
+        class="flex-shrink-0 inline-flex"
       />
       {{ label }}
       <div v-if="shortcut.length" class="ml-2 <sm:hidden">

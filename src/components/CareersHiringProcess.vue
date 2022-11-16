@@ -18,7 +18,7 @@ const setActiveTip = (index: number) => {
       >
         {{ t("careers.hiringProcess.heading") }}
       </h1>
-      <p class="max-w-md my-4 text-lg text-center md:w-3/5">
+      <p class="max-w-md my-4 text-xl text-center tracking-tighter md:w-3/5">
         {{ t("careers.hiringProcess.subheading") }}
       </p>
     </div>
