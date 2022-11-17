@@ -31,7 +31,6 @@ const { t } = useI18n()
             {{ t(feature.description) }}
           </p>
         </div>
-        <img :src="`/assets/images/home/platforms/${feature.image}`" :alt="t(feature.title)" class="rounded h-auto object-top mt-8 w-full transition <lg:mt-8">
       </div>
     </div>
   </div>

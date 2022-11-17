@@ -11,7 +11,7 @@ const { t } = useI18n()
       >
         {{ t("home.platforms.title") }}
       </h1>
-      <p class="max-w-md my-4 text-xl text-center tracking-tighter md:w-3/5">
+      <p class="max-w-md my-4 text-xl tracking-tighter text-center md:w-3/5">
         {{ t("home.platforms.description") }}
       </p>
     </div>
@@ -19,7 +19,8 @@ const { t } = useI18n()
       <div
         v-for="(feature, index) in features"
         :key="`feature-${index}`"
-        class="w-full col-span-2 p-8 overflow-hidden bg-gradient-to-br rounded-xl md:p-16" :class="feature.styles"
+        class="w-full col-span-2 p-8 overflow-hidden bg-gradient-to-br rounded-xl md:p-16"
+        :class="feature.styles"
       >
         <i
           class="inline-flex items-center justify-center text-3xl shadow bg-gradient-to-tl rounded-xl text-secondaryDark"
@@ -35,7 +36,6 @@ const { t } = useI18n()
             {{ t(feature.description) }}
           </p>
         </div>
-        <img :src="`/assets/images/home/platforms/${feature.image}`" :alt="t(feature.title)" class="rounded h-auto object-top mt-8 w-full transition <lg:mt-8">
       </div>
     </div>
   </div>
