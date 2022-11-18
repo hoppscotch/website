@@ -5,9 +5,9 @@ const { t } = useI18n()
 
 <template>
   <div
-    class="mx-4 mb-4 rounded shadow-lg transition bg-primaryLight border border-dividerDarkmd:hidden"
+    class="mx-4 mb-4 transition border rounded-lg shadow-lg bg-primaryLight border-dividerDark md:hidden"
   >
-    <nav class="flex flex-col rounded divide-y divide-dividerDark">
+    <nav class="flex flex-col divide-y rounded divide-dividerLight">
       <div
         v-for="(category, categoryIndex) in navigation"
         :key="`category-${categoryIndex}`"
@@ -36,7 +36,7 @@ const { t } = useI18n()
           reverse
         /> -->
         <div
-          class="flex justify-center p-4 rounded space-x-4 transition bg-primaryDark"
+          class="flex justify-center p-4 space-x-4 transition rounded bg-primaryDark"
         >
           <ButtonSecondary to="https://github.com/hoppscotch/hoppscotch" label="GitHub" outline />
           <ButtonPrimary to="https://hoppscotch.io" :label="t('action.open_app')" outline />

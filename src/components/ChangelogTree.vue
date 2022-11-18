@@ -12,12 +12,12 @@ const changelogCount = ref(5)
       >
         {{ t("changelog.hero.heading") }}
       </h1>
-      <p class="max-w-md my-4 text-xl text-center tracking-tighter md:w-3/5">
+      <p class="max-w-md my-4 text-xl tracking-tighter text-center md:w-3/5">
         {{ t("changelog.hero.subheading") }}
       </p>
     </div>
     <div
-      class="flex flex-col mx-auto mt-8 grid-cols-9 md:grid"
+      class="flex flex-col grid-cols-9 mx-auto mt-8 md:grid"
     >
       <div
         v-for="(changelog, index) in changelogs.slice(

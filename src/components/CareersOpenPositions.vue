@@ -7,7 +7,7 @@ const { t } = useI18n()
   <div id="open-roles" class="relative flex flex-col px-8">
     <div class="flex flex-col items-center">
       <h2
-        class="max-w-2xl my-4 text-3xl font-black leading-none text-center text-secondaryDark transition md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
       >
         {{ t("careers.openPositions.heading") }}
       </h2>
@@ -16,16 +16,16 @@ const { t } = useI18n()
       </p>
     </div>
     <div />
-    <div class="py-8 divide-dividerDark divide-y">
+    <div class="py-8 divide-y divide-dividerDark">
       <div v-for="(position, index) in openPositions" :key="`careers-${index}`" class="py-10">
-        <h3 class="flex items-center text-2xl font-bold gap-3">
+        <h3 class="flex items-center gap-3 text-2xl font-bold">
           <i class="text-xl text-secondaryDark">
             <component :is="position.heading.icon" />
           </i>
           {{ t(position.heading.title) }}
         </h3>
         <ul class="my-4">
-          <li v-for="(opening, openingIndex) in position.positions" :key="`opening-${openingIndex}`" class="max-w-xl my-5 text-2xl rounded bg-primaryLight border border-dividerDarktransition hover:bg-primaryDark">
+          <li v-for="(opening, openingIndex) in position.positions" :key="`opening-${openingIndex}`" class="max-w-xl my-5 text-2xl border rounded bg-primaryLight border-dividerDarktransition hover:bg-primaryDark">
             <SmartLink :to="`careers/${opening.link}`" class="block p-4">
               <span>
                 {{ t(opening.title) }}

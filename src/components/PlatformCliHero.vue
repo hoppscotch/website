@@ -4,30 +4,30 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div class="flex flex-col py-16 px-8">
+  <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <h1
-        class="font-black my-4 text-center text-secondaryDark leading-none max-w-2xl transition text-3xl md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
       >
         {{ t("platforms.items.cli.title") }}
       </h1>
-      <p class="max-w-md my-4 text-xl text-center tracking-tighter md:w-3/5">
+      <p class="max-w-md my-4 text-xl tracking-tighter text-center md:w-3/5">
         {{ t("platforms.items.cli.description") }}
       </p>
     </div>
-    <div class="mt-8 grid gap-4 grid-cols-2 md:gap-8">
-      <div v-for="(feature, index) in features" :key="`feature-${index}`" class="bg-gradient-to-br rounded-xl w-full p-8 col-span-2 overflow-hidden md:p-16" :class="feature.styles">
+    <div class="grid grid-cols-2 gap-4 mt-8 md:gap-8">
+      <div v-for="(feature, index) in features" :key="`feature-${index}`" class="w-full col-span-2 p-8 overflow-hidden bg-gradient-to-br rounded-xl md:p-16" :class="feature.styles">
         <i
-          class="rounded-xl shadow text-secondaryDark text-3xl inline-flex items-center justify-center bg-gradient-to-tl"
+          class="inline-flex items-center justify-center text-3xl shadow rounded-xl text-secondaryDark bg-gradient-to-tl"
           :class="feature.styles"
         >
-          <component :is="feature.icon" class="h-8 m-4 w-8" />
+          <component :is="feature.icon" class="w-8 h-8 m-4" />
         </i>
         <div class="flex flex-col flex-1">
-          <h2 class="flex font-semibold mt-8 text-secondaryDark mb-2 text-2xl">
+          <h2 class="flex mt-8 mb-2 text-2xl font-semibold text-secondaryDark">
             {{ t(feature.title) }}
           </h2>
-          <p class="flex max-w-xl text-secondaryDark opacity-75 w-4/5">
+          <p class="flex w-4/5 max-w-xl opacity-75 text-secondaryDark">
             {{ t(feature.description) }}
           </p>
         </div>

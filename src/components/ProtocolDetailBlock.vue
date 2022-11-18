@@ -22,7 +22,7 @@ const { t } = useI18n()
     <h1 class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-left lg:text-5xl">
       {{ t(title) }}
     </h1>
-    <p class="max-w-md my-4 text-xl text-center tracking-tighter md:w-3/5 lg:text-left">
+    <p class="max-w-md my-4 text-xl tracking-tighter text-center md:w-3/5 lg:text-left">
       {{ t(description) }}
     </p>
     <div v-if="hero" class="flex my-4 space-x-4 text-center">

@@ -6,11 +6,11 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <h1
-        class="max-w-2xl my-4 text-3xl font-black leading-none text-center text-secondaryDark transition md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
       >
         {{ t("blog.hero.heading") }}
       </h1>
-      <p class="max-w-md my-4 text-xl text-center tracking-tighter md:w-3/5">
+      <p class="max-w-md my-4 text-xl tracking-tighter text-center md:w-3/5">
         {{ t("blog.hero.subheading") }}
       </p>
     </div>

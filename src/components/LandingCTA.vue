@@ -10,7 +10,7 @@ const { t } = useI18n()
       >
         {{ t("home.cta.title") }}
       </h1>
-      <p class="max-w-md my-4 text-xl text-center tracking-tighter md:w-3/5">
+      <p class="max-w-md my-4 text-xl tracking-tighter text-center md:w-3/5">
         {{ t("home.cta.description") }}
       </p>
       <p class="flex my-4 space-x-2 text-center">

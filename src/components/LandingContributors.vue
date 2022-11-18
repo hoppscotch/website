@@ -12,7 +12,7 @@ const randomContributors = computed(() => contributors.sort(() => Math.random() 
       >
         {{ t("home.contributors.title") }}
       </h2>
-      <p class="max-w-md my-4 text-xl text-center tracking-tighter md:w-3/5">
+      <p class="max-w-md my-4 text-xl tracking-tighter text-center md:w-3/5">
         {{ t("home.contributors.description") }}
       </p>
     </div>

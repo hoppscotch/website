@@ -50,7 +50,7 @@ const { t } = useI18n()
         </strong>
         <input
           id="resume" type="file" name="resume"
-          class="p-1 cursor-pointer text-secondaryLight text-tiny transition file:border-dividerLight form-input file:transition file:cursor-pointer file:rounded file:text-tiny file:text-secondary file:bg-primaryLight border border-dividerDarkfile:border file:mr-2 file:py-1 file:px-4 hover:text-secondaryDark hover:file:text-secondaryDark hover:file:bg-primaryDark"
+          class="p-1 transition border cursor-pointer text-secondaryLight text-tiny file:border-dividerLight form-input file:transition file:cursor-pointer file:rounded file:text-tiny file:text-secondary file:bg-primaryLight border-dividerDarkfile:border file:mr-2 file:py-1 file:px-4 hover:text-secondaryDark hover:file:text-secondaryDark hover:file:bg-primaryDark"
         >
       </label>
       <label class="flex flex-col" for="linked">

@@ -4,20 +4,20 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div class="flex flex-col py-16 px-8">
+  <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center ">
       <h1
-        class="font-black my-4 text-center text-secondaryDark leading-none max-w-2xl transition text-3xl md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
       >
         {{ t("solutions.hero.heading") }}
       </h1>
-      <p class="max-w-md my-4 text-xl text-center tracking-tighter md:w-3/5">
+      <p class="max-w-md my-4 text-xl tracking-tighter text-center md:w-3/5">
         {{ t("solutions.hero.subheading") }}
       </p>
     </div>
     <div
       v-interactive-hover-animation
-      class="mt-8 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4"
+      class="grid grid-cols-1 gap-4 mt-8 md:grid-cols-2 lg:grid-cols-4"
     >
       <SmartLink
         v-for="(solution, index) in solutions"
@@ -30,7 +30,7 @@ const { t } = useI18n()
             <img :src="`/assets/images/solutions/banners/${solution.icon}`" :alt="solution.title" class="flex h-auto w-full transition grayscale filter group-hover:(grayscale-0 opacity-100) ">
           </div>
           <div class="flex flex-col flex-1 h-32 px-8 pb-8">
-            <h2 class="flex font-semibold my-2 text-lg">
+            <h2 class="flex my-2 text-lg font-semibold">
               {{ t(solution.title) }}
             </h2>
             <p class="flex flex-1 text-secondaryLight">
