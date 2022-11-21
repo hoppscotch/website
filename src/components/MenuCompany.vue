@@ -21,27 +21,27 @@ const { t } = useI18n()
           {{ t("header.menu.blog.title") }}
         </h4>
       </div>
-      <ul class="flex flex-col text-xs space-y-2">
+      <ul class="flex flex-col space-y-2 text-xs">
         <li
           v-for="(blog, blogIndex) in blogs.slice(0, 2)"
           :key="`blog-${blogIndex}`"
         >
-          <RouterLink
+          <SmartLink
             :to="`/company/blog/${blog.slug}`"
             class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark"
           >
             {{ t(blog.title) }}
             <lucide-arrow-right class="ml-2" />
-          </RouterLink>
+          </SmartLink>
         </li>
         <li>
-          <RouterLink
+          <SmartLink
             to="/company/blog"
             class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark"
           >
             {{ t("header.menu.blog.read_more") }}
             <lucide-arrow-right class="ml-2" />
-          </RouterLink>
+          </SmartLink>
         </li>
       </ul>
     </div>
