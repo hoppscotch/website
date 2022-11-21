@@ -7,7 +7,7 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <h1
-        class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl tracking-tighter"
       >
         {{ t("home.testimonials.title") }}
       </h1>
@@ -24,7 +24,7 @@ const { t } = useI18n()
           :href="testimonial.link"
           target="_blank"
           rel="noopener noreferrer"
-          class="flex flex-col w-full p-8 transition rounded shadow bg-primaryLight group hover:shadow-md"
+          class="flex flex-col w-full p-8 transition rounded-lg shadow bg-primaryLight group hover:shadow-md"
         >
           <div class="flex items-center w-full mb-4">
             <img :src="testimonial.picture" :alt="testimonial.username" class="flex flex-shrink-0 w-10 h-10 transition rounded-full shadow-inner bg-primaryDark">

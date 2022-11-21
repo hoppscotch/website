@@ -8,7 +8,7 @@ const { t } = useI18n()
     <SmartGradient :blur="300" />
     <div class="flex flex-col items-center">
       <h2
-        class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl tracking-tighter"
       >
         {{ t("careers.benefits.heading") }}
       </h2>

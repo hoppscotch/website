@@ -30,4 +30,9 @@ export const values = [
     title: 'about.values.items.grow.title',
     description: 'about.values.items.grow.description',
   },
+  {
+    icon: crown,
+    title: 'about.values.items.build.title',
+    description: 'about.values.items.build.description',
+  },
 ]

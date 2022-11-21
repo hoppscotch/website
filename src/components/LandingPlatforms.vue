@@ -7,7 +7,7 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <h1
-        class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl tracking-tighter"
       >
         {{ t("home.platforms.title") }}
       </h1>
@@ -29,10 +29,10 @@ const { t } = useI18n()
           <component :is="feature.icon" class="w-8 h-8 m-4" />
         </i>
         <div class="flex flex-col flex-1">
-          <h2 class="flex mt-8 mb-2 text-2xl font-semibold text-secondaryDark">
+          <h2 class="flex mt-8 mb-2 text-2xl font-semibold text-secondaryDark tracking-tighter">
             {{ t(feature.title) }}
           </h2>
-          <p class="flex w-4/5 max-w-xl opacity-75 text-secondaryDark">
+          <p class="flex w-4/5 max-w-xl opacity-75 text-secondaryDark tracking-tight">
             {{ t(feature.description) }}
           </p>
         </div>

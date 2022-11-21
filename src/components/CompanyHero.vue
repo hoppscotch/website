@@ -7,7 +7,7 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center ">
       <h1
-        class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl tracking-tighter"
       >
         {{ t("company.hero.heading") }}
       </h1>
@@ -26,16 +26,16 @@ const { t } = useI18n()
         class="h-64 interactive-hover-animation"
       >
         <div class="interactive-hover-contents">
-          <div class="flex flex-col h-24 p-8">
+          <div class="flex flex-col h-18 p-8">
             <i class="text-3xl text-accentLight">
               <component :is="item.icon" />
             </i>
           </div>
-          <div class="flex flex-col flex-1 h-32 px-8 pb-8">
-            <h2 class="flex mt-4 mb-2 text-lg font-semibold">
+          <div class="flex flex-col flex-1 h-40 px-8 pb-8">
+            <h2 class="flex mt-4 mb-2 text-lg font-semibold tracking-tighter">
               {{ t(item.title) }}
             </h2>
-            <p class="flex flex-1 text-secondaryLight">
+            <p class="flex flex-1 text-secondaryLight tracking-tight">
               {{ t(item.description) }}
             </p>
             <div class="mt-2">

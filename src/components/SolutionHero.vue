@@ -7,7 +7,7 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center ">
       <h1
-        class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl tracking-tighter"
       >
         {{ t("solutions.hero.heading") }}
       </h1>
@@ -30,10 +30,10 @@ const { t } = useI18n()
             <img :src="`/assets/images/solutions/banners/${solution.icon}`" :alt="solution.title" class="flex h-auto w-full transition grayscale filter group-hover:(grayscale-0 opacity-100) ">
           </div>
           <div class="flex flex-col flex-1 h-32 px-8 pb-8">
-            <h2 class="flex my-2 text-lg font-semibold">
+            <h2 class="flex my-2 text-lg font-semibold tracking-tight">
               {{ t(solution.title) }}
             </h2>
-            <p class="flex flex-1 text-secondaryLight">
+            <p class="flex flex-1 text-secondaryLight tracking-tight">
               {{ t(solution.description) }}
             </p>
           </div>

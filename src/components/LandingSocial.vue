@@ -15,10 +15,10 @@ const { t } = useI18n()
           <logos-twitter class="transition origin-center transform group-hover:rotate-12" />
         </i>
         <div class="flex-grow">
-          <h2 class="flex mt-4 mb-2 text-lg font-semibold">
+          <h2 class="flex mt-4 mb-2 text-lg font-semibold tracking-tighter">
             {{ t('home.social.twitter.title') }}
           </h2>
-          <p class="flex w-4/5 transition opacity-50 group-hover:opacity-75">
+          <p class="flex w-4/5 transition opacity-50 group-hover:opacity-75 tracking-tight">
             {{ t('home.social.twitter.description') }}
           </p>
         </div>
@@ -33,10 +33,10 @@ const { t } = useI18n()
           <logos-discord-icon class="transition origin-center transform group-hover:rotate-12" />
         </i>
         <div class="flex-grow">
-          <h2 class="flex mt-4 mb-2 text-lg font-semibold">
+          <h2 class="flex mt-4 mb-2 text-lg font-semibold tracking-tighter">
             {{ t('home.social.discord.title') }}
           </h2>
-          <p class="flex w-4/5 transition opacity-50 group-hover:opacity-75">
+          <p class="flex w-4/5 transition opacity-50 group-hover:opacity-75 tracking-tight">
             {{ t('home.social.discord.description') }}
           </p>
         </div>

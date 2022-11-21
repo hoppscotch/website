@@ -39,7 +39,7 @@ onMounted(() => {
         <ButtonSecondary to="https://github.com/hoppscotch/hoppscotch" label="GitHub" outline />
         <ButtonPrimary to="https://hoppscotch.io" :label="t('action.open_app')" outline />
       </p>
-      <p class="my-2 text-center opacity-50 text-secondaryDark">
+      <p class="my-2 text-center opacity-50 text-secondaryDark tracking-tight">
         {{ t("home.hero.stats.1.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.2.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.3.title") }}
       </p>
       <div

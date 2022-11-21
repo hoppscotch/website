@@ -20,7 +20,7 @@ const { t } = useI18n()
 
 <template>
   <div
-    class="h-80 interactive-hover-animation group"
+    class="h-72 interactive-hover-animation group"
   >
     <div class="interactive-hover-contents">
       <div class="flex flex-col h-32 p-8">
@@ -29,10 +29,10 @@ const { t } = useI18n()
         </i>
       </div>
       <div class="flex flex-col justify-end flex-1 h-40 px-8 pb-8">
-        <h3 class="flex mt-5 mb-3 text-lg font-semibold">
+        <h3 class="flex mt-2 mb-2 text-lg font-semibold tracking-tighter">
           {{ t(title) }}
         </h3>
-        <p class="flex flex-1 leading-6 text-secondaryLight">
+        <p class="flex flex-1 text-secondaryLight tracking-tight">
           {{ t(description) }}
         </p>
       </div>

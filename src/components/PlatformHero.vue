@@ -7,7 +7,7 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center ">
       <h1
-        class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl tracking-tighter"
       >
         {{ t("platforms.hero.heading") }}
       </h1>
@@ -30,10 +30,10 @@ const { t } = useI18n()
             <img :src="`/assets/images/platforms/banners/${platform.icon}`" :alt="platform.title" class="w-16 h-16 transition grayscale opacity-50 group-hover:(grayscale-0 opacity-100) filter">
           </div>
           <div class="flex flex-col flex-1 h-56 px-8 pb-8">
-            <h2 class="flex mt-4 mb-2 text-lg font-semibold">
+            <h2 class="flex mt-4 mb-2 text-lg font-semibold tracking-tighter">
               {{ t(platform.title) }}
             </h2>
-            <p class="flex flex-1 text-secondaryLight">
+            <p class="flex flex-1 text-secondaryLight tracking-tight">
               {{ t(platform.description) }}
             </p>
             <div class="mt-2">

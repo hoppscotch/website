@@ -12,7 +12,7 @@ const { t } = useI18n()
         {{ t("home.features.title") }}
       </p>
       <h3
-        class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl tracking-tighter"
       >
         {{ t("home.features.description") }}
       </h3>
@@ -31,10 +31,10 @@ const { t } = useI18n()
             <img :src="`/assets/images/home/features/${feature.icon}`" :alt="feature.title" class="flex h-auto w-full transition grayscale  filter group-hover:(grayscale-0 opacity-100) ">
           </div>
           <div class="flex flex-col h-32 px-8 pb-8">
-            <h2 class="flex my-2 text-lg font-semibold">
+            <h2 class="flex my-2 text-lg font-semibold tracking-tight">
               {{ t(feature.title) }}
             </h2>
-            <p class="flex flex-1 text-secondaryLight">
+            <p class="flex flex-1 text-secondaryLight tracking-tight">
               {{ t(feature.description) }}
             </p>
           </div>

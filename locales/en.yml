@@ -591,6 +591,9 @@ about:
       grow:
         title: Grit to grow
         description: Through a culture of learning and non-complacency, we are always improving. We seek out the hardest problems that have the most impact. We inspire each other. The power of a growth mindset enables us to accomplish amazing things.
+      build:
+        title: Build for the long term
+        description: We are building a company that will last. We are building a product that will last. We are building a team that will last. We are building a culture that will last. We are building a community that will last.
 blog:
   hero:
     heading: Blog
