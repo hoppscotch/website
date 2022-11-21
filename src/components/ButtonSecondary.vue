@@ -4,7 +4,7 @@ import { gradients } from "~/assets/data/gradients"
 
 const props = withDefaults(
   defineProps<{
-    to: string;
+    to?: string;
     exact?: boolean;
     blank?: boolean;
     label: string;
@@ -40,19 +40,19 @@ const props = withDefaults(
 )
 
 const linkMode = computed(() => {
-  if (!props.to) 
+  if (!props.to)
 return "button"
-  if (props.blank) 
+  if (props.blank)
 return "anchor"
-  if (/^\/(?!\/).*$/.test(props.to)) 
+  if (/^\/(?!\/).*$/.test(props.to))
 return "router-link"
   return "anchor"
 })
 
 const computedComponent = computed(() => {
-  if (linkMode.value === "anchor") 
+  if (linkMode.value === "anchor")
 return "a"
-  if (linkMode.value === "router-link") 
+  if (linkMode.value === "router-link")
 return "router-link"
   return "anchor"
 })

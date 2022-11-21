@@ -92,15 +92,15 @@ export const navigation = [
       },
       {
         name: "footer.product.links.terms",
-        link: "https://docs.hoppscotch.io/terms",
+        link: "/terms",
       },
       {
         name: "footer.product.links.privacy",
-        link: "https://docs.hoppscotch.io/privacy",
+        link: "/privacy",
       },
       {
-        name: "footer.product.links.roadmap",
-        link: "https://github.com/hoppscotch/hoppscotch/issues",
+        name: "footer.product.links.github",
+        link: "https://github.com/hoppscotch/hoppscotch",
       },
     ],
   },
