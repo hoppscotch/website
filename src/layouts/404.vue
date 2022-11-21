@@ -12,10 +12,7 @@ const { t } = useI18n()
     </div>
     <RouterView />
     <div class="my-8">
-      <ButtonSecondary
-        :label="t('action.back')"
-        @click="router.back()"
-      />
+      <ButtonSecondary :label="t('action.back')" @click="router.back()" />
     </div>
   </main>
 </template>

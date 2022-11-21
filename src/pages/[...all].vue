@@ -4,7 +4,7 @@ const { t } = useI18n()
 
 <template>
   <div>
-    {{ t('error.404') }}
+    {{ t("error.404") }}
   </div>
 </template>
 

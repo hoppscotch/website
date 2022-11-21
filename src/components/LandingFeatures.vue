@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { features } from '~/assets/data/landingFeatures'
+import { features } from "~/assets/data/landingFeatures"
 const { t } = useI18n()
 </script>
 
@@ -12,14 +12,14 @@ const { t } = useI18n()
         {{ t("home.features.title") }}
       </p>
       <h3
-        class="max-w-2xl my-4 text-3xl leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl tracking-tighter"
+        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
       >
         {{ t("home.features.description") }}
       </h3>
     </div>
     <div
       v-interactive-hover-animation
-      class="grid grid-cols-1 gap-4 mt-8 md:grid-cols-2 lg:grid-cols-4"
+      class="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4"
     >
       <div
         v-for="(feature, index) in features"
@@ -28,13 +28,17 @@ const { t } = useI18n()
       >
         <div class="interactive-hover-contents">
           <div class="flex flex-col h-40">
-            <img :src="`/assets/images/home/features/${feature.icon}`" :alt="feature.title" class="flex h-auto w-full transition grayscale  filter group-hover:(grayscale-0 opacity-100) ">
+            <img
+              :src="`/assets/images/home/features/${feature.icon}`"
+              :alt="feature.title"
+              class="flex h-auto w-full transition grayscale filter group-hover:(grayscale-0 opacity-100)"
+            />
           </div>
           <div class="flex flex-col h-32 px-8 pb-8">
             <h2 class="flex my-2 text-lg font-semibold tracking-tight">
               {{ t(feature.title) }}
             </h2>
-            <p class="flex flex-1 text-secondaryLight tracking-tight">
+            <p class="flex flex-1 tracking-tight text-secondaryLight">
               {{ t(feature.description) }}
             </p>
           </div>

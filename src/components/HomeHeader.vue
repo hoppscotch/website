@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import x from '~icons/lucide/x'
-import menu from '~icons/lucide/menu'
+import x from "~icons/lucide/x"
+import menu from "~icons/lucide/menu"
 
 const { t } = useI18n()
 const router = useRouter()
@@ -9,18 +9,23 @@ const showMenu = ref(false)
 
 router.afterEach(() => {
   showMenu.value = false
-  document.querySelectorAll('div [data-tippy-root]').forEach((popup) => {
+  document.querySelectorAll("div [data-tippy-root]").forEach((popup) => {
     popup.parentNode?.removeChild(popup)
   })
 })
 
 onMounted(() => {
-  const navTippyLinks = document.querySelectorAll('span [data-v-tippy]')
+  const navTippyLinks = document.querySelectorAll("span [data-v-tippy]")
 
   navTippyLinks.forEach((link: EventTarget) => {
-    link.addEventListener('mouseenter', () => {
-      document.querySelectorAll('div [data-tippy-root]').forEach((popup) => {
-        if (link && popup && popup.parentNode && link !== popup.parentNode.querySelector('span [data-v-tippy]'))
+    link.addEventListener("mouseenter", () => {
+      document.querySelectorAll("div [data-tippy-root]").forEach((popup) => {
+        if (
+          link &&
+          popup &&
+          popup.parentNode &&
+          link !== popup.parentNode.querySelector("span [data-v-tippy]")
+        )
           popup.parentNode.removeChild(popup)
       })
     })
@@ -43,7 +48,7 @@ onMounted(() => {
               src="/assets/images/logo.svg"
               :alt="t('logo')"
               class="w-8 h-8 mr-4"
-            >
+            />
             <span class="font-bold tracking-wide uppercase">
               {{ t("logo") }}
             </span>
@@ -59,7 +64,10 @@ onMounted(() => {
               placement="bottom"
             >
               <template #default>
-                <SmartItem :label="t('header.menu.solutions.title')" to="/solutions" />
+                <SmartItem
+                  :label="t('header.menu.solutions.title')"
+                  to="/solutions"
+                />
               </template>
               <template #content>
                 <MenuSolutions />
@@ -75,7 +83,10 @@ onMounted(() => {
               placement="bottom"
             >
               <template #default>
-                <SmartItem :label="t('header.menu.platform.title')" to="/platforms" />
+                <SmartItem
+                  :label="t('header.menu.platform.title')"
+                  to="/platforms"
+                />
               </template>
               <template #content>
                 <MenuPlatform />
@@ -91,7 +102,10 @@ onMounted(() => {
               placement="bottom"
             >
               <template #default>
-                <SmartItem :label="t('header.menu.company.title')" to="/company" />
+                <SmartItem
+                  :label="t('header.menu.company.title')"
+                  to="/company"
+                />
               </template>
               <template #content>
                 <MenuCompany />
@@ -103,16 +117,25 @@ onMounted(() => {
         <div
           class="items-center justify-end hidden space-x-2 md:flex md:flex-1 lg:w-0"
         >
-          <ButtonSecondary to="https://github.com/hoppscotch/hoppscotch" label="GitHub" outline />
-          <ButtonPrimary to="https://hoppscotch.io" :label="t('action.open_app')" outline />
+          <ButtonSecondary
+            to="https://github.com/hoppscotch/hoppscotch"
+            label="GitHub"
+            outline
+          />
+          <ButtonPrimary
+            to="https://hoppscotch.io"
+            :label="t('action.open_app')"
+            outline
+          />
         </div>
         <div class="md:hidden">
-          <SmartItem :icon="showMenu ? x : menu" @click="showMenu = !showMenu" />
+          <SmartItem
+            :icon="showMenu ? x : menu"
+            @click="showMenu = !showMenu"
+          />
         </div>
       </div>
     </nav>
-    <MenuMobile
-      v-if="showMenu"
-    />
+    <MenuMobile v-if="showMenu" />
   </header>
 </template>

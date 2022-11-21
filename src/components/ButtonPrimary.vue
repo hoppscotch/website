@@ -1,32 +1,33 @@
 <script setup lang="ts">
-import { computed } from 'vue'
-import { gradients } from '~/assets/data/gradients'
+import { computed } from "vue"
+import { gradients } from "~/assets/data/gradients"
 
 const props = withDefaults(
   defineProps<{
-    to: string
-    exact?: boolean
-    blank?: boolean
-    label: string
-    description?: string
-    icon?: string
-    infoIcon?: string
-    reverse?: boolean
-    rounded?: boolean
-    loading?: boolean
-    large?: boolean
-    shadow?: boolean
-    gradient?: boolean
-    outline?: boolean
-    shortcut?: string[]
-  }>(), {
-    to: '',
+    to: string;
+    exact?: boolean;
+    blank?: boolean;
+    label: string;
+    description?: string;
+    icon?: string;
+    infoIcon?: string;
+    reverse?: boolean;
+    rounded?: boolean;
+    loading?: boolean;
+    large?: boolean;
+    shadow?: boolean;
+    gradient?: boolean;
+    outline?: boolean;
+    shortcut?: string[];
+  }>(),
+  {
+    to: "",
     exact: false,
     blank: false,
-    label: '',
-    description: '',
-    icon: '',
-    infoIcon: '',
+    label: "",
+    description: "",
+    icon: "",
+    infoIcon: "",
     reverse: false,
     rounded: true,
     loading: false,
@@ -35,25 +36,25 @@ const props = withDefaults(
     shadow: false,
     outline: false,
     shortcut: () => [],
-  },
+  }
 )
 
 const linkMode = computed(() => {
-  if (!props.to)
-    return 'button'
-  if (props.blank)
-    return 'anchor'
-  if (/^\/(?!\/).*$/.test(props.to))
-    return 'router-link'
-  return 'anchor'
+  if (!props.to) 
+return "button"
+  if (props.blank) 
+return "anchor"
+  if (/^\/(?!\/).*$/.test(props.to)) 
+return "router-link"
+  return "anchor"
 })
 
 const computedComponent = computed(() => {
-  if (linkMode.value === 'anchor')
-    return 'a'
-  if (linkMode.value === 'router-link')
-    return 'router-link'
-  return 'anchor'
+  if (linkMode.value === "anchor") 
+return "a"
+  if (linkMode.value === "router-link") 
+return "router-link"
+  return "anchor"
 })
 </script>
 
@@ -63,7 +64,7 @@ const computedComponent = computed(() => {
     v-bind="$attrs"
     :href="props.to"
     :to="props.to"
-    class="inline-flex items-center justify-center py-2 font-bold transition cursor-pointer bg-accent text-accentContrast hover:bg-accentDark focus:outline-none focus-visible:bg-accentDark"
+    class="inline-flex items-center justify-center py-2 font-bold cursor-pointer transition bg-accent text-accentContrast hover:bg-accentDark focus:outline-none focus-visible:bg-accentDark"
     :class="[
       label ? 'px-4' : 'px-2',
       rounded ? 'rounded-full' : 'rounded',
@@ -74,7 +75,9 @@ const computedComponent = computed(() => {
         'border border-accent hover:border-accentDark focus-visible:border-accentDark':
           outline,
       },
-      gradient ? `text-accentContrast bg-gradient-to-tr ${gradients.accent}` : '',
+      gradient
+        ? `text-accentContrast bg-gradient-to-tr ${gradients.accent}`
+        : '',
     ]"
     :tabindex="loading ? '-1' : '0'"
   >

@@ -12,15 +12,19 @@ const { t } = useI18n()
   >
     <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
       <div class="flex flex-col">
-        <h4 class="flex mb-2 text-2xl font-semibold tracking-tighter text-secondaryDark">
-          {{ t('newsletter.title') }}
+        <h4
+          class="flex mb-2 text-2xl font-semibold tracking-tighter text-secondaryDark"
+        >
+          {{ t("newsletter.title") }}
         </h4>
         <p class="text-secondaryLight">
-          {{ t('newsletter.description') }}
+          {{ t("newsletter.description") }}
         </p>
       </div>
       <div class="flex flex-col">
-        <div class="inline-flex flex-col space-y-2 md:space-y-0 md:flex-row md:space-x-2">
+        <div
+          class="inline-flex flex-col space-y-2 md:space-y-0 md:flex-row md:space-x-2"
+        >
           <input
             id="mce-EMAIL"
             name="EMAIL"
@@ -28,17 +32,17 @@ const { t } = useI18n()
             type="email"
             :placeholder="t('newsletter.email')"
             required
-          >
+          />
           <input
             id="mc-embedded-subscribe"
             type="submit"
             :value="t('newsletter.subscribe')"
             name="subscribe"
             class="form-button"
-          >
+          />
         </div>
         <p class="mt-4 text-xs text-secondaryLight">
-          {{ t('newsletter.prompt') }}
+          {{ t("newsletter.prompt") }}
         </p>
       </div>
     </div>
@@ -55,7 +59,7 @@ const { t } = useI18n()
   @apply text-secondaryDark;
   @apply bg-primaryLight;
   @apply outline-none;
-  @apply focus:(outline-none bg-primaryDark) ;
+  @apply focus:(outline-none bg-primaryDark);
   @apply hover:bg-primaryDark;
   @apply transition-all;
 }
@@ -69,7 +73,7 @@ const { t } = useI18n()
   @apply text-accentContrast;
   @apply bg-accentLight;
   @apply outline-none;
-  @apply focus:(outline-none bg-accentDark) ;
+  @apply focus:(outline-none bg-accentDark);
   @apply hover:bg-accentDark;
   @apply transition-all;
   @apply cursor-pointer;

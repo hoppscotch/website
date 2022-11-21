@@ -2,21 +2,21 @@
 withDefaults(
   defineProps<{
     changelog: {
-      title: string
-      description: string
-      placement: string
-      icon: string
-      date: string
-    }
+      title: string;
+      description: string;
+      placement: string;
+      icon: string;
+      date: string;
+    };
   }>(),
-  {},
+  {}
 )
 const { t } = useI18n()
 </script>
 
 <template>
   <div
-    class="flex flex-col p-8 my-4 transition border border-2 bg-primaryLight border-dividerDark rounded-xl border-accent"
+    class="flex flex-col p-8 my-4 border border-2 transition bg-primaryLight border-dividerDark rounded-xl border-accent"
   >
     <i class="text-3xl text-accentLight">
       <component :is="changelog.icon" />

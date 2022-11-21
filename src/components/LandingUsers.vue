@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { users } from '~/assets/data/landingUsers'
-import { isDark } from '~/composables'
+import { users } from "~/assets/data/landingUsers"
+import { isDark } from "~/composables"
 const { t } = useI18n()
 </script>
 
@@ -11,19 +11,23 @@ const { t } = useI18n()
     >
       {{ t("home.users.title") }}
     </p>
-    <div class="grid grid-cols-3 gap-4 mx-auto mt-8 md:grid-cols-4 lg:max-w-4xl lg:grid-cols-6">
+    <div
+      class="mx-auto mt-8 grid grid-cols-3 gap-4 md:grid-cols-4 lg:max-w-4xl lg:grid-cols-6"
+    >
       <div
         v-for="(user, index) in users"
         :key="`user-${index}`"
         class="inline-flex flex-col items-center justify-center p-4"
       >
         <img
-          :src="`/assets/images/users/${isDark ? 'dark' : 'light'}-${user.image}`"
+          :src="`/assets/images/users/${isDark ? 'dark' : 'light'}-${
+            user.image
+          }`"
           :alt="user.title"
           :title="user.title"
           loading="lazy"
           class="inline-flex flex-col object-cover object-center max-h-16"
-        >
+        />
       </div>
     </div>
   </div>

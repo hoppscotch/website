@@ -12,14 +12,18 @@ const { t } = useI18n()
         rel="noopener noreferrer"
       >
         <i class="text-3xl">
-          <logos-twitter class="transition origin-center transform group-hover:rotate-12" />
+          <logos-twitter
+            class="transition origin-center transform group-hover:rotate-12"
+          />
         </i>
         <div class="flex-grow">
           <h2 class="flex mt-4 mb-2 text-lg font-semibold tracking-tighter">
-            {{ t('home.social.twitter.title') }}
+            {{ t("home.social.twitter.title") }}
           </h2>
-          <p class="flex w-4/5 transition opacity-50 group-hover:opacity-75 tracking-tight">
-            {{ t('home.social.twitter.description') }}
+          <p
+            class="flex w-4/5 tracking-tight opacity-50 transition group-hover:opacity-75"
+          >
+            {{ t("home.social.twitter.description") }}
           </p>
         </div>
       </a>
@@ -30,14 +34,18 @@ const { t } = useI18n()
         rel="noopener noreferrer"
       >
         <i class="text-3xl">
-          <logos-discord-icon class="transition origin-center transform group-hover:rotate-12" />
+          <logos-discord-icon
+            class="transition origin-center transform group-hover:rotate-12"
+          />
         </i>
         <div class="flex-grow">
           <h2 class="flex mt-4 mb-2 text-lg font-semibold tracking-tighter">
-            {{ t('home.social.discord.title') }}
+            {{ t("home.social.discord.title") }}
           </h2>
-          <p class="flex w-4/5 transition opacity-50 group-hover:opacity-75 tracking-tight">
-            {{ t('home.social.discord.description') }}
+          <p
+            class="flex w-4/5 tracking-tight opacity-50 transition group-hover:opacity-75"
+          >
+            {{ t("home.social.discord.description") }}
           </p>
         </div>
       </a>

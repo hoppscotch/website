@@ -1,17 +1,17 @@
 <script setup lang="ts">
 withDefaults(
   defineProps<{
-    username: string
-    image: string
-    link: string
-    size: string
+    username: string;
+    image: string;
+    link: string;
+    size: string;
   }>(),
   {
-    name: '',
-    image: '',
-    link: '',
-    size: 'w-16 h-16',
-  },
+    name: "",
+    image: "",
+    link: "",
+    size: "w-16 h-16",
+  }
 )
 </script>
 
@@ -22,7 +22,7 @@ withDefaults(
     loading="lazy"
     class="flex flex-shrink-0 rounded-full cloudAnimation"
     :class="`${size}`"
-  >
+  />
 </template>
 
 <style lang="scss" scoped>

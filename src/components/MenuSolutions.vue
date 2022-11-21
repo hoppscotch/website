@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import { solutions } from '~/assets/data/menuSolutions'
-import book from '~icons/lucide/book-open'
-import guides from '~icons/lucide/graduation-cap'
-import support from '~icons/lucide/life-buoy'
+import { solutions } from "~/assets/data/menuSolutions"
+import book from "~icons/lucide/book-open"
+import guides from "~icons/lucide/graduation-cap"
+import support from "~icons/lucide/life-buoy"
 const { t } = useI18n()
 </script>
 
 <template>
   <div>
-    <div class="grid max-w-2xl grid-cols-2">
+    <div class="max-w-2xl grid grid-cols-2">
       <SmartItem
         v-for="(item, itemIndex) in solutions"
         :key="`item-${itemIndex}`"

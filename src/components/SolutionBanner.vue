@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { banners } from '~/assets/data/solutionBanners'
+import { banners } from "~/assets/data/solutionBanners"
 const { t } = useI18n()
 </script>
 
@@ -12,11 +12,11 @@ const { t } = useI18n()
             src="/assets/images/logo.svg"
             :alt="t('logo')"
             class="w-32 h-32 shadow-2xl rounded-2xl"
-          >
+          />
         </span>
       </div>
       <div
-        class="relative grid w-full h-auto overflow-hidden place-items-center slider"
+        class="relative w-full h-auto overflow-hidden grid place-items-center slider"
       >
         <div class="w-full py-4 space-x-8 slide-track1">
           <div
@@ -44,7 +44,9 @@ const { t } = useI18n()
           </div>
         </div>
       </div>
-      <div class="relative grid w-full h-auto overflow-hidden place-items-center slider">
+      <div
+        class="relative w-full h-auto overflow-hidden grid place-items-center slider"
+      >
         <div class="w-full py-4 space-x-8 slide-track2">
           <div
             v-for="(banner, index) in banners"
@@ -72,7 +74,7 @@ const { t } = useI18n()
         </div>
       </div>
       <div
-        class="relative grid w-full h-auto overflow-hidden place-items-center slider"
+        class="relative w-full h-auto overflow-hidden grid place-items-center slider"
       >
         <div class="w-full py-4 space-x-8 slide-track3">
           <div
@@ -100,7 +102,9 @@ const { t } = useI18n()
           </div>
         </div>
       </div>
-      <div class="relative grid w-full h-auto overflow-hidden place-items-center slider">
+      <div
+        class="relative w-full h-auto overflow-hidden grid place-items-center slider"
+      >
         <div class="w-full py-4 space-x-8 slide-track4">
           <div
             v-for="(banner, index) in banners"
@@ -133,23 +137,27 @@ const { t } = useI18n()
 
 <style scoped lang="scss">
 .slider::before,
-.slider::after{
-  position:absolute;
-  background-image: linear-gradient(to right, var(--color-primary) 0%, rgba(255,255,255,0) 100%);
-  content: '';
+.slider::after {
+  position: absolute;
+  background-image: linear-gradient(
+    to right,
+    var(--color-primary) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  content: "";
   height: 100%;
   width: 128px;
   z-index: 2;
   pointer-events: none;
 }
-.slider::before{
-  left:0;
-  top:0;
+.slider::before {
+  left: 0;
+  top: 0;
 }
-.slider::after{
-  right:0;
-  top:0;
-  transform:rotateZ(180deg);
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
 }
 
 .slide-track1 {

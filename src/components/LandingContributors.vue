@@ -1,14 +1,16 @@
 <script setup lang="ts">
-import { contributors } from '~/assets/data/landingContributors'
+import { contributors } from "~/assets/data/landingContributors"
 const { t } = useI18n()
-const randomContributors = computed(() => contributors.sort(() => Math.random() - 0.5))
+const randomContributors = computed(() =>
+  contributors.sort(() => Math.random() - 0.5)
+)
 </script>
 
 <template>
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <h2
-        class="max-w-2xl my-4 text-3xl leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl tracking-tighter"
+        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
       >
         {{ t("home.contributors.title") }}
       </h2>
@@ -16,7 +18,7 @@ const randomContributors = computed(() => contributors.sort(() => Math.random() 
         {{ t("home.contributors.description") }}
       </p>
     </div>
-    <div class="grid grid-cols-5 gap-4 mt-8 md:grid-cols-8 lg:grid-cols-10">
+    <div class="mt-8 grid grid-cols-5 gap-4 md:grid-cols-8 lg:grid-cols-10">
       <a
         v-for="(contributor, index) in randomContributors"
         :key="index"
@@ -29,9 +31,9 @@ const randomContributors = computed(() => contributors.sort(() => Math.random() 
           :src="contributor.image"
           :username="contributor.username"
           loading="lazy"
-          class="object-cover transition rounded-full shadow-inner bg-primaryDark ring-dividerDark contributor-bubble hover:ring-4"
+          class="object-cover rounded-full shadow-inner transition bg-primaryDark ring-dividerDark contributor-bubble hover:ring-4"
           :class="`contributor-bubble-${index + 1}`"
-        >
+        />
       </a>
     </div>
   </div>
@@ -45,11 +47,16 @@ const randomContributors = computed(() => contributors.sort(() => Math.random() 
   @return $randomNum;
 }
 
-$CIRCLE_COUNT:40;
+$CIRCLE_COUNT: 40;
 
 @for $i from 1 through $CIRCLE_COUNT {
   .contributor-bubble-#{$i} {
-    animation: randomBubbleMovement 20s #{randomNum(1, 10)}s ease-in-out infinite alternate;
+    animation: randomBubbleMovement
+      20s
+      #{randomNum(1, 10)}s
+      ease-in-out
+      infinite
+      alternate;
   }
 }
 
@@ -89,7 +96,7 @@ $CIRCLE_COUNT:40;
   }
 }
 
-.contributor-bubble:hover{
+.contributor-bubble:hover {
   animation-play-state: paused;
 }
 </style>

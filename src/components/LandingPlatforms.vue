@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { features } from '~/assets/data/landingPlatforms'
+import { features } from "~/assets/data/landingPlatforms"
 const { t } = useI18n()
 </script>
 
@@ -7,7 +7,7 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <h1
-        class="max-w-2xl my-4 text-3xl leading-none text-center transition text-secondaryDark md:text-4xl lg:text-5xl tracking-tighter"
+        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
       >
         {{ t("home.platforms.title") }}
       </h1>
@@ -15,11 +15,11 @@ const { t } = useI18n()
         {{ t("home.platforms.description") }}
       </p>
     </div>
-    <div class="grid grid-cols-2 gap-4 mt-8 md:gap-8">
+    <div class="mt-8 grid grid-cols-2 gap-4 md:gap-8">
       <div
         v-for="(feature, index) in features"
         :key="`feature-${index}`"
-        class="w-full col-span-2 p-8 overflow-hidden bg-gradient-to-br rounded-xl md:p-16"
+        class="w-full p-8 overflow-hidden col-span-2 bg-gradient-to-br rounded-xl md:p-16"
         :class="feature.styles"
       >
         <i
@@ -29,10 +29,14 @@ const { t } = useI18n()
           <component :is="feature.icon" class="w-8 h-8 m-4" />
         </i>
         <div class="flex flex-col flex-1">
-          <h2 class="flex mt-8 mb-2 text-2xl font-semibold text-secondaryDark tracking-tighter">
+          <h2
+            class="flex mt-8 mb-2 text-2xl font-semibold tracking-tighter text-secondaryDark"
+          >
             {{ t(feature.title) }}
           </h2>
-          <p class="flex w-4/5 max-w-xl opacity-75 text-secondaryDark tracking-tight">
+          <p
+            class="flex w-4/5 max-w-xl tracking-tight opacity-75 text-secondaryDark"
+          >
             {{ t(feature.description) }}
           </p>
         </div>

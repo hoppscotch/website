@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { platforms } from '~/assets/data/menuPlatform'
-import { guides } from '~/assets/data/menuGuides'
+import { platforms } from "~/assets/data/menuPlatform"
+import { guides } from "~/assets/data/menuGuides"
 const { t } = useI18n()
 </script>
 
@@ -21,19 +21,27 @@ const { t } = useI18n()
     <div class="flex flex-col p-4 mt-2 rounded bg-primaryDark">
       <div class="flex items-center mb-2">
         <h4 class="font-semibold text-secondaryDark">
-          {{ t('header.menu.guide.title') }}
+          {{ t("header.menu.guide.title") }}
         </h4>
       </div>
-      <ul class="flex flex-col space-y-2 text-xs">
+      <ul class="flex flex-col text-xs space-y-2">
         <li v-for="(guide, guideIndex) in guides" :key="`guide-${guideIndex}`">
-          <SmartLink blank :to="guide.link" class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark">
+          <SmartLink
+            blank
+            :to="guide.link"
+            class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark"
+          >
             {{ t(guide.title) }}
             <lucide-arrow-right class="ml-2" />
           </SmartLink>
         </li>
         <li>
-          <SmartLink blank to="https://aviyel.com/projects/5/hoppscotch/resources/discussion" class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark">
-            {{ t('header.menu.guide.read_more') }}
+          <SmartLink
+            blank
+            to="https://aviyel.com/projects/5/hoppscotch/resources/discussion"
+            class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark"
+          >
+            {{ t("header.menu.guide.read_more") }}
             <lucide-arrow-right class="ml-2" />
           </SmartLink>
         </li>

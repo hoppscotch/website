@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const props = defineProps<{
-  role: string
+  role: string;
 }>()
 const { t } = useI18n()
 </script>
@@ -9,16 +9,25 @@ const { t } = useI18n()
   <div class="flex flex-col py-5">
     <h2>{{ t("careers.form.heading") }}</h2>
     <form
-      method="POST" action="/company/careers/success" netlify data-netlify="true" class="flex flex-col space-y-6" name="Careers"
+      method="POST"
+      action="/company/careers/success"
+      netlify
+      data-netlify="true"
+      class="flex flex-col space-y-6"
+      name="Careers"
     >
-      <input type="hidden" name="form-name" value="Careers">
+      <input type="hidden" name="form-name" value="Careers" />
       <input
-        id="role" type="text" name="role" :value="props.role" readonly
+        id="role"
+        type="text"
+        name="role"
+        :value="props.role"
+        readonly
         class="pointer-events-none form-input"
-      >
+      />
       <label class="flex flex-col" for="name">
         <strong>
-          {{ t('careers.form.name.label') }}
+          {{ t("careers.form.name.label") }}
           <span class="required">*</span>
         </strong>
         <input
@@ -28,11 +37,11 @@ const { t } = useI18n()
           name="name"
           :placeholder="t('careers.form.name.placeholder')"
           required
-        >
+        />
       </label>
       <label class="flex flex-col" for="email">
         <strong>
-          {{ t('careers.form.email.label') }}
+          {{ t("careers.form.email.label") }}
           <span class="required">*</span>
         </strong>
         <input
@@ -42,20 +51,22 @@ const { t } = useI18n()
           name="email"
           :placeholder="t('careers.form.email.placeholder')"
           required
-        >
+        />
       </label>
       <label class="flex flex-col" for="resume">
         <strong>
-          {{ t('careers.form.resume.label') }}
+          {{ t("careers.form.resume.label") }}
         </strong>
         <input
-          id="resume" type="file" name="resume"
-          class="p-1 transition border cursor-pointer text-secondaryLight text-tiny file:border-dividerLight form-input file:transition file:cursor-pointer file:rounded file:text-tiny file:text-secondary file:bg-primaryLight border-dividerDarkfile:border file:mr-2 file:py-1 file:px-4 hover:text-secondaryDark hover:file:text-secondaryDark hover:file:bg-primaryDark"
-        >
+          id="resume"
+          type="file"
+          name="resume"
+          class="p-1 border cursor-pointer transition text-secondaryLight text-tiny file:border-dividerLight form-input file:transition file:cursor-pointer file:rounded file:text-tiny file:text-secondary file:bg-primaryLight border-dividerDarkfile:border file:mr-2 file:py-1 file:px-4 hover:text-secondaryDark hover:file:text-secondaryDark hover:file:bg-primaryDark"
+        />
       </label>
       <label class="flex flex-col" for="linked">
         <strong>
-          {{ t('careers.form.linkedin.label') }}
+          {{ t("careers.form.linkedin.label") }}
         </strong>
         <input
           id="linkedin"
@@ -63,11 +74,11 @@ const { t } = useI18n()
           type="url"
           name="linkedin"
           :placeholder="t('careers.form.linkedin.placeholder')"
-        >
+        />
       </label>
       <label class="flex flex-col" for="github">
         <strong>
-          {{ t('careers.form.github.label') }}
+          {{ t("careers.form.github.label") }}
         </strong>
         <input
           id="github"
@@ -75,11 +86,11 @@ const { t } = useI18n()
           type="url"
           name="github"
           :placeholder="t('careers.form.github.placeholder')"
-        >
+        />
       </label>
       <label class="flex flex-col" for="message">
         <strong>
-          {{ t('careers.form.message.label') }}
+          {{ t("careers.form.message.label") }}
           <span class="required">*</span>
         </strong>
         <textarea
@@ -91,7 +102,11 @@ const { t } = useI18n()
           class="form-input"
         />
       </label>
-      <input type="submit" :value="t('careers.form.submit')" class="form-button">
+      <input
+        type="submit"
+        :value="t('careers.form.submit')"
+        class="form-button"
+      />
     </form>
   </div>
 </template>
@@ -104,18 +119,18 @@ const { t } = useI18n()
 }
 
 .form-input {
- @apply mt-2;
- @apply transition;
- @apply rounded;
- @apply text-secondary;
- @apply bg-primaryLight;
- @apply py-2;
- @apply px-4;
- @apply border-none;
- @apply outline-none;
- @apply hover:text-secondaryDark;
- @apply hover:bg-primaryDark;
- @apply focus-visible:outline-accent;
+  @apply mt-2;
+  @apply transition;
+  @apply rounded;
+  @apply text-secondary;
+  @apply bg-primaryLight;
+  @apply py-2;
+  @apply px-4;
+  @apply border-none;
+  @apply outline-none;
+  @apply hover:text-secondaryDark;
+  @apply hover:bg-primaryDark;
+  @apply focus-visible:outline-accent;
 }
 
 .form-button {

@@ -1,13 +1,13 @@
 <script setup lang="ts">
 withDefaults(
   defineProps<{
-    blur: number
-    animate: boolean
+    blur: number;
+    animate: boolean;
   }>(),
   {
     blur: 12,
     animate: false,
-  },
+  }
 )
 </script>
 
@@ -27,7 +27,7 @@ withDefaults(
   @apply transition;
   @apply -z-1;
 
-  background: linear-gradient(45deg,#f83a3a 10%,#f13dd4 50%,#7000ff 90%)
+  background: linear-gradient(45deg, #f83a3a 10%, #f13dd4 50%, #7000ff 90%);
 }
 
 .pulse {

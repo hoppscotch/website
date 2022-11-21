@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import { gradients } from '~/assets/data/gradients'
-import { isDark } from '~/composables'
+import { gradients } from "~/assets/data/gradients"
+import { isDark } from "~/composables"
 const { t } = useI18n()
 
 onMounted(() => {
-  const headlines = [...document.querySelectorAll('.interactive-font')]
+  const headlines = [...document.querySelectorAll(".interactive-font")]
   headlines.forEach((headline) => {
-    const letters = headline.innerText.split('')
-    headline.innerText = ''
+    const letters = headline.innerText.split("")
+    headline.innerText = ""
     letters.forEach((letter: string) => {
-      const span = document.createElement('span')
-      span.innerHTML = letter.trim().length ? letter : '&nbsp;'
+      const span = document.createElement("span")
+      span.innerHTML = letter.trim().length ? letter : "&nbsp;"
       headline.append(span)
     })
   })
@@ -35,12 +35,22 @@ onMounted(() => {
       <p class="max-w-md my-4 text-xl tracking-tighter text-center md:w-3/5">
         {{ t("home.hero.subheading") }}
       </p>
-      <p class="flex my-4 space-x-2 text-center">
-        <ButtonSecondary to="https://github.com/hoppscotch/hoppscotch" label="GitHub" outline />
-        <ButtonPrimary to="https://hoppscotch.io" :label="t('action.open_app')" outline />
+      <p class="flex my-4 text-center space-x-2">
+        <ButtonSecondary
+          to="https://github.com/hoppscotch/hoppscotch"
+          label="GitHub"
+          outline
+        />
+        <ButtonPrimary
+          to="https://hoppscotch.io"
+          :label="t('action.open_app')"
+          outline
+        />
       </p>
-      <p class="my-2 text-center opacity-50 text-secondaryDark tracking-tight">
-        {{ t("home.hero.stats.1.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.2.title") }} &nbsp; • &nbsp; {{ t("home.hero.stats.3.title") }}
+      <p class="my-2 tracking-tight text-center opacity-50 text-secondaryDark">
+        {{ t("home.hero.stats.1.title") }} &nbsp; • &nbsp;
+        {{ t("home.hero.stats.2.title") }} &nbsp; • &nbsp;
+        {{ t("home.hero.stats.3.title") }}
       </p>
       <div
         class="relative flex p-1 mt-8 rounded bg-gradient-to-r md:rounded-xl"
@@ -49,11 +59,13 @@ onMounted(() => {
         <SmartGradient animate :blur="256" />
         <SmartGradient animate :blur="64" />
         <img
-          class="object-cover object-center w-full h-full transition rounded shadow-2xl md:rounded-xl"
-          :src="`/assets/images/screenshots/${isDark ? 'dark' : 'light'}-banner.png`"
+          class="object-cover object-center w-full h-full rounded shadow-2xl transition md:rounded-xl"
+          :src="`/assets/images/screenshots/${
+            isDark ? 'dark' : 'light'
+          }-banner.png`"
           alt="Screenshot"
           loading="lazy"
-        >
+        />
       </div>
     </div>
   </div>

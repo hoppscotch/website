@@ -1,51 +1,51 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed } from "vue"
 
 const props = withDefaults(
   defineProps<{
-    to?: string
-    exact?: boolean
-    blank?: boolean
-    label?: string
-    description?: string
-    icon?: string | {}
-    svg?: string
-    infoIcon?: string
-    reverse?: boolean
-    disabled?: boolean
-    tag?: string
+    to?: string;
+    exact?: boolean;
+    blank?: boolean;
+    label?: string;
+    description?: string;
+    icon?: string | object;
+    svg?: string;
+    infoIcon?: string;
+    reverse?: boolean;
+    disabled?: boolean;
+    tag?: string;
   }>(),
   {
-    to: '',
+    to: "",
     exact: false,
     blank: false,
-    label: '',
-    description: '',
-    icon: '',
-    svg: '',
-    infoIcon: '',
+    label: "",
+    description: "",
+    icon: "",
+    svg: "",
+    infoIcon: "",
     reverse: false,
     disabled: false,
-    tag: '',
-  },
+    tag: "",
+  }
 )
 
 const linkMode = computed(() => {
   if (!props.to)
-    return 'button'
-  if (props.blank)
-    return 'anchor'
-  if (/^\/(?!\/).*$/.test(props.to))
-    return 'router-link'
-  return 'anchor'
+return "button"
+  if (props.blank) 
+return "anchor"
+  if (/^\/(?!\/).*$/.test(props.to)) 
+return "router-link"
+  return "anchor"
 })
 
 const computedComponent = computed(() => {
-  if (linkMode.value === 'anchor')
-    return 'a'
-  if (linkMode.value === 'router-link')
-    return 'router-link'
-  return 'anchor'
+  if (linkMode.value === "anchor") 
+return "a"
+  if (linkMode.value === "router-link") 
+return "router-link"
+  return "anchor"
 })
 </script>
 
@@ -56,7 +56,11 @@ const computedComponent = computed(() => {
     :href="props.to"
     :to="props.to"
     class="inline-flex px-3 py-2 transition rounded cursor-pointer sm:px-4 text-secondary hover:bg-primaryDark hover:text-secondaryDark focus:bg-primaryDark focus:outline-none focus:text-secondaryDark"
-    :class="[{ 'flex-1': label }, { 'flex-row-reverse justify-end': reverse }, { 'pointer-events-none opacity-50 md:opacity-100 ': disabled }]"
+    :class="[
+      { 'flex-1': label },
+      { 'flex-row-reverse justify-end': reverse },
+      { 'pointer-events-none opacity-50 md:opacity-100 ': disabled },
+    ]"
   >
     <component
       :is="icon"
@@ -69,7 +73,10 @@ const computedComponent = computed(() => {
         <div class="font-semibold">
           {{ label }}
         </div>
-        <div v-if="tag" class="ml-2 py-1 px-2 text-[8px] font-medium rounded-full text-secondaryLight bg-primaryLight border border-dividerDarkborder border-dividerDark">
+        <div
+          v-if="tag"
+          class="ml-2 py-1 px-2 text-[8px] font-medium rounded-full text-secondaryLight bg-primaryLight border border-dividerDarkborder border-dividerDark"
+        >
           {{ tag }}
         </div>
       </div>
