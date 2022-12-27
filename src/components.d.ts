@@ -46,6 +46,7 @@ declare module '@vue/runtime-core' {
     LucideMegaphone: typeof import('~icons/lucide/megaphone')['default']
     LucideMoon: typeof import('~icons/lucide/moon')['default']
     LucideSun: typeof import('~icons/lucide/sun')['default']
+    MagicStars: typeof import('./components/MagicStars.vue')['default']
     MenuCompany: typeof import('./components/MenuCompany.vue')['default']
     MenuMobile: typeof import('./components/MenuMobile.vue')['default']
     MenuPlatform: typeof import('./components/MenuPlatform.vue')['default']

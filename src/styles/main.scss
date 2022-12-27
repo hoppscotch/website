@@ -169,20 +169,12 @@ a {
 
   &:before {
     z-index: 3;
-    background: radial-gradient(
-      1000px circle at var(--x) var(--y),
-      var(--color-primaryTransparent),
-      transparent 35%
-    );
+    background: radial-gradient(1000px circle at var(--x) var(--y), var(--color-primaryTransparent), transparent 35%);
   }
 
   &:after {
     z-index: 1;
-    background: radial-gradient(
-      600px circle at var(--x) var(--y),
-      var(--color-primaryTransparent),
-      transparent 40%
-    );
+    background: radial-gradient(600px circle at var(--x) var(--y), var(--color-primaryTransparent), transparent 40%);
   }
 
   &:hover:before {
@@ -211,29 +203,146 @@ a {
   }
 }
 
-.interactive-font span {
-  --add: 0;
+// https://codepen.io/jh3y/pen/wvXvERq
 
-  font-weight: calc(400 + 500 * var(--add));
-  font-stretch: calc(100% + 25% * var(--add));
-  transition: font-stretch 0.2s, font-weight 0.2s;
+// .interactive-card-animation:not(:hover) img {
+//   transition: translate 0.2s;
+// }
 
-  &:hover {
-    --add: 1;
+// .interactive-card-animation:hover img {
+//   translate:
+//     calc((var(--ratio-x) - 0.5) * 20%)
+//     calc((var(--ratio-y) - 0.5) * 20%);
+// }
+
+// .interactive-card-animation {
+//   overflow: hidden;
+//   // aspect-ratio: 3 / 4;
+//   transform-style: preserve-3d;
+//   touch-action: none;
+// }
+
+// .interactive-card-animation:hover {
+//   transform:
+//     rotateX(calc((var(--ratio-y) - 0.5) * 50deg))
+//     rotateY(calc((var(--ratio-x) - 0.5) * -40deg));
+// }
+
+// .interactive-card-animation:not(:hover) {
+//   transform: rotateX(0deg) rotateY(0deg);
+//   transition: transform 0.2s;
+// }
+
+// .interactive-card-animation:after {
+//   content: "";
+//   position: absolute;
+//   inset: 0;
+//   background:
+//     radial-gradient(circle at calc(var(--ratio-x) * 100%) calc(var(--ratio-y) * 100%), hsl(0 0% 100% / 0.5), transparent 50%);
+//   background-repeat: no-repeat;
+//   background-blend-mode: soft-light;
+//   z-index: 2;
+// }
+
+// .interactive-card-animation:before {
+//   content: "";
+//   background:
+//    url(https://assets.codepen.io/605876/code-icon-bg.svg) 0 0 / 18% 18%,
+//    linear-gradient(115deg,
+//      transparent 20%,
+//      var(--green-8) 30%,
+//      transparent 48% 52%,
+//      var(--indigo-8) 70%,
+//      transparent
+//    )
+//    80% 80% / 300% 300%;
+//   filter: brightness(2) contrast(1);
+//   background-blend-mode: overlay;
+//   mix-blend-mode: color-dodge;
+//   position: absolute;
+//   inset: 0;
+//   z-index: 2;
+//   opacity: 0.2;
+//   transition: opacity 0.2s;
+// }
+
+// .interactive-card-animation:hover:before {
+//   background-position:
+//     calc(var(--ratio-x) * 10%) calc(var(--ratio-y) * 10%),
+//     calc(80% + (var(--ratio-x) * -50%)) calc(80% + (var(--ratio-y) * -50%));
+//   opacity: 1;
+// }
+
+:root {
+  --purple: rgb(123, 31, 162);
+  --violet: rgb(103, 58, 183);
+  --pink: rgb(244, 143, 177);
+}
+
+@keyframes background-pan {
+  from {
+    background-position: 0% center;
   }
 
-  &:hover + span,
-  &:has(+ span:hover) {
-    --add: 0.7;
+  to {
+    background-position: -200% center;
+  }
+}
+
+@keyframes scale {
+  from, to {
+    transform: scale(0);
   }
 
-  &:hover + span + span,
-  &:has(+ span + span:hover) {
-    --add: 0.45;
+  50% {
+    transform: scale(1);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
   }
 
-  &:hover + span + span + span,
-  &:has(+ span + span + span:hover) {
-    --add: 0.2;
+  to {
+    transform: rotate(180deg);
   }
+}
+
+.magic {
+  display: block;
+  position: relative;
+}
+
+.magic > .magic-star {
+  --size: clamp(20px, 1.5vw, 30px);
+
+  animation: scale 700ms ease forwards;
+  display: block;
+  height: var(--size);
+  left: var(--star-left);
+  position: absolute;
+  top: var(--star-top);
+  width: var(--size);
+}
+
+.magic > .magic-star > svg {
+  animation: rotate 1000ms linear infinite;
+  display: block;
+  opacity: 0.7;
+}
+
+.magic > .magic-star > svg > path {
+  fill: var(--violet);
+}
+
+.magic-text {
+  @apply relative;
+  @apply whitespace-nowrap;
+  @apply text-transparent;
+  @apply bg-clip-text #{!important};
+
+  animation: background-pan 3s linear infinite;
+  background: linear-gradient(to right, var(--purple), var(--violet), var(--pink), var(--purple));
+  background-size: 200%;
 }

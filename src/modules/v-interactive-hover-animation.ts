@@ -8,6 +8,12 @@ export const install: UserModule = ({ app }) => {
         "interactive-hover-animation"
       )) {
         const rect = card.getBoundingClientRect()
+        // const posX = ev.x - rect.x
+        // const posY = ev.y - rect.y
+        // const ratioX = posX / rect.width
+        // const ratioY = posY / rect.height
+        // card.style.setProperty("--ratio-x", ratioX)
+        // card.style.setProperty("--ratio-y", ratioY)
         card.style.setProperty("--x", `${ev.clientX - rect.left}px`)
         card.style.setProperty("--y", `${ev.clientY - rect.top}px`)
       }
