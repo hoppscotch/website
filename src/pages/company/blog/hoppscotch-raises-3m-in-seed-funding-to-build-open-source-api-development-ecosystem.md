@@ -1,5 +1,5 @@
 ---
-title:  Hoppscotch raises $3M in seed funding to build open source API development ecosystem
+title: Hoppscotch raises $3M in seed funding to build open source API development ecosystem
 ---
 
 # Hoppscotch raises $3M in seed funding to build open source API development ecosystem
@@ -32,7 +32,8 @@ Following our progress, and to accelerate and to continue taking Hoppscotch to t
 
 — Joseph Jacks
 Founder and General Partner, OSS Capital
-> 
+
+>
 
 In addition, several industry leaders are participating in this round and bringing on their insights and networks:
 

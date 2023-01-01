@@ -17,10 +17,8 @@ This growth is great to see, as the student ecosystem is incredibly important to
 ### We are super excited to be a ‘Partner Organization’ of [GitHub Externship](https://github-externships.github.io/externship/) and look forward to supporting all interested students to participate and contribute to our [open-source projects](https://github.com/hoppscotch).
 
 > To support the growing community of student developers and to address their needs, GitHub is launching GitHub Externships. This builds on GitHub Campus offering by providing students a unique opportunity to engage with companies in India, via fellowship programs, and build the right skills future developers need, to succeed in an enterprise environment. The program really connects the dots between open source, the next generation of software developers, and successful companies.
-> 
-> 
+>
 > The GitHub Externship is a 90 days fellowship program about learning, preparing students to be market-ready, strengthening industry-academia relations, and giving practical experience to students. This also aims to provide innovative solutions to the partner organizations on their existing challenges, organizations could potentially identify real talent that can be employed by the organizations at later stages.
-> 
 
 # Eligibility
 

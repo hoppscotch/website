@@ -15,7 +15,7 @@ Hoppscotch just received its [25,000th star on GitHub](https://github.com/hopps
 > **To those who don't know what Hoppscotch is:**
 
 Hoppscotch is an open-sourced API request builder used by 100k+ developers. Helps you to create / test / save requests faster, saving precious time on development. An online free, fast and beautiful alternative to Postman / Insomnia, etc.
-> 
+
 > - Web app: [hoppscotch.io](https://hoppscotch.io)
 > - GitHub: [github/hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)
 

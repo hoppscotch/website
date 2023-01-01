@@ -10,7 +10,7 @@ Tags: app, release<br/>
 
 <hr/>
 
-*In case you missed it!*
+_In case you missed it!_
 
 **Story this far:** I joined Zartek, which is a start-up based in Kochi, Kerala where I work as a full-stack developer.
 

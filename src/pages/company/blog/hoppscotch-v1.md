@@ -4,7 +4,6 @@ title: Hoppscotch Blog | Hoppscotch v1
 
 # Hoppscotch v1
 
-
 Author: Liyas Thomas<br/>
 Date: November 5, 2019<br/>
 Tags: app, release<br/>
@@ -26,15 +25,14 @@ The [initial tweet](https://twitter.com/liyasthomas/status/1164497735715893249)
 I literally launched Hoppscotch on a [dev.to article](https://dev.to/liyasthomas/i-created-postwoman-an-online-open-source-api-request-builder-41md) and wrote about it on Hacker News, HackerNoon, Medium, HashNode, Reddit, Twitter, etc.
 
 > I saw a guy writing JavaScript today.
-No frameworks.
-No libraries.
-No problems.
-He just did it.
-Writing JavaScript.
-Like a Psychopath.
-> 
+> No frameworks.
+> No libraries.
+> No problems.
+> He just did it.
+> Writing JavaScript.
+> Like a Psychopath.
 
-*It was me 🙃*
+_It was me 🙃_
 
 I had some problems with CORS in deployment, but I found a quick workaround. I used Vue.js and apparently migrated to Nuxt.js.
 

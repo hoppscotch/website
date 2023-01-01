@@ -7,7 +7,7 @@ const { t } = useI18n()
 <template>
   <div class="flex flex-col py-16 px-8">
     <LandingAnnouncement />
-    <div class="flex flex-col top-32 sticky items-center">
+    <div class="flex flex-col items-center">
       <h1
         class="mt-4 text-center text-secondaryDark leading-none tracking-tighter w-full max-w-2xl transition text-5xl block md:text-6xl lg:text-8xl"
       >
@@ -40,20 +40,21 @@ const { t } = useI18n()
         {{ t("home.hero.stats.3.title") }}
       </p>
     </div>
-    <div
-      class="bg-gradient-to-r rounded flex mt-8 p-1 relative md:rounded-xl"
-      :class="gradients.accent"
-    >
-      <SmartGradient animate :blur="256" />
-      <SmartGradient animate :blur="64" />
-      <img
-        class="rounded h-full object-cover object-center w-full transition shadow-2xl md:rounded-xl"
-        :src="`/assets/images/screenshots/${
-          isDark ? 'dark' : 'light'
-        }-banner.png`"
-        alt="Screenshot"
-        loading="lazy"
-      />
-    </div>
+    <AnimatedComponent animation-type="zoom">
+      <div
+        class="bg-gradient-to-r rounded flex mt-32 p-0.2 relative"
+        :class="gradients.accent"
+      >
+        <SmartGradient animate :blur="64" />
+        <img
+          class="rounded h-full object-cover object-center w-full transition"
+          :src="`/assets/images/screenshots/${
+            isDark ? 'dark' : 'light'
+          }-banner.png`"
+          alt="Screenshot"
+          loading="lazy"
+        />
+      </div>
+    </AnimatedComponent>
   </div>
 </template>

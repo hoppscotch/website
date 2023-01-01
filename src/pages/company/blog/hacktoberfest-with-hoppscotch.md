@@ -17,7 +17,7 @@ We're developing Hoppscotch, an open-source API request builder for the web, and
 - Web app: [hoppscotch.io](http://hoppscotch.io/)
 - GitHub: [@hoppscotch](https://github.com/hoppscotch/hoppscotch)
 
-*24k+ stars on GitHub • # 2 product of the day on Product Hunt • featured in Indie Hackers, Hacker News, Hacker noon, YouTube & open source podcast, etc.*
+_24k+ stars on GitHub • # 2 product of the day on Product Hunt • featured in Indie Hackers, Hacker News, Hacker noon, YouTube & open source podcast, etc._
 
 ## **Get started 🚀**
 

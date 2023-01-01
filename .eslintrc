@@ -8,6 +8,7 @@
     "@antfu",
     "plugin:vue/strongly-recommended",
     "eslint:recommended",
+    "plugin:vue/vue3-recommended",
     "@vue/typescript/recommended",
     "prettier"
   ],
@@ -25,5 +26,6 @@
     "@typescript-eslint/no-explicit-any": "off",
     "import/default": "off",
     "no-undef": "off",
+    "vue/require-default-prop": "off"
   }
 }

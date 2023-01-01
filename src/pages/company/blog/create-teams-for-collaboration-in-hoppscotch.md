@@ -26,7 +26,6 @@ Today we're launching Teams Collaboration support in Hoppscotch.
 
 ✅   Multiple devices
 
-
 - [Try Hoppscotch Teams now ✨ ✨](https://hoppscotch.io/)
 - [GitHub](https://github.com/hoppscotch/hoppscotch)
 
@@ -64,7 +63,7 @@ Create a team for just the development team and testers, or product manager and 
 
 That's it, you've successfully created a team and sent invites to your team members. Ask your team members to check their inbox to accept the invitation from the email received from Hoppscotch.
 
-*NOTE: Team owners can revoke pending invitations from the "Invite window"*
+_NOTE: Team owners can revoke pending invitations from the "Invite window"_
 
 ## User roles
 

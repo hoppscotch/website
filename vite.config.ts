@@ -14,6 +14,7 @@ import VueI18n from "@intlify/vite-plugin-vue-i18n"
 import Inspect from "vite-plugin-inspect"
 import Prism from "markdown-it-prism"
 import LinkAttributes from "markdown-it-link-attributes"
+import eslintPlugin from "vite-plugin-eslint"
 
 const markdownWrapperClasses =
   "prose prose-md text-left container flex flex-col px-8 py-16 lg:max-w-4xl"
@@ -140,6 +141,8 @@ export default defineConfig({
       // change this to enable inspect for debugging
       enabled: false,
     }),
+
+    eslintPlugin(),
   ],
 
   server: {

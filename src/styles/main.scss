@@ -169,12 +169,20 @@ a {
 
   &:before {
     z-index: 3;
-    background: radial-gradient(1000px circle at var(--x) var(--y), var(--color-primaryTransparent), transparent 35%);
+    background: radial-gradient(
+      1000px circle at var(--x) var(--y),
+      var(--color-primaryTransparent),
+      transparent 35%
+    );
   }
 
   &:after {
     z-index: 1;
-    background: radial-gradient(600px circle at var(--x) var(--y), var(--color-primaryTransparent), transparent 40%);
+    background: radial-gradient(
+      600px circle at var(--x) var(--y),
+      var(--color-primaryTransparent),
+      transparent 40%
+    );
   }
 
   &:hover:before {
@@ -290,7 +298,8 @@ a {
 }
 
 @keyframes scale {
-  from, to {
+  from,
+  to {
     transform: scale(0);
   }
 
@@ -343,6 +352,12 @@ a {
   @apply bg-clip-text #{!important};
 
   animation: background-pan 3s linear infinite;
-  background: linear-gradient(to right, var(--purple), var(--violet), var(--pink), var(--purple));
+  background: linear-gradient(
+    to right,
+    var(--purple),
+    var(--violet),
+    var(--pink),
+    var(--purple)
+  );
   background-size: 200%;
 }

@@ -1,8 +1,8 @@
 /* https://github.com/antfu/prism-theme-vars */
-@import 'prism-theme-vars/base.css';
+@import "prism-theme-vars/base.css";
 
 .prose {
-  --prism-font-family: 'Input Mono', monospace;
+  --prism-font-family: "Input Mono", monospace;
   @apply text-secondary;
 }
 
@@ -16,15 +16,15 @@
 .prose strong,
 .prose blockquote,
 .prose code,
-.prose ol > li::before{
+.prose ol > li::before {
   @apply text-secondaryDark;
 }
 
 .prose > ul > li > *:last-child,
 .prose > ul > li > *:first-child,
 .prose > ol > li > *:last-child,
-.prose > ol > li > *:first-child{
-  margin:0;
+.prose > ol > li > *:first-child {
+  margin: 0;
 }
 
 .prose img {
