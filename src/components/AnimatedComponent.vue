@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { onMounted, ref } from "vue"
+import { ref } from "vue"
 
 const props = defineProps({
   animationType: {
@@ -16,7 +16,9 @@ const props = defineProps({
 
 const target = ref()
 const animate = ref(false)
-const observer = new IntersectionObserver(
+
+useIntersectionObserver(
+  target,
   ([entry]) => {
     animate.value = entry.isIntersecting
   },
@@ -24,10 +26,6 @@ const observer = new IntersectionObserver(
     threshold: props.threshold,
   }
 )
-
-onMounted(() => {
-  observer.observe(target.value)
-})
 </script>
 
 <template>

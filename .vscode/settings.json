@@ -15,7 +15,7 @@
   },
   "editor.formatOnSave": true,
   "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
