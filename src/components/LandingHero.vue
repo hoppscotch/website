@@ -42,12 +42,12 @@ const { t } = useI18n()
     </div>
     <AnimatedComponent animation-type="zoom">
       <div
-        class="bg-gradient-to-r rounded flex mt-32 p-0.2 relative"
+        class="bg-gradient-to-r rounded-lg flex mt-8 md:mt-32 p-0.2 relative"
         :class="gradients.accent"
       >
         <SmartGradient animate :blur="64" />
         <img
-          class="rounded h-full object-cover object-center w-full transition"
+          class="rounded-lg h-full object-cover object-center w-full transition"
           :src="`/assets/images/screenshots/${
             isDark ? 'dark' : 'light'
           }-banner.png`"
