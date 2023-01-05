@@ -3,7 +3,7 @@
 
 .prose {
   --prism-font-family: "Input Mono", monospace;
-  @apply text-secondary;
+  @apply text-secondary #{!important};
 }
 
 .prose h1,
@@ -24,11 +24,29 @@
 .prose > ul > li > *:first-child,
 .prose > ol > li > *:last-child,
 .prose > ol > li > *:first-child {
-  margin: 0;
+  @apply m-0;
+}
+
+.prose p {
+  @apply my-2;
+}
+
+.prose hr {
+  @apply my-4;
 }
 
 .prose img {
-  width: 100%;
+  @apply w-full;
+}
+
+.prose thead {
+  @apply text-current;
+}
+
+.prose table, .prose th, .prose td {
+  @apply border border-dividerDark;
+  @apply py-2 px-4 #{!important};
+  @apply border-collapse;
 }
 
 html:not(.dark) .prose {

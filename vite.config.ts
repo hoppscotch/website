@@ -104,6 +104,7 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       includeAssets: ["favicon.svg", "robots.txt", "safari-pinned-tab.svg"],
+      selfDestroying: true,
       manifest: {
         name: "Hoppscotch",
         short_name: "Hoppscotch",

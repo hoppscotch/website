@@ -69,7 +69,11 @@ _NOTE: Team owners can revoke pending invitations from the "Invite window"_
 
 Roles are used to control access to the shared collections.
 
-[Roles](Create%20Tea%2010726/Roles%20043a8.csv)
+| ROLE | PERMISSIONS |
+|---|---|
+| OWNER | Owners can add, edit, and delete requests, collections, and team members. |
+| EDITOR | Editors can add, edit, and delete collections and requests. |
+| VIEWER | Viewers can only view and use requests. |
 
 In two years, Hoppsotch has grown to:
 
