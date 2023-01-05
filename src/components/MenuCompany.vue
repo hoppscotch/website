@@ -21,7 +21,7 @@ const { t } = useI18n()
           {{ t("header.menu.blog.title") }}
         </h4>
       </div>
-      <ul class="flex flex-col space-y-2 text-xs">
+      <ul class="flex flex-col text-xs space-y-2">
         <li
           v-for="(blog, blogIndex) in blogs.slice(0, 2)"
           :key="`blog-${blogIndex}`"

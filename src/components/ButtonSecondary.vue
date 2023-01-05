@@ -64,19 +64,19 @@ return "router-link"
     v-bind="$attrs"
     :href="props.to"
     :to="props.to"
-    class="inline-flex items-center justify-center py-2 font-bold border cursor-pointer transition bg-primaryLight border-divider text-secondaryDark hover:bg-primaryDark hover:border-dividerDark focus:outline-none focus-visible:bg-primaryDark"
+    class="inline-flex items-center justify-center py-2 border cursor-pointer bg-primaryLight border-divider text-secondaryDark transition hover:bg-primaryDark hover:border-dividerDark focus:outline-none focus-visible:bg-primaryDark"
     :class="[
       label ? 'px-4' : 'px-2',
       rounded ? 'rounded-full' : 'rounded',
       { 'pointer-events-none': loading },
-      { 'px-6 py-4 text-2xl': large },
+      { 'px-6 text-lg': large },
       { 'shadow-lg hover:shadow-xl': shadow },
       {
         '!border-accent !hover:border-accentDark focus-visible:border-accentDark':
           outline,
       },
       gradient
-        ? `text-accentContrast bg-gradient-to-tr ${gradients.accent}`
+        ? `text-accentContrast bg-gradient-to-br ${gradients.accent}`
         : '',
     ]"
     :tabindex="loading ? '-1' : '0'"

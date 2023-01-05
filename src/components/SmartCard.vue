@@ -23,7 +23,7 @@ const { t } = useI18n()
     <div class="interactive-hover-contents">
       <div class="flex flex-col h-32 p-8">
         <i
-          class="flex items-center justify-center p-2 text-xl transition transform rounded-full text-accentContrast w-13 h-13 bg-accentDark group-hover:bg-accentLight"
+          class="flex items-center justify-center p-2 text-xl rounded-full transition transform text-accentContrast w-13 h-13 bg-accentDark group-hover:bg-accentLight"
         >
           <component
             :is="icon"

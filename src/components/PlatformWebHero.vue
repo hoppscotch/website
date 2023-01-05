@@ -23,7 +23,7 @@ const { t } = useI18n()
         :class="feature.styles"
       >
         <i
-          class="inline-flex items-center justify-center text-3xl shadow rounded-xl text-secondaryDark bg-gradient-to-tl"
+          class="inline-flex items-center justify-center text-3xl shadow rounded-xl text-secondaryDark bg-gradient-to-br"
           :class="feature.styles"
         >
           <component :is="feature.icon" class="w-8 h-8 m-4" />

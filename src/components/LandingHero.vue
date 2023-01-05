@@ -5,36 +5,37 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div class="flex flex-col py-16 px-8">
+  <div class="flex flex-col px-8 py-16">
     <LandingAnnouncement />
     <div class="flex flex-col items-center">
       <h1
-        class="mt-4 text-center text-secondaryDark leading-none tracking-tighter w-full max-w-2xl transition text-5xl block md:text-6xl lg:text-8xl"
+        class="block w-full max-w-2xl mt-4 mb-4 text-5xl leading-none tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-br transition md:text-6xl lg:text-8xl"
+        :class="gradients.gray"
       >
         {{ t("home.hero.heading") }}
-      </h1>
-      <h1
-        class="bg-clip-text bg-gradient-to-r text-center text-transparent mb-4 leading-none tracking-tighter w-full max-w-2xl transition text-5xl block md:text-6xl lg:text-8xl"
-        :class="gradients.accent"
-      >
+        <br />
         {{ t("home.hero.heading_line_2") }}
       </h1>
-      <p class="max-w-md my-4 text-xl text-center tracking-tighter md:w-3/5">
+      <p
+        class="max-w-md my-4 text-2xl tracking-tighter text-center text-secondaryLight md:w-2/3"
+      >
         {{ t("home.hero.subheading") }}
       </p>
-      <p class="flex space-x-2 my-4 text-center">
+      <p class="flex my-4 text-center space-x-2">
         <ButtonSecondary
           to="https://github.com/hoppscotch/hoppscotch"
           label="GitHub"
           outline
+          large
         />
         <ButtonPrimary
           to="https://hoppscotch.io"
           :label="t('action.open_app')"
           outline
+          large
         />
       </p>
-      <p class="my-2 text-center text-secondaryDark tracking-tight opacity-50">
+      <p class="my-2 tracking-tight text-center opacity-50 text-secondaryDark">
         {{ t("home.hero.stats.1.title") }} &nbsp; • &nbsp;
         {{ t("home.hero.stats.2.title") }} &nbsp; • &nbsp;
         {{ t("home.hero.stats.3.title") }}
@@ -42,12 +43,12 @@ const { t } = useI18n()
     </div>
     <AnimatedComponent animation-type="zoom">
       <div
-        class="bg-gradient-to-r rounded-lg flex mt-8 md:mt-32 p-0.2 relative"
+        class="bg-gradient-to-br rounded flex mt-16 p-0.2 relative md:rounded-lg md:mt-32"
         :class="gradients.accent"
       >
         <SmartGradient animate :blur="64" />
         <img
-          class="rounded-lg h-full object-cover object-center w-full transition"
+          class="object-cover object-center w-full h-full rounded transition md:rounded-lg"
           :src="`/assets/images/screenshots/${
             isDark ? 'dark' : 'light'
           }-banner.png`"

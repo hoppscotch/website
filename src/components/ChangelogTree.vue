@@ -16,7 +16,7 @@ const changelogCount = ref(5)
         {{ t("changelog.hero.subheading") }}
       </p>
     </div>
-    <div class="flex flex-col grid-cols-9 mx-auto mt-8 md:grid">
+    <div class="flex flex-col mx-auto mt-8 grid-cols-9 md:grid">
       <div
         v-for="(changelog, index) in changelogs.slice(0, changelogCount)"
         :key="`changelog-${index}`"

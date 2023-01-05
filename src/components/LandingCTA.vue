@@ -15,7 +15,7 @@ const { t } = useI18n()
       <p class="max-w-md my-4 text-xl tracking-tighter text-center md:w-3/5">
         {{ t("home.cta.description") }}
       </p>
-      <p class="flex my-4 space-x-2 text-center">
+      <p class="flex my-4 text-center space-x-2">
         <ButtonSecondary
           to="https://github.com/hoppscotch/hoppscotch"
           label="GitHub"

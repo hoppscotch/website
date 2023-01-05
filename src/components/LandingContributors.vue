@@ -18,7 +18,7 @@ const randomContributors = computed(() =>
         {{ t("home.contributors.description") }}
       </p>
     </div>
-    <div class="mt-8 grid grid-cols-5 gap-4 md:grid-cols-8 lg:grid-cols-10">
+    <div class="mt-8 grid grid-cols-5 gap-4 md:grid-cols-8 lg:grid-cols-11">
       <a
         v-for="(contributor, index) in randomContributors"
         :key="index"
@@ -47,7 +47,7 @@ const randomContributors = computed(() =>
   @return $randomNum;
 }
 
-$CIRCLE_COUNT: 40;
+$CIRCLE_COUNT: 44;
 
 @for $i from 1 through $CIRCLE_COUNT {
   .contributor-bubble-#{$i} {
@@ -65,31 +65,31 @@ $CIRCLE_COUNT: 40;
     transform: translate(0px, 0px) rotate(0deg);
   }
   10% {
-    transform: translate(8px, 8px) rotate(1deg);
+    transform: translate(6px, 6px) rotate(1deg);
   }
   20% {
-    transform: translate(12px, 12px) rotate(2deg);
+    transform: translate(10px, 10px) rotate(2deg);
   }
   30% {
-    transform: translate(8px, -8px) rotate(3deg);
+    transform: translate(6px, -6px) rotate(3deg);
   }
   40% {
-    transform: translate(-8px, -8px) rotate(2deg);
+    transform: translate(-6px, -6px) rotate(2deg);
   }
   50% {
     transform: translate(0px, 0px) rotate(0deg);
   }
   60% {
-    transform: translate(8px, 8px) rotate(1deg);
+    transform: translate(6px, 6px) rotate(1deg);
   }
   70% {
-    transform: translate(12px, 12px) rotate(2deg);
+    transform: translate(10px, 10px) rotate(2deg);
   }
   80% {
-    transform: translate(8px, -8px) rotate(3deg);
+    transform: translate(6px, -6px) rotate(3deg);
   }
   90% {
-    transform: translate(-8px, -8px) rotate(2deg);
+    transform: translate(-6px, -6px) rotate(2deg);
   }
   100% {
     transform: translate(0px, 0px) rotate(0deg);

@@ -148,15 +148,31 @@ export const contributors = [
     username: "oshhh",
   },
   {
-    image: "https://github.com/moonrailgun.png",
-    username: "moonrailgun",
+    image: "https://github.com/kyteinsky.png",
+    username: "kyteinsky",
   },
   {
-    image: "https://github.com/mateusppereira.png",
-    username: "mateusppereira",
+    image: "https://github.com/mirarifhasan.png",
+    username: "mirarifhasan",
   },
   {
-    image: "https://github.com/blenderskool.png",
-    username: "blenderskool",
+    image: "https://github.com/nivedin.png",
+    username: "nivedin",
+  },
+  {
+    image: "https://github.com/JoelJacobStephen.png",
+    username: "JoelJacobStephen",
+  },
+  {
+    image: "https://github.com/balub.png",
+    username: "balub",
+  },
+  {
+    image: "https://github.com/amk-dev.png",
+    username: "amk-dev",
+  },
+  {
+    image: "https://github.com/anwarulislam.png",
+    username: "anwarulislam",
   },
 ]
