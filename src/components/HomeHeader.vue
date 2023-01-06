@@ -35,26 +35,26 @@ onMounted(() => {
 
 <template>
   <header class="max-h-screen top-0 z-20 sticky <md:overflow-auto">
-    <nav
-      class="bg-white flex transition backdrop-blur backdrop-filter !bg-opacity-75 dark:bg-dark-900"
-    >
-      <div class="container flex items-center justify-between flex-1 px-8 py-2">
+    <nav class="bg-primary flex transition">
+      <div
+        class="container border-dividerLight flex flex-1 py-2 px-8 items-center justify-between md:border-b"
+      >
         <div class="flex md:flex-1 md:w-0">
           <SmartLink
             to="/"
-            class="inline-flex items-center rounded text-secondaryDark focus:outline-none"
+            class="rounded text-secondaryDark inline-flex items-center focus:outline-none"
           >
             <img
               src="/assets/images/logo.svg"
               :alt="t('logo')"
-              class="w-8 h-8 mr-4"
+              class="h-8 mr-4 w-8"
             />
             <span class="font-bold tracking-wide uppercase">
               {{ t("logo") }}
             </span>
           </SmartLink>
         </div>
-        <nav class="hidden space-x-2 md:flex">
+        <nav class="space-x-2 hidden md:flex">
           <span>
             <tippy
               theme="popover"
@@ -115,7 +115,7 @@ onMounted(() => {
           <!-- <SmartItem :label="t('header.menu.pricing.title')" to="/pricing" /> -->
         </nav>
         <div
-          class="items-center justify-end hidden space-x-2 md:flex md:flex-1 lg:w-0"
+          class="space-x-2 items-center justify-end hidden md:flex md:flex-1 lg:w-0"
         >
           <ButtonSecondary
             to="https://github.com/hoppscotch/hoppscotch"
@@ -129,7 +129,7 @@ onMounted(() => {
           />
         </div>
         <div class="md:hidden">
-          <SmartItem
+          <ButtonSecondary
             :icon="showMenu ? x : menu"
             @click="showMenu = !showMenu"
           />

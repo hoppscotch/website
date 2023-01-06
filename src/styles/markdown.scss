@@ -43,7 +43,9 @@
   @apply text-current;
 }
 
-.prose table, .prose th, .prose td {
+.prose table,
+.prose th,
+.prose td {
   @apply border border-dividerDark;
   @apply py-2 px-4 #{!important};
   @apply border-collapse;
