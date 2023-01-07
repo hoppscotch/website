@@ -57,6 +57,7 @@ onMounted(() => {
         <nav class="hidden md:flex">
           <span>
             <tippy
+              :offset="[0, 24]"
               theme="popover"
               arrow
               interactive
@@ -77,6 +78,7 @@ onMounted(() => {
           </span>
           <span>
             <tippy
+              :offset="[0, 24]"
               theme="popover"
               arrow
               interactive
@@ -97,6 +99,7 @@ onMounted(() => {
           </span>
           <span>
             <tippy
+              :offset="[0, 24]"
               theme="popover"
               arrow
               interactive

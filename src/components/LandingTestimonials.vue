@@ -4,19 +4,19 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div class="flex flex-col px-8 py-16">
+  <div class="flex flex-col py-16 px-8">
     <div class="flex flex-col items-center">
       <h1
-        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+        class="my-4 text-center text-secondaryDark leading-none tracking-tighter max-w-2xl transition text-3xl md:text-4xl lg:text-5xl"
       >
         {{ t("home.testimonials.title") }}
       </h1>
     </div>
-    <div class="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+    <div class="mt-8 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       <div
         v-for="(testimonialBlock, testimonialBlockIndex) in testimonials"
         :key="`testimonial-${testimonialBlockIndex}`"
-        class="flex flex-col flex-1 grid grid-cols-1 gap-4"
+        class="flex flex-col flex-1 grid gap-4 grid-cols-1"
         :class="{
           'hidden lg:flex': testimonialBlockIndex === 2,
         }"
@@ -27,13 +27,13 @@ const { t } = useI18n()
           :href="testimonial.link"
           target="_blank"
           rel="noopener noreferrer"
-          class="flex flex-col w-full p-8 rounded-lg shadow transition bg-primaryLight group hover:shadow-md"
+          class="bg-primaryLight rounded-lg flex flex-col shadow w-full p-8 transition group hover:shadow-md"
         >
-          <div class="flex items-center w-full mb-4">
+          <div class="flex mb-4 w-full items-center">
             <img
               :src="testimonial.picture"
               :alt="testimonial.username"
-              class="flex flex-shrink-0 w-10 h-10 rounded-full shadow-inner transition bg-primaryDark"
+              class="bg-primaryDark rounded-full flex flex-shrink-0 h-10 shadow-inner transition w-10"
             />
             <div class="flex-grow pl-4">
               <div class="flex items-center justify-between">
@@ -42,13 +42,13 @@ const { t } = useI18n()
                 </h6>
                 <component :is="testimonial.icon" />
               </div>
-              <span class="text-xs text-secondaryLight">{{
+              <span class="text-secondaryLight">{{
                 testimonial.username
               }}</span>
             </div>
           </div>
           <p
-            class="w-full text-xs transition text-secondary group-hover:text-secondaryDark"
+            class="text-secondary w-full transition group-hover:text-secondaryDark"
           >
             {{ testimonial.text }}
           </p>

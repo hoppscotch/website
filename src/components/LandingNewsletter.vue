@@ -8,12 +8,12 @@ const { t } = useI18n()
     method="post"
     target="_blank"
     validate
-    class="flex flex-col flex-1 px-8 py-16 mx-auto lg:max-w-4xl"
+    class="flex flex-col mx-auto flex-1 py-16 px-8 lg:max-w-4xl"
   >
-    <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+    <div class="grid gap-8 grid-cols-1 md:grid-cols-2">
       <div class="flex flex-col">
         <h4
-          class="flex mb-2 text-2xl font-semibold tracking-tighter text-secondaryDark"
+          class="flex font-semibold text-secondaryDark mb-2 tracking-tighter text-2xl"
         >
           {{ t("newsletter.title") }}
         </h4>
@@ -23,7 +23,7 @@ const { t } = useI18n()
       </div>
       <div class="flex flex-col">
         <div
-          class="inline-flex flex-col space-y-2 md:space-y-0 md:flex-row md:space-x-2"
+          class="flex-col space-y-2 inline-flex md:flex-row md:space-y-0 md:space-x-2"
         >
           <input
             id="mce-EMAIL"
@@ -41,7 +41,7 @@ const { t } = useI18n()
             class="form-button"
           />
         </div>
-        <p class="mt-4 text-xs text-secondaryLight">
+        <p class="mt-4 text-secondaryLight">
           {{ t("newsletter.prompt") }}
         </p>
       </div>

@@ -61,7 +61,7 @@ const { t } = useI18n()
           id="resume"
           type="file"
           name="resume"
-          class="p-1 text-xs border cursor-pointer transition text-secondaryLight file:border-dividerLight form-input file:transition file:cursor-pointer file:rounded file:text-xs file:text-secondary file:bg-primaryLight border-dividerDarkfile:border file:mr-2 file:py-1 file:px-4 hover:text-secondaryDark hover:file:text-secondaryDark hover:file:bg-primaryDark"
+          class="border border-dividerDarkfile:border cursor-pointer text-secondaryLight p-1 transition file:border-dividerLight form-input file:transition file:cursor-pointer file:rounded file:text-secondary file:bg-primaryLight file:mr-2 file:py-1 file:px-4 hover:text-secondaryDark hover:file:text-secondaryDark hover:file:bg-primaryDark"
         />
       </label>
       <label class="flex flex-col" for="linked">
@@ -111,7 +111,7 @@ const { t } = useI18n()
   </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
 .required {
   @apply text-red-500;
   @apply font-bold;

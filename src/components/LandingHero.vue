@@ -5,11 +5,11 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div class="flex flex-col px-8 py-16">
+  <div class="flex flex-col py-16 px-8">
     <LandingAnnouncement />
     <div class="flex flex-col items-center">
       <h1
-        class="block w-full max-w-2xl mt-4 mb-4 text-5xl leading-none tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-br transition md:text-6xl lg:text-8xl"
+        class="bg-clip-text bg-gradient-to-br mt-4 text-center text-transparent mb-4 leading-none tracking-tighter w-full max-w-2xl transition text-5xl block md:text-6xl lg:text-8xl"
         :class="gradients.gray"
       >
         {{ t("home.hero.heading") }}
@@ -17,11 +17,11 @@ const { t } = useI18n()
         {{ t("home.hero.heading_line_2") }}
       </h1>
       <p
-        class="max-w-md my-4 text-2xl tracking-tighter text-center text-secondaryLight md:w-2/3"
+        class="max-w-md my-4 text-center text-secondaryLight tracking-tighter text-2xl md:w-2/3"
       >
         {{ t("home.hero.subheading") }}
       </p>
-      <p class="flex my-4 text-center space-x-2">
+      <p class="flex space-x-2 my-4 text-center">
         <ButtonSecondary
           to="https://github.com/hoppscotch/hoppscotch"
           label="GitHub"
@@ -37,7 +37,7 @@ const { t } = useI18n()
         />
       </p>
       <p
-        class="my-2 text-xs tracking-tight text-center opacity-50 text-secondaryDark"
+        class="my-2 text-sm text-center text-secondaryDark tracking-tight opacity-50"
       >
         {{ t("home.hero.stats.1.title") }} &nbsp; • &nbsp;
         {{ t("home.hero.stats.2.title") }} &nbsp; • &nbsp;
@@ -51,7 +51,7 @@ const { t } = useI18n()
       >
         <SmartGradient animate :blur="64" />
         <img
-          class="object-cover object-center w-full h-full rounded transition md:rounded-lg"
+          class="rounded h-full object-cover object-center w-full transition md:rounded-lg"
           :src="`/assets/images/screenshots/${
             isDark ? 'dark' : 'light'
           }-banner.png`"

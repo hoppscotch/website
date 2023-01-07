@@ -35,19 +35,19 @@ const props = withDefaults(
 )
 
 const linkMode = computed(() => {
-  if (!props.to)
+  if (!props.to) 
 return "button"
-  if (props.blank)
+  if (props.blank) 
 return "anchor"
-  if (/^\/(?!\/).*$/.test(props.to))
+  if (/^\/(?!\/).*$/.test(props.to)) 
 return "router-link"
   return "anchor"
 })
 
 const computedComponent = computed(() => {
-  if (linkMode.value === "anchor")
+  if (linkMode.value === "anchor") 
 return "a"
-  if (linkMode.value === "router-link")
+  if (linkMode.value === "router-link") 
 return "router-link"
   return "anchor"
 })
@@ -59,7 +59,7 @@ return "router-link"
     v-bind="$attrs"
     :href="props.to"
     :to="props.to"
-    class="cursor-pointer text-secondary py-2 px-3 transition inline-flex sm:px-4 hover:text-secondaryDark focus:outline-none focus:text-secondaryDark"
+    class="cursor-pointer text-secondary py-2 px-4 transition inline-flex sm:px-4 hover:text-secondaryDark focus:outline-none focus:text-secondaryDark"
     :class="[
       { 'flex-1': label },
       { 'flex-row-reverse justify-end': reverse },
@@ -71,14 +71,15 @@ return "router-link"
     <component
       :is="icon"
       v-if="icon"
-      :class="label ? (reverse ? 'ml-4 opacity-75' : 'mr-4 opacity-75') : ''"
+      :class="label ? (reverse ? 'ml-3 opacity-75' : 'mr-3 opacity-75') : ''"
       class="flex-shrink-0 my-0.5 inline-flex"
     />
-    <div class="inline-flex items-start" :class="[{ 'flex-col': description }]">
+    <div
+      class="inline-flex items-center"
+      :class="[{ 'mt-0.5 !items-start flex-col': description }]"
+    >
       <div class="flex items-center">
-        <div class="font-semibold">
-          {{ label }}
-        </div>
+        {{ label }}
         <div
           v-if="tag"
           class="bg-primaryLight border border-dividerDarkborder border-dividerDark rounded-full font-medium text-secondaryLight ml-2 py-1 px-2 text-[8px]"
@@ -86,7 +87,7 @@ return "router-link"
           {{ tag }}
         </div>
       </div>
-      <p v-if="description" class="my-2 text-xs text-left text-secondaryLight">
+      <p v-if="description" class="my-2 text-left text-secondaryLight">
         {{ description }}
       </p>
     </div>

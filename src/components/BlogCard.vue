@@ -32,33 +32,33 @@ const getComputedDate = computed(() => {
 <template>
   <SmartLink
     :to="`/company/blog/${blog.slug}`"
-    class="col-span-6 h-128 interactive-hover-animation group"
+    class="h-128 col-span-6 interactive-hover-animation group"
     :class="blog.styles"
   >
     <div class="interactive-hover-contents">
-      <div class="flex flex-col h-64 overflow-hidden rounded-t-xl">
+      <div class="rounded-t-xl flex flex-col h-64 overflow-hidden">
         <img
           :src="`/assets/images/platforms/web/${isDark ? 'dark' : 'light'}-${
             blog.image
           }`"
           :alt="t(blog.title)"
-          class="object-cover object-center w-full h-full transition transform group-hover:scale-105"
+          class="h-full object-cover object-center w-full transform transition group-hover:scale-105"
         />
       </div>
       <div class="flex flex-col flex-1 p-8">
         <h2
-          class="flex items-center text-xl font-semibold gap-4 text-secondaryDark lg:text-2xl"
+          class="flex font-semibold text-xl text-secondaryDark gap-4 items-center lg:text-2xl"
         >
           {{ t(blog.title) }}
         </h2>
-        <div class="flex items-center my-4">
+        <div class="flex my-4 items-center">
           <img
-            class="w-8 h-8 rounded-full"
+            class="rounded-full h-8 w-8"
             :src="blog.author.image"
             :alt="blog.author.name"
           />
-          <p class="flex flex-col ml-3 space-y-1">
-            <span class="text-sm font-semibold text-secondaryDark">
+          <p class="flex flex-col space-y-1 ml-3">
+            <span class="font-semibold text-sm text-secondaryDark">
               {{ t(blog.author.name) }}
             </span>
             <span class="text-xs text-secondaryLight opacity-60">
@@ -66,17 +66,15 @@ const getComputedDate = computed(() => {
             </span>
           </p>
         </div>
-        <p
-          class="flex w-11/12 max-w-xl my-2 opacity-75 leading-6 text-secondaryDark"
-        >
+        <p class="flex max-w-xl my-2 text-secondaryDark opacity-75 w-11/12">
           {{ t(blog.description) }}
         </p>
-        <div class="relative w-full my-2 overflow-hidden faded-edge">
-          <div class="flex w-full overflow-x-auto space-x-2 flex-nowrap">
+        <div class="my-2 w-full relative overflow-hidden faded-edge">
+          <div class="flex flex-nowrap space-x-2 w-full overflow-x-auto">
             <span
               v-for="(tag, tagIndex) in blog.tags"
               :key="`tag-${tag}-${tagIndex}`"
-              class="px-3 py-2 my-1 text-xs rounded-full bg-primaryDark border-primaryDark border-1 whitespace-nowrap"
+              class="bg-primaryDark border-primaryDark rounded-full border-1 my-1 text-xs py-2 px-3 whitespace-nowrap"
             >
               {{ t(tag) }}
             </span>

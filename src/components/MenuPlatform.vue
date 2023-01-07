@@ -18,18 +18,18 @@ const { t } = useI18n()
         :tag="item.tag ? t(item.tag) : ''"
       />
     </div>
-    <div class="flex flex-col p-4 mt-2 rounded bg-primaryDark">
-      <div class="flex items-center mb-2">
+    <div class="bg-primaryDark rounded flex flex-col mt-2 p-4">
+      <div class="flex mb-2 items-center">
         <h4 class="font-semibold text-secondaryDark">
           {{ t("header.menu.guide.title") }}
         </h4>
       </div>
-      <ul class="flex flex-col text-xs space-y-2">
+      <ul class="flex flex-col space-y-2">
         <li v-for="(guide, guideIndex) in guides" :key="`guide-${guideIndex}`">
           <SmartLink
             blank
             :to="guide.link"
-            class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark"
+            class="text-secondaryLight transition inline-flex items-center hover:text-secondaryDark"
           >
             {{ t(guide.title) }}
             <lucide-arrow-right class="ml-2" />
@@ -39,7 +39,7 @@ const { t } = useI18n()
           <SmartLink
             blank
             to="https://aviyel.com/projects/5/hoppscotch/resources/discussion"
-            class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark"
+            class="text-secondaryLight transition inline-flex items-center hover:text-secondaryDark"
           >
             {{ t("header.menu.guide.read_more") }}
             <lucide-arrow-right class="ml-2" />

@@ -15,20 +15,20 @@ const { t } = useI18n()
         :label="t(item.name)"
       />
     </div>
-    <div class="flex flex-col p-4 mt-2 rounded bg-primaryDark">
-      <div class="flex items-center mb-2">
+    <div class="bg-primaryDark rounded flex flex-col mt-2 p-4">
+      <div class="flex mb-2 items-center">
         <h4 class="font-semibold text-secondaryDark">
           {{ t("header.menu.blog.title") }}
         </h4>
       </div>
-      <ul class="flex flex-col text-xs space-y-2">
+      <ul class="flex flex-col space-y-2">
         <li
           v-for="(blog, blogIndex) in blogs.slice(0, 2)"
           :key="`blog-${blogIndex}`"
         >
           <SmartLink
             :to="`/company/blog/${blog.slug}`"
-            class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark"
+            class="text-secondaryLight transition inline-flex items-center hover:text-secondaryDark"
           >
             {{ t(blog.title) }}
             <lucide-arrow-right class="ml-2" />
@@ -37,7 +37,7 @@ const { t } = useI18n()
         <li>
           <SmartLink
             to="/company/blog"
-            class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark"
+            class="text-secondaryLight transition inline-flex items-center hover:text-secondaryDark"
           >
             {{ t("header.menu.blog.read_more") }}
             <lucide-arrow-right class="ml-2" />

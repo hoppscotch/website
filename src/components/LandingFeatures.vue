@@ -38,7 +38,7 @@ const { t } = useI18n()
             <h2 class="flex my-2 text-lg font-semibold tracking-tight">
               {{ t(feature.title) }}
             </h2>
-            <p class="flex flex-1 tracking-tight text-secondaryLight">
+            <p class="flex flex-1 tracking-tight text-sm text-secondaryLight">
               {{ t(feature.description) }}
             </p>
           </div>

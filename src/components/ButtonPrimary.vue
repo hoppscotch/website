@@ -40,19 +40,19 @@ const props = withDefaults(
 )
 
 const linkMode = computed(() => {
-  if (!props.to) 
+  if (!props.to)
 return "button"
-  if (props.blank) 
+  if (props.blank)
 return "anchor"
-  if (/^\/(?!\/).*$/.test(props.to)) 
+  if (/^\/(?!\/).*$/.test(props.to))
 return "router-link"
   return "anchor"
 })
 
 const computedComponent = computed(() => {
-  if (linkMode.value === "anchor") 
+  if (linkMode.value === "anchor")
 return "a"
-  if (linkMode.value === "router-link") 
+  if (linkMode.value === "router-link")
 return "router-link"
   return "anchor"
 })
@@ -69,7 +69,7 @@ return "router-link"
       label ? 'px-4' : 'px-2',
       rounded ? 'rounded-full' : 'rounded',
       { 'pointer-events-none': loading },
-      { 'px-6 text-lg': large },
+      { 'px-6 text-lg font-semibold tracking-tight': large },
       { 'shadow-lg hover:shadow-xl': shadow },
       {
         'border border-accent hover:border-accentDark focus-visible:border-accentDark':
