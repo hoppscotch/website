@@ -5,7 +5,7 @@ const { t } = useI18n()
 
 <template>
   <div
-    class="mx-4 mb-4 border rounded-lg shadow-lg transition bg-primaryLight border-dividerDark md:hidden"
+    class="mx-4 mb-4 border rounded-lg shadow-lg bg-primaryLight border-dividerDark transition md:hidden"
   >
     <nav class="flex flex-col rounded divide-y divide-dividerLight">
       <div
@@ -13,7 +13,7 @@ const { t } = useI18n()
         :key="`category-${categoryIndex}`"
         class="flex flex-col p-4"
       >
-        <p class="p-4 font-semibold uppercase text-secondaryLight">
+        <p class="px-2 py-4 font-semibold uppercase text-secondaryLight">
           {{ t(category.name) }}
         </p>
         <div class="grid grid-cols-2">
@@ -36,7 +36,7 @@ const { t } = useI18n()
           reverse
         /> -->
         <div
-          class="flex justify-center p-4 rounded space-x-4 transition bg-primaryDark"
+          class="flex justify-center p-4 rounded bg-primaryDark space-x-4 transition"
         >
           <ButtonSecondary
             to="https://github.com/hoppscotch/hoppscotch"

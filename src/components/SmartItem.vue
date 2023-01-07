@@ -14,6 +14,8 @@ const props = withDefaults(
     reverse?: boolean;
     disabled?: boolean;
     tag?: string;
+    fill?: boolean;
+    rounded?: boolean;
   }>(),
   {
     to: "",
@@ -27,23 +29,25 @@ const props = withDefaults(
     reverse: false,
     disabled: false,
     tag: "",
+    fill: true,
+    rounded: false,
   }
 )
 
 const linkMode = computed(() => {
-  if (!props.to) 
+  if (!props.to)
 return "button"
-  if (props.blank) 
+  if (props.blank)
 return "anchor"
-  if (/^\/(?!\/).*$/.test(props.to)) 
+  if (/^\/(?!\/).*$/.test(props.to))
 return "router-link"
   return "anchor"
 })
 
 const computedComponent = computed(() => {
-  if (linkMode.value === "anchor") 
+  if (linkMode.value === "anchor")
 return "a"
-  if (linkMode.value === "router-link") 
+  if (linkMode.value === "router-link")
 return "router-link"
   return "anchor"
 })
@@ -55,11 +59,13 @@ return "router-link"
     v-bind="$attrs"
     :href="props.to"
     :to="props.to"
-    class="inline-flex px-3 py-2 rounded cursor-pointer transition sm:px-4 text-secondary hover:bg-primaryDark hover:text-secondaryDark focus:bg-primaryDark focus:outline-none focus:text-secondaryDark"
+    class="cursor-pointer text-secondary py-2 px-3 transition inline-flex sm:px-4 hover:text-secondaryDark focus:outline-none focus:text-secondaryDark"
     :class="[
       { 'flex-1': label },
       { 'flex-row-reverse justify-end': reverse },
       { 'pointer-events-none opacity-50 md:opacity-100 ': disabled },
+      { 'hover:bg-primaryDark focus:bg-primaryDark ': fill },
+      rounded ? 'rounded-full' : 'rounded',
     ]"
   >
     <component
@@ -75,7 +81,7 @@ return "router-link"
         </div>
         <div
           v-if="tag"
-          class="ml-2 py-1 px-2 text-[8px] font-medium rounded-full text-secondaryLight bg-primaryLight border border-dividerDarkborder border-dividerDark"
+          class="bg-primaryLight border border-dividerDarkborder border-dividerDark rounded-full font-medium text-secondaryLight ml-2 py-1 px-2 text-[8px]"
         >
           {{ tag }}
         </div>

@@ -61,7 +61,7 @@ const { t } = useI18n()
           id="resume"
           type="file"
           name="resume"
-          class="p-1 border cursor-pointer transition text-secondaryLight text-tiny file:border-dividerLight form-input file:transition file:cursor-pointer file:rounded file:text-tiny file:text-secondary file:bg-primaryLight border-dividerDarkfile:border file:mr-2 file:py-1 file:px-4 hover:text-secondaryDark hover:file:text-secondaryDark hover:file:bg-primaryDark"
+          class="p-1 text-xs border cursor-pointer transition text-secondaryLight file:border-dividerLight form-input file:transition file:cursor-pointer file:rounded file:text-xs file:text-secondary file:bg-primaryLight border-dividerDarkfile:border file:mr-2 file:py-1 file:px-4 hover:text-secondaryDark hover:file:text-secondaryDark hover:file:bg-primaryDark"
         />
       </label>
       <label class="flex flex-col" for="linked">

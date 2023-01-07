@@ -54,7 +54,7 @@ onMounted(() => {
             </span>
           </SmartLink>
         </div>
-        <nav class="space-x-2 hidden md:flex">
+        <nav class="hidden md:flex">
           <span>
             <tippy
               theme="popover"
@@ -65,6 +65,7 @@ onMounted(() => {
             >
               <template #default>
                 <SmartItem
+                  rounded
                   :label="t('header.menu.solutions.title')"
                   to="/solutions"
                 />
@@ -84,6 +85,7 @@ onMounted(() => {
             >
               <template #default>
                 <SmartItem
+                  rounded
                   :label="t('header.menu.platform.title')"
                   to="/platforms"
                 />
@@ -103,6 +105,7 @@ onMounted(() => {
             >
               <template #default>
                 <SmartItem
+                  rounded
                   :label="t('header.menu.company.title')"
                   to="/company"
                 />
@@ -112,7 +115,11 @@ onMounted(() => {
               </template>
             </tippy>
           </span>
-          <!-- <SmartItem :label="t('header.menu.pricing.title')" to="/pricing" /> -->
+          <SmartItem
+            rounded
+            :label="t('header.menu.pricing.title')"
+            to="/pricing"
+          />
         </nav>
         <div
           class="space-x-2 items-center justify-end hidden md:flex md:flex-1 lg:w-0"
@@ -120,12 +127,10 @@ onMounted(() => {
           <ButtonSecondary
             to="https://github.com/hoppscotch/hoppscotch"
             label="GitHub"
-            outline
           />
           <ButtonPrimary
             to="https://hoppscotch.io"
             :label="t('action.open_app')"
-            outline
           />
         </div>
         <div class="md:hidden">

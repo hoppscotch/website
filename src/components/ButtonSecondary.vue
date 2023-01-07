@@ -19,6 +19,7 @@ const props = withDefaults(
     gradient?: boolean;
     outline?: boolean;
     shortcut?: string[];
+    fill?: boolean;
   }>(),
   {
     to: "",
@@ -36,6 +37,7 @@ const props = withDefaults(
     shadow: false,
     outline: false,
     shortcut: () => [],
+    fill: false,
   }
 )
 
@@ -64,16 +66,19 @@ return "router-link"
     v-bind="$attrs"
     :href="props.to"
     :to="props.to"
-    class="inline-flex items-center justify-center py-2 border cursor-pointer bg-primaryLight border-divider text-secondaryDark transition hover:bg-primaryDark hover:border-dividerDark focus:outline-none focus-visible:bg-primaryDark"
+    class="inline-flex items-center justify-center py-2 cursor-pointer text-secondaryDark transition focus:outline-none"
     :class="[
       label ? 'px-4' : 'px-2',
       rounded ? 'rounded-full' : 'rounded',
+      {
+        'bg-primaryLight hover:bg-primaryDark focus-visible:bg-primaryDark':
+          fill,
+      },
       { 'pointer-events-none': loading },
       { 'px-6 text-lg': large },
       { 'shadow-lg hover:shadow-xl': shadow },
       {
-        '!border-accent !hover:border-accentDark focus-visible:border-accentDark':
-          outline,
+        'border border-divider hover:border-dividerDark': outline,
       },
       gradient
         ? `text-accentContrast bg-gradient-to-br ${gradients.accent}`

@@ -9,13 +9,10 @@ const { t } = useI18n()
         to="/company/blog/hoppscotch-raises-3m-in-seed-funding-to-build-open-source-api-development-ecosystem"
         target="_blank"
         rel="noopener noreferrer"
-        class="relative flex items-center justify-center rounded-full transition bg-primary group dark:bg-primaryDark"
+        class="relative flex items-center justify-center py-2 text-xs border rounded-full bg-primary border-divider text-secondaryLight transition group dark:bg-primary hover:border-dividerDark hover:text-secondaryDark"
       >
-        <SmartGradient animate :blur="8" class="rounded-full" />
         <lucide-megaphone class="hidden h-6 ml-4 md:flex" />
-        <span
-          class="px-4 py-3 border-r rounded-l-full border-divider text-secondaryDark"
-        >
+        <span class="px-4 py-1 border-r rounded-l-full border-divider">
           <span class="md:hidden">
             {{ t("home.announcement.short_description") }}
           </span>
@@ -24,7 +21,7 @@ const { t } = useI18n()
           </span>
         </span>
         <span
-          class="flex items-center justify-center px-4 py-3 font-semibold rounded-r-full transition text-accent group-hover:text-accentDark"
+          class="flex items-center justify-center px-4 font-semibold rounded-r-full text-accent transition group-hover:text-accentLight"
         >
           <span class="md:hidden">
             {{ t("home.announcement.short_link_text") }}
@@ -32,7 +29,7 @@ const { t } = useI18n()
           <span class="hidden md:inline">
             {{ t("home.announcement.long_link_text") }}
           </span>
-          <lucide-arrow-right class="ml-4" />
+          <lucide-arrow-right class="ml-2" />
         </span>
       </SmartLink>
     </div>
