@@ -3,6 +3,7 @@
 <template>
   <div class="flex flex-col">
     <LandingHero />
+    <LandingBanner />
     <LandingUsers />
     <LandingPlatforms />
     <LandingFeatures />

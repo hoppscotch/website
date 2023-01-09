@@ -30,6 +30,7 @@ declare module '@vue/runtime-core' {
     HomeFooter: typeof import('./components/HomeFooter.vue')['default']
     HomeHeader: typeof import('./components/HomeHeader.vue')['default']
     LandingAnnouncement: typeof import('./components/LandingAnnouncement.vue')['default']
+    LandingBanner: typeof import('./components/LandingBanner.vue')['default']
     LandingContributors: typeof import('./components/LandingContributors.vue')['default']
     LandingCTA: typeof import('./components/LandingCTA.vue')['default']
     LandingFeatures: typeof import('./components/LandingFeatures.vue')['default']
