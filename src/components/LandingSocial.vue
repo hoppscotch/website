@@ -3,10 +3,10 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div class="flex flex-col py-16 px-8">
+  <div class="flex flex-col px-8 py-16">
     <div class="grid gap-4 grid-cols-1 md:grid-cols-2">
       <a
-        class="bg-gradient-to-br rounded-xl flex-col from-indigo-800 to-indigo-600/20 text-accentContrast p-8 transition inline-flex group dark:to-indigo-900/20"
+        class="inline-flex flex-col p-8 bg-gradient-to-br rounded-xl from-indigo-800 to-indigo-600/20 text-accentContrast transition group dark:to-indigo-900/20"
         href="https://hoppscotch.io/twitter"
         target="_blank"
         rel="noopener noreferrer"
@@ -17,18 +17,18 @@ const { t } = useI18n()
           />
         </i>
         <div class="flex-grow">
-          <h2 class="flex font-semibold mt-4 text-lg mb-2 tracking-tighter">
+          <h2 class="flex mt-4 mb-2 text-lg font-semibold tracking-tighter">
             {{ t("home.social.twitter.title") }}
           </h2>
           <p
-            class="flex text-sm tracking-tight opacity-50 transition w-4/5 group-hover:opacity-75"
+            class="flex w-4/5 text-sm tracking-tight opacity-50 transition group-hover:opacity-75"
           >
             {{ t("home.social.twitter.description") }}
           </p>
         </div>
       </a>
       <a
-        class="bg-gradient-to-br rounded-xl flex-col from-gray-800 to-gray-600/20 text-accentContrast p-8 transition inline-flex group dark:to-gray-800/20"
+        class="inline-flex flex-col p-8 bg-gradient-to-br rounded-xl from-gray-800 to-gray-600/20 text-accentContrast transition group dark:to-gray-800/20"
         href="https://hoppscotch.io/discord"
         target="_blank"
         rel="noopener noreferrer"
@@ -39,11 +39,11 @@ const { t } = useI18n()
           />
         </i>
         <div class="flex-grow">
-          <h2 class="flex font-semibold mt-4 text-lg mb-2 tracking-tighter">
+          <h2 class="flex mt-4 mb-2 text-lg font-semibold tracking-tighter">
             {{ t("home.social.discord.title") }}
           </h2>
           <p
-            class="flex text-sm tracking-tight opacity-50 transition w-4/5 group-hover:opacity-75"
+            class="flex w-4/5 text-sm tracking-tight opacity-50 transition group-hover:opacity-75"
           >
             {{ t("home.social.discord.description") }}
           </p>

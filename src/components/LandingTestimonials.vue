@@ -4,10 +4,10 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div class="flex flex-col py-16 px-8">
+  <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <h1
-        class="my-4 text-center text-secondaryDark leading-none tracking-tighter max-w-2xl transition text-3xl md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center text-secondaryDark transition md:text-4xl lg:text-5xl"
       >
         {{ t("home.testimonials.title") }}
       </h1>
@@ -27,13 +27,13 @@ const { t } = useI18n()
           :href="testimonial.link"
           target="_blank"
           rel="noopener noreferrer"
-          class="bg-primaryLight rounded-lg flex flex-col shadow w-full p-8 transition group hover:shadow-md"
+          class="flex flex-col w-full p-8 rounded-lg shadow bg-primaryLight transition group hover:shadow-md"
         >
-          <div class="flex mb-4 w-full items-center">
+          <div class="flex items-center w-full mb-4">
             <img
               :src="testimonial.picture"
               :alt="testimonial.username"
-              class="bg-primaryDark rounded-full flex flex-shrink-0 h-10 shadow-inner transition w-10"
+              class="flex flex-shrink-0 w-10 h-10 rounded-full shadow-inner bg-primaryDark transition"
             />
             <div class="flex-grow pl-4">
               <div class="flex items-center justify-between">
@@ -48,7 +48,7 @@ const { t } = useI18n()
             </div>
           </div>
           <p
-            class="text-secondary w-full transition group-hover:text-secondaryDark"
+            class="w-full text-secondary transition group-hover:text-secondaryDark"
           >
             {{ testimonial.text }}
           </p>

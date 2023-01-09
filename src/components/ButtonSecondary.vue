@@ -42,19 +42,19 @@ const props = withDefaults(
 )
 
 const linkMode = computed(() => {
-  if (!props.to)
+  if (!props.to) 
 return "button"
-  if (props.blank)
+  if (props.blank) 
 return "anchor"
-  if (/^\/(?!\/).*$/.test(props.to))
+  if (/^\/(?!\/).*$/.test(props.to)) 
 return "router-link"
   return "anchor"
 })
 
 const computedComponent = computed(() => {
-  if (linkMode.value === "anchor")
+  if (linkMode.value === "anchor") 
 return "a"
-  if (linkMode.value === "router-link")
+  if (linkMode.value === "router-link") 
 return "router-link"
   return "anchor"
 })
@@ -66,7 +66,7 @@ return "router-link"
     v-bind="$attrs"
     :href="props.to"
     :to="props.to"
-    class="cursor-pointer text-secondaryDark py-2 transition inline-flex items-center justify-center focus:outline-none"
+    class="inline-flex items-center justify-center py-2 cursor-pointer text-secondaryDark transition focus:outline-none"
     :class="[
       label ? 'px-4' : 'px-2',
       rounded ? 'rounded-full' : 'rounded',
@@ -95,7 +95,7 @@ return "router-link"
         :is="icon"
         v-if="icon"
         :class="label ? (reverse ? 'ml-4 opacity-75' : 'mr-4 opacity-75') : ''"
-        class="flex-shrink-0 inline-flex"
+        class="inline-flex flex-shrink-0"
       />
       {{ label }}
       <div v-if="shortcut.length" class="ml-2 <sm:hidden">

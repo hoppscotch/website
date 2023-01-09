@@ -35,7 +35,7 @@ const { t } = useI18n()
             {{ t(feature.title) }}
           </h2>
           <p
-            class="flex w-4/5 max-w-xl tracking-tight text-sm opacity-75 text-secondaryDark"
+            class="flex w-4/5 max-w-xl text-sm tracking-tight opacity-75 text-secondaryDark"
           >
             {{ t(feature.description) }}
           </p>

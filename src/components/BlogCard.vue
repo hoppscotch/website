@@ -36,29 +36,29 @@ const getComputedDate = computed(() => {
     :class="blog.styles"
   >
     <div class="interactive-hover-contents">
-      <div class="rounded-t-xl flex flex-col h-64 overflow-hidden">
+      <div class="flex flex-col h-64 overflow-hidden rounded-t-xl">
         <img
           :src="`/assets/images/platforms/web/${isDark ? 'dark' : 'light'}-${
             blog.image
           }`"
           :alt="t(blog.title)"
-          class="h-full object-cover object-center w-full transform transition group-hover:scale-105"
+          class="object-cover object-center w-full h-full transform transition group-hover:scale-105"
         />
       </div>
       <div class="flex flex-col flex-1 p-8">
         <h2
-          class="flex font-semibold text-xl text-secondaryDark gap-4 items-center lg:text-2xl"
+          class="flex items-center text-xl font-semibold text-secondaryDark gap-4 lg:text-2xl"
         >
           {{ t(blog.title) }}
         </h2>
-        <div class="flex my-4 items-center">
+        <div class="flex items-center my-4">
           <img
-            class="rounded-full h-8 w-8"
+            class="w-8 h-8 rounded-full"
             :src="blog.author.image"
             :alt="blog.author.name"
           />
-          <p class="flex flex-col space-y-1 ml-3">
-            <span class="font-semibold text-sm text-secondaryDark">
+          <p class="flex flex-col ml-3 space-y-1">
+            <span class="text-sm font-semibold text-secondaryDark">
               {{ t(blog.author.name) }}
             </span>
             <span class="text-xs text-secondaryLight opacity-60">
@@ -66,15 +66,15 @@ const getComputedDate = computed(() => {
             </span>
           </p>
         </div>
-        <p class="flex max-w-xl my-2 text-secondaryDark opacity-75 w-11/12">
+        <p class="flex w-11/12 max-w-xl my-2 opacity-75 text-secondaryDark">
           {{ t(blog.description) }}
         </p>
-        <div class="my-2 w-full relative overflow-hidden faded-edge">
-          <div class="flex flex-nowrap space-x-2 w-full overflow-x-auto">
+        <div class="relative w-full my-2 overflow-hidden faded-edge">
+          <div class="flex w-full overflow-x-auto flex-nowrap space-x-2">
             <span
               v-for="(tag, tagIndex) in blog.tags"
               :key="`tag-${tag}-${tagIndex}`"
-              class="bg-primaryDark border-primaryDark rounded-full border-1 my-1 text-xs py-2 px-3 whitespace-nowrap"
+              class="px-3 py-2 my-1 text-xs rounded-full bg-primaryDark border-primaryDark border-1 whitespace-nowrap"
             >
               {{ t(tag) }}
             </span>

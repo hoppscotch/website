@@ -59,12 +59,12 @@ return "router-link"
     v-bind="$attrs"
     :href="props.to"
     :to="props.to"
-    class="cursor-pointer text-secondary py-2 px-4 transition inline-flex sm:px-4 hover:text-secondaryDark focus:outline-none focus:text-secondaryDark"
+    class="inline-flex px-4 py-2 cursor-pointer text-secondary transition sm:px-4 hover:text-secondaryDark focus:outline-none focus:text-secondaryDark"
     :class="[
       { 'flex-1': label },
       { 'flex-row-reverse justify-end': reverse },
-      { 'pointer-events-none opacity-50 md:opacity-100 ': disabled },
-      { 'hover:bg-primaryDark focus:bg-primaryDark ': fill },
+      { 'pointer-events-none opacity-50 md:opacity-100': disabled },
+      { 'hover:bg-primaryDark focus:bg-primaryDark': fill },
       rounded ? 'rounded-full' : 'rounded',
     ]"
   >

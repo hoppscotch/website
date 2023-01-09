@@ -35,19 +35,19 @@ onMounted(() => {
 
 <template>
   <header class="max-h-screen top-0 z-20 sticky <md:overflow-auto">
-    <nav class="bg-primary flex transition">
+    <nav class="flex bg-primary transition">
       <div
-        class="container border-dividerLight flex flex-1 py-2 px-8 items-center justify-between md:border-b"
+        class="container flex items-center justify-between flex-1 px-8 py-2 border-dividerLight md:border-b"
       >
         <div class="flex md:flex-1 md:w-0">
           <SmartLink
             to="/"
-            class="rounded text-secondaryDark inline-flex items-center focus:outline-none"
+            class="inline-flex items-center rounded text-secondaryDark focus:outline-none"
           >
             <img
               src="/assets/images/logo.svg"
               :alt="t('logo')"
-              class="h-8 mr-4 w-8"
+              class="w-8 h-8 mr-4"
             />
             <span class="font-bold tracking-wide uppercase">
               {{ t("logo") }}
@@ -125,7 +125,7 @@ onMounted(() => {
           />
         </nav>
         <div
-          class="space-x-2 items-center justify-end hidden md:flex md:flex-1 lg:w-0"
+          class="items-center justify-end hidden space-x-2 md:flex md:flex-1 lg:w-0"
         >
           <ButtonSecondary
             to="https://github.com/hoppscotch/hoppscotch"
