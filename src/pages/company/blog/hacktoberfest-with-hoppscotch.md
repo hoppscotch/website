@@ -2,6 +2,8 @@
 title: Hoppscotch Blog | Hacktoberfest with Hoppscotch
 ---
 
+<BackNavigation to="/company/blog" />
+
 # Hacktoberfest with Hoppscotch
 
 Author: Liyas Thomas<br/>

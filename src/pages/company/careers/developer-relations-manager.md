@@ -2,6 +2,8 @@
 title: Hoppscotch Career | Developer Relations Manager
 ---
 
+<BackNavigation to="/company/careers" />
+
 # Developer Relations Manager
 
 <span class="inline-flex px-4 py-1 rounded bg-accent text-accentContrast">Location: Remote</span>

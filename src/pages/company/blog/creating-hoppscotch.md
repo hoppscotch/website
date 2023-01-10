@@ -2,6 +2,8 @@
 title: Hoppscotch Blog | Creating Hoppscotch
 ---
 
+<BackNavigation to="/company/blog" />
+
 # Creating Hoppscotch
 
 Author: Liyas Thomas<br/>

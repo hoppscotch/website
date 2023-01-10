@@ -2,6 +2,8 @@
 title: Hoppscotch Blog | Hoppscotch Celebrating 25,000 GitHub Stars
 ---
 
+<BackNavigation to="/company/blog" />
+
 # Hoppscotch Celebrating 25,000 GitHub Stars
 
 Author: Liyas Thomas<br/>

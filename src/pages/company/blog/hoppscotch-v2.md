@@ -2,6 +2,8 @@
 title: Hoppscotch Blog | Hoppscotch v2
 ---
 
+<BackNavigation to="/company/blog" />
+
 # Hoppscotch v2
 
 Author: Liyas Thomas<br/>

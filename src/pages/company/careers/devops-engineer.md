@@ -2,6 +2,8 @@
 title: Hoppscotch Career | DevOps Engineer
 ---
 
+<BackNavigation to="/company/careers" />
+
 # DevOps Engineer
 
 <span class="inline-flex px-4 py-1 rounded bg-accent text-accentContrast">Location: Remote</span>

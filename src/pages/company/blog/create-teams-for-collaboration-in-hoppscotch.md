@@ -2,6 +2,8 @@
 title: Hoppscotch Blog | Teams in Hoppscotch
 ---
 
+<BackNavigation to="/company/blog" />
+
 # Create Teams for Collaboration in Hoppscotch
 
 Author: Liyas Thomas<br/>

@@ -1,6 +1,8 @@
 ---
-title: Hoppscotch raises $3M in seed funding to build open source API development ecosystem
+title: Hoppscotch Blog | Hoppscotch raises $3M in seed funding to build open source API development ecosystem
 ---
+
+<BackNavigation to="/company/blog" />
 
 # Hoppscotch raises $3M in seed funding to build open source API development ecosystem
 

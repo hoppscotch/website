@@ -2,6 +2,8 @@
 title: Hoppscotch Blog | GitHub Externship ❤️ Hoppscotch
 ---
 
+<BackNavigation to="/company/blog" />
+
 # GitHub Externship ❤️ Hoppscotch
 
 Author: Liyas Thomas<br/>
