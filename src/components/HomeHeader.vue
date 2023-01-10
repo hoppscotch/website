@@ -35,9 +35,9 @@ onMounted(() => {
 
 <template>
   <header class="max-h-screen top-0 z-20 sticky <md:overflow-auto">
-    <nav class="flex bg-primary transition">
+    <nav class="flex border-dividerLight md:border-b bg-primary transition">
       <div
-        class="container flex items-center justify-between flex-1 px-8 py-2 border-dividerLight md:border-b"
+        class="container flex items-center justify-between flex-1 px-8 py-2"
       >
         <div class="flex md:flex-1 md:w-0">
           <SmartLink

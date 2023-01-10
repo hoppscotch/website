@@ -19,8 +19,8 @@ const animate = ref(false)
 
 useIntersectionObserver(
   target,
-  ([entry]) => {
-    animate.value = entry.isIntersecting
+  ([{ isIntersecting }]) => {
+    animate.value = isIntersecting
   },
   {
     threshold: props.threshold,

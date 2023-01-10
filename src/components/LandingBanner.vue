@@ -6,9 +6,7 @@ import { isDark } from "~/composables"
 <template>
   <div class="flex flex-col px-8 py-16">
     <div class="relative py-32">
-      <div
-        class="absolute inset-0 flex items-center justify-center border-y border-dividerLight -z-1 animated-grid"
-      ></div>
+      <AnimatedGrid />
       <AnimatedComponent animation-type="zoom">
         <div
           class="bg-gradient-to-br rounded flex p-0.2 relative md:rounded-lg"
