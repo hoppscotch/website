@@ -45,7 +45,7 @@ declare module '@vue/runtime-core' {
     LogosTwitter: typeof import('~icons/logos/twitter')['default']
     LucideArrowRight: typeof import('~icons/lucide/arrow-right')['default']
     LucideCalendar: typeof import("~icons/lucide/calendar")["default"]
-    LucideLightbulb: typeof import('~icons/lucide/lightbulb')['default']
+    LucideLightbulb: typeof import("~icons/lucide/lightbulb")["default"]
     LucideMegaphone: typeof import('~icons/lucide/megaphone')['default']
     LucideMoon: typeof import('~icons/lucide/moon')['default']
     LucideSun: typeof import('~icons/lucide/sun')['default']

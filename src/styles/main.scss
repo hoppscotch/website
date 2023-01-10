@@ -282,86 +282,129 @@ a {
 //   opacity: 1;
 // }
 
-:root {
-  --purple: rgb(123, 31, 162);
-  --violet: rgb(103, 58, 183);
-  --pink: rgb(244, 143, 177);
-}
+// :root {
+//   --purple: rgb(123, 31, 162);
+//   --violet: rgb(103, 58, 183);
+//   --pink: rgb(244, 143, 177);
+// }
 
-@keyframes background-pan {
-  from {
-    background-position: 0% center;
-  }
+// @keyframes background-pan {
+//   from {
+//     background-position: 0% center;
+//   }
 
-  to {
-    background-position: -200% center;
-  }
-}
+//   to {
+//     background-position: -200% center;
+//   }
+// }
 
-@keyframes scale {
-  from,
-  to {
-    transform: scale(0);
-  }
+// @keyframes scale {
+//   from,
+//   to {
+//     transform: scale(0);
+//   }
 
-  50% {
-    transform: scale(1);
-  }
-}
+//   50% {
+//     transform: scale(1);
+//   }
+// }
 
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
+// @keyframes rotate {
+//   from {
+//     transform: rotate(0deg);
+//   }
 
-  to {
-    transform: rotate(180deg);
-  }
-}
+//   to {
+//     transform: rotate(180deg);
+//   }
+// }
 
-.magic {
-  display: block;
-  position: relative;
-}
+// .magic {
+//   display: block;
+//   position: relative;
+// }
 
-.magic > .magic-star {
-  --size: clamp(20px, 1.5vw, 30px);
+// .magic > .magic-star {
+//   --size: clamp(20px, 1.5vw, 30px);
 
-  animation: scale 700ms ease forwards;
-  display: block;
-  height: var(--size);
-  left: var(--star-left);
-  position: absolute;
-  top: var(--star-top);
-  width: var(--size);
-}
+//   animation: scale 700ms ease forwards;
+//   display: block;
+//   height: var(--size);
+//   left: var(--star-left);
+//   position: absolute;
+//   top: var(--star-top);
+//   width: var(--size);
+// }
 
-.magic > .magic-star > svg {
-  animation: rotate 1000ms linear infinite;
-  display: block;
-  opacity: 0.7;
-}
+// .magic > .magic-star > svg {
+//   animation: rotate 1000ms linear infinite;
+//   display: block;
+//   opacity: 0.7;
+// }
 
-.magic > .magic-star > svg > path {
-  fill: var(--violet);
-}
+// .magic > .magic-star > svg > path {
+//   fill: var(--violet);
+// }
 
-.magic-text {
-  @apply relative;
-  @apply whitespace-nowrap;
-  @apply text-transparent;
-  @apply bg-clip-text #{!important};
+// .magic-text {
+//   @apply relative;
+//   @apply whitespace-nowrap;
+//   @apply text-transparent;
+//   @apply bg-clip-text #{!important};
 
-  animation: background-pan 3s linear infinite;
-  background: linear-gradient(
-    to right,
-    var(--purple),
-    var(--violet),
-    var(--pink),
-    var(--purple)
-  );
-  background-size: 200%;
-}
+//   animation: background-pan 3s linear infinite;
+//   background: linear-gradient(
+//     to right,
+//     var(--purple),
+//     var(--violet),
+//     var(--pink),
+//     var(--purple)
+//   );
+//   background-size: 200%;
+// }
+
+// .gradient-border {
+//   --borderWidth: 2px;
+//   background: var(--color-primary);
+//   position: relative;
+//   border-radius: 8px;
+// }
+
+// .gradient-border:after {
+//   content: "";
+//   position: absolute;
+//   top: calc(-1 * var(--borderWidth));
+//   left: calc(-1 * var(--borderWidth));
+//   height: calc(100% + var(--borderWidth) * 2);
+//   width: calc(100% + var(--borderWidth) * 2);
+//   background: linear-gradient(
+//     45deg,
+//     #f79533,
+//     #f37055,
+//     #ef4e7b,
+//     #a166ab,
+//     #5073b8,
+//     #1098ad,
+//     #07b39b,
+//     #6fba82
+//   );
+//   border-radius: 10px;
+//   z-index: -1;
+//   animation: animatedgradient 3s ease alternate infinite;
+//   background-size: 200% 200%;
+// }
+
+// @keyframes animatedgradient {
+//   0% {
+//     background-position: 0% 50%;
+//   }
+//   50% {
+//     background-position: 100% 50%;
+//   }
+//   100% {
+//     background-position: 0% 50%;
+//   }
+// }
 
 // .box {
 //   --border-size: 3px;

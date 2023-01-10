@@ -7,7 +7,7 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <h1
-        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center text-secondaryDark transition magic-text md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center text-secondaryDark transition md:text-4xl lg:text-5xl"
       >
         {{ t("home.platforms.title") }}
       </h1>
@@ -15,15 +15,15 @@ const { t } = useI18n()
         {{ t("home.platforms.description") }}
       </p>
     </div>
-    <div class="mt-8 grid gap-4 grid-cols-2 md:gap-8">
+    <div class="mt-8 grid gap-4 grid-cols-1 md:grid-cols-2 md:gap-8">
       <div
         v-for="(feature, index) in features"
         :key="`feature-${index}`"
-        class="w-full p-8 overflow-hidden bg-gradient-to-br rounded-xl col-span-2 md:p-16"
-        :class="feature.styles"
+        class="w-full p-8 overflow-hidden bg-center bg-no-repeat bg-cover rounded-xl md:p-16"
+        :style="`background-image: url(/assets/images/home/banners/${feature.banner})`"
       >
         <i
-          class="inline-flex items-center justify-center text-3xl shadow bg-gradient-to-bg rounded-xl text-secondaryDark"
+          class="inline-flex items-center justify-center text-3xl rounded-full shadow bg-gradient-to-br text-secondaryDark"
           :class="feature.styles"
         >
           <component :is="feature.icon" class="w-8 h-8 m-4" />
