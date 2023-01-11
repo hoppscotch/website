@@ -19,22 +19,26 @@ const randomContributors = computed(() =>
       </p>
     </div>
     <div class="mt-8 grid grid-cols-5 gap-4 md:grid-cols-8 lg:grid-cols-11">
-      <a
+      <div
         v-for="(contributor, index) in randomContributors"
         :key="index"
-        :href="`https://github.com/${contributor.username}`"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="inline-flex flex-col items-center justify-center m-2 rounded-full"
+        class="inline-flex flex-col items-center justify-center p-2"
       >
-        <img
-          :src="contributor.image"
-          :username="contributor.username"
-          loading="lazy"
-          class="object-cover rounded-full shadow-inner transition bg-primaryDark ring-dividerDark contributor-bubble hover:ring-4"
-          :class="`contributor-bubble-${index + 1}`"
-        />
-      </a>
+        <a
+          :href="`https://github.com/${contributor.username}`"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="rounded-full"
+        >
+          <img
+            :src="contributor.image"
+            :username="contributor.username"
+            loading="lazy"
+            class="object-cover rounded-full shadow-inner ring-accent hover:ring-4 ring-offset-primary ring-offset-4 transition bg-primaryDark contributor-bubble"
+            :class="`contributor-bubble-${index + 1}`"
+          />
+        </a>
+      </div>
     </div>
   </div>
 </template>
