@@ -7,7 +7,7 @@ const props = withDefaults(
     to: string;
     exact?: boolean;
     blank?: boolean;
-    label: string;
+    label?: string;
     description?: string;
     icon?: string;
     infoIcon?: string;

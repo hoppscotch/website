@@ -18,7 +18,9 @@ const randomContributors = computed(() =>
         {{ t("home.contributors.description") }}
       </p>
     </div>
-    <div class="mt-8 grid grid-cols-5 gap-4 md:grid-cols-8 lg:grid-cols-11">
+    <div
+      class="mt-8 grid grid-cols-5 gap-4 md:grid-cols-8 group lg:grid-cols-11"
+    >
       <div
         v-for="(contributor, index) in randomContributors"
         :key="index"
@@ -28,13 +30,13 @@ const randomContributors = computed(() =>
           :href="`https://github.com/${contributor.username}`"
           target="_blank"
           rel="noopener noreferrer"
-          class="rounded-full"
+          class="transition transform rounded-full !hover:scale-105 group-hover:scale-80"
         >
           <img
             :src="contributor.image"
             :username="contributor.username"
             loading="lazy"
-            class="object-cover rounded-full shadow-inner ring-accent hover:ring-4 ring-offset-primary ring-offset-4 transition bg-primaryDark contributor-bubble"
+            class="object-cover rounded-full shadow-inner transition ring-accent hover:ring-4 ring-offset-primary ring-offset-4 bg-primaryDark contributor-bubble"
             :class="`contributor-bubble-${index + 1}`"
           />
         </a>

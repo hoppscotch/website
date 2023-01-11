@@ -7,9 +7,9 @@ const props = withDefaults(
     to?: string;
     exact?: boolean;
     blank?: boolean;
-    label: string;
+    label?: string;
     description?: string;
-    icon?: string;
+    icon?: string | object;
     infoIcon?: string;
     reverse?: boolean;
     rounded?: boolean;
@@ -66,7 +66,7 @@ return "router-link"
     v-bind="$attrs"
     :href="props.to"
     :to="props.to"
-    class="inline-flex items-center justify-center py-2 cursor-pointer text-secondaryDark transition focus:outline-none"
+    class="inline-flex items-center justify-center py-2 cursor-pointer transition text-secondaryDark focus:outline-none"
     :class="[
       label ? 'px-4' : 'px-2',
       rounded ? 'rounded-full' : 'rounded',

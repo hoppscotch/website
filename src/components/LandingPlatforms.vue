@@ -23,7 +23,7 @@ const { t } = useI18n()
         :style="`background-image: url(/assets/images/home/banners/${feature.banner})`"
       >
         <i
-          class="inline-flex items-center justify-center text-3xl border rounded-full shadow transition border-accentContrast bg-gradient-to-br"
+          class="inline-flex items-center justify-center text-3xl border-2 rounded-full shadow transition border-accentContrast bg-gradient-to-br"
           :class="`group-hover:${feature.styles}`"
         >
           <component :is="feature.icon" class="w-6 h-6 m-4" />
