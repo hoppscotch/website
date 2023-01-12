@@ -21,7 +21,7 @@ export const features = [
     title: "home.platforms.features.3.title",
     description: "home.platforms.features.3.description",
     styles: gradients.indigo,
-    banner: "flat-mountains.svg",
+    banner: "slanted-gradient.svg",
   },
   {
     icon: check,
