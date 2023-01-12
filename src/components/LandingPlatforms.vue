@@ -19,7 +19,7 @@ const { t } = useI18n()
       <div
         v-for="(feature, index) in features"
         :key="`feature-${index}`"
-        class="w-full p-8 bg-center bg-no-repeat bg-cover group rounded-xl text-accentContrast md:p-16"
+        class="w-full p-8 bg-center bg-no-repeat bg-cover interactive-shadow group rounded-xl text-accentContrast md:p-16"
         :style="`background-image: url(/assets/images/home/banners/${feature.banner})`"
       >
         <i
