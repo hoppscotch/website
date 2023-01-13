@@ -3,6 +3,7 @@
     <LandingHero />
     <LandingBanner />
     <LandingUsers />
+    <LandingConic />
     <LandingPlatforms />
     <LandingMarquee />
     <LandingFeatures />

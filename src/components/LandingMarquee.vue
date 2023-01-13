@@ -2,22 +2,34 @@
   <div class="flex flex-col px-8 py-16">
     <div class="marquee">
       <div class="marquee-group">
-        <p><CircleText /></p>
-        <p aria-hidden="true"><CircleText /></p>
-        <p aria-hidden="true"><CircleText /></p>
-        <p aria-hidden="true"><CircleText /></p>
-        <p aria-hidden="true"><CircleText /></p>
-        <p aria-hidden="true"><CircleText /></p>
-        <p aria-hidden="true"><CircleText /></p>
+        <p><CircleText text="Open source ★ Open source ★" /></p>
+        <p aria-hidden="true">
+          <CircleText text="Open source ★ Open source ★" />
+        </p>
+        <p aria-hidden="true">
+          <CircleText text="Open source ★ Open source ★" />
+        </p>
+        <p aria-hidden="true">
+          <CircleText text="Open source ★ Open source ★" />
+        </p>
+        <p aria-hidden="true">
+          <CircleText text="Open source ★ Open source ★" />
+        </p>
+        <p aria-hidden="true">
+          <CircleText text="Open source ★ Open source ★" />
+        </p>
+        <p aria-hidden="true">
+          <CircleText text="Open source ★ Open source ★" />
+        </p>
       </div>
       <div aria-hidden="true" class="marquee-group">
-        <p><CircleText /></p>
-        <p><CircleText /></p>
-        <p><CircleText /></p>
-        <p><CircleText /></p>
-        <p><CircleText /></p>
-        <p><CircleText /></p>
-        <p><CircleText /></p>
+        <p><CircleText text="Open source ★ Open source ★" /></p>
+        <p><CircleText text="Open source ★ Open source ★" /></p>
+        <p><CircleText text="Open source ★ Open source ★" /></p>
+        <p><CircleText text="Open source ★ Open source ★" /></p>
+        <p><CircleText text="Open source ★ Open source ★" /></p>
+        <p><CircleText text="Open source ★ Open source ★" /></p>
+        <p><CircleText text="Open source ★ Open source ★" /></p>
       </div>
     </div>
   </div>
@@ -30,6 +42,7 @@
   @apply border-accentLight;
   @apply w-screen;
   @apply select-none;
+  @apply overflow-hidden;
 
   --space: 2rem;
   --duration: 16s;

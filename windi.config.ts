@@ -35,22 +35,11 @@ export default defineConfig({
         primaryTransparent: "var(--color-primaryTransparent)",
         primaryTransparentContrast: "var(--color-primaryTransparentContrast)",
       },
-      animation: {
-        "marquee-infinite": "marquee 25s linear infinite",
-        shine: "shine 1s",
+      backgroundImage: {
+        "gradient-conic": "conic-gradient(var(--tw-gradient-stops))",
       },
-      keyframes: {
-        marquee: {
-          "0%": { transform: "translateX(0%)" },
-          "100%": { transform: "translateX(-100%)" },
-        },
-        marquee2: {
-          "0%": { transform: "translateX(100%)" },
-          "100%": { transform: "translateX(0%)" },
-        },
-        shine: {
-          "100%": { left: "125%" },
-        },
+      scale: {
+        flip: "-1",
       },
     },
   },

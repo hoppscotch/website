@@ -1,5 +1,18 @@
+<script setup lang="ts">
+withDefaults(
+  defineProps<{
+    text: string;
+    width?: string;
+  }>(),
+  {
+    width: "128px",
+  }
+)
+</script>
+
 <template>
   <svg
+    :width="width"
     xmlns="http://www.w3.org/2000/svg"
     xml:lang="en"
     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -20,7 +33,7 @@
           aria-label="CSS & SVG are awesome"
           textLength="942"
         >
-          Open source ★ Open source ★ &nbsp;
+          {{ text }} &nbsp;
         </textPath>
       </text>
     </g>
@@ -29,8 +42,6 @@
 
 <style lang="scss" scoped>
 svg {
-  @apply w-32;
-
   &:hover .textcircle {
     transform: scale(1.2) rotate(90deg);
   }
