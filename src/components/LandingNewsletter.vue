@@ -49,7 +49,7 @@ const { t } = useI18n()
   </form>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 .form-input {
   @apply inline-flex;
   @apply flex-1;

@@ -38,12 +38,11 @@ useIntersectionObserver(
   </div>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 .animated-component.fade-enter-from,
 .animated-component.zoom-enter-from {
   transition: none;
 }
-/* Fade animation */
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 300ms ease;
@@ -52,7 +51,6 @@ useIntersectionObserver(
 .fade-leave-to {
   opacity: 0;
 }
-/* Zoom animation */
 .zoom-enter-active,
 .zoom-leave-active {
   transition: transform 300ms ease;

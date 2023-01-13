@@ -20,7 +20,7 @@
           aria-label="CSS & SVG are awesome"
           textLength="942"
         >
-          Open-source community | Open-source community |&#160;
+          Open source ★ Open source ★ &nbsp;
         </textPath>
       </text>
     </g>
@@ -29,7 +29,7 @@
 
 <style lang="scss" scoped>
 svg {
-  width: 160px;
+  @apply w-32;
 
   &:hover .textcircle {
     transform: scale(1.2) rotate(90deg);
@@ -42,12 +42,12 @@ svg {
 }
 
 text {
-  font-size: 22px;
-  font-family: Roboto;
-  font-weight: 500;
-  text-transform: uppercase;
+  @apply text-4xl;
+  @apply font-bold;
+  @apply uppercase;
+  @apply fill-accentContrast;
+
   font-variant-ligatures: none;
-  fill: white;
   letter-spacing: 6px;
   animation: rotate 25s linear infinite;
   transform-origin: 250px 250px;

@@ -135,28 +135,31 @@ const { t } = useI18n()
   </div>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 .slider::before,
 .slider::after {
-  position: absolute;
+  @apply transition;
+  @apply absolute;
+  @apply content-DEFAULT;
+  @apply h-full;
+  @apply w-32;
+  @apply z-2;
+  @apply pointer-events-none;
+
   background-image: linear-gradient(
     to right,
     var(--color-primary) 0%,
     rgba(255, 255, 255, 0) 100%
   );
-  content: "";
-  height: 100%;
-  width: 128px;
-  z-index: 2;
-  pointer-events: none;
 }
 .slider::before {
-  left: 0;
-  top: 0;
+  @apply left-0;
+  @apply top-0;
 }
 .slider::after {
-  right: 0;
-  top: 0;
+  @apply right-0;
+  @apply top-0;
+
   transform: rotateZ(180deg);
 }
 

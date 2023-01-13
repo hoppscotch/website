@@ -25,22 +25,19 @@
 
 <style lang="scss" scoped>
 .marquee {
-  @apply border-y-2;
+  @apply flex;
+  @apply border-y-8;
   @apply border-accentLight;
-  @apply py-4;
-
-  margin-left: calc(-50vw + 50%);
-  width: 100vw;
+  @apply w-screen;
+  @apply select-none;
 
   --space: 2rem;
   --duration: 16s;
   --gap: var(--space);
 
-  display: flex;
-  overflow: hidden;
-  user-select: none;
+  margin-left: calc(-50vw + 50%);
   gap: var(--gap);
-  transform: skewY(-3deg);
+  // transform: skewY(-3deg);
 
   &:hover {
     .marquee-group {
@@ -48,13 +45,15 @@
     }
   }
 }
+
 .marquee-group {
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  @apply flex;
+  @apply flex-shrink-0;
+  @apply items-center;
+  @apply justify-around;
+  @apply min-w-full;
+
   gap: var(--gap);
-  min-width: 100%;
   animation: marquee-scroll var(--duration) linear infinite;
 }
 

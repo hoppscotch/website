@@ -6,8 +6,9 @@
 
 <style lang="scss" scoped>
 .animated-grid {
+  @apply w-screen;
+
   margin-left: calc(-50vw + 50%);
-  width: 100vw;
   background-image: linear-gradient(
       0deg,
       transparent 24%,
@@ -37,18 +38,18 @@
 }
 
 .animated-grid:after {
-  position: absolute;
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
+  @apply content-DEFAULT;
+  @apply absolute;
+  @apply w-full;
+  @apply h-full;
+  @apply opacity-50;
+
   background: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0) 0%,
     rgba(255, 135, 252, 0) 45%,
     rgba(255, 255, 255, 0) 100%
   );
-  opacity: 0.5;
 }
 
 @keyframes moving_grid {
