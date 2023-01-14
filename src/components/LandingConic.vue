@@ -27,8 +27,18 @@ const { t } = useI18n()
           </div>
         </div>
         <div
-          class="relative h-40 border rounded border-dividerLight bg-primary md:rounded-lg md:h-64 lg:h-128"
-        ></div>
+          class="relative flex h-40 max-w-6xl mx-auto md:rounded-lg md:h-64 lg:h-128"
+        >
+          <div
+        class="flex grid flex-1 grid-cols-3 grid-rows-4 gap-2"
+          >
+            <div class="flex flex-1 col-span-1 row-span-4 border rounded border-dividerLight">1</div>
+            <div class="flex flex-1 col-span-1 row-span-2 border rounded border-dividerLight">2</div>
+            <div class="flex flex-1 col-span-1 row-span-2 border rounded border-dividerLight">3</div>
+            <div class="flex flex-1 col-span-1 row-span-2 border rounded border-dividerLight">4</div>
+            <div class="flex flex-1 col-span-1 row-span-2 border rounded border-dividerLight">5</div>
+          </div>
+        </div>
       </div>
       <div class="conic-divider2">
         <div class="flex">
@@ -58,7 +68,7 @@ const { t } = useI18n()
   width: 50vw;
   @apply h-192 lg:h-256;
   background-image: conic-gradient(
-    from 270deg at 30% 50%,
+    from 270deg at 25% 50%,
     transparent,
     transparent,
     var(--color-dividerLight)
@@ -70,7 +80,7 @@ const { t } = useI18n()
   width: 50vw;
   @apply h-192 lg:h-256;
   background-image: conic-gradient(
-    from 270deg at 30% 50%,
+    from 270deg at 25% 50%,
     transparent,
     transparent,
     var(--color-dividerLight)
