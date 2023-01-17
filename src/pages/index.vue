@@ -5,7 +5,6 @@
     <LandingUsers />
     <LandingConic />
     <LandingPlatforms />
-    <LandingMarquee />
     <LandingFeatures />
     <LandingContributors />
     <LandingTestimonials />

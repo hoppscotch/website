@@ -27,11 +27,11 @@ withDefaults(
       />
     </defs>
     <g class="textcircle">
-      <text textLength="942">
+      <text :textLength="text.length * 35">
         <textPath
           xlink:href="#textcircle"
-          aria-label="CSS & SVG are awesome"
-          textLength="942"
+          :aria-label="text"
+          :textLength="text.length * 35"
         >
           {{ text }} &nbsp;
         </textPath>
@@ -56,7 +56,7 @@ text {
   @apply text-4xl;
   @apply font-bold;
   @apply uppercase;
-  @apply fill-accentContrast;
+  @apply fill-secondaryDark;
 
   font-variant-ligatures: none;
   letter-spacing: 6px;

@@ -29,14 +29,32 @@ const { t } = useI18n()
         <div
           class="relative flex max-w-6xl mx-auto md:rounded-lg h-256 lg:h-128"
         >
-          <div
-        class="flex grid flex-1 grid-cols-6 grid-rows-10 gap-2"
-          >
-            <div class="flex flex-1 row-span-2 col-span-6 lg:col-span-2 lg:row-span-10 border rounded border-dividerLight">1</div>
-            <div class="flex flex-1 row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 border rounded border-dividerLight">2</div>
-            <div class="flex flex-1 row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 border rounded border-dividerLight">3</div>
-            <div class="flex flex-1 row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 border rounded border-dividerLight">4</div>
-            <div class="flex flex-1 row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 border rounded border-dividerLight">5</div>
+          <div class="flex flex-1 grid grid-cols-6 grid-rows-10 gap-2">
+            <div
+              class="flex flex-1 border rounded row-span-2 col-span-6 lg:col-span-2 lg:row-span-10 border-dividerDark"
+            >
+              1
+            </div>
+            <div
+              class="flex flex-1 border rounded row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 border-dividerDark"
+            >
+              2
+            </div>
+            <div
+              class="flex flex-1 border rounded row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 border-dividerDark"
+            >
+              3
+            </div>
+            <div
+              class="flex flex-1 border rounded row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 border-dividerDark"
+            >
+              4
+            </div>
+            <div
+              class="flex flex-1 border rounded row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 border-dividerDark"
+            >
+              5
+            </div>
           </div>
         </div>
       </div>
