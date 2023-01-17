@@ -27,16 +27,16 @@ const { t } = useI18n()
           </div>
         </div>
         <div
-          class="relative flex h-40 max-w-6xl mx-auto md:rounded-lg md:h-64 lg:h-128"
+          class="relative flex max-w-6xl mx-auto md:rounded-lg h-256 lg:h-128"
         >
           <div
-        class="flex grid flex-1 grid-cols-3 grid-rows-4 gap-2"
+        class="flex grid flex-1 grid-cols-6 grid-rows-10 gap-2"
           >
-            <div class="flex flex-1 col-span-1 row-span-4 border rounded border-dividerLight">1</div>
-            <div class="flex flex-1 col-span-1 row-span-2 border rounded border-dividerLight">2</div>
-            <div class="flex flex-1 col-span-1 row-span-2 border rounded border-dividerLight">3</div>
-            <div class="flex flex-1 col-span-1 row-span-2 border rounded border-dividerLight">4</div>
-            <div class="flex flex-1 col-span-1 row-span-2 border rounded border-dividerLight">5</div>
+            <div class="flex flex-1 row-span-2 col-span-6 lg:col-span-2 lg:row-span-10 border rounded border-dividerLight">1</div>
+            <div class="flex flex-1 row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 border rounded border-dividerLight">2</div>
+            <div class="flex flex-1 row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 border rounded border-dividerLight">3</div>
+            <div class="flex flex-1 row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 border rounded border-dividerLight">4</div>
+            <div class="flex flex-1 row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 border rounded border-dividerLight">5</div>
           </div>
         </div>
       </div>
@@ -53,20 +53,20 @@ const { t } = useI18n()
 <style lang="scss" scoped>
 .conic-divider1 {
   @apply w-screen;
-  @apply -mt-96 lg:-mt-128;
+  @apply -mt-200 lg:-mt-128;
   margin-left: calc(-50vw + 50%);
 }
 
 .conic-divider2 {
   @apply w-screen;
-  @apply -mb-96 lg:-mb-128;
+  @apply -mb-200 lg:-mb-128;
   margin-left: calc(-50vw + 50%);
   transform: rotate(180deg);
 }
 
 .grad1 {
   width: 50vw;
-  @apply h-192 lg:h-256;
+  @apply h-400 lg:h-256;
   background-image: conic-gradient(
     from 270deg at 25% 50%,
     transparent,
@@ -78,7 +78,7 @@ const { t } = useI18n()
 
 .grad2 {
   width: 50vw;
-  @apply h-192 lg:h-256;
+  @apply h-400 lg:h-256;
   background-image: conic-gradient(
     from 270deg at 25% 50%,
     transparent,
