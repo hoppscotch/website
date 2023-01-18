@@ -31,30 +31,20 @@ const { t } = useI18n()
         >
           <div class="flex flex-1 grid grid-cols-6 grid-rows-10 gap-2">
             <div
-              class="flex flex-1 border rounded row-span-2 col-span-6 lg:col-span-2 lg:row-span-10 border-dividerDark"
-            >
-              1
-            </div>
+              class="flex flex-1 rounded-lg row-span-2 col-span-6 lg:col-span-2 lg:row-span-10 bg-primary"
+            ></div>
             <div
-              class="flex flex-1 border rounded row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 border-dividerDark"
-            >
-              2
-            </div>
+              class="flex flex-1 rounded-lg row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 bg-primary"
+            ></div>
             <div
-              class="flex flex-1 border rounded row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 border-dividerDark"
-            >
-              3
-            </div>
+              class="flex flex-1 rounded-lg row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 bg-primary"
+            ></div>
             <div
-              class="flex flex-1 border rounded row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 border-dividerDark"
-            >
-              4
-            </div>
+              class="flex flex-1 rounded-lg row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 bg-primary"
+            ></div>
             <div
-              class="flex flex-1 border rounded row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 border-dividerDark"
-            >
-              5
-            </div>
+              class="flex flex-1 rounded-lg row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 bg-primary"
+            ></div>
           </div>
         </div>
       </div>
@@ -70,12 +60,14 @@ const { t } = useI18n()
 
 <style lang="scss" scoped>
 .conic-divider1 {
+  @apply relative;
   @apply w-screen;
   @apply -mt-200 lg:-mt-128;
   margin-left: calc(-50vw + 50%);
 }
 
 .conic-divider2 {
+  @apply relative;
   @apply w-screen;
   @apply -mb-200 lg:-mb-128;
   margin-left: calc(-50vw + 50%);
@@ -86,10 +78,10 @@ const { t } = useI18n()
   width: 50vw;
   @apply h-400 lg:h-256;
   background-image: conic-gradient(
-    from 270deg at 25% 50%,
+    from 280deg at 25% 50%,
     transparent,
     transparent,
-    var(--color-dividerLight)
+    var(--color-conicBlue)
   );
   transform: scaleX(-1);
 }
@@ -98,10 +90,10 @@ const { t } = useI18n()
   width: 50vw;
   @apply h-400 lg:h-256;
   background-image: conic-gradient(
-    from 270deg at 25% 50%,
+    from 280deg at 25% 50%,
     transparent,
     transparent,
-    var(--color-dividerLight)
+    var(--color-conicBlue)
   );
 }
 </style>

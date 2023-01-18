@@ -148,8 +148,8 @@ export const contributors = [
     username: "oshhh",
   },
   {
-    image: "https://github.com/kyteinsky.png",
-    username: "kyteinsky",
+    image: "https://github.com/ankitsridhar16.png",
+    username: "ankitsridhar16",
   },
   {
     image: "https://github.com/mirarifhasan.png",
