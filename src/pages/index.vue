@@ -4,9 +4,9 @@
     <LandingBanner />
     <LandingUsers />
     <LandingConic />
-    <LandingPlatforms />
-    <LandingKeyboard />
     <LandingFeatures />
+    <LandingKeyboard />
+    <LandingPlatforms />
     <LandingContributors />
     <LandingTestimonials />
     <LandingMarquee />

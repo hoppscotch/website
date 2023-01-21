@@ -1,5 +1,116 @@
 <script setup lang="ts">
 const { t } = useI18n()
+
+const commandKeyRight = ref(false)
+const commandKeyLeft = ref(false)
+const kKey = ref(false)
+const slashKey = ref(false)
+const returnKey = ref(false)
+const sKey = ref(false)
+const jKey = ref(false)
+const dotKey = ref(false)
+const questionmarkKey = ref(false)
+const shiftRightKey = ref(false)
+const escKey = ref(false)
+
+const setActiveKeys = (keys: string[]) => {
+  commandKeyRight.value = false
+  commandKeyLeft.value = false
+  kKey.value = false
+  slashKey.value = false
+  returnKey.value = false
+  sKey.value = false
+  jKey.value = false
+  dotKey.value = false
+  questionmarkKey.value = false
+  shiftRightKey.value = false
+  escKey.value = false
+
+  if (keys.includes("commandKeyRight")) 
+commandKeyRight.value = true
+  if (keys.includes("commandKeyLeft")) 
+commandKeyLeft.value = true
+  if (keys.includes("kKey")) 
+kKey.value = true
+  if (keys.includes("slashKey")) 
+slashKey.value = true
+  if (keys.includes("returnKey")) 
+returnKey.value = true
+  if (keys.includes("sKey")) 
+sKey.value = true
+  if (keys.includes("jKey")) 
+jKey.value = true
+  if (keys.includes("dotKey")) 
+dotKey.value = true
+  if (keys.includes("questionmarkKey")) 
+questionmarkKey.value = true
+  if (keys.includes("shiftRightKey")) 
+shiftRightKey.value = true
+  if (keys.includes("escKey")) 
+escKey.value = true
+}
+
+const shortcuts = ref([
+  {
+    keys: ["commandKeyRight", "kKey"],
+    description: "Open shortcuts",
+    active: false,
+  },
+  {
+    keys: ["commandKeyLeft", "returnKey"],
+    description: "Send request",
+    active: false,
+  },
+  {
+    keys: ["commandKeyRight", "sKey"],
+    description: "Save request",
+    active: false,
+  },
+  {
+    keys: ["commandKeyLeft", "jKey"],
+    description: "Download response",
+    active: false,
+  },
+  {
+    keys: ["commandKeyLeft", "dotKey"],
+    description: "Copy response to clipboard",
+    active: false,
+  },
+  {
+    keys: ["slashKey"],
+    description: "Command or search",
+    active: false,
+  },
+  {
+    keys: ["shiftRightKey", "questionmarkKey"],
+    description: "Help menu",
+    active: false,
+  },
+  {
+    keys: ["escKey"],
+    description: "Close current window",
+    active: false,
+  },
+])
+
+let count = 0
+
+function cycleArray() {
+  shortcuts.value.forEach((item, index) => {
+    if (index === count) {
+      item.active = true
+      setActiveKeys(item.keys)
+    } else {
+      item.active = false
+    }
+  })
+  count++
+  if (count === shortcuts.value.length) {
+    count = 0
+  }
+}
+
+setInterval(cycleArray, 3000)
 </script>
 
 <template>
@@ -26,11 +137,18 @@ const { t } = useI18n()
             </p>
           </div>
         </div>
-        <div class="relative flex max-w-6xl mx-auto md:rounded-lg h-50 lg:h-80">
+        <div
+          class="relative flex flex-col mx-auto space-y-16 md:rounded-lg h-50 lg:h-128"
+        >
           <div class="flex items-center justify-center flex-1">
             <div class="keyboard">
               <div class="row">
-                <div class="key esc key--md left">esc</div>
+                <div
+                  class="key esc key--md left"
+                  :class="{ '!shadow-md ring-1 ring-teal-500': escKey }"
+                >
+                  esc
+                </div>
                 <div class="key f">F1</div>
                 <div class="key f">F2</div>
                 <div class="key f">F3</div>
@@ -84,17 +202,37 @@ const { t } = useI18n()
                   <label for="caps"></label>
                 </div>
                 <div class="key a">A</div>
-                <div class="key s">S</div>
+                <div
+                  class="key s"
+                  :class="{ '!shadow-md ring-1 ring-teal-500': sKey }"
+                >
+                  S
+                </div>
                 <div class="key d">D</div>
                 <div class="key">F</div>
                 <div class="key">G</div>
                 <div class="key">H</div>
-                <div class="key">J</div>
-                <div class="key">K</div>
+                <div
+                  class="key"
+                  :class="{ '!shadow-md ring-1 ring-teal-500': jKey }"
+                >
+                  J
+                </div>
+                <div
+                  class="key k"
+                  :class="{ '!shadow-md ring-1 ring-teal-500': kKey }"
+                >
+                  K
+                </div>
                 <div class="key">L</div>
                 <div class="key"><span>:</span>;</div>
                 <div class="key"><span>"</span>'</div>
-                <div class="key caps right">return</div>
+                <div
+                  class="key caps right"
+                  :class="{ '!shadow-md ring-1 ring-teal-500': returnKey }"
+                >
+                  return
+                </div>
               </div>
               <div class="row">
                 <div class="key shift left">shift</div>
@@ -106,17 +244,47 @@ const { t } = useI18n()
                 <div class="key">N</div>
                 <div class="key">M</div>
                 <div class="key"><span>&lt;</span>,</div>
-                <div class="key"><span>></span>.</div>
-                <div class="key"><span>?</span>/</div>
-                <div class="key shift right">shift</div>
+                <div
+                  class="key"
+                  :class="{ '!shadow-md ring-1 ring-teal-500': dotKey }"
+                >
+                  <span>></span>.
+                </div>
+                <div
+                  class="key"
+                  :class="{
+                    '!shadow-md ring-1 ring-teal-500':
+                      slashKey || questionmarkKey,
+                  }"
+                >
+                  <span>?</span>/
+                </div>
+                <div
+                  class="key shift right"
+                  :class="{ '!shadow-md ring-1 ring-teal-500': shiftRightKey }"
+                >
+                  shift
+                </div>
               </div>
               <div class="row">
                 <div class="key fn left">🌐</div>
                 <div class="key control right">control</div>
                 <div class="key option right">option</div>
-                <div class="key command right">command</div>
+                <div
+                  class="key command right"
+                  :class="{
+                    '!shadow-md ring-1 ring-teal-500': commandKeyRight,
+                  }"
+                >
+                  command
+                </div>
                 <div class="key space"></div>
-                <div class="key command left">command</div>
+                <div
+                  class="key command left"
+                  :class="{ '!shadow-md ring-1 ring-teal-500': commandKeyLeft }"
+                >
+                  command
+                </div>
                 <div class="key option left">option</div>
                 <div class="key arrow arrow--left"></div>
                 <div class="arrows">
@@ -125,6 +293,19 @@ const { t } = useI18n()
                 </div>
                 <div class="key arrow arrow--right"></div>
               </div>
+            </div>
+          </div>
+          <div class="grid grid-cols-4 gap-2">
+            <div
+              v-for="(shortcut, index) in shortcuts"
+              :key="index"
+              class="flex items-center justify-center flex-1 h-16 border rounded opacity-50 transition text-secondaryLight bg-primaryLight border-primary"
+              :class="{
+                '!text-secondaryDark shadow border-teal-500 !opacity-100 !bg-primary':
+                  shortcut.active,
+              }"
+            >
+              {{ shortcut.description }}
             </div>
           </div>
         </div>
@@ -143,21 +324,21 @@ const { t } = useI18n()
 .conic-divider1 {
   @apply relative;
   @apply w-screen;
-  @apply -mt-90 lg:-mt-100;
+  @apply -mt-90 lg:-mt-128;
   margin-left: calc(-50vw + 50%);
 }
 
 .conic-divider2 {
   @apply relative;
   @apply w-screen;
-  @apply -mb-90 lg:-mb-100;
+  @apply -mb-90 lg:-mb-128;
   margin-left: calc(-50vw + 50%);
   transform: rotate(180deg);
 }
 
 .grad1 {
   width: 50vw;
-  @apply h-180 lg:h-200;
+  @apply h-180 lg:h-256;
   background-image: conic-gradient(
     from 280deg at 25% 50%,
     transparent,
@@ -169,7 +350,7 @@ const { t } = useI18n()
 
 .grad2 {
   width: 50vw;
-  @apply h-180 lg:h-200;
+  @apply h-180 lg:h-256;
   background-image: conic-gradient(
     from 280deg at 25% 50%,
     transparent,
@@ -182,9 +363,8 @@ const { t } = useI18n()
   height: 100%;
   background-color: var(--color-primaryLight);
   border-radius: 0.77vw;
-
+  @apply flex;
   @apply shadow-md;
-  display: flex;
   flex-flow: column;
   padding: 0.55vw;
   position: relative;
@@ -200,19 +380,20 @@ const { t } = useI18n()
   padding: 0.55vw 0 0 0;
 }
 .keyboard .row .key {
+  @apply transition;
+  @apply shadow;
+
   background-color: var(--color-primary);
   color: var(--color-secondaryLight);
   border-radius: 0.22vw;
   min-width: 3.19vw;
   margin: 0 0.55vw 0 0;
-  @apply shadow;
   position: relative;
 }
 .keyboard .row .key:last-of-type {
   margin-right: 0;
 }
 .keyboard .row .key:hover {
-  @apply shadow-md;
   transform: scale(0.99);
 }
 .keyboard .row .key span {

@@ -19,12 +19,12 @@ const { t } = useI18n()
       <div
         v-for="(feature, index) in features"
         :key="`feature-${index}`"
-        class="w-full p-8 bg-center bg-no-repeat bg-cover interactive-shadow group rounded-xl text-accentContrast md:p-16"
-        :style="`background-image: url(/assets/images/home/banners/${feature.banner})`"
+        class="w-full p-8 bg-gradient-to-br group rounded-xl text-accentContrast md:p-16"
+        :class="feature.styles"
       >
         <i
           class="inline-flex items-center justify-center text-3xl border-2 rounded-full shadow transition border-accentContrast bg-gradient-to-br"
-          :class="`group-hover:${feature.styles}`"
+          :class="feature.styles"
         >
           <component :is="feature.icon" class="w-6 h-6 m-4" />
         </i>
