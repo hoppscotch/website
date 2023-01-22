@@ -137,6 +137,7 @@ onMounted(() => {
         <div class="md:hidden">
           <ButtonSecondary
             :icon="showMenu ? x : menu"
+            outline
             @click="showMenu = !showMenu"
           />
         </div>

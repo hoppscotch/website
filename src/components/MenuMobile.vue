@@ -5,13 +5,13 @@ const { t } = useI18n()
 
 <template>
   <div
-    class="mx-4 mb-4 border rounded-lg shadow-lg bg-primaryLight border-dividerDark transition md:hidden"
+    class="shadow-lg bg-primary transition md:hidden"
   >
     <nav class="flex flex-col rounded divide-y divide-dividerLight">
       <div
         v-for="(category, categoryIndex) in navigation"
         :key="`category-${categoryIndex}`"
-        class="flex flex-col p-4"
+        class="flex transition flex-col px-6 pb-4"
       >
         <p class="px-2 py-4 font-semibold uppercase text-secondaryLight">
           {{ t(category.name) }}
@@ -27,14 +27,14 @@ const { t } = useI18n()
           />
         </div>
       </div>
-      <div class="flex flex-col p-4">
-        <!-- <SmartItem
+      <div class="flex transition flex-col p-4">
+        <SmartItem
           to="/pricing"
           :label="t('header.menu.pricing.title')"
           icon="chevron_right"
           class="mb-4"
           reverse
-        /> -->
+        />
         <div
           class="flex justify-center p-4 rounded bg-primaryDark space-x-4 transition"
         >
@@ -42,6 +42,7 @@ const { t } = useI18n()
             to="https://github.com/hoppscotch/hoppscotch"
             label="GitHub"
             outline
+            fill
           />
           <ButtonPrimary
             to="https://hoppscotch.io"
