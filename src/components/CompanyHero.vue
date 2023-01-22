@@ -17,7 +17,7 @@ const { t } = useI18n()
     </div>
     <div
       v-interactive-hover-animation
-      class="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4"
+      class="mt-16 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4"
     >
       <SmartLink
         v-for="(item, index) in company"

@@ -15,7 +15,9 @@ const { t } = useI18n()
         {{ t("home.platforms.description") }}
       </p>
     </div>
-    <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 md:gap-12 lg:gap-16">
+    <div
+      class="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 md:gap-12 lg:gap-16"
+    >
       <div
         v-for="(feature, index) in features"
         :key="`feature-${index}`"

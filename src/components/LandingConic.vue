@@ -29,21 +29,21 @@ const { t } = useI18n()
         <div
           class="relative flex max-w-6xl mx-auto md:rounded-lg h-256 lg:h-128"
         >
-          <div class="flex flex-1 grid grid-cols-6 grid-rows-10 gap-2">
+          <div class="flex flex-1 grid grid-cols-6 gap-2 grid-rows-10">
             <div
-              class="flex flex-1 rounded-lg row-span-2 col-span-6 lg:col-span-2 lg:row-span-10 bg-primary"
+              class="flex flex-1 rounded-lg col-span-6 row-span-2 lg:col-span-2 lg:row-span-10 bg-primary"
             ></div>
             <div
-              class="flex flex-1 rounded-lg row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 bg-primary"
+              class="flex flex-1 rounded-lg col-span-6 row-span-2 lg:col-span-2 lg:row-span-5 bg-primary"
             ></div>
             <div
-              class="flex flex-1 rounded-lg row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 bg-primary"
+              class="flex flex-1 rounded-lg col-span-6 row-span-2 lg:col-span-2 lg:row-span-5 bg-primary"
             ></div>
             <div
-              class="flex flex-1 rounded-lg row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 bg-primary"
+              class="flex flex-1 rounded-lg col-span-6 row-span-2 lg:col-span-2 lg:row-span-5 bg-primary"
             ></div>
             <div
-              class="flex flex-1 rounded-lg row-span-2 col-span-6 lg:col-span-2 lg:row-span-5 bg-primary"
+              class="flex flex-1 rounded-lg col-span-6 row-span-2 lg:col-span-2 lg:row-span-5 bg-primary"
             ></div>
           </div>
         </div>

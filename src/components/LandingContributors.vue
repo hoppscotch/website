@@ -19,7 +19,7 @@ const randomContributors = computed(() =>
       </p>
     </div>
     <div
-      class="mt-8 grid grid-cols-5 gap-4 md:grid-cols-8 group lg:grid-cols-11"
+      class="mt-16 grid grid-cols-5 gap-4 md:grid-cols-8 group lg:grid-cols-11"
     >
       <div
         v-for="(contributor, index) in randomContributors"

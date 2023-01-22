@@ -12,7 +12,7 @@ const { t } = useI18n()
         {{ t("home.testimonials.title") }}
       </h1>
     </div>
-    <div class="mt-8 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    <div class="mt-16 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       <div
         v-for="(testimonialBlock, testimonialBlockIndex) in testimonials"
         :key="`testimonial-${testimonialBlockIndex}`"

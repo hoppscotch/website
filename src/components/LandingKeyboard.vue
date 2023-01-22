@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { shortcuts } from "~/assets/data/landingKeyboard"
 const { t } = useI18n()
 
 const commandKeyRight = ref(false)
@@ -50,53 +51,10 @@ shiftRightKey.value = true
 escKey.value = true
 }
 
-const shortcuts = ref([
-  {
-    keys: ["commandKeyRight", "kKey"],
-    description: "Open shortcuts",
-    active: false,
-  },
-  {
-    keys: ["commandKeyLeft", "returnKey"],
-    description: "Send request",
-    active: false,
-  },
-  {
-    keys: ["commandKeyRight", "sKey"],
-    description: "Save request",
-    active: false,
-  },
-  {
-    keys: ["commandKeyLeft", "jKey"],
-    description: "Download response",
-    active: false,
-  },
-  {
-    keys: ["commandKeyLeft", "dotKey"],
-    description: "Copy response to clipboard",
-    active: false,
-  },
-  {
-    keys: ["slashKey"],
-    description: "Command or search",
-    active: false,
-  },
-  {
-    keys: ["shiftRightKey", "questionmarkKey"],
-    description: "Help menu",
-    active: false,
-  },
-  {
-    keys: ["escKey"],
-    description: "Close current window",
-    active: false,
-  },
-])
-
 let count = 0
 
 function cycleArray() {
-  shortcuts.value.forEach((item, index) => {
+  shortcuts.forEach((item: any, index: number) => {
     if (index === count) {
       item.active = true
       setActiveKeys(item.keys)
@@ -105,7 +63,7 @@ function cycleArray() {
     }
   })
   count++
-  if (count === shortcuts.value.length) {
+  if (count === shortcuts.length) {
     count = 0
   }
 }
@@ -128,24 +86,25 @@ setInterval(cycleArray, 3000)
             <h1
               class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
             >
-              {{ t("home.platforms.title") }}
+              {{ t("home.keyboard.title") }}
             </h1>
             <p
               class="max-w-md my-4 text-2xl tracking-tighter text-center md:w-2/3"
             >
-              {{ t("home.platforms.description") }}
+              {{ t("home.keyboard.description") }}
             </p>
           </div>
         </div>
-        <div
-          class="relative flex flex-col mx-auto space-y-16 md:rounded-lg h-50 lg:h-128"
-        >
-          <div class="flex items-center justify-center flex-1">
+        <div class="relative flex flex-col mx-auto md:rounded-lg h-50 lg:h-128">
+          <div class="flex items-center justify-center">
             <div class="keyboard">
               <div class="row">
                 <div
                   class="key esc key--md left"
-                  :class="{ '!shadow-md ring-1 ring-teal-500': escKey }"
+                  :class="{
+                    '!shadow-md ring-1 ring-teal-500 !text-secondaryDark':
+                      escKey,
+                  }"
                 >
                   esc
                 </div>
@@ -177,7 +136,9 @@ setInterval(cycleArray, 3000)
                 <div class="key 2"><span>)</span>0</div>
                 <div class="key 3"><span>_</span>-</div>
                 <div class="key 4"><span>+</span>=</div>
-                <div class="key delete key--md right">delete</div>
+                <div class="key delete key--md right">
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;delete
+                </div>
               </div>
               <div class="row">
                 <div class="key tab key--md left">tab</div>
@@ -197,14 +158,16 @@ setInterval(cycleArray, 3000)
               </div>
               <div class="row">
                 <div class="key caps left">
-                  caps
+                  caps lock
                   <input id="caps" type="checkbox" checked />
                   <label for="caps"></label>
                 </div>
                 <div class="key a">A</div>
                 <div
                   class="key s"
-                  :class="{ '!shadow-md ring-1 ring-teal-500': sKey }"
+                  :class="{
+                    '!shadow-md ring-1 ring-teal-500 !text-secondaryDark': sKey,
+                  }"
                 >
                   S
                 </div>
@@ -214,13 +177,17 @@ setInterval(cycleArray, 3000)
                 <div class="key">H</div>
                 <div
                   class="key"
-                  :class="{ '!shadow-md ring-1 ring-teal-500': jKey }"
+                  :class="{
+                    '!shadow-md ring-1 ring-teal-500 !text-secondaryDark': jKey,
+                  }"
                 >
                   J
                 </div>
                 <div
                   class="key k"
-                  :class="{ '!shadow-md ring-1 ring-teal-500': kKey }"
+                  :class="{
+                    '!shadow-md ring-1 ring-teal-500 !text-secondaryDark': kKey,
+                  }"
                 >
                   K
                 </div>
@@ -229,7 +196,10 @@ setInterval(cycleArray, 3000)
                 <div class="key"><span>"</span>'</div>
                 <div
                   class="key caps right"
-                  :class="{ '!shadow-md ring-1 ring-teal-500': returnKey }"
+                  :class="{
+                    '!shadow-md ring-1 ring-teal-500 !text-secondaryDark':
+                      returnKey,
+                  }"
                 >
                   return
                 </div>
@@ -246,14 +216,17 @@ setInterval(cycleArray, 3000)
                 <div class="key"><span>&lt;</span>,</div>
                 <div
                   class="key"
-                  :class="{ '!shadow-md ring-1 ring-teal-500': dotKey }"
+                  :class="{
+                    '!shadow-md ring-1 ring-teal-500 !text-secondaryDark':
+                      dotKey,
+                  }"
                 >
                   <span>></span>.
                 </div>
                 <div
                   class="key"
                   :class="{
-                    '!shadow-md ring-1 ring-teal-500':
+                    '!shadow-md ring-1 ring-teal-500 !text-secondaryDark':
                       slashKey || questionmarkKey,
                   }"
                 >
@@ -261,7 +234,10 @@ setInterval(cycleArray, 3000)
                 </div>
                 <div
                   class="key shift right"
-                  :class="{ '!shadow-md ring-1 ring-teal-500': shiftRightKey }"
+                  :class="{
+                    '!shadow-md ring-1 ring-teal-500 !text-secondaryDark':
+                      shiftRightKey,
+                  }"
                 >
                   shift
                 </div>
@@ -273,7 +249,8 @@ setInterval(cycleArray, 3000)
                 <div
                   class="key command right"
                   :class="{
-                    '!shadow-md ring-1 ring-teal-500': commandKeyRight,
+                    '!shadow-md ring-1 ring-teal-500 !text-secondaryDark':
+                      commandKeyRight,
                   }"
                 >
                   command
@@ -281,7 +258,10 @@ setInterval(cycleArray, 3000)
                 <div class="key space"></div>
                 <div
                   class="key command left"
-                  :class="{ '!shadow-md ring-1 ring-teal-500': commandKeyLeft }"
+                  :class="{
+                    '!shadow-md ring-1 ring-teal-500 !text-secondaryDark':
+                      commandKeyLeft,
+                  }"
                 >
                   command
                 </div>
@@ -295,17 +275,18 @@ setInterval(cycleArray, 3000)
               </div>
             </div>
           </div>
-          <div class="grid grid-cols-4 gap-2">
+          <div class="mt-10 grid grid-cols-4 gap-2">
             <div
               v-for="(shortcut, index) in shortcuts"
               :key="index"
-              class="flex items-center justify-center flex-1 h-16 border rounded opacity-50 transition text-secondaryLight bg-primaryLight border-primary"
+              class="flex items-center justify-between flex-1 h-16 px-6 border rounded opacity-50 transition text-secondaryLight bg-primaryLight border-dividerDark"
               :class="{
-                '!text-secondaryDark shadow border-teal-500 !opacity-100 !bg-primary':
+                '!text-secondaryDark shadow-md border-teal-500 !opacity-100 !bg-primary':
                   shortcut.active,
               }"
             >
               {{ shortcut.description }}
+              <component :is="shortcut.icon" />
             </div>
           </div>
         </div>
@@ -360,46 +341,38 @@ setInterval(cycleArray, 3000)
 }
 
 .keyboard {
-  height: 100%;
-  background-color: var(--color-primaryLight);
-  border-radius: 0.77vw;
-  @apply flex;
+  @apply flex flex-col;
+  @apply bg-primaryLight;
+  @apply rounded-lg;
+  @apply p-2;
   @apply shadow-md;
-  flex-flow: column;
-  padding: 0.55vw;
-  position: relative;
+  @apply transition;
+  @apply space-y-2;
 }
+
 .keyboard .row {
-  flex-grow: 1;
-  display: flex;
-  height: 3.1428571429vw;
-  font-size: 0.616vw;
-  font-size: 0.88vw;
+  @apply flex flex-1;
+  @apply space-x-2;
 }
-.keyboard .row:not(:first-of-type) {
-  padding: 0.55vw 0 0 0;
-}
+
 .keyboard .row .key {
+  @apply flex flex-col;
+  @apply items-center;
+  @apply justify-center;
+  @apply p-2;
+  @apply relative;
+  @apply bg-primary;
+  @apply text-xs;
+  @apply text-secondaryLight;
+  @apply rounded;
   @apply transition;
   @apply shadow;
+  @apply min-w-12;
+  @apply leading-none;
+}
 
-  background-color: var(--color-primary);
-  color: var(--color-secondaryLight);
-  border-radius: 0.22vw;
-  min-width: 3.19vw;
-  margin: 0 0.55vw 0 0;
-  position: relative;
-}
-.keyboard .row .key:last-of-type {
-  margin-right: 0;
-}
-.keyboard .row .key:hover {
-  transform: scale(0.99);
-}
 .keyboard .row .key span {
-  opacity: 0.8;
-  transform: scale(0.8);
-  margin-bottom: 0.44vw;
+  @apply mb-1;
 }
 
 .row .key.option,
@@ -413,133 +386,121 @@ setInterval(cycleArray, 3000)
 .row .key.fn,
 .row .key.control,
 .key--text {
-  justify-content: flex-end;
-  font-size: 0.616vw;
-}
-
-.row .key.command {
-  min-width: 4.147vw;
-  width: 4.147vw;
+  @apply justify-end;
 }
 
 .key--md {
-  min-width: 5.104vw;
-  width: 5.104vw;
+  @apply flex-1;
 }
 
 .row .key.caps {
-  min-width: 6.061vw;
-  width: 6.061vw;
+  @apply flex-1;
 }
 
 .row .key.shift {
-  min-width: 7.975vw;
-  width: 7.975vw;
+  @apply flex-1;
 }
 
 .row .key.left {
-  align-items: flex-start;
+  @apply items-start;
 }
 
 .row .key.right {
-  align-items: flex-end;
+  @apply items-end;
 }
 
-.row .key {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 0.44vw;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
 .row .key.option:before {
   content: "⌥";
-  position: absolute;
-  top: 0.319vw;
+  @apply absolute;
+  @apply top-2;
 }
+
 .row .key.command:before {
   content: "⌘";
-  position: absolute;
-  top: 0.319vw;
+  @apply absolute;
+  @apply top-2;
 }
+
 .row .key.control:before {
   content: "⌃";
-  position: absolute;
-  top: 0.319vw;
+  @apply absolute;
+  @apply top-2;
 }
+
 .row .key.fn:before {
   content: "fn";
-  position: absolute;
-  top: 0.319vw;
+  @apply absolute;
+  @apply top-2;
 }
+
 .row .key.space {
-  flex-grow: 1;
+  @apply flex-1;
 }
 
 .key.caps input {
-  display: none;
+  @apply hidden;
 }
+
 .key.caps input + label {
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  cursor: pointer;
+  @apply block;
+  @apply absolute;
+  @apply inset-0;
 }
+
 .key.caps input + label:before {
-  content: "";
-  position: absolute;
-  top: 0.638vw;
-  left: 0.4785vw;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 0.2552vw;
-  height: 0.2552vw;
-  border-radius: 3.19vw;
+  @apply absolute;
+  @apply content-DEFAULT;
+  @apply rounded-full;
+  @apply top-2;
+  @apply left-2;
+  @apply h-1;
+  @apply w-1;
+  @apply bg-gray-500;
 }
+
 .key.caps input:checked + label:before {
-  background-color: rgba(50, 205, 50, 0.7);
+  @apply bg-green-500;
 }
 
 .key.arrow:before {
-  content: "";
-  width: 0;
-  height: 0;
-  border: solid 0.22vw;
-  border-right-width: 0.44vw;
+  @apply content-DEFAULT;
+  @apply w-0;
+  @apply h-0;
+  border: solid 4px;
+  border-right-width: 4px;
   border-top-color: transparent;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
+
 .key.arrow.arrow--up:before {
   transform: rotate(90deg);
 }
+
 .key.arrow.arrow--right:before {
   transform: rotate(180deg);
 }
+
 .key.arrow.arrow--down:before {
   transform: rotate(-90deg);
 }
 
 .row .arrows {
-  display: flex;
-  flex-flow: column;
-  margin-right: 0.55vw;
+  @apply flex flex-col;
 }
+
 .row .arrows > .key {
-  margin: 0;
-  flex-grow: 1;
+  @apply flex-1;
+  @apply m-0;
+  @apply py-1.6;
 }
+
 .row .arrows > .key.arrow--up {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom: solid 0.2rem rgba(0, 0, 0, 0.2);
 }
+
 .row .arrows > .key.arrow--down {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
