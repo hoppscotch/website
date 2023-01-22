@@ -95,7 +95,9 @@ setInterval(cycleArray, 3000)
             </p>
           </div>
         </div>
-        <div class="relative flex flex-col mx-auto md:rounded-lg h-215 md:h-150 lg:h-136">
+        <div
+          class="relative flex flex-col mx-auto md:rounded-lg h-190 md:h-150 lg:h-136"
+        >
           <div class="flex items-center justify-center">
             <div class="keyboard">
               <div class="row">
@@ -275,7 +277,9 @@ setInterval(cycleArray, 3000)
               </div>
             </div>
           </div>
-          <div class="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
+          <div
+            class="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2"
+          >
             <div
               v-for="(shortcut, index) in shortcuts"
               :key="index"
@@ -305,21 +309,21 @@ setInterval(cycleArray, 3000)
 .conic-divider1 {
   @apply relative;
   @apply w-screen;
-  @apply -mt-215 md:-mt-150 lg:-mt-136;
+  @apply -mt-190 md:-mt-150 lg:-mt-136;
   margin-left: calc(-50vw + 50%);
 }
 
 .conic-divider2 {
   @apply relative;
   @apply w-screen;
-  @apply -mb-215 md:-mb-150 lg:-mb-136;
+  @apply -mb-190 md:-mb-150 lg:-mb-136;
   margin-left: calc(-50vw + 50%);
   transform: rotate(180deg);
 }
 
 .grad1 {
   width: 50vw;
-  @apply h-430 md:h-300 lg:h-272;
+  @apply h-380 md:h-300 lg:h-272;
   background-image: conic-gradient(
     from 280deg at 25% 50%,
     transparent,
@@ -331,7 +335,7 @@ setInterval(cycleArray, 3000)
 
 .grad2 {
   width: 50vw;
-  @apply h-430 md:h-300 lg:h-272;
+  @apply h-380 md:h-300 lg:h-272;
   background-image: conic-gradient(
     from 280deg at 25% 50%,
     transparent,

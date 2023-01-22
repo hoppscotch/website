@@ -62,21 +62,21 @@ const { t } = useI18n()
 .conic-divider1 {
   @apply relative;
   @apply w-screen;
-  @apply -mt-200 lg:-mt-128;
+  @apply -mt-190 lg:-mt-128;
   margin-left: calc(-50vw + 50%);
 }
 
 .conic-divider2 {
   @apply relative;
   @apply w-screen;
-  @apply -mb-200 lg:-mb-128;
+  @apply -mb-190 lg:-mb-128;
   margin-left: calc(-50vw + 50%);
   transform: rotate(180deg);
 }
 
 .grad1 {
   width: 50vw;
-  @apply h-400 lg:h-256;
+  @apply h-380 lg:h-256;
   background-image: conic-gradient(
     from 280deg at 25% 50%,
     transparent,
@@ -88,7 +88,7 @@ const { t } = useI18n()
 
 .grad2 {
   width: 50vw;
-  @apply h-400 lg:h-256;
+  @apply h-380 lg:h-256;
   background-image: conic-gradient(
     from 280deg at 25% 50%,
     transparent,
