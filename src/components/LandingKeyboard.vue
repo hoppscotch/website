@@ -27,27 +27,27 @@ const setActiveKeys = (keys: string[]) => {
   shiftRightKey.value = false
   escKey.value = false
 
-  if (keys.includes("commandKeyRight")) 
+  if (keys.includes("commandKeyRight"))
 commandKeyRight.value = true
-  if (keys.includes("commandKeyLeft")) 
+  if (keys.includes("commandKeyLeft"))
 commandKeyLeft.value = true
-  if (keys.includes("kKey")) 
+  if (keys.includes("kKey"))
 kKey.value = true
-  if (keys.includes("slashKey")) 
+  if (keys.includes("slashKey"))
 slashKey.value = true
-  if (keys.includes("returnKey")) 
+  if (keys.includes("returnKey"))
 returnKey.value = true
-  if (keys.includes("sKey")) 
+  if (keys.includes("sKey"))
 sKey.value = true
-  if (keys.includes("jKey")) 
+  if (keys.includes("jKey"))
 jKey.value = true
-  if (keys.includes("dotKey")) 
+  if (keys.includes("dotKey"))
 dotKey.value = true
-  if (keys.includes("questionmarkKey")) 
+  if (keys.includes("questionmarkKey"))
 questionmarkKey.value = true
-  if (keys.includes("shiftRightKey")) 
+  if (keys.includes("shiftRightKey"))
 shiftRightKey.value = true
-  if (keys.includes("escKey")) 
+  if (keys.includes("escKey"))
 escKey.value = true
 }
 
@@ -95,7 +95,7 @@ setInterval(cycleArray, 3000)
             </p>
           </div>
         </div>
-        <div class="relative flex flex-col mx-auto md:rounded-lg h-50 lg:h-128">
+        <div class="relative flex flex-col mx-auto md:rounded-lg h-215 md:h-150 lg:h-136">
           <div class="flex items-center justify-center">
             <div class="keyboard">
               <div class="row">
@@ -243,7 +243,7 @@ setInterval(cycleArray, 3000)
                 </div>
               </div>
               <div class="row">
-                <div class="key fn left">🌐</div>
+                <div class="key fn left">fn</div>
                 <div class="key control right">control</div>
                 <div class="key option right">option</div>
                 <div
@@ -275,7 +275,7 @@ setInterval(cycleArray, 3000)
               </div>
             </div>
           </div>
-          <div class="mt-10 grid grid-cols-4 gap-2">
+          <div class="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
             <div
               v-for="(shortcut, index) in shortcuts"
               :key="index"
@@ -305,21 +305,21 @@ setInterval(cycleArray, 3000)
 .conic-divider1 {
   @apply relative;
   @apply w-screen;
-  @apply -mt-90 lg:-mt-128;
+  @apply -mt-215 md:-mt-150 lg:-mt-136;
   margin-left: calc(-50vw + 50%);
 }
 
 .conic-divider2 {
   @apply relative;
   @apply w-screen;
-  @apply -mb-90 lg:-mb-128;
+  @apply -mb-215 md:-mb-150 lg:-mb-136;
   margin-left: calc(-50vw + 50%);
   transform: rotate(180deg);
 }
 
 .grad1 {
   width: 50vw;
-  @apply h-180 lg:h-256;
+  @apply h-430 md:h-300 lg:h-272;
   background-image: conic-gradient(
     from 280deg at 25% 50%,
     transparent,
@@ -331,7 +331,7 @@ setInterval(cycleArray, 3000)
 
 .grad2 {
   width: 50vw;
-  @apply h-180 lg:h-256;
+  @apply h-430 md:h-300 lg:h-272;
   background-image: conic-gradient(
     from 280deg at 25% 50%,
     transparent,
@@ -342,6 +342,7 @@ setInterval(cycleArray, 3000)
 
 .keyboard {
   @apply flex flex-col;
+  @apply max-w-min;
   @apply bg-primaryLight;
   @apply rounded-lg;
   @apply p-2;
@@ -353,6 +354,7 @@ setInterval(cycleArray, 3000)
 .keyboard .row {
   @apply flex flex-1;
   @apply space-x-2;
+  @apply items-end;
 }
 
 .keyboard .row .key {
@@ -368,6 +370,7 @@ setInterval(cycleArray, 3000)
   @apply transition;
   @apply shadow;
   @apply min-w-12;
+  @apply min-h-12;
   @apply leading-none;
 }
 
@@ -423,12 +426,6 @@ setInterval(cycleArray, 3000)
 
 .row .key.control:before {
   content: "⌃";
-  @apply absolute;
-  @apply top-2;
-}
-
-.row .key.fn:before {
-  content: "fn";
   @apply absolute;
   @apply top-2;
 }
@@ -493,16 +490,24 @@ setInterval(cycleArray, 3000)
   @apply flex-1;
   @apply m-0;
   @apply py-1.6;
+  @apply min-h-6;
 }
 
 .row .arrows > .key.arrow--up {
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom: solid 0.2rem rgba(0, 0, 0, 0.2);
+  @apply rounded-b-none;
 }
 
 .row .arrows > .key.arrow--down {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  @apply rounded-t-none;
+}
+
+.row .arrow.key.arrow--left {
+  @apply min-h-6;
+  @apply max-h-6;
+}
+
+.row .arrow.key.arrow--right {
+  @apply min-h-6;
+  @apply max-h-6;
 }
 </style>
