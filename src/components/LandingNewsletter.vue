@@ -41,7 +41,7 @@ const { t } = useI18n()
             class="form-button"
           />
         </div>
-        <p class="mt-4 text-secondaryLight">
+        <p class="mt-4 opacity-50 text-secondaryLight">
           {{ t("newsletter.prompt") }}
         </p>
       </div>
@@ -53,8 +53,8 @@ const { t } = useI18n()
 .form-input {
   @apply inline-flex;
   @apply flex-1;
-  @apply px-4;
-  @apply py-2;
+  @apply px-6;
+  @apply py-4;
   @apply rounded;
   @apply text-secondaryDark;
   @apply bg-primaryLight;
@@ -66,8 +66,8 @@ const { t } = useI18n()
 
 .form-button {
   @apply inline-flex;
-  @apply px-4;
-  @apply py-2;
+  @apply px-6;
+  @apply py-4;
   @apply rounded;
   @apply font-bold;
   @apply text-accentContrast;

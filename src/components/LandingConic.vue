@@ -26,9 +26,7 @@ const { t } = useI18n()
             </p>
           </div>
         </div>
-        <div
-          class="relative flex max-w-6xl mx-auto md:rounded-lg h-256 lg:h-128"
-        >
+        <div class="relative flex flex-1 mx-auto md:rounded-lg h-256 lg:h-128">
           <div class="flex flex-1 grid grid-cols-6 gap-2 grid-rows-10">
             <div
               class="flex flex-1 rounded-lg col-span-6 row-span-2 lg:col-span-2 lg:row-span-10 bg-primary"

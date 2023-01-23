@@ -4,14 +4,12 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div
-    class="shadow-lg bg-primary transition md:hidden"
-  >
+  <div class="shadow-lg bg-primary transition md:hidden">
     <nav class="flex flex-col rounded divide-y divide-dividerLight">
       <div
         v-for="(category, categoryIndex) in navigation"
         :key="`category-${categoryIndex}`"
-        class="flex transition flex-col px-6 pb-4"
+        class="flex flex-col px-6 pb-4 transition"
       >
         <p class="px-2 py-4 font-semibold uppercase text-secondaryLight">
           {{ t(category.name) }}
@@ -27,7 +25,7 @@ const { t } = useI18n()
           />
         </div>
       </div>
-      <div class="flex transition flex-col p-4">
+      <div class="flex flex-col p-4 transition">
         <SmartItem
           to="/pricing"
           :label="t('header.menu.pricing.title')"

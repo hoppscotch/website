@@ -27,27 +27,27 @@ const setActiveKeys = (keys: string[]) => {
   shiftRightKey.value = false
   escKey.value = false
 
-  if (keys.includes("commandKeyRight"))
+  if (keys.includes("commandKeyRight")) 
 commandKeyRight.value = true
-  if (keys.includes("commandKeyLeft"))
+  if (keys.includes("commandKeyLeft")) 
 commandKeyLeft.value = true
-  if (keys.includes("kKey"))
+  if (keys.includes("kKey")) 
 kKey.value = true
-  if (keys.includes("slashKey"))
+  if (keys.includes("slashKey")) 
 slashKey.value = true
-  if (keys.includes("returnKey"))
+  if (keys.includes("returnKey")) 
 returnKey.value = true
-  if (keys.includes("sKey"))
+  if (keys.includes("sKey")) 
 sKey.value = true
-  if (keys.includes("jKey"))
+  if (keys.includes("jKey")) 
 jKey.value = true
-  if (keys.includes("dotKey"))
+  if (keys.includes("dotKey")) 
 dotKey.value = true
-  if (keys.includes("questionmarkKey"))
+  if (keys.includes("questionmarkKey")) 
 questionmarkKey.value = true
-  if (keys.includes("shiftRightKey"))
+  if (keys.includes("shiftRightKey")) 
 shiftRightKey.value = true
-  if (keys.includes("escKey"))
+  if (keys.includes("escKey")) 
 escKey.value = true
 }
 
@@ -98,13 +98,15 @@ setInterval(cycleArray, 3000)
         <div
           class="relative flex flex-col mx-auto md:rounded-lg h-190 md:h-150 lg:h-136"
         >
-          <div class="flex items-center justify-center">
+          <div
+            class="flex items-center justify-center full-width overflow-x-clip"
+          >
             <div class="keyboard">
               <div class="row">
                 <div
                   class="key esc key--md left"
                   :class="{
-                    '!shadow-md ring-1 ring-teal-500 !text-secondaryDark':
+                    '!shadow-lg ring-1 ring-teal-500 !text-secondaryDark':
                       escKey,
                   }"
                 >
@@ -168,7 +170,7 @@ setInterval(cycleArray, 3000)
                 <div
                   class="key s"
                   :class="{
-                    '!shadow-md ring-1 ring-teal-500 !text-secondaryDark': sKey,
+                    '!shadow-lg ring-1 ring-teal-500 !text-secondaryDark': sKey,
                   }"
                 >
                   S
@@ -180,7 +182,7 @@ setInterval(cycleArray, 3000)
                 <div
                   class="key"
                   :class="{
-                    '!shadow-md ring-1 ring-teal-500 !text-secondaryDark': jKey,
+                    '!shadow-lg ring-1 ring-teal-500 !text-secondaryDark': jKey,
                   }"
                 >
                   J
@@ -188,7 +190,7 @@ setInterval(cycleArray, 3000)
                 <div
                   class="key k"
                   :class="{
-                    '!shadow-md ring-1 ring-teal-500 !text-secondaryDark': kKey,
+                    '!shadow-lg ring-1 ring-teal-500 !text-secondaryDark': kKey,
                   }"
                 >
                   K
@@ -199,7 +201,7 @@ setInterval(cycleArray, 3000)
                 <div
                   class="key caps right"
                   :class="{
-                    '!shadow-md ring-1 ring-teal-500 !text-secondaryDark':
+                    '!shadow-lg ring-1 ring-teal-500 !text-secondaryDark':
                       returnKey,
                   }"
                 >
@@ -219,7 +221,7 @@ setInterval(cycleArray, 3000)
                 <div
                   class="key"
                   :class="{
-                    '!shadow-md ring-1 ring-teal-500 !text-secondaryDark':
+                    '!shadow-lg ring-1 ring-teal-500 !text-secondaryDark':
                       dotKey,
                   }"
                 >
@@ -228,7 +230,7 @@ setInterval(cycleArray, 3000)
                 <div
                   class="key"
                   :class="{
-                    '!shadow-md ring-1 ring-teal-500 !text-secondaryDark':
+                    '!shadow-lg ring-1 ring-teal-500 !text-secondaryDark':
                       slashKey || questionmarkKey,
                   }"
                 >
@@ -237,7 +239,7 @@ setInterval(cycleArray, 3000)
                 <div
                   class="key shift right"
                   :class="{
-                    '!shadow-md ring-1 ring-teal-500 !text-secondaryDark':
+                    '!shadow-lg ring-1 ring-teal-500 !text-secondaryDark':
                       shiftRightKey,
                   }"
                 >
@@ -251,7 +253,7 @@ setInterval(cycleArray, 3000)
                 <div
                   class="key command right"
                   :class="{
-                    '!shadow-md ring-1 ring-teal-500 !text-secondaryDark':
+                    '!shadow-lg ring-1 ring-teal-500 !text-secondaryDark':
                       commandKeyRight,
                   }"
                 >
@@ -261,7 +263,7 @@ setInterval(cycleArray, 3000)
                 <div
                   class="key command left"
                   :class="{
-                    '!shadow-md ring-1 ring-teal-500 !text-secondaryDark':
+                    '!shadow-lg ring-1 ring-teal-500 !text-secondaryDark':
                       commandKeyLeft,
                   }"
                 >
@@ -283,9 +285,9 @@ setInterval(cycleArray, 3000)
             <div
               v-for="(shortcut, index) in shortcuts"
               :key="index"
-              class="flex items-center justify-between flex-1 h-16 px-6 border rounded opacity-50 transition text-secondaryLight bg-primaryLight border-dividerDark"
+              class="flex items-center justify-between flex-1 h-16 px-6 border rounded shadow opacity-50 transition text-secondaryLight bg-primaryLight border-primary"
               :class="{
-                '!text-secondaryDark shadow-md border-teal-500 !opacity-100 !bg-primary':
+                '!text-secondaryDark !shadow-lg !border-teal-500 !opacity-100 !bg-primary':
                   shortcut.active,
               }"
             >
@@ -344,13 +346,20 @@ setInterval(cycleArray, 3000)
   );
 }
 
+.full-width {
+  @apply w-screen;
+
+  margin-left: calc(-50vw + 50%);
+}
+
 .keyboard {
   @apply flex flex-col;
   @apply max-w-min;
   @apply bg-primaryLight;
   @apply rounded-lg;
+  @apply border border-primary;
   @apply p-2;
-  @apply shadow-md;
+  @apply shadow-lg;
   @apply transition;
   @apply space-y-2;
 }
