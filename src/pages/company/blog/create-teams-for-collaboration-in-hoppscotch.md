@@ -1,5 +1,5 @@
 ---
-title: Hoppscotch Blog | Teams in Hoppscotch
+title: Hoppscotch - Blog | Teams in Hoppscotch
 ---
 
 <BackNavigation to="/company/blog" />

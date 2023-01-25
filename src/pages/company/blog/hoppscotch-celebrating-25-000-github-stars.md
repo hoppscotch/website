@@ -1,5 +1,5 @@
 ---
-title: Hoppscotch Blog | Hoppscotch Celebrating 25,000 GitHub Stars
+title: Hoppscotch - Blog | Hoppscotch Celebrating 25,000 GitHub Stars
 ---
 
 <BackNavigation to="/company/blog" />

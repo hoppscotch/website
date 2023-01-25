@@ -1,5 +1,5 @@
 ---
-title: Hoppscotch Career | Developer Relations Manager
+title: Hoppscotch - Careers | Developer Relations Manager
 ---
 
 <BackNavigation to="/company/careers" />

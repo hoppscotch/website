@@ -1,5 +1,5 @@
 ---
-title: Hoppscotch Blog | GitHub Externship ❤️ Hoppscotch
+title: Hoppscotch - Blog | GitHub Externship ❤️ Hoppscotch
 ---
 
 <BackNavigation to="/company/blog" />

@@ -1,5 +1,5 @@
 ---
-title: Hoppscotch Career | Product Manager
+title: Hoppscotch - Careers | Product Manager
 ---
 
 <BackNavigation to="/company/careers" />

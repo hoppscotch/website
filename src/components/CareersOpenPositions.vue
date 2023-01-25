@@ -15,7 +15,6 @@ const { t } = useI18n()
         {{ t("careers.openPositions.subheading") }}
       </p>
     </div>
-    <div />
     <div class="py-8 divide-y divide-dividerDark">
       <div
         v-for="(position, index) in openPositions"
@@ -34,7 +33,10 @@ const { t } = useI18n()
             :key="`opening-${openingIndex}`"
             class="max-w-xl my-4 text-2xl border rounded transition bg-primaryLight border-dividerLight hover:bg-primaryDark hover:border-dividerDark"
           >
-            <SmartLink :to="`careers/${opening.link}`" class="block p-4">
+            <SmartLink
+              :to="`/company/careers/${opening.link}`"
+              class="block p-4"
+            >
               <span>
                 {{ t(opening.title) }}
               </span>

@@ -1,5 +1,5 @@
 ---
-title: Hoppscotch Career | DevOps Engineer
+title: Hoppscotch - Careers | DevOps Engineer
 ---
 
 <BackNavigation to="/company/careers" />

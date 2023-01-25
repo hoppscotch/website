@@ -1,5 +1,5 @@
 ---
-title: Hoppscotch Career | User Interface and Experience Designer
+title: Hoppscotch - Careers | User Interface and Experience Designer
 ---
 
 <BackNavigation to="/company/careers" />

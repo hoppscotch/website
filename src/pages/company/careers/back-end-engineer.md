@@ -1,5 +1,5 @@
 ---
-title: Hoppscotch Career | Back-end Engineer
+title: Hoppscotch - Careers | Back-end Engineer
 ---
 
 <BackNavigation to="/company/careers" />

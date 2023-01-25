@@ -1,5 +1,5 @@
 ---
-title: Hoppscotch Career | Full-stack Engineer
+title: Hoppscotch - Careers | Full-stack Engineer
 ---
 
 <BackNavigation to="/company/careers" />

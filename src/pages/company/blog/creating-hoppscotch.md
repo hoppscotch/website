@@ -1,5 +1,5 @@
 ---
-title: Hoppscotch Blog | Creating Hoppscotch
+title: Hoppscotch - Blog | Creating Hoppscotch
 ---
 
 <BackNavigation to="/company/blog" />

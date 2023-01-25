@@ -2,6 +2,10 @@
 import CheckCircle from "~icons/lucide/check-circle"
 
 const { t } = useI18n()
+
+useHead({
+  title: "Hoppscotch - Careers | Application Submitted",
+})
 </script>
 
 <template>

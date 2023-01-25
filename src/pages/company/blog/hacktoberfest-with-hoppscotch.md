@@ -1,5 +1,5 @@
 ---
-title: Hoppscotch Blog | Hacktoberfest with Hoppscotch
+title: Hoppscotch - Blog | Hacktoberfest with Hoppscotch
 ---
 
 <BackNavigation to="/company/blog" />
