@@ -74,7 +74,7 @@ setInterval(cycleArray, 3000)
 <template>
   <div class="flex flex-col px-8 py-16">
     <div class="relative overflow-x-visible overflow-y-clip">
-      <div class="conic-divider1">
+      <div class="conic-divider1 full-width">
         <div class="flex">
           <div class="flex grad1"></div>
           <div class="flex grad2"></div>
@@ -88,9 +88,7 @@ setInterval(cycleArray, 3000)
             >
               {{ t("home.keyboard.title") }}
             </h1>
-            <p
-              class="max-w-md my-4 text-2xl tracking-tighter text-center md:w-2/3"
-            >
+            <p class="my-4 text-2xl tracking-tighter text-center md:w-2/5">
               {{ t("home.keyboard.description") }}
             </p>
           </div>
@@ -280,7 +278,7 @@ setInterval(cycleArray, 3000)
             </div>
           </div>
           <div
-            class="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2"
+            class="mt-16 grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-4"
           >
             <div
               v-for="(shortcut, index) in shortcuts"
@@ -297,7 +295,7 @@ setInterval(cycleArray, 3000)
           </div>
         </div>
       </div>
-      <div class="conic-divider2">
+      <div class="conic-divider2 full-width">
         <div class="flex">
           <div class="flex grad1"></div>
           <div class="flex grad2"></div>
@@ -310,16 +308,12 @@ setInterval(cycleArray, 3000)
 <style lang="scss" scoped>
 .conic-divider1 {
   @apply relative;
-  @apply w-screen;
   @apply -mt-190 md:-mt-150 lg:-mt-136;
-  margin-left: calc(-50vw + 50%);
 }
 
 .conic-divider2 {
   @apply relative;
-  @apply w-screen;
   @apply -mb-190 md:-mb-150 lg:-mb-136;
-  margin-left: calc(-50vw + 50%);
   transform: rotate(180deg);
 }
 
@@ -330,7 +324,7 @@ setInterval(cycleArray, 3000)
     from 280deg at 25% 50%,
     transparent,
     transparent,
-    var(--color-conicTeal)
+    theme("colors.teal.900")
   );
   transform: scaleX(-1);
 }
@@ -342,19 +336,12 @@ setInterval(cycleArray, 3000)
     from 280deg at 25% 50%,
     transparent,
     transparent,
-    var(--color-conicTeal)
+    theme("colors.teal.900")
   );
-}
-
-.full-width {
-  @apply w-screen;
-
-  margin-left: calc(-50vw + 50%);
 }
 
 .keyboard {
   @apply flex flex-col;
-  @apply max-w-min;
   @apply bg-primaryLight;
   @apply rounded-lg;
   @apply border border-primary;

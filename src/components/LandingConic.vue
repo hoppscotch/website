@@ -5,7 +5,7 @@ const { t } = useI18n()
 <template>
   <div class="flex flex-col px-8 py-16">
     <div class="relative overflow-x-visible overflow-y-clip">
-      <div class="conic-divider1">
+      <div class="conic-divider1 full-width">
         <div class="flex">
           <div class="flex grad1"></div>
           <div class="flex grad2"></div>
@@ -19,9 +19,7 @@ const { t } = useI18n()
             >
               {{ t("home.platforms.title") }}
             </h1>
-            <p
-              class="max-w-md my-4 text-2xl tracking-tighter text-center md:w-2/3"
-            >
+            <p class="my-4 text-2xl tracking-tighter text-center md:w-2/5">
               {{ t("home.platforms.description") }}
             </p>
           </div>
@@ -46,7 +44,7 @@ const { t } = useI18n()
           </div>
         </div>
       </div>
-      <div class="conic-divider2">
+      <div class="conic-divider2 full-width">
         <div class="flex">
           <div class="flex grad1"></div>
           <div class="flex grad2"></div>
@@ -59,16 +57,12 @@ const { t } = useI18n()
 <style lang="scss" scoped>
 .conic-divider1 {
   @apply relative;
-  @apply w-screen;
   @apply -mt-190 lg:-mt-128;
-  margin-left: calc(-50vw + 50%);
 }
 
 .conic-divider2 {
   @apply relative;
-  @apply w-screen;
   @apply -mb-190 lg:-mb-128;
-  margin-left: calc(-50vw + 50%);
   transform: rotate(180deg);
 }
 
@@ -79,7 +73,7 @@ const { t } = useI18n()
     from 280deg at 25% 50%,
     transparent,
     transparent,
-    var(--color-conicBlue)
+    theme("colors.sky.900")
   );
   transform: scaleX(-1);
 }
@@ -91,7 +85,7 @@ const { t } = useI18n()
     from 280deg at 25% 50%,
     transparent,
     transparent,
-    var(--color-conicBlue)
+    theme("colors.sky.900")
   );
 }
 </style>

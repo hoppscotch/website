@@ -6,7 +6,7 @@ const { t } = useI18n()
 
 <template>
   <div
-    class="flex flex-col items-center justify-center max-w-md py-10 mx-auto my-8 text-center rounded"
+    class="flex flex-col items-center justify-center py-10 mx-auto my-8 text-center rounded"
   >
     <CheckCircle class="my-8 text-3xl text-accent" />
     <h1>{{ t("careers.form.success_message") }}</h1>

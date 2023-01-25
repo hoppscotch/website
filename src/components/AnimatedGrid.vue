@@ -1,14 +1,11 @@
 <template>
   <div
-    class="absolute inset-0 flex items-center justify-center border-y border-dividerLight -z-1 animated-grid"
+    class="absolute inset-0 flex items-center justify-center border-y border-dividerLight -z-1 full-width animated-grid"
   ></div>
 </template>
 
 <style lang="scss" scoped>
 .animated-grid {
-  @apply w-screen;
-
-  margin-left: calc(-50vw + 50%);
   background-image: linear-gradient(
       0deg,
       transparent 24%,

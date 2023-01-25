@@ -8,7 +8,7 @@ const { t } = useI18n()
     <LandingAnnouncement />
     <div class="flex flex-col items-center">
       <h1
-        class="block w-full max-w-2xl mt-4 mb-4 text-5xl leading-none tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-br transition md:text-6xl lg:text-8xl"
+        class="block w-full max-w-2xl mt-4 mb-4 text-5xl leading-none tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-6xl lg:text-8xl"
         :class="gradients.gray"
       >
         {{ t("home.hero.heading") }}
@@ -16,7 +16,7 @@ const { t } = useI18n()
         {{ t("home.hero.heading_line_2") }}
       </h1>
       <p
-        class="max-w-md my-4 text-2xl tracking-tighter text-center text-secondaryLight md:w-2/3"
+        class="my-4 text-2xl tracking-tighter text-center text-secondaryLight md:w-2/5"
       >
         {{ t("home.hero.subheading") }}
       </p>

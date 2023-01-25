@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { computed } from "vue"
-import { gradients } from "~/assets/data/gradients"
 
 const props = withDefaults(
   defineProps<{
@@ -16,7 +15,6 @@ const props = withDefaults(
     loading?: boolean;
     large?: boolean;
     shadow?: boolean;
-    gradient?: boolean;
     outline?: boolean;
     shortcut?: string[];
   }>(),
@@ -32,7 +30,6 @@ const props = withDefaults(
     rounded: true,
     loading: false,
     large: false,
-    gradient: false,
     shadow: false,
     outline: false,
     shortcut: () => [],
@@ -64,7 +61,7 @@ return "router-link"
     v-bind="$attrs"
     :href="props.to"
     :to="props.to"
-    class="inline-flex items-center justify-center py-2 cursor-pointer bg-accent text-accentContrast transition hover:bg-accentDark focus:outline-none focus-visible:bg-accentDark"
+    class="inline-flex items-center justify-center py-2 cursor-pointer transition bg-accent text-accentContrast hover:bg-accentDark focus:outline-none focus-visible:bg-accentDark"
     :class="[
       label ? 'px-4' : 'px-2',
       rounded ? 'rounded-full' : 'rounded',
@@ -75,9 +72,6 @@ return "router-link"
         'border border-accent hover:border-accentDark focus-visible:border-accentDark':
           outline,
       },
-      gradient
-        ? `text-accentContrast bg-gradient-to-br ${gradients.accent}`
-        : '',
     ]"
     :tabindex="loading ? '-1' : '0'"
   >
@@ -89,8 +83,8 @@ return "router-link"
       <component
         :is="icon"
         v-if="icon"
-        :class="label ? (reverse ? 'ml-4 opacity-75' : 'mr-4 opacity-75') : ''"
-        class="inline-flex flex-shrink-0"
+        :class="label ? (reverse ? 'ml-2 opacity-75' : 'mr-2 opacity-75') : ''"
+        class="inline-flex flex-shrink-0 fill-current"
       />
       {{ label }}
       <div v-if="shortcut.length" class="ml-2 <sm:hidden">

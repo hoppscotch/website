@@ -12,7 +12,7 @@ const changelogCount = ref(5)
       >
         {{ t("changelog.hero.heading") }}
       </h1>
-      <p class="max-w-md my-4 text-xl tracking-tighter text-center md:w-3/5">
+      <p class="my-4 text-xl tracking-tighter text-center md:w-3/5">
         {{ t("changelog.hero.subheading") }}
       </p>
     </div>

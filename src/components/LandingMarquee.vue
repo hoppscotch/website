@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col px-8 py-16">
-    <div class="marquee">
+    <div class="marquee full-width">
       <div class="marquee-group">
         <p><CircleText text="Open source ★ Open source ★" /></p>
         <p aria-hidden="true">
@@ -40,7 +40,6 @@
   @apply flex;
   @apply border-y-8;
   @apply border-accentLight;
-  @apply w-screen;
   @apply select-none;
   @apply overflow-hidden;
 
@@ -48,7 +47,6 @@
   --duration: 16s;
   --gap: var(--space);
 
-  margin-left: calc(-50vw + 50%);
   gap: var(--gap);
   // transform: skewY(-3deg);
 

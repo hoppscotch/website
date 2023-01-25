@@ -11,7 +11,7 @@ const { t } = useI18n()
       >
         {{ t("platforms.items.cli.title") }}
       </h1>
-      <p class="max-w-md my-4 text-2xl tracking-tighter text-center md:w-2/3">
+      <p class="my-4 text-2xl tracking-tighter text-center md:w-2/5">
         {{ t("platforms.items.cli.description") }}
       </p>
     </div>

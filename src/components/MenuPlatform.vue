@@ -18,7 +18,7 @@ const { t } = useI18n()
         :tag="item.tag ? t(item.tag) : ''"
       />
     </div>
-    <div class="flex flex-col p-4 mt-2 rounded bg-primaryDark">
+    <div class="flex flex-col p-4 mt-2 rounded-lg bg-primaryDark">
       <div class="flex items-center mb-2">
         <h4 class="font-semibold text-secondaryDark">
           {{ t("header.menu.guide.title") }}

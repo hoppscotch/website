@@ -5,10 +5,22 @@
       "subheading": "Hoppscotch is a tool that helps you create, test, and document APIs."
     },
     "stats": {
-      "1": { "description": "GitHub Stars", "title": "40K+" },
-      "2": { "description": "Users", "title": "1M+" },
-      "3": { "description": "Monthly requests", "title": "1M+" },
-      "4": { "description": "Monthly users", "title": "50k+" }
+      "1": {
+        "description": "GitHub Stars",
+        "title": "40K+"
+      },
+      "2": {
+        "description": "Users",
+        "title": "1M+"
+      },
+      "3": {
+        "description": "Monthly requests",
+        "title": "1M+"
+      },
+      "4": {
+        "description": "Monthly users",
+        "title": "50k+"
+      }
     },
     "values": {
       "description": "These values are more than just aspirational jargon that we come up with to check a box. They are the foundational framing we use when assessing potential partners to join our team.",
@@ -147,7 +159,10 @@
       "subheading": "We're committed to providing a safe, stable, and rewarding environment for our team members."
     },
     "form": {
-      "email": { "label": "Email", "placeholder": "Your email" },
+      "email": {
+        "label": "Email",
+        "placeholder": "Your email"
+      },
       "github": {
         "label": "GitHub profile",
         "placeholder": "Your GitHub profile"
@@ -161,8 +176,13 @@
         "label": "What is most important to you in your next role?",
         "placeholder": "Type here"
       },
-      "name": { "label": "Name", "placeholder": "Your name" },
-      "resume": { "label": "Resume" },
+      "name": {
+        "label": "Name",
+        "placeholder": "Your name"
+      },
+      "resume": {
+        "label": "Resume"
+      },
       "submit": "Submit Application",
       "success_message": "Application has been submitted",
       "success_message_subheading": "We'll reach out to you in 3-5 days if we decide to proceed with your application."
@@ -349,7 +369,9 @@
       }
     }
   },
-  "error": { "404": "Page not found" },
+  "error": {
+    "404": "Page not found"
+  },
   "footer": {
     "company": {
       "links": {
@@ -401,27 +423,47 @@
     "menu": {
       "blog": {
         "links": {
-          "1": { "name": "Why we build Hoppscotch?" },
-          "2": { "name": "To design and develop an interactive globe" },
-          "3": { "name": "We built Checkout so you don't have to" }
+          "1": {
+            "name": "Why we build Hoppscotch?"
+          },
+          "2": {
+            "name": "To design and develop an interactive globe"
+          },
+          "3": {
+            "name": "We built Checkout so you don't have to"
+          }
         },
         "read_more": "Read More",
         "title": "Recent blogs"
       },
       "company": {
         "links": {
-          "1": { "name": "About" },
-          "2": { "name": "Careers" },
-          "3": { "name": "Blog" },
-          "4": { "name": "Support" }
+          "1": {
+            "name": "About"
+          },
+          "2": {
+            "name": "Careers"
+          },
+          "3": {
+            "name": "Blog"
+          },
+          "4": {
+            "name": "Support"
+          }
         },
         "title": "Company"
       },
       "guide": {
         "links": {
-          "1": { "name": "How to test REST API using Hoppscotch" },
-          "2": { "name": "Best practices for API Design" },
-          "3": { "name": "How to test WebSockets in Hoppscotch" },
+          "1": {
+            "name": "How to test REST API using Hoppscotch"
+          },
+          "2": {
+            "name": "Best practices for API Design"
+          },
+          "3": {
+            "name": "How to test WebSockets in Hoppscotch"
+          },
           "4": {
             "name": "Comprehensive guidelines on using Hoppscotch in 2022"
           }
@@ -450,7 +492,9 @@
         },
         "title": "Platform"
       },
-      "pricing": { "title": "Pricing" },
+      "pricing": {
+        "title": "Pricing"
+      },
       "solutions": {
         "documentation": "Documentation",
         "guides": "Guides",
@@ -543,15 +587,21 @@
       "heading": "A better way",
       "heading_line_2": "to build apis",
       "stats": {
-        "1": { "title": "1M+ users" },
-        "2": { "title": "50K+ GitHub stars" },
-        "3": { "title": "100K+ monthly users" }
+        "1": {
+          "title": "1M+ users"
+        },
+        "2": {
+          "title": "50K+ GitHub stars"
+        },
+        "3": {
+          "title": "100K+ monthly users"
+        }
       },
       "subheading": "Millions of developers and companies build, ship, and maintain their APIs on Hoppscotch."
     },
     "keyboard": {
-      "title": "Keyboard first design",
-      "description": "Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts."
+      "description": "Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+      "title": "Keyboard first design"
     },
     "platforms": {
       "description": "Make Hoppscotch your own, using the bundle of features available from day one.",
@@ -593,8 +643,12 @@
         "title": "Stay up to date"
       }
     },
-    "testimonials": { "title": "Loved by product people" },
-    "users": { "title": "Empowering developers to build better products" }
+    "testimonials": {
+      "title": "Loved by product people"
+    },
+    "users": {
+      "title": "Empowering developers to build better products"
+    }
   },
   "logo": "Hoppscotch",
   "newsletter": {
@@ -703,6 +757,10 @@
         "title": "Web"
       }
     }
+  },
+  "pricing": {
+    "title": "Pricing",
+    "description": "Pricing plans for teams of all sizes"
   },
   "protocols": {
     "hero": {

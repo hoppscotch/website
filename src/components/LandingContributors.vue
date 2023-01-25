@@ -14,7 +14,7 @@ const randomContributors = computed(() =>
       >
         {{ t("home.contributors.title") }}
       </h2>
-      <p class="max-w-md my-4 text-xl tracking-tighter text-center md:w-3/5">
+      <p class="my-4 text-xl tracking-tighter text-center md:w-3/5">
         {{ t("home.contributors.description") }}
       </p>
     </div>

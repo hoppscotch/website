@@ -43,14 +43,6 @@ html {
   --color-accentLight: theme("colors.indigo.500");
   --color-accentDark: theme("colors.indigo.700");
   --color-accentContrast: theme("colors.white");
-
-  --color-gradientFrom: 26, 98, 255;
-  --color-gradientVia: 168, 85, 247;
-  --color-gradientTo: 236, 72, 153;
-
-  --color-conicTeal: rgba(0, 137, 137, 0.25);
-  --color-conicBlue: rgba(30, 100, 255, 0.25);
-  --color-conicPurple: rgba(168, 85, 247, 0.25);
 }
 
 html.dark {

@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import x from "~icons/lucide/x"
 import menu from "~icons/lucide/menu"
+import github from "~icons/lucide/github"
+import externalLink from "~icons/lucide/external-link"
 
 const { t } = useI18n()
 const router = useRouter()
@@ -35,24 +37,26 @@ onMounted(() => {
 
 <template>
   <header class="max-h-screen top-0 z-20 sticky <md:overflow-auto">
-    <nav class="flex border-dividerLight md:border-b bg-primary transition">
-      <div class="container flex items-center justify-between flex-1 px-8 py-2">
+    <nav
+      class="flex"
+      :class="{ 'border-dividerLight border-b bg-primary': showMenu }"
+    >
+      <div class="container flex items-center justify-between flex-1 px-8 py-4">
         <div class="flex md:flex-1 md:w-0">
           <SmartLink
             to="/"
-            class="inline-flex items-center rounded text-secondaryDark focus:outline-none"
+            class="flex items-center justify-center rounded-full bg-primaryLight text-secondaryDark focus:outline-none"
           >
             <img
               src="/assets/images/logo.svg"
               :alt="t('logo')"
-              class="w-8 h-8 mr-4"
+              class="w-10 h-10 rounded-full"
             />
-            <span class="font-bold tracking-wide uppercase">
-              {{ t("logo") }}
-            </span>
           </SmartLink>
         </div>
-        <nav class="hidden md:flex">
+        <nav
+          class="hidden p-1 border rounded-full shadow-lg transition shadow-zinc-800/5 md:flex border-dividerDark bg-primary"
+        >
           <span>
             <tippy
               :offset="[0, 24]"
@@ -128,16 +132,22 @@ onMounted(() => {
           <ButtonSecondary
             to="https://github.com/hoppscotch/hoppscotch"
             label="GitHub"
+            :icon="github"
+            fill
+            outline
           />
           <ButtonPrimary
             to="https://hoppscotch.io"
             :label="t('action.open_app')"
+            :icon="externalLink"
+            outline
           />
         </div>
         <div class="md:hidden">
           <ButtonSecondary
             :icon="showMenu ? x : menu"
             outline
+            fill
             @click="showMenu = !showMenu"
           />
         </div>

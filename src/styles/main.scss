@@ -230,3 +230,13 @@ a {
   left: 50%;
   transform: translate(-50%, -14%);
 }
+
+.full-width {
+  @apply w-screen;
+
+  margin-left: calc(-50vw + 50%);
+}
+
+.router-link-exact-active {
+  @apply bg-primaryLight;
+}

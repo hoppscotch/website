@@ -26,9 +26,7 @@ const { t } = useI18n()
     >
       {{ t(title) }}
     </h1>
-    <p
-      class="max-w-md my-4 text-xl tracking-tighter text-center md:w-3/5 lg:text-left"
-    >
+    <p class="my-4 text-xl tracking-tighter text-center md:w-3/5 lg:text-left">
       {{ t(description) }}
     </p>
     <div v-if="hero" class="flex my-4 text-center space-x-4">

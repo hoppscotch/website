@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { gradients } from "~/assets/data/gradients"
 import { isDark } from "~/composables"
 </script>
 
@@ -10,7 +9,6 @@ import { isDark } from "~/composables"
       <AnimatedComponent animation-type="zoom">
         <div
           class="bg-gradient-to-br rounded flex p-0.2 relative md:rounded-lg"
-          :class="gradients.accent"
         >
           <SmartGradient animate :blur="64" />
           <img

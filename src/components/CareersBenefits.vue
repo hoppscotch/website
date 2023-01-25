@@ -12,7 +12,7 @@ const { t } = useI18n()
       >
         {{ t("careers.benefits.heading") }}
       </h2>
-      <p class="max-w-md my-4 text-2xl text-center md:w-1/2">
+      <p class="my-4 text-2xl text-center md:w-1/2">
         {{ t("careers.benefits.subheading") }}
       </p>
     </div>

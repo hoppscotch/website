@@ -1,5 +1,4 @@
 export const gradients = {
-  accent: "from-gradientFrom via-gradientVia to-gradientTo",
   gray: "from-black dark:from-white dark:to-gray-50/25 to-black/25",
   purple:
     "from-purple-100/25 dark:from-purple-800/25 dark:to-purple-400/25 to-purple-400/25",
