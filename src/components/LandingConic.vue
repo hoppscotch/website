@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { projects } from "~/assets/data/landingProjects"
+import { gradients } from "~/assets/data/gradients"
+
 const { t } = useI18n()
 </script>
 
@@ -15,14 +17,20 @@ const { t } = useI18n()
       <div class="absolute inset-0 z-1">
         <div class="flex flex-col px-8 pt-32 pb-16">
           <div class="flex flex-col items-center">
-            <h1
-              class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
-            >
-              {{ t("home.projects.title") }}
-            </h1>
-            <p class="my-4 text-2xl tracking-tighter text-center md:w-2/5">
-              {{ t("home.projects.description") }}
-            </p>
+            <AnimatedComponent animation-type="pull">
+              <div
+                class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-4xl lg:text-5xl"
+                :class="gradients.gray"
+              >
+                {{ t("home.projects.title") }}
+              </div>
+              <div
+                class="my-4 text-2xl tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-br md:w-3/5"
+                :class="gradients.gray"
+              >
+                {{ t("home.projects.description") }}
+              </div>
+            </AnimatedComponent>
           </div>
         </div>
         <div class="relative flex flex-1 mx-auto md:rounded-lg h-256 lg:h-128">

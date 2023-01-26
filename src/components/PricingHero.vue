@@ -1,19 +1,25 @@
 <script setup lang="ts">
+import { gradients } from "~/assets/data/gradients"
 import { sections, tiers } from "~/assets/data/pricing"
+
 const { t } = useI18n()
 </script>
 
 <template>
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
-      <h1
-        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+      <div
+        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-4xl lg:text-5xl"
+        :class="gradients.gray"
       >
         {{ t("pricing.title") }}
-      </h1>
-      <p class="my-4 text-xl tracking-tighter text-center md:w-3/5">
+      </div>
+      <div
+        class="my-4 text-xl tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-br md:w-3/5"
+        :class="gradients.gray"
+      >
         {{ t("pricing.description") }}
-      </p>
+      </div>
     </div>
     <div class="mt-16">
       <div class="max-w-2xl mx-auto space-y-16 lg:hidden">
@@ -23,10 +29,10 @@ const { t } = useI18n()
           class="border rounded-lg border-divider"
         >
           <div class="p-8">
-            <h2 class="text-lg font-medium leading-6">
+            <div class="text-lg font-medium leading-6">
               {{ tier.name }}
-            </h2>
-            <p class="mt-4">
+            </div>
+            <div class="mt-4">
               <span
                 class="text-4xl font-bold tracking-tight text-secondaryDark"
               >
@@ -34,10 +40,10 @@ const { t } = useI18n()
               </span>
               {{ " " }}
               <span class="text-base font-medium">/mo</span>
-            </p>
-            <p class="mt-4 mb-8 text-sm text-secondaryLight">
+            </div>
+            <div class="mt-4 mb-8 text-sm text-secondaryLight">
               {{ tier.description }}
-            </p>
+            </div>
             <ButtonPrimary
               class="w-full"
               :rounded="false"
@@ -130,17 +136,17 @@ const { t } = useI18n()
                 class="h-full px-8 py-8 align-top"
               >
                 <div class="relative table h-full">
-                  <p>
+                  <div>
                     <span
                       class="text-4xl font-bold tracking-tight text-secondaryDark"
                       >${{ tier.priceMonthly }}</span
                     >
                     {{ " " }}
                     <span class="text-base font-medium">/mo</span>
-                  </p>
-                  <p class="mt-4 mb-8 text-sm text-secondaryLight">
+                  </div>
+                  <div class="mt-4 mb-8 text-sm text-secondaryLight">
                     {{ tier.description }}
-                  </p>
+                  </div>
                   <ButtonPrimary
                     class="w-full"
                     :rounded="false"

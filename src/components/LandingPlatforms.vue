@@ -1,19 +1,25 @@
 <script setup lang="ts">
 import { features } from "~/assets/data/landingPlatforms"
+import { gradients } from "~/assets/data/gradients"
+
 const { t } = useI18n()
 </script>
 
 <template>
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
-      <h1
-        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+      <div
+        class="max-w-2xl my-4 text-3xl leading-normal tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-4xl lg:text-5xl"
+        :class="gradients.gray"
       >
         {{ t("home.platforms.title") }}
-      </h1>
-      <p class="my-4 text-2xl tracking-tighter text-center md:w-2/5">
+      </div>
+      <div
+        class="my-4 text-2xl tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-br md:w-3/5"
+        :class="gradients.gray"
+      >
         {{ t("home.platforms.description") }}
-      </p>
+      </div>
     </div>
     <div class="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2">
       <div
@@ -29,12 +35,12 @@ const { t } = useI18n()
           <component :is="feature.icon" class="w-6 h-6 m-4" />
         </i>
         <div class="flex flex-col flex-1">
-          <h2 class="flex mt-8 mb-2 text-3xl font-semibold tracking-tighter">
+          <div class="flex mt-8 mb-2 text-3xl font-semibold tracking-tighter">
             {{ t(feature.title) }}
-          </h2>
-          <p class="flex w-4/5 max-w-xl text-sm tracking-tight opacity-75">
+          </div>
+          <div class="flex w-4/5 max-w-xl text-sm tracking-tight opacity-75">
             {{ t(feature.description) }}
-          </p>
+          </div>
         </div>
       </div>
     </div>

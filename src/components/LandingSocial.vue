@@ -17,14 +17,14 @@ const { t } = useI18n()
           />
         </i>
         <div class="flex-grow">
-          <h2 class="flex mt-4 mb-2 text-lg font-semibold tracking-tighter">
+          <div class="flex mt-4 mb-2 text-lg font-semibold tracking-tighter">
             {{ t("home.social.twitter.title") }}
-          </h2>
-          <p
+          </div>
+          <div
             class="flex w-4/5 text-sm tracking-tight opacity-50 transition group-hover:opacity-75"
           >
             {{ t("home.social.twitter.description") }}
-          </p>
+          </div>
         </div>
       </a>
       <a
@@ -39,14 +39,14 @@ const { t } = useI18n()
           />
         </i>
         <div class="flex-grow">
-          <h2 class="flex mt-4 mb-2 text-lg font-semibold tracking-tighter">
+          <div class="flex mt-4 mb-2 text-lg font-semibold tracking-tighter">
             {{ t("home.social.discord.title") }}
-          </h2>
-          <p
+          </div>
+          <div
             class="flex w-4/5 text-sm tracking-tight opacity-50 transition group-hover:opacity-75"
           >
             {{ t("home.social.discord.description") }}
-          </p>
+          </div>
         </div>
       </a>
     </div>

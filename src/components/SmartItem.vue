@@ -88,9 +88,9 @@ return "router-link"
           {{ tag }}
         </div>
       </div>
-      <p v-if="description" class="my-2 text-left text-secondaryLight">
+      <div v-if="description" class="my-2 text-left text-secondaryLight">
         {{ description }}
-      </p>
+      </div>
     </div>
   </component>
 </template>

@@ -12,14 +12,14 @@ const { t } = useI18n()
   >
     <div class="grid gap-8 grid-cols-1 md:grid-cols-2">
       <div class="flex flex-col">
-        <h4
+        <div
           class="flex mb-2 text-2xl font-semibold tracking-tighter text-secondaryDark"
         >
           {{ t("newsletter.title") }}
-        </h4>
-        <p class="text-secondaryLight">
+        </div>
+        <div class="text-secondaryLight">
           {{ t("newsletter.description") }}
-        </p>
+        </div>
       </div>
       <div class="flex flex-col">
         <div
@@ -41,9 +41,9 @@ const { t } = useI18n()
             class="form-button"
           />
         </div>
-        <p class="mt-4 opacity-50 text-secondaryLight">
+        <div class="mt-4 opacity-50 text-secondaryLight">
           {{ t("newsletter.prompt") }}
-        </p>
+        </div>
       </div>
     </div>
   </form>

@@ -1,22 +1,29 @@
 <script setup lang="ts">
 import { benefits } from "~/assets/data/careersBenefits"
+import { gradients } from "~/assets/data/gradients"
+
 const { t } = useI18n()
 </script>
 
 <template>
-  <div class="relative flex flex-col px-8">
-    <SmartGradient :blur="300" />
+  <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
-      <h2
-        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+      <div
+        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-4xl lg:text-5xl"
+        :class="gradients.gray"
       >
         {{ t("careers.benefits.heading") }}
-      </h2>
-      <p class="my-4 text-2xl text-center md:w-1/2">
+      </div>
+      <div
+        class="my-4 text-xl tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-br md:w-3/5"
+        :class="gradients.gray"
+      >
         {{ t("careers.benefits.subheading") }}
-      </p>
+      </div>
     </div>
-    <div class="py-8 grid grid-cols-1 gap-4 md:grid-cols-3">
+    <div
+      class="w-full py-16 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3"
+    >
       <div
         v-for="(benefitBlock, benefitIndex) in benefits"
         :key="`benefit-${benefitIndex}`"

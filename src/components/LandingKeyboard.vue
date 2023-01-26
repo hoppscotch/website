@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { shortcuts } from "~/assets/data/landingKeyboard"
+import { gradients } from "~/assets/data/gradients"
+
 const { t } = useI18n()
 
 const commandKeyRight = ref(false)
@@ -83,14 +85,20 @@ setInterval(cycleArray, 3000)
       <div class="absolute inset-0 z-1">
         <div class="flex flex-col px-8 pt-32 pb-16">
           <div class="flex flex-col items-center">
-            <h1
-              class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
-            >
-              {{ t("home.keyboard.title") }}
-            </h1>
-            <p class="my-4 text-2xl tracking-tighter text-center md:w-2/5">
-              {{ t("home.keyboard.description") }}
-            </p>
+            <AnimatedComponent animation-type="pull">
+              <div
+                class="max-w-2xl mb-4 text-3xl leading-normal tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-4xl lg:text-5xl"
+                :class="gradients.gray"
+              >
+                {{ t("home.keyboard.title") }}
+              </div>
+              <div
+                class="my-4 text-2xl tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-br md:w-3/5"
+                :class="gradients.gray"
+              >
+                {{ t("home.keyboard.description") }}
+              </div>
+            </AnimatedComponent>
           </div>
         </div>
         <div
@@ -104,8 +112,7 @@ setInterval(cycleArray, 3000)
                 <div
                   class="key esc key--md left"
                   :class="{
-                    '!shadow-lg ring-1 ring-teal-500 !text-secondaryDark':
-                      escKey,
+                    'ring-1 ring-teal-500 !text-secondaryDark': escKey,
                   }"
                 >
                   esc
@@ -168,7 +175,7 @@ setInterval(cycleArray, 3000)
                 <div
                   class="key s"
                   :class="{
-                    '!shadow-lg ring-1 ring-teal-500 !text-secondaryDark': sKey,
+                    'ring-1 ring-teal-500 !text-secondaryDark': sKey,
                   }"
                 >
                   S
@@ -180,7 +187,7 @@ setInterval(cycleArray, 3000)
                 <div
                   class="key"
                   :class="{
-                    '!shadow-lg ring-1 ring-teal-500 !text-secondaryDark': jKey,
+                    'ring-1 ring-teal-500 !text-secondaryDark': jKey,
                   }"
                 >
                   J
@@ -188,7 +195,7 @@ setInterval(cycleArray, 3000)
                 <div
                   class="key k"
                   :class="{
-                    '!shadow-lg ring-1 ring-teal-500 !text-secondaryDark': kKey,
+                    'ring-1 ring-teal-500 !text-secondaryDark': kKey,
                   }"
                 >
                   K
@@ -199,8 +206,7 @@ setInterval(cycleArray, 3000)
                 <div
                   class="key caps right"
                   :class="{
-                    '!shadow-lg ring-1 ring-teal-500 !text-secondaryDark':
-                      returnKey,
+                    'ring-1 ring-teal-500 !text-secondaryDark': returnKey,
                   }"
                 >
                   return
@@ -219,8 +225,7 @@ setInterval(cycleArray, 3000)
                 <div
                   class="key"
                   :class="{
-                    '!shadow-lg ring-1 ring-teal-500 !text-secondaryDark':
-                      dotKey,
+                    'ring-1 ring-teal-500 !text-secondaryDark': dotKey,
                   }"
                 >
                   <span>></span>.
@@ -228,7 +233,7 @@ setInterval(cycleArray, 3000)
                 <div
                   class="key"
                   :class="{
-                    '!shadow-lg ring-1 ring-teal-500 !text-secondaryDark':
+                    'ring-1 ring-teal-500 !text-secondaryDark':
                       slashKey || questionmarkKey,
                   }"
                 >
@@ -237,8 +242,7 @@ setInterval(cycleArray, 3000)
                 <div
                   class="key shift right"
                   :class="{
-                    '!shadow-lg ring-1 ring-teal-500 !text-secondaryDark':
-                      shiftRightKey,
+                    'ring-1 ring-teal-500 !text-secondaryDark': shiftRightKey,
                   }"
                 >
                   shift
@@ -251,8 +255,7 @@ setInterval(cycleArray, 3000)
                 <div
                   class="key command right"
                   :class="{
-                    '!shadow-lg ring-1 ring-teal-500 !text-secondaryDark':
-                      commandKeyRight,
+                    'ring-1 ring-teal-500 !text-secondaryDark': commandKeyRight,
                   }"
                 >
                   command
@@ -261,8 +264,7 @@ setInterval(cycleArray, 3000)
                 <div
                   class="key command left"
                   :class="{
-                    '!shadow-lg ring-1 ring-teal-500 !text-secondaryDark':
-                      commandKeyLeft,
+                    'ring-1 ring-teal-500 !text-secondaryDark': commandKeyLeft,
                   }"
                 >
                   command
@@ -285,7 +287,7 @@ setInterval(cycleArray, 3000)
               :key="index"
               class="flex items-center justify-between flex-1 h-16 px-6 border rounded shadow opacity-50 transition text-secondaryLight bg-primaryLight border-primary"
               :class="{
-                '!text-secondaryDark !shadow-lg !border-teal-500 !opacity-100 !bg-primary':
+                '!text-secondaryDark !border-teal-500 !opacity-100 !bg-primary':
                   shortcut.active,
               }"
             >

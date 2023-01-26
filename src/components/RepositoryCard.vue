@@ -42,7 +42,7 @@ defineProps({
     :class="styles"
     blank
   >
-    <h3
+    <div
       class="flex items-center mb-4 text-lg font-semibold tracking-tighter text-secondaryLight"
     >
       <div class="flex flex-1">
@@ -54,10 +54,10 @@ defineProps({
       <span class="ml-4">
         <component :is="icon" class="w-5 h-5 opacity-25" />
       </span>
-    </h3>
-    <p class="flex flex-1 text-secondaryLight">
+    </div>
+    <div class="flex flex-1 text-secondaryLight">
       {{ description }}
-    </p>
+    </div>
     <div class="flex items-center mt-4 text-secondaryLight">
       <span class="w-2 h-2 mr-2 rounded-full" :class="color"></span>
       {{ language }}

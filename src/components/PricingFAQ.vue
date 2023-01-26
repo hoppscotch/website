@@ -28,11 +28,11 @@ import { faq } from "~/assets/data/pricing"
             </svg>
           </span>
         </summary>
-        <p
+        <div
           class="px-8 py-4 border-t bg-primary border-divider text-neutral-600"
         >
           {{ item.answer }}
-        </p>
+        </div>
       </details>
     </div>
   </div>

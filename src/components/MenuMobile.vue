@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { navigation } from "~/assets/data/mobileNavigation"
 import gem from "~icons/lucide/gem"
+
 const { t } = useI18n()
 </script>
 
@@ -14,9 +15,9 @@ const { t } = useI18n()
         :key="`category-${categoryIndex}`"
         class="flex flex-col px-8 pb-4 transition"
       >
-        <p class="py-4 font-semibold uppercase text-secondaryLight">
+        <div class="py-4 font-semibold uppercase text-secondaryLight">
           {{ t(category.name) }}
-        </p>
+        </div>
         <div class="grid gap-2 grid-cols-2">
           <SmartItem
             v-for="(item, itemIndex) in category.links"

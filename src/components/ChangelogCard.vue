@@ -21,12 +21,12 @@ const { t } = useI18n()
     <i class="text-3xl text-accentLight">
       <component :is="changelog.icon" />
     </i>
-    <h3 class="my-4 text-2xl font-black transition text-secondaryDark">
+    <div class="my-4 text-2xl font-black transition text-secondaryDark">
       {{ t(changelog.title) }}
-    </h3>
-    <p class="text-justify transition text-secondary">
+    </div>
+    <div class="text-justify transition text-secondary">
       {{ t(changelog.description) }}
-    </p>
+    </div>
     <div class="mt-4">
       <span class="inline-flex items-center text-secondaryLight">
         <lucide-calendar class="mr-2 opacity-75" />

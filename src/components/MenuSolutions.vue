@@ -3,6 +3,7 @@ import { solutions } from "~/assets/data/menuSolutions"
 import book from "~icons/lucide/book-open"
 import guides from "~icons/lucide/graduation-cap"
 import support from "~icons/lucide/life-buoy"
+
 const { t } = useI18n()
 </script>
 

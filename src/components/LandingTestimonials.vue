@@ -1,22 +1,25 @@
 <script setup lang="ts">
+import { gradients } from "~/assets/data/gradients"
 import { testimonials } from "~/assets/data/landingTestimonials"
+
 const { t } = useI18n()
 </script>
 
 <template>
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
-      <h1
-        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center text-secondaryDark transition md:text-4xl lg:text-5xl"
+      <div
+        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-4xl lg:text-5xl"
+        :class="gradients.gray"
       >
         {{ t("home.testimonials.title") }}
-      </h1>
+      </div>
     </div>
-    <div class="mt-16 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    <div class="mt-16 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
       <div
         v-for="(testimonialBlock, testimonialBlockIndex) in testimonials"
         :key="`testimonial-${testimonialBlockIndex}`"
-        class="flex flex-col flex-1 grid gap-4 grid-cols-1"
+        class="flex flex-col flex-1 grid grid-cols-1 gap-4"
         :class="{
           'hidden lg:flex': testimonialBlockIndex === 2,
         }"
@@ -27,13 +30,13 @@ const { t } = useI18n()
           :href="testimonial.link"
           target="_blank"
           rel="noopener noreferrer"
-          class="flex flex-col w-full p-8 rounded-lg shadow bg-primaryLight transition group hover:shadow-md"
+          class="flex flex-col w-full p-8 rounded-lg shadow transition bg-primaryLight group hover:shadow-md"
         >
           <div class="flex items-center w-full mb-4">
             <img
               :src="testimonial.picture"
               :alt="testimonial.username"
-              class="flex flex-shrink-0 w-10 h-10 rounded-full shadow-inner bg-primaryDark transition"
+              class="flex flex-shrink-0 w-10 h-10 rounded-full shadow-inner transition bg-primaryDark"
             />
             <div class="flex-grow pl-4">
               <div class="flex items-center justify-between">
@@ -47,11 +50,11 @@ const { t } = useI18n()
               }}</span>
             </div>
           </div>
-          <p
-            class="w-full text-secondary transition group-hover:text-secondaryDark"
+          <div
+            class="w-full transition text-secondary group-hover:text-secondaryDark"
           >
             {{ testimonial.text }}
-          </p>
+          </div>
         </a>
       </div>
     </div>

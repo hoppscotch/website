@@ -2,34 +2,34 @@
   <div class="flex flex-col px-8 py-16">
     <div class="marquee full-width">
       <div class="marquee-group">
-        <p><CircleText text="Open source ★ Open source ★" /></p>
-        <p aria-hidden="true">
+        <div><CircleText text="Open source ★ Open source ★" /></div>
+        <div aria-hidden="true">
           <CircleText text="Open source ★ Open source ★" />
-        </p>
-        <p aria-hidden="true">
+        </div>
+        <div aria-hidden="true">
           <CircleText text="Open source ★ Open source ★" />
-        </p>
-        <p aria-hidden="true">
+        </div>
+        <div aria-hidden="true">
           <CircleText text="Open source ★ Open source ★" />
-        </p>
-        <p aria-hidden="true">
+        </div>
+        <div aria-hidden="true">
           <CircleText text="Open source ★ Open source ★" />
-        </p>
-        <p aria-hidden="true">
+        </div>
+        <div aria-hidden="true">
           <CircleText text="Open source ★ Open source ★" />
-        </p>
-        <p aria-hidden="true">
+        </div>
+        <div aria-hidden="true">
           <CircleText text="Open source ★ Open source ★" />
-        </p>
+        </div>
       </div>
       <div aria-hidden="true" class="marquee-group">
-        <p><CircleText text="Open source ★ Open source ★" /></p>
-        <p><CircleText text="Open source ★ Open source ★" /></p>
-        <p><CircleText text="Open source ★ Open source ★" /></p>
-        <p><CircleText text="Open source ★ Open source ★" /></p>
-        <p><CircleText text="Open source ★ Open source ★" /></p>
-        <p><CircleText text="Open source ★ Open source ★" /></p>
-        <p><CircleText text="Open source ★ Open source ★" /></p>
+        <div><CircleText text="Open source ★ Open source ★" /></div>
+        <div><CircleText text="Open source ★ Open source ★" /></div>
+        <div><CircleText text="Open source ★ Open source ★" /></div>
+        <div><CircleText text="Open source ★ Open source ★" /></div>
+        <div><CircleText text="Open source ★ Open source ★" /></div>
+        <div><CircleText text="Open source ★ Open source ★" /></div>
+        <div><CircleText text="Open source ★ Open source ★" /></div>
       </div>
     </div>
   </div>

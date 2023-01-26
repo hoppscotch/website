@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { changelogs } from "~/assets/data/changelogsList"
+
 const { t } = useI18n()
 const changelogCount = ref(5)
 </script>
@@ -7,14 +8,14 @@ const changelogCount = ref(5)
 <template>
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
-      <h1
+      <div
         class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
       >
         {{ t("changelog.hero.heading") }}
-      </h1>
-      <p class="my-4 text-xl tracking-tighter text-center md:w-3/5">
+      </div>
+      <div class="my-4 text-xl tracking-tighter text-center md:w-3/5">
         {{ t("changelog.hero.subheading") }}
-      </p>
+      </div>
     </div>
     <div class="flex flex-col mx-auto mt-16 grid-cols-9 md:grid">
       <div

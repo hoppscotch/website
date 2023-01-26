@@ -6,8 +6,8 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div class="flex flex-col py-5">
-    <h2>{{ t("careers.form.heading") }}</h2>
+  <div class="flex flex-col py-8">
+    <div>{{ t("careers.form.heading") }}</div>
     <form
       method="POST"
       action="/company/careers/success"
@@ -61,7 +61,7 @@ const { t } = useI18n()
           id="resume"
           type="file"
           name="resume"
-          class="p-1 border cursor-pointer border-dividerDarkfile:border text-secondaryLight transition file:border-dividerLight form-input file:transition file:cursor-pointer file:rounded file:text-secondary file:bg-primaryLight file:mr-2 file:py-1 file:px-4 hover:text-secondaryDark hover:file:text-secondaryDark hover:file:bg-primaryDark"
+          class="p-1 border cursor-pointer transition border-dividerDarkfile:border text-secondaryLight file:border-dividerLight form-input file:transition file:cursor-pointer file:rounded file:text-secondary file:bg-primaryLight file:mr-2 file:py-1 file:px-4 hover:text-secondaryDark hover:file:text-secondaryDark hover:file:bg-primaryDark"
         />
       </label>
       <label class="flex flex-col" for="linked">

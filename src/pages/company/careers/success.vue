@@ -13,9 +13,9 @@ useHead({
     class="flex flex-col items-center justify-center py-10 mx-auto my-8 text-center rounded"
   >
     <CheckCircle class="my-8 text-3xl text-accent" />
-    <h1>{{ t("careers.form.success_message") }}</h1>
-    <p class="my-2 text-secondaryLight">
+    <div>{{ t("careers.form.success_message") }}</div>
+    <div class="my-2 text-secondaryLight">
       {{ t("careers.form.success_message_subheading") }}
-    </p>
+    </div>
   </div>
 </template>

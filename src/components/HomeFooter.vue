@@ -1,20 +1,23 @@
 <script setup lang="ts">
 import { isDark, toggleDark } from "~/composables"
 import { navigation } from "~/assets/data/footerNavigation"
+import moon from "~icons/lucide/moon"
+import sun from "~icons/lucide/sun"
+
 const { t } = useI18n()
 </script>
 
 <template>
   <footer class="flex flex-col px-8 py-16">
-    <nav class="grid gap-4 grid-cols-2 md:gap-8 md:grid-cols-5">
+    <nav class="grid grid-cols-2 gap-4 md:gap-8 md:grid-cols-5">
       <div
         v-for="(category, categoryIndex) in navigation"
         :key="`category-${categoryIndex}`"
-        class="flex flex-col space-y-2"
+        class="flex flex-col items-start space-y-2"
       >
-        <h5 class="flex my-2 font-bold opacity-75 text-secondaryLight">
+        <div class="flex my-2 font-bold opacity-75 text-secondaryLight">
           {{ t(category.name) }}
-        </h5>
+        </div>
         <ul class="space-y-2">
           <li
             v-for="(item, itemIndex) in category.links"
@@ -23,31 +26,27 @@ const { t } = useI18n()
           >
             <SmartLink
               :to="item.link"
-              class="flex text-secondaryLight transition hover:text-secondaryDark"
+              class="flex transition text-secondaryLight hover:text-secondaryDark"
             >
               {{ t(item.name) }}
             </SmartLink>
           </li>
         </ul>
       </div>
-      <div class="flex flex-col space-y-2">
-        <h5 class="flex my-2 font-bold opacity-75 text-secondaryLight">
+      <div class="flex flex-col items-start space-y-2">
+        <div class="flex my-2 font-bold opacity-75 text-secondaryLight">
           {{ t("logo") }}
-        </h5>
-        <div>
-          <button
-            v-tippy="{
-              theme: 'tooltip',
-              content: isDark ? t('action.light') : t('action.dark'),
-              placement: 'bottom',
-            }"
-            class="inline-flex mx-2 outline-none text-secondaryLight hover:text-secondaryDark"
-            @click="toggleDark()"
-          >
-            <lucide-moon v-if="isDark" />
-            <lucide-sun v-else />
-          </button>
         </div>
+        <ButtonSecondary
+          v-tippy="{
+            theme: 'tooltip',
+            content: isDark ? t('action.light') : t('action.dark'),
+            placement: 'bottom',
+          }"
+          :icon="isDark ? moon : sun"
+          outline
+          @click="toggleDark()"
+        />
       </div>
     </nav>
   </footer>

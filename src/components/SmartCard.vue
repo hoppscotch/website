@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { gradients } from "~/assets/data/gradients"
+
 withDefaults(
   defineProps<{
     title: string;
@@ -32,12 +34,15 @@ const { t } = useI18n()
         </i>
       </div>
       <div class="flex flex-col justify-end flex-1 h-40 px-8 pb-8">
-        <h3 class="flex mt-2 mb-2 text-lg font-semibold tracking-tighter">
+        <div
+          class="flex mt-2 mb-2 text-lg font-semibold tracking-tighter text-transparent bg-clip-text bg-gradient-to-br"
+          :class="gradients.gray"
+        >
           {{ t(title) }}
-        </h3>
-        <p class="flex flex-1 text-sm tracking-tight text-secondaryLight">
+        </div>
+        <div class="flex flex-1 text-sm tracking-tight text-secondaryLight">
           {{ t(description) }}
-        </p>
+        </div>
       </div>
     </div>
   </div>

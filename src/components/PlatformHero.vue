@@ -1,19 +1,25 @@
 <script setup lang="ts">
+import { gradients } from "~/assets/data/gradients"
 import { platforms } from "~/assets/data/platformsList"
+
 const { t } = useI18n()
 </script>
 
 <template>
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
-      <h1
-        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+      <div
+        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-4xl lg:text-5xl"
+        :class="gradients.gray"
       >
         {{ t("platforms.hero.heading") }}
-      </h1>
-      <p class="my-4 text-xl tracking-tighter text-center md:w-3/5">
+      </div>
+      <div
+        class="my-4 text-xl tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-br md:w-3/5"
+        :class="gradients.gray"
+      >
         {{ t("platforms.hero.subheading") }}
-      </p>
+      </div>
     </div>
     <div
       v-interactive-hover-animation
@@ -34,12 +40,15 @@ const { t } = useI18n()
             />
           </div>
           <div class="flex flex-col flex-1 h-56 px-8 pb-8">
-            <h2 class="flex mt-4 mb-2 text-lg font-semibold tracking-tighter">
+            <div
+              class="flex mt-4 mb-2 text-lg font-semibold tracking-tighter text-transparent bg-clip-text bg-gradient-to-br"
+              :class="gradients.gray"
+            >
               {{ t(platform.title) }}
-            </h2>
-            <p class="flex flex-1 text-sm tracking-tight text-secondaryLight">
+            </div>
+            <div class="flex flex-1 text-sm tracking-tight text-secondaryLight">
               {{ t(platform.description) }}
-            </p>
+            </div>
             <div class="mt-2">
               <div
                 :to="platform.link.target"

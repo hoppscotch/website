@@ -1,19 +1,25 @@
 <script setup lang="ts">
 import { openPositions } from "~/assets/data/careersOpenPositions"
+import { gradients } from "~/assets/data/gradients"
+
 const { t } = useI18n()
 </script>
 
 <template>
-  <div id="open-roles" class="relative flex flex-col px-8">
+  <div id="open-roles" class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
-      <h2
-        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+      <div
+        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br text-secondaryDark md:text-4xl lg:text-5xl"
+        :class="gradients.gray"
       >
         {{ t("careers.openPositions.heading") }}
-      </h2>
-      <p class="my-4 text-2xl text-center md:w-1/2">
+      </div>
+      <div
+        class="my-4 text-xl tracking-tighter text-center text-transparent md:w-3/5 bg-clip-text bg-gradient-to-br"
+        :class="gradients.gray"
+      >
         {{ t("careers.openPositions.subheading") }}
-      </p>
+      </div>
     </div>
     <div class="py-8 divide-y divide-dividerDark">
       <div
@@ -21,12 +27,12 @@ const { t } = useI18n()
         :key="`careers-${index}`"
         class="py-10"
       >
-        <h3 class="flex items-center text-2xl font-bold gap-3">
+        <div class="flex items-center text-2xl font-bold gap-3">
           <i class="text-xl text-secondaryDark">
             <component :is="position.heading.icon" />
           </i>
           {{ t(position.heading.title) }}
-        </h3>
+        </div>
         <ul class="my-4">
           <li
             v-for="(opening, openingIndex) in position.positions"
@@ -40,9 +46,9 @@ const { t } = useI18n()
               <span>
                 {{ t(opening.title) }}
               </span>
-              <p class="my-2 text-sm text-secondaryLight">
+              <div class="my-2 text-sm text-secondaryLight">
                 {{ t(opening.description) }}
-              </p>
+              </div>
             </SmartLink>
           </li>
         </ul>

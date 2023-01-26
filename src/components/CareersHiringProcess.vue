@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import CareersProcessCard from "./CareersProcessCard.vue"
+import { gradients } from "~/assets/data/gradients"
 import { interviewProcess } from "~/assets/data/careersInterviewProcess"
+
 const { t } = useI18n()
 
 const activeTipIndex = ref(0)
@@ -13,17 +15,21 @@ const setActiveTip = (index: number) => {
 <template>
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
-      <h1
-        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+      <div
+        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br text-secondaryDark md:text-4xl lg:text-5xl"
+        :class="gradients.gray"
       >
         {{ t("careers.hiringProcess.heading") }}
-      </h1>
-      <p class="my-4 text-xl tracking-tighter text-center md:w-3/5">
+      </div>
+      <div
+        class="my-4 text-xl tracking-tighter text-center text-transparent md:w-3/5 bg-clip-text bg-gradient-to-br"
+        :class="gradients.gray"
+      >
         {{ t("careers.hiringProcess.subheading") }}
-      </p>
+      </div>
     </div>
     <div
-      class="relative items-start justify-between py-5 grid grid-cols-1 md:grid-cols-2 gap-30"
+      class="relative items-start justify-between py-8 grid grid-cols-1 gap-32 md:grid-cols-2"
     >
       <div
         class="sticky min-h-[40vh] lg:min-h-[60vh] top-0 md:top-15 md:top-[20%] left-0 flex flex-col justify-center items-center"
@@ -36,14 +42,14 @@ const setActiveTip = (index: number) => {
             activeTipIndex === processTitleIndex ? 'opacity-100' : 'opacity-0',
           ]"
         >
-          <h3
+          <div
             class="flex items-center justify-center text-5xl border-2 rounded-full h-18 w-18"
           >
             {{ processTitleIndex + 1 }}
-          </h3>
-          <h4 class="my-8 text-2xl font-bold">
+          </div>
+          <div class="my-8 text-2xl font-bold">
             {{ t(processTitle.title) }}
-          </h4>
+          </div>
         </div>
       </div>
       <div class="flex flex-col">

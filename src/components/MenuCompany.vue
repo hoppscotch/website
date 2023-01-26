@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { company } from "~/assets/data/menuCompany"
 import { blogs } from "~/assets/data/blogList"
+
 const { t } = useI18n()
 </script>
 
@@ -17,9 +18,9 @@ const { t } = useI18n()
     </div>
     <div class="flex flex-col p-4 mt-2 rounded-lg bg-primaryDark">
       <div class="flex items-center mb-2">
-        <h4 class="font-semibold text-secondaryDark">
+        <div class="font-semibold text-secondaryDark">
           {{ t("header.menu.blog.title") }}
-        </h4>
+        </div>
       </div>
       <ul class="flex flex-col space-y-2">
         <li

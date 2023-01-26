@@ -1,19 +1,20 @@
 <script setup lang="ts">
 import { features } from "~/assets/data/platformWeb"
+
 const { t } = useI18n()
 </script>
 
 <template>
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
-      <h1
+      <div
         class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
       >
         {{ t("platforms.items.web.title") }}
-      </h1>
-      <p class="my-4 text-xl tracking-tighter text-center md:w-3/5">
+      </div>
+      <div class="my-4 text-xl tracking-tighter text-center md:w-3/5">
         {{ t("platforms.items.web.description") }}
-      </p>
+      </div>
     </div>
     <div class="mt-16 grid grid-cols-2 gap-4 md:gap-8">
       <div
@@ -29,16 +30,16 @@ const { t } = useI18n()
           <component :is="feature.icon" class="w-8 h-8 m-4" />
         </i>
         <div class="flex flex-col flex-1">
-          <h2
+          <div
             class="flex mt-8 mb-2 text-3xl font-semibold tracking-tighter text-secondaryDark"
           >
             {{ t(feature.title) }}
-          </h2>
-          <p
+          </div>
+          <div
             class="flex w-4/5 max-w-xl text-sm tracking-tight opacity-75 text-secondaryDark"
           >
             {{ t(feature.description) }}
-          </p>
+          </div>
         </div>
       </div>
     </div>

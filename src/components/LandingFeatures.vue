@@ -1,21 +1,24 @@
 <script setup lang="ts">
 import { features } from "~/assets/data/landingFeatures"
+import { gradients } from "~/assets/data/gradients"
+
 const { t } = useI18n()
 </script>
 
 <template>
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
-      <p
+      <div
         class="my-4 font-semibold tracking-widest text-center uppercase text-accentLight"
       >
         {{ t("home.features.title") }}
-      </p>
-      <h3
-        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+      </div>
+      <div
+        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-4xl lg:text-5xl"
+        :class="gradients.gray"
       >
         {{ t("home.features.description") }}
-      </h3>
+      </div>
     </div>
     <div
       v-interactive-hover-animation
@@ -35,12 +38,15 @@ const { t } = useI18n()
             />
           </div>
           <div class="flex flex-col h-32 px-8 pb-8">
-            <h2 class="flex my-2 text-lg font-semibold tracking-tight">
+            <div
+              class="flex my-2 text-lg font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-br"
+              :class="gradients.gray"
+            >
               {{ t(feature.title) }}
-            </h2>
-            <p class="flex flex-1 text-sm tracking-tight text-secondaryLight">
+            </div>
+            <div class="flex flex-1 text-sm tracking-tight text-secondaryLight">
               {{ t(feature.description) }}
-            </p>
+            </div>
           </div>
         </div>
       </div>

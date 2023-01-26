@@ -5,7 +5,5 @@ useHead({
 </script>
 
 <template>
-  <div class="flex flex-col">
-    <SolutionDesignHero />
-  </div>
+  <div class="flex flex-col"></div>
 </template>

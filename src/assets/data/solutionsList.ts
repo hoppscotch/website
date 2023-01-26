@@ -3,7 +3,7 @@ export const solutions = [
     icon: "sync.webp",
     title: "solutions.items.design.title",
     description: "solutions.items.design.description",
-    link: { title: "action.learn_more", target: "/platforms/web" },
+    link: { title: "action.learn_more", target: "/solutions/design" },
   },
   {
     icon: "search.webp",
@@ -11,7 +11,7 @@ export const solutions = [
     description: "solutions.items.development.description",
     link: {
       title: "action.learn_more",
-      target: "/platforms/cli",
+      target: "/solutions/development",
     },
   },
   {
@@ -20,14 +20,14 @@ export const solutions = [
     description: "solutions.items.maintenance.description",
     link: {
       title: "action.learn_more",
-      target: "/platforms/native",
+      target: "/solutions/maintenance",
     },
   },
   {
     icon: "responsive.webp",
     title: "solutions.items.design.title",
     description: "solutions.items.design.description",
-    link: { title: "action.learn_more", target: "/platforms/web" },
+    link: { title: "action.learn_more", target: "/solutions/design" },
   },
   {
     icon: "privacy.webp",
@@ -35,7 +35,7 @@ export const solutions = [
     description: "solutions.items.testing.description",
     link: {
       title: "action.learn_more",
-      target: "/platforms/embeds",
+      target: "/solutions/testing",
     },
   },
   {
@@ -44,7 +44,7 @@ export const solutions = [
     description: "solutions.items.documentation.description",
     link: {
       title: "action.learn_more",
-      target: "/platforms/native",
+      target: "/solutions/documentation",
     },
   },
 
@@ -54,13 +54,13 @@ export const solutions = [
     description: "solutions.items.deployment.description",
     link: {
       title: "action.learn_more",
-      target: "/platforms/embeds",
+      target: "/solutions/deployment",
     },
   },
   {
     icon: "keyboard.webp",
     title: "solutions.items.design.title",
     description: "solutions.items.design.description",
-    link: { title: "action.learn_more", target: "/platforms/web" },
+    link: { title: "action.learn_more", target: "/solutions/design" },
   },
 ]

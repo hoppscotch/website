@@ -31,7 +31,10 @@ useIntersectionObserver(
 <template>
   <div ref="target">
     <Transition appear :name="animationType">
-      <div v-appear="animate" class="animated-component">
+      <div
+        v-appear="animate"
+        class="flex flex-col items-center flex-1 animated-component"
+      >
         <slot />
       </div>
     </Transition>
@@ -40,7 +43,8 @@ useIntersectionObserver(
 
 <style lang="scss" scoped>
 .animated-component.fade-enter-from,
-.animated-component.zoom-enter-from {
+.animated-component.zoom-enter-from,
+.animated-component.pull-enter-from {
   transition: none;
 }
 .fade-enter-active,
@@ -58,5 +62,13 @@ useIntersectionObserver(
 .zoom-enter-from,
 .zoom-leave-to {
   transform: scale(0.8);
+}
+.pull-enter-active,
+.pull-leave-active {
+  transition: transform 1500ms ease;
+}
+.pull-enter-from,
+.pull-leave-to {
+  transform: translateY(100%);
 }
 </style>

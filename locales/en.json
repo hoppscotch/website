@@ -530,10 +530,6 @@
     }
   },
   "home": {
-    "projects": {
-      "title": "Platforms for an API-first world",
-      "description": "Design, develop, and document APIs with Hoppscotch's powerful platforms."
-    },
     "announcement": {
       "long_description": "Hoppscotch raises $3M in seed round",
       "long_link_text": "Read accouncement",
@@ -550,7 +546,7 @@
     },
     "features": {
       "button": "Get Started",
-      "description": "A technology-first approach to API development and testing",
+      "description": "A technology-first approach to api development",
       "items": {
         "1": {
           "description": "Designed to be seamless and instant.",
@@ -635,7 +631,11 @@
           "title": "Unobtrusive"
         }
       },
-      "title": "Productivity, levelled up."
+      "title": "Productivity, levelled up"
+    },
+    "projects": {
+      "description": "Design, develop, and document APIs with Hoppscotch's powerful platforms.",
+      "title": "Platforms for an API-first world"
     },
     "social": {
       "discord": {
@@ -763,8 +763,8 @@
     }
   },
   "pricing": {
-    "title": "Pricing",
-    "description": "Pricing plans for teams of all sizes"
+    "description": "Pricing plans for teams of all sizes",
+    "title": "Pricing"
   },
   "protocols": {
     "hero": {

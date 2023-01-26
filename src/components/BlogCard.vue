@@ -46,29 +46,29 @@ const getComputedDate = computed(() => {
         />
       </div>
       <div class="flex flex-col flex-1 p-8">
-        <h2
+        <div
           class="flex items-center text-xl font-semibold text-secondaryDark gap-4 lg:text-2xl"
         >
           {{ t(blog.title) }}
-        </h2>
+        </div>
         <div class="flex items-center my-4">
           <img
             class="w-8 h-8 rounded-full"
             :src="blog.author.image"
             :alt="blog.author.name"
           />
-          <p class="flex flex-col ml-3 space-y-1">
+          <div class="flex flex-col ml-3 space-y-1">
             <span class="text-sm font-semibold text-secondaryDark">
               {{ t(blog.author.name) }}
             </span>
             <span class="text-xs text-secondaryLight opacity-60">
               {{ getComputedDate }}
             </span>
-          </p>
+          </div>
         </div>
-        <p class="flex w-11/12 max-w-xl my-2 opacity-75 text-secondaryDark">
+        <div class="flex w-11/12 max-w-xl my-2 opacity-75 text-secondaryDark">
           {{ t(blog.description) }}
-        </p>
+        </div>
         <div class="relative w-full my-2 overflow-hidden faded-edge">
           <div class="flex w-full overflow-x-auto flex-nowrap space-x-2">
             <span
