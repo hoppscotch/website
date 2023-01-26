@@ -2,7 +2,6 @@
 import x from "~icons/lucide/x"
 import menu from "~icons/lucide/menu"
 import github from "~icons/lucide/github"
-import externalLink from "~icons/lucide/external-link"
 
 const { t } = useI18n()
 const router = useRouter()
@@ -39,7 +38,9 @@ onMounted(() => {
   <header class="max-h-screen top-0 z-20 sticky <md:overflow-auto">
     <nav
       class="flex"
-      :class="{ 'border-dividerLight border-b bg-primary': showMenu }"
+      :class="{
+        '<md:border-dividerLight <md:border-b <md:bg-primary': showMenu,
+      }"
     >
       <div class="container flex items-center justify-between flex-1 px-8 py-4">
         <div class="flex md:flex-1 md:w-0">
@@ -135,12 +136,13 @@ onMounted(() => {
             :icon="github"
             fill
             outline
+            blank
           />
           <ButtonPrimary
             to="https://hoppscotch.io"
             :label="t('action.open_app')"
-            :icon="externalLink"
             outline
+            blank
           />
         </div>
         <div class="md:hidden">

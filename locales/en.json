@@ -530,6 +530,10 @@
     }
   },
   "home": {
+    "projects": {
+      "title": "Platforms for an API-first world",
+      "description": "Design, develop, and document APIs with Hoppscotch's powerful platforms."
+    },
     "announcement": {
       "long_description": "Hoppscotch raises $3M in seed round",
       "long_link_text": "Read accouncement",

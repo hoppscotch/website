@@ -39,7 +39,7 @@ return "router-link"
     :href="props.to"
     :to="props.to"
     :exact="props.exact"
-    :target="props.blank"
+    :target="props.blank ? '_blank' : '_self'"
   >
     <slot />
   </component>

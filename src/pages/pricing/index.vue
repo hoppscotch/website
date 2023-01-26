@@ -7,5 +7,9 @@ useHead({
 <template>
   <div class="flex flex-col">
     <PricingHero />
+    <LandingUsers />
+    <LandingTestimonials />
+    <LandingCTA />
+    <PricingFAQ />
   </div>
 </template>

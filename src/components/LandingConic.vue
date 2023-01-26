@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { projects } from "~/assets/data/landingProjects"
 const { t } = useI18n()
 </script>
 
@@ -17,30 +18,27 @@ const { t } = useI18n()
             <h1
               class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
             >
-              {{ t("home.platforms.title") }}
+              {{ t("home.projects.title") }}
             </h1>
             <p class="my-4 text-2xl tracking-tighter text-center md:w-2/5">
-              {{ t("home.platforms.description") }}
+              {{ t("home.projects.description") }}
             </p>
           </div>
         </div>
         <div class="relative flex flex-1 mx-auto md:rounded-lg h-256 lg:h-128">
           <div class="flex flex-1 grid grid-cols-6 gap-2 grid-rows-10">
-            <div
-              class="flex flex-1 rounded-lg col-span-6 row-span-2 lg:col-span-2 lg:row-span-10 bg-primary"
-            ></div>
-            <div
-              class="flex flex-1 rounded-lg col-span-6 row-span-2 lg:col-span-2 lg:row-span-5 bg-primary"
-            ></div>
-            <div
-              class="flex flex-1 rounded-lg col-span-6 row-span-2 lg:col-span-2 lg:row-span-5 bg-primary"
-            ></div>
-            <div
-              class="flex flex-1 rounded-lg col-span-6 row-span-2 lg:col-span-2 lg:row-span-5 bg-primary"
-            ></div>
-            <div
-              class="flex flex-1 rounded-lg col-span-6 row-span-2 lg:col-span-2 lg:row-span-5 bg-primary"
-            ></div>
+            <RepositoryCard
+              v-for="(project, index) in projects"
+              :key="index"
+              :title="project.title"
+              :description="project.description"
+              :styles="project.styles"
+              :icon="project.icon"
+              :language="project.language"
+              :color="project.color"
+              :link="project.link"
+              :stars="project.stars"
+            />
           </div>
         </div>
       </div>

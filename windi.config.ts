@@ -32,12 +32,6 @@ export default defineConfig({
         primaryTransparent: "var(--color-primaryTransparent)",
         primaryTransparentContrast: "var(--color-primaryTransparentContrast)",
       },
-      backgroundImage: {
-        "gradient-conic": "conic-gradient(var(--tw-gradient-stops))",
-      },
-      scale: {
-        flip: "-1",
-      },
     },
   },
 })

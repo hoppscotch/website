@@ -79,6 +79,7 @@ return "router-link"
       },
     ]"
     :tabindex="loading ? '-1' : '0'"
+    :target="props.blank ? '_blank' : '_self'"
   >
     <span
       v-if="!loading"

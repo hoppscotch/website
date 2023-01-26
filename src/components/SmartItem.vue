@@ -67,6 +67,7 @@ return "router-link"
       { 'hover:bg-primaryDark focus:bg-primaryDark': fill },
       rounded ? 'rounded-full' : 'rounded',
     ]"
+    :target="props.blank ? '_blank' : '_self'"
   >
     <component
       :is="icon"

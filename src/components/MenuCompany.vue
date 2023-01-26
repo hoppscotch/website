@@ -6,7 +6,7 @@ const { t } = useI18n()
 
 <template>
   <div>
-    <div class="grid grid-cols-2">
+    <div class="grid gap-2 grid-cols-2">
       <SmartItem
         v-for="(item, itemIndex) in company"
         :key="`item-${itemIndex}`"

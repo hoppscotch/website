@@ -27,13 +27,17 @@ const { t } = useI18n()
               {{ tier.name }}
             </h2>
             <p class="mt-4">
-              <span class="text-4xl font-bold tracking-tight">
+              <span
+                class="text-4xl font-bold tracking-tight text-secondaryDark"
+              >
                 ${{ tier.priceMonthly }}
               </span>
               {{ " " }}
               <span class="text-base font-medium">/mo</span>
             </p>
-            <p class="mt-4 mb-8 text-sm">{{ tier.description }}</p>
+            <p class="mt-4 mb-8 text-sm text-secondaryLight">
+              {{ tier.description }}
+            </p>
             <ButtonPrimary
               class="w-full"
               :rounded="false"
@@ -56,7 +60,10 @@ const { t } = useI18n()
                 :key="feature.name"
                 class="border-t border-divider"
               >
-                <th class="px-8 py-4 text-sm font-normal text-left" scope="row">
+                <th
+                  class="px-8 py-4 text-sm font-normal text-left text-secondaryLight"
+                  scope="row"
+                >
                   {{ feature.name }}
                 </th>
                 <td class="py-4 pr-8">
@@ -96,13 +103,13 @@ const { t } = useI18n()
         <table class="w-full h-px table-fixed">
           <thead>
             <tr>
-              <th class="p-8 text-sm font-medium text-left" scope="col">
+              <th class="px-8 py-4 text-sm font-medium text-left" scope="col">
                 <span>Plans</span>
               </th>
               <th
                 v-for="tier in tiers"
                 :key="tier.name"
-                class="w-1/4 p-8 text-lg font-medium text-left leading-6"
+                class="w-1/4 px-8 py-4 text-lg font-medium text-left leading-6"
                 scope="col"
               >
                 {{ tier.name }}
@@ -124,13 +131,14 @@ const { t } = useI18n()
               >
                 <div class="relative table h-full">
                   <p>
-                    <span class="text-4xl font-bold tracking-tight"
+                    <span
+                      class="text-4xl font-bold tracking-tight text-secondaryDark"
                       >${{ tier.priceMonthly }}</span
                     >
                     {{ " " }}
                     <span class="text-base font-medium">/mo</span>
                   </p>
-                  <p class="mt-4 mb-8 text-sm">
+                  <p class="mt-4 mb-8 text-sm text-secondaryLight">
                     {{ tier.description }}
                   </p>
                   <ButtonPrimary
@@ -154,7 +162,10 @@ const { t } = useI18n()
                 </th>
               </tr>
               <tr v-for="feature in section.features" :key="feature.name">
-                <th class="px-8 py-4 text-sm font-normal text-left" scope="row">
+                <th
+                  class="px-8 py-4 text-sm font-normal text-left text-secondaryLight"
+                  scope="row"
+                >
                   {{ feature.name }}
                 </th>
                 <td v-for="tier in tiers" :key="tier.name" class="px-8 py-4">
@@ -183,7 +194,7 @@ const { t } = useI18n()
           <tfoot>
             <tr class="border-t border-divider">
               <th scope="row"></th>
-              <td v-for="tier in tiers" :key="tier.name" class="p-8">
+              <td v-for="tier in tiers" :key="tier.name" class="px-8 py-6">
                 <ButtonPrimary
                   class="w-full"
                   :rounded="false"
