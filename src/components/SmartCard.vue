@@ -35,7 +35,7 @@ const { t } = useI18n()
       </div>
       <div class="flex flex-col justify-end flex-1 h-40 px-8 pb-8">
         <div
-          class="flex mt-2 mb-2 text-lg font-semibold tracking-tighter text-transparent bg-clip-text bg-gradient-to-br"
+          class="flex mt-2 mb-2 text-lg font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-br"
           :class="gradients.gray"
         >
           {{ t(title) }}

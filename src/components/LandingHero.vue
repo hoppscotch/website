@@ -5,11 +5,11 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div class="flex flex-col px-8 py-16">
+  <div class="flex flex-col px-8 py-16 interactive-gradient rounded-4xl">
     <LandingAnnouncement />
     <div class="flex flex-col items-center">
       <div
-        class="block w-full max-w-2xl mt-4 mb-4 text-5xl leading-none tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-6xl lg:text-8xl"
+        class="block w-full max-w-2xl mt-4 mb-4 text-5xl leading-none tracking-tight text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-6xl lg:text-8xl"
         :class="gradients.gray"
       >
         {{ t("home.hero.heading") }}
@@ -17,7 +17,7 @@ const { t } = useI18n()
         {{ t("home.hero.heading_line_2") }}
       </div>
       <div
-        class="my-4 text-2xl tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-br md:w-2/5"
+        class="my-4 text-2xl tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-br md:w-2/5"
         :class="gradients.gray"
       >
         {{ t("home.hero.subheading") }}
@@ -26,14 +26,12 @@ const { t } = useI18n()
         <ButtonSecondary
           to="https://github.com/hoppscotch/hoppscotch"
           label="GitHub"
-          outline
           large
           fill
         />
         <ButtonPrimary
           to="https://hoppscotch.io"
           :label="t('action.open_app')"
-          outline
           large
         />
       </div>

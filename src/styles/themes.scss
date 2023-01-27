@@ -18,9 +18,9 @@
 }
 
 @mixin darkMode {
-  --color-primary: theme("colors.dark.900");
-  --color-primaryLight: theme("colors.dark.500");
-  --color-primaryDark: theme("colors.true-gray.800");
+  --color-primary: #010314;
+  --color-primaryLight: #121524;
+  --color-primaryDark: #1d1f2f;
   --color-primaryTransparent: theme("colors.light.800");
   --color-primaryTransparentContrast: rgba(255, 255, 255, 0.1);
 
@@ -28,20 +28,20 @@
   --color-secondaryLight: theme("colors.true-gray.400");
   --color-secondaryDark: theme("colors.white");
 
-  --color-divider: theme("colors.dark.300");
-  --color-dividerLight: theme("colors.dark.500");
-  --color-dividerDark: theme("colors.dark.100");
+  --color-divider: #292d41;
+  --color-dividerLight: #151936;
+  --color-dividerDark: #262b48;
 
-  --color-tooltip: theme("colors.dark.600");
+  --color-tooltip: #131520;
   --color-tooltipSecondary: theme("colors.true-gray.400");
 }
 
 html {
   @include lightMode;
 
-  --color-accent: theme("colors.indigo.600");
-  --color-accentLight: theme("colors.indigo.500");
-  --color-accentDark: theme("colors.indigo.700");
+  --color-accent: #63e;
+  --color-accentLight: rgb(94, 47, 222);
+  --color-accentDark: rgb(65, 13, 208);
   --color-accentContrast: theme("colors.white");
 }
 

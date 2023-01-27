@@ -9,13 +9,13 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <div
-        class="max-w-2xl my-4 text-3xl leading-normal tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl leading-normal tracking-tight text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-4xl lg:text-5xl"
         :class="gradients.gray"
       >
         {{ t("home.platforms.title") }}
       </div>
       <div
-        class="my-4 text-2xl tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-br md:w-3/5"
+        class="my-4 text-2xl tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-br md:w-3/5"
         :class="gradients.gray"
       >
         {{ t("home.platforms.description") }}
@@ -35,7 +35,7 @@ const { t } = useI18n()
           <component :is="feature.icon" class="w-6 h-6 m-4" />
         </i>
         <div class="flex flex-col flex-1">
-          <div class="flex mt-8 mb-2 text-3xl font-semibold tracking-tighter">
+          <div class="flex mt-8 mb-2 text-3xl font-semibold tracking-tight">
             {{ t(feature.title) }}
           </div>
           <div class="flex w-4/5 max-w-xl text-sm tracking-tight opacity-75">

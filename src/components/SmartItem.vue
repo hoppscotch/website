@@ -80,7 +80,9 @@ return "router-link"
       :class="[{ 'mt-0.5 !items-start flex-col': description }]"
     >
       <div class="flex items-center">
-        {{ label }}
+        <span class="tracking-tight">
+          {{ label }}
+        </span>
         <div
           v-if="tag"
           class="bg-primaryLight border border-dividerDarkborder border-dividerDark rounded-full font-medium text-secondaryLight ml-2 py-1 px-2 text-[8px]"

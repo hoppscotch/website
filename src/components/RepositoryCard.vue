@@ -43,7 +43,7 @@ defineProps({
     blank
   >
     <div
-      class="flex items-center mb-4 text-lg font-semibold tracking-tighter text-secondaryLight"
+      class="flex items-center mb-4 text-lg font-semibold tracking-tight text-secondaryLight"
     >
       <div class="flex flex-1">
         hoppscotch/

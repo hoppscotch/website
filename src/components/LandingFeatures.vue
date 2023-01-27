@@ -14,7 +14,7 @@ const { t } = useI18n()
         {{ t("home.features.title") }}
       </div>
       <div
-        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl leading-none tracking-tight text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-4xl lg:text-5xl"
         :class="gradients.gray"
       >
         {{ t("home.features.description") }}

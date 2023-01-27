@@ -242,3 +242,12 @@ a {
 .router-link-exact-active {
   @apply bg-primaryLight;
 }
+
+.interactive-gradient {
+  background: radial-gradient(
+    140% 110% at 50% 10%,
+    transparent 40%,
+    #63e 70%,
+    #fff 100%
+  );
+}

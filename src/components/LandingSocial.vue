@@ -17,7 +17,7 @@ const { t } = useI18n()
           />
         </i>
         <div class="flex-grow">
-          <div class="flex mt-4 mb-2 text-lg font-semibold tracking-tighter">
+          <div class="flex mt-4 mb-2 text-lg font-semibold tracking-tight">
             {{ t("home.social.twitter.title") }}
           </div>
           <div
@@ -39,7 +39,7 @@ const { t } = useI18n()
           />
         </i>
         <div class="flex-grow">
-          <div class="flex mt-4 mb-2 text-lg font-semibold tracking-tighter">
+          <div class="flex mt-4 mb-2 text-lg font-semibold tracking-tight">
             {{ t("home.social.discord.title") }}
           </div>
           <div

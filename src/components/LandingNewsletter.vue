@@ -13,7 +13,7 @@ const { t } = useI18n()
     <div class="grid gap-8 grid-cols-1 md:grid-cols-2">
       <div class="flex flex-col">
         <div
-          class="flex mb-2 text-2xl font-semibold tracking-tighter text-secondaryDark"
+          class="flex mb-2 text-2xl font-semibold tracking-tight text-secondaryDark"
         >
           {{ t("newsletter.title") }}
         </div>

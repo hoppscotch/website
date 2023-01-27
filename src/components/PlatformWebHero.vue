@@ -8,11 +8,11 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <div
-        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl leading-none tracking-tight text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
       >
         {{ t("platforms.items.web.title") }}
       </div>
-      <div class="my-4 text-xl tracking-tighter text-center md:w-3/5">
+      <div class="my-4 text-xl tracking-tight text-center md:w-3/5">
         {{ t("platforms.items.web.description") }}
       </div>
     </div>
@@ -31,7 +31,7 @@ const { t } = useI18n()
         </i>
         <div class="flex flex-col flex-1">
           <div
-            class="flex mt-8 mb-2 text-3xl font-semibold tracking-tighter text-secondaryDark"
+            class="flex mt-8 mb-2 text-3xl font-semibold tracking-tight text-secondaryDark"
           >
             {{ t(feature.title) }}
           </div>

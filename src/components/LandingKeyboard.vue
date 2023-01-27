@@ -87,13 +87,13 @@ setInterval(cycleArray, 3000)
           <div class="flex flex-col items-center">
             <AnimatedComponent animation-type="pull">
               <div
-                class="max-w-2xl mb-4 text-3xl leading-normal tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-4xl lg:text-5xl"
+                class="max-w-2xl mb-4 text-3xl leading-normal tracking-tight text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-4xl lg:text-5xl"
                 :class="gradients.gray"
               >
                 {{ t("home.keyboard.title") }}
               </div>
               <div
-                class="my-4 text-2xl tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-br md:w-3/5"
+                class="my-4 text-2xl tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-br md:w-3/5"
                 :class="gradients.gray"
               >
                 {{ t("home.keyboard.description") }}
