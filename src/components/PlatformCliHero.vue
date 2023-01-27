@@ -20,11 +20,11 @@ const { t } = useI18n()
       <div
         v-for="(feature, index) in features"
         :key="`feature-${index}`"
-        class="w-full p-8 overflow-hidden col-span-2 bg-gradient-to-br rounded-xl md:p-16"
+        class="w-full p-8 overflow-hidden rounded-lg col-span-2 bg-gradient-to-br md:p-16"
         :class="feature.styles"
       >
         <i
-          class="inline-flex items-center justify-center text-3xl shadow bg-gradient-to-br rounded-xl text-secondaryDark"
+          class="inline-flex items-center justify-center text-3xl rounded-lg shadow bg-gradient-to-br text-secondaryDark"
           :class="feature.styles"
         >
           <component :is="feature.icon" class="w-8 h-8 m-4" />

@@ -142,7 +142,7 @@ a {
     @apply py-0.5 px-1;
     @apply -my-0.5 -mx-1;
     @apply text-accent;
-    @apply rounded;
+    @apply rounded-lg;
     @apply hover:text-accentDark;
     @apply focus-visible:ring;
     @apply focus-visible:ring-accent;
@@ -154,7 +154,7 @@ a {
   @apply inline-flex;
   @apply flex-col;
   @apply relative;
-  @apply rounded-xl;
+  @apply rounded-lg;
 
   &:before,
   &:after {
@@ -163,7 +163,7 @@ a {
     @apply inset-0;
     @apply transition;
     @apply opacity-0;
-    @apply rounded-xl;
+    @apply rounded-lg;
   }
 
   &:hover::before {
@@ -200,7 +200,7 @@ a {
     @apply flex-1;
     @apply inset-0.25;
     @apply absolute;
-    @apply rounded-xl;
+    @apply rounded-lg;
 
     z-index: 2;
   }

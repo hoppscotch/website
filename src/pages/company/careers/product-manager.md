@@ -6,7 +6,7 @@ title: Hoppscotch - Careers | Product Manager
 
 # Product Manager
 
-<span class="inline-flex px-4 py-1 rounded bg-accent text-accentContrast">Location: Remote</span>
+<span class="inline-flex px-4 py-1 rounded-lg bg-accent text-accentContrast">Location: Remote</span>
 
 ### Overview
 

@@ -22,7 +22,6 @@ const { t } = useI18n()
       <ButtonPrimary
         class="my-4"
         to="#open-roles"
-        blank
         :label="t('careers.hero.open_position_btn')"
       />
     </div>

@@ -285,7 +285,7 @@ setInterval(cycleArray, 3000)
             <div
               v-for="(shortcut, index) in shortcuts"
               :key="index"
-              class="flex items-center justify-between flex-1 h-16 px-6 border rounded shadow opacity-50 transition text-secondaryLight bg-primaryLight border-primary"
+              class="flex items-center justify-between flex-1 h-16 px-6 border rounded-lg shadow opacity-50 transition text-secondaryLight bg-primaryLight border-primary"
               :class="{
                 '!text-secondaryDark !border-teal-500 !opacity-100 !bg-primary':
                   shortcut.active,
@@ -368,7 +368,7 @@ setInterval(cycleArray, 3000)
   @apply bg-primary;
   @apply text-xs;
   @apply text-secondaryLight;
-  @apply rounded;
+  @apply rounded-lg;
   @apply transition;
   @apply shadow;
   @apply min-w-12;

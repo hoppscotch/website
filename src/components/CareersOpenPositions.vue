@@ -9,7 +9,7 @@ const { t } = useI18n()
   <div id="open-roles" class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <div
-        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br text-secondaryDark md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-4xl lg:text-5xl"
         :class="gradients.gray"
       >
         {{ t("careers.openPositions.heading") }}
@@ -33,25 +33,21 @@ const { t } = useI18n()
           </i>
           {{ t(position.heading.title) }}
         </div>
-        <ul class="my-4">
-          <li
+        <div class="mt-8 grid grid-cols-2 gap-8">
+          <SmartLink
             v-for="(opening, openingIndex) in position.positions"
             :key="`opening-${openingIndex}`"
-            class="max-w-xl my-4 text-2xl border rounded transition bg-primaryLight border-dividerLight hover:bg-primaryDark hover:border-dividerDark"
+            :to="`/company/careers/${opening.link}`"
+            class="flex flex-col p-8 border rounded-lg bg-primaryLight hover:bg-primaryDark border-dividerLight"
           >
-            <SmartLink
-              :to="`/company/careers/${opening.link}`"
-              class="block p-4"
-            >
-              <span>
-                {{ t(opening.title) }}
-              </span>
-              <div class="my-2 text-sm text-secondaryLight">
-                {{ t(opening.description) }}
-              </div>
-            </SmartLink>
-          </li>
-        </ul>
+            <span class="text-lg font-semibold">
+              {{ t(opening.title) }}
+            </span>
+            <div class="mt-2 text-secondaryLight">
+              {{ t(opening.description) }}
+            </div>
+          </SmartLink>
+        </div>
       </div>
     </div>
     <!-- <div class="relative py-8">

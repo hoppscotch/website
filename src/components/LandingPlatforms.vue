@@ -25,7 +25,7 @@ const { t } = useI18n()
       <div
         v-for="(feature, index) in features"
         :key="`feature-${index}`"
-        class="w-full p-8 bg-gradient-to-br group rounded-xl text-accentContrast md:p-16"
+        class="w-full p-8 rounded-lg bg-gradient-to-br group text-accentContrast md:p-16"
         :class="feature.styles"
       >
         <i

@@ -16,7 +16,7 @@ const { t } = useI18n()
 
 <template>
   <div
-    class="flex flex-col p-8 my-4 border border-2 transition bg-primaryLight border-dividerDark rounded-xl border-accent"
+    class="flex flex-col p-8 my-4 border border-2 rounded-lg transition bg-primaryLight border-dividerDark border-accent"
   >
     <i class="text-3xl text-accentLight">
       <component :is="changelog.icon" />

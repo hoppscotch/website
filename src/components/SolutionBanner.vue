@@ -8,11 +8,11 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="relative">
       <div class="absolute inset-0 flex items-center justify-center z-5">
-        <span class="shadow-xl rounded-2xl">
+        <span class="rounded-lg shadow-xl">
           <img
             src="/assets/images/logo.svg"
             :alt="t('logo')"
-            class="w-32 h-32 shadow-2xl rounded-2xl"
+            class="w-32 h-32 rounded-lg shadow-2xl"
           />
         </span>
       </div>
@@ -23,7 +23,7 @@ const { t } = useI18n()
           <div
             v-for="(banner, index) in banners"
             :key="`banner-${index}`"
-            class="inline-flex items-center justify-center shadow-md rounded-xl bg-primaryLight"
+            class="inline-flex items-center justify-center rounded-lg shadow-md bg-primaryLight"
           >
             <component :is="banner.icon" class="w-8 h-8 m-4" />
           </div>
@@ -31,7 +31,7 @@ const { t } = useI18n()
           <div
             v-for="(banner, index) in banners"
             :key="`banner-${index}`"
-            class="inline-flex items-center justify-center shadow-md rounded-xl bg-primaryLight"
+            class="inline-flex items-center justify-center rounded-lg shadow-md bg-primaryLight"
           >
             <component :is="banner.icon" class="w-8 h-8 m-4" />
           </div>
@@ -39,7 +39,7 @@ const { t } = useI18n()
           <div
             v-for="(banner, index) in banners"
             :key="`banner-${index}`"
-            class="inline-flex items-center justify-center shadow-md rounded-xl bg-primaryLight"
+            class="inline-flex items-center justify-center rounded-lg shadow-md bg-primaryLight"
           >
             <component :is="banner.icon" class="w-8 h-8 m-4" />
           </div>
@@ -52,7 +52,7 @@ const { t } = useI18n()
           <div
             v-for="(banner, index) in banners"
             :key="`banner-${index}`"
-            class="inline-flex items-center justify-center shadow-md rounded-xl bg-primaryLight"
+            class="inline-flex items-center justify-center rounded-lg shadow-md bg-primaryLight"
           >
             <component :is="banner.icon" class="w-8 h-8 m-4" />
           </div>
@@ -60,7 +60,7 @@ const { t } = useI18n()
           <div
             v-for="(banner, index) in banners"
             :key="`banner-${index}`"
-            class="inline-flex items-center justify-center shadow-md rounded-xl bg-primaryLight"
+            class="inline-flex items-center justify-center rounded-lg shadow-md bg-primaryLight"
           >
             <component :is="banner.icon" class="w-8 h-8 m-4" />
           </div>
@@ -68,7 +68,7 @@ const { t } = useI18n()
           <div
             v-for="(banner, index) in banners"
             :key="`banner-${index}`"
-            class="inline-flex items-center justify-center shadow-md rounded-xl bg-primaryLight"
+            class="inline-flex items-center justify-center rounded-lg shadow-md bg-primaryLight"
           >
             <component :is="banner.icon" class="w-8 h-8 m-4" />
           </div>
@@ -81,7 +81,7 @@ const { t } = useI18n()
           <div
             v-for="(banner, index) in banners"
             :key="`banner-${index}`"
-            class="inline-flex items-center justify-center shadow-md rounded-xl bg-primaryLight"
+            class="inline-flex items-center justify-center rounded-lg shadow-md bg-primaryLight"
           >
             <component :is="banner.icon" class="w-8 h-8 m-4" />
           </div>
@@ -89,7 +89,7 @@ const { t } = useI18n()
           <div
             v-for="(banner, index) in banners"
             :key="`banner-${index}`"
-            class="inline-flex items-center justify-center shadow-md rounded-xl bg-primaryLight"
+            class="inline-flex items-center justify-center rounded-lg shadow-md bg-primaryLight"
           >
             <component :is="banner.icon" class="w-8 h-8 m-4" />
           </div>
@@ -97,7 +97,7 @@ const { t } = useI18n()
           <div
             v-for="(banner, index) in banners"
             :key="`banner-${index}`"
-            class="inline-flex items-center justify-center shadow-md rounded-xl bg-primaryLight"
+            class="inline-flex items-center justify-center rounded-lg shadow-md bg-primaryLight"
           >
             <component :is="banner.icon" class="w-8 h-8 m-4" />
           </div>
@@ -110,7 +110,7 @@ const { t } = useI18n()
           <div
             v-for="(banner, index) in banners"
             :key="`banner-${index}`"
-            class="inline-flex items-center justify-center shadow-md rounded-xl bg-primaryLight"
+            class="inline-flex items-center justify-center rounded-lg shadow-md bg-primaryLight"
           >
             <component :is="banner.icon" class="w-8 h-8 m-4" />
           </div>
@@ -118,7 +118,7 @@ const { t } = useI18n()
           <div
             v-for="(banner, index) in banners"
             :key="`banner-${index}`"
-            class="inline-flex items-center justify-center shadow-md rounded-xl bg-primaryLight"
+            class="inline-flex items-center justify-center rounded-lg shadow-md bg-primaryLight"
           >
             <component :is="banner.icon" class="w-8 h-8 m-4" />
           </div>
@@ -126,7 +126,7 @@ const { t } = useI18n()
           <div
             v-for="(banner, index) in banners"
             :key="`banner-${index}`"
-            class="inline-flex items-center justify-center shadow-md rounded-xl bg-primaryLight"
+            class="inline-flex items-center justify-center rounded-lg shadow-md bg-primaryLight"
           >
             <component :is="banner.icon" class="w-8 h-8 m-4" />
           </div>

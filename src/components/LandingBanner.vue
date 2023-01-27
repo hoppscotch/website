@@ -8,11 +8,11 @@ import { isDark } from "~/composables"
       <AnimatedGrid />
       <AnimatedComponent animation-type="zoom">
         <div
-          class="bg-gradient-to-br rounded flex p-0.2 relative md:rounded-lg"
+          class="bg-gradient-to-br rounded-lg flex p-0.2 relative md:rounded-lg"
         >
           <SmartGradient animate :blur="64" />
           <img
-            class="object-contain object-center w-full h-full rounded transition md:rounded-lg"
+            class="object-contain object-center w-full h-full rounded-lg transition md:rounded-lg"
             :src="`/assets/images/screenshots/${
               isDark ? 'dark' : 'light'
             }-banner.png`"

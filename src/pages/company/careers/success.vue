@@ -10,7 +10,7 @@ useHead({
 
 <template>
   <div
-    class="flex flex-col items-center justify-center py-10 mx-auto my-8 text-center rounded"
+    class="flex flex-col items-center justify-center py-10 mx-auto my-8 text-center rounded-lg"
   >
     <CheckCircle class="my-8 text-3xl text-accent" />
     <div>{{ t("careers.form.success_message") }}</div>

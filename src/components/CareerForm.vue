@@ -121,7 +121,7 @@ const { t } = useI18n()
 .form-input {
   @apply mt-2;
   @apply transition;
-  @apply rounded;
+  @apply rounded-lg;
   @apply text-secondary;
   @apply bg-primaryLight;
   @apply py-2;
@@ -139,7 +139,7 @@ const { t } = useI18n()
   @apply justify-center;
   @apply px-4;
   @apply py-2;
-  @apply rounded;
+  @apply rounded-lg;
   @apply font-bold;
   @apply text-accentContrast;
   @apply bg-accent;

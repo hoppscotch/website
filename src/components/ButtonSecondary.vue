@@ -66,7 +66,7 @@ return "router-link"
     class="inline-flex items-center justify-center py-2 cursor-pointer transition text-secondaryDark focus:outline-none"
     :class="[
       label ? 'px-4' : 'px-2',
-      rounded ? 'rounded-full' : 'rounded',
+      rounded ? 'rounded-full' : 'rounded-lg',
       {
         'bg-primaryLight hover:bg-primaryDark focus-visible:bg-primaryDark':
           fill,

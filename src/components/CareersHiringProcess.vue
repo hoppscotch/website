@@ -16,7 +16,7 @@ const setActiveTip = (index: number) => {
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <div
-        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br text-secondaryDark md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl leading-none tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-4xl lg:text-5xl"
         :class="gradients.gray"
       >
         {{ t("careers.hiringProcess.heading") }}
@@ -37,7 +37,7 @@ const setActiveTip = (index: number) => {
         <div
           v-for="(processTitle, processTitleIndex) in interviewProcess"
           :key="`interview-process-${processTitleIndex}`"
-          class="absolute left-0 md:left-[25%] bg-primary md:bg-transparent w-full flex flex-col items-center md:items-start text-center md:text-left rounded transition-all duration-300 p-5 lg:py-10"
+          class="absolute left-0 md:left-[25%] bg-primary md:bg-transparent w-full flex flex-col items-center md:items-start text-center md:text-left rounded-lg transition-all duration-300 p-5 lg:py-10"
           :class="[
             activeTipIndex === processTitleIndex ? 'opacity-100' : 'opacity-0',
           ]"

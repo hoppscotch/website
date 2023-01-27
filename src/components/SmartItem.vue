@@ -65,7 +65,7 @@ return "router-link"
       { 'flex-row-reverse justify-end': reverse },
       { 'pointer-events-none opacity-50 md:opacity-100': disabled },
       { 'hover:bg-primaryDark focus:bg-primaryDark': fill },
-      rounded ? 'rounded-full' : 'rounded',
+      rounded ? 'rounded-full' : 'rounded-lg',
     ]"
     :target="props.blank ? '_blank' : '_self'"
   >

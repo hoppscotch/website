@@ -37,7 +37,7 @@ tipEmit("setActiveTip", tipProps.tipIndex)
     ref="targetTip"
     class="rounded flex flex-col h-[40vh] py-8 px-5 justify-center md:h-[60vh]"
   >
-    <ul class="max-w-lg p-5 rounded bg-primaryLight">
+    <ul class="max-w-lg p-5 rounded-lg bg-primaryLight">
       <li
         v-for="tip in tipProps.visibleTip.tips"
         :key="tip"
