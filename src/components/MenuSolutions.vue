@@ -9,7 +9,7 @@ const { t } = useI18n()
 
 <template>
   <div>
-    <div class="max-w-2xl gap-2 grid grid-cols-2">
+    <div class="max-w-2xl grid grid-cols-2">
       <SmartItem
         v-for="(item, itemIndex) in solutions"
         :key="`item-${itemIndex}`"

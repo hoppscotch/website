@@ -7,7 +7,7 @@ const { t } = useI18n()
 
 <template>
   <div>
-    <div class="grid gap-2 grid-cols-2">
+    <div class="grid grid-cols-2">
       <SmartItem
         v-for="(item, itemIndex) in company"
         :key="`item-${itemIndex}`"
@@ -29,7 +29,7 @@ const { t } = useI18n()
         >
           <SmartLink
             :to="`/company/blog/${blog.slug}`"
-            class="inline-flex items-center text-secondaryLight transition hover:text-secondaryDark"
+            class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark"
           >
             {{ t(blog.title) }}
             <lucide-arrow-right class="ml-2" />
@@ -38,7 +38,7 @@ const { t } = useI18n()
         <li>
           <SmartLink
             to="/company/blog"
-            class="inline-flex items-center text-secondaryLight transition hover:text-secondaryDark"
+            class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark"
           >
             {{ t("header.menu.blog.read_more") }}
             <lucide-arrow-right class="ml-2" />

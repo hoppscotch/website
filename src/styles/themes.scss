@@ -19,8 +19,8 @@
 
 @mixin darkMode {
   --color-primary: theme("colors.dark.900");
-  --color-primaryLight: theme("colors.dark.700");
-  --color-primaryDark: theme("colors.dark.800");
+  --color-primaryLight: theme("colors.dark.500");
+  --color-primaryDark: theme("colors.true-gray.800");
   --color-primaryTransparent: theme("colors.light.800");
   --color-primaryTransparentContrast: rgba(255, 255, 255, 0.1);
 

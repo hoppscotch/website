@@ -7,7 +7,7 @@ const { t } = useI18n()
 
 <template>
   <div>
-    <div class="grid gap-2 grid-cols-1">
+    <div class="grid grid-cols-1">
       <SmartItem
         v-for="(item, itemIndex) in platforms"
         :key="`item-${itemIndex}`"
@@ -30,7 +30,7 @@ const { t } = useI18n()
           <SmartLink
             blank
             :to="guide.link"
-            class="inline-flex items-center text-secondaryLight transition hover:text-secondaryDark"
+            class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark"
           >
             {{ t(guide.title) }}
             <lucide-arrow-right class="ml-2" />
@@ -40,7 +40,7 @@ const { t } = useI18n()
           <SmartLink
             blank
             to="https://aviyel.com/projects/5/hoppscotch/resources/discussion"
-            class="inline-flex items-center text-secondaryLight transition hover:text-secondaryDark"
+            class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark"
           >
             {{ t("header.menu.guide.read_more") }}
             <lucide-arrow-right class="ml-2" />

@@ -18,7 +18,7 @@ const { t } = useI18n()
         <div class="py-4 font-semibold uppercase text-secondaryLight">
           {{ t(category.name) }}
         </div>
-        <div class="grid gap-2 grid-cols-2">
+        <div class="grid grid-cols-2">
           <SmartItem
             v-for="(item, itemIndex) in category.links"
             :key="`item-${itemIndex}`"
