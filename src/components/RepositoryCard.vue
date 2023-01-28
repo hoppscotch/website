@@ -13,7 +13,7 @@ defineProps({
     required: true,
   },
   icon: {
-    type: String || Object,
+    type: Object,
     required: true,
   },
   language: {

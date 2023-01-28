@@ -33,7 +33,9 @@ const { t } = useI18n()
           outline
         />
       </div>
-      <div class="my-2 text-sm tracking-tight text-center opacity-50 text-secondaryDark">
+      <div
+        class="my-2 text-sm tracking-tight text-center opacity-50 text-secondaryDark"
+      >
         {{ t("home.hero.stats.1.title") }} &nbsp; • &nbsp;
         {{ t("home.hero.stats.2.title") }} &nbsp; • &nbsp;
         {{ t("home.hero.stats.3.title") }}

@@ -368,7 +368,7 @@ setInterval(cycleArray, 3000)
   @apply bg-primary;
   @apply text-xs;
   @apply text-secondaryLight;
-  @apply rounded-lg;
+  @apply rounded;
   @apply transition;
   @apply shadow;
   @apply min-w-12;

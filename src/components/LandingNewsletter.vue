@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { gradients } from '~/assets/data/gradients'
+import { gradients } from "~/assets/data/gradients"
 
 const { t } = useI18n()
 </script>
@@ -15,7 +15,7 @@ const { t } = useI18n()
     <div class="grid gap-8 grid-cols-1 md:grid-cols-2">
       <div class="flex flex-col">
         <div
-          class="flex mb-2 text-2xl bg-clip-text bg-gradient-to-br font-semibold tracking-tight text-transparent"
+          class="flex mb-2 text-2xl font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-br"
           :class="gradients.gray"
         >
           {{ t("newsletter.title") }}
