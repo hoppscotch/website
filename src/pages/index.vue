@@ -9,9 +9,8 @@
     <LandingPlatforms />
     <LandingContributors />
     <LandingTestimonials />
-    <LandingMarquee />
-    <LandingCTA />
     <LandingSocial />
     <LandingNewsletter />
+    <LandingCTA />
   </div>
 </template>

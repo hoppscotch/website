@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { gradients } from '~/assets/data/gradients'
+
 const { t } = useI18n()
 </script>
 
@@ -13,7 +15,8 @@ const { t } = useI18n()
     <div class="grid gap-8 grid-cols-1 md:grid-cols-2">
       <div class="flex flex-col">
         <div
-          class="flex mb-2 text-2xl font-semibold tracking-tight text-secondaryDark"
+          class="flex mb-2 text-2xl bg-clip-text bg-gradient-to-br font-semibold tracking-tight text-transparent"
+          :class="gradients.gray"
         >
           {{ t("newsletter.title") }}
         </div>
@@ -71,7 +74,7 @@ const { t } = useI18n()
   @apply rounded-lg;
   @apply font-bold;
   @apply text-accentContrast;
-  @apply bg-accentLight;
+  @apply bg-primaryDark;
   @apply outline-none;
   @apply focus:(outline-none bg-accentDark);
   @apply hover:bg-accentDark;

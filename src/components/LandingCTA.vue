@@ -5,7 +5,7 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div class="flex flex-col px-8 py-16">
+  <div class="flex flex-col px-8 py-16 interactive-gradient rounded-4xl">
     <div class="flex flex-col items-center">
       <div
         v-magic-hover-animation
@@ -25,6 +25,7 @@ const { t } = useI18n()
           to="https://github.com/hoppscotch/hoppscotch"
           label="GitHub"
           outline
+          fill
         />
         <ButtonPrimary
           to="https://hoppscotch.io"
@@ -32,7 +33,7 @@ const { t } = useI18n()
           outline
         />
       </div>
-      <div class="my-2 text-center text-secondaryLight">
+      <div class="my-2 text-sm tracking-tight text-center opacity-50 text-secondaryDark">
         {{ t("home.hero.stats.1.title") }} &nbsp; • &nbsp;
         {{ t("home.hero.stats.2.title") }} &nbsp; • &nbsp;
         {{ t("home.hero.stats.3.title") }}

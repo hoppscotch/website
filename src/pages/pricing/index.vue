@@ -9,7 +9,7 @@ useHead({
     <PricingHero />
     <LandingUsers />
     <LandingTestimonials />
-    <LandingCTA />
     <PricingFAQ />
+    <LandingCTA />
   </div>
 </template>
