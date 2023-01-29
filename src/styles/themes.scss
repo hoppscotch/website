@@ -15,34 +15,39 @@
 
   --color-tooltip: theme("colors.white");
   --color-tooltipSecondary: theme("colors.true-gray.600");
+
+  --color-accent: #63e;
+  --color-accentLight: rgb(94, 47, 222);
+  --color-accentDark: rgb(65, 13, 208);
+  --color-accentContrast: theme("colors.white");
 }
 
 @mixin darkMode {
   --color-primary: #010314;
   --color-primaryLight: #121524;
   --color-primaryDark: #1d1f2f;
-  --color-primaryTransparent: theme("colors.light.800");
-  --color-primaryTransparentContrast: rgba(255, 255, 255, 0.1);
+  --color-primaryTransparent: #ccd3f9;
+  --color-primaryTransparentContrast: rgba(38, 0, 255, 0.1);
 
-  --color-secondary: theme("colors.true-gray.300");
-  --color-secondaryLight: theme("colors.true-gray.400");
-  --color-secondaryDark: theme("colors.white");
+  --color-secondary: #e2e4f5;
+  --color-secondaryLight: #babcd2;
+  --color-secondaryDark: #fff;
 
-  --color-divider: #292d41;
+  --color-divider: #2a2b3a;
   --color-dividerLight: #151936;
   --color-dividerDark: #262b48;
 
   --color-tooltip: #131520;
-  --color-tooltipSecondary: theme("colors.true-gray.400");
+  --color-tooltipSecondary: #fff;
+
+  --color-accent: #fff;
+  --color-accentLight: #00acee;
+  --color-accentDark: #f4f4ff;
+  --color-accentContrast: #010314;
 }
 
 html {
   @include lightMode;
-
-  --color-accent: #63e;
-  --color-accentLight: rgb(94, 47, 222);
-  --color-accentDark: rgb(65, 13, 208);
-  --color-accentContrast: theme("colors.white");
 }
 
 html.dark {

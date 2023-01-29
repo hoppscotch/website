@@ -9,11 +9,10 @@ const { t } = useI18n()
     <LandingAnnouncement />
     <div class="flex flex-col items-center">
       <div
-        class="block w-full max-w-2xl mt-4 mb-4 text-5xl leading-none tracking-tight text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-6xl lg:text-8xl"
+        class="block w-full max-w-4xl mt-4 mb-4 text-5xl leading-none tracking-tight text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-6xl lg:text-8xl"
         :class="gradients.gray"
       >
-        {{ t("home.hero.heading") }}
-        <br />
+        {{ t("home.hero.heading_line_1") }}
         {{ t("home.hero.heading_line_2") }}
       </div>
       <div
@@ -31,12 +30,12 @@ const { t } = useI18n()
         />
         <ButtonPrimary
           to="https://hoppscotch.io"
-          :label="t('action.open_app')"
+          :label="t('action.get_started')"
           large
         />
       </div>
       <div
-        class="my-2 text-sm tracking-tight text-center opacity-50 text-secondaryDark"
+        class="my-2 tracking-tight text-center opacity-50 text-secondaryDark"
       >
         {{ t("home.hero.stats.1.title") }} &nbsp; • &nbsp;
         {{ t("home.hero.stats.2.title") }} &nbsp; • &nbsp;

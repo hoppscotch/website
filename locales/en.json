@@ -59,7 +59,7 @@
     "dark": "Dark mode",
     "learn_more": "Learn more",
     "light": "Light mode",
-    "open_app": "Open App",
+    "get_started": "Get started",
     "show_more": "Show more"
   },
   "blog": {
@@ -531,9 +531,9 @@
   },
   "home": {
     "announcement": {
-      "long_description": "Hoppscotch raises $3M in seed round",
+      "long_description": "Hoppscotch v3.1 with self-host support",
       "long_link_text": "Read accouncement",
-      "short_description": "Hoppscotch raises $3M",
+      "short_description": "Hoppscotch v3.1 is out",
       "short_link_text": "Read"
     },
     "contributors": {
@@ -584,8 +584,8 @@
       "title": "Features"
     },
     "hero": {
-      "heading": "A better way",
-      "heading_line_2": "to build apis",
+      "heading_line_1": "A better way",
+      "heading_line_2": "to build APIs",
       "stats": {
         "1": {
           "title": "1M+ users"
@@ -621,14 +621,6 @@
         "4": {
           "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
           "title": "PWA"
-        },
-        "5": {
-          "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-          "title": "Minimalist"
-        },
-        "6": {
-          "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-          "title": "Unobtrusive"
         }
       },
       "title": "Productivity, levelled up"

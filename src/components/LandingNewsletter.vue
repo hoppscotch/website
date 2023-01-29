@@ -74,7 +74,7 @@ const { t } = useI18n()
   @apply rounded-lg;
   @apply font-bold;
   @apply text-accentContrast;
-  @apply bg-primaryDark;
+  @apply bg-accent;
   @apply outline-none;
   @apply focus:(outline-none bg-accentDark);
   @apply hover:bg-accentDark;

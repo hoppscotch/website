@@ -47,7 +47,7 @@ const { t } = useI18n()
           />
           <ButtonPrimary
             to="https://hoppscotch.io"
-            :label="t('action.open_app')"
+            :label="t('action.get_started')"
             outline
           />
         </div>

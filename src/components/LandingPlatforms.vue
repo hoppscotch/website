@@ -25,17 +25,13 @@ const { t } = useI18n()
       <div
         v-for="(feature, index) in features"
         :key="`feature-${index}`"
-        class="w-full p-8 rounded-lg bg-gradient-to-br group text-accentContrast md:p-16"
+        class="w-full p-8 border rounded-4xl border-divider group md:p-16"
         :class="feature.styles"
       >
-        <i
-          class="inline-flex items-center justify-center text-3xl border-2 rounded-full shadow transition border-accentContrast bg-gradient-to-br"
-          :class="feature.styles"
-        >
-          <component :is="feature.icon" class="w-6 h-6 m-4" />
-        </i>
         <div class="flex flex-col flex-1">
-          <div class="flex mt-8 mb-2 text-3xl font-semibold tracking-tight">
+          <div
+            class="flex mt-8 mb-2 text-3xl font-semibold tracking-tight text-secondaryDark"
+          >
             {{ t(feature.title) }}
           </div>
           <div class="flex w-4/5 max-w-xl text-sm tracking-tight opacity-75">

@@ -29,12 +29,12 @@ const { t } = useI18n()
         />
         <ButtonPrimary
           to="https://hoppscotch.io"
-          :label="t('action.open_app')"
+          :label="t('action.get_started')"
           outline
         />
       </div>
       <div
-        class="my-2 text-sm tracking-tight text-center opacity-50 text-secondaryDark"
+        class="my-2 tracking-tight text-center opacity-50 text-secondaryDark"
       >
         {{ t("home.hero.stats.1.title") }} &nbsp; • &nbsp;
         {{ t("home.hero.stats.2.title") }} &nbsp; • &nbsp;
