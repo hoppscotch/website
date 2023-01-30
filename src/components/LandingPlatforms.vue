@@ -21,11 +21,13 @@ const { t } = useI18n()
         {{ t("home.platforms.description") }}
       </div>
     </div>
-    <div class="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2">
+    <div
+      class="mt-16 grid grid-cols-1 grid-rows-4 lg:grid-rows-3 gap-8 lg:grid-cols-2"
+    >
       <div
         v-for="(feature, index) in features"
         :key="`feature-${index}`"
-        class="w-full p-8 border rounded-4xl border-divider group md:p-16"
+        class="w-full p-8 border rounded-4xl row-span-1 border-divider group md:p-16"
         :class="feature.styles"
       >
         <div class="flex flex-col flex-1">
