@@ -87,7 +87,7 @@ setInterval(cycleArray, 3000)
           <div class="flex flex-col items-center">
             <AnimatedComponent animation-type="pull">
               <div
-                class="max-w-2xl mb-4 text-3xl leading-normal tracking-tight text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-4xl lg:text-5xl"
+                class="max-w-2xl mb-4 text-3xl tracking-tight text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-4xl lg:text-5xl"
                 :class="gradients.gray"
               >
                 {{ t("home.keyboard.title") }}
@@ -373,7 +373,6 @@ setInterval(cycleArray, 3000)
   @apply shadow;
   @apply min-w-12;
   @apply min-h-12;
-  @apply leading-none;
 }
 
 .keyboard .row .key span {

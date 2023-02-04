@@ -22,7 +22,7 @@ const { t } = useI18n()
     class="flex flex-col items-center text-center min-w-1/2 lg:text-left lg:items-start"
   >
     <div
-      class="max-w-2xl my-4 text-3xl font-black leading-none text-center transition text-secondaryDark md:text-4xl lg:text-left lg:text-5xl"
+      class="max-w-2xl my-4 text-3xl font-black text-center transition text-secondaryDark md:text-4xl lg:text-left lg:text-5xl"
     >
       {{ t(title) }}
     </div>

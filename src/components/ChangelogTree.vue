@@ -9,7 +9,7 @@ const changelogCount = ref(5)
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <div
-        class="max-w-2xl my-4 text-3xl leading-none tracking-tight text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
+        class="max-w-2xl my-4 text-3xl tracking-tight text-center transition text-secondaryDark md:text-4xl lg:text-5xl"
       >
         {{ t("changelog.hero.heading") }}
       </div>
