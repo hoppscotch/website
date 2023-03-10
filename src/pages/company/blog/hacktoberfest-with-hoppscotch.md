@@ -2,7 +2,7 @@
 title: Hoppscotch - Blog | Hacktoberfest with Hoppscotch
 ---
 
-<BackNavigation to="/company/blog" />
+<HomeBackNavigation to="/company/blog" />
 
 # Hacktoberfest with Hoppscotch
 

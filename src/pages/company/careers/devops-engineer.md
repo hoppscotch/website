@@ -2,7 +2,7 @@
 title: Hoppscotch - Careers | DevOps Engineer
 ---
 
-<BackNavigation to="/company/careers" />
+<HomeBackNavigation to="/company/careers" />
 
 # DevOps Engineer
 
@@ -59,4 +59,4 @@ Your knowledge of the latest industry trends will prove beneficial in designing 
 - Familiarity with deployment process and tools
 - Ability to maintain the confidentiality of any sensitive information
 
-<CareerForm role="DevOps Engineer" />
+<CareersForm role="DevOps Engineer" />

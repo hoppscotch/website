@@ -2,7 +2,7 @@
 title: Hoppscotch - Careers | Front-end Engineer
 ---
 
-<BackNavigation to="/company/careers" />
+<HomeBackNavigation to="/company/careers" />
 
 # Front-end Engineer
 
@@ -50,4 +50,4 @@ You should have an eye for artful, clean design and possess exceptional UI skill
 - Strong organizational skills
 - Exceptional problem-solving abilities
 
-<CareerForm role="Front-end Engineer" />
+<CareersForm role="Front-end Engineer" />

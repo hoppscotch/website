@@ -2,7 +2,7 @@
 title: Hoppscotch - Blog | Creating Hoppscotch
 ---
 
-<BackNavigation to="/company/blog" />
+<HomeBackNavigation to="/company/blog" />
 
 # Creating Hoppscotch
 

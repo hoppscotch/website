@@ -2,7 +2,7 @@
 title: Hoppscotch - Blog | Hoppscotch is celebrating 30,000 GitHub Stars
 ---
 
-<BackNavigation to="/company/blog" />
+<HomeBackNavigation to="/company/blog" />
 
 # Hoppscotch is celebrating 30,000 GitHub Stars
 

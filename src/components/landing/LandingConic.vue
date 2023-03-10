@@ -35,7 +35,7 @@ const { t } = useI18n()
         </div>
         <div class="relative flex flex-1 mx-auto md:rounded-lg h-256 lg:h-128">
           <div class="flex flex-1 grid grid-cols-6 gap-2 grid-rows-10">
-            <RepositoryCard
+            <LandingRepositoryCard
               v-for="(project, index) in projects"
               :key="index"
               :title="project.title"

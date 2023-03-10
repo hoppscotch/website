@@ -2,7 +2,7 @@
 title: Hoppscotch - Careers | Product Manager
 ---
 
-<BackNavigation to="/company/careers" />
+<HomeBackNavigation to="/company/careers" />
 
 # Product Manager
 
@@ -44,4 +44,4 @@ You will be working with a team of software engineers, and marketing professiona
 - Proficient in statistical analysis
 - Team player with the ability to work on multiple tasks at a time
 
-<CareerForm role="Product Manager" />
+<CareersForm role="Product Manager" />

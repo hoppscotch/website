@@ -2,7 +2,7 @@
 title: Hoppscotch - Blog | Teams in Hoppscotch
 ---
 
-<BackNavigation to="/company/blog" />
+<HomeBackNavigation to="/company/blog" />
 
 # Create Teams for Collaboration in Hoppscotch
 

@@ -2,7 +2,7 @@
 title: Hoppscotch - Careers | User Interface and Experience Designer
 ---
 
-<BackNavigation to="/company/careers" />
+<HomeBackNavigation to="/company/careers" />
 
 # User Interface and Experience Designer
 
@@ -44,4 +44,4 @@ Your ultimate goal is to design the functionality of the product. You will have 
 - Ability to multitask and outstanding time management skills
 - Should be a team player
 
-<CareerForm role="User Interface and Experience Designer" />
+<CareersForm role="User Interface and Experience Designer" />

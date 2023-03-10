@@ -2,7 +2,7 @@
 title: Hoppscotch - Blog | GitHub Externship ❤️ Hoppscotch
 ---
 
-<BackNavigation to="/company/blog" />
+<HomeBackNavigation to="/company/blog" />
 
 # GitHub Externship ❤️ Hoppscotch
 

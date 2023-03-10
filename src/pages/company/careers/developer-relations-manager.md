@@ -2,7 +2,7 @@
 title: Hoppscotch - Careers | Developer Relations Manager
 ---
 
-<BackNavigation to="/company/careers" />
+<HomeBackNavigation to="/company/careers" />
 
 # Developer Relations Manager
 
@@ -63,4 +63,4 @@ You will also play a vital role in developing advanced business procedures and r
 - Exceptional people and problem-solving skills
 - Engineer mindset
 
-<CareerForm role="Developer Relations Manager" />
+<CareersForm role="Developer Relations Manager" />

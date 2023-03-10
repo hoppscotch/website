@@ -2,7 +2,7 @@
 title: Hoppscotch - Careers | Full-stack Engineer
 ---
 
-<BackNavigation to="/company/careers" />
+<HomeBackNavigation to="/company/careers" />
 
 # Full-stack Engineer
 
@@ -45,4 +45,4 @@ You will also be collaborating with the other team members such as the content t
 - Quick decision-making abilities
 - A keen eye for detail
 
-<CareerForm role="Full-stack Engineer" />
+<CareersForm role="Full-stack Engineer" />

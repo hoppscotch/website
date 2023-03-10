@@ -2,7 +2,7 @@
 title: Hoppscotch - Careers | Back-end Engineer
 ---
 
-<BackNavigation to="/company/careers" />
+<HomeBackNavigation to="/company/careers" />
 
 # Back-end Engineer
 
@@ -50,4 +50,4 @@ As a back-end engineer, you will design and develop backend applications i.e. th
 - The ability to multitask is a must
 - Attention to detail
 
-<CareerForm role="Back-end Engineer"/>
+<CareersForm role="Back-end Engineer"/>
