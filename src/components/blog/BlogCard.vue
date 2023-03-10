@@ -32,7 +32,7 @@ const getComputedDate = computed(() => {
 <template>
   <SmartLink
     :to="`/company/blog/${blog.slug}`"
-    class="h-128 col-span-6 interactive-hover-animation group"
+    class="col-span-6 h-128 interactive-hover-animation group"
     :class="blog.styles"
   >
     <div class="interactive-hover-contents">
@@ -42,12 +42,12 @@ const getComputedDate = computed(() => {
             blog.image
           }`"
           :alt="t(blog.title)"
-          class="object-cover object-center w-full h-full transform transition group-hover:scale-105"
+          class="object-cover object-center w-full h-full transition transform group-hover:scale-105"
         />
       </div>
       <div class="flex flex-col flex-1 p-8">
         <div
-          class="flex items-center text-xl font-semibold text-secondaryDark gap-4 lg:text-2xl"
+          class="flex items-center gap-4 text-xl font-semibold text-secondaryDark lg:text-2xl"
         >
           {{ t(blog.title) }}
         </div>
@@ -70,7 +70,7 @@ const getComputedDate = computed(() => {
           {{ t(blog.description) }}
         </div>
         <div class="relative w-full my-2 overflow-hidden faded-edge">
-          <div class="flex w-full overflow-x-auto flex-nowrap space-x-2">
+          <div class="flex w-full space-x-2 overflow-x-auto flex-nowrap">
             <span
               v-for="(tag, tagIndex) in blog.tags"
               :key="`tag-${tag}-${tagIndex}`"

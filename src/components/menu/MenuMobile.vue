@@ -1,15 +1,17 @@
 <script setup lang="ts">
 import { navigation } from "~/assets/data/mobileNavigation"
 import gem from "~icons/lucide/gem"
+import github from "~icons/lucide/github"
+import arrowRight from "~icons/lucide/arrow-right"
 
 const { t } = useI18n()
 </script>
 
 <template>
   <div
-    class="border-b shadow-lg transition border-dividerLight bg-primary md:hidden"
+    class="transition border-b shadow-lg border-dividerLight bg-primary md:hidden"
   >
-    <nav class="flex flex-col rounded-lg divide-y divide-dividerLight">
+    <nav class="flex flex-col divide-y rounded-lg divide-dividerLight">
       <div
         v-for="(category, categoryIndex) in navigation"
         :key="`category-${categoryIndex}`"
@@ -37,18 +39,23 @@ const { t } = useI18n()
           class="mb-4"
         />
         <div
-          class="flex justify-center p-4 rounded-lg space-x-4 transition bg-primaryDark"
+          class="flex justify-center p-4 space-x-4 transition rounded-lg bg-primaryDark"
         >
           <ButtonSecondary
             to="https://github.com/hoppscotch/hoppscotch"
-            label="GitHub"
-            outline
+            label="Self-Host"
+            :icon="github"
             fill
+            outline
+            blank
           />
           <ButtonPrimary
             to="https://hoppscotch.io"
             :label="t('action.get_started')"
+            :icon="arrowRight"
             outline
+            blank
+            reverse
           />
         </div>
       </div>

@@ -38,7 +38,7 @@ defineProps({
 <template>
   <SmartLink
     :to="link"
-    class="flex flex-col flex-1 p-8 rounded-lg opacity-75 group col-span-6 row-span-2 hover:opacity-100 transition lg:col-span-2 bg-primary"
+    class="flex flex-col flex-1 col-span-6 row-span-2 p-8 transition rounded-lg opacity-75 group hover:opacity-100 lg:col-span-2 bg-primary"
     :class="styles"
     blank
   >
@@ -47,7 +47,7 @@ defineProps({
     >
       <div class="flex flex-1">
         hoppscotch/
-        <span class="text-secondary group-hover:text-secondaryDark transition">
+        <span class="transition text-secondary group-hover:text-secondaryDark">
           {{ title }}
         </span>
       </div>

@@ -35,19 +35,19 @@ const props = withDefaults(
 )
 
 const linkMode = computed(() => {
-  if (!props.to) 
+  if (!props.to)
 return "button"
-  if (props.blank) 
+  if (props.blank)
 return "anchor"
-  if (/^\/(?!\/).*$/.test(props.to)) 
+  if (/^\/(?!\/).*$/.test(props.to))
 return "router-link"
   return "anchor"
 })
 
 const computedComponent = computed(() => {
-  if (linkMode.value === "anchor") 
+  if (linkMode.value === "anchor")
 return "a"
-  if (linkMode.value === "router-link") 
+  if (linkMode.value === "router-link")
 return "router-link"
   return "anchor"
 })
@@ -59,7 +59,7 @@ return "router-link"
     v-bind="$attrs"
     :href="props.to"
     :to="props.to"
-    class="inline-flex px-4 py-2 cursor-pointer text-secondary transition sm:px-4 hover:text-secondaryDark focus:outline-none focus:text-secondaryDark"
+    class="inline-flex px-4 py-2 cursor-pointer transition text-secondary sm:px-4 hover:text-secondaryDark focus:outline-none focus:text-secondaryDark"
     :class="[
       { 'flex-1': label },
       { 'flex-row-reverse justify-end': reverse },

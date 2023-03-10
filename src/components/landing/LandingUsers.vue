@@ -13,7 +13,7 @@ const { t } = useI18n()
       {{ t("home.users.title") }}
     </div>
     <div
-      class="mx-auto mt-8 group grid grid-cols-3 gap-8 md:grid-cols-4 lg:max-w-4xl lg:grid-cols-6"
+      class="grid grid-cols-3 gap-8 mx-auto mt-8 group md:grid-cols-4 lg:max-w-4xl lg:grid-cols-6"
     >
       <div
         v-for="(user, index) in users"

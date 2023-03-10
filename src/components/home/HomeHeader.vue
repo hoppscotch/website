@@ -2,6 +2,7 @@
 import x from "~icons/lucide/x"
 import menu from "~icons/lucide/menu"
 import github from "~icons/lucide/github"
+import arrowRight from "~icons/lucide/arrow-right"
 
 const { t } = useI18n()
 const router = useRouter()
@@ -56,7 +57,7 @@ onMounted(() => {
           </SmartLink>
         </div>
         <nav
-          class="hidden p-1 border rounded-full shadow-lg transition shadow-zinc-800/5 md:flex border-dividerDark bg-primary"
+          class="hidden p-1 transition border rounded-full shadow-lg shadow-zinc-800/5 md:flex border-dividerDark bg-primary"
         >
           <span>
             <tippy
@@ -132,7 +133,7 @@ onMounted(() => {
         >
           <ButtonSecondary
             to="https://github.com/hoppscotch/hoppscotch"
-            label="GitHub"
+            label="Self-Host"
             :icon="github"
             fill
             outline
@@ -141,8 +142,10 @@ onMounted(() => {
           <ButtonPrimary
             to="https://hoppscotch.io"
             :label="t('action.get_started')"
+            :icon="arrowRight"
             outline
             blank
+            reverse
           />
         </div>
         <div class="md:hidden">

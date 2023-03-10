@@ -12,7 +12,7 @@ const { t } = useI18n()
     validate
     class="flex flex-col flex-1 px-8 py-16 mx-auto lg:max-w-4xl"
   >
-    <div class="grid gap-8 grid-cols-1 md:grid-cols-2">
+    <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
       <div class="flex flex-col">
         <div
           class="flex mb-2 text-2xl font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-br"
