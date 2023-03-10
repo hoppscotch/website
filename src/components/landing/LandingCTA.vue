@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { gradients } from "~/assets/data/gradients"
+import github from "~icons/lucide/github"
+import arrowRight from "~icons/lucide/arrow-right"
 
 const { t } = useI18n()
 </script>
@@ -22,14 +24,19 @@ const { t } = useI18n()
       <div class="flex my-4 text-center space-x-2">
         <ButtonSecondary
           to="https://github.com/hoppscotch/hoppscotch"
-          label="GitHub"
-          outline
+          label="Self-Host"
+          :icon="github"
           fill
+          outline
+          blank
         />
         <ButtonPrimary
           to="https://hoppscotch.io"
           :label="t('action.get_started')"
+          :icon="arrowRight"
           outline
+          blank
+          reverse
         />
       </div>
       <div

@@ -259,3 +259,23 @@ a {
     #fff 100%
   );
 }
+
+.box::before{
+  left: -600%;
+  right: -600%;
+  bottom: -600%;
+  top: -600%;
+  content: "";
+  background-image: conic-gradient(#f88fe9,#7000ff 20%,#58d2f2 50%,#fff 75%,#f88fe9 100%);
+  position: absolute;
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
