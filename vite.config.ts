@@ -10,7 +10,7 @@ import AutoImport from "unplugin-auto-import/vite"
 import Markdown from "vite-plugin-md"
 import WindiCSS from "vite-plugin-windicss"
 import { VitePWA } from "vite-plugin-pwa"
-import VueI18n from "@intlify/vite-plugin-vue-i18n"
+import VueI18nPlugin from "@intlify/unplugin-vue-i18n/vite"
 import Inspect from "vite-plugin-inspect"
 import Prism from "markdown-it-prism"
 import LinkAttributes from "markdown-it-link-attributes"
@@ -130,10 +130,8 @@ export default defineConfig({
       },
     }),
 
-    // https://github.com/intlify/bundle-tools/tree/main/packages/vite-plugin-vue-i18n
-    VueI18n({
-      runtimeOnly: true,
-      compositionOnly: true,
+    // https://github.com/intlify/bundle-tools/tree/main/packages/unplugin-vue-i18n
+    VueI18nPlugin({
       include: [path.resolve(__dirname, "locales/**")],
     }),
 
