@@ -57,9 +57,9 @@
     "back": "Back",
     "comming_soon": "COMMING SOON",
     "dark": "Dark mode",
+    "get_started": "Get started",
     "learn_more": "Learn more",
     "light": "Light mode",
-    "get_started": "Get started",
     "show_more": "Show more"
   },
   "blog": {
@@ -531,9 +531,9 @@
   },
   "home": {
     "announcement": {
-      "long_description": "Hoppscotch v3.1 with self-host support",
+      "long_description": "March release with self-host support",
       "long_link_text": "Read accouncement",
-      "short_description": "Hoppscotch v3.1 is out",
+      "short_description": "Self-host support is out",
       "short_link_text": "Read"
     },
     "contributors": {
@@ -584,8 +584,7 @@
       "title": "Features"
     },
     "hero": {
-      "heading_line_1": "A better way",
-      "heading_line_2": "to build APIs",
+      "heading": "Open source API platform",
       "stats": {
         "1": {
           "title": "1M+ users"

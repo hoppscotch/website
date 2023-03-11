@@ -246,8 +246,8 @@ a {
   background: radial-gradient(
     130% 110% at 50% 10%,
     transparent 40%,
-    #63e 70%,
-    #fff 100%
+    rgba(102, 51, 238, 1) 70%,
+    rgba(255, 255, 255, 1) 100%
   );
 }
 
@@ -255,27 +255,33 @@ a {
   background: radial-gradient(
     130% 110% at 50% 90%,
     transparent 40%,
-    #63e 70%,
-    #fff 100%
+    rgba(102, 51, 238, 1) 70%,
+    rgba(255, 255, 255, 1) 100%
   );
 }
 
-.box::before{
-  left: -600%;
-  right: -600%;
-  bottom: -600%;
-  top: -600%;
+.animated-border::before {
+  left: -1024%;
+  right: -1024%;
+  bottom: -1024%;
+  top: -1024%;
   content: "";
-  background-image: conic-gradient(#f88fe9,#7000ff 20%,#58d2f2 50%,#fff 75%,#f88fe9 100%);
+  background-image: conic-gradient(
+    #f88fe9,
+    #7000ff 20%,
+    #58d2f2 50%,
+    transparent 75%,
+    #f88fe9 100%
+  );
   position: absolute;
   animation: rotate 5s linear infinite;
 }
 
 @keyframes rotate {
-  0%{
+  from {
     transform: rotate(0deg);
   }
-  100%{
+  to {
     transform: rotate(360deg);
   }
 }

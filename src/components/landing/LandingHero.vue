@@ -14,8 +14,7 @@ const { t } = useI18n()
         class="w-full max-w-4xl mt-4 mb-4 text-5xl tracking-tight text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-6xl lg:text-8xl"
         :class="gradients.gray"
       >
-        {{ t("home.hero.heading_line_1") }}
-        {{ t("home.hero.heading_line_2") }}
+        {{ t("home.hero.heading") }}
       </div>
       <div
         class="my-4 text-2xl tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-br md:w-2/5"

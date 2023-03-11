@@ -5,12 +5,12 @@ const { t } = useI18n()
 <template>
   <div class="flex flex-col py-16">
     <div class="relative flex items-center justify-center flex-1">
-      <span class="relative overflow-hidden rounded-full p-[1px] box">
+      <span class="relative overflow-hidden rounded-full p-[1px] animated-border">
         <SmartLink
           to="/company/blog/hoppscotch-raises-3m-in-seed-funding-to-build-open-source-api-development-ecosystem"
           target="_blank"
           rel="noopener noreferrer"
-          class="relative z-10 flex items-center justify-center py-2 transition border rounded-full bg-primary border-divider text-secondaryLight group hover:bg-primaryLight hover:border-dividerDark hover:text-secondaryDark"
+          class="relative z-10 flex items-center justify-center py-2 transition rounded-full bg-primary text-secondaryLight group hover:bg-primaryLight hover:text-secondaryDark"
         >
           <lucide-megaphone class="hidden h-6 ml-4 md:flex" />
           <span class="px-4 py-1 border-r rounded-l-full border-divider">
