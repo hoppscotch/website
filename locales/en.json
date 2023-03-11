@@ -7,11 +7,11 @@
     "stats": {
       "1": {
         "description": "GitHub Stars",
-        "title": "40K+"
+        "title": "50K+"
       },
       "2": {
         "description": "Users",
-        "title": "1M+"
+        "title": "1.6M+"
       },
       "3": {
         "description": "Monthly requests",
@@ -19,7 +19,7 @@
       },
       "4": {
         "description": "Monthly users",
-        "title": "50k+"
+        "title": "100k+"
       }
     },
     "values": {
@@ -584,10 +584,10 @@
       "title": "Features"
     },
     "hero": {
-      "heading": "Open source API platform",
+      "heading": "Open Source API Platform",
       "stats": {
         "1": {
-          "title": "1M+ users"
+          "title": "1.6M+ users"
         },
         "2": {
           "title": "50K+ GitHub stars"
