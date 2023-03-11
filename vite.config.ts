@@ -23,8 +23,10 @@ export default defineConfig({
   resolve: {
     alias: {
       "~/": `${path.resolve(__dirname, "src")}/`,
+      'vue-i18n': 'vue-i18n/dist/vue-i18n.runtime.esm-bundler.js',
     },
   },
+
   plugins: [
     Vue({
       include: [/\.vue$/, /\.md$/],
@@ -132,7 +134,7 @@ export default defineConfig({
 
     // https://github.com/intlify/bundle-tools/tree/main/packages/unplugin-vue-i18n
     VueI18nPlugin({
-      include: [path.resolve(__dirname, "locales/**")],
+      include: path.resolve(__dirname, "locales/**"),
     }),
 
     // https://github.com/antfu/vite-plugin-inspect
@@ -170,4 +172,8 @@ export default defineConfig({
       inline: ["@vue", "@vueuse", "vue-demi"],
     },
   },
+
+  ssr: {
+    noExternal: ["vue-i18n"]
+  }
 })
