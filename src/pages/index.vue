@@ -5,7 +5,6 @@
     <LandingUsers />
     <LandingConic />
     <LandingFeatures />
-    <LandingKeyboard />
     <LandingPlatforms />
     <LandingContributors />
     <LandingTestimonials />

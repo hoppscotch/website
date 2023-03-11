@@ -7,7 +7,7 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div class="flex flex-col px-8 py-16 interactive-gradient rounded-4xl">
+  <div class="flex flex-col px-8 py-16">
     <LandingAnnouncement />
     <div class="flex flex-col items-center">
       <div

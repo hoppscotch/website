@@ -541,7 +541,7 @@
       "title": "Made by our contributors"
     },
     "cta": {
-      "description": "Get started with the Hoppscotch app, and take your API development process to the next level.",
+      "description": "Get started with the Hoppscotch.",
       "title": "Ready for take-off?"
     },
     "features": {
@@ -597,10 +597,6 @@
         }
       },
       "subheading": "Millions of developers and companies build, ship, and maintain their APIs on Hoppscotch."
-    },
-    "keyboard": {
-      "description": "Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-      "title": "Keyboard first design"
     },
     "platforms": {
       "description": "Make Hoppscotch your own, using the bundle of features available from day one.",

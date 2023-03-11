@@ -242,24 +242,6 @@ a {
   @apply bg-primaryLight;
 }
 
-.interactive-gradient {
-  background: radial-gradient(
-    130% 110% at 50% 10%,
-    transparent 40%,
-    rgba(102, 51, 238, 1) 70%,
-    rgba(255, 255, 255, 1) 100%
-  );
-}
-
-.interactive-gradient-flip {
-  background: radial-gradient(
-    130% 110% at 50% 90%,
-    transparent 40%,
-    rgba(102, 51, 238, 1) 70%,
-    rgba(255, 255, 255, 1) 100%
-  );
-}
-
 .animated-border::before {
   left: -1024%;
   right: -1024%;

@@ -13,12 +13,12 @@ const { t } = useI18n()
       {{ t("home.users.title") }}
     </div>
     <div
-      class="grid grid-cols-3 gap-8 mx-auto mt-8 group md:grid-cols-4 lg:max-w-4xl lg:grid-cols-6"
+      class="grid grid-cols-3 gap-8 mx-auto mt-8 md:grid-cols-4 lg:max-w-4xl lg:grid-cols-6"
     >
       <div
         v-for="(user, index) in users"
         :key="`user-${index}`"
-        class="inline-flex flex-col group-hover:opacity-50 !hover:opacity-100 transition items-center justify-center p-4"
+        class="inline-flex flex-col hover:opacity-100 transition items-center justify-center p-4"
       >
         <img
           :src="`/assets/images/users/${isDark ? 'dark' : 'light'}-${
