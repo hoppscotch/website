@@ -38,22 +38,22 @@ defineProps({
 <template>
   <SmartLink
     :to="link"
-    class="flex flex-col flex-1 col-span-6 row-span-2 p-8 transition rounded-lg opacity-75 group hover:opacity-100 lg:col-span-2 bg-primary"
+    class="flex flex-col flex-1 p-8 border rounded-lg opacity-75 col-span-6 row-span-2 transition border-divider hover:border-dividerDark group hover:opacity-100 lg:col-span-2 bg-primary"
     :class="styles"
     blank
   >
     <div
       class="flex items-center mb-4 text-lg font-semibold tracking-tight text-secondaryLight"
     >
+      <span class="mr-4">
+        <component :is="icon" class="w-5 h-5 opacity-25" />
+      </span>
       <div class="flex flex-1">
         hoppscotch/
         <span class="transition text-secondary group-hover:text-secondaryDark">
           {{ title }}
         </span>
       </div>
-      <span class="ml-4">
-        <component :is="icon" class="w-5 h-5 opacity-25" />
-      </span>
     </div>
     <div class="flex flex-1 text-secondaryLight">
       {{ description }}

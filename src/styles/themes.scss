@@ -16,9 +16,9 @@
   --color-tooltip: theme("colors.white");
   --color-tooltipSecondary: theme("colors.true-gray.600");
 
-  --color-accent: #63e;
-  --color-accentLight: rgb(94, 47, 222);
-  --color-accentDark: rgb(65, 13, 208);
+  --color-accent: theme("colors.true-gray.800");
+  --color-accentLight: theme("colors.true-gray.700");
+  --color-accentDark: theme("colors.true-gray.900");
   --color-accentContrast: theme("colors.white");
 }
 

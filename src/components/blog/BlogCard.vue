@@ -47,7 +47,7 @@ const getComputedDate = computed(() => {
       </div>
       <div class="flex flex-col flex-1 p-8">
         <div
-          class="flex items-center gap-4 text-xl font-semibold text-secondaryDark lg:text-2xl"
+          class="flex items-center text-xl font-semibold gap-4 text-secondaryDark lg:text-2xl"
         >
           {{ t(blog.title) }}
         </div>
@@ -70,7 +70,7 @@ const getComputedDate = computed(() => {
           {{ t(blog.description) }}
         </div>
         <div class="relative w-full my-2 overflow-hidden faded-edge">
-          <div class="flex w-full space-x-2 overflow-x-auto flex-nowrap">
+          <div class="flex w-full overflow-x-auto space-x-2 flex-nowrap">
             <span
               v-for="(tag, tagIndex) in blog.tags"
               :key="`tag-${tag}-${tagIndex}`"

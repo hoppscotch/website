@@ -22,7 +22,7 @@ const { t } = useI18n()
       >
         {{ t("home.hero.subheading") }}
       </div>
-      <div class="flex my-4 space-x-2 text-center">
+      <div class="flex my-4 text-center space-x-2">
         <ButtonSecondary
           to="https://github.com/hoppscotch/hoppscotch"
           label="Self-Host"

@@ -57,7 +57,7 @@ onMounted(() => {
           </SmartLink>
         </div>
         <nav
-          class="hidden p-1 transition border rounded-full shadow-lg shadow-zinc-800/5 md:flex border-dividerDark bg-primary"
+          class="hidden p-1 border rounded-full shadow-lg transition shadow-zinc-800/5 md:flex border-dividerDark bg-primary"
         >
           <span>
             <tippy
