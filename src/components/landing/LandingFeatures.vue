@@ -22,7 +22,7 @@ const { t } = useI18n()
     </div>
     <div
       v-interactive-hover-animation
-      class="grid grid-cols-1 gap-4 mt-16 md:grid-cols-2 lg:grid-cols-4"
+      class="mt-16 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4"
     >
       <div
         v-for="(feature, index) in features"
@@ -30,16 +30,9 @@ const { t } = useI18n()
         class="h-64 interactive-hover-animation group"
       >
         <div class="interactive-hover-contents">
-          <div class="flex flex-col items-center justify-center h-32 bg-gray-300">
-            <img
-              :src="`/assets/images/home/features/${feature.icon}`"
-              :alt="feature.title"
-              class="flex w-auto h-32 bg-gray-300"
-            />
-          </div>
-          <div class="flex flex-col h-32 px-8 pb-8">
+          <div class="flex flex-col p-8">
             <div
-              class="flex my-2 text-lg font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-br"
+              class="flex my-2 text-xl font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-br"
               :class="gradients.gray"
             >
               {{ t(feature.title) }}
@@ -47,6 +40,14 @@ const { t } = useI18n()
             <div class="flex flex-1 text-sm tracking-tight text-secondaryLight">
               {{ t(feature.description) }}
             </div>
+          </div>
+          <div
+            class="flex flex-col items-end justify-end h-full text-dividerDark"
+          >
+            <component
+              :is="feature.icon"
+              class="w-20 h-20 p-6 border-t border-l rounded-full border-dividerDark"
+            />
           </div>
         </div>
       </div>

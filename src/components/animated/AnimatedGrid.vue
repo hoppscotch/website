@@ -9,51 +9,36 @@
   background-image: linear-gradient(
       0deg,
       transparent 24%,
-      rgba(255, 15, 248, 0.1) 25%,
-      rgba(255, 15, 248, 0.1) 26%,
+      rgba(0, 172, 238, 0.1) 25%,
+      rgba(0, 172, 238, 0.1) 26%,
       transparent 27%,
       transparent 74%,
-      rgba(255, 15, 248, 0.1) 75%,
-      rgba(255, 15, 248, 0.1) 76%,
+      rgba(0, 172, 238, 0.1) 75%,
+      rgba(0, 172, 238, 0.1) 76%,
       transparent 77%,
       transparent
     ),
     linear-gradient(
       90deg,
       transparent 24%,
-      rgba(255, 15, 248, 0.1) 25%,
-      rgba(255, 15, 248, 0.1) 26%,
+      rgba(0, 172, 238, 0.1) 25%,
+      rgba(0, 172, 238, 0.1) 26%,
       transparent 27%,
       transparent 74%,
-      rgba(255, 15, 248, 0.1) 75%,
-      rgba(255, 15, 248, 0.1) 76%,
+      rgba(0, 172, 238, 0.1) 75%,
+      rgba(0, 172, 238, 0.1) 76%,
       transparent 77%,
       transparent
     );
-  background-size: 2rem 2rem;
-  animation: 16s infinite linear moving_grid;
-}
-
-.animated-grid:after {
-  @apply content-DEFAULT;
-  @apply absolute;
-  @apply w-full;
-  @apply h-full;
-  @apply opacity-50;
-
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 135, 252, 0) 45%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background-size: 3rem 3rem;
+  animation: 32s infinite linear moving_grid;
 }
 
 @keyframes moving_grid {
-  0% {
+  from {
     background-position: 0 0;
   }
-  100% {
+  to {
     background-position: 0 100%;
   }
 }

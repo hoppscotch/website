@@ -23,7 +23,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "~/": `${path.resolve(__dirname, "src")}/`,
-      'vue-i18n': 'vue-i18n/dist/vue-i18n.runtime.esm-bundler.js',
+      "vue-i18n": "vue-i18n/dist/vue-i18n.runtime.esm-bundler.js",
     },
   },
 
@@ -174,6 +174,6 @@ export default defineConfig({
   },
 
   ssr: {
-    noExternal: ["vue-i18n"]
-  }
+    noExternal: ["vue-i18n"],
+  },
 })
