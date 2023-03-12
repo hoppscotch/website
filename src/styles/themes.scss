@@ -3,7 +3,7 @@
   --color-primaryLight: theme("colors.light.400");
   --color-primaryDark: theme("colors.light.600");
   --color-primaryTransparent: theme("colors.dark.500");
-  --color-primaryTransparentContrast: rgba(0, 0, 0, 0.1);
+  --color-primaryTransparentContrast: theme("colors.light.400");
 
   --color-secondary: theme("colors.true-gray.700");
   --color-secondaryLight: theme("colors.true-gray.500");
@@ -27,7 +27,7 @@
   --color-primaryLight: #121524;
   --color-primaryDark: #1d1f2f;
   --color-primaryTransparent: #ccd3f9;
-  --color-primaryTransparentContrast: rgba(38, 0, 255, 0.1);
+  --color-primaryTransparentContrast: #151936;
 
   --color-secondary: #e2e4f5;
   --color-secondaryLight: #babcd2;

@@ -27,7 +27,12 @@ withDefaults(
   @apply transition;
   @apply -z-1;
 
-  background: linear-gradient(45deg, #f83a3a 10%, #f13dd4 50%, #7000ff 90%);
+  background: linear-gradient(
+    45deg,
+    rgba(248, 143, 233, 0.5) 10%,
+    rgba(112, 0, 255, 0.5) 50%,
+    rgba(88, 210, 242, 0.5) 90%
+  );
 }
 
 .pulse {

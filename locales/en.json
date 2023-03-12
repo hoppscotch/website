@@ -546,7 +546,7 @@
     },
     "features": {
       "button": "Get Started",
-      "description": "A technology-first approach to api development",
+      "description": "A technology-first approach to API development",
       "items": {
         "1": {
           "description": "Designed to be seamless and instant.",

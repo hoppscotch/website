@@ -22,19 +22,19 @@ const { t } = useI18n()
     </div>
     <div
       v-interactive-hover-animation
-      class="mt-16 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4"
+      class="grid grid-cols-1 gap-4 mt-16 md:grid-cols-2 lg:grid-cols-4"
     >
       <div
         v-for="(feature, index) in features"
         :key="`feature-${index}`"
-        class="h-72 interactive-hover-animation group"
+        class="h-64 interactive-hover-animation group"
       >
         <div class="interactive-hover-contents">
-          <div class="flex flex-col h-40">
+          <div class="flex flex-col items-center justify-center h-32 bg-gray-300">
             <img
               :src="`/assets/images/home/features/${feature.icon}`"
               :alt="feature.title"
-              class="flex h-auto w-full transition grayscale filter group-hover:(grayscale-0 opacity-100)"
+              class="flex w-auto h-32 bg-gray-300"
             />
           </div>
           <div class="flex flex-col h-32 px-8 pb-8">

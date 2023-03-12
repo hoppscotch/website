@@ -193,13 +193,14 @@ a {
 
   .interactive-hover-contents {
     @apply transition;
-    @apply bg-primaryLight;
+    @apply bg-primary;
     @apply flex;
     @apply flex-col;
     @apply flex-1;
     @apply inset-0.25;
     @apply absolute;
     @apply rounded-lg;
+    @apply overflow-hidden;
 
     z-index: 2;
   }
@@ -249,11 +250,11 @@ a {
   top: -1024%;
   content: "";
   background-image: conic-gradient(
-    #f88fe9,
-    #7000ff 20%,
-    #58d2f2 50%,
+    rgba(248, 143, 233, 1),
+    rgba(112, 0, 255, 1) 20%,
+    rgba(88, 210, 242, 1) 50%,
     transparent 75%,
-    #f88fe9 100%
+    rgba(248, 143, 233, 1) 100%
   );
   position: absolute;
   animation: rotate 5s linear infinite;

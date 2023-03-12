@@ -6,7 +6,7 @@ const { t } = useI18n()
   <div class="flex flex-col py-16">
     <div class="relative flex items-center justify-center flex-1">
       <span
-        class="relative overflow-hidden rounded-full p-[1px] animated-border"
+        class="relative z-1 overflow-hidden rounded-full p-[1px] animated-border"
       >
         <SmartLink
           to="/company/blog/hoppscotch-raises-3m-in-seed-funding-to-build-open-source-api-development-ecosystem"
