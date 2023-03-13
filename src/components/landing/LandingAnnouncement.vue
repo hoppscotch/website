@@ -5,7 +5,7 @@ const { t } = useI18n()
 <template>
   <div class="flex flex-col py-16">
     <div class="relative flex items-center justify-center flex-1">
-      <span
+      <div
         class="relative z-1 overflow-hidden rounded-full p-[1px] animated-border"
       >
         <SmartLink
@@ -35,7 +35,7 @@ const { t } = useI18n()
             <lucide-arrow-right class="ml-2" />
           </span>
         </SmartLink>
-      </span>
+      </div>
     </div>
   </div>
 </template>
