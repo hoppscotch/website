@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { gradients } from '~/assets/data/gradients'
+import { gradients } from "~/assets/data/gradients"
 
 const props = withDefaults(
   defineProps<{
@@ -38,9 +38,7 @@ const getComputedDate = computed(() => {
     >
       {{ blog.title }}
     </div>
-    <div
-      class="flex flex-1 my-4 opacity-75 text-secondaryLight"
-    >
+    <div class="flex flex-1 my-4 opacity-75 text-secondaryLight">
       {{ blog.description }}
     </div>
     <div class="flex mt-4 items-center">

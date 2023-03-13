@@ -2,9 +2,13 @@
 import { computed } from "vue"
 import { blogs } from "~/assets/data/blogList"
 
-const sortedBlogs = computed(() => blogs.sort((a, b) => {
-  return new Date(b.dateOfPublish).getTime() - new Date(a.dateOfPublish).getTime()
-}))
+const sortedBlogs = computed(() =>
+  blogs.sort((a, b) => {
+    return (
+      new Date(b.dateOfPublish).getTime() - new Date(a.dateOfPublish).getTime()
+    )
+  })
+)
 </script>
 
 <template>

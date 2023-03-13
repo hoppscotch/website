@@ -2,7 +2,8 @@ export const blogs = [
   {
     slug: "march-2023-release",
     title: "March 2023 Release",
-    description: "Team workspaces, Tabs, Self-hosting support and more. Explore what's new in Hoppscotch March 2023 Release",
+    description:
+      "Team workspaces, Tabs, Self-hosting support and more. Explore what's new in Hoppscotch March 2023 Release",
     dateOfPublish: "2023-03-27",
     author: {
       name: "Liyas Thomas",
@@ -13,7 +14,8 @@ export const blogs = [
   {
     slug: "create-teams-for-collaboration-in-hoppscotch",
     title: "Create Teams for Collaboration in Hoppscotch",
-    description: "Today Hoppscotch is launching Teams Collaboration support with no caps.",
+    description:
+      "Today Hoppscotch is launching Teams Collaboration support with no caps.",
     dateOfPublish: "2021-12-29",
     author: {
       name: "Liyas Thomas",
@@ -23,8 +25,10 @@ export const blogs = [
   },
   {
     slug: "hoppscotch-raises-3m-in-seed-funding-to-build-open-source-api-development-ecosystem",
-    title: "Hoppscotch raises $3M in seed funding to build open source API development ecosystem",
-    description: "We have come a long way and we are excited to share the latest milestones in our journey.",
+    title:
+      "Hoppscotch raises $3M in seed funding to build open source API development ecosystem",
+    description:
+      "We have come a long way and we are excited to share the latest milestones in our journey.",
     dateOfPublish: "2021-12-13",
     author: {
       name: "Liyas Thomas",
@@ -46,7 +50,8 @@ export const blogs = [
   {
     slug: "hoppscotch-is-celebrating-30-000-github-stars",
     title: "Hoppscotch is celebrating 30,000 GitHub Stars",
-    description: "Since the initial commit (~2 years ago), Hoppscotch has evolved from being an open-source side project to an enterprise developer tool ...",
+    description:
+      "Since the initial commit (~2 years ago), Hoppscotch has evolved from being an open-source side project to an enterprise developer tool ...",
     dateOfPublish: "2021-08-02",
     author: {
       name: "Liyas Thomas",
@@ -57,7 +62,8 @@ export const blogs = [
   {
     slug: "github-externship-hoppscotch",
     title: "GitHub Externship - Hoppscotch",
-    description: "We are super excited to be a ‘Partner Organization’ of GitHub Externship and look forward to supporting all interested students to participate and contribute to our open-source projects.",
+    description:
+      "We are super excited to be a ‘Partner Organization’ of GitHub Externship and look forward to supporting all interested students to participate and contribute to our open-source projects.",
     dateOfPublish: "2021-09-26",
     author: {
       name: "Liyas Thomas",
@@ -68,7 +74,8 @@ export const blogs = [
   {
     slug: "hoppscotch-celebrating-25-000-github-stars",
     title: "Hoppscotch Celebrating 25,000 GitHub Stars",
-    description: "Hoppscotch just received its 25,000th star on GitHub. We'll use this milestone to recap Hoppscotch’s growth and other important milestones since its beginning ...",
+    description:
+      "Hoppscotch just received its 25,000th star on GitHub. We'll use this milestone to recap Hoppscotch’s growth and other important milestones since its beginning ...",
     dateOfPublish: "2020-11-10",
     author: {
       name: "Liyas Thomas",
@@ -79,7 +86,8 @@ export const blogs = [
   {
     slug: "hacktoberfest-with-hoppscotch",
     title: "Hacktoberfest with Hoppscotch",
-    description: "We're developing Hoppscotch, an open-source API request builder for the web, and would love to count you as a contributor to improve our components & applications.",
+    description:
+      "We're developing Hoppscotch, an open-source API request builder for the web, and would love to count you as a contributor to improve our components & applications.",
     dateOfPublish: "2019-10-01",
     author: {
       name: "Liyas Thomas",
@@ -101,7 +109,8 @@ export const blogs = [
   {
     slug: "creating-hoppscotch",
     title: "Creating Hoppscotch",
-    description: "The story behind Hoppscotch, The very first task I was assigned is an API integration of an old project. That's when I came across the Postman...",
+    description:
+      "The story behind Hoppscotch, The very first task I was assigned is an API integration of an old project. That's when I came across the Postman...",
     dateOfPublish: "2019-08-22",
     author: {
       name: "Liyas Thomas",
