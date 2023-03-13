@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { gradients } from '~/assets/data/gradients'
+
 const props = withDefaults(
   defineProps<{
     blog: {
@@ -15,8 +17,6 @@ const props = withDefaults(
   }>(),
   {}
 )
-const { t } = useI18n()
-
 const getComputedDate = computed(() => {
   const date = new Date(props.blog.dateOfPublish)
   const month = date.toLocaleString("default", { month: "long" })
@@ -33,29 +33,30 @@ const getComputedDate = computed(() => {
     :class="blog.styles"
   >
     <div
-      class="flex items-center text-xl font-semibold gap-4 text-secondaryDark lg:text-2xl"
+      class="flex tracking-tight text-xl font-semibold gap-4 text-transparent bg-clip-text bg-gradient-to-br lg:text-2xl"
+      :class="gradients.gray"
     >
-      {{ t(blog.title) }}
+      {{ blog.title }}
     </div>
-    <div class="flex items-center my-4">
+    <div
+      class="flex flex-1 my-4 opacity-75 text-secondaryLight"
+    >
+      {{ blog.description }}
+    </div>
+    <div class="flex mt-4 items-center">
       <img
         class="w-8 h-8 rounded-full"
         :src="blog.author.image"
         :alt="blog.author.name"
       />
-      <div class="flex flex-col ml-3 space-y-1">
-        <span class="text-sm font-semibold text-secondaryDark">
-          {{ t(blog.author.name) }}
+      <div class="flex flex-col ml-3">
+        <span class="text-xs font-semibold text-secondaryDark">
+          {{ blog.author.name }}
         </span>
         <span class="text-xs text-secondaryLight opacity-60">
           {{ getComputedDate }}
         </span>
       </div>
-    </div>
-    <div
-      class="flex flex-1 w-11/12 max-w-xl my-2 opacity-75 text-secondaryDark"
-    >
-      {{ t(blog.description) }}
     </div>
   </SmartLink>
 </template>

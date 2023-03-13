@@ -66,53 +66,6 @@
     "hero": {
       "heading": "Blog",
       "subheading": "Updates about Hoppscotch and the stuffs we’re working on."
-    },
-    "items": {
-      "1": {
-        "author": "Liyas Thomas",
-        "description": "Today Hoppscotch is launching Teams Collaboration support with no caps.",
-        "title": "Create Teams for Collaboration in Hoppscotch"
-      },
-      "2": {
-        "author": "Liyas Thomas",
-        "description": "Today we're rolling out Hoppscotch v2 for everyone.",
-        "title": "Hoppscotch v2"
-      },
-      "3": {
-        "author": "Liyas Thomas",
-        "description": "We have come a long way and we are excited to share the latest milestones in our journey.",
-        "title": "Hoppscotch raises $3M in seed funding to build open source API development ecosystem"
-      },
-      "4": {
-        "author": "Liyas Thomas",
-        "description": "Since the initial commit (~2 years ago), Hoppscotch has evolved from being an open-source side project to an enterprise developer tool ...",
-        "title": "Hoppscotch is celebrating 30,000 GitHub Stars 🎉"
-      },
-      "5": {
-        "author": "Liyas Thomas",
-        "description": "We are super excited to be a ‘Partner Organization’ of GitHub Externship and look forward to supporting all interested students to participate and contribute to our open-source projects.",
-        "title": "GitHub Externship ❤️ Hoppscotch"
-      },
-      "6": {
-        "author": "Liyas Thomas",
-        "description": "Hoppscotch just received its 25,000th star on GitHub. We'll use this milestone to recap Hoppscotch’s growth and other important milestones since its beginning ...",
-        "title": "Hoppscotch Celebrating 25,000 GitHub Stars"
-      },
-      "7": {
-        "author": "Liyas Thomas",
-        "description": "We're developing Hoppscotch, an open-source API request builder for the web, and would love to count you as a contributor to improve our components & applications.",
-        "title": "Hacktoberfest with Hoppscotch"
-      },
-      "8": {
-        "author": "Liyas Thomas",
-        "description": "So, here’s how Hoppscotch happened.",
-        "title": "Hoppscotch v1"
-      },
-      "9": {
-        "author": "Liyas Thomas",
-        "description": "The story behind Hoppscotch, The very first task I was assigned is an API integration of an old project. That's when I came across the Postman...",
-        "title": "Creating Hoppscotch"
-      }
     }
   },
   "careers": {
