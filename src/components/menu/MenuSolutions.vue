@@ -26,16 +26,19 @@ const { t } = useI18n()
         :label="t('header.menu.solutions.documentation')"
         :icon="book"
         to="https://docs.hoppscotch.io"
+        blank
       />
       <SmartItem
         :label="t('header.menu.solutions.guides')"
         :icon="guides"
-        to="https://aviyel.com/projects/5/hoppscotch/resources/discussion"
+        to="https://docs.hoppscotch.io/guides/getting-started/introduction"
+        blank
       />
       <SmartItem
         :label="t('header.menu.solutions.support')"
         :icon="support"
-        to="/company/support"
+        to="https://docs.hoppscotch.io/support/getting-started/introduction"
+        blank
       />
     </div>
   </div>
