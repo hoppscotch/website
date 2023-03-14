@@ -6,7 +6,7 @@ useHead({
 
 <template>
   <div class="flex flex-col">
-    <SolutionBanner />
     <SolutionHero />
+    <SolutionDiagram />
   </div>
 </template>

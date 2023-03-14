@@ -33,7 +33,7 @@ const getComputedDate = computed(() => {
     :class="blog.styles"
   >
     <div
-      class="flex tracking-tight text-xl font-semibold gap-4 text-transparent bg-clip-text bg-gradient-to-br lg:text-2xl"
+      class="flex text-xl font-semibold tracking-tight text-transparent gap-4 bg-clip-text bg-gradient-to-br lg:text-2xl"
       :class="gradients.gray"
     >
       {{ blog.title }}
@@ -41,17 +41,17 @@ const getComputedDate = computed(() => {
     <div class="flex flex-1 my-4 opacity-75 text-secondaryLight">
       {{ blog.description }}
     </div>
-    <div class="flex mt-4 items-center">
+    <div class="flex items-center mt-4">
       <img
         class="w-8 h-8 rounded-full"
         :src="blog.author.image"
         :alt="blog.author.name"
       />
       <div class="flex flex-col ml-3">
-        <span class="text-xs font-semibold text-secondaryDark">
+        <span class="font-semibold text-secondaryDark">
           {{ blog.author.name }}
         </span>
-        <span class="text-xs text-secondaryLight opacity-60">
+        <span class="text-secondaryLight opacity-60">
           {{ getComputedDate }}
         </span>
       </div>
