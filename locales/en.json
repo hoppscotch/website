@@ -498,7 +498,6 @@
       "title": "Ready for take-off?"
     },
     "features": {
-      "button": "Get Started",
       "description": "A technology-first approach to API development",
       "items": {
         "1": {
@@ -552,30 +551,30 @@
       "subheading": "Millions of developers and companies build, ship, and maintain their APIs on Hoppscotch."
     },
     "platforms": {
-      "description": "Make Hoppscotch your own, using the bundle of features available from day one.",
+      "description": "Hoppscotch is available on web, desktop, and CLI. Use Hoppscotch on your platform of choice.",
       "features": {
         "1": {
-          "description": "Hoppscotch is designed to be lightweight and easy to use.",
-          "title": "Web. Lightweight as feather."
+          "description": "Hoppscotch Web is a browser-based app that lets you use Hoppscotch without installing anything.",
+          "title": "Web app. Lightweight as feather."
         },
         "2": {
-          "description": "Hoppscotch is built on top of open source technologies. We are a community of developers who believe in the power of open source.",
-          "title": "Fast"
+          "description": "Hoppscotch Desktop is a native app that lets you use Hoppscotch without a browser.",
+          "title": "Desktop app for pros."
         },
         "3": {
-          "description": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-          "title": "Simple"
+          "description": "Hoppscotch CLI is a command-line tool that lets you run Hoppscotch from your terminal.",
+          "title": "CLI for CI/CD."
         },
         "4": {
-          "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-          "title": "PWA"
+          "description": "Embed Hoppscotch in your website to let your users try out your APIs.",
+          "title": "Embeds for your website."
         }
       },
-      "title": "Productivity, levelled up"
+      "title": "Platforms for an API-first world"
     },
     "projects": {
-      "description": "Design, develop, and document APIs with Hoppscotch's powerful platforms.",
-      "title": "Platforms for an API-first world"
+      "description": "Hoppscotch is built on top of open source technologies. We are proud to be a part of the open source community.",
+      "title": "Built with Open Source"
     },
     "social": {
       "discord": {
