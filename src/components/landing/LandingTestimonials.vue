@@ -30,7 +30,7 @@ const { t } = useI18n()
           :href="testimonial.link"
           target="_blank"
           rel="noopener noreferrer"
-          class="flex flex-col w-full p-8 rounded-lg shadow transition bg-primaryLight group hover:shadow-md"
+          class="flex flex-col w-full p-8 rounded-lg border border-divider hover:border-dividerDark transition bg-primaryLigh transition group"
         >
           <div class="flex items-center w-full mb-4">
             <img

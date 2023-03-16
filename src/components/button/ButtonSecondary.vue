@@ -72,7 +72,7 @@ return "router-link"
           fill,
       },
       { 'pointer-events-none': loading },
-      { 'px-6 text-lg font-semibold tracking-tight': large },
+      { '!px-8 !py-4 text-lg font-semibold tracking-tight': large },
       { 'shadow-lg hover:shadow-xl': shadow },
       {
         'border border-divider hover:border-dividerDark': outline,

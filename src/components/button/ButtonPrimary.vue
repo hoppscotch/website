@@ -66,7 +66,7 @@ return "router-link"
       label ? 'px-4' : 'px-2',
       rounded ? 'rounded-full' : 'rounded-lg',
       { 'pointer-events-none': loading },
-      { 'px-6 text-lg font-semibold tracking-tight': large },
+      { '!px-8 !py-4 text-lg font-semibold tracking-tight': large },
       { 'shadow-lg hover:shadow-xl': shadow },
       {
         'border border-accent hover:border-accentDark focus-visible:border-accentDark':

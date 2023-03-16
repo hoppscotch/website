@@ -3,7 +3,7 @@
   --color-primaryLight: theme("colors.light.400");
   --color-primaryDark: theme("colors.light.600");
   --color-primaryTransparent: theme("colors.dark.500");
-  --color-primaryTransparentContrast: theme("colors.light.400");
+  --color-primaryTransparentContrast: var(--color-divider);
 
   --color-secondary: theme("colors.true-gray.700");
   --color-secondaryLight: theme("colors.true-gray.500");
@@ -23,27 +23,27 @@
 }
 
 @mixin darkMode {
-  --color-primary: #010314;
-  --color-primaryLight: #121524;
-  --color-primaryDark: #1d1f2f;
-  --color-primaryTransparent: #ccd3f9;
-  --color-primaryTransparentContrast: #151936;
+  --color-primary: theme("colors.dark.900");
+  --color-primaryLight: theme("colors.dark.800");
+  --color-primaryDark: theme("colors.dark.500");
+  --color-primaryTransparent: theme("colors.light.500");
+  --color-primaryTransparentContrast: var(--color-divider);
 
-  --color-secondary: #e2e4f5;
-  --color-secondaryLight: #babcd2;
-  --color-secondaryDark: #fff;
+  --color-secondary: theme("colors.light.500");
+  --color-secondaryLight: theme("colors.light.900");
+  --color-secondaryDark: theme("colors.white");
 
-  --color-divider: #2a2b3a;
-  --color-dividerLight: #151936;
-  --color-dividerDark: #262b48;
+  --color-divider: theme("colors.dark.600");
+  --color-dividerLight: theme("colors.dark.400");
+  --color-dividerDark: theme("colors.dark.200");
 
-  --color-tooltip: #131520;
-  --color-tooltipSecondary: #fff;
+  --color-tooltip: theme("colors.dark.800");
+  --color-tooltipSecondary: theme("colors.white");
 
-  --color-accent: #fff;
-  --color-accentLight: #00acee;
-  --color-accentDark: #f4f4ff;
-  --color-accentContrast: #010314;
+  --color-accent: theme("colors.white");
+  --color-accentLight: theme("colors.light.400");
+  --color-accentDark: theme("colors.light.800");
+  --color-accentContrast: theme("colors.black");
 }
 
 html {

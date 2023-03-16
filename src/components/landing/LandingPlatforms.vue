@@ -27,12 +27,13 @@ const { t } = useI18n()
       <div
         v-for="(feature, index) in features"
         :key="`feature-${index}`"
-        class="w-full p-8 border row-span-1 rounded-4xl border-divider group md:p-16"
+        class="w-full p-8 border row-span-1 relative rounded-4xl border-divider group md:p-16"
         :class="feature.styles"
       >
-        <div class="flex flex-col flex-1">
+        <div class="flex relative z-10 flex-col flex-1">
           <div
-            class="flex mb-2 text-3xl font-semibold tracking-tight text-secondaryDark"
+            class="flex mb-2 text-3xl font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-br"
+            :class="gradients.gray"
           >
             {{ t(feature.title) }}
           </div>
@@ -40,6 +41,11 @@ const { t } = useI18n()
             {{ t(feature.description) }}
           </div>
         </div>
+        <img
+          src="/assets/images/home/landing/globe.png"
+          :alt="t('logo')"
+          class="absolute z-0 top-0 right-0 h-full rounded-r-4xl"
+        />
       </div>
     </div>
   </div>

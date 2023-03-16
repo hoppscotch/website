@@ -489,10 +489,6 @@
       "short_description": "Self-host support is out",
       "short_link_text": "Read"
     },
-    "contributors": {
-      "description": "Hoppscotch is a thing thanks to the efforts of developers who believe in us.",
-      "title": "Made by our contributors"
-    },
     "cta": {
       "description": "Get started with the Hoppscotch.",
       "title": "Ready for take-off?"

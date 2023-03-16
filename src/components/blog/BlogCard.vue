@@ -51,7 +51,7 @@ const getComputedDate = computed(() => {
         <span class="font-semibold text-secondaryDark">
           {{ blog.author.name }}
         </span>
-        <span class="text-secondaryLight opacity-60">
+        <span class="text-secondaryLight opacity-50">
           {{ getComputedDate }}
         </span>
       </div>
