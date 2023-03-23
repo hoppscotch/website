@@ -12,6 +12,18 @@ export const blogs = [
     styles: "md:col-span-3 xl:col-span-2",
   },
   {
+    slug: "50000-github-stars",
+    title: "Celebrating 50,000 GitHub Stars",
+    description:
+      "Hoppscotch just received its 50,000th star on GitHub. We'll use this milestone to recap Hoppscotch’s growth and other important milestones since its beginning.",
+    dateOfPublish: "2023-02-22",
+    author: {
+      name: "Liyas Thomas",
+      image: "https://github.com/liyasthomas.png",
+    },
+    styles: "md:col-span-3 xl:col-span-2",
+  },
+  {
     slug: "create-teams-for-collaboration-in-hoppscotch",
     title: "Create Teams for Collaboration in Hoppscotch",
     description:
@@ -51,7 +63,7 @@ export const blogs = [
     slug: "hoppscotch-is-celebrating-30-000-github-stars",
     title: "Hoppscotch is celebrating 30,000 GitHub Stars",
     description:
-      "Since the initial commit (~2 years ago), Hoppscotch has evolved from being an open-source side project to an enterprise developer tool ...",
+      "Since the initial commit (~2 years ago), Hoppscotch has evolved from being an open-source side project to an enterprise developer tool.",
     dateOfPublish: "2021-08-02",
     author: {
       name: "Liyas Thomas",
@@ -75,7 +87,7 @@ export const blogs = [
     slug: "hoppscotch-celebrating-25-000-github-stars",
     title: "Hoppscotch Celebrating 25,000 GitHub Stars",
     description:
-      "Hoppscotch just received its 25,000th star on GitHub. We'll use this milestone to recap Hoppscotch’s growth and other important milestones since its beginning ...",
+      "Hoppscotch just received its 25,000th star on GitHub. We'll use this milestone to recap Hoppscotch’s growth and other important milestones since its beginning.",
     dateOfPublish: "2020-11-10",
     author: {
       name: "Liyas Thomas",
@@ -98,7 +110,7 @@ export const blogs = [
   {
     slug: "hoppscotch-v1",
     title: "Hoppscotch v1",
-    description: "So, here’s how Hoppscotch happened.",
+    description: "Today we're rolling out Hoppscotch v1 for everyone. Let's take a look at what's new. What we've been working on for the past few days.",
     dateOfPublish: "2019-08-04",
     author: {
       name: "Liyas Thomas",
@@ -110,7 +122,7 @@ export const blogs = [
     slug: "creating-hoppscotch",
     title: "Creating Hoppscotch",
     description:
-      "The story behind Hoppscotch, The very first task I was assigned is an API integration of an old project. That's when I came across the Postman...",
+      "The story behind Hoppscotch, The very first task I was assigned is an API integration of an old project. That's when I came across the Postman.",
     dateOfPublish: "2019-08-22",
     author: {
       name: "Liyas Thomas",

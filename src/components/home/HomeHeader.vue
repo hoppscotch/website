@@ -37,7 +37,7 @@ onMounted(() => {
 
 <template>
   <header class="max-h-screen top-0 z-20 sticky <md:overflow-auto">
-    <nav
+    <div
       class="flex"
       :class="{
         '<md:border-dividerLight <md:border-b <md:bg-primary': showMenu,
@@ -122,11 +122,13 @@ onMounted(() => {
               </template>
             </tippy>
           </span>
-          <SmartItem
-            rounded
-            :label="t('header.menu.pricing.title')"
-            to="/pricing"
-          />
+          <span>
+            <SmartItem
+              rounded
+              :label="t('header.menu.pricing.title')"
+              to="/pricing"
+            />
+          </span>
         </nav>
         <div
           class="items-center justify-end hidden space-x-2 md:flex md:flex-1 lg:w-0"
@@ -157,7 +159,7 @@ onMounted(() => {
           />
         </div>
       </div>
-    </nav>
+    </div>
     <MenuMobile v-if="showMenu" />
   </header>
 </template>

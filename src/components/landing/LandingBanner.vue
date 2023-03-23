@@ -10,7 +10,7 @@ import { isDark } from "~/composables"
         <div
           class="bg-gradient-to-br rounded md:rounded-lg flex p-0.2 relative"
         >
-          <SmartGradient animate :blur="128" />
+          <SmartGradient animate :blur="64" />
           <img
             class="object-contain object-center w-full h-full border rounded border-dividerDark transition md:rounded-lg"
             :src="`/assets/images/screenshots/${

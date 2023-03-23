@@ -28,6 +28,7 @@ const { t } = useI18n()
           label="Self-Host"
           :icon="github"
           large
+          outline
           fill
         />
         <ButtonPrimary
@@ -36,6 +37,7 @@ const { t } = useI18n()
           :icon="arrowRight"
           reverse
           large
+          outline
         />
       </div>
       <div

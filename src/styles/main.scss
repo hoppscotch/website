@@ -91,7 +91,7 @@ textarea::placeholder {
   @apply px-3;
   @apply shadow-md;
   @apply transition;
-  @apply rounded-lg;
+  @apply rounded;
 
   & > .tippy-arrow {
     @apply transition;
@@ -106,7 +106,7 @@ textarea::placeholder {
   @apply shadow-xl;
   @apply transition;
   @apply text-xs;
-  @apply rounded-lg;
+  @apply rounded-xl;
 
   & > .tippy-arrow {
     @apply transition;
