@@ -110,7 +110,8 @@ export const blogs = [
   {
     slug: "hoppscotch-v1",
     title: "Hoppscotch v1",
-    description: "Today we're rolling out Hoppscotch v1 for everyone. Let's take a look at what's new. What we've been working on for the past few days.",
+    description:
+      "Today we're rolling out Hoppscotch v1 for everyone. Let's take a look at what's new. What we've been working on for the past few days.",
     dateOfPublish: "2019-08-04",
     author: {
       name: "Liyas Thomas",
