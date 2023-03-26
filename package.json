@@ -18,7 +18,6 @@
     "@vueuse/head": "^1.1.23",
     "happy-dom": "^8.9.0",
     "nprogress": "^0.2.0",
-    "pinia": "^2.0.33",
     "prism-theme-vars": "^0.2.4",
     "vue": "^3.2.47",
     "vue-demi": "^0.13.11",

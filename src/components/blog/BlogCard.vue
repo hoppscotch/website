@@ -4,16 +4,16 @@ import { gradients } from "~/assets/data/gradients"
 const props = withDefaults(
   defineProps<{
     blog: {
-      title: string;
-      description: string;
-      slug: string;
-      styles: string;
-      dateOfPublish: string;
+      title: string
+      description: string
+      slug: string
+      styles: string
+      dateOfPublish: string
       author: {
-        name: string;
-        image: string;
-      };
-    };
+        name: string
+        image: string
+      }
+    }
   }>(),
   {}
 )

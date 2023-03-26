@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const props = defineProps<{
-  role: string;
+  role: string
 }>()
 const { t } = useI18n()
 </script>

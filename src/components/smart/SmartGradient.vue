@@ -1,8 +1,8 @@
 <script setup lang="ts">
 withDefaults(
   defineProps<{
-    blur: number;
-    animate: boolean;
+    blur: number
+    animate: boolean
   }>(),
   {
     blur: 12,

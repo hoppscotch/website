@@ -1,8 +1,8 @@
 <script setup lang="ts">
 withDefaults(
   defineProps<{
-    title: string;
-    image: string;
+    title: string
+    image: string
   }>(),
   {
     title: "",

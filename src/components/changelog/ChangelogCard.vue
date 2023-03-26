@@ -2,12 +2,12 @@
 withDefaults(
   defineProps<{
     changelog: {
-      title: string;
-      description: string;
-      placement: string;
-      icon: string;
-      date: string;
-    };
+      title: string
+      description: string
+      placement: string
+      icon: string
+      date: string
+    }
   }>(),
   {}
 )

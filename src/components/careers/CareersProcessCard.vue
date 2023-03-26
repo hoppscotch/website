@@ -2,13 +2,13 @@
 import check from "~icons/lucide/check"
 const tipProps = defineProps<{
   visibleTip: {
-    title: string;
-    tips: string[];
-  };
-  tipIndex: number;
+    title: string
+    tips: string[]
+  }
+  tipIndex: number
 }>()
 const tipEmit = defineEmits<{
-  (e: "setActiveTip", index: number): void;
+  (e: "setActiveTip", index: number): void
 }>()
 const { t } = useI18n()
 

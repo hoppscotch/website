@@ -3,18 +3,18 @@ import { computed } from "vue"
 
 const props = withDefaults(
   defineProps<{
-    to?: string;
-    exact?: boolean;
-    blank?: boolean;
-    label?: string;
-    description?: string;
-    icon?: string | object;
-    infoIcon?: string | object;
-    reverse?: boolean;
-    disabled?: boolean;
-    tag?: string;
-    fill?: boolean;
-    rounded?: boolean;
+    to?: string
+    exact?: boolean
+    blank?: boolean
+    label?: string
+    description?: string
+    icon?: string | object
+    infoIcon?: string | object
+    reverse?: boolean
+    disabled?: boolean
+    tag?: string
+    fill?: boolean
+    rounded?: boolean
   }>(),
   {
     to: "",

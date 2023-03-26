@@ -1,10 +1,10 @@
 <script setup lang="ts">
 withDefaults(
   defineProps<{
-    title: string;
-    description: string;
-    link: string;
-    hero?: boolean;
+    title: string
+    description: string
+    link: string
+    hero?: boolean
   }>(),
   {
     title: "",

@@ -3,21 +3,21 @@ import { computed } from "vue"
 
 const props = withDefaults(
   defineProps<{
-    to?: string;
-    exact?: boolean;
-    blank?: boolean;
-    label?: string;
-    description?: string;
-    icon?: string | object;
-    infoIcon?: string | object;
-    reverse?: boolean;
-    rounded?: boolean;
-    loading?: boolean;
-    large?: boolean;
-    shadow?: boolean;
-    outline?: boolean;
-    shortcut?: string[];
-    fill?: boolean;
+    to?: string
+    exact?: boolean
+    blank?: boolean
+    label?: string
+    description?: string
+    icon?: string | object
+    infoIcon?: string | object
+    reverse?: boolean
+    rounded?: boolean
+    loading?: boolean
+    large?: boolean
+    shadow?: boolean
+    outline?: boolean
+    shortcut?: string[]
+    fill?: boolean
   }>(),
   {
     to: "",

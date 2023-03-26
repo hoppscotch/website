@@ -3,11 +3,11 @@ import { gradients } from "~/assets/data/gradients"
 
 withDefaults(
   defineProps<{
-    title: string;
-    description: string;
-    icon: string | object;
-    xPos?: number;
-    yPos?: number;
+    title: string
+    description: string
+    icon: string | object
+    xPos?: number
+    yPos?: number
   }>(),
   {
     title: "",
