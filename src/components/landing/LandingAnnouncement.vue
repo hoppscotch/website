@@ -14,7 +14,7 @@ const { t } = useI18n()
           rel="noopener noreferrer"
           class="relative z-10 flex items-center justify-center py-2 rounded-full transition bg-primary text-secondaryLight group hover:bg-primaryLight hover:text-secondaryDark"
         >
-          <lucide-megaphone class="hidden h-6 ml-4 md:flex" />
+          <icon-lucide-megaphone class="hidden h-6 ml-4 md:flex" />
           <span class="px-4 py-1 border-r rounded-l-full border-divider">
             <span class="md:hidden">
               {{ t("home.announcement.short_description") }}
@@ -32,7 +32,7 @@ const { t } = useI18n()
             <span class="hidden md:inline">
               {{ t("home.announcement.long_link_text") }}
             </span>
-            <lucide-arrow-right class="ml-2" />
+            <icon-lucide-arrow-right class="ml-2" />
           </span>
         </SmartLink>
       </div>

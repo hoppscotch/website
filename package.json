@@ -29,7 +29,6 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.37.0",
-    "@iconify-json/la": "^1.1.4",
     "@iconify-json/logos": "^1.1.23",
     "@iconify-json/lucide": "^1.1.72",
     "@types/markdown-it-link-attributes": "^3.0.1",

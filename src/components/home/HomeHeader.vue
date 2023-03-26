@@ -135,7 +135,7 @@ onMounted(() => {
         >
           <ButtonSecondary
             to="https://github.com/hoppscotch/hoppscotch"
-            label="Self-Host"
+            :label="t('action.self_host')"
             :icon="github"
             fill
             outline

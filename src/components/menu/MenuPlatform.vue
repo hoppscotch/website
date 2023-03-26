@@ -32,18 +32,16 @@ const { t } = useI18n()
             :to="guide.link"
             class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark"
           >
-            {{ t(guide.title) }}
-            <lucide-arrow-right class="ml-2" />
+            {{ guide.title }}
           </SmartLink>
         </li>
         <li>
           <SmartLink
             blank
-            to="https://aviyel.com/projects/5/hoppscotch/resources/discussion"
+            to="https://docs.hoppscotch.io/guides/articles"
             class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark"
           >
             {{ t("header.menu.guide.read_more") }}
-            <lucide-arrow-right class="ml-2" />
           </SmartLink>
         </li>
       </ul>

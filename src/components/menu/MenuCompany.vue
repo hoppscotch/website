@@ -31,8 +31,7 @@ const { t } = useI18n()
             :to="`/company/blog/${blog.slug}`"
             class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark"
           >
-            {{ t(blog.title) }}
-            <lucide-arrow-right class="ml-2" />
+            {{ blog.title }}
           </SmartLink>
         </li>
         <li>
@@ -41,7 +40,6 @@ const { t } = useI18n()
             class="inline-flex items-center transition text-secondaryLight hover:text-secondaryDark"
           >
             {{ t("header.menu.blog.read_more") }}
-            <lucide-arrow-right class="ml-2" />
           </SmartLink>
         </li>
       </ul>

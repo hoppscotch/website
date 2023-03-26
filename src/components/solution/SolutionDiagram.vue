@@ -41,7 +41,7 @@
       <span
         class="flex px-4 py-2 border border-dividerDark rounded-xl bg-primaryLight transition"
       >
-        <lucide-git-fork class="mr-2" />
+        <icon-lucide-git-fork class="mr-2" />
         Source control
       </span>
     </div>
@@ -81,7 +81,7 @@
       <span
         class="flex px-4 py-2 border border-dividerDark rounded-xl bg-primaryLight transition"
       >
-        <lucide-cloudy class="mr-2" />
+        <icon-lucide-cloudy class="mr-2" />
         Cloud
       </span>
     </div>
@@ -92,7 +92,7 @@
       <span
         class="flex px-4 py-2 border border-dividerDark rounded-xl bg-primaryLight transition"
       >
-        <lucide-shield-check class="mr-2" />
+        <icon-lucide-shield-check class="mr-2" />
         APM
       </span>
     </div>
@@ -126,7 +126,7 @@
       <span
         class="flex px-4 py-2 border border-dividerDark rounded-xl bg-primaryLight transition"
       >
-        <lucide-git-fork class="mr-2" />
+        <icon-lucide-git-fork class="mr-2" />
         Source control
       </span>
     </div>
@@ -137,7 +137,7 @@
       <span
         class="flex px-4 py-2 border border-dividerDark rounded-xl bg-primaryLight transition"
       >
-        <lucide-webhook class="mr-2" />
+        <icon-lucide-webhook class="mr-2" />
         CI/CD
       </span>
     </div>

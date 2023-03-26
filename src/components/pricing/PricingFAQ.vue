@@ -18,7 +18,7 @@ import { faq } from "~/assets/data/pricing"
         >
           <div class="flex items-center justify-between flex-1 px-8 py-4">
             {{ item.question }} {{ item.open }}
-            <lucide-chevron-up
+            <icon-lucide-chevron-up
               class="transition transform"
               :class="{ 'rotate-180': item.open }"
             />

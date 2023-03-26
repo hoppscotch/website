@@ -49,7 +49,7 @@ const { t } = useI18n()
                 class="inline-flex items-center transition text-accent group-hover:text-accentDark"
               >
                 {{ t(item.link.title) }}
-                <lucide-arrow-right class="ml-2" />
+                <icon-lucide-arrow-right class="ml-2" />
               </div>
             </div>
           </div>

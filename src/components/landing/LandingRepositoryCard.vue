@@ -61,7 +61,7 @@ defineProps({
     <div class="flex items-center mt-4 text-secondaryLight">
       <span class="w-2 h-2 mr-2 rounded-full" :class="color"></span>
       {{ language }}
-      <lucide-star class="w-3 h-3 ml-6 mr-2" /> {{ stars }}
+      <icon-lucide-star class="w-3 h-3 ml-6 mr-2" /> {{ stars }}
     </div>
   </SmartLink>
 </template>

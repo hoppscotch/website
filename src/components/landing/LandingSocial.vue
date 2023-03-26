@@ -12,7 +12,7 @@ const { t } = useI18n()
         rel="noopener noreferrer"
       >
         <i class="text-3xl">
-          <logos-twitter
+          <icon-logos-twitter
             class="transition origin-center transform group-hover:rotate-12"
           />
         </i>
@@ -34,7 +34,7 @@ const { t } = useI18n()
         rel="noopener noreferrer"
       >
         <i class="text-3xl">
-          <logos-discord-icon
+          <icon-logos-discord-icon
             class="transition origin-center transform group-hover:rotate-12"
           />
         </i>

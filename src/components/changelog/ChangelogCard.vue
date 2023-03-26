@@ -29,7 +29,7 @@ const { t } = useI18n()
     </div>
     <div class="mt-4">
       <span class="inline-flex items-center text-secondaryLight">
-        <lucide-calendar class="mr-2 opacity-75" />
+        <icon-lucide-calendar class="mr-2 opacity-75" />
         {{ changelog.date }}
       </span>
     </div>

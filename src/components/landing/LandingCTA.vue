@@ -24,7 +24,7 @@ const { t } = useI18n()
       <div class="flex my-4 text-center space-x-2">
         <ButtonSecondary
           to="https://github.com/hoppscotch/hoppscotch"
-          label="Self-Host"
+          :label="t('action.self_host')"
           :icon="github"
           fill
           outline

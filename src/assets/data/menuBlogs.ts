@@ -1,14 +1,14 @@
 export const blogs = [
   {
-    title: "header.menu.blog.links.1.name",
-    link: "/blog/a",
+    title: "March 2023 Release",
+    link: "/blog/march-2023-release",
   },
   {
-    title: "header.menu.blog.links.2.name",
-    link: "/blog/a",
+    title: "Celebrating 50,000 GitHub Stars",
+    link: "/blog/50000-github-stars",
   },
   {
-    title: "header.menu.blog.links.3.name",
-    link: "/blog/a",
+    title: "Create Teams for Collaboration in Hoppscotch",
+    link: "/blog/create-teams-for-collaboration-in-hoppscotch",
   },
 ]

@@ -61,6 +61,7 @@
     "home": "Home",
     "learn_more": "Learn more",
     "light": "Light mode",
+    "self_host": "Self-host",
     "show_more": "Show more"
   },
   "blog": {
@@ -377,17 +378,6 @@
   "header": {
     "menu": {
       "blog": {
-        "links": {
-          "1": {
-            "name": "Why we build Hoppscotch?"
-          },
-          "2": {
-            "name": "To design and develop an interactive globe"
-          },
-          "3": {
-            "name": "We built Checkout so you don't have to"
-          }
-        },
         "read_more": "Read More",
         "title": "Recent blogs"
       },
@@ -409,20 +399,6 @@
         "title": "Company"
       },
       "guide": {
-        "links": {
-          "1": {
-            "name": "How to test REST API using Hoppscotch"
-          },
-          "2": {
-            "name": "Best practices for API Design"
-          },
-          "3": {
-            "name": "How to test WebSockets in Hoppscotch"
-          },
-          "4": {
-            "name": "Comprehensive guidelines on using Hoppscotch in 2022"
-          }
-        },
         "read_more": "Read all guides",
         "title": "Popular guides"
       },

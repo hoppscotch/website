@@ -79,12 +79,12 @@ const { t } = useI18n()
                     >{{ feature.tiers[tier.name] }}</span
                   >
                   <span v-else>
-                    <lucide-check
+                    <icon-lucide-check
                       v-if="feature.tiers[tier.name] === true"
                       class="w-4 h-4 ml-auto text-green-500"
                       aria-hidden="true"
                     />
-                    <lucide-x
+                    <icon-lucide-x
                       v-else
                       class="w-4 h-4 ml-auto"
                       aria-hidden="true"
@@ -182,12 +182,12 @@ const { t } = useI18n()
                     {{ feature.tiers[tier.name] }}
                   </span>
                   <span v-else>
-                    <lucide-check
+                    <icon-lucide-check
                       v-if="feature.tiers[tier.name] === true"
                       class="w-4 h-4 text-green-500"
                       aria-hidden="true"
                     />
-                    <lucide-x
+                    <icon-lucide-x
                       v-else
                       class="w-4 h-4 text-secondaryLight"
                       aria-hidden="true"
