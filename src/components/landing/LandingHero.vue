@@ -8,10 +8,10 @@ const { t } = useI18n()
 
 <template>
   <div class="flex flex-col px-8 py-16">
-    <div class="grainy-gradient relative z-1 flex flex-col">
+    <div class="grainy-gradient relative z-1 flex flex-col items-center">
       <LandingAnnouncement />
       <div
-        class="grainy-text w-full max-w-4xl mx-auto mt-4 mb-4 text-5xl tracking-tighter text-center text-transparent transition bg-clip-text md:text-6xl lg:text-8xl"
+        class="grainy-text max-w-4xl mt-4 mb-4 text-5xl tracking-tighter text-center text-transparent transition bg-clip-text md:text-6xl lg:text-8xl"
       >
         {{ t("home.hero.heading") }}
       </div>
@@ -124,7 +124,7 @@ const { t } = useI18n()
 }
 .grainy-text {
   mix-blend-mode: lighten;
-  background: conic-gradient(
+  background-image: conic-gradient(
       from 140deg at calc(var(--bg-1-x) * 1%) 100%,
       hsl(30deg 100% 5%),
       hsl(238deg 100% 5%),
