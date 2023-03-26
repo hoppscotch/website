@@ -462,7 +462,7 @@
   },
   "home": {
     "announcement": {
-      "long_description": "March release with self-host support",
+      "long_description": "March, 2023 release with self-host support",
       "long_link_text": "Read accouncement",
       "short_description": "Self-host support is out",
       "short_link_text": "Read"

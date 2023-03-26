@@ -9,8 +9,7 @@ const props = withDefaults(
     label?: string;
     description?: string;
     icon?: string | object;
-    svg?: string;
-    infoIcon?: string;
+    infoIcon?: string | object;
     reverse?: boolean;
     disabled?: boolean;
     tag?: string;
@@ -24,7 +23,6 @@ const props = withDefaults(
     label: "",
     description: "",
     icon: "",
-    svg: "",
     infoIcon: "",
     reverse: false,
     disabled: false,

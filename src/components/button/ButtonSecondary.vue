@@ -9,7 +9,7 @@ const props = withDefaults(
     label?: string;
     description?: string;
     icon?: string | object;
-    infoIcon?: string;
+    infoIcon?: string | object;
     reverse?: boolean;
     rounded?: boolean;
     loading?: boolean;

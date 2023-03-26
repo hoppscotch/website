@@ -8,8 +8,8 @@ const props = withDefaults(
     blank?: boolean;
     label?: string;
     description?: string;
-    icon?: string;
-    infoIcon?: string;
+    icon?: string | object;
+    infoIcon?: string | object;
     reverse?: boolean;
     rounded?: boolean;
     loading?: boolean;
