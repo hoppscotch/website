@@ -12,7 +12,7 @@ import { isDark } from "~/composables"
         >
           <SmartGradient animate :blur="64" />
           <img
-            class="object-contain object-center w-full h-full border rounded border-dividerDark transition md:rounded-lg"
+            class="object-contain object-center w-full h-full rounded transition md:rounded-lg"
             :src="`/assets/images/screenshots/${
               isDark ? 'dark' : 'light'
             }-banner.png`"
