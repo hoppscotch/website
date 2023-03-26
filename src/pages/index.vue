@@ -3,16 +3,25 @@
     <LandingHero />
     <LandingBanner />
     <LandingUsers />
-    <AreaLight style="--color: rgba(112, 0, 255, 0.25)" />
+    <AreaLight style="--color: var(--purple)" />
     <LandingFeatures />
-    <AreaLight style="--color: rgba(88, 210, 242, 0.25)" />
+    <AreaLight style="--color: var(--pink)" />
     <LandingPlatforms />
-    <AreaLight style="--color: rgba(248, 143, 233, 0.25)" />
+    <AreaLight style="--color: var(--emerald)" />
     <LandingRepositories />
-    <AreaLight style="--color: rgba(112, 0, 255, 0.25)" />
+    <AreaLight style="--color: var(--blue)" />
     <LandingTestimonials />
     <LandingSocial />
     <LandingNewsletter />
     <LandingCTA />
   </div>
 </template>
+
+<style lang="scss">
+:root {
+  --purple: theme("colors.purple.600");
+  --pink: theme("colors.pink.600");
+  --emerald: theme("colors.emerald.600");
+  --blue: theme("colors.blue.600");
+}
+</style>

@@ -9,7 +9,7 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <div
-        class="max-w-2xl text-4xl tracking-tight text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-5xl lg:text-6xl !leading-[initial]"
+        class="max-w-2xl text-4xl tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-5xl lg:text-6xl !leading-[initial]"
         :class="gradients.gray"
       >
         {{ t("home.testimonials.title") }}
@@ -30,7 +30,7 @@ const { t } = useI18n()
           :href="testimonial.link"
           target="_blank"
           rel="noopener noreferrer"
-          class="flex flex-col w-full p-8 rounded-lg border border-divider hover:border-dividerDark transition bg-primaryLigh transition group"
+          class="flex flex-col w-full p-8 bg-primary transition rounded-lg border border-divider hover:border-dividerDark transition bg-primaryLigh transition group"
         >
           <div class="flex items-center w-full mb-4">
             <img
@@ -51,7 +51,7 @@ const { t } = useI18n()
             </div>
           </div>
           <div
-            class="w-full transition text-secondary group-hover:text-secondaryDark"
+            class="w-full transition text-secondaryLight group-hover:text-secondary"
           >
             {{ testimonial.text }}
           </div>

@@ -15,7 +15,7 @@ const { t } = useI18n()
     <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
       <div class="flex flex-col">
         <div
-          class="flex mb-2 text-2xl font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-br"
+          class="flex mb-2 text-2xl font-semibold tracking-tighter text-transparent bg-clip-text bg-gradient-to-br"
           :class="gradients.gray"
         >
           {{ t("newsletter.title") }}
