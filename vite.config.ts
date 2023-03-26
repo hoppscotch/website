@@ -48,7 +48,6 @@ export default defineConfig({
         "vue-i18n",
         "@vueuse/head",
         "@vueuse/core",
-        "vitest",
       ],
       dts: "src/auto-imports.d.ts",
     }),
@@ -158,16 +157,6 @@ export default defineConfig({
   optimizeDeps: {
     include: ["vue", "vue-router", "@vueuse/core", "@vueuse/head"],
     exclude: ["vue-demi"],
-  },
-
-  // https://github.com/vitest-dev/vitest
-  test: {
-    globals: true,
-    include: ["test/**/*.test.ts"],
-    environment: "jsdom",
-    deps: {
-      inline: ["@vue", "@vueuse", "vue-demi"],
-    },
   },
 
   ssr: {
