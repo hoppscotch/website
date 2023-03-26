@@ -6,12 +6,6 @@ title: Hoppscotch - Blog | Hoppscotch Celebrating 25,000 GitHub Stars
 
 # Hoppscotch Celebrating 25,000 GitHub Stars
 
-Author: Liyas Thomas<br/>
-Date: November 10, 2020<br/>
-Tags: app<br/>
-
-<hr/>
-
 Hoppscotch just received its [25,000th star on GitHub](https://github.com/hoppscotch/hoppscotch). We'll use this milestone to recap Hoppscotch’s growth and other important milestones since its beginning as an experimental project in 2019. We've accomplished a lot of great things together.
 
 > **To those who don't know what Hoppscotch is:**
@@ -28,3 +22,9 @@ The number of stars of a GitHub project is yet another indicator because it mean
 Milestones like this are proud moments for the developers & community, help motivate more work & new developments. If you'd like to support Hoppscotch open source project, consider [sponsoring us on GitHub](https://github.com/sponsors/hoppscotch).
 
 Immense thanks to [@ben](https://dev.to/ben) and the entire Dev Team for their support from day one. To [@andrewbastin](https://dev.to/andrewbastin) for his selfless services, engineering expertise, and contributions. To each and every contributor for being a part of the project.
+
+---
+
+Author: Liyas Thomas<br/>
+Date: November 10, 2020<br/>
+Tags: app<br/>

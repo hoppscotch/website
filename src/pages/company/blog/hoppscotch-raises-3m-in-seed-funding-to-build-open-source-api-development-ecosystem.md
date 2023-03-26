@@ -6,12 +6,6 @@ title: Hoppscotch - Blog | Hoppscotch raises $3M in seed funding to build open s
 
 # Hoppscotch raises $3M in seed funding to build open source API development ecosystem
 
-Author: Liyas Thomas<br/>
-Date: December 13, 2021<br/>
-Tags: funding<br/>
-
-<hr/>
-
 At [**Hoppscotch**](https://hoppscotch.io/), our focus has been on empowering developers to focus on their work of building and testing Application Programming Interfaces (APIs). In the past year, we have come a long way and we are excited to share the latest milestones in our journey.
 
 Today, we’re announcing that **we’ve raised $3M in seed funding led by [OSS Capital](https://oss.capital/)**! Additionally, we are excited to share a slew of new product updates aimed at re-envisioning the principles and practices to continue developing the best-in-class tool for developers to create APIs.
@@ -50,3 +44,9 @@ We are grateful for all the support we have received from our customers, partner
 
 **Liyas Thomas**<br/>
 Founder & CEO, Hoppscotch
+
+---
+
+Author: Liyas Thomas<br/>
+Date: December 13, 2021<br/>
+Tags: funding<br/>

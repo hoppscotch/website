@@ -9,7 +9,7 @@ useHead({
   title: "Hoppscotch - Open source API development ecosystem",
   meta: [
     { name: "description", content: "Open source API development ecosystem" },
-    { name: "theme-color", content: isDark.value ? "#010314" : "#ffffff" },
+    { name: "theme-color", content: isDark.value ? "#0f0f0f" : "#ffffff" },
   ],
 })
 </script>

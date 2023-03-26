@@ -6,12 +6,6 @@ title: Hoppscotch - Blog | Hoppscotch is celebrating 30,000 GitHub Stars
 
 # Hoppscotch is celebrating 30,000 GitHub Stars
 
-Author: Liyas Thomas<br/>
-Date: July 22, 2021<br/>
-Tags: app, community<br/>
-
-<hr/>
-
 **[Hoppscotch](http://hoppscotch.io/) is an open-source API development ecosystem.**
 
 Since the initial commit (~2 years ago), Hoppscotch has evolved from being an open-source side project to an enterprise developer tool.
@@ -66,3 +60,9 @@ We started to work on different features among which are the capability for team
 To put it in a nutshell, we'll work on our main focus and priority: making our users happy with new features and improving Hoppscotch as much as we can do.
 
 Contact: [liyas@hoppscotch.io](mailto:liyas@hoppscotch.io)
+
+---
+
+Author: Liyas Thomas<br/>
+Date: July 22, 2021<br/>
+Tags: app, community<br/>

@@ -6,12 +6,6 @@ title: Hoppscotch - Blog | Hacktoberfest with Hoppscotch
 
 # Hacktoberfest with Hoppscotch
 
-Author: Liyas Thomas<br/>
-Date: October 14, 2020<br/>
-Tags: app, community<br/>
-
-<hr/>
-
 ### Are you looking to contribute to an open-source project in this Hacktoberfest? or want to get started with the latest technologies like VueJS & NuxtJS?
 
 We're developing Hoppscotch, an open-source API request builder for the web, and would love to count you as a contributor to improve our components & applications.
@@ -112,3 +106,9 @@ Besides unlocking some karma points, you know what would be cool with your contr
 **Support open-source and pick a limited edition T-shirt 👕 or plant a tree! 🌱**
 
 **Rules:** To qualify for the official limited edition Hacktoberfest shirt, you must [register](https://hacktoberfest.digitalocean.com/) and make four pull requests (PRs) between October 1-31 (in any time zone). PRs can be made to any public repo on GitHub, not only the ones with issues labeled Hacktoberfest. This year, the first 70,000 participants who successfully complete the challenge will earn a Hacktoberfest tee or plant a tree.
+
+---
+
+Author: Liyas Thomas<br/>
+Date: October 14, 2020<br/>
+Tags: app, community<br/>

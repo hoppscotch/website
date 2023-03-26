@@ -6,12 +6,6 @@ title: Hoppscotch - Blog | Creating Hoppscotch
 
 # Creating Hoppscotch
 
-Author: Liyas Thomas<br/>
-Date: August 22, 2019<br/>
-Tags: app, release<br/>
-
-<hr/>
-
 _In case you missed it!_
 
 **Story this far:** I joined Zartek, which is a start-up based in Kochi, Kerala where I work as a full-stack developer.
@@ -53,3 +47,9 @@ The Hoppscotch API request builder helps you create your requests faster, saving
 - ~~History~~ **UPDATE: Added History support**
 
 🎁 Bonus: Hoppscotch is in dark mode 🌚
+
+---
+
+Author: Liyas Thomas<br/>
+Date: August 22, 2019<br/>
+Tags: app, release<br/>

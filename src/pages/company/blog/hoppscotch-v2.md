@@ -6,12 +6,6 @@ title: Hoppscotch - Blog | Hoppscotch v2
 
 # Hoppscotch v2
 
-Author: Liyas Thomas<br/>
-Date: August 28, 2021<br/>
-Tags: app, release<br/>
-
-<hr/>
-
 Today we're rolling out [Hoppscotch v2 for everyone](https://hoppscotch.io/) — [GitHub](https://github.com/hoppscotch/hoppscotch).
 
 In two years, Hoppsotch has grown to:
@@ -42,3 +36,9 @@ Join our **[Discord server](https://hoppscotch.io/discord)** to stay up to dat
 Join our journey to build Hoppscotch for an API-first software era.
 
 We're hiring in the product, engineering, and design teams - [Apply now →](https://hoppscotch.io/careers).
+
+---
+
+Author: Liyas Thomas<br/>
+Date: August 28, 2021<br/>
+Tags: app, release<br/>

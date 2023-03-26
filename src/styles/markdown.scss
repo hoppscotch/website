@@ -2,8 +2,10 @@
 @import "prism-theme-vars/base.css";
 
 .prose {
-  --prism-font-family: "Input Mono", monospace;
-  @apply text-secondary #{!important};
+  --prism-font-family: "Inter", sans-serif;
+
+  @apply text-secondary;
+  @apply text-base;
 }
 
 .prose h1,
@@ -18,6 +20,16 @@
 .prose code,
 .prose ol > li::before {
   @apply text-secondaryDark;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+  @apply tracking-tighter;
+  @apply font-bold;
 }
 
 .prose > ul > li > *:last-child,
@@ -43,11 +55,15 @@
   @apply text-current;
 }
 
+.prose thead th:first-child, .prose tbody td:first-child {
+  @apply pl-2;
+}
+
 .prose table,
 .prose th,
 .prose td {
   @apply border border-dividerDark;
-  @apply py-2 px-4 #{!important};
+  @apply py-2 px-4;
   @apply border-collapse;
 }
 

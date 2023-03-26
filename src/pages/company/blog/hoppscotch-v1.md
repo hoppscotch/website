@@ -6,12 +6,6 @@ title: Hoppscotch - Blog | Hoppscotch v1
 
 # Hoppscotch v1
 
-Author: Liyas Thomas<br/>
-Date: November 5, 2019<br/>
-Tags: app, release<br/>
-
-<hr/>
-
 So, here’s how [**Hoppscotch**](https://hoppscotch.io/) happened.
 
 You know the drill. You’re developing an app for a client and you need to test every API and every APIs response in every method, on every request.
@@ -81,3 +75,9 @@ Apart from the project development, there were other goodies that happened since
 I was solving my own problem with the hope that I'll also gonna solve other people’s problems. The most important thing is that in the end, you get a lot of amazing and positive feedback, which is basically the only thing that drives you to do better and more awesome work! 🎉
 
 If you think Hoppscotch is worthy of existing as a free, fast alternative to Postman, please consider giving us a confidence boost! Star the repo on [GitHub](https://github.com/hoppscotch/hoppscotch), [Tweet](https://twitter.com/intent/tweet?url=https%3A%2F%2Fhoppscotch.io&text=%F0%9F%91%BD%20Hoppscotch%20%E2%80%A2%20API%20request%20builder%20-%20Helps%20you%20create%20your%20requests%20faster%2C%20saving%20you%20precious%20time%20on%20your%20development&original_referer=https%3A%2F%2Ftwitter.com%2Fshare%3Ftext%3D%25F0%259F%2591%25BD%2520Hoppscotch%2520%25E2%2580%25A2%2520API%2520request%2520builder%2520-%2520Helps%2520you%2520create%2520your%2520requests%2520faster%2C%2520saving%2520you%2520precious%2520time%2520on%2520your%2520development%26url%3Dhttps%3A%2F%2Fhoppscotch.io%26hashtags%3Dhoppscotch%26via%3Dliyasthomas&via=liyasthomas&hashtags=hoppscotch), share among your friends, teams, and contacts!
+
+---
+
+Author: Liyas Thomas<br/>
+Date: November 5, 2019<br/>
+Tags: app, release<br/>
