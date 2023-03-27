@@ -123,11 +123,11 @@ onMounted(() => {
             </tippy>
           </span>
           <span>
-            <SmartItem
+            <!-- <SmartItem
               rounded
               :label="t('header.menu.pricing.title')"
               to="/pricing"
-            />
+            /> -->
           </span>
         </nav>
         <div

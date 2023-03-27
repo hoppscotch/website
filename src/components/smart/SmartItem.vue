@@ -35,19 +35,19 @@ const props = withDefaults(
 )
 
 const linkMode = computed(() => {
-  if (!props.to)
+  if (!props.to) 
 return "button"
-  if (props.blank)
+  if (props.blank) 
 return "anchor"
-  if (/^\/(?!\/).*$/.test(props.to))
+  if (/^\/(?!\/).*$/.test(props.to)) 
 return "router-link"
   return "anchor"
 })
 
 const computedComponent = computed(() => {
-  if (linkMode.value === "anchor")
+  if (linkMode.value === "anchor") 
 return "a"
-  if (linkMode.value === "router-link")
+  if (linkMode.value === "router-link") 
 return "router-link"
   return "anchor"
 })
@@ -72,7 +72,10 @@ return "router-link"
     <component
       :is="icon"
       v-if="icon"
-      :class="[label ? (reverse ? 'ml-3 opacity-75' : 'mr-3 opacity-75') : '', iconStyle]"
+      :class="[
+        label ? (reverse ? 'ml-3 opacity-75' : 'mr-3 opacity-75') : '',
+        iconStyle,
+      ]"
       class="flex-shrink-0 my-0.5 inline-flex"
     />
     <div

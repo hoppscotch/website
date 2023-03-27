@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { navigation } from "~/assets/data/mobileNavigation"
-import gem from "~icons/lucide/gem"
 import github from "~icons/lucide/github"
 import arrowRight from "~icons/lucide/arrow-right"
 
@@ -32,12 +31,12 @@ const { t } = useI18n()
         </div>
       </div>
       <div class="flex flex-col px-8 py-4 transition">
-        <SmartItem
+        <!-- <SmartItem
           to="/pricing"
           :label="t('header.menu.pricing.title')"
           :icon="gem"
           class="mb-4"
-        />
+        /> -->
         <div
           class="flex justify-center p-4 rounded-lg space-x-4 transition bg-primaryDark"
         >

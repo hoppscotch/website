@@ -55,7 +55,8 @@
   @apply text-current;
 }
 
-.prose thead th:first-child, .prose tbody td:first-child {
+.prose thead th:first-child,
+.prose tbody td:first-child {
   @apply pl-2;
 }
 

@@ -13,7 +13,7 @@ export const solutions = [
     link: "/solutions/design",
     disabled: false,
     tag: "",
-    iconStyle: "text-purple-500"
+    iconStyle: "text-purple-500",
   },
   {
     name: "header.menu.solutions.links.development.name",
@@ -22,7 +22,7 @@ export const solutions = [
     link: "/solutions/development",
     disabled: false,
     tag: "",
-    iconStyle: "text-pink-500"
+    iconStyle: "text-pink-500",
   },
   {
     name: "header.menu.solutions.links.testing.name",
@@ -31,7 +31,7 @@ export const solutions = [
     link: "/solutions/testing",
     disabled: false,
     tag: "",
-    iconStyle: "text-fuchsia-500"
+    iconStyle: "text-fuchsia-500",
   },
   {
     name: "header.menu.solutions.links.documentation.name",
@@ -40,7 +40,7 @@ export const solutions = [
     link: "/solutions/documentation",
     disabled: false,
     tag: "",
-    iconStyle: "text-blue-500"
+    iconStyle: "text-blue-500",
   },
   {
     name: "header.menu.solutions.links.deployment.name",
@@ -49,7 +49,7 @@ export const solutions = [
     link: "/solutions/deployment",
     disabled: true,
     tag: "action.comming_soon",
-    iconStyle: "text-indigo-500"
+    iconStyle: "text-indigo-500",
   },
   {
     name: "header.menu.solutions.links.maintenance.name",
@@ -58,6 +58,6 @@ export const solutions = [
     link: "/solutions/maintenance",
     disabled: true,
     tag: "action.comming_soon",
-    iconStyle: "text-cyan-500"
+    iconStyle: "text-cyan-500",
   },
 ]
