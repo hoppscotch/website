@@ -11,6 +11,7 @@ export const platforms = [
     link: "/platforms/web",
     disabled: false,
     tag: "",
+    iconStyle: "text-teal-500"
   },
   {
     name: "header.menu.platform.links.cli.name",
@@ -19,6 +20,7 @@ export const platforms = [
     link: "/platforms/cli",
     disabled: false,
     tag: "",
+    iconStyle: "text-sky-500"
   },
   {
     name: "header.menu.platform.links.embeds.name",
@@ -27,6 +29,7 @@ export const platforms = [
     link: "/platforms/embeds",
     disabled: true,
     tag: "action.comming_soon",
+    iconStyle: "text-violet-500"
   },
   {
     name: "header.menu.platform.links.native.name",
@@ -35,5 +38,6 @@ export const platforms = [
     link: "/platforms/native",
     disabled: true,
     tag: "action.comming_soon",
+    iconStyle: "text-fuchsia-500"
   },
 ]

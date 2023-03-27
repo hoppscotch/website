@@ -10,6 +10,7 @@ const props = withDefaults(
     description?: string
     icon?: string | object
     infoIcon?: string | object
+    iconStyle?: string
     reverse?: boolean
     disabled?: boolean
     tag?: string
@@ -24,6 +25,7 @@ const props = withDefaults(
     description: "",
     icon: "",
     infoIcon: "",
+    iconStyle: "",
     reverse: false,
     disabled: false,
     tag: "",
@@ -33,19 +35,19 @@ const props = withDefaults(
 )
 
 const linkMode = computed(() => {
-  if (!props.to) 
+  if (!props.to)
 return "button"
-  if (props.blank) 
+  if (props.blank)
 return "anchor"
-  if (/^\/(?!\/).*$/.test(props.to)) 
+  if (/^\/(?!\/).*$/.test(props.to))
 return "router-link"
   return "anchor"
 })
 
 const computedComponent = computed(() => {
-  if (linkMode.value === "anchor") 
+  if (linkMode.value === "anchor")
 return "a"
-  if (linkMode.value === "router-link") 
+  if (linkMode.value === "router-link")
 return "router-link"
   return "anchor"
 })
@@ -70,7 +72,7 @@ return "router-link"
     <component
       :is="icon"
       v-if="icon"
-      :class="label ? (reverse ? 'ml-3 opacity-75' : 'mr-3 opacity-75') : ''"
+      :class="[label ? (reverse ? 'ml-3 opacity-75' : 'mr-3 opacity-75') : '', iconStyle]"
       class="flex-shrink-0 my-0.5 inline-flex"
     />
     <div

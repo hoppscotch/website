@@ -239,10 +239,6 @@ a {
   margin-left: calc(-50vw + 50%);
 }
 
-.router-link-exact-active {
-  @apply bg-primaryLight;
-}
-
 .animated-border::before {
   left: -1024%;
   right: -1024%;

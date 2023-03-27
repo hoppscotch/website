@@ -7,7 +7,7 @@ const { t } = useI18n()
 
 <template>
   <div>
-    <div class="grid grid-cols-2">
+    <div class="max-w-sm grid grid-cols-2">
       <SmartItem
         v-for="(item, itemIndex) in company"
         :key="`item-${itemIndex}`"
@@ -16,7 +16,7 @@ const { t } = useI18n()
         :label="t(item.name)"
       />
     </div>
-    <div class="flex flex-col p-4 mt-2 rounded-lg bg-primaryDark">
+    <div class="max-w-sm flex flex-col p-4 mt-2 rounded-lg bg-primaryDark">
       <div class="flex items-center mb-2">
         <div class="font-semibold text-secondaryDark">
           {{ t("header.menu.blog.title") }}
@@ -24,7 +24,7 @@ const { t } = useI18n()
       </div>
       <ul class="flex flex-col space-y-2">
         <li
-          v-for="(blog, blogIndex) in blogs.slice(0, 2)"
+          v-for="(blog, blogIndex) in blogs.slice(0, 3)"
           :key="`blog-${blogIndex}`"
         >
           <SmartLink

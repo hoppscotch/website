@@ -405,20 +405,20 @@
       "platform": {
         "links": {
           "cli": {
-            "description": "Neque porro quisquam est qui dolorem ipsum",
-            "name": "CLI"
+            "name": "CLI",
+            "description": "Test, monitor, and debug APIs from the command line"
           },
           "embeds": {
-            "description": "Neque porro quisquam est qui dolorem ipsum",
-            "name": "Embeds"
+            "name": "Embeds",
+            "description": "Embed Hoppscotch in your website or app"
           },
           "native": {
-            "description": "Neque porro quisquam est qui dolorem ipsum",
-            "name": "Native"
+            "name": "Native",
+            "description": "End-to-end API development environment for macOS, Windows, and Linux"
           },
           "web": {
-            "description": "Neque porro quisquam est qui dolorem ipsum",
-            "name": "Web"
+            "name": "Web",
+            "description": "End-to-end API development environment for web browsers"
           }
         },
         "title": "Platform"
@@ -431,28 +431,28 @@
         "guides": "Guides",
         "links": {
           "deployment": {
-            "description": "Neque porro quisquam est qui dolorem ipsum",
-            "name": "Deployment"
+            "name": "Deployment",
+            "description": "Deploy with confidence, every time"
           },
           "design": {
-            "description": "Neque porro quisquam est qui dolorem ipsum",
-            "name": "Design"
+            "name": "Design",
+            "description": "Mock, design, and prototype APIs"
           },
           "development": {
-            "description": "Neque porro quisquam est qui dolorem ipsum",
-            "name": "Development"
+            "name": "Development",
+            "description": "Test, debug, and iterate faster"
           },
           "documentation": {
-            "description": "Neque porro quisquam est qui dolorem ipsum",
-            "name": "Documentation"
+            "name": "Documentation",
+            "description": "Build and share beautiful API docs"
           },
           "maintenance": {
-            "description": "Neque porro quisquam est qui dolorem ipsum",
-            "name": "Maintenance"
+            "name": "Maintenance",
+            "description": "Monitor, maintain, and scale APIs"
           },
           "testing": {
-            "description": "Neque porro quisquam est qui dolorem ipsum",
-            "name": "Testing"
+            "name": "Testing",
+            "description": "CI/CD, testing, and monitoring"
           }
         },
         "support": "Support",

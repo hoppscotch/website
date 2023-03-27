@@ -19,6 +19,7 @@ const { t } = useI18n()
         :description="t(item.description)"
         :disabled="item.disabled"
         :tag="item.tag ? t(item.tag) : ''"
+        :icon-style="item.iconStyle"
       />
     </div>
     <div class="mt-2 rounded-lg bg-primaryDark">

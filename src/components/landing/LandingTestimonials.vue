@@ -36,7 +36,7 @@ const { t } = useI18n()
             <img
               :src="testimonial.picture"
               :alt="testimonial.username"
-              class="flex flex-shrink-0 w-10 h-10 rounded-full shadow-inner transition bg-primaryDark"
+              class="flex flex-shrink-0 w-8 h-8 rounded-full shadow-inner transition bg-primaryDark"
             />
             <div class="flex-grow pl-4">
               <div class="flex items-center justify-between">
