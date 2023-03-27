@@ -12,10 +12,16 @@ const { t } = useI18n()
       method="POST"
       action="/company/careers/success"
       netlify
+      netlify-honeypot="bot-field"
       data-netlify="true"
       class="flex flex-col space-y-6"
       name="Careers"
     >
+      <p class="hidden">
+        <label>
+          Don’t fill this out if you’re human: <input name="bot-field" />
+        </label>
+      </p>
       <input type="hidden" name="form-name" value="Careers" />
       <input
         id="role"
@@ -121,7 +127,7 @@ const { t } = useI18n()
 .form-input {
   @apply mt-2;
   @apply transition;
-  @apply rounded-lg;
+  @apply rounded;
   @apply text-secondary;
   @apply bg-primaryLight;
   @apply py-2;
@@ -130,7 +136,7 @@ const { t } = useI18n()
   @apply outline-none;
   @apply hover:text-secondaryDark;
   @apply hover:bg-primaryDark;
-  @apply focus-visible:outline-accent;
+  @apply focus-visible:outline-current;
 }
 
 .form-button {

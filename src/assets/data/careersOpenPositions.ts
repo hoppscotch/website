@@ -1,12 +1,7 @@
-import settings from "~icons/lucide/settings"
-import palette from "~icons/lucide/palette"
-import briefcase from "~icons/lucide/briefcase"
-
 export const openPositions = [
   {
     heading: {
       title: "careers.openPositions.engineering.heading",
-      icon: settings,
     },
     positions: [
       {
@@ -34,7 +29,6 @@ export const openPositions = [
   {
     heading: {
       title: "careers.openPositions.design.heading",
-      icon: palette,
     },
     positions: [
       {
@@ -47,7 +41,6 @@ export const openPositions = [
   {
     heading: {
       title: "careers.openPositions.product.heading",
-      icon: briefcase,
     },
     positions: [
       {

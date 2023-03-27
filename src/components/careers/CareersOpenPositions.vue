@@ -28,17 +28,14 @@ const { t } = useI18n()
         class="py-10"
       >
         <div class="flex items-center text-2xl font-bold gap-3">
-          <i class="text-xl text-secondaryDark">
-            <component :is="position.heading.icon" />
-          </i>
           {{ t(position.heading.title) }}
         </div>
-        <div class="mt-8 grid grid-cols-2 gap-8">
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           <SmartLink
             v-for="(opening, openingIndex) in position.positions"
             :key="`opening-${openingIndex}`"
             :to="`/company/careers/${opening.link}`"
-            class="flex flex-col p-8 border rounded-lg bg-primaryLight hover:bg-primaryDark border-dividerLight"
+            class="flex flex-col p-4 border rounded-lg bg-primaryLight hover:bg-primaryDark border-divider"
           >
             <span class="text-lg font-semibold">
               {{ t(opening.title) }}
@@ -50,8 +47,5 @@ const { t } = useI18n()
         </div>
       </div>
     </div>
-    <!-- <div class="relative py-8">
-      <iframe src="https://careers.hoppscotch.io/?role=Front-end%20Engineer" frameborder="0" sandbox="allow-scripts allow-popups allow-top-navigation-by-user-activation allow-forms allow-same-origin" class="w-full text-secondary min-h-100vh" />
-    </div> -->
   </div>
 </template>
