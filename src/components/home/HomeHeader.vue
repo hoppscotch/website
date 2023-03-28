@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import x from "~icons/lucide/x"
-import menu from "~icons/lucide/menu"
 import github from "~icons/lucide/github"
 import arrowRight from "~icons/lucide/arrow-right"
 
@@ -56,7 +54,7 @@ onMounted(() => {
             />
           </SmartLink>
         </div>
-        <nav
+        <!-- <nav
           class="hidden p-1 border rounded-full shadow-lg transition shadow-zinc-800/5 md:flex border-dividerDark bg-primary"
         >
           <span>
@@ -123,15 +121,15 @@ onMounted(() => {
             </tippy>
           </span>
           <span>
-            <!-- <SmartItem
+            <SmartItem
               rounded
               :label="t('header.menu.pricing.title')"
               to="/pricing"
-            /> -->
+            />
           </span>
-        </nav>
+        </nav> -->
         <div
-          class="items-center justify-end hidden space-x-2 md:flex md:flex-1 lg:w-0"
+          class="items-center justify-end space-x-2 flex md:flex-1 lg:w-0"
         >
           <ButtonSecondary
             to="https://github.com/hoppscotch/hoppscotch"
@@ -150,16 +148,16 @@ onMounted(() => {
             reverse
           />
         </div>
-        <div class="md:hidden">
+        <!-- <div class="md:hidden">
           <ButtonSecondary
             :icon="showMenu ? x : menu"
             outline
             fill
             @click="showMenu = !showMenu"
           />
-        </div>
+        </div> -->
       </div>
     </div>
-    <MenuMobile v-if="showMenu" />
+    <!-- <MenuMobile v-if="showMenu" /> -->
   </header>
 </template>
