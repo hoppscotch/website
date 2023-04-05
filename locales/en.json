@@ -1,997 +1,997 @@
 {
-  "about": {
-    "hero": {
-      "heading": "We're on a mission to make API development easier",
-      "subheading": "Hoppscotch is a tool that helps you create, test, and document APIs."
-    },
-    "stats": {
-      "1": {
-        "description": "GitHub Stars",
-        "title": "50K+"
-      },
-      "2": {
-        "description": "Users",
-        "title": "1.6M+"
-      },
-      "3": {
-        "description": "Monthly requests",
-        "title": "1M+"
-      },
-      "4": {
-        "description": "Monthly users",
-        "title": "100k+"
-      }
-    },
-    "values": {
-      "description": "These values are more than just aspirational jargon that we come up with to check a box. They are the foundational framing we use when assessing potential partners to join our team.",
-      "items": {
-        "build": {
-          "description": "We are building a company that will last. We are building a product that will last. We are building a team that will last. We are building a culture that will last. We are building a community that will last.",
-          "title": "Build for the long term"
+    "about": {
+        "hero": {
+            "heading": "We're on a mission to make API development easier",
+            "subheading": "Hoppscotch is a tool that helps you create, test, and document APIs."
         },
-        "dream": {
-          "description": "Our promise to each other is to lead with originality and creativity. We approach each problem and opportunity with fearless energy and passion. You will never do boring work at Hoppscotch because “great” is never good enough.",
-          "title": "Dream big"
+        "stats": {
+            "1": {
+                "description": "GitHub Stars",
+                "title": "50K+"
+            },
+            "2": {
+                "description": "Users",
+                "title": "1.6M+"
+            },
+            "3": {
+                "description": "Monthly requests",
+                "title": "1M+"
+            },
+            "4": {
+                "description": "Monthly users",
+                "title": "100k+"
+            }
         },
-        "empathy": {
-          "description": "From users to partners to colleagues - we default to respect. We ask thoughtful questions and make time to talk. We offer a hand or two. Above all, we know that we only succeed when our users succeed.",
-          "title": "Empathy, always"
-        },
-        "grow": {
-          "description": "Through a culture of learning and non-complacency, we are always improving. We seek out the hardest problems that have the most impact. We inspire each other. The power of a growth mindset enables us to accomplish amazing things.",
-          "title": "Grit to grow"
-        },
-        "ownership": {
-          "description": "With a bias for action, we take pride in our work and our results. We’re accountable to one another. We cultivate trust with our users. We communicate with transparency and above all, we operate with integrity.",
-          "title": "Ownership mindset"
-        },
-        "velocity": {
-          "description": "We believe quality and speed are not binary choices. We ship work early, welcome feedback, fail fast, and iterate. We learn from the best to hone our crafts and draw inspiration from unlikely places.",
-          "title": "High velocity"
+        "values": {
+            "description": "These values are more than just aspirational jargon that we come up with to check a box. They are the foundational framing we use when assessing potential partners to join our team.",
+            "items": {
+                "build": {
+                    "description": "We are building a company that will last. We are building a product that will last. We are building a team that will last. We are building a culture that will last. We are building a community that will last.",
+                    "title": "Build for the long term"
+                },
+                "dream": {
+                    "description": "Our promise to each other is to lead with originality and creativity. We approach each problem and opportunity with fearless energy and passion. You will never do boring work at Hoppscotch because “great” is never good enough.",
+                    "title": "Dream big"
+                },
+                "empathy": {
+                    "description": "From users to partners to colleagues - we default to respect. We ask thoughtful questions and make time to talk. We offer a hand or two. Above all, we know that we only succeed when our users succeed.",
+                    "title": "Empathy, always"
+                },
+                "grow": {
+                    "description": "Through a culture of learning and non-complacency, we are always improving. We seek out the hardest problems that have the most impact. We inspire each other. The power of a growth mindset enables us to accomplish amazing things.",
+                    "title": "Grit to grow"
+                },
+                "ownership": {
+                    "description": "With a bias for action, we take pride in our work and our results. We’re accountable to one another. We cultivate trust with our users. We communicate with transparency and above all, we operate with integrity.",
+                    "title": "Ownership mindset"
+                },
+                "velocity": {
+                    "description": "We believe quality and speed are not binary choices. We ship work early, welcome feedback, fail fast, and iterate. We learn from the best to hone our crafts and draw inspiration from unlikely places.",
+                    "title": "High velocity"
+                }
+            },
+            "title": "Our core values"
         }
-      },
-      "title": "Our core values"
-    }
-  },
-  "action": {
-    "back": "Back",
-    "comming_soon": "COMMING SOON",
-    "dark": "Dark mode",
-    "get_started": "Get started",
-    "home": "Home",
-    "learn_more": "Learn more",
-    "light": "Light mode",
-    "self_host": "Self-host",
-    "show_more": "Show more"
-  },
-  "blog": {
-    "hero": {
-      "heading": "Blog",
-      "subheading": "Updates about Hoppscotch and the stuffs we’re working on."
-    }
-  },
-  "careers": {
-    "benefits": {
-      "heading": "Benefits & balance",
-      "items": {
-        "1": {
-          "description": "Our entire company is distributed, so we take remote work seriously. If you’d rather not work from home, we will cover the cost of a co-working or office space.",
-          "title": "Remote"
-        },
-        "2": {
-          "description": "We're an asynchronous remote team working in different time zones, from GMT-4 to GMT+5:30. Choose the hours and days that work best for you.",
-          "title": "Flexible days and hours"
-        },
-        "3": {
-          "description": "Employees receive generous medical, dental, vision, and life insurance. Full-time contractors will have the cost of healthcare factored into their salary. Our recruiting team can help confirm which applies to you.",
-          "title": "Healthcare"
-        },
-        "4": {
-          "description": "We would love to give an annual sponsorship to any open source project of your choice.",
-          "title": "Open source sponsorship"
-        },
-        "5": {
-          "description": "Hoppscotch provides $3,000 for employees to attend conferences, take classes, buy books, or otherwise further their education.",
-          "title": "Learning"
-        },
-        "6": {
-          "description": "We typically meet up a couple of times a year in person for work and fun! What will be our next location? NYC, London, LA, or Barcelona? Help us decide!",
-          "title": "Gatherings"
-        },
-        "7": {
-          "description": "Hoppscotch will let you choose a new laptop of your choice and will reimburse you for any other accessories you need to do your best work.",
-          "title": "Top-notch equipments"
-        },
-        "8": {
-          "description": "At Hoppscotch, we really love swags. Every team member gets unlimited credits to grab any official Hoppscotch swags that she or he wishes.",
-          "title": "Unlimited swags"
-        },
-        "9": {
-          "description": "Get generous stock options for a company that is growing blazing fast and is backed by top VCs and angels.",
-          "title": "Stock options"
+    },
+    "action": {
+        "back": "Back",
+        "comming_soon": "COMMING SOON",
+        "dark": "Dark mode",
+        "get_started": "Get started",
+        "home": "Home",
+        "learn_more": "Learn more",
+        "light": "Light mode",
+        "self_host": "Self-host",
+        "show_more": "Show more"
+    },
+    "blog": {
+        "hero": {
+            "heading": "Blog",
+            "subheading": "Updates about Hoppscotch and the stuffs we’re working on."
         }
-      },
-      "subheading": "We're committed to providing a safe, stable, and rewarding environment for our team members."
     },
-    "form": {
-      "email": {
-        "label": "Email",
-        "placeholder": "Your email"
-      },
-      "github": {
-        "label": "GitHub profile",
-        "placeholder": "Your GitHub profile"
-      },
-      "heading": "Apply",
-      "linkedin": {
-        "label": "LinkedIn profile",
-        "placeholder": "Your LinkedIn profile"
-      },
-      "message": {
-        "label": "What is most important to you in your next role?",
-        "placeholder": "Type here"
-      },
-      "name": {
-        "label": "Name",
-        "placeholder": "Your name"
-      },
-      "resume": {
-        "label": "Resume"
-      },
-      "submit": "Submit Application",
-      "success_message": "Application has been submitted",
-      "success_message_subheading": "We'll reach out to you in 3-5 days if we decide to proceed with your application."
-    },
-    "hero": {
-      "heading": "Join Hoppscotch",
-      "open_position_btn": "See Open Positions",
-      "subheading": "We’re on a mission to empower developers to focus on their work of creating software, and we’d like your help to get there."
-    },
-    "hiringProcess": {
-      "heading": "Interview process",
-      "process": {
-        "1": {
-          "tips": {
-            "1": "Apply to your preferred role.",
-            "2": "We will reach out to you in 3-5 days."
-          },
-          "title": "Apply"
+    "careers": {
+        "benefits": {
+            "heading": "Benefits & balance",
+            "items": {
+                "1": {
+                    "description": "Our entire company is distributed, so we take remote work seriously. If you’d rather not work from home, we will cover the cost of a co-working or office space.",
+                    "title": "Remote"
+                },
+                "2": {
+                    "description": "We're an asynchronous remote team working in different time zones, from GMT-4 to GMT+5:30. Choose the hours and days that work best for you.",
+                    "title": "Flexible days and hours"
+                },
+                "3": {
+                    "description": "Employees receive generous medical, dental, vision, and life insurance. Full-time contractors will have the cost of healthcare factored into their salary. Our recruiting team can help confirm which applies to you.",
+                    "title": "Healthcare"
+                },
+                "4": {
+                    "description": "We would love to give an annual sponsorship to any open source project of your choice.",
+                    "title": "Open source sponsorship"
+                },
+                "5": {
+                    "description": "Hoppscotch provides $3,000 for employees to attend conferences, take classes, buy books, or otherwise further their education.",
+                    "title": "Learning"
+                },
+                "6": {
+                    "description": "We typically meet up a couple of times a year in person for work and fun! What will be our next location? NYC, London, LA, or Barcelona? Help us decide!",
+                    "title": "Gatherings"
+                },
+                "7": {
+                    "description": "Hoppscotch will let you choose a new laptop of your choice and will reimburse you for any other accessories you need to do your best work.",
+                    "title": "Top-notch equipments"
+                },
+                "8": {
+                    "description": "At Hoppscotch, we really love swags. Every team member gets unlimited credits to grab any official Hoppscotch swags that she or he wishes.",
+                    "title": "Unlimited swags"
+                },
+                "9": {
+                    "description": "Get generous stock options for a company that is growing blazing fast and is backed by top VCs and angels.",
+                    "title": "Stock options"
+                }
+            },
+            "subheading": "We're committed to providing a safe, stable, and rewarding environment for our team members."
         },
-        "2": {
-          "tips": {
-            "1": "We answer any questions you have.",
-            "2": "We talk about specific compensation and the role.",
-            "3": "We'll arrange a 60-min call with our tech team."
-          },
-          "title": "A 15-min phone call"
+        "form": {
+            "email": {
+                "label": "Email",
+                "placeholder": "Your email"
+            },
+            "github": {
+                "label": "GitHub profile",
+                "placeholder": "Your GitHub profile"
+            },
+            "heading": "Apply",
+            "linkedin": {
+                "label": "LinkedIn profile",
+                "placeholder": "Your LinkedIn profile"
+            },
+            "message": {
+                "label": "What is most important to you in your next role?",
+                "placeholder": "Type here"
+            },
+            "name": {
+                "label": "Name",
+                "placeholder": "Your name"
+            },
+            "resume": {
+                "label": "Resume"
+            },
+            "submit": "Submit Application",
+            "success_message": "Application has been submitted",
+            "success_message_subheading": "We'll reach out to you in 3-5 days if we decide to proceed with your application."
         },
-        "3": {
-          "tips": {
-            "1": "You join our CTO / tech team members for a 60 min technical interview.",
-            "2": "There are no DSA questions.",
-            "3": "You get invited to all our internal stuff right about here."
-          },
-          "title": "A 60-min phone call with CTO / tech team"
+        "hero": {
+            "heading": "Join Hoppscotch",
+            "open_position_btn": "See Open Positions",
+            "subheading": "We’re on a mission to empower developers to focus on their work of creating software, and we’d like your help to get there."
         },
-        "4": {
-          "tips": {
-            "1": "You join our CEO for a 60 min casual interview.",
-            "2": "We talk about the work culture, tools, and vision of Hoppscotch.",
-            "3": "After the call, you'll receive an email in 2 days."
-          },
-          "title": "A 60-min phone call with CEO"
+        "hiringProcess": {
+            "heading": "Interview process",
+            "process": {
+                "1": {
+                    "tips": {
+                        "1": "Apply to your preferred role.",
+                        "2": "We will reach out to you in 3-5 days."
+                    },
+                    "title": "Apply"
+                },
+                "2": {
+                    "tips": {
+                        "1": "We answer any questions you have.",
+                        "2": "We talk about specific compensation and the role.",
+                        "3": "We'll arrange a 60-min call with our tech team."
+                    },
+                    "title": "A 15-min phone call"
+                },
+                "3": {
+                    "tips": {
+                        "1": "You join our CTO / tech team members for a 60 min technical interview.",
+                        "2": "There are no DSA questions.",
+                        "3": "You get invited to all our internal stuff right about here."
+                    },
+                    "title": "A 60-min phone call with CTO / tech team"
+                },
+                "4": {
+                    "tips": {
+                        "1": "You join our CEO for a 60 min casual interview.",
+                        "2": "We talk about the work culture, tools, and vision of Hoppscotch.",
+                        "3": "After the call, you'll receive an email in 2 days."
+                    },
+                    "title": "A 60-min phone call with CEO"
+                }
+            },
+            "subheading": "A few tips to help you get the most out of your interview with us."
+        },
+        "howWeWork": {
+            "items": {
+                "1": {
+                    "description": "We’re building a company where team members set their own quality bar, take pride in their workmanship, and are trusted to do their life's best work without supervision.",
+                    "title": "We trust in autonomy"
+                },
+                "2": {
+                    "description": "We believe that shipping software is a positive-sum endeavor — there are no winners and losers at Hoppscotch. No bureaucracy and paper pushing. No interpersonal scorecards. We play together as a team, and we win as a team. We're working really hard to keep it that way.",
+                    "title": "We see work as positive-sum"
+                },
+                "3": {
+                    "description": "We have a longer weekly meeting on Monday where we catch up on each other weekends and discuss goals for the week and then shorter stand-ups on Wednesday and Friday morning.",
+                    "title": "We don't rely too much on meetings"
+                },
+                "4": {
+                    "description": "Building a meaningful company that has a massive impact takes time. We plan to run to the last mile and do it with great care for health and wellbeing. As important as work is to us, it isn't everything.",
+                    "title": "We believe this is a marathon, not a sprint"
+                },
+                "5": {
+                    "description": "We move fast, operating mostly on Zoom and Slack. When we want company, we casually hang out and work together in Discord. We use email and Notion for long-form writing, which we encourage when communicating more complex subjects. We rely on Figma for design and prototyping ideas.",
+                    "title": "Modern tooling"
+                },
+                "6": {
+                    "description": "It's easy to say these words, and it's hard to live by them. We make it a real point to try.",
+                    "title": "We do our best to live by these values"
+                }
+            }
+        },
+        "openPositions": {
+            "design": {
+                "heading": "Design",
+                "items": {
+                    "1": {
+                        "description": "Help us create outstanding user interfaces for our users",
+                        "title": "User Interface and Experience Designer"
+                    }
+                }
+            },
+            "engineering": {
+                "heading": "Engineering",
+                "items": {
+                    "1": {
+                        "description": "As a full-stack engineer, you should be an expert in software coding languages, tools, frameworks, and platforms to create high-level designs.",
+                        "title": "Full-stack Engineer"
+                    },
+                    "2": {
+                        "description": "You will be responsible for maintaining and managing the back-end infrastructure of our software applications.",
+                        "title": "Back-end Engineer"
+                    },
+                    "3": {
+                        "description": "You will be responsible for building a highly performant and minimal UI.",
+                        "title": "Front-end Engineer"
+                    },
+                    "4": {
+                        "description": "As a DevOps engineer, you will be responsible for making the lives of our development team easier",
+                        "title": "DevOps Engineer"
+                    }
+                }
+            },
+            "heading": "Open Positions",
+            "product": {
+                "heading": "Product",
+                "items": {
+                    "1": {
+                        "description": "Help us to develop product strategies through market research and identify specifications.",
+                        "title": "Product Manager"
+                    },
+                    "2": {
+                        "description": "Help us reach out to our users and educate the community.",
+                        "title": "Developer Relations Manager"
+                    }
+                }
+            },
+            "subheading": "We're always looking for new developers to join our team."
         }
-      },
-      "subheading": "A few tips to help you get the most out of your interview with us."
     },
-    "howWeWork": {
-      "items": {
-        "1": {
-          "description": "We’re building a company where team members set their own quality bar, take pride in their workmanship, and are trusted to do their life's best work without supervision.",
-          "title": "We trust in autonomy"
+    "changelog": {
+        "hero": {
+            "heading": "Changelog",
+            "subheading": "New updates and improvements to Hoppscotch."
         },
-        "2": {
-          "description": "We believe that shipping software is a positive-sum endeavor — there are no winners and losers at Hoppscotch. No bureaucracy and paper pushing. No interpersonal scorecards. We play together as a team, and we win as a team. We're working really hard to keep it that way.",
-          "title": "We see work as positive-sum"
-        },
-        "3": {
-          "description": "We have a longer weekly meeting on Monday where we catch up on each other weekends and discuss goals for the week and then shorter stand-ups on Wednesday and Friday morning.",
-          "title": "We don't rely too much on meetings"
-        },
-        "4": {
-          "description": "Building a meaningful company that has a massive impact takes time. We plan to run to the last mile and do it with great care for health and wellbeing. As important as work is to us, it isn't everything.",
-          "title": "We believe this is a marathon, not a sprint"
-        },
-        "5": {
-          "description": "We move fast, operating mostly on Zoom and Slack. When we want company, we casually hang out and work together in Discord. We use email and Notion for long-form writing, which we encourage when communicating more complex subjects. We rely on Figma for design and prototyping ideas.",
-          "title": "Modern tooling"
-        },
-        "6": {
-          "description": "It's easy to say these words, and it's hard to live by them. We make it a real point to try.",
-          "title": "We do our best to live by these values"
-        }
-      }
-    },
-    "openPositions": {
-      "design": {
-        "heading": "Design",
         "items": {
-          "1": {
-            "description": "Help us create outstanding user interfaces for our users",
-            "title": "User Interface and Experience Designer"
-          }
+            "improved_curl": {
+                "description": "Code editors now occupy full height of the section, and cURL importer now has a paste from clipboard button.",
+                "title": "Improved code editors and cURL importer"
+            },
+            "improved_env": {
+                "description": "Environment variables now respect mixed strings in endpoints and are more intuitive.",
+                "title": "Improved environment variables in request section"
+            },
+            "new_importer": {
+                "description": "Collection importer now supports importing from Postman and Insomnia collections.",
+                "title": "Added support to Postman and Insomnia collections"
+            },
+            "openapi_support": {
+                "description": "Hoppscotch now supports OpenAPI specifications.",
+                "title": "Added support for OpenAPI"
+            },
+            "single_collection": {
+                "description": "Users can now export and import single collection from collection's menu.",
+                "title": "Import and export single collection"
+            },
+            "snappy_teams": {
+                "description": "Teams and collections are now faster and more intuitive.",
+                "title": "Snappy teams and collections"
+            },
+            "updated_hungarian_translations": {
+                "description": "Translations are now updated to match the latest strings.",
+                "title": "Updated Hungarian translations"
+            },
+            "urlencoded": {
+                "description": "Adding URL encoded body type now support key-value pairs and raw YAML editor.",
+                "title": "Better URL encoded body type"
+            }
         }
-      },
-      "engineering": {
-        "heading": "Engineering",
-        "items": {
-          "1": {
-            "description": "As a full-stack engineer, you should be an expert in software coding languages, tools, frameworks, and platforms to create high-level designs.",
-            "title": "Full-stack Engineer"
-          },
-          "2": {
-            "description": "You will be responsible for maintaining and managing the back-end infrastructure of our software applications.",
-            "title": "Back-end Engineer"
-          },
-          "3": {
-            "description": "You will be responsible for building a highly performant and minimal UI.",
-            "title": "Front-end Engineer"
-          },
-          "4": {
-            "description": "As a DevOps engineer, you will be responsible for making the lives of our development team easier",
-            "title": "DevOps Engineer"
-          }
-        }
-      },
-      "heading": "Open Positions",
-      "product": {
-        "heading": "Product",
-        "items": {
-          "1": {
-            "description": "Help us to develop product strategies through market research and identify specifications.",
-            "title": "Product Manager"
-          },
-          "2": {
-            "description": "Help us reach out to our users and educate the community.",
-            "title": "Developer Relations Manager"
-          }
-        }
-      },
-      "subheading": "We're always looking for new developers to join our team."
-    }
-  },
-  "changelog": {
-    "hero": {
-      "heading": "Changelog",
-      "subheading": "New updates and improvements to Hoppscotch."
     },
-    "items": {
-      "improved_curl": {
-        "description": "Code editors now occupy full height of the section, and cURL importer now has a paste from clipboard button.",
-        "title": "Improved code editors and cURL importer"
-      },
-      "improved_env": {
-        "description": "Environment variables now respect mixed strings in endpoints and are more intuitive.",
-        "title": "Improved environment variables in request section"
-      },
-      "new_importer": {
-        "description": "Collection importer now supports importing from Postman and Insomnia collections.",
-        "title": "Added support to Postman and Insomnia collections"
-      },
-      "openapi_support": {
-        "description": "Hoppscotch now supports OpenAPI specifications.",
-        "title": "Added support for OpenAPI"
-      },
-      "single_collection": {
-        "description": "Users can now export and import single collection from collection's menu.",
-        "title": "Import and export single collection"
-      },
-      "snappy_teams": {
-        "description": "Teams and collections are now faster and more intuitive.",
-        "title": "Snappy teams and collections"
-      },
-      "updated_hungarian_translations": {
-        "description": "Translations are now updated to match the latest strings.",
-        "title": "Updated Hungarian translations"
-      },
-      "urlencoded": {
-        "description": "Adding URL encoded body type now support key-value pairs and raw YAML editor.",
-        "title": "Better URL encoded body type"
-      }
-    }
-  },
-  "company": {
-    "hero": {
-      "heading": "Company",
-      "subheading": "Some two line para about company where Hoppscotch are available."
-    },
-    "items": {
-      "about": {
-        "description": "Some two line para about company where Hoppscotch are available.",
-        "title": "About"
-      },
-      "blog": {
-        "description": "Some two line para about company where Hoppscotch are available.",
-        "title": "Blog"
-      },
-      "careers": {
-        "description": "Some two line para about company where Hoppscotch are available.",
-        "title": "Careers"
-      },
-      "support": {
-        "description": "Some two line para about company where Hoppscotch are available.",
-        "title": "Support"
-      }
-    }
-  },
-  "error": {
-    "404": "Page not found",
-    "404_description": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
-  },
-  "footer": {
     "company": {
-      "links": {
-        "about": "About",
-        "blog": "Blog",
-        "careers": "Careers",
-        "support": "Support"
-      },
-      "title": "Company"
-    },
-    "platform": {
-      "links": {
-        "cli": "CLI",
-        "embeds": "Embeds",
-        "native": "Native",
-        "web": "Web"
-      },
-      "title": "Platform"
-    },
-    "product": {
-      "links": {
-        "changelog": "Changelog",
-        "github": "GitHub",
-        "privacy": "Privacy",
-        "terms": "Terms"
-      },
-      "title": "Product"
-    },
-    "protocols": {
-      "links": {
-        "graphql": "GraphQL",
-        "grpc": "gRPC",
-        "realtime": "Realtime",
-        "rest": "Rest"
-      },
-      "title": "Protocols"
-    },
-    "solutions": {
-      "links": {
-        "design": "Design",
-        "development": "Development",
-        "documentation": "Documentation",
-        "testing": "Testing"
-      },
-      "title": "Solutions"
-    }
-  },
-  "header": {
-    "menu": {
-      "blog": {
-        "read_more": "Read More",
-        "title": "Recent blogs"
-      },
-      "company": {
-        "links": {
-          "1": {
-            "name": "About"
-          },
-          "2": {
-            "name": "Careers"
-          },
-          "3": {
-            "name": "Blog"
-          },
-          "4": {
-            "name": "Support"
-          }
+        "hero": {
+            "heading": "Company",
+            "subheading": "Some two line para about company where Hoppscotch are available."
         },
-        "title": "Company"
-      },
-      "guide": {
-        "read_more": "Read all guides",
-        "title": "Popular guides"
-      },
-      "platform": {
-        "links": {
-          "cli": {
-            "name": "CLI",
-            "description": "Test, monitor, and debug APIs from the command line"
-          },
-          "embeds": {
-            "name": "Embeds",
-            "description": "Embed Hoppscotch in your website or app"
-          },
-          "native": {
-            "name": "Native",
-            "description": "End-to-end API development environment for macOS, Windows, and Linux"
-          },
-          "web": {
-            "name": "Web",
-            "description": "End-to-end API development environment for web browsers"
-          }
-        },
-        "title": "Platform"
-      },
-      "pricing": {
-        "title": "Pricing"
-      },
-      "solutions": {
-        "documentation": "Documentation",
-        "guides": "Guides",
-        "links": {
-          "deployment": {
-            "name": "Deployment",
-            "description": "Deploy with confidence, every time"
-          },
-          "design": {
-            "name": "Design",
-            "description": "Mock, design, and prototype APIs"
-          },
-          "development": {
-            "name": "Development",
-            "description": "Test, debug, and iterate faster"
-          },
-          "documentation": {
-            "name": "Documentation",
-            "description": "Build and share beautiful API docs"
-          },
-          "maintenance": {
-            "name": "Maintenance",
-            "description": "Monitor, maintain, and scale APIs"
-          },
-          "testing": {
-            "name": "Testing",
-            "description": "CI/CD, testing, and monitoring"
-          }
-        },
-        "support": "Support",
-        "title": "Solutions"
-      }
-    }
-  },
-  "home": {
-    "announcement": {
-      "long_description": "March, 2023 release with self-host support",
-      "long_link_text": "Read accouncement",
-      "short_description": "Self-host support is out",
-      "short_link_text": "Read"
-    },
-    "cta": {
-      "description": "Get started with the Hoppscotch.",
-      "title": "Ready for take-off?"
-    },
-    "features": {
-      "description": "Fast, lightweight and interactive",
-      "items": {
-        "1": {
-          "description": "Designed to be seamless and instant.",
-          "title": "Lightweight and snappy"
-        },
-        "2": {
-          "description": "No need to switch back-and-forth between multiple apps.",
-          "title": "Directly from browser"
-        },
-        "3": {
-          "description": "Hoppscotch is built on top of open source technologies.",
-          "title": "Open source community"
-        },
-        "4": {
-          "description": "Have all your teams in one shared workspace.",
-          "title": "Built for teams"
-        },
-        "5": {
-          "description": "We have multiple themes and accent colors",
-          "title": "Light and dark UI"
-        },
-        "6": {
-          "description": "Designed to be intuitive and easy to use",
-          "title": "Keyboard first design"
-        },
-        "7": {
-          "description": "Works on web, Mac, Windows, and mobile",
-          "title": "Cross-platform apps"
-        },
-        "8": {
-          "description": "Designed to keep your data safe and protected",
-          "title": "Save and secure"
+        "items": {
+            "about": {
+                "description": "Some two line para about company where Hoppscotch are available.",
+                "title": "About"
+            },
+            "blog": {
+                "description": "Some two line para about company where Hoppscotch are available.",
+                "title": "Blog"
+            },
+            "careers": {
+                "description": "Some two line para about company where Hoppscotch are available.",
+                "title": "Careers"
+            },
+            "support": {
+                "description": "Some two line para about company where Hoppscotch are available.",
+                "title": "Support"
+            }
         }
-      },
-      "title": "Features"
     },
-    "hero": {
-      "heading": "Open Source API Platform",
-      "stats": {
-        "1": {
-          "title": "1.6M+ users"
+    "error": {
+        "404": "Page not found",
+        "404_description": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+    },
+    "footer": {
+        "company": {
+            "links": {
+                "about": "About",
+                "blog": "Blog",
+                "careers": "Careers",
+                "support": "Support"
+            },
+            "title": "Company"
         },
-        "2": {
-          "title": "50K+ GitHub stars"
+        "platform": {
+            "links": {
+                "cli": "CLI",
+                "embeds": "Embeds",
+                "native": "Native",
+                "web": "Web"
+            },
+            "title": "Platform"
         },
-        "3": {
-          "title": "100K+ monthly users"
+        "product": {
+            "links": {
+                "changelog": "Changelog",
+                "github": "GitHub",
+                "privacy": "Privacy",
+                "terms": "Terms"
+            },
+            "title": "Product"
+        },
+        "protocols": {
+            "links": {
+                "graphql": "GraphQL",
+                "grpc": "gRPC",
+                "realtime": "Realtime",
+                "rest": "Rest"
+            },
+            "title": "Protocols"
+        },
+        "solutions": {
+            "links": {
+                "design": "Design",
+                "development": "Development",
+                "documentation": "Documentation",
+                "testing": "Testing"
+            },
+            "title": "Solutions"
         }
-      },
-      "subheading": "Millions of developers and companies build, ship, and maintain their APIs on Hoppscotch."
+    },
+    "header": {
+        "menu": {
+            "blog": {
+                "read_more": "Read More",
+                "title": "Recent blogs"
+            },
+            "company": {
+                "links": {
+                    "1": {
+                        "name": "About"
+                    },
+                    "2": {
+                        "name": "Careers"
+                    },
+                    "3": {
+                        "name": "Blog"
+                    },
+                    "4": {
+                        "name": "Support"
+                    }
+                },
+                "title": "Company"
+            },
+            "guide": {
+                "read_more": "Read all guides",
+                "title": "Popular guides"
+            },
+            "platform": {
+                "links": {
+                    "cli": {
+                        "name": "CLI",
+                        "description": "Test, monitor, and debug APIs from the command line"
+                    },
+                    "embeds": {
+                        "name": "Embeds",
+                        "description": "Embed Hoppscotch in your website or app"
+                    },
+                    "native": {
+                        "name": "Native",
+                        "description": "End-to-end API development environment for macOS, Windows, and Linux"
+                    },
+                    "web": {
+                        "name": "Web",
+                        "description": "End-to-end API development environment for web browsers"
+                    }
+                },
+                "title": "Platform"
+            },
+            "pricing": {
+                "title": "Pricing"
+            },
+            "solutions": {
+                "documentation": "Documentation",
+                "guides": "Guides",
+                "links": {
+                    "deployment": {
+                        "name": "Deployment",
+                        "description": "Deploy with confidence, every time"
+                    },
+                    "design": {
+                        "name": "Design",
+                        "description": "Mock, design, and prototype APIs"
+                    },
+                    "development": {
+                        "name": "Development",
+                        "description": "Test, debug, and iterate faster"
+                    },
+                    "documentation": {
+                        "name": "Documentation",
+                        "description": "Build and share beautiful API docs"
+                    },
+                    "maintenance": {
+                        "name": "Maintenance",
+                        "description": "Monitor, maintain, and scale APIs"
+                    },
+                    "testing": {
+                        "name": "Testing",
+                        "description": "CI/CD, testing, and monitoring"
+                    }
+                },
+                "support": "Support",
+                "title": "Solutions"
+            }
+        }
+    },
+    "home": {
+        "announcement": {
+            "long_description": "March, 2023 release with self-host support",
+            "long_link_text": "Read accouncement",
+            "short_description": "Self-host support is out",
+            "short_link_text": "Read"
+        },
+        "cta": {
+            "description": "Get started with the Hoppscotch.",
+            "title": "Ready for take-off?"
+        },
+        "features": {
+            "description": "Fast, lightweight and interactive",
+            "items": {
+                "1": {
+                    "description": "Designed to be seamless and instant.",
+                    "title": "Lightweight and snappy"
+                },
+                "2": {
+                    "description": "No need to switch back-and-forth between multiple apps.",
+                    "title": "Directly from the browser"
+                },
+                "3": {
+                    "description": "Built on open-source tech, Hoppscotch takes API development to the next level",
+                    "title": "Open source community"
+                },
+                "4": {
+                    "description": "Have all your teams in one shared workspace.",
+                    "title": "Built for teams"
+                },
+                "5": {
+                    "description": "Make Hoppscotch your own using themes and accent colors",
+                    "title": "Highly Customizable!"
+                },
+                "6": {
+                    "description": "Designed to be intuitive and easy to use",
+                    "title": "Keyboard first design"
+                },
+                "7": {
+                    "description": "Works on web, Mac, Windows, and mobile",
+                    "title": "Cross-platform apps"
+                },
+                "8": {
+                    "description": "Designed to keep your data safe, secure and protected",
+                    "title": "Safe and secure"
+                }
+            },
+            "title": "Features"
+        },
+        "hero": {
+            "heading": "The Ultimate Open-Source API Platform!",
+            "stats": {
+                "1": {
+                    "title": "1.6M+ users"
+                },
+                "2": {
+                    "title": "50K+ GitHub stars"
+                },
+                "3": {
+                    "title": "100K+ monthly users"
+                }
+            },
+            "subheading": "Join the API revolution with Hoppscotch: trusted by millions of developers and companies to build, ship, and maintain their APIs"
+        },
+        "platforms": {
+            "description": "Hoppscotch is available on web, desktop, and CLI. Use Hoppscotch on your platform of choice.",
+            "features": {
+                "1": {
+                    "description": "Hoppscotch Web is a browser-based app that lets you use Hoppscotch without installing anything.",
+                    "title": "Web app. Lightweight as feather."
+                },
+                "2": {
+                    "description": "Hoppscotch Desktop is a native app that lets you use Hoppscotch without a browser.",
+                    "title": "Desktop app for pros."
+                },
+                "3": {
+                    "description": "Hoppscotch CLI is a command-line tool that lets you run Hoppscotch from your terminal.",
+                    "title": "CLI for CI/CD."
+                },
+                "4": {
+                    "description": "Embed Hoppscotch in your website to let your users try out your APIs.",
+                    "title": "Embeds for your website."
+                }
+            },
+            "title": "Platforms for an API-first world"
+        },
+        "projects": {
+            "description": "Hoppscotch is built on top of open source technologies. We are proud to be a part of the open source community.",
+            "title": "Built with Open Source"
+        },
+        "social": {
+            "discord": {
+                "description": "Some of the best ideas come from our users. Join our Discord community to help create the future of Hoppscotch.",
+                "title": "Help shape the product"
+            },
+            "twitter": {
+                "description": "We want to stay connected with our users on Twitter. Follow Hoppscotch to get the latest updates.",
+                "title": "Stay up to date"
+            }
+        },
+        "testimonials": {
+            "title": "Adored by many!"
+        },
+        "users": {
+            "title": "Empowering developers to build better products"
+        }
+    },
+    "logo": "Hoppscotch",
+    "newsletter": {
+        "description": "Get a summary of what we've shipped during the last month, behind the scenes updates, and team picks.",
+        "email": "Email",
+        "prompt": "Pure information and no spam. Unsubscribe any time.",
+        "subscribe": "Subscribe",
+        "title": "Subscribe to newsletter"
     },
     "platforms": {
-      "description": "Hoppscotch is available on web, desktop, and CLI. Use Hoppscotch on your platform of choice.",
-      "features": {
-        "1": {
-          "description": "Hoppscotch Web is a browser-based app that lets you use Hoppscotch without installing anything.",
-          "title": "Web app. Lightweight as feather."
+        "hero": {
+            "heading": "Platforms",
+            "subheading": "Some two line para about platforms where Hoppscotch are available."
         },
-        "2": {
-          "description": "Hoppscotch Desktop is a native app that lets you use Hoppscotch without a browser.",
-          "title": "Desktop app for pros."
-        },
-        "3": {
-          "description": "Hoppscotch CLI is a command-line tool that lets you run Hoppscotch from your terminal.",
-          "title": "CLI for CI/CD."
-        },
-        "4": {
-          "description": "Embed Hoppscotch in your website to let your users try out your APIs.",
-          "title": "Embeds for your website."
+        "items": {
+            "cli": {
+                "description": "Inspired by the command line interface, your tools are unified as commands, and follow the same structure to make you more productive.",
+                "features": {
+                    "1": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use.",
+                        "title": "Lightweight"
+                    },
+                    "2": {
+                        "description": "Hoppscotch is built on top of open source technologies. We are a community of developers who believe in the power of open source.",
+                        "title": "Fast"
+                    },
+                    "3": {
+                        "description": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Simple"
+                    },
+                    "4": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "PWA"
+                    },
+                    "5": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Minimalist"
+                    },
+                    "6": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Unobtrusive"
+                    },
+                    "7": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Customizable"
+                    },
+                    "8": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Mobile Friendly"
+                    },
+                    "9": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Accessibility"
+                    }
+                },
+                "title": "CLI"
+            },
+            "embeds": {
+                "description": "Overrides CORS restrictions for cross-origin requests (it allows requests against localhost).",
+                "title": "Embeds"
+            },
+            "native": {
+                "description": "Native applications for Mac, PC and Linux.",
+                "title": "Native"
+            },
+            "web": {
+                "description": "Lightweight and Fast web interface providing all the functionality needed for API developers with minimalist, unobtrusive UI with PWA feature.",
+                "features": {
+                    "1": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use.",
+                        "title": "Lightweight"
+                    },
+                    "2": {
+                        "description": "Hoppscotch is built on top of open source technologies. We are a community of developers who believe in the power of open source.",
+                        "title": "Fast"
+                    },
+                    "3": {
+                        "description": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Simple"
+                    },
+                    "4": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "PWA"
+                    },
+                    "5": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Minimalist"
+                    },
+                    "6": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Unobtrusive"
+                    },
+                    "7": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Customizable"
+                    },
+                    "8": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Mobile Friendly"
+                    },
+                    "9": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Accessibility"
+                    }
+                },
+                "title": "Web"
+            }
         }
-      },
-      "title": "Platforms for an API-first world"
     },
-    "projects": {
-      "description": "Hoppscotch is built on top of open source technologies. We are proud to be a part of the open source community.",
-      "title": "Built with Open Source"
+    "pricing": {
+        "description": "Pricing plans for teams of all sizes",
+        "title": "Pricing"
     },
-    "social": {
-      "discord": {
-        "description": "Some of the best ideas come from our users. Join our Discord community to help create the future of Hoppscotch.",
-        "title": "Help shape the product"
-      },
-      "twitter": {
-        "description": "We want to stay connected with our users on Twitter. Follow Hoppscotch to get the latest updates.",
-        "title": "Stay up to date"
-      }
-    },
-    "testimonials": {
-      "title": "Loved by product people"
-    },
-    "users": {
-      "title": "Empowering developers to build better products"
-    }
-  },
-  "logo": "Hoppscotch",
-  "newsletter": {
-    "description": "Get a summary of what we've shipped during the last month, behind the scenes updates, and team picks.",
-    "email": "Email",
-    "prompt": "Pure information and no spam. Unsubscribe any time.",
-    "subscribe": "Subscribe",
-    "title": "Subscribe to newsletter"
-  },
-  "platforms": {
-    "hero": {
-      "heading": "Platforms",
-      "subheading": "Some two line para about platforms where Hoppscotch are available."
-    },
-    "items": {
-      "cli": {
-        "description": "Inspired by the command line interface, your tools are unified as commands, and follow the same structure to make you more productive.",
-        "features": {
-          "1": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use.",
-            "title": "Lightweight"
-          },
-          "2": {
-            "description": "Hoppscotch is built on top of open source technologies. We are a community of developers who believe in the power of open source.",
-            "title": "Fast"
-          },
-          "3": {
-            "description": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Simple"
-          },
-          "4": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "PWA"
-          },
-          "5": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Minimalist"
-          },
-          "6": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Unobtrusive"
-          },
-          "7": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Customizable"
-          },
-          "8": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Mobile Friendly"
-          },
-          "9": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Accessibility"
-          }
+    "protocols": {
+        "hero": {
+            "heading": "Features",
+            "subheading": "Some two line para about protocols of Hoppscotch."
         },
-        "title": "CLI"
-      },
-      "embeds": {
-        "description": "Overrides CORS restrictions for cross-origin requests (it allows requests against localhost).",
-        "title": "Embeds"
-      },
-      "native": {
-        "description": "Native applications for Mac, PC and Linux.",
-        "title": "Native"
-      },
-      "web": {
-        "description": "Lightweight and Fast web interface providing all the functionality needed for API developers with minimalist, unobtrusive UI with PWA feature.",
-        "features": {
-          "1": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use.",
-            "title": "Lightweight"
-          },
-          "2": {
-            "description": "Hoppscotch is built on top of open source technologies. We are a community of developers who believe in the power of open source.",
-            "title": "Fast"
-          },
-          "3": {
-            "description": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Simple"
-          },
-          "4": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "PWA"
-          },
-          "5": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Minimalist"
-          },
-          "6": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Unobtrusive"
-          },
-          "7": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Customizable"
-          },
-          "8": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Mobile Friendly"
-          },
-          "9": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Accessibility"
-          }
-        },
-        "title": "Web"
-      }
-    }
-  },
-  "pricing": {
-    "description": "Pricing plans for teams of all sizes",
-    "title": "Pricing"
-  },
-  "protocols": {
-    "hero": {
-      "heading": "Features",
-      "subheading": "Some two line para about protocols of Hoppscotch."
-    },
-    "items": {
-      "graphql": {
-        "description": "GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API.",
-        "methods": {
-          "collections": {
-            "description": "Just Like Rest API collections, Hoppscotch lets you organize your GraphQL queries in collections.You can Import existing collections(JSON) to replace current collection, or preserve current collection as well as add new collection from your sources. Collections can be Exported as JSON as well.",
-            "title": "Collections"
-          },
-          "headers": {
-            "description": "The editor lets you add header-value pairs to your GraphQL Request. Use case:Accessing a secure endpoint may need Authentication.",
-            "title": "Headers"
-          },
-          "history": {
-            "description": "All your recent Requests can be accessed from the History tab, and you can pick up right were left it.",
-            "title": "History"
-          },
-          "queries": {
-            "description": "Any Queries to be made to the GraphQL endpoint are typed out in this section, there is an inbuilt formatter that Prettifies the Query.",
-            "title": "Queries"
-          },
-          "response": {
-            "description": "The response returned by the endpoint on your query is displayed at the end of the page, this can be copied to your clipboard or exported as a JSON file.",
-            "title": "Response"
-          },
-          "schema": {
-            "description": "You can view the schema of GraphQL Endpoint that you’ve connected to in this panel. The Schema can be downloaded as a JSON file or copied to your clipboard.",
-            "title": "Schema"
-          },
-          "schemaDoc": {
-            "description": "In the right sidebar you can view the documentation of the GraphQL endpoint you are working with. The documentation is searchable and documentation for Queries, Mutations, Subscriptions and Types are present in the Tabs below the search bar.",
-            "title": "Schema Documentation"
-          },
-          "url": {
-            "description": "Enter The URL of the GraphQL End point here.",
-            "title": "URL"
-          }
-        },
-        "title": "GraphQL"
-      },
-      "grpc": {
-        "description": "Hoppscotch helps you develop Real-time web apps that require persistent connection between the server and client.",
-        "methods": {
-          "mqtt": {
-            "description": "Once connected to the MQTT (Message Queuing Telemetry Transport) server, You can either publish a message under a topic or subscribe to a topic to get messages pertaining to that topic being sent across the server in real-time.",
-            "title": "MQTT"
-          },
-          "socket": {
-            "description": "Enter Your Websocket URL, valid protocols and click on connect . Once successfully connected you can send messages and see the realtime response on the log pane.",
-            "title": "Socket.IO"
-          },
-          "sse": {
-            "description": "Enter Your Websocket URL, valid protocols and click on connect . Once successfully connected you can send messages and see the realtime response on the log pane.",
-            "title": "SSE"
-          },
-          "websocket": {
-            "description": "Enter Your Websocket URL, valid protocols and click on connect . Once successfully connected you can send messages and see the realtime response on the log pane.",
-            "title": "WebSockets"
-          }
-        },
-        "title": "GRPC platform"
-      },
-      "realtime": {
-        "description": "Hoppscotch helps you develop Real-time web apps that require persistent connection between the server and client.",
-        "methods": {
-          "mqtt": {
-            "description": "Once connected to the MQTT (Message Queuing Telemetry Transport) server, You can either publish a message under a topic or subscribe to a topic to get messages pertaining to that topic being sent across the server in real-time.",
-            "title": "MQTT"
-          },
-          "socket": {
-            "description": "Enter Your Websocket URL, valid protocols and click on connect . Once successfully connected you can send messages and see the realtime response on the log pane.",
-            "title": "Socket.IO"
-          },
-          "sse": {
-            "description": "Enter Your Websocket URL, valid protocols and click on connect . Once successfully connected you can send messages and see the realtime response on the log pane.",
-            "title": "SSE"
-          },
-          "websocket": {
-            "description": "Enter Your Websocket URL, valid protocols and click on connect . Once successfully connected you can send messages and see the realtime response on the log pane.",
-            "title": "WebSockets"
-          }
-        },
-        "title": "Realtime platform"
-      },
-      "rest": {
-        "description": "You can make API requests and examine responses using Hoppscotch. An API request allows you to retrieve or send data to and from an API endpoint.",
-        "methods": {
-          "choosingMethod": {
-            "description": "User can select from any methods like GET, POST, PUT, DELETE, PATCH etc.",
-            "title": "Choosing Method"
-          },
-          "collections": {
-            "description": "Click on the save button, next to SEND, name your request and add to existing or new collections.",
-            "title": "Collections"
-          },
-          "dynamicBehavior": {
-            "description": "The editor allows you to add dynamic behaviour to requests and collections.This lets you add parameters, Headers, Authentication, build pre-request scripts and write tests.",
-            "title": "Adding dynamic behavior to requests"
-          },
-          "environments": {
-            "description": "Environment variables allow you to store and reuse values in your requests and scripts",
-            "title": "Environments"
-          },
-          "responseBody": {
-            "description": "The response from the API endpoint can be viewed here. You can download or copy the response for further use.",
-            "title": "Response body"
-          }
-        },
-        "title": "RESTful platform"
-      }
-    }
-  },
-  "solutions": {
-    "hero": {
-      "heading": "Solutions",
-      "subheading": "API development and testing solutions provided by Hoppscotch."
-    },
-    "items": {
-      "deployment": {
-        "description": "Adding URL encoded body type now support key-value pairs and raw YAML editor.",
-        "title": "Deployment"
-      },
-      "design": {
-        "description": "Users can now export and import single collection from collection's menu.",
-        "features": {
-          "1": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use.",
-            "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Lightweight"
-          },
-          "2": {
-            "description": "Hoppscotch is built on top of open source technologies. We are a community of developers who believe in the power of open source.",
-            "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Fast"
-          },
-          "3": {
-            "description": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "lists": {
-              "1": {
-                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
-                "title": "Design Phase 1"
-              },
-              "2": {
-                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
-                "title": "Design Phase 2"
-              },
-              "3": {
-                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
-                "title": "Design Phase 3"
-              }
+        "items": {
+            "graphql": {
+                "description": "GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API.",
+                "methods": {
+                    "collections": {
+                        "description": "Just Like Rest API collections, Hoppscotch lets you organize your GraphQL queries in collections.You can Import existing collections(JSON) to replace current collection, or preserve current collection as well as add new collection from your sources. Collections can be Exported as JSON as well.",
+                        "title": "Collections"
+                    },
+                    "headers": {
+                        "description": "The editor lets you add header-value pairs to your GraphQL Request. Use case:Accessing a secure endpoint may need Authentication.",
+                        "title": "Headers"
+                    },
+                    "history": {
+                        "description": "All your recent Requests can be accessed from the History tab, and you can pick up right were left it.",
+                        "title": "History"
+                    },
+                    "queries": {
+                        "description": "Any Queries to be made to the GraphQL endpoint are typed out in this section, there is an inbuilt formatter that Prettifies the Query.",
+                        "title": "Queries"
+                    },
+                    "response": {
+                        "description": "The response returned by the endpoint on your query is displayed at the end of the page, this can be copied to your clipboard or exported as a JSON file.",
+                        "title": "Response"
+                    },
+                    "schema": {
+                        "description": "You can view the schema of GraphQL Endpoint that you’ve connected to in this panel. The Schema can be downloaded as a JSON file or copied to your clipboard.",
+                        "title": "Schema"
+                    },
+                    "schemaDoc": {
+                        "description": "In the right sidebar you can view the documentation of the GraphQL endpoint you are working with. The documentation is searchable and documentation for Queries, Mutations, Subscriptions and Types are present in the Tabs below the search bar.",
+                        "title": "Schema Documentation"
+                    },
+                    "url": {
+                        "description": "Enter The URL of the GraphQL End point here.",
+                        "title": "URL"
+                    }
+                },
+                "title": "GraphQL"
             },
-            "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Simple"
-          },
-          "4": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "PWA"
-          }
-        },
-        "title": "Design"
-      },
-      "development": {
-        "description": "Teams and collections are now faster and more intuitive.",
-        "features": {
-          "1": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use.",
-            "lists": {
-              "1": {
-                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
-                "title": "Development Phase 1"
-              },
-              "2": {
-                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
-                "title": "Development Phase 2"
-              },
-              "3": {
-                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
-                "title": "Development Phase 3"
-              }
+            "grpc": {
+                "description": "Hoppscotch helps you develop Real-time web apps that require persistent connection between the server and client.",
+                "methods": {
+                    "mqtt": {
+                        "description": "Once connected to the MQTT (Message Queuing Telemetry Transport) server, You can either publish a message under a topic or subscribe to a topic to get messages pertaining to that topic being sent across the server in real-time.",
+                        "title": "MQTT"
+                    },
+                    "socket": {
+                        "description": "Enter Your Websocket URL, valid protocols and click on connect . Once successfully connected you can send messages and see the realtime response on the log pane.",
+                        "title": "Socket.IO"
+                    },
+                    "sse": {
+                        "description": "Enter Your Websocket URL, valid protocols and click on connect . Once successfully connected you can send messages and see the realtime response on the log pane.",
+                        "title": "SSE"
+                    },
+                    "websocket": {
+                        "description": "Enter Your Websocket URL, valid protocols and click on connect . Once successfully connected you can send messages and see the realtime response on the log pane.",
+                        "title": "WebSockets"
+                    }
+                },
+                "title": "GRPC platform"
             },
-            "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Lightweight"
-          },
-          "2": {
-            "description": "Hoppscotch is built on top of open source technologies. We are a community of developers who believe in the power of open source.",
-            "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Fast"
-          },
-          "3": {
-            "description": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Simple"
-          },
-          "4": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "PWA"
-          }
-        },
-        "title": "Development"
-      },
-      "documentation": {
-        "description": "Environment variables now respect mixed strings in endpoints and are more intuitive.",
-        "features": {
-          "1": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use.",
-            "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Lightweight"
-          },
-          "2": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use.",
-            "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Fast"
-          },
-          "3": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use.",
-            "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Simple"
-          },
-          "4": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use.",
-            "lists": {
-              "1": {
-                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
-                "title": "Documentation Phase 1"
-              },
-              "2": {
-                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
-                "title": "Documentation Phase 2"
-              },
-              "3": {
-                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
-                "title": "Documentation Phase 3"
-              }
+            "realtime": {
+                "description": "Hoppscotch helps you develop Real-time web apps that require persistent connection between the server and client.",
+                "methods": {
+                    "mqtt": {
+                        "description": "Once connected to the MQTT (Message Queuing Telemetry Transport) server, You can either publish a message under a topic or subscribe to a topic to get messages pertaining to that topic being sent across the server in real-time.",
+                        "title": "MQTT"
+                    },
+                    "socket": {
+                        "description": "Enter Your Websocket URL, valid protocols and click on connect . Once successfully connected you can send messages and see the realtime response on the log pane.",
+                        "title": "Socket.IO"
+                    },
+                    "sse": {
+                        "description": "Enter Your Websocket URL, valid protocols and click on connect . Once successfully connected you can send messages and see the realtime response on the log pane.",
+                        "title": "SSE"
+                    },
+                    "websocket": {
+                        "description": "Enter Your Websocket URL, valid protocols and click on connect . Once successfully connected you can send messages and see the realtime response on the log pane.",
+                        "title": "WebSockets"
+                    }
+                },
+                "title": "Realtime platform"
             },
-            "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "PWA"
-          }
-        },
-        "title": "Documentation"
-      },
-      "maintenance": {
-        "description": "Translations are now updated to match the latest strings.",
-        "title": "Maintenance"
-      },
-      "testing": {
-        "description": "Code editors now occupy full height of the section, and cURL importer now has a paste from clipboard button.",
-        "features": {
-          "1": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use.",
-            "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Lightweight"
-          },
-          "2": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use.",
-            "lists": {
-              "1": {
-                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
-                "title": "Create new test"
-              },
-              "2": {
-                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
-                "title": "Create new test 2"
-              },
-              "3": {
-                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
-                "title": "Create new test 3"
-              }
-            },
-            "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Fast"
-          },
-          "3": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use.",
-            "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "Simple"
-          },
-          "4": {
-            "description": "Hoppscotch is designed to be lightweight and easy to use.",
-            "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
-            "title": "PWA"
-          }
-        },
-        "title": "Testing"
-      }
-    }
-  },
-  "support": {
-    "hero": {
-      "heading": "Get Support",
-      "subheading": "Need a bit of help or found some bugs ? Check out our current issues, GitHub discussions, or get email support."
+            "rest": {
+                "description": "You can make API requests and examine responses using Hoppscotch. An API request allows you to retrieve or send data to and from an API endpoint.",
+                "methods": {
+                    "choosingMethod": {
+                        "description": "User can select from any methods like GET, POST, PUT, DELETE, PATCH etc.",
+                        "title": "Choosing Method"
+                    },
+                    "collections": {
+                        "description": "Click on the save button, next to SEND, name your request and add to existing or new collections.",
+                        "title": "Collections"
+                    },
+                    "dynamicBehavior": {
+                        "description": "The editor allows you to add dynamic behaviour to requests and collections.This lets you add parameters, Headers, Authentication, build pre-request scripts and write tests.",
+                        "title": "Adding dynamic behavior to requests"
+                    },
+                    "environments": {
+                        "description": "Environment variables allow you to store and reuse values in your requests and scripts",
+                        "title": "Environments"
+                    },
+                    "responseBody": {
+                        "description": "The response from the API endpoint can be viewed here. You can download or copy the response for further use.",
+                        "title": "Response body"
+                    }
+                },
+                "title": "RESTful platform"
+            }
+        }
     },
-    "items": {
-      "1": {
-        "description": "We offer email based support. If you need SLAs, guaranteed response times, or have an issue, please contact us here.",
-        "link_text": "Get Support",
-        "title": "Email Support"
-      },
-      "2": {
-        "description": "We're always looking for new features and bug fixes. If you have an issue, please open an issue on GitHub.",
-        "link_text": "See Issues",
-        "title": "GitHub Issues"
-      },
-      "3": {
-        "description": "For help and queries, join our GitHub discussions.",
-        "link_text": "Join Discussions",
-        "title": "GitHub Discussions"
-      }
+    "solutions": {
+        "hero": {
+            "heading": "Solutions",
+            "subheading": "API development and testing solutions provided by Hoppscotch."
+        },
+        "items": {
+            "deployment": {
+                "description": "Adding URL encoded body type now support key-value pairs and raw YAML editor.",
+                "title": "Deployment"
+            },
+            "design": {
+                "description": "Users can now export and import single collection from collection's menu.",
+                "features": {
+                    "1": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use.",
+                        "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Lightweight"
+                    },
+                    "2": {
+                        "description": "Hoppscotch is built on top of open source technologies. We are a community of developers who believe in the power of open source.",
+                        "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Fast"
+                    },
+                    "3": {
+                        "description": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "lists": {
+                            "1": {
+                                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
+                                "title": "Design Phase 1"
+                            },
+                            "2": {
+                                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
+                                "title": "Design Phase 2"
+                            },
+                            "3": {
+                                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
+                                "title": "Design Phase 3"
+                            }
+                        },
+                        "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Simple"
+                    },
+                    "4": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "PWA"
+                    }
+                },
+                "title": "Design"
+            },
+            "development": {
+                "description": "Teams and collections are now faster and more intuitive.",
+                "features": {
+                    "1": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use.",
+                        "lists": {
+                            "1": {
+                                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
+                                "title": "Development Phase 1"
+                            },
+                            "2": {
+                                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
+                                "title": "Development Phase 2"
+                            },
+                            "3": {
+                                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
+                                "title": "Development Phase 3"
+                            }
+                        },
+                        "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Lightweight"
+                    },
+                    "2": {
+                        "description": "Hoppscotch is built on top of open source technologies. We are a community of developers who believe in the power of open source.",
+                        "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Fast"
+                    },
+                    "3": {
+                        "description": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Simple"
+                    },
+                    "4": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use. Use the keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "PWA"
+                    }
+                },
+                "title": "Development"
+            },
+            "documentation": {
+                "description": "Environment variables now respect mixed strings in endpoints and are more intuitive.",
+                "features": {
+                    "1": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use.",
+                        "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Lightweight"
+                    },
+                    "2": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use.",
+                        "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Fast"
+                    },
+                    "3": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use.",
+                        "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Simple"
+                    },
+                    "4": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use.",
+                        "lists": {
+                            "1": {
+                                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
+                                "title": "Documentation Phase 1"
+                            },
+                            "2": {
+                                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
+                                "title": "Documentation Phase 2"
+                            },
+                            "3": {
+                                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
+                                "title": "Documentation Phase 3"
+                            }
+                        },
+                        "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "PWA"
+                    }
+                },
+                "title": "Documentation"
+            },
+            "maintenance": {
+                "description": "Translations are now updated to match the latest strings.",
+                "title": "Maintenance"
+            },
+            "testing": {
+                "description": "Code editors now occupy full height of the section, and cURL importer now has a paste from clipboard button.",
+                "features": {
+                    "1": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use.",
+                        "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Lightweight"
+                    },
+                    "2": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use.",
+                        "lists": {
+                            "1": {
+                                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
+                                "title": "Create new test"
+                            },
+                            "2": {
+                                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
+                                "title": "Create new test 2"
+                            },
+                            "3": {
+                                "description": "You can create a collection that contains your API tests and link it to a specific version of your API.",
+                                "title": "Create new test 3"
+                            }
+                        },
+                        "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Fast"
+                    },
+                    "3": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use.",
+                        "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "Simple"
+                    },
+                    "4": {
+                        "description": "Hoppscotch is designed to be lightweight and easy to use.",
+                        "longDescription": "Designed to be intuitive and easy to use. Use keyboard to navigate and easily create APIs. Optimized for efficiency with extensive keyboard shortcuts.",
+                        "title": "PWA"
+                    }
+                },
+                "title": "Testing"
+            }
+        }
+    },
+    "support": {
+        "hero": {
+            "heading": "Get Support",
+            "subheading": "Need a bit of help or found some bugs ? Check out our current issues, GitHub discussions, or get email support."
+        },
+        "items": {
+            "1": {
+                "description": "We offer email based support. If you need SLAs, guaranteed response times, or have an issue, please contact us here.",
+                "link_text": "Get Support",
+                "title": "Email Support"
+            },
+            "2": {
+                "description": "We're always looking for new features and bug fixes. If you have an issue, please open an issue on GitHub.",
+                "link_text": "See Issues",
+                "title": "GitHub Issues"
+            },
+            "3": {
+                "description": "For help and queries, join our GitHub discussions.",
+                "link_text": "Join Discussions",
+                "title": "GitHub Discussions"
+            }
+        }
     }
-  }
 }
