@@ -3,7 +3,7 @@ import { isDark } from "~/composables"
 </script>
 
 <template>
-  <div class="flex flex-col px-8 md:py-16">
+  <div class="flex flex-col px-8 py-16">
     <div class="relative py-32">
       <AnimatedGrid />
       <AnimatedComponent animation-type="zoom">
