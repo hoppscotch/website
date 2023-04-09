@@ -18,7 +18,7 @@ const { t } = useI18n()
       <div
         v-for="(user, index) in users"
         :key="`user-${index}`"
-        class="inline-flex flex-col items-center justify-center p-4"
+        class="inline-flex flex-col items-center justify-center p-1 md:p-4"
       >
         <img
           :src="`/assets/images/users/${isDark ? 'dark' : 'light'}-${

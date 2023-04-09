@@ -15,7 +15,7 @@ const { t } = useI18n()
         {{ t("home.projects.title") }}
       </div>
       <div
-        class="my-4 text-2xl tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-br md:w-3/5"
+        class="my-4 text-lg md:text-2xl tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-br md:w-3/5"
         :class="gradients.gray"
       >
         {{ t("home.projects.description") }}

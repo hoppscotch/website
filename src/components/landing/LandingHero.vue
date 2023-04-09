@@ -4,6 +4,10 @@ import github from "~icons/lucide/github"
 import arrowRight from "~icons/lucide/arrow-right"
 
 const { t } = useI18n()
+
+const {L} = useBreakpoints({
+  L: 720,
+})
 </script>
 
 <template>
@@ -17,7 +21,7 @@ const { t } = useI18n()
       </div>
       <div class="flex flex-col items-center">
         <div
-          class="my-4 text-2xl tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-br md:w-3/5"
+          class="my-4 text-xl md:text-2xl tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-br md:w-3/5"
           :class="gradients.gray"
         >
           {{ t("home.hero.subheading") }}
@@ -27,7 +31,7 @@ const { t } = useI18n()
             to="https://github.com/hoppscotch/hoppscotch"
             :label="t('action.self_host')"
             :icon="github"
-            large
+            :large="L ? true : false"
             outline
             fill
           />
@@ -36,7 +40,7 @@ const { t } = useI18n()
             :label="t('action.get_started')"
             :icon="arrowRight"
             reverse
-            large
+            :large="L ? true : false"
             outline
           />
         </div>
