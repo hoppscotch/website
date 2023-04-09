@@ -480,10 +480,10 @@
         },
         "2": {
           "description": "No need to switch back-and-forth between multiple apps.",
-          "title": "Directly from browser"
+          "title": "Directly from the browser"
         },
         "3": {
-          "description": "Hoppscotch is built on top of open source technologies.",
+          "description": "Built on open-source tech, Hoppscotch takes API development to the next level",
           "title": "Open source community"
         },
         "4": {
@@ -491,8 +491,8 @@
           "title": "Built for teams"
         },
         "5": {
-          "description": "We have multiple themes and accent colors",
-          "title": "Light and dark UI"
+          "description": "Make Hoppscotch your own using themes and accent colors",
+          "title": "Highly Customizable!"
         },
         "6": {
           "description": "Designed to be intuitive and easy to use",
@@ -503,14 +503,14 @@
           "title": "Cross-platform apps"
         },
         "8": {
-          "description": "Designed to keep your data safe and protected",
-          "title": "Save and secure"
+          "description": "Designed to keep your data safe, secure and protected",
+          "title": "Safe and secure"
         }
       },
       "title": "Features"
     },
     "hero": {
-      "heading": "Open Source API Platform",
+      "heading": "The Ultimate Open-Source API Platform!",
       "stats": {
         "1": {
           "title": "1.6M+ users"
@@ -522,7 +522,7 @@
           "title": "100K+ monthly users"
         }
       },
-      "subheading": "Millions of developers and companies build, ship, and maintain their APIs on Hoppscotch."
+      "subheading": "Join the API revolution with Hoppscotch: trusted by millions of developers and companies to build, ship, and maintain their APIs"
     },
     "platforms": {
       "description": "Hoppscotch is available on web, desktop, and CLI. Use Hoppscotch on your platform of choice.",
@@ -561,7 +561,7 @@
       }
     },
     "testimonials": {
-      "title": "Loved by product people"
+      "title": "Adored by many!"
     },
     "users": {
       "title": "Empowering developers to build better products"
