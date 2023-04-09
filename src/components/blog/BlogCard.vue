@@ -33,7 +33,7 @@ const getComputedDate = computed(() => {
     :class="blog.styles"
   >
     <div
-      class="flex text-xl font-semibold tracking-tighter text-transparent gap-4 bg-clip-text bg-gradient-to-br lg:text-2xl"
+      class="flex text-xl font-semibold tracking-tight text-transparent gap-4 bg-clip-text bg-gradient-to-br lg:text-2xl"
       :class="gradients.gray"
     >
       {{ blog.title }}

@@ -43,7 +43,7 @@ defineProps({
     blank
   >
     <div
-      class="flex items-center mb-4 text-lg font-semibold tracking-tighter text-secondaryLight"
+      class="flex items-center mb-4 text-lg font-semibold tracking-tight text-secondaryLight"
     >
       <span class="mr-4">
         <component :is="icon" class="w-5 h-5 opacity-25" />

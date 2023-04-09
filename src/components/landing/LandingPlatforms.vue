@@ -9,13 +9,13 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <div
-        class="max-w-2xl text-4xl tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-5xl lg:text-6xl !leading-[initial]"
+        class="max-w-2xl text-4xl tracking-tight text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-5xl lg:text-6xl !leading-[initial]"
         :class="gradients.gray"
       >
         {{ t("home.platforms.title") }}
       </div>
       <div
-        class="my-4 text-2xl tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-br md:w-3/5"
+        class="my-4 text-2xl tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-br md:w-3/5"
         :class="gradients.gray"
       >
         {{ t("home.platforms.description") }}
@@ -30,22 +30,35 @@ const { t } = useI18n()
         class="w-full p-8 bg-primary transition border row-span-1 relative rounded-4xl border-divider group md:p-16"
         :class="feature.styles"
       >
-        <div class="flex relative z-10 flex-col flex-1">
+        <div class="flex relative z-10 flex-col">
           <div
-            class="flex mb-2 text-3xl font-semibold tracking-tighter text-transparent bg-clip-text bg-gradient-to-br"
+            class="flex mb-2 text-3xl font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-br"
             :class="gradients.gray"
           >
             {{ t(feature.title) }}
           </div>
+          <div class="flex py-8 my-8 border-y border-dividerLight space-x-16 w-[fit-content]">
+            <div
+              v-for="(stat, statIndex) in feature.stats"
+              :key="`stat-${statIndex}`"
+              class="flex flex-col space-y-2"
+            >
+              <div class="text-3xl" :class="stat.styles">{{ t(stat.title) }}</div>
+              <div class="text-lg">{{ t(stat.description) }}</div>
+            </div>
+          </div>
           <div class="flex w-4/5 max-w-xl text-sm tracking-tight opacity-75">
             {{ t(feature.description) }}
           </div>
+          <div class="flex">
+            <ButtonSecondary outline :to="feature.link" :label="t('action.learn_more')" class="mt-8" />
+          </div>
         </div>
-        <img
-          src="/assets/images/home/landing/globe.png"
+        <!-- <img
+          src=""
           :alt="t('logo')"
           class="absolute z-0 top-0 right-0 h-full rounded-r-4xl"
-        />
+        /> -->
       </div>
     </div>
   </div>

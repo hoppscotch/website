@@ -5,10 +5,9 @@
     <LandingUsers />
     <LandingFeatures />
     <LandingPlatforms />
-    <LandingRepositories />
+    <!-- <LandingRepositories /> -->
     <LandingTestimonials />
     <LandingSocial />
-    <LandingNewsletter />
     <LandingCTA />
   </div>
 </template>

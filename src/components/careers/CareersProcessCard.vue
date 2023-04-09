@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import check from "~icons/lucide/check"
+
 const tipProps = defineProps<{
   visibleTip: {
     title: string

@@ -14,7 +14,7 @@ const { t } = useI18n()
         {{ t("home.features.title") }}
       </div>
       <div
-        class="max-w-2xl text-4xl tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-5xl lg:text-6xl !leading-[initial]"
+        class="max-w-2xl text-4xl tracking-tight text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-5xl lg:text-6xl !leading-[initial]"
         :class="gradients.gray"
       >
         {{ t("home.features.description") }}
@@ -32,7 +32,7 @@ const { t } = useI18n()
         <div class="interactive-hover-contents">
           <div class="flex flex-col p-8">
             <div
-              class="flex my-2 text-xl font-semibold tracking-tighter text-transparent bg-clip-text bg-gradient-to-br"
+              class="flex my-2 text-xl font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-br"
               :class="gradients.gray"
             >
               {{ t(feature.title) }}
@@ -42,11 +42,11 @@ const { t } = useI18n()
             </div>
           </div>
           <div
-            class="flex flex-col items-end justify-end h-full text-violet-800"
+            class="flex flex-col items-end justify-end h-full text-violet-500"
           >
             <component
               :is="feature.icon"
-              class="w-20 h-20 p-6 border-t border-l rounded-full border-violet-800"
+              class="w-20 h-20 p-6 border-t border-l rounded-full border-violet-500"
             />
           </div>
         </div>

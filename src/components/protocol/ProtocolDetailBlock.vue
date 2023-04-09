@@ -27,7 +27,7 @@ const { t } = useI18n()
       {{ t(title) }}
     </div>
     <div
-      class="my-4 text-xl tracking-tighter text-center md:w-3/5 lg:text-left"
+      class="my-4 text-xl tracking-tight text-center md:w-3/5 lg:text-left"
     >
       {{ t(description) }}
     </div>

@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import github from "~icons/lucide/github"
 import arrowRight from "~icons/lucide/arrow-right"
+// import menu from "~icons/lucide/menu"
+// import x from "~icons/lucide/x"
 
 const { t } = useI18n()
 const router = useRouter()
@@ -128,9 +130,7 @@ onMounted(() => {
             />
           </span>
         </nav> -->
-        <div
-          class="items-center justify-end space-x-2 flex md:flex-1 lg:w-0"
-        >
+        <div class="items-center justify-end space-x-2 flex md:flex-1 lg:w-0">
           <ButtonSecondary
             to="https://github.com/hoppscotch/hoppscotch"
             :label="t('action.self_host')"

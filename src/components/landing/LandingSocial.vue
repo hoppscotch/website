@@ -17,11 +17,11 @@ const { t } = useI18n()
           />
         </i>
         <div class="flex-grow">
-          <div class="flex mt-4 mb-2 text-lg font-semibold tracking-tighter">
+          <div class="flex mt-4 mb-2 text-lg font-semibold tracking-tight">
             {{ t("home.social.twitter.title") }}
           </div>
           <div
-            class="flex w-4/5 text-sm tracking-tighter opacity-50 transition group-hover:opacity-75"
+            class="flex w-4/5 text-sm tracking-tight opacity-50 transition group-hover:opacity-75"
           >
             {{ t("home.social.twitter.description") }}
           </div>
@@ -39,11 +39,11 @@ const { t } = useI18n()
           />
         </i>
         <div class="flex-grow">
-          <div class="flex mt-4 mb-2 text-lg font-semibold tracking-tighter">
+          <div class="flex mt-4 mb-2 text-lg font-semibold tracking-tight">
             {{ t("home.social.discord.title") }}
           </div>
           <div
-            class="flex w-4/5 text-sm tracking-tighter opacity-50 transition group-hover:opacity-75"
+            class="flex w-4/5 text-sm tracking-tight opacity-50 transition group-hover:opacity-75"
           >
             {{ t("home.social.discord.description") }}
           </div>

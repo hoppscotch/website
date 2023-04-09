@@ -522,26 +522,66 @@
           "title": "100K+ monthly users"
         }
       },
-      "subheading": "Join the API revolution with Hoppscotch: trusted by millions of developers and companies to build, ship, and maintain their APIs"
+      "subheading": "Join the API revolution with Hoppscotch — trusted by millions of developers and companies to build, ship, and maintain their APIs"
     },
     "platforms": {
       "description": "Hoppscotch is available on web, desktop, and CLI. Use Hoppscotch on your platform of choice.",
       "features": {
         "1": {
-          "description": "Hoppscotch Web is a browser-based app that lets you use Hoppscotch without installing anything.",
-          "title": "Web app. Lightweight as feather."
+          "description": "Hoppscotch Web is a browser-based app that lets you use Hoppscotch without installing anything. Get started with Hoppscotch in seconds.",
+          "title": "Web app. Lightweight as feather.",
+          "stats": {
+            "1": {
+              "title": "0.8s",
+              "description": "First Contentful Paint"
+            },
+            "2": {
+              "title": "50K+ GitHub stars",
+              "description": "Open source"
+            }
+          }
         },
         "2": {
           "description": "Hoppscotch Desktop is a native app that lets you use Hoppscotch without a browser.",
-          "title": "Desktop app for pros."
+          "title": "Desktop app for pros.",
+          "stats": {
+            "1": {
+              "title": "1.6M+ users",
+              "description": "Performance"
+            },
+            "2": {
+              "title": "50K+ GitHub stars",
+              "description": "Open source"
+            }
+          }
         },
         "3": {
           "description": "Hoppscotch CLI is a command-line tool that lets you run Hoppscotch from your terminal.",
-          "title": "CLI for CI/CD."
+          "title": "CLI for CI/CD.",
+          "stats": {
+            "1": {
+              "title": "1.6M+ users",
+              "description": "Performance"
+            },
+            "2": {
+              "title": "50K+ GitHub stars",
+              "description": "Open source"
+            }
+          }
         },
         "4": {
           "description": "Embed Hoppscotch in your website to let your users try out your APIs.",
-          "title": "Embeds for your website."
+          "title": "Embeds for your website.",
+          "stats": {
+            "1": {
+              "title": "1.6M+ users",
+              "description": "Performance"
+            },
+            "2": {
+              "title": "50K+ GitHub stars",
+              "description": "Open source"
+            }
+          }
         }
       },
       "title": "Platforms for an API-first world"

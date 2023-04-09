@@ -9,13 +9,13 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <div
-        class="max-w-2xl text-4xl tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-5xl lg:text-6xl !leading-[initial]"
+        class="max-w-2xl text-4xl tracking-tight text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-5xl lg:text-6xl !leading-[initial]"
         :class="gradients.gray"
       >
         {{ t("pricing.title") }}
       </div>
       <div
-        class="my-4 text-xl tracking-tighter text-center text-transparent md:w-3/5 bg-clip-text bg-gradient-to-br"
+        class="my-4 text-xl tracking-tight text-center text-transparent md:w-3/5 bg-clip-text bg-gradient-to-br"
         :class="gradients.gray"
       >
         {{ t("pricing.description") }}
@@ -34,7 +34,7 @@ const { t } = useI18n()
             </div>
             <div class="mt-4">
               <span
-                class="text-4xl font-bold tracking-tighter text-secondaryDark"
+                class="text-4xl font-bold tracking-tight text-secondaryDark"
               >
                 ${{ tier.priceMonthly }}
               </span>
@@ -138,7 +138,7 @@ const { t } = useI18n()
                 <div class="relative table h-full">
                   <div>
                     <span
-                      class="text-4xl font-bold tracking-tighter text-secondaryDark"
+                      class="text-4xl font-bold tracking-tight text-secondaryDark"
                       >${{ tier.priceMonthly }}</span
                     >
                     {{ " " }}

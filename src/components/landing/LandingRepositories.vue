@@ -9,13 +9,13 @@ const { t } = useI18n()
   <div class="flex flex-col px-8 py-16">
     <div class="flex flex-col items-center">
       <div
-        class="max-w-2xl text-4xl tracking-tighter text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-5xl lg:text-6xl !leading-[initial]"
+        class="max-w-2xl text-4xl tracking-tight text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-5xl lg:text-6xl !leading-[initial]"
         :class="gradients.gray"
       >
         {{ t("home.projects.title") }}
       </div>
       <div
-        class="my-4 text-2xl tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-br md:w-3/5"
+        class="my-4 text-2xl tracking-tight text-center text-transparent bg-clip-text bg-gradient-to-br md:w-3/5"
         :class="gradients.gray"
       >
         {{ t("home.projects.description") }}
