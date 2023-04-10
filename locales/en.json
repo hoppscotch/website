@@ -462,8 +462,8 @@
   },
   "home": {
     "announcement": {
-      "long_description": "March, 2023 release with self-host support",
-      "long_link_text": "Read accouncement",
+      "long_description": "April, 2023 release with self-host support",
+      "long_link_text": "Read announcement",
       "short_description": "Self-host support is out",
       "short_link_text": "Read"
     },
@@ -529,7 +529,7 @@
       "features": {
         "1": {
           "description": "Hoppscotch Web is a browser-based app that lets you use Hoppscotch without installing anything. Get started with Hoppscotch in seconds.",
-          "title": "Web app. Lightweight as feather.",
+          "title": "Hoppscotch web app. Lightweight as a feather.",
           "stats": {
             "1": {
               "title": "0.8s",
