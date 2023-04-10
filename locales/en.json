@@ -463,9 +463,9 @@
   "home": {
     "announcement": {
       "long_description": "April, 2023 release with self-host support",
-      "long_link_text": "Read announcement",
+      "long_link_text": "Documentation",
       "short_description": "Self-host support is out",
-      "short_link_text": "Read"
+      "short_link_text": "Docs"
     },
     "cta": {
       "description": "Get started with the Hoppscotch.",
@@ -510,7 +510,7 @@
       "title": "Features"
     },
     "hero": {
-      "heading": "The Ultimate Open-Source API Platform!",
+      "heading": "Open Source API Platform",
       "stats": {
         "1": {
           "title": "1.6M+ users"
