@@ -9,9 +9,8 @@ const { t } = useI18n()
         class="relative z-1 overflow-hidden rounded-full p-[1px] animated-border"
       >
         <SmartLink
-          to="/company/blog/hoppscotch-raises-3m-in-seed-funding-to-build-open-source-api-development-ecosystem"
-          target="_blank"
-          rel="noopener noreferrer"
+          to="https://docs.hoppscotch.io/documentation/self-host/getting-started"
+          blank
           class="relative z-10 flex items-center justify-center py-2 rounded-full transition bg-primary text-secondaryLight group hover:bg-primaryLight hover:text-secondaryDark"
         >
           <icon-lucide-megaphone class="hidden h-6 ml-4 md:flex" />
