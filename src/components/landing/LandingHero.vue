@@ -11,7 +11,7 @@ const { t } = useI18n()
     <div class="grainy-gradient relative z-1 flex flex-col items-center">
       <LandingAnnouncement />
       <div
-        class="grainy-text max-w-4xl mt-4 mb-4 text-5xl tracking-tight text-center text-transparent transition bg-clip-text md:text-6xl lg:text-8xl"
+        class="max-w-4xl mt-4 mb-4 text-5xl tracking-tight text-center transition bg-clip-text md:text-6xl lg:text-8xl"
       >
         {{ t("home.hero.heading") }}
       </div>
