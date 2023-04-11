@@ -4,7 +4,7 @@
     <LandingBanner />
     <LandingUsers />
     <LandingFeatures />
-    <LandingPlatforms />
+    <!-- <LandingPlatforms /> -->
     <!-- <LandingRepositories /> -->
     <LandingTestimonials />
     <LandingSocial />
