@@ -53,31 +53,6 @@ const { t } = useI18n()
 </template>
 
 <style lang="scss">
-@property --bg-1-x {
-  syntax: "<number>";
-  inherits: true;
-  initial-value: 0;
-}
-@property --bg-2-x {
-  syntax: "<number>";
-  inherits: true;
-  initial-value: 0;
-}
-@property --bg-2-y {
-  syntax: "<number>";
-  inherits: true;
-  initial-value: 0;
-}
-@property --bg-3-x {
-  syntax: "<number>";
-  inherits: true;
-  initial-value: 0;
-}
-@property --bg-3-y {
-  syntax: "<number>";
-  inherits: true;
-  initial-value: 0;
-}
 :root {
   --shadow-size: max(140px, 30vw);
   --shadow-size-fallback: 30vw;
@@ -93,6 +68,34 @@ const { t } = useI18n()
     --color-3: color(display-p3 0.01 0.53 0.99);
   }
 }
+
+@mixin animatedBg ($bg1x, $bg2y, $bg2x, $bg3y, $bg3x) {
+  background-image: conic-gradient(
+      from 140deg at calc($bg1x* 1%) 100%,
+      hsl(30deg 100% 5%),
+      hsl(238deg 100% 5%),
+      hsl(60deg 100% 99%),
+      hsl(248deg 100% 31%),
+      hsl(315deg 64% 51%),
+      hsl(25deg 95% 61%),
+      hsl(55deg 100% 75%),
+      hsl(60deg 100% 99%),
+      hsl(199deg 94% 74%),
+      hsl(236deg 95% 28%),
+      hsl(244deg 100% 4%)
+    ),
+    radial-gradient(
+      ellipse at calc($bg2x * 1%) calc($bg2y * 1%),
+      white 12%,
+      transparent 35%
+    ),
+    radial-gradient(
+      ellipse at calc($bg3x * 1%) calc($bg3y* 1%),
+      hsl(212deg 94% 68%),
+      transparent 35%
+    );
+}
+
 .grainy-gradient:before {
   content: "";
   position: absolute;
@@ -122,32 +125,11 @@ const { t } = useI18n()
   filter: blur(calc(var(--shadow-blur) * 1px));
   mix-blend-mode: hue;
 }
+
+
 .grainy-text {
   mix-blend-mode: lighten;
-  background-image: conic-gradient(
-      from 140deg at calc(var(--bg-1-x) * 1%) 100%,
-      hsl(30deg 100% 5%),
-      hsl(238deg 100% 5%),
-      hsl(60deg 100% 99%),
-      hsl(248deg 100% 31%),
-      hsl(315deg 64% 51%),
-      hsl(25deg 95% 61%),
-      hsl(55deg 100% 75%),
-      hsl(60deg 100% 99%),
-      hsl(199deg 94% 74%),
-      hsl(236deg 95% 28%),
-      hsl(244deg 100% 4%)
-    ),
-    radial-gradient(
-      ellipse at calc(var(--bg-2-x) * 1%) calc(var(--bg-2-y) * 1%),
-      white 12%,
-      transparent 35%
-    ),
-    radial-gradient(
-      ellipse at calc(var(--bg-3-x) * 1%) calc(var(--bg-3-y) * 1%),
-      hsl(212deg 94% 68%),
-      transparent 35%
-    );
+  @include animatedBg(calc(50 / 2),calc(80 / 2),calc(70 / 2),calc(40 / 2),calc(90 / 2));
   background-repeat: repeat;
   background-size: contain;
   background-blend-mode: color-burn;
@@ -156,43 +138,23 @@ const { t } = useI18n()
 
 @keyframes bg {
   0% {
-    --bg-1-x: calc(50 / 2);
-    --bg-2-y: calc(80 / 2);
-    --bg-2-x: calc(70 / 2);
-    --bg-3-y: calc(40 / 2);
-    --bg-3-x: calc(90 / 2);
+    @include animatedBg(calc(50 / 2),calc(80 / 2),calc(70 / 2),calc(40 / 2),calc(90 / 2));
   }
 
   25% {
-    --bg-1-x: 30;
-    --bg-2-y: 50;
-    --bg-2-x: 80;
-    --bg-3-y: 20;
-    --bg-3-x: 70;
+    @include animatedBg(30,50,80,20,70);
   }
 
   50% {
-    --bg-1-x: 10;
-    --bg-2-y: 40;
-    --bg-2-x: 30;
-    --bg-3-y: 80;
-    --bg-3-x: 50;
+    @include animatedBg(10,40,30,80,50);
   }
 
   75% {
-    --bg-1-x: 70;
-    --bg-2-y: 10;
-    --bg-2-x: 50;
-    --bg-3-y: 30;
-    --bg-3-x: 40;
+    @include animatedBg(70,10,50,30,40);
   }
 
   100% {
-    --bg-1-x: calc(50 / 2);
-    --bg-2-y: calc(80 / 2);
-    --bg-2-x: calc(70 / 2);
-    --bg-3-y: calc(40 / 2);
-    --bg-3-x: calc(90 / 2);
+    @include animatedBg(calc(50 / 2),calc(80 / 2),calc(70 / 2),calc(40 / 2),calc(90 / 2));
   }
 }
 </style>
