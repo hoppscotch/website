@@ -1,6 +1,6 @@
 <template>
   <div
-    class="absolute inset-0 flex items-center justify-center border-y border-dividerLight -z-1 full-width animated-grid"
+    class="absolute bg-primary inset-0 flex items-center justify-center border-y border-dividerLight -z-1 full-width animated-grid"
   ></div>
 </template>
 

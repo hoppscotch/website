@@ -1,5 +1,6 @@
 import { plugin as VueTippy } from "vue-tippy"
 import type { UserModule } from "~/types"
+
 import "tippy.js/dist/tippy.css" // optional for styling
 
 export const install: UserModule = ({ app }) => {
