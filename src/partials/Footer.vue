@@ -2,7 +2,7 @@
   <footer>
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
       <!-- Blocks -->
-      <div class="grid gap-8 py-8 sm:grid-cols-12 md:py-12">
+      <div class="py-8 grid gap-8 sm:grid-cols-12 md:py-12">
         <!-- 1st block -->
         <div class="order-1 sm:col-span-12 lg:col-span-4 lg:order-none">
           <div
@@ -33,7 +33,7 @@
             <ul class="flex">
               <li>
                 <a
-                  class="flex items-center justify-center text-purple-500 transition duration-150 ease-in-out rounded-full hover:text-purple-400"
+                  class="flex items-center justify-center text-purple-500 rounded-full transition duration-150 ease-in-out hover:text-purple-400"
                   href="https://hoppscotch.io/twitter"
                   aria-label="Twitter"
                   target="_blank"
@@ -43,7 +43,7 @@
               </li>
               <li class="ml-2">
                 <a
-                  class="flex items-center justify-center text-purple-500 transition duration-150 ease-in-out rounded-full hover:text-purple-400"
+                  class="flex items-center justify-center text-purple-500 rounded-full transition duration-150 ease-in-out hover:text-purple-400"
                   href="https://hoppscotch.io/github"
                   aria-label="Github"
                   target="_blank"
@@ -58,38 +58,38 @@
         <!-- 2nd block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2 text-sm font-medium text-slate-50">Products</h6>
-          <ul class="space-y-2 text-sm">
+          <ul class="text-sm space-y-2">
             <li>
               <a
-                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
+                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
                 >Features</a
               >
             </li>
             <li>
               <a
-                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
+                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
                 >Integrations</a
               >
             </li>
             <li>
               <a
-                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
+                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
                 >Pricing & Plans</a
               >
             </li>
             <li>
               <a
-                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
+                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
                 >Changelog</a
               >
             </li>
             <li>
               <a
-                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
+                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
                 >Our method</a
               >
@@ -100,38 +100,38 @@
         <!-- 3rd block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2 text-sm font-medium text-slate-50">Company</h6>
-          <ul class="space-y-2 text-sm">
+          <ul class="text-sm space-y-2">
             <li>
               <a
-                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
+                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
                 >About us</a
               >
             </li>
             <li>
               <a
-                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
+                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
                 >Diversity & Inclusion</a
               >
             </li>
             <li>
               <a
-                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
+                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
                 >Blog</a
               >
             </li>
             <li>
               <a
-                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
+                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
                 >Careers</a
               >
             </li>
             <li>
               <a
-                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
+                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
                 >Financial statements</a
               >
@@ -142,24 +142,24 @@
         <!-- 4th block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2 text-sm font-medium text-slate-50">Resources</h6>
-          <ul class="space-y-2 text-sm">
+          <ul class="text-sm space-y-2">
             <li>
               <a
-                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
+                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
                 >Community</a
               >
             </li>
             <li>
               <a
-                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
+                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
                 >Terms of service</a
               >
             </li>
             <li>
               <a
-                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
+                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
                 >Report a vulnerability</a
               >
@@ -170,31 +170,31 @@
         <!-- 5th block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2 text-sm font-medium text-slate-50">Legals</h6>
-          <ul class="space-y-2 text-sm">
+          <ul class="text-sm space-y-2">
             <li>
               <a
-                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
+                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
                 >Refund policy</a
               >
             </li>
             <li>
               <a
-                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
+                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
                 >Terms & Conditions</a
               >
             </li>
             <li>
               <a
-                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
+                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
                 >Privacy policy</a
               >
             </li>
             <li>
               <a
-                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
+                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
                 >Brand Kit</a
               >

@@ -24,9 +24,9 @@
               class="absolute top-0 left-1/2 -translate-x-1/2 w-[480px] h-[480px] -z-10 pointer-events-none before:rounded-full rounded-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-slate-400/20 before:to-transparent before:to-20% after:rounded-full after:absolute after:inset-0 after:bg-slate-900 after:m-px before:-z-20 after:-z-20"
               enter-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-700 order-first"
               enter-from-class="opacity-0 -rotate-[60deg]"
-              enter-to-class="rotate-0 opacity-100"
+              enter-to-class="opacity-100 rotate-0"
               leave-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-700"
-              leave-from-class="rotate-0 opacity-100"
+              leave-from-class="opacity-100 rotate-0"
               leave-to-class="opacity-0 rotate-[60deg]"
             >
               <template :key="index" v-for="(item, index) in items">
@@ -35,7 +35,7 @@
                   class="absolute inset-0 h-full -z-10"
                 >
                   <img
-                    class="relative -translate-x-1/2 rounded-full top-11 left-1/2"
+                    class="relative rounded-full -translate-x-1/2 top-11 left-1/2"
                     :src="item.img"
                     width="56"
                     height="56"
@@ -51,11 +51,11 @@
               tag="div"
               class="relative flex flex-col"
               enter-active-class="order-first transition duration-500 ease-in-out delay-200"
-              enter-from-class="-translate-x-4 opacity-0"
-              enter-to-class="translate-x-0 opacity-100"
+              enter-from-class="opacity-0 -translate-x-4"
+              enter-to-class="opacity-100 translate-x-0"
               leave-active-class="absolute transition duration-300 ease-out delay-300"
-              leave-from-class="translate-x-0 opacity-100"
-              leave-to-class="translate-x-4 opacity-0"
+              leave-from-class="opacity-100 translate-x-0"
+              leave-to-class="opacity-0 translate-x-4"
             >
               <template :key="index" v-for="(item, index) in items">
                 <div v-show="active === index">

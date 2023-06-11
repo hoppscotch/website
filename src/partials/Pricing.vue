@@ -93,7 +93,7 @@
                       </label>
                     </div>
                     <div class="ml-2 text-sm font-medium text-slate-500">
-                      Yearly <span class="text-teal-500">(-20%)</span>
+                      Yearly (<span class="text-teal-500">-20%</span>)
                     </div>
                   </div>
                 </div>
@@ -124,8 +124,9 @@
                   Get Started
                   <span
                     class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-                    ><icon-lucide-arrow-right
-                  /></span>
+                  >
+                    <icon-lucide-arrow-right />
+                  </span>
                 </a>
               </div>
             </div>
@@ -154,8 +155,9 @@
                   Get Started
                   <span
                     class="tracking-normal text-purple-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-                    ><icon-lucide-arrow-right
-                  /></span>
+                  >
+                    <icon-lucide-arrow-right />
+                  </span>
                 </a>
               </div>
             </div>
@@ -184,8 +186,9 @@
                   Get Started
                   <span
                     class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-                    ><icon-lucide-arrow-right
-                  /></span>
+                  >
+                    <icon-lucide-arrow-right />
+                  </span>
                 </a>
               </div>
             </div>
@@ -218,16 +221,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span
                   >100 <span class="md:hidden">Social Connections</span></span
                 >
@@ -237,16 +231,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span
                   >250 <span class="md:hidden">Social Connections</span></span
                 >
@@ -256,16 +241,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span
                   >Unlimited
                   <span class="md:hidden">Social Connections</span></span
@@ -282,16 +258,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span>4 <span class="md:hidden">Custom Domains</span></span>
               </div>
             </div>
@@ -299,16 +266,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span
                   >Unlimited <span class="md:hidden">Custom Domains</span></span
                 >
@@ -318,16 +276,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span
                   >Unlimited <span class="md:hidden">Custom Domains</span></span
                 >
@@ -343,16 +292,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span
                   >Unlimited
                   <span class="md:hidden">User Role Management</span></span
@@ -363,16 +303,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span
                   >Unlimited
                   <span class="md:hidden">User Role Management</span></span
@@ -383,16 +314,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span
                   >Unlimited
                   <span class="md:hidden">User Role Management</span></span
@@ -409,16 +331,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span>1 <span class="md:hidden">External Databases</span></span>
               </div>
             </div>
@@ -426,16 +339,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span>5 <span class="md:hidden">External Databases</span></span>
               </div>
             </div>
@@ -443,16 +347,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span
                   >Unlimited
                   <span class="md:hidden">External Databases</span></span
@@ -488,16 +383,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span><span class="md:hidden">Custom Connection</span></span>
               </div>
             </div>
@@ -505,16 +391,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span><span class="md:hidden">Custom Connection</span></span>
               </div>
             </div>
@@ -522,16 +399,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span><span class="md:hidden">Custom Connection</span></span>
               </div>
             </div>
@@ -545,16 +413,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span
                   ><span class="md:hidden"
                     >Advanced Deployment Options</span
@@ -566,16 +425,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span
                   ><span class="md:hidden"
                     >Advanced Deployment Options</span
@@ -587,16 +437,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span
                   ><span class="md:hidden"
                     >Advanced Deployment Options</span
@@ -614,16 +455,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span><span class="md:hidden">Extra Add-ons</span></span>
               </div>
             </div>
@@ -631,16 +463,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span><span class="md:hidden">Extra Add-ons</span></span>
               </div>
             </div>
@@ -648,16 +471,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span><span class="md:hidden">Extra Add-ons</span></span>
               </div>
             </div>
@@ -685,16 +499,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span><span class="md:hidden">Admin Roles</span></span>
               </div>
             </div>
@@ -722,16 +527,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span><span class="md:hidden">Deploy and Monitor</span></span>
               </div>
             </div>
@@ -759,16 +555,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span><span class="md:hidden">Enterprise Add-ons</span></span>
               </div>
             </div>
@@ -808,16 +595,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span><span class="md:hidden">Premium Support</span></span>
               </div>
             </div>
@@ -825,16 +603,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-purple-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="9"
-                >
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  />
-                </svg>
+                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
                 <span><span class="md:hidden">Premium Support</span></span>
               </div>
             </div>

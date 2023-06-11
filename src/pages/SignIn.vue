@@ -3,7 +3,7 @@
     <section class="relative">
       <!-- Illustration -->
       <div
-        class="absolute -translate-x-1/2 pointer-events-none md:block left-1/2 -mt-36 blur-2xl opacity-70 -z-10"
+        class="absolute pointer-events-none -translate-x-1/2 md:block left-1/2 -mt-36 blur-2xl opacity-70 -z-10"
         aria-hidden="true"
       >
         <img
@@ -89,8 +89,9 @@
                   Sign In
                   <span
                     class="tracking-normal text-purple-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-                    ><icon-lucide-arrow-right
-                  /></span>
+                  >
+                    <icon-lucide-arrow-right />
+                  </span>
                 </button>
               </div>
             </form>

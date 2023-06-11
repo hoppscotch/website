@@ -2,7 +2,7 @@
   <section class="relative">
     <!-- Blurred shape -->
     <div
-      class="absolute top-0 -translate-x-1/2 opacity-50 pointer-events-none -translate-y-1/4 left-1/2 blur-2xl -z-10"
+      class="absolute top-0 opacity-50 pointer-events-none -translate-x-1/2 -translate-y-1/4 left-1/2 blur-2xl -z-10"
       aria-hidden="true"
     >
       <svg xmlns="http://www.w3.org/2000/svg" width="434" height="427">
@@ -52,7 +52,7 @@
                 >
                   <!-- Radial gradient -->
                   <div
-                    class="absolute bottom-0 w-1/2 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                    class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                     aria-hidden="true"
                   >
                     <div

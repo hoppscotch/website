@@ -22,26 +22,26 @@
           </div>
           <!-- Desktop menu links -->
           <ul
-            class="flex-wrap items-center justify-center hidden px-3 space-x-2 overflow-hidden rounded-full p- md:flex bg-black/10 backdrop-blur"
+            class="flex-wrap items-center justify-center hidden px-3 overflow-hidden rounded-full space-x-2 p- md:flex bg-black/10 backdrop-blur"
           >
             <li>
               <router-link
                 to="/solutions"
-                class="px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white"
+                class="px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white"
                 >Solutions</router-link
               >
             </li>
             <li>
               <router-link
                 to="/product"
-                class="px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white"
+                class="px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white"
                 >Product</router-link
               >
             </li>
             <li>
               <router-link
                 to="/company"
-                class="px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white"
+                class="px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white"
                 >Company</router-link
               >
             </li>
@@ -50,7 +50,7 @@
           <ul class="flex flex-wrap items-center justify-end flex-1">
             <li>
               <router-link
-                class="px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white"
+                class="px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white"
                 to="/signin"
                 >Sign in</router-link
               >
@@ -64,8 +64,9 @@
                   Sign up
                   <span
                     class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-                    ><icon-lucide-arrow-right
-                  /></span>
+                  >
+                    <icon-lucide-arrow-right />
+                  </span>
                 </span>
               </router-link>
             </li>

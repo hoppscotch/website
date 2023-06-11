@@ -46,7 +46,7 @@
                   />
                   <!-- Radial gradient -->
                   <div
-                    class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                    class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                     aria-hidden="true"
                   >
                     <div
@@ -70,13 +70,15 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white group"
                         href="#0"
                         >Learn More
                         <span
                           class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-                          ><icon-lucide-arrow-right /></span
-                      ></a>
+                        >
+                          <icon-lucide-arrow-right />
+                        </span>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -93,7 +95,7 @@
                   />
                   <!-- Radial gradient -->
                   <div
-                    class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                    class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                     aria-hidden="true"
                   >
                     <div
@@ -117,13 +119,15 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white group"
                         href="#0"
                         >Learn More
                         <span
                           class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-                          ><icon-lucide-arrow-right /></span
-                      ></a>
+                        >
+                          <icon-lucide-arrow-right />
+                        </span>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -140,7 +144,7 @@
                   />
                   <!-- Radial gradient -->
                   <div
-                    class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                    class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                     aria-hidden="true"
                   >
                     <div
@@ -166,13 +170,15 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white group"
                         href="#0"
                         >Learn More
                         <span
                           class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-                          ><icon-lucide-arrow-right /></span
-                      ></a>
+                        >
+                          <icon-lucide-arrow-right />
+                        </span>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -189,7 +195,7 @@
                   />
                   <!-- Radial gradient -->
                   <div
-                    class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                    class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                     aria-hidden="true"
                   >
                     <div
@@ -215,13 +221,15 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white group"
                         href="#0"
                         >Learn More
                         <span
                           class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-                          ><icon-lucide-arrow-right /></span
-                      ></a>
+                        >
+                          <icon-lucide-arrow-right />
+                        </span>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -238,7 +246,7 @@
                   />
                   <!-- Radial gradient -->
                   <div
-                    class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                    class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                     aria-hidden="true"
                   >
                     <div
@@ -262,13 +270,15 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white group"
                         href="#0"
                         >Learn More
                         <span
                           class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-                          ><icon-lucide-arrow-right /></span
-                      ></a>
+                        >
+                          <icon-lucide-arrow-right />
+                        </span>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -283,27 +293,17 @@
             class="relative z-20 flex items-center justify-center w-12 h-12 rounded-full carousel-prev group"
           >
             <span class="sr-only">Previous</span>
-            <svg
+            <icon-lucide-arrow-left
               class="w-4 h-4 transition duration-150 ease-in-out fill-slate-500 group-hover:fill-purple-500"
-              viewBox="0 0 16 16"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M6.7 14.7l1.4-1.4L3.8 9H16V7H3.8l4.3-4.3-1.4-1.4L0 8z" />
-            </svg>
+            />
           </button>
           <button
             class="relative z-20 flex items-center justify-center w-12 h-12 rounded-full carousel-next group"
           >
             <span class="sr-only">Next</span>
-            <svg
+            <icon-lucide-arrow-right
               class="w-4 h-4 transition duration-150 ease-in-out fill-slate-500 group-hover:fill-purple-500"
-              viewBox="0 0 16 16"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M9.3 14.7l-1.4-1.4L12.2 9H0V7h12.2L7.9 2.7l1.4-1.4L16 8z"
-              />
-            </svg>
+            />
           </button>
         </div>
       </div>

@@ -36,8 +36,9 @@
                   Self-Host support is now in beta
                   <span
                     class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-                    ><icon-lucide-arrow-right
-                  /></span>
+                  >
+                    <icon-lucide-arrow-right />
+                  </span>
                 </span>
               </a>
             </div>
@@ -70,8 +71,9 @@
                 Get Started
                 <span
                   class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-                  ><icon-lucide-arrow-right
-                /></span>
+                >
+                  <icon-lucide-arrow-right />
+                </span>
               </a>
             </div>
             <div>
