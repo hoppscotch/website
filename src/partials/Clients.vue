@@ -19,74 +19,84 @@
                 <img
                   src="../images/client-01.svg"
                   alt="Client 01"
-                  width="110"
-                  height="21"
+                  class="w-24"
                 />
               </div>
               <div class="swiper-slide !w-auto">
                 <img
                   src="../images/client-02.svg"
                   alt="Client 02"
-                  width="70"
-                  height="25"
+                  class="w-24"
                 />
               </div>
               <div class="swiper-slide !w-auto">
                 <img
-                  class="mt-1"
                   src="../images/client-03.svg"
                   alt="Client 03"
-                  width="107"
-                  height="33"
+                  class="w-24"
                 />
               </div>
               <div class="swiper-slide !w-auto">
                 <img
                   src="../images/client-04.svg"
                   alt="Client 04"
-                  width="85"
-                  height="36"
+                  class="w-24"
                 />
               </div>
               <div class="swiper-slide !w-auto">
                 <img
                   src="../images/client-05.svg"
                   alt="Client 05"
-                  width="86"
-                  height="18"
+                  class="w-24"
                 />
               </div>
               <div class="swiper-slide !w-auto">
                 <img
                   src="../images/client-06.svg"
                   alt="Client 06"
-                  width="78"
-                  height="34"
+                  class="w-24"
                 />
               </div>
               <div class="swiper-slide !w-auto">
                 <img
                   src="../images/client-07.svg"
                   alt="Client 07"
-                  width="83"
-                  height="23"
+                  class="w-24"
                 />
               </div>
               <div class="swiper-slide !w-auto">
                 <img
                   src="../images/client-08.svg"
                   alt="Client 08"
-                  width="98"
-                  height="26"
+                  class="w-24"
                 />
               </div>
               <div class="swiper-slide !w-auto">
                 <img
-                  class="mt-2"
                   src="../images/client-09.svg"
                   alt="Client 09"
-                  width="92"
-                  height="28"
+                  class="w-24"
+                />
+              </div>
+              <div class="swiper-slide !w-auto">
+                <img
+                  src="../images/client-10.svg"
+                  alt="Client 10"
+                  class="w-24"
+                />
+              </div>
+              <div class="swiper-slide !w-auto">
+                <img
+                  src="../images/client-11.svg"
+                  alt="Client 11"
+                  class="w-24"
+                />
+              </div>
+              <div class="swiper-slide !w-auto">
+                <img
+                  src="../images/client-12.svg"
+                  alt="Client 12"
+                  class="w-24"
                 />
               </div>
             </div>

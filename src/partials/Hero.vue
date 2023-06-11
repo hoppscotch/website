@@ -36,8 +36,8 @@
                   Self-Host support is now in beta
                   <span
                     class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-                    >-&gt;</span
-                  >
+                    ><icon-lucide-arrow-right
+                  /></span>
                 </span>
               </a>
             </div>
@@ -70,26 +70,17 @@
                 Get Started
                 <span
                   class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-                  >-&gt;</span
-                >
+                  ><icon-lucide-arrow-right
+                /></span>
               </a>
             </div>
             <div>
               <a
-                class="w-full transition duration-150 ease-in-out bg-opacity-25 btn text-slate-200 hover:text-white bg-slate-900 hover:bg-opacity-30"
+                class="w-full transition duration-150 ease-in-out bg-opacity-10 btn text-slate-200 hover:text-white bg-slate-900 hover:bg-opacity-20"
                 href="https://docs.hoppscotch.io"
                 target="_blank"
               >
-                <svg
-                  class="mr-3 shrink-0 fill-slate-300"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                >
-                  <path
-                    d="m1.999 0 1 2-1 2 2-1 2 1-1-2 1-2-2 1zM11.999 0l1 2-1 2 2-1 2 1-1-2 1-2-2 1zM11.999 10l1 2-1 2 2-1 2 1-1-2 1-2-2 1zM6.292 7.586l2.646-2.647L11.06 7.06 8.413 9.707zM0 13.878l5.586-5.586 2.122 2.121L2.12 16z"
-                  />
-                </svg>
+                <icon-lucide-wand-2 class="mr-2" />
                 <span>Read the docs</span>
               </a>
             </div>

@@ -2,31 +2,60 @@
   <header class="absolute z-30 w-full">
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
       <div class="flex items-center justify-between h-16 md:h-20">
-        <!-- Site branding -->
-        <div class="mr-4 shrink-0">
-          <!-- Logo -->
-          <router-link class="block" to="/" aria-label="Cruip">
-            <img
-              src="../images/logo.svg"
-              width="38"
-              height="38"
-              alt="Stellar"
-            />
-          </router-link>
-        </div>
-
         <!-- Desktop navigation -->
         <nav class="flex grow">
-          <!-- Desktop sign in links -->
-          <ul class="flex flex-wrap items-center justify-end grow">
+          <!-- Site branding -->
+          <div class="flex flex-wrap items-center flex-1">
+            <!-- Logo -->
+            <router-link
+              class="flex items-center justify-center rounded-full"
+              to="/"
+              aria-label="Hoppscotch"
+            >
+              <img
+                src="../images/logo.svg"
+                width="38"
+                height="38"
+                alt="Stellar"
+              />
+            </router-link>
+          </div>
+          <!-- Desktop menu links -->
+          <ul
+            class="flex-wrap items-center justify-center hidden px-3 space-x-2 overflow-hidden rounded-full p- md:flex bg-black/10 backdrop-blur"
+          >
             <li>
               <router-link
-                class="text-sm font-medium transition duration-150 ease-in-out text-slate-300 hover:text-white"
+                to="/solutions"
+                class="px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white"
+                >Solutions</router-link
+              >
+            </li>
+            <li>
+              <router-link
+                to="/product"
+                class="px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white"
+                >Product</router-link
+              >
+            </li>
+            <li>
+              <router-link
+                to="/company"
+                class="px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white"
+                >Company</router-link
+              >
+            </li>
+          </ul>
+          <!-- Desktop sign in links -->
+          <ul class="flex flex-wrap items-center justify-end flex-1">
+            <li>
+              <router-link
+                class="px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white"
                 to="/signin"
                 >Sign in</router-link
               >
             </li>
-            <li class="ml-6">
+            <li class="ml-4">
               <router-link
                 class="btn-sm text-slate-300 hover:text-white transition duration-150 ease-in-out w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none"
                 to="/signup"
@@ -35,8 +64,8 @@
                   Sign up
                   <span
                     class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-                    >-&gt;</span
-                  >
+                    ><icon-lucide-arrow-right
+                  /></span>
                 </span>
               </router-link>
             </li>

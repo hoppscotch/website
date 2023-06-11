@@ -1,20 +1,25 @@
 import { defineConfig } from "vite"
 import vue from "@vitejs/plugin-vue"
+import Icons from "unplugin-icons/vite"
+import IconsResolver from "unplugin-icons/resolver"
+import Components from "unplugin-vue-components/vite"
 
 // https://vitejs.dev/config/
 export default defineConfig({
   define: {
     "process.env": process.env,
   },
-  plugins: [vue()],
-  resolve: {
-    alias: [
-      {
-        find: /^~.+/,
-        replacement: (val) => {
-          return val.replace(/^~/, "")
-        },
-      },
-    ],
-  },
+  plugins: [
+    vue(),
+    Components({
+      resolvers: [
+        IconsResolver({
+          prefix: "icon",
+        }),
+      ],
+    }),
+    Icons({
+      prefix: "icon",
+    }),
+  ],
 })

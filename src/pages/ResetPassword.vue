@@ -68,8 +68,8 @@
                   Reset Password
                   <span
                     class="tracking-normal text-purple-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-                    >-&gt;</span
-                  >
+                    ><icon-lucide-arrow-right
+                  /></span>
                 </button>
               </div>
             </form>

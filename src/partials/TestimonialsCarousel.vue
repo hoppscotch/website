@@ -70,14 +70,13 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center text-sm font-medium transition duration-150 ease-in-out text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white group"
                         href="#0"
                         >Learn More
                         <span
                           class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-                          >-&gt;</span
-                        ></a
-                      >
+                          ><icon-lucide-arrow-right /></span
+                      ></a>
                     </div>
                   </div>
                 </div>
@@ -118,14 +117,13 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center text-sm font-medium transition duration-150 ease-in-out text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white group"
                         href="#0"
                         >Learn More
                         <span
                           class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-                          >-&gt;</span
-                        ></a
-                      >
+                          ><icon-lucide-arrow-right /></span
+                      ></a>
                     </div>
                   </div>
                 </div>
@@ -168,14 +166,13 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center text-sm font-medium transition duration-150 ease-in-out text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white group"
                         href="#0"
                         >Learn More
                         <span
                           class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-                          >-&gt;</span
-                        ></a
-                      >
+                          ><icon-lucide-arrow-right /></span
+                      ></a>
                     </div>
                   </div>
                 </div>
@@ -218,14 +215,13 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center text-sm font-medium transition duration-150 ease-in-out text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white group"
                         href="#0"
                         >Learn More
                         <span
                           class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-                          >-&gt;</span
-                        ></a
-                      >
+                          ><icon-lucide-arrow-right /></span
+                      ></a>
                     </div>
                   </div>
                 </div>
@@ -266,14 +262,13 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center text-sm font-medium transition duration-150 ease-in-out text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white group"
                         href="#0"
                         >Learn More
                         <span
                           class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-                          >-&gt;</span
-                        ></a
-                      >
+                          ><icon-lucide-arrow-right /></span
+                      ></a>
                     </div>
                   </div>
                 </div>
@@ -285,7 +280,7 @@
         <!-- Arrows -->
         <div class="flex justify-end mt-8">
           <button
-            class="relative z-20 flex items-center justify-center w-12 h-12 carousel-prev group"
+            class="relative z-20 flex items-center justify-center w-12 h-12 rounded-full carousel-prev group"
           >
             <span class="sr-only">Previous</span>
             <svg
@@ -297,7 +292,7 @@
             </svg>
           </button>
           <button
-            class="relative z-20 flex items-center justify-center w-12 h-12 carousel-next group"
+            class="relative z-20 flex items-center justify-center w-12 h-12 rounded-full carousel-next group"
           >
             <span class="sr-only">Next</span>
             <svg
