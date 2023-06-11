@@ -92,14 +92,3 @@
     </div>
   </section>
 </template>
-
-<script>
-import Particles from "./Particles.vue"
-
-export default {
-  name: "Hero",
-  components: {
-    Particles,
-  },
-}
-</script>

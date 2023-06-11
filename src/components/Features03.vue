@@ -74,16 +74,3 @@
     </div>
   </section>
 </template>
-
-<script>
-import Highlighter from "./Highlighter.vue"
-import HighlighterItem from "./HighlighterItem.vue"
-
-export default {
-  name: "Features03",
-  components: {
-    Highlighter,
-    HighlighterItem,
-  },
-}
-</script>

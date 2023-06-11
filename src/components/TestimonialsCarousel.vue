@@ -294,7 +294,7 @@
           >
             <span class="sr-only">Previous</span>
             <icon-lucide-arrow-left
-              class="w-4 h-4 transition duration-150 ease-in-out fill-slate-500 group-hover:fill-purple-500"
+              class="w-4 h-4 transition duration-150 ease-in-out text-slate-500 group-hover:text-purple-500"
             />
           </button>
           <button
@@ -302,7 +302,7 @@
           >
             <span class="sr-only">Next</span>
             <icon-lucide-arrow-right
-              class="w-4 h-4 transition duration-150 ease-in-out fill-slate-500 group-hover:fill-purple-500"
+              class="w-4 h-4 transition duration-150 ease-in-out text-slate-500 group-hover:text-purple-500"
             />
           </button>
         </div>
@@ -311,56 +311,41 @@
   </section>
 </template>
 
-<script>
+<script setup>
 import { onMounted, ref } from "vue"
-import Particles from "./Particles.vue"
-import Highlighter from "./Highlighter.vue"
-import HighlighterItem from "./HighlighterItem.vue"
 
 // Import Swiper
 import Swiper, { Navigation } from "swiper"
 import "swiper/css"
+
 Swiper.use([Navigation])
 
-export default {
-  name: "TestimonialsCarousel",
-  components: {
-    Particles,
-    Highlighter,
-    HighlighterItem,
-  },
-  setup() {
-    const swiperInitialized = ref(false)
+const swiperInitialized = ref(false)
 
-    onMounted(() => {
-      const carousel = new Swiper(".testimonials-carousel", {
-        breakpoints: {
-          320: {
-            slidesPerView: 1,
-          },
-          640: {
-            slidesPerView: 2,
-          },
-          1024: {
-            slidesPerView: 3,
-          },
-        },
-        grabCursor: true,
-        loop: false,
-        centeredSlides: false,
-        initialSlide: 0,
-        spaceBetween: 24,
-        navigation: {
-          nextEl: ".carousel-next",
-          prevEl: ".carousel-prev",
-        },
-      })
-      swiperInitialized.value = true
-    })
+onMounted(() => {
+  new Swiper(".testimonials-carousel", {
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+      },
+      640: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+    },
+    grabCursor: true,
+    loop: false,
+    centeredSlides: false,
+    initialSlide: 0,
+    spaceBetween: 24,
+    navigation: {
+      nextEl: ".carousel-next",
+      prevEl: ".carousel-prev",
+    },
+  })
 
-    return {
-      swiperInitialized,
-    }
-  },
-}
+  swiperInitialized.value = true
+})
 </script>

@@ -39,7 +39,7 @@
         <div class="relative">
           <!-- Blurred shape -->
           <div
-            class="absolute bottom-0 -mb-20 -translate-x-1/2 pointer-events-none max-md:hidden left-2/3 blur-2xl opacity-70"
+            class="absolute bottom-0 -mb-20 pointer-events-none -translate-x-1/2 max-md:hidden left-2/3 blur-2xl opacity-70"
             aria-hidden="true"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="434" height="427">
@@ -149,7 +149,7 @@
               </div>
               <div class="pb-4 border-b border-slate-800">
                 <a
-                  class="w-full text-white transition duration-150 ease-in-out bg-purple-500 btn-sm hover:bg-purple-600 group"
+                  class="w-full text-white bg-purple-500 transition duration-150 ease-in-out btn-sm hover:bg-purple-600 group"
                   href="#0"
                 >
                   Get Started
@@ -221,7 +221,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
                   >100 <span class="md:hidden">Social Connections</span></span
                 >
@@ -231,7 +231,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
                   >250 <span class="md:hidden">Social Connections</span></span
                 >
@@ -241,7 +241,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
                   >Unlimited
                   <span class="md:hidden">Social Connections</span></span
@@ -258,7 +258,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span>4 <span class="md:hidden">Custom Domains</span></span>
               </div>
             </div>
@@ -266,7 +266,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
                   >Unlimited <span class="md:hidden">Custom Domains</span></span
                 >
@@ -276,7 +276,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
                   >Unlimited <span class="md:hidden">Custom Domains</span></span
                 >
@@ -292,7 +292,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
                   >Unlimited
                   <span class="md:hidden">User Role Management</span></span
@@ -303,7 +303,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
                   >Unlimited
                   <span class="md:hidden">User Role Management</span></span
@@ -314,7 +314,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
                   >Unlimited
                   <span class="md:hidden">User Role Management</span></span
@@ -331,7 +331,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span>1 <span class="md:hidden">External Databases</span></span>
               </div>
             </div>
@@ -339,7 +339,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span>5 <span class="md:hidden">External Databases</span></span>
               </div>
             </div>
@@ -347,7 +347,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
                   >Unlimited
                   <span class="md:hidden">External Databases</span></span
@@ -383,7 +383,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Custom Connection</span></span>
               </div>
             </div>
@@ -391,7 +391,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Custom Connection</span></span>
               </div>
             </div>
@@ -399,7 +399,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Custom Connection</span></span>
               </div>
             </div>
@@ -413,7 +413,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
                   ><span class="md:hidden"
                     >Advanced Deployment Options</span
@@ -425,7 +425,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
                   ><span class="md:hidden"
                     >Advanced Deployment Options</span
@@ -437,7 +437,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
                   ><span class="md:hidden"
                     >Advanced Deployment Options</span
@@ -455,7 +455,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Extra Add-ons</span></span>
               </div>
             </div>
@@ -463,7 +463,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Extra Add-ons</span></span>
               </div>
             </div>
@@ -471,7 +471,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Extra Add-ons</span></span>
               </div>
             </div>
@@ -499,7 +499,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Admin Roles</span></span>
               </div>
             </div>
@@ -527,7 +527,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Deploy and Monitor</span></span>
               </div>
             </div>
@@ -555,7 +555,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Enterprise Add-ons</span></span>
               </div>
             </div>
@@ -595,7 +595,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Premium Support</span></span>
               </div>
             </div>
@@ -603,7 +603,7 @@
               <div
                 class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 shrink-0 fill-purple-500" />
+                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Premium Support</span></span>
               </div>
             </div>
@@ -614,17 +614,8 @@
   </section>
 </template>
 
-<script>
+<script setup>
 import { ref } from "vue"
 
-export default {
-  name: "Pricing",
-  setup() {
-    const annual = ref(true)
-
-    return {
-      annual,
-    }
-  },
-}
+const annual = ref(true)
 </script>

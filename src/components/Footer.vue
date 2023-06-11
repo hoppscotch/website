@@ -25,15 +25,16 @@
                 </router-link>
               </div>
               <div class="text-sm text-slate-300">
-                &copy; Hoppscotch.com <span class="text-slate-500">-</span> All
-                rights reserved.
+                &copy; Hoppscotch
+                <span class="text-slate-500">•</span>
+                All rights reserved.
               </div>
             </div>
             <!-- Social links -->
             <ul class="flex">
               <li>
                 <a
-                  class="flex items-center justify-center text-purple-500 rounded-full transition duration-150 ease-in-out hover:text-purple-400"
+                  class="flex items-center justify-center rounded-full transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                   href="https://hoppscotch.io/twitter"
                   aria-label="Twitter"
                   target="_blank"
@@ -43,7 +44,7 @@
               </li>
               <li class="ml-2">
                 <a
-                  class="flex items-center justify-center text-purple-500 rounded-full transition duration-150 ease-in-out hover:text-purple-400"
+                  class="flex items-center justify-center rounded-full transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                   href="https://hoppscotch.io/github"
                   aria-label="Github"
                   target="_blank"
@@ -57,47 +58,83 @@
 
         <!-- 2nd block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          <h6 class="mb-2 text-sm font-medium text-slate-50">Solutions</h6>
+          <ul class="text-sm space-y-2">
+            <li>
+              <a
+                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                href="#0"
+              >
+                API Design
+              </a>
+            </li>
+            <li>
+              <a
+                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                href="#0"
+              >
+                API Documentation
+              </a>
+            </li>
+            <li>
+              <a
+                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                href="#0"
+              >
+                API Testing
+              </a>
+            </li>
+            <li>
+              <a
+                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                href="#0"
+              >
+                API Monitoring
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 3rd block -->
+        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2 text-sm font-medium text-slate-50">Products</h6>
           <ul class="text-sm space-y-2">
             <li>
               <a
                 class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
-                >Features</a
               >
+                Features
+              </a>
             </li>
             <li>
               <a
                 class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
-                >Integrations</a
               >
+                Download
+              </a>
             </li>
             <li>
               <a
                 class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
-                >Pricing & Plans</a
               >
+                Changelog
+              </a>
             </li>
             <li>
               <a
                 class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
-                >Changelog</a
               >
-            </li>
-            <li>
-              <a
-                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
-                href="#0"
-                >Our method</a
-              >
+                Pricing & Plans
+              </a>
             </li>
           </ul>
         </div>
 
-        <!-- 3rd block -->
+        <!-- 4th block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2 text-sm font-medium text-slate-50">Company</h6>
           <ul class="text-sm space-y-2">
@@ -105,41 +142,38 @@
               <a
                 class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
-                >About us</a
               >
+                About us
+              </a>
             </li>
             <li>
               <a
                 class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
-                >Diversity & Inclusion</a
               >
+                Blog
+              </a>
             </li>
             <li>
               <a
                 class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
-                >Blog</a
               >
+                Careers
+              </a>
             </li>
             <li>
               <a
                 class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
-                >Careers</a
               >
-            </li>
-            <li>
-              <a
-                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
-                href="#0"
-                >Financial statements</a
-              >
+                Contact us
+              </a>
             </li>
           </ul>
         </div>
 
-        <!-- 4th block -->
+        <!-- 5th block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2 text-sm font-medium text-slate-50">Resources</h6>
           <ul class="text-sm space-y-2">
@@ -147,57 +181,33 @@
               <a
                 class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
-                >Community</a
               >
+                Documentation
+              </a>
             </li>
             <li>
               <a
                 class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
-                >Terms of service</a
               >
+                Community
+              </a>
             </li>
             <li>
               <a
                 class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
-                >Report a vulnerability</a
               >
-            </li>
-          </ul>
-        </div>
-
-        <!-- 5th block -->
-        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="mb-2 text-sm font-medium text-slate-50">Legals</h6>
-          <ul class="text-sm space-y-2">
-            <li>
-              <a
-                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
-                href="#0"
-                >Refund policy</a
-              >
+                Privacy Policy
+              </a>
             </li>
             <li>
               <a
                 class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
                 href="#0"
-                >Terms & Conditions</a
               >
-            </li>
-            <li>
-              <a
-                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
-                href="#0"
-                >Privacy policy</a
-              >
-            </li>
-            <li>
-              <a
-                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
-                href="#0"
-                >Brand Kit</a
-              >
+                Terms of Service
+              </a>
             </li>
           </ul>
         </div>
@@ -205,9 +215,3 @@
     </div>
   </footer>
 </template>
-
-<script>
-export default {
-  name: "Footer",
-}
-</script>

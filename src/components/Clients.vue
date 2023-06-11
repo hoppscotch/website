@@ -107,9 +107,8 @@
   </section>
 </template>
 
-<script>
+<script setup>
 import { onMounted } from "vue"
-import Particles from "./Particles.vue"
 
 // Import Swiper
 import Swiper, { Autoplay } from "swiper"
@@ -117,27 +116,19 @@ import "swiper/css"
 
 Swiper.use([Autoplay])
 
-export default {
-  name: "Clients",
-  components: {
-    Particles,
-  },
-  setup() {
-    onMounted(() => {
-      const carousel = new Swiper(".clients-carousel", {
-        slidesPerView: "auto",
-        spaceBetween: 64,
-        centeredSlides: true,
-        loop: true,
-        speed: 5000,
-        noSwiping: true,
-        noSwipingClass: "swiper-slide",
-        autoplay: {
-          delay: 0,
-          disableOnInteraction: true,
-        },
-      })
-    })
-  },
-}
+onMounted(() => {
+  const carousel = new Swiper(".clients-carousel", {
+    slidesPerView: "auto",
+    spaceBetween: 64,
+    centeredSlides: true,
+    loop: true,
+    speed: 5000,
+    noSwiping: true,
+    noSwipingClass: "swiper-slide",
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: true,
+    },
+  })
+})
 </script>

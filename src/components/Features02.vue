@@ -325,18 +325,3 @@
     </div>
   </section>
 </template>
-
-<script>
-import Particles from "./Particles.vue"
-import Highlighter from "./Highlighter.vue"
-import HighlighterItem from "./HighlighterItem.vue"
-
-export default {
-  name: "Features02",
-  components: {
-    Particles,
-    Highlighter,
-    HighlighterItem,
-  },
-}
-</script>

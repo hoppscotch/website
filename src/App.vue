@@ -2,17 +2,16 @@
   <router-view />
 </template>
 
-<script>
+<script setup>
 import AOS from "aos"
+import { onMounted } from "vue"
 
-export default {
-  mounted() {
-    AOS.init({
-      once: true,
-      disable: "phone",
-      duration: 500,
-      easing: "ease-out-cubic",
-    })
-  },
-}
+onMounted(() => {
+  AOS.init({
+    once: true,
+    disable: "phone",
+    duration: 500,
+    easing: "ease-out-cubic",
+  })
+})
 </script>

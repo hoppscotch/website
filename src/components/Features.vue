@@ -230,21 +230,8 @@
   </section>
 </template>
 
-<script>
+<script setup>
 import { ref } from "vue"
-import Particles from "./Particles.vue"
 
-export default {
-  name: "Features",
-  components: {
-    Particles,
-  },
-  setup() {
-    const tab = ref("1")
-
-    return {
-      tab,
-    }
-  },
-}
+const tab = ref("1")
 </script>
