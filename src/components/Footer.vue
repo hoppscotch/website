@@ -2,7 +2,7 @@
   <footer>
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
       <!-- Blocks -->
-      <div class="py-8 grid gap-8 sm:grid-cols-12 md:py-12">
+      <div class="grid gap-8 py-8 sm:grid-cols-12 md:py-12">
         <!-- 1st block -->
         <div class="order-1 sm:col-span-12 lg:col-span-4 lg:order-none">
           <div
@@ -11,7 +11,7 @@
             <div class="mb-4 sm:mb-0">
               <div class="mb-4">
                 <!-- Logo -->
-                <router-link
+                <RouterLink
                   class="inline-block rounded-full"
                   to="/"
                   aria-label="Hoppscotch"
@@ -22,7 +22,7 @@
                     height="38"
                     alt="Stellar"
                   />
-                </router-link>
+                </RouterLink>
               </div>
               <div class="text-sm text-slate-300">
                 &copy; Hoppscotch
@@ -34,7 +34,7 @@
             <ul class="flex">
               <li>
                 <a
-                  class="flex items-center justify-center rounded-full transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                  class="flex items-center justify-center transition duration-150 ease-in-out rounded-full text-slate-400 hover:text-slate-200"
                   href="https://hoppscotch.io/twitter"
                   aria-label="Twitter"
                   target="_blank"
@@ -44,7 +44,7 @@
               </li>
               <li class="ml-2">
                 <a
-                  class="flex items-center justify-center rounded-full transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                  class="flex items-center justify-center transition duration-150 ease-in-out rounded-full text-slate-400 hover:text-slate-200"
                   href="https://hoppscotch.io/github"
                   aria-label="Github"
                   target="_blank"
@@ -59,10 +59,10 @@
         <!-- 2nd block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2 text-sm font-medium text-slate-50">Solutions</h6>
-          <ul class="text-sm space-y-2">
+          <ul class="space-y-2 text-sm">
             <li>
               <a
-                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
                 href="#0"
               >
                 API Design
@@ -70,7 +70,7 @@
             </li>
             <li>
               <a
-                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
                 href="#0"
               >
                 API Documentation
@@ -78,7 +78,7 @@
             </li>
             <li>
               <a
-                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
                 href="#0"
               >
                 API Testing
@@ -86,7 +86,7 @@
             </li>
             <li>
               <a
-                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
                 href="#0"
               >
                 API Monitoring
@@ -98,10 +98,10 @@
         <!-- 3rd block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2 text-sm font-medium text-slate-50">Products</h6>
-          <ul class="text-sm space-y-2">
+          <ul class="space-y-2 text-sm">
             <li>
               <a
-                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
                 href="#0"
               >
                 Features
@@ -109,7 +109,7 @@
             </li>
             <li>
               <a
-                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
                 href="#0"
               >
                 Download
@@ -117,7 +117,7 @@
             </li>
             <li>
               <a
-                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
                 href="#0"
               >
                 Changelog
@@ -125,7 +125,7 @@
             </li>
             <li>
               <a
-                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
                 href="#0"
               >
                 Pricing & Plans
@@ -137,10 +137,10 @@
         <!-- 4th block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2 text-sm font-medium text-slate-50">Company</h6>
-          <ul class="text-sm space-y-2">
+          <ul class="space-y-2 text-sm">
             <li>
               <a
-                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
                 href="#0"
               >
                 About us
@@ -148,7 +148,7 @@
             </li>
             <li>
               <a
-                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
                 href="#0"
               >
                 Blog
@@ -156,7 +156,7 @@
             </li>
             <li>
               <a
-                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
                 href="#0"
               >
                 Careers
@@ -164,7 +164,7 @@
             </li>
             <li>
               <a
-                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
                 href="#0"
               >
                 Contact us
@@ -176,10 +176,10 @@
         <!-- 5th block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2 text-sm font-medium text-slate-50">Resources</h6>
-          <ul class="text-sm space-y-2">
+          <ul class="space-y-2 text-sm">
             <li>
               <a
-                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
                 href="#0"
               >
                 Documentation
@@ -187,7 +187,7 @@
             </li>
             <li>
               <a
-                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
                 href="#0"
               >
                 Community
@@ -195,7 +195,7 @@
             </li>
             <li>
               <a
-                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
                 href="#0"
               >
                 Privacy Policy
@@ -203,7 +203,7 @@
             </li>
             <li>
               <a
-                class="rounded transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out rounded text-slate-400 hover:text-slate-200"
                 href="#0"
               >
                 Terms of Service

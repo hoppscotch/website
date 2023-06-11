@@ -1,10 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router"
-import Home from "./pages/Home.vue"
-import SignIn from "./pages/SignIn.vue"
-import SignUp from "./pages/SignUp.vue"
-import ResetPassword from "./pages/ResetPassword.vue"
+import { setupLayouts } from "virtual:generated-layouts"
+import generatedRoutes from "virtual:generated-pages"
 
 const routerHistory = createWebHistory()
+const routes = setupLayouts(generatedRoutes)
 
 const router = createRouter({
   scrollBehavior(to) {
@@ -17,24 +16,7 @@ const router = createRouter({
     }
   },
   history: routerHistory,
-  routes: [
-    {
-      path: "/",
-      component: Home,
-    },
-    {
-      path: "/signin",
-      component: SignIn,
-    },
-    {
-      path: "/signup",
-      component: SignUp,
-    },
-    {
-      path: "/reset-password",
-      component: ResetPassword,
-    },
-  ],
+  routes,
 })
 
 export default router

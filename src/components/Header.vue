@@ -7,7 +7,7 @@
           <!-- Site branding -->
           <div class="flex flex-wrap items-center flex-1">
             <!-- Logo -->
-            <router-link
+            <RouterLink
               class="flex items-center justify-center rounded-full"
               to="/"
               aria-label="Hoppscotch"
@@ -18,47 +18,47 @@
                 height="38"
                 alt="Stellar"
               />
-            </router-link>
+            </RouterLink>
           </div>
           <!-- Desktop menu links -->
           <ul
             class="flex-wrap items-center justify-center hidden px-3 overflow-hidden rounded-full space-x-2 p- md:flex bg-black/10 backdrop-blur"
           >
             <li>
-              <router-link
+              <RouterLink
                 to="/solutions"
                 class="px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white"
-                >Solutions</router-link
+                >Solutions</RouterLink
               >
             </li>
             <li>
-              <router-link
+              <RouterLink
                 to="/product"
                 class="px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white"
-                >Product</router-link
+                >Product</RouterLink
               >
             </li>
             <li>
-              <router-link
+              <RouterLink
                 to="/company"
                 class="px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white"
-                >Company</router-link
+                >Company</RouterLink
               >
             </li>
           </ul>
           <!-- Desktop sign in links -->
           <ul class="flex flex-wrap items-center justify-end flex-1">
             <li>
-              <router-link
+              <RouterLink
                 class="px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white"
-                to="/signin"
-                >Sign in</router-link
+                to="/sign-in"
+                >Sign in</RouterLink
               >
             </li>
             <li class="ml-4">
-              <router-link
+              <RouterLink
                 class="btn-sm text-slate-300 hover:text-white transition duration-150 ease-in-out w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none"
-                to="/signup"
+                to="/sign-up"
               >
                 <span class="relative inline-flex items-center">
                   Sign up
@@ -68,7 +68,7 @@
                     <icon-lucide-arrow-right />
                   </span>
                 </span>
-              </router-link>
+              </RouterLink>
             </li>
           </ul>
         </nav>

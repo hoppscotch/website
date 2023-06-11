@@ -46,7 +46,7 @@
                   />
                   <!-- Radial gradient -->
                   <div
-                    class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
+                    class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
                     aria-hidden="true"
                   >
                     <div
@@ -61,7 +61,7 @@
                       height="56"
                       alt="Icon 01"
                     />
-                    <div class="grow">
+                    <div class="flex flex-col grow">
                       <div class="mb-1 text-lg font-bold">Anonymous User</div>
                       <div class="mb-3 text-slate-400">
                         Incorporate rich user profiling, and facilitate more
@@ -70,7 +70,7 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white group"
                         href="#0"
                         >Learn More
                         <span
@@ -95,7 +95,7 @@
                   />
                   <!-- Radial gradient -->
                   <div
-                    class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
+                    class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
                     aria-hidden="true"
                   >
                     <div
@@ -110,7 +110,7 @@
                       height="56"
                       alt="Icon 01"
                     />
-                    <div class="grow">
+                    <div class="flex flex-col grow">
                       <div class="mb-1 text-lg font-bold">Bot Detection</div>
                       <div class="mb-3 text-slate-400">
                         Incorporate rich user profiling, and facilitate more
@@ -119,7 +119,7 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white group"
                         href="#0"
                         >Learn More
                         <span
@@ -144,7 +144,7 @@
                   />
                   <!-- Radial gradient -->
                   <div
-                    class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
+                    class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
                     aria-hidden="true"
                   >
                     <div
@@ -159,7 +159,7 @@
                       height="56"
                       alt="Icon 01"
                     />
-                    <div class="grow">
+                    <div class="flex flex-col grow">
                       <div class="mb-1 text-lg font-bold">
                         Social integrations
                       </div>
@@ -170,7 +170,7 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white group"
                         href="#0"
                         >Learn More
                         <span
@@ -195,7 +195,7 @@
                   />
                   <!-- Radial gradient -->
                   <div
-                    class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
+                    class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
                     aria-hidden="true"
                   >
                     <div
@@ -210,7 +210,7 @@
                       height="56"
                       alt="Icon 01"
                     />
-                    <div class="grow">
+                    <div class="flex flex-col grow">
                       <div class="mb-1 text-lg font-bold">
                         Progressive Profiling
                       </div>
@@ -221,7 +221,7 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white group"
                         href="#0"
                         >Learn More
                         <span
@@ -246,7 +246,7 @@
                   />
                   <!-- Radial gradient -->
                   <div
-                    class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
+                    class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
                     aria-hidden="true"
                   >
                     <div
@@ -261,7 +261,7 @@
                       height="56"
                       alt="Icon 05"
                     />
-                    <div class="grow">
+                    <div class="flex flex-col grow">
                       <div class="mb-1 text-lg font-bold">Secure Access</div>
                       <div class="mb-3 text-slate-400">
                         Incorporate rich user profiling, and facilitate more
@@ -270,7 +270,7 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white group"
                         href="#0"
                         >Learn More
                         <span

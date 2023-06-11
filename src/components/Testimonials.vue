@@ -19,7 +19,7 @@
           <div
             class="relative h-32 [mask-image:_linear-gradient(0deg,transparent,theme(colors.white)_40%,theme(colors.white))]"
           >
-            <transition-group
+            <TransitionGroup
               tag="div"
               class="absolute top-0 left-1/2 -translate-x-1/2 w-[480px] h-[480px] -z-10 pointer-events-none before:rounded-full rounded-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-slate-400/20 before:to-transparent before:to-20% after:rounded-full after:absolute after:inset-0 after:bg-slate-900 after:m-px before:-z-20 after:-z-20"
               enter-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-700 order-first"
@@ -43,11 +43,11 @@
                   />
                 </div>
               </template>
-            </transition-group>
+            </TransitionGroup>
           </div>
           <!-- Text -->
           <div class="mb-10">
-            <transition-group
+            <TransitionGroup
               tag="div"
               class="relative flex flex-col"
               enter-active-class="order-first transition duration-500 ease-in-out delay-200"
@@ -66,7 +66,7 @@
                   </div>
                 </div>
               </template>
-            </transition-group>
+            </TransitionGroup>
           </div>
           <!-- Buttons -->
           <div class="flex flex-wrap justify-center -m-1.5">
