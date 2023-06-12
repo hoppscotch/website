@@ -17,7 +17,7 @@
                 top: 40px;
               "
             ></div>
-            <div class="relative w-20 h-20 mb-3">
+            <div class="relative w-20 h-20 mb-4">
               <div
                 class="absolute inset-0 rounded-full opacity-30 bg-gradient-to-tr from-teal-500 -z-1"
                 aria-hidden="true"
@@ -32,7 +32,7 @@
                 />
               </svg>
             </div>
-            <div class="font-medium sm:text-lg text-slate-300">
+            <div class="font-medium text-md text-slate-300">
               Founded in 2017
             </div>
           </div>
@@ -48,7 +48,7 @@
                 top: 40px;
               "
             ></div>
-            <div class="relative w-20 h-20 mb-3">
+            <div class="relative w-20 h-20 mb-4">
               <div
                 class="absolute inset-0 rounded-full opacity-30 bg-gradient-to-tr from-purple-500 -z-1"
                 aria-hidden="true"
@@ -63,9 +63,7 @@
                 />
               </svg>
             </div>
-            <div class="font-medium sm:text-lg text-slate-300">
-              $20M+ Achieved
-            </div>
+            <div class="font-medium text-md text-slate-300">$20M+ Achieved</div>
           </div>
 
           <!-- 3rd item -->
@@ -79,7 +77,7 @@
                 top: 40px;
               "
             ></div>
-            <div class="relative w-20 h-20 mb-3">
+            <div class="relative w-20 h-20 mb-4">
               <div
                 class="absolute inset-0 rounded-full opacity-30 bg-gradient-to-tr from-indigo-500 -z-1"
                 aria-hidden="true"
@@ -94,14 +92,14 @@
                 />
               </svg>
             </div>
-            <div class="font-medium sm:text-lg text-slate-300">
+            <div class="font-medium text-md text-slate-300">
               10.000+ Websites
             </div>
           </div>
 
           <!-- 4th item -->
           <div class="relative flex flex-col items-center">
-            <div class="relative w-20 h-20 mb-3">
+            <div class="relative w-20 h-20 mb-4">
               <div
                 class="absolute inset-0 rounded-full opacity-30 bg-gradient-to-tr from-pink-500 -z-1"
                 aria-hidden="true"
@@ -116,9 +114,7 @@
                 />
               </svg>
             </div>
-            <div class="font-medium sm:text-lg text-slate-300">
-              1M+ Customers
-            </div>
+            <div class="font-medium text-md text-slate-300">1M+ Customers</div>
           </div>
         </div>
       </div>

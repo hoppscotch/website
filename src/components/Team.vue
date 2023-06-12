@@ -36,10 +36,10 @@
                   height="80"
                   alt="Team member 01"
                 />
-                <h4 class="text-lg font-medium text-slate-300">
+                <h4 class="font-medium text-md text-slate-300">
                   Sergey Filkov
                 </h4>
-                <a class="p-2" href="#0">
+                <a class="p-2 mt-4 rounded-full" href="/">
                   <svg
                     width="16"
                     height="13"
@@ -70,8 +70,8 @@
                   height="80"
                   alt="Team member 02"
                 />
-                <h4 class="text-lg font-medium text-slate-300">Mary Champ</h4>
-                <a class="p-2" href="#0">
+                <h4 class="font-medium text-md text-slate-300">Mary Champ</h4>
+                <a class="p-2 mt-4 rounded-full" href="/">
                   <svg
                     width="16"
                     height="13"
@@ -102,8 +102,8 @@
                   height="80"
                   alt="Team member 03"
                 />
-                <h4 class="text-lg font-medium text-slate-300">Mark Varsano</h4>
-                <a class="p-2" href="#0">
+                <h4 class="font-medium text-md text-slate-300">Mark Varsano</h4>
+                <a class="p-2 mt-4 rounded-full" href="/">
                   <svg
                     width="16"
                     height="13"
@@ -134,10 +134,10 @@
                   height="80"
                   alt="Team member 04"
                 />
-                <h4 class="text-lg font-medium text-slate-300">
+                <h4 class="font-medium text-md text-slate-300">
                   George Hurley
                 </h4>
-                <a class="p-2" href="#0">
+                <a class="p-2 mt-4 rounded-full" href="/">
                   <svg
                     width="16"
                     height="13"
@@ -168,10 +168,10 @@
                   height="80"
                   alt="Team member 05"
                 />
-                <h4 class="text-lg font-medium text-slate-300">
+                <h4 class="font-medium text-md text-slate-300">
                   Ellie Lepisov
                 </h4>
-                <a class="p-2" href="#0">
+                <a class="p-2 mt-4 rounded-full" href="/">
                   <svg
                     width="16"
                     height="13"
@@ -202,8 +202,8 @@
                   height="80"
                   alt="Team member 06"
                 />
-                <h4 class="text-lg font-medium text-slate-300">Connor Bal</h4>
-                <a class="p-2" href="#0">
+                <h4 class="font-medium text-md text-slate-300">Connor Bal</h4>
+                <a class="p-2 mt-4 rounded-full" href="/">
                   <svg
                     width="16"
                     height="13"
@@ -234,8 +234,8 @@
                   height="80"
                   alt="Team member 07"
                 />
-                <h4 class="text-lg font-medium text-slate-300">Marko Sharma</h4>
-                <a class="p-2" href="#0">
+                <h4 class="font-medium text-md text-slate-300">Marko Sharma</h4>
+                <a class="p-2 mt-4 rounded-full" href="/">
                   <svg
                     width="16"
                     height="13"
@@ -266,10 +266,10 @@
                   height="80"
                   alt="Team member 08"
                 />
-                <h4 class="text-lg font-medium text-slate-300">
+                <h4 class="font-medium text-md text-slate-300">
                   Mick Esposito
                 </h4>
-                <a class="p-2" href="#0">
+                <a class="p-2 mt-4 rounded-full" href="/">
                   <svg
                     width="16"
                     height="13"
@@ -300,8 +300,8 @@
                   height="80"
                   alt="Team member 09"
                 />
-                <h4 class="text-lg font-medium text-slate-300">Daniel Smith</h4>
-                <a class="p-2" href="#0">
+                <h4 class="font-medium text-md text-slate-300">Daniel Smith</h4>
+                <a class="p-2 mt-4 rounded-full" href="/">
                   <svg
                     width="16"
                     height="13"
@@ -332,10 +332,10 @@
                   height="80"
                   alt="Team member 10"
                 />
-                <h4 class="text-lg font-medium text-slate-300">
+                <h4 class="font-medium text-md text-slate-300">
                   Patricia Long
                 </h4>
-                <a class="p-2" href="#0">
+                <a class="p-2 mt-4 rounded-full" href="/">
                   <svg
                     width="16"
                     height="13"

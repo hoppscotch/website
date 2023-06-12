@@ -28,7 +28,7 @@
         </svg>
       </div>
 
-      <div class="pt-16 pb-12 md:pt-32 md:pb-20">
+      <div class="pt-32 pb-16">
         <!-- Section header -->
         <div class="max-w-3xl pb-12 md:pb-20">
           <h2

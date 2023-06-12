@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
-      <div class="pt-16 pb-12 md:pt-32 md:pb-20">
+      <div class="pt-32 pb-16">
         <!-- Section header -->
         <div class="max-w-3xl pb-12 mx-auto text-center md:pb-20">
           <div>
@@ -112,7 +112,7 @@
 
           <!-- Tab items -->
           <div class="relative flex flex-col" data-aos="fade-up">
-            <transition
+            <Transition
               enter-active-class="order-first transition duration-700 ease-in-out"
               enter-from-class="opacity-0 -translate-y-16"
               enter-to-class="opacity-100 translate-y-0"
@@ -129,8 +129,8 @@
                   alt="Features home 01"
                 />
               </div>
-            </transition>
-            <transition
+            </Transition>
+            <Transition
               enter-active-class="order-first transition duration-700 ease-in-out"
               enter-from-class="opacity-0 -translate-y-16"
               enter-to-class="opacity-100 translate-y-0"
@@ -147,8 +147,8 @@
                   alt="Features home 02"
                 />
               </div>
-            </transition>
-            <transition
+            </Transition>
+            <Transition
               enter-active-class="order-first transition duration-700 ease-in-out"
               enter-from-class="opacity-0 -translate-y-16"
               enter-to-class="opacity-100 translate-y-0"
@@ -165,8 +165,8 @@
                   alt="Features home 03"
                 />
               </div>
-            </transition>
-            <transition
+            </Transition>
+            <Transition
               enter-active-class="order-first transition duration-700 ease-in-out"
               enter-from-class="opacity-0 -translate-y-16"
               enter-to-class="opacity-100 translate-y-0"
@@ -183,7 +183,7 @@
                   alt="Features home 04"
                 />
               </div>
-            </transition>
+            </Transition>
           </div>
         </div>
       </div>
