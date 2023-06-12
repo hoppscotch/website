@@ -46,7 +46,7 @@
                   />
                   <!-- Radial gradient -->
                   <div
-                    class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                    class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                     aria-hidden="true"
                   >
                     <div
@@ -70,8 +70,8 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white group"
-                        href="#0"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white group"
+                        href="/"
                         >Learn More
                         <span
                           class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
@@ -95,7 +95,7 @@
                   />
                   <!-- Radial gradient -->
                   <div
-                    class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                    class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                     aria-hidden="true"
                   >
                     <div
@@ -119,8 +119,8 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white group"
-                        href="#0"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white group"
+                        href="/"
                         >Learn More
                         <span
                           class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
@@ -144,7 +144,7 @@
                   />
                   <!-- Radial gradient -->
                   <div
-                    class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                    class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                     aria-hidden="true"
                   >
                     <div
@@ -170,8 +170,8 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white group"
-                        href="#0"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white group"
+                        href="/"
                         >Learn More
                         <span
                           class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
@@ -195,7 +195,7 @@
                   />
                   <!-- Radial gradient -->
                   <div
-                    class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                    class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                     aria-hidden="true"
                   >
                     <div
@@ -221,8 +221,8 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white group"
-                        href="#0"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white group"
+                        href="/"
                         >Learn More
                         <span
                           class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
@@ -246,7 +246,7 @@
                   />
                   <!-- Radial gradient -->
                   <div
-                    class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                    class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                     aria-hidden="true"
                   >
                     <div
@@ -270,8 +270,8 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center px-2 text-sm font-medium transition duration-150 ease-in-out rounded-full text-slate-300 hover:text-white group"
-                        href="#0"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white group"
+                        href="/"
                         >Learn More
                         <span
                           class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"

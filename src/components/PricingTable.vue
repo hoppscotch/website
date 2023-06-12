@@ -87,7 +87,7 @@
                       />
                       <label
                         for="toggle"
-                        class="relative flex h-6 w-11 cursor-pointer items-center rounded-full bg-slate-400 px-0.5 outline-slate-400 transition-colors before:h-5 before:w-5 before:rounded-full before:bg-white before:shadow-sm before:transition-transform before:duration-150 peer-checked:bg-purple-500 peer-checked:before:translate-x-full peer-focus-visible:outline peer-focus-visible:outline-offset-2 peer-focus-visible:outline-gray-400 peer-checked:peer-focus-visible:outline-purple-500"
+                        class="relative flex h-6 w-11 cursor-pointer items-center rounded-full bg-slate-400 px-0.5 outline-slate-400 transition-colors before:h-5 before:w-5 before:rounded-full before:bg-white before:shadow-sm before:transition-transform before:duration-150 peer-checked:bg-purple-500 peer-checked:before:translate-x-full peer-focus-visible:outline peer-focus-visible:outline-offset-2 peer-focus-visible:outline-slate-400 peer-checked:peer-focus-visible:outline-purple-500"
                       >
                         <span class="sr-only">Pay Yearly</span>
                       </label>
@@ -119,7 +119,7 @@
               <div class="pb-4 border-b border-slate-800">
                 <a
                   class="w-full transition duration-150 ease-in-out btn-sm text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
-                  href="#0"
+                  href="/"
                 >
                   Get Started
                   <span
@@ -150,7 +150,7 @@
               <div class="pb-4 border-b border-slate-800">
                 <a
                   class="w-full text-white bg-purple-500 transition duration-150 ease-in-out btn-sm hover:bg-purple-600 group"
-                  href="#0"
+                  href="/"
                 >
                   Get Started
                   <span
@@ -181,7 +181,7 @@
               <div class="pb-4 border-b border-slate-800">
                 <a
                   class="w-full transition duration-150 ease-in-out btn-sm text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
-                  href="#0"
+                  href="/"
                 >
                   Get Started
                   <span
