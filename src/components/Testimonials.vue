@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="relative">
     <div class="max-w-3xl px-4 mx-auto sm:px-6">
       <div class="relative pb-12 md:pb-20">
         <!-- Particles animation -->

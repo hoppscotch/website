@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="relative">
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
       <div class="pt-6 pb-12 md:pt-8 md:pb-20">
         <!-- Items -->
@@ -32,8 +32,8 @@
                 />
               </svg>
             </div>
-            <div class="font-medium text-md text-slate-300">
-              Founded in 2017
+            <div class="text-sm font-medium text-slate-300">
+              Founded in 2021
             </div>
           </div>
           <!-- 2nd item -->
@@ -62,7 +62,9 @@
                 />
               </svg>
             </div>
-            <div class="font-medium text-md text-slate-300">$20M+ Achieved</div>
+            <div class="text-sm font-medium text-slate-300">
+              Built-with Open Source
+            </div>
           </div>
           <!-- 3rd item -->
           <div class="relative flex flex-col items-center">
@@ -90,8 +92,8 @@
                 />
               </svg>
             </div>
-            <div class="font-medium text-md text-slate-300">
-              10.000+ Websites
+            <div class="text-sm font-medium text-slate-300">
+              52,000+ GitHub Stars
             </div>
           </div>
           <!-- 4th item -->
@@ -111,7 +113,7 @@
                 />
               </svg>
             </div>
-            <div class="font-medium text-md text-slate-300">1M+ Customers</div>
+            <div class="text-sm font-medium text-slate-300">1.6M+ Users</div>
           </div>
         </div>
       </div>

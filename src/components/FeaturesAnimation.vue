@@ -20,16 +20,24 @@
           <div>
             <div
               class="inline-flex pb-3 font-medium text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-purple-200"
+              data-aos="fade-up"
+              data-aos-delay="100"
             >
               The security first platform
             </div>
           </div>
           <h2
             class="pb-4 text-transparent h2 bg-clip-text bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60"
+            data-aos="fade-up"
+            data-aos-delay="200"
           >
             Spot issues faster
           </h2>
-          <p class="text-lg text-slate-400">
+          <p
+            class="text-lg text-slate-400"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             All the lorem ipsum generators on the Internet tend to repeat
             predefined chunks as necessary, making this the first true generator
             on the Internet.
@@ -47,6 +55,7 @@
               height="320"
               viewBox="0 0 432 432"
               xmlns="http://www.w3.org/2000/svg"
+              data-aos="zoom-in"
             >
               <defs>
                 <radialGradient
@@ -70,7 +79,7 @@
               />
             </svg>
             <!-- Moving tags -->
-            <div class="absolute inset-0">
+            <div class="absolute inset-0" data-aos="fade-right">
               <div
                 class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-indigo-500 bg-indigo-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation mt-28"
               >
@@ -149,6 +158,7 @@
               height="160"
               viewBox="0 0 148 148"
               xmlns="http://www.w3.org/2000/svg"
+              data-aos="zoom-in"
             >
               <circle
                 cx="74"

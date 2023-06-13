@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="relative">
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
       <div class="relative px-8 py-12 md:py-20 rounded-[3rem] overflow-hidden">
         <!-- Radial gradient -->

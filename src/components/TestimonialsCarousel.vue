@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="relative">
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
       <div class="pt-12 md:pt-20">
         <!-- Section header -->
@@ -33,7 +33,11 @@
               :refresh="swiperInitialized"
             >
               <!-- Carousel items -->
-              <HighlighterItem class="h-auto swiper-slide group/slide">
+              <HighlighterItem
+                class="h-auto swiper-slide group/slide"
+                data-aos="fade-left"
+                data-aos-delay="100"
+              >
                 <div
                   class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
                 >
@@ -82,7 +86,11 @@
                   </div>
                 </div>
               </HighlighterItem>
-              <HighlighterItem class="h-auto swiper-slide group/slide">
+              <HighlighterItem
+                class="h-auto swiper-slide group/slide"
+                data-aos="fade-left"
+                data-aos-delay="200"
+              >
                 <div
                   class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
                 >
@@ -131,7 +139,11 @@
                   </div>
                 </div>
               </HighlighterItem>
-              <HighlighterItem class="h-auto swiper-slide group/slide">
+              <HighlighterItem
+                class="h-auto swiper-slide group/slide"
+                data-aos="fade-left"
+                data-aos-delay="300"
+              >
                 <div
                   class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
                 >
@@ -182,7 +194,11 @@
                   </div>
                 </div>
               </HighlighterItem>
-              <HighlighterItem class="h-auto swiper-slide group/slide">
+              <HighlighterItem
+                class="h-auto swiper-slide group/slide"
+                data-aos="fade-left"
+                data-aos-delay="400"
+              >
                 <div
                   class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
                 >
@@ -233,7 +249,11 @@
                   </div>
                 </div>
               </HighlighterItem>
-              <HighlighterItem class="h-auto swiper-slide group/slide">
+              <HighlighterItem
+                class="h-auto swiper-slide group/slide"
+                data-aos="fade-left"
+                data-aos-delay="500"
+              >
                 <div
                   class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
                 >
