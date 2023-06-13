@@ -87,7 +87,7 @@
                       />
                       <label
                         for="toggle"
-                        class="relative flex h-6 w-11 cursor-pointer items-center rounded-full bg-slate-400 px-0.5 outline-slate-400 transition-colors before:h-5 before:w-5 before:rounded-full before:bg-white before:shadow-sm before:transition-transform before:duration-150 peer-checked:bg-purple-500 peer-checked:before:translate-x-full peer-focus-visible:outline peer-focus-visible:outline-offset-2 peer-focus-visible:outline-slate-400 peer-checked:peer-focus-visible:outline-purple-500"
+                        class="relative flex h-6 w-11 cursor-pointer items-center rounded-full bg-slate-400 px-0.5 outline-slate-400 transition-colors before:h-5 before:w-5 before:rounded-full before:bg-white before:shadow-sm before:transition-transform before:duration-200 peer-checked:bg-purple-500 peer-checked:before:translate-x-full peer-focus-visible:outline peer-focus-visible:outline-offset-2 peer-focus-visible:outline-slate-400 peer-checked:peer-focus-visible:outline-purple-500"
                       >
                         <span class="sr-only">Pay Yearly</span>
                       </label>
@@ -118,12 +118,12 @@
               </div>
               <div class="pb-4 border-b border-slate-800">
                 <a
-                  class="w-full transition duration-150 ease-in-out btn-sm text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                  class="w-full transition duration-200 ease-in-out btn-sm text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                   href="/"
                 >
                   Get Started
                   <span
-                    class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
+                    class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
                   >
                     <icon-lucide-arrow-right />
                   </span>
@@ -149,12 +149,12 @@
               </div>
               <div class="pb-4 border-b border-slate-800">
                 <a
-                  class="w-full text-white bg-purple-500 transition duration-150 ease-in-out btn-sm hover:bg-purple-600 group"
+                  class="w-full text-white bg-purple-500 transition duration-200 ease-in-out btn-sm hover:bg-purple-600 group"
                   href="/"
                 >
                   Get Started
                   <span
-                    class="tracking-normal text-purple-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
+                    class="tracking-normal text-purple-300 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
                   >
                     <icon-lucide-arrow-right />
                   </span>
@@ -180,12 +180,12 @@
               </div>
               <div class="pb-4 border-b border-slate-800">
                 <a
-                  class="w-full transition duration-150 ease-in-out btn-sm text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                  class="w-full transition duration-200 ease-in-out btn-sm text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                   href="/"
                 >
                   Get Started
                   <span
-                    class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
+                    class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
                   >
                     <icon-lucide-arrow-right />
                   </span>
@@ -613,9 +613,7 @@
     </div>
   </section>
 </template>
-
 <script setup>
 import { ref } from "vue"
-
 const annual = ref(true)
 </script>

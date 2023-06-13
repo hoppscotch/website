@@ -1,7 +1,6 @@
 *:focus {
   @apply outline-none;
 }
-
 *:focus-visible {
   @apply outline-1;
   @apply outline-offset-4;

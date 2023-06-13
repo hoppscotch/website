@@ -3,24 +3,20 @@
     <slot></slot>
   </div>
 </template>
-
 <script setup>
 import { ref, onMounted, onBeforeUnmount, reactive, watch } from "vue"
 import useMousePosition from "./../utils/MousePosition"
-
 const props = defineProps({
   refresh: {
     type: Boolean,
     default: false,
   },
 })
-
 const containerRef = ref(null)
 const mousePosition = useMousePosition()
 const mouse = reactive({ x: 0, y: 0 })
 const containerSize = reactive({ w: 0, h: 0 })
 const boxes = ref([])
-
 onMounted(() => {
   if (containerRef.value) {
     boxes.value = Array.from(containerRef.value.children)
@@ -28,32 +24,27 @@ onMounted(() => {
   initContainer()
   window.addEventListener("resize", initContainer)
 })
-
 onBeforeUnmount(() => {
   window.removeEventListener("resize", initContainer)
 })
-
 watch(
   () => mousePosition.value,
   () => {
     onMouseMove()
   }
 )
-
 watch(
   () => props.refresh,
   () => {
     initContainer()
   }
 )
-
 const initContainer = () => {
   if (containerRef.value) {
     containerSize.w = containerRef.value.offsetWidth
     containerSize.h = containerRef.value.offsetHeight
   }
 }
-
 const onMouseMove = () => {
   if (containerRef.value) {
     const rect = containerRef.value.getBoundingClientRect()

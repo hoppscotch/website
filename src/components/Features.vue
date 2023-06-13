@@ -16,7 +16,6 @@
           />
         </div>
       </div>
-
       <div class="pt-16 pb-12 md:pt-52 md:pb-20">
         <div>
           <!-- Section content -->
@@ -47,7 +46,7 @@
               </p>
               <div class="max-w-xs mt-8 space-y-2 max-md:mx-auto">
                 <button
-                  class="flex items-center w-full px-3 py-2 text-sm font-medium border rounded transition duration-150 ease-in-out text-slate-50 bg-slate-800/25 hover:opacity-100"
+                  class="flex items-center w-full px-3 py-2 text-sm font-medium border rounded transition duration-200 ease-in-out text-slate-50 bg-slate-800/25 hover:opacity-100"
                   :class="
                     tab !== '1'
                       ? 'border-slate-700 opacity-50'
@@ -59,7 +58,7 @@
                   <span>Built to be fast</span>
                 </button>
                 <button
-                  class="flex items-center w-full px-3 py-2 text-sm font-medium border rounded transition duration-150 ease-in-out text-slate-50 bg-slate-800/25 hover:opacity-100"
+                  class="flex items-center w-full px-3 py-2 text-sm font-medium border rounded transition duration-200 ease-in-out text-slate-50 bg-slate-800/25 hover:opacity-100"
                   :class="
                     tab !== '2'
                       ? 'border-slate-700 opacity-50'
@@ -71,7 +70,7 @@
                   <span>Made with open source</span>
                 </button>
                 <button
-                  class="flex items-center w-full px-3 py-2 text-sm font-medium border rounded transition duration-150 ease-in-out text-slate-50 bg-slate-800/25 hover:opacity-100"
+                  class="flex items-center w-full px-3 py-2 text-sm font-medium border rounded transition duration-200 ease-in-out text-slate-50 bg-slate-800/25 hover:opacity-100"
                   :class="
                     tab !== '3'
                       ? 'border-slate-700 opacity-50'
@@ -84,7 +83,6 @@
                 </button>
               </div>
             </div>
-
             <!-- Image -->
             <div
               class="md:w-5/12 lg:w-1/2"
@@ -98,7 +96,6 @@
                   :quantity="8"
                   :staticity="30"
                 />
-
                 <div class="flex items-center justify-center">
                   <div
                     class="relative flex items-center justify-center w-48 h-48"
@@ -166,14 +163,14 @@
                     </div>
                     <!-- Icons -->
                     <Transition
-                      enter-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-700 order-first"
+                      enter-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-500 order-first"
                       enter-from-class="opacity-0 -rotate-[60deg]"
                       enter-to-class="opacity-100 rotate-0"
-                      leave-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-700 absolute"
+                      leave-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-500 absolute"
                       leave-from-class="opacity-100 rotate-0"
                       leave-to-class="opacity-0 rotate-[60deg]"
                     >
-                      <div class="absolute" v-show="tab === '1'">
+                      <div class="absolute" v-if="tab === '1'">
                         <div
                           class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl -rotate-[14deg] [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-2xl"
                         >
@@ -184,14 +181,14 @@
                       </div>
                     </Transition>
                     <Transition
-                      enter-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-700 order-first"
+                      enter-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-500 order-first"
                       enter-from-class="opacity-0 -rotate-[60deg]"
                       enter-to-class="opacity-100 rotate-0"
-                      leave-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-700 absolute"
+                      leave-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-500 absolute"
                       leave-from-class="opacity-100 rotate-0"
                       leave-to-class="opacity-0 rotate-[60deg]"
                     >
-                      <div class="absolute" v-show="tab === '2'">
+                      <div class="absolute" v-if="tab === '2'">
                         <div
                           class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl -rotate-[14deg] [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-2xl"
                         >
@@ -202,14 +199,14 @@
                       </div>
                     </Transition>
                     <Transition
-                      enter-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-700 order-first"
+                      enter-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-500 order-first"
                       enter-from-class="opacity-0 -rotate-[60deg]"
                       enter-to-class="opacity-100 rotate-0"
-                      leave-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-700 absolute"
+                      leave-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-500 absolute"
                       leave-from-class="opacity-100 rotate-0"
                       leave-to-class="opacity-0 rotate-[60deg]"
                     >
-                      <div class="absolute" v-show="tab === '3'">
+                      <div class="absolute" v-if="tab === '3'">
                         <div
                           class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl -rotate-[14deg] [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-2xl"
                         >
@@ -229,9 +226,7 @@
     </div>
   </section>
 </template>
-
 <script setup>
 import { ref } from "vue"
-
 const tab = ref("1")
 </script>

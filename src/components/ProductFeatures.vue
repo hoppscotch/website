@@ -35,95 +35,111 @@
             on the Internet.
           </p>
         </div>
-
         <!-- Section content -->
         <div class="max-w-3xl mx-auto">
           <!-- Tabs buttons -->
-          <div class="pb-16 grid grid-cols-2 gap-6 sm:grid-cols-4">
-            <button
-              class="p-4 text-center transition-opacity rounded-xl"
-              :class="tab === 1 || 'opacity-50 hover:opacity-75'"
-              @click="tab = 1"
-            >
-              <div
-                class="inline-flex p-4 mb-4 rounded-full shadow-md bg-slate-800"
+          <div class="pb-8 grid grid-cols-2 gap-6 sm:grid-cols-4">
+            <div data-aos="fade-up" data-aos-delay="100">
+              <button
+                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-blue-500/10"
+                :class="{
+                  'bg-blue-500/10 !opacity-100 ring-1 ring-blue-600': tab === 1,
+                }"
+                @click="tab = 1"
               >
-                <icon-lucide-rocket />
-              </div>
-              <div
-                class="font-medium leading-tight md:text-md"
-                :class="tab === 1 || 'text-slate-100'"
+                <div
+                  class="inline-flex p-4 mb-4 bg-blue-600 rounded-full shadow-md"
+                >
+                  <icon-lucide-rocket />
+                </div>
+                <div
+                  class="text-sm font-medium leading-tight"
+                  :class="{ 'text-slate-100': tab === 1 }"
+                >
+                  Community Edition
+                </div>
+              </button>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="200">
+              <button
+                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-purple-500/10"
+                :class="{
+                  'bg-purple-500/10 !opacity-100 ring-1 ring-purple-600':
+                    tab === 2,
+                }"
+                @click="tab = 2"
               >
-                Internal Feedback
-              </div>
-            </button>
-            <button
-              class="p-4 text-center transition-opacity rounded-xl"
-              :class="tab === 2 || 'opacity-50 hover:opacity-75'"
-              @click="tab = 2"
-            >
-              <div
-                class="inline-flex p-4 mb-4 rounded-full shadow-md bg-slate-800"
+                <div
+                  class="inline-flex p-4 mb-4 bg-purple-600 rounded-full shadow-md"
+                >
+                  <icon-lucide-rocket />
+                </div>
+                <div
+                  class="text-sm font-medium leading-tight"
+                  :class="{ 'text-slate-100': tab === 2 }"
+                >
+                  Cloud Edition
+                </div>
+              </button>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="300">
+              <button
+                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-red-500/10"
+                :class="{
+                  'bg-red-500/10 !opacity-100 ring-1 ring-red-600': tab === 3,
+                }"
+                @click="tab = 3"
               >
-                <icon-lucide-rocket />
-              </div>
-              <div
-                class="font-medium leading-tight md:text-md"
-                :class="tab === 2 || 'text-slate-100'"
+                <div
+                  class="inline-flex p-4 mb-4 bg-red-600 rounded-full shadow-md"
+                >
+                  <icon-lucide-rocket />
+                </div>
+                <div
+                  class="text-sm font-medium leading-tight"
+                  :class="{ 'text-slate-100': tab === 3 }"
+                >
+                  Enterprise Edition
+                </div>
+              </button>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="400">
+              <button
+                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-slate-500/10"
+                :class="{
+                  'bg-slate-500/10 !opacity-100 ring-1 ring-slate-600':
+                    tab === 4,
+                }"
+                @click="tab = 4"
               >
-                Internal Feedback
-              </div>
-            </button>
-            <button
-              class="p-4 text-center transition-opacity rounded-xl"
-              :class="tab === 3 || 'opacity-50 hover:opacity-75'"
-              @click="tab = 3"
-            >
-              <div
-                class="inline-flex p-4 mb-4 rounded-full shadow-md bg-slate-800"
-              >
-                <icon-lucide-rocket />
-              </div>
-              <div
-                class="font-medium leading-tight md:text-md"
-                :class="tab === 3 || 'text-slate-100'"
-              >
-                Internal Feedback
-              </div>
-            </button>
-            <button
-              class="p-4 text-center transition-opacity rounded-xl"
-              :class="tab === 4 || 'opacity-50 hover:opacity-75'"
-              @click="tab = 4"
-            >
-              <div
-                class="inline-flex p-4 mb-4 rounded-full shadow-md bg-slate-800"
-              >
-                <icon-lucide-rocket />
-              </div>
-              <div
-                class="font-medium leading-tight md:text-md"
-                :class="tab === 4 || 'text-slate-100'"
-              >
-                Internal Feedback
-              </div>
-            </button>
+                <div
+                  class="inline-flex p-4 mb-4 rounded-full shadow-md bg-slate-600"
+                >
+                  <icon-lucide-rocket />
+                </div>
+                <div
+                  class="text-sm font-medium leading-tight"
+                  :class="{ 'text-slate-100': tab === 4 }"
+                >
+                  Hoppscotch CLI
+                </div>
+              </button>
+            </div>
           </div>
-
           <!-- Tab items -->
           <div class="relative flex flex-col" data-aos="fade-up">
             <Transition
-              enter-active-class="order-first transition duration-700 ease-in-out"
-              enter-from-class="opacity-0 -translate-y-16"
+              enter-active-class="order-first transition duration-500 ease-in-out"
+              enter-from-class="opacity-0 -translate-y-8"
               enter-to-class="opacity-100 translate-y-0"
-              leave-active-class="absolute transition duration-300 ease-in-out"
+              leave-active-class="absolute transition duration-500 ease-in-out"
               leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="opacity-0 translate-y-16"
+              leave-to-class="opacity-0 translate-y-8"
             >
-              <div class="w-full" v-show="tab === 1">
+              <div class="w-full" v-if="tab === 1">
                 <img
-                  class="mx-auto shadow-2xl rounded-md"
-                  src="../images/features-home-01.jpg"
+                  class="mx-auto shadow-2xl ring-1 ring-slate-800 rounded-3xl"
+                  src="../images/features-home-01.png"
                   width="768"
                   height="474"
                   alt="Features home 01"
@@ -131,17 +147,17 @@
               </div>
             </Transition>
             <Transition
-              enter-active-class="order-first transition duration-700 ease-in-out"
-              enter-from-class="opacity-0 -translate-y-16"
+              enter-active-class="order-first transition duration-500 ease-in-out"
+              enter-from-class="opacity-0 -translate-y-8"
               enter-to-class="opacity-100 translate-y-0"
-              leave-active-class="absolute transition duration-300 ease-in-out"
+              leave-active-class="absolute transition duration-500 ease-in-out"
               leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="opacity-0 translate-y-16"
+              leave-to-class="opacity-0 translate-y-8"
             >
-              <div class="w-full" v-show="tab === 2">
+              <div class="w-full" v-if="tab === 2">
                 <img
-                  class="mx-auto shadow-2xl rounded-md"
-                  src="../images/features-home-01.jpg"
+                  class="mx-auto shadow-2xl ring-1 ring-slate-800 rounded-3xl"
+                  src="../images/features-home-01.png"
                   width="768"
                   height="474"
                   alt="Features home 02"
@@ -149,17 +165,17 @@
               </div>
             </Transition>
             <Transition
-              enter-active-class="order-first transition duration-700 ease-in-out"
-              enter-from-class="opacity-0 -translate-y-16"
+              enter-active-class="order-first transition duration-500 ease-in-out"
+              enter-from-class="opacity-0 -translate-y-8"
               enter-to-class="opacity-100 translate-y-0"
-              leave-active-class="absolute transition duration-300 ease-in-out"
+              leave-active-class="absolute transition duration-500 ease-in-out"
               leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="opacity-0 translate-y-16"
+              leave-to-class="opacity-0 translate-y-8"
             >
-              <div class="w-full" v-show="tab === 3">
+              <div class="w-full" v-if="tab === 3">
                 <img
-                  class="mx-auto shadow-2xl rounded-md"
-                  src="../images/features-home-01.jpg"
+                  class="mx-auto shadow-2xl ring-1 ring-slate-800 rounded-3xl"
+                  src="../images/features-home-01.png"
                   width="768"
                   height="474"
                   alt="Features home 03"
@@ -167,17 +183,17 @@
               </div>
             </Transition>
             <Transition
-              enter-active-class="order-first transition duration-700 ease-in-out"
-              enter-from-class="opacity-0 -translate-y-16"
+              enter-active-class="order-first transition duration-500 ease-in-out"
+              enter-from-class="opacity-0 -translate-y-8"
               enter-to-class="opacity-100 translate-y-0"
-              leave-active-class="absolute transition duration-300 ease-in-out"
+              leave-active-class="absolute transition duration-500 ease-in-out"
               leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="opacity-0 translate-y-16"
+              leave-to-class="opacity-0 translate-y-8"
             >
-              <div class="w-full" v-show="tab === 4">
+              <div class="w-full" v-if="tab === 4">
                 <img
-                  class="mx-auto shadow-2xl rounded-md"
-                  src="../images/features-home-01.jpg"
+                  class="mx-auto shadow-2xl ring-1 ring-slate-800 rounded-3xl"
+                  src="../images/features-home-01.png"
                   width="768"
                   height="474"
                   alt="Features home 04"
@@ -190,9 +206,7 @@
     </div>
   </section>
 </template>
-
 <script setup>
 import { ref } from "vue"
-
 const tab = ref(1)
 </script>

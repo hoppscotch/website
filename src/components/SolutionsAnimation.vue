@@ -35,7 +35,6 @@
             on the Internet.
           </p>
         </div>
-
         <!-- Logo animation -->
         <div class="relative flex flex-col items-center p-16">
           <!-- Blurred dots -->
@@ -294,7 +293,6 @@
             </svg>
           </div>
         </div>
-
         <!-- Integration boxes -->
         <div
           class="relative max-w-xs mx-auto mt-10 grid grid-cols-2 gap-6 sm:max-w-md md:max-w-6xl sm:grid-cols-3 md:grid-cols-6 md:mt-20"

@@ -5,7 +5,6 @@ import IconsResolver from "unplugin-icons/resolver"
 import Components from "unplugin-vue-components/vite"
 import Layouts from "vite-plugin-vue-layouts"
 import Pages from "vite-plugin-pages"
-
 // https://vitejs.dev/config/
 export default defineConfig({
   define: {

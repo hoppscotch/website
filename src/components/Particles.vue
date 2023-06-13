@@ -3,11 +3,9 @@
     <canvas ref="canvasRef"></canvas>
   </div>
 </template>
-
 <script setup>
 import { ref, onMounted, onBeforeUnmount, reactive, watch } from "vue"
 import useMousePosition from "./../utils/MousePosition"
-
 const props = defineProps({
   quantity: {
     type: Number,
@@ -26,7 +24,6 @@ const props = defineProps({
     default: false,
   },
 })
-
 const canvasRef = ref(null)
 const canvasContainerRef = ref(null)
 const context = ref(null)
@@ -35,7 +32,6 @@ const mousePosition = useMousePosition()
 const mouse = reactive({ x: 0, y: 0 })
 const canvasSize = reactive({ w: 0, h: 0 })
 const dpr = window.devicePixelRatio || 1
-
 onMounted(() => {
   if (canvasRef.value) {
     context.value = canvasRef.value.getContext("2d")
@@ -44,30 +40,25 @@ onMounted(() => {
   animate()
   window.addEventListener("resize", initCanvas)
 })
-
 onBeforeUnmount(() => {
   window.removeEventListener("resize", initCanvas)
 })
-
 watch(
   () => mousePosition.value,
   () => {
     onMouseMove()
   }
 )
-
 watch(
   () => props.refresh,
   () => {
     initCanvas()
   }
 )
-
 const initCanvas = () => {
   resizeCanvas()
   drawParticles()
 }
-
 const onMouseMove = () => {
   if (canvasRef.value) {
     const rect = canvasRef.value.getBoundingClientRect()
@@ -81,7 +72,6 @@ const onMouseMove = () => {
     }
   }
 }
-
 const resizeCanvas = () => {
   if (canvasContainerRef.value && canvasRef.value && context.value) {
     circles.value.length = 0
@@ -94,7 +84,6 @@ const resizeCanvas = () => {
     context.value.scale(dpr, dpr)
   }
 }
-
 const circleParams = () => {
   const x = Math.floor(Math.random() * canvasSize.w)
   const y = Math.floor(Math.random() * canvasSize.h)
@@ -119,7 +108,6 @@ const circleParams = () => {
     magnetism,
   }
 }
-
 const drawCircle = (circle, update = false) => {
   if (context.value) {
     const { x, y, translateX, translateY, size, alpha } = circle
@@ -129,19 +117,16 @@ const drawCircle = (circle, update = false) => {
     context.value.fillStyle = `rgba(255, 255, 255, ${alpha})`
     context.value.fill()
     context.value.setTransform(dpr, 0, 0, dpr, 0, 0)
-
     if (!update) {
       circles.value.push(circle)
     }
   }
 }
-
 const clearContext = () => {
   if (context.value) {
     context.value.clearRect(0, 0, canvasSize.w, canvasSize.h)
   }
 }
-
 const drawParticles = () => {
   clearContext()
   const particleCount = props.quantity
@@ -150,13 +135,11 @@ const drawParticles = () => {
     drawCircle(circle)
   }
 }
-
 const remapValue = (value, start1, end1, start2, end2) => {
   const remapped =
     ((value - start1) * (end2 - start2)) / (end1 - start1) + start2
   return remapped > 0 ? remapped : 0
 }
-
 const animate = () => {
   clearContext()
   circles.value.forEach((circle, i) => {

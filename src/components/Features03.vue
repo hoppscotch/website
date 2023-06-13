@@ -26,7 +26,6 @@
         />
       </svg>
     </div>
-
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
       <div class="pt-16 pb-12 border-b md:pt-32 md:pb-20 border-slate-800">
         <!-- Section header -->
@@ -42,7 +41,6 @@
             which don't look even slightly believable.
           </p>
         </div>
-
         <div class="max-w-3xl mx-auto">
           <div data-aos="fade-down">
             <Highlighter class="group">

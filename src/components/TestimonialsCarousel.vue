@@ -22,7 +22,6 @@
             on the Internet.
           </p>
         </div>
-
         <!-- Carousel built with Swiper.js [https://swiperjs.com/] -->
         <!-- * Custom styles in src/css/additional-styles/theme.scss -->
         <div
@@ -70,11 +69,11 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-200 ease-in-out text-slate-300 hover:text-white group"
                         href="/"
                         >Learn More
                         <span
-                          class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
+                          class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
                         >
                           <icon-lucide-arrow-right />
                         </span>
@@ -119,11 +118,11 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-200 ease-in-out text-slate-300 hover:text-white group"
                         href="/"
                         >Learn More
                         <span
-                          class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
+                          class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
                         >
                           <icon-lucide-arrow-right />
                         </span>
@@ -170,11 +169,11 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-200 ease-in-out text-slate-300 hover:text-white group"
                         href="/"
                         >Learn More
                         <span
-                          class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
+                          class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
                         >
                           <icon-lucide-arrow-right />
                         </span>
@@ -221,11 +220,11 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-200 ease-in-out text-slate-300 hover:text-white group"
                         href="/"
                         >Learn More
                         <span
-                          class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
+                          class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
                         >
                           <icon-lucide-arrow-right />
                         </span>
@@ -270,11 +269,11 @@
                     </div>
                     <div class="text-right">
                       <a
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-150 ease-in-out text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-200 ease-in-out text-slate-300 hover:text-white group"
                         href="/"
                         >Learn More
                         <span
-                          class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
+                          class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
                         >
                           <icon-lucide-arrow-right />
                         </span>
@@ -286,7 +285,6 @@
             </Highlighter>
           </div>
         </div>
-
         <!-- Arrows -->
         <div class="flex justify-end mt-8">
           <button
@@ -294,7 +292,7 @@
           >
             <span class="sr-only">Previous</span>
             <icon-lucide-arrow-left
-              class="w-4 h-4 transition duration-150 ease-in-out text-slate-500 group-hover:text-purple-500"
+              class="w-4 h-4 transition duration-200 ease-in-out text-slate-500 group-hover:text-purple-500"
             />
           </button>
           <button
@@ -302,7 +300,7 @@
           >
             <span class="sr-only">Next</span>
             <icon-lucide-arrow-right
-              class="w-4 h-4 transition duration-150 ease-in-out text-slate-500 group-hover:text-purple-500"
+              class="w-4 h-4 transition duration-200 ease-in-out text-slate-500 group-hover:text-purple-500"
             />
           </button>
         </div>
@@ -310,18 +308,13 @@
     </div>
   </section>
 </template>
-
 <script setup>
 import { onMounted, ref } from "vue"
-
 // Import Swiper
 import Swiper, { Navigation } from "swiper"
 import "swiper/css"
-
 Swiper.use([Navigation])
-
 const swiperInitialized = ref(false)
-
 onMounted(() => {
   new Swiper(".testimonials-carousel", {
     breakpoints: {
@@ -345,7 +338,6 @@ onMounted(() => {
       prevEl: ".carousel-prev",
     },
   })
-
   swiperInitialized.value = true
 })
 </script>

@@ -13,7 +13,6 @@
         alt="Page Illustration"
       />
     </div>
-
     <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
       <div class="pt-32 pb-12 md:pt-40 md:pb-20">
         <!-- Page header -->
@@ -41,7 +40,6 @@
             Sign in to your account
           </h1>
         </div>
-
         <!-- Form -->
         <div class="max-w-sm mx-auto">
           <form>
@@ -50,8 +48,9 @@
                 <label
                   class="block mb-1 text-sm font-medium text-slate-300"
                   for="email"
-                  >Email</label
                 >
+                  Email
+                </label>
                 <input
                   id="email"
                   class="w-full form-input"
@@ -64,13 +63,15 @@
                   <label
                     class="block mb-1 text-sm font-medium text-slate-300"
                     for="password"
-                    >Password</label
                   >
+                    Password
+                  </label>
                   <RouterLink
-                    class="ml-2 text-sm font-medium text-purple-500 transition duration-150 ease-in-out hover:text-purple-400"
+                    class="ml-2 text-sm font-medium text-purple-500 transition duration-200 ease-in-out hover:text-purple-400"
                     to="/reset-password"
-                    >Forgot?</RouterLink
                   >
+                    Forgot?
+                  </RouterLink>
                 </div>
                 <input
                   id="password"
@@ -87,25 +88,24 @@
               >
                 Sign In
                 <span
-                  class="tracking-normal text-purple-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
+                  class="tracking-normal text-purple-300 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
                 >
                   <icon-lucide-arrow-right />
                 </span>
               </button>
             </div>
           </form>
-
           <div class="mt-4 text-center">
             <div class="text-sm text-slate-400">
               Don't have an account?
               <RouterLink
-                class="font-medium text-purple-500 transition duration-150 ease-in-out hover:text-purple-400"
+                class="font-medium text-purple-500 transition duration-200 ease-in-out hover:text-purple-400"
                 to="/sign-up"
-                >Sign up</RouterLink
               >
+                Sign up
+              </RouterLink>
             </div>
           </div>
-
           <!-- Divider -->
           <div class="flex items-center my-6">
             <div
@@ -118,11 +118,10 @@
               aria-hidden="true"
             ></div>
           </div>
-
           <!-- Social login -->
           <div class="flex space-x-3">
             <button
-              class="btn text-slate-300 hover:text-white transition duration-150 ease-in-out w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none h-9"
+              class="btn text-slate-300 hover:text-white transition duration-200 ease-in-out w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none h-9"
             >
               <span class="relative">
                 <span class="sr-only">Continue with Twitter</span>
@@ -130,7 +129,7 @@
               </span>
             </button>
             <button
-              class="btn text-slate-300 hover:text-white transition duration-150 ease-in-out w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none h-9"
+              class="btn text-slate-300 hover:text-white transition duration-200 ease-in-out w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none h-9"
             >
               <span class="relative">
                 <span class="sr-only">Continue with GitHub</span>
@@ -143,7 +142,6 @@
     </div>
   </section>
 </template>
-
 <route lang="yaml">
 meta:
   layout: empty

@@ -27,7 +27,6 @@
           />
         </svg>
       </div>
-
       <div class="pt-32 pb-16">
         <!-- Section header -->
         <div class="max-w-3xl pb-12 md:pb-20">
@@ -42,7 +41,6 @@
             web sites still in their infancy.
           </p>
         </div>
-
         <!-- Rows -->
         <div class="divide-y divide-slate-800">
           <!-- Row -->

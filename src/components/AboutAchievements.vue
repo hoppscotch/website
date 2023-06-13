@@ -36,7 +36,6 @@
               Founded in 2017
             </div>
           </div>
-
           <!-- 2nd item -->
           <div class="relative flex flex-col items-center">
             <div
@@ -65,7 +64,6 @@
             </div>
             <div class="font-medium text-md text-slate-300">$20M+ Achieved</div>
           </div>
-
           <!-- 3rd item -->
           <div class="relative flex flex-col items-center">
             <div
@@ -96,7 +94,6 @@
               10.000+ Websites
             </div>
           </div>
-
           <!-- 4th item -->
           <div class="relative flex flex-col items-center">
             <div class="relative w-20 h-20 mb-4">
@@ -121,7 +118,6 @@
     </div>
   </section>
 </template>
-
 <script>
 export default {
   name: "FeaturesGallery",

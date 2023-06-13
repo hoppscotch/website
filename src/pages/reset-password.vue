@@ -13,7 +13,6 @@
         alt="Page Illustration"
       />
     </div>
-
     <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
       <div class="pt-32 pb-12 md:pt-40 md:pb-20">
         <!-- Page header -->
@@ -41,7 +40,6 @@
             Reset your password
           </h1>
         </div>
-
         <!-- Form -->
         <div class="max-w-sm mx-auto">
           <form>
@@ -50,8 +48,9 @@
                 <label
                   class="block mb-1 text-sm font-medium text-slate-300"
                   for="email"
-                  >Email</label
                 >
+                  Email
+                </label>
                 <input
                   id="email"
                   class="w-full form-input"
@@ -66,7 +65,7 @@
               >
                 Reset Password
                 <span
-                  class="tracking-normal text-purple-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
+                  class="tracking-normal text-purple-300 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
                 >
                   <icon-lucide-arrow-right />
                 </span>
@@ -78,7 +77,6 @@
     </div>
   </section>
 </template>
-
 <route lang="yaml">
 meta:
   layout: empty

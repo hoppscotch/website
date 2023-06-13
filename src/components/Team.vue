@@ -15,7 +15,6 @@
             and clutter of other tools.
           </p>
         </div>
-
         <!-- Team members -->
         <div class="max-w-xs mx-auto sm:max-w-lg md:max-w-3xl lg:max-w-5xl">
           <div
@@ -54,7 +53,6 @@
                 </a>
               </div>
             </div>
-
             <!-- 2nd member -->
             <div
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
@@ -86,7 +84,6 @@
                 </a>
               </div>
             </div>
-
             <!-- 3rd member -->
             <div
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
@@ -118,7 +115,6 @@
                 </a>
               </div>
             </div>
-
             <!-- 4th member -->
             <div
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
@@ -152,7 +148,6 @@
                 </a>
               </div>
             </div>
-
             <!-- 5th member -->
             <div
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
@@ -186,7 +181,6 @@
                 </a>
               </div>
             </div>
-
             <!-- 6th member -->
             <div
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
@@ -218,7 +212,6 @@
                 </a>
               </div>
             </div>
-
             <!-- 7th member -->
             <div
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
@@ -250,7 +243,6 @@
                 </a>
               </div>
             </div>
-
             <!-- 8th member -->
             <div
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
@@ -284,7 +276,6 @@
                 </a>
               </div>
             </div>
-
             <!-- 9th member -->
             <div
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
@@ -316,7 +307,6 @@
                 </a>
               </div>
             </div>
-
             <!-- 10th member -->
             <div
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
