@@ -187,3 +187,49 @@
     </div>
   </section>
 </template>
+<style scoped>
+/* Tags animation */
+.tags-animation {
+  animation: tagsmove 30000ms linear infinite;
+}
+.tags-1 {
+  animation-delay: calc(
+    30000ms * -0.1
+  ); /* -0.1 will make the tag move 76px right (i.e. 768px container size * -0.1) */
+}
+.tags-2 {
+  animation-delay: calc(30000ms * -0.16);
+}
+.tags-3 {
+  animation-delay: calc(30000ms * -0.23);
+}
+.tags-4 {
+  animation-delay: calc(30000ms * -0.27);
+}
+.tags-5 {
+  animation-delay: calc(30000ms * -0.44);
+}
+.tags-6 {
+  animation-delay: calc(30000ms * -0.55);
+}
+.tags-7 {
+  animation-delay: calc(30000ms * -0.63);
+}
+.tags-8 {
+  animation-delay: calc(30000ms * -0.73);
+}
+.tags-9 {
+  animation-delay: calc(30000ms * -0.76);
+}
+.tags-10 {
+  animation-delay: calc(30000ms * -0.8);
+}
+@keyframes tagsmove {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(768px);
+  }
+}
+</style>

@@ -485,3 +485,40 @@
     </div>
   </section>
 </template>
+<style scoped>
+/* Pulsing animation */
+@keyframes pulseLoop {
+  0% {
+    opacity: 0;
+    transform: scale(1) translateZ(0);
+  }
+  30% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+    transform: scale(2.5) translateZ(0);
+  }
+}
+.pulse {
+  transform: scale(1);
+  opacity: 0;
+  transform-origin: center;
+  animation: pulseLoop 8000ms linear infinite;
+}
+.pulse-1 {
+  animation-delay: -2000ms;
+}
+.pulse-2 {
+  animation-delay: -4000ms;
+}
+.pulse-3 {
+  animation-delay: -6000ms;
+}
+.translate-z-0 {
+  transform: translateZ(0);
+}
+</style>

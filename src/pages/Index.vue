@@ -1,7 +1,7 @@
 <template>
   <Hero />
   <Clients />
-  <Features />
+  <Features01 />
   <Features02 />
   <Features03 />
   <TestimonialsCarousel />
