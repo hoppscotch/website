@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="relative">
     <!-- Radial gradient -->
     <div
       class="absolute inset-0 overflow-hidden pointer-events-none -z-10"
@@ -23,7 +23,7 @@
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              The security first platform
+              Products
             </div>
           </div>
           <h2
@@ -31,25 +31,23 @@
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            Spot issues faster
+            The power to be your best
           </h2>
           <p
             class="text-lg text-slate-400"
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            All the lorem ipsum generators on the Internet tend to repeat
-            predefined chunks as necessary, making this the first true generator
-            on the Internet.
+            We build tools that help you build better products.
           </p>
         </div>
         <!-- Section content -->
         <div class="max-w-3xl mx-auto">
           <!-- Tabs buttons -->
-          <div class="pb-8 grid grid-cols-2 gap-6 sm:grid-cols-4">
+          <div class="grid grid-cols-2 gap-6 pb-8 sm:grid-cols-4">
             <div data-aos="fade-up" data-aos-delay="100">
               <button
-                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-blue-500/10"
+                class="w-full p-4 text-center transition-opacity opacity-50 grow rounded-xl hover:bg-blue-500/10"
                 :class="{
                   'bg-blue-500/10 !opacity-100 ring-1 ring-blue-600': tab === 1,
                 }"
@@ -64,13 +62,13 @@
                   class="text-sm font-medium leading-tight"
                   :class="{ 'text-slate-100': tab === 1 }"
                 >
-                  Community Edition
+                  Self-Host
                 </div>
               </button>
             </div>
             <div data-aos="fade-up" data-aos-delay="200">
               <button
-                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-purple-500/10"
+                class="w-full p-4 text-center transition-opacity opacity-50 grow rounded-xl hover:bg-purple-500/10"
                 :class="{
                   'bg-purple-500/10 !opacity-100 ring-1 ring-purple-600':
                     tab === 2,
@@ -86,13 +84,13 @@
                   class="text-sm font-medium leading-tight"
                   :class="{ 'text-slate-100': tab === 2 }"
                 >
-                  Cloud Edition
+                  Cloud
                 </div>
               </button>
             </div>
             <div data-aos="fade-up" data-aos-delay="300">
               <button
-                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-red-500/10"
+                class="w-full p-4 text-center transition-opacity opacity-50 grow rounded-xl hover:bg-red-500/10"
                 :class="{
                   'bg-red-500/10 !opacity-100 ring-1 ring-red-600': tab === 3,
                 }"
@@ -107,13 +105,13 @@
                   class="text-sm font-medium leading-tight"
                   :class="{ 'text-slate-100': tab === 3 }"
                 >
-                  Enterprise Edition
+                  Enterprise
                 </div>
               </button>
             </div>
             <div data-aos="fade-up" data-aos-delay="400">
               <button
-                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-slate-500/10"
+                class="w-full p-4 text-center transition-opacity opacity-50 grow rounded-xl hover:bg-slate-500/10"
                 :class="{
                   'bg-slate-500/10 !opacity-100 ring-1 ring-slate-600':
                     tab === 4,
@@ -129,7 +127,7 @@
                   class="text-sm font-medium leading-tight"
                   :class="{ 'text-slate-100': tab === 4 }"
                 >
-                  Hoppscotch CLI
+                  CLI
                 </div>
               </button>
             </div>
@@ -138,11 +136,11 @@
           <div class="relative flex flex-col" data-aos="fade-up">
             <Transition
               enter-active-class="order-first transition duration-500 ease-in-out"
-              enter-from-class="opacity-0 -translate-y-8"
-              enter-to-class="opacity-100 translate-y-0"
+              enter-from-class="-translate-y-8 opacity-0"
+              enter-to-class="translate-y-0 opacity-100"
               leave-active-class="absolute transition duration-500 ease-in-out"
               leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="opacity-0 translate-y-8"
+              leave-to-class="translate-y-8 opacity-0"
             >
               <div class="w-full" v-if="tab === 1">
                 <img
@@ -156,11 +154,11 @@
             </Transition>
             <Transition
               enter-active-class="order-first transition duration-500 ease-in-out"
-              enter-from-class="opacity-0 -translate-y-8"
-              enter-to-class="opacity-100 translate-y-0"
+              enter-from-class="-translate-y-8 opacity-0"
+              enter-to-class="translate-y-0 opacity-100"
               leave-active-class="absolute transition duration-500 ease-in-out"
               leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="opacity-0 translate-y-8"
+              leave-to-class="translate-y-8 opacity-0"
             >
               <div class="w-full" v-if="tab === 2">
                 <img
@@ -174,11 +172,11 @@
             </Transition>
             <Transition
               enter-active-class="order-first transition duration-500 ease-in-out"
-              enter-from-class="opacity-0 -translate-y-8"
-              enter-to-class="opacity-100 translate-y-0"
+              enter-from-class="-translate-y-8 opacity-0"
+              enter-to-class="translate-y-0 opacity-100"
               leave-active-class="absolute transition duration-500 ease-in-out"
               leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="opacity-0 translate-y-8"
+              leave-to-class="translate-y-8 opacity-0"
             >
               <div class="w-full" v-if="tab === 3">
                 <img
@@ -192,11 +190,11 @@
             </Transition>
             <Transition
               enter-active-class="order-first transition duration-500 ease-in-out"
-              enter-from-class="opacity-0 -translate-y-8"
-              enter-to-class="opacity-100 translate-y-0"
+              enter-from-class="-translate-y-8 opacity-0"
+              enter-to-class="translate-y-0 opacity-100"
               leave-active-class="absolute transition duration-500 ease-in-out"
               leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="opacity-0 translate-y-8"
+              leave-to-class="translate-y-8 opacity-0"
             >
               <div class="w-full" v-if="tab === 4">
                 <img

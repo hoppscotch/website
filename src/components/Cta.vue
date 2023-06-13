@@ -63,6 +63,7 @@
             <a
               class="transition duration-200 ease-in-out btn text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
               href="https://hoppscotch.io"
+              target="_blank"
             >
               Get Started
               <span

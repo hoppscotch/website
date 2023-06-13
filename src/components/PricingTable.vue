@@ -117,9 +117,9 @@
                 <div class="text-slate-500">Everything at your fingertips.</div>
               </div>
               <div class="pb-4 border-b border-slate-800">
-                <a
+                <RouterLink
                   class="w-full transition duration-200 ease-in-out btn-sm text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
-                  href="/"
+                  to="/"
                 >
                   Get Started
                   <span
@@ -127,7 +127,7 @@
                   >
                     <icon-lucide-arrow-right />
                   </span>
-                </a>
+                </RouterLink>
               </div>
             </div>
             <!-- Team price -->
@@ -148,9 +148,9 @@
                 <div class="text-slate-500">Everything at your fingertips.</div>
               </div>
               <div class="pb-4 border-b border-slate-800">
-                <a
+                <RouterLink
                   class="w-full text-white bg-purple-500 transition duration-200 ease-in-out btn-sm hover:bg-purple-600 group"
-                  href="/"
+                  to="/"
                 >
                   Get Started
                   <span
@@ -158,7 +158,7 @@
                   >
                     <icon-lucide-arrow-right />
                   </span>
-                </a>
+                </RouterLink>
               </div>
             </div>
             <!-- Enterprise price -->
@@ -179,9 +179,9 @@
                 <div class="text-slate-500">Everything at your fingertips.</div>
               </div>
               <div class="pb-4 border-b border-slate-800">
-                <a
+                <RouterLink
                   class="w-full transition duration-200 ease-in-out btn-sm text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
-                  href="/"
+                  to="/"
                 >
                   Get Started
                   <span
@@ -189,7 +189,7 @@
                   >
                     <icon-lucide-arrow-right />
                   </span>
-                </a>
+                </RouterLink>
               </div>
             </div>
             <!-- # Usage -->

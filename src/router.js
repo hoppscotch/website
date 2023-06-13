@@ -4,13 +4,14 @@ import generatedRoutes from "virtual:generated-pages"
 const routerHistory = createWebHistory()
 const routes = setupLayouts(generatedRoutes)
 const router = createRouter({
-  scrollBehavior(to) {
+  scrollBehavior(to, from, savedPosition) {
     if (to.hash) {
-      window.scroll({ top: 0 })
+      return {
+        el: to.hash,
+        behavior: "smooth",
+      }
     } else {
-      document.querySelector("html").style.scrollBehavior = "auto"
-      window.scroll({ top: 0 })
-      document.querySelector("html").style.scrollBehavior = ""
+      return { top: 0, behavior: "smooth" }
     }
   },
   history: routerHistory,

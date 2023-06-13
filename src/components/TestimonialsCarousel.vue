@@ -72,16 +72,16 @@
                       </div>
                     </div>
                     <div class="text-right">
-                      <a
+                      <RouterLink
                         class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-200 ease-in-out text-slate-300 hover:text-white group"
-                        href="/"
+                        to="/"
                         >Learn More
                         <span
                           class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
                         >
                           <icon-lucide-arrow-right />
                         </span>
-                      </a>
+                      </RouterLink>
                     </div>
                   </div>
                 </div>
@@ -125,16 +125,16 @@
                       </div>
                     </div>
                     <div class="text-right">
-                      <a
+                      <RouterLink
                         class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-200 ease-in-out text-slate-300 hover:text-white group"
-                        href="/"
+                        to="/"
                         >Learn More
                         <span
                           class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
                         >
                           <icon-lucide-arrow-right />
                         </span>
-                      </a>
+                      </RouterLink>
                     </div>
                   </div>
                 </div>
@@ -180,16 +180,16 @@
                       </div>
                     </div>
                     <div class="text-right">
-                      <a
+                      <RouterLink
                         class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-200 ease-in-out text-slate-300 hover:text-white group"
-                        href="/"
+                        to="/"
                         >Learn More
                         <span
                           class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
                         >
                           <icon-lucide-arrow-right />
                         </span>
-                      </a>
+                      </RouterLink>
                     </div>
                   </div>
                 </div>
@@ -235,16 +235,16 @@
                       </div>
                     </div>
                     <div class="text-right">
-                      <a
+                      <RouterLink
                         class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-200 ease-in-out text-slate-300 hover:text-white group"
-                        href="/"
+                        to="/"
                         >Learn More
                         <span
                           class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
                         >
                           <icon-lucide-arrow-right />
                         </span>
-                      </a>
+                      </RouterLink>
                     </div>
                   </div>
                 </div>
@@ -288,16 +288,16 @@
                       </div>
                     </div>
                     <div class="text-right">
-                      <a
+                      <RouterLink
                         class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-200 ease-in-out text-slate-300 hover:text-white group"
-                        href="/"
+                        to="/"
                         >Learn More
                         <span
                           class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
                         >
                           <icon-lucide-arrow-right />
                         </span>
-                      </a>
+                      </RouterLink>
                     </div>
                   </div>
                 </div>

@@ -38,18 +38,8 @@
                 <h4 class="font-medium text-md text-slate-300">
                   Sergey Filkov
                 </h4>
-                <a class="p-2 mt-4 rounded-full" href="/">
-                  <svg
-                    width="16"
-                    height="13"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
-                      fill="#1DA1F2"
-                      fill-rule="nonzero"
-                    />
-                  </svg>
+                <a class="p-2 mt-4 rounded-full" href="/" target="_blank">
+                  <icon-lucide-twitter />
                 </a>
               </div>
             </div>
@@ -69,18 +59,8 @@
                   alt="Team member 02"
                 />
                 <h4 class="font-medium text-md text-slate-300">Mary Champ</h4>
-                <a class="p-2 mt-4 rounded-full" href="/">
-                  <svg
-                    width="16"
-                    height="13"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
-                      fill="#1DA1F2"
-                      fill-rule="nonzero"
-                    />
-                  </svg>
+                <a class="p-2 mt-4 rounded-full" href="/" target="_blank">
+                  <icon-lucide-twitter />
                 </a>
               </div>
             </div>
@@ -100,18 +80,8 @@
                   alt="Team member 03"
                 />
                 <h4 class="font-medium text-md text-slate-300">Mark Varsano</h4>
-                <a class="p-2 mt-4 rounded-full" href="/">
-                  <svg
-                    width="16"
-                    height="13"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
-                      fill="#1DA1F2"
-                      fill-rule="nonzero"
-                    />
-                  </svg>
+                <a class="p-2 mt-4 rounded-full" href="/" target="_blank">
+                  <icon-lucide-twitter />
                 </a>
               </div>
             </div>
@@ -133,18 +103,8 @@
                 <h4 class="font-medium text-md text-slate-300">
                   George Hurley
                 </h4>
-                <a class="p-2 mt-4 rounded-full" href="/">
-                  <svg
-                    width="16"
-                    height="13"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
-                      fill="#1DA1F2"
-                      fill-rule="nonzero"
-                    />
-                  </svg>
+                <a class="p-2 mt-4 rounded-full" href="/" target="_blank">
+                  <icon-lucide-twitter />
                 </a>
               </div>
             </div>
@@ -166,18 +126,8 @@
                 <h4 class="font-medium text-md text-slate-300">
                   Ellie Lepisov
                 </h4>
-                <a class="p-2 mt-4 rounded-full" href="/">
-                  <svg
-                    width="16"
-                    height="13"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
-                      fill="#1DA1F2"
-                      fill-rule="nonzero"
-                    />
-                  </svg>
+                <a class="p-2 mt-4 rounded-full" href="/" target="_blank">
+                  <icon-lucide-twitter />
                 </a>
               </div>
             </div>
@@ -197,18 +147,8 @@
                   alt="Team member 06"
                 />
                 <h4 class="font-medium text-md text-slate-300">Connor Bal</h4>
-                <a class="p-2 mt-4 rounded-full" href="/">
-                  <svg
-                    width="16"
-                    height="13"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
-                      fill="#1DA1F2"
-                      fill-rule="nonzero"
-                    />
-                  </svg>
+                <a class="p-2 mt-4 rounded-full" href="/" target="_blank">
+                  <icon-lucide-twitter />
                 </a>
               </div>
             </div>
@@ -228,18 +168,8 @@
                   alt="Team member 07"
                 />
                 <h4 class="font-medium text-md text-slate-300">Marko Sharma</h4>
-                <a class="p-2 mt-4 rounded-full" href="/">
-                  <svg
-                    width="16"
-                    height="13"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
-                      fill="#1DA1F2"
-                      fill-rule="nonzero"
-                    />
-                  </svg>
+                <a class="p-2 mt-4 rounded-full" href="/" target="_blank">
+                  <icon-lucide-twitter />
                 </a>
               </div>
             </div>
@@ -261,18 +191,8 @@
                 <h4 class="font-medium text-md text-slate-300">
                   Mick Esposito
                 </h4>
-                <a class="p-2 mt-4 rounded-full" href="/">
-                  <svg
-                    width="16"
-                    height="13"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
-                      fill="#1DA1F2"
-                      fill-rule="nonzero"
-                    />
-                  </svg>
+                <a class="p-2 mt-4 rounded-full" href="/" target="_blank">
+                  <icon-lucide-twitter />
                 </a>
               </div>
             </div>
@@ -292,18 +212,8 @@
                   alt="Team member 09"
                 />
                 <h4 class="font-medium text-md text-slate-300">Daniel Smith</h4>
-                <a class="p-2 mt-4 rounded-full" href="/">
-                  <svg
-                    width="16"
-                    height="13"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
-                      fill="#1DA1F2"
-                      fill-rule="nonzero"
-                    />
-                  </svg>
+                <a class="p-2 mt-4 rounded-full" href="/" target="_blank">
+                  <icon-lucide-twitter />
                 </a>
               </div>
             </div>
@@ -325,18 +235,8 @@
                 <h4 class="font-medium text-md text-slate-300">
                   Patricia Long
                 </h4>
-                <a class="p-2 mt-4 rounded-full" href="/">
-                  <svg
-                    width="16"
-                    height="13"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M16 1.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7C5.2 3.9 2.7 2.6 1.1.6c-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"
-                      fill="#1DA1F2"
-                      fill-rule="nonzero"
-                    />
-                  </svg>
+                <a class="p-2 mt-4 rounded-full" href="/" target="_blank">
+                  <icon-lucide-twitter />
                 </a>
               </div>
             </div>

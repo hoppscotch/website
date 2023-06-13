@@ -60,36 +60,36 @@
           <h6 class="mb-2 text-sm font-medium text-slate-50">Solutions</h6>
           <ul class="text-sm space-y-2">
             <li>
-              <a
+              <RouterLink
                 class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
-                href="/"
+                to="/"
               >
                 API Design
-              </a>
+              </RouterLink>
             </li>
             <li>
-              <a
+              <RouterLink
                 class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
-                href="/"
+                to="/"
               >
                 API Documentation
-              </a>
+              </RouterLink>
             </li>
             <li>
-              <a
+              <RouterLink
                 class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
-                href="/"
+                to="/"
               >
                 API Testing
-              </a>
+              </RouterLink>
             </li>
             <li>
-              <a
+              <RouterLink
                 class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
-                href="/"
+                to="/"
               >
                 API Monitoring
-              </a>
+              </RouterLink>
             </li>
           </ul>
         </div>
@@ -98,28 +98,28 @@
           <h6 class="mb-2 text-sm font-medium text-slate-50">Products</h6>
           <ul class="text-sm space-y-2">
             <li>
-              <a
+              <RouterLink
                 class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
-                href="/features"
+                to="/features"
               >
                 Features
-              </a>
+              </RouterLink>
             </li>
             <li>
-              <a
+              <RouterLink
                 class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
-                href="/"
+                to="/"
               >
                 Download
-              </a>
+              </RouterLink>
             </li>
             <li>
-              <a
+              <RouterLink
                 class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
-                href="/"
+                to="/"
               >
                 Changelog
-              </a>
+              </RouterLink>
             </li>
             <li>
               <RouterLink
@@ -136,36 +136,36 @@
           <h6 class="mb-2 text-sm font-medium text-slate-50">Company</h6>
           <ul class="text-sm space-y-2">
             <li>
-              <a
+              <RouterLink
                 class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
-                href="/"
+                to="/"
               >
                 About us
-              </a>
+              </RouterLink>
             </li>
             <li>
-              <a
+              <RouterLink
                 class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
-                href="/"
+                to="/"
               >
                 Blog
-              </a>
+              </RouterLink>
             </li>
             <li>
-              <a
+              <RouterLink
                 class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
-                href="/"
+                to="/"
               >
                 Careers
-              </a>
+              </RouterLink>
             </li>
             <li>
-              <a
+              <RouterLink
                 class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
-                href="/"
+                to="/"
               >
                 Contact us
-              </a>
+              </RouterLink>
             </li>
           </ul>
         </div>
@@ -174,36 +174,36 @@
           <h6 class="mb-2 text-sm font-medium text-slate-50">Resources</h6>
           <ul class="text-sm space-y-2">
             <li>
-              <a
+              <RouterLink
                 class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
-                href="/"
+                to="/"
               >
                 Documentation
-              </a>
+              </RouterLink>
             </li>
             <li>
-              <a
+              <RouterLink
                 class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
-                href="/"
+                to="/"
               >
                 Community
-              </a>
+              </RouterLink>
             </li>
             <li>
-              <a
+              <RouterLink
                 class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
-                href="/"
+                to="/"
               >
                 Privacy Policy
-              </a>
+              </RouterLink>
             </li>
             <li>
-              <a
+              <RouterLink
                 class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
-                href="/"
+                to="/"
               >
                 Terms of Service
-              </a>
+              </RouterLink>
             </li>
           </ul>
         </div>

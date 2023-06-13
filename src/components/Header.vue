@@ -35,7 +35,7 @@
               <RouterLink
                 to="/products"
                 class="px-2 text-sm font-medium rounded-full transition duration-200 ease-in-out text-slate-300 hover:text-white"
-                >Product</RouterLink
+                >Products</RouterLink
               >
             </li>
             <li>

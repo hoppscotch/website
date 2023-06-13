@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="relative">
     <!-- Radial gradient -->
     <div
       class="absolute inset-0 overflow-hidden pointer-events-none -z-10"
@@ -23,7 +23,7 @@
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              The security first platform
+              Solutions
             </div>
           </div>
           <h2
@@ -31,16 +31,14 @@
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            Spot issues faster
+            The future is here
           </h2>
           <p
             class="text-lg text-slate-400"
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            All the lorem ipsum generators on the Internet tend to repeat
-            predefined chunks as necessary, making this the first true generator
-            on the Internet.
+            We are building the future of API development. All in one place.
           </p>
         </div>
         <!-- Logo animation -->
@@ -306,7 +304,7 @@
         </div>
         <!-- Integration boxes -->
         <div
-          class="relative max-w-xs mx-auto mt-10 grid grid-cols-2 gap-6 sm:max-w-md md:max-w-6xl sm:grid-cols-3 md:grid-cols-6 md:mt-20"
+          class="relative grid max-w-xs grid-cols-2 gap-6 mx-auto mt-10 sm:max-w-md md:max-w-6xl sm:grid-cols-3 md:grid-cols-6 md:mt-20"
         >
           <!-- Top vertical line -->
           <div
