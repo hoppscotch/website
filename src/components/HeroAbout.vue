@@ -1,5 +1,5 @@
 <template>
-  <section class="relative">
+  <section>
     <!-- Background image -->
     <div class="absolute inset-0 pt-16 box-content h-128 -z-1">
       <img

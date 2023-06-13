@@ -1,5 +1,5 @@
 <template>
-  <section class="relative">
+  <section>
     <!-- Radial gradient -->
     <div
       class="absolute inset-0 overflow-hidden pointer-events-none -z-10"

@@ -1,5 +1,5 @@
 <template>
-  <section class="relative">
+  <section>
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
       <div class="pt-12 md:pt-20">
         <!-- Section header -->
