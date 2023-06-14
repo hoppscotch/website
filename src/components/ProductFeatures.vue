@@ -44,10 +44,10 @@
         <!-- Section content -->
         <div class="max-w-3xl mx-auto">
           <!-- Tabs buttons -->
-          <div class="grid grid-cols-2 gap-6 pb-8 sm:grid-cols-4">
+          <div class="pb-8 grid grid-cols-2 gap-6 sm:grid-cols-4">
             <div data-aos="fade-up" data-aos-delay="100">
               <button
-                class="w-full p-4 text-center transition-opacity opacity-50 grow rounded-xl hover:bg-blue-500/10"
+                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-blue-500/10"
                 :class="{
                   'bg-blue-500/10 !opacity-100 ring-1 ring-blue-600': tab === 1,
                 }"
@@ -68,7 +68,7 @@
             </div>
             <div data-aos="fade-up" data-aos-delay="200">
               <button
-                class="w-full p-4 text-center transition-opacity opacity-50 grow rounded-xl hover:bg-purple-500/10"
+                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-purple-500/10"
                 :class="{
                   'bg-purple-500/10 !opacity-100 ring-1 ring-purple-600':
                     tab === 2,
@@ -90,7 +90,7 @@
             </div>
             <div data-aos="fade-up" data-aos-delay="300">
               <button
-                class="w-full p-4 text-center transition-opacity opacity-50 grow rounded-xl hover:bg-red-500/10"
+                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-red-500/10"
                 :class="{
                   'bg-red-500/10 !opacity-100 ring-1 ring-red-600': tab === 3,
                 }"
@@ -111,7 +111,7 @@
             </div>
             <div data-aos="fade-up" data-aos-delay="400">
               <button
-                class="w-full p-4 text-center transition-opacity opacity-50 grow rounded-xl hover:bg-slate-500/10"
+                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-slate-500/10"
                 :class="{
                   'bg-slate-500/10 !opacity-100 ring-1 ring-slate-600':
                     tab === 4,
@@ -136,74 +136,198 @@
           <div class="relative flex flex-col" data-aos="fade-up">
             <Transition
               enter-active-class="order-first transition duration-500 ease-in-out"
-              enter-from-class="-translate-y-8 opacity-0"
-              enter-to-class="translate-y-0 opacity-100"
+              enter-from-class="opacity-0 -translate-y-8"
+              enter-to-class="opacity-100 translate-y-0"
               leave-active-class="absolute transition duration-500 ease-in-out"
               leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="translate-y-8 opacity-0"
+              leave-to-class="opacity-0 translate-y-8"
             >
               <div class="w-full" v-if="tab === 1">
-                <img
-                  class="mx-auto shadow-2xl ring-1 ring-slate-800 rounded-3xl"
-                  src="../images/features-home-01.png"
-                  width="768"
-                  height="474"
-                  alt="Features home 01"
-                />
+                <Highlighter class="group">
+                  <HighlighterItem>
+                    <div
+                      class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
+                    >
+                      <!-- Radial gradient -->
+                      <div
+                        class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
+                        aria-hidden="true"
+                      >
+                        <div
+                          class="absolute inset-0 translate-z-0 bg-purple-500 rounded-full blur-[120px]"
+                        ></div>
+                      </div>
+                      <img
+                        src="../images/feature-image-04.png"
+                        width="768"
+                        height="400"
+                        alt="Feature 04"
+                      />
+                      <div
+                        class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
+                      >
+                        <RouterLink
+                          class="shadow-xl transition duration-200 ease-in-out btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          to="/download"
+                        >
+                          Download
+                          <span
+                            class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
+                          >
+                            <icon-lucide-arrow-right />
+                          </span>
+                        </RouterLink>
+                      </div>
+                    </div>
+                  </HighlighterItem>
+                </Highlighter>
               </div>
             </Transition>
             <Transition
               enter-active-class="order-first transition duration-500 ease-in-out"
-              enter-from-class="-translate-y-8 opacity-0"
-              enter-to-class="translate-y-0 opacity-100"
+              enter-from-class="opacity-0 -translate-y-8"
+              enter-to-class="opacity-100 translate-y-0"
               leave-active-class="absolute transition duration-500 ease-in-out"
               leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="translate-y-8 opacity-0"
+              leave-to-class="opacity-0 translate-y-8"
             >
               <div class="w-full" v-if="tab === 2">
-                <img
-                  class="mx-auto shadow-2xl ring-1 ring-slate-800 rounded-3xl"
-                  src="../images/features-home-01.png"
-                  width="768"
-                  height="474"
-                  alt="Features home 02"
-                />
+                <Highlighter class="group">
+                  <HighlighterItem>
+                    <div
+                      class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
+                    >
+                      <!-- Radial gradient -->
+                      <div
+                        class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
+                        aria-hidden="true"
+                      >
+                        <div
+                          class="absolute inset-0 translate-z-0 bg-purple-500 rounded-full blur-[120px]"
+                        ></div>
+                      </div>
+                      <img
+                        src="../images/feature-image-04.png"
+                        width="768"
+                        height="400"
+                        alt="Feature 04"
+                      />
+                      <div
+                        class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
+                      >
+                        <RouterLink
+                          class="shadow-xl transition duration-200 ease-in-out btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          to="/download"
+                        >
+                          Download
+                          <span
+                            class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
+                          >
+                            <icon-lucide-arrow-right />
+                          </span>
+                        </RouterLink>
+                      </div>
+                    </div>
+                  </HighlighterItem>
+                </Highlighter>
               </div>
             </Transition>
             <Transition
               enter-active-class="order-first transition duration-500 ease-in-out"
-              enter-from-class="-translate-y-8 opacity-0"
-              enter-to-class="translate-y-0 opacity-100"
+              enter-from-class="opacity-0 -translate-y-8"
+              enter-to-class="opacity-100 translate-y-0"
               leave-active-class="absolute transition duration-500 ease-in-out"
               leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="translate-y-8 opacity-0"
+              leave-to-class="opacity-0 translate-y-8"
             >
               <div class="w-full" v-if="tab === 3">
-                <img
-                  class="mx-auto shadow-2xl ring-1 ring-slate-800 rounded-3xl"
-                  src="../images/features-home-01.png"
-                  width="768"
-                  height="474"
-                  alt="Features home 03"
-                />
+                <Highlighter class="group">
+                  <HighlighterItem>
+                    <div
+                      class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
+                    >
+                      <!-- Radial gradient -->
+                      <div
+                        class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
+                        aria-hidden="true"
+                      >
+                        <div
+                          class="absolute inset-0 translate-z-0 bg-purple-500 rounded-full blur-[120px]"
+                        ></div>
+                      </div>
+                      <img
+                        src="../images/feature-image-04.png"
+                        width="768"
+                        height="400"
+                        alt="Feature 04"
+                      />
+                      <div
+                        class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
+                      >
+                        <RouterLink
+                          class="shadow-xl transition duration-200 ease-in-out btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          to="/download"
+                        >
+                          Download
+                          <span
+                            class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
+                          >
+                            <icon-lucide-arrow-right />
+                          </span>
+                        </RouterLink>
+                      </div>
+                    </div>
+                  </HighlighterItem>
+                </Highlighter>
               </div>
             </Transition>
             <Transition
               enter-active-class="order-first transition duration-500 ease-in-out"
-              enter-from-class="-translate-y-8 opacity-0"
-              enter-to-class="translate-y-0 opacity-100"
+              enter-from-class="opacity-0 -translate-y-8"
+              enter-to-class="opacity-100 translate-y-0"
               leave-active-class="absolute transition duration-500 ease-in-out"
               leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="translate-y-8 opacity-0"
+              leave-to-class="opacity-0 translate-y-8"
             >
               <div class="w-full" v-if="tab === 4">
-                <img
-                  class="mx-auto shadow-2xl ring-1 ring-slate-800 rounded-3xl"
-                  src="../images/features-home-01.png"
-                  width="768"
-                  height="474"
-                  alt="Features home 04"
-                />
+                <Highlighter class="group">
+                  <HighlighterItem>
+                    <div
+                      class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
+                    >
+                      <!-- Radial gradient -->
+                      <div
+                        class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
+                        aria-hidden="true"
+                      >
+                        <div
+                          class="absolute inset-0 translate-z-0 bg-purple-500 rounded-full blur-[120px]"
+                        ></div>
+                      </div>
+                      <img
+                        src="../images/feature-image-04.png"
+                        width="768"
+                        height="400"
+                        alt="Feature 04"
+                      />
+                      <div
+                        class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
+                      >
+                        <RouterLink
+                          class="shadow-xl transition duration-200 ease-in-out btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          to="/download"
+                        >
+                          Download
+                          <span
+                            class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
+                          >
+                            <icon-lucide-arrow-right />
+                          </span>
+                        </RouterLink>
+                      </div>
+                    </div>
+                  </HighlighterItem>
+                </Highlighter>
               </div>
             </Transition>
           </div>

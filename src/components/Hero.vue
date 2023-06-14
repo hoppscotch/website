@@ -61,10 +61,9 @@
             data-aos-delay="400"
           >
             <div>
-              <a
+              <RouterLink
                 class="w-full transition duration-200 ease-in-out btn text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
-                href="https://hoppscotch.io"
-                target="_blank"
+                to="/download"
               >
                 Get Started
                 <span
@@ -72,7 +71,7 @@
                 >
                   <icon-lucide-arrow-right />
                 </span>
-              </a>
+              </RouterLink>
             </div>
             <div>
               <a

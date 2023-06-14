@@ -33,12 +33,11 @@
           <h2
             class="pb-4 text-transparent h2 bg-clip-text bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60"
           >
-            More than a login box
+            Unlock your potential
           </h2>
           <p class="text-lg text-slate-400">
-            There are many variations available, but the majority have suffered
-            alteration in some form, by injected humour, or randomised words
-            which don't look even slightly believable.
+            Take Hoppscotch with you wherever you go. Download the app to get
+            started.
           </p>
         </div>
         <div class="max-w-3xl mx-auto">
@@ -63,6 +62,21 @@
                     height="400"
                     alt="Feature 04"
                   />
+                  <div
+                    class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
+                  >
+                    <RouterLink
+                      class="shadow-xl transition duration-200 ease-in-out btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                      to="/download"
+                    >
+                      Download
+                      <span
+                        class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
+                      >
+                        <icon-lucide-arrow-right />
+                      </span>
+                    </RouterLink>
+                  </div>
                 </div>
               </HighlighterItem>
             </Highlighter>

@@ -304,7 +304,7 @@
         </div>
         <!-- Integration boxes -->
         <div
-          class="relative grid max-w-xs grid-cols-2 gap-6 mx-auto mt-10 sm:max-w-md md:max-w-6xl sm:grid-cols-3 md:grid-cols-6 md:mt-20"
+          class="relative max-w-xs mx-auto mt-10 grid grid-cols-2 gap-6 sm:max-w-md md:max-w-6xl sm:grid-cols-3 md:grid-cols-6 md:mt-20"
         >
           <!-- Top vertical line -->
           <div

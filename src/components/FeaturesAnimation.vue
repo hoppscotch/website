@@ -79,72 +79,72 @@
             <!-- Moving tags -->
             <div class="absolute inset-0" data-aos="fade-right">
               <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-indigo-500 bg-indigo-500 bg-opacity-25 rounded-full text-md bg-gradient-to-tr from-transparent to-transparent tags-animation mt-28"
+                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-indigo-500 bg-indigo-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation mt-28"
               >
                 Custom Support
               </div>
               <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-teal-500 bg-teal-500 bg-opacity-25 rounded-full text-md from-transparent to-transparent tags-animation tags-1 mt-72"
+                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-teal-500 bg-teal-500 rounded-full bg-opacity-25 text-md from-transparent to-transparent tags-animation tags-1 mt-72"
               >
                 Components
               </div>
               <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 mt-40 font-medium text-pink-500 bg-pink-500 bg-opacity-25 rounded-full text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-2"
+                class="absolute inline-flex items-center justify-center px-4 py-1 mt-40 font-medium text-pink-500 bg-pink-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-2"
               >
                 Items
               </div>
               <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-indigo-500 bg-indigo-500 bg-opacity-25 rounded-full text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-3 mt-80 top-4"
+                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-indigo-500 bg-indigo-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-3 mt-80 top-4"
               >
                 Tools
               </div>
               <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 mt-56 font-medium text-indigo-500 bg-indigo-500 bg-opacity-25 rounded-full text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-4"
+                class="absolute inline-flex items-center justify-center px-4 py-1 mt-56 font-medium text-indigo-500 bg-indigo-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-4"
               >
                 Development
               </div>
               <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-pink-500 bg-pink-500 bg-opacity-25 rounded-full text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-4"
+                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-pink-500 bg-pink-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-4"
               >
                 Project Settings
               </div>
               <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-teal-500 bg-teal-500 bg-opacity-25 rounded-full text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-5 mt-14"
+                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-teal-500 bg-teal-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-5 mt-14"
               >
                 Tools & Widgets
               </div>
               <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-purple-500 bg-purple-500 bg-opacity-25 rounded-full text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-5 mt-80 top-4"
+                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-purple-500 bg-purple-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-5 mt-80 top-4"
               >
                 Getting Started
               </div>
               <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 mt-40 font-medium text-indigo-500 bg-indigo-500 bg-opacity-25 rounded-full text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-6"
+                class="absolute inline-flex items-center justify-center px-4 py-1 mt-40 font-medium text-indigo-500 bg-indigo-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-6"
               >
                 Templates
               </div>
               <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-indigo-500 bg-indigo-500 bg-opacity-25 rounded-full text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-7"
+                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-indigo-500 bg-indigo-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-7"
               >
                 Frameworks
               </div>
               <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-pink-500 bg-pink-500 bg-opacity-25 rounded-full text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-7 mt-72"
+                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-pink-500 bg-pink-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-7 mt-72"
               >
                 Custom UI
               </div>
               <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-purple-500 bg-purple-500 bg-opacity-25 rounded-full text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-8 mt-28"
+                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-purple-500 bg-purple-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-8 mt-28"
               >
                 Layout & Design
               </div>
               <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-teal-500 bg-teal-500 bg-opacity-25 rounded-full text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-9 mt-80 top-4"
+                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-teal-500 bg-teal-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-9 mt-80 top-4"
               >
                 Perks
               </div>
               <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 mt-56 font-medium text-teal-500 bg-teal-500 bg-opacity-25 rounded-full text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-10"
+                class="absolute inline-flex items-center justify-center px-4 py-1 mt-56 font-medium text-teal-500 bg-teal-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-10"
               >
                 Product & Design
               </div>

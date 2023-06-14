@@ -108,7 +108,7 @@
             <li>
               <RouterLink
                 class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
-                to="/"
+                to="/download"
               >
                 Download
               </RouterLink>
