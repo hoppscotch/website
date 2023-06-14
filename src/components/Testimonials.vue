@@ -49,7 +49,7 @@
             <TransitionGroup
               tag="div"
               class="relative flex flex-col"
-              enter-active-class="order-first transition duration-500 ease-in-out delay-200"
+              enter-active-class="order-first transition duration-500 delay-200"
               enter-from-class="opacity-0 -translate-x-4"
               enter-to-class="opacity-100 translate-x-0"
               leave-active-class="absolute transition duration-500 ease-out delay-300"
@@ -71,7 +71,7 @@
           <div class="flex flex-wrap justify-center -m-1.5">
             <template :key="index" v-for="(item, index) in items">
               <button
-                class="btn-sm m-1.5 text-xs py-1.5 text-slate-300 transition duration-200 ease-in-out [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none"
+                class="btn-sm m-1.5 text-xs py-1.5 text-slate-300 transition [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none"
                 :class="
                   active === index
                     ? 'opacity-100'

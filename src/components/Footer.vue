@@ -34,7 +34,7 @@
             <ul class="flex">
               <li>
                 <a
-                  class="flex items-center justify-center rounded-full transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
+                  class="flex items-center justify-center rounded-full transition text-slate-400 hover:text-slate-200"
                   href="https://hoppscotch.io/twitter"
                   aria-label="Twitter"
                   target="_blank"
@@ -44,7 +44,7 @@
               </li>
               <li class="ml-2">
                 <a
-                  class="flex items-center justify-center rounded-full transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
+                  class="flex items-center justify-center rounded-full transition text-slate-400 hover:text-slate-200"
                   href="https://hoppscotch.io/github"
                   aria-label="Github"
                   target="_blank"
@@ -57,11 +57,18 @@
         </div>
         <!-- 2nd block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="mb-2 text-sm font-medium text-slate-50">Solutions</h6>
+          <h6 class="mb-2">
+            <RouterLink
+              to="/solutions"
+              class="text-sm font-medium rounded transition text-slate-100 hover:text-slate-50"
+            >
+              Solutions
+            </RouterLink>
+          </h6>
           <ul class="text-sm space-y-2">
             <li>
               <RouterLink
-                class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
+                class="rounded transition text-slate-400 hover:text-slate-200"
                 to="/"
               >
                 API Design
@@ -69,7 +76,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
+                class="rounded transition text-slate-400 hover:text-slate-200"
                 to="/"
               >
                 API Documentation
@@ -77,7 +84,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
+                class="rounded transition text-slate-400 hover:text-slate-200"
                 to="/"
               >
                 API Testing
@@ -85,7 +92,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
+                class="rounded transition text-slate-400 hover:text-slate-200"
                 to="/"
               >
                 API Monitoring
@@ -95,11 +102,18 @@
         </div>
         <!-- 3rd block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="mb-2 text-sm font-medium text-slate-50">Products</h6>
+          <h6 class="mb-2">
+            <RouterLink
+              to="/products"
+              class="text-sm font-medium rounded transition text-slate-100 hover:text-slate-50"
+            >
+              Products
+            </RouterLink>
+          </h6>
           <ul class="text-sm space-y-2">
             <li>
               <RouterLink
-                class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
+                class="rounded transition text-slate-400 hover:text-slate-200"
                 to="/features"
               >
                 Features
@@ -107,7 +121,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
+                class="rounded transition text-slate-400 hover:text-slate-200"
                 to="/download"
               >
                 Download
@@ -115,7 +129,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
+                class="rounded transition text-slate-400 hover:text-slate-200"
                 to="/"
               >
                 Changelog
@@ -123,7 +137,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
+                class="rounded transition text-slate-400 hover:text-slate-200"
                 to="/pricing"
               >
                 Pricing & Plans
@@ -133,11 +147,18 @@
         </div>
         <!-- 4th block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="mb-2 text-sm font-medium text-slate-50">Company</h6>
+          <h6 class="mb-2">
+            <RouterLink
+              to="/company"
+              class="text-sm font-medium rounded transition text-slate-100 hover:text-slate-50"
+            >
+              Company
+            </RouterLink>
+          </h6>
           <ul class="text-sm space-y-2">
             <li>
               <RouterLink
-                class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
+                class="rounded transition text-slate-400 hover:text-slate-200"
                 to="/"
               >
                 About us
@@ -145,7 +166,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
+                class="rounded transition text-slate-400 hover:text-slate-200"
                 to="/"
               >
                 Blog
@@ -153,7 +174,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
+                class="rounded transition text-slate-400 hover:text-slate-200"
                 to="/"
               >
                 Careers
@@ -161,7 +182,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
+                class="rounded transition text-slate-400 hover:text-slate-200"
                 to="/"
               >
                 Contact us
@@ -171,11 +192,18 @@
         </div>
         <!-- 5th block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="mb-2 text-sm font-medium text-slate-50">Resources</h6>
+          <h6 class="mb-2">
+            <RouterLink
+              to="/resources"
+              class="text-sm font-medium rounded transition text-slate-100 hover:text-slate-50"
+            >
+              Resources
+            </RouterLink>
+          </h6>
           <ul class="text-sm space-y-2">
             <li>
               <RouterLink
-                class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
+                class="rounded transition text-slate-400 hover:text-slate-200"
                 to="/"
               >
                 Documentation
@@ -183,7 +211,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
+                class="rounded transition text-slate-400 hover:text-slate-200"
                 to="/"
               >
                 Community
@@ -191,7 +219,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
+                class="rounded transition text-slate-400 hover:text-slate-200"
                 to="/"
               >
                 Privacy Policy
@@ -199,7 +227,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition duration-200 ease-in-out text-slate-400 hover:text-slate-200"
+                class="rounded transition text-slate-400 hover:text-slate-200"
                 to="/"
               >
                 Terms of Service

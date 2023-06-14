@@ -43,7 +43,7 @@
                 >
                   <!-- Particles animation -->
                   <Particles
-                    class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500 ease-in-out"
+                    class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500"
                     :quantity="3"
                     :refresh="swiperInitialized"
                   />
@@ -53,7 +53,7 @@
                     aria-hidden="true"
                   >
                     <div
-                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-800 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 ease-in-out blur-[60px]"
+                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-800 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 blur-[60px]"
                     ></div>
                   </div>
                   <div class="flex flex-col h-full p-6">
@@ -73,11 +73,11 @@
                     </div>
                     <div class="text-right">
                       <RouterLink
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-200 ease-in-out text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-300 hover:text-white group"
                         to="/"
                         >Learn More
                         <span
-                          class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
+                          class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
                         >
                           <icon-lucide-arrow-right />
                         </span>
@@ -96,7 +96,7 @@
                 >
                   <!-- Particles animation -->
                   <Particles
-                    class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500 ease-in-out"
+                    class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500"
                     :quantity="3"
                     :refresh="swiperInitialized"
                   />
@@ -106,7 +106,7 @@
                     aria-hidden="true"
                   >
                     <div
-                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-800 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 ease-in-out blur-[60px]"
+                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-800 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 blur-[60px]"
                     ></div>
                   </div>
                   <div class="flex flex-col h-full p-6">
@@ -126,11 +126,11 @@
                     </div>
                     <div class="text-right">
                       <RouterLink
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-200 ease-in-out text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-300 hover:text-white group"
                         to="/"
                         >Learn More
                         <span
-                          class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
+                          class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
                         >
                           <icon-lucide-arrow-right />
                         </span>
@@ -149,7 +149,7 @@
                 >
                   <!-- Particles animation -->
                   <Particles
-                    class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500 ease-in-out"
+                    class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500"
                     :quantity="3"
                     :refresh="swiperInitialized"
                   />
@@ -159,7 +159,7 @@
                     aria-hidden="true"
                   >
                     <div
-                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-800 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 ease-in-out blur-[60px]"
+                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-800 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 blur-[60px]"
                     ></div>
                   </div>
                   <div class="flex flex-col h-full p-6">
@@ -181,11 +181,11 @@
                     </div>
                     <div class="text-right">
                       <RouterLink
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-200 ease-in-out text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-300 hover:text-white group"
                         to="/"
                         >Learn More
                         <span
-                          class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
+                          class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
                         >
                           <icon-lucide-arrow-right />
                         </span>
@@ -204,7 +204,7 @@
                 >
                   <!-- Particles animation -->
                   <Particles
-                    class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500 ease-in-out"
+                    class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500"
                     :quantity="3"
                     :refresh="swiperInitialized"
                   />
@@ -214,7 +214,7 @@
                     aria-hidden="true"
                   >
                     <div
-                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-800 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 ease-in-out blur-[60px]"
+                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-800 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 blur-[60px]"
                     ></div>
                   </div>
                   <div class="flex flex-col h-full p-6">
@@ -236,11 +236,11 @@
                     </div>
                     <div class="text-right">
                       <RouterLink
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-200 ease-in-out text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-300 hover:text-white group"
                         to="/"
                         >Learn More
                         <span
-                          class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
+                          class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
                         >
                           <icon-lucide-arrow-right />
                         </span>
@@ -259,7 +259,7 @@
                 >
                   <!-- Particles animation -->
                   <Particles
-                    class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500 ease-in-out"
+                    class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500"
                     :quantity="3"
                     :refresh="swiperInitialized"
                   />
@@ -269,7 +269,7 @@
                     aria-hidden="true"
                   >
                     <div
-                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-800 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 ease-in-out blur-[60px]"
+                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-800 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 blur-[60px]"
                     ></div>
                   </div>
                   <div class="flex flex-col h-full p-6">
@@ -289,11 +289,11 @@
                     </div>
                     <div class="text-right">
                       <RouterLink
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition duration-200 ease-in-out text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-300 hover:text-white group"
                         to="/"
                         >Learn More
                         <span
-                          class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
+                          class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
                         >
                           <icon-lucide-arrow-right />
                         </span>
@@ -312,7 +312,7 @@
           >
             <span class="sr-only">Previous</span>
             <icon-lucide-arrow-left
-              class="w-4 h-4 transition duration-200 ease-in-out text-slate-500 group-hover:text-purple-500"
+              class="w-4 h-4 transition text-slate-500 group-hover:text-purple-500"
             />
           </button>
           <button
@@ -320,7 +320,7 @@
           >
             <span class="sr-only">Next</span>
             <icon-lucide-arrow-right
-              class="w-4 h-4 transition duration-200 ease-in-out text-slate-500 group-hover:text-purple-500"
+              class="w-4 h-4 transition text-slate-500 group-hover:text-purple-500"
             />
           </button>
         </div>

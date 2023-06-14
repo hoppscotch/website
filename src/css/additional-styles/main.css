@@ -6,3 +6,7 @@
   @apply outline-offset-4;
   @apply outline-white/10;
 }
+::selection {
+  @apply bg-purple-500/50;
+  @apply text-white;
+}

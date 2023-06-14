@@ -1,5 +1,5 @@
 <template>
   <DownloadProducts />
-  <TestimonialsCarousel />
+  <DownloadsCarousel />
   <Features04 />
 </template>

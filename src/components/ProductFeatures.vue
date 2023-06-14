@@ -135,10 +135,10 @@
           <!-- Tab items -->
           <div class="relative flex flex-col" data-aos="fade-up">
             <Transition
-              enter-active-class="order-first transition duration-500 ease-in-out"
+              enter-active-class="order-first transition duration-500 "
               enter-from-class="opacity-0 -translate-y-8"
               enter-to-class="opacity-100 translate-y-0"
-              leave-active-class="absolute transition duration-500 ease-in-out"
+              leave-active-class="absolute transition duration-500 "
               leave-from-class="opacity-100 -translate-y-0"
               leave-to-class="opacity-0 translate-y-8"
             >
@@ -159,20 +159,18 @@
                       </div>
                       <img
                         src="../images/feature-image-04.png"
-                        width="768"
-                        height="400"
                         alt="Feature 04"
                       />
                       <div
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="shadow-xl transition duration-200 ease-in-out btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="shadow-xl transition btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
                           <span
-                            class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
+                            class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
                           >
                             <icon-lucide-arrow-right />
                           </span>
@@ -184,10 +182,10 @@
               </div>
             </Transition>
             <Transition
-              enter-active-class="order-first transition duration-500 ease-in-out"
+              enter-active-class="order-first transition duration-500 "
               enter-from-class="opacity-0 -translate-y-8"
               enter-to-class="opacity-100 translate-y-0"
-              leave-active-class="absolute transition duration-500 ease-in-out"
+              leave-active-class="absolute transition duration-500 "
               leave-from-class="opacity-100 -translate-y-0"
               leave-to-class="opacity-0 translate-y-8"
             >
@@ -208,20 +206,18 @@
                       </div>
                       <img
                         src="../images/feature-image-04.png"
-                        width="768"
-                        height="400"
                         alt="Feature 04"
                       />
                       <div
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="shadow-xl transition duration-200 ease-in-out btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="shadow-xl transition btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
                           <span
-                            class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
+                            class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
                           >
                             <icon-lucide-arrow-right />
                           </span>
@@ -233,10 +229,10 @@
               </div>
             </Transition>
             <Transition
-              enter-active-class="order-first transition duration-500 ease-in-out"
+              enter-active-class="order-first transition duration-500 "
               enter-from-class="opacity-0 -translate-y-8"
               enter-to-class="opacity-100 translate-y-0"
-              leave-active-class="absolute transition duration-500 ease-in-out"
+              leave-active-class="absolute transition duration-500 "
               leave-from-class="opacity-100 -translate-y-0"
               leave-to-class="opacity-0 translate-y-8"
             >
@@ -257,20 +253,18 @@
                       </div>
                       <img
                         src="../images/feature-image-04.png"
-                        width="768"
-                        height="400"
                         alt="Feature 04"
                       />
                       <div
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="shadow-xl transition duration-200 ease-in-out btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="shadow-xl transition btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
                           <span
-                            class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
+                            class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
                           >
                             <icon-lucide-arrow-right />
                           </span>
@@ -282,10 +276,10 @@
               </div>
             </Transition>
             <Transition
-              enter-active-class="order-first transition duration-500 ease-in-out"
+              enter-active-class="order-first transition duration-500 "
               enter-from-class="opacity-0 -translate-y-8"
               enter-to-class="opacity-100 translate-y-0"
-              leave-active-class="absolute transition duration-500 ease-in-out"
+              leave-active-class="absolute transition duration-500 "
               leave-from-class="opacity-100 -translate-y-0"
               leave-to-class="opacity-0 translate-y-8"
             >
@@ -306,20 +300,18 @@
                       </div>
                       <img
                         src="../images/feature-image-04.png"
-                        width="768"
-                        height="400"
                         alt="Feature 04"
                       />
                       <div
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="shadow-xl transition duration-200 ease-in-out btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="shadow-xl transition btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
                           <span
-                            class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
+                            class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
                           >
                             <icon-lucide-arrow-right />
                           </span>

@@ -67,17 +67,22 @@
                 <div
                   class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                 >
-                  <RouterLink
-                    class="shadow-xl transition duration-200 ease-in-out btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
-                    to="/download"
+                  <button
+                    v-if="!isDownloading"
+                    class="shadow-xl transition btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                    @click="initDownload"
                   >
-                    Download
+                    <span class="mr-1"> Download </span>
                     <span
-                      class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
+                      class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform"
                     >
                       <icon-lucide-arrow-right />
                     </span>
-                  </RouterLink>
+                  </button>
+                  <icon-lucide-loader
+                    v-else="isDownloading"
+                    class="m-2 animate-spin"
+                  />
                 </div>
               </div>
             </HighlighterItem>
@@ -119,4 +124,11 @@ onMounted(() => {
   })
   swiperInitialized.value = true
 })
+const isDownloading = ref(false)
+const initDownload = () => {
+  isDownloading.value = true
+  setTimeout(() => {
+    isDownloading.value = false
+  }, 2000)
+}
 </script>

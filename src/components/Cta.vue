@@ -61,12 +61,12 @@
           </p>
           <div>
             <RouterLink
-              class="transition duration-200 ease-in-out btn text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+              class="transition btn text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
               to="/download"
             >
               Get Started
               <span
-                class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
+                class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
               >
                 <icon-lucide-arrow-right />
               </span>

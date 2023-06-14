@@ -22,7 +22,6 @@
               <img
                 class="opacity-50 rounded-md"
                 src="../images/about-hero.jpg"
-                width="768"
                 height="432"
                 alt="About hero"
               />

@@ -67,7 +67,7 @@
                     Password
                   </label>
                   <RouterLink
-                    class="ml-2 text-sm font-medium text-purple-500 transition duration-200 ease-in-out hover:text-purple-400"
+                    class="ml-2 text-sm font-medium text-purple-500 transition hover:text-purple-400"
                     to="/reset-password"
                   >
                     Forgot?
@@ -88,7 +88,7 @@
               >
                 Sign In
                 <span
-                  class="tracking-normal text-purple-300 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
+                  class="tracking-normal text-purple-300 group-hover:translate-x-0.5 transition-transform ml-1"
                 >
                   <icon-lucide-arrow-right />
                 </span>
@@ -99,7 +99,7 @@
             <div class="text-sm text-slate-400">
               Don't have an account?
               <RouterLink
-                class="font-medium text-purple-500 transition duration-200 ease-in-out hover:text-purple-400"
+                class="font-medium text-purple-500 transition hover:text-purple-400"
                 to="/sign-up"
               >
                 Sign up
@@ -121,7 +121,7 @@
           <!-- Social login -->
           <div class="flex space-x-3">
             <button
-              class="btn text-slate-300 hover:text-white transition duration-200 ease-in-out w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none h-9"
+              class="btn text-slate-300 hover:text-white transition w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none h-9"
             >
               <span class="relative">
                 <span class="sr-only">Continue with Twitter</span>
@@ -129,7 +129,7 @@
               </span>
             </button>
             <button
-              class="btn text-slate-300 hover:text-white transition duration-200 ease-in-out w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none h-9"
+              class="btn text-slate-300 hover:text-white transition w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none h-9"
             >
               <span class="relative">
                 <span class="sr-only">Continue with GitHub</span>

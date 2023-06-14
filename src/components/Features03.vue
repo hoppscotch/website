@@ -66,12 +66,12 @@
                     class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                   >
                     <RouterLink
-                      class="shadow-xl transition duration-200 ease-in-out btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                      class="shadow-xl transition btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                       to="/download"
                     >
                       Download
                       <span
-                        class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
+                        class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
                       >
                         <icon-lucide-arrow-right />
                       </span>

@@ -118,12 +118,12 @@
               </div>
               <div class="pb-4 border-b border-slate-800">
                 <RouterLink
-                  class="w-full transition duration-200 ease-in-out btn-sm text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                  class="w-full transition btn-sm text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                   to="/"
                 >
                   Get Started
                   <span
-                    class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
+                    class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
                   >
                     <icon-lucide-arrow-right />
                   </span>
@@ -149,12 +149,12 @@
               </div>
               <div class="pb-4 border-b border-slate-800">
                 <RouterLink
-                  class="w-full text-white bg-purple-500 transition duration-200 ease-in-out btn-sm hover:bg-purple-600 group"
+                  class="w-full text-white bg-purple-500 transition btn-sm hover:bg-purple-600 group"
                   to="/"
                 >
                   Get Started
                   <span
-                    class="tracking-normal text-purple-300 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
+                    class="tracking-normal text-purple-300 group-hover:translate-x-0.5 transition-transform ml-1"
                   >
                     <icon-lucide-arrow-right />
                   </span>
@@ -180,12 +180,12 @@
               </div>
               <div class="pb-4 border-b border-slate-800">
                 <RouterLink
-                  class="w-full transition duration-200 ease-in-out btn-sm text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                  class="w-full transition btn-sm text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                   to="/"
                 >
                   Get Started
                   <span
-                    class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-200 ease-in-out ml-1"
+                    class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
                   >
                     <icon-lucide-arrow-right />
                   </span>

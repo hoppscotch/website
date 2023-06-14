@@ -46,7 +46,7 @@
               </p>
               <div class="max-w-xs mt-8 space-y-2 max-md:mx-auto">
                 <button
-                  class="flex items-center w-full px-3 py-2 text-sm font-medium border rounded transition duration-200 ease-in-out text-slate-50 bg-slate-800/25 hover:opacity-100"
+                  class="flex items-center w-full px-3 py-2 text-sm font-medium border rounded transition text-slate-50 bg-slate-800/25 hover:opacity-100"
                   :class="
                     tab !== '1'
                       ? 'border-slate-700 opacity-50'
@@ -58,7 +58,7 @@
                   <span>Built to be fast</span>
                 </button>
                 <button
-                  class="flex items-center w-full px-3 py-2 text-sm font-medium border rounded transition duration-200 ease-in-out text-slate-50 bg-slate-800/25 hover:opacity-100"
+                  class="flex items-center w-full px-3 py-2 text-sm font-medium border rounded transition text-slate-50 bg-slate-800/25 hover:opacity-100"
                   :class="
                     tab !== '2'
                       ? 'border-slate-700 opacity-50'
@@ -70,7 +70,7 @@
                   <span>Made with open source</span>
                 </button>
                 <button
-                  class="flex items-center w-full px-3 py-2 text-sm font-medium border rounded transition duration-200 ease-in-out text-slate-50 bg-slate-800/25 hover:opacity-100"
+                  class="flex items-center w-full px-3 py-2 text-sm font-medium border rounded transition text-slate-50 bg-slate-800/25 hover:opacity-100"
                   :class="
                     tab !== '3'
                       ? 'border-slate-700 opacity-50'
