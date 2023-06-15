@@ -47,7 +47,7 @@
           <Highlighter class="group">
             <HighlighterItem>
               <div
-                class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
+                class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
               >
                 <!-- Radial gradient -->
                 <div
@@ -69,7 +69,7 @@
                 >
                   <button
                     v-if="!isDownloading"
-                    class="shadow-xl transition btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                    class="shadow-xl transition btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                     @click="initDownload"
                   >
                     <span class="mr-1"> Download </span>

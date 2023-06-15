@@ -65,11 +65,11 @@
           </div>
           <!-- Content -->
           <div
-            class="grid md:grid-cols-4 xl:-mx-6 text-sm [&>div:nth-of-type(-n+4)]:py-6 [&>div:nth-last-of-type(-n+4)]:pb-6 max-md:[&>div:nth-last-of-type(-n+4)]:mb-8 max-md:[&>div:nth-of-type(-n+4):nth-of-type(n+1)]:rounded-t-3xl max-md:[&>div:nth-last-of-type(-n+4)]:rounded-b-3xl md:[&>div:nth-of-type(2)]:rounded-tl-3xl md:[&>div:nth-of-type(4)]:rounded-tr-3xl md:[&>div:nth-last-of-type(3)]:rounded-bl-3xl md:[&>div:nth-last-of-type(1)]:rounded-br-3xl [&>div]:bg-slate-700/20 [&>div:nth-of-type(4n+1)]:bg-transparent max-md:[&>div:nth-of-type(4n+5)]:hidden max-md:[&>div:nth-of-type(4n+2)]:order-1 max-md:[&>div:nth-of-type(4n+3)]:order-2 max-md:[&>div:nth-of-type(4n+4)]:order-3 max-md:md:[&>div:nth-of-type(n)]:mb-0 [&>div:nth-of-type(4n+3)]:relative before:[&>div:nth-of-type(4n+3)]:absolute before:[&>div:nth-of-type(4n+3)]:-inset-px before:[&>div:nth-of-type(4n+3)]:rounded-[inherit] before:[&>div:nth-of-type(4n+3)]:border-x-2 before:[&>div:nth-of-type(3)]:border-t-2 before:[&>div:nth-last-of-type(2)]:border-b-2 before:[&>div:nth-of-type(4n+3)]:border-purple-500 before:[&>div:nth-of-type(4n+3)]:-z-10 before:[&>div:nth-of-type(4n+3)]:pointer-events-none"
+            class="grid md:grid-cols-4 xl:-mx-6 text-sm [&>div:nth-of-type(-n+4)]:py-6 [&>div:nth-last-of-type(-n+4)]:pb-6 max-md:[&>div:nth-last-of-type(-n+4)]:mb-8 max-md:[&>div:nth-of-type(-n+4):nth-of-type(n+1)]:rounded-t-3xl max-md:[&>div:nth-last-of-type(-n+4)]:rounded-b-3xl md:[&>div:nth-of-type(2)]:rounded-tl-3xl md:[&>div:nth-of-type(4)]:rounded-tr-3xl md:[&>div:nth-last-of-type(3)]:rounded-bl-3xl md:[&>div:nth-last-of-type(1)]:rounded-br-3xl [&>div]:bg-slate-800/20 [&>div:nth-of-type(4n+1)]:bg-transparent max-md:[&>div:nth-of-type(4n+5)]:hidden max-md:[&>div:nth-of-type(4n+2)]:order-1 max-md:[&>div:nth-of-type(4n+3)]:order-2 max-md:[&>div:nth-of-type(4n+4)]:order-3 max-md:md:[&>div:nth-of-type(n)]:mb-0 [&>div:nth-of-type(4n+3)]:relative before:[&>div:nth-of-type(4n+3)]:absolute before:[&>div:nth-of-type(4n+3)]:-inset-px before:[&>div:nth-of-type(4n+3)]:rounded-[inherit] before:[&>div:nth-of-type(4n+3)]:border-x-2 before:[&>div:nth-of-type(3)]:border-t-2 before:[&>div:nth-last-of-type(2)]:border-b-2 before:[&>div:nth-of-type(4n+3)]:border-purple-500 before:[&>div:nth-of-type(4n+3)]:-z-10 before:[&>div:nth-of-type(4n+3)]:pointer-events-none"
           >
             <!-- Pricing toggle -->
             <div class="flex flex-col justify-end px-6">
-              <div class="pb-5 md:border-b border-slate-800">
+              <div class="pb-5 md:border-b border-slate-900">
                 <!-- Toggle switch -->
                 <div class="max-md:text-center">
                   <div class="inline-flex items-center whitespace-nowrap">
@@ -101,7 +101,7 @@
             </div>
             <!-- Pro price -->
             <div class="flex flex-col justify-end px-6">
-              <div class="pb-4 mb-4 border-b grow border-slate-800">
+              <div class="pb-4 mb-4 border-b grow border-slate-900">
                 <div
                   class="text-base font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-0.5"
                 >
@@ -116,9 +116,9 @@
                 </div>
                 <div class="text-slate-500">Everything at your fingertips.</div>
               </div>
-              <div class="pb-4 border-b border-slate-800">
+              <div class="pb-4 border-b border-slate-900">
                 <RouterLink
-                  class="w-full transition btn-sm text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                  class="w-full transition btn-sm text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                   to="/"
                 >
                   Get Started
@@ -132,7 +132,7 @@
             </div>
             <!-- Team price -->
             <div class="flex flex-col justify-end px-6">
-              <div class="pb-4 mb-4 border-b grow border-slate-800">
+              <div class="pb-4 mb-4 border-b grow border-slate-900">
                 <div
                   class="text-base font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-0.5"
                 >
@@ -147,7 +147,7 @@
                 </div>
                 <div class="text-slate-500">Everything at your fingertips.</div>
               </div>
-              <div class="pb-4 border-b border-slate-800">
+              <div class="pb-4 border-b border-slate-900">
                 <RouterLink
                   class="w-full text-white bg-purple-500 transition btn-sm hover:bg-purple-600 group"
                   to="/"
@@ -163,7 +163,7 @@
             </div>
             <!-- Enterprise price -->
             <div class="flex flex-col justify-end px-6">
-              <div class="pb-4 mb-4 border-b grow border-slate-800">
+              <div class="pb-4 mb-4 border-b grow border-slate-900">
                 <div
                   class="text-base font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-0.5"
                 >
@@ -178,9 +178,9 @@
                 </div>
                 <div class="text-slate-500">Everything at your fingertips.</div>
               </div>
-              <div class="pb-4 border-b border-slate-800">
+              <div class="pb-4 border-b border-slate-900">
                 <RouterLink
-                  class="w-full transition btn-sm text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                  class="w-full transition btn-sm text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                   to="/"
                 >
                   Get Started
@@ -213,13 +213,13 @@
             </div>
             <!-- Social Connections -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-800">
+              <div class="py-2 border-b text-slate-400 border-slate-900">
                 Social Connections
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
@@ -229,7 +229,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
@@ -239,7 +239,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
@@ -250,13 +250,13 @@
             </div>
             <!-- Custom Domains -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-800">
+              <div class="py-2 border-b text-slate-400 border-slate-900">
                 Custom Domains
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span>4 <span class="md:hidden">Custom Domains</span></span>
@@ -264,7 +264,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
@@ -274,7 +274,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
@@ -284,13 +284,13 @@
             </div>
             <!-- User Role Management -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-800">
+              <div class="py-2 border-b text-slate-400 border-slate-900">
                 User Role Management
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
@@ -301,7 +301,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
@@ -312,7 +312,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
@@ -323,13 +323,13 @@
             </div>
             <!-- External Databases -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-800">
+              <div class="py-2 border-b text-slate-400 border-slate-900">
                 External Databases
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span>1 <span class="md:hidden">External Databases</span></span>
@@ -337,7 +337,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span>5 <span class="md:hidden">External Databases</span></span>
@@ -345,7 +345,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
@@ -375,13 +375,13 @@
             </div>
             <!-- Custom Connection -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-800">
+              <div class="py-2 border-b text-slate-400 border-slate-900">
                 Custom Connection
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Custom Connection</span></span>
@@ -389,7 +389,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Custom Connection</span></span>
@@ -397,7 +397,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Custom Connection</span></span>
@@ -405,13 +405,13 @@
             </div>
             <!-- Advanced Deployment Options -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-800">
+              <div class="py-2 border-b text-slate-400 border-slate-900">
                 Advanced Deployment Options
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
@@ -423,7 +423,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
@@ -435,7 +435,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span
@@ -447,13 +447,13 @@
             </div>
             <!-- Extra Add-ons -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-800">
+              <div class="py-2 border-b text-slate-400 border-slate-900">
                 Extra Add-ons
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Extra Add-ons</span></span>
@@ -461,7 +461,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Extra Add-ons</span></span>
@@ -469,7 +469,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Extra Add-ons</span></span>
@@ -477,27 +477,27 @@
             </div>
             <!-- Admin Roles -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-800">
+              <div class="py-2 border-b text-slate-400 border-slate-900">
                 Admin Roles
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center py-2 border-b border-slate-800 text-slate-400 max-md:hidden"
+                class="flex items-center py-2 border-b border-slate-900 text-slate-400 max-md:hidden"
               >
                 <span><span class="md:hidden">Admin Roles</span></span>
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center py-2 border-b border-slate-800 text-slate-400 max-md:hidden"
+                class="flex items-center py-2 border-b border-slate-900 text-slate-400 max-md:hidden"
               >
                 <span><span class="md:hidden">Admin Roles</span></span>
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Admin Roles</span></span>
@@ -505,27 +505,27 @@
             </div>
             <!-- Deploy and Monitor -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-800">
+              <div class="py-2 border-b text-slate-400 border-slate-900">
                 Deploy and Monitor
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center py-2 border-b border-slate-800 text-slate-400 max-md:hidden"
+                class="flex items-center py-2 border-b border-slate-900 text-slate-400 max-md:hidden"
               >
                 <span><span class="md:hidden">Deploy and Monitor</span></span>
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center py-2 border-b border-slate-800 text-slate-400 max-md:hidden"
+                class="flex items-center py-2 border-b border-slate-900 text-slate-400 max-md:hidden"
               >
                 <span><span class="md:hidden">Deploy and Monitor</span></span>
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Deploy and Monitor</span></span>
@@ -533,27 +533,27 @@
             </div>
             <!-- Enterprise Add-ons -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-800">
+              <div class="py-2 border-b text-slate-400 border-slate-900">
                 Enterprise Add-ons
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center py-2 border-b border-slate-800 text-slate-400 max-md:hidden"
+                class="flex items-center py-2 border-b border-slate-900 text-slate-400 max-md:hidden"
               >
                 <span><span class="md:hidden">Enterprise Add-ons</span></span>
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center py-2 border-b border-slate-800 text-slate-400 max-md:hidden"
+                class="flex items-center py-2 border-b border-slate-900 text-slate-400 max-md:hidden"
               >
                 <span><span class="md:hidden">Enterprise Add-ons</span></span>
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Enterprise Add-ons</span></span>
@@ -580,20 +580,20 @@
             </div>
             <!-- Premium Support -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-800">
+              <div class="py-2 border-b text-slate-400 border-slate-900">
                 Premium Support
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center py-2 border-b border-slate-800 text-slate-400 max-md:hidden"
+                class="flex items-center py-2 border-b border-slate-900 text-slate-400 max-md:hidden"
               >
                 <span><span class="md:hidden">Premium Support</span></span>
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Premium Support</span></span>
@@ -601,7 +601,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-800 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
                 <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
                 <span><span class="md:hidden">Premium Support</span></span>

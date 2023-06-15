@@ -27,7 +27,7 @@
       </svg>
     </div>
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
-      <div class="pt-16 pb-12 border-b md:pt-32 md:pb-20 border-slate-800">
+      <div class="pt-16 pb-12 border-b md:pt-32 md:pb-20 border-slate-900">
         <!-- Section header -->
         <div class="max-w-3xl pb-12 mx-auto text-center md:pb-20">
           <h2
@@ -45,7 +45,7 @@
             <Highlighter class="group">
               <HighlighterItem>
                 <div
-                  class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
+                  class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
                 >
                   <!-- Radial gradient -->
                   <div
@@ -66,7 +66,7 @@
                     class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                   >
                     <RouterLink
-                      class="shadow-xl transition btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                      class="shadow-xl transition btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                       to="/download"
                     >
                       Download

@@ -35,10 +35,15 @@
                   height="80"
                   alt="Team member 01"
                 />
-                <h4 class="font-medium text-md text-slate-300">
+                <h4 class="font-medium text-md text-slate-200">
                   Sergey Filkov
                 </h4>
-                <a class="p-2 mt-4 rounded-full" href="/" target="_blank">
+                <a
+                  class="p-2 mt-4 rounded-full"
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <icon-lucide-twitter />
                 </a>
               </div>
@@ -58,8 +63,13 @@
                   height="80"
                   alt="Team member 02"
                 />
-                <h4 class="font-medium text-md text-slate-300">Mary Champ</h4>
-                <a class="p-2 mt-4 rounded-full" href="/" target="_blank">
+                <h4 class="font-medium text-md text-slate-200">Mary Champ</h4>
+                <a
+                  class="p-2 mt-4 rounded-full"
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <icon-lucide-twitter />
                 </a>
               </div>
@@ -79,8 +89,13 @@
                   height="80"
                   alt="Team member 03"
                 />
-                <h4 class="font-medium text-md text-slate-300">Mark Varsano</h4>
-                <a class="p-2 mt-4 rounded-full" href="/" target="_blank">
+                <h4 class="font-medium text-md text-slate-200">Mark Varsano</h4>
+                <a
+                  class="p-2 mt-4 rounded-full"
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <icon-lucide-twitter />
                 </a>
               </div>
@@ -100,10 +115,15 @@
                   height="80"
                   alt="Team member 04"
                 />
-                <h4 class="font-medium text-md text-slate-300">
+                <h4 class="font-medium text-md text-slate-200">
                   George Hurley
                 </h4>
-                <a class="p-2 mt-4 rounded-full" href="/" target="_blank">
+                <a
+                  class="p-2 mt-4 rounded-full"
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <icon-lucide-twitter />
                 </a>
               </div>
@@ -123,10 +143,15 @@
                   height="80"
                   alt="Team member 05"
                 />
-                <h4 class="font-medium text-md text-slate-300">
+                <h4 class="font-medium text-md text-slate-200">
                   Ellie Lepisov
                 </h4>
-                <a class="p-2 mt-4 rounded-full" href="/" target="_blank">
+                <a
+                  class="p-2 mt-4 rounded-full"
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <icon-lucide-twitter />
                 </a>
               </div>
@@ -146,8 +171,13 @@
                   height="80"
                   alt="Team member 06"
                 />
-                <h4 class="font-medium text-md text-slate-300">Connor Bal</h4>
-                <a class="p-2 mt-4 rounded-full" href="/" target="_blank">
+                <h4 class="font-medium text-md text-slate-200">Connor Bal</h4>
+                <a
+                  class="p-2 mt-4 rounded-full"
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <icon-lucide-twitter />
                 </a>
               </div>
@@ -167,8 +197,13 @@
                   height="80"
                   alt="Team member 07"
                 />
-                <h4 class="font-medium text-md text-slate-300">Marko Sharma</h4>
-                <a class="p-2 mt-4 rounded-full" href="/" target="_blank">
+                <h4 class="font-medium text-md text-slate-200">Marko Sharma</h4>
+                <a
+                  class="p-2 mt-4 rounded-full"
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <icon-lucide-twitter />
                 </a>
               </div>
@@ -188,10 +223,15 @@
                   height="80"
                   alt="Team member 08"
                 />
-                <h4 class="font-medium text-md text-slate-300">
+                <h4 class="font-medium text-md text-slate-200">
                   Mick Esposito
                 </h4>
-                <a class="p-2 mt-4 rounded-full" href="/" target="_blank">
+                <a
+                  class="p-2 mt-4 rounded-full"
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <icon-lucide-twitter />
                 </a>
               </div>
@@ -211,8 +251,13 @@
                   height="80"
                   alt="Team member 09"
                 />
-                <h4 class="font-medium text-md text-slate-300">Daniel Smith</h4>
-                <a class="p-2 mt-4 rounded-full" href="/" target="_blank">
+                <h4 class="font-medium text-md text-slate-200">Daniel Smith</h4>
+                <a
+                  class="p-2 mt-4 rounded-full"
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <icon-lucide-twitter />
                 </a>
               </div>
@@ -232,10 +277,15 @@
                   height="80"
                   alt="Team member 10"
                 />
-                <h4 class="font-medium text-md text-slate-300">
+                <h4 class="font-medium text-md text-slate-200">
                   Patricia Long
                 </h4>
-                <a class="p-2 mt-4 rounded-full" href="/" target="_blank">
+                <a
+                  class="p-2 mt-4 rounded-full"
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <icon-lucide-twitter />
                 </a>
               </div>

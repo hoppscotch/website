@@ -46,10 +46,10 @@
               </p>
               <div class="max-w-xs mt-8 space-y-2 max-md:mx-auto">
                 <button
-                  class="flex items-center w-full px-3 py-2 text-sm font-medium border rounded transition text-slate-50 bg-slate-800/25 hover:opacity-100"
+                  class="flex items-center w-full px-3 py-2 text-sm font-medium border rounded transition text-slate-50 bg-slate-900/25 hover:opacity-100"
                   :class="
                     tab !== '1'
-                      ? 'border-slate-700 opacity-50'
+                      ? 'border-slate-800 opacity-50'
                       : 'border-purple-700 shadow shadow-purple-500/25'
                   "
                   @click.prevent="tab = '1'"
@@ -58,10 +58,10 @@
                   <span>Built to be fast</span>
                 </button>
                 <button
-                  class="flex items-center w-full px-3 py-2 text-sm font-medium border rounded transition text-slate-50 bg-slate-800/25 hover:opacity-100"
+                  class="flex items-center w-full px-3 py-2 text-sm font-medium border rounded transition text-slate-50 bg-slate-900/25 hover:opacity-100"
                   :class="
                     tab !== '2'
-                      ? 'border-slate-700 opacity-50'
+                      ? 'border-slate-800 opacity-50'
                       : 'border-purple-700 shadow shadow-purple-500/25'
                   "
                   @click.prevent="tab = '2'"
@@ -70,10 +70,10 @@
                   <span>Made with open source</span>
                 </button>
                 <button
-                  class="flex items-center w-full px-3 py-2 text-sm font-medium border rounded transition text-slate-50 bg-slate-800/25 hover:opacity-100"
+                  class="flex items-center w-full px-3 py-2 text-sm font-medium border rounded transition text-slate-50 bg-slate-900/25 hover:opacity-100"
                   :class="
                     tab !== '3'
-                      ? 'border-slate-700 opacity-50'
+                      ? 'border-slate-800 opacity-50'
                       : 'border-purple-700 shadow shadow-purple-500/25'
                   "
                   @click.prevent="tab = '3'"
@@ -172,7 +172,7 @@
                     >
                       <div class="absolute" v-if="tab === '1'">
                         <div
-                          class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl -rotate-[14deg] [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-2xl"
+                          class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl -rotate-[14deg] [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-2xl"
                         >
                           <icon-lucide-zap
                             class="relative w-8 h-8 fill-slate-200"
@@ -190,7 +190,7 @@
                     >
                       <div class="absolute" v-if="tab === '2'">
                         <div
-                          class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl -rotate-[14deg] [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-2xl"
+                          class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl -rotate-[14deg] [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-2xl"
                         >
                           <icon-lucide-heart
                             class="relative w-8 h-8 fill-slate-200"
@@ -208,7 +208,7 @@
                     >
                       <div class="absolute" v-if="tab === '3'">
                         <div
-                          class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl -rotate-[14deg] [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-2xl"
+                          class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl -rotate-[14deg] [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-2xl"
                         >
                           <icon-lucide-users-2
                             class="relative w-8 h-8 fill-slate-200"

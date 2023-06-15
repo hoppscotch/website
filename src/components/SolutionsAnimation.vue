@@ -252,11 +252,11 @@
               <defs>
                 <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="lg-1">
                   <stop
-                    stop-color="#0F172A"
+                    stop-color="#020617"
                     stop-opacity="0%"
                     offset="0%"
                   ></stop>
-                  <stop stop-color="#0F172A" offset="100%"></stop>
+                  <stop stop-color="#020617" offset="100%"></stop>
                 </linearGradient>
               </defs>
               <g class="opacity-75 fill-indigo-600" fill-rule="evenodd">
@@ -308,11 +308,11 @@
         >
           <!-- Top vertical line -->
           <div
-            class="hidden md:block absolute w-0.5 h-8 -top-16 -mt-2 bg-slate-800 left-1/2 -translate-x-1/2"
+            class="hidden md:block absolute w-0.5 h-8 -top-16 -mt-2 bg-slate-900 left-1/2 -translate-x-1/2"
             aria-hidden="true"
           ></div>
           <div
-            class="relative flex items-center justify-center p-2 rounded-2xl bg-slate-800 aspect-square"
+            class="relative flex items-center justify-center p-2 bg-slate-900 rounded-2xl aspect-square"
             data-aos="fade-up"
           >
             <!-- Inner lines -->
@@ -321,13 +321,13 @@
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-slate-800 left-1/2 -translate-x-1/2"
+                class="absolute w-0.5 h-full bg-slate-900 left-1/2 -translate-x-1/2"
               ></div>
-              <div class="absolute w-1/2 h-0.5 bg-slate-800 right-0"></div>
+              <div class="absolute w-1/2 h-0.5 bg-slate-900 right-0"></div>
             </div>
             <!-- Circle -->
             <div
-              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-slate-800 to-slate-900"
+              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-slate-900 to-slate-950"
             >
               <!-- Icon -->
               <img
@@ -339,7 +339,7 @@
             </div>
           </div>
           <div
-            class="relative flex items-center justify-center p-2 rounded-2xl bg-slate-800 aspect-square"
+            class="relative flex items-center justify-center p-2 bg-slate-900 rounded-2xl aspect-square"
             data-aos="fade-up"
             data-aos-delay="100"
           >
@@ -349,13 +349,13 @@
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-slate-800 left-1/2 -translate-x-1/2"
+                class="absolute w-0.5 h-full bg-slate-900 left-1/2 -translate-x-1/2"
               ></div>
-              <div class="absolute w-full h-0.5 bg-slate-800"></div>
+              <div class="absolute w-full h-0.5 bg-slate-900"></div>
             </div>
             <!-- Circle -->
             <div
-              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-slate-800 to-slate-900"
+              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-slate-900 to-slate-950"
             >
               <!-- Icon -->
               <img
@@ -367,7 +367,7 @@
             </div>
           </div>
           <div
-            class="relative flex items-center justify-center p-2 rounded-2xl bg-slate-800 aspect-square"
+            class="relative flex items-center justify-center p-2 bg-slate-900 rounded-2xl aspect-square"
             data-aos="fade-up"
             data-aos-delay="200"
           >
@@ -377,13 +377,13 @@
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-slate-800 left-1/2 -translate-x-1/2"
+                class="absolute w-0.5 h-full bg-slate-900 left-1/2 -translate-x-1/2"
               ></div>
-              <div class="absolute w-full h-0.5 bg-slate-800"></div>
+              <div class="absolute w-full h-0.5 bg-slate-900"></div>
             </div>
             <!-- Circle -->
             <div
-              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-slate-800 to-slate-900"
+              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-slate-900 to-slate-950"
             >
               <!-- Icon -->
               <img
@@ -395,7 +395,7 @@
             </div>
           </div>
           <div
-            class="relative flex items-center justify-center p-2 rounded-2xl bg-slate-800 aspect-square"
+            class="relative flex items-center justify-center p-2 bg-slate-900 rounded-2xl aspect-square"
             data-aos="fade-up"
             data-aos-delay="300"
           >
@@ -405,13 +405,13 @@
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-slate-800 left-1/2 -translate-x-1/2"
+                class="absolute w-0.5 h-full bg-slate-900 left-1/2 -translate-x-1/2"
               ></div>
-              <div class="absolute w-full h-0.5 bg-slate-800"></div>
+              <div class="absolute w-full h-0.5 bg-slate-900"></div>
             </div>
             <!-- Circle -->
             <div
-              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-slate-800 to-slate-900"
+              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-slate-900 to-slate-950"
             >
               <!-- Icon -->
               <img
@@ -423,7 +423,7 @@
             </div>
           </div>
           <div
-            class="relative flex items-center justify-center p-2 rounded-2xl bg-slate-800 aspect-square"
+            class="relative flex items-center justify-center p-2 bg-slate-900 rounded-2xl aspect-square"
             data-aos="fade-up"
             data-aos-delay="400"
           >
@@ -433,13 +433,13 @@
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-slate-800 left-1/2 -translate-x-1/2"
+                class="absolute w-0.5 h-full bg-slate-900 left-1/2 -translate-x-1/2"
               ></div>
-              <div class="absolute w-full h-0.5 bg-slate-800"></div>
+              <div class="absolute w-full h-0.5 bg-slate-900"></div>
             </div>
             <!-- Circle -->
             <div
-              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-slate-800 to-slate-900"
+              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-slate-900 to-slate-950"
             >
               <!-- Icon -->
               <img
@@ -451,7 +451,7 @@
             </div>
           </div>
           <div
-            class="relative flex items-center justify-center p-2 rounded-2xl bg-slate-800 aspect-square"
+            class="relative flex items-center justify-center p-2 bg-slate-900 rounded-2xl aspect-square"
             data-aos="fade-up"
             data-aos-delay="500"
           >
@@ -461,13 +461,13 @@
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-slate-800 left-1/2 -translate-x-1/2"
+                class="absolute w-0.5 h-full bg-slate-900 left-1/2 -translate-x-1/2"
               ></div>
-              <div class="absolute w-1/2 h-0.5 bg-slate-800 left-0"></div>
+              <div class="absolute w-1/2 h-0.5 bg-slate-900 left-0"></div>
             </div>
             <!-- Circle -->
             <div
-              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-slate-800 to-slate-900"
+              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-slate-900 to-slate-950"
             >
               <!-- Icon -->
               <img

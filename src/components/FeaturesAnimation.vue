@@ -151,9 +151,9 @@
             </div>
             <!-- Inner small cricle -->
             <svg
-              class="absolute text-purple-200 rounded-full shadow-xl"
-              width="160"
-              height="160"
+              class="absolute rounded-full shadow-xl text-slate-950 shadow-purple-500/50"
+              width="156"
+              height="156"
               viewBox="0 0 148 148"
               xmlns="http://www.w3.org/2000/svg"
               data-aos="zoom-in"
@@ -168,15 +168,15 @@
             </svg>
             <!-- Logo -->
             <icon-lucide-orbit
-              class="absolute w-16 h-16 text-purple-800 animate-spin"
+              class="absolute w-12 h-12 text-purple-200 animate-spin"
             />
             <!-- Side gradients -->
             <div
-              class="absolute top-0 bottom-0 left-0 w-20 bg-gradient-to-r from-slate-900"
+              class="absolute top-0 bottom-0 left-0 w-20 bg-gradient-to-r from-slate-950"
               aria-hidden="true"
             ></div>
             <div
-              class="absolute top-0 bottom-0 right-0 w-20 bg-gradient-to-l from-slate-900"
+              class="absolute top-0 bottom-0 right-0 w-20 bg-gradient-to-l from-slate-950"
               aria-hidden="true"
             ></div>
           </div>

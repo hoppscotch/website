@@ -21,7 +21,7 @@
           <div class="mb-5">
             <RouterLink class="inline-flex" to="/">
               <div
-                class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-2xl"
+                class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-2xl"
               >
                 <img
                   class="relative"
@@ -46,7 +46,7 @@
             <div class="space-y-4">
               <div>
                 <label
-                  class="block mb-1 text-sm font-medium text-slate-300"
+                  class="block mb-1 text-sm font-medium text-slate-200"
                   for="email"
                 >
                   Email
@@ -61,7 +61,7 @@
               <div>
                 <div class="flex justify-between">
                   <label
-                    class="block mb-1 text-sm font-medium text-slate-300"
+                    class="block mb-1 text-sm font-medium text-slate-200"
                     for="password"
                   >
                     Password
@@ -109,19 +109,19 @@
           <!-- Divider -->
           <div class="flex items-center my-6">
             <div
-              class="mr-3 border-t border-slate-800 grow"
+              class="mr-3 border-t border-slate-900 grow"
               aria-hidden="true"
             ></div>
             <div class="text-sm italic text-slate-500">or</div>
             <div
-              class="ml-3 border-t border-slate-800 grow"
+              class="ml-3 border-t border-slate-900 grow"
               aria-hidden="true"
             ></div>
           </div>
           <!-- Social login -->
           <div class="flex space-x-3">
             <button
-              class="btn text-slate-300 hover:text-white transition w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none h-9"
+              class="btn text-slate-200 hover:text-white transition w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none h-9"
             >
               <span class="relative">
                 <span class="sr-only">Continue with Twitter</span>
@@ -129,7 +129,7 @@
               </span>
             </button>
             <button
-              class="btn text-slate-300 hover:text-white transition w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none h-9"
+              class="btn text-slate-200 hover:text-white transition w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none h-9"
             >
               <span class="relative">
                 <span class="sr-only">Continue with GitHub</span>

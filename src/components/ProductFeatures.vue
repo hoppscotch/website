@@ -60,7 +60,7 @@
                 </div>
                 <div
                   class="text-sm font-medium leading-tight"
-                  :class="{ 'text-slate-100': tab === 1 }"
+                  :class="{ 'text-slate-200': tab === 1 }"
                 >
                   Self-Host
                 </div>
@@ -82,7 +82,7 @@
                 </div>
                 <div
                   class="text-sm font-medium leading-tight"
-                  :class="{ 'text-slate-100': tab === 2 }"
+                  :class="{ 'text-slate-200': tab === 2 }"
                 >
                   Cloud
                 </div>
@@ -103,7 +103,7 @@
                 </div>
                 <div
                   class="text-sm font-medium leading-tight"
-                  :class="{ 'text-slate-100': tab === 3 }"
+                  :class="{ 'text-slate-200': tab === 3 }"
                 >
                   Enterprise
                 </div>
@@ -125,7 +125,7 @@
                 </div>
                 <div
                   class="text-sm font-medium leading-tight"
-                  :class="{ 'text-slate-100': tab === 4 }"
+                  :class="{ 'text-slate-200': tab === 4 }"
                 >
                   CLI
                 </div>
@@ -146,7 +146,7 @@
                 <Highlighter class="group">
                   <HighlighterItem>
                     <div
-                      class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
+                      class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
                     >
                       <!-- Radial gradient -->
                       <div
@@ -165,7 +165,7 @@
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="shadow-xl transition btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="shadow-xl transition btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
@@ -193,7 +193,7 @@
                 <Highlighter class="group">
                   <HighlighterItem>
                     <div
-                      class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
+                      class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
                     >
                       <!-- Radial gradient -->
                       <div
@@ -212,7 +212,7 @@
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="shadow-xl transition btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="shadow-xl transition btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
@@ -240,7 +240,7 @@
                 <Highlighter class="group">
                   <HighlighterItem>
                     <div
-                      class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
+                      class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
                     >
                       <!-- Radial gradient -->
                       <div
@@ -259,7 +259,7 @@
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="shadow-xl transition btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="shadow-xl transition btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
@@ -287,7 +287,7 @@
                 <Highlighter class="group">
                   <HighlighterItem>
                     <div
-                      class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
+                      class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
                     >
                       <!-- Radial gradient -->
                       <div
@@ -306,7 +306,7 @@
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="shadow-xl transition btn text-slate-900 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="shadow-xl transition btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download

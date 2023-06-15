@@ -55,7 +55,7 @@
             <div class="md:col-span-12" data-aos="fade-down">
               <HighlighterItem>
                 <div
-                  class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
+                  class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
                 >
                   <div
                     class="flex flex-col md:flex-row md:items-center md:justify-between"
@@ -128,7 +128,7 @@
                       </div>
                       <div>
                         <RouterLink
-                          class="btn-sm text-slate-300 hover:text-white transition group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none"
+                          class="btn-sm text-slate-200 hover:text-white transition group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
                           to="/"
                         >
                           <span class="relative inline-flex items-center">
@@ -160,7 +160,7 @@
             <div class="md:col-span-7" data-aos="fade-down">
               <HighlighterItem>
                 <div
-                  class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
+                  class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
                 >
                   <div class="flex flex-col">
                     <!-- Radial gradient -->
@@ -169,7 +169,7 @@
                       aria-hidden="true"
                     >
                       <div
-                        class="absolute inset-0 translate-z-0 bg-slate-800 rounded-full blur-[80px]"
+                        class="absolute inset-0 translate-z-0 bg-slate-900 rounded-full blur-[80px]"
                       ></div>
                     </div>
                     <!-- Text -->
@@ -208,7 +208,7 @@
             <div class="md:col-span-5" data-aos="fade-down">
               <HighlighterItem>
                 <div
-                  class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
+                  class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
                 >
                   <div class="flex flex-col">
                     <!-- Radial gradient -->
@@ -217,7 +217,7 @@
                       aria-hidden="true"
                     >
                       <div
-                        class="absolute inset-0 translate-z-0 bg-slate-800 rounded-full blur-[80px]"
+                        class="absolute inset-0 translate-z-0 bg-slate-900 rounded-full blur-[80px]"
                       ></div>
                     </div>
                     <!-- Text -->
@@ -259,7 +259,7 @@
           <!-- Feature -->
           <div>
             <div class="flex items-center mb-1 space-x-2">
-              <icon-lucide-zap class="fill-slate-300" />
+              <icon-lucide-zap class="fill-slate-200" />
               <h4 class="font-medium text-slate-50">Lightweight and snappy</h4>
             </div>
             <p class="text-sm text-slate-400">
@@ -269,7 +269,7 @@
           <!-- Feature -->
           <div>
             <div class="flex items-center mb-1 space-x-2">
-              <icon-lucide-users-2 class="fill-slate-300" />
+              <icon-lucide-users-2 class="fill-slate-200" />
               <h4 class="font-medium text-slate-50">Built for teams</h4>
             </div>
             <p class="text-sm text-slate-400">
@@ -279,7 +279,7 @@
           <!-- Feature -->
           <div>
             <div class="flex items-center mb-1 space-x-2">
-              <icon-lucide-palette class="fill-slate-300" />
+              <icon-lucide-palette class="fill-slate-200" />
               <h4 class="font-medium text-slate-50">Highly customizable</h4>
             </div>
             <p class="text-sm text-slate-400">
@@ -289,7 +289,7 @@
           <!-- Feature -->
           <div>
             <div class="flex items-center mb-1 space-x-2">
-              <icon-lucide-command class="fill-slate-300" />
+              <icon-lucide-command class="fill-slate-200" />
               <h4 class="font-medium text-slate-50">Keyboard first design</h4>
             </div>
             <p class="text-sm text-slate-400">
@@ -299,7 +299,7 @@
           <!-- Feature -->
           <div>
             <div class="flex items-center mb-1 space-x-2">
-              <icon-lucide-package class="fill-slate-300" />
+              <icon-lucide-package class="fill-slate-200" />
               <h4 class="font-medium text-slate-50">Cross-platform apps</h4>
             </div>
             <p class="text-sm text-slate-400">
@@ -309,7 +309,7 @@
           <!-- Feature -->
           <div>
             <div class="flex items-center mb-1 space-x-2">
-              <icon-lucide-shield-check class="fill-slate-300" />
+              <icon-lucide-shield-check class="fill-slate-200" />
               <h4 class="font-medium text-slate-50">Safe and secure</h4>
             </div>
             <p class="text-sm text-slate-400">

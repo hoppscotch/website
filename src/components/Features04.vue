@@ -42,7 +42,7 @@
           </p>
         </div>
         <!-- Rows -->
-        <div class="divide-y divide-slate-800">
+        <div class="divide-y divide-slate-900">
           <!-- Row -->
           <div class="py-8 first-of-type:pt-0 last-of-type:pb-0">
             <div>
@@ -56,7 +56,7 @@
               <!-- Feature -->
               <div>
                 <div class="flex items-center mb-1 space-x-2">
-                  <icon-lucide-heart-handshake class="fill-slate-300" />
+                  <icon-lucide-heart-handshake class="fill-slate-200" />
                   <h4 class="font-medium text-slate-50">Collaborate</h4>
                 </div>
                 <p class="text-sm text-slate-400">
@@ -67,7 +67,7 @@
               <!-- Feature -->
               <div>
                 <div class="flex items-center mb-1 space-x-2">
-                  <icon-lucide-database class="fill-slate-300" />
+                  <icon-lucide-database class="fill-slate-200" />
                   <h4 class="font-medium text-slate-50">Mock</h4>
                 </div>
                 <p class="text-sm text-slate-400">
@@ -78,7 +78,7 @@
               <!-- Feature -->
               <div>
                 <div class="flex items-center mb-1 space-x-2">
-                  <icon-lucide-file-check class="fill-slate-300" />
+                  <icon-lucide-file-check class="fill-slate-200" />
                   <h4 class="font-medium text-slate-50">Document</h4>
                 </div>
                 <p class="text-sm text-slate-400">
@@ -100,7 +100,7 @@
               <!-- Feature -->
               <div>
                 <div class="flex items-center mb-1 space-x-2">
-                  <icon-lucide-layers class="fill-slate-300" />
+                  <icon-lucide-layers class="fill-slate-200" />
                   <h4 class="font-medium text-slate-50">Protocols</h4>
                 </div>
                 <p class="text-sm text-slate-400">
@@ -111,7 +111,7 @@
               <!-- Feature -->
               <div>
                 <div class="flex items-center mb-1 space-x-2">
-                  <icon-lucide-box class="fill-slate-300" />
+                  <icon-lucide-box class="fill-slate-200" />
                   <h4 class="font-medium text-slate-50">Solutions</h4>
                 </div>
                 <p class="text-sm text-slate-400">
@@ -122,7 +122,7 @@
               <!-- Feature -->
               <div>
                 <div class="flex items-center mb-1 space-x-2">
-                  <icon-lucide-badge-check class="fill-slate-300" />
+                  <icon-lucide-badge-check class="fill-slate-200" />
                   <h4 class="font-medium text-slate-50">Integrations</h4>
                 </div>
                 <p class="text-sm text-slate-400">
@@ -145,7 +145,7 @@
               <!-- Feature -->
               <div>
                 <div class="flex items-center mb-1 space-x-2">
-                  <icon-lucide-workflow class="fill-slate-300" />
+                  <icon-lucide-workflow class="fill-slate-200" />
                   <h4 class="font-medium text-slate-50">Automate</h4>
                 </div>
                 <p class="text-sm text-slate-400">
@@ -156,7 +156,7 @@
               <!-- Feature -->
               <div>
                 <div class="flex items-center mb-1 space-x-2">
-                  <icon-lucide-terminal-square class="fill-slate-300" />
+                  <icon-lucide-terminal-square class="fill-slate-200" />
                   <h4 class="font-medium text-slate-50">CLI</h4>
                 </div>
                 <p class="text-sm text-slate-400">
@@ -167,7 +167,7 @@
               <!-- Feature -->
               <div>
                 <div class="flex items-center mb-1 space-x-2">
-                  <icon-lucide-crosshair class="fill-slate-300" />
+                  <icon-lucide-crosshair class="fill-slate-200" />
                   <h4 class="font-medium text-slate-50">Monitor</h4>
                 </div>
                 <p class="text-sm text-slate-400">

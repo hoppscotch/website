@@ -61,7 +61,7 @@
           </p>
           <div>
             <RouterLink
-              class="transition btn text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+              class="transition btn text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
               to="/download"
             >
               Get Started

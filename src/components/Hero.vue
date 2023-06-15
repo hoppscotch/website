@@ -26,9 +26,10 @@
               class="relative inline-flex before:absolute before:inset-0 before:bg-purple-500 before:blur-md"
             >
               <a
-                class="btn-sm py-0.5 text-slate-300 hover:text-white transition group [background:linear-gradient(theme(colors.purple.500),_theme(colors.purple.500))_padding-box,_linear-gradient(theme(colors.purple.500),_theme(colors.purple.200)_75%,_theme(colors.transparent)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/50 before:rounded-full before:pointer-events-none shadow"
+                class="btn-sm py-0.5 text-slate-200 hover:text-white transition group [background:linear-gradient(theme(colors.purple.500),_theme(colors.purple.500))_padding-box,_linear-gradient(theme(colors.purple.500),_theme(colors.purple.200)_75%,_theme(colors.transparent)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/50 before:rounded-full before:pointer-events-none shadow"
                 href="https://docs.hoppscotch.io/documentation/self-host/getting-started"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <span class="relative inline-flex items-center">
                   Self-Host support is now in beta
@@ -48,7 +49,7 @@
             Open Source API Platform
           </h1>
           <p
-            class="mb-8 text-lg text-slate-300"
+            class="mb-8 text-lg text-slate-200"
             data-aos="fade-down"
             data-aos-delay="200"
           >
@@ -62,7 +63,7 @@
           >
             <div>
               <RouterLink
-                class="w-full transition btn text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                class="w-full transition btn text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                 to="/download"
               >
                 Get Started
@@ -75,9 +76,10 @@
             </div>
             <div>
               <a
-                class="w-full transition bg-opacity-10 btn text-slate-200 hover:text-white bg-slate-900 hover:bg-opacity-20"
+                class="w-full transition bg-opacity-10 btn text-slate-200 hover:text-white bg-slate-950 hover:bg-opacity-20"
                 href="https://docs.hoppscotch.io"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <icon-lucide-wand-2 class="mr-2" />
                 <span>Read the docs</span>

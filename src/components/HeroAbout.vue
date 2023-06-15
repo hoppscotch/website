@@ -10,7 +10,7 @@
         alt="About"
       />
       <div
-        class="absolute inset-0 bg-gradient-to-t from-slate-900"
+        class="absolute inset-0 bg-gradient-to-t from-slate-950"
         aria-hidden="true"
       ></div>
     </div>
@@ -26,7 +26,7 @@
                 alt="About hero"
               />
               <div
-                class="absolute inset-0 bg-gradient-to-t from-slate-900"
+                class="absolute inset-0 bg-gradient-to-t from-slate-950"
                 aria-hidden="true"
               ></div>
             </div>

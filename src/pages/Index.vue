@@ -6,7 +6,6 @@
   <Features03 />
   <TestimonialsCarousel />
   <Features04 />
-  <PricingTable />
   <Testimonials />
   <Cta />
 </template>

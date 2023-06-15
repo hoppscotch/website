@@ -46,7 +46,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .form-select,
 .form-checkbox,
 .form-radio {
-  @apply bg-slate-800 border border-transparent focus:border-purple-500;
+  @apply bg-slate-900 border border-transparent focus:border-purple-500;
 }
 .form-input,
 .form-textarea,

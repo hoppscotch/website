@@ -10,7 +10,7 @@
           <div class="relative flex flex-col items-center">
             <div
               aria-hidden="true"
-              class="absolute h-0.5 bg-gradient-to-r from-slate-900 via-slate-700 to-slate-900 hidden md:block"
+              class="absolute h-0.5 bg-gradient-to-r from-slate-950 via-slate-800 to-slate-950 hidden md:block"
               style="
                 width: calc(100% - 96px);
                 left: calc(50% + 64px);
@@ -32,7 +32,7 @@
                 />
               </svg>
             </div>
-            <div class="text-sm font-medium text-slate-300">
+            <div class="text-sm font-medium text-slate-200">
               Founded in 2021
             </div>
           </div>
@@ -40,7 +40,7 @@
           <div class="relative flex flex-col items-center">
             <div
               aria-hidden="true"
-              class="absolute h-0.5 bg-gradient-to-r from-slate-900 via-slate-700 to-slate-900 hidden md:block"
+              class="absolute h-0.5 bg-gradient-to-r from-slate-950 via-slate-800 to-slate-950 hidden md:block"
               style="
                 width: calc(100% - 96px);
                 left: calc(50% + 64px);
@@ -62,7 +62,7 @@
                 />
               </svg>
             </div>
-            <div class="text-sm font-medium text-slate-300">
+            <div class="text-sm font-medium text-slate-200">
               Built-with Open Source
             </div>
           </div>
@@ -70,7 +70,7 @@
           <div class="relative flex flex-col items-center">
             <div
               aria-hidden="true"
-              class="absolute h-0.5 bg-gradient-to-r from-slate-900 via-slate-700 to-slate-900 hidden md:block"
+              class="absolute h-0.5 bg-gradient-to-r from-slate-950 via-slate-800 to-slate-950 hidden md:block"
               style="
                 width: calc(100% - 96px);
                 left: calc(50% + 64px);
@@ -92,7 +92,7 @@
                 />
               </svg>
             </div>
-            <div class="text-sm font-medium text-slate-300">
+            <div class="text-sm font-medium text-slate-200">
               52,000+ GitHub Stars
             </div>
           </div>
@@ -113,7 +113,7 @@
                 />
               </svg>
             </div>
-            <div class="text-sm font-medium text-slate-300">1.6M+ Users</div>
+            <div class="text-sm font-medium text-slate-200">1.6M+ Users</div>
           </div>
         </div>
       </div>

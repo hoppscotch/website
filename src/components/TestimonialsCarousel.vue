@@ -25,7 +25,7 @@
         <!-- Carousel built with Swiper.js [https://swiperjs.com/] -->
         <!-- * Custom styles in src/css/additional-styles/theme.scss -->
         <div
-          class="relative before:absolute before:inset-0 before:-translate-x-full before:z-20 before:bg-gradient-to-l before:from-transparent before:to-slate-900 before:to-20% after:absolute after:inset-0 after:translate-x-full after:z-20 after:bg-gradient-to-r after:from-transparent after:to-slate-900 after:to-20%"
+          class="relative before:absolute before:inset-0 before:-translate-x-full before:z-20 before:bg-gradient-to-l before:from-transparent before:to-slate-950 before:to-20% after:absolute after:inset-0 after:translate-x-full after:z-20 after:bg-gradient-to-r after:from-transparent after:to-slate-950 after:to-20%"
         >
           <div class="testimonials-carousel swiper-container group">
             <Highlighter
@@ -39,7 +39,7 @@
                 data-aos-delay="100"
               >
                 <div
-                  class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
+                  class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
                 >
                   <!-- Particles animation -->
                   <Particles
@@ -53,7 +53,7 @@
                     aria-hidden="true"
                   >
                     <div
-                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-800 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 blur-[60px]"
+                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 blur-[60px]"
                     ></div>
                   </div>
                   <div class="flex flex-col h-full p-6">
@@ -73,7 +73,7 @@
                     </div>
                     <div class="text-right">
                       <RouterLink
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
                         >Learn More
                         <span
@@ -92,7 +92,7 @@
                 data-aos-delay="200"
               >
                 <div
-                  class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
+                  class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
                 >
                   <!-- Particles animation -->
                   <Particles
@@ -106,7 +106,7 @@
                     aria-hidden="true"
                   >
                     <div
-                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-800 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 blur-[60px]"
+                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 blur-[60px]"
                     ></div>
                   </div>
                   <div class="flex flex-col h-full p-6">
@@ -126,7 +126,7 @@
                     </div>
                     <div class="text-right">
                       <RouterLink
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
                         >Learn More
                         <span
@@ -145,7 +145,7 @@
                 data-aos-delay="300"
               >
                 <div
-                  class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
+                  class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
                 >
                   <!-- Particles animation -->
                   <Particles
@@ -159,7 +159,7 @@
                     aria-hidden="true"
                   >
                     <div
-                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-800 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 blur-[60px]"
+                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 blur-[60px]"
                     ></div>
                   </div>
                   <div class="flex flex-col h-full p-6">
@@ -181,7 +181,7 @@
                     </div>
                     <div class="text-right">
                       <RouterLink
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
                         >Learn More
                         <span
@@ -200,7 +200,7 @@
                 data-aos-delay="400"
               >
                 <div
-                  class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
+                  class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
                 >
                   <!-- Particles animation -->
                   <Particles
@@ -214,7 +214,7 @@
                     aria-hidden="true"
                   >
                     <div
-                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-800 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 blur-[60px]"
+                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 blur-[60px]"
                     ></div>
                   </div>
                   <div class="flex flex-col h-full p-6">
@@ -236,7 +236,7 @@
                     </div>
                     <div class="text-right">
                       <RouterLink
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
                         >Learn More
                         <span
@@ -255,7 +255,7 @@
                 data-aos-delay="500"
               >
                 <div
-                  class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden"
+                  class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
                 >
                   <!-- Particles animation -->
                   <Particles
@@ -269,7 +269,7 @@
                     aria-hidden="true"
                   >
                     <div
-                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-800 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 blur-[60px]"
+                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 blur-[60px]"
                     ></div>
                   </div>
                   <div class="flex flex-col h-full p-6">
@@ -289,7 +289,7 @@
                     </div>
                     <div class="text-right">
                       <RouterLink
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-300 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
                         >Learn More
                         <span
