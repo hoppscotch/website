@@ -40,7 +40,13 @@
           </p>
         </div>
         <!-- Logs -->
-        <ChangeLog07072022 />
+        <ChangeLog12062023 />
+        <ChangeLog05062023 />
+        <ChangeLog02062023 />
+        <ChangeLog110520232 />
+        <ChangeLog110520231 />
+        <ChangeLog23042023 />
+        <ChangeLog11042023 />
       </div>
     </div>
   </section>
