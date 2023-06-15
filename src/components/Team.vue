@@ -29,7 +29,7 @@
             >
               <div class="flex flex-col items-center">
                 <img
-                  class="mb-2 rounded-full"
+                  class="mb-4 rounded-full"
                   src="../images/team-member-01.jpg"
                   width="80"
                   height="80"
@@ -38,14 +38,25 @@
                 <h4 class="font-medium text-md text-slate-200">
                   Sergey Filkov
                 </h4>
-                <a
-                  class="p-2 mt-4 rounded-full"
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <icon-lucide-twitter />
-                </a>
+                <p class="text-sm text-slate-500">Chief Executive Officer</p>
+                <div class="flex items-center">
+                  <a
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <icon-lucide-twitter />
+                  </a>
+                  <a
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <icon-lucide-linkedin />
+                  </a>
+                </div>
               </div>
             </div>
             <!-- 2nd member -->
@@ -57,21 +68,32 @@
             >
               <div class="flex flex-col items-center">
                 <img
-                  class="mb-2 rounded-full"
+                  class="mb-4 rounded-full"
                   src="../images/team-member-02.jpg"
                   width="80"
                   height="80"
                   alt="Team member 02"
                 />
                 <h4 class="font-medium text-md text-slate-200">Mary Champ</h4>
-                <a
-                  class="p-2 mt-4 rounded-full"
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <icon-lucide-twitter />
-                </a>
+                <p class="text-sm text-slate-500">Chief Technology Officer</p>
+                <div class="flex items-center">
+                  <a
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <icon-lucide-twitter />
+                  </a>
+                  <a
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <icon-lucide-linkedin />
+                  </a>
+                </div>
               </div>
             </div>
             <!-- 3rd member -->
@@ -83,21 +105,32 @@
             >
               <div class="flex flex-col items-center">
                 <img
-                  class="mb-2 rounded-full"
+                  class="mb-4 rounded-full"
                   src="../images/team-member-03.jpg"
                   width="80"
                   height="80"
                   alt="Team member 03"
                 />
                 <h4 class="font-medium text-md text-slate-200">Mark Varsano</h4>
-                <a
-                  class="p-2 mt-4 rounded-full"
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <icon-lucide-twitter />
-                </a>
+                <p class="text-sm text-slate-500">Product Manager</p>
+                <div class="flex items-center">
+                  <a
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <icon-lucide-twitter />
+                  </a>
+                  <a
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <icon-lucide-linkedin />
+                  </a>
+                </div>
               </div>
             </div>
             <!-- 4th member -->
@@ -109,7 +142,7 @@
             >
               <div class="flex flex-col items-center">
                 <img
-                  class="mb-2 rounded-full"
+                  class="mb-4 rounded-full"
                   src="../images/team-member-04.jpg"
                   width="80"
                   height="80"
@@ -118,14 +151,25 @@
                 <h4 class="font-medium text-md text-slate-200">
                   George Hurley
                 </h4>
-                <a
-                  class="p-2 mt-4 rounded-full"
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <icon-lucide-twitter />
-                </a>
+                <p class="text-sm text-slate-500">Product Engineer</p>
+                <div class="flex items-center">
+                  <a
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <icon-lucide-twitter />
+                  </a>
+                  <a
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <icon-lucide-linkedin />
+                  </a>
+                </div>
               </div>
             </div>
             <!-- 5th member -->
@@ -137,7 +181,7 @@
             >
               <div class="flex flex-col items-center">
                 <img
-                  class="mb-2 rounded-full"
+                  class="mb-4 rounded-full"
                   src="../images/team-member-05.jpg"
                   width="80"
                   height="80"
@@ -146,14 +190,25 @@
                 <h4 class="font-medium text-md text-slate-200">
                   Ellie Lepisov
                 </h4>
-                <a
-                  class="p-2 mt-4 rounded-full"
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <icon-lucide-twitter />
-                </a>
+                <p class="text-sm text-slate-500">Product Engineer</p>
+                <div class="flex items-center">
+                  <a
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <icon-lucide-twitter />
+                  </a>
+                  <a
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <icon-lucide-linkedin />
+                  </a>
+                </div>
               </div>
             </div>
             <!-- 6th member -->
@@ -165,21 +220,32 @@
             >
               <div class="flex flex-col items-center">
                 <img
-                  class="mb-2 rounded-full"
+                  class="mb-4 rounded-full"
                   src="../images/team-member-06.jpg"
                   width="80"
                   height="80"
                   alt="Team member 06"
                 />
                 <h4 class="font-medium text-md text-slate-200">Connor Bal</h4>
-                <a
-                  class="p-2 mt-4 rounded-full"
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <icon-lucide-twitter />
-                </a>
+                <p class="text-sm text-slate-500">Product Engineer</p>
+                <div class="flex items-center">
+                  <a
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <icon-lucide-twitter />
+                  </a>
+                  <a
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <icon-lucide-linkedin />
+                  </a>
+                </div>
               </div>
             </div>
             <!-- 7th member -->
@@ -191,21 +257,32 @@
             >
               <div class="flex flex-col items-center">
                 <img
-                  class="mb-2 rounded-full"
+                  class="mb-4 rounded-full"
                   src="../images/team-member-07.jpg"
                   width="80"
                   height="80"
                   alt="Team member 07"
                 />
                 <h4 class="font-medium text-md text-slate-200">Marko Sharma</h4>
-                <a
-                  class="p-2 mt-4 rounded-full"
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <icon-lucide-twitter />
-                </a>
+                <p class="text-sm text-slate-500">Product Engineer</p>
+                <div class="flex items-center">
+                  <a
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <icon-lucide-twitter />
+                  </a>
+                  <a
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <icon-lucide-linkedin />
+                  </a>
+                </div>
               </div>
             </div>
             <!-- 8th member -->
@@ -217,7 +294,7 @@
             >
               <div class="flex flex-col items-center">
                 <img
-                  class="mb-2 rounded-full"
+                  class="mb-4 rounded-full"
                   src="../images/team-member-08.jpg"
                   width="80"
                   height="80"
@@ -226,14 +303,25 @@
                 <h4 class="font-medium text-md text-slate-200">
                   Mick Esposito
                 </h4>
-                <a
-                  class="p-2 mt-4 rounded-full"
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <icon-lucide-twitter />
-                </a>
+                <p class="text-sm text-slate-500">Product Engineer</p>
+                <div class="flex items-center">
+                  <a
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <icon-lucide-twitter />
+                  </a>
+                  <a
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <icon-lucide-linkedin />
+                  </a>
+                </div>
               </div>
             </div>
             <!-- 9th member -->
@@ -245,21 +333,32 @@
             >
               <div class="flex flex-col items-center">
                 <img
-                  class="mb-2 rounded-full"
+                  class="mb-4 rounded-full"
                   src="../images/team-member-09.jpg"
                   width="80"
                   height="80"
                   alt="Team member 09"
                 />
                 <h4 class="font-medium text-md text-slate-200">Daniel Smith</h4>
-                <a
-                  class="p-2 mt-4 rounded-full"
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <icon-lucide-twitter />
-                </a>
+                <p class="text-sm text-slate-500">Product Engineer</p>
+                <div class="flex items-center">
+                  <a
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <icon-lucide-twitter />
+                  </a>
+                  <a
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <icon-lucide-linkedin />
+                  </a>
+                </div>
               </div>
             </div>
             <!-- 10th member -->
@@ -271,7 +370,7 @@
             >
               <div class="flex flex-col items-center">
                 <img
-                  class="mb-2 rounded-full"
+                  class="mb-4 rounded-full"
                   src="../images/team-member-10.jpg"
                   width="80"
                   height="80"
@@ -280,14 +379,25 @@
                 <h4 class="font-medium text-md text-slate-200">
                   Patricia Long
                 </h4>
-                <a
-                  class="p-2 mt-4 rounded-full"
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <icon-lucide-twitter />
-                </a>
+                <p class="text-sm text-slate-500">Product Engineer</p>
+                <div class="flex items-center">
+                  <a
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <icon-lucide-twitter />
+                  </a>
+                  <a
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <icon-lucide-linkedin />
+                  </a>
+                </div>
               </div>
             </div>
           </div>

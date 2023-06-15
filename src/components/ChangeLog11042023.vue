@@ -28,34 +28,34 @@
           Feature
         </span>
       </div>
-      <h1 class="mb-4 text-2xl font-bold sm:text-4xl text-slate-200">
+      <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-slate-200">
         Tabs, workspaces and more
       </h1>
-      <p class="my-8 text-slate-400">
+      <p class="mt-4 mb-8 text-slate-400">
         We are super excited to introduce self-host support to Hoppscotch along
         with workspaces, tabs and collection reordering in this release. It's
         been our most requested feature since we launched.
       </p>
       <img
         src="../images/changelog-11-04-2023.png"
-        class="p-2 my-8 border rounded-3xl border-slate-900"
+        class="p-2 mt-4 mb-8 border rounded-3xl border-slate-900"
       />
       <h3 class="flex items-center text-xl font-bold">
         Self-hosted Hoppscotch
       </h3>
-      <p class="my-8 text-slate-400">
+      <p class="mt-4 mb-8 text-slate-400">
         You can now self-host Hoppscotch on your own servers. This is especially
         useful if you want to keep your data private or if you want to use
         Hoppscotch in an environment where the internet is not available.
       </p>
       <h3 class="flex items-center text-xl font-bold">Workspaces</h3>
-      <p class="my-8 text-slate-400">
+      <p class="mt-4 mb-8 text-slate-400">
         Easily switch between workspaces with our updated user interface for
         workspaces. You can now create, edit, delete and switch between
         workspaces with ease.
       </p>
       <h3 class="flex items-center text-xl font-bold">Tabs</h3>
-      <p class="my-8 text-slate-400">
+      <p class="mt-4 mb-8 text-slate-400">
         You can now open multiple requests in separate tabs and work with them
         simultaneously. This is especially useful when you want to compare
         responses or work with multiple requests at the same time.
@@ -63,7 +63,7 @@
       <h3 class="flex items-center text-xl font-bold">
         Reorder requests and collections
       </h3>
-      <p class="my-8 text-slate-400">
+      <p class="mt-4 mb-8 text-slate-400">
         Organise your collections more efficiently by using drag and drop to
         reorder. You can also reorder requests within a collection.
       </p>
@@ -72,7 +72,7 @@
         Added
       </h3>
       <ul
-        class="my-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-green-500"
+        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-green-500"
       >
         <li class="pl-4">Self-hosted support.</li>
         <li class="pl-4">Tabs.</li>
@@ -84,7 +84,7 @@
         Deprecated
       </h3>
       <ul
-        class="my-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-pink-500"
+        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-pink-500"
       >
         <li class="pl-4">Hosted Docker image.</li>
       </ul>

@@ -46,22 +46,22 @@
           Feature
         </span>
       </div>
-      <h1 class="mb-4 text-2xl font-bold sm:text-4xl text-slate-200">
+      <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-slate-200">
         Bug fixes and performance improvements
       </h1>
-      <p class="my-8 text-slate-400">
+      <p class="mt-4 mb-8 text-slate-400">
         We update the Hoppscotch app as often as possible to help make it faster
         and more reliable for you. This version includes several bug fixes and
         performance improvements.
       </p>
       <img
         src="../images/changelog-00-00-2023.png"
-        class="p-2 my-8 border rounded-3xl border-slate-900"
+        class="p-2 mt-4 mb-8 border rounded-3xl border-slate-900"
       />
       <h3 class="flex items-center text-xl font-bold">
         Self-Host support for Hoppscotch
       </h3>
-      <p class="my-8 text-slate-400">
+      <p class="mt-4 mb-8 text-slate-400">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia quis
         quasi cupiditate expedita eius accusamus alias doloremque obcaecati ab
         quas ducimus voluptas asperiores fugiat magnam, labore velit nulla!
@@ -70,14 +70,14 @@
       <h3 class="flex items-center text-xl font-bold">
         Collaborate with your team
       </h3>
-      <p class="my-8 text-slate-400">
+      <p class="mt-4 mb-8 text-slate-400">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae
         culpa quaerat illo harum exercitationem quae atque natus porro enim, cum
         voluptas quos corrupti, iusto necessitatibus eos error, dolore aliquid
         beatae.
       </p>
       <ul
-        class="my-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-slate-500"
+        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-slate-500"
       >
         <li class="pl-4">Lorem, ipsum.</li>
         <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -87,7 +87,7 @@
       <h3 class="flex items-center text-xl font-bold">
         Share your collections with the world
       </h3>
-      <p class="my-8 text-slate-400">
+      <p class="mt-4 mb-8 text-slate-400">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quis quasi
         cupiditate expedita eius accusamus alias doloremque obcaecati ab quas
         ducimus voluptas asperiores fugiat magnam, labore velit nulla! Neque,
@@ -98,7 +98,7 @@
         Added
       </h3>
       <ul
-        class="my-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-green-500"
+        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-green-500"
       >
         <li class="pl-4">Lorem, ipsum.</li>
         <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -110,7 +110,7 @@
         Changed
       </h3>
       <ul
-        class="my-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-amber-500"
+        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-amber-500"
       >
         <li class="pl-4">Lorem, ipsum.</li>
         <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -122,7 +122,7 @@
         Deprecated
       </h3>
       <ul
-        class="my-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-pink-500"
+        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-pink-500"
       >
         <li class="pl-4">Lorem, ipsum.</li>
         <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -134,7 +134,7 @@
         Removed
       </h3>
       <ul
-        class="my-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-red-500"
+        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-red-500"
       >
         <li class="pl-4">Lorem, ipsum.</li>
         <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -146,7 +146,7 @@
         Fixed
       </h3>
       <ul
-        class="my-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
+        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
       >
         <li class="pl-4">Lorem, ipsum.</li>
         <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -158,7 +158,7 @@
         Security
       </h3>
       <ul
-        class="my-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-blue-500"
+        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-blue-500"
       >
         <li class="pl-4">Lorem, ipsum.</li>
         <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -170,7 +170,7 @@
         Performance
       </h3>
       <ul
-        class="my-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-indigo-500"
+        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-indigo-500"
       >
         <li class="pl-4">Lorem, ipsum.</li>
         <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -182,7 +182,7 @@
         Other
       </h3>
       <ul
-        class="my-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-purple-500"
+        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-purple-500"
       >
         <li class="pl-4">Lorem, ipsum.</li>
         <li class="pl-4">Lorem, ipsum dolor.</li>

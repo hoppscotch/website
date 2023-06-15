@@ -28,8 +28,8 @@
           Hotfix
         </span>
       </div>
-      <h1 class="mb-4 text-2xl font-bold sm:text-4xl text-slate-200">Hotfix</h1>
-      <p class="my-8 text-slate-400">
+      <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-slate-200">Hotfix</h1>
+      <p class="mt-4 mb-8 text-slate-400">
         This release includes a critical bug fix. Updating is strongly
         recommended.
       </p>
@@ -38,7 +38,7 @@
         Fixed
       </h3>
       <ul
-        class="my-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
+        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
       >
         <li class="pl-4">Critical bug in environment selector.</li>
       </ul>

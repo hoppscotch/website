@@ -28,24 +28,24 @@
           Improvement
         </span>
       </div>
-      <h1 class="mb-4 text-2xl font-bold sm:text-4xl text-slate-200">
+      <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-slate-200">
         Bug fixes and performance improvements
       </h1>
-      <p class="my-8 text-slate-400">
+      <p class="mt-4 mb-8 text-slate-400">
         We update the Hoppscotch app as often as possible to help make it faster
         and more reliable for you. This version includes several bug fixes and
         performance improvements.
       </p>
       <img
         src="../images/changelog-02-06-2023.png"
-        class="p-2 my-8 border rounded-3xl border-slate-900"
+        class="p-2 mt-4 mb-8 border rounded-3xl border-slate-900"
       />
       <h3 class="flex items-center font-semibold">
         <icon-lucide-sparkles class="mr-3" />
         Added
       </h3>
       <ul
-        class="my-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-green-500"
+        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-green-500"
       >
         <li class="pl-4">Add support to audio and video API responses.</li>
         <li class="pl-4">
@@ -58,7 +58,7 @@
         Changed
       </h3>
       <ul
-        class="my-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-amber-500"
+        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-amber-500"
       >
         <li class="pl-4">
           Improved mobile responsiveness on environment selector.
@@ -76,7 +76,7 @@
         Fixed
       </h3>
       <ul
-        class="my-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
+        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
       >
         <li class="pl-4">Sync popup firing multiple times.</li>
         <li class="pl-4">Dead key issue in macOS.</li>
@@ -87,7 +87,7 @@
         Other
       </h3>
       <ul
-        class="my-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-purple-500"
+        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-purple-500"
       >
         <li class="pl-4">Updated Spanish translations.</li>
         <li class="pl-4">Updated Chinese (Simplified) translations.</li>

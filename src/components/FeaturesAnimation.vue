@@ -46,36 +46,7 @@
           <div
             class="relative flex items-center justify-center overflow-hidden"
           >
-            <!-- Big circle behind -->
-            <svg
-              class="block"
-              width="320"
-              height="320"
-              viewBox="0 0 432 432"
-              xmlns="http://www.w3.org/2000/svg"
-              data-aos="zoom-in"
-            >
-              <defs>
-                <radialGradient
-                  cx="50%"
-                  cy="50%"
-                  fx="50%"
-                  fy="50%"
-                  r="50%"
-                  id="circleill_a"
-                >
-                  <stop stop-color="#3b0764" stop-opacity="0" offset="0%" />
-                  <stop stop-color="#581c87" stop-opacity=".32" offset="100%" />
-                </radialGradient>
-              </defs>
-              <circle
-                cx="216"
-                cy="216"
-                r="216"
-                fill="url(#circleill_a)"
-                fill-rule="evenodd"
-              />
-            </svg>
+            <div class="block w-96 h-96"></div>
             <!-- Moving tags -->
             <div class="absolute inset-0" data-aos="fade-right">
               <div
@@ -149,27 +120,6 @@
                 Product & Design
               </div>
             </div>
-            <!-- Inner small cricle -->
-            <svg
-              class="absolute rounded-full shadow-xl text-slate-950 shadow-purple-500/50"
-              width="156"
-              height="156"
-              viewBox="0 0 148 148"
-              xmlns="http://www.w3.org/2000/svg"
-              data-aos="zoom-in"
-            >
-              <circle
-                cx="74"
-                cy="74"
-                r="74"
-                fill="currentColor"
-                fill-rule="evenodd"
-              />
-            </svg>
-            <!-- Logo -->
-            <icon-lucide-orbit
-              class="absolute w-12 h-12 text-purple-200 animate-spin"
-            />
             <!-- Side gradients -->
             <div
               class="absolute top-0 bottom-0 left-0 w-20 bg-gradient-to-r from-slate-950"

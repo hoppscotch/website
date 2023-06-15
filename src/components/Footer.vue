@@ -36,7 +36,7 @@
                 href="https://status.hoppscotch.io"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="flex items-center text-xs rounded text-slate-500"
+                class="flex items-center text-xs rounded transition text-slate-500 hover:text-slate-300"
               >
                 <div class="w-1 h-1 mr-2 bg-green-500 rounded-full"></div>
                 All systems operational.
@@ -172,15 +172,15 @@
             <li>
               <RouterLink
                 class="rounded transition text-slate-500 hover:text-slate-300"
-                to="/"
+                to="/about"
               >
-                About us
+                About
               </RouterLink>
             </li>
             <li>
               <RouterLink
                 class="rounded transition text-slate-500 hover:text-slate-300"
-                to="/"
+                to="/blog"
               >
                 Blog
               </RouterLink>
@@ -188,7 +188,7 @@
             <li>
               <RouterLink
                 class="rounded transition text-slate-500 hover:text-slate-300"
-                to="/"
+                to="/careers"
               >
                 Careers
               </RouterLink>
@@ -196,9 +196,9 @@
             <li>
               <RouterLink
                 class="rounded transition text-slate-500 hover:text-slate-300"
-                to="/"
+                to="/contact"
               >
-                Contact us
+                Contact
               </RouterLink>
             </li>
           </ul>
@@ -217,7 +217,7 @@
             <li>
               <RouterLink
                 class="rounded transition text-slate-500 hover:text-slate-300"
-                to="/"
+                to="/documentation"
               >
                 Documentation
               </RouterLink>
@@ -225,7 +225,7 @@
             <li>
               <RouterLink
                 class="rounded transition text-slate-500 hover:text-slate-300"
-                to="/"
+                to="/community"
               >
                 Community
               </RouterLink>
@@ -233,7 +233,7 @@
             <li>
               <RouterLink
                 class="rounded transition text-slate-500 hover:text-slate-300"
-                to="/"
+                to="/privacy"
               >
                 Privacy Policy
               </RouterLink>
@@ -241,7 +241,7 @@
             <li>
               <RouterLink
                 class="rounded transition text-slate-500 hover:text-slate-300"
-                to="/"
+                to="/terms"
               >
                 Terms of Service
               </RouterLink>
