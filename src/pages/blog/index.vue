@@ -1,3 +1,4 @@
 <template>
   <Blogs />
+  <Newsletter />
 </template>

@@ -13,7 +13,8 @@
         class="absolute -top-[1.0625rem] -left-1 h-[0.5625rem] w-[0.5625rem] rounded-full border-2 border-slate-600 bg-slate-900 md:top-[0.4375rem]"
       ></div>
       <div
-        class="absolute right-0 inline-flex items-center mb-8 space-x-2 -top-6 md:static"
+        class="absolute right-0 inline-flex items-center mb-8 space-x-2 -top-6 md:static mt-[0.1rem]"
+        data-aos="fade-right"
       >
         <span
           class="inline-flex items-center px-2 text-xs font-medium text-purple-400 border border-purple-800 rounded-md bg-purple-500/10"
@@ -34,44 +35,46 @@
           Improvement
         </span>
       </div>
-      <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-slate-200">
-        Bug fixes and performance improvements
-      </h1>
-      <p class="mt-4 mb-8 text-slate-400">
-        We update the Hoppscotch app as often as possible to help make it faster
-        and more reliable for you. This version includes several bug fixes and
-        performance improvements.
-      </p>
-      <ImageZoom
-        src="/images/changelog-12-06-2023.png"
-        class="p-2 mt-4 mb-8 border rounded-3xl border-slate-900"
-      />
-      <h3 class="flex items-center font-semibold">
-        <icon-lucide-check-check class="mr-3" />
-        Fixed
-      </h3>
-      <ul
-        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
-      >
-        <li class="pl-4">Stack order of tab inside environment selector.</li>
-        <li class="pl-4">Team environment lost when route changes.</li>
-        <li class="pl-4">Collection request name edit issue.</li>
-        <li class="pl-4">
-          Failed to execute 'observe' on 'IntersectionObserver'.
-        </li>
-        <li class="pl-4">
-          URL getting overridden when query params are present.
-        </li>
-      </ul>
-      <h3 class="flex items-center font-semibold">
-        <icon-lucide-flask-conical class="mr-3" />
-        Other
-      </h3>
-      <ul
-        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-purple-500"
-      >
-        <li class="pl-4">Updated i18n strings.</li>
-      </ul>
+      <div data-aos="fade-right">
+        <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-slate-200">
+          Bug fixes and performance improvements
+        </h1>
+        <p class="mt-4 mb-8 text-slate-400">
+          We update the Hoppscotch app as often as possible to help make it
+          faster and more reliable for you. This version includes several bug
+          fixes and performance improvements.
+        </p>
+        <ImageZoom
+          src="/images/changelog-12-06-2023.png"
+          class="p-2 mt-4 mb-8 border rounded-3xl border-slate-900"
+        />
+        <h3 class="flex items-center font-semibold">
+          <icon-lucide-check-check class="mr-3" />
+          Fixed
+        </h3>
+        <ul
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
+        >
+          <li class="pl-4">Stack order of tab inside environment selector.</li>
+          <li class="pl-4">Team environment lost when route changes.</li>
+          <li class="pl-4">Collection request name edit issue.</li>
+          <li class="pl-4">
+            Failed to execute 'observe' on 'IntersectionObserver'.
+          </li>
+          <li class="pl-4">
+            URL getting overridden when query params are present.
+          </li>
+        </ul>
+        <h3 class="flex items-center font-semibold">
+          <icon-lucide-flask-conical class="mr-3" />
+          Other
+        </h3>
+        <ul
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-purple-500"
+        >
+          <li class="pl-4">Updated i18n strings.</li>
+        </ul>
+      </div>
     </div>
   </article>
 </template>

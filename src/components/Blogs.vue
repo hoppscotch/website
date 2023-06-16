@@ -38,6 +38,22 @@
           <p class="text-lg text-slate-400">
             Updates from the Hoppscotch team.
           </p>
+          <p class="mt-4 text-sm">
+            <RouterLink
+              :to="{ path: '', hash: '#newsletter' }"
+              class="font-medium text-indigo-400 transition hover:text-indigo-300"
+            >
+              Subscribe to updates
+            </RouterLink>
+            <span class="mx-4 text-slate-800">|</span>
+            <a
+              href="https://twitter.com/hoppscotch_io"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="font-medium text-indigo-400 transition hover:text-indigo-300"
+              >Follow us on Twitter</a
+            >
+          </p>
         </div>
         <!-- Blogs -->
         <BlogList />

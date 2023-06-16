@@ -14,6 +14,7 @@
       ></div>
       <div
         class="absolute right-0 inline-flex items-center mb-8 space-x-2 -top-6 md:static mt-[0.1rem]"
+        data-aos="fade-right"
       >
         <span
           class="inline-flex items-center px-2 text-xs font-medium text-purple-400 border border-purple-800 rounded-md bg-purple-500/10"
@@ -28,66 +29,68 @@
           Improvement
         </span>
       </div>
-      <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-slate-200">
-        Bug fixes and performance improvements
-      </h1>
-      <p class="mt-4 mb-8 text-slate-400">
-        We update the Hoppscotch app as often as possible to help make it faster
-        and more reliable for you. This version includes several bug fixes and
-        performance improvements.
-      </p>
-      <ImageZoom
-        src="/images/changelog-23-04-2023.png"
-        class="p-2 mt-4 mb-8 border rounded-3xl border-slate-900"
-      />
-      <h3 class="flex items-center font-semibold">
-        <icon-lucide-check-check class="mr-3" />
-        Fixed
-      </h3>
-      <ul
-        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
-      >
-        <li class="pl-4">
-          Wrong tab selected after navigating from different route.
-        </li>
-        <li class="pl-4">
-          Request name not updating in the save request modal.
-        </li>
-        <li class="pl-4">Language detected when loaded from slug.</li>
-        <li class="pl-4">Non-prettified output on large JSON objects.</li>
-        <li class="pl-4">
-          Selected environment reset to default when sidebar collapsed.
-        </li>
-        <li class="pl-4">Broken documentation links.</li>
-        <li class="pl-4">
-          Incorrect GOOGLE_SCOPE env value in .env.example file.
-        </li>
-      </ul>
-      <h3 class="flex items-center font-semibold">
-        <icon-lucide-rocket class="mr-3" />
-        Performance
-      </h3>
-      <ul
-        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-indigo-500"
-      >
-        <li class="pl-4">
-          Improve tabs scrollbar and unsaved request indicator.
-        </li>
-        <li class="pl-4">Use auto-imported icons.</li>
-        <li class="pl-4">
-          Removed unwanted transitions which caused pane layout shift.
-        </li>
-      </ul>
-      <h3 class="flex items-center font-semibold">
-        <icon-lucide-flask-conical class="mr-3" />
-        Other
-      </h3>
-      <ul
-        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-purple-500"
-      >
-        <li class="pl-4">Updated product screenshots.</li>
-        <li class="pl-4">Updated translations to reflect latest strings.</li>
-      </ul>
+      <div data-aos="fade-right">
+        <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-slate-200">
+          Bug fixes and performance improvements
+        </h1>
+        <p class="mt-4 mb-8 text-slate-400">
+          We update the Hoppscotch app as often as possible to help make it
+          faster and more reliable for you. This version includes several bug
+          fixes and performance improvements.
+        </p>
+        <ImageZoom
+          src="/images/changelog-23-04-2023.png"
+          class="p-2 mt-4 mb-8 border rounded-3xl border-slate-900"
+        />
+        <h3 class="flex items-center font-semibold">
+          <icon-lucide-check-check class="mr-3" />
+          Fixed
+        </h3>
+        <ul
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
+        >
+          <li class="pl-4">
+            Wrong tab selected after navigating from different route.
+          </li>
+          <li class="pl-4">
+            Request name not updating in the save request modal.
+          </li>
+          <li class="pl-4">Language detected when loaded from slug.</li>
+          <li class="pl-4">Non-prettified output on large JSON objects.</li>
+          <li class="pl-4">
+            Selected environment reset to default when sidebar collapsed.
+          </li>
+          <li class="pl-4">Broken documentation links.</li>
+          <li class="pl-4">
+            Incorrect GOOGLE_SCOPE env value in .env.example file.
+          </li>
+        </ul>
+        <h3 class="flex items-center font-semibold">
+          <icon-lucide-rocket class="mr-3" />
+          Performance
+        </h3>
+        <ul
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-indigo-500"
+        >
+          <li class="pl-4">
+            Improve tabs scrollbar and unsaved request indicator.
+          </li>
+          <li class="pl-4">Use auto-imported icons.</li>
+          <li class="pl-4">
+            Removed unwanted transitions which caused pane layout shift.
+          </li>
+        </ul>
+        <h3 class="flex items-center font-semibold">
+          <icon-lucide-flask-conical class="mr-3" />
+          Other
+        </h3>
+        <ul
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-purple-500"
+        >
+          <li class="pl-4">Updated product screenshots.</li>
+          <li class="pl-4">Updated translations to reflect latest strings.</li>
+        </ul>
+      </div>
     </div>
   </article>
 </template>

@@ -14,6 +14,7 @@
       ></div>
       <div
         class="absolute right-0 inline-flex items-center mb-8 space-x-2 -top-6 md:static mt-[0.1rem]"
+        data-aos="fade-right"
       >
         <span
           class="inline-flex items-center px-2 text-xs font-medium text-purple-400 border border-purple-800 rounded-md bg-purple-500/10"
@@ -28,20 +29,24 @@
           Hotfix
         </span>
       </div>
-      <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-slate-200">Hotfix</h1>
-      <p class="mt-4 mb-8 text-slate-400">
-        This release includes a critical bug fix. Updating is strongly
-        recommended.
-      </p>
-      <h3 class="flex items-center font-semibold">
-        <icon-lucide-check-check class="mr-3" />
-        Fixed
-      </h3>
-      <ul
-        class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
-      >
-        <li class="pl-4">Critical bug in environment selector.</li>
-      </ul>
+      <div data-aos="fade-right">
+        <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-slate-200">
+          Hotfix
+        </h1>
+        <p class="mt-4 mb-8 text-slate-400">
+          This release includes a critical bug fix. Updating is strongly
+          recommended.
+        </p>
+        <h3 class="flex items-center font-semibold">
+          <icon-lucide-check-check class="mr-3" />
+          Fixed
+        </h3>
+        <ul
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
+        >
+          <li class="pl-4">Critical bug in environment selector.</li>
+        </ul>
+      </div>
     </div>
   </article>
 </template>
