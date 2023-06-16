@@ -1,0 +1,22 @@
+*:focus {
+  @apply outline-none;
+}
+*:focus-visible {
+  @apply outline-1;
+  @apply outline-offset-4;
+  @apply outline-white/10;
+}
+::selection {
+  @apply bg-purple-500/50;
+  @apply text-white;
+}
+.medium-zoom-overlay {
+  @apply bg-slate-950 #{!important};
+  @apply z-40 #{!important};
+}
+.medium-zoom-image--opened {
+  @apply rounded-md #{!important};
+  @apply z-50 #{!important};
+  @apply p-0 #{!important};
+  @apply border-0 #{!important};
+}

@@ -57,7 +57,7 @@
                     ></div>
                   </div>
                   <img
-                    src="../images/feature-image-04.png"
+                    src="/images/feature-image-04.png"
                     width="768"
                     height="400"
                     alt="Feature 04"

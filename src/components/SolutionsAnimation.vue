@@ -331,7 +331,7 @@
             >
               <!-- Icon -->
               <img
-                src="../images/integration-icon-01.svg"
+                src="/images/integration-icon-01.svg"
                 width="36"
                 height="46"
                 alt="Icon 01"
@@ -359,7 +359,7 @@
             >
               <!-- Icon -->
               <img
-                src="../images/integration-icon-02.svg"
+                src="/images/integration-icon-02.svg"
                 width="46"
                 height="46"
                 alt="Icon 02"
@@ -387,7 +387,7 @@
             >
               <!-- Icon -->
               <img
-                src="../images/integration-icon-03.svg"
+                src="/images/integration-icon-03.svg"
                 width="53"
                 height="45"
                 alt="Icon 03"
@@ -415,7 +415,7 @@
             >
               <!-- Icon -->
               <img
-                src="../images/integration-icon-04.svg"
+                src="/images/integration-icon-04.svg"
                 width="48"
                 height="46"
                 alt="Icon 04"
@@ -443,7 +443,7 @@
             >
               <!-- Icon -->
               <img
-                src="../images/integration-icon-05.svg"
+                src="/images/integration-icon-05.svg"
                 width="49"
                 height="48"
                 alt="Icon 05"
@@ -471,7 +471,7 @@
             >
               <!-- Icon -->
               <img
-                src="../images/integration-icon-06.svg"
+                src="/images/integration-icon-06.svg"
                 width="48"
                 height="44"
                 alt="Icon 06"
@@ -483,7 +483,7 @@
     </div>
   </section>
 </template>
-<style scoped>
+<style lang="scss" scoped>
 /* Pulsing animation */
 @keyframes pulseLoop {
   0% {

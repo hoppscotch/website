@@ -9,7 +9,7 @@
         >
           <img
             class="absolute inset-0 object-cover w-full h-full transition duration-700 ease-out rounded-xl"
-            src="../images/blog-post-01.png"
+            src="/images/blog-post-01.png"
             width="352"
             height="198"
             alt="News 01"
@@ -39,7 +39,7 @@
       <footer class="flex items-center mt-4">
         <img
           class="mr-2 rounded-full shrink-0"
-          src="../images/news-author-01.jpg"
+          src="/images/news-author-01.jpg"
           width="16"
           height="16"
           alt="Author 01"
@@ -65,7 +65,7 @@
           >
             <img
               class="absolute inset-0 object-cover w-full h-full transition duration-700 ease-out rounded-xl"
-              src="../images/news-01.png"
+              src="/images/news-01.png"
               width="352"
               height="198"
               alt="News 01"
@@ -96,7 +96,7 @@
         <footer class="flex items-center mt-4">
           <img
             class="mr-2 rounded-full shrink-0"
-            src="../images/news-author-01.jpg"
+            src="/images/news-author-01.jpg"
             width="16"
             height="16"
             alt="Author 01"
@@ -121,7 +121,7 @@
           >
             <img
               class="absolute inset-0 object-cover w-full h-full transition duration-700 ease-out rounded-xl"
-              src="../images/news-02.png"
+              src="/images/news-02.png"
               width="352"
               height="198"
               alt="News 02"
@@ -152,7 +152,7 @@
         <footer class="flex items-center mt-4">
           <img
             class="mr-2 rounded-full shrink-0"
-            src="../images/news-author-02.jpg"
+            src="/images/news-author-02.jpg"
             width="16"
             height="16"
             alt="Author 02"
@@ -177,7 +177,7 @@
           >
             <img
               class="absolute inset-0 object-cover w-full h-full transition duration-700 ease-out rounded-xl"
-              src="../images/news-03.png"
+              src="/images/news-03.png"
               width="352"
               height="198"
               alt="News 03"
@@ -208,7 +208,7 @@
         <footer class="flex items-center mt-4">
           <img
             class="mr-2 rounded-full shrink-0"
-            src="../images/news-author-03.jpg"
+            src="/images/news-author-03.jpg"
             width="16"
             height="16"
             alt="Author 03"
@@ -229,7 +229,7 @@
           >
             <img
               class="absolute inset-0 object-cover w-full h-full transition duration-700 ease-out rounded-xl"
-              src="../images/news-04.png"
+              src="/images/news-04.png"
               width="352"
               height="198"
               alt="News 04"
@@ -260,7 +260,7 @@
         <footer class="flex items-center mt-4">
           <img
             class="mr-2 rounded-full shrink-0"
-            src="../images/news-author-05.jpg"
+            src="/images/news-author-05.jpg"
             width="16"
             height="16"
             alt="Author 05"
@@ -285,7 +285,7 @@
           >
             <img
               class="absolute inset-0 object-cover w-full h-full transition duration-700 ease-out rounded-xl"
-              src="../images/news-05.png"
+              src="/images/news-05.png"
               width="352"
               height="198"
               alt="News 05"
@@ -316,7 +316,7 @@
         <footer class="flex items-center mt-4">
           <img
             class="mr-2 rounded-full shrink-0"
-            src="../images/news-author-03.jpg"
+            src="/images/news-author-03.jpg"
             width="16"
             height="16"
             alt="Author 03"
@@ -341,7 +341,7 @@
           >
             <img
               class="absolute inset-0 object-cover w-full h-full transition duration-700 ease-out rounded-xl"
-              src="../images/news-06.png"
+              src="/images/news-06.png"
               width="352"
               height="198"
               alt="News 06"
@@ -372,7 +372,7 @@
         <footer class="flex items-center mt-4">
           <img
             class="mr-2 rounded-full shrink-0"
-            src="../images/news-author-06.jpg"
+            src="/images/news-author-06.jpg"
             width="16"
             height="16"
             alt="Author 06"
@@ -393,7 +393,7 @@
           >
             <img
               class="absolute inset-0 object-cover w-full h-full transition duration-700 ease-out rounded-xl"
-              src="../images/news-07.png"
+              src="/images/news-07.png"
               width="352"
               height="198"
               alt="News 07"
@@ -424,7 +424,7 @@
         <footer class="flex items-center mt-4">
           <img
             class="mr-2 rounded-full shrink-0"
-            src="../images/news-author-02.jpg"
+            src="/images/news-author-02.jpg"
             width="16"
             height="16"
             alt="Author 02"
@@ -449,7 +449,7 @@
           >
             <img
               class="absolute inset-0 object-cover w-full h-full transition duration-700 ease-out rounded-xl"
-              src="../images/news-08.png"
+              src="/images/news-08.png"
               width="352"
               height="198"
               alt="News 08"
@@ -480,7 +480,7 @@
         <footer class="flex items-center mt-4">
           <img
             class="mr-2 rounded-full shrink-0"
-            src="../images/news-author-01.jpg"
+            src="/images/news-author-01.jpg"
             width="16"
             height="16"
             alt="Author 01"

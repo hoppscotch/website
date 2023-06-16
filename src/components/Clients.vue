@@ -15,88 +15,40 @@
             <div class="swiper-wrapper !ease-linear select-none items-center">
               <!-- Carousel items -->
               <div class="swiper-slide !w-auto">
-                <img
-                  src="../images/client-01.svg"
-                  alt="Client 01"
-                  class="w-24"
-                />
+                <img src="/images/client-01.svg" alt="Client 01" class="w-24" />
               </div>
               <div class="swiper-slide !w-auto">
-                <img
-                  src="../images/client-02.svg"
-                  alt="Client 02"
-                  class="w-24"
-                />
+                <img src="/images/client-02.svg" alt="Client 02" class="w-24" />
               </div>
               <div class="swiper-slide !w-auto">
-                <img
-                  src="../images/client-03.svg"
-                  alt="Client 03"
-                  class="w-24"
-                />
+                <img src="/images/client-03.svg" alt="Client 03" class="w-24" />
               </div>
               <div class="swiper-slide !w-auto">
-                <img
-                  src="../images/client-04.svg"
-                  alt="Client 04"
-                  class="w-24"
-                />
+                <img src="/images/client-04.svg" alt="Client 04" class="w-24" />
               </div>
               <div class="swiper-slide !w-auto">
-                <img
-                  src="../images/client-05.svg"
-                  alt="Client 05"
-                  class="w-24"
-                />
+                <img src="/images/client-05.svg" alt="Client 05" class="w-24" />
               </div>
               <div class="swiper-slide !w-auto">
-                <img
-                  src="../images/client-06.svg"
-                  alt="Client 06"
-                  class="w-24"
-                />
+                <img src="/images/client-06.svg" alt="Client 06" class="w-24" />
               </div>
               <div class="swiper-slide !w-auto">
-                <img
-                  src="../images/client-07.svg"
-                  alt="Client 07"
-                  class="w-24"
-                />
+                <img src="/images/client-07.svg" alt="Client 07" class="w-24" />
               </div>
               <div class="swiper-slide !w-auto">
-                <img
-                  src="../images/client-08.svg"
-                  alt="Client 08"
-                  class="w-24"
-                />
+                <img src="/images/client-08.svg" alt="Client 08" class="w-24" />
               </div>
               <div class="swiper-slide !w-auto">
-                <img
-                  src="../images/client-09.svg"
-                  alt="Client 09"
-                  class="w-24"
-                />
+                <img src="/images/client-09.svg" alt="Client 09" class="w-24" />
               </div>
               <div class="swiper-slide !w-auto">
-                <img
-                  src="../images/client-10.svg"
-                  alt="Client 10"
-                  class="w-24"
-                />
+                <img src="/images/client-10.svg" alt="Client 10" class="w-24" />
               </div>
               <div class="swiper-slide !w-auto">
-                <img
-                  src="../images/client-11.svg"
-                  alt="Client 11"
-                  class="w-24"
-                />
+                <img src="/images/client-11.svg" alt="Client 11" class="w-24" />
               </div>
               <div class="swiper-slide !w-auto">
-                <img
-                  src="../images/client-12.svg"
-                  alt="Client 12"
-                  class="w-24"
-                />
+                <img src="/images/client-12.svg" alt="Client 12" class="w-24" />
               </div>
             </div>
           </div>

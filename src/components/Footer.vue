@@ -17,7 +17,7 @@
                   aria-label="Hoppscotch"
                 >
                   <img
-                    src="../images/logo.svg"
+                    src="/images/logo.svg"
                     width="38"
                     height="38"
                     alt="Stellar"

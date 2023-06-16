@@ -2,9 +2,9 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 /* Additional styles */
-@import "additional-styles/utility-patterns.css";
-@import "additional-styles/theme.css";
-@import "additional-styles/main.css";
+@import "additional-styles/utility-patterns.scss";
+@import "additional-styles/theme.scss";
+@import "additional-styles/main.scss";
 @import "tailwindcss/utilities";
 /* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
 @layer utilities {

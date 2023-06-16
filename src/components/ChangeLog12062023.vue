@@ -42,8 +42,8 @@
         and more reliable for you. This version includes several bug fixes and
         performance improvements.
       </p>
-      <img
-        src="../images/changelog-12-06-2023.png"
+      <ImageZoom
+        src="/images/changelog-12-06-2023.png"
         class="p-2 mt-4 mb-8 border rounded-3xl border-slate-900"
       />
       <h3 class="flex items-center font-semibold">

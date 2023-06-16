@@ -146,7 +146,7 @@
                     <div class="relative w-full h-64 overflow-hidden md:h-auto">
                       <img
                         class="absolute bottom-0 mx-auto -translate-x-1/2 left-1/2 max-w-none md:relative md:left-0 md:translate-x-0"
-                        src="../images/feature-image-01.png"
+                        src="/images/feature-image-01.png"
                         width="504"
                         height="400"
                         alt="Feature 01"
@@ -194,7 +194,7 @@
                     >
                       <img
                         class="absolute bottom-0 mx-auto -translate-x-1/2 left-1/2 max-w-none md:max-w-full md:relative md:left-0 md:translate-x-0"
-                        src="../images/feature-image-02.png"
+                        src="/images/feature-image-02.png"
                         width="536"
                         height="230"
                         alt="Feature 02"
@@ -242,7 +242,7 @@
                     >
                       <img
                         class="absolute bottom-0 mx-auto -translate-x-1/2 left-1/2 max-w-none md:max-w-full md:relative md:left-0 md:translate-x-0"
-                        src="../images/feature-image-03.png"
+                        src="/images/feature-image-03.png"
                         width="230"
                         height="230"
                         alt="Feature 03"

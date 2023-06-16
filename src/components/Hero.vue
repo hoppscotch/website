@@ -10,7 +10,7 @@
       >
         <div class="absolute bottom-0 -translate-x-1/2 left-1/2 -z-10">
           <img
-            src="../images/glow-bottom.svg"
+            src="/images/glow-bottom.svg"
             class="max-w-none"
             width="2146"
             height="774"

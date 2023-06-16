@@ -8,7 +8,7 @@
       >
         <div class="absolute top-0 -translate-x-1/2 left-1/2 -z-10">
           <img
-            src="../images/glow-top.svg"
+            src="/images/glow-top.svg"
             class="max-w-none"
             width="1404"
             height="658"
@@ -230,7 +230,7 @@
 import { ref } from "vue"
 const tab = ref("1")
 </script>
-<style scoped>
+<style lang="scss" scoped>
 /* Pulsing animation */
 @keyframes pulseLoop {
   0% {

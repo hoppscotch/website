@@ -36,8 +36,8 @@
         with workspaces, tabs and collection reordering in this release. It's
         been our most requested feature since we launched.
       </p>
-      <img
-        src="../images/changelog-11-04-2023.png"
+      <ImageZoom
+        src="/images/changelog-11-04-2023.png"
         class="p-2 mt-4 mb-8 border rounded-3xl border-slate-900"
       />
       <h3 class="flex items-center text-xl font-bold">

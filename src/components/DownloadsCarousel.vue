@@ -38,7 +38,7 @@
                 <div class="flex flex-col h-full p-6">
                   <img
                     class="p-3 mb-4 border rounded-xl border-slate-600 bg-slate-900"
-                    src="../images/download-apple.svg"
+                    src="/images/download-apple.svg"
                     width="40"
                     height="40"
                     alt="Icon 01"
@@ -91,7 +91,7 @@
                 <div class="flex flex-col h-full p-6">
                   <img
                     class="p-3 mb-4 border rounded-xl border-slate-600 bg-slate-900"
-                    src="../images/download-windows.svg"
+                    src="/images/download-windows.svg"
                     width="40"
                     height="40"
                     alt="Icon 01"
@@ -146,7 +146,7 @@
                 <div class="flex flex-col h-full p-6">
                   <img
                     class="p-3 mb-4 border rounded-xl border-slate-600 bg-slate-900"
-                    src="../images/download-linux.svg"
+                    src="/images/download-linux.svg"
                     width="40"
                     height="40"
                     alt="Icon 01"

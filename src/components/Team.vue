@@ -30,7 +30,7 @@
               <div class="flex flex-col items-center">
                 <img
                   class="mb-4 rounded-full"
-                  src="../images/team-member-01.jpg"
+                  src="/images/team-member-01.jpg"
                   width="80"
                   height="80"
                   alt="Team member 01"
@@ -69,7 +69,7 @@
               <div class="flex flex-col items-center">
                 <img
                   class="mb-4 rounded-full"
-                  src="../images/team-member-02.jpg"
+                  src="/images/team-member-02.jpg"
                   width="80"
                   height="80"
                   alt="Team member 02"
@@ -106,7 +106,7 @@
               <div class="flex flex-col items-center">
                 <img
                   class="mb-4 rounded-full"
-                  src="../images/team-member-03.jpg"
+                  src="/images/team-member-03.jpg"
                   width="80"
                   height="80"
                   alt="Team member 03"
@@ -143,7 +143,7 @@
               <div class="flex flex-col items-center">
                 <img
                   class="mb-4 rounded-full"
-                  src="../images/team-member-04.jpg"
+                  src="/images/team-member-04.jpg"
                   width="80"
                   height="80"
                   alt="Team member 04"
@@ -182,7 +182,7 @@
               <div class="flex flex-col items-center">
                 <img
                   class="mb-4 rounded-full"
-                  src="../images/team-member-05.jpg"
+                  src="/images/team-member-05.jpg"
                   width="80"
                   height="80"
                   alt="Team member 05"
@@ -221,7 +221,7 @@
               <div class="flex flex-col items-center">
                 <img
                   class="mb-4 rounded-full"
-                  src="../images/team-member-06.jpg"
+                  src="/images/team-member-06.jpg"
                   width="80"
                   height="80"
                   alt="Team member 06"
@@ -258,7 +258,7 @@
               <div class="flex flex-col items-center">
                 <img
                   class="mb-4 rounded-full"
-                  src="../images/team-member-07.jpg"
+                  src="/images/team-member-07.jpg"
                   width="80"
                   height="80"
                   alt="Team member 07"
@@ -295,7 +295,7 @@
               <div class="flex flex-col items-center">
                 <img
                   class="mb-4 rounded-full"
-                  src="../images/team-member-08.jpg"
+                  src="/images/team-member-08.jpg"
                   width="80"
                   height="80"
                   alt="Team member 08"
@@ -334,7 +334,7 @@
               <div class="flex flex-col items-center">
                 <img
                   class="mb-4 rounded-full"
-                  src="../images/team-member-09.jpg"
+                  src="/images/team-member-09.jpg"
                   width="80"
                   height="80"
                   alt="Team member 09"
@@ -371,7 +371,7 @@
               <div class="flex flex-col items-center">
                 <img
                   class="mb-4 rounded-full"
-                  src="../images/team-member-10.jpg"
+                  src="/images/team-member-10.jpg"
                   width="80"
                   height="80"
                   alt="Team member 10"

@@ -135,7 +135,7 @@
     </div>
   </section>
 </template>
-<style scoped>
+<style lang="scss" scoped>
 /* Tags animation */
 .tags-animation {
   animation: tagsmove 30000ms linear infinite;

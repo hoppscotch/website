@@ -6,7 +6,7 @@
       aria-hidden="true"
     >
       <img
-        src="../images/auth-illustration.svg"
+        src="/images/auth-illustration.svg"
         class="max-w-none"
         width="1440"
         height="450"
@@ -25,7 +25,7 @@
               >
                 <img
                   class="relative"
-                  src="../images/logo.svg"
+                  src="/images/logo.svg"
                   width="42"
                   height="42"
                   alt="Stellar"

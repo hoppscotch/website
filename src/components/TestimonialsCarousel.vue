@@ -59,7 +59,7 @@
                   <div class="flex flex-col h-full p-6">
                     <img
                       class="mb-3"
-                      src="../images/carousel-icon-01.svg"
+                      src="/images/carousel-icon-01.svg"
                       width="56"
                       height="56"
                       alt="Icon 01"
@@ -112,7 +112,7 @@
                   <div class="flex flex-col h-full p-6">
                     <img
                       class="mb-3"
-                      src="../images/carousel-icon-02.svg"
+                      src="/images/carousel-icon-02.svg"
                       width="56"
                       height="56"
                       alt="Icon 01"
@@ -165,7 +165,7 @@
                   <div class="flex flex-col h-full p-6">
                     <img
                       class="mb-3"
-                      src="../images/carousel-icon-03.svg"
+                      src="/images/carousel-icon-03.svg"
                       width="56"
                       height="56"
                       alt="Icon 01"
@@ -220,7 +220,7 @@
                   <div class="flex flex-col h-full p-6">
                     <img
                       class="mb-3"
-                      src="../images/carousel-icon-04.svg"
+                      src="/images/carousel-icon-04.svg"
                       width="56"
                       height="56"
                       alt="Icon 01"
@@ -275,7 +275,7 @@
                   <div class="flex flex-col h-full p-6">
                     <img
                       class="mb-3"
-                      src="../images/carousel-icon-05.svg"
+                      src="/images/carousel-icon-05.svg"
                       width="56"
                       height="56"
                       alt="Icon 05"
