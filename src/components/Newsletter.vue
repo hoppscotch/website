@@ -1,7 +1,7 @@
 <template>
   <div
     id="newsletter"
-    class="flex flex-col items-center px-4 py-16 border-t rounded-xl border-slate-900"
+    class="flex flex-col items-center px-4 py-16 border-t border-slate-900"
   >
     <h4 class="text-center h4 text-slate-200">Subscribe to our newsletter</h4>
     <p class="max-w-md mt-2 text-center text-slate-400">
