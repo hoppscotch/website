@@ -2,4 +2,5 @@
   <HeroAbout />
   <AboutAchievements />
   <Team />
+  <Cta />
 </template>

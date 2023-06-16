@@ -1,10 +1,10 @@
 <template>
   <!-- Featured article -->
-  <div class="mb-16">
+  <div class="mb-20">
     <article class="flex flex-col h-full" data-aos="fade-up">
       <header>
         <RouterLink
-          to="/blog-post"
+          to="/blog/sample-post"
           class="relative block mb-4 h-56 md:h-[32rem] rounded-xl"
         >
           <img
@@ -15,7 +15,7 @@
             alt="News 01"
           />
         </RouterLink>
-        <div class="mb-2">
+        <div class="mb-4">
           <ul class="flex flex-wrap -m-1 text-xs font-medium">
             <li class="m-1">
               <span class="inline-flex text-center transition text-slate-500"
@@ -24,15 +24,15 @@
             </li>
           </ul>
         </div>
-        <h3 class="mb-4 h4">
+        <h3 class="max-w-2xl mb-4 h3">
           <RouterLink
-            to="/blog-post"
+            to="/blog/sample-post"
             class="transition text-slate-200 hover:text-slate-100"
-            >The quick brown fox jumped over the lazy dog.</RouterLink
+            >The quick brown fox jumped over the lazy dog</RouterLink
           >
         </h3>
       </header>
-      <p class="text-sm text-slate-300 grow">
+      <p class="max-w-2xl mb-2 text-slate-300 grow">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.
       </p>
@@ -55,12 +55,12 @@
   <!-- Articles list -->
   <div class="mx-auto">
     <!-- Articles container -->
-    <div class="items-start grid gap-16 md:grid-cols-2">
+    <div class="items-start grid gap-16 md:grid-cols-2 md:gap-y-20">
       <!-- 1st article -->
       <article class="flex flex-col h-full" data-aos="fade-up">
         <header>
           <RouterLink
-            to="/blog-post"
+            to="/blog/sample-post"
             class="relative block h-56 mb-4 md:h-80 rounded-xl"
           >
             <img
@@ -71,7 +71,7 @@
               alt="News 01"
             />
           </RouterLink>
-          <div class="mb-2">
+          <div class="mb-4">
             <ul class="flex flex-wrap -m-1 text-xs font-medium">
               <li class="m-1">
                 <span class="inline-flex text-center transition text-slate-500"
@@ -80,15 +80,15 @@
               </li>
             </ul>
           </div>
-          <h3 class="mb-4 h4">
+          <h4 class="max-w-2xl mb-4 h4">
             <RouterLink
-              to="/blog-post"
+              to="/blog/sample-post"
               class="transition text-slate-200 hover:text-slate-100"
-              >The quick brown fox jumped over the lazy dog.</RouterLink
+              >The quick brown fox jumped over the lazy dog</RouterLink
             >
-          </h3>
+          </h4>
         </header>
-        <p class="text-sm text-slate-300 grow">
+        <p class="max-w-2xl mb-2 text-slate-300 grow">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sunt
           rem ducimus dolore? Eveniet voluptatum, tempora, quam hic in dolore
           earum quisquam accusamus molestiae ut suscipit minima nam ab ex.
@@ -116,7 +116,7 @@
       >
         <header>
           <RouterLink
-            to="/blog-post"
+            to="/blog/sample-post"
             class="relative block h-56 mb-4 md:h-80 rounded-xl"
           >
             <img
@@ -127,7 +127,7 @@
               alt="News 02"
             />
           </RouterLink>
-          <div class="mb-2">
+          <div class="mb-4">
             <ul class="flex flex-wrap -m-1 text-xs font-medium">
               <li class="m-1">
                 <span class="inline-flex text-center transition text-slate-500"
@@ -136,15 +136,15 @@
               </li>
             </ul>
           </div>
-          <h3 class="mb-4 h4">
+          <h4 class="max-w-2xl mb-4 h4">
             <RouterLink
-              to="/blog-post"
+              to="/blog/sample-post"
               class="transition text-slate-200 hover:text-slate-100"
-              >The quick brown fox jumped over the lazy dog.</RouterLink
+              >The quick brown fox jumped over the lazy dog</RouterLink
             >
-          </h3>
+          </h4>
         </header>
-        <p class="text-sm text-slate-300 grow">
+        <p class="max-w-2xl mb-2 text-slate-300 grow">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sunt
           rem ducimus dolore? Eveniet voluptatum, tempora, quam hic in dolore
           earum quisquam accusamus molestiae ut suscipit minima nam ab ex.
@@ -172,7 +172,7 @@
       >
         <header>
           <RouterLink
-            to="/blog-post"
+            to="/blog/sample-post"
             class="relative block h-56 mb-4 md:h-80 rounded-xl"
           >
             <img
@@ -183,7 +183,7 @@
               alt="News 03"
             />
           </RouterLink>
-          <div class="mb-2">
+          <div class="mb-4">
             <ul class="flex flex-wrap -m-1 text-xs font-medium">
               <li class="m-1">
                 <span class="inline-flex text-center transition text-slate-500"
@@ -192,15 +192,15 @@
               </li>
             </ul>
           </div>
-          <h3 class="mb-4 h4">
+          <h4 class="max-w-2xl mb-4 h4">
             <RouterLink
-              to="/blog-post"
+              to="/blog/sample-post"
               class="transition text-slate-200 hover:text-slate-100"
-              >The quick brown fox jumped over the lazy dog.</RouterLink
+              >The quick brown fox jumped over the lazy dog</RouterLink
             >
-          </h3>
+          </h4>
         </header>
-        <p class="text-sm text-slate-300 grow">
+        <p class="max-w-2xl mb-2 text-slate-300 grow">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sunt
           rem ducimus dolore? Eveniet voluptatum, tempora, quam hic in dolore
           earum quisquam accusamus molestiae ut suscipit minima nam ab ex.
@@ -224,7 +224,7 @@
       <article class="flex flex-col h-full" data-aos="fade-up">
         <header>
           <RouterLink
-            to="/blog-post"
+            to="/blog/sample-post"
             class="relative block h-56 mb-4 md:h-80 rounded-xl"
           >
             <img
@@ -235,7 +235,7 @@
               alt="News 04"
             />
           </RouterLink>
-          <div class="mb-2">
+          <div class="mb-4">
             <ul class="flex flex-wrap -m-1 text-xs font-medium">
               <li class="m-1">
                 <span class="inline-flex text-center transition text-slate-500"
@@ -244,15 +244,15 @@
               </li>
             </ul>
           </div>
-          <h3 class="mb-4 h4">
+          <h4 class="max-w-2xl mb-4 h4">
             <RouterLink
-              to="/blog-post"
+              to="/blog/sample-post"
               class="transition text-slate-200 hover:text-slate-100"
-              >The quick brown fox jumped over the lazy dog.</RouterLink
+              >The quick brown fox jumped over the lazy dog</RouterLink
             >
-          </h3>
+          </h4>
         </header>
-        <p class="text-sm text-slate-300 grow">
+        <p class="max-w-2xl mb-2 text-slate-300 grow">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sunt
           rem ducimus dolore? Eveniet voluptatum, tempora, quam hic in dolore
           earum quisquam accusamus molestiae ut suscipit minima nam ab ex.
@@ -280,7 +280,7 @@
       >
         <header>
           <RouterLink
-            to="/blog-post"
+            to="/blog/sample-post"
             class="relative block h-56 mb-4 md:h-80 rounded-xl"
           >
             <img
@@ -291,7 +291,7 @@
               alt="News 05"
             />
           </RouterLink>
-          <div class="mb-2">
+          <div class="mb-4">
             <ul class="flex flex-wrap -m-1 text-xs font-medium">
               <li class="m-1">
                 <span class="inline-flex text-center transition text-slate-500"
@@ -300,15 +300,15 @@
               </li>
             </ul>
           </div>
-          <h3 class="mb-4 h4">
+          <h4 class="max-w-2xl mb-4 h4">
             <RouterLink
-              to="/blog-post"
+              to="/blog/sample-post"
               class="transition text-slate-200 hover:text-slate-100"
-              >The quick brown fox jumped over the lazy dog.</RouterLink
+              >The quick brown fox jumped over the lazy dog</RouterLink
             >
-          </h3>
+          </h4>
         </header>
-        <p class="text-sm text-slate-300 grow">
+        <p class="max-w-2xl mb-2 text-slate-300 grow">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sunt
           rem ducimus dolore? Eveniet voluptatum, tempora, quam hic in dolore
           earum quisquam accusamus molestiae ut suscipit minima nam ab ex.
@@ -336,7 +336,7 @@
       >
         <header>
           <RouterLink
-            to="/blog-post"
+            to="/blog/sample-post"
             class="relative block h-56 mb-4 md:h-80 rounded-xl"
           >
             <img
@@ -347,7 +347,7 @@
               alt="News 06"
             />
           </RouterLink>
-          <div class="mb-2">
+          <div class="mb-4">
             <ul class="flex flex-wrap -m-1 text-xs font-medium">
               <li class="m-1">
                 <span class="inline-flex text-center transition text-slate-500"
@@ -356,15 +356,15 @@
               </li>
             </ul>
           </div>
-          <h3 class="mb-4 h4">
+          <h4 class="max-w-2xl mb-4 h4">
             <RouterLink
-              to="/blog-post"
+              to="/blog/sample-post"
               class="transition text-slate-200 hover:text-slate-100"
-              >The quick brown fox jumped over the lazy dog.</RouterLink
+              >The quick brown fox jumped over the lazy dog</RouterLink
             >
-          </h3>
+          </h4>
         </header>
-        <p class="text-sm text-slate-300 grow">
+        <p class="max-w-2xl mb-2 text-slate-300 grow">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sunt
           rem ducimus dolore? Eveniet voluptatum, tempora, quam hic in dolore
           earum quisquam accusamus molestiae ut suscipit minima nam ab ex.
@@ -388,7 +388,7 @@
       <article class="flex flex-col h-full" data-aos="fade-up">
         <header>
           <RouterLink
-            to="/blog-post"
+            to="/blog/sample-post"
             class="relative block h-56 mb-4 md:h-80 rounded-xl"
           >
             <img
@@ -399,7 +399,7 @@
               alt="News 07"
             />
           </RouterLink>
-          <div class="mb-2">
+          <div class="mb-4">
             <ul class="flex flex-wrap -m-1 text-xs font-medium">
               <li class="m-1">
                 <span class="inline-flex text-center transition text-slate-500"
@@ -408,15 +408,15 @@
               </li>
             </ul>
           </div>
-          <h3 class="mb-4 h4">
+          <h4 class="max-w-2xl mb-4 h4">
             <RouterLink
-              to="/blog-post"
+              to="/blog/sample-post"
               class="transition text-slate-200 hover:text-slate-100"
-              >The quick brown fox jumped over the lazy dog.</RouterLink
+              >The quick brown fox jumped over the lazy dog</RouterLink
             >
-          </h3>
+          </h4>
         </header>
-        <p class="text-sm text-slate-300 grow">
+        <p class="max-w-2xl mb-2 text-slate-300 grow">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sunt
           rem ducimus dolore? Eveniet voluptatum, tempora, quam hic in dolore
           earum quisquam accusamus molestiae ut suscipit minima nam ab ex.
@@ -444,7 +444,7 @@
       >
         <header>
           <RouterLink
-            to="/blog-post"
+            to="/blog/sample-post"
             class="relative block h-56 mb-4 md:h-80 rounded-xl"
           >
             <img
@@ -455,7 +455,7 @@
               alt="News 08"
             />
           </RouterLink>
-          <div class="mb-2">
+          <div class="mb-4">
             <ul class="flex flex-wrap -m-1 text-xs font-medium">
               <li class="m-1">
                 <span class="inline-flex text-center transition text-slate-500"
@@ -464,15 +464,15 @@
               </li>
             </ul>
           </div>
-          <h3 class="mb-4 h4">
+          <h4 class="max-w-2xl mb-4 h4">
             <RouterLink
-              to="/blog-post"
+              to="/blog/sample-post"
               class="transition text-slate-200 hover:text-slate-100"
-              >The quick brown fox jumped over the lazy dog.</RouterLink
+              >The quick brown fox jumped over the lazy dog</RouterLink
             >
-          </h3>
+          </h4>
         </header>
-        <p class="text-sm text-slate-300 grow">
+        <p class="max-w-2xl mb-2 text-slate-300 grow">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sunt
           rem ducimus dolore? Eveniet voluptatum, tempora, quam hic in dolore
           earum quisquam accusamus molestiae ut suscipit minima nam ab ex.
