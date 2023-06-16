@@ -29,7 +29,7 @@
       </div>
       <div class="pt-32 pb-16">
         <!-- Section header -->
-        <div class="max-w-3xl pb-12 md:pb-20">
+        <div class="pb-12 md:pb-20">
           <h2
             class="pb-4 text-transparent h2 bg-clip-text bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60"
           >

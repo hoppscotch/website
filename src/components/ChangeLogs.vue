@@ -29,7 +29,7 @@
       </div>
       <div class="pt-32 pb-16">
         <!-- Section header -->
-        <div class="max-w-3xl pb-12 md:pb-20">
+        <div class="pb-12 md:pb-20">
           <h2
             class="pb-4 text-transparent h2 bg-clip-text bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60"
           >
@@ -41,7 +41,7 @@
           <p class="mt-4 text-sm">
             <RouterLink
               :to="{ path: '', hash: '#newsletter' }"
-              class="font-medium text-indigo-400 transition hover:text-indigo-300"
+              class="font-medium text-indigo-400 rounded transition hover:text-indigo-300"
             >
               Subscribe to updates
             </RouterLink>
@@ -50,7 +50,7 @@
               href="https://twitter.com/hoppscotch_io"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-medium text-indigo-400 transition hover:text-indigo-300"
+              class="font-medium text-indigo-400 rounded transition hover:text-indigo-300"
               >Follow us on Twitter</a
             >
           </p>
