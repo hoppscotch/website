@@ -29,7 +29,7 @@
         value="Subscribe"
         name="subscribe"
         id="mc-embedded-subscribe"
-        class="px-4 py-1 mt-4 ml-0 text-sm font-semibold transition bg-indigo-600 rounded hover:bg-indigo-800 sm:mt-0 sm:ml-4"
+        class="px-4 py-1 mt-4 ml-0 text-sm font-semibold bg-purple-600 rounded transition hover:bg-purple-500 sm:mt-0 sm:ml-4"
       />
     </form>
   </div>

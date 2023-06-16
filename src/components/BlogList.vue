@@ -55,7 +55,7 @@
   <!-- Articles list -->
   <div class="mx-auto">
     <!-- Articles container -->
-    <div class="grid items-start gap-16 md:grid-cols-2 md:gap-y-20">
+    <div class="items-start grid gap-16 md:grid-cols-2 md:gap-y-20">
       <!-- 1st article -->
       <article class="flex flex-col h-full" data-aos="fade-up">
         <header>
