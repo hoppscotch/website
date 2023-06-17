@@ -49,6 +49,7 @@
             width="557"
             height="93"
             xmlns="http://www.w3.org/2000/svg"
+            data-aos="zoom-in"
           >
             <defs>
               <filter
