@@ -42,142 +42,478 @@
           </p>
         </div>
         <!-- Custom animation -->
-        <div class="max-w-3xl mx-auto">
-          <div
-            class="relative flex items-center justify-center overflow-hidden"
-          >
-            <div class="block w-96 h-96"></div>
-            <!-- Moving tags -->
-            <div class="absolute inset-0" data-aos="fade-right">
+        <div class="relative flex items-center justify-center overflow-hidden">
+          <div class="flex flex-col space-y-8">
+            <div class="overflow-hidden">
+              <!-- Carousel built with Swiper.js [https://swiperjs.com/] -->
+              <!-- * Custom styles in src/css/additional-styles/theme.scss -->
               <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-indigo-500 bg-indigo-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation mt-28"
+                class="relative features-carousel-1 swiper-container before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-slate-950 after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-slate-950"
               >
-                Custom Support
-              </div>
-              <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-teal-500 bg-teal-500 rounded-full bg-opacity-25 text-md from-transparent to-transparent tags-animation tags-1 mt-72"
-              >
-                Components
-              </div>
-              <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 mt-40 font-medium text-pink-500 bg-pink-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-2"
-              >
-                Items
-              </div>
-              <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-indigo-500 bg-indigo-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-3 mt-80 top-4"
-              >
-                Tools
-              </div>
-              <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 mt-56 font-medium text-indigo-500 bg-indigo-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-4"
-              >
-                Development
-              </div>
-              <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-pink-500 bg-pink-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-4"
-              >
-                Project Settings
-              </div>
-              <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-teal-500 bg-teal-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-5 mt-14"
-              >
-                Tools & Widgets
-              </div>
-              <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-purple-500 bg-purple-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-5 mt-80 top-4"
-              >
-                Getting Started
-              </div>
-              <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 mt-40 font-medium text-indigo-500 bg-indigo-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-6"
-              >
-                Templates
-              </div>
-              <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-indigo-500 bg-indigo-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-7"
-              >
-                Frameworks
-              </div>
-              <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-pink-500 bg-pink-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-7 mt-72"
-              >
-                Custom UI
-              </div>
-              <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-purple-500 bg-purple-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-8 mt-28"
-              >
-                Layout & Design
-              </div>
-              <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 font-medium text-teal-500 bg-teal-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-9 mt-80 top-4"
-              >
-                Perks
-              </div>
-              <div
-                class="absolute inline-flex items-center justify-center px-4 py-1 mt-56 font-medium text-teal-500 bg-teal-500 rounded-full bg-opacity-25 text-md bg-gradient-to-tr from-transparent to-transparent tags-animation tags-10"
-              >
-                Product & Design
+                <div
+                  class="swiper-wrapper !ease-linear select-none items-center"
+                >
+                  <!-- Carousel items -->
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-layers class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-box class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-code class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-users-2 class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-download class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-badge-check class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-flask-conical class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-folder-open class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-history class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-globe class="w-6 h-6" />
+                    </span>
+                  </span>
+                </div>
               </div>
             </div>
-            <!-- Side gradients -->
-            <div
-              class="absolute top-0 bottom-0 left-0 w-20 bg-gradient-to-r from-slate-950"
-              aria-hidden="true"
-            ></div>
-            <div
-              class="absolute top-0 bottom-0 right-0 w-20 bg-gradient-to-l from-slate-950"
-              aria-hidden="true"
-            ></div>
+            <div class="overflow-hidden">
+              <!-- Carousel built with Swiper.js [https://swiperjs.com/] -->
+              <!-- * Custom styles in src/css/additional-styles/theme.scss -->
+              <div
+                class="relative features-carousel-2 swiper-container before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-slate-950 after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-slate-950"
+              >
+                <div
+                  class="swiper-wrapper !ease-linear select-none items-center"
+                >
+                  <!-- Carousel items -->
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-box class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-badge-check class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-history class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-flask-conical class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-layers class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-folder-open class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-users-2 class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-download class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-globe class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-code class="w-6 h-6" />
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="overflow-hidden">
+              <!-- Carousel built with Swiper.js [https://swiperjs.com/] -->
+              <!-- * Custom styles in src/css/additional-styles/theme.scss -->
+              <div
+                class="relative features-carousel-3 swiper-container before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-slate-950 after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-slate-950"
+              >
+                <div
+                  class="swiper-wrapper !ease-linear select-none items-center"
+                >
+                  <!-- Carousel items -->
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-badge-check class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-flask-conical class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-users-2 class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-folder-open class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-box class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-globe class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-download class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-history class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-code class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-layers class="w-6 h-6" />
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="overflow-hidden">
+              <!-- Carousel built with Swiper.js [https://swiperjs.com/] -->
+              <!-- * Custom styles in src/css/additional-styles/theme.scss -->
+              <div
+                class="relative features-carousel-4 swiper-container before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-slate-950 after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-slate-950"
+              >
+                <div
+                  class="swiper-wrapper !ease-linear select-none items-center"
+                >
+                  <!-- Carousel items -->
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-layers class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-box class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-code class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-users-2 class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-download class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-badge-check class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-flask-conical class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-folder-open class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-history class="w-6 h-6" />
+                    </span>
+                  </span>
+                  <span
+                    class="swiper-slide !w-auto btn-sm aspect-square rounded-xl text-slate-500 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-xl pointer-events-none"
+                    to="/"
+                  >
+                    <span class="relative inline-flex items-center">
+                      <icon-lucide-globe class="w-6 h-6" />
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
+          <!-- Logo -->
+          <div
+            class="absolute inset-0 z-10 flex items-center justify-center m-auto w-80 h-80 deep-shadow"
+          >
+            <img
+              src="/images/logo.svg"
+              width="96"
+              height="96"
+              alt="Stellar"
+              class="relative"
+            />
+          </div>
+          <!-- Side gradients -->
+          <div
+            class="absolute top-0 bottom-0 left-0 z-10 w-32 bg-gradient-to-r from-slate-950"
+            aria-hidden="true"
+          ></div>
+          <div
+            class="absolute top-0 bottom-0 right-0 z-10 w-32 bg-gradient-to-l from-slate-950"
+            aria-hidden="true"
+          ></div>
         </div>
       </div>
     </div>
   </section>
 </template>
 <style lang="scss" scoped>
-/* Tags animation */
-.tags-animation {
-  animation: tagsmove 30000ms linear infinite;
-}
-.tags-1 {
-  animation-delay: calc(
-    30000ms * -0.1
-  ); /* -0.1 will make the tag move 76px right (i.e. 768px container size * -0.1) */
-}
-.tags-2 {
-  animation-delay: calc(30000ms * -0.16);
-}
-.tags-3 {
-  animation-delay: calc(30000ms * -0.23);
-}
-.tags-4 {
-  animation-delay: calc(30000ms * -0.27);
-}
-.tags-5 {
-  animation-delay: calc(30000ms * -0.44);
-}
-.tags-6 {
-  animation-delay: calc(30000ms * -0.55);
-}
-.tags-7 {
-  animation-delay: calc(30000ms * -0.63);
-}
-.tags-8 {
-  animation-delay: calc(30000ms * -0.73);
-}
-.tags-9 {
-  animation-delay: calc(30000ms * -0.76);
-}
-.tags-10 {
-  animation-delay: calc(30000ms * -0.8);
-}
-@keyframes tagsmove {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(768px);
-  }
+.deep-shadow::before {
+  @apply absolute;
+  @apply inset-0;
+  @apply rounded-full;
+  content: "";
+  background: radial-gradient(
+    theme("colors.slate.950") 0px,
+    theme("colors.slate.950") 20%,
+    transparent 50%
+  );
 }
 </style>
+<script setup>
+import { onMounted } from "vue"
+// Import Swiper
+import Swiper, { Autoplay } from "swiper"
+import "swiper/css"
+Swiper.use([Autoplay])
+onMounted(() => {
+  new Swiper(".features-carousel-1", {
+    slidesPerView: "auto",
+    spaceBetween: 32,
+    centeredSlides: true,
+    loop: true,
+    speed: 3000,
+    noSwiping: true,
+    noSwipingClass: "swiper-slide",
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false,
+    },
+  })
+  new Swiper(".features-carousel-2", {
+    slidesPerView: "auto",
+    spaceBetween: 32,
+    centeredSlides: true,
+    loop: true,
+    speed: 4500,
+    noSwiping: true,
+    noSwipingClass: "swiper-slide",
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false,
+    },
+  })
+  new Swiper(".features-carousel-3", {
+    slidesPerView: "auto",
+    spaceBetween: 32,
+    centeredSlides: true,
+    loop: true,
+    speed: 3500,
+    noSwiping: true,
+    noSwipingClass: "swiper-slide",
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false,
+    },
+  })
+  new Swiper(".features-carousel-4", {
+    slidesPerView: "auto",
+    spaceBetween: 32,
+    centeredSlides: true,
+    loop: true,
+    speed: 4000,
+    noSwiping: true,
+    noSwipingClass: "swiper-slide",
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false,
+    },
+  })
+})
+</script>

@@ -27,6 +27,16 @@
             >
               <icon-lucide-twitter />
             </a>
+            <span class="mx-4 text-slate-800">|</span>
+            <button
+              @click="copy(source)"
+              v-if="isSupported"
+              class="text-indigo-400 rounded transition hover:text-indigo-300"
+            >
+              <icon-lucide-copy v-if="!copied" />
+              <icon-lucide-check v-else />
+            </button>
+            <p v-else>Your browser does not support Clipboard API</p>
           </span>
         </div>
         <!-- Blog content -->
@@ -160,6 +170,7 @@
   <Newsletter />
 </template>
 <script setup>
+import { useClipboard } from "@vueuse/core"
 import { useHead } from "unhead"
 useHead({
   title: "The quick brown fox jumped over the lazy dog • Blog • Hoppscotch",
@@ -170,5 +181,10 @@ useHead({
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
   ],
+})
+const source = `${window.location.host}${window.location.pathname}`
+const { copy, copied, isSupported } = useClipboard({
+  source,
+  legacy: true,
 })
 </script>

@@ -64,7 +64,7 @@ import Swiper, { Autoplay } from "swiper"
 import "swiper/css"
 Swiper.use([Autoplay])
 onMounted(() => {
-  const carousel = new Swiper(".clients-carousel", {
+  new Swiper(".clients-carousel", {
     slidesPerView: "auto",
     spaceBetween: 64,
     centeredSlides: true,
@@ -74,7 +74,7 @@ onMounted(() => {
     noSwipingClass: "swiper-slide",
     autoplay: {
       delay: 0,
-      disableOnInteraction: true,
+      disableOnInteraction: false,
     },
   })
 })
