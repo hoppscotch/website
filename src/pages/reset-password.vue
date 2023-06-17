@@ -81,3 +81,15 @@
 meta:
   layout: empty
 </route>
+<script setup>
+import { useHead } from "unhead"
+useHead({
+  title: "Reset Password • Hoppscotch",
+  meta: [
+    {
+      name: "description",
+      content: "Reset your password to continue using Hoppscotch.",
+    },
+  ],
+})
+</script>

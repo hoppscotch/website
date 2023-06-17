@@ -159,3 +159,16 @@
   </section>
   <Newsletter />
 </template>
+<script setup>
+import { useHead } from "unhead"
+useHead({
+  title: "The quick brown fox jumped over the lazy dog • Blog • Hoppscotch",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+  ],
+})
+</script>

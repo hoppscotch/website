@@ -5,3 +5,15 @@
 meta:
   layout: empty
 </route>
+<script setup>
+import { useHead } from "unhead"
+useHead({
+  title: "404 • Hoppscotch",
+  meta: [
+    {
+      name: "description",
+      content: "The page you are looking for does not exist.",
+    },
+  ],
+})
+</script>

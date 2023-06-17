@@ -182,3 +182,15 @@
 meta:
   layout: empty
 </route>
+<script setup>
+import { useHead } from "unhead"
+useHead({
+  title: "Sign up • Hoppscotch",
+  meta: [
+    {
+      name: "description",
+      content: "Sign up to create your Hoppscotch account.",
+    },
+  ],
+})
+</script>
