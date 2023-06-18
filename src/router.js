@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router"
 import { setupLayouts } from "virtual:generated-layouts"
 import generatedRoutes from "virtual:generated-pages"
+import nProgress from "nprogress"
 const routerHistory = createWebHistory()
 const routes = setupLayouts(generatedRoutes)
 const router = createRouter({
@@ -17,5 +18,14 @@ const router = createRouter({
   },
   history: routerHistory,
   routes,
+})
+router.beforeResolve((to, from, next) => {
+  if (to.name) {
+    nProgress.start()
+  }
+  next()
+})
+router.afterEach((to, from) => {
+  nProgress.done()
 })
 export default router

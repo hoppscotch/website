@@ -20,3 +20,17 @@
   @apply p-0 #{!important};
   @apply border-0 #{!important};
 }
+.tippy-box {
+  @apply text-slate-600 #{!important};
+  @apply text-xs #{!important};
+  @apply px-2;
+  @apply py-1;
+  @apply font-medium;
+}
+.tippy-content {
+  @apply p-0;
+}
+#nprogress .bar {
+  background: #27c4f5
+    linear-gradient(to right, #27c4f5, #a307ba, #fd8d32, #70c050, #27c4f5);
+}

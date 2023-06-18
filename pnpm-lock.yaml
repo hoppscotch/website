@@ -6,14 +6,17 @@ settings:
 
 dependencies:
   "@vueuse/core":
-    specifier: ^10.1.2
-    version: 10.1.2(vue@3.3.4)
+    specifier: ^10.2.0
+    version: 10.2.0(vue@3.3.4)
   "@vueuse/head":
     specifier: ^1.1.26
     version: 1.1.26(vue@3.3.4)
   aos:
     specifier: ^3.0.0-beta.6
     version: 3.0.0-beta.6
+  medium-zoom:
+    specifier: ^1.0.8
+    version: 1.0.8
   swiper:
     specifier: ^8.4.7
     version: 8.4.7
@@ -40,6 +43,9 @@ devDependencies:
   postcss:
     specifier: ^8.4.24
     version: 8.4.24
+  sass:
+    specifier: ^1.63.4
+    version: 1.63.4
   tailwindcss:
     specifier: ^3.3.2
     version: 3.3.2
@@ -51,7 +57,7 @@ devDependencies:
     version: 0.25.1(vue@3.3.4)
   vite:
     specifier: ^4.3.9
-    version: 4.3.9
+    version: 4.3.9(sass@1.63.4)
   vite-plugin-pages:
     specifier: ^0.31.0
     version: 0.31.0(vite@4.3.9)
@@ -620,7 +626,7 @@ packages:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.3.9
+      vite: 4.3.9(sass@1.63.4)
       vue: 3.3.4
     dev: true
 
@@ -733,15 +739,15 @@ packages:
         integrity: sha512-7OjdcV8vQ74eiz1TZLzZP4JwqM5fA94K6yntPS5Z25r9HDuGNzaGdgvwKYq6S+MxwF0TFRwe50fIR/MYnakdkQ==,
       }
 
-  /@vueuse/core@10.1.2(vue@3.3.4):
+  /@vueuse/core@10.2.0(vue@3.3.4):
     resolution:
       {
-        integrity: sha512-roNn8WuerI56A5uiTyF/TEYX0Y+VKlhZAF94unUfdhbDUI+NfwQMn4FUnUscIRUhv3344qvAghopU4bzLPNFlA==,
+        integrity: sha512-aHBnoCteIS3hFu7ZZkVB93SanVDY6t4TIb7XDLxJT/HQdAZz+2RdIEJ8rj5LUoEJr7Damb5+sJmtpCwGez5ozQ==,
       }
     dependencies:
       "@types/web-bluetooth": 0.0.17
-      "@vueuse/metadata": 10.1.2
-      "@vueuse/shared": 10.1.2(vue@3.3.4)
+      "@vueuse/metadata": 10.2.0
+      "@vueuse/shared": 10.2.0(vue@3.3.4)
       vue-demi: 0.14.5(vue@3.3.4)
     transitivePeerDependencies:
       - "@vue/composition-api"
@@ -763,17 +769,17 @@ packages:
       vue: 3.3.4
     dev: false
 
-  /@vueuse/metadata@10.1.2:
+  /@vueuse/metadata@10.2.0:
     resolution:
       {
-        integrity: sha512-3mc5BqN9aU2SqBeBuWE7ne4OtXHoHKggNgxZR2K+zIW4YLsy6xoZ4/9vErQs6tvoKDX6QAqm3lvsrv0mczAwIQ==,
+        integrity: sha512-IR7Mkq6QSgZ38q/2ZzOt+Zz1OpcEsnwE64WBumDQ+RGKrosFCtUA2zgRrOqDEzPBXrVB+4HhFkwDjQMu0fDBKw==,
       }
     dev: false
 
-  /@vueuse/shared@10.1.2(vue@3.3.4):
+  /@vueuse/shared@10.2.0(vue@3.3.4):
     resolution:
       {
-        integrity: sha512-1uoUTPBlgyscK9v6ScGeVYDDzlPSFXBlxuK7SfrDGyUTBiznb3mNceqhwvZHjtDRELZEN79V5uWPTF1VDV8svA==,
+        integrity: sha512-dIeA8+g9Av3H5iF4NXR/sft4V6vys76CpZ6hxwj8eMXybXk2WRl3scSsOVi+kQ9SX38COR7AH7WwY83UcuxbSg==,
       }
     dependencies:
       vue-demi: 0.14.5(vue@3.3.4)
@@ -1430,6 +1436,13 @@ packages:
     engines: { node: ">=10.17.0" }
     dev: true
 
+  /immutable@4.3.0:
+    resolution:
+      {
+        integrity: sha512-0AOCmOip+xgJwEVTQj1EfiDDOkPmuyllDuTuEX+DDXUgapLAsBIfkg3sxCYyCEA8mQqZrrxPUGjcOQ2JS3WLkg==,
+      }
+    dev: true
+
   /inflight@1.0.6:
     resolution:
       {
@@ -1760,6 +1773,13 @@ packages:
     engines: { node: ">=12" }
     dependencies:
       "@jridgewell/sourcemap-codec": 1.4.15
+
+  /medium-zoom@1.0.8:
+    resolution:
+      {
+        integrity: sha512-CjFVuFq/IfrdqesAXfg+hzlDKu6A2n80ZIq0Kl9kWjoHh9j1N9Uvk5X0/MmN0hOfm5F9YBswlClhcwnmtwz7gA==,
+      }
+    dev: false
 
   /merge-stream@2.0.0:
     resolution:
@@ -2212,6 +2232,19 @@ packages:
       queue-microtask: 1.2.3
     dev: true
 
+  /sass@1.63.4:
+    resolution:
+      {
+        integrity: sha512-Sx/+weUmK+oiIlI+9sdD0wZHsqpbgQg8wSwSnGBjwb5GwqFhYNwwnI+UWZtLjKvKyFlKkatRK235qQ3mokyPoQ==,
+      }
+    engines: { node: ">=14.0.0" }
+    hasBin: true
+    dependencies:
+      chokidar: 3.5.3
+      immutable: 4.3.0
+      source-map-js: 1.0.2
+    dev: true
+
   /shebang-command@2.0.0:
     resolution:
       {
@@ -2523,7 +2556,7 @@ packages:
       json5: 2.2.3
       local-pkg: 0.4.3
       picocolors: 1.0.0
-      vite: 4.3.9
+      vite: 4.3.9(sass@1.63.4)
       yaml: 2.3.1
     transitivePeerDependencies:
       - supports-color
@@ -2542,14 +2575,14 @@ packages:
       "@vue/compiler-sfc": 3.3.4
       debug: 4.3.4
       fast-glob: 3.2.12
-      vite: 4.3.9
+      vite: 4.3.9(sass@1.63.4)
       vue: 3.3.4
       vue-router: 4.2.2(vue@3.3.4)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@4.3.9:
+  /vite@4.3.9(sass@1.63.4):
     resolution:
       {
         integrity: sha512-qsTNZjO9NoJNW7KnOrgYwczm0WctJ8m/yqYAMAK9Lxt4SoySUfS5S8ia9K7JHpa3KEeMfyF8LoJ3c5NeBJy6pg==,
@@ -2580,6 +2613,7 @@ packages:
       esbuild: 0.17.19
       postcss: 8.4.24
       rollup: 3.24.1
+      sass: 1.63.4
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
