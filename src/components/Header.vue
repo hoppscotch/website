@@ -52,7 +52,7 @@
                         to="/"
                         @click="hide()"
                       >
-                        <icon-lucide-box class="mr-3" />
+                        <icon-lucide-file-box class="mr-3" />
                         API Documentation
                       </RouterLink>
                     </li>
@@ -62,7 +62,7 @@
                         to="/"
                         @click="hide()"
                       >
-                        <icon-lucide-box class="mr-3" />
+                        <icon-lucide-codesandbox class="mr-3" />
                         API Testing
                       </RouterLink>
                     </li>
@@ -72,7 +72,7 @@
                         to="/"
                         @click="hide()"
                       >
-                        <icon-lucide-box class="mr-3" />
+                        <icon-lucide-boxes class="mr-3" />
                         API Monitoring
                       </RouterLink>
                     </li>
@@ -96,7 +96,7 @@
                         to="/features"
                         @click="hide()"
                       >
-                        <icon-lucide-box class="mr-3" />
+                        <icon-lucide-sparkles class="mr-3" />
                         Features
                       </RouterLink>
                     </li>
@@ -106,7 +106,7 @@
                         to="/download"
                         @click="hide()"
                       >
-                        <icon-lucide-box class="mr-3" />
+                        <icon-lucide-download class="mr-3" />
                         Download
                       </RouterLink>
                     </li>
@@ -116,7 +116,7 @@
                         to="/changelog"
                         @click="hide()"
                       >
-                        <icon-lucide-box class="mr-3" />
+                        <icon-lucide-scroll class="mr-3" />
                         Changelog
                       </RouterLink>
                     </li>
@@ -126,7 +126,7 @@
                         to="/pricing"
                         @click="hide()"
                       >
-                        <icon-lucide-box class="mr-3" />
+                        <icon-lucide-gem class="mr-3" />
                         Pricing & Plans
                       </RouterLink>
                     </li>
@@ -150,7 +150,7 @@
                         to="/about"
                         @click="hide()"
                       >
-                        <icon-lucide-box class="mr-3" />
+                        <icon-lucide-user-circle class="mr-3" />
                         About
                       </RouterLink>
                     </li>
@@ -160,7 +160,7 @@
                         to="/blog"
                         @click="hide()"
                       >
-                        <icon-lucide-box class="mr-3" />
+                        <icon-lucide-file-text class="mr-3" />
                         Blog
                       </RouterLink>
                     </li>
@@ -170,7 +170,7 @@
                         to="/careers"
                         @click="hide()"
                       >
-                        <icon-lucide-box class="mr-3" />
+                        <icon-lucide-briefcase class="mr-3" />
                         Careers
                       </RouterLink>
                     </li>
@@ -180,7 +180,7 @@
                         to="/contact"
                         @click="hide()"
                       >
-                        <icon-lucide-box class="mr-3" />
+                        <icon-lucide-mail class="mr-3" />
                         Contact
                       </RouterLink>
                     </li>
@@ -204,7 +204,7 @@
                         to="/documentation"
                         @click="hide()"
                       >
-                        <icon-lucide-box class="mr-3" />
+                        <icon-lucide-file-text class="mr-3" />
                         Documentation
                       </RouterLink>
                     </li>
@@ -214,7 +214,7 @@
                         to="/community"
                         @click="hide()"
                       >
-                        <icon-lucide-box class="mr-3" />
+                        <icon-lucide-heart class="mr-3" />
                         Community
                       </RouterLink>
                     </li>
@@ -224,7 +224,7 @@
                         to="/privacy"
                         @click="hide()"
                       >
-                        <icon-lucide-box class="mr-3" />
+                        <icon-lucide-shield-check class="mr-3" />
                         Privacy Policy
                       </RouterLink>
                     </li>
@@ -234,7 +234,7 @@
                         to="/terms"
                         @click="hide()"
                       >
-                        <icon-lucide-box class="mr-3" />
+                        <icon-lucide-file-lock-2 class="mr-3" />
                         Terms of Service
                       </RouterLink>
                     </li>
