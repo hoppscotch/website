@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router"
 import { setupLayouts } from "virtual:generated-layouts"
 import generatedRoutes from "virtual:generated-pages"
 import nProgress from "nprogress"
+nProgress.configure({ showSpinner: false })
 const routerHistory = createWebHistory()
 const routes = setupLayouts(generatedRoutes)
 const router = createRouter({

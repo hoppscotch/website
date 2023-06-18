@@ -10,8 +10,6 @@ import "tippy.js/animations/scale-subtle.css"
 import "aos/dist/aos.css"
 import "nprogress/nprogress.css"
 import "./styles/style.scss"
-import nProgress from "nprogress"
-nProgress.configure({ showSpinner: false })
 const app = createApp(App)
 const head = createHead()
 app.use(head)
