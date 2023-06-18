@@ -3,6 +3,7 @@
   <AboutAchievements />
   <Team />
   <Cta />
+  <Newsletter />
 </template>
 <script setup>
 import { useHead } from "unhead"
