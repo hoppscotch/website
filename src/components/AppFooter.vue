@@ -175,7 +175,7 @@
             <li>
               <RouterLink
                 class="rounded transition text-slate-500 hover:text-slate-300"
-                to="/"
+                to="/about"
               >
                 About
               </RouterLink>

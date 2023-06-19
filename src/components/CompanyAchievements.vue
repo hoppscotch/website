@@ -7,7 +7,11 @@
           class="items-start max-w-sm mx-auto grid grid-cols-2 gap-4 gap-y-8 sm:gap-8 md:grid-cols-4 md:max-w-5xl"
         >
           <!-- 1st item -->
-          <div class="relative flex flex-col items-center">
+          <div
+            class="relative flex flex-col items-center"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <div
               aria-hidden="true"
               class="absolute h-0.5 bg-gradient-to-r from-slate-950 via-slate-800 to-slate-950 hidden md:block"
@@ -37,7 +41,11 @@
             </div>
           </div>
           <!-- 2nd item -->
-          <div class="relative flex flex-col items-center">
+          <div
+            class="relative flex flex-col items-center"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             <div
               aria-hidden="true"
               class="absolute h-0.5 bg-gradient-to-r from-slate-950 via-slate-800 to-slate-950 hidden md:block"
@@ -67,7 +75,11 @@
             </div>
           </div>
           <!-- 3rd item -->
-          <div class="relative flex flex-col items-center">
+          <div
+            class="relative flex flex-col items-center"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <div
               aria-hidden="true"
               class="absolute h-0.5 bg-gradient-to-r from-slate-950 via-slate-800 to-slate-950 hidden md:block"
@@ -97,7 +109,11 @@
             </div>
           </div>
           <!-- 4th item -->
-          <div class="relative flex flex-col items-center">
+          <div
+            class="relative flex flex-col items-center"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
             <div class="relative w-20 h-20 mb-4">
               <div
                 class="absolute inset-0 rounded-full opacity-30 bg-gradient-to-tr from-pink-500 -z-1"
@@ -120,8 +136,3 @@
     </div>
   </section>
 </template>
-<script>
-export default {
-  name: "FeaturesGallery",
-}
-</script>

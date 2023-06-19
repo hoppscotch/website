@@ -1,17 +1,16 @@
 <template>
-  <CompanyHero />
-  <CompanyAchievements />
-  <CompanyTimeline />
-  <OpenPositions />
+  <HeroAbout />
+  <AboutStory />
+  <Team />
   <TeamMembers />
-  <Testimonials />
+  <Investors />
   <Cta />
   <Newsletter />
 </template>
 <script setup>
 import { useHead } from "unhead"
 useHead({
-  title: "Company • Hoppscotch",
+  title: "About • Hoppscotch",
   meta: [
     {
       name: "description",
