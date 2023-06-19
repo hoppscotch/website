@@ -1,8 +1,8 @@
 <template>
-  <div
-    class="h-0.5 bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950"
-  ></div>
   <footer>
+    <div
+      class="h-0.5 bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950"
+    ></div>
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
       <!-- Blocks -->
       <div class="py-8 grid gap-8 sm:grid-cols-12 md:py-12">
@@ -146,17 +146,17 @@
             <li>
               <RouterLink
                 class="rounded transition text-slate-500 hover:text-slate-300"
-                to="/changelog"
+                to="/pricing"
               >
-                Changelog
+                Pricing
               </RouterLink>
             </li>
             <li>
               <RouterLink
                 class="rounded transition text-slate-500 hover:text-slate-300"
-                to="/pricing"
+                to="/changelog"
               >
-                Pricing & Plans
+                Changelog
               </RouterLink>
             </li>
           </ul>
@@ -175,7 +175,7 @@
             <li>
               <RouterLink
                 class="rounded transition text-slate-500 hover:text-slate-300"
-                to="/about"
+                to="/"
               >
                 About
               </RouterLink>

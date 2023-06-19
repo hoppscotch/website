@@ -17,7 +17,6 @@ app.use(router)
 app.use(VueTippy, {
   defaultProps: {
     animation: "scale-subtle",
-    appendTo: document.body,
     allowHTML: false,
     animateFill: false,
     arrow: roundArrow + roundArrow,

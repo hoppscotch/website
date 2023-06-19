@@ -1,12 +1,12 @@
 <template>
-  <div class="flex flex-col min-h-screen overflow-hidden">
+  <div class="flex flex-col min-h-screen">
     <!-- Site header -->
-    <Header />
+    <AppHeader />
     <!-- Page content -->
-    <main class="flex flex-col grow">
+    <main class="flex flex-col overflow-hidden grow">
       <RouterView />
     </main>
     <!-- Site footer -->
-    <Footer />
+    <AppFooter />
   </div>
 </template>
