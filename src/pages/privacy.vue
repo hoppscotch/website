@@ -5,7 +5,7 @@
         <!-- Section header -->
         <div class="flex items-center justify-between pb-12 md:pb-20">
           <RouterLink
-            to="/blog"
+            to="/resources"
             class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-400 hover:text-slate-200"
           >
             <icon-lucide-arrow-left class="mr-2" />
@@ -41,7 +41,7 @@
             <p v-else>Your browser does not support Clipboard API</p>
           </span>
         </div>
-        <!-- Blog content -->
+        <!-- Page content -->
         <article
           class="flex flex-col items-center space-y-8"
           data-aos="fade-up"
@@ -52,40 +52,19 @@
                 <li class="m-1">
                   <span
                     class="inline-flex text-center transition text-slate-500"
-                    >Product</span
+                    >Last updated</span
                   >
                   <span class="mx-2 text-slate-800">|</span>
                   <span class="text-slate-600">Jan 17, 2020</span>
                 </li>
               </ul>
             </div>
-            <h3 class="mb-8 h3">
+            <h3 class="h3">
               <span class="text-slate-100">
-                The quick brown fox jumped over the lazy dog
+                Privacy Policy
               </span>
             </h3>
-            <div class="flex items-center">
-              <img
-                class="mr-4 rounded-full shrink-0"
-                src="/images/news-author-01.jpg"
-                width="32"
-                height="32"
-                alt="Author 01"
-              />
-              <div class="text-sm font-medium">
-                <span class="transition text-slate-400"> Anastasia Dan </span>
-              </div>
-            </div>
           </header>
-          <section class="max-w-4xl">
-            <ImageZoom
-              class="w-full h-full rounded-xl"
-              src="/images/blog-post-01.png"
-              width="352"
-              height="198"
-              alt="News 01"
-            />
-          </section>
           <section class="max-w-2xl text-slate-300">
             <p class="mt-4 mb-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -112,17 +91,6 @@
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-          </section>
-          <section class="max-w-3xl">
-            <ImageZoom
-              class="w-full h-full rounded-xl"
-              src="/images/blog-post-01.png"
-              width="352"
-              height="198"
-              alt="News 01"
-            />
-          </section>
-          <section class="max-w-2xl text-slate-300">
             <p class="mt-4 mb-8">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
@@ -175,7 +143,7 @@
 import { useClipboard } from "@vueuse/core"
 import { useHead } from "unhead"
 useHead({
-  title: "The quick brown fox jumped over the lazy dog • Blog • Hoppscotch",
+  title: "Privacy Policy • Hoppscotch",
   meta: [
     {
       name: "description",

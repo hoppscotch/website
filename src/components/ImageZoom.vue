@@ -7,7 +7,7 @@ import mediumZoom from "medium-zoom"
 const props = defineProps({
   options: {
     type: Object,
-    default: { margin: 24 },
+    default: { margin: 20 },
   },
 })
 let zoom = null
