@@ -207,9 +207,11 @@
                     </div>
                   </div>
                   <div class="text-right">
-                    <RouterLink
+                    <a
                       class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
-                      to="/"
+                      href="https://hoppscotch.io"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Open App
                       <span
@@ -217,7 +219,7 @@
                       >
                         <icon-lucide-arrow-right />
                       </span>
-                    </RouterLink>
+                    </a>
                   </div>
                 </div>
               </div>

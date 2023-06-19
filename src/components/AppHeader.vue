@@ -266,9 +266,11 @@
             </a>
           </li>
           <li class="ml-4">
-            <RouterLink
+            <a
               class="btn-sm flex text-slate-200 hover:text-white transition w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
-              to="/sign-up"
+              href="https://hoppscotch.io"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <span class="relative inline-flex items-center">
                 Open app
@@ -278,7 +280,7 @@
                   <icon-lucide-arrow-right />
                 </span>
               </span>
-            </RouterLink>
+            </a>
           </li>
         </ul>
         <!-- Mobile CTA links -->
@@ -313,9 +315,11 @@
             </a>
           </li>
           <li class="ml-4">
-            <RouterLink
+            <a
               class="btn-sm flex text-slate-200 hover:text-white transition w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
-              to="/sign-up"
+              href="https://hoppscotch.io"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <span class="relative inline-flex items-center">
                 Open app
@@ -325,7 +329,7 @@
                   <icon-lucide-arrow-right />
                 </span>
               </span>
-            </RouterLink>
+            </a>
           </li>
         </ul>
         <!-- Mobile menu links -->
