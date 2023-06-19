@@ -8,7 +8,7 @@
     <div
       class="max-w-6xl px-4 py-3 mx-auto transition"
       :class="{
-        'max-md:bg-black/50 overflow-y-auto h-full overscroll-contain max-md:backdrop-blur-md':
+        'max-md:bg-slate-950/90 overflow-y-auto h-full overscroll-contain max-md:backdrop-blur-md':
           !isMobileMenuClosed,
       }"
     >
@@ -538,7 +538,7 @@
 <script setup>
 import { ref, watch } from "vue"
 import { useRouter } from "vue-router"
-const isMobileMenuClosed = ref(false)
+const isMobileMenuClosed = ref(true)
 const router = useRouter()
 watch(router.currentRoute, () => {
   isMobileMenuClosed.value = true
