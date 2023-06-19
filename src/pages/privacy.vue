@@ -60,9 +60,7 @@
               </ul>
             </div>
             <h3 class="h3">
-              <span class="text-slate-100">
-                Privacy Policy
-              </span>
+              <span class="text-slate-100"> Privacy Policy </span>
             </h3>
           </header>
           <section class="max-w-2xl text-slate-300">

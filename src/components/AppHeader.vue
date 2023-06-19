@@ -265,7 +265,7 @@
               Self-Host
             </a>
           </li>
-          <li class="ml-4">
+          <li class="ml-2">
             <a
               class="btn-sm flex text-slate-200 hover:text-white transition w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
               href="https://hoppscotch.io"
@@ -314,7 +314,7 @@
               Self-Host
             </a>
           </li>
-          <li class="ml-4">
+          <li class="ml-2">
             <a
               class="btn-sm flex text-slate-200 hover:text-white transition w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
               href="https://hoppscotch.io"
@@ -333,7 +333,7 @@
           </li>
         </ul>
         <!-- Mobile menu links -->
-        <ul class="flex flex-col space-y-2 flex-nowrap">
+        <ul class="flex flex-col space-y-4 flex-nowrap">
           <li>
             <RouterLink
               to="/solutions"
@@ -344,7 +344,7 @@
             <ul class="flex flex-col my-1">
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-black/10"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/"
                   @click="hide()"
                 >
@@ -354,7 +354,7 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-black/10"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/"
                   @click="hide()"
                 >
@@ -364,7 +364,7 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-black/10"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/"
                   @click="hide()"
                 >
@@ -374,7 +374,7 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-black/10"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/"
                   @click="hide()"
                 >
@@ -394,7 +394,7 @@
             <ul class="flex flex-col my-1">
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-black/10"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/features"
                   @click="hide()"
                 >
@@ -404,7 +404,7 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-black/10"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/download"
                   @click="hide()"
                 >
@@ -414,7 +414,7 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-black/10"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/pricing"
                   @click="hide()"
                 >
@@ -424,7 +424,7 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-black/10"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/changelog"
                   @click="hide()"
                 >
@@ -444,7 +444,7 @@
             <ul class="flex flex-col my-1">
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-black/10"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/"
                   @click="hide()"
                 >
@@ -454,7 +454,7 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-black/10"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/blog"
                   @click="hide()"
                 >
@@ -464,7 +464,7 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-black/10"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/careers"
                   @click="hide()"
                 >
@@ -474,7 +474,7 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-black/10"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/contact"
                   @click="hide()"
                 >
@@ -494,7 +494,7 @@
             <ul class="flex flex-col my-1">
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-black/10"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/documentation"
                   @click="hide()"
                 >
@@ -504,7 +504,7 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-black/10"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/community"
                   @click="hide()"
                 >
@@ -514,7 +514,7 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-black/10"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/privacy"
                   @click="hide()"
                 >
@@ -524,7 +524,7 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-black/10"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/terms"
                   @click="hide()"
                 >
