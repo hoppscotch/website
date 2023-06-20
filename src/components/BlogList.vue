@@ -8,7 +8,7 @@
           class="relative block mb-4 h-56 md:h-[32rem] rounded-xl"
         >
           <img
-            class="absolute inset-0 object-cover w-full h-full transition duration-700 ease-out rounded-xl"
+            class="absolute inset-0 object-cover w-full h-full transition duration-500 rounded-xl"
             src="/images/blog-post-01.png"
             width="352"
             height="198"
@@ -64,7 +64,7 @@
             class="relative block h-56 mb-4 md:h-80 rounded-xl"
           >
             <img
-              class="absolute inset-0 object-cover w-full h-full transition duration-700 ease-out rounded-xl"
+              class="absolute inset-0 object-cover w-full h-full transition duration-500 rounded-xl"
               src="/images/news-01.png"
               width="352"
               height="198"
@@ -120,7 +120,7 @@
             class="relative block h-56 mb-4 md:h-80 rounded-xl"
           >
             <img
-              class="absolute inset-0 object-cover w-full h-full transition duration-700 ease-out rounded-xl"
+              class="absolute inset-0 object-cover w-full h-full transition duration-500 rounded-xl"
               src="/images/news-02.png"
               width="352"
               height="198"
@@ -176,7 +176,7 @@
             class="relative block h-56 mb-4 md:h-80 rounded-xl"
           >
             <img
-              class="absolute inset-0 object-cover w-full h-full transition duration-700 ease-out rounded-xl"
+              class="absolute inset-0 object-cover w-full h-full transition duration-500 rounded-xl"
               src="/images/news-03.png"
               width="352"
               height="198"
@@ -228,7 +228,7 @@
             class="relative block h-56 mb-4 md:h-80 rounded-xl"
           >
             <img
-              class="absolute inset-0 object-cover w-full h-full transition duration-700 ease-out rounded-xl"
+              class="absolute inset-0 object-cover w-full h-full transition duration-500 rounded-xl"
               src="/images/news-04.png"
               width="352"
               height="198"
@@ -284,7 +284,7 @@
             class="relative block h-56 mb-4 md:h-80 rounded-xl"
           >
             <img
-              class="absolute inset-0 object-cover w-full h-full transition duration-700 ease-out rounded-xl"
+              class="absolute inset-0 object-cover w-full h-full transition duration-500 rounded-xl"
               src="/images/news-05.png"
               width="352"
               height="198"
@@ -340,7 +340,7 @@
             class="relative block h-56 mb-4 md:h-80 rounded-xl"
           >
             <img
-              class="absolute inset-0 object-cover w-full h-full transition duration-700 ease-out rounded-xl"
+              class="absolute inset-0 object-cover w-full h-full transition duration-500 rounded-xl"
               src="/images/news-06.png"
               width="352"
               height="198"
@@ -392,7 +392,7 @@
             class="relative block h-56 mb-4 md:h-80 rounded-xl"
           >
             <img
-              class="absolute inset-0 object-cover w-full h-full transition duration-700 ease-out rounded-xl"
+              class="absolute inset-0 object-cover w-full h-full transition duration-500 rounded-xl"
               src="/images/news-07.png"
               width="352"
               height="198"
@@ -448,7 +448,7 @@
             class="relative block h-56 mb-4 md:h-80 rounded-xl"
           >
             <img
-              class="absolute inset-0 object-cover w-full h-full transition duration-700 ease-out rounded-xl"
+              class="absolute inset-0 object-cover w-full h-full transition duration-500 rounded-xl"
               src="/images/news-08.png"
               width="352"
               height="198"

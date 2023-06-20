@@ -134,19 +134,6 @@
             </div>
           </div>
         </div>
-        <!-- See All Customers -->
-        <div class="text-center">
-          <button
-            class="text-white bg-indigo-600 btn hover:bg-indigo-700 group"
-          >
-            See open positions
-            <span
-              class="tracking-normal text-indigo-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
-            >
-              <icon-lucide-arrow-right />
-            </span>
-          </button>
-        </div>
       </div>
     </div>
   </section>

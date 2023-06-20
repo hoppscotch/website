@@ -1,6 +1,6 @@
 <template>
   <!-- Hero section -->
-  <section class="bg-gradient-to-b from-gray-100 to-gray-200">
+  <section class="bg-gradient-to-b from-slate-100 to-slate-200">
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
       <div class="pt-32 pb-12 md:pt-40 md:pb-20">
         <!-- Section header -->
@@ -9,7 +9,7 @@
             Get in touch with our team
           </h1>
           <p
-            class="text-xl text-gray-600"
+            class="text-xl text-slate-600"
             data-aos="zoom-y-out"
             data-aos-delay="150"
           >
@@ -66,7 +66,7 @@
             <h4 class="mb-1 text-xl font-bold leading-snug tracking-tight">
               Tech Support
             </h4>
-            <p class="text-gray-600">
+            <p class="text-slate-600">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           </div>
@@ -110,7 +110,7 @@
             <h4 class="mb-1 text-xl font-bold leading-snug tracking-tight">
               Website Issue
             </h4>
-            <p class="text-gray-600">
+            <p class="text-slate-600">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           </div>
@@ -146,7 +146,7 @@
             <h4 class="mb-1 text-xl font-bold leading-snug tracking-tight">
               Contact Sales
             </h4>
-            <p class="text-gray-600">
+            <p class="text-slate-600">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           </div>
@@ -185,7 +185,7 @@
             <h4 class="mb-1 text-xl font-bold leading-snug tracking-tight">
               Live Chat
             </h4>
-            <p class="text-gray-600">
+            <p class="text-slate-600">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           </div>
@@ -228,7 +228,7 @@
             <h4 class="mb-1 text-xl font-bold leading-snug tracking-tight">
               Affiliate Program
             </h4>
-            <p class="text-gray-600">
+            <p class="text-slate-600">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           </div>
@@ -267,7 +267,7 @@
             <h4 class="mb-1 text-xl font-bold leading-snug tracking-tight">
               Billing & Account
             </h4>
-            <p class="text-gray-600">
+            <p class="text-slate-600">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           </div>

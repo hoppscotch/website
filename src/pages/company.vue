@@ -2,9 +2,9 @@
   <CompanyHero />
   <CompanyAchievements />
   <CompanyTimeline />
-  <OpenPositions />
   <TeamMembers />
   <Testimonials />
+  <OpenPositions />
   <Cta />
   <Newsletter />
 </template>

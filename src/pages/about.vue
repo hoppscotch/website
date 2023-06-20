@@ -1,7 +1,8 @@
 <template>
   <HeroAbout />
   <AboutStory />
-  <Team />
+  <TeamLocations />
+  <OpenPositions />
   <TeamMembers />
   <Investors />
   <Cta />

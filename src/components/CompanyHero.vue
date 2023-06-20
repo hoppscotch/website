@@ -1,46 +1,59 @@
 <template>
-  <section>
+  <section class="relative">
+    <!-- Radial gradient -->
+    <div
+      class="absolute inset-0 overflow-hidden pointer-events-none -z-10"
+      aria-hidden="true"
+    >
+      <div
+        class="absolute top-0 flex items-center justify-center w-1/3 -translate-x-1/2 -translate-y-1/2 left-1/2 aspect-square"
+      >
+        <div
+          class="absolute inset-0 translate-z-0 bg-purple-500 rounded-full blur-[120px] opacity-50"
+        ></div>
+      </div>
+    </div>
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
-      <div class="py-12 md:py-20">
+      <div class="pt-32 pb-16">
         <!-- Section header -->
-        <div class="max-w-3xl pb-12 mx-auto text-center md:pb-16">
-          <h2 class="mb-4 h2" data-aos="fade-up">Join the Open PRO team</h2>
-          <p
-            class="text-xl text-gray-400"
+        <div class="max-w-3xl pb-12 mx-auto text-center md:pb-20">
+          <div>
+            <div
+              class="inline-flex pb-3 font-medium text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-purple-200"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              Company
+            </div>
+          </div>
+          <h2
+            class="pb-4 text-transparent h2 bg-clip-text bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            Vitae aliquet nec ullamcorper sit amet risus nullam eget felis
-            semper quis lectus nulla at volutpat diam ut venenatis tellus in
-            ornare.
+            You're in good company
+          </h2>
+          <p
+            class="text-lg text-slate-400"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            We're a team of passionate designers and developers working together
+            to build the most advanced and easy-to-use API development platform
+            ever created.
           </p>
         </div>
         <!-- Check list -->
         <div class="max-w-3xl pb-16 mx-auto">
           <ul
-            class="flex flex-col flex-wrap items-center justify-center -mx-3 -my-2 text-lg text-gray-400 sm:flex-row"
+            class="flex flex-col flex-wrap items-center justify-center -mx-3 -my-8 text-md text-slate-200 sm:flex-row"
           >
             <li
               class="flex items-center mx-3 my-2"
               data-aos="fade-up"
               data-aos-delay="400"
             >
-              <svg
-                class="w-6 h-6 mr-3 shrink-0"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle
-                  class="text-green-500 fill-current"
-                  cx="12"
-                  cy="12"
-                  r="12"
-                />
-                <path
-                  class="text-white fill-current"
-                  d="M16.28 8.28l-6.292 6.294-2.293-2.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l7-7A1 1 0 0016.28 8.28z"
-                />
-              </svg>
+              <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>Work Life Balance</span>
             </li>
             <li
@@ -48,22 +61,7 @@
               data-aos="fade-up"
               data-aos-delay="500"
             >
-              <svg
-                class="w-6 h-6 mr-3 shrink-0"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle
-                  class="text-green-500 fill-current"
-                  cx="12"
-                  cy="12"
-                  r="12"
-                />
-                <path
-                  class="text-white fill-current"
-                  d="M16.28 8.28l-6.292 6.294-2.293-2.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l7-7A1 1 0 0016.28 8.28z"
-                />
-              </svg>
+              <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>Competitive Salary And Equity</span>
             </li>
             <li
@@ -71,22 +69,7 @@
               data-aos="fade-up"
               data-aos-delay="600"
             >
-              <svg
-                class="w-6 h-6 mr-3 shrink-0"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle
-                  class="text-green-500 fill-current"
-                  cx="12"
-                  cy="12"
-                  r="12"
-                />
-                <path
-                  class="text-white fill-current"
-                  d="M16.28 8.28l-6.292 6.294-2.293-2.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l7-7A1 1 0 0016.28 8.28z"
-                />
-              </svg>
+              <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>5 Weeks Paid Vacation</span>
             </li>
             <li
@@ -94,22 +77,7 @@
               data-aos="fade-up"
               data-aos-delay="700"
             >
-              <svg
-                class="w-6 h-6 mr-3 shrink-0"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle
-                  class="text-green-500 fill-current"
-                  cx="12"
-                  cy="12"
-                  r="12"
-                />
-                <path
-                  class="text-white fill-current"
-                  d="M16.28 8.28l-6.292 6.294-2.293-2.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l7-7A1 1 0 0016.28 8.28z"
-                />
-              </svg>
+              <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>Generous Gear Credit</span>
             </li>
             <li
@@ -117,22 +85,7 @@
               data-aos="fade-up"
               data-aos-delay="800"
             >
-              <svg
-                class="w-6 h-6 mr-3 shrink-0"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle
-                  class="text-green-500 fill-current"
-                  cx="12"
-                  cy="12"
-                  r="12"
-                />
-                <path
-                  class="text-white fill-current"
-                  d="M16.28 8.28l-6.292 6.294-2.293-2.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l7-7A1 1 0 0016.28 8.28z"
-                />
-              </svg>
+              <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>Diversity and Inclusion</span>
             </li>
           </ul>
@@ -148,13 +101,12 @@
                 aria-hidden="true"
               >
                 <div
-                  class="bottom-0 border-l border-gray-500 border-dashed transform translate-y-8"
-                  style="height: 50%"
+                  class="bottom-0 border-l border-dashed transform translate-y-8 h-1/2 border-slate-700"
                 ></div>
               </div>
               <!-- People pics -->
               <img
-                src="/images/worldmap.png"
+                src="/images/worldmap.svg"
                 width="672"
                 height="330"
                 alt="World map"
@@ -241,52 +193,39 @@
             </div>
           </div>
           <!-- Carousel -->
-          <div class="mt-6">
+          <div class="relative flex flex-col items-center mt-2">
             <!-- Testimonials -->
-            <transition-group
-              tag="div"
-              class="relative flex flex-col items-start"
-              enter-active-class="order-first transition duration-500 ease-in-out transform"
-              enter-from-class="opacity-0 scale-98"
+            <TransitionGroup
+              enter-active-class="order-first transition duration-500 transform"
+              enter-from-class="opacity-0 scale-90"
               enter-to-class="opacity-100 scale-100"
-              leave-active-class="absolute transition duration-300 ease-out transform"
+              leave-active-class="absolute transition duration-300 transform"
               leave-from-class="opacity-100 scale-100"
-              leave-to-class="opacity-0 scale-98"
+              leave-to-class="opacity-0 scale-90"
             >
               <template :key="index" v-for="(item, index) in items">
                 <div v-show="active === index" class="text-center">
-                  <div
-                    class="relative inline-flex flex-col justify-center mb-4"
-                  >
+                  <div class="inline-flex flex-col justify-center mb-4">
                     <img
-                      class="rounded-full"
+                      class="p-2 border-2 border-purple-500 rounded-full"
                       :src="item.img"
-                      width="56"
-                      height="56"
+                      width="64"
+                      height="64"
                       :alt="item.alt"
                     />
-                    <svg
-                      class="absolute top-0 right-0 w-6 h-5 -mr-3 text-purple-600 fill-current"
-                      viewBox="0 0 24 20"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M0 13.517c0-2.346.611-4.774 1.833-7.283C3.056 3.726 4.733 1.648 6.865 0L11 2.696C9.726 4.393 8.777 6.109 8.152 7.844c-.624 1.735-.936 3.589-.936 5.56v4.644H0v-4.531zm13 0c0-2.346.611-4.774 1.833-7.283 1.223-2.508 2.9-4.586 5.032-6.234L24 2.696c-1.274 1.697-2.223 3.413-2.848 5.148-.624 1.735-.936 3.589-.936 5.56v4.644H13v-4.531z"
-                      />
-                    </svg>
                   </div>
-                  <blockquote class="text-lg text-gray-400">
+                  <blockquote class="text-lg font-medium text-slate-200">
                     {{ item.quote }}
                   </blockquote>
-                  <div class="mt-3 font-medium text-gray-700">
-                    <cite class="not-italic text-gray-200">{{
-                      item.name
-                    }}</cite>
-                    / <span class="text-purple-600">{{ item.role }}</span>
+                  <div class="mt-3 font-medium text-slate-800">
+                    <cite class="not-italic text-slate-200">
+                      {{ item.name }}
+                    </cite>
+                    | <span class="text-slate-500">{{ item.role }}</span>
                   </div>
                 </div>
               </template>
-            </transition-group>
+            </TransitionGroup>
             <!-- Bullets -->
             <div class="flex justify-center mt-6">
               <template :key="index" v-for="(item, index) in items">
@@ -300,8 +239,8 @@
                   "
                 >
                   <span
-                    class="block w-2 h-2 rounded-full transition duration-150 ease-in-out group-hover:bg-gray-400"
-                    :class="active === index ? 'bg-gray-200' : 'bg-gray-500'"
+                    class="block w-2 h-2 rounded-full transition group-hover:bg-slate-400"
+                    :class="active === index ? 'bg-slate-200' : 'bg-slate-500'"
                   ></span>
                 </button>
               </template>
@@ -312,60 +251,53 @@
     </div>
   </section>
 </template>
-<script>
+<script setup>
+import { onBeforeUnmount, onMounted, ref } from "vue"
 import Image01 from "/images/world-user-01.jpg"
 import Image02 from "/images/world-user-02.jpg"
 import Image03 from "/images/world-user-03.jpg"
-export default {
-  name: "TestimonialsCarousel",
-  data: function () {
-    return {
-      active: 0,
-      autorotate: true,
-      autorotateTiming: 7000,
-      items: [
-        {
-          img: Image01,
-          alt: "Testimonial 01",
-          quote:
-            "“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“",
-          name: "Darya Semenova",
-          role: "Backend Developer",
-        },
-        {
-          img: Image02,
-          alt: "Testimonial 02",
-          quote:
-            "“ Not only in my career but in education as well, I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more.“",
-          name: "Greg Sebastian",
-          role: "Head of Design",
-        },
-        {
-          img: Image03,
-          alt: "Testimonial 03",
-          quote:
-            "“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“",
-          name: "Dominik Prasad",
-          role: "Backend Lead",
-        },
-      ],
-    }
+const active = ref(0)
+const autorotate = ref(true)
+const autorotateTiming = ref(7000)
+const items = ref([
+  {
+    img: Image01,
+    alt: "Testimonial 01",
+    quote:
+      "“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“",
+    name: "Darya Semenova",
+    role: "Backend Developer",
   },
-  methods: {
-    stopAutorotate() {
-      clearInterval(this.autorotateInterval)
-    },
+  {
+    img: Image02,
+    alt: "Testimonial 02",
+    quote:
+      "“ Not only in my career but in education as well, I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more.“",
+    name: "Greg Sebastian",
+    role: "Head of Design",
   },
-  mounted() {
-    if (this.autorotate) {
-      this.autorotateInterval = setInterval(() => {
-        this.active =
-          this.active + 1 === this.items.length ? 0 : this.active + 1
-      }, this.autorotateTiming)
-    }
+  {
+    img: Image03,
+    alt: "Testimonial 03",
+    quote:
+      "“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“",
+    name: "Dominik Prasad",
+    role: "Backend Lead",
   },
-  beforeUnmount() {
-    this.stopAutorotate()
-  },
+])
+const stopAutorotate = () => {
+  clearInterval(autorotateInterval.value)
 }
+let autorotateInterval = ref(null)
+onMounted(() => {
+  if (autorotate.value) {
+    autorotateInterval.value = setInterval(() => {
+      active.value =
+        active.value + 1 === items.value.length ? 0 : active.value + 1
+    }, autorotateTiming.value)
+  }
+})
+onBeforeUnmount(() => {
+  stopAutorotate()
+})
 </script>

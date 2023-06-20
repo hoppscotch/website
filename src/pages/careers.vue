@@ -1,6 +1,6 @@
 <template>
+  <TeamLocations />
   <Roles />
-  <InterviewProcess />
 </template>
 <script setup>
 import { useHead } from "unhead"

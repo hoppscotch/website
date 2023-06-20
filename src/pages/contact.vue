@@ -1,5 +1,6 @@
 <template>
   <ContactForm />
+  <Newsletter />
 </template>
 <script setup>
 import { useHead } from "unhead"

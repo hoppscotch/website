@@ -26,27 +26,30 @@
           <!-- 1st item -->
           <div class="relative py-4 pl-24 md:py-6" data-aos="fade-up">
             <div class="pl-2">
-              <div class="mb-2 text-purple-600 text-md">The seed</div>
+              <div class="mb-2 text-sm font-medium text-indigo-500">
+                The inception
+              </div>
               <div class="flex items-center mb-3">
                 <div
-                  class="absolute left-0 inline-flex px-3 py-1 text-sm font-semibold text-green-600 bg-green-200 rounded-full"
+                  class="absolute left-0 inline-flex px-3 py-1 text-xs font-semibold text-green-400 rounded-full bg-green-200/10"
                 >
-                  2016
+                  2019
                 </div>
                 <div
-                  class="absolute left-0 self-start h-full px-px ml-20 bg-gray-800 transform -translate-x-1/2 translate-y-3"
+                  class="absolute left-0 self-start h-full px-px ml-20 transform -translate-x-1/2 translate-y-3 bg-slate-800"
                   aria-hidden="true"
                 ></div>
                 <div
-                  class="absolute left-0 w-2 h-2 ml-20 bg-purple-600 border-4 border-gray-900 rounded-full box-content transform -translate-x-1/2"
+                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-slate-800"
                   aria-hidden="true"
                 ></div>
-                <h4 class="h4">Open PRO was founded in Milan, Italy</h4>
+                <h4 class="h4">Hoppscotch was founded in Kerala, India</h4>
               </div>
-              <p class="text-sm text-gray-400">
-                Pretium lectus quam id leo. Urna et pharetra pharetra massa
-                massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit
-                cursus risus.
+              <p class="text-sm text-slate-400">
+                Liyas Thomas, the founder of Hoppscotch, started the project as
+                an open-source side project to help him with his day-to-day
+                work. He was working as a full-stack developer at a startup in
+                Kerala, India.
               </p>
             </div>
           </div>
@@ -54,30 +57,34 @@
           <div
             class="relative py-4 pl-24 md:py-6"
             data-aos="fade-up"
-            data-aos-delay="200"
+            data-aos-delay="100"
           >
             <div class="pl-2">
-              <div class="mb-2 text-purple-600 text-md">New features</div>
+              <div class="mb-2 text-sm font-medium text-indigo-500">
+                New beginnings
+              </div>
               <div class="flex items-center mb-3">
                 <div
-                  class="absolute left-0 inline-flex px-3 py-1 text-sm font-semibold text-green-600 bg-green-200 rounded-full"
+                  class="absolute left-0 inline-flex px-3 py-1 text-xs font-semibold text-green-400 rounded-full bg-green-200/10"
                 >
-                  2017
+                  2020
                 </div>
                 <div
-                  class="absolute left-0 self-start h-full px-px ml-20 bg-gray-800 transform -translate-x-1/2 translate-y-3"
+                  class="absolute left-0 self-start h-full px-px ml-20 transform -translate-x-1/2 translate-y-3 bg-slate-800"
                   aria-hidden="true"
                 ></div>
                 <div
-                  class="absolute left-0 w-2 h-2 ml-20 bg-purple-600 border-4 border-gray-900 rounded-full box-content transform -translate-x-1/2"
+                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-slate-800"
                   aria-hidden="true"
                 ></div>
-                <h4 class="h4">Launched the first Open PRO Advanced plan</h4>
+                <h4 class="h4">
+                  Founders left his job to work on Hoppscotch full-time
+                </h4>
               </div>
-              <p class="text-sm text-gray-400">
-                Pretium lectus quam id leo. Urna et pharetra pharetra massa
-                massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit
-                cursus risus.
+              <p class="text-sm text-slate-400">
+                Liyas and his co-founder, Andrew, left their jobs to work on
+                Hoppscotch full-time. They started working on the first version
+                of the Hoppscotch platform along with the open-source community.
               </p>
             </div>
           </div>
@@ -85,30 +92,32 @@
           <div
             class="relative py-4 pl-24 md:py-6"
             data-aos="fade-up"
-            data-aos-delay="400"
+            data-aos-delay="200"
           >
             <div class="pl-2">
-              <div class="mb-2 text-purple-600 text-md">Pivoting</div>
+              <div class="mb-2 text-sm font-medium text-indigo-500">
+                The seed
+              </div>
               <div class="flex items-center mb-3">
                 <div
-                  class="absolute left-0 inline-flex px-3 py-1 text-sm font-semibold text-green-600 bg-green-200 rounded-full"
+                  class="absolute left-0 inline-flex px-3 py-1 text-xs font-semibold text-green-400 rounded-full bg-green-200/10"
                 >
-                  2018
+                  2021
                 </div>
                 <div
-                  class="absolute left-0 self-start h-full px-px ml-20 bg-gray-800 transform -translate-x-1/2 translate-y-3"
+                  class="absolute left-0 self-start h-full px-px ml-20 transform -translate-x-1/2 translate-y-3 bg-slate-800"
                   aria-hidden="true"
                 ></div>
                 <div
-                  class="absolute left-0 w-2 h-2 ml-20 bg-purple-600 border-4 border-gray-900 rounded-full box-content transform -translate-x-1/2"
+                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-slate-800"
                   aria-hidden="true"
                 ></div>
-                <h4 class="h4">Transitioned to a SaaS business model</h4>
+                <h4 class="h4">$3 million seed funding from OSS Capital</h4>
               </div>
-              <p class="text-sm text-gray-400">
-                Pretium lectus quam id leo. Urna et pharetra pharetra massa
-                massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit
-                cursus risus.
+              <p class="text-sm text-slate-400">
+                We raised $3 million in seed funding from OSS Capital with
+                participation from many angel investors. We also launched the
+                first version of the Hoppscotch API development platform.
               </p>
             </div>
           </div>
@@ -116,26 +125,60 @@
           <div
             class="relative py-4 pl-24 md:py-6"
             data-aos="fade-up"
-            data-aos-delay="600"
+            data-aos-delay="300"
           >
             <div class="pl-2">
-              <div class="mb-2 text-purple-600 text-md">Huge milestone</div>
+              <div class="mb-2 text-sm font-medium text-indigo-500">
+                Pivoting
+              </div>
               <div class="flex items-center mb-3">
                 <div
-                  class="absolute left-0 inline-flex px-3 py-1 text-sm font-semibold text-green-600 bg-green-200 rounded-full"
+                  class="absolute left-0 inline-flex px-3 py-1 text-xs font-semibold text-green-400 rounded-full bg-green-200/10"
                 >
-                  2019
+                  2022
                 </div>
                 <div
-                  class="absolute left-0 w-2 h-2 ml-20 bg-purple-600 border-4 border-gray-900 rounded-full box-content transform -translate-x-1/2"
+                  class="absolute left-0 self-start h-full px-px ml-20 transform -translate-x-1/2 translate-y-3 bg-slate-800"
+                  aria-hidden="true"
+                ></div>
+                <div
+                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-slate-800"
                   aria-hidden="true"
                 ></div>
                 <h4 class="h4">1 million happy customers</h4>
               </div>
-              <p class="text-sm text-gray-400">
-                Pretium lectus quam id leo. Urna et pharetra pharetra massa
-                massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit
-                cursus risus.
+              <p class="text-sm text-slate-400">
+                We reached 1 million happy customers and launched the first
+                version of the Hoppscotch Workspaces. We also launched the first
+                version of the "Hoppscotch for Teams" plan.
+              </p>
+            </div>
+          </div>
+          <!-- 5th item -->
+          <div
+            class="relative py-4 pl-24 md:py-6"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <div class="pl-2">
+              <div class="mb-2 text-sm font-medium text-indigo-500">
+                Huge milestone
+              </div>
+              <div class="flex items-center mb-3">
+                <div
+                  class="absolute left-0 inline-flex px-3 py-1 text-xs font-semibold text-green-400 rounded-full bg-green-200/10"
+                >
+                  2023
+                </div>
+                <div
+                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-slate-800"
+                  aria-hidden="true"
+                ></div>
+                <h4 class="h4">50,000 GitHub Stars</h4>
+              </div>
+              <p class="text-sm text-slate-400">
+                Hoppscotch crossed 50,000 GitHub stars and became one of the
+                most popular open-source API development tools in the world.
               </p>
             </div>
           </div>

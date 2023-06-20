@@ -18,41 +18,41 @@
           <div
             class="relative h-32 [mask-image:_linear-gradient(0deg,transparent,theme(colors.white)_40%,theme(colors.white))]"
           >
-            <TransitionGroup
-              tag="div"
+            <div
               class="absolute top-0 left-1/2 -translate-x-1/2 w-[480px] h-[480px] -z-10 pointer-events-none before:rounded-full rounded-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-slate-400/20 before:to-transparent before:to-20% after:rounded-full after:absolute after:inset-0 after:bg-slate-950 after:m-px before:-z-20 after:-z-20"
-              enter-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-500 order-first"
-              enter-from-class="opacity-0 -rotate-[60deg]"
-              enter-to-class="opacity-100 rotate-0"
-              leave-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-500"
-              leave-from-class="opacity-100 rotate-0"
-              leave-to-class="opacity-0 rotate-[60deg]"
             >
-              <template :key="index" v-for="(item, index) in items">
-                <div
-                  v-if="active === index"
-                  class="absolute inset-0 h-full -z-10"
-                >
-                  <img
-                    class="relative rounded-full -translate-x-1/2 top-11 left-1/2"
-                    :src="item.img"
-                    width="56"
-                    height="56"
-                    :alt="item.name"
-                  />
-                </div>
-              </template>
-            </TransitionGroup>
+              <TransitionGroup
+                enter-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-500 order-first"
+                enter-from-class="opacity-0 -rotate-[60deg]"
+                enter-to-class="opacity-100 rotate-0"
+                leave-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-500"
+                leave-from-class="opacity-100 rotate-0"
+                leave-to-class="opacity-0 rotate-[60deg]"
+              >
+                <template :key="index" v-for="(item, index) in items">
+                  <div
+                    v-if="active === index"
+                    class="absolute inset-0 h-full -z-10"
+                  >
+                    <img
+                      class="relative rounded-full -translate-x-1/2 top-11 left-1/2"
+                      :src="item.img"
+                      width="56"
+                      height="56"
+                      :alt="item.name"
+                    />
+                  </div>
+                </template>
+              </TransitionGroup>
+            </div>
           </div>
           <!-- Text -->
-          <div class="mb-10">
+          <div class="relative flex flex-col mb-10">
             <TransitionGroup
-              tag="div"
-              class="relative flex flex-col"
               enter-active-class="order-first transition duration-500 delay-200"
               enter-from-class="opacity-0 -translate-x-4"
               enter-to-class="opacity-100 translate-x-0"
-              leave-active-class="absolute transition duration-500 ease-out delay-300"
+              leave-active-class="absolute transition duration-500 delay-300"
               leave-from-class="opacity-100 translate-x-0"
               leave-to-class="opacity-0 translate-x-4"
             >

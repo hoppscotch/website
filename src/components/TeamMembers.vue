@@ -7,7 +7,7 @@
           <h2
             class="pb-4 text-transparent h2 bg-clip-text bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60"
           >
-            Faster. Smarter.
+            Our team
           </h2>
           <p class="text-lg text-slate-400">
             Hoppscotch is a collaborative open source API development platform
