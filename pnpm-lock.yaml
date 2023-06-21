@@ -1,4 +1,4 @@
-lockfileVersion: "6.1"
+lockfileVersion: "6.0"
 
 settings:
   autoInstallPeers: true
@@ -67,6 +67,9 @@ devDependencies:
   vite-plugin-pages:
     specifier: ^0.31.0
     version: 0.31.0(vite@4.3.9)
+  vite-plugin-pages-sitemap:
+    specifier: ^1.5.0
+    version: 1.5.0
   vite-plugin-vue-layouts:
     specifier: ^0.8.0
     version: 0.8.0(vite@4.3.9)(vue-router@4.2.2)(vue@3.3.4)
@@ -2562,6 +2565,13 @@ packages:
     resolution:
       {
         integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==,
+      }
+    dev: true
+
+  /vite-plugin-pages-sitemap@1.5.0:
+    resolution:
+      {
+        integrity: sha512-HQCEfHNblMojoQCXHo0ZRqRVWzGEPpQ+LzSViRxTE0UXmvAXC4LtK74B15Lakwm5wxVf6iC3zozImMwivxleOw==,
       }
     dev: true
 
