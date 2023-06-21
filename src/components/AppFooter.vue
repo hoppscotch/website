@@ -218,12 +218,14 @@
           </h6>
           <ul class="text-sm space-y-2">
             <li>
-              <RouterLink
+              <a
                 class="rounded transition text-slate-500 hover:text-slate-300"
-                to="/documentation"
+                href="https://docs.hoppscotch.io"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Documentation
-              </RouterLink>
+              </a>
             </li>
             <li>
               <RouterLink
