@@ -75,51 +75,6 @@
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2">
             <RouterLink
-              to="/solutions"
-              class="text-sm font-medium rounded transition text-slate-200 hover:text-slate-50"
-            >
-              Solutions
-            </RouterLink>
-          </h6>
-          <ul class="text-sm space-y-2">
-            <li>
-              <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
-                to="/"
-              >
-                API Design
-              </RouterLink>
-            </li>
-            <li>
-              <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
-                to="/"
-              >
-                API Documentation
-              </RouterLink>
-            </li>
-            <li>
-              <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
-                to="/"
-              >
-                API Testing
-              </RouterLink>
-            </li>
-            <li>
-              <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
-                to="/"
-              >
-                API Monitoring
-              </RouterLink>
-            </li>
-          </ul>
-        </div>
-        <!-- 3rd block -->
-        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="mb-2">
-            <RouterLink
               to="/products"
               class="text-sm font-medium rounded transition text-slate-200 hover:text-slate-50"
             >
@@ -161,7 +116,7 @@
             </li>
           </ul>
         </div>
-        <!-- 4th block -->
+        <!-- 3rd block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2">
             <RouterLink
@@ -206,7 +161,7 @@
             </li>
           </ul>
         </div>
-        <!-- 5th block -->
+        <!-- 4th block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2">
             <RouterLink
@@ -249,6 +204,51 @@
                 to="/terms"
               >
                 Terms of Service
+              </RouterLink>
+            </li>
+          </ul>
+        </div>
+        <!-- 5th block -->
+        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          <h6 class="mb-2">
+            <RouterLink
+              to="/"
+              class="text-sm font-medium rounded transition text-slate-200 hover:text-slate-50"
+            >
+              Solutions
+            </RouterLink>
+          </h6>
+          <ul class="text-sm space-y-2">
+            <li>
+              <RouterLink
+                class="rounded transition text-slate-500 hover:text-slate-300"
+                to="/"
+              >
+                API Design
+              </RouterLink>
+            </li>
+            <li>
+              <RouterLink
+                class="rounded transition text-slate-500 hover:text-slate-300"
+                to="/"
+              >
+                API Documentation
+              </RouterLink>
+            </li>
+            <li>
+              <RouterLink
+                class="rounded transition text-slate-500 hover:text-slate-300"
+                to="/"
+              >
+                API Testing
+              </RouterLink>
+            </li>
+            <li>
+              <RouterLink
+                class="rounded transition text-slate-500 hover:text-slate-300"
+                to="/"
+              >
+                API Monitoring
               </RouterLink>
             </li>
           </ul>

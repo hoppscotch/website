@@ -39,56 +39,6 @@
           <li>
             <tippy interactive>
               <RouterLink
-                to="/solutions"
-                class="px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
-              >
-                Solutions
-              </RouterLink>
-              <template #content="{ hide }">
-                <ul class="flex flex-col my-1">
-                  <li>
-                    <RouterLink
-                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                      to="/"
-                    >
-                      <icon-lucide-box class="mr-3" />
-                      API Design
-                    </RouterLink>
-                  </li>
-                  <li>
-                    <RouterLink
-                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                      to="/"
-                    >
-                      <icon-lucide-file-box class="mr-3" />
-                      API Documentation
-                    </RouterLink>
-                  </li>
-                  <li>
-                    <RouterLink
-                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                      to="/"
-                    >
-                      <icon-lucide-codesandbox class="mr-3" />
-                      API Testing
-                    </RouterLink>
-                  </li>
-                  <li>
-                    <RouterLink
-                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                      to="/"
-                    >
-                      <icon-lucide-boxes class="mr-3" />
-                      API Monitoring
-                    </RouterLink>
-                  </li>
-                </ul>
-              </template>
-            </tippy>
-          </li>
-          <li>
-            <tippy interactive>
-              <RouterLink
                 to="/products"
                 class="px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
               >
@@ -100,6 +50,7 @@
                     <RouterLink
                       class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/features"
+                      @click="hide()"
                     >
                       <icon-lucide-sparkles class="mr-3" />
                       Features
@@ -109,6 +60,7 @@
                     <RouterLink
                       class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/download"
+                      @click="hide()"
                     >
                       <icon-lucide-download class="mr-3" />
                       Download
@@ -118,6 +70,7 @@
                     <RouterLink
                       class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/pricing"
+                      @click="hide()"
                     >
                       <icon-lucide-gem class="mr-3" />
                       Pricing
@@ -127,6 +80,7 @@
                     <RouterLink
                       class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/changelog"
+                      @click="hide()"
                     >
                       <icon-lucide-scroll-text class="mr-3" />
                       Changelog
@@ -150,6 +104,7 @@
                     <RouterLink
                       class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/about"
+                      @click="hide()"
                     >
                       <icon-lucide-user-circle class="mr-3" />
                       About
@@ -159,6 +114,7 @@
                     <RouterLink
                       class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/blog"
+                      @click="hide()"
                     >
                       <icon-lucide-file-text class="mr-3" />
                       Blog
@@ -168,6 +124,7 @@
                     <RouterLink
                       class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/careers"
+                      @click="hide()"
                     >
                       <icon-lucide-briefcase class="mr-3" />
                       Careers
@@ -177,6 +134,7 @@
                     <RouterLink
                       class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/contact"
+                      @click="hide()"
                     >
                       <icon-lucide-mail class="mr-3" />
                       Contact
@@ -200,6 +158,7 @@
                     <a
                       class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       href="https://docs.hoppscotch.io"
+                      @click="hide()"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -211,6 +170,7 @@
                     <RouterLink
                       class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/community"
+                      @click="hide()"
                     >
                       <icon-lucide-heart class="mr-3" />
                       Community
@@ -220,6 +180,7 @@
                     <RouterLink
                       class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/privacy"
+                      @click="hide()"
                     >
                       <icon-lucide-shield-check class="mr-3" />
                       Privacy Policy
@@ -229,6 +190,7 @@
                     <RouterLink
                       class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/terms"
+                      @click="hide()"
                     >
                       <icon-lucide-file-lock-2 class="mr-3" />
                       Terms of Service
@@ -320,52 +282,6 @@
         </ul>
         <!-- Mobile menu links -->
         <ul class="flex flex-col space-y-4 flex-nowrap">
-          <li>
-            <RouterLink
-              to="/solutions"
-              class="px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
-            >
-              Solutions
-            </RouterLink>
-            <ul class="flex flex-col my-1">
-              <li>
-                <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
-                  to="/"
-                >
-                  <icon-lucide-box class="mr-3" />
-                  API Design
-                </RouterLink>
-              </li>
-              <li>
-                <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
-                  to="/"
-                >
-                  <icon-lucide-file-box class="mr-3" />
-                  API Documentation
-                </RouterLink>
-              </li>
-              <li>
-                <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
-                  to="/"
-                >
-                  <icon-lucide-codesandbox class="mr-3" />
-                  API Testing
-                </RouterLink>
-              </li>
-              <li>
-                <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
-                  to="/"
-                >
-                  <icon-lucide-boxes class="mr-3" />
-                  API Monitoring
-                </RouterLink>
-              </li>
-            </ul>
-          </li>
           <li>
             <RouterLink
               to="/products"
