@@ -180,6 +180,7 @@
                     <RouterLink
                       class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/brand"
+                      @click="hide()"
                     >
                       <icon-lucide-palette class="mr-3" />
                       Brand
@@ -191,6 +192,7 @@
                       href="https://shop.hoppscotch.com"
                       target="_blank"
                       rel="noopener noreferrer"
+                      @click="hide()"
                     >
                       <icon-lucide-shopping-bag class="mr-3" />
                       Shop
