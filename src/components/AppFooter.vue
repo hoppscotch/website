@@ -6,7 +6,7 @@
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
       <!-- Blocks -->
       <div class="py-8 grid gap-8 sm:grid-cols-12 md:py-12">
-        <!-- 1st block -->
+        <!-- block -->
         <div class="order-1 sm:col-span-12 lg:col-span-4 lg:order-none">
           <div
             class="flex flex-col justify-between h-full sm:flex-row lg:flex-col"
@@ -71,7 +71,7 @@
             </div>
           </div>
         </div>
-        <!-- 2nd block -->
+        <!-- block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2">
             <RouterLink
@@ -116,7 +116,7 @@
             </li>
           </ul>
         </div>
-        <!-- 3rd block -->
+        <!-- block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2">
             <RouterLink
@@ -161,7 +161,7 @@
             </li>
           </ul>
         </div>
-        <!-- 4th block -->
+        <!-- block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2">
             <RouterLink
@@ -193,6 +193,53 @@
             <li>
               <RouterLink
                 class="rounded transition text-slate-500 hover:text-slate-300"
+                to="/brand"
+              >
+                Brand
+              </RouterLink>
+            </li>
+            <li>
+              <a
+                class="rounded transition text-slate-500 hover:text-slate-300"
+                href="https://shop.hoppscotch.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Shop
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- block -->
+        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          <h6 class="mb-2">
+            <RouterLink
+              to="/compliances"
+              class="text-sm font-medium rounded transition text-slate-200 hover:text-slate-50"
+            >
+              Compliances
+            </RouterLink>
+          </h6>
+          <ul class="text-sm space-y-2">
+            <li>
+              <RouterLink
+                class="rounded transition text-slate-500 hover:text-slate-300"
+                to="/"
+              >
+                ISO 27001
+              </RouterLink>
+            </li>
+            <li>
+              <RouterLink
+                class="rounded transition text-slate-500 hover:text-slate-300"
+                to="/"
+              >
+                SOC 2
+              </RouterLink>
+            </li>
+            <li>
+              <RouterLink
+                class="rounded transition text-slate-500 hover:text-slate-300"
                 to="/privacy"
               >
                 Privacy Policy
@@ -204,51 +251,6 @@
                 to="/terms"
               >
                 Terms of Service
-              </RouterLink>
-            </li>
-          </ul>
-        </div>
-        <!-- 5th block -->
-        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="mb-2">
-            <RouterLink
-              to="/"
-              class="text-sm font-medium rounded transition text-slate-200 hover:text-slate-50"
-            >
-              Solutions
-            </RouterLink>
-          </h6>
-          <ul class="text-sm space-y-2">
-            <li>
-              <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
-                to="/"
-              >
-                API Design
-              </RouterLink>
-            </li>
-            <li>
-              <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
-                to="/"
-              >
-                API Documentation
-              </RouterLink>
-            </li>
-            <li>
-              <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
-                to="/"
-              >
-                API Testing
-              </RouterLink>
-            </li>
-            <li>
-              <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
-                to="/"
-              >
-                API Monitoring
               </RouterLink>
             </li>
           </ul>

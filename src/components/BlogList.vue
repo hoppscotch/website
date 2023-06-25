@@ -56,7 +56,7 @@
   <div class="mx-auto">
     <!-- Articles container -->
     <div class="items-start grid gap-16 md:grid-cols-2 md:gap-y-20">
-      <!-- 1st article -->
+      <!-- article -->
       <article class="flex flex-col h-full" data-aos="fade-up">
         <header>
           <RouterLink
@@ -108,7 +108,7 @@
           </div>
         </footer>
       </article>
-      <!-- 2nd article -->
+      <!-- article -->
       <article
         class="flex flex-col h-full"
         data-aos="fade-up"
@@ -164,7 +164,7 @@
           </div>
         </footer>
       </article>
-      <!-- 3rd article -->
+      <!-- article -->
       <article
         class="flex flex-col h-full"
         data-aos="fade-up"
@@ -220,7 +220,7 @@
           </div>
         </footer>
       </article>
-      <!-- 4th article -->
+      <!-- article -->
       <article class="flex flex-col h-full" data-aos="fade-up">
         <header>
           <RouterLink
@@ -272,7 +272,7 @@
           </div>
         </footer>
       </article>
-      <!-- 5th article -->
+      <!-- article -->
       <article
         class="flex flex-col h-full"
         data-aos="fade-up"
@@ -328,7 +328,7 @@
           </div>
         </footer>
       </article>
-      <!-- 6th article -->
+      <!-- article -->
       <article
         class="flex flex-col h-full"
         data-aos="fade-up"
@@ -384,7 +384,7 @@
           </div>
         </footer>
       </article>
-      <!-- 7th article -->
+      <!-- article -->
       <article class="flex flex-col h-full" data-aos="fade-up">
         <header>
           <RouterLink
@@ -436,7 +436,7 @@
           </div>
         </footer>
       </article>
-      <!-- 8th article -->
+      <!-- article -->
       <article
         class="flex flex-col h-full"
         data-aos="fade-up"

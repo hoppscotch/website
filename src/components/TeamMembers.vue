@@ -18,7 +18,7 @@
         <!-- Team members -->
         <div class="max-w-xs mx-auto sm:max-w-lg md:max-w-3xl lg:max-w-5xl">
           <div class="flex flex-wrap justify-center -m-5 lg:-my-7">
-            <!-- 1st member -->
+            <!-- member -->
             <div
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
               data-aos="fade-down"
@@ -55,7 +55,7 @@
                 </div>
               </div>
             </div>
-            <!-- 2nd member -->
+            <!-- member -->
             <div
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
               data-aos="fade-down"
@@ -91,7 +91,7 @@
                 </div>
               </div>
             </div>
-            <!-- 3rd member -->
+            <!-- member -->
             <div
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
               data-aos="fade-down"
@@ -127,7 +127,7 @@
                 </div>
               </div>
             </div>
-            <!-- 4th member -->
+            <!-- member -->
             <div
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
               data-aos="fade-down"
@@ -165,7 +165,7 @@
                 </div>
               </div>
             </div>
-            <!-- 5th member -->
+            <!-- member -->
             <div
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
               data-aos="fade-down"
@@ -203,7 +203,7 @@
                 </div>
               </div>
             </div>
-            <!-- 6th member -->
+            <!-- member -->
             <div
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
               data-aos="fade-down"
@@ -239,7 +239,7 @@
                 </div>
               </div>
             </div>
-            <!-- 7th member -->
+            <!-- member -->
             <div
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
               data-aos="fade-down"
@@ -275,7 +275,7 @@
                 </div>
               </div>
             </div>
-            <!-- 8th member -->
+            <!-- member -->
             <div
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
               data-aos="fade-down"
@@ -313,7 +313,7 @@
                 </div>
               </div>
             </div>
-            <!-- 9th member -->
+            <!-- member -->
             <div
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
               data-aos="fade-down"
@@ -349,7 +349,7 @@
                 </div>
               </div>
             </div>
-            <!-- 10th member -->
+            <!-- member -->
             <div
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
               data-aos="fade-down"

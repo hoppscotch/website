@@ -23,7 +23,7 @@
         </div>
         <!-- Items -->
         <div class="max-w-3xl mx-auto -my-4 md:-my-6">
-          <!-- 1st item -->
+          <!-- item -->
           <div class="relative py-4 pl-24 md:py-6" data-aos="fade-up">
             <div class="pl-2">
               <div class="mb-2 text-sm font-medium text-indigo-500">
@@ -53,7 +53,7 @@
               </p>
             </div>
           </div>
-          <!-- 2nd item -->
+          <!-- item -->
           <div
             class="relative py-4 pl-24 md:py-6"
             data-aos="fade-up"
@@ -88,7 +88,7 @@
               </p>
             </div>
           </div>
-          <!-- 3rd item -->
+          <!-- item -->
           <div
             class="relative py-4 pl-24 md:py-6"
             data-aos="fade-up"
@@ -121,7 +121,7 @@
               </p>
             </div>
           </div>
-          <!-- 4th item -->
+          <!-- item -->
           <div
             class="relative py-4 pl-24 md:py-6"
             data-aos="fade-up"
@@ -154,7 +154,7 @@
               </p>
             </div>
           </div>
-          <!-- 5th item -->
+          <!-- item -->
           <div
             class="relative py-4 pl-24 md:py-6"
             data-aos="fade-up"

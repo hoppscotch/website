@@ -179,22 +179,22 @@
                   <li>
                     <RouterLink
                       class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                      to="/privacy"
-                      @click="hide()"
+                      to="/brand"
                     >
-                      <icon-lucide-shield-check class="mr-3" />
-                      Privacy Policy
+                      <icon-lucide-palette class="mr-3" />
+                      Brand
                     </RouterLink>
                   </li>
                   <li>
-                    <RouterLink
+                    <a
                       class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                      to="/terms"
-                      @click="hide()"
+                      href="https://shop.hoppscotch.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      <icon-lucide-file-lock-2 class="mr-3" />
-                      Terms of Service
-                    </RouterLink>
+                      <icon-lucide-shopping-bag class="mr-3" />
+                      Shop
+                    </a>
                   </li>
                 </ul>
               </template>
@@ -405,20 +405,22 @@
               <li>
                 <RouterLink
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
-                  to="/privacy"
+                  to="/brand"
                 >
-                  <icon-lucide-shield-check class="mr-3" />
-                  Privacy Policy
+                  <icon-lucide-palette class="mr-3" />
+                  Brand
                 </RouterLink>
               </li>
               <li>
-                <RouterLink
+                <a
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
-                  to="/terms"
+                  href="https://shop.hoppscotch.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <icon-lucide-file-lock-2 class="mr-3" />
-                  Terms of Service
-                </RouterLink>
+                  <icon-lucide-shopping-bag class="mr-3" />
+                  Shop
+                </a>
               </li>
             </ul>
           </li>

@@ -53,7 +53,7 @@
         <div
           class="items-start max-w-sm mx-auto mb-12 grid gap-12 md:max-w-none md:grid-cols-3 md:gap-x-16 md:mb-20"
         >
-          <!-- 1st Location -->
+          <!-- location -->
           <div
             class="flex flex-col items-center h-full text-center"
             data-aos="fade-up"
@@ -79,7 +79,7 @@
               14 open positions
             </div>
           </div>
-          <!-- 2nd Location -->
+          <!-- location -->
           <div
             class="flex flex-col items-center h-full text-center"
             data-aos="fade-up"
@@ -106,7 +106,7 @@
               7 open positions
             </div>
           </div>
-          <!-- 3rd Location -->
+          <!-- location -->
           <div
             class="flex flex-col items-center h-full text-center"
             data-aos="fade-up"

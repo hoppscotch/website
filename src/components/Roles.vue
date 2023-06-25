@@ -6,7 +6,7 @@
         <h3 class="mb-8 h4">Open positions</h3>
         <!-- Job list -->
         <div class="my-3 space-y-8 divide-y divide-slate-900">
-          <!-- 1st Item -->
+          <!-- job -->
           <div class="py-3" data-aos="fade-up">
             <div class="mb-2">
               <a
@@ -34,7 +34,7 @@
               </div>
             </div>
           </div>
-          <!-- 2nd Item -->
+          <!-- job -->
           <div class="py-3" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-2">
               <a
@@ -62,7 +62,7 @@
               </div>
             </div>
           </div>
-          <!-- 3rd Item -->
+          <!-- job -->
           <div class="py-3" data-aos="fade-up" data-aos-delay="200">
             <div class="mb-2">
               <a

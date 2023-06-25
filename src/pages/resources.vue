@@ -1,14 +1,14 @@
 <template>
-  <CommunitiesList />
+  <ResourcesList />
 </template>
 <script setup>
 import { useHead } from "unhead"
 useHead({
-  title: "Community • Hoppscotch",
+  title: "Resources • Hoppscotch",
   meta: [
     {
       name: "description",
-      content: "Hoppscotch community page",
+      content: "Hoppscotch resources page",
     },
   ],
 })

@@ -33,7 +33,7 @@
         <div
           class="items-start max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 md:max-w-2xl lg:max-w-none"
         >
-          <!-- 1st item -->
+          <!-- item -->
           <div
             class="relative flex flex-col p-8 shadow-xl rounded-2xl bg-slate-900"
             data-aos="zoom-y-out"
@@ -48,7 +48,7 @@
               products.
             </p>
           </div>
-          <!-- 2nd item -->
+          <!-- item -->
           <div
             class="relative flex flex-col p-8 shadow-xl rounded-2xl bg-slate-900"
             data-aos="zoom-y-out"
@@ -63,7 +63,7 @@
               projects.
             </p>
           </div>
-          <!-- 3rd item -->
+          <!-- item -->
           <div
             class="relative flex flex-col p-8 shadow-xl rounded-2xl bg-slate-900"
             data-aos="zoom-y-out"

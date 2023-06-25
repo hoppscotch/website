@@ -6,7 +6,7 @@
         <div
           class="items-start max-w-sm mx-auto grid grid-cols-2 gap-4 gap-y-8 sm:gap-8 md:grid-cols-4 md:max-w-5xl"
         >
-          <!-- 1st item -->
+          <!-- item -->
           <div
             class="relative flex flex-col items-center"
             data-aos="fade-up"
@@ -40,7 +40,7 @@
               Founded in 2021
             </div>
           </div>
-          <!-- 2nd item -->
+          <!-- item -->
           <div
             class="relative flex flex-col items-center"
             data-aos="fade-up"
@@ -74,7 +74,7 @@
               Built-with Open Source
             </div>
           </div>
-          <!-- 3rd item -->
+          <!-- item -->
           <div
             class="relative flex flex-col items-center"
             data-aos="fade-up"
@@ -108,7 +108,7 @@
               52,000+ GitHub Stars
             </div>
           </div>
-          <!-- 4th item -->
+          <!-- item -->
           <div
             class="relative flex flex-col items-center"
             data-aos="fade-up"
