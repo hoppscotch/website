@@ -31,14 +31,12 @@
             <span class="mx-4 text-slate-800">|</span>
             <button
               @click="copy(source)"
-              v-if="isSupported"
               class="text-indigo-400 rounded transition hover:text-indigo-300"
               v-tippy="copied ? 'Copied!' : 'Copy permalink'"
             >
               <icon-lucide-copy v-if="!copied" />
               <icon-lucide-check v-else />
             </button>
-            <p v-else>Your browser does not support Clipboard API</p>
           </span>
         </div>
         <!-- Page content -->
@@ -151,8 +149,7 @@ useHead({
   ],
 })
 const source = `${window.location.host}${window.location.pathname}`
-const { copy, copied, isSupported } = useClipboard({
-  source,
+const { copy, copied } = useClipboard({
   legacy: true,
 })
 </script>

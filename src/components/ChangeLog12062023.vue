@@ -1,7 +1,7 @@
 <template>
   <article class="md:flex" id="12-06-2023">
     <h2
-      class="flex flex-col h-full mt-px text-xs leading-6 pl-7 sm:text-sm text-slate-200 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
+      class="flex flex-col h-full mt-px text-xs md:sticky leading-6 pl-7 md:top-20 sm:text-sm text-slate-200 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
     >
       <a href="#12-06-2023" class="rounded">June 12, 2023</a>
     </h2>

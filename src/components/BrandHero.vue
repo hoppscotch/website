@@ -70,7 +70,7 @@
           <!-- Naming -->
           <div>
             <h4 class="mt-8 h4">Naming</h4>
-            <p class="max-w-3xl mt-2">
+            <p class="max-w-3xl mt-2 text-slate-400">
               "Hoppscotch" is a single word, always spelled with a capital "H".
               It is the brand name of both our company and our application (not
               Hoppscotch app"). When referring to dedicated releases from
@@ -81,7 +81,7 @@
           <!-- Usage -->
           <div>
             <h4 class="mt-8 h4">Usage</h4>
-            <p class="max-w-3xl mt-2">
+            <p class="max-w-3xl mt-2 text-slate-400">
               Provide plenty of space around Hoppscotch assets. Make them big or
               make them small, but give them room to breathe. They shouldn't
               feel cramped or cluttered.
@@ -90,7 +90,7 @@
           <!-- Wordmark -->
           <div>
             <h4 class="mt-8 h4">Wordmark</h4>
-            <p class="max-w-3xl mt-2">
+            <p class="max-w-3xl mt-2 text-slate-400">
               The Hoppscotch wordmark should be used in all references to
               Hoppscotch as space allows. Monochrome usage is preferred with the
               brand colors below.
@@ -110,7 +110,7 @@
                   class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Wordmark Primary
-                  <icon-lucide-arrow-down-to-line />
+                  <button><icon-lucide-arrow-down-to-line /></button>
                 </p>
               </div>
               <div class="flex flex-col">
@@ -127,7 +127,7 @@
                   class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Wordmark Primary Light
-                  <icon-lucide-arrow-down-to-line />
+                  <button><icon-lucide-arrow-down-to-line /></button>
                 </p>
               </div>
               <div class="flex flex-col">
@@ -144,7 +144,7 @@
                   class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Wordmark Primary Dark
-                  <icon-lucide-arrow-down-to-line />
+                  <button><icon-lucide-arrow-down-to-line /></button>
                 </p>
               </div>
               <div class="flex flex-col">
@@ -161,7 +161,7 @@
                   class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Wordmark Monochrome
-                  <icon-lucide-arrow-down-to-line />
+                  <button><icon-lucide-arrow-down-to-line /></button>
                 </p>
               </div>
               <div class="flex flex-col">
@@ -177,7 +177,8 @@
                 <p
                   class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
-                  Wordmark Monochrome Light <icon-lucide-arrow-down-to-line />
+                  Wordmark Monochrome Light
+                  <button><icon-lucide-arrow-down-to-line /></button>
                 </p>
               </div>
               <div class="flex flex-col">
@@ -194,7 +195,7 @@
                   class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Wordmark Monochrome Dark
-                  <icon-lucide-arrow-down-to-line />
+                  <button><icon-lucide-arrow-down-to-line /></button>
                 </p>
               </div>
             </div>
@@ -202,7 +203,7 @@
           <!-- Logo -->
           <div>
             <h4 class="mt-8 h4">Logo</h4>
-            <p class="max-w-3xl mt-2">
+            <p class="max-w-3xl mt-2 text-slate-400">
               For tight layouts or logo-only grids, the Hoppscotch logomark is a
               concise way to refer to Hoppscotch. Use with good judgment for
               your audience, as the Hoppscotch wordmark has stronger brand
@@ -223,7 +224,7 @@
                   class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Logo Primary
-                  <icon-lucide-arrow-down-to-line />
+                  <button><icon-lucide-arrow-down-to-line /></button>
                 </p>
               </div>
               <div class="flex flex-col">
@@ -240,7 +241,7 @@
                   class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Logo Primary Light
-                  <icon-lucide-arrow-down-to-line />
+                  <button><icon-lucide-arrow-down-to-line /></button>
                 </p>
               </div>
               <div class="flex flex-col">
@@ -257,7 +258,7 @@
                   class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Logo Primary Dark
-                  <icon-lucide-arrow-down-to-line />
+                  <button><icon-lucide-arrow-down-to-line /></button>
                 </p>
               </div>
               <div class="flex flex-col">
@@ -274,7 +275,7 @@
                   class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Logo Monochrome
-                  <icon-lucide-arrow-down-to-line />
+                  <button><icon-lucide-arrow-down-to-line /></button>
                 </p>
               </div>
               <div class="flex flex-col">
@@ -290,7 +291,8 @@
                 <p
                   class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
-                  Logo Monochrome Light <icon-lucide-arrow-down-to-line />
+                  Logo Monochrome Light
+                  <button><icon-lucide-arrow-down-to-line /></button>
                 </p>
               </div>
               <div class="flex flex-col">
@@ -307,7 +309,7 @@
                   class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Logo Monochrome Dark
-                  <icon-lucide-arrow-down-to-line />
+                  <button></button><icon-lucide-arrow-down-to-line />
                 </p>
               </div>
             </div>
@@ -315,7 +317,7 @@
           <!-- Icon -->
           <div>
             <h4 class="mt-8 h4">Icon</h4>
-            <p class="max-w-3xl mt-2">
+            <p class="max-w-3xl mt-2 text-slate-400">
               When referring to Hoppscotch as a company, such as on social
               media, or where a "chip" design is required, it is acceptable to
               use this stylized icon with an appropriate corner radius.
@@ -335,15 +337,16 @@
                   class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Icon Primary
-                  <icon-lucide-arrow-down-to-line />
+                  <button><icon-lucide-arrow-down-to-line /></button>
                 </p>
               </div>
             </div>
           </div>
           <!-- Colors -->
           <div>
+            {{ copiedPrimaryColor }}
             <h4 class="mt-8 h4">Colors</h4>
-            <p class="max-w-3xl mt-2">
+            <p class="max-w-3xl mt-2 text-slate-400">
               Hoppscotch's color palette is inspired by the colors of the
               internet. The primary color is Hoppscotch Purple, which should be
               used sparingly for emphasis. The secondary color is Hoppscotch
@@ -360,8 +363,14 @@
                 <p
                   class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
-                  Primary
-                  <icon-lucide-copy />
+                  Primary color
+                  <button
+                    @click="copyPrimaryColor(primaryColor)"
+                    v-tippy="copiedPrimaryColor ? 'Copied!' : 'Copy color code'"
+                  >
+                    <icon-lucide-copy v-if="!copiedPrimaryColor" />
+                    <icon-lucide-check v-else />
+                  </button>
                 </p>
               </div>
               <div class="flex flex-col">
@@ -373,8 +382,16 @@
                 <p
                   class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
-                  Secondary
-                  <icon-lucide-copy />
+                  Secondary color
+                  <button
+                    @click="copySecondaryColor(secondaryColor)"
+                    v-tippy="
+                      copiedSecondaryColor ? 'Copied!' : 'Copy color code'
+                    "
+                  >
+                    <icon-lucide-copy v-if="!copiedSecondaryColor" />
+                    <icon-lucide-check v-else />
+                  </button>
                 </p>
               </div>
               <div class="flex flex-col">
@@ -386,8 +403,16 @@
                 <p
                   class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
-                  Tertiary
-                  <icon-lucide-copy />
+                  Tertiary color
+                  <button
+                    @click="copyTertiaryColor(tertiaryColor)"
+                    v-tippy="
+                      copiedTertiaryColor ? 'Copied!' : 'Copy color code'
+                    "
+                  >
+                    <icon-lucide-copy v-if="!copiedTertiaryColor" />
+                    <icon-lucide-check v-else />
+                  </button>
                 </p>
               </div>
             </div>
@@ -395,7 +420,7 @@
           <!-- Typography -->
           <div>
             <h4 class="mt-8 h4">Typography</h4>
-            <p class="max-w-3xl mt-2">
+            <p class="max-w-3xl mt-2 text-slate-400">
               Hoppscotch uses the "Inter" typeface for all marketing and product
               design. Inter is a variable font, which means that it can be
               adjusted to a wide range of weights and widths. The font is
@@ -419,7 +444,7 @@
           <!-- Iconography -->
           <div>
             <h4 class="mt-8 h4">Iconography</h4>
-            <p class="max-w-3xl mt-2">
+            <p class="max-w-3xl mt-2 text-slate-400">
               Hoppscotch uses the "Lucide" icon set for all marketing and
               product design. Lucide is a set of 1,000+ open-source icons that
               are free to use. The icon set is available for free on
@@ -432,33 +457,87 @@
               >.
             </p>
             <div class="mt-8 grid grid-cols-6 gap-8 md:grid-cols-12">
-              <icon-lucide-accessibility />
-              <icon-lucide-baby />
-              <icon-lucide-battery />
-              <icon-lucide-cake />
-              <icon-lucide-database />
-              <icon-lucide-ear />
-              <icon-lucide-fingerprint />
-              <icon-lucide-gift />
-              <icon-lucide-hammer />
-              <icon-lucide-ice-cream />
-              <icon-lucide-japanese-yen />
-              <icon-lucide-key />
-              <icon-lucide-laptop />
-              <icon-lucide-magnet />
-              <icon-lucide-navigation />
-              <icon-lucide-octagon />
-              <icon-lucide-paint-bucket />
-              <icon-lucide-qr-code />
-              <icon-lucide-rocket />
-              <icon-lucide-sun />
-              <icon-lucide-trophy />
-              <icon-lucide-umbrella />
-              <icon-lucide-vegan />
-              <icon-lucide-wifi />
-              <icon-lucide-x />
-              <icon-lucide-youtube />
-              <icon-lucide-zap />
+              <span class="flex items-center justify-center">
+                <icon-lucide-accessibility />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-baby />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-battery />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-cake />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-database />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-ear />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-fingerprint />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-gift />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-hammer />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-ice-cream />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-japanese-yen />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-key />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-laptop />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-magnet />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-navigation />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-octagon />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-paint-bucket />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-qr-code />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-rocket />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-sun />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-trophy />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-umbrella />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-vegan />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-wifi />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-x />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-youtube />
+              </span>
+              <span class="flex items-center justify-center">
+                <icon-lucide-zap />
+              </span>
             </div>
           </div>
         </div>
@@ -466,3 +545,20 @@
     </div>
   </section>
 </template>
+<script setup>
+import { useClipboard } from "@vueuse/core"
+const primaryColor = "#A855F7"
+const secondaryColor = "#020617"
+const tertiaryColor = "#64748B"
+const { copy: copyPrimaryColor, copied: copiedPrimaryColor } = useClipboard({
+  source: primaryColor,
+})
+const { copy: copySecondaryColor, copied: copiedSecondaryColor } = useClipboard(
+  {
+    source: secondaryColor,
+  }
+)
+const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
+  source: tertiaryColor,
+})
+</script>

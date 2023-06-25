@@ -3,7 +3,7 @@
     <!-- Site header -->
     <AppHeader />
     <!-- Page content -->
-    <main class="flex flex-col overflow-hidden grow">
+    <main class="flex flex-col grow">
       <RouterView />
     </main>
     <!-- Site footer -->
