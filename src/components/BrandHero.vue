@@ -66,10 +66,10 @@
             </RouterLink>
           </p>
         </div>
-        <div class="space-y-8">
+        <div class="space-y-12">
           <!-- Naming -->
           <div>
-            <h4 class="h4">Naming</h4>
+            <h4 class="mt-8 h4">Naming</h4>
             <p class="max-w-3xl mt-2">
               "Hoppscotch" is a single word, always spelled with a capital "H".
               It is the brand name of both our company and our application (not
@@ -80,7 +80,7 @@
           </div>
           <!-- Usage -->
           <div>
-            <h4 class="h4">Usage</h4>
+            <h4 class="mt-8 h4">Usage</h4>
             <p class="max-w-3xl mt-2">
               Provide plenty of space around Hoppscotch assets. Make them big or
               make them small, but give them room to breathe. They shouldn't
@@ -89,13 +89,13 @@
           </div>
           <!-- Wordmark -->
           <div>
-            <h4 class="h4">Wordmark</h4>
+            <h4 class="mt-8 h4">Wordmark</h4>
             <p class="max-w-3xl mt-2">
               The Hoppscotch wordmark should be used in all references to
               Hoppscotch as space allows. Monochrome usage is preferred with the
               brand colors below.
             </p>
-            <div class="py-8 grid grid-cols-1 gap-8 md:grid-cols-3">
+            <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3">
               <div class="flex flex-col">
                 <div
                   class="flex items-center justify-center h-64 p-8 border bg-slate-900 border-white/10 rounded-t-xl"
@@ -201,14 +201,14 @@
           </div>
           <!-- Logo -->
           <div>
-            <h4 class="h4">Logo</h4>
+            <h4 class="mt-8 h4">Logo</h4>
             <p class="max-w-3xl mt-2">
               For tight layouts or logo-only grids, the Hoppscotch logomark is a
               concise way to refer to Hoppscotch. Use with good judgment for
               your audience, as the Hoppscotch wordmark has stronger brand
               recognition.
             </p>
-            <div class="py-8 grid grid-cols-1 gap-8 md:grid-cols-3">
+            <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3">
               <div class="flex flex-col">
                 <div
                   class="flex items-center justify-center h-64 p-8 border bg-slate-900 border-white/10 rounded-t-xl"
@@ -314,13 +314,13 @@
           </div>
           <!-- Icon -->
           <div>
-            <h4 class="h4">Icon</h4>
+            <h4 class="mt-8 h4">Icon</h4>
             <p class="max-w-3xl mt-2">
               When referring to Hoppscotch as a company, such as on social
               media, or where a "chip" design is required, it is acceptable to
               use this stylized icon with an appropriate corner radius.
             </p>
-            <div class="py-8 grid grid-cols-1 gap-8">
+            <div class="mt-8 grid grid-cols-1 gap-8">
               <div class="flex flex-col">
                 <div
                   class="flex items-center justify-center h-64 p-8 border bg-slate-900 border-white/10 rounded-t-xl"
@@ -342,15 +342,15 @@
           </div>
           <!-- Colors -->
           <div>
-            <h4 class="h4">Colors</h4>
+            <h4 class="mt-8 h4">Colors</h4>
             <p class="max-w-3xl mt-2">
-              Hoppscotch’s color palette is inspired by the colors of the
+              Hoppscotch's color palette is inspired by the colors of the
               internet. The primary color is Hoppscotch Purple, which should be
               used sparingly for emphasis. The secondary color is Hoppscotch
               Slate, which is used for backgrounds and borders. The tertiary
               color is Hoppscotch Gray, which is used for text and icons.
             </p>
-            <div class="py-8 grid grid-cols-1 gap-8 md:grid-cols-3">
+            <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3">
               <div class="flex flex-col">
                 <div
                   class="flex items-center justify-center h-64 p-8 bg-purple-500 border border-white/10 rounded-t-xl"
@@ -394,7 +394,7 @@
           </div>
           <!-- Typography -->
           <div>
-            <h4 class="h4">Typography</h4>
+            <h4 class="mt-8 h4">Typography</h4>
             <p class="max-w-3xl mt-2">
               Hoppscotch uses the "Inter" typeface for all marketing and product
               design. Inter is a variable font, which means that it can be
@@ -408,10 +408,17 @@
                 >Google Fonts</a
               >.
             </p>
+            <div class="flex flex-col mt-8 space-y-4">
+              <p>The quick brown fox jumps over a lazy dog.</p>
+              <p class="h4">The quick brown fox jumps over a lazy dog.</p>
+              <p class="h3">The quick brown fox jumps over a lazy dog.</p>
+              <p class="h2">The quick brown fox jumps over a lazy dog.</p>
+              <p class="h1">The quick brown fox jumps over a lazy dog.</p>
+            </div>
           </div>
           <!-- Iconography -->
           <div>
-            <h4 class="h4">Iconography</h4>
+            <h4 class="mt-8 h4">Iconography</h4>
             <p class="max-w-3xl mt-2">
               Hoppscotch uses the "Lucide" icon set for all marketing and
               product design. Lucide is a set of 1,000+ open-source icons that
@@ -424,6 +431,35 @@
                 >Lucide.dev</a
               >.
             </p>
+            <div class="mt-8 grid grid-cols-6 gap-8 md:grid-cols-12">
+              <icon-lucide-accessibility />
+              <icon-lucide-baby />
+              <icon-lucide-battery />
+              <icon-lucide-cake />
+              <icon-lucide-database />
+              <icon-lucide-ear />
+              <icon-lucide-fingerprint />
+              <icon-lucide-gift />
+              <icon-lucide-hammer />
+              <icon-lucide-ice-cream />
+              <icon-lucide-japanese-yen />
+              <icon-lucide-key />
+              <icon-lucide-laptop />
+              <icon-lucide-magnet />
+              <icon-lucide-navigation />
+              <icon-lucide-octagon />
+              <icon-lucide-paint-bucket />
+              <icon-lucide-qr-code />
+              <icon-lucide-rocket />
+              <icon-lucide-sun />
+              <icon-lucide-trophy />
+              <icon-lucide-umbrella />
+              <icon-lucide-vegan />
+              <icon-lucide-wifi />
+              <icon-lucide-x />
+              <icon-lucide-youtube />
+              <icon-lucide-zap />
+            </div>
           </div>
         </div>
       </div>
