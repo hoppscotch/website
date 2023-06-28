@@ -34,7 +34,7 @@
         </ul>
         <!-- Desktop menu links -->
         <ul
-          class="items-center justify-center hidden px-3 rounded-full space-x-2 flex-nowrap md:flex bg-black/10 backdrop-blur-md"
+          class="items-center justify-center hidden px-3 rounded-full space-x-2 flex-nowrap md:flex bg-black/25 backdrop-blur-md"
         >
           <li>
             <tippy interactive>
@@ -205,7 +205,7 @@
         </ul>
         <!-- Desktop CTA links -->
         <ul class="items-center justify-end flex-1 hidden md:flex flex-nowrap">
-          <li class="flex rounded-full bg-black/10 backdrop-blur-md">
+          <li class="flex rounded-full bg-black/25 backdrop-blur-md">
             <a
               class="flex items-center justify-center px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
               href="https://github.com/hoppscotch/hoppscotch"
@@ -235,7 +235,7 @@
         </ul>
         <!-- Mobile CTA links -->
         <ul class="flex items-center justify-end flex-1 md:hidden">
-          <li class="flex rounded-full bg-black/10 backdrop-blur-md">
+          <li class="flex rounded-full bg-black/25 backdrop-blur-md">
             <button
               class="flex items-center justify-center px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
               @click="isMobileMenuClosed = !isMobileMenuClosed"
@@ -254,7 +254,7 @@
       >
         <!-- Mobile CTA links -->
         <ul class="flex items-center justify-end flex-1 flex-nowrap">
-          <li class="flex rounded-full bg-black/10 backdrop-blur-md">
+          <li class="flex rounded-full bg-black/25 backdrop-blur-md">
             <a
               class="flex items-center justify-center px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
               href="https://github.com/hoppscotch/hoppscotch"

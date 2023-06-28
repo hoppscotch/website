@@ -1,6 +1,9 @@
 <template>
   <section>
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
+      <div
+        class="h-px bg-gradient-to-r from-slate-950 via-slate-600 to-slate-950"
+      ></div>
       <div class="relative px-8 py-12 md:py-20 rounded-[3rem] overflow-hidden">
         <!-- Radial gradient -->
         <div
