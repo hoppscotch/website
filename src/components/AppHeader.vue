@@ -35,6 +35,7 @@
         <!-- Desktop menu links -->
         <ul
           class="items-center justify-center hidden px-3 rounded-full space-x-2 flex-nowrap md:flex bg-black/25 backdrop-blur-md"
+          data-aos="fade-down"
         >
           <li>
             <tippy interactive>
@@ -253,7 +254,10 @@
         class="flex flex-col mt-4 md:hidden rounded-xl"
       >
         <!-- Mobile CTA links -->
-        <ul class="flex items-center justify-end flex-1 flex-nowrap">
+        <ul
+          class="flex items-center justify-end flex-1 flex-nowrap"
+          data-aos="fade-left"
+        >
           <li class="flex rounded-full bg-black/25 backdrop-blur-md">
             <a
               class="flex items-center justify-center px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
@@ -287,7 +291,9 @@
           <li>
             <RouterLink
               to="/products"
-              class="px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
+              class="px-2 text-sm font-medium rounded transition text-slate-200 hover:text-white"
+              data-aos="fade-right"
+              data-aos-delay="100"
             >
               Products
             </RouterLink>
@@ -296,6 +302,8 @@
                 <RouterLink
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/features"
+                  data-aos="fade-right"
+                  data-aos-delay="200"
                 >
                   <icon-lucide-sparkles class="mr-3" />
                   Features
@@ -305,6 +313,8 @@
                 <RouterLink
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/download"
+                  data-aos="fade-right"
+                  data-aos-delay="300"
                 >
                   <icon-lucide-download class="mr-3" />
                   Download
@@ -314,6 +324,8 @@
                 <RouterLink
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/pricing"
+                  data-aos="fade-right"
+                  data-aos-delay="400"
                 >
                   <icon-lucide-gem class="mr-3" />
                   Pricing
@@ -323,6 +335,8 @@
                 <RouterLink
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/changelog"
+                  data-aos="fade-right"
+                  data-aos-delay="500"
                 >
                   <icon-lucide-scroll-text class="mr-3" />
                   Changelog
@@ -333,7 +347,9 @@
           <li>
             <RouterLink
               to="/company"
-              class="px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
+              class="px-2 text-sm font-medium rounded transition text-slate-200 hover:text-white"
+              data-aos="fade-right"
+              data-aos-delay="600"
             >
               Company
             </RouterLink>
@@ -342,6 +358,8 @@
                 <RouterLink
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/about"
+                  data-aos="fade-right"
+                  data-aos-delay="700"
                 >
                   <icon-lucide-user-circle class="mr-3" />
                   About
@@ -351,6 +369,8 @@
                 <RouterLink
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/blog"
+                  data-aos="fade-right"
+                  data-aos-delay="800"
                 >
                   <icon-lucide-file-text class="mr-3" />
                   Blog
@@ -360,6 +380,8 @@
                 <RouterLink
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/careers"
+                  data-aos="fade-right"
+                  data-aos-delay="900"
                 >
                   <icon-lucide-briefcase class="mr-3" />
                   Careers
@@ -369,6 +391,8 @@
                 <RouterLink
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/contact"
+                  data-aos="fade-right"
+                  data-aos-delay="1000"
                 >
                   <icon-lucide-mail class="mr-3" />
                   Contact
@@ -379,7 +403,9 @@
           <li>
             <RouterLink
               to="/resources"
-              class="px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
+              class="px-2 text-sm font-medium rounded transition text-slate-200 hover:text-white"
+              data-aos="fade-right"
+              data-aos-delay="1100"
             >
               Resources
             </RouterLink>
@@ -390,6 +416,8 @@
                   href="https://docs.hoppscotch.io"
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-aos="fade-right"
+                  data-aos-delay="1200"
                 >
                   <icon-lucide-file-text class="mr-3" />
                   Documentation
@@ -399,6 +427,8 @@
                 <RouterLink
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/community"
+                  data-aos="fade-right"
+                  data-aos-delay="1300"
                 >
                   <icon-lucide-heart class="mr-3" />
                   Community
@@ -408,6 +438,8 @@
                 <RouterLink
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/brand"
+                  data-aos="fade-right"
+                  data-aos-delay="1400"
                 >
                   <icon-lucide-palette class="mr-3" />
                   Brand
@@ -419,6 +451,8 @@
                   href="https://shop.hoppscotch.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-aos="fade-right"
+                  data-aos-delay="1500"
                 >
                   <icon-lucide-shopping-bag class="mr-3" />
                   Shop
