@@ -22,6 +22,7 @@
               class="flex items-center justify-center rounded-full"
               to="/"
               aria-label="Hoppscotch"
+              data-aos="zoom-in"
             >
               <img
                 src="/images/logo.svg"
@@ -205,7 +206,10 @@
           </li>
         </ul>
         <!-- Desktop CTA links -->
-        <ul class="items-center justify-end flex-1 hidden md:flex flex-nowrap">
+        <ul
+          class="items-center justify-end flex-1 hidden md:flex flex-nowrap"
+          data-aos="fade-down"
+        >
           <li class="flex rounded-full bg-black/25 backdrop-blur-md">
             <a
               class="flex items-center justify-center px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
@@ -235,7 +239,10 @@
           </li>
         </ul>
         <!-- Mobile CTA links -->
-        <ul class="flex items-center justify-end flex-1 md:hidden">
+        <ul
+          class="flex items-center justify-end flex-1 md:hidden"
+          data-aos="fade-down"
+        >
           <li class="flex rounded-full bg-black/25 backdrop-blur-md">
             <button
               class="flex items-center justify-center px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
@@ -293,7 +300,7 @@
               to="/products"
               class="px-2 text-sm font-medium rounded transition text-slate-200 hover:text-white"
               data-aos="fade-right"
-              data-aos-delay="100"
+              data-aos-delay="50"
             >
               Products
             </RouterLink>
@@ -303,7 +310,7 @@
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/features"
                   data-aos="fade-right"
-                  data-aos-delay="200"
+                  data-aos-delay="100"
                 >
                   <icon-lucide-sparkles class="mr-3" />
                   Features
@@ -314,7 +321,7 @@
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/download"
                   data-aos="fade-right"
-                  data-aos-delay="300"
+                  data-aos-delay="150"
                 >
                   <icon-lucide-download class="mr-3" />
                   Download
@@ -325,7 +332,7 @@
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/pricing"
                   data-aos="fade-right"
-                  data-aos-delay="400"
+                  data-aos-delay="200"
                 >
                   <icon-lucide-gem class="mr-3" />
                   Pricing
@@ -336,7 +343,7 @@
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/changelog"
                   data-aos="fade-right"
-                  data-aos-delay="500"
+                  data-aos-delay="250"
                 >
                   <icon-lucide-scroll-text class="mr-3" />
                   Changelog
@@ -349,7 +356,7 @@
               to="/company"
               class="px-2 text-sm font-medium rounded transition text-slate-200 hover:text-white"
               data-aos="fade-right"
-              data-aos-delay="600"
+              data-aos-delay="300"
             >
               Company
             </RouterLink>
@@ -359,7 +366,7 @@
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/about"
                   data-aos="fade-right"
-                  data-aos-delay="700"
+                  data-aos-delay="350"
                 >
                   <icon-lucide-user-circle class="mr-3" />
                   About
@@ -370,7 +377,7 @@
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/blog"
                   data-aos="fade-right"
-                  data-aos-delay="800"
+                  data-aos-delay="400"
                 >
                   <icon-lucide-file-text class="mr-3" />
                   Blog
@@ -381,7 +388,7 @@
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/careers"
                   data-aos="fade-right"
-                  data-aos-delay="900"
+                  data-aos-delay="450"
                 >
                   <icon-lucide-briefcase class="mr-3" />
                   Careers
@@ -392,7 +399,7 @@
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/contact"
                   data-aos="fade-right"
-                  data-aos-delay="1000"
+                  data-aos-delay="500"
                 >
                   <icon-lucide-mail class="mr-3" />
                   Contact
@@ -405,7 +412,7 @@
               to="/resources"
               class="px-2 text-sm font-medium rounded transition text-slate-200 hover:text-white"
               data-aos="fade-right"
-              data-aos-delay="1100"
+              data-aos-delay="550"
             >
               Resources
             </RouterLink>
@@ -417,7 +424,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   data-aos="fade-right"
-                  data-aos-delay="1200"
+                  data-aos-delay="600"
                 >
                   <icon-lucide-file-text class="mr-3" />
                   Documentation
@@ -428,7 +435,7 @@
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/community"
                   data-aos="fade-right"
-                  data-aos-delay="1300"
+                  data-aos-delay="650"
                 >
                   <icon-lucide-heart class="mr-3" />
                   Community
@@ -439,7 +446,7 @@
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/brand"
                   data-aos="fade-right"
-                  data-aos-delay="1400"
+                  data-aos-delay="700"
                 >
                   <icon-lucide-palette class="mr-3" />
                   Brand
@@ -452,7 +459,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   data-aos="fade-right"
-                  data-aos-delay="1500"
+                  data-aos-delay="750"
                 >
                   <icon-lucide-shopping-bag class="mr-3" />
                   Shop
