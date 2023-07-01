@@ -23,7 +23,6 @@
           </p>
         </div>
         <!-- Carousel built with Swiper.js [https://swiperjs.com/] -->
-        <!-- * Custom styles in src/css/additional-styles/theme.scss -->
         <div
           class="relative before:absolute before:inset-0 before:-translate-x-full before:z-20 before:bg-gradient-to-l before:from-transparent before:to-slate-950 before:to-20% after:absolute after:inset-0 after:translate-x-full after:z-20 after:bg-gradient-to-r after:from-transparent after:to-slate-950 after:to-20%"
         >

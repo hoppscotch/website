@@ -8,7 +8,6 @@
       <div class="py-12 md:py-16">
         <div class="overflow-hidden">
           <!-- Carousel built with Swiper.js [https://swiperjs.com/] -->
-          <!-- * Custom styles in src/css/additional-styles/theme.scss -->
           <div
             class="relative clients-carousel swiper-container before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-slate-950 after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-slate-950"
           >

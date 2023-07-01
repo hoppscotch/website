@@ -112,14 +112,16 @@
                   ><span class="text-3xl font-bold text-slate-50">{{
                     annual ? "24" : "29"
                   }}</span
-                  ><span class="text-sm font-medium text-slate-600">/mo</span>
+                  ><span class="text-sm font-medium text-slate-500"
+                    >/user/month</span
+                  >
                 </div>
                 <div class="text-slate-500">Everything at your fingertips.</div>
               </div>
               <div class="pb-4 border-b border-slate-900">
                 <RouterLink
                   class="w-full transition btn-sm text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
-                  to="/"
+                  to="/products"
                 >
                   Get Started
                   <span
@@ -143,14 +145,16 @@
                   ><span class="text-3xl font-bold text-slate-50">{{
                     annual ? "49" : "54"
                   }}</span
-                  ><span class="text-sm font-medium text-slate-600">/mo</span>
+                  ><span class="text-sm font-medium text-slate-500"
+                    >/user/month</span
+                  >
                 </div>
                 <div class="text-slate-500">Everything at your fingertips.</div>
               </div>
               <div class="pb-4 border-b border-slate-900">
                 <RouterLink
                   class="w-full text-white bg-purple-500 transition btn-sm hover:bg-purple-600 group"
-                  to="/"
+                  to="/products"
                 >
                   Get Started
                   <span
@@ -174,14 +178,16 @@
                   ><span class="text-3xl font-bold text-slate-50">{{
                     annual ? "79" : "85"
                   }}</span
-                  ><span class="text-sm font-medium text-slate-600">/mo</span>
+                  ><span class="text-sm font-medium text-slate-500"
+                    >/user/month</span
+                  >
                 </div>
                 <div class="text-slate-500">Everything at your fingertips.</div>
               </div>
               <div class="pb-4 border-b border-slate-900">
                 <RouterLink
                   class="w-full transition btn-sm text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
-                  to="/"
+                  to="/products"
                 >
                   Get Started
                   <span

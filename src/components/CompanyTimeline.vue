@@ -145,12 +145,12 @@
                   class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-slate-800"
                   aria-hidden="true"
                 ></div>
-                <h4 class="h4">1 million happy customers</h4>
+                <h4 class="h4">1 million happy users</h4>
               </div>
               <p class="text-sm text-slate-400">
-                We reached 1 million happy customers and launched the first
-                version of the Hoppscotch Workspaces. We also launched the first
-                version of the "Hoppscotch for Teams" plan.
+                We reached 1 million happy users and launched the first version
+                of the Hoppscotch Workspaces. We also launched the first version
+                of the "Hoppscotch for Teams" plan.
               </p>
             </div>
           </div>

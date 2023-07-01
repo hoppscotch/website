@@ -7,9 +7,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vueuse/core": "^10.2.0",
+    "@vueuse/core": "^10.2.1",
     "@vueuse/head": "^1.1.26",
-    "aos": "^3.0.0-beta.6",
+    "aos": "3.0.0-beta.6",
     "medium-zoom": "^1.0.8",
     "nprogress": "^0.2.0",
     "swiper": "^8.4.7",
@@ -18,7 +18,7 @@
     "vue-tippy": "^6.2.0"
   },
   "devDependencies": {
-    "@iconify-json/lucide": "^1.1.104",
+    "@iconify-json/lucide": "^1.1.107",
     "@tailwindcss/forms": "^0.5.3",
     "@vitejs/plugin-vue": "^4.2.3",
     "autoprefixer": "^10.4.14",

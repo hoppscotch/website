@@ -93,37 +93,6 @@
   </section>
 </template>
 <script setup>
-import { onMounted, ref } from "vue"
-// Import Swiper
-import Swiper, { Navigation } from "swiper"
-import "swiper/css"
-Swiper.use([Navigation])
-const swiperInitialized = ref(false)
-onMounted(() => {
-  new Swiper(".testimonials-carousel", {
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-      },
-      640: {
-        slidesPerView: 2,
-      },
-      1024: {
-        slidesPerView: 3,
-      },
-    },
-    grabCursor: true,
-    loop: false,
-    centeredSlides: false,
-    initialSlide: 0,
-    spaceBetween: 24,
-    navigation: {
-      nextEl: ".carousel-next",
-      prevEl: ".carousel-prev",
-    },
-  })
-  swiperInitialized.value = true
-})
 const isDownloading = ref(false)
 const initDownload = () => {
   isDownloading.value = true
