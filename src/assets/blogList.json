@@ -1,5 +1,16 @@
 [
   {
+    "slug": "sample-post",
+    "title": "Sample post",
+    "description": "This is a sample post for testing",
+    "dateOfPublish": "2023-03-27",
+    "author": {
+      "name": "Liyas Thomas",
+      "image": "https://github.com/liyasthomas.png"
+    },
+    "styles": "md:col-span-3 xl:col-span-2"
+  },
+  {
     "slug": "march-2023-release",
     "title": "March 2023 Release",
     "description": "Team workspaces, Tabs, Self-hosting support and more. Explore what's new in Hoppscotch March 2023 Release",
