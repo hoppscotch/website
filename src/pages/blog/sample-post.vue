@@ -165,11 +165,11 @@ useHead({
     },
     {
       name: "og:image",
-      content: "/.netlify/functions/generator",
+      content: "https://next.hoppscotch.com/.netlify/functions/generator",
     },
     {
       name: "twitter:image",
-      content: "/.netlify/functions/generator",
+      content: "https://next.hoppscotch.com/.netlify/functions/generator",
     },
   ],
 })

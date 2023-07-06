@@ -6,9 +6,9 @@ export default async (request, context) => {
   const page = await response.text()
 
   // Look for the OG image generator path.
-  const search = "/.netlify/functions/generator"
+  const search = "https://next.hoppscotch.com/.netlify/functions/generator"
   // Replace it with the path plus the querystring.
-  const replace = `/.netlify/functions/generator?${url.searchParams.toString()}`
+  const replace = `https://next.hoppscotch.com/.netlify/functions/generator?${url.searchParams.toString()}`
 
   return new Response(page.replaceAll(search, replace), response)
 }

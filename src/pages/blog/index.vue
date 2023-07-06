@@ -29,11 +29,11 @@ useHead({
     },
     {
       name: "og:image",
-      content: "/banner-blog.png",
+      content: "https://next.hoppscotch.com/banner-blog.png",
     },
     {
       name: "twitter:image",
-      content: "/banner-blog.png",
+      content: "https://next.hoppscotch.com/banner-blog.png",
     },
   ],
 })
