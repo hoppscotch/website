@@ -138,15 +138,37 @@
 import { useClipboard } from "@vueuse/core"
 import { useHead } from "unhead"
 useHead({
-  title: "The quick brown fox jumped over the lazy dog • Blog • Hoppscotch",
+  title: "The quick brown fox • Blog • Hoppscotch",
   meta: [
+    {
+      name: "og:title",
+      content: "The quick brown fox • Blog • Hoppscotch",
+    },
+    {
+      name: "twitter:title",
+      content: "The quick brown fox • Blog • Hoppscotch",
+    },
     {
       name: "description",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
+      name: "og:description",
+      content:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+      name: "twitter:description",
+      content:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
       name: "og:image",
+      content: "/.netlify/functions/generator",
+    },
+    {
+      name: "twitter:image",
       content: "/.netlify/functions/generator",
     },
   ],
