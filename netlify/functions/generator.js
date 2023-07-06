@@ -1,7 +1,10 @@
 const chromium = require("@sparticuz/chromium")
 const puppeteer = require("puppeteer-core")
 const fs = require("fs")
+const path = require("path")
 const blogs = require("../../src/assets/blogList.json")
+
+const currentDir = process.env.LAMBDA_TASK_ROOT
 
 exports.handler = async function (event, context) {
   // Use local Chrome when testing.
@@ -24,7 +27,9 @@ exports.handler = async function (event, context) {
 
   // Read the template HTML off of disk.
   let key = event.queryStringParameters?.key
-  let content = fs.readFileSync(__dirname + "/templates/image.html").toString()
+  let content = fs
+    .readFileSync(path.join(currentDir, "./templates/image.html"), "utf8")
+    .toString()
 
   // Populate the template based on the user's vote data from the database.
   content = populateTemplate(
