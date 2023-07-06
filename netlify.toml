@@ -2,5 +2,5 @@
   included_files = ["./netlify/functions/templates/**"]
 
 [[edge_functions]]
-  path = "/blog/"
+  path = "/blog/*"
   function = "og-param-proxy"
