@@ -24,7 +24,7 @@ exports.handler = async function (event, context) {
 
   // Read the template HTML off of disk.
   let key = event.queryStringParameters?.key
-  let content = fs.readFileSync(__dirname + "/assets/image.html").toString()
+  let content = fs.readFileSync(__dirname + "/templates/image.html").toString()
 
   // Populate the template based on the user's vote data from the database.
   content = populateTemplate(
