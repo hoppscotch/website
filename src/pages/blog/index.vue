@@ -11,6 +11,10 @@ useHead({
       name: "description",
       content: "Updates from the Hoppscotch team.",
     },
+    {
+      name: "og:image",
+      content: "/banner-blog.png",
+    },
   ],
 })
 </script>

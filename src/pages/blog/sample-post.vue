@@ -3,42 +3,7 @@
     <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
       <div class="pt-32 pb-16">
         <!-- Section header -->
-        <div class="flex items-center justify-between pb-12 md:pb-20">
-          <RouterLink
-            to="/blog"
-            class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-400 hover:text-slate-200"
-          >
-            <icon-lucide-arrow-left class="mr-2" />
-            Back
-          </RouterLink>
-          <span class="flex items-center text-sm">
-            <RouterLink
-              :to="{ path: '', hash: '#newsletter' }"
-              class="font-medium text-indigo-400 rounded transition hover:text-indigo-300"
-            >
-              Subscribe to updates
-            </RouterLink>
-            <span class="mx-4 text-slate-800">|</span>
-            <a
-              href="https://twitter.com/hoppscotch_io"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="font-medium text-indigo-400 rounded transition hover:text-indigo-300"
-              v-tippy="'Follow us on Twitter'"
-            >
-              <icon-lucide-twitter />
-            </a>
-            <span class="mx-4 text-slate-800">|</span>
-            <button
-              @click="copy(source)"
-              class="text-indigo-400 rounded transition hover:text-indigo-300"
-              v-tippy="copied ? 'Copied!' : 'Copy permalink'"
-            >
-              <icon-lucide-copy v-if="!copied" />
-              <icon-lucide-check v-else />
-            </button>
-          </span>
-        </div>
+        <BlogPostHeader @copy="copy(source)" :copied="copied" />
         <!-- Blog content -->
         <article
           class="flex flex-col items-center space-y-8"
@@ -179,6 +144,10 @@ useHead({
       name: "description",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+      name: "og:image",
+      content: "/.netlify/functions/generator",
     },
   ],
 })
