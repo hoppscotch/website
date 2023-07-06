@@ -12,6 +12,7 @@
     "@vueuse/head": "^1.1.26",
     "aos": "3.0.0-beta.6",
     "medium-zoom": "^1.0.8",
+    "mustache": "^4.2.0",
     "nprogress": "^0.2.0",
     "puppeteer-core": "~20.7.4",
     "swiper": "^8.4.7",

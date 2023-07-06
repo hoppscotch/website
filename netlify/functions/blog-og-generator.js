@@ -2,6 +2,7 @@ const chromium = require("@sparticuz/chromium")
 const puppeteer = require("puppeteer-core")
 const fs = require("fs")
 const blogs = require("../../src/data/blogList")
+const Mustache = require("mustache")
 
 exports.handler = async function (event, context) {
   // Use local Chrome when testing.
@@ -52,10 +53,7 @@ exports.handler = async function (event, context) {
 
 function populateTemplate(content, data) {
   // Replace all instances of e.g. `{{ title }}` with the title.
-  for (const [slug, value] of Object.entries(data)) {
-    content = content.replace(new RegExp(`{{ ${slug} }}`, "g"), value)
-  }
-
+  content = Mustache.render(content, data)
   return content
 }
 
