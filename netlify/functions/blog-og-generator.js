@@ -1,8 +1,8 @@
 const chromium = require("@sparticuz/chromium")
 const puppeteer = require("puppeteer-core")
 const fs = require("fs")
-const blogs = require("../../src/data/blogList")
 const Mustache = require("mustache")
+const blogs = require("../../src/data/blogList.json")
 
 exports.handler = async function (event, context) {
   // Use local Chrome when testing.
