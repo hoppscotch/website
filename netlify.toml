@@ -3,4 +3,4 @@
 
 [[edge_functions]]
   path = "/blog/*"
-  function = "og-param-proxy"
+  function = "blog-og-proxy"

@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="flex flex-col items-center justify-center bg-gradient-to-b from-slate-950 to-slate-800"
+  >
+    <!-- The following line gets replaced by generator.js -->
+    <h1 class="text-2xl text-white">{{ title }}</h1>
+    <p class="text-lg text-white/50">{{ description }}</p>
+    <div>
+      <img src="{{ banner }}" alt="{{ title }}" />
+    </div>
+    <div class="flex items-center space-x-4 text-white/50">
+      <img
+        class="w-12 h-12 rounded-full"
+        src="{{ authorImage }}"
+        alt="{{ authorName }}"
+      />
+    </div>
+    <div class="text-white">{{ authorName }} {{ date }}</div>
+  </body>
+</html>

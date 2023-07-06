@@ -30,7 +30,7 @@
             <div class="flex items-center">
               <img
                 class="mr-4 rounded-full shrink-0"
-                src="/images/news-author-01.jpg"
+                src="/images/blog-author-01.jpg"
                 width="32"
                 height="32"
                 alt="Author 01"
@@ -43,7 +43,7 @@
           <section class="max-w-4xl">
             <ImageZoom
               class="w-full h-full rounded-xl"
-              src="/images/blog-post-01.png"
+              src="/images/blog-sample-post.png"
               width="352"
               height="198"
               alt="News 01"
@@ -79,7 +79,7 @@
           <section class="max-w-3xl">
             <ImageZoom
               class="w-full h-full rounded-xl"
-              src="/images/blog-post-01.png"
+              src="/images/blog-sample-post.png"
               width="352"
               height="198"
               alt="News 01"
@@ -165,11 +165,13 @@ useHead({
     },
     {
       name: "og:image",
-      content: "https://next.hoppscotch.com/.netlify/functions/generator",
+      content:
+        "https://next.hoppscotch.com/.netlify/functions/blog-og-generator",
     },
     {
       name: "twitter:image",
-      content: "https://next.hoppscotch.com/.netlify/functions/generator",
+      content:
+        "https://next.hoppscotch.com/.netlify/functions/blog-og-generator",
     },
   ],
 })
