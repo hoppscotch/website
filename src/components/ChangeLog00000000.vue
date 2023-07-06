@@ -1,9 +1,9 @@
 <template>
-  <article class="md:flex" id="00-00-2023">
+  <article class="md:flex" id="00-00-0000">
     <h2
-      class="flex flex-col h-full mt-px text-xs md:sticky leading-6 pl-7 md:top-20 sm:text-sm text-slate-200 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
+      class="flex flex-col h-full mt-px text-xs leading-6 md:sticky pl-7 md:top-20 sm:text-sm text-slate-200 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
     >
-      <a href="#00-00-2023" class="rounded">June 00, 2023</a>
+      <a href="#00-00-0000" class="rounded">MMMM 00, 0000</a>
     </h2>
     <div class="relative pt-2 pb-16 pl-7 md:w-4/5 md:pt-0 md:pl-12">
       <div
@@ -49,7 +49,9 @@
       </div>
       <div data-aos="fade-right">
         <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-slate-200">
-          Bug fixes and performance improvements
+          <RouterLink to="/changelog/00-00-0000">
+            Bug fixes and performance improvements
+          </RouterLink>
         </h1>
         <p class="mt-4 mb-8 text-slate-400">
           We update the Hoppscotch app as often as possible to help make it
@@ -57,7 +59,7 @@
           fixes and performance improvements.
         </p>
         <ImageZoom
-          src="/images/changelog-00-00-2023.png"
+          src="/images/changelog-00-00-0000.png"
           class="p-2 mt-4 mb-8 border rounded-3xl border-slate-900"
         />
         <h3 class="flex items-center text-xl font-bold">

@@ -1,7 +1,7 @@
 <template>
   <article class="md:flex" id="11-04-2023">
     <h2
-      class="flex flex-col h-full mt-px text-xs md:sticky leading-6 pl-7 md:top-20 sm:text-sm text-slate-200 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
+      class="flex flex-col h-full mt-px text-xs leading-6 md:sticky pl-7 md:top-20 sm:text-sm text-slate-200 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
     >
       <a href="#11-04-2023" class="rounded">April 11, 2023</a>
     </h2>
@@ -31,7 +31,9 @@
       </div>
       <div data-aos="fade-right">
         <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-slate-200">
-          Tabs, workspaces and more
+          <RouterLink to="/changelog/11-04-2023">
+            Tabs, workspaces and more
+          </RouterLink>
         </h1>
         <p class="mt-4 mb-8 text-slate-400">
           We are super excited to introduce self-host support to Hoppscotch

@@ -31,7 +31,9 @@
       </div>
       <div data-aos="fade-right">
         <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-slate-200">
-          Bug fixes and performance improvements
+          <RouterLink to="/changelog/02-06-2023">
+            Bug fixes and performance improvements
+          </RouterLink>
         </h1>
         <p class="mt-4 mb-8 text-slate-400">
           We update the Hoppscotch app as often as possible to help make it

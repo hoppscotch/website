@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "00-00-0000",
+    "version": "v2023.0.0",
+    "title": "Bug fixes and performance improvements",
+    "date": "MMMM DD, YYYY",
+    "banner": "changelog-00-00-0000.png"
+  },
+  {
+    "slug": "02-06-2023",
+    "version": "v2023.",
+    "title": "Bug fixes and performance improvements",
+    "date": "June 02, 2023",
+    "banner": "changelog-02-06-2023.png"
+  },
+  {
+    "slug": "05-06-2023",
+    "version": "v2023.4.5",
+    "title": "Security guidance",
+    "date": "June 05, 2023",
+    "banner": "changelog-05-06-2023.png"
+  },
+  {
+    "slug": "11-04-2023",
+    "version": "v2023.4.0",
+    "title": "Tabs, workspaces and more",
+    "date": "April 11, 2023",
+    "banner": "changelog-11-04-2023.png"
+  },
+  {
+    "slug": "11-05-2023",
+    "version": "v2023.3.0",
+    "title": "Bug fixes and performance improvements",
+    "date": "May 11, 2023",
+    "banner": "changelog-11-05-2023.png"
+  },
+  {
+    "slug": "12-06-2023",
+    "version": "v2023.4.6",
+    "title": "Bug fixes and performance improvements",
+    "date": "June 12, 2023",
+    "banner": "changelog-12-06-2023.png"
+  },
+  {
+    "slug": "23-04-2023",
+    "version": "v2023.4.1",
+    "title": "Bug fixes and performance improvements",
+    "date": "April 23, 2023",
+    "banner": "changelog-23-04-2023.png"
+  }
+]
