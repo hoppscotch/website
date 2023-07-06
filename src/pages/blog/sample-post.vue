@@ -166,12 +166,12 @@ useHead({
     {
       name: "og:image",
       content:
-        "https://next.hoppscotch.com/.netlify/functions/blog-og-generator",
+        "https://next.hoppscotch.com/.netlify/functions/blog-og-generator?slug=sample-post",
     },
     {
       name: "twitter:image",
       content:
-        "https://next.hoppscotch.com/.netlify/functions/blog-og-generator",
+        "https://next.hoppscotch.com/.netlify/functions/blog-og-generator?slug=sample-post",
     },
   ],
 })
