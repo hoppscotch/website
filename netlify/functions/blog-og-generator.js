@@ -37,7 +37,8 @@ exports.handler = async function (event, context) {
   )
 
   await page.setContent(content, {
-    waitUntil: "networkidle0",
+    timeout: 0,
+    waitUntil: ["domcontentloaded", "networkidle0"],
   })
 
   return {

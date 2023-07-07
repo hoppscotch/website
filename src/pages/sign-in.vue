@@ -147,7 +147,7 @@ meta:
   layout: empty
 </route>
 <script setup>
-import { useHead } from "unhead"
+import { useHead } from "@unhead/vue"
 useHead({
   title: "Sign in • Hoppscotch",
   meta: [

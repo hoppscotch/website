@@ -137,7 +137,7 @@
 </template>
 <script setup>
 import { useClipboard } from "@vueuse/core"
-import { useHead } from "unhead"
+import { useHead } from "@unhead/vue"
 useHead({
   title: "Terms of Service • Hoppscotch",
   meta: [

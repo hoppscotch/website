@@ -9,7 +9,6 @@
   "dependencies": {
     "@sparticuz/chromium": "^114.0.0",
     "@vueuse/core": "^10.2.1",
-    "@vueuse/head": "^1.1.26",
     "aos": "3.0.0-beta.6",
     "medium-zoom": "^1.0.8",
     "mustache": "^4.2.0",
@@ -17,12 +16,12 @@
     "puppeteer-core": "~20.7.4",
     "swiper": "^8.4.7",
     "vue": "^3.3.4",
-    "vue-router": "^4.2.3",
     "vue-tippy": "^6.2.0"
   },
   "devDependencies": {
     "@iconify-json/lucide": "^1.1.108",
     "@tailwindcss/forms": "^0.5.3",
+    "@unhead/vue": "^1.1.30",
     "@vitejs/plugin-vue": "^4.2.3",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.25",
@@ -33,6 +32,7 @@
     "vite": "^4.4.0",
     "vite-plugin-pages": "^0.31.0",
     "vite-plugin-pages-sitemap": "^1.5.0",
-    "vite-plugin-vue-layouts": "^0.8.0"
+    "vite-plugin-vue-layouts": "^0.8.0",
+    "vue-router": "^4.2.4"
   }
 }

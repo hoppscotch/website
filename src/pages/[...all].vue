@@ -15,7 +15,7 @@
   </div>
 </template>
 <script setup>
-import { useHead } from "unhead"
+import { useHead } from "@unhead/vue"
 useHead({
   title: "404 • Hoppscotch",
   meta: [

@@ -1,5 +1,5 @@
 import { createApp } from "vue"
-import { createHead } from "@vueuse/head"
+import { createHead } from "@unhead/vue"
 import router from "./router"
 import App from "./App.vue"
 import VueTippy, { roundArrow } from "vue-tippy"
