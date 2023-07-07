@@ -50,30 +50,27 @@
 </template>
 <script setup>
 useHead({
-  title: "The quick brown fox • Changelog • Hoppscotch",
+  title: "v2023.4.5 • Changelog • Hoppscotch",
   meta: [
     {
       name: "og:title",
-      content: "The quick brown fox • Changelog • Hoppscotch",
+      content: "v2023.4.5 • Changelog • Hoppscotch",
     },
     {
       name: "twitter:title",
-      content: "The quick brown fox • Changelog • Hoppscotch",
+      content: "v2023.4.5 • Changelog • Hoppscotch",
     },
     {
       name: "description",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      content: "Security guidance.",
     },
     {
       name: "og:description",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      content: "Security guidance.",
     },
     {
       name: "twitter:description",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      content: "Security guidance.",
     },
     {
       name: "og:image",

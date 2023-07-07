@@ -20,7 +20,7 @@
           class="inline-flex items-center px-2 text-xs font-medium text-purple-400 border border-purple-800 rounded-md bg-purple-500/10"
         >
           <span class="w-1.5 h-1.5 mr-2 bg-purple-400 rounded-full"></span>
-          v2023.0.0
+          v0000.0.0
         </span>
         <span
           class="inline-flex items-center px-2 text-xs font-medium text-green-400 border border-green-800 rounded-md bg-green-500/10"
