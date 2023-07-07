@@ -12,7 +12,9 @@
             class="relative clients-carousel swiper-container before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-slate-950 after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-slate-950"
           >
             <div
-              class="swiper-wrapper flex flex-nowrap !ease-linear select-none items-center"
+              class="swiper-wrapper !ease-linear select-none items-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
             >
               <!-- Carousel items -->
               <div class="swiper-slide !w-auto">
