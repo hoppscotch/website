@@ -2,9 +2,9 @@ const chromium = require("@sparticuz/chromium")
 const puppeteer = require("puppeteer-core")
 const fs = require("fs")
 const Mustache = require("mustache")
-const changelogs = require("../../src/data/changelogList.json")
+const blogs = require("../../src/data/blogList.json")
 
-exports.handler = async function (event, context) {
+exports.handler = async (event, context) => {
   // Use local Chrome when testing.
   let localChrome =
     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
@@ -26,14 +26,14 @@ exports.handler = async function (event, context) {
   // Read the template HTML off of disk.
   let slug = event.queryStringParameters?.slug
   let content = fs
-    .readFileSync("./netlify/functions/templates/changelog-og-image.html")
+    .readFileSync("./netlify/functions/templates/blog-og-image.html")
     .toString()
 
   // Populate the template based on the user's vote data from the database.
   content = populateTemplate(
     content,
     // Get the title out of the querystring.
-    await getChangelogData(slug)
+    await getBlogData(slug)
   )
 
   await page.setContent(content, {
@@ -58,6 +58,6 @@ function populateTemplate(content, data) {
   return content
 }
 
-function getChangelogData(slug) {
-  return changelogs.find((item) => item.slug === slug)
+function getBlogData(slug) {
+  return blogs.find((item) => item.slug === slug)
 }
