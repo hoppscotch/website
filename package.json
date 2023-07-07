@@ -1,6 +1,6 @@
 {
-  "name": "stellar-vue",
-  "version": "0.0.0",
+  "name": "hoppscotch-website",
+  "version": "2.0.0",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",

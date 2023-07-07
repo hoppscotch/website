@@ -28,7 +28,7 @@
                   src="/images/logo.svg"
                   width="42"
                   height="42"
-                  alt="Stellar"
+                  alt="Hoppscotch"
                 />
               </div>
             </RouterLink>
