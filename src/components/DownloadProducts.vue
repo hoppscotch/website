@@ -93,6 +93,7 @@
   </section>
 </template>
 <script setup>
+import { ref } from "vue"
 const isDownloading = ref(false)
 const initDownload = () => {
   isDownloading.value = true

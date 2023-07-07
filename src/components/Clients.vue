@@ -11,7 +11,9 @@
           <div
             class="relative clients-carousel swiper-container before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-slate-950 after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-slate-950"
           >
-            <div class="swiper-wrapper !ease-linear select-none items-center">
+            <div
+              class="swiper-wrapper flex !ease-linear select-none items-center justify-center"
+            >
               <!-- Carousel items -->
               <div class="swiper-slide !w-auto">
                 <img src="/images/client-01.svg" alt="Client 01" class="w-24" />
