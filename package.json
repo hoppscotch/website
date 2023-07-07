@@ -1,9 +1,10 @@
 {
   "name": "stellar-vue",
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build",
+    "build": "vite-ssg build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -12,7 +13,6 @@
     "aos": "3.0.0-beta.6",
     "medium-zoom": "^1.0.8",
     "mustache": "^4.2.0",
-    "nprogress": "^0.2.0",
     "puppeteer-core": "~20.7.4",
     "swiper": "^8.4.7",
     "vue": "^3.3.4",
@@ -33,6 +33,7 @@
     "vite-plugin-pages": "^0.31.0",
     "vite-plugin-pages-sitemap": "^1.5.0",
     "vite-plugin-vue-layouts": "^0.8.0",
+    "vite-ssg": "^0.23.0",
     "vue-router": "^4.2.4"
   }
 }
