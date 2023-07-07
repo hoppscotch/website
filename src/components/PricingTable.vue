@@ -620,6 +620,5 @@
   </section>
 </template>
 <script setup>
-import { ref } from "vue"
 const annual = ref(true)
 </script>

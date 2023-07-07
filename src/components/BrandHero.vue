@@ -546,7 +546,6 @@
   </section>
 </template>
 <script setup>
-import { useClipboard } from "@vueuse/core"
 const primaryColor = "#A855F7"
 const secondaryColor = "#020617"
 const tertiaryColor = "#64748B"

@@ -121,7 +121,6 @@
   </div>
 </template>
 <script setup lang="ts">
-import { computed } from "vue"
 import blogs from "../data/blogList.json"
 const sortedBlogs = computed(() =>
   blogs.sort((a, b) => {

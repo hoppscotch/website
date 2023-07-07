@@ -59,7 +59,6 @@
   </section>
 </template>
 <script setup>
-import { onMounted } from "vue"
 // Import Swiper
 import Swiper, { Autoplay } from "swiper"
 import "swiper/css"

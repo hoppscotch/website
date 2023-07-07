@@ -473,8 +473,6 @@
   </header>
 </template>
 <script setup>
-import { ref, watch } from "vue"
-import { useRouter } from "vue-router"
 const isMobileMenuClosed = ref(true)
 const router = useRouter()
 watch(router.currentRoute, () => {

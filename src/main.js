@@ -1,6 +1,7 @@
-import { createHead } from "@unhead/vue"
 import App from "./App.vue"
 import VueTippy, { roundArrow } from "vue-tippy"
+import { createHead } from "@unhead/vue"
+import { InferSeoMetaPlugin } from "@unhead/addons"
 import "tippy.js/dist/tippy.css"
 import "tippy.js/dist/svg-arrow.css"
 import "tippy.js/themes/light.css"
@@ -8,6 +9,7 @@ import "tippy.js/animations/scale-subtle.css"
 import "aos/dist/aos.css"
 import "./styles/style.scss"
 const head = createHead()
+head.use(InferSeoMetaPlugin())
 import { setupLayouts } from "virtual:generated-layouts"
 import generatedRoutes from "virtual:generated-pages"
 const routes = setupLayouts(generatedRoutes)

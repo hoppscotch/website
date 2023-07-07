@@ -49,8 +49,6 @@
   <Newsletter />
 </template>
 <script setup>
-import { useClipboard } from "@vueuse/core"
-import { useHead } from "@unhead/vue"
 useHead({
   title: "The quick brown fox • Changelog • Hoppscotch",
   meta: [

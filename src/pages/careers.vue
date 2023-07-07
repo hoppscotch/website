@@ -3,7 +3,6 @@
   <Roles />
 </template>
 <script setup>
-import { useHead } from "@unhead/vue"
 useHead({
   title: "Careers • Hoppscotch",
   meta: [

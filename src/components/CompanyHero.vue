@@ -252,7 +252,6 @@
   </section>
 </template>
 <script setup>
-import { onBeforeUnmount, onMounted, ref } from "vue"
 import Image01 from "/images/world-user-01.jpg"
 import Image02 from "/images/world-user-02.jpg"
 import Image03 from "/images/world-user-03.jpg"

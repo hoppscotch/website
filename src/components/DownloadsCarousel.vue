@@ -300,7 +300,6 @@
   </section>
 </template>
 <script setup>
-import { onMounted, ref } from "vue"
 // Import Swiper
 import Swiper, { Navigation } from "swiper"
 import "swiper/css"

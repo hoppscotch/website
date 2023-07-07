@@ -2,7 +2,6 @@
   <img :ref="attachZoom" />
 </template>
 <script setup>
-import { watch } from "vue"
 import mediumZoom from "medium-zoom"
 const props = defineProps({
   options: {

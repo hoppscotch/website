@@ -4,7 +4,6 @@
   </div>
 </template>
 <script setup>
-import { ref, onMounted, onBeforeUnmount, reactive, watch } from "vue"
 import useMousePosition from "./../utils/MousePosition"
 const props = defineProps({
   refresh: {

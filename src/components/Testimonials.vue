@@ -97,7 +97,6 @@
   </section>
 </template>
 <script setup>
-import { ref, onMounted, onBeforeUnmount } from "vue"
 import TestimonialImg01 from "/images/testimonial-01.jpg"
 import TestimonialImg02 from "/images/testimonial-02.jpg"
 import TestimonialImg03 from "/images/testimonial-03.jpg"

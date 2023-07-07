@@ -6,7 +6,6 @@
   <Features03 />
 </template>
 <script setup>
-import { useHead } from "@unhead/vue"
 useHead({
   title: "Features • Hoppscotch",
   meta: [

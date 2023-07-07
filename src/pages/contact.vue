@@ -3,7 +3,6 @@
   <Newsletter />
 </template>
 <script setup>
-import { useHead } from "@unhead/vue"
 useHead({
   title: "Contact • Hoppscotch",
   meta: [
