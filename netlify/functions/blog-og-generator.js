@@ -47,7 +47,11 @@ exports.handler = async (event, context) => {
       "Content-Type": "image/png",
       "Cache-Control": "s-maxage=86400",
     },
-    body: (await page.screenshot()).toString("base64"),
+    body: (
+      await page.screenshot({
+        optimizeForSpeed: true,
+      })
+    ).toString("base64"),
     isBase64Encoded: true,
   }
 }
