@@ -1,3 +1,13 @@
+<script setup lang="ts">
+import blogs from "../data/blogList.json"
+
+const sortedBlogs = computed(() =>
+  blogs.sort((a, b) => {
+    return new Date(b.date).getTime() - new Date(a.date).getTime()
+  })
+)
+</script>
+
 <template>
   <!-- Featured article -->
   <div class="mb-20">
@@ -55,7 +65,7 @@
   <!-- Articles list -->
   <div class="mx-auto">
     <!-- Articles container -->
-    <div class="items-start grid gap-16 md:grid-cols-2 md:gap-y-20">
+    <div class="grid items-start gap-16 md:grid-cols-2 md:gap-y-20">
       <article
         v-for="(blog, index) in sortedBlogs"
         :key="`blog-${index}`"
@@ -79,8 +89,8 @@
             <ul class="flex flex-wrap -m-1 text-xs font-medium">
               <li
                 v-for="(tag, tagIndex) in blog.tags"
-                class="m-1"
                 :key="tagIndex"
+                class="m-1"
               >
                 <span class="inline-flex text-center transition text-slate-500">
                   {{ tag }}</span
@@ -120,11 +130,3 @@
     </div>
   </div>
 </template>
-<script setup lang="ts">
-import blogs from "../data/blogList.json"
-const sortedBlogs = computed(() =>
-  blogs.sort((a, b) => {
-    return new Date(b.date).getTime() - new Date(a.date).getTime()
-  })
-)
-</script>

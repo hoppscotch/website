@@ -1,3 +1,54 @@
+<script setup lang="ts">
+import Image01 from "/images/world-user-01.jpg"
+import Image02 from "/images/world-user-02.jpg"
+import Image03 from "/images/world-user-03.jpg"
+
+const active = ref(0)
+const autorotate = ref(true)
+const autorotateTiming = ref(7000)
+const items = ref([
+  {
+    img: Image01,
+    alt: "Testimonial 01",
+    quote:
+      "“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“",
+    name: "Darya Semenova",
+    role: "Backend Developer",
+  },
+  {
+    img: Image02,
+    alt: "Testimonial 02",
+    quote:
+      "“ Not only in my career but in education as well, I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more.“",
+    name: "Greg Sebastian",
+    role: "Head of Design",
+  },
+  {
+    img: Image03,
+    alt: "Testimonial 03",
+    quote:
+      "“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“",
+    name: "Dominik Prasad",
+    role: "Backend Lead",
+  },
+])
+const autorotateInterval = ref(null)
+function stopAutorotate() {
+  clearInterval(autorotateInterval.value)
+}
+onMounted(() => {
+  if (autorotate.value) {
+    autorotateInterval.value = setInterval(() => {
+      active.value =
+        active.value + 1 === items.value.length ? 0 : active.value + 1
+    }, autorotateTiming.value)
+  }
+})
+onBeforeUnmount(() => {
+  stopAutorotate()
+})
+</script>
+
 <template>
   <section class="relative">
     <!-- Radial gradient -->
@@ -90,7 +141,7 @@
             </li>
           </ul>
         </div>
-        <!-- Carousel area-->
+        <!-- Carousel area -->
         <div class="max-w-2xl mx-auto">
           <!-- World map -->
           <div class="py-12">
@@ -101,7 +152,7 @@
                 aria-hidden="true"
               >
                 <div
-                  class="bottom-0 border-l border-dashed transform translate-y-8 h-1/2 border-slate-700"
+                  class="bottom-0 transform translate-y-8 border-l border-dashed h-1/2 border-slate-700"
                 ></div>
               </div>
               <!-- People pics -->
@@ -197,13 +248,13 @@
             <!-- Testimonials -->
             <TransitionGroup
               enter-active-class="order-first transition duration-500 transform"
-              enter-from-class="opacity-0 scale-90"
-              enter-to-class="opacity-100 scale-100"
+              enter-from-class="scale-90 opacity-0"
+              enter-to-class="scale-100 opacity-100"
               leave-active-class="absolute transition duration-300 transform"
-              leave-from-class="opacity-100 scale-100"
-              leave-to-class="opacity-0 scale-90"
+              leave-from-class="scale-100 opacity-100"
+              leave-to-class="scale-90 opacity-0"
             >
-              <template :key="index" v-for="(item, index) in items">
+              <template v-for="(item, index) in items" :key="index">
                 <div v-show="active === index" class="text-center">
                   <div class="inline-flex flex-col justify-center mb-4">
                     <img
@@ -228,7 +279,7 @@
             </TransitionGroup>
             <!-- Bullets -->
             <div class="flex justify-center mt-6">
-              <template :key="index" v-for="(item, index) in items">
+              <template v-for="(item, index) in items" :key="index">
                 <button
                   class="p-1 group"
                   @click="
@@ -239,7 +290,7 @@
                   "
                 >
                   <span
-                    class="block w-2 h-2 rounded-full transition group-hover:bg-slate-400"
+                    class="block w-2 h-2 transition rounded-full group-hover:bg-slate-400"
                     :class="active === index ? 'bg-slate-200' : 'bg-slate-500'"
                   ></span>
                 </button>
@@ -251,52 +302,3 @@
     </div>
   </section>
 </template>
-<script setup>
-import Image01 from "/images/world-user-01.jpg"
-import Image02 from "/images/world-user-02.jpg"
-import Image03 from "/images/world-user-03.jpg"
-const active = ref(0)
-const autorotate = ref(true)
-const autorotateTiming = ref(7000)
-const items = ref([
-  {
-    img: Image01,
-    alt: "Testimonial 01",
-    quote:
-      "“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“",
-    name: "Darya Semenova",
-    role: "Backend Developer",
-  },
-  {
-    img: Image02,
-    alt: "Testimonial 02",
-    quote:
-      "“ Not only in my career but in education as well, I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more.“",
-    name: "Greg Sebastian",
-    role: "Head of Design",
-  },
-  {
-    img: Image03,
-    alt: "Testimonial 03",
-    quote:
-      "“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“",
-    name: "Dominik Prasad",
-    role: "Backend Lead",
-  },
-])
-const stopAutorotate = () => {
-  clearInterval(autorotateInterval.value)
-}
-let autorotateInterval = ref(null)
-onMounted(() => {
-  if (autorotate.value) {
-    autorotateInterval.value = setInterval(() => {
-      active.value =
-        active.value + 1 === items.value.length ? 0 : active.value + 1
-    }, autorotateTiming.value)
-  }
-})
-onBeforeUnmount(() => {
-  stopAutorotate()
-})
-</script>

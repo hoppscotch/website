@@ -1,8 +1,4 @@
-<template>
-  <ChangeLogs />
-  <Newsletter />
-</template>
-<script setup>
+<script setup lang="ts">
 useHead({
   title: "Changelog • Hoppscotch",
   meta: [
@@ -37,3 +33,8 @@ useHead({
   ],
 })
 </script>
+
+<template>
+  <ChangeLogs />
+  <Newsletter />
+</template>

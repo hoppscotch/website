@@ -1,14 +1,14 @@
+const fs = require("node:fs")
 const chromium = require("@sparticuz/chromium")
 const puppeteer = require("puppeteer-core")
-const fs = require("fs")
 const Mustache = require("mustache")
 const blogs = require("../../src/data/blogList.json")
 
-exports.handler = async (event, context) => {
+exports.handler = async (event) => {
   // Use local Chrome when testing.
-  let localChrome =
+  const localChrome =
     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-  let executable = fs.existsSync(localChrome)
+  const executable = fs.existsSync(localChrome)
     ? localChrome
     : chromium.executablePath()
 
@@ -21,10 +21,10 @@ exports.handler = async (event, context) => {
     defaultViewport: { height: 900, width: 1600 },
   })
 
-  let page = await browser.newPage()
+  const page = await browser.newPage()
 
   // Read the template HTML off of disk.
-  let slug = event.queryStringParameters?.slug
+  const slug = event.queryStringParameters?.slug
   let content = fs
     .readFileSync("./netlify/functions/templates/blog-og-image.html")
     .toString()

@@ -1,14 +1,4 @@
-<template>
-  <HeroAbout />
-  <AboutStory />
-  <TeamLocations />
-  <OpenPositions />
-  <TeamMembers />
-  <Investors />
-  <Cta />
-  <Newsletter />
-</template>
-<script setup>
+<script setup lang="ts">
 useHead({
   title: "About • Hoppscotch",
   meta: [
@@ -19,3 +9,14 @@ useHead({
   ],
 })
 </script>
+
+<template>
+  <HeroAbout />
+  <AboutStory />
+  <TeamLocations />
+  <OpenPositions />
+  <TeamMembers />
+  <Investors />
+  <Cta />
+  <Newsletter />
+</template>

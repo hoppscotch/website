@@ -1,7 +1,4 @@
-<template>
-  <CommunitiesList />
-</template>
-<script setup>
+<script setup lang="ts">
 useHead({
   title: "Community • Hoppscotch",
   meta: [
@@ -12,3 +9,7 @@ useHead({
   ],
 })
 </script>
+
+<template>
+  <CommunitiesList />
+</template>

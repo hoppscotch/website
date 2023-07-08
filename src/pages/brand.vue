@@ -1,8 +1,4 @@
-<template>
-  <BrandHero />
-  <Newsletter />
-</template>
-<script setup>
+<script setup lang="ts">
 useHead({
   title: "Brand • Hoppscotch",
   meta: [
@@ -13,3 +9,8 @@ useHead({
   ],
 })
 </script>
+
+<template>
+  <BrandHero />
+  <Newsletter />
+</template>

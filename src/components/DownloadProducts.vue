@@ -1,3 +1,13 @@
+<script setup lang="ts">
+const isDownloading = ref(false)
+function initDownload() {
+  isDownloading.value = true
+  setTimeout(() => {
+    isDownloading.value = false
+  }, 2000)
+}
+</script>
+
 <template>
   <section class="relative">
     <!-- Radial gradient -->
@@ -51,7 +61,7 @@
               >
                 <!-- Radial gradient -->
                 <div
-                  class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
+                  class="absolute bottom-0 w-1/2 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
                   aria-hidden="true"
                 >
                   <div
@@ -69,7 +79,7 @@
                 >
                   <button
                     v-if="!isDownloading"
-                    class="shadow-xl transition btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                    class="transition shadow-xl btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                     @click="initDownload"
                   >
                     <span class="mr-1"> Download </span>
@@ -79,10 +89,7 @@
                       <icon-lucide-arrow-right />
                     </span>
                   </button>
-                  <icon-lucide-loader
-                    v-else="isDownloading"
-                    class="m-2 animate-spin"
-                  />
+                  <icon-lucide-loader v-else class="m-2 animate-spin" />
                 </div>
               </div>
             </HighlighterItem>
@@ -92,12 +99,3 @@
     </div>
   </section>
 </template>
-<script setup>
-const isDownloading = ref(false)
-const initDownload = () => {
-  isDownloading.value = true
-  setTimeout(() => {
-    isDownloading.value = false
-  }, 2000)
-}
-</script>

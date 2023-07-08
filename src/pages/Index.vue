@@ -1,15 +1,4 @@
-<template>
-  <Hero />
-  <Clients />
-  <Features01 />
-  <Features02 />
-  <Features03 />
-  <TestimonialsCarousel />
-  <Features04 />
-  <Testimonials />
-  <Cta />
-</template>
-<script setup>
+<script setup lang="ts">
 useHead({
   title: "Hoppscotch • Open source API development ecosystem",
   meta: [
@@ -47,3 +36,15 @@ useHead({
   ],
 })
 </script>
+
+<template>
+  <Hero />
+  <Clients />
+  <Features01 />
+  <Features02 />
+  <Features03 />
+  <TestimonialsCarousel />
+  <Features04 />
+  <Testimonials />
+  <Cta />
+</template>

@@ -53,102 +53,102 @@
           >
             <defs>
               <filter
-                x="-50%"
-                y="-50%"
-                width="200%"
-                height="200%"
-                filterUnits="objectBoundingBox"
                 id="hlogo-blurreddots-a"
-              >
-                <feGaussianBlur stdDeviation="2" in="SourceGraphic" />
-              </filter>
-              <filter
                 x="-50%"
                 y="-50%"
                 width="200%"
                 height="200%"
                 filterUnits="objectBoundingBox"
-                id="blurreddots-b"
               >
                 <feGaussianBlur stdDeviation="2" in="SourceGraphic" />
               </filter>
               <filter
+                id="blurreddots-b"
+                x="-50%"
+                y="-50%"
+                width="200%"
+                height="200%"
+                filterUnits="objectBoundingBox"
+              >
+                <feGaussianBlur stdDeviation="2" in="SourceGraphic" />
+              </filter>
+              <filter
+                id="blurreddots-c"
                 x="-150%"
                 y="-150%"
                 width="400%"
                 height="400%"
                 filterUnits="objectBoundingBox"
-                id="blurreddots-c"
               >
                 <feGaussianBlur stdDeviation="6" in="SourceGraphic" />
               </filter>
               <filter
-                x="-150%"
-                y="-150%"
-                width="400%"
-                height="400%"
-                filterUnits="objectBoundingBox"
                 id="blurreddots-d"
-              >
-                <feGaussianBlur stdDeviation="4" in="SourceGraphic" />
-              </filter>
-              <filter
                 x="-150%"
                 y="-150%"
                 width="400%"
                 height="400%"
                 filterUnits="objectBoundingBox"
-                id="blurreddots-e"
               >
                 <feGaussianBlur stdDeviation="4" in="SourceGraphic" />
               </filter>
               <filter
+                id="blurreddots-e"
+                x="-150%"
+                y="-150%"
+                width="400%"
+                height="400%"
+                filterUnits="objectBoundingBox"
+              >
+                <feGaussianBlur stdDeviation="4" in="SourceGraphic" />
+              </filter>
+              <filter
+                id="blurreddots-f"
                 x="-50%"
                 y="-50%"
                 width="200%"
                 height="200%"
                 filterUnits="objectBoundingBox"
-                id="blurreddots-f"
               >
                 <feGaussianBlur stdDeviation="2" in="SourceGraphic" />
               </filter>
               <filter
+                id="blurreddots-g"
                 x="-100%"
                 y="-100%"
                 width="300%"
                 height="300%"
                 filterUnits="objectBoundingBox"
-                id="blurreddots-g"
               >
                 <feGaussianBlur stdDeviation="4" in="SourceGraphic" />
               </filter>
               <filter
+                id="blurreddots-h"
                 x="-150%"
                 y="-150%"
                 width="400%"
                 height="400%"
                 filterUnits="objectBoundingBox"
-                id="blurreddots-h"
               >
                 <feGaussianBlur stdDeviation="6" in="SourceGraphic" />
               </filter>
               <filter
+                id="blurreddots-i"
                 x="-150%"
                 y="-150%"
                 width="400%"
                 height="400%"
                 filterUnits="objectBoundingBox"
-                id="blurreddots-i"
               >
                 <feGaussianBlur stdDeviation="4" in="SourceGraphic" />
               </filter>
               <filter
+                id="blurreddots-j"
                 x="-75%"
                 y="-75%"
                 width="250%"
                 height="250%"
                 filterUnits="objectBoundingBox"
-                id="blurreddots-j"
               >
                 <feGaussianBlur stdDeviation="2" in="SourceGraphic" />
               </filter>
@@ -251,7 +251,7 @@
               xmlns="http://www.w3.org/2000/svg"
             >
               <defs>
-                <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="lg-1">
+                <linearGradient id="lg-1" x1="50%" y1="0%" x2="50%" y2="100%">
                   <stop
                     stop-color="#020617"
                     stop-opacity="0%"
@@ -276,16 +276,16 @@
             >
               <defs>
                 <linearGradient
+                  id="a"
                   x1="0%"
                   y1="32.443%"
                   x2="104.18%"
                   y2="50%"
-                  id="a"
                 >
                   <stop stop-color="#FFF" stop-opacity=".299" offset="0%" />
                   <stop stop-color="#7587E4" stop-opacity="0" offset="100%" />
                 </linearGradient>
-                <linearGradient x1="18.591%" y1="0%" x2="100%" y2="100%" id="b">
+                <linearGradient id="b" x1="18.591%" y1="0%" x2="100%" y2="100%">
                   <stop stop-color="#818CF8" offset="0%" />
                   <stop stop-color="#C7D2FE" offset="100%" />
                 </linearGradient>
@@ -305,7 +305,7 @@
         </div>
         <!-- Integration boxes -->
         <div
-          class="relative max-w-xs mx-auto mt-10 grid grid-cols-2 gap-6 sm:max-w-md md:max-w-6xl sm:grid-cols-3 md:grid-cols-6 md:mt-20"
+          class="relative grid max-w-xs grid-cols-2 gap-6 mx-auto mt-10 sm:max-w-md md:max-w-6xl sm:grid-cols-3 md:grid-cols-6 md:mt-20"
         >
           <!-- Top vertical line -->
           <div
@@ -484,6 +484,7 @@
     </div>
   </section>
 </template>
+
 <style lang="scss" scoped>
 /* Pulsing animation */
 @keyframes pulseLoop {

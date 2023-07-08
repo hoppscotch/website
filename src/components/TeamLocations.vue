@@ -51,7 +51,7 @@
         ></div>
         <!-- Locations -->
         <div
-          class="items-start max-w-sm mx-auto mb-12 grid gap-12 md:max-w-none md:grid-cols-3 md:gap-x-16 md:mb-20"
+          class="grid items-start max-w-sm gap-12 mx-auto mb-12 md:max-w-none md:grid-cols-3 md:gap-x-16 md:mb-20"
         >
           <!-- location -->
           <div

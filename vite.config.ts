@@ -8,6 +8,7 @@ import Pages from "vite-plugin-pages"
 import generateSitemap from "vite-plugin-pages-sitemap"
 import { unheadVueComposablesImports } from "@unhead/vue"
 import AutoImport from "unplugin-auto-import/vite"
+
 // https://vitejs.dev/config/
 export default defineConfig({
   define: {
@@ -27,10 +28,12 @@ export default defineConfig({
         }),
       ],
     }),
-    Icons({
-      prefix: "icon",
-    }),
+    Icons(),
     AutoImport({
+      dts: true,
+      eslintrc: {
+        enabled: true, // <-- this
+      },
       imports: [
         "vue",
         "vue-router",

@@ -1,8 +1,4 @@
-<template>
-  <TeamLocations />
-  <Roles />
-</template>
-<script setup>
+<script setup lang="ts">
 useHead({
   title: "Careers • Hoppscotch",
   meta: [
@@ -14,3 +10,8 @@ useHead({
   ],
 })
 </script>
+
+<template>
+  <TeamLocations />
+  <Roles />
+</template>

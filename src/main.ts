@@ -1,9 +1,9 @@
 import { createApp } from "vue"
 import { createHead } from "@unhead/vue"
-import router from "./router"
-import App from "./App.vue"
 import VueTippy, { roundArrow } from "vue-tippy"
 import { InferSeoMetaPlugin } from "@unhead/addons"
+import router from "./router"
+import App from "./App.vue"
 import "tippy.js/dist/tippy.css"
 import "tippy.js/dist/svg-arrow.css"
 import "tippy.js/themes/light.css"
@@ -11,6 +11,7 @@ import "tippy.js/animations/scale-subtle.css"
 import "aos/dist/aos.css"
 import "nprogress/nprogress.css"
 import "./styles/style.scss"
+
 const app = createApp(App)
 const head = createHead()
 head.use(InferSeoMetaPlugin())

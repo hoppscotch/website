@@ -1,12 +1,10 @@
-<template>
-  <img :ref="attachZoom" />
-</template>
-<script setup>
+<script setup lang="ts">
 import mediumZoom from "medium-zoom"
+
 const props = defineProps({
   options: {
     type: Object,
-    default: { margin: 20 },
+    default: () => ({ margin: 20 }),
   },
 })
 let zoom = null
@@ -33,3 +31,7 @@ watch(
   }
 )
 </script>
+
+<template>
+  <img :ref="attachZoom" />
+</template>

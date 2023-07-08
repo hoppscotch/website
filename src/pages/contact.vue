@@ -1,8 +1,4 @@
-<template>
-  <ContactForm />
-  <Newsletter />
-</template>
-<script setup>
+<script setup lang="ts">
 useHead({
   title: "Contact • Hoppscotch",
   meta: [
@@ -13,3 +9,8 @@ useHead({
   ],
 })
 </script>
+
+<template>
+  <ContactForm />
+  <Newsletter />
+</template>

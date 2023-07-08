@@ -1,10 +1,4 @@
-<template>
-  <Features04 />
-  <PricingTable />
-  <Testimonials />
-  <Cta />
-</template>
-<script setup>
+<script setup lang="ts">
 useHead({
   title: "Pricing • Hoppscotch",
   meta: [
@@ -15,3 +9,10 @@ useHead({
   ],
 })
 </script>
+
+<template>
+  <Features04 />
+  <PricingTable />
+  <Testimonials />
+  <Cta />
+</template>

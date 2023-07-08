@@ -1,9 +1,54 @@
+<script setup lang="ts">
+useHead({
+  title: "The quick brown fox • Blog • Hoppscotch",
+  meta: [
+    {
+      name: "og:title",
+      content: "The quick brown fox • Blog • Hoppscotch",
+    },
+    {
+      name: "twitter:title",
+      content: "The quick brown fox • Blog • Hoppscotch",
+    },
+    {
+      name: "description",
+      content:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+      name: "og:description",
+      content:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+      name: "twitter:description",
+      content:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+      name: "og:image",
+      content:
+        "https://next.hoppscotch.com/.netlify/functions/blog-og-generator?slug=sample-post",
+    },
+    {
+      name: "twitter:image",
+      content:
+        "https://next.hoppscotch.com/.netlify/functions/blog-og-generator?slug=sample-post",
+    },
+  ],
+})
+const source = `${window.location.host}${window.location.pathname}`
+const { copy, copied } = useClipboard({
+  legacy: true,
+})
+</script>
+
 <template>
   <section>
     <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
       <div class="pt-32 pb-16">
         <!-- Section header -->
-        <BlogPostHeader @copy="copy(source)" :copied="copied" />
+        <BlogPostHeader :copied="copied" @copy="copy(source)" />
         <!-- Blog content -->
         <article
           class="flex flex-col items-center space-y-8"
@@ -134,47 +179,3 @@
   </section>
   <Newsletter />
 </template>
-<script setup>
-useHead({
-  title: "The quick brown fox • Blog • Hoppscotch",
-  meta: [
-    {
-      name: "og:title",
-      content: "The quick brown fox • Blog • Hoppscotch",
-    },
-    {
-      name: "twitter:title",
-      content: "The quick brown fox • Blog • Hoppscotch",
-    },
-    {
-      name: "description",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      name: "og:description",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      name: "twitter:description",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      name: "og:image",
-      content:
-        "https://next.hoppscotch.com/.netlify/functions/blog-og-generator?slug=sample-post",
-    },
-    {
-      name: "twitter:image",
-      content:
-        "https://next.hoppscotch.com/.netlify/functions/blog-og-generator?slug=sample-post",
-    },
-  ],
-})
-const source = `${window.location.host}${window.location.pathname}`
-const { copy, copied } = useClipboard({
-  legacy: true,
-})
-</script>

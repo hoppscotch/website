@@ -1,9 +1,4 @@
-<template>
-  <ProductFeatures />
-  <Features02 />
-  <Features03 />
-</template>
-<script setup>
+<script setup lang="ts">
 useHead({
   title: "Products • Hoppscotch",
   meta: [
@@ -14,3 +9,9 @@ useHead({
   ],
 })
 </script>
+
+<template>
+  <ProductFeatures />
+  <Features02 />
+  <Features03 />
+</template>

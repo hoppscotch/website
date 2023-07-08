@@ -1,5 +1,5 @@
 <template>
-  <article class="md:flex" id="23-04-2023">
+  <article id="23-04-2023" class="md:flex">
     <h2
       class="flex flex-col h-full mt-px text-xs leading-6 md:sticky pl-7 md:top-20 sm:text-sm text-slate-200 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
     >
@@ -49,7 +49,7 @@
           Fixed
         </h3>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
+          class="mt-4 mb-8 ml-5 space-y-2 list-disc text-slate-400 marker:text-teal-500"
         >
           <li class="pl-4">
             Wrong tab selected after navigating from different route.
@@ -72,7 +72,7 @@
           Performance
         </h3>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-indigo-500"
+          class="mt-4 mb-8 ml-5 space-y-2 list-disc text-slate-400 marker:text-indigo-500"
         >
           <li class="pl-4">
             Improve tabs scrollbar and unsaved request indicator.
@@ -87,7 +87,7 @@
           Other
         </h3>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-purple-500"
+          class="mt-4 mb-8 ml-5 space-y-2 list-disc text-slate-400 marker:text-purple-500"
         >
           <li class="pl-4">Updated product screenshots.</li>
           <li class="pl-4">Updated translations to reflect latest strings.</li>

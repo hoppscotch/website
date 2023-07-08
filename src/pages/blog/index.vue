@@ -1,8 +1,4 @@
-<template>
-  <Blogs />
-  <Newsletter />
-</template>
-<script setup>
+<script setup lang="ts">
 useHead({
   title: "Blog • Hoppscotch",
   meta: [
@@ -37,3 +33,8 @@ useHead({
   ],
 })
 </script>
+
+<template>
+  <Blogs />
+  <Newsletter />
+</template>

@@ -8,28 +8,28 @@
       Receive monthly updates on new posts and features.
     </p>
     <form
+      id="mc-embedded-subscribe-form"
       class="flex flex-col flex-1 w-full max-w-sm mt-8 sm:flex-row"
       action="https://hoppscotch.us20.list-manage.com/subscribe/post?u=807aba6832422fc0a3a1ac751&amp;id=03385b483f&amp;f_id=00f07deaf0"
       method="post"
-      id="mc-embedded-subscribe-form"
       name="mc-embedded-subscribe-form"
       target="_blank"
       validate
     >
       <input
+        id="mce-EMAIL"
         placeholder="Email"
         class="w-full form-input"
         type="email"
         required
         name="EMAIL"
-        id="mce-EMAIL"
       />
       <input
+        id="mc-embedded-subscribe"
         type="submit"
         value="Subscribe"
         name="subscribe"
-        id="mc-embedded-subscribe"
-        class="px-4 py-2 mt-4 ml-0 text-sm font-semibold bg-purple-600 rounded transition hover:bg-purple-500 sm:mt-0 sm:ml-4"
+        class="px-4 py-2 mt-4 ml-0 text-sm font-semibold transition bg-purple-600 rounded hover:bg-purple-500 sm:mt-0 sm:ml-4"
       />
     </form>
   </div>

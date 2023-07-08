@@ -1,3 +1,26 @@
+<script setup lang="ts">
+// Import Swiper
+import Swiper, { Autoplay } from "swiper"
+import "swiper/css"
+
+Swiper.use([Autoplay])
+onMounted(() => {
+  new Swiper(".clients-carousel", {
+    slidesPerView: "auto",
+    spaceBetween: 64,
+    centeredSlides: true,
+    loop: true,
+    speed: 5000,
+    noSwiping: true,
+    noSwipingClass: "swiper-slide",
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false,
+    },
+  })
+})
+</script>
+
 <template>
   <section>
     <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
@@ -58,24 +81,3 @@
     </div>
   </section>
 </template>
-<script setup>
-// Import Swiper
-import Swiper, { Autoplay } from "swiper"
-import "swiper/css"
-Swiper.use([Autoplay])
-onMounted(() => {
-  new Swiper(".clients-carousel", {
-    slidesPerView: "auto",
-    spaceBetween: 64,
-    centeredSlides: true,
-    loop: true,
-    speed: 5000,
-    noSwiping: true,
-    noSwipingClass: "swiper-slide",
-    autoplay: {
-      delay: 0,
-      disableOnInteraction: false,
-    },
-  })
-})
-</script>

@@ -52,7 +52,7 @@
                 Design
               </div>
             </div>
-            <div class="mb-2 grid gap-8 md:grid-cols-3 md:gap-12">
+            <div class="grid gap-8 mb-2 md:grid-cols-3 md:gap-12">
               <!-- Feature -->
               <div>
                 <div class="flex items-center mb-1 space-x-2">
@@ -96,7 +96,7 @@
                 Develop
               </div>
             </div>
-            <div class="mb-2 grid gap-8 md:grid-cols-3 md:gap-12">
+            <div class="grid gap-8 mb-2 md:grid-cols-3 md:gap-12">
               <!-- Feature -->
               <div>
                 <div class="flex items-center mb-1 space-x-2">
@@ -141,7 +141,7 @@
                 Test
               </div>
             </div>
-            <div class="mb-2 grid gap-8 md:grid-cols-3 md:gap-12">
+            <div class="grid gap-8 mb-2 md:grid-cols-3 md:gap-12">
               <!-- Feature -->
               <div>
                 <div class="flex items-center mb-1 space-x-2">

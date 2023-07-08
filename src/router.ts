@@ -2,11 +2,12 @@ import { createRouter, createWebHistory } from "vue-router"
 import { setupLayouts } from "virtual:generated-layouts"
 import generatedRoutes from "virtual:generated-pages"
 import nProgress from "nprogress"
+
 nProgress.configure({ showSpinner: false })
 const routerHistory = createWebHistory()
 const routes = setupLayouts(generatedRoutes)
 const router = createRouter({
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior(to, _from, _savedPosition) {
     if (to.hash) {
       return {
         el: to.hash,
@@ -20,13 +21,13 @@ const router = createRouter({
   history: routerHistory,
   routes,
 })
-router.beforeResolve((to, from, next) => {
+router.beforeResolve((to, _from, next) => {
   if (to.name) {
     nProgress.start()
   }
   next()
 })
-router.afterEach((to, from) => {
+router.afterEach((_to, _from) => {
   nProgress.done()
 })
 export default router

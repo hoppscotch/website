@@ -1,8 +1,20 @@
+<script setup lang="ts">
+useHead({
+  title: "Reset Password • Hoppscotch",
+  meta: [
+    {
+      name: "description",
+      content: "Reset your password to continue using Hoppscotch.",
+    },
+  ],
+})
+</script>
+
 <template>
   <section class="relative">
     <!-- Illustration -->
     <div
-      class="absolute pointer-events-none -translate-x-1/2 md:block left-1/2 -mt-36 blur-2xl opacity-70 -z-10"
+      class="absolute -translate-x-1/2 pointer-events-none md:block left-1/2 -mt-36 blur-2xl opacity-70 -z-10"
       aria-hidden="true"
     >
       <img
@@ -77,18 +89,8 @@
     </div>
   </section>
 </template>
+
 <route lang="yaml">
 meta:
   layout: empty
 </route>
-<script setup>
-useHead({
-  title: "Reset Password • Hoppscotch",
-  meta: [
-    {
-      name: "description",
-      content: "Reset your password to continue using Hoppscotch.",
-    },
-  ],
-})
-</script>

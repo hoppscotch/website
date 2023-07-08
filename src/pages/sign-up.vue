@@ -1,8 +1,20 @@
+<script setup lang="ts">
+useHead({
+  title: "Sign up • Hoppscotch",
+  meta: [
+    {
+      name: "description",
+      content: "Sign up to create your Hoppscotch account.",
+    },
+  ],
+})
+</script>
+
 <template>
   <section class="relative">
     <!-- Illustration -->
     <div
-      class="absolute pointer-events-none -translate-x-1/2 md:block left-1/2 -mt-36 blur-2xl opacity-70 -z-10"
+      class="absolute -translate-x-1/2 pointer-events-none md:block left-1/2 -mt-36 blur-2xl opacity-70 -z-10"
       aria-hidden="true"
     >
       <img
@@ -178,18 +190,8 @@
     </div>
   </section>
 </template>
+
 <route lang="yaml">
 meta:
   layout: empty
 </route>
-<script setup>
-useHead({
-  title: "Sign up • Hoppscotch",
-  meta: [
-    {
-      name: "description",
-      content: "Sign up to create your Hoppscotch account.",
-    },
-  ],
-})
-</script>

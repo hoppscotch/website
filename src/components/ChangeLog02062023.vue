@@ -1,5 +1,5 @@
 <template>
-  <article class="md:flex" id="02-06-2023">
+  <article id="02-06-2023" class="md:flex">
     <h2
       class="flex flex-col h-full mt-px text-xs leading-6 md:sticky pl-7 md:top-20 sm:text-sm text-slate-200 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
     >
@@ -49,7 +49,7 @@
           Added
         </h3>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-green-500"
+          class="mt-4 mb-8 ml-5 space-y-2 list-disc text-slate-400 marker:text-green-500"
         >
           <li class="pl-4">Add support to audio and video API responses.</li>
           <li class="pl-4">
@@ -62,7 +62,7 @@
           Changed
         </h3>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-amber-500"
+          class="mt-4 mb-8 ml-5 space-y-2 list-disc text-slate-400 marker:text-amber-500"
         >
           <li class="pl-4">
             Improved mobile responsiveness on environment selector.
@@ -80,7 +80,7 @@
           Fixed
         </h3>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
+          class="mt-4 mb-8 ml-5 space-y-2 list-disc text-slate-400 marker:text-teal-500"
         >
           <li class="pl-4">Sync popup firing multiple times.</li>
           <li class="pl-4">Dead key issue in macOS.</li>
@@ -91,7 +91,7 @@
           Other
         </h3>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-purple-500"
+          class="mt-4 mb-8 ml-5 space-y-2 list-disc text-slate-400 marker:text-purple-500"
         >
           <li class="pl-4">Updated Spanish translations.</li>
           <li class="pl-4">Updated Chinese (Simplified) translations.</li>

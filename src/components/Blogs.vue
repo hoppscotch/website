@@ -6,7 +6,7 @@
         class="absolute top-0 left-0 -mt-24 -ml-16 pointer-events-none blur-2xl opacity-70 -z-10"
         aria-hidden="true"
       >
-        <svg xmlns="http://www.w3.org/400/svg" width="434" height="427">
+        <svg xmlns="http://www.w3.org/2000/svg" width="434" height="427">
           <defs>
             <linearGradient
               id="bs4-a"
@@ -41,7 +41,7 @@
           <p class="mt-4 text-sm">
             <RouterLink
               :to="{ path: '', hash: '#newsletter' }"
-              class="font-medium text-indigo-400 rounded transition hover:text-indigo-300"
+              class="font-medium text-indigo-400 transition rounded hover:text-indigo-300"
             >
               Subscribe to updates
             </RouterLink>
@@ -50,7 +50,7 @@
               href="https://twitter.com/hoppscotch_io"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-medium text-indigo-400 rounded transition hover:text-indigo-300"
+              class="font-medium text-indigo-400 transition rounded hover:text-indigo-300"
               >Follow us on Twitter</a
             >
           </p>

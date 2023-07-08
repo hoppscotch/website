@@ -1,10 +1,6 @@
-<template>
-  <div ref="containerRef">
-    <slot></slot>
-  </div>
-</template>
-<script setup>
+<script setup lang="ts">
 import useMousePosition from "./../utils/MousePosition"
+
 const props = defineProps({
   refresh: {
     type: Boolean,
@@ -38,13 +34,13 @@ watch(
     initContainer()
   }
 )
-const initContainer = () => {
+function initContainer() {
   if (containerRef.value) {
     containerSize.w = containerRef.value.offsetWidth
     containerSize.h = containerRef.value.offsetHeight
   }
 }
-const onMouseMove = () => {
+function onMouseMove() {
   if (containerRef.value) {
     const rect = containerRef.value.getBoundingClientRect()
     const { w, h } = containerSize
@@ -64,3 +60,9 @@ const onMouseMove = () => {
   }
 }
 </script>
+
+<template>
+  <div ref="containerRef">
+    <slot></slot>
+  </div>
+</template>

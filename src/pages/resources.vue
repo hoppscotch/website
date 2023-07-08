@@ -1,7 +1,4 @@
-<template>
-  <ResourcesList />
-</template>
-<script setup>
+<script setup lang="ts">
 useHead({
   title: "Resources • Hoppscotch",
   meta: [
@@ -12,3 +9,7 @@ useHead({
   ],
 })
 </script>
+
+<template>
+  <ResourcesList />
+</template>

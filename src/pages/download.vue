@@ -1,9 +1,4 @@
-<template>
-  <DownloadProducts />
-  <DownloadsCarousel />
-  <Features04 />
-</template>
-<script setup>
+<script setup lang="ts">
 useHead({
   title: "Download • Hoppscotch",
   meta: [
@@ -14,3 +9,9 @@ useHead({
   ],
 })
 </script>
+
+<template>
+  <DownloadProducts />
+  <DownloadsCarousel />
+  <Features04 />
+</template>

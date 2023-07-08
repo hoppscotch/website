@@ -1,3 +1,11 @@
+<script setup lang="ts">
+const isMobileMenuClosed = ref(true)
+const router = useRouter()
+watch(router.currentRoute, () => {
+  isMobileMenuClosed.value = true
+})
+</script>
+
 <template>
   <header
     class="fixed top-0 z-30 w-full"
@@ -35,14 +43,14 @@
         </ul>
         <!-- Desktop menu links -->
         <ul
-          class="items-center justify-center hidden px-3 rounded-full space-x-2 flex-nowrap md:flex bg-black/25 backdrop-blur-md"
+          class="items-center justify-center hidden px-3 space-x-2 rounded-full flex-nowrap md:flex bg-black/25 backdrop-blur-md"
           data-aos="fade-down"
         >
           <li>
             <tippy interactive>
               <RouterLink
                 to="/products"
-                class="px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
+                class="px-2 text-sm font-medium transition rounded-full text-slate-200 hover:text-white"
               >
                 Products
               </RouterLink>
@@ -50,7 +58,7 @@
                 <ul class="flex flex-col my-1">
                   <li>
                     <RouterLink
-                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/features"
                       @click="hide()"
                     >
@@ -60,7 +68,7 @@
                   </li>
                   <li>
                     <RouterLink
-                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/download"
                       @click="hide()"
                     >
@@ -70,7 +78,7 @@
                   </li>
                   <li>
                     <RouterLink
-                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/pricing"
                       @click="hide()"
                     >
@@ -80,7 +88,7 @@
                   </li>
                   <li>
                     <RouterLink
-                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/changelog"
                       @click="hide()"
                     >
@@ -96,7 +104,7 @@
             <tippy interactive>
               <RouterLink
                 to="/company"
-                class="px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
+                class="px-2 text-sm font-medium transition rounded-full text-slate-200 hover:text-white"
               >
                 Company
               </RouterLink>
@@ -104,7 +112,7 @@
                 <ul class="flex flex-col my-1">
                   <li>
                     <RouterLink
-                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/about"
                       @click="hide()"
                     >
@@ -114,7 +122,7 @@
                   </li>
                   <li>
                     <RouterLink
-                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/blog"
                       @click="hide()"
                     >
@@ -124,7 +132,7 @@
                   </li>
                   <li>
                     <RouterLink
-                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/careers"
                       @click="hide()"
                     >
@@ -134,7 +142,7 @@
                   </li>
                   <li>
                     <RouterLink
-                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/contact"
                       @click="hide()"
                     >
@@ -150,7 +158,7 @@
             <tippy interactive>
               <RouterLink
                 to="/resources"
-                class="px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
+                class="px-2 text-sm font-medium transition rounded-full text-slate-200 hover:text-white"
               >
                 Resources
               </RouterLink>
@@ -158,11 +166,11 @@
                 <ul class="flex flex-col my-1">
                   <li>
                     <a
-                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       href="https://docs.hoppscotch.io"
-                      @click="hide()"
                       target="_blank"
                       rel="noopener noreferrer"
+                      @click="hide()"
                     >
                       <icon-lucide-file-text class="mr-3" />
                       Documentation
@@ -170,7 +178,7 @@
                   </li>
                   <li>
                     <RouterLink
-                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/community"
                       @click="hide()"
                     >
@@ -180,7 +188,7 @@
                   </li>
                   <li>
                     <RouterLink
-                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/brand"
                       @click="hide()"
                     >
@@ -190,7 +198,7 @@
                   </li>
                   <li>
                     <a
-                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       href="https://shop.hoppscotch.com"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -212,7 +220,7 @@
         >
           <li class="flex rounded-full bg-black/25 backdrop-blur-md">
             <a
-              class="flex items-center justify-center px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
+              class="flex items-center justify-center px-3 py-1 text-sm font-medium transition rounded-full text-slate-200 hover:text-white"
               href="https://github.com/hoppscotch/hoppscotch"
               target="_blank"
               rel="noopener noreferrer"
@@ -245,7 +253,7 @@
         >
           <li class="flex rounded-full bg-black/25 backdrop-blur-md">
             <button
-              class="flex items-center justify-center px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
+              class="flex items-center justify-center px-3 py-1 text-sm font-medium transition rounded-full text-slate-200 hover:text-white"
               @click="isMobileMenuClosed = !isMobileMenuClosed"
             >
               {{ isMobileMenuClosed ? "Menu" : "Close" }}
@@ -267,7 +275,7 @@
         >
           <li class="flex rounded-full bg-black/25 backdrop-blur-md">
             <a
-              class="flex items-center justify-center px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
+              class="flex items-center justify-center px-3 py-1 text-sm font-medium transition rounded-full text-slate-200 hover:text-white"
               href="https://github.com/hoppscotch/hoppscotch"
               target="_blank"
               rel="noopener noreferrer"
@@ -298,7 +306,7 @@
           <li>
             <RouterLink
               to="/products"
-              class="px-2 text-sm font-medium rounded transition text-slate-200 hover:text-white"
+              class="px-2 text-sm font-medium transition rounded text-slate-200 hover:text-white"
               data-aos="fade-right"
               data-aos-delay="50"
             >
@@ -307,7 +315,7 @@
             <ul class="flex flex-col my-1">
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/features"
                   data-aos="fade-right"
                   data-aos-delay="100"
@@ -318,7 +326,7 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/download"
                   data-aos="fade-right"
                   data-aos-delay="150"
@@ -329,7 +337,7 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/pricing"
                   data-aos="fade-right"
                   data-aos-delay="200"
@@ -340,7 +348,7 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/changelog"
                   data-aos="fade-right"
                   data-aos-delay="250"
@@ -354,7 +362,7 @@
           <li>
             <RouterLink
               to="/company"
-              class="px-2 text-sm font-medium rounded transition text-slate-200 hover:text-white"
+              class="px-2 text-sm font-medium transition rounded text-slate-200 hover:text-white"
               data-aos="fade-right"
               data-aos-delay="300"
             >
@@ -363,7 +371,7 @@
             <ul class="flex flex-col my-1">
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/about"
                   data-aos="fade-right"
                   data-aos-delay="350"
@@ -374,7 +382,7 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/blog"
                   data-aos="fade-right"
                   data-aos-delay="400"
@@ -385,7 +393,7 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/careers"
                   data-aos="fade-right"
                   data-aos-delay="450"
@@ -396,7 +404,7 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/contact"
                   data-aos="fade-right"
                   data-aos-delay="500"
@@ -410,7 +418,7 @@
           <li>
             <RouterLink
               to="/resources"
-              class="px-2 text-sm font-medium rounded transition text-slate-200 hover:text-white"
+              class="px-2 text-sm font-medium transition rounded text-slate-200 hover:text-white"
               data-aos="fade-right"
               data-aos-delay="550"
             >
@@ -419,7 +427,7 @@
             <ul class="flex flex-col my-1">
               <li>
                 <a
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   href="https://docs.hoppscotch.io"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -432,7 +440,7 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/community"
                   data-aos="fade-right"
                   data-aos-delay="650"
@@ -443,7 +451,7 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/brand"
                   data-aos="fade-right"
                   data-aos-delay="700"
@@ -454,7 +462,7 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   href="https://shop.hoppscotch.com"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -472,10 +480,3 @@
     </div>
   </header>
 </template>
-<script setup>
-const isMobileMenuClosed = ref(true)
-const router = useRouter()
-watch(router.currentRoute, () => {
-  isMobileMenuClosed.value = true
-})
-</script>

@@ -1,3 +1,37 @@
+<script setup lang="ts">
+// Import Swiper
+import Swiper, { Navigation } from "swiper"
+import "swiper/css"
+
+Swiper.use([Navigation])
+const swiperInitialized = ref(false)
+onMounted(() => {
+  new Swiper(".testimonials-carousel", {
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+      },
+      640: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+    },
+    grabCursor: true,
+    loop: false,
+    centeredSlides: false,
+    initialSlide: 0,
+    spaceBetween: 24,
+    navigation: {
+      nextEl: ".carousel-next",
+      prevEl: ".carousel-prev",
+    },
+  })
+  swiperInitialized.value = true
+})
+</script>
+
 <template>
   <section>
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
@@ -48,7 +82,7 @@
                   />
                   <!-- Radial gradient -->
                   <div
-                    class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
+                    class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
                     aria-hidden="true"
                   >
                     <div
@@ -72,7 +106,7 @@
                     </div>
                     <div class="text-right">
                       <RouterLink
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium transition rounded-full text-slate-200 hover:text-white group"
                         to="/"
                         >Learn More
                         <span
@@ -101,7 +135,7 @@
                   />
                   <!-- Radial gradient -->
                   <div
-                    class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
+                    class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
                     aria-hidden="true"
                   >
                     <div
@@ -125,7 +159,7 @@
                     </div>
                     <div class="text-right">
                       <RouterLink
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium transition rounded-full text-slate-200 hover:text-white group"
                         to="/"
                         >Learn More
                         <span
@@ -154,7 +188,7 @@
                   />
                   <!-- Radial gradient -->
                   <div
-                    class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
+                    class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
                     aria-hidden="true"
                   >
                     <div
@@ -180,7 +214,7 @@
                     </div>
                     <div class="text-right">
                       <RouterLink
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium transition rounded-full text-slate-200 hover:text-white group"
                         to="/"
                         >Learn More
                         <span
@@ -209,7 +243,7 @@
                   />
                   <!-- Radial gradient -->
                   <div
-                    class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
+                    class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
                     aria-hidden="true"
                   >
                     <div
@@ -235,7 +269,7 @@
                     </div>
                     <div class="text-right">
                       <RouterLink
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium transition rounded-full text-slate-200 hover:text-white group"
                         to="/"
                         >Learn More
                         <span
@@ -264,7 +298,7 @@
                   />
                   <!-- Radial gradient -->
                   <div
-                    class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
+                    class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
                     aria-hidden="true"
                   >
                     <div
@@ -288,7 +322,7 @@
                     </div>
                     <div class="text-right">
                       <RouterLink
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
+                        class="inline-flex items-center px-2 text-sm font-medium transition rounded-full text-slate-200 hover:text-white group"
                         to="/"
                         >Learn More
                         <span
@@ -327,35 +361,3 @@
     </div>
   </section>
 </template>
-<script setup>
-// Import Swiper
-import Swiper, { Navigation } from "swiper"
-import "swiper/css"
-Swiper.use([Navigation])
-const swiperInitialized = ref(false)
-onMounted(() => {
-  new Swiper(".testimonials-carousel", {
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-      },
-      640: {
-        slidesPerView: 2,
-      },
-      1024: {
-        slidesPerView: 3,
-      },
-    },
-    grabCursor: true,
-    loop: false,
-    centeredSlides: false,
-    initialSlide: 0,
-    spaceBetween: 24,
-    navigation: {
-      nextEl: ".carousel-next",
-      prevEl: ".carousel-prev",
-    },
-  })
-  swiperInitialized.value = true
-})
-</script>

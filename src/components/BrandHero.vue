@@ -1,3 +1,20 @@
+<script setup lang="ts">
+const primaryColor = "#A855F7"
+const secondaryColor = "#020617"
+const tertiaryColor = "#64748B"
+const { copy: copyPrimaryColor, copied: copiedPrimaryColor } = useClipboard({
+  source: primaryColor,
+})
+const { copy: copySecondaryColor, copied: copiedSecondaryColor } = useClipboard(
+  {
+    source: secondaryColor,
+  }
+)
+const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
+  source: tertiaryColor,
+})
+</script>
+
 <template>
   <section>
     <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
@@ -6,7 +23,7 @@
         class="absolute top-0 left-0 -mt-24 -ml-16 pointer-events-none blur-2xl opacity-70 -z-10"
         aria-hidden="true"
       >
-        <svg xmlns="http://www.w3.org/400/svg" width="434" height="427">
+        <svg xmlns="http://www.w3.org/2000/svg" width="434" height="427">
           <defs>
             <linearGradient
               id="bs4-a"
@@ -39,7 +56,7 @@
           <p class="mt-4 text-sm">
             <RouterLink
               :to="{ path: '', hash: '#newsletter' }"
-              class="font-medium text-indigo-400 rounded transition hover:text-indigo-300"
+              class="font-medium text-indigo-400 transition rounded hover:text-indigo-300"
             >
               Subscribe to updates
             </RouterLink>
@@ -48,7 +65,7 @@
               href="https://twitter.com/hoppscotch_io"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-medium text-indigo-400 rounded transition hover:text-indigo-300"
+              class="font-medium text-indigo-400 transition rounded hover:text-indigo-300"
               >Follow us on Twitter</a
             >
           </p>
@@ -95,7 +112,7 @@
               Hoppscotch as space allows. Monochrome usage is preferred with the
               brand colors below.
             </p>
-            <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3">
+            <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-3">
               <div class="flex flex-col">
                 <div
                   class="flex items-center justify-center h-64 p-8 border bg-slate-900 border-white/10 rounded-t-xl"
@@ -209,7 +226,7 @@
               your audience, as the Hoppscotch wordmark has stronger brand
               recognition.
             </p>
-            <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3">
+            <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-3">
               <div class="flex flex-col">
                 <div
                   class="flex items-center justify-center h-64 p-8 border bg-slate-900 border-white/10 rounded-t-xl"
@@ -322,7 +339,7 @@
               media, or where a "chip" design is required, it is acceptable to
               use this stylized icon with an appropriate corner radius.
             </p>
-            <div class="mt-8 grid grid-cols-1 gap-8">
+            <div class="grid grid-cols-1 gap-8 mt-8">
               <div class="flex flex-col">
                 <div
                   class="flex items-center justify-center h-64 p-8 border bg-slate-900 border-white/10 rounded-t-xl"
@@ -353,7 +370,7 @@
               Slate, which is used for backgrounds and borders. The tertiary
               color is Hoppscotch Gray, which is used for text and icons.
             </p>
-            <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3">
+            <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-3">
               <div class="flex flex-col">
                 <div
                   class="flex items-center justify-center h-64 p-8 bg-purple-500 border border-white/10 rounded-t-xl"
@@ -365,8 +382,8 @@
                 >
                   Primary color
                   <button
-                    @click="copyPrimaryColor(primaryColor)"
                     v-tippy="copiedPrimaryColor ? 'Copied!' : 'Copy color code'"
+                    @click="copyPrimaryColor(primaryColor)"
                   >
                     <icon-lucide-copy v-if="!copiedPrimaryColor" />
                     <icon-lucide-check v-else />
@@ -384,10 +401,10 @@
                 >
                   Secondary color
                   <button
-                    @click="copySecondaryColor(secondaryColor)"
                     v-tippy="
                       copiedSecondaryColor ? 'Copied!' : 'Copy color code'
                     "
+                    @click="copySecondaryColor(secondaryColor)"
                   >
                     <icon-lucide-copy v-if="!copiedSecondaryColor" />
                     <icon-lucide-check v-else />
@@ -405,10 +422,10 @@
                 >
                   Tertiary color
                   <button
-                    @click="copyTertiaryColor(tertiaryColor)"
                     v-tippy="
                       copiedTertiaryColor ? 'Copied!' : 'Copy color code'
                     "
+                    @click="copyTertiaryColor(tertiaryColor)"
                   >
                     <icon-lucide-copy v-if="!copiedTertiaryColor" />
                     <icon-lucide-check v-else />
@@ -456,7 +473,7 @@
                 >Lucide.dev</a
               >.
             </p>
-            <div class="mt-8 grid grid-cols-6 gap-8 md:grid-cols-12">
+            <div class="grid grid-cols-6 gap-8 mt-8 md:grid-cols-12">
               <span class="flex items-center justify-center">
                 <icon-lucide-accessibility />
               </span>
@@ -545,19 +562,3 @@
     </div>
   </section>
 </template>
-<script setup>
-const primaryColor = "#A855F7"
-const secondaryColor = "#020617"
-const tertiaryColor = "#64748B"
-const { copy: copyPrimaryColor, copied: copiedPrimaryColor } = useClipboard({
-  source: primaryColor,
-})
-const { copy: copySecondaryColor, copied: copiedSecondaryColor } = useClipboard(
-  {
-    source: secondaryColor,
-  }
-)
-const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
-  source: tertiaryColor,
-})
-</script>
