@@ -29,7 +29,7 @@ const items = ref([
     role: "Appy Product Lead",
   },
 ])
-const autorotateInterval = ref(null)
+const autorotateInterval = ref()
 function stopAutorotate() {
   clearInterval(autorotateInterval.value)
 }

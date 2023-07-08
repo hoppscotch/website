@@ -8,6 +8,7 @@ import Pages from "vite-plugin-pages"
 import generateSitemap from "vite-plugin-pages-sitemap"
 import { unheadVueComposablesImports } from "@unhead/vue"
 import AutoImport from "unplugin-auto-import/vite"
+import { ElementPlusResolver } from "unplugin-vue-components/resolvers"
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -32,7 +33,7 @@ export default defineConfig({
     AutoImport({
       dts: true,
       eslintrc: {
-        enabled: true, // <-- this
+        enabled: true,
       },
       imports: [
         "vue",
@@ -40,6 +41,9 @@ export default defineConfig({
         "@vueuse/core",
         unheadVueComposablesImports,
       ],
+      resolvers: [ElementPlusResolver()],
+      vueTemplate: true,
+      dirs: ["./components/**"],
     }),
   ],
 })

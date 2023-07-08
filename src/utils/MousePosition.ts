@@ -1,6 +1,6 @@
 export default function useMousePosition() {
   const mousePosition = ref({ x: 0, y: 0 })
-  const handleMouseMove = (event) => {
+  const handleMouseMove = (event: MouseEvent) => {
     mousePosition.value = { x: event.clientX, y: event.clientY }
   }
   onMounted(() => {

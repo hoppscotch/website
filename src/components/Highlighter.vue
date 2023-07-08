@@ -7,11 +7,11 @@ const props = defineProps({
     default: false,
   },
 })
-const containerRef = ref(null)
+const containerRef = ref()
 const mousePosition = useMousePosition()
 const mouse = reactive({ x: 0, y: 0 })
 const containerSize = reactive({ w: 0, h: 0 })
-const boxes = ref([])
+const boxes = ref([]) as Ref<HTMLElement[]>
 onMounted(() => {
   if (containerRef.value) {
     boxes.value = Array.from(containerRef.value.children)

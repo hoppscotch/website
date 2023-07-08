@@ -32,7 +32,7 @@ const items = ref([
     role: "Backend Lead",
   },
 ])
-const autorotateInterval = ref(null)
+const autorotateInterval = ref()
 function stopAutorotate() {
   clearInterval(autorotateInterval.value)
 }
@@ -279,7 +279,7 @@ onBeforeUnmount(() => {
             </TransitionGroup>
             <!-- Bullets -->
             <div class="flex justify-center mt-6">
-              <template v-for="(item, index) in items" :key="index">
+              <template v-for="(_item, index) in items" :key="index">
                 <button
                   class="p-1 group"
                   @click="

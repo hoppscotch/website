@@ -1,33 +1,43 @@
 <script setup lang="ts">
-import mediumZoom from "medium-zoom"
+import {
+  type ComponentPublicInstance,
+  type ImgHTMLAttributes,
+  watch,
+} from "vue"
+import mediumZoom, { type Zoom, type ZoomOptions } from "medium-zoom"
 
-const props = defineProps({
-  options: {
-    type: Object,
-    default: () => ({ margin: 20 }),
-  },
-})
-let zoom = null
+interface Props extends /* @vue-ignore */ ImgHTMLAttributes {
+  options?: ZoomOptions
+}
+
+const props = defineProps<Props>()
+
+let zoom: Zoom | null = null
+
 function getZoom() {
   if (zoom === null) {
     zoom = mediumZoom(props.options)
   }
+
   return zoom
 }
-function attachZoom(ref) {
-  const image = ref
+
+function attachZoom(ref: Element | ComponentPublicInstance | null) {
+  const image = ref as HTMLImageElement | null
   const zoom = getZoom()
+
   if (image) {
     zoom.attach(image)
   } else {
     zoom.detach()
   }
 }
+
 watch(
   () => props.options,
   (options) => {
     const zoom = getZoom()
-    zoom.update(options || props.default)
+    zoom.update(options || {})
   }
 )
 </script>

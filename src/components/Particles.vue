@@ -19,10 +19,10 @@ const props = defineProps({
     default: false,
   },
 })
-const canvasRef = ref(null)
-const canvasContainerRef = ref(null)
-const context = ref(null)
-const circles = ref([])
+const canvasRef = ref()
+const canvasContainerRef = ref()
+const context = ref()
+const circles = ref([]) as Ref<Circle[]>
 const mousePosition = useMousePosition()
 const mouse = reactive({ x: 0, y: 0 })
 const canvasSize = reactive({ w: 0, h: 0 })
@@ -103,7 +103,10 @@ function circleParams() {
     magnetism,
   }
 }
-function drawCircle(circle, update = false) {
+
+type Circle = ReturnType<typeof circleParams>
+
+function drawCircle(circle: Circle, update = false) {
   if (context.value) {
     const { x, y, translateX, translateY, size, alpha } = circle
     context.value.translate(translateX, translateY)
@@ -130,7 +133,13 @@ function drawParticles() {
     drawCircle(circle)
   }
 }
-function remapValue(value, start1, end1, start2, end2) {
+function remapValue(
+  value: number,
+  start1: number,
+  end1: number,
+  start2: number,
+  end2: number
+) {
   const remapped =
     ((value - start1) * (end2 - start2)) / (end1 - start1) + start2
   return remapped > 0 ? remapped : 0
