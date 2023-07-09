@@ -37,7 +37,10 @@ const { copy, copied } = useClipboard({
             </RouterLink>
             <span class="mx-4 text-slate-800">|</span>
             <a
-              v-tippy="'Follow us on Twitter'"
+              v-tippy="{
+                content: 'Follow us on Twitter',
+                theme: 'tooltip',
+              }"
               href="https://twitter.com/hoppscotch_io"
               target="_blank"
               rel="noopener noreferrer"
@@ -47,7 +50,10 @@ const { copy, copied } = useClipboard({
             </a>
             <span class="mx-4 text-slate-800">|</span>
             <button
-              v-tippy="copied ? 'Copied!' : 'Copy permalink'"
+              v-tippy="{
+                content: copied ? 'Copied!' : 'Copy permalink',
+                theme: 'tooltip',
+              }"
               class="text-indigo-400 transition rounded hover:text-indigo-300"
               @click="copy(source)"
             >

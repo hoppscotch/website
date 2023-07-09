@@ -6,7 +6,6 @@ import router from "./router"
 import App from "./App.vue"
 import "tippy.js/dist/tippy.css"
 import "tippy.js/dist/svg-arrow.css"
-import "tippy.js/themes/light.css"
 import "tippy.js/animations/scale-subtle.css"
 import "aos/dist/aos.css"
 import "nprogress/nprogress.css"
@@ -23,7 +22,6 @@ app.use(VueTippy, {
     allowHTML: false,
     animateFill: false,
     arrow: roundArrow + roundArrow,
-    theme: "light",
     offset: [0, 16],
     popperOptions: {
       modifiers: [

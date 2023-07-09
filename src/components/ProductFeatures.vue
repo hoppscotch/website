@@ -51,85 +51,84 @@ const tab = ref(1)
           <div class="grid grid-cols-2 gap-6 pb-8 sm:grid-cols-4">
             <div data-aos="fade-up" data-aos-delay="100">
               <button
-                class="w-full p-4 text-center transition-opacity opacity-50 grow rounded-xl hover:bg-blue-500/10"
+                class="w-full p-4 text-center transition-opacity opacity-50 grow rounded-xl hover:bg-purple-500/10"
                 :class="{
-                  'bg-blue-500/10 !opacity-100 ring-1 ring-blue-600': tab === 1,
+                  'bg-purple-500/10 !opacity-100 ring-1 ring-purple-600':
+                    tab === 1,
                 }"
                 @click="tab = 1"
               >
                 <div
-                  class="inline-flex p-4 mb-4 bg-blue-600 rounded-full shadow-md"
+                  class="inline-flex p-4 mb-4 bg-purple-600 rounded-full shadow-md"
                 >
-                  <icon-lucide-rocket />
+                  <icon-lucide-cloudy />
                 </div>
                 <div
                   class="text-sm font-medium leading-tight"
                   :class="{ 'text-slate-200': tab === 1 }"
                 >
-                  Self-Host
+                  Cloud
                 </div>
               </button>
             </div>
             <div data-aos="fade-up" data-aos-delay="200">
               <button
-                class="w-full p-4 text-center transition-opacity opacity-50 grow rounded-xl hover:bg-purple-500/10"
+                class="w-full p-4 text-center transition-opacity opacity-50 grow rounded-xl hover:bg-red-500/10"
                 :class="{
-                  'bg-purple-500/10 !opacity-100 ring-1 ring-purple-600':
-                    tab === 2,
+                  'bg-red-500/10 !opacity-100 ring-1 ring-red-600': tab === 2,
                 }"
                 @click="tab = 2"
               >
                 <div
-                  class="inline-flex p-4 mb-4 bg-purple-600 rounded-full shadow-md"
+                  class="inline-flex p-4 mb-4 bg-red-600 rounded-full shadow-md"
                 >
-                  <icon-lucide-rocket />
+                  <icon-lucide-building-2 />
                 </div>
                 <div
                   class="text-sm font-medium leading-tight"
                   :class="{ 'text-slate-200': tab === 2 }"
                 >
-                  Cloud
+                  Enterprise
                 </div>
               </button>
             </div>
             <div data-aos="fade-up" data-aos-delay="300">
               <button
-                class="w-full p-4 text-center transition-opacity opacity-50 grow rounded-xl hover:bg-red-500/10"
+                class="w-full p-4 text-center transition-opacity opacity-50 grow rounded-xl hover:bg-blue-500/10"
                 :class="{
-                  'bg-red-500/10 !opacity-100 ring-1 ring-red-600': tab === 3,
+                  'bg-blue-500/10 !opacity-100 ring-1 ring-blue-600': tab === 3,
                 }"
                 @click="tab = 3"
               >
                 <div
-                  class="inline-flex p-4 mb-4 bg-red-600 rounded-full shadow-md"
+                  class="inline-flex p-4 mb-4 bg-blue-600 rounded-full shadow-md"
                 >
-                  <icon-lucide-rocket />
+                  <icon-lucide-server />
                 </div>
                 <div
                   class="text-sm font-medium leading-tight"
                   :class="{ 'text-slate-200': tab === 3 }"
                 >
-                  Enterprise
+                  Self-Host
                 </div>
               </button>
             </div>
             <div data-aos="fade-up" data-aos-delay="400">
               <button
-                class="w-full p-4 text-center transition-opacity opacity-50 grow rounded-xl hover:bg-slate-500/10"
+                class="w-full p-4 text-center transition-opacity opacity-50 grow rounded-xl hover:bg-gray-500/10"
                 :class="{
-                  'bg-slate-500/10 !opacity-100 ring-1 ring-slate-600':
-                    tab === 4,
+                  'bg-gray-500/10 !opacity-100 ring-1 ring-gray-600': tab === 4,
                 }"
                 @click="tab = 4"
               >
                 <div
-                  class="inline-flex p-4 mb-4 rounded-full shadow-md bg-slate-600"
+                  class="inline-flex p-4 mb-4 bg-gray-600 rounded-full shadow-md"
                 >
-                  <icon-lucide-rocket />
+                  <icon-lucide-terminal-square />
                 </div>
                 <div
                   class="text-sm font-medium leading-tight"
-                  :class="{ 'text-slate-200': tab === 4 }"
+                  :class="{ 'text-gray-200': tab === 4 }"
                 >
                   CLI
                 </div>

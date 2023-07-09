@@ -382,7 +382,12 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
                 >
                   Primary color
                   <button
-                    v-tippy="copiedPrimaryColor ? 'Copied!' : 'Copy color code'"
+                    v-tippy="{
+                      content: copiedPrimaryColor
+                        ? 'Copied!'
+                        : 'Copy color code',
+                      theme: 'tooltip',
+                    }"
                     @click="copyPrimaryColor(primaryColor)"
                   >
                     <icon-lucide-copy v-if="!copiedPrimaryColor" />
@@ -401,9 +406,12 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
                 >
                   Secondary color
                   <button
-                    v-tippy="
-                      copiedSecondaryColor ? 'Copied!' : 'Copy color code'
-                    "
+                    v-tippy="{
+                      content: copiedSecondaryColor
+                        ? 'Copied!'
+                        : 'Copy color code',
+                      theme: 'tooltip',
+                    }"
                     @click="copySecondaryColor(secondaryColor)"
                   >
                     <icon-lucide-copy v-if="!copiedSecondaryColor" />
@@ -422,9 +430,12 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
                 >
                   Tertiary color
                   <button
-                    v-tippy="
-                      copiedTertiaryColor ? 'Copied!' : 'Copy color code'
-                    "
+                    v-tippy="{
+                      content: copiedTertiaryColor
+                        ? 'Copied!'
+                        : 'Copy color code',
+                      theme: 'tooltip',
+                    }"
                     @click="copyTertiaryColor(tertiaryColor)"
                   >
                     <icon-lucide-copy v-if="!copiedTertiaryColor" />
