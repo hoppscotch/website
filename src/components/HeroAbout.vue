@@ -1,7 +1,7 @@
 <template>
   <section class="relative">
     <!-- Background image -->
-    <div class="box-content absolute inset-0 pt-16 h-128 -z-1">
+    <div class="absolute inset-0 pt-16 box-content h-128 -z-1">
       <img
         class="absolute inset-0 object-cover w-full h-full opacity-25"
         src="/images/company-hero-bg.jpg"
@@ -20,7 +20,7 @@
           <div class="relative flex items-center justify-center">
             <div class="relative inline-flex items-start" data-aos="fade-up">
               <img
-                class="rounded-md opacity-50"
+                class="opacity-50 rounded-md"
                 src="/images/company-team.jpg"
                 height="432"
                 alt="About hero"

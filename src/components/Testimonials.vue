@@ -72,9 +72,9 @@ onBeforeUnmount(() => {
               <TransitionGroup
                 enter-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-500 order-first"
                 enter-from-class="opacity-0 -rotate-[60deg]"
-                enter-to-class="rotate-0 opacity-100"
+                enter-to-class="opacity-100 rotate-0"
                 leave-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-500"
-                leave-from-class="rotate-0 opacity-100"
+                leave-from-class="opacity-100 rotate-0"
                 leave-to-class="opacity-0 rotate-[60deg]"
               >
                 <template v-for="(item, index) in items" :key="index">
@@ -83,7 +83,7 @@ onBeforeUnmount(() => {
                     class="absolute inset-0 h-full -z-10"
                   >
                     <img
-                      class="relative -translate-x-1/2 rounded-full top-11 left-1/2"
+                      class="relative rounded-full -translate-x-1/2 top-11 left-1/2"
                       :src="item.img"
                       width="56"
                       height="56"
@@ -98,11 +98,11 @@ onBeforeUnmount(() => {
           <div class="relative flex flex-col mb-10">
             <TransitionGroup
               enter-active-class="order-first transition duration-500 delay-200"
-              enter-from-class="-translate-x-4 opacity-0"
-              enter-to-class="translate-x-0 opacity-100"
+              enter-from-class="opacity-0 -translate-x-4"
+              enter-to-class="opacity-100 translate-x-0"
               leave-active-class="absolute transition duration-500 delay-300"
-              leave-from-class="translate-x-0 opacity-100"
-              leave-to-class="translate-x-4 opacity-0"
+              leave-from-class="opacity-100 translate-x-0"
+              leave-to-class="opacity-0 translate-x-4"
             >
               <template v-for="(item, index) in items" :key="index">
                 <div v-if="active === index">

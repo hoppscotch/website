@@ -81,7 +81,7 @@
           aliquid beatae.
         </p>
         <ul
-          class="mt-4 mb-8 ml-5 space-y-2 list-disc text-slate-400 marker:text-slate-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-slate-500"
         >
           <li class="pl-4">Lorem, ipsum.</li>
           <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -102,7 +102,7 @@
           Added
         </h3>
         <ul
-          class="mt-4 mb-8 ml-5 space-y-2 list-disc text-slate-400 marker:text-green-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-green-500"
         >
           <li class="pl-4">Lorem, ipsum.</li>
           <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -114,7 +114,7 @@
           Changed
         </h3>
         <ul
-          class="mt-4 mb-8 ml-5 space-y-2 list-disc text-slate-400 marker:text-amber-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-amber-500"
         >
           <li class="pl-4">Lorem, ipsum.</li>
           <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -126,7 +126,7 @@
           Deprecated
         </h3>
         <ul
-          class="mt-4 mb-8 ml-5 space-y-2 list-disc text-slate-400 marker:text-pink-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-pink-500"
         >
           <li class="pl-4">Lorem, ipsum.</li>
           <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -138,7 +138,7 @@
           Removed
         </h3>
         <ul
-          class="mt-4 mb-8 ml-5 space-y-2 list-disc text-slate-400 marker:text-red-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-red-500"
         >
           <li class="pl-4">Lorem, ipsum.</li>
           <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -150,7 +150,7 @@
           Fixed
         </h3>
         <ul
-          class="mt-4 mb-8 ml-5 space-y-2 list-disc text-slate-400 marker:text-teal-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
         >
           <li class="pl-4">Lorem, ipsum.</li>
           <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -162,7 +162,7 @@
           Security
         </h3>
         <ul
-          class="mt-4 mb-8 ml-5 space-y-2 list-disc text-slate-400 marker:text-blue-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-blue-500"
         >
           <li class="pl-4">Lorem, ipsum.</li>
           <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -174,7 +174,7 @@
           Performance
         </h3>
         <ul
-          class="mt-4 mb-8 ml-5 space-y-2 list-disc text-slate-400 marker:text-indigo-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-indigo-500"
         >
           <li class="pl-4">Lorem, ipsum.</li>
           <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -186,7 +186,7 @@
           Other
         </h3>
         <ul
-          class="mt-4 mb-8 ml-5 space-y-2 list-disc text-slate-400 marker:text-purple-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-purple-500"
         >
           <li class="pl-4">Lorem, ipsum.</li>
           <li class="pl-4">Lorem, ipsum dolor.</li>

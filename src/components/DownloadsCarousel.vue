@@ -61,7 +61,7 @@ onMounted(() => {
                 />
                 <!-- Radial gradient -->
                 <div
-                  class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                  class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                   aria-hidden="true"
                 >
                   <div
@@ -84,7 +84,7 @@ onMounted(() => {
                   </div>
                   <div class="text-right">
                     <RouterLink
-                      class="inline-flex items-center px-2 text-sm font-medium transition rounded-full text-slate-200 hover:text-white group"
+                      class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                       to="/"
                     >
                       Download
@@ -114,7 +114,7 @@ onMounted(() => {
                 />
                 <!-- Radial gradient -->
                 <div
-                  class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                  class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                   aria-hidden="true"
                 >
                   <div
@@ -139,7 +139,7 @@ onMounted(() => {
                   </div>
                   <div class="text-right">
                     <RouterLink
-                      class="inline-flex items-center px-2 text-sm font-medium transition rounded-full text-slate-200 hover:text-white group"
+                      class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                       to="/"
                     >
                       Download
@@ -169,7 +169,7 @@ onMounted(() => {
                 />
                 <!-- Radial gradient -->
                 <div
-                  class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                  class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                   aria-hidden="true"
                 >
                   <div
@@ -192,7 +192,7 @@ onMounted(() => {
                   </div>
                   <div class="text-right">
                     <RouterLink
-                      class="inline-flex items-center px-2 text-sm font-medium transition rounded-full text-slate-200 hover:text-white group"
+                      class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                       to="/"
                     >
                       Download
@@ -222,7 +222,7 @@ onMounted(() => {
                 />
                 <!-- Radial gradient -->
                 <div
-                  class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                  class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                   aria-hidden="true"
                 >
                   <div
@@ -241,7 +241,7 @@ onMounted(() => {
                   </div>
                   <div class="text-right">
                     <a
-                      class="inline-flex items-center px-2 text-sm font-medium transition rounded-full text-slate-200 hover:text-white group"
+                      class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                       href="https://hoppscotch.io"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -273,7 +273,7 @@ onMounted(() => {
                 />
                 <!-- Radial gradient -->
                 <div
-                  class="absolute bottom-0 w-1/3 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                  class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                   aria-hidden="true"
                 >
                   <div
@@ -294,7 +294,7 @@ onMounted(() => {
                   </div>
                   <div class="text-right">
                     <RouterLink
-                      class="inline-flex items-center px-2 text-sm font-medium transition rounded-full text-slate-200 hover:text-white group"
+                      class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                       to="/"
                     >
                       Install

@@ -40,7 +40,7 @@
                   aria-hidden="true"
                 ></div>
                 <div
-                  class="box-content absolute left-0 w-2 h-2 ml-20 transform -translate-x-1/2 bg-green-500 border-4 rounded-full border-slate-800"
+                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-slate-800"
                   aria-hidden="true"
                 ></div>
                 <h4 class="h4">Hoppscotch was founded in Kerala, India</h4>
@@ -74,7 +74,7 @@
                   aria-hidden="true"
                 ></div>
                 <div
-                  class="box-content absolute left-0 w-2 h-2 ml-20 transform -translate-x-1/2 bg-green-500 border-4 rounded-full border-slate-800"
+                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-slate-800"
                   aria-hidden="true"
                 ></div>
                 <h4 class="h4">
@@ -109,7 +109,7 @@
                   aria-hidden="true"
                 ></div>
                 <div
-                  class="box-content absolute left-0 w-2 h-2 ml-20 transform -translate-x-1/2 bg-green-500 border-4 rounded-full border-slate-800"
+                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-slate-800"
                   aria-hidden="true"
                 ></div>
                 <h4 class="h4">$3 million seed funding from OSS Capital</h4>
@@ -142,7 +142,7 @@
                   aria-hidden="true"
                 ></div>
                 <div
-                  class="box-content absolute left-0 w-2 h-2 ml-20 transform -translate-x-1/2 bg-green-500 border-4 rounded-full border-slate-800"
+                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-slate-800"
                   aria-hidden="true"
                 ></div>
                 <h4 class="h4">1 million happy users</h4>
@@ -171,7 +171,7 @@
                   2023
                 </div>
                 <div
-                  class="box-content absolute left-0 w-2 h-2 ml-20 transform -translate-x-1/2 bg-green-500 border-4 rounded-full border-slate-800"
+                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-slate-800"
                   aria-hidden="true"
                 ></div>
                 <h4 class="h4">50,000 GitHub Stars</h4>

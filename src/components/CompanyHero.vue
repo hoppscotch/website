@@ -152,7 +152,7 @@ onBeforeUnmount(() => {
                 aria-hidden="true"
               >
                 <div
-                  class="bottom-0 transform translate-y-8 border-l border-dashed h-1/2 border-slate-700"
+                  class="bottom-0 border-l border-dashed transform translate-y-8 h-1/2 border-slate-700"
                 ></div>
               </div>
               <!-- People pics -->
@@ -248,11 +248,11 @@ onBeforeUnmount(() => {
             <!-- Testimonials -->
             <TransitionGroup
               enter-active-class="order-first transition duration-500 transform"
-              enter-from-class="scale-90 opacity-0"
-              enter-to-class="scale-100 opacity-100"
+              enter-from-class="opacity-0 scale-90"
+              enter-to-class="opacity-100 scale-100"
               leave-active-class="absolute transition duration-300 transform"
-              leave-from-class="scale-100 opacity-100"
-              leave-to-class="scale-90 opacity-0"
+              leave-from-class="opacity-100 scale-100"
+              leave-to-class="opacity-0 scale-90"
             >
               <template v-for="(item, index) in items" :key="index">
                 <div v-show="active === index" class="text-center">
@@ -290,7 +290,7 @@ onBeforeUnmount(() => {
                   "
                 >
                   <span
-                    class="block w-2 h-2 transition rounded-full group-hover:bg-slate-400"
+                    class="block w-2 h-2 rounded-full transition group-hover:bg-slate-400"
                     :class="active === index ? 'bg-slate-200' : 'bg-slate-500'"
                   ></span>
                 </button>

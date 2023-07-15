@@ -61,7 +61,7 @@ function initDownload() {
               >
                 <!-- Radial gradient -->
                 <div
-                  class="absolute bottom-0 w-1/2 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                  class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                   aria-hidden="true"
                 >
                   <div
@@ -79,7 +79,7 @@ function initDownload() {
                 >
                   <button
                     v-if="!isDownloading"
-                    class="transition shadow-xl btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                    class="shadow-xl transition btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                     @click="initDownload"
                   >
                     <span class="mr-1"> Download </span>

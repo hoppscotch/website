@@ -48,10 +48,10 @@ const tab = ref(1)
         <!-- Section content -->
         <div class="max-w-3xl mx-auto">
           <!-- Tabs buttons -->
-          <div class="grid grid-cols-2 gap-6 pb-8 sm:grid-cols-4">
+          <div class="pb-8 grid grid-cols-2 gap-6 sm:grid-cols-4">
             <div data-aos="fade-up" data-aos-delay="100">
               <button
-                class="w-full p-4 text-center transition-opacity opacity-50 grow rounded-xl hover:bg-purple-500/10"
+                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-purple-500/10"
                 :class="{
                   'bg-purple-500/10 !opacity-100 ring-1 ring-purple-600':
                     tab === 1,
@@ -73,7 +73,7 @@ const tab = ref(1)
             </div>
             <div data-aos="fade-up" data-aos-delay="200">
               <button
-                class="w-full p-4 text-center transition-opacity opacity-50 grow rounded-xl hover:bg-red-500/10"
+                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-red-500/10"
                 :class="{
                   'bg-red-500/10 !opacity-100 ring-1 ring-red-600': tab === 2,
                 }"
@@ -94,7 +94,7 @@ const tab = ref(1)
             </div>
             <div data-aos="fade-up" data-aos-delay="300">
               <button
-                class="w-full p-4 text-center transition-opacity opacity-50 grow rounded-xl hover:bg-blue-500/10"
+                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-blue-500/10"
                 :class="{
                   'bg-blue-500/10 !opacity-100 ring-1 ring-blue-600': tab === 3,
                 }"
@@ -115,7 +115,7 @@ const tab = ref(1)
             </div>
             <div data-aos="fade-up" data-aos-delay="400">
               <button
-                class="w-full p-4 text-center transition-opacity opacity-50 grow rounded-xl hover:bg-gray-500/10"
+                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-gray-500/10"
                 :class="{
                   'bg-gray-500/10 !opacity-100 ring-1 ring-gray-600': tab === 4,
                 }"
@@ -139,11 +139,11 @@ const tab = ref(1)
           <div class="relative flex flex-col" data-aos="fade-up">
             <Transition
               enter-active-class="order-first transition duration-500 "
-              enter-from-class="-translate-y-8 opacity-0"
-              enter-to-class="translate-y-0 opacity-100"
+              enter-from-class="opacity-0 -translate-y-8"
+              enter-to-class="opacity-100 translate-y-0"
               leave-active-class="absolute transition duration-500 "
               leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="translate-y-8 opacity-0"
+              leave-to-class="opacity-0 translate-y-8"
             >
               <div v-if="tab === 1" class="w-full">
                 <Highlighter class="group">
@@ -153,7 +153,7 @@ const tab = ref(1)
                     >
                       <!-- Radial gradient -->
                       <div
-                        class="absolute bottom-0 w-1/2 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                        class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                         aria-hidden="true"
                       >
                         <div
@@ -168,7 +168,7 @@ const tab = ref(1)
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="transition shadow-xl btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="shadow-xl transition btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
@@ -186,11 +186,11 @@ const tab = ref(1)
             </Transition>
             <Transition
               enter-active-class="order-first transition duration-500 "
-              enter-from-class="-translate-y-8 opacity-0"
-              enter-to-class="translate-y-0 opacity-100"
+              enter-from-class="opacity-0 -translate-y-8"
+              enter-to-class="opacity-100 translate-y-0"
               leave-active-class="absolute transition duration-500 "
               leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="translate-y-8 opacity-0"
+              leave-to-class="opacity-0 translate-y-8"
             >
               <div v-if="tab === 2" class="w-full">
                 <Highlighter class="group">
@@ -200,7 +200,7 @@ const tab = ref(1)
                     >
                       <!-- Radial gradient -->
                       <div
-                        class="absolute bottom-0 w-1/2 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                        class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                         aria-hidden="true"
                       >
                         <div
@@ -215,7 +215,7 @@ const tab = ref(1)
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="transition shadow-xl btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="shadow-xl transition btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
@@ -233,11 +233,11 @@ const tab = ref(1)
             </Transition>
             <Transition
               enter-active-class="order-first transition duration-500 "
-              enter-from-class="-translate-y-8 opacity-0"
-              enter-to-class="translate-y-0 opacity-100"
+              enter-from-class="opacity-0 -translate-y-8"
+              enter-to-class="opacity-100 translate-y-0"
               leave-active-class="absolute transition duration-500 "
               leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="translate-y-8 opacity-0"
+              leave-to-class="opacity-0 translate-y-8"
             >
               <div v-if="tab === 3" class="w-full">
                 <Highlighter class="group">
@@ -247,7 +247,7 @@ const tab = ref(1)
                     >
                       <!-- Radial gradient -->
                       <div
-                        class="absolute bottom-0 w-1/2 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                        class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                         aria-hidden="true"
                       >
                         <div
@@ -262,7 +262,7 @@ const tab = ref(1)
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="transition shadow-xl btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="shadow-xl transition btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
@@ -280,11 +280,11 @@ const tab = ref(1)
             </Transition>
             <Transition
               enter-active-class="order-first transition duration-500 "
-              enter-from-class="-translate-y-8 opacity-0"
-              enter-to-class="translate-y-0 opacity-100"
+              enter-from-class="opacity-0 -translate-y-8"
+              enter-to-class="opacity-100 translate-y-0"
               leave-active-class="absolute transition duration-500 "
               leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="translate-y-8 opacity-0"
+              leave-to-class="opacity-0 translate-y-8"
             >
               <div v-if="tab === 4" class="w-full">
                 <Highlighter class="group">
@@ -294,7 +294,7 @@ const tab = ref(1)
                     >
                       <!-- Radial gradient -->
                       <div
-                        class="absolute bottom-0 w-1/2 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                        class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                         aria-hidden="true"
                       >
                         <div
@@ -309,7 +309,7 @@ const tab = ref(1)
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="transition shadow-xl btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="shadow-xl transition btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download

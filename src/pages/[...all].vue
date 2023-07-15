@@ -18,7 +18,7 @@ useHead({
       The page you are looking for does not exist.
     </h2>
     <RouterLink
-      class="flex items-center justify-center px-2 py-1 font-medium transition rounded text-slate-400 hover:text-slate-200"
+      class="flex items-center justify-center px-2 py-1 font-medium rounded transition text-slate-400 hover:text-slate-200"
       to="/"
     >
       <icon-lucide-home class="mr-4" />

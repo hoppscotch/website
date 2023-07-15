@@ -44,7 +44,7 @@
           Security
         </h3>
         <ul
-          class="mt-4 mb-8 ml-5 space-y-2 list-disc text-slate-400 marker:text-blue-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-blue-500"
         >
           <li class="pl-4">Fixed a High Severity Security issue.</li>
         </ul>

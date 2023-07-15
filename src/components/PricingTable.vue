@@ -43,7 +43,7 @@ const annual = ref(true)
         <div class="relative">
           <!-- Blurred shape -->
           <div
-            class="absolute bottom-0 -mb-20 -translate-x-1/2 pointer-events-none max-md:hidden left-2/3 blur-2xl opacity-70"
+            class="absolute bottom-0 -mb-20 pointer-events-none -translate-x-1/2 max-md:hidden left-2/3 blur-2xl opacity-70"
             aria-hidden="true"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="434" height="427">
@@ -157,7 +157,7 @@ const annual = ref(true)
               </div>
               <div class="pb-4 border-b border-slate-900">
                 <RouterLink
-                  class="w-full text-white transition bg-purple-500 btn-sm hover:bg-purple-600 group"
+                  class="w-full text-white bg-purple-500 transition btn-sm hover:bg-purple-600 group"
                   to="/products"
                 >
                   Get Started

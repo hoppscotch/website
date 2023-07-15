@@ -77,7 +77,7 @@
           Added
         </h3>
         <ul
-          class="mt-4 mb-8 ml-5 space-y-2 list-disc text-slate-400 marker:text-green-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-green-500"
         >
           <li class="pl-4">Self-hosted support.</li>
           <li class="pl-4">Tabs.</li>
@@ -89,7 +89,7 @@
           Deprecated
         </h3>
         <ul
-          class="mt-4 mb-8 ml-5 space-y-2 list-disc text-slate-400 marker:text-pink-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-pink-500"
         >
           <li class="pl-4">Hosted Docker image.</li>
         </ul>

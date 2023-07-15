@@ -31,7 +31,7 @@
         </div>
         <!-- Items -->
         <div
-          class="grid items-start max-w-sm gap-6 mx-auto md:grid-cols-2 lg:grid-cols-3 md:max-w-2xl lg:max-w-none"
+          class="items-start max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 md:max-w-2xl lg:max-w-none"
         >
           <!-- item -->
           <div

@@ -37,7 +37,7 @@
                 <p class="text-sm text-slate-500">Chief Executive Officer</p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 transition rounded-full text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -45,7 +45,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 transition rounded-full text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -73,7 +73,7 @@
                 <p class="text-sm text-slate-500">Chief Technology Officer</p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 transition rounded-full text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -81,7 +81,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 transition rounded-full text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -109,7 +109,7 @@
                 <p class="text-sm text-slate-500">Product Manager</p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 transition rounded-full text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -117,7 +117,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 transition rounded-full text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -147,7 +147,7 @@
                 <p class="text-sm text-slate-500">Product Engineer</p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 transition rounded-full text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -155,7 +155,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 transition rounded-full text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -185,7 +185,7 @@
                 <p class="text-sm text-slate-500">Product Engineer</p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 transition rounded-full text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -193,7 +193,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 transition rounded-full text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -221,7 +221,7 @@
                 <p class="text-sm text-slate-500">Product Engineer</p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 transition rounded-full text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -229,7 +229,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 transition rounded-full text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -257,7 +257,7 @@
                 <p class="text-sm text-slate-500">Product Engineer</p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 transition rounded-full text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -265,7 +265,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 transition rounded-full text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -295,7 +295,7 @@
                 <p class="text-sm text-slate-500">Product Engineer</p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 transition rounded-full text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -303,7 +303,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 transition rounded-full text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -331,7 +331,7 @@
                 <p class="text-sm text-slate-500">Product Engineer</p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 transition rounded-full text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -339,7 +339,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 transition rounded-full text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -369,7 +369,7 @@
                 <p class="text-sm text-slate-500">Product Engineer</p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 transition rounded-full text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -377,7 +377,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 transition rounded-full text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"

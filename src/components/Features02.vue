@@ -25,7 +25,7 @@
         <div class="relative pb-12 md:pb-20">
           <!-- Blurred shape -->
           <div
-            class="absolute bottom-0 -mb-20 -translate-x-1/2 opacity-50 pointer-events-none left-1/2 blur-2xl"
+            class="absolute bottom-0 -mb-20 opacity-50 pointer-events-none -translate-x-1/2 left-1/2 blur-2xl"
             aria-hidden="true"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="434" height="427">
@@ -97,7 +97,7 @@
                     </div>
                     <!-- Radial gradient -->
                     <div
-                      class="absolute bottom-0 flex items-center justify-center h-full -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                      class="absolute bottom-0 flex items-center justify-center h-full pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                       aria-hidden="true"
                     >
                       <div
@@ -165,7 +165,7 @@
                   <div class="flex flex-col">
                     <!-- Radial gradient -->
                     <div
-                      class="absolute bottom-0 w-1/2 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                      class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                       aria-hidden="true"
                     >
                       <div
@@ -213,7 +213,7 @@
                   <div class="flex flex-col">
                     <!-- Radial gradient -->
                     <div
-                      class="absolute bottom-0 w-1/2 -translate-x-1/2 translate-y-1/2 pointer-events-none left-1/2 -z-10 aspect-square"
+                      class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                       aria-hidden="true"
                     >
                       <div

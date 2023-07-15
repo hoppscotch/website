@@ -23,7 +23,7 @@ const { copy, copied } = useClipboard({
         <div class="flex items-center justify-between pb-12 md:pb-20">
           <RouterLink
             to="/resources"
-            class="inline-flex items-center px-2 py-1 text-sm transition rounded-full text-slate-400 hover:text-slate-200"
+            class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-400 hover:text-slate-200"
           >
             <icon-lucide-arrow-left class="mr-2" />
             Back
@@ -31,7 +31,7 @@ const { copy, copied } = useClipboard({
           <span class="flex items-center text-sm">
             <RouterLink
               :to="{ path: '', hash: '#newsletter' }"
-              class="font-medium text-indigo-400 transition rounded hover:text-indigo-300"
+              class="font-medium text-indigo-400 rounded transition hover:text-indigo-300"
             >
               Subscribe to updates
             </RouterLink>
@@ -44,7 +44,7 @@ const { copy, copied } = useClipboard({
               href="https://twitter.com/hoppscotch_io"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-medium text-indigo-400 transition rounded hover:text-indigo-300"
+              class="font-medium text-indigo-400 rounded transition hover:text-indigo-300"
             >
               <icon-lucide-twitter />
             </a>
@@ -54,7 +54,7 @@ const { copy, copied } = useClipboard({
                 content: copied ? 'Copied!' : 'Copy permalink',
                 theme: 'tooltip',
               }"
-              class="text-indigo-400 transition rounded hover:text-indigo-300"
+              class="text-indigo-400 rounded transition hover:text-indigo-300"
               @click="copy(source)"
             >
               <icon-lucide-copy v-if="!copied" />

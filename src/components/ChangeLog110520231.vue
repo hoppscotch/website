@@ -49,7 +49,7 @@
           Added
         </h3>
         <ul
-          class="mt-4 mb-8 ml-5 space-y-2 list-disc text-slate-400 marker:text-green-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-green-500"
         >
           <li class="pl-4">Scroll to show the new active tab header</li>
           <li class="pl-4">
@@ -61,7 +61,7 @@
           Fixed
         </h3>
         <ul
-          class="mt-4 mb-8 ml-5 space-y-2 list-disc text-slate-400 marker:text-teal-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
         >
           <li class="pl-4">Reset envs when user switches workspaces.</li>
           <li class="pl-4">

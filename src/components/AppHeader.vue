@@ -43,14 +43,14 @@ watch(router.currentRoute, () => {
         </ul>
         <!-- Desktop menu links -->
         <ul
-          class="items-center justify-center hidden px-3 space-x-2 rounded-full flex-nowrap md:flex bg-black/25 backdrop-blur-md"
+          class="items-center justify-center flex-shrink-0 hidden px-3 rounded-full space-x-2 flex-nowrap md:flex bg-black/25 backdrop-blur-md"
           data-aos="fade-down"
         >
           <li>
             <tippy interactive theme="popover">
               <RouterLink
                 to="/products"
-                class="px-2 text-sm font-medium transition rounded-full text-slate-200 hover:text-white"
+                class="flex flex-shrink-0 px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
               >
                 Products
               </RouterLink>
@@ -65,7 +65,7 @@ watch(router.currentRoute, () => {
                     <ul class="flex flex-col space-y-2">
                       <li>
                         <RouterLink
-                          class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
+                          class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
                           to="/features"
                           @click="hide()"
                         >
@@ -88,7 +88,7 @@ watch(router.currentRoute, () => {
                       </li>
                       <li>
                         <RouterLink
-                          class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
+                          class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
                           to="/download"
                           @click="hide()"
                         >
@@ -112,7 +112,7 @@ watch(router.currentRoute, () => {
                       </li>
                       <li>
                         <RouterLink
-                          class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
+                          class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
                           to="/pricing"
                           @click="hide()"
                         >
@@ -136,7 +136,7 @@ watch(router.currentRoute, () => {
                       </li>
                       <li>
                         <RouterLink
-                          class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
+                          class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
                           to="/changelog"
                           @click="hide()"
                         >
@@ -169,7 +169,7 @@ watch(router.currentRoute, () => {
                     <ul class="flex flex-col">
                       <li>
                         <RouterLink
-                          class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                          class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                           to="/features"
                           @click="hide()"
                         >
@@ -179,7 +179,7 @@ watch(router.currentRoute, () => {
                       </li>
                       <li>
                         <RouterLink
-                          class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                          class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                           to="/download"
                           @click="hide()"
                         >
@@ -189,7 +189,7 @@ watch(router.currentRoute, () => {
                       </li>
                       <li>
                         <RouterLink
-                          class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                          class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                           to="/pricing"
                           @click="hide()"
                         >
@@ -199,7 +199,7 @@ watch(router.currentRoute, () => {
                       </li>
                       <li>
                         <RouterLink
-                          class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                          class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                           to="/changelog"
                           @click="hide()"
                         >
@@ -217,7 +217,7 @@ watch(router.currentRoute, () => {
             <tippy interactive theme="popover">
               <RouterLink
                 to="/solutions"
-                class="px-2 text-sm font-medium transition rounded-full text-slate-200 hover:text-white"
+                class="flex flex-shrink-0 px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
               >
                 Solutions
               </RouterLink>
@@ -233,7 +233,7 @@ watch(router.currentRoute, () => {
                       <ul class="flex flex-col space-y-2">
                         <li>
                           <RouterLink
-                            class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
+                            class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
                             to="/features"
                             @click="hide()"
                           >
@@ -257,7 +257,7 @@ watch(router.currentRoute, () => {
                         </li>
                         <li>
                           <RouterLink
-                            class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
+                            class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
                             to="/pricing"
                             @click="hide()"
                           >
@@ -281,7 +281,7 @@ watch(router.currentRoute, () => {
                         </li>
                         <li>
                           <RouterLink
-                            class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
+                            class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
                             to="/download"
                             @click="hide()"
                           >
@@ -305,7 +305,7 @@ watch(router.currentRoute, () => {
                         </li>
                         <li>
                           <RouterLink
-                            class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
+                            class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
                             to="/download"
                             @click="hide()"
                           >
@@ -339,7 +339,7 @@ watch(router.currentRoute, () => {
                       <ul class="flex flex-col space-y-2">
                         <li>
                           <RouterLink
-                            class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
+                            class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
                             to="/features"
                             @click="hide()"
                           >
@@ -362,7 +362,7 @@ watch(router.currentRoute, () => {
                         </li>
                         <li>
                           <RouterLink
-                            class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
+                            class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
                             to="/pricing"
                             @click="hide()"
                           >
@@ -389,7 +389,7 @@ watch(router.currentRoute, () => {
                   </div>
                   <div class="flex p-2 bg-slate-50">
                     <a
-                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       href="https://docs.hoppscotch.io"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -399,7 +399,7 @@ watch(router.currentRoute, () => {
                       Documentation
                     </a>
                     <a
-                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       href="https://docs.hoppscotch.io"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -417,7 +417,7 @@ watch(router.currentRoute, () => {
             <tippy interactive theme="popover">
               <RouterLink
                 to="/company"
-                class="px-2 text-sm font-medium transition rounded-full text-slate-200 hover:text-white"
+                class="flex flex-shrink-0 px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
               >
                 Company
               </RouterLink>
@@ -425,7 +425,7 @@ watch(router.currentRoute, () => {
                 <ul class="flex flex-col p-2">
                   <li>
                     <RouterLink
-                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/about"
                       @click="hide()"
                     >
@@ -435,7 +435,7 @@ watch(router.currentRoute, () => {
                   </li>
                   <li>
                     <RouterLink
-                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/blog"
                       @click="hide()"
                     >
@@ -445,7 +445,7 @@ watch(router.currentRoute, () => {
                   </li>
                   <li>
                     <RouterLink
-                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/careers"
                       @click="hide()"
                     >
@@ -455,7 +455,7 @@ watch(router.currentRoute, () => {
                   </li>
                   <li>
                     <RouterLink
-                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/contact"
                       @click="hide()"
                     >
@@ -471,7 +471,7 @@ watch(router.currentRoute, () => {
             <tippy interactive theme="popover">
               <RouterLink
                 to="/resources"
-                class="px-2 text-sm font-medium transition rounded-full text-slate-200 hover:text-white"
+                class="flex flex-shrink-0 px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
               >
                 Resources
               </RouterLink>
@@ -479,7 +479,7 @@ watch(router.currentRoute, () => {
                 <ul class="flex flex-col p-2">
                   <li>
                     <a
-                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       href="https://docs.hoppscotch.io"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -491,7 +491,7 @@ watch(router.currentRoute, () => {
                   </li>
                   <li>
                     <RouterLink
-                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/community"
                       @click="hide()"
                     >
@@ -501,7 +501,7 @@ watch(router.currentRoute, () => {
                   </li>
                   <li>
                     <RouterLink
-                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       to="/brand"
                       @click="hide()"
                     >
@@ -511,7 +511,7 @@ watch(router.currentRoute, () => {
                   </li>
                   <li>
                     <a
-                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                       href="https://shop.hoppscotch.com"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -533,7 +533,7 @@ watch(router.currentRoute, () => {
         >
           <li class="flex rounded-full bg-black/25 backdrop-blur-md">
             <a
-              class="flex items-center justify-center px-3 py-1 text-sm font-medium transition rounded-full text-slate-200 hover:text-white"
+              class="flex items-center justify-center px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
               href="https://github.com/hoppscotch/hoppscotch"
               target="_blank"
               rel="noopener noreferrer"
@@ -566,7 +566,7 @@ watch(router.currentRoute, () => {
         >
           <li class="flex rounded-full bg-black/25 backdrop-blur-md">
             <button
-              class="flex items-center justify-center px-3 py-1 text-sm font-medium transition rounded-full text-slate-200 hover:text-white"
+              class="flex items-center justify-center px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
               @click="isMobileMenuClosed = !isMobileMenuClosed"
             >
               {{ isMobileMenuClosed ? "Menu" : "Close" }}
@@ -588,7 +588,7 @@ watch(router.currentRoute, () => {
         >
           <li class="flex rounded-full bg-black/25 backdrop-blur-md">
             <a
-              class="flex items-center justify-center px-3 py-1 text-sm font-medium transition rounded-full text-slate-200 hover:text-white"
+              class="flex items-center justify-center px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
               href="https://github.com/hoppscotch/hoppscotch"
               target="_blank"
               rel="noopener noreferrer"
@@ -619,7 +619,7 @@ watch(router.currentRoute, () => {
           <li>
             <RouterLink
               to="/products"
-              class="px-2 text-sm font-medium transition rounded text-slate-200 hover:text-white"
+              class="px-2 text-sm font-medium rounded transition text-slate-200 hover:text-white"
               data-aos="fade-right"
               data-aos-delay="50"
             >
@@ -628,7 +628,7 @@ watch(router.currentRoute, () => {
             <ul class="flex flex-col">
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/features"
                   data-aos="fade-right"
                   data-aos-delay="100"
@@ -639,7 +639,7 @@ watch(router.currentRoute, () => {
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/download"
                   data-aos="fade-right"
                   data-aos-delay="150"
@@ -650,7 +650,7 @@ watch(router.currentRoute, () => {
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/pricing"
                   data-aos="fade-right"
                   data-aos-delay="200"
@@ -661,7 +661,7 @@ watch(router.currentRoute, () => {
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/changelog"
                   data-aos="fade-right"
                   data-aos-delay="250"
@@ -675,7 +675,7 @@ watch(router.currentRoute, () => {
           <li>
             <RouterLink
               to="/company"
-              class="px-2 text-sm font-medium transition rounded text-slate-200 hover:text-white"
+              class="px-2 text-sm font-medium rounded transition text-slate-200 hover:text-white"
               data-aos="fade-right"
               data-aos-delay="300"
             >
@@ -684,7 +684,7 @@ watch(router.currentRoute, () => {
             <ul class="flex flex-col">
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/about"
                   data-aos="fade-right"
                   data-aos-delay="350"
@@ -695,7 +695,7 @@ watch(router.currentRoute, () => {
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/blog"
                   data-aos="fade-right"
                   data-aos-delay="400"
@@ -706,7 +706,7 @@ watch(router.currentRoute, () => {
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/careers"
                   data-aos="fade-right"
                   data-aos-delay="450"
@@ -717,7 +717,7 @@ watch(router.currentRoute, () => {
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/contact"
                   data-aos="fade-right"
                   data-aos-delay="500"
@@ -731,7 +731,7 @@ watch(router.currentRoute, () => {
           <li>
             <RouterLink
               to="/resources"
-              class="px-2 text-sm font-medium transition rounded text-slate-200 hover:text-white"
+              class="px-2 text-sm font-medium rounded transition text-slate-200 hover:text-white"
               data-aos="fade-right"
               data-aos-delay="550"
             >
@@ -740,7 +740,7 @@ watch(router.currentRoute, () => {
             <ul class="flex flex-col">
               <li>
                 <a
-                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   href="https://docs.hoppscotch.io"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -753,7 +753,7 @@ watch(router.currentRoute, () => {
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/community"
                   data-aos="fade-right"
                   data-aos-delay="650"
@@ -764,7 +764,7 @@ watch(router.currentRoute, () => {
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/brand"
                   data-aos="fade-right"
                   data-aos-delay="700"
@@ -775,7 +775,7 @@ watch(router.currentRoute, () => {
               </li>
               <li>
                 <a
-                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   href="https://shop.hoppscotch.com"
                   target="_blank"
                   rel="noopener noreferrer"
