@@ -3,7 +3,7 @@ useHead({
   title: "Blog • Hoppscotch",
   meta: [
     {
-      name: "og:title",
+      property: "og:title",
       content: "Blog • Hoppscotch",
     },
     {
@@ -15,7 +15,7 @@ useHead({
       content: "Updates from the Hoppscotch team.",
     },
     {
-      name: "og:description",
+      property: "og:description",
       content: "Updates from the Hoppscotch team.",
     },
     {
@@ -23,12 +23,20 @@ useHead({
       content: "Updates from the Hoppscotch team.",
     },
     {
-      name: "og:image",
+      property: "og:image",
       content: "https://next.hoppscotch.com/banner-blog.png",
     },
     {
       name: "twitter:image",
       content: "https://next.hoppscotch.com/banner-blog.png",
+    },
+    {
+      property: "og:type",
+      content: "article",
+    },
+    {
+      property: "og:url",
+      content: "https://next.hoppscotch.com/blog",
     },
   ],
 })

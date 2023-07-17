@@ -3,7 +3,7 @@ useHead({
   title: "v0000.0.0 • Changelog • Hoppscotch",
   meta: [
     {
-      name: "og:title",
+      property: "og:title",
       content: "v0000.0.0 • Changelog • Hoppscotch",
     },
     {
@@ -15,7 +15,7 @@ useHead({
       content: "Bug fixes and performance improvements.",
     },
     {
-      name: "og:description",
+      property: "og:description",
       content: "Bug fixes and performance improvements.",
     },
     {
@@ -23,7 +23,7 @@ useHead({
       content: "Bug fixes and performance improvements.",
     },
     {
-      name: "og:image",
+      property: "og:image",
       content:
         "https://next.hoppscotch.com/.netlify/functions/changelog-og-generator?slug=00-00-0000",
     },
@@ -31,6 +31,14 @@ useHead({
       name: "twitter:image",
       content:
         "https://next.hoppscotch.com/.netlify/functions/changelog-og-generator?slug=00-00-0000",
+    },
+    {
+      property: "og:type",
+      content: "article",
+    },
+    {
+      property: "og:url",
+      content: "https://next.hoppscotch.com/changelog/00-00-0000",
     },
   ],
 })

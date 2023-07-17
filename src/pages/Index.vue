@@ -3,7 +3,7 @@ useHead({
   title: "Hoppscotch • Open source API development ecosystem",
   meta: [
     {
-      name: "og:title",
+      property: "og:title",
       content: "Hoppscotch • Open source API development ecosystem",
     },
     {
@@ -16,7 +16,7 @@ useHead({
         "Helps you create requests faster, saving precious time on development.",
     },
     {
-      name: "og:description",
+      property: "og:description",
       content:
         "Helps you create requests faster, saving precious time on development.",
     },
@@ -26,12 +26,20 @@ useHead({
         "Helps you create requests faster, saving precious time on development.",
     },
     {
-      name: "og:image",
+      property: "og:image",
       content: "https://next.hoppscotch.com/banner.png",
     },
     {
       name: "twitter:image",
       content: "https://next.hoppscotch.com/banner.png",
+    },
+    {
+      property: "og:type",
+      content: "article",
+    },
+    {
+      property: "og:url",
+      content: "https://next.hoppscotch.com",
     },
   ],
 })

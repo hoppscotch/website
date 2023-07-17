@@ -3,7 +3,7 @@ useHead({
   title: "The quick brown fox • Blog • Hoppscotch",
   meta: [
     {
-      name: "og:title",
+      property: "og:title",
       content: "The quick brown fox • Blog • Hoppscotch",
     },
     {
@@ -16,7 +16,7 @@ useHead({
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
-      name: "og:description",
+      property: "og:description",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
@@ -26,7 +26,7 @@ useHead({
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
-      name: "og:image",
+      property: "og:image",
       content:
         "https://next.hoppscotch.com/.netlify/functions/blog-og-generator?slug=sample-post",
     },
@@ -34,6 +34,14 @@ useHead({
       name: "twitter:image",
       content:
         "https://next.hoppscotch.com/.netlify/functions/blog-og-generator?slug=sample-post",
+    },
+    {
+      property: "og:type",
+      content: "article",
+    },
+    {
+      property: "og:url",
+      content: "https://next.hoppscotch.com/blog/sample-post",
     },
   ],
 })
