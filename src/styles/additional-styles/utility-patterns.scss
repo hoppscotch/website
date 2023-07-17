@@ -1,15 +1,15 @@
 /* Typography */
 .h1 {
-  @apply text-5xl font-extrabold;
+  @apply text-5xl font-extrabold font-jakarta;
 }
 .h2 {
-  @apply text-4xl font-extrabold;
+  @apply text-4xl font-extrabold font-jakarta;
 }
 .h3 {
-  @apply text-3xl font-extrabold;
+  @apply text-3xl font-extrabold font-jakarta;
 }
 .h4 {
-  @apply text-2xl font-extrabold;
+  @apply text-2xl font-extrabold font-jakarta;
 }
 @screen md {
   .h1 {

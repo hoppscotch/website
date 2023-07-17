@@ -111,36 +111,41 @@
                     <div
                       class="md:max-w-[480px] shrink-0 order-1 md:order-none p-6 pt-0 md:p-8 md:pr-0"
                     >
-                      <div class="mb-5">
-                        <div>
-                          <h3
-                            class="inline-flex pb-1 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60"
-                          >
-                            Optimized for speed
-                          </h3>
-                          <p class="text-slate-400">
-                            Fly through your tasks with rapid-fire keyboard
-                            shortcuts for everything. Literally everything.
-                            Built for speed with 50ms interactions and real-time
-                            sync.
-                          </p>
-                        </div>
-                      </div>
-                      <div>
-                        <RouterLink
-                          class="btn-sm text-slate-200 hover:text-white transition group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
-                          to="/"
+                      <div class="flex flex-col items-start mb-6">
+                        <span
+                          class="relative inline-flex items-center px-4 py-2 mb-8 text-sm font-medium rounded-full space-x-2 hero-subtitle-gradient hero-subtitle-gradient-hover"
                         >
-                          <span class="relative inline-flex items-center">
-                            Learn more
-                            <span
-                              class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
-                            >
-                              <icon-lucide-arrow-right />
-                            </span>
+                          <icon-lucide-sparkles class="text-purple-100" />
+                          <span
+                            class="text-transparent bg-clip-text bg-gradient-to-b from-purple-100 to-purple-400"
+                          >
+                            AI-Powered Inspections
                           </span>
-                        </RouterLink>
+                        </span>
+                        <h3
+                          class="inline-flex pb-1 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60"
+                        >
+                          Optimized for speed
+                        </h3>
+                        <p class="text-slate-400">
+                          Fly through your tasks with rapid-fire keyboard
+                          shortcuts for everything. Literally everything. Built
+                          for speed with 50ms interactions and real-time sync.
+                        </p>
                       </div>
+                      <RouterLink
+                        class="btn-sm text-slate-200 hover:text-white transition group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
+                        to="/"
+                      >
+                        <span class="relative inline-flex items-center">
+                          Learn more
+                          <span
+                            class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                          >
+                            <icon-lucide-arrow-right />
+                          </span>
+                        </span>
+                      </RouterLink>
                     </div>
                     <!-- Image -->
                     <div class="relative w-full h-64 overflow-hidden md:h-auto">

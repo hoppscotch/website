@@ -51,7 +51,7 @@ declare module 'vue' {
     IconLucideBadgeCheck: typeof import('~icons/lucide/badge-check')['default']
     IconLucideBattery: typeof import("~icons/lucide/battery")["default"]
     IconLucideBook: typeof import("~icons/lucide/book")["default"]
-    IconLucideBookOpen: typeof import("~icons/lucide/book-open")["default"]
+    IconLucideBookOpen: typeof import('~icons/lucide/book-open')['default']
     IconLucideBox: typeof import('~icons/lucide/box')['default']
     IconLucideBoxes: typeof import("~icons/lucide/boxes")["default"]
     IconLucideBriefcase: typeof import('~icons/lucide/briefcase')['default']

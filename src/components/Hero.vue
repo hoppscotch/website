@@ -81,8 +81,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <icon-lucide-wand-2 class="mr-2" />
-                <span>Read the docs</span>
+                <span>Documentation</span>
               </a>
             </div>
           </div>
