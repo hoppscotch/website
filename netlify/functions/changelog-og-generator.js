@@ -2,7 +2,7 @@ import * as fs from "node:fs"
 import puppeteer from "puppeteer-core"
 import chromium from "@sparticuz/chromium"
 import Mustache from "mustache"
-import changelogs from "../../src/data/changelogList.json"
+import changelogs from "../../src/data/changelogList"
 
 export async function handler(event) {
   // Use local Chrome when testing.
