@@ -1,10 +1,10 @@
-const fs = require("node:fs")
-const chromium = require("@sparticuz/chromium")
-const puppeteer = require("puppeteer-core")
-const Mustache = require("mustache")
-const changelogs = require("../../src/data/changelogList.json")
+import * as fs from "node:fs"
+import puppeteer from "puppeteer-core"
+import chromium from "@sparticuz/chromium"
+import Mustache from "mustache"
+import changelogs from "../../src/data/changelogList.json"
 
-exports.handler = async (event) => {
+export async function handler(event) {
   // Use local Chrome when testing.
   const localChrome =
     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
@@ -24,7 +24,7 @@ exports.handler = async (event) => {
   const page = await browser.newPage()
 
   // Read the template HTML off of disk.
-  const slug = event.queryStringParameters?.slug
+  const slug = event.queryStringParameters.slug
   let content = fs
     .readFileSync("./netlify/functions/templates/changelog-og-image.html")
     .toString()

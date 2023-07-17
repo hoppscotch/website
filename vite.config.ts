@@ -1,24 +1,21 @@
-import { defineConfig } from "vite"
 import Vue from "@vitejs/plugin-vue"
 import Icons from "unplugin-icons/vite"
 import IconsResolver from "unplugin-icons/resolver"
 import Components from "unplugin-vue-components/vite"
 import Layouts from "vite-plugin-vue-layouts"
 import Pages from "vite-plugin-pages"
-import generateSitemap from "vite-plugin-pages-sitemap"
+import generateSitemap from "vite-ssg-sitemap"
 import { unheadVueComposablesImports } from "@unhead/vue"
 import AutoImport from "unplugin-auto-import/vite"
 import { ElementPlusResolver } from "unplugin-vue-components/resolvers"
+import { defineConfig } from "vite"
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     Vue(),
     Layouts(),
-    Pages({
-      onRoutesGenerated: (routes) =>
-        generateSitemap({ routes, hostname: "https://next.hoppscotch.com/" }),
-    }),
+    Pages(),
     Components({
       resolvers: [
         IconsResolver({
@@ -43,4 +40,11 @@ export default defineConfig({
       dirs: ["./components/**"],
     }),
   ],
+  ssgOptions: {
+    script: "async",
+    formatting: "minify",
+    onFinished() {
+      generateSitemap()
+    },
+  },
 })
