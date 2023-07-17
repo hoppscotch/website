@@ -1,4 +1,4 @@
 [functions]
   included_files = ["./netlify/functions/templates/**"]
   node_bundler = "esbuild"
-  external_node_modules = ["yargs", "yargs-parser"]
+  external_node_modules = ["@sparticuz/chromium", "yargs", "yargs-parser"]
