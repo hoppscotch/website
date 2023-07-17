@@ -2,9 +2,41 @@ import * as fs from "node:fs"
 import puppeteer from "puppeteer-core"
 import chromium from "@sparticuz/chromium"
 import Mustache from "mustache"
+import changelogs from "../../src/data/changelogList"
 import blogs from "../../src/data/blogList"
 
-export async function handler(event) {
+export async function handler({ queryStringParameters }) {
+  const type = queryStringParameters.type
+  const slug = queryStringParameters.slug
+
+  if (!type || !slug) {
+    return {
+      statusCode: 400,
+      body: "Please provide a type and slug in the querystring",
+    }
+  }
+
+  let content, data
+
+  // Read the template HTML off of disk.
+  switch (type) {
+    case "changelog":
+      content = fs
+        .readFileSync("./netlify/functions/templates/changelog-og-image.html")
+        .toString()
+      data = await getData(changelogs, slug)
+      break
+    case "blog":
+      content = fs
+        .readFileSync("./netlify/functions/templates/blog-og-image.html")
+        .toString()
+      data = await getData(blogs, slug)
+      break
+  }
+
+  // Populate the template based on the user's vote data from the database.
+  content = populateTemplate(content, data)
+
   // Use local Chrome when testing.
   const localChrome =
     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
@@ -22,19 +54,6 @@ export async function handler(event) {
   })
 
   const page = await browser.newPage()
-
-  // Read the template HTML off of disk.
-  const slug = event.queryStringParameters.slug
-  let content = fs
-    .readFileSync("./netlify/functions/templates/blog-og-image.html")
-    .toString()
-
-  // Populate the template based on the user's vote data from the database.
-  content = populateTemplate(
-    content,
-    // Get the title out of the querystring.
-    await getBlogData(slug)
-  )
 
   await page.setContent(content, {
     timeout: 0,
@@ -62,6 +81,6 @@ function populateTemplate(content, data) {
   return content
 }
 
-function getBlogData(slug) {
-  return blogs.find((item) => item.slug === slug)
+function getData(source, slug) {
+  return source.find((item) => item.slug === slug)
 }

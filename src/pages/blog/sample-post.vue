@@ -28,12 +28,12 @@ useHead({
     {
       property: "og:image",
       content:
-        "https://next.hoppscotch.com/.netlify/functions/blog-og-generator?slug=sample-post",
+        "https://next.hoppscotch.com/.netlify/functions/og-image?type=blog&slug=sample-post",
     },
     {
       name: "twitter:image",
       content:
-        "https://next.hoppscotch.com/.netlify/functions/blog-og-generator?slug=sample-post",
+        "https://next.hoppscotch.com/.netlify/functions/og-image?type=blog&slug=sample-post",
     },
     {
       property: "og:type",

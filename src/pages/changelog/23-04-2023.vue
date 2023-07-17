@@ -25,12 +25,12 @@ useHead({
     {
       property: "og:image",
       content:
-        "https://next.hoppscotch.com/.netlify/functions/changelog-og-generator?slug=23-04-2023",
+        "https://next.hoppscotch.com/.netlify/functions/og-image?type=changelog&slug=23-04-2023",
     },
     {
       name: "twitter:image",
       content:
-        "https://next.hoppscotch.com/.netlify/functions/changelog-og-generator?slug=23-04-2023",
+        "https://next.hoppscotch.com/.netlify/functions/og-image?type=changelog&slug=23-04-2023",
     },
     {
       property: "og:type",
