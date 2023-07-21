@@ -29,7 +29,7 @@ const annual = ref(true)
             </div>
           </div>
           <h2
-            class="pb-4 text-transparent h2 bg-clip-text bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60"
+            class="pb-4 text-transparent h2 bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
           >
             Flexible plans and features
           </h2>

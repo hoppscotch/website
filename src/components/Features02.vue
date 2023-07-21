@@ -11,7 +11,7 @@
         <!-- Section header -->
         <div class="max-w-3xl pb-12 mx-auto text-center md:pb-20">
           <h2
-            class="pb-4 text-transparent h2 bg-clip-text bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60"
+            class="pb-4 text-transparent h2 bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
           >
             Faster. Smarter.
           </h2>
@@ -123,7 +123,7 @@
                           </span>
                         </span>
                         <h3
-                          class="inline-flex pb-1 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60"
+                          class="inline-flex pb-1 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
                         >
                           Optimized for speed
                         </h3>
@@ -183,7 +183,7 @@
                     >
                       <div>
                         <h3
-                          class="inline-flex pb-1 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60"
+                          class="inline-flex pb-1 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
                         >
                           Extensibility
                         </h3>
@@ -231,7 +231,7 @@
                     >
                       <div>
                         <h3
-                          class="inline-flex pb-1 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60"
+                          class="inline-flex pb-1 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
                         >
                           Open source
                         </h3>

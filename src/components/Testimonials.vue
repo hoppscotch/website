@@ -107,7 +107,7 @@ onBeforeUnmount(() => {
               <template v-for="(item, index) in items" :key="index">
                 <div v-if="active === index">
                   <div
-                    class="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60"
+                    class="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
                   >
                     {{ item.quote }}
                   </div>

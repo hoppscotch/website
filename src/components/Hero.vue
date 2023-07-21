@@ -2,7 +2,7 @@
   <section>
     <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
       <!-- Particles animation -->
-      <Particles class="absolute inset-0 -z-10" />
+      <Particles class="absolute inset-0 -z-10" :quantity="50" />
       <!-- Illustration -->
       <div
         class="absolute inset-0 -z-10 -mx-28 rounded-b-[3rem] pointer-events-none overflow-hidden"
@@ -43,7 +43,7 @@
             </div>
           </div>
           <h1
-            class="pb-4 text-transparent h1 bg-clip-text bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60"
+            class="pb-4 text-transparent h1 bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
             data-aos="fade-down"
           >
             Open Source API Platform

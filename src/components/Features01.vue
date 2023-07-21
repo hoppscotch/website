@@ -40,7 +40,7 @@ const tab = ref("1")
                 </div>
               </div>
               <h3
-                class="pb-3 text-transparent h3 bg-clip-text bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60"
+                class="pb-3 text-transparent h3 bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
               >
                 Simplify API development with our end-to-end services
               </h3>

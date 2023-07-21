@@ -46,6 +46,7 @@ useHead({
 </script>
 
 <template>
+  <MeteorShower />
   <Hero />
   <Clients />
   <Features01 />

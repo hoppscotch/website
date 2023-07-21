@@ -47,7 +47,7 @@ useHead({
           </div>
           <!-- Page title -->
           <h1
-            class="text-transparent h2 bg-clip-text bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60"
+            class="text-transparent h2 bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
           >
             Sign in to your account
           </h1>
