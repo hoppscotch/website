@@ -2,9 +2,9 @@
   <section>
     <div class="max-w-6xl px-4 mx-auto">
       <div class="pb-12 md:pb-20">
-        <div class="max-w-3xl mx-auto">
+        <div class="max-w-4xl mx-auto">
           <div class="text-md text-slate-300">
-            <h2 class="mb-4 h3 text-slate-200">Our Story</h2>
+            <h2 class="mb-8 text-slate-200">Our Story</h2>
             <p class="mb-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis

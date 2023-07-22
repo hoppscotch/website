@@ -28,7 +28,7 @@ useHead({
     <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
       <div class="pt-32 pb-12 md:pt-40 md:pb-20">
         <!-- Page header -->
-        <div class="max-w-3xl pb-12 mx-auto text-center">
+        <div class="max-w-4xl pb-12 mx-auto text-center">
           <!-- Logo -->
           <div class="mb-5">
             <RouterLink class="inline-flex" to="/">
@@ -47,7 +47,7 @@ useHead({
           </div>
           <!-- Page title -->
           <h1
-            class="text-transparent h2 bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
+            class="text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
           >
             Create your free account
           </h1>

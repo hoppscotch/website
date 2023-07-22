@@ -20,7 +20,7 @@ const annual = ref(true)
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
       <div class="py-12 md:py-20">
         <!-- Content -->
-        <div class="max-w-3xl pb-12 mx-auto text-center md:pb-20">
+        <div class="max-w-4xl pb-12 mx-auto text-center md:pb-20">
           <div
             class="relative inline-flex items-center justify-center px-8 py-4 mb-4 rounded-full hero-subtitle-gradient hero-subtitle-gradient-hover"
             data-aos="fade-up"
@@ -33,7 +33,7 @@ const annual = ref(true)
             </div>
           </div>
           <h2
-            class="pb-4 text-transparent h2 bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
           >
             Flexible plans and features
           </h2>

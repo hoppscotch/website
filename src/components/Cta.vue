@@ -44,7 +44,7 @@
           </svg>
         </div>
         <!-- Content -->
-        <div class="max-w-3xl mx-auto text-center">
+        <div class="max-w-4xl mx-auto text-center">
           <div
             class="relative inline-flex items-center justify-center px-8 py-4 mb-4 rounded-full hero-subtitle-gradient hero-subtitle-gradient-hover"
             data-aos="fade-up"
@@ -57,7 +57,7 @@
             </div>
           </div>
           <h2
-            class="pb-4 text-transparent h2 bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
           >
             Take control of your business
           </h2>

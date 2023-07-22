@@ -44,9 +44,9 @@
           src="/images/changelog-11-04-2023.png"
           class="p-2 mt-4 mb-8 border rounded-3xl border-slate-900"
         />
-        <h3 class="flex items-center text-xl font-bold">
+        <h4 class="flex items-center text-xl font-bold">
           Self-hosted Hoppscotch
-        </h3>
+        </h4>
         <p class="mt-4 mb-8 text-slate-400">
           You can now self-host Hoppscotch on your own servers. This is
           especially useful if you want to keep your data private or if you want
@@ -65,17 +65,17 @@
           simultaneously. This is especially useful when you want to compare
           responses or work with multiple requests at the same time.
         </p>
-        <h3 class="flex items-center text-xl font-bold">
+        <h4 class="flex items-center text-xl font-bold">
           Reorder requests and collections
-        </h3>
+        </h4>
         <p class="mt-4 mb-8 text-slate-400">
           Organise your collections more efficiently by using drag and drop to
           reorder. You can also reorder requests within a collection.
         </p>
-        <h3 class="flex items-center font-semibold">
+        <h4 class="flex items-center font-semibold">
           <icon-lucide-sparkles class="mr-3" />
           Added
-        </h3>
+        </h4>
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-green-500"
         >
@@ -84,10 +84,10 @@
           <li class="pl-4">Workspaces.</li>
           <li class="pl-4">Reorder requests and collections.</li>
         </ul>
-        <h3 class="flex items-center font-semibold">
+        <h4 class="flex items-center font-semibold">
           <icon-lucide-alert-triangle class="mr-3" />
           Deprecated
-        </h3>
+        </h4>
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-pink-500"
         >

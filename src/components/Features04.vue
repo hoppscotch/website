@@ -31,7 +31,7 @@
         <!-- Section header -->
         <div class="pb-12 md:pb-20">
           <h2
-            class="pb-4 text-transparent h2 bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
           >
             Why trust us?
           </h2>
@@ -57,7 +57,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-heart-handshake class="fill-slate-200" />
-                  <h4 class="font-medium text-slate-50">Collaborate</h4>
+                  <span class="font-medium text-slate-50">Collaborate</span>
                 </div>
                 <p class="text-sm text-slate-400">
                   Engage with your teammates, share, design and collaborate —
@@ -68,7 +68,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-database class="fill-slate-200" />
-                  <h4 class="font-medium text-slate-50">Mock</h4>
+                  <span class="font-medium text-slate-50">Mock</span>
                 </div>
                 <p class="text-sm text-slate-400">
                   See exactly how your API will run — even before it's in
@@ -79,7 +79,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-file-check class="fill-slate-200" />
-                  <h4 class="font-medium text-slate-50">Document</h4>
+                  <span class="font-medium text-slate-50">Document</span>
                 </div>
                 <p class="text-sm text-slate-400">
                   Make documentation a core part of your API workflow.
@@ -101,7 +101,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-layers class="fill-slate-200" />
-                  <h4 class="font-medium text-slate-50">Protocols</h4>
+                  <span class="font-medium text-slate-50">Protocols</span>
                 </div>
                 <p class="text-sm text-slate-400">
                   RESTful, GraphQL, WebSocket and more. Develop all protocols
@@ -112,7 +112,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-box class="fill-slate-200" />
-                  <h4 class="font-medium text-slate-50">Solutions</h4>
+                  <span class="font-medium text-slate-50">Solutions</span>
                 </div>
                 <p class="text-sm text-slate-400">
                   Find the right balance for the user convenience, privacy and
@@ -123,7 +123,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-badge-check class="fill-slate-200" />
-                  <h4 class="font-medium text-slate-50">Integrations</h4>
+                  <span class="font-medium text-slate-50">Integrations</span>
                 </div>
                 <p class="text-sm text-slate-400">
                   Integrate your favorite tools and frameworks for a streamlined
@@ -146,7 +146,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-workflow class="fill-slate-200" />
-                  <h4 class="font-medium text-slate-50">Automate</h4>
+                  <span class="font-medium text-slate-50">Automate</span>
                 </div>
                 <p class="text-sm text-slate-400">
                   Run tests automatically from your source code whenever
@@ -157,7 +157,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-terminal-square class="fill-slate-200" />
-                  <h4 class="font-medium text-slate-50">CLI</h4>
+                  <span class="font-medium text-slate-50">CLI</span>
                 </div>
                 <p class="text-sm text-slate-400">
                   Run tests from any environments — cloud, local and CI/CD
@@ -168,7 +168,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-crosshair class="fill-slate-200" />
-                  <h4 class="font-medium text-slate-50">Monitor</h4>
+                  <span class="font-medium text-slate-50">Monitor</span>
                 </div>
                 <p class="text-sm text-slate-400">
                   Keep track of you APIs health. Get notified when something

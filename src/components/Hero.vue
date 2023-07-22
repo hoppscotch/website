@@ -18,15 +18,15 @@
           />
         </div>
       </div>
-      <div class="pt-32 pb-16 md:pt-52 md:pb-32">
+      <div class="pt-32 pb-12 md:pt-40 md:pb-20">
         <!-- Hero content -->
-        <div class="max-w-3xl mx-auto text-center">
-          <div class="mb-6" data-aos="fade-down">
+        <div class="max-w-4xl mx-auto text-center">
+          <div class="mb-8" data-aos="fade-down">
             <div
               class="relative inline-flex before:absolute before:inset-0 before:bg-purple-500 before:blur-md"
             >
               <a
-                class="btn-sm py-0.5 text-slate-200 hover:text-white transition group [background:linear-gradient(theme(colors.purple.500),_theme(colors.purple.500))_padding-box,_linear-gradient(theme(colors.purple.500),_theme(colors.purple.200)_75%,_theme(colors.transparent)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/50 before:rounded-full before:pointer-events-none shadow"
+                class="btn-sm text-slate-200 hover:text-white transition group [background:linear-gradient(theme(colors.purple.500),_theme(colors.purple.500))_padding-box,_linear-gradient(theme(colors.purple.500),_theme(colors.purple.200)_75%,_theme(colors.transparent)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/50 before:rounded-full before:pointer-events-none shadow"
                 href="https://docs.hoppscotch.io/documentation/self-host/getting-started"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -43,10 +43,10 @@
             </div>
           </div>
           <h1
-            class="pb-4 text-transparent h1 bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
+            class="mb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
             data-aos="fade-down"
           >
-            Open Source API Platform
+            Astronomically enhanced developer experience
           </h1>
           <p
             class="mb-8 text-lg text-slate-200"

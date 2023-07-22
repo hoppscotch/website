@@ -50,10 +50,10 @@
           src="/images/changelog-12-06-2023.png"
           class="p-2 mt-4 mb-8 border rounded-3xl border-slate-900"
         />
-        <h3 class="flex items-center font-semibold">
+        <h4 class="flex items-center font-semibold">
           <icon-lucide-check-check class="mr-3" />
           Fixed
-        </h3>
+        </h4>
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
         >
@@ -67,10 +67,10 @@
             URL getting overridden when query params are present.
           </li>
         </ul>
-        <h3 class="flex items-center font-semibold">
+        <h4 class="flex items-center font-semibold">
           <icon-lucide-flask-conical class="mr-3" />
           Other
-        </h3>
+        </h4>
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-purple-500"
         >

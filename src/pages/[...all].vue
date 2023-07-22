@@ -12,11 +12,11 @@ useHead({
 
 <template>
   <div class="flex flex-col items-center justify-center flex-1">
-    <h1 class="mb-2 h1">404</h1>
-    <span class="mb-8 text-slate-200">Page not found</span>
-    <h2 class="mb-8 text-slate-500">
+    <h1 class="mb-2">404</h1>
+    <h2 class="mb-8 text-slate-200">Page not found</h2>
+    <h4 class="mb-8 text-slate-500">
       The page you are looking for does not exist.
-    </h2>
+    </h4>
     <RouterLink
       class="flex items-center justify-center px-2 py-1 font-medium rounded transition text-slate-400 hover:text-slate-200"
       to="/"

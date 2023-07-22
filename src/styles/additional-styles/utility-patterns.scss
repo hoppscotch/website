@@ -1,35 +1,35 @@
 /* Typography */
-.h1 {
-  @apply text-5xl font-extrabold font-jakarta;
+h1 {
+  @apply text-5xl font-medium leading-tight tracking-tight font-jakarta;
 }
-.h2 {
-  @apply text-4xl font-extrabold font-jakarta;
+h2 {
+  @apply text-4xl font-medium leading-tight tracking-tight font-jakarta;
 }
-.h3 {
-  @apply text-3xl font-extrabold font-jakarta;
+h3 {
+  @apply text-3xl font-medium leading-tight tracking-tight font-jakarta;
 }
-.h4 {
-  @apply text-2xl font-extrabold font-jakarta;
+h4 {
+  @apply text-2xl font-medium leading-tight tracking-tight font-jakarta;
 }
 @screen md {
-  .h1 {
+  h1 {
     @apply text-6xl;
   }
-  .h2 {
+  h2 {
     @apply text-5xl;
   }
-  .h3 {
+  h3 {
     @apply text-4xl;
   }
 }
 @screen lg {
-  .h1 {
+  h1 {
     @apply text-7xl;
   }
-  .h2 {
+  h2 {
     @apply text-6xl;
   }
-  .h3 {
+  h3 {
     @apply text-5xl;
   }
 }

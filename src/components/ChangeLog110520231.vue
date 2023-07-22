@@ -44,10 +44,10 @@
           src="/images/changelog-11-05-2023.png"
           class="p-2 mt-4 mb-8 border rounded-3xl border-slate-900"
         />
-        <h3 class="flex items-center font-semibold">
+        <h4 class="flex items-center font-semibold">
           <icon-lucide-sparkles class="mr-3" />
           Added
-        </h3>
+        </h4>
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-green-500"
         >
@@ -56,10 +56,10 @@
             Picture component moved to hoppscotch-ui package.
           </li>
         </ul>
-        <h3 class="flex items-center font-semibold">
+        <h4 class="flex items-center font-semibold">
           <icon-lucide-check-check class="mr-3" />
           Fixed
-        </h3>
+        </h4>
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
         >

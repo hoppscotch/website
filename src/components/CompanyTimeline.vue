@@ -3,7 +3,7 @@
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
       <div class="py-12 md:py-20">
         <!-- Section header -->
-        <div class="max-w-3xl pb-12 mx-auto text-center md:pb-20">
+        <div class="max-w-4xl pb-12 mx-auto text-center md:pb-20">
           <div
             class="relative inline-flex items-center justify-center px-8 py-4 mb-4 rounded-full hero-subtitle-gradient hero-subtitle-gradient-hover"
             data-aos="fade-up"
@@ -16,7 +16,7 @@
             </div>
           </div>
           <h2
-            class="pb-4 text-transparent h2 bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
           >
             Our journey so far
           </h2>
@@ -26,7 +26,7 @@
           </p>
         </div>
         <!-- Items -->
-        <div class="max-w-3xl mx-auto -my-4 md:-my-6">
+        <div class="max-w-4xl mx-auto -my-4 md:-my-6">
           <!-- item -->
           <div class="relative py-4 pl-24 md:py-6" data-aos="fade-up">
             <div class="pl-2">
@@ -47,7 +47,7 @@
                   class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-slate-800"
                   aria-hidden="true"
                 ></div>
-                <h4 class="h4">Hoppscotch was founded in Kerala, India</h4>
+                <h4>Hoppscotch was founded in Kerala, India</h4>
               </div>
               <p class="text-sm text-slate-400">
                 Liyas Thomas, the founder of Hoppscotch, started the project as
@@ -81,9 +81,7 @@
                   class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-slate-800"
                   aria-hidden="true"
                 ></div>
-                <h4 class="h4">
-                  Founders left his job to work on Hoppscotch full-time
-                </h4>
+                <h4>Founders left his job to work on Hoppscotch full-time</h4>
               </div>
               <p class="text-sm text-slate-400">
                 Liyas and his co-founder, Andrew, left their jobs to work on
@@ -116,7 +114,7 @@
                   class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-slate-800"
                   aria-hidden="true"
                 ></div>
-                <h4 class="h4">$3 million seed funding from OSS Capital</h4>
+                <h4>$3 million seed funding from OSS Capital</h4>
               </div>
               <p class="text-sm text-slate-400">
                 We raised $3 million in seed funding from OSS Capital with
@@ -149,7 +147,7 @@
                   class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-slate-800"
                   aria-hidden="true"
                 ></div>
-                <h4 class="h4">1 million happy users</h4>
+                <h4>1 million happy users</h4>
               </div>
               <p class="text-sm text-slate-400">
                 We reached 1 million happy users and launched the first version
@@ -178,7 +176,7 @@
                   class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-slate-800"
                   aria-hidden="true"
                 ></div>
-                <h4 class="h4">50,000 GitHub Stars</h4>
+                <h4>50,000 GitHub Stars</h4>
               </div>
               <p class="text-sm text-slate-400">
                 Hoppscotch crossed 50,000 GitHub stars and became one of the

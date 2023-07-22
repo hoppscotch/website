@@ -70,7 +70,7 @@
                 />
               </svg>
             </div>
-            <h4 class="mb-2 h4 text-slate-300">Kerala</h4>
+            <h4 class="mb-2 text-slate-300">Kerala</h4>
             <div class="mb-2 grow text-slate-400">
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur.
@@ -97,7 +97,7 @@
                 />
               </svg>
             </div>
-            <h4 class="mb-2 h4 text-slate-300">Bangalore</h4>
+            <h4 class="mb-2 text-slate-300">Bangalore</h4>
             <div class="mb-2 grow text-slate-400">
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur.
@@ -124,7 +124,7 @@
                 />
               </svg>
             </div>
-            <h4 class="mb-2 h4 text-slate-300">Bangladesh</h4>
+            <h4 class="mb-2 text-slate-300">Bangladesh</h4>
             <div class="mb-2 grow text-slate-400">
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur.

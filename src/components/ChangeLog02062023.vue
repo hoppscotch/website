@@ -44,10 +44,10 @@
           src="/images/changelog-02-06-2023.png"
           class="p-2 mt-4 mb-8 border rounded-3xl border-slate-900"
         />
-        <h3 class="flex items-center font-semibold">
+        <h4 class="flex items-center font-semibold">
           <icon-lucide-sparkles class="mr-3" />
           Added
-        </h3>
+        </h4>
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-green-500"
         >
@@ -57,10 +57,10 @@
           </li>
           <li class="pl-4">Prettify XML response.</li>
         </ul>
-        <h3 class="flex items-center font-semibold">
+        <h4 class="flex items-center font-semibold">
           <icon-lucide-badge-check class="mr-3" />
           Changed
-        </h3>
+        </h4>
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-amber-500"
         >
@@ -75,10 +75,10 @@
             Improved environment selector with new user interface.
           </li>
         </ul>
-        <h3 class="flex items-center font-semibold">
+        <h4 class="flex items-center font-semibold">
           <icon-lucide-check-check class="mr-3" />
           Fixed
-        </h3>
+        </h4>
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
         >
@@ -86,10 +86,10 @@
           <li class="pl-4">Dead key issue in macOS.</li>
           <li class="pl-4">Set team environment from test scripts.</li>
         </ul>
-        <h3 class="flex items-center font-semibold">
+        <h4 class="flex items-center font-semibold">
           <icon-lucide-flask-conical class="mr-3" />
           Other
-        </h3>
+        </h4>
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-purple-500"
         >

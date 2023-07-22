@@ -1,9 +1,9 @@
 <template>
   <section>
-    <div class="max-w-3xl px-4 mx-auto sm:px-6">
+    <div class="max-w-4xl px-4 mx-auto sm:px-6">
       <div class="pb-12 md:pb-20">
         <!-- Section header -->
-        <h3 class="mb-8 h4">Open positions</h3>
+        <h3 class="mb-8">Open positions</h3>
         <!-- Job list -->
         <div class="my-3 space-y-8 divide-y divide-slate-900">
           <!-- job -->

@@ -48,7 +48,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
         <!-- Section header -->
         <div class="pb-12 md:pb-20">
           <h2
-            class="pb-4 text-transparent h2 bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
           >
             Brand
           </h2>
@@ -86,8 +86,8 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
         <div class="space-y-12">
           <!-- Naming -->
           <div>
-            <h4 class="mt-8 h4">Naming</h4>
-            <p class="max-w-3xl mt-2 text-slate-400">
+            <h4 class="mt-8">Naming</h4>
+            <p class="max-w-4xl mt-2 text-slate-400">
               "Hoppscotch" is a single word, always spelled with a capital "H".
               It is the brand name of both our company and our application (not
               Hoppscotch app"). When referring to dedicated releases from
@@ -97,8 +97,8 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
           </div>
           <!-- Usage -->
           <div>
-            <h4 class="mt-8 h4">Usage</h4>
-            <p class="max-w-3xl mt-2 text-slate-400">
+            <h4 class="mt-8">Usage</h4>
+            <p class="max-w-4xl mt-2 text-slate-400">
               Provide plenty of space around Hoppscotch assets. Make them big or
               make them small, but give them room to breathe. They shouldn't
               feel cramped or cluttered.
@@ -106,8 +106,8 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
           </div>
           <!-- Wordmark -->
           <div>
-            <h4 class="mt-8 h4">Wordmark</h4>
-            <p class="max-w-3xl mt-2 text-slate-400">
+            <h4 class="mt-8">Wordmark</h4>
+            <p class="max-w-4xl mt-2 text-slate-400">
               The Hoppscotch wordmark should be used in all references to
               Hoppscotch as space allows. Monochrome usage is preferred with the
               brand colors below.
@@ -219,8 +219,8 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
           </div>
           <!-- Logo -->
           <div>
-            <h4 class="mt-8 h4">Logo</h4>
-            <p class="max-w-3xl mt-2 text-slate-400">
+            <h4 class="mt-8">Logo</h4>
+            <p class="max-w-4xl mt-2 text-slate-400">
               For tight layouts or logo-only grids, the Hoppscotch logomark is a
               concise way to refer to Hoppscotch. Use with good judgment for
               your audience, as the Hoppscotch wordmark has stronger brand
@@ -333,8 +333,8 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
           </div>
           <!-- Icon -->
           <div>
-            <h4 class="mt-8 h4">Icon</h4>
-            <p class="max-w-3xl mt-2 text-slate-400">
+            <h4 class="mt-8">Icon</h4>
+            <p class="max-w-4xl mt-2 text-slate-400">
               When referring to Hoppscotch as a company, such as on social
               media, or where a "chip" design is required, it is acceptable to
               use this stylized icon with an appropriate corner radius.
@@ -362,8 +362,8 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
           <!-- Colors -->
           <div>
             {{ copiedPrimaryColor }}
-            <h4 class="mt-8 h4">Colors</h4>
-            <p class="max-w-3xl mt-2 text-slate-400">
+            <h4 class="mt-8">Colors</h4>
+            <p class="max-w-4xl mt-2 text-slate-400">
               Hoppscotch's color palette is inspired by the colors of the
               internet. The primary color is Hoppscotch Purple, which should be
               used sparingly for emphasis. The secondary color is Hoppscotch
@@ -447,8 +447,8 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
           </div>
           <!-- Typography -->
           <div>
-            <h4 class="mt-8 h4">Typography</h4>
-            <p class="max-w-3xl mt-2 text-slate-400">
+            <h4 class="mt-8">Typography</h4>
+            <p class="max-w-4xl mt-2 text-slate-400">
               Hoppscotch uses the "Inter" typeface for all marketing and product
               design. Inter is a variable font, which means that it can be
               adjusted to a wide range of weights and widths. The font is
@@ -463,16 +463,16 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
             </p>
             <div class="flex flex-col mt-8 space-y-4">
               <p>The quick brown fox jumps over a lazy dog.</p>
-              <p class="h4">The quick brown fox jumps over a lazy dog.</p>
-              <p class="h3">The quick brown fox jumps over a lazy dog.</p>
-              <p class="h2">The quick brown fox jumps over a lazy dog.</p>
-              <p class="h1">The quick brown fox jumps over a lazy dog.</p>
+              <h4>The quick brown fox jumps over a lazy dog.</h4>
+              <h3>The quick brown fox jumps over a lazy dog.</h3>
+              <h2>The quick brown fox jumps over a lazy dog.</h2>
+              <h1>The quick brown fox jumps over a lazy dog.</h1>
             </div>
           </div>
           <!-- Iconography -->
           <div>
-            <h4 class="mt-8 h4">Iconography</h4>
-            <p class="max-w-3xl mt-2 text-slate-400">
+            <h4 class="mt-8">Iconography</h4>
+            <p class="max-w-4xl mt-2 text-slate-400">
               Hoppscotch uses the "Lucide" icon set for all marketing and
               product design. Lucide is a set of 1,000+ open-source icons that
               are free to use. The icon set is available for free on

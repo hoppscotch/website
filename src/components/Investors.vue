@@ -3,8 +3,8 @@
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
       <div class="py-12 md:py-20">
         <!-- Section header -->
-        <div class="max-w-3xl pb-12 mx-auto text-center md:pb-20">
-          <h2 class="h3 text-slate-200">Our incredible investors</h2>
+        <div class="max-w-4xl pb-12 mx-auto text-center md:pb-20">
+          <h2 class="text-slate-200">Our incredible investors</h2>
         </div>
         <!-- Items -->
         <div class="grid grid-cols-2 gap-2 md:grid-cols-4">

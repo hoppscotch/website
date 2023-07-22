@@ -75,7 +75,7 @@ const { copy, copied } = useClipboard({
                 </li>
               </ul>
             </div>
-            <h3 class="mb-8 h3">
+            <h3 class="mb-8">
               <span class="text-slate-100">
                 The quick brown fox jumped over the lazy dog
               </span>
@@ -113,14 +113,14 @@ const { copy, copied } = useClipboard({
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur.
             </p>
-            <h4 class="mb-4 h4">Lorem ipsum dolor sit amet</h4>
+            <h4 class="mb-4">Lorem ipsum dolor sit amet</h4>
             <p class="mt-4 mb-8">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
               amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua.
             </p>
-            <h4 class="mb-4 h4">Lorem sit amet</h4>
+            <h4 class="mb-4">Lorem sit amet</h4>
             <p class="mt-4 mb-8">
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
@@ -129,7 +129,7 @@ const { copy, copied } = useClipboard({
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </section>
-          <section class="max-w-3xl">
+          <section class="max-w-4xl">
             <ImageZoom
               class="w-full h-full rounded-xl"
               src="/images/blog-sample-post.png"
@@ -145,7 +145,7 @@ const { copy, copied } = useClipboard({
               amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua.
             </p>
-            <h4 class="mb-4 h4">Lorem ipsum dolor sit amet</h4>
+            <h4 class="mb-4">Lorem ipsum dolor sit amet</h4>
             <p class="mt-4 mb-8">
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
@@ -159,7 +159,7 @@ const { copy, copied } = useClipboard({
               amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua.
             </p>
-            <h4 class="mb-4 h4">Lorem sit amet</h4>
+            <h4 class="mb-4">Lorem sit amet</h4>
             <p class="mt-4 mb-8">
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in

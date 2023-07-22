@@ -9,9 +9,9 @@
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
       <div class="pt-16 md:pt-32">
         <!-- Section header -->
-        <div class="max-w-3xl pb-12 mx-auto text-center md:pb-20">
+        <div class="max-w-4xl pb-12 mx-auto text-center md:pb-20">
           <h2
-            class="pb-4 text-transparent h2 bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
           >
             Faster. Smarter.
           </h2>
@@ -255,7 +255,9 @@
           <div>
             <div class="flex items-center mb-1 space-x-2">
               <icon-lucide-zap class="fill-slate-200" />
-              <h4 class="font-medium text-slate-50">Lightweight and snappy</h4>
+              <span class="font-medium text-slate-50"
+                >Lightweight and snappy</span
+              >
             </div>
             <p class="text-sm text-slate-400">
               Designed to be seamless and instant.
@@ -265,7 +267,7 @@
           <div>
             <div class="flex items-center mb-1 space-x-2">
               <icon-lucide-users-2 class="fill-slate-200" />
-              <h4 class="font-medium text-slate-50">Built for teams</h4>
+              <span class="font-medium text-slate-50">Built for teams</span>
             </div>
             <p class="text-sm text-slate-400">
               Have all your teams in one shared workspace.
@@ -275,7 +277,7 @@
           <div>
             <div class="flex items-center mb-1 space-x-2">
               <icon-lucide-palette class="fill-slate-200" />
-              <h4 class="font-medium text-slate-50">Highly customizable</h4>
+              <span class="font-medium text-slate-50">Highly customizable</span>
             </div>
             <p class="text-sm text-slate-400">
               Make Hoppscotch your own with custom themes.
@@ -285,7 +287,9 @@
           <div>
             <div class="flex items-center mb-1 space-x-2">
               <icon-lucide-command class="fill-slate-200" />
-              <h4 class="font-medium text-slate-50">Keyboard first design</h4>
+              <span class="font-medium text-slate-50"
+                >Keyboard first design</span
+              >
             </div>
             <p class="text-sm text-slate-400">
               Designed to be intuitive and easy to use.
@@ -295,7 +299,7 @@
           <div>
             <div class="flex items-center mb-1 space-x-2">
               <icon-lucide-package class="fill-slate-200" />
-              <h4 class="font-medium text-slate-50">Cross-platform apps</h4>
+              <span class="font-medium text-slate-50">Cross-platform apps</span>
             </div>
             <p class="text-sm text-slate-400">
               Works on web, Mac, Windows, and mobile.
@@ -305,7 +309,7 @@
           <div>
             <div class="flex items-center mb-1 space-x-2">
               <icon-lucide-shield-check class="fill-slate-200" />
-              <h4 class="font-medium text-slate-50">Safe and secure</h4>
+              <span class="font-medium text-slate-50">Safe and secure</span>
             </div>
             <p class="text-sm text-slate-400">
               Designed to keep your data safe and protected.

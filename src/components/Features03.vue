@@ -29,9 +29,9 @@
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
       <div class="pt-16 pb-12 md:pt-32 md:pb-20">
         <!-- Section header -->
-        <div class="max-w-3xl pb-12 mx-auto text-center md:pb-20">
+        <div class="max-w-4xl pb-12 mx-auto text-center md:pb-20">
           <h2
-            class="pb-4 text-transparent h2 bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
           >
             Unlock your potential
           </h2>
@@ -40,7 +40,7 @@
             started.
           </p>
         </div>
-        <div class="max-w-3xl mx-auto">
+        <div class="max-w-4xl mx-auto">
           <div data-aos="fade-down">
             <Highlighter class="group">
               <HighlighterItem>

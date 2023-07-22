@@ -34,7 +34,7 @@ const sortedBlogs = computed(() =>
             </li>
           </ul>
         </div>
-        <h3 class="max-w-2xl mb-4 h3">
+        <h3 class="max-w-2xl mb-4">
           <RouterLink
             to="/blog/sample-post"
             class="transition text-slate-200 hover:text-slate-100"
@@ -65,7 +65,7 @@ const sortedBlogs = computed(() =>
   <!-- Articles list -->
   <div class="mx-auto">
     <!-- Articles container -->
-    <div class="items-start grid gap-16 md:grid-cols-2 md:gap-y-20">
+    <div class="grid gap-16 md:grid-cols-2 md:gap-y-20">
       <article
         v-for="(blog, index) in sortedBlogs"
         :key="`blog-${index}`"
@@ -98,7 +98,7 @@ const sortedBlogs = computed(() =>
               </li>
             </ul>
           </div>
-          <h4 class="max-w-2xl mb-4 h4">
+          <h4 class="max-w-2xl mb-4">
             <RouterLink
               :to="`/blog/${blog.slug}`"
               class="transition text-slate-200 hover:text-slate-100"
