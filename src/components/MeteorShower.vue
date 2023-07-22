@@ -6,7 +6,6 @@
 
 <style lang="scss" scoped>
 $n: 15; // number of meteors
-$s: 300; // number of stars
 @for $i from 1 through $n {
   $v: calc(random(90) + 9); // left
   $h: calc(random(250) + 50); // top
@@ -42,9 +41,9 @@ $s: 300; // number of stars
     @apply opacity-0;
   }
   15% {
+    @apply opacity-0;
     @apply mt-64;
     margin-left: -512px;
-    @apply opacity-0;
   }
   100% {
     @apply opacity-0;

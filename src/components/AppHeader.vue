@@ -14,7 +14,7 @@ watch(router.currentRoute, () => {
     }"
   >
     <div
-      class="max-w-6xl px-4 py-3 mx-auto transition"
+      class="max-w-6xl px-4 py-3 mx-auto transition sm:px-6"
       :class="{
         'max-md:bg-slate-950/90 overflow-y-auto h-full overscroll-contain max-md:backdrop-blur-xl':
           !isMobileMenuClosed,
@@ -43,7 +43,7 @@ watch(router.currentRoute, () => {
         </ul>
         <!-- Desktop menu links -->
         <ul
-          class="items-center justify-center flex-shrink-0 hidden px-3 rounded-full space-x-2 flex-nowrap md:flex bg-slate-950/50 backdrop-blur-xl"
+          class="items-center justify-center flex-shrink-0 hidden px-2 border rounded-full space-x-2 flex-nowrap md:flex border-white/10 bg-white/10 backdrop-blur-xl"
           data-aos="fade-down"
         >
           <li>
@@ -141,7 +141,7 @@ watch(router.currentRoute, () => {
                           @click="hide()"
                         >
                           <icon-lucide-terminal-square
-                            class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-gray-500 rounded-md w-9 aspect-square"
+                            class="flex flex-shrink-0 h-full p-2 mr-3 text-white rounded-md bg-slate-500 w-9 aspect-square"
                           />
                           <div class="flex flex-col">
                             <span
@@ -531,7 +531,9 @@ watch(router.currentRoute, () => {
           class="items-center justify-end flex-1 hidden md:flex flex-nowrap"
           data-aos="fade-down"
         >
-          <li class="flex rounded-full bg-slate-950/50 backdrop-blur-xl">
+          <li
+            class="flex border rounded-full bg-white/10 backdrop-blur-xl border-white/10"
+          >
             <a
               class="flex items-center justify-center px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
               href="https://github.com/hoppscotch/hoppscotch"
@@ -564,7 +566,9 @@ watch(router.currentRoute, () => {
           class="flex items-center justify-end flex-1 md:hidden"
           data-aos="fade-down"
         >
-          <li class="flex rounded-full bg-slate-950/50 backdrop-blur-xl">
+          <li
+            class="flex border rounded-full bg-white/10 backdrop-blur-xl border-white/10"
+          >
             <button
               class="flex items-center justify-center px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
               @click="isMobileMenuClosed = !isMobileMenuClosed"
@@ -586,7 +590,9 @@ watch(router.currentRoute, () => {
           class="flex items-center justify-end flex-1 flex-nowrap"
           data-aos="fade-left"
         >
-          <li class="flex rounded-full bg-slate-950/50 backdrop-blur-xl">
+          <li
+            class="flex border rounded-full bg-white/10 backdrop-blur-xl border-white/10"
+          >
             <a
               class="flex items-center justify-center px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
               href="https://github.com/hoppscotch/hoppscotch"
@@ -699,7 +705,7 @@ watch(router.currentRoute, () => {
                     to="/changelog"
                   >
                     <icon-lucide-terminal-square
-                      class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-gray-500 rounded-md w-9 aspect-square"
+                      class="flex flex-shrink-0 h-full p-2 mr-3 text-white rounded-md bg-slate-500 w-9 aspect-square"
                     />
                     <div class="flex flex-col">
                       <span

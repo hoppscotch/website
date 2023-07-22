@@ -21,11 +21,13 @@ const tab = ref(1)
       <div class="pt-32 pb-16">
         <!-- Section header -->
         <div class="max-w-3xl pb-12 mx-auto text-center md:pb-20">
-          <div>
+          <div
+            class="relative inline-flex items-center justify-center px-8 py-4 mb-4 rounded-full hero-subtitle-gradient hero-subtitle-gradient-hover"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <div
-              class="inline-flex pb-3 font-medium text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-purple-200"
-              data-aos="fade-up"
-              data-aos-delay="100"
+              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-purple-100 to-purple-500"
             >
               Products
             </div>
@@ -115,20 +117,21 @@ const tab = ref(1)
             </div>
             <div data-aos="fade-up" data-aos-delay="400">
               <button
-                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-gray-500/10"
+                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-slate-500/10"
                 :class="{
-                  'bg-gray-500/10 !opacity-100 ring-1 ring-gray-600': tab === 4,
+                  'bg-slate-500/10 !opacity-100 ring-1 ring-slate-600':
+                    tab === 4,
                 }"
                 @click="tab = 4"
               >
                 <div
-                  class="inline-flex p-4 mb-4 bg-gray-600 rounded-full shadow-md"
+                  class="inline-flex p-4 mb-4 rounded-full shadow-md bg-slate-600"
                 >
                   <icon-lucide-terminal-square />
                 </div>
                 <div
                   class="text-sm font-medium leading-tight"
-                  :class="{ 'text-gray-200': tab === 4 }"
+                  :class="{ 'text-slate-200': tab === 4 }"
                 >
                   CLI
                 </div>

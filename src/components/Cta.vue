@@ -45,9 +45,13 @@
         </div>
         <!-- Content -->
         <div class="max-w-3xl mx-auto text-center">
-          <div>
+          <div
+            class="relative inline-flex items-center justify-center px-8 py-4 mb-4 rounded-full hero-subtitle-gradient hero-subtitle-gradient-hover"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <div
-              class="inline-flex pb-3 font-medium text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-purple-200"
+              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-purple-100 to-purple-500"
             >
               The security first platform
             </div>

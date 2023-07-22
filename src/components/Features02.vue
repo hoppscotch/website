@@ -112,16 +112,6 @@
                       class="md:max-w-[480px] shrink-0 order-1 md:order-none p-6 pt-0 md:p-8 md:pr-0"
                     >
                       <div class="flex flex-col items-start mb-6">
-                        <span
-                          class="relative inline-flex items-center px-4 py-2 mb-8 text-sm font-medium rounded-full space-x-2 hero-subtitle-gradient hero-subtitle-gradient-hover"
-                        >
-                          <icon-lucide-sparkles class="text-purple-100" />
-                          <span
-                            class="text-transparent bg-clip-text bg-gradient-to-b from-purple-100 to-purple-400"
-                          >
-                            AI-Powered Inspections
-                          </span>
-                        </span>
                         <h3
                           class="inline-flex pb-1 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
                         >

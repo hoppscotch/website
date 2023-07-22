@@ -42,9 +42,9 @@
     "eslint-plugin-vue": "^9.15.1",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
-    "postcss": "^8.4.26",
+    "postcss": "^8.4.27",
     "prettier": "^3.0.0",
-    "sass": "^1.64.0",
+    "sass": "^1.64.1",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.1.6",
     "unplugin-auto-import": "^0.16.6",
@@ -57,7 +57,7 @@
     "vite-ssg-sitemap": "^0.5.1",
     "vue-eslint-parser": "^9.3.1",
     "vue-router": "^4.2.4",
-    "vue-tsc": "^1.8.5"
+    "vue-tsc": "^1.8.6"
   },
   "lint-staged": {
     "*.{js,ts,vue}": "eslint --fix"

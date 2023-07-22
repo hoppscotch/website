@@ -132,7 +132,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border border-white/10 bg-gray-950 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border border-white/10 bg-slate-950 rounded-t-xl"
                 >
                   <img
                     src="/images/wordmark-primary-light.svg"
@@ -183,7 +183,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border border-white/10 bg-gray-950 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border border-white/10 bg-slate-950 rounded-t-xl"
                 >
                   <img
                     src="/images/wordmark-monochrome-light.svg"
@@ -246,7 +246,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border border-white/10 bg-gray-950 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border border-white/10 bg-slate-950 rounded-t-xl"
                 >
                   <img
                     src="/images/logo-primary-light.svg"
@@ -297,7 +297,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border border-white/10 bg-gray-950 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border border-white/10 bg-slate-950 rounded-t-xl"
                 >
                   <img
                     src="/images/logo-monochrome-light.svg"
