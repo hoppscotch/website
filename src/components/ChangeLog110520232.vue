@@ -37,10 +37,10 @@
           This release includes a critical bug fix. Updating is strongly
           recommended.
         </p>
-        <h4 class="flex items-center font-semibold">
+        <h5 class="flex items-center">
           <icon-lucide-check-check class="mr-3" />
           Fixed
-        </h4>
+        </h5>
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
         >

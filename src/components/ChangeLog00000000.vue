@@ -97,10 +97,10 @@
           quas ducimus voluptas asperiores fugiat magnam, labore velit nulla!
           Neque, at.
         </p>
-        <h4 class="flex items-center font-semibold">
+        <h5 class="flex items-center">
           <icon-lucide-sparkles class="mr-3" />
           Added
-        </h4>
+        </h5>
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-green-500"
         >
@@ -109,10 +109,10 @@
           <li class="pl-4">Ipsum dolor sit.</li>
           <li class="pl-4">Lorem dolor.</li>
         </ul>
-        <h4 class="flex items-center font-semibold">
+        <h5 class="flex items-center">
           <icon-lucide-badge-check class="mr-3" />
           Changed
-        </h4>
+        </h5>
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-amber-500"
         >
@@ -121,10 +121,10 @@
           <li class="pl-4">Ipsum dolor sit.</li>
           <li class="pl-4">Lorem dolor.</li>
         </ul>
-        <h4 class="flex items-center font-semibold">
+        <h5 class="flex items-center">
           <icon-lucide-alert-triangle class="mr-3" />
           Deprecated
-        </h4>
+        </h5>
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-pink-500"
         >
@@ -133,10 +133,10 @@
           <li class="pl-4">Ipsum dolor sit.</li>
           <li class="pl-4">Lorem dolor.</li>
         </ul>
-        <h4 class="flex items-center font-semibold">
+        <h5 class="flex items-center">
           <icon-lucide-trash-2 class="mr-3" />
           Removed
-        </h4>
+        </h5>
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-red-500"
         >
@@ -145,10 +145,10 @@
           <li class="pl-4">Ipsum dolor sit.</li>
           <li class="pl-4">Lorem dolor.</li>
         </ul>
-        <h4 class="flex items-center font-semibold">
+        <h5 class="flex items-center">
           <icon-lucide-check-check class="mr-3" />
           Fixed
-        </h4>
+        </h5>
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
         >
@@ -157,10 +157,10 @@
           <li class="pl-4">Ipsum dolor sit.</li>
           <li class="pl-4">Lorem dolor.</li>
         </ul>
-        <h4 class="flex items-center font-semibold">
+        <h5 class="flex items-center">
           <icon-lucide-shield-check class="mr-3" />
           Security
-        </h4>
+        </h5>
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-blue-500"
         >
@@ -169,10 +169,10 @@
           <li class="pl-4">Ipsum dolor sit.</li>
           <li class="pl-4">Lorem dolor.</li>
         </ul>
-        <h4 class="flex items-center font-semibold">
+        <h5 class="flex items-center">
           <icon-lucide-rocket class="mr-3" />
           Performance
-        </h4>
+        </h5>
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-indigo-500"
         >
@@ -181,10 +181,10 @@
           <li class="pl-4">Ipsum dolor sit.</li>
           <li class="pl-4">Lorem dolor.</li>
         </ul>
-        <h4 class="flex items-center font-semibold">
+        <h5 class="flex items-center">
           <icon-lucide-flask-conical class="mr-3" />
           Other
-        </h4>
+        </h5>
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-purple-500"
         >

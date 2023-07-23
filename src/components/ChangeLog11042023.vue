@@ -72,10 +72,10 @@
           Organise your collections more efficiently by using drag and drop to
           reorder. You can also reorder requests within a collection.
         </p>
-        <h4 class="flex items-center font-semibold">
+        <h5 class="flex items-center">
           <icon-lucide-sparkles class="mr-3" />
           Added
-        </h4>
+        </h5>
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-green-500"
         >
@@ -84,10 +84,10 @@
           <li class="pl-4">Workspaces.</li>
           <li class="pl-4">Reorder requests and collections.</li>
         </ul>
-        <h4 class="flex items-center font-semibold">
+        <h5 class="flex items-center">
           <icon-lucide-alert-triangle class="mr-3" />
           Deprecated
-        </h4>
+        </h5>
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-pink-500"
         >
