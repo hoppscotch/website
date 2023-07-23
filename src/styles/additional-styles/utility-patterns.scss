@@ -1,19 +1,19 @@
 /* Typography */
 h1 {
-  @apply text-5xl font-medium leading-tight tracking-tight font-jakarta;
+  @apply text-5xl font-medium leading-normal tracking-tight font-jakarta;
 }
 h2 {
-  @apply text-4xl font-medium leading-tight tracking-tight font-jakarta;
+  @apply text-4xl font-medium leading-normal tracking-tight font-jakarta;
 }
 h3 {
-  @apply text-3xl font-medium leading-tight tracking-tight font-jakarta;
+  @apply text-3xl font-medium leading-normal tracking-tight font-jakarta;
 }
 h4 {
-  @apply text-2xl font-medium leading-tight tracking-tight font-jakarta;
+  @apply text-2xl font-medium leading-normal tracking-tight font-jakarta;
 }
 @screen md {
   h1 {
-    @apply text-6xl;
+    @apply text-7xl;
   }
   h2 {
     @apply text-5xl;
@@ -24,13 +24,13 @@ h4 {
 }
 @screen lg {
   h1 {
-    @apply text-7xl;
+    @apply text-9xl leading-normal;
   }
   h2 {
-    @apply text-6xl;
+    @apply text-6xl leading-normal;
   }
   h3 {
-    @apply text-5xl;
+    @apply text-5xl leading-normal;
   }
 }
 /* Buttons */

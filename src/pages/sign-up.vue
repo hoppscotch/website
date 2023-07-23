@@ -47,7 +47,7 @@ useHead({
           </div>
           <!-- Page title -->
           <h1
-            class="text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
+            class="text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
           >
             Create your free account
           </h1>

@@ -48,7 +48,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
         <!-- Section header -->
         <div class="pb-12 md:pb-20">
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
           >
             Brand
           </h2>
@@ -56,7 +56,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
           <p class="mt-4 text-sm">
             <RouterLink
               :to="{ path: '', hash: '#newsletter' }"
-              class="font-medium text-indigo-400 rounded transition hover:text-indigo-300"
+              class="font-medium text-purple-400 rounded transition hover:text-purple-300"
             >
               Subscribe to updates
             </RouterLink>
@@ -65,7 +65,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
               href="https://twitter.com/hoppscotch_io"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-medium text-indigo-400 rounded transition hover:text-indigo-300"
+              class="font-medium text-purple-400 rounded transition hover:text-purple-300"
               >Follow us on Twitter</a
             >
           </p>
@@ -365,7 +365,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
             <h4 class="mt-8">Colors</h4>
             <p class="max-w-4xl mt-2 text-slate-400">
               Hoppscotch's color palette is inspired by the colors of the
-              internet. The primary color is Hoppscotch Purple, which should be
+              internet. The primary color is Hoppscotch purple, which should be
               used sparingly for emphasis. The secondary color is Hoppscotch
               Slate, which is used for backgrounds and borders. The tertiary
               color is Hoppscotch Gray, which is used for text and icons.

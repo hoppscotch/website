@@ -13,7 +13,7 @@ const tab = ref("1")
         <div class="absolute top-0 -translate-x-1/2 left-1/2 -z-10">
           <img
             src="/images/glow-top.svg"
-            class="max-w-none"
+            class="opacity-10 max-w-none"
             width="1404"
             height="658"
             alt="Features Illustration"
@@ -44,7 +44,7 @@ const tab = ref("1")
                 </div>
               </div>
               <h3
-                class="pb-3 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
+                class="pb-3 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
               >
                 Simplify API development with our end-to-end services
               </h3>

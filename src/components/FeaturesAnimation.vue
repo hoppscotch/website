@@ -29,7 +29,7 @@
             </div>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
             data-aos="fade-up"
             data-aos-delay="200"
           >
@@ -156,7 +156,7 @@
               </filter>
             </defs>
             <g fill="none" fill-rule="evenodd">
-              <g class="fill-indigo-600" transform="translate(437 8)">
+              <g class="fill-purple-600" transform="translate(437 8)">
                 <circle
                   fill-opacity=".64"
                   filter="url(#blurreddots-a)"
@@ -197,7 +197,7 @@
                 <circle fill-opacity=".64" cx="118" cy="22" r="2" />
                 <circle fill-opacity=".32" cx="118" cy="50" r="2" />
               </g>
-              <g class="fill-indigo-600" transform="matrix(-1 0 0 1 120 8)">
+              <g class="fill-purple-600" transform="matrix(-1 0 0 1 120 8)">
                 <circle
                   fill-opacity=".64"
                   filter="url(#blurreddots-f)"
@@ -262,7 +262,7 @@
                   <stop stop-color="#020617" offset="100%"></stop>
                 </linearGradient>
               </defs>
-              <g class="opacity-75 fill-indigo-600" fill-rule="evenodd">
+              <g class="opacity-75 fill-purple-600" fill-rule="evenodd">
                 <circle class="pulse" cx="400" cy="400" r="200" />
                 <circle class="pulse pulse-1" cx="400" cy="400" r="200" />
                 <circle class="pulse pulse-2" cx="400" cy="400" r="200" />

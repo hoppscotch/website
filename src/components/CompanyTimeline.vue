@@ -16,7 +16,7 @@
             </div>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
           >
             Our journey so far
           </h2>
@@ -30,7 +30,7 @@
           <!-- item -->
           <div class="relative py-4 pl-24 md:py-6" data-aos="fade-up">
             <div class="pl-2">
-              <div class="mb-2 text-sm font-medium text-indigo-500">
+              <div class="mb-2 text-sm font-medium text-purple-500">
                 The inception
               </div>
               <div class="flex items-center mb-3">
@@ -64,7 +64,7 @@
             data-aos-delay="100"
           >
             <div class="pl-2">
-              <div class="mb-2 text-sm font-medium text-indigo-500">
+              <div class="mb-2 text-sm font-medium text-purple-500">
                 New beginnings
               </div>
               <div class="flex items-center mb-3">
@@ -97,7 +97,7 @@
             data-aos-delay="200"
           >
             <div class="pl-2">
-              <div class="mb-2 text-sm font-medium text-indigo-500">
+              <div class="mb-2 text-sm font-medium text-purple-500">
                 The seed
               </div>
               <div class="flex items-center mb-3">
@@ -130,7 +130,7 @@
             data-aos-delay="300"
           >
             <div class="pl-2">
-              <div class="mb-2 text-sm font-medium text-indigo-500">
+              <div class="mb-2 text-sm font-medium text-purple-500">
                 Pivoting
               </div>
               <div class="flex items-center mb-3">
@@ -163,7 +163,7 @@
             data-aos-delay="400"
           >
             <div class="pl-2">
-              <div class="mb-2 text-sm font-medium text-indigo-500">
+              <div class="mb-2 text-sm font-medium text-purple-500">
                 Huge milestone
               </div>
               <div class="flex items-center mb-3">

@@ -4,7 +4,7 @@
       <div class="pt-6 pb-12 md:pt-8 md:pb-20">
         <!-- Items -->
         <div
-          class="items-start max-w-sm mx-auto grid grid-cols-2 gap-4 gap-y-8 sm:gap-8 md:grid-cols-4 md:max-w-5xl"
+          class="items-start max-w-sm mx-auto grid grid-cols-2 gap-4 gap-y-8 sm:gap-8 md:grid-cols-4 md:max-w-6xl"
         >
           <!-- item -->
           <div
@@ -91,11 +91,11 @@
             ></div>
             <div class="relative w-20 h-20 mb-4">
               <div
-                class="absolute inset-0 rounded-full opacity-30 bg-gradient-to-tr from-indigo-500 -z-1"
+                class="absolute inset-0 rounded-full opacity-30 bg-gradient-to-tr from-purple-500 -z-1"
                 aria-hidden="true"
               ></div>
               <svg
-                class="w-20 h-20 text-indigo-500 fill-current"
+                class="w-20 h-20 text-purple-500 fill-current"
                 viewBox="0 0 80 80"
                 xmlns="http://www.w3.org/2000/svg"
               >

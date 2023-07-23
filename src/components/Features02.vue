@@ -11,7 +11,7 @@
         <!-- Section header -->
         <div class="max-w-4xl pb-12 mx-auto text-center md:pb-20">
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
           >
             Faster. Smarter.
           </h2>
@@ -113,7 +113,7 @@
                     >
                       <div class="flex flex-col items-start mb-6">
                         <h3
-                          class="inline-flex pb-1 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
+                          class="inline-flex pb-1 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
                         >
                           Optimized for speed
                         </h3>
@@ -173,7 +173,7 @@
                     >
                       <div>
                         <h3
-                          class="inline-flex pb-1 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
+                          class="inline-flex pb-1 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
                         >
                           Extensibility
                         </h3>
@@ -221,7 +221,7 @@
                     >
                       <div>
                         <h3
-                          class="inline-flex pb-1 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
+                          class="inline-flex pb-1 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
                         >
                           Open source
                         </h3>

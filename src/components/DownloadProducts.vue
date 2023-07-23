@@ -39,7 +39,7 @@ function initDownload() {
             </div>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
             data-aos="fade-up"
             data-aos-delay="200"
           >

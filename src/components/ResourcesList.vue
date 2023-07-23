@@ -29,7 +29,7 @@
             </div>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
             data-aos="fade-up"
             data-aos-delay="200"
           >
@@ -45,7 +45,7 @@
         </div>
         <!-- Items -->
         <div
-          class="items-start max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-4 md:max-w-2xl lg:max-w-none"
+          class="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-4 md:max-w-2xl lg:max-w-none"
         >
           <!-- item -->
           <div
@@ -54,7 +54,7 @@
             data-aos-delay="100"
           >
             <icon-lucide-book-open
-              class="w-12 h-12 p-3 mb-4 text-indigo-200 bg-indigo-900 rounded-xl"
+              class="w-12 h-12 p-3 mb-4 text-purple-200 bg-purple-600 rounded-xl"
             />
             <h4 class="mb-2 text-xl font-bold">Documentation</h4>
             <p class="text-sm text-slate-500">
@@ -69,7 +69,7 @@
             data-aos-delay="200"
           >
             <icon-lucide-heart
-              class="w-12 h-12 p-3 mb-4 text-indigo-200 bg-indigo-900 rounded-xl"
+              class="w-12 h-12 p-3 mb-4 text-purple-200 bg-purple-600 rounded-xl"
             />
             <h4 class="mb-2 text-xl font-bold">Community</h4>
             <p class="text-sm text-slate-500">
@@ -84,7 +84,7 @@
             data-aos-delay="300"
           >
             <icon-lucide-palette
-              class="w-12 h-12 p-3 mb-4 text-indigo-200 bg-indigo-900 rounded-xl"
+              class="w-12 h-12 p-3 mb-4 text-purple-200 bg-purple-600 rounded-xl"
             />
             <h4 class="mb-2 text-xl font-bold">Brand</h4>
             <p class="text-sm text-slate-500">
@@ -99,7 +99,7 @@
             data-aos-delay="400"
           >
             <icon-lucide-shopping-bag
-              class="w-12 h-12 p-3 mb-4 text-indigo-200 bg-indigo-900 rounded-xl"
+              class="w-12 h-12 p-3 mb-4 text-purple-200 bg-purple-600 rounded-xl"
             />
             <h4 class="mb-2 text-xl font-bold">Shop</h4>
             <p class="text-sm text-slate-500">

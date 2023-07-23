@@ -5,7 +5,7 @@
         <!-- Section header -->
         <div class="max-w-4xl pb-12 mx-auto text-center md:pb-20">
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/60"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
           >
             Our team
           </h2>
@@ -16,7 +16,7 @@
           </p>
         </div>
         <!-- Team members -->
-        <div class="max-w-xs mx-auto sm:max-w-lg md:max-w-4xl lg:max-w-5xl">
+        <div class="max-w-xs mx-auto sm:max-w-lg md:max-w-4xl lg:max-w-6xl">
           <div class="flex flex-wrap justify-center -m-5 lg:-my-7">
             <!-- member -->
             <div

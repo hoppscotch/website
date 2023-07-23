@@ -10,7 +10,7 @@
           <div class="py-3" data-aos="fade-up">
             <div class="mb-2">
               <a
-                class="flex items-center justify-between text-xl font-bold text-indigo-500 transition hover:text-slate-200"
+                class="flex items-center justify-between text-xl font-bold text-purple-500 transition hover:text-slate-200"
                 href="#0"
               >
                 <span>Lead Product Designer</span>
@@ -38,7 +38,7 @@
           <div class="py-3" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-2">
               <a
-                class="flex items-center justify-between text-xl font-bold text-indigo-500 transition hover:text-slate-200"
+                class="flex items-center justify-between text-xl font-bold text-purple-500 transition hover:text-slate-200"
                 href="#0"
               >
                 <span>Front-end Engineer</span>
@@ -66,7 +66,7 @@
           <div class="py-3" data-aos="fade-up" data-aos-delay="200">
             <div class="mb-2">
               <a
-                class="flex items-center justify-between text-xl font-bold text-indigo-500 transition hover:text-slate-200"
+                class="flex items-center justify-between text-xl font-bold text-purple-500 transition hover:text-slate-200"
                 href="#0"
               >
                 <span>Product Manager</span>
@@ -95,11 +95,11 @@
         <div class="text-center">
           <RouterLink
             to="/careers"
-            class="text-white bg-indigo-600 btn hover:bg-indigo-700 group"
+            class="text-white bg-purple-600 btn hover:bg-purple-700 group"
           >
             See open positions
             <span
-              class="tracking-normal text-indigo-300 group-hover:translate-x-0.5 transition-transform ml-1"
+              class="tracking-normal text-purple-300 group-hover:translate-x-0.5 transition-transform ml-1"
             >
               <icon-lucide-arrow-right />
             </span>
