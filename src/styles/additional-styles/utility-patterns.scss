@@ -1,36 +1,42 @@
 /* Typography */
 h1 {
-  @apply text-5xl font-medium leading-normal tracking-tight font-jakarta;
+  @apply text-5xl font-semibold leading-normal tracking-tight font-jakarta;
 }
 h2 {
-  @apply text-4xl font-medium leading-normal tracking-tight font-jakarta;
+  @apply text-4xl font-semibold leading-normal tracking-tight font-jakarta;
 }
 h3 {
-  @apply text-3xl font-medium leading-normal tracking-tight font-jakarta;
+  @apply text-3xl font-semibold leading-normal tracking-tight font-jakarta;
 }
 h4 {
-  @apply text-2xl font-medium leading-normal tracking-tight font-jakarta;
+  @apply text-2xl font-semibold leading-normal tracking-tight font-jakarta;
 }
 @screen md {
   h1 {
-    @apply text-6xl;
+    @apply text-6xl leading-tight;
   }
   h2 {
-    @apply text-5xl;
+    @apply text-5xl leading-tight;
   }
   h3 {
-    @apply text-4xl;
+    @apply text-4xl leading-tight;
+  }
+  h4 {
+    @apply text-3xl leading-tight;
   }
 }
 @screen lg {
   h1 {
-    @apply text-9xl leading-normal;
+    @apply text-8xl leading-tight;
   }
   h2 {
-    @apply text-6xl leading-normal;
+    @apply text-6xl leading-tight;
   }
   h3 {
-    @apply text-5xl leading-normal;
+    @apply text-5xl leading-tight;
+  }
+  h4 {
+    @apply text-4xl leading-tight;
   }
 }
 /* Buttons */

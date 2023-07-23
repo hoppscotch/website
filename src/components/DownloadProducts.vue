@@ -86,7 +86,7 @@ function initDownload() {
                   >
                     <span class="mr-1"> Download </span>
                     <span
-                      class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform"
+                      class="text-purple-500 group-hover:translate-x-0.5 transition-transform"
                     >
                       <icon-lucide-arrow-right />
                     </span>

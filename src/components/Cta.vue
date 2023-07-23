@@ -44,7 +44,7 @@
           </svg>
         </div>
         <!-- Content -->
-        <div class="flex flex-col items-center max-w-5xl mx-auto text-center">
+        <div class="flex flex-col items-center max-w-4xl mx-auto text-center">
           <div
             class="relative inline-flex items-center justify-center px-8 py-4 mb-4 rounded-full hero-subtitle-gradient hero-subtitle-gradient-hover"
             data-aos="fade-up"
@@ -73,7 +73,7 @@
             >
               Get Started
               <span
-                class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
               >
                 <icon-lucide-arrow-right />
               </span>

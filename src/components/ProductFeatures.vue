@@ -176,7 +176,7 @@ const tab = ref(1)
                         >
                           Download
                           <span
-                            class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                            class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
                           >
                             <icon-lucide-arrow-right />
                           </span>
@@ -223,7 +223,7 @@ const tab = ref(1)
                         >
                           Download
                           <span
-                            class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                            class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
                           >
                             <icon-lucide-arrow-right />
                           </span>
@@ -270,7 +270,7 @@ const tab = ref(1)
                         >
                           Download
                           <span
-                            class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                            class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
                           >
                             <icon-lucide-arrow-right />
                           </span>
@@ -317,7 +317,7 @@ const tab = ref(1)
                         >
                           Download
                           <span
-                            class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                            class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
                           >
                             <icon-lucide-arrow-right />
                           </span>

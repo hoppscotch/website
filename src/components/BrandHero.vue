@@ -76,7 +76,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
             >
               Download Brand Assets
               <span
-                class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
               >
                 <icon-lucide-arrow-right />
               </span>
