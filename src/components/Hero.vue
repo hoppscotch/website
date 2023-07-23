@@ -64,13 +64,19 @@
               </a>
             </div>
           </div>
-          <div class="relative" data-aos="fade-up" data-aos-delay="400">
+          <div
+            class="relative mx-auto my-16"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
             <img
               src="/images/screenshot-1.png"
               alt="Screenshot"
-              class="mx-auto my-16 rounded-xl bg-gradient-to-b from-slate-950 to-transparent backdrop-blur-xl"
+              class="rounded-xl bg-gradient-to-b from-slate-950 to-transparent backdrop-blur-xl"
             />
-            <div class="absolute inset-0 flex items-center justify-center z-1">
+            <div
+              class="absolute inset-0 flex items-center justify-center after:content-[''] after:h-16 after:w-px after:absolute after:left-0 after:top-3/4 after:duration-700 after:bg-gradient-to-b after:from-transparent after:via-purple-800 after:to-transparent after:opacity-0 hover:after:top-1/4 hover:after:opacity-100"
+            >
               <div
                 class="border rounded-full transition border-white/10 bg-black/10 backdrop-blur-xl group hover:scale-110"
               >
