@@ -95,6 +95,8 @@ declare module 'vue' {
     IconLucidePackage2: typeof import('~icons/lucide/package2')['default']
     IconLucidePaintBucket: typeof import('~icons/lucide/paint-bucket')['default']
     IconLucidePalette: typeof import('~icons/lucide/palette')['default']
+    IconLucidePlay: typeof import('~icons/lucide/play')['default']
+    IconLucidePlayCircle: typeof import('~icons/lucide/play-circle')['default']
     IconLucideQrCode: typeof import('~icons/lucide/qr-code')['default']
     IconLucideRocket: typeof import('~icons/lucide/rocket')['default']
     IconLucideScrollText: typeof import('~icons/lucide/scroll-text')['default']

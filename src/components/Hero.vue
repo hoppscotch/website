@@ -11,7 +11,7 @@
         <div class="absolute bottom-0 -translate-x-1/2 left-1/2 -z-10">
           <img
             src="/images/glow-bottom.svg"
-            class="opacity-10 max-w-none"
+            class="max-w-none"
             width="2146"
             height="774"
             alt="Hero Illustration"
@@ -67,10 +67,27 @@
           </div>
           <div class="relative" data-aos="fade-up" data-aos-delay="400">
             <img
-              src="/images/screenshot.png"
+              src="/images/screenshot-1.png"
               alt="Screenshot"
-              class="mx-auto my-16 shadow-2xl rounded-xl bg-slate-950/90"
+              class="mx-auto my-16 rounded-xl bg-gradient-to-b from-slate-950 to-slate-950/5"
             />
+            <div class="flex items-center justify-center -mt-20">
+              <div
+                class="p-1.5 -mt-2 border rounded-full border-white/10 bg-white/20"
+              >
+                <RouterLink
+                  class="w-full transition btn text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                  to="/products"
+                >
+                  Watch Hoppscotch in action
+                  <span
+                    class="tracking-normal text-slate-500 group-hover:translate-x-0.5 transition-transform ml-2"
+                  >
+                    <icon-lucide-arrow-right />
+                  </span>
+                </RouterLink>
+              </div>
+            </div>
           </div>
         </div>
       </div>

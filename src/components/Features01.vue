@@ -13,7 +13,7 @@ const tab = ref("1")
         <div class="absolute top-0 -translate-x-1/2 left-1/2 -z-10">
           <img
             src="/images/glow-top.svg"
-            class="opacity-10 max-w-none"
+            class="max-w-none"
             width="1404"
             height="658"
             alt="Features Illustration"
