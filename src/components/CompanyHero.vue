@@ -60,7 +60,7 @@ onBeforeUnmount(() => {
         class="absolute top-0 flex items-center justify-center w-1/3 -translate-x-1/2 -translate-y-1/2 left-1/2 aspect-square"
       >
         <div
-          class="absolute inset-0 translate-z-0 bg-purple-500 rounded-full blur-[120px] opacity-50"
+          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-50"
         ></div>
       </div>
     </div>
@@ -74,13 +74,13 @@ onBeforeUnmount(() => {
             data-aos-delay="100"
           >
             <div
-              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-purple-100 to-purple-500"
+              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-100 to-violet-500"
             >
               Company
             </div>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
             data-aos="fade-up"
             data-aos-delay="200"
           >
@@ -260,7 +260,7 @@ onBeforeUnmount(() => {
                 <div v-show="active === index" class="text-center">
                   <div class="inline-flex flex-col justify-center mb-4">
                     <img
-                      class="p-2 border-2 border-purple-500 rounded-full"
+                      class="p-2 border-2 rounded-full border-violet-500"
                       :src="item.img"
                       width="64"
                       height="64"

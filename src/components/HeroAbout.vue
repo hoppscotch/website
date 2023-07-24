@@ -32,7 +32,7 @@
             </div>
             <div class="absolute" data-aos="fade-down">
               <h2
-                class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
+                class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
               >
                 Simplicity is the ultimate sophistication
               </h2>

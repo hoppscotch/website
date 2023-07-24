@@ -36,13 +36,13 @@
             data-aos-delay="100"
           >
             <div
-              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-purple-100 to-purple-500"
+              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-100 to-violet-500"
             >
               The developer-first platform
             </div>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
           >
             Unlock your potential
           </h2>
@@ -64,7 +64,7 @@
                     aria-hidden="true"
                   >
                     <div
-                      class="absolute inset-0 translate-z-0 bg-purple-500 rounded-full blur-[120px]"
+                      class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px]"
                     ></div>
                   </div>
                   <img
@@ -82,7 +82,7 @@
                     >
                       Download
                       <span
-                        class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                        class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
                       >
                         <icon-lucide-arrow-right />
                       </span>

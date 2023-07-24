@@ -13,7 +13,7 @@ const annual = ref(true)
         class="absolute top-0 flex items-center justify-center w-1/3 -translate-x-1/2 -translate-y-1/2 left-1/2 aspect-square"
       >
         <div
-          class="absolute inset-0 translate-z-0 bg-purple-500 rounded-full blur-[120px] opacity-50"
+          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-50"
         ></div>
       </div>
     </div>
@@ -27,13 +27,13 @@ const annual = ref(true)
             data-aos-delay="100"
           >
             <div
-              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-purple-100 to-purple-500"
+              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-100 to-violet-500"
             >
               Pricing plans
             </div>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
           >
             Flexible plans and features
           </h2>
@@ -73,7 +73,7 @@ const annual = ref(true)
           </div>
           <!-- Content -->
           <div
-            class="grid md:grid-cols-4 xl:-mx-6 text-sm [&>div:nth-of-type(-n+4)]:py-6 [&>div:nth-last-of-type(-n+4)]:pb-6 max-md:[&>div:nth-last-of-type(-n+4)]:mb-8 max-md:[&>div:nth-of-type(-n+4):nth-of-type(n+1)]:rounded-t-3xl max-md:[&>div:nth-last-of-type(-n+4)]:rounded-b-3xl md:[&>div:nth-of-type(2)]:rounded-tl-3xl md:[&>div:nth-of-type(4)]:rounded-tr-3xl md:[&>div:nth-last-of-type(3)]:rounded-bl-3xl md:[&>div:nth-last-of-type(1)]:rounded-br-3xl [&>div]:bg-slate-800/20 [&>div:nth-of-type(4n+1)]:bg-transparent max-md:[&>div:nth-of-type(4n+5)]:hidden max-md:[&>div:nth-of-type(4n+2)]:order-1 max-md:[&>div:nth-of-type(4n+3)]:order-2 max-md:[&>div:nth-of-type(4n+4)]:order-3 max-md:md:[&>div:nth-of-type(n)]:mb-0 [&>div:nth-of-type(4n+3)]:relative before:[&>div:nth-of-type(4n+3)]:absolute before:[&>div:nth-of-type(4n+3)]:-inset-px before:[&>div:nth-of-type(4n+3)]:rounded-[inherit] before:[&>div:nth-of-type(4n+3)]:border-x-2 before:[&>div:nth-of-type(3)]:border-t-2 before:[&>div:nth-last-of-type(2)]:border-b-2 before:[&>div:nth-of-type(4n+3)]:border-purple-500 before:[&>div:nth-of-type(4n+3)]:-z-10 before:[&>div:nth-of-type(4n+3)]:pointer-events-none"
+            class="grid md:grid-cols-4 xl:-mx-6 text-sm [&>div:nth-of-type(-n+4)]:py-6 [&>div:nth-last-of-type(-n+4)]:pb-6 max-md:[&>div:nth-last-of-type(-n+4)]:mb-8 max-md:[&>div:nth-of-type(-n+4):nth-of-type(n+1)]:rounded-t-3xl max-md:[&>div:nth-last-of-type(-n+4)]:rounded-b-3xl md:[&>div:nth-of-type(2)]:rounded-tl-3xl md:[&>div:nth-of-type(4)]:rounded-tr-3xl md:[&>div:nth-last-of-type(3)]:rounded-bl-3xl md:[&>div:nth-last-of-type(1)]:rounded-br-3xl [&>div]:bg-slate-800/20 [&>div:nth-of-type(4n+1)]:bg-transparent max-md:[&>div:nth-of-type(4n+5)]:hidden max-md:[&>div:nth-of-type(4n+2)]:order-1 max-md:[&>div:nth-of-type(4n+3)]:order-2 max-md:[&>div:nth-of-type(4n+4)]:order-3 max-md:md:[&>div:nth-of-type(n)]:mb-0 [&>div:nth-of-type(4n+3)]:relative before:[&>div:nth-of-type(4n+3)]:absolute before:[&>div:nth-of-type(4n+3)]:-inset-px before:[&>div:nth-of-type(4n+3)]:rounded-[inherit] before:[&>div:nth-of-type(4n+3)]:border-x-2 before:[&>div:nth-of-type(3)]:border-t-2 before:[&>div:nth-last-of-type(2)]:border-b-2 before:[&>div:nth-of-type(4n+3)]:border-violet-500 before:[&>div:nth-of-type(4n+3)]:-z-10 before:[&>div:nth-of-type(4n+3)]:pointer-events-none"
           >
             <!-- Pricing toggle -->
             <div class="flex flex-col justify-end px-6">
@@ -95,7 +95,7 @@ const annual = ref(true)
                       />
                       <label
                         for="toggle"
-                        class="relative flex h-6 w-11 cursor-pointer items-center rounded-full bg-slate-400 px-0.5 outline-slate-400 transition-colors before:h-5 before:w-5 before:rounded-full before:bg-white before:shadow-sm before:transition-transform before:duration-200 peer-checked:bg-purple-500 peer-checked:before:translate-x-full peer-focus-visible:outline peer-focus-visible:outline-offset-2 peer-focus-visible:outline-slate-400 peer-checked:peer-focus-visible:outline-purple-500"
+                        class="relative flex h-6 w-11 cursor-pointer items-center rounded-full bg-slate-400 px-0.5 outline-slate-400 transition-colors before:h-5 before:w-5 before:rounded-full before:bg-white before:shadow-sm before:transition-transform before:duration-200 peer-checked:bg-violet-500 peer-checked:before:translate-x-full peer-focus-visible:outline peer-focus-visible:outline-offset-2 peer-focus-visible:outline-slate-400 peer-checked:peer-focus-visible:outline-violet-500"
                       >
                         <span class="sr-only">Pay Yearly</span>
                       </label>
@@ -111,7 +111,7 @@ const annual = ref(true)
             <div class="flex flex-col justify-end px-6">
               <div class="pb-4 mb-4 border-b grow border-slate-900">
                 <div
-                  class="text-base font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-0.5"
+                  class="text-base font-medium bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-violet-200 pb-0.5"
                 >
                   Pro
                 </div>
@@ -133,7 +133,7 @@ const annual = ref(true)
                 >
                   Get Started
                   <span
-                    class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                    class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
                   >
                     <icon-lucide-arrow-right />
                   </span>
@@ -144,7 +144,7 @@ const annual = ref(true)
             <div class="flex flex-col justify-end px-6">
               <div class="pb-4 mb-4 border-b grow border-slate-900">
                 <div
-                  class="text-base font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-0.5"
+                  class="text-base font-medium bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-violet-200 pb-0.5"
                 >
                   Team
                 </div>
@@ -161,12 +161,12 @@ const annual = ref(true)
               </div>
               <div class="pb-4 border-b border-slate-900">
                 <RouterLink
-                  class="inline-flex items-center justify-center w-full px-3 text-sm font-medium text-white bg-purple-500 border border-transparent rounded-full transition py-1-sm hover:bg-purple-600 group"
+                  class="inline-flex items-center justify-center w-full px-3 text-sm font-medium text-white border border-transparent rounded-full bg-violet-500 transition py-1-sm hover:bg-violet-600 group"
                   to="/products"
                 >
                   Get Started
                   <span
-                    class="text-purple-300 group-hover:translate-x-0.5 transition-transform ml-1"
+                    class="text-violet-300 group-hover:translate-x-0.5 transition-transform ml-1"
                   >
                     <icon-lucide-arrow-right />
                   </span>
@@ -177,7 +177,7 @@ const annual = ref(true)
             <div class="flex flex-col justify-end px-6">
               <div class="pb-4 mb-4 border-b grow border-slate-900">
                 <div
-                  class="text-base font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-0.5"
+                  class="text-base font-medium bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-violet-200 pb-0.5"
                 >
                   Enterprise
                 </div>
@@ -199,7 +199,7 @@ const annual = ref(true)
                 >
                   Get Started
                   <span
-                    class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                    class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
                   >
                     <icon-lucide-arrow-right />
                   </span>
@@ -235,7 +235,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
                   >100 <span class="md:hidden">Social Connections</span></span
                 >
@@ -245,7 +245,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
                   >250 <span class="md:hidden">Social Connections</span></span
                 >
@@ -255,7 +255,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
                   >Unlimited
                   <span class="md:hidden">Social Connections</span></span
@@ -272,7 +272,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span>4 <span class="md:hidden">Custom Domains</span></span>
               </div>
             </div>
@@ -280,7 +280,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
                   >Unlimited <span class="md:hidden">Custom Domains</span></span
                 >
@@ -290,7 +290,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
                   >Unlimited <span class="md:hidden">Custom Domains</span></span
                 >
@@ -306,7 +306,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
                   >Unlimited
                   <span class="md:hidden">User Role Management</span></span
@@ -317,7 +317,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
                   >Unlimited
                   <span class="md:hidden">User Role Management</span></span
@@ -328,7 +328,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
                   >Unlimited
                   <span class="md:hidden">User Role Management</span></span
@@ -345,7 +345,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span>1 <span class="md:hidden">External Databases</span></span>
               </div>
             </div>
@@ -353,7 +353,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span>5 <span class="md:hidden">External Databases</span></span>
               </div>
             </div>
@@ -361,7 +361,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
                   >Unlimited
                   <span class="md:hidden">External Databases</span></span
@@ -397,7 +397,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Custom Connection</span></span>
               </div>
             </div>
@@ -405,7 +405,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Custom Connection</span></span>
               </div>
             </div>
@@ -413,7 +413,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Custom Connection</span></span>
               </div>
             </div>
@@ -427,7 +427,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
                   ><span class="md:hidden"
                     >Advanced Deployment Options</span
@@ -439,7 +439,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
                   ><span class="md:hidden"
                     >Advanced Deployment Options</span
@@ -451,7 +451,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
                   ><span class="md:hidden"
                     >Advanced Deployment Options</span
@@ -469,7 +469,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Extra Add-ons</span></span>
               </div>
             </div>
@@ -477,7 +477,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Extra Add-ons</span></span>
               </div>
             </div>
@@ -485,7 +485,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Extra Add-ons</span></span>
               </div>
             </div>
@@ -513,7 +513,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Admin Roles</span></span>
               </div>
             </div>
@@ -541,7 +541,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Deploy and Monitor</span></span>
               </div>
             </div>
@@ -569,7 +569,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Enterprise Add-ons</span></span>
               </div>
             </div>
@@ -609,7 +609,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Premium Support</span></span>
               </div>
             </div>
@@ -617,7 +617,7 @@ const annual = ref(true)
               <div
                 class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
               >
-                <icon-lucide-check class="mr-3 text-purple-500 shrink-0" />
+                <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Premium Support</span></span>
               </div>
             </div>

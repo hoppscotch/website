@@ -69,7 +69,7 @@ watch(router.currentRoute, () => {
                         @click="hide()"
                       >
                         <icon-lucide-cloudy
-                          class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-purple-500 rounded-md w-9 aspect-square"
+                          class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-violet-500 rounded-md w-9 aspect-square"
                         />
                         <div class="flex flex-col">
                           <span
@@ -547,7 +547,7 @@ watch(router.currentRoute, () => {
             >
               Sign in
               <span
-                class="text-white group-hover:translate-x-0.5 transition-transform ml-1"
+                class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
               >
                 <icon-lucide-chevron-right />
               </span>
@@ -605,7 +605,7 @@ watch(router.currentRoute, () => {
               <span class="relative inline-flex items-center">
                 Open app
                 <span
-                  class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                  class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
                 >
                   <icon-lucide-arrow-right />
                 </span>
@@ -637,7 +637,7 @@ watch(router.currentRoute, () => {
                     to="/features"
                   >
                     <icon-lucide-cloudy
-                      class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-purple-500 rounded-md w-9 aspect-square"
+                      class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-violet-500 rounded-md w-9 aspect-square"
                     />
                     <div class="flex flex-col">
                       <span

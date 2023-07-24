@@ -76,7 +76,7 @@ onUnmounted(() => {
     >
       <div
         ref="modalContent"
-        class="relative flex flex-col items-end w-full max-w-6xl max-h-full overflow-auto"
+        class="relative flex flex-col items-end w-full max-h-full overflow-auto max-w-7xl"
       >
         <button
           class="p-1 mb-4 border rounded-full transition border-white/10 hover:border-white/25 bg-white/10"

@@ -47,7 +47,7 @@ useHead({
           </div>
           <!-- Page title -->
           <h1
-            class="text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
+            class="text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
           >
             Create your free account
           </h1>
@@ -133,11 +133,11 @@ useHead({
             </div>
             <div class="mt-6">
               <button
-                class="inline-flex items-center justify-center w-full px-3 py-1 text-sm font-medium text-white bg-purple-500 border border-transparent rounded-full shadow-sm transition hover:bg-purple-600 group"
+                class="inline-flex items-center justify-center w-full px-3 py-1 text-sm font-medium text-white border border-transparent rounded-full bg-violet-500 shadow-sm transition hover:bg-violet-600 group"
               >
                 Sign Up
                 <span
-                  class="text-purple-300 group-hover:translate-x-0.5 transition-transform ml-1"
+                  class="text-violet-300 group-hover:translate-x-0.5 transition-transform ml-1"
                 >
                   <icon-lucide-arrow-right />
                 </span>
@@ -148,7 +148,7 @@ useHead({
             <div class="text-sm text-slate-400">
               Already have an account?
               <RouterLink
-                class="font-medium text-purple-500 transition hover:text-purple-400"
+                class="font-medium text-violet-500 transition hover:text-violet-400"
                 to="/sign-in"
                 >Sign in</RouterLink
               >

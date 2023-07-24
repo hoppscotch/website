@@ -104,6 +104,7 @@ declare module 'vue' {
     IconLucideServer: typeof import('~icons/lucide/server')['default']
     IconLucideShieldCheck: typeof import('~icons/lucide/shield-check')['default']
     IconLucideShoppingBag: typeof import('~icons/lucide/shopping-bag')['default']
+    IconLucideSparkle: typeof import('~icons/lucide/sparkle')['default']
     IconLucideSparkles: typeof import('~icons/lucide/sparkles')['default']
     IconLucideSun: typeof import('~icons/lucide/sun')['default']
     IconLucideTerminal: typeof import('~icons/lucide/terminal')['default']

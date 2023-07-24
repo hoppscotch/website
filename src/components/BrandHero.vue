@@ -48,7 +48,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
         <!-- Section header -->
         <div class="pb-12 md:pb-20">
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
           >
             Brand
           </h2>
@@ -56,7 +56,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
           <p class="mt-4 text-sm">
             <RouterLink
               :to="{ path: '', hash: '#newsletter' }"
-              class="font-medium text-purple-400 rounded transition hover:text-purple-300"
+              class="font-medium rounded text-violet-400 transition hover:text-violet-300"
             >
               Subscribe to updates
             </RouterLink>
@@ -65,7 +65,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
               href="https://twitter.com/hoppscotch_io"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-medium text-purple-400 rounded transition hover:text-purple-300"
+              class="font-medium rounded text-violet-400 transition hover:text-violet-300"
               >Follow us on Twitter</a
             >
           </p>
@@ -76,7 +76,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
             >
               Download Brand Assets
               <span
-                class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
               >
                 <icon-lucide-arrow-right />
               </span>
@@ -365,7 +365,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
             <h4 class="mt-8">Colors</h4>
             <p class="max-w-4xl mt-2 text-slate-400">
               Hoppscotch's color palette is inspired by the colors of the
-              internet. The primary color is Hoppscotch purple, which should be
+              internet. The primary color is Hoppscotch violet, which should be
               used sparingly for emphasis. The secondary color is Hoppscotch
               Slate, which is used for backgrounds and borders. The tertiary
               color is Hoppscotch Gray, which is used for text and icons.
@@ -373,7 +373,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
             <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3">
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 bg-purple-500 border border-white/10 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-violet-500 border-white/10 rounded-t-xl"
                 >
                   #A855F7
                 </div>
@@ -457,7 +457,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
                 href="https://fonts.google.com/specimen/Inter"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-purple-500 transition hover:underline"
+                class="text-violet-500 transition hover:underline"
                 >Google Fonts</a
               >.
             </p>
@@ -480,7 +480,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
                 href="https://lucide.dev/"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-purple-500 transition hover:underline"
+                class="text-violet-500 transition hover:underline"
                 >Lucide.dev</a
               >.
             </p>

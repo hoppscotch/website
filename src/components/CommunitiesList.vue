@@ -11,13 +11,13 @@
             data-aos-delay="100"
           >
             <div
-              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-purple-100 to-purple-500"
+              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-100 to-violet-500"
             >
               Communities
             </div>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
             data-aos="fade-up"
             data-aos-delay="200"
           >
@@ -42,7 +42,7 @@
             data-aos-delay="100"
           >
             <icon-lucide-book-open
-              class="w-12 h-12 p-3 mb-4 text-purple-200 bg-purple-600 rounded-xl"
+              class="w-12 h-12 p-3 mb-4 text-violet-200 bg-violet-600 rounded-xl"
             />
             <h4 class="mb-2 text-xl font-bold">Documentation</h4>
             <p class="text-sm text-slate-500">
@@ -57,7 +57,7 @@
             data-aos-delay="200"
           >
             <icon-lucide-github
-              class="w-12 h-12 p-3 mb-4 text-purple-200 bg-purple-600 rounded-xl"
+              class="w-12 h-12 p-3 mb-4 text-violet-200 bg-violet-600 rounded-xl"
             />
             <h4 class="mb-2 text-xl font-bold">GitHub</h4>
             <p class="text-sm text-slate-500">
@@ -72,7 +72,7 @@
             data-aos-delay="300"
           >
             <icon-lucide-twitter
-              class="w-12 h-12 p-3 mb-4 text-purple-200 bg-purple-600 rounded-xl"
+              class="w-12 h-12 p-3 mb-4 text-violet-200 bg-violet-600 rounded-xl"
             />
             <h4 class="mb-2 text-xl font-bold">Twitter</h4>
             <p class="text-sm text-slate-500">

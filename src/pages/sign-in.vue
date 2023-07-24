@@ -47,7 +47,7 @@ useHead({
           </div>
           <!-- Page title -->
           <h1
-            class="text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
+            class="text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
           >
             Sign in to your account
           </h1>
@@ -79,7 +79,7 @@ useHead({
                     Password
                   </label>
                   <RouterLink
-                    class="ml-2 text-sm font-medium text-purple-500 transition hover:text-purple-400"
+                    class="ml-2 text-sm font-medium text-violet-500 transition hover:text-violet-400"
                     to="/reset-password"
                   >
                     Forgot?
@@ -96,11 +96,11 @@ useHead({
             </div>
             <div class="mt-6">
               <button
-                class="inline-flex items-center justify-center w-full px-3 py-1 text-sm font-medium text-white bg-purple-500 border border-transparent rounded-full transition shadow-sm hover:bg-purple-600 group"
+                class="inline-flex items-center justify-center w-full px-3 py-1 text-sm font-medium text-white border border-transparent rounded-full bg-violet-500 transition shadow-sm hover:bg-violet-600 group"
               >
                 Sign In
                 <span
-                  class="text-purple-300 group-hover:translate-x-0.5 transition-transform ml-1"
+                  class="text-violet-300 group-hover:translate-x-0.5 transition-transform ml-1"
                 >
                   <icon-lucide-arrow-right />
                 </span>
@@ -111,7 +111,7 @@ useHead({
             <div class="text-sm text-slate-400">
               Don't have an account?
               <RouterLink
-                class="font-medium text-purple-500 transition hover:text-purple-400"
+                class="font-medium text-violet-500 transition hover:text-violet-400"
                 to="/sign-up"
               >
                 Sign up

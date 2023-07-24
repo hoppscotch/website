@@ -17,7 +17,7 @@ defineEmits(["copy"])
     <span class="flex items-center text-sm">
       <RouterLink
         :to="{ path: '', hash: '#newsletter' }"
-        class="font-medium text-purple-400 rounded transition hover:text-purple-300"
+        class="font-medium rounded text-violet-400 transition hover:text-violet-300"
       >
         Subscribe to updates
       </RouterLink>
@@ -30,7 +30,7 @@ defineEmits(["copy"])
         href="https://twitter.com/hoppscotch_io"
         target="_blank"
         rel="noopener noreferrer"
-        class="font-medium text-purple-400 rounded transition hover:text-purple-300"
+        class="font-medium rounded text-violet-400 transition hover:text-violet-300"
       >
         <icon-lucide-twitter />
       </a>
@@ -40,7 +40,7 @@ defineEmits(["copy"])
           content: copied ? 'Copied!' : 'Copy permalink',
           theme: 'tooltip',
         }"
-        class="text-purple-400 rounded transition hover:text-purple-300"
+        class="rounded text-violet-400 transition hover:text-violet-300"
         @click="$emit('copy')"
       >
         <icon-lucide-copy v-if="!copied" />

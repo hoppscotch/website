@@ -17,9 +17,9 @@
         data-aos="fade-right"
       >
         <span
-          class="inline-flex items-center px-2 text-xs font-medium text-purple-400 border border-purple-800 rounded-md bg-purple-500/10"
+          class="inline-flex items-center px-2 text-xs font-medium border text-violet-400 border-violet-800 rounded-md bg-violet-500/10"
         >
-          <span class="w-1.5 h-1.5 mr-2 bg-purple-400 rounded-full"></span>
+          <span class="w-1.5 h-1.5 mr-2 bg-violet-400 rounded-full"></span>
           v2023.4.3
         </span>
         <span

@@ -11,10 +11,10 @@
           aria-hidden="true"
         >
           <div
-            class="absolute inset-0 translate-z-0 bg-purple-500 rounded-full blur-[120px] opacity-70"
+            class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-70"
           ></div>
           <div
-            class="absolute w-1/4 h-1/4 translate-z-0 bg-purple-400 rounded-full blur-[40px]"
+            class="absolute w-1/4 h-1/4 translate-z-0 bg-violet-400 rounded-full blur-[40px]"
           ></div>
         </div>
         <!-- Blurred shape -->
@@ -51,13 +51,13 @@
             data-aos-delay="100"
           >
             <div
-              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-purple-100 to-purple-500"
+              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-100 to-violet-500"
             >
               The security first platform
             </div>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
           >
             Take control of your business
           </h2>
@@ -73,7 +73,7 @@
             >
               Get Started
               <span
-                class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
               >
                 <icon-lucide-arrow-right />
               </span>

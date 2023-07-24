@@ -57,11 +57,11 @@
             ></div>
             <div class="relative w-20 h-20 mb-4">
               <div
-                class="absolute inset-0 rounded-full opacity-30 bg-gradient-to-tr from-purple-500 -z-1"
+                class="absolute inset-0 rounded-full opacity-30 bg-gradient-to-tr from-violet-500 -z-1"
                 aria-hidden="true"
               ></div>
               <svg
-                class="w-20 h-20 text-purple-500 fill-current"
+                class="w-20 h-20 fill-current text-violet-500"
                 viewBox="0 0 80 80"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -91,11 +91,11 @@
             ></div>
             <div class="relative w-20 h-20 mb-4">
               <div
-                class="absolute inset-0 rounded-full opacity-30 bg-gradient-to-tr from-purple-500 -z-1"
+                class="absolute inset-0 rounded-full opacity-30 bg-gradient-to-tr from-violet-500 -z-1"
                 aria-hidden="true"
               ></div>
               <svg
-                class="w-20 h-20 text-purple-500 fill-current"
+                class="w-20 h-20 fill-current text-violet-500"
                 viewBox="0 0 80 80"
                 xmlns="http://www.w3.org/2000/svg"
               >

@@ -44,13 +44,13 @@ onMounted(() => {
             data-aos-delay="100"
           >
             <div
-              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-purple-100 to-purple-500"
+              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-100 to-violet-500"
             >
               The security first platform
             </div>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
           >
             Spot issues faster
           </h2>
@@ -90,7 +90,7 @@ onMounted(() => {
                     aria-hidden="true"
                   >
                     <div
-                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 blur-[60px]"
+                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 group-[.swiper-slide-active]/slide:bg-violet-500 transition-colors duration-500 blur-[60px]"
                     ></div>
                   </div>
                   <div class="flex flex-col h-full p-6">
@@ -114,7 +114,7 @@ onMounted(() => {
                         to="/"
                         >Learn More
                         <span
-                          class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                          class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
                         >
                           <icon-lucide-arrow-right />
                         </span>
@@ -143,7 +143,7 @@ onMounted(() => {
                     aria-hidden="true"
                   >
                     <div
-                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 blur-[60px]"
+                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 group-[.swiper-slide-active]/slide:bg-violet-500 transition-colors duration-500 blur-[60px]"
                     ></div>
                   </div>
                   <div class="flex flex-col h-full p-6">
@@ -167,7 +167,7 @@ onMounted(() => {
                         to="/"
                         >Learn More
                         <span
-                          class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                          class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
                         >
                           <icon-lucide-arrow-right />
                         </span>
@@ -196,7 +196,7 @@ onMounted(() => {
                     aria-hidden="true"
                   >
                     <div
-                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 blur-[60px]"
+                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 group-[.swiper-slide-active]/slide:bg-violet-500 transition-colors duration-500 blur-[60px]"
                     ></div>
                   </div>
                   <div class="flex flex-col h-full p-6">
@@ -222,7 +222,7 @@ onMounted(() => {
                         to="/"
                         >Learn More
                         <span
-                          class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                          class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
                         >
                           <icon-lucide-arrow-right />
                         </span>
@@ -251,7 +251,7 @@ onMounted(() => {
                     aria-hidden="true"
                   >
                     <div
-                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 blur-[60px]"
+                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 group-[.swiper-slide-active]/slide:bg-violet-500 transition-colors duration-500 blur-[60px]"
                     ></div>
                   </div>
                   <div class="flex flex-col h-full p-6">
@@ -277,7 +277,7 @@ onMounted(() => {
                         to="/"
                         >Learn More
                         <span
-                          class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                          class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
                         >
                           <icon-lucide-arrow-right />
                         </span>
@@ -306,7 +306,7 @@ onMounted(() => {
                     aria-hidden="true"
                   >
                     <div
-                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 blur-[60px]"
+                      class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 group-[.swiper-slide-active]/slide:bg-violet-500 transition-colors duration-500 blur-[60px]"
                     ></div>
                   </div>
                   <div class="flex flex-col h-full p-6">
@@ -330,7 +330,7 @@ onMounted(() => {
                         to="/"
                         >Learn More
                         <span
-                          class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                          class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
                         >
                           <icon-lucide-arrow-right />
                         </span>
@@ -349,7 +349,7 @@ onMounted(() => {
           >
             <span class="sr-only">Previous</span>
             <icon-lucide-arrow-left
-              class="w-4 h-4 transition text-slate-500 group-hover:text-purple-500"
+              class="w-4 h-4 transition text-slate-500 group-hover:text-violet-500"
             />
           </button>
           <button
@@ -357,7 +357,7 @@ onMounted(() => {
           >
             <span class="sr-only">Next</span>
             <icon-lucide-arrow-right
-              class="w-4 h-4 transition text-slate-500 group-hover:text-purple-500"
+              class="w-4 h-4 transition text-slate-500 group-hover:text-violet-500"
             />
           </button>
         </div>

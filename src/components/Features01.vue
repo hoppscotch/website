@@ -38,13 +38,13 @@ const tab = ref("1")
                 data-aos-delay="100"
               >
                 <div
-                  class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-purple-100 to-purple-500"
+                  class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-100 to-violet-500"
                 >
                   The developer-first platform
                 </div>
               </div>
               <h3
-                class="pb-3 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
+                class="pb-3 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
               >
                 Simplify API development with our end-to-end services
               </h3>
@@ -58,7 +58,7 @@ const tab = ref("1")
                   :class="
                     tab !== '1'
                       ? 'border-slate-800 opacity-50'
-                      : 'border-purple-700 shadow shadow-purple-500/25'
+                      : 'border-violet-700 shadow shadow-violet-500/25'
                   "
                   @click.prevent="tab = '1'"
                 >
@@ -70,7 +70,7 @@ const tab = ref("1")
                   :class="
                     tab !== '2'
                       ? 'border-slate-800 opacity-50'
-                      : 'border-purple-700 shadow shadow-purple-500/25'
+                      : 'border-violet-700 shadow shadow-violet-500/25'
                   "
                   @click.prevent="tab = '2'"
                 >
@@ -82,7 +82,7 @@ const tab = ref("1")
                   :class="
                     tab !== '3'
                       ? 'border-slate-800 opacity-50'
-                      : 'border-purple-700 shadow shadow-purple-500/25'
+                      : 'border-violet-700 shadow shadow-violet-500/25'
                   "
                   @click.prevent="tab = '3'"
                 >
@@ -159,13 +159,13 @@ const tab = ref("1")
                           class="absolute inset-0 [background:_repeating-linear-gradient(transparent,_transparent_48px,_theme(colors.white)_48px,_theme(colors.white)_49px)] blur-[2px] opacity-20"
                         ></div>
                         <div
-                          class="absolute inset-0 [background:_repeating-linear-gradient(transparent,_transparent_48px,_theme(colors.purple.500)_48px,_theme(colors.purple.500)_49px)]"
+                          class="absolute inset-0 [background:_repeating-linear-gradient(transparent,_transparent_48px,_theme(colors.violet.500)_48px,_theme(colors.violet.500)_49px)]"
                         ></div>
                         <div
                           class="absolute inset-0 [background:_repeating-linear-gradient(90deg,transparent,_transparent_48px,_theme(colors.white)_48px,_theme(colors.white)_49px)] blur-[2px] opacity-20"
                         ></div>
                         <div
-                          class="absolute inset-0 [background:_repeating-linear-gradient(90deg,transparent,_transparent_48px,_theme(colors.purple.500)_48px,_theme(colors.purple.500)_49px)]"
+                          class="absolute inset-0 [background:_repeating-linear-gradient(90deg,transparent,_transparent_48px,_theme(colors.violet.500)_48px,_theme(colors.violet.500)_49px)]"
                         ></div>
                       </div>
                     </div>

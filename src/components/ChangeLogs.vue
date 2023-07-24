@@ -31,7 +31,7 @@
         <!-- Section header -->
         <div class="pb-12 md:pb-20">
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
           >
             Changelog
           </h2>
@@ -41,7 +41,7 @@
           <p class="mt-4 text-sm">
             <RouterLink
               :to="{ path: '', hash: '#newsletter' }"
-              class="font-medium text-purple-400 rounded transition hover:text-purple-300"
+              class="font-medium rounded text-violet-400 transition hover:text-violet-300"
             >
               Subscribe to updates
             </RouterLink>
@@ -50,7 +50,7 @@
               href="https://twitter.com/hoppscotch_io"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-medium text-purple-400 rounded transition hover:text-purple-300"
+              class="font-medium rounded text-violet-400 transition hover:text-violet-300"
               >Follow us on Twitter</a
             >
           </p>

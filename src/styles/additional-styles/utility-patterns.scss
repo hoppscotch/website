@@ -52,7 +52,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .form-select,
 .form-checkbox,
 .form-radio {
-  @apply bg-slate-900 border border-transparent focus:border-purple-500;
+  @apply bg-slate-900 border border-transparent focus:border-violet-500;
 }
 .form-input,
 .form-textarea,
@@ -76,7 +76,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 .form-checkbox,
 .form-radio {
-  @apply text-purple-600 rounded-sm;
+  @apply text-violet-600 rounded-sm;
 }
 /* Chrome, Safari and Opera */
 .no-scrollbar::-webkit-scrollbar {

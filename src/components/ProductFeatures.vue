@@ -13,7 +13,7 @@ const tab = ref(1)
         class="absolute top-0 flex items-center justify-center w-1/3 -translate-x-1/2 -translate-y-1/2 left-1/2 aspect-square"
       >
         <div
-          class="absolute inset-0 translate-z-0 bg-purple-500 rounded-full blur-[120px] opacity-50"
+          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-50"
         ></div>
       </div>
     </div>
@@ -27,13 +27,13 @@ const tab = ref(1)
             data-aos-delay="100"
           >
             <div
-              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-purple-100 to-purple-500"
+              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-100 to-violet-500"
             >
               Products
             </div>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
             data-aos="fade-up"
             data-aos-delay="200"
           >
@@ -53,15 +53,15 @@ const tab = ref(1)
           <div class="pb-8 grid grid-cols-2 gap-6 sm:grid-cols-4">
             <div data-aos="fade-up" data-aos-delay="100">
               <button
-                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-purple-500/10"
+                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-violet-500/10"
                 :class="{
-                  'bg-purple-500/10 !opacity-100 ring-1 ring-purple-600':
+                  'bg-violet-500/10 !opacity-100 ring-1 ring-violet-600':
                     tab === 1,
                 }"
                 @click="tab = 1"
               >
                 <div
-                  class="inline-flex p-4 mb-4 bg-purple-600 rounded-full shadow-md"
+                  class="inline-flex p-4 mb-4 rounded-full shadow-md bg-violet-600"
                 >
                   <icon-lucide-cloudy />
                 </div>
@@ -160,7 +160,7 @@ const tab = ref(1)
                         aria-hidden="true"
                       >
                         <div
-                          class="absolute inset-0 translate-z-0 bg-purple-500 rounded-full blur-[120px]"
+                          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px]"
                         ></div>
                       </div>
                       <img
@@ -176,7 +176,7 @@ const tab = ref(1)
                         >
                           Download
                           <span
-                            class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                            class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
                           >
                             <icon-lucide-arrow-right />
                           </span>
@@ -207,7 +207,7 @@ const tab = ref(1)
                         aria-hidden="true"
                       >
                         <div
-                          class="absolute inset-0 translate-z-0 bg-purple-500 rounded-full blur-[120px]"
+                          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px]"
                         ></div>
                       </div>
                       <img
@@ -223,7 +223,7 @@ const tab = ref(1)
                         >
                           Download
                           <span
-                            class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                            class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
                           >
                             <icon-lucide-arrow-right />
                           </span>
@@ -254,7 +254,7 @@ const tab = ref(1)
                         aria-hidden="true"
                       >
                         <div
-                          class="absolute inset-0 translate-z-0 bg-purple-500 rounded-full blur-[120px]"
+                          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px]"
                         ></div>
                       </div>
                       <img
@@ -270,7 +270,7 @@ const tab = ref(1)
                         >
                           Download
                           <span
-                            class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                            class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
                           >
                             <icon-lucide-arrow-right />
                           </span>
@@ -301,7 +301,7 @@ const tab = ref(1)
                         aria-hidden="true"
                       >
                         <div
-                          class="absolute inset-0 translate-z-0 bg-purple-500 rounded-full blur-[120px]"
+                          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px]"
                         ></div>
                       </div>
                       <img
@@ -317,7 +317,7 @@ const tab = ref(1)
                         >
                           Download
                           <span
-                            class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                            class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
                           >
                             <icon-lucide-arrow-right />
                           </span>

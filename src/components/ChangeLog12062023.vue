@@ -17,9 +17,9 @@
         data-aos="fade-right"
       >
         <span
-          class="inline-flex items-center px-2 text-xs font-medium text-purple-400 border border-purple-800 rounded-md bg-purple-500/10"
+          class="inline-flex items-center px-2 text-xs font-medium border text-violet-400 border-violet-800 rounded-md bg-violet-500/10"
         >
-          <span class="w-1.5 h-1.5 mr-2 bg-purple-400 rounded-full"></span>
+          <span class="w-1.5 h-1.5 mr-2 bg-violet-400 rounded-full"></span>
           v2023.4.6
         </span>
         <span
@@ -72,7 +72,7 @@
           Other
         </h5>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-purple-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-violet-500"
         >
           <li class="pl-4">Updated i18n strings.</li>
         </ul>

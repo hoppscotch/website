@@ -10,6 +10,18 @@ watch(videoModalOpen, () => {
 <template>
   <section>
     <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
+      <div
+        class="absolute inset-0 overflow-hidden pointer-events-none -z-10"
+        aria-hidden="true"
+      >
+        <div
+          class="absolute top-0 flex items-center justify-center w-1/3 -translate-x-1/2 -translate-y-1/2 left-1/2 aspect-square"
+        >
+          <div
+            class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-50"
+          ></div>
+        </div>
+      </div>
       <!-- Particles animation -->
       <Particles class="absolute inset-0 -z-10" />
       <!-- Illustration -->
@@ -32,7 +44,7 @@ watch(videoModalOpen, () => {
         <div class="flex flex-col items-center max-w-4xl mx-auto text-center">
           <Announcement />
           <h1
-            class="mb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
+            class="mb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
             data-aos="fade-down"
           >
             Make Better APIs
@@ -62,9 +74,9 @@ watch(videoModalOpen, () => {
                 <div
                   class="inline-flex items-center justify-center w-full h-full px-3 py-1 text-sm font-medium text-white rounded-full cursor-pointer animate-background-shine bg-[linear-gradient(110deg,_theme(colors.slate.950/90),45%,#393BB2,55%,_theme(colors.slate.950/90))] bg-[length:250%_100%] backdrop-blur-xl"
                 >
-                  Get Started for free with Cloud
+                  Get Started for free on Cloud
                   <span
-                    class="text-white group-hover:translate-x-0.5 transition-transform ml-1"
+                    class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
                   >
                     <icon-lucide-chevron-right />
                   </span>
@@ -87,6 +99,18 @@ watch(videoModalOpen, () => {
             data-aos="fade-up"
             data-aos-delay="400"
           >
+            <div
+              class="absolute inset-0 z-10 overflow-hidden pointer-events-none"
+              aria-hidden="true"
+            >
+              <div
+                class="absolute top-0 flex items-center justify-center w-1/3 -translate-x-1/2 -translate-y-1/2 left-1/2 aspect-square"
+              >
+                <div
+                  class="absolute inset-0 translate-z-0 bg-violet-500/50 rounded-full blur-[120px] opacity-50"
+                ></div>
+              </div>
+            </div>
             <img
               src="/images/screenshot-1.png"
               alt="Screenshot"
@@ -116,18 +140,22 @@ watch(videoModalOpen, () => {
       :modal-open="videoModalOpen"
       @close-modal="videoModalOpen = false"
     >
-      <div class="relative w-full h-full overflow-hidden rounded-xl">
-        <video
-          ref="video"
-          className="w-full aspect-video"
-          width="1920"
-          height="1080"
-          loop
-          controls
+      <div class="p-1 border rounded-2xl bg-white/10 border-white/10">
+        <div
+          class="relative w-full h-full overflow-hidden border border-slate-950 rounded-xl"
         >
-          <source src="/videos/video.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+          <video
+            ref="video"
+            className="w-full aspect-video"
+            width="1920"
+            height="1080"
+            loop
+            controls
+          >
+            <source src="/videos/video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </div>
     </Modal>
   </section>
