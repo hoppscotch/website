@@ -74,7 +74,16 @@ onUnmounted(() => {
       aria-modal="true"
       :aria-labelledby="ariaLabel"
     >
-      <div ref="modalContent" class="w-full max-w-6xl max-h-full overflow-auto">
+      <div
+        ref="modalContent"
+        class="relative flex flex-col items-end w-full max-w-6xl max-h-full overflow-auto"
+      >
+        <button
+          class="p-1 mb-4 border rounded-full transition border-white/10 hover:border-white/25 bg-white/10"
+          @click="emit('closeModal')"
+        >
+          <icon-lucide-x />
+        </button>
         <slot />
       </div>
     </div>
