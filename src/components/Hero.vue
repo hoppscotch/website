@@ -10,6 +10,7 @@ watch(videoModalOpen, () => {
 <template>
   <section>
     <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
+      <!-- Radial gradient -->
       <div
         class="absolute inset-0 overflow-hidden pointer-events-none -z-10"
         aria-hidden="true"
@@ -99,6 +100,7 @@ watch(videoModalOpen, () => {
             data-aos="fade-up"
             data-aos-delay="400"
           >
+            <!-- Radial gradient -->
             <div
               class="absolute inset-0 z-10 overflow-hidden pointer-events-none"
               aria-hidden="true"
@@ -119,16 +121,19 @@ watch(videoModalOpen, () => {
             <div
               class="absolute inset-0 flex items-center justify-center after:content-[''] after:h-16 after:w-px after:absolute after:left-0 after:top-3/4 after:duration-700 after:bg-gradient-to-b after:from-transparent after:via-white/50 after:to-transparent after:opacity-0 hover:after:top-1/4 hover:after:opacity-100"
             >
-              <div
-                class="border rounded-full transition border-white/10 bg-black/10 backdrop-blur-xl group hover:scale-110"
+              <button
+                class="border rounded-full shadow-xl transition border-violet-500/10 bg-violet-500/10 backdrop-blur-xl group hover:scale-110"
+                @click.stop="videoModalOpen = true"
               >
-                <button
-                  class="flex items-center justify-center p-4 m-4 text-white rounded-full transition outline outline-white/50 backdrop-blur-xl bg-gradient-to-b from-white/50 to-white/10 group-hover:scale-110"
-                  @click.stop="videoModalOpen = true"
+                <div
+                  class="flex items-center justify-center p-4 m-4 text-white rounded-full shadow-xl transition outline outline-violet-500/90 backdrop-blur-xl bg-gradient-to-b from-violet-500/50 to-violet-900/10 group-hover:scale-110"
                 >
+                  <span
+                    class="absolute inset-0 inline-flex rounded-full animate-ping bg-violet-800/10"
+                  ></span>
                   <icon-lucide-play />
-                </button>
-              </div>
+                </div>
+              </button>
             </div>
           </div>
         </div>

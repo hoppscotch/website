@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.39.8",
-    "@iconify-json/lucide": "^1.1.112",
+    "@iconify-json/lucide": "^1.1.113",
     "@tailwindcss/forms": "^0.5.4",
     "@types/aos": "^3.0.4",
     "@typescript-eslint/eslint-plugin": "^6.1.0",
@@ -50,7 +50,7 @@
     "unplugin-auto-import": "^0.16.6",
     "unplugin-icons": "^0.16.5",
     "unplugin-vue-components": "^0.25.1",
-    "vite": "^4.4.6",
+    "vite": "^4.4.7",
     "vite-plugin-pages": "^0.31.0",
     "vite-plugin-vue-layouts": "^0.8.0",
     "vite-ssg": "^0.23.1",

@@ -3,7 +3,7 @@
     <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
       <!-- Blurred shape -->
       <div
-        class="absolute top-0 left-0 -mt-24 -ml-16 pointer-events-none blur-2xl opacity-70 -z-10"
+        class="absolute top-0 left-0 -mt-24 -ml-16 pointer-events-none -z-10 blur-2xl opacity-70"
         aria-hidden="true"
       >
         <svg xmlns="http://www.w3.org/2000/svg" width="434" height="427">
@@ -41,7 +41,7 @@
           <p class="mt-4 text-sm">
             <RouterLink
               :to="{ path: '', hash: '#newsletter' }"
-              class="font-medium rounded text-violet-400 transition hover:text-violet-300"
+              class="font-medium rounded transition text-violet-400 hover:text-violet-300"
             >
               Subscribe to updates
             </RouterLink>
@@ -50,7 +50,7 @@
               href="https://twitter.com/hoppscotch_io"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-medium rounded text-violet-400 transition hover:text-violet-300"
+              class="font-medium rounded transition text-violet-400 hover:text-violet-300"
               >Follow us on Twitter</a
             >
           </p>
