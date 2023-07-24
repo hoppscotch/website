@@ -10,6 +10,17 @@
       <div class="pt-16 md:pt-32">
         <!-- Section header -->
         <div class="max-w-4xl pb-12 mx-auto text-center md:pb-20">
+          <div
+            class="relative inline-flex items-center justify-center px-4 py-2 mb-4 border rounded-full hero-subtitle-gradient border-white/10"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div
+              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-purple-100 to-purple-500"
+            >
+              The developer-first platform
+            </div>
+          </div>
           <h2
             class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white/90 via-white/80 to-white/20"
           >
@@ -124,7 +135,7 @@
                         </p>
                       </div>
                       <RouterLink
-                        class="btn-sm text-slate-200 hover:text-white transition group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
+                        class="text-sm font-medium inline-flex items-center justify-center border border-transparent rounded-full px-3 py-1-sm text-slate-200 hover:text-white transition group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
                         to="/"
                       >
                         <span class="relative inline-flex items-center">

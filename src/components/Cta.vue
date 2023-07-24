@@ -46,7 +46,7 @@
         <!-- Content -->
         <div class="flex flex-col items-center max-w-4xl mx-auto text-center">
           <div
-            class="relative inline-flex items-center justify-center px-8 py-4 mb-4 rounded-full hero-subtitle-gradient hero-subtitle-gradient-hover"
+            class="relative inline-flex items-center justify-center px-4 py-2 mb-4 border rounded-full hero-subtitle-gradient border-white/10"
             data-aos="fade-up"
             data-aos-delay="100"
           >
@@ -68,7 +68,7 @@
           </p>
           <div>
             <RouterLink
-              class="transition btn text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+              class="inline-flex items-center justify-center px-3 py-1 text-sm font-medium border border-transparent rounded-full transition text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
               to="/products"
             >
               Get Started

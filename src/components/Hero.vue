@@ -50,26 +50,35 @@ watch(videoModalOpen, () => {
             data-aos-delay="400"
           >
             <div>
-              <RouterLink
-                class="w-full transition btn text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
-                to="/products"
+              <a
+                href="https://hoppscotch.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="relative inline-block overflow-hidden group rounded-full p-[1px]"
               >
-                Get Started
                 <span
-                  class="text-slate-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                  class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"
+                ></span>
+                <div
+                  class="inline-flex items-center justify-center w-full h-full px-3 py-1 text-sm font-medium text-white rounded-full cursor-pointer animate-background-shine bg-slate-950/90 bg-[linear-gradient(110deg,_theme(colors.slate.950/90),45%,#393BB2,55%,_theme(colors.slate.950/90))] bg-[length:250%_100%] backdrop-blur-xl"
                 >
-                  <icon-lucide-arrow-right />
-                </span>
-              </RouterLink>
+                  Get Started for free with Cloud
+                  <span
+                    class="text-white group-hover:translate-x-0.5 transition-transform ml-1"
+                  >
+                    <icon-lucide-chevron-right />
+                  </span>
+                </div>
+              </a>
             </div>
             <div>
               <a
-                class="w-full bg-white transition bg-opacity-10 btn text-slate-200 hover:text-white hover:bg-opacity-20"
+                class="inline-flex items-center justify-center w-full px-3 py-1 text-sm font-medium bg-white border border-transparent rounded-full transition bg-opacity-10 text-slate-200 hover:text-white hover:bg-opacity-20"
                 href="https://docs.hoppscotch.io"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span>Documentation</span>
+                <span>Self-Host on GitHub</span>
               </a>
             </div>
           </div>
@@ -84,7 +93,7 @@ watch(videoModalOpen, () => {
               class="rounded-xl bg-gradient-to-b from-slate-950 to-transparent backdrop-blur-xl"
             />
             <div
-              class="absolute inset-0 flex items-center justify-center after:content-[''] after:h-16 after:w-px after:absolute after:left-0 after:top-3/4 after:duration-700 after:bg-gradient-to-b after:from-transparent after:via-purple-800 after:to-transparent after:opacity-0 hover:after:top-1/4 hover:after:opacity-100"
+              class="absolute inset-0 flex items-center justify-center after:content-[''] after:h-16 after:w-px after:absolute after:left-0 after:top-3/4 after:duration-700 after:bg-gradient-to-b after:from-transparent after:via-white/50 after:to-transparent after:opacity-0 hover:after:top-1/4 hover:after:opacity-100"
             >
               <div
                 class="border rounded-full transition border-white/10 bg-black/10 backdrop-blur-xl group hover:scale-110"

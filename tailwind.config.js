@@ -10,12 +10,21 @@ export default {
         jakarta: ["Plus Jakarta Sans", "sans-serif"],
       },
       animation: {
+        "background-shine": "background-shine 3s linear infinite",
         endless: "endless 20s linear infinite",
       },
       keyframes: {
         endless: {
           "0%": { transform: "translateY(0)" },
           "100%": { transform: "translateY(-245px)" },
+        },
+        "background-shine": {
+          from: {
+            backgroundPosition: "0 0",
+          },
+          to: {
+            backgroundPosition: "-200% 0",
+          },
         },
       },
     },

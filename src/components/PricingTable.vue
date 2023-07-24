@@ -22,7 +22,7 @@ const annual = ref(true)
         <!-- Content -->
         <div class="max-w-4xl pb-12 mx-auto text-center md:pb-20">
           <div
-            class="relative inline-flex items-center justify-center px-8 py-4 mb-4 rounded-full hero-subtitle-gradient hero-subtitle-gradient-hover"
+            class="relative inline-flex items-center justify-center px-4 py-2 mb-4 border rounded-full hero-subtitle-gradient border-white/10"
             data-aos="fade-up"
             data-aos-delay="100"
           >
@@ -128,7 +128,7 @@ const annual = ref(true)
               </div>
               <div class="pb-4 border-b border-slate-900">
                 <RouterLink
-                  class="w-full transition btn-sm text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                  class="inline-flex items-center justify-center w-full px-3 text-sm font-medium border border-transparent rounded-full transition py-1-sm text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                   to="/products"
                 >
                   Get Started
@@ -161,7 +161,7 @@ const annual = ref(true)
               </div>
               <div class="pb-4 border-b border-slate-900">
                 <RouterLink
-                  class="w-full text-white bg-purple-500 transition btn-sm hover:bg-purple-600 group"
+                  class="inline-flex items-center justify-center w-full px-3 text-sm font-medium text-white bg-purple-500 border border-transparent rounded-full transition py-1-sm hover:bg-purple-600 group"
                   to="/products"
                 >
                   Get Started
@@ -194,7 +194,7 @@ const annual = ref(true)
               </div>
               <div class="pb-4 border-b border-slate-900">
                 <RouterLink
-                  class="w-full transition btn-sm text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                  class="inline-flex items-center justify-center w-full px-3 text-sm font-medium border border-transparent rounded-full transition py-1-sm text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                   to="/products"
                 >
                   Get Started

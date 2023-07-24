@@ -95,7 +95,7 @@
         <div class="text-center">
           <RouterLink
             to="/careers"
-            class="text-white bg-purple-600 btn hover:bg-purple-700 group"
+            class="inline-flex items-center justify-center px-3 py-1 text-sm font-medium text-white bg-purple-600 border border-transparent rounded-full transition hover:bg-purple-700 group"
           >
             See open positions
             <span

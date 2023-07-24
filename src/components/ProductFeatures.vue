@@ -22,7 +22,7 @@ const tab = ref(1)
         <!-- Section header -->
         <div class="max-w-4xl pb-12 mx-auto text-center md:pb-20">
           <div
-            class="relative inline-flex items-center justify-center px-8 py-4 mb-4 rounded-full hero-subtitle-gradient hero-subtitle-gradient-hover"
+            class="relative inline-flex items-center justify-center px-4 py-2 mb-4 border rounded-full hero-subtitle-gradient border-white/10"
             data-aos="fade-up"
             data-aos-delay="100"
           >
@@ -171,7 +171,7 @@ const tab = ref(1)
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="shadow-xl transition btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="inline-flex items-center justify-center px-3 py-1 text-sm font-medium border border-transparent rounded-full shadow-xl transition text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
@@ -218,7 +218,7 @@ const tab = ref(1)
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="shadow-xl transition btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="inline-flex items-center justify-center px-3 py-1 text-sm font-medium border border-transparent rounded-full shadow-xl transition text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
@@ -265,7 +265,7 @@ const tab = ref(1)
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="shadow-xl transition btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="inline-flex items-center justify-center px-3 py-1 text-sm font-medium border border-transparent rounded-full shadow-xl transition text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
@@ -312,7 +312,7 @@ const tab = ref(1)
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="shadow-xl transition btn text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="inline-flex items-center justify-center px-3 py-1 text-sm font-medium border border-transparent rounded-full shadow-xl transition text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download

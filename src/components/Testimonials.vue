@@ -119,7 +119,7 @@ onBeforeUnmount(() => {
           <div class="flex flex-wrap justify-center -m-1.5">
             <template v-for="(item, index) in items" :key="index">
               <button
-                class="btn-sm m-1.5 text-xs py-1.5 text-slate-200 transition [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
+                class="text-sm font-medium inline-flex items-center justify-center border border-transparent rounded-full transition px-3 py-1-sm m-1.5 text-xs py-1.5 text-slate-200 transition [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
                 :class="
                   active === index
                     ? 'opacity-100 shadow-slate-900/50 shadow-xl'

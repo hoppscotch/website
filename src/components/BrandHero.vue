@@ -71,7 +71,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
           </p>
           <p class="mt-8 text-sm">
             <RouterLink
-              class="transition btn text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+              class="inline-flex items-center justify-center px-3 py-1 text-sm font-medium border border-transparent rounded-full transition text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
               to="/download"
             >
               Download Brand Assets

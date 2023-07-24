@@ -530,19 +530,24 @@ watch(router.currentRoute, () => {
           data-aos="fade-down"
         >
           <a
-            class="btn-sm flex text-slate-200 hover:text-white transition group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
             href="https://hoppscotch.io"
             target="_blank"
             rel="noopener noreferrer"
+            class="relative inline-block overflow-hidden group rounded-full p-[1px]"
           >
-            <span class="relative inline-flex items-center">
-              Open app
+            <span
+              class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"
+            ></span>
+            <div
+              class="inline-flex items-center justify-center w-full h-full px-3 py-1 text-sm font-medium text-white rounded-full cursor-pointer bg-slate-950/90 backdrop-blur-xl"
+            >
+              Sign in
               <span
-                class="text-purple-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                class="text-white group-hover:translate-x-0.5 transition-transform ml-1"
               >
-                <icon-lucide-arrow-right />
+                <icon-lucide-chevron-right />
               </span>
-            </span>
+            </div>
           </a>
         </div>
         <!-- Mobile CTA links -->
@@ -588,7 +593,7 @@ watch(router.currentRoute, () => {
           </li>
           <li class="ml-2">
             <a
-              class="btn-sm flex text-slate-200 hover:text-white transition w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
+              class="text-sm font-medium inline-flex items-center justify-center border border-transparent rounded-full transition px-3 py-1-sm text-slate-200 hover:text-white w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
               href="https://hoppscotch.io"
               target="_blank"
               rel="noopener noreferrer"

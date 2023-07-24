@@ -31,9 +31,9 @@
                   height="80"
                   alt="Team member 01"
                 />
-                <h4 class="font-medium text-md text-slate-200">
+                <h5 class="font-medium text-md text-slate-200">
                   Sergey Filkov
-                </h4>
+                </h5>
                 <p class="text-sm text-slate-500">Chief Executive Officer</p>
                 <div class="flex items-center">
                   <a
@@ -69,7 +69,7 @@
                   height="80"
                   alt="Team member 02"
                 />
-                <h4 class="font-medium text-md text-slate-200">Mary Champ</h4>
+                <h5 class="font-medium text-md text-slate-200">Mary Champ</h5>
                 <p class="text-sm text-slate-500">Chief Technology Officer</p>
                 <div class="flex items-center">
                   <a
@@ -105,7 +105,7 @@
                   height="80"
                   alt="Team member 03"
                 />
-                <h4 class="font-medium text-md text-slate-200">Mark Varsano</h4>
+                <h5 class="font-medium text-md text-slate-200">Mark Varsano</h5>
                 <p class="text-sm text-slate-500">Product Manager</p>
                 <div class="flex items-center">
                   <a
@@ -141,9 +141,9 @@
                   height="80"
                   alt="Team member 04"
                 />
-                <h4 class="font-medium text-md text-slate-200">
+                <h5 class="font-medium text-md text-slate-200">
                   George Hurley
-                </h4>
+                </h5>
                 <p class="text-sm text-slate-500">Product Engineer</p>
                 <div class="flex items-center">
                   <a
@@ -179,9 +179,9 @@
                   height="80"
                   alt="Team member 05"
                 />
-                <h4 class="font-medium text-md text-slate-200">
+                <h5 class="font-medium text-md text-slate-200">
                   Ellie Lepisov
-                </h4>
+                </h5>
                 <p class="text-sm text-slate-500">Product Engineer</p>
                 <div class="flex items-center">
                   <a
@@ -217,7 +217,7 @@
                   height="80"
                   alt="Team member 06"
                 />
-                <h4 class="font-medium text-md text-slate-200">Connor Bal</h4>
+                <h5 class="font-medium text-md text-slate-200">Connor Bal</h5>
                 <p class="text-sm text-slate-500">Product Engineer</p>
                 <div class="flex items-center">
                   <a
@@ -253,7 +253,7 @@
                   height="80"
                   alt="Team member 07"
                 />
-                <h4 class="font-medium text-md text-slate-200">Marko Sharma</h4>
+                <h5 class="font-medium text-md text-slate-200">Marko Sharma</h5>
                 <p class="text-sm text-slate-500">Product Engineer</p>
                 <div class="flex items-center">
                   <a
@@ -289,9 +289,9 @@
                   height="80"
                   alt="Team member 08"
                 />
-                <h4 class="font-medium text-md text-slate-200">
+                <h5 class="font-medium text-md text-slate-200">
                   Mick Esposito
-                </h4>
+                </h5>
                 <p class="text-sm text-slate-500">Product Engineer</p>
                 <div class="flex items-center">
                   <a
@@ -327,7 +327,7 @@
                   height="80"
                   alt="Team member 09"
                 />
-                <h4 class="font-medium text-md text-slate-200">Daniel Smith</h4>
+                <h5 class="font-medium text-md text-slate-200">Daniel Smith</h5>
                 <p class="text-sm text-slate-500">Product Engineer</p>
                 <div class="flex items-center">
                   <a
@@ -363,9 +363,9 @@
                   height="80"
                   alt="Team member 10"
                 />
-                <h4 class="font-medium text-md text-slate-200">
+                <h5 class="font-medium text-md text-slate-200">
                   Patricia Long
-                </h4>
+                </h5>
                 <p class="text-sm text-slate-500">Product Engineer</p>
                 <div class="flex items-center">
                   <a
