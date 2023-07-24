@@ -83,7 +83,7 @@ watch(videoModalOpen, () => {
             </div>
           </div>
           <div
-            class="relative mx-auto my-16"
+            class="relative my-16 -mx-28"
             data-aos="fade-up"
             data-aos-delay="400"
           >

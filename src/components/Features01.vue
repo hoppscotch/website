@@ -154,7 +154,7 @@ const tab = ref("1")
                     <div
                       class="absolute inset-0 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none w-[500px] h-[500px] rounded-full overflow-hidden [mask-image:_radial-gradient(black,_transparent_60%)]"
                     >
-                      <div class="h-[200%] animate-endless">
+                      <div class="h-[200%] animate-endless-wave">
                         <div
                           class="absolute inset-0 [background:_repeating-linear-gradient(transparent,_transparent_48px,_theme(colors.white)_48px,_theme(colors.white)_49px)] blur-[2px] opacity-20"
                         ></div>

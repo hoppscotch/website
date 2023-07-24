@@ -10,13 +10,14 @@ export default {
         jakarta: ["Plus Jakarta Sans", "sans-serif"],
       },
       animation: {
+        "endless-wave": "endless-wave 20s linear infinite",
         "background-shine": "background-shine 3s linear infinite",
-        endless: "endless 20s linear infinite",
+        "text-gradient": "text-gradient 1.5s linear infinite",
       },
       keyframes: {
-        endless: {
-          "0%": { transform: "translateY(0)" },
-          "100%": { transform: "translateY(-245px)" },
+        "endless-wave": {
+          from: { transform: "translateY(0)" },
+          to: { transform: "translateY(-245px)" },
         },
         "background-shine": {
           from: {
@@ -24,6 +25,11 @@ export default {
           },
           to: {
             backgroundPosition: "-200% 0",
+          },
+        },
+        "text-gradient": {
+          to: {
+            backgroundPosition: "200% center",
           },
         },
       },

@@ -14,7 +14,7 @@ watch(router.currentRoute, () => {
     }"
   >
     <div
-      class="max-w-6xl px-4 py-3 mx-auto transition sm:px-6"
+      class="container px-4 py-3 transition sm:px-6"
       :class="{
         'max-md:bg-slate-950/90 overflow-y-auto h-full overscroll-contain max-md:backdrop-blur-xl':
           !isMobileMenuClosed,
@@ -516,12 +516,16 @@ watch(router.currentRoute, () => {
             </template>
           </tippy>
           <a
-            class="flex items-center justify-center px-3 py-1 text-sm font-medium border rounded-full transition bg-white/10 backdrop-blur-xl border-white/10 text-slate-200 hover:text-white hover:border-white/25"
+            class="flex items-center justify-center px-3 py-1 text-sm font-medium transition border rounded-full bg-slate-950/90 backdrop-blur-xl border-slate-950 text-slate-200 hover:text-white hover:border-[#8678f9]"
             href="https://github.com/hoppscotch/hoppscotch"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Self-Host
+            <span
+              class="animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-transparent"
+            >
+              Self-Host
+            </span>
           </a>
         </div>
         <!-- Desktop CTA links -->
