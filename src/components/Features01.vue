@@ -97,7 +97,7 @@ const tab = ref("1")
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              <div class="relative py-24 -mt-12">
+              <div class="relative py-24">
                 <!-- Particles animation -->
                 <Particles
                   class="absolute inset-0 -z-10"

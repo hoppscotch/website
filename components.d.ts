@@ -122,6 +122,7 @@ declare module 'vue' {
     ImageZoom: typeof import('./src/components/ImageZoom.vue')['default']
     Investors: typeof import('./src/components/Investors.vue')['default']
     MeteorShower: typeof import('./src/components/MeteorShower.vue')['default']
+    Modal: typeof import('./src/components/Modal.vue')['default']
     Newsletter: typeof import('./src/components/Newsletter.vue')['default']
     OpenPositions: typeof import('./src/components/OpenPositions.vue')['default']
     Particles: typeof import('./src/components/Particles.vue')['default']

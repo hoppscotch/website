@@ -1,3 +1,12 @@
+<script setup lang="ts">
+const videoModalOpen = ref(false)
+const video = ref<HTMLVideoElement | null>(null)
+
+watch(videoModalOpen, () => {
+  videoModalOpen.value ? video.value?.play() : video.value?.pause()
+})
+</script>
+
 <template>
   <section>
     <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
@@ -80,17 +89,37 @@
               <div
                 class="border rounded-full transition border-white/10 bg-black/10 backdrop-blur-xl group hover:scale-110"
               >
-                <RouterLink
+                <button
                   class="flex items-center justify-center p-4 m-4 text-white rounded-full transition outline outline-white/50 backdrop-blur-xl bg-gradient-to-b from-white/50 to-white/10 group-hover:scale-110"
-                  to="/products"
+                  @click.stop="videoModalOpen = true"
                 >
                   <icon-lucide-play />
-                </RouterLink>
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <Modal
+      id="video-modal"
+      aria-label="modal-headline"
+      :modal-open="videoModalOpen"
+      @close-modal="videoModalOpen = false"
+    >
+      <div class="relative w-full h-full overflow-hidden rounded-xl">
+        <video
+          ref="video"
+          className="w-full aspect-video"
+          width="1920"
+          height="1080"
+          loop
+          controls
+        >
+          <source src="/videos/video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </Modal>
   </section>
 </template>
