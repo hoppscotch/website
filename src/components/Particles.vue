@@ -33,10 +33,10 @@ onMounted(() => {
   }
   initCanvas()
   animate()
-  window.addEventListener("resize", initCanvas)
+  document.addEventListener("resize", initCanvas)
 })
 onBeforeUnmount(() => {
-  window.removeEventListener("resize", initCanvas)
+  document.removeEventListener("resize", initCanvas)
 })
 watch(
   () => mousePosition.value,

@@ -25,7 +25,7 @@ $n: 15; // number of meteors
       @apply w-1;
       @apply h-1;
       @apply rounded-full;
-      @apply bg-white/70;
+      @apply bg-white/90;
       margin-top: -2px;
       box-shadow: 0 0 15px 3px #fff;
     }

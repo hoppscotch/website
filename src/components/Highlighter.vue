@@ -17,10 +17,10 @@ onMounted(() => {
     boxes.value = Array.from(containerRef.value.children)
   }
   initContainer()
-  window.addEventListener("resize", initContainer)
+  document.addEventListener("resize", initContainer)
 })
 onBeforeUnmount(() => {
-  window.removeEventListener("resize", initContainer)
+  document.removeEventListener("resize", initContainer)
 })
 watch(
   () => mousePosition.value,

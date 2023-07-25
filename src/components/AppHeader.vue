@@ -4,6 +4,16 @@ const router = useRouter()
 watch(router.currentRoute, () => {
   isMobileMenuClosed.value = true
 })
+const scrollpx = ref(0)
+function handleScroll() {
+  scrollpx.value = window.scrollY
+}
+onMounted(() => {
+  document.addEventListener("scroll", handleScroll)
+})
+onBeforeUnmount(() => {
+  document.removeEventListener("scroll", handleScroll)
+})
 </script>
 
 <template>
@@ -14,7 +24,7 @@ watch(router.currentRoute, () => {
     }"
   >
     <div
-      class="container px-4 py-3 transition sm:px-6"
+      class="container px-4 py-4 transition sm:px-6"
       :class="{
         'max-md:bg-slate-950/90 overflow-y-auto h-full overscroll-contain max-md:backdrop-blur-xl':
           !isMobileMenuClosed,
@@ -43,7 +53,7 @@ watch(router.currentRoute, () => {
         </div>
         <!-- Desktop menu links -->
         <div
-          class="items-center justify-center flex-shrink-0 hidden p-2 border rounded-full space-x-1 flex-nowrap md:flex border-white/10 bg-white/10 backdrop-blur-xl"
+          class="items-center justify-center flex-shrink-0 hidden p-2 overflow-hidden border rounded-full space-x-1 flex-nowrap md:flex border-white/10 bg-white/10 backdrop-blur-xl"
           data-aos="fade-down"
         >
           <tippy interactive theme="popover">
@@ -69,7 +79,7 @@ watch(router.currentRoute, () => {
                         @click="hide()"
                       >
                         <icon-lucide-cloudy
-                          class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-violet-500 rounded-md w-9 aspect-square"
+                          class="flex flex-shrink-0 h-full p-2 mr-3 text-white rounded-md bg-violet-500 w-9 aspect-square"
                         />
                         <div class="flex flex-col">
                           <span
@@ -515,18 +525,28 @@ watch(router.currentRoute, () => {
               </ul>
             </template>
           </tippy>
-          <a
-            class="flex items-center justify-center px-3 py-1 text-sm font-medium transition border rounded-full bg-slate-950/90 backdrop-blur-xl border-slate-950 text-slate-200 hover:text-white hover:border-[#8678f9]"
-            href="https://github.com/hoppscotch/hoppscotch"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Transition
+            enter-active-class="transition duration-500 ease-out"
+            enter-from-class="translate-x-full"
+            enter-to-class="translate-x-0"
+            leave-active-class="transition duration-300 ease-out"
+            leave-from-class="translate-x-0"
+            leave-to-class="translate-x-full"
           >
-            <span
-              class="animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-transparent"
+            <a
+              v-if="scrollpx > 128"
+              class="flex items-center justify-center px-3 py-1 text-sm font-medium transition border rounded-full bg-slate-950/90 backdrop-blur-xl border-slate-950 text-slate-200 hover:text-white hover:border-[#8678f9]"
+              href="https://github.com/hoppscotch/hoppscotch"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Self-Host
-            </span>
-          </a>
+              <span
+                class="animate-text-gradient whitespace-nowrap bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-transparent"
+              >
+                Self-Host
+              </span>
+            </a>
+          </Transition>
         </div>
         <!-- Desktop CTA links -->
         <div
@@ -637,7 +657,7 @@ watch(router.currentRoute, () => {
                     to="/features"
                   >
                     <icon-lucide-cloudy
-                      class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-violet-500 rounded-md w-9 aspect-square"
+                      class="flex flex-shrink-0 h-full p-2 mr-3 text-white rounded-md bg-violet-500 w-9 aspect-square"
                     />
                     <div class="flex flex-col">
                       <span

@@ -128,9 +128,6 @@ watch(videoModalOpen, () => {
                 <div
                   class="flex items-center justify-center p-4 m-4 text-white rounded-full shadow-xl transition outline outline-violet-500/90 backdrop-blur-xl bg-gradient-to-b from-violet-500/50 to-violet-900/10 group-hover:scale-110"
                 >
-                  <span
-                    class="absolute inset-0 inline-flex rounded-full animate-ping bg-violet-800/10"
-                  ></span>
                   <icon-lucide-play />
                 </div>
               </button>
@@ -157,7 +154,7 @@ watch(videoModalOpen, () => {
             loop
             controls
           >
-            <source src="/videos/video.mp4" type="video/mp4" />
+            <source src="/videos/promo.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

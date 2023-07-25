@@ -4,10 +4,10 @@ export default function useMousePosition() {
     mousePosition.value = { x: event.clientX, y: event.clientY }
   }
   onMounted(() => {
-    window.addEventListener("mousemove", handleMouseMove)
+    document.addEventListener("mousemove", handleMouseMove)
   })
   onBeforeUnmount(() => {
-    window.removeEventListener("mousemove", handleMouseMove)
+    document.removeEventListener("mousemove", handleMouseMove)
   })
   return mousePosition
 }
