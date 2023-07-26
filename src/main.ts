@@ -45,6 +45,7 @@ export const createApp = ViteSSG(
               name: "preventOverflow",
               options: {
                 rootBoundary: "document",
+                escapeWithReference: true,
               },
             },
           ],

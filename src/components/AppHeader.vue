@@ -53,13 +53,15 @@ onBeforeUnmount(() => {
         </div>
         <!-- Desktop menu links -->
         <div
-          class="items-center justify-center flex-shrink-0 hidden p-2 overflow-hidden border rounded-full space-x-1 flex-nowrap md:flex border-white/10 bg-white/10 backdrop-blur-xl"
+          class="items-center justify-start flex-shrink-0 hidden p-2 border rounded-full space-x-2 flex-nowrap md:flex border-white/10 bg-white/10 backdrop-blur-xl"
           data-aos="fade-down"
+          style="transition: all 500ms"
+          :style="{ 'max-width': scrollpx > 128 ? '500px' : '403px' }"
         >
           <tippy interactive theme="popover">
             <RouterLink
               to="/products"
-              class="flex flex-shrink-0 px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
+              class="flex flex-shrink-0 px-3 py-1 text-sm font-medium border border-transparent rounded-full transition text-slate-200 hover:text-white"
             >
               Products
             </RouterLink>
@@ -223,7 +225,7 @@ onBeforeUnmount(() => {
           <tippy interactive theme="popover">
             <RouterLink
               to="/solutions"
-              class="flex flex-shrink-0 px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
+              class="flex flex-shrink-0 px-3 py-1 text-sm font-medium border border-transparent rounded-full transition text-slate-200 hover:text-white"
             >
               Solutions
             </RouterLink>
@@ -420,7 +422,7 @@ onBeforeUnmount(() => {
           <tippy interactive theme="popover">
             <RouterLink
               to="/company"
-              class="flex flex-shrink-0 px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
+              class="flex flex-shrink-0 px-3 py-1 text-sm font-medium border border-transparent rounded-full transition text-slate-200 hover:text-white"
             >
               Company
             </RouterLink>
@@ -472,7 +474,7 @@ onBeforeUnmount(() => {
           <tippy interactive theme="popover">
             <RouterLink
               to="/resources"
-              class="flex flex-shrink-0 px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
+              class="flex flex-shrink-0 px-3 py-1 text-sm font-medium border border-transparent rounded-full transition text-slate-200 hover:text-white"
             >
               Resources
             </RouterLink>
@@ -525,28 +527,30 @@ onBeforeUnmount(() => {
               </ul>
             </template>
           </tippy>
-          <Transition
-            enter-active-class="transition duration-500 ease-out"
-            enter-from-class="translate-x-full"
-            enter-to-class="translate-x-0"
-            leave-active-class="transition duration-300 ease-out"
-            leave-from-class="translate-x-0"
-            leave-to-class="translate-x-full"
-          >
-            <a
-              v-if="scrollpx > 128"
-              class="flex items-center justify-center px-3 py-1 text-sm font-medium transition border rounded-full bg-slate-950/90 backdrop-blur-xl border-slate-950 text-slate-200 hover:text-white hover:border-[#8678f9]"
-              href="https://github.com/hoppscotch/hoppscotch"
-              target="_blank"
-              rel="noopener noreferrer"
+          <div class="relative flex overflow-hidden rounded-full">
+            <Transition
+              enter-active-class="transition duration-500 ease-out"
+              enter-from-class="translate-x-full"
+              enter-to-class="translate-x-0"
+              leave-active-class="transition duration-500 ease-out"
+              leave-from-class="translate-x-0"
+              leave-to-class="translate-x-full"
             >
-              <span
-                class="animate-text-gradient whitespace-nowrap bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-transparent"
+              <a
+                v-if="scrollpx > 128"
+                class="flex items-center justify-center px-3 py-1 text-sm font-medium transition border rounded-full bg-slate-950/90 backdrop-blur-xl border-slate-950 text-slate-200 hover:text-white hover:border-[#8678f9]"
+                href="https://github.com/hoppscotch/hoppscotch"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Self-Host
-              </span>
-            </a>
-          </Transition>
+                <span
+                  class="animate-text-gradient whitespace-nowrap bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-transparent"
+                >
+                  Self-Host
+                </span>
+              </a>
+            </Transition>
+          </div>
         </div>
         <!-- Desktop CTA links -->
         <div

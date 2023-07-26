@@ -12,7 +12,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@sparticuz/chromium": "^114.0.0",
+    "@sparticuz/chromium": "^115.0.0",
     "@types/nprogress": "^0.2.0",
     "@unhead/addons": "^1.1.32",
     "@vueuse/core": "^10.2.1",
@@ -30,8 +30,8 @@
     "@iconify-json/lucide": "^1.1.113",
     "@tailwindcss/forms": "^0.5.4",
     "@types/aos": "^3.0.4",
-    "@typescript-eslint/eslint-plugin": "^6.1.0",
-    "@typescript-eslint/parser": "^6.1.0",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
     "@unhead/vue": "^1.1.32",
     "@vitejs/plugin-vue": "^4.2.3",
     "@vue/eslint-config-typescript": "^11.0.3",
