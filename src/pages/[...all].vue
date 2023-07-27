@@ -26,3 +26,8 @@ useHead({
     </RouterLink>
   </div>
 </template>
+
+<route lang="yaml">
+meta:
+  layout: empty
+</route>

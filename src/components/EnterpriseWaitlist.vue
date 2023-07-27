@@ -1,0 +1,114 @@
+<template>
+  <section>
+    <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
+      <!-- Radial gradient -->
+      <div
+        class="absolute inset-0 overflow-hidden pointer-events-none -z-10"
+        aria-hidden="true"
+      >
+        <div
+          class="absolute top-0 flex items-center justify-center w-1/3 -translate-x-1/2 -translate-y-1/2 left-1/2 aspect-square"
+        >
+          <div
+            class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-50"
+          ></div>
+        </div>
+      </div>
+      <!-- Particles animation -->
+      <Particles class="absolute inset-0 -z-10" />
+      <div class="pt-32 pb-12 md:pt-40 md:pb-20">
+        <!-- Hero content -->
+        <div class="flex flex-col flex-1 lg:flex-row">
+          <div
+            class="relative flex flex-col items-center justify-center flex-1 p-8"
+          >
+            <div class="absolute inset-0 -z-10">
+              <div class="moon"></div>
+              <div class="moon"></div>
+              <div class="moon"></div>
+            </div>
+            <img
+              src="/images/enterpprise-portal.png"
+              class="max-w-md"
+              alt="Enterprise"
+            />
+          </div>
+          <div class="flex flex-col items-center justify-center flex-1 p-8">
+            <!-- Content -->
+            <div class="max-lg:text-center" data-aos="fade-down">
+              <div
+                class="relative inline-flex items-center justify-center px-4 py-2 mb-4 border rounded-full hero-subtitle-gradient border-white/10"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <div
+                  class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-100 to-violet-500"
+                >
+                  Hoppscotch Enterprise Edition
+                </div>
+              </div>
+              <h3
+                class="pb-3 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
+              >
+                Your Portal to Everything Hoppscotch
+              </h3>
+              <p class="mb-8 text-lg text-slate-400">
+                SAML-based SSO, audit logs, and more.<br />
+                Join the waitlist for the Hoppscotch Enterprise Edition.
+              </p>
+              <div class="max-w-sm mt-8 space-y-2 max-lg:mx-auto">
+                <form
+                  action="https://launchaco.us20.list-manage.com/subscribe/post?u=807aba6832422fc0a3a1ac751&amp;id=03385b483f"
+                  method="post"
+                  target="_blank"
+                  validate
+                  class="flex space-x-4"
+                >
+                  <input
+                    id="mce-email"
+                    name="email"
+                    type="email"
+                    class="inline-flex flex-1 px-4 py-3 font-bold border-0 rounded outline-none transition focus:ring-violet-400 hover:ring-violet-600 ring-1 ring-violet-950 placeholder:text-violet-400 text-violet-50 font-2xl bg-slate-500/10"
+                    placeholder="Email address"
+                    required
+                  />
+                  <button
+                    id="mc-embedded-subscribe"
+                    name="subscribe"
+                    type="submit"
+                    class="inline-flex px-4 py-3 font-bold border-0 rounded outline-none transition focus:ring-violet-400 hover:ring-violet-600 ring-1 ring-violet-950 placeholder:text-violet-400 text-violet-50 font-2xl bg-slate-500/10"
+                  >
+                    Subscribe
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<style scoped lang="scss">
+@for $i from 1 through 3 {
+  .moon:nth-child(#{$i}) {
+    $d: calc($i * 256px);
+    width: $d;
+    height: $d;
+
+    border-radius: 50%;
+
+    @apply bg-slate-700;
+    box-shadow: 0px 0px 32px 0px rgb(0, 0, 0);
+
+    opacity: calc(1 / ($i * 6));
+
+    position: absolute;
+    z-index: 10;
+
+    margin-left: calc(50% - #{$d}/ 2);
+    margin-top: calc(50% - #{$d}/ 2);
+  }
+}
+</style>

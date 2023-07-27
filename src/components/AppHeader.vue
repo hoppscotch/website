@@ -55,7 +55,7 @@ onBeforeUnmount(() => {
         <div
           class="items-center justify-start flex-shrink-0 hidden p-2 border rounded-full space-x-2 flex-nowrap md:flex border-white/10 bg-white/10 backdrop-blur-xl"
           data-aos="fade-down"
-          style="transition: all 500ms"
+          style="transition: all 300ms"
           :style="{ 'max-width': scrollpx > 128 ? '500px' : '403px' }"
         >
           <tippy interactive theme="popover">
@@ -77,7 +77,7 @@ onBeforeUnmount(() => {
                     <li>
                       <RouterLink
                         class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                        to="/features"
+                        to="/products/cloud"
                         @click="hide()"
                       >
                         <icon-lucide-cloudy
@@ -100,7 +100,7 @@ onBeforeUnmount(() => {
                     <li>
                       <RouterLink
                         class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                        to="/download"
+                        to="/products/enterprise"
                         @click="hide()"
                       >
                         <icon-lucide-building-2
@@ -123,7 +123,7 @@ onBeforeUnmount(() => {
                     <li>
                       <RouterLink
                         class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                        to="/pricing"
+                        to="/products/self-host"
                         @click="hide()"
                       >
                         <icon-lucide-server
@@ -147,7 +147,7 @@ onBeforeUnmount(() => {
                     <li>
                       <RouterLink
                         class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                        to="/changelog"
+                        to="/products/cli"
                         @click="hide()"
                       >
                         <icon-lucide-terminal-square
@@ -529,7 +529,7 @@ onBeforeUnmount(() => {
           </tippy>
           <div class="relative flex overflow-hidden rounded-full">
             <Transition
-              enter-active-class="transition duration-500 ease-out"
+              enter-active-class="transition duration-300 ease-out"
               enter-from-class="translate-x-full"
               enter-to-class="translate-x-0"
               leave-active-class="transition duration-500 ease-out"
