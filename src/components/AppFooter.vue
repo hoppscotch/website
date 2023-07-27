@@ -2,7 +2,7 @@
   <footer>
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
       <div
-        class="h-px bg-gradient-to-r from-slate-950 via-slate-600 to-slate-950"
+        class="h-px bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950"
       ></div>
       <!-- Blocks -->
       <div class="py-8 grid gap-8 sm:grid-cols-12 md:py-12">
@@ -256,6 +256,33 @@
           </ul>
         </div>
       </div>
+      <div
+        class="h-px bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950"
+      ></div>
+      <form
+        action="https://launchaco.us20.list-manage.com/subscribe/post?u=807aba6832422fc0a3a1ac751&amp;id=03385b483f"
+        method="post"
+        target="_blank"
+        validate
+        class="flex mt-16 mb-32 space-x-4"
+      >
+        <input
+          id="mce-email"
+          name="email"
+          type="email"
+          class="inline-flex flex-1 px-8 py-6 font-bold border-0 rounded-full outline-none transition focus:ring-violet-400 hover:ring-violet-600 ring-1 ring-violet-950 placeholder:text-violet-400 font-2xl bg-slate-500/10"
+          placeholder="Email address"
+          required
+        />
+        <button
+          id="mc-embedded-subscribe"
+          name="subscribe"
+          type="submit"
+          class="inline-flex px-8 py-6 font-bold border-0 rounded-full outline-none focus:ring-violet-400 hover:ring-violet-600 ring-1 ring-violet-950 placeholder:text-violet-400 text-violet-400 font-2xl bg-slate-500/10"
+        >
+          Subscribe
+        </button>
+      </form>
     </div>
   </footer>
 </template>
