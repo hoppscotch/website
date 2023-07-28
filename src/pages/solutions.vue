@@ -11,5 +11,7 @@ useHead({
 </script>
 
 <template>
-  <section class="relative"></section>
+  <section class="relative">
+    <SolutionsGrid />
+  </section>
 </template>
