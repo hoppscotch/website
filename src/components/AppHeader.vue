@@ -55,7 +55,7 @@ onBeforeUnmount(() => {
         <div
           class="items-center justify-start flex-shrink-0 hidden p-2 border rounded-full space-x-2 flex-nowrap md:flex border-white/10 bg-white/10 backdrop-blur-xl"
           data-aos="fade-down"
-          style="transition: all 300ms"
+          style="transition: all 300ms ease-in-out"
           :style="{ 'max-width': scrollpx > 128 ? '500px' : '403px' }"
         >
           <tippy interactive theme="popover">
@@ -538,7 +538,7 @@ onBeforeUnmount(() => {
             >
               <a
                 v-if="scrollpx > 128"
-                class="flex items-center justify-center px-3 py-1 text-sm font-medium transition border rounded-full bg-slate-950/90 backdrop-blur-xl border-slate-950 text-slate-200 hover:text-white hover:border-[#8678f9]"
+                class="flex items-center flex-shrink-0 justify-center px-3 py-1 text-sm font-medium transition border rounded-full bg-slate-950/90 backdrop-blur-xl border-slate-950 text-slate-200 hover:text-white hover:border-[#8678f9]"
                 href="https://github.com/hoppscotch/hoppscotch"
                 target="_blank"
                 rel="noopener noreferrer"

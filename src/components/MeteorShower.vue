@@ -9,11 +9,11 @@ $n: 15; // number of meteors
 @for $i from 1 through $n {
   $v: calc(random(90) + 9); // left
   $h: calc(random(250) + 50); // top
-  $d: calc(random(70) / 10 + 3); // seconds
+  $d: calc(random(70) / 10 + 5); // seconds
   .meteor-#{$i} {
     @apply absolute;
     @apply w-64;
-    @apply h-px;
+    @apply h-0.5;
     top: $h + px;
     left: $v * 1%;
     transform: rotate(-45deg);
@@ -21,13 +21,13 @@ $n: 15; // number of meteors
     animation: meteor $d + s linear infinite;
     &:before {
       content: "";
+      box-shadow: 0 0 16px 4px #fff;
       @apply absolute;
       @apply w-1;
       @apply h-1;
       @apply rounded-full;
       @apply bg-white/90;
-      margin-top: -2px;
-      box-shadow: 0 0 15px 3px #fff;
+      @apply -mt-px;
     }
   }
 }
