@@ -128,7 +128,7 @@ const annual = ref(true)
               </div>
               <div class="pb-4 border-b border-slate-900">
                 <RouterLink
-                  class="inline-flex items-center justify-center w-full px-3 text-sm font-medium border border-transparent rounded-full transition py-1-sm text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                  class="inline-flex items-center justify-center w-full px-3 py-1 text-sm font-medium border border-transparent rounded-full transition text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                   to="/products"
                 >
                   Get Started
@@ -161,7 +161,7 @@ const annual = ref(true)
               </div>
               <div class="pb-4 border-b border-slate-900">
                 <RouterLink
-                  class="inline-flex items-center justify-center w-full px-3 text-sm font-medium text-white border border-transparent rounded-full bg-violet-500 transition py-1-sm hover:bg-violet-600 group"
+                  class="inline-flex items-center justify-center w-full px-3 py-1 text-sm font-medium text-white border border-transparent rounded-full bg-violet-500 transition hover:bg-violet-600 group"
                   to="/products"
                 >
                   Get Started
@@ -194,7 +194,7 @@ const annual = ref(true)
               </div>
               <div class="pb-4 border-b border-slate-900">
                 <RouterLink
-                  class="inline-flex items-center justify-center w-full px-3 text-sm font-medium border border-transparent rounded-full transition py-1-sm text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                  class="inline-flex items-center justify-center w-full px-3 py-1 text-sm font-medium border border-transparent rounded-full transition text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                   to="/products"
                 >
                   Get Started

@@ -367,7 +367,7 @@
           </div>
         </div>
       </div>
-      <svg viewBox="0 0 115 16" class="my-8 md:mt-16 md:mb-32">
+      <!-- <svg viewBox="0 0 115 16" class="my-8 md:mt-16 md:mb-32">
         <text
           x="0"
           y="14"
@@ -376,7 +376,7 @@
         >
           HOPPSCOTCH
         </text>
-      </svg>
+      </svg> -->
     </div>
   </footer>
 </template>

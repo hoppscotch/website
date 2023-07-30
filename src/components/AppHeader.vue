@@ -621,7 +621,7 @@ onBeforeUnmount(() => {
           </li>
           <li class="ml-2">
             <a
-              class="text-sm font-medium inline-flex items-center justify-center border border-transparent rounded-full transition px-3 py-1-sm text-slate-200 hover:text-white w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
+              class="text-sm font-medium inline-flex items-center justify-center border border-transparent rounded-full transition px-3 py-1 text-slate-200 hover:text-white w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
               href="https://hoppscotch.io"
               target="_blank"
               rel="noopener noreferrer"
@@ -642,7 +642,7 @@ onBeforeUnmount(() => {
           <li>
             <RouterLink
               to="/products"
-              class="px-2 text-sm font-medium rounded transition text-slate-200 hover:text-white"
+              class="px-2 py-1 text-sm font-medium rounded transition text-slate-200 hover:text-white"
               data-aos="fade-right"
               data-aos-delay="50"
             >
@@ -795,7 +795,7 @@ onBeforeUnmount(() => {
           <li>
             <RouterLink
               to="/solutions"
-              class="px-2 text-sm font-medium rounded transition text-slate-200 hover:text-white"
+              class="px-2 py-1 text-sm font-medium rounded transition text-slate-200 hover:text-white"
               data-aos="fade-right"
               data-aos-delay="50"
             >
@@ -964,7 +964,7 @@ onBeforeUnmount(() => {
           <li>
             <RouterLink
               to="/company"
-              class="px-2 text-sm font-medium rounded transition text-slate-200 hover:text-white"
+              class="px-2 py-1 text-sm font-medium rounded transition text-slate-200 hover:text-white"
               data-aos="fade-right"
               data-aos-delay="300"
             >
@@ -1020,7 +1020,7 @@ onBeforeUnmount(() => {
           <li>
             <RouterLink
               to="/resources"
-              class="px-2 text-sm font-medium rounded transition text-slate-200 hover:text-white"
+              class="px-2 py-1 text-sm font-medium rounded transition text-slate-200 hover:text-white"
               data-aos="fade-right"
               data-aos-delay="550"
             >

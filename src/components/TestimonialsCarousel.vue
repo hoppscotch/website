@@ -110,7 +110,7 @@ onMounted(() => {
                     </div>
                     <div class="text-right">
                       <RouterLink
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
+                        class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
                         >Learn More
                         <span
@@ -163,7 +163,7 @@ onMounted(() => {
                     </div>
                     <div class="text-right">
                       <RouterLink
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
+                        class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
                         >Learn More
                         <span
@@ -218,7 +218,7 @@ onMounted(() => {
                     </div>
                     <div class="text-right">
                       <RouterLink
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
+                        class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
                         >Learn More
                         <span
@@ -273,7 +273,7 @@ onMounted(() => {
                     </div>
                     <div class="text-right">
                       <RouterLink
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
+                        class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
                         >Learn More
                         <span
@@ -326,7 +326,7 @@ onMounted(() => {
                     </div>
                     <div class="text-right">
                       <RouterLink
-                        class="inline-flex items-center px-2 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
+                        class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
                         >Learn More
                         <span
