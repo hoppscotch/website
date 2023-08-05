@@ -6,8 +6,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        inter: ["Inter", "sans-serif"],
-        jakarta: ["Plus Jakarta Sans", "sans-serif"],
+        inter: ["Inter Variable", "sans-serif"],
+        jakarta: ["Plus Jakarta Sans Variable", "sans-serif"],
       },
       animation: {
         "endless-wave": "endless-wave 20s linear infinite",

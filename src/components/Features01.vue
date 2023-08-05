@@ -37,16 +37,16 @@ const tab = ref("1")
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                <div
-                  class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-100 to-violet-500"
+                <span
+                  class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
                 >
-                  The developer-first platform
-                </div>
+                  Developer-first API platform
+                </span>
               </div>
               <h3
                 class="pb-3 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
               >
-                Simplify API development with our end-to-end services
+                Essential tools for API development
               </h3>
               <p class="mb-8 text-lg text-slate-400">
                 Hoppscotch simplifies each step of the API lifecycle and
@@ -162,10 +162,10 @@ const tab = ref("1")
                           class="absolute inset-0 [background:_repeating-linear-gradient(transparent,_transparent_48px,_theme(colors.violet.500)_48px,_theme(colors.violet.500)_49px)]"
                         ></div>
                         <div
-                          class="absolute inset-0 [background:_repeating-linear-gradient(90deg,transparent,_transparent_48px,_theme(colors.white)_48px,_theme(colors.white)_49px)] blur-[2px] opacity-20"
+                          class="absolute inset-0 [background:_repeating-linear-gradient(90deg,_transparent,_transparent_48px,_theme(colors.white)_48px,_theme(colors.white)_49px)] blur-[2px] opacity-20"
                         ></div>
                         <div
-                          class="absolute inset-0 [background:_repeating-linear-gradient(90deg,transparent,_transparent_48px,_theme(colors.violet.500)_48px,_theme(colors.violet.500)_49px)]"
+                          class="absolute inset-0 [background:_repeating-linear-gradient(90deg,_transparent,_transparent_48px,_theme(colors.violet.500)_48px,_theme(colors.violet.500)_49px)]"
                         ></div>
                       </div>
                     </div>

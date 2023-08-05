@@ -73,7 +73,7 @@ useHead({
             </div>
             <div class="mt-6">
               <button
-                class="inline-flex items-center justify-center w-full px-3 py-1 text-sm font-medium text-white border border-transparent rounded-full bg-violet-500 shadow-sm transition hover:bg-violet-600 group"
+                class="inline-flex items-center justify-center w-full px-3 py-1 text-sm font-medium text-white border border-transparent rounded-full transition shadow-sm bg-violet-500 hover:bg-violet-600 group"
               >
                 Reset Password
                 <span

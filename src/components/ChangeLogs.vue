@@ -41,7 +41,7 @@
           <p class="mt-4 text-sm">
             <RouterLink
               :to="{ path: '', hash: '#newsletter' }"
-              class="font-medium rounded text-violet-400 transition hover:text-violet-300"
+              class="font-medium rounded transition text-violet-400 hover:text-violet-300"
             >
               Subscribe to updates
             </RouterLink>
@@ -50,7 +50,7 @@
               href="https://twitter.com/hoppscotch_io"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-medium rounded text-violet-400 transition hover:text-violet-300"
+              class="font-medium rounded transition text-violet-400 hover:text-violet-300"
               >Follow us on Twitter</a
             >
           </p>

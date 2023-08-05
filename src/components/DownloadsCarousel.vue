@@ -19,9 +19,6 @@ onMounted(() => {
       },
     },
     grabCursor: true,
-    loop: false,
-    centeredSlides: false,
-    initialSlide: 0,
     spaceBetween: 24,
     navigation: {
       nextEl: ".carousel-next",

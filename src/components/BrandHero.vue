@@ -56,7 +56,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
           <p class="mt-4 text-sm">
             <RouterLink
               :to="{ path: '', hash: '#newsletter' }"
-              class="font-medium rounded text-violet-400 transition hover:text-violet-300"
+              class="font-medium rounded transition text-violet-400 hover:text-violet-300"
             >
               Subscribe to updates
             </RouterLink>
@@ -65,7 +65,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
               href="https://twitter.com/hoppscotch_io"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-medium rounded text-violet-400 transition hover:text-violet-300"
+              class="font-medium rounded transition text-violet-400 hover:text-violet-300"
               >Follow us on Twitter</a
             >
           </p>
@@ -457,7 +457,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
                 href="https://fonts.google.com/specimen/Inter"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-violet-500 transition hover:underline"
+                class="transition text-violet-500 hover:underline"
                 >Google Fonts</a
               >.
             </p>
@@ -480,7 +480,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
                 href="https://lucide.dev/"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-violet-500 transition hover:underline"
+                class="transition text-violet-500 hover:underline"
                 >Lucide.dev</a
               >.
             </p>

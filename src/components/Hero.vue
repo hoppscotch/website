@@ -70,10 +70,10 @@ watch(videoModalOpen, () => {
                 class="relative inline-block overflow-hidden group rounded-full p-[1px]"
               >
                 <span
-                  class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"
+                  class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,_theme(colors.purple.200)_0%,_theme(colors.blue.800)_50%,_theme(colors.purple.200)_100%)]"
                 ></span>
                 <div
-                  class="inline-flex items-center justify-center w-full h-full px-3 py-1 text-sm font-medium text-white rounded-full cursor-pointer animate-background-shine bg-[linear-gradient(110deg,_theme(colors.slate.950/90),45%,#393BB2,55%,_theme(colors.slate.950/90))] bg-[length:250%_100%] backdrop-blur-xl"
+                  class="inline-flex items-center justify-center w-full h-full px-4 py-2 text-sm font-medium text-white rounded-full cursor-pointer animate-background-shine bg-[linear-gradient(110deg,_theme(colors.slate.950/90),45%,_theme(colors.blue.800),55%,_theme(colors.slate.950/90))] bg-[length:250%_100%] backdrop-blur-xl"
                 >
                   Get Started for free on Cloud
                   <span
@@ -86,12 +86,12 @@ watch(videoModalOpen, () => {
             </div>
             <div>
               <a
-                class="inline-flex items-center justify-center w-full px-3 py-1 text-sm font-medium bg-white border border-transparent rounded-full transition bg-opacity-10 text-slate-200 hover:text-white hover:bg-opacity-20"
+                class="inline-flex items-center justify-center w-full px-4 py-2 text-sm font-medium bg-white border border-transparent rounded-full transition bg-opacity-10 text-slate-200 hover:text-white hover:bg-opacity-20"
                 href="https://docs.hoppscotch.io"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span>Self-Host on GitHub</span>
+                Self-Host from GitHub
               </a>
             </div>
           </div>

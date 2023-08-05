@@ -26,11 +26,11 @@ const annual = ref(true)
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <div
-              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-100 to-violet-500"
+            <span
+              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
             >
               Pricing plans
-            </div>
+            </span>
           </div>
           <h2
             class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
@@ -161,7 +161,7 @@ const annual = ref(true)
               </div>
               <div class="pb-4 border-b border-slate-900">
                 <RouterLink
-                  class="inline-flex items-center justify-center w-full px-3 py-1 text-sm font-medium text-white border border-transparent rounded-full bg-violet-500 transition hover:bg-violet-600 group"
+                  class="inline-flex items-center justify-center w-full px-3 py-1 text-sm font-medium text-white border border-transparent rounded-full transition bg-violet-500 hover:bg-violet-600 group"
                   to="/products"
                 >
                   Get Started

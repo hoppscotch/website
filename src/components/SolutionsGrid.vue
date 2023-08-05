@@ -22,11 +22,11 @@
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <div
-              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-100 to-violet-500"
+            <span
+              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
             >
               Solutions
-            </div>
+            </span>
           </div>
           <h2
             class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
@@ -131,7 +131,7 @@
             <!-- Feature #6 -->
             <div data-aos="fade-down">
               <div
-                class="flex flex-col items-center justify-center h-full p-8 bg-indigo-500/50 rounded-xl"
+                class="flex flex-col items-center justify-center h-full p-8 bg-violet-500/50 rounded-xl"
               >
                 <div class="flex flex-col items-center flex-1 text-center">
                   <h5 class="font-medium">Get Started</h5>

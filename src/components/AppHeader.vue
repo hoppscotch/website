@@ -529,7 +529,7 @@ onBeforeUnmount(() => {
           </tippy>
           <div class="relative flex overflow-hidden rounded-full">
             <Transition
-              enter-active-class="transition duration-300 ease-out"
+              enter-active-class="transition duration-500 ease-out"
               enter-from-class="translate-x-full"
               enter-to-class="translate-x-0"
               leave-active-class="transition duration-500 ease-out"
@@ -538,13 +538,13 @@ onBeforeUnmount(() => {
             >
               <a
                 v-if="scrollpx > 128"
-                class="flex items-center flex-shrink-0 justify-center px-3 py-1 text-sm font-medium transition border rounded-full bg-slate-950/90 backdrop-blur-xl border-slate-950 text-slate-200 hover:text-white hover:border-[#8678f9]"
+                class="flex items-center justify-center flex-shrink-0 px-3 py-1 text-sm font-medium border rounded-full transition bg-slate-950/90 backdrop-blur-xl border-slate-950 text-slate-200 hover:text-white hover:border-violet-400"
                 href="https://github.com/hoppscotch/hoppscotch"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span
-                  class="animate-text-gradient whitespace-nowrap bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-transparent"
+                  class="animate-text-gradient transition whitespace-nowrap bg-gradient-to-r from-violet-300 via-indigo-400 to-indigo-200 bg-[200%_auto] bg-clip-text text-transparent"
                 >
                   Self-Host
                 </span>
@@ -557,26 +557,24 @@ onBeforeUnmount(() => {
           class="items-center justify-end flex-1 flex-shrink-0 hidden md:flex flex-nowrap"
           data-aos="fade-down"
         >
-          <a
-            href="https://hoppscotch.io"
-            target="_blank"
-            rel="noopener noreferrer"
+          <RouterLink
+            to="/download"
             class="relative inline-block overflow-hidden group rounded-full p-[1px]"
           >
             <span
-              class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"
+              class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,_theme(colors.purple.200)_0%,_theme(colors.blue.800)_50%,_theme(colors.purple.200)_100%)]"
             ></span>
             <div
               class="inline-flex items-center justify-center w-full h-full px-3 py-1 text-sm font-medium text-white rounded-full cursor-pointer bg-slate-950/90 backdrop-blur-xl"
             >
-              Sign in
+              Download App
               <span
                 class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
               >
                 <icon-lucide-chevron-right />
               </span>
             </div>
-          </a>
+          </RouterLink>
         </div>
         <!-- Mobile CTA links -->
         <ul

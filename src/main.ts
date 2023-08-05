@@ -9,6 +9,8 @@ import "tippy.js/dist/svg-arrow.css"
 import "tippy.js/animations/scale-subtle.css"
 import "aos/dist/aos.css"
 import "nprogress/nprogress.css"
+import "@fontsource-variable/inter"
+import "@fontsource-variable/plus-jakarta-sans"
 import "./styles/style.scss"
 
 nProgress.configure({ showSpinner: false })

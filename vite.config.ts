@@ -9,6 +9,16 @@ import { unheadVueComposablesImports } from "@unhead/vue"
 import AutoImport from "unplugin-auto-import/vite"
 import { ElementPlusResolver } from "unplugin-vue-components/resolvers"
 import { defineConfig } from "vite"
+import Unfonts from "unplugin-fonts/vite"
+import type { ViteSSGOptions } from "vite-ssg"
+
+const ssgOptions: ViteSSGOptions = {
+  script: "async",
+  formatting: "minify",
+  onFinished() {
+    generateSitemap()
+  },
+}
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -39,12 +49,20 @@ export default defineConfig({
       vueTemplate: true,
       dirs: ["./components/**"],
     }),
+    Unfonts({
+      fontsource: {
+        families: [
+          {
+            name: "Inter Variable",
+            variables: ["variable-full"],
+          },
+          {
+            name: "Plus Jakarta Sans Variable",
+            variables: ["variable-full"],
+          },
+        ],
+      },
+    }),
   ],
-  ssgOptions: {
-    script: "async",
-    formatting: "minify",
-    onFinished() {
-      generateSitemap()
-    },
-  },
+  ssgOptions,
 })

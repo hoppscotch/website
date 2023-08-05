@@ -9,26 +9,25 @@ $n: 15; // number of meteors
 @for $i from 1 through $n {
   $v: calc(random(90) + 9); // left
   $h: calc(random(250) + 50); // top
-  $d: calc(random(70) / 10 + 5); // seconds
+  $d: calc(random(70) / 10 + 6); // seconds
   .meteor-#{$i} {
     @apply absolute;
     @apply w-64;
     @apply h-0.5;
+    @apply bg-gradient-to-r;
+    @apply from-white/50;
+    @apply to-transparent;
+    @apply transform;
+    @apply -rotate-45;
     top: $h + px;
     left: $v * 1%;
-    transform: rotate(-45deg);
-    background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
     animation: meteor $d + s linear infinite;
-    &:before {
-      content: "";
-      box-shadow: 0 0 16px 4px #fff;
-      @apply absolute;
-      @apply w-1;
-      @apply h-1;
-      @apply rounded-full;
-      @apply bg-white/90;
-      @apply -mt-px;
-    }
+    @apply before:content-[''];
+    @apply before:absolute;
+    @apply before:w-0.5;
+    @apply before:h-0.5;
+    @apply before:rounded-full;
+    @apply before:bg-white/90;
   }
 }
 @keyframes meteor {

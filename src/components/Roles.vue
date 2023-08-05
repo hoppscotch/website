@@ -10,7 +10,7 @@
           <div class="py-3" data-aos="fade-up">
             <div class="mb-2">
               <a
-                class="flex items-center justify-between text-xl font-bold text-violet-500 transition hover:text-slate-200"
+                class="flex items-center justify-between text-xl font-bold transition text-violet-500 hover:text-slate-200"
                 href="#0"
               >
                 <span>Lead Product Designer</span>
@@ -38,7 +38,7 @@
           <div class="py-3" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-2">
               <a
-                class="flex items-center justify-between text-xl font-bold text-violet-500 transition hover:text-slate-200"
+                class="flex items-center justify-between text-xl font-bold transition text-violet-500 hover:text-slate-200"
                 href="#0"
               >
                 <span>Front-end Engineer</span>
@@ -66,7 +66,7 @@
           <div class="py-3" data-aos="fade-up" data-aos-delay="200">
             <div class="mb-2">
               <a
-                class="flex items-center justify-between text-xl font-bold text-violet-500 transition hover:text-slate-200"
+                class="flex items-center justify-between text-xl font-bold transition text-violet-500 hover:text-slate-200"
                 href="#0"
               >
                 <span>Product Manager</span>

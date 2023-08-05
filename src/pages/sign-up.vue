@@ -133,7 +133,7 @@ useHead({
             </div>
             <div class="mt-6">
               <button
-                class="inline-flex items-center justify-center w-full px-3 py-1 text-sm font-medium text-white border border-transparent rounded-full bg-violet-500 shadow-sm transition hover:bg-violet-600 group"
+                class="inline-flex items-center justify-center w-full px-3 py-1 text-sm font-medium text-white border border-transparent rounded-full transition shadow-sm bg-violet-500 hover:bg-violet-600 group"
               >
                 Sign Up
                 <span
@@ -148,7 +148,7 @@ useHead({
             <div class="text-sm text-slate-400">
               Already have an account?
               <RouterLink
-                class="font-medium text-violet-500 transition hover:text-violet-400"
+                class="font-medium transition text-violet-500 hover:text-violet-400"
                 to="/sign-in"
                 >Sign in</RouterLink
               >
