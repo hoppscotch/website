@@ -4,7 +4,10 @@
       <div
         class="h-px bg-gradient-to-r from-slate-950 via-slate-600 to-slate-950"
       ></div>
-      <div class="relative px-8 py-12 md:py-20 rounded-[3rem] overflow-hidden">
+      <div
+        class="relative px-8 py-12 md:py-20 rounded-[3rem] border border-slate-900 my-16 md:my-32 overflow-hidden"
+      >
+        <MeteorShower />
         <!-- Radial gradient -->
         <div
           class="absolute top-0 flex items-center justify-center w-1/3 pointer-events-none -translate-x-1/2 -translate-y-1/2 left-1/2 -z-10 aspect-square"

@@ -324,8 +324,6 @@
               </div>
               <div class="text-xs text-slate-400">
                 &copy; 2023 Hoppscotch Limited
-                <span class="text-slate-500">•</span>
-                All rights reserved.
               </div>
             </div>
             <!-- Social links -->

@@ -28,8 +28,8 @@
               <div class="moon"></div>
             </div>
             <img
-              src="/images/enterpprise-portal.png"
-              class="max-w-md"
+              src="/images/enterpprise-portal.svg"
+              class="w-full h-full"
               alt="Enterprise"
             />
           </div>
@@ -68,7 +68,7 @@
                     id="mce-email"
                     name="email"
                     type="email"
-                    class="inline-flex flex-1 px-4 py-3 font-bold border-0 rounded outline-none transition focus:ring-violet-400 hover:ring-violet-600 ring-1 ring-violet-950 placeholder:text-violet-400 text-violet-50 font-2xl bg-slate-500/10"
+                    class="inline-flex flex-1 px-4 py-3 font-bold transition border-0 rounded outline-none focus:ring-violet-400 hover:ring-violet-600 ring-1 ring-violet-950 placeholder:text-violet-400 text-violet-50 font-2xl bg-slate-500/10"
                     placeholder="Email address"
                     required
                   />
@@ -76,7 +76,7 @@
                     id="mc-embedded-subscribe"
                     name="subscribe"
                     type="submit"
-                    class="inline-flex px-4 py-3 font-bold border-0 rounded outline-none transition focus:ring-violet-400 hover:ring-violet-600 ring-1 ring-violet-950 placeholder:text-violet-400 text-violet-50 font-2xl bg-slate-500/10"
+                    class="inline-flex px-4 py-3 font-bold transition border-0 rounded outline-none focus:ring-violet-400 hover:ring-violet-600 ring-1 ring-violet-950 placeholder:text-violet-400 text-violet-50 font-2xl bg-slate-500/10"
                   >
                     Subscribe
                   </button>
@@ -85,7 +85,7 @@
             </div>
           </div>
         </div>
-        <div class="px-8 pt-32 grid grid-cols-1 gap-4 md:grid-cols-2">
+        <div class="grid grid-cols-1 gap-4 px-8 pt-32 md:grid-cols-2">
           <div
             class="relative p-8 overflow-hidden border border-white/10 rounded-xl"
           >

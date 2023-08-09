@@ -99,10 +99,12 @@ onMounted(() => {
                       alt="Icon 01"
                     />
                     <div class="flex flex-col grow">
-                      <div class="mb-1 text-lg font-bold">Anonymous User</div>
+                      <div class="mb-1 text-lg font-bold">
+                        Fast and reliable
+                      </div>
                       <div class="mb-3 text-slate-400">
-                        Incorporate rich user profiling, and facilitate more
-                        transactions.
+                        Hoppscotch is built from the ground up to be fast and
+                        reliable.
                       </div>
                     </div>
                     <div class="text-right">
@@ -152,10 +154,10 @@ onMounted(() => {
                       alt="Icon 01"
                     />
                     <div class="flex flex-col grow">
-                      <div class="mb-1 text-lg font-bold">Bot Detection</div>
+                      <div class="mb-1 text-lg font-bold">Open Source</div>
                       <div class="mb-3 text-slate-400">
-                        Incorporate rich user profiling, and facilitate more
-                        transactions.
+                        Hoppscotch's API client is completely open-source and
+                        audited by the community.
                       </div>
                     </div>
                     <div class="text-right">
@@ -205,12 +207,10 @@ onMounted(() => {
                       alt="Icon 01"
                     />
                     <div class="flex flex-col grow">
-                      <div class="mb-1 text-lg font-bold">
-                        Social integrations
-                      </div>
+                      <div class="mb-1 text-lg font-bold">On-premise ready</div>
                       <div class="mb-3 text-slate-400">
-                        Incorporate rich user profiling, and facilitate more
-                        transactions.
+                        Self-host Hoppscotch on your own infrastructure and
+                        never worry about your data leaving your network.
                       </div>
                     </div>
                     <div class="text-right">
