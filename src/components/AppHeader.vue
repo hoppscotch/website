@@ -26,7 +26,7 @@ onBeforeUnmount(() => {
     <div
       class="container px-4 py-4 transition sm:px-6"
       :class="{
-        'max-md:bg-slate-950/90 overflow-y-auto h-full overscroll-contain max-md:backdrop-blur-xl':
+        'max-md:bg-slate-950/90 overflow-y-auto h-full overscroll-contain max-md:backdrop-blur-2xl':
           !isMobileMenuClosed,
       }"
     >
@@ -53,7 +53,7 @@ onBeforeUnmount(() => {
         </div>
         <!-- Desktop menu links -->
         <div
-          class="items-center justify-start flex-shrink-0 hidden p-2 border rounded-full space-x-2 flex-nowrap md:flex border-white/10 bg-white/10 backdrop-blur-xl"
+          class="items-center justify-start flex-shrink-0 hidden p-2 border rounded-full space-x-2 flex-nowrap md:flex border-white/10 bg-white/10 backdrop-blur-2xl"
           data-aos="fade-down"
           style="transition: all 300ms ease-in-out"
           :style="{ 'max-width': scrollpx > 128 ? '500px' : '403px' }"
@@ -538,7 +538,7 @@ onBeforeUnmount(() => {
             >
               <a
                 v-if="scrollpx > 128"
-                class="flex items-center justify-center flex-shrink-0 px-3 py-1 text-sm font-medium border rounded-full transition bg-slate-950/90 backdrop-blur-xl border-slate-950 text-slate-200 hover:text-white hover:border-violet-400"
+                class="flex items-center justify-center flex-shrink-0 px-3 py-1 text-sm font-medium border rounded-full transition bg-slate-950/90 backdrop-blur-2xl border-slate-950 text-slate-200 hover:text-white hover:border-violet-400"
                 href="https://github.com/hoppscotch/hoppscotch"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -565,9 +565,9 @@ onBeforeUnmount(() => {
               class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,_theme(colors.purple.200)_0%,_theme(colors.blue.800)_50%,_theme(colors.purple.200)_100%)]"
             ></span>
             <div
-              class="inline-flex items-center justify-center w-full h-full px-3 py-1 text-sm font-medium text-white rounded-full cursor-pointer bg-slate-950/90 backdrop-blur-xl"
+              class="inline-flex items-center justify-center w-full h-full px-3 py-1 text-sm font-medium text-white rounded-full cursor-pointer bg-slate-950/90 backdrop-blur-2xl"
             >
-              Download App
+              Open App
               <span
                 class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
               >
@@ -582,7 +582,7 @@ onBeforeUnmount(() => {
           data-aos="fade-down"
         >
           <li
-            class="flex border rounded-full bg-white/10 backdrop-blur-xl border-white/10"
+            class="flex border rounded-full bg-white/10 backdrop-blur-2xl border-white/10"
           >
             <button
               class="flex items-center justify-center px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
@@ -606,7 +606,7 @@ onBeforeUnmount(() => {
           data-aos="fade-left"
         >
           <li
-            class="flex border rounded-full bg-white/10 backdrop-blur-xl border-white/10"
+            class="flex border rounded-full bg-white/10 backdrop-blur-2xl border-white/10"
           >
             <a
               class="flex items-center justify-center px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"

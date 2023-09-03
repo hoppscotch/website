@@ -32,6 +32,7 @@ declare global {
   const eagerComputed: typeof import('@vueuse/core')['eagerComputed']
   const effectScope: typeof import('vue')['effectScope']
   const extendRef: typeof import('@vueuse/core')['extendRef']
+  const getActiveHead: typeof import('@unhead/vue')['getActiveHead']
   const getCurrentInstance: typeof import('vue')['getCurrentInstance']
   const getCurrentScope: typeof import('vue')['getCurrentScope']
   const h: typeof import('vue')['h']
@@ -346,6 +347,7 @@ declare module 'vue' {
     readonly eagerComputed: UnwrapRef<typeof import('@vueuse/core')['eagerComputed']>
     readonly effectScope: UnwrapRef<typeof import('vue')['effectScope']>
     readonly extendRef: UnwrapRef<typeof import('@vueuse/core')['extendRef']>
+    readonly getActiveHead: UnwrapRef<typeof import('@unhead/vue')['getActiveHead']>
     readonly getCurrentInstance: UnwrapRef<typeof import('vue')['getCurrentInstance']>
     readonly getCurrentScope: UnwrapRef<typeof import('vue')['getCurrentScope']>
     readonly h: UnwrapRef<typeof import('vue')['h']>
@@ -439,7 +441,6 @@ declare module 'vue' {
     readonly useBase64: UnwrapRef<typeof import('@vueuse/core')['useBase64']>
     readonly useBattery: UnwrapRef<typeof import('@vueuse/core')['useBattery']>
     readonly useBluetooth: UnwrapRef<typeof import('@vueuse/core')['useBluetooth']>
-    readonly useBodyAttrs: UnwrapRef<typeof import('@unhead/vue')['useBodyAttrs']>
     readonly useBreakpoints: UnwrapRef<typeof import('@vueuse/core')['useBreakpoints']>
     readonly useBroadcastChannel: UnwrapRef<typeof import('@vueuse/core')['useBroadcastChannel']>
     readonly useBrowserLocation: UnwrapRef<typeof import('@vueuse/core')['useBrowserLocation']>
@@ -488,7 +489,6 @@ declare module 'vue' {
     readonly useGeolocation: UnwrapRef<typeof import('@vueuse/core')['useGeolocation']>
     readonly useHead: UnwrapRef<typeof import('@unhead/vue')['useHead']>
     readonly useHeadSafe: UnwrapRef<typeof import('@unhead/vue')['useHeadSafe']>
-    readonly useHtmlAttrs: UnwrapRef<typeof import('@unhead/vue')['useHtmlAttrs']>
     readonly useIdle: UnwrapRef<typeof import('@vueuse/core')['useIdle']>
     readonly useImage: UnwrapRef<typeof import('@vueuse/core')['useImage']>
     readonly useInfiniteScroll: UnwrapRef<typeof import('@vueuse/core')['useInfiniteScroll']>
@@ -541,20 +541,9 @@ declare module 'vue' {
     readonly useScroll: UnwrapRef<typeof import('@vueuse/core')['useScroll']>
     readonly useScrollLock: UnwrapRef<typeof import('@vueuse/core')['useScrollLock']>
     readonly useSeoMeta: UnwrapRef<typeof import('@unhead/vue')['useSeoMeta']>
-    readonly useServerBodyAttrs: UnwrapRef<typeof import('@unhead/vue')['useServerBodyAttrs']>
     readonly useServerHead: UnwrapRef<typeof import('@unhead/vue')['useServerHead']>
     readonly useServerHeadSafe: UnwrapRef<typeof import('@unhead/vue')['useServerHeadSafe']>
-    readonly useServerHtmlAttrs: UnwrapRef<typeof import('@unhead/vue')['useServerHtmlAttrs']>
     readonly useServerSeoMeta: UnwrapRef<typeof import('@unhead/vue')['useServerSeoMeta']>
-    readonly useServerTagBase: UnwrapRef<typeof import('@unhead/vue')['useServerTagBase']>
-    readonly useServerTagLink: UnwrapRef<typeof import('@unhead/vue')['useServerTagLink']>
-    readonly useServerTagMeta: UnwrapRef<typeof import('@unhead/vue')['useServerTagMeta']>
-    readonly useServerTagMetaFlat: UnwrapRef<typeof import('@unhead/vue')['useServerTagMetaFlat']>
-    readonly useServerTagNoscript: UnwrapRef<typeof import('@unhead/vue')['useServerTagNoscript']>
-    readonly useServerTagScript: UnwrapRef<typeof import('@unhead/vue')['useServerTagScript']>
-    readonly useServerTagStyle: UnwrapRef<typeof import('@unhead/vue')['useServerTagStyle']>
-    readonly useServerTagTitle: UnwrapRef<typeof import('@unhead/vue')['useServerTagTitle']>
-    readonly useServerTitleTemplate: UnwrapRef<typeof import('@unhead/vue')['useServerTitleTemplate']>
     readonly useSessionStorage: UnwrapRef<typeof import('@vueuse/core')['useSessionStorage']>
     readonly useShare: UnwrapRef<typeof import('@vueuse/core')['useShare']>
     readonly useSlots: UnwrapRef<typeof import('vue')['useSlots']>
@@ -567,14 +556,6 @@ declare module 'vue' {
     readonly useStyleTag: UnwrapRef<typeof import('@vueuse/core')['useStyleTag']>
     readonly useSupported: UnwrapRef<typeof import('@vueuse/core')['useSupported']>
     readonly useSwipe: UnwrapRef<typeof import('@vueuse/core')['useSwipe']>
-    readonly useTagBase: UnwrapRef<typeof import('@unhead/vue')['useTagBase']>
-    readonly useTagLink: UnwrapRef<typeof import('@unhead/vue')['useTagLink']>
-    readonly useTagMeta: UnwrapRef<typeof import('@unhead/vue')['useTagMeta']>
-    readonly useTagMetaFlat: UnwrapRef<typeof import('@unhead/vue')['useTagMetaFlat']>
-    readonly useTagNoscript: UnwrapRef<typeof import('@unhead/vue')['useTagNoscript']>
-    readonly useTagScript: UnwrapRef<typeof import('@unhead/vue')['useTagScript']>
-    readonly useTagStyle: UnwrapRef<typeof import('@unhead/vue')['useTagStyle']>
-    readonly useTagTitle: UnwrapRef<typeof import('@unhead/vue')['useTagTitle']>
     readonly useTemplateRefsList: UnwrapRef<typeof import('@vueuse/core')['useTemplateRefsList']>
     readonly useTextDirection: UnwrapRef<typeof import('@vueuse/core')['useTextDirection']>
     readonly useTextSelection: UnwrapRef<typeof import('@vueuse/core')['useTextSelection']>
@@ -588,7 +569,6 @@ declare module 'vue' {
     readonly useTimeoutPoll: UnwrapRef<typeof import('@vueuse/core')['useTimeoutPoll']>
     readonly useTimestamp: UnwrapRef<typeof import('@vueuse/core')['useTimestamp']>
     readonly useTitle: UnwrapRef<typeof import('@vueuse/core')['useTitle']>
-    readonly useTitleTemplate: UnwrapRef<typeof import('@unhead/vue')['useTitleTemplate']>
     readonly useToNumber: UnwrapRef<typeof import('@vueuse/core')['useToNumber']>
     readonly useToString: UnwrapRef<typeof import('@vueuse/core')['useToString']>
     readonly useToggle: UnwrapRef<typeof import('@vueuse/core')['useToggle']>
@@ -654,6 +634,7 @@ declare module '@vue/runtime-core' {
     readonly eagerComputed: UnwrapRef<typeof import('@vueuse/core')['eagerComputed']>
     readonly effectScope: UnwrapRef<typeof import('vue')['effectScope']>
     readonly extendRef: UnwrapRef<typeof import('@vueuse/core')['extendRef']>
+    readonly getActiveHead: UnwrapRef<typeof import('@unhead/vue')['getActiveHead']>
     readonly getCurrentInstance: UnwrapRef<typeof import('vue')['getCurrentInstance']>
     readonly getCurrentScope: UnwrapRef<typeof import('vue')['getCurrentScope']>
     readonly h: UnwrapRef<typeof import('vue')['h']>
@@ -747,7 +728,6 @@ declare module '@vue/runtime-core' {
     readonly useBase64: UnwrapRef<typeof import('@vueuse/core')['useBase64']>
     readonly useBattery: UnwrapRef<typeof import('@vueuse/core')['useBattery']>
     readonly useBluetooth: UnwrapRef<typeof import('@vueuse/core')['useBluetooth']>
-    readonly useBodyAttrs: UnwrapRef<typeof import('@unhead/vue')['useBodyAttrs']>
     readonly useBreakpoints: UnwrapRef<typeof import('@vueuse/core')['useBreakpoints']>
     readonly useBroadcastChannel: UnwrapRef<typeof import('@vueuse/core')['useBroadcastChannel']>
     readonly useBrowserLocation: UnwrapRef<typeof import('@vueuse/core')['useBrowserLocation']>
@@ -796,7 +776,6 @@ declare module '@vue/runtime-core' {
     readonly useGeolocation: UnwrapRef<typeof import('@vueuse/core')['useGeolocation']>
     readonly useHead: UnwrapRef<typeof import('@unhead/vue')['useHead']>
     readonly useHeadSafe: UnwrapRef<typeof import('@unhead/vue')['useHeadSafe']>
-    readonly useHtmlAttrs: UnwrapRef<typeof import('@unhead/vue')['useHtmlAttrs']>
     readonly useIdle: UnwrapRef<typeof import('@vueuse/core')['useIdle']>
     readonly useImage: UnwrapRef<typeof import('@vueuse/core')['useImage']>
     readonly useInfiniteScroll: UnwrapRef<typeof import('@vueuse/core')['useInfiniteScroll']>
@@ -849,20 +828,9 @@ declare module '@vue/runtime-core' {
     readonly useScroll: UnwrapRef<typeof import('@vueuse/core')['useScroll']>
     readonly useScrollLock: UnwrapRef<typeof import('@vueuse/core')['useScrollLock']>
     readonly useSeoMeta: UnwrapRef<typeof import('@unhead/vue')['useSeoMeta']>
-    readonly useServerBodyAttrs: UnwrapRef<typeof import('@unhead/vue')['useServerBodyAttrs']>
     readonly useServerHead: UnwrapRef<typeof import('@unhead/vue')['useServerHead']>
     readonly useServerHeadSafe: UnwrapRef<typeof import('@unhead/vue')['useServerHeadSafe']>
-    readonly useServerHtmlAttrs: UnwrapRef<typeof import('@unhead/vue')['useServerHtmlAttrs']>
     readonly useServerSeoMeta: UnwrapRef<typeof import('@unhead/vue')['useServerSeoMeta']>
-    readonly useServerTagBase: UnwrapRef<typeof import('@unhead/vue')['useServerTagBase']>
-    readonly useServerTagLink: UnwrapRef<typeof import('@unhead/vue')['useServerTagLink']>
-    readonly useServerTagMeta: UnwrapRef<typeof import('@unhead/vue')['useServerTagMeta']>
-    readonly useServerTagMetaFlat: UnwrapRef<typeof import('@unhead/vue')['useServerTagMetaFlat']>
-    readonly useServerTagNoscript: UnwrapRef<typeof import('@unhead/vue')['useServerTagNoscript']>
-    readonly useServerTagScript: UnwrapRef<typeof import('@unhead/vue')['useServerTagScript']>
-    readonly useServerTagStyle: UnwrapRef<typeof import('@unhead/vue')['useServerTagStyle']>
-    readonly useServerTagTitle: UnwrapRef<typeof import('@unhead/vue')['useServerTagTitle']>
-    readonly useServerTitleTemplate: UnwrapRef<typeof import('@unhead/vue')['useServerTitleTemplate']>
     readonly useSessionStorage: UnwrapRef<typeof import('@vueuse/core')['useSessionStorage']>
     readonly useShare: UnwrapRef<typeof import('@vueuse/core')['useShare']>
     readonly useSlots: UnwrapRef<typeof import('vue')['useSlots']>
@@ -875,14 +843,6 @@ declare module '@vue/runtime-core' {
     readonly useStyleTag: UnwrapRef<typeof import('@vueuse/core')['useStyleTag']>
     readonly useSupported: UnwrapRef<typeof import('@vueuse/core')['useSupported']>
     readonly useSwipe: UnwrapRef<typeof import('@vueuse/core')['useSwipe']>
-    readonly useTagBase: UnwrapRef<typeof import('@unhead/vue')['useTagBase']>
-    readonly useTagLink: UnwrapRef<typeof import('@unhead/vue')['useTagLink']>
-    readonly useTagMeta: UnwrapRef<typeof import('@unhead/vue')['useTagMeta']>
-    readonly useTagMetaFlat: UnwrapRef<typeof import('@unhead/vue')['useTagMetaFlat']>
-    readonly useTagNoscript: UnwrapRef<typeof import('@unhead/vue')['useTagNoscript']>
-    readonly useTagScript: UnwrapRef<typeof import('@unhead/vue')['useTagScript']>
-    readonly useTagStyle: UnwrapRef<typeof import('@unhead/vue')['useTagStyle']>
-    readonly useTagTitle: UnwrapRef<typeof import('@unhead/vue')['useTagTitle']>
     readonly useTemplateRefsList: UnwrapRef<typeof import('@vueuse/core')['useTemplateRefsList']>
     readonly useTextDirection: UnwrapRef<typeof import('@vueuse/core')['useTextDirection']>
     readonly useTextSelection: UnwrapRef<typeof import('@vueuse/core')['useTextSelection']>
@@ -896,7 +856,6 @@ declare module '@vue/runtime-core' {
     readonly useTimeoutPoll: UnwrapRef<typeof import('@vueuse/core')['useTimeoutPoll']>
     readonly useTimestamp: UnwrapRef<typeof import('@vueuse/core')['useTimestamp']>
     readonly useTitle: UnwrapRef<typeof import('@vueuse/core')['useTitle']>
-    readonly useTitleTemplate: UnwrapRef<typeof import('@unhead/vue')['useTitleTemplate']>
     readonly useToNumber: UnwrapRef<typeof import('@vueuse/core')['useToNumber']>
     readonly useToString: UnwrapRef<typeof import('@vueuse/core')['useToString']>
     readonly useToggle: UnwrapRef<typeof import('@vueuse/core')['useToggle']>

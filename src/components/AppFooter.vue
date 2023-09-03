@@ -1,9 +1,6 @@
 <template>
   <footer>
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
-      <div
-        class="h-px bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950"
-      ></div>
       <!-- Blocks -->
       <div class="py-8 grid gap-8 sm:grid-cols-12 md:py-16">
         <!-- block -->
@@ -297,9 +294,6 @@
           </ul>
         </div>
       </div>
-      <div
-        class="h-px bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950"
-      ></div>
       <div class="py-8 grid gap-8 sm:grid-cols-12 md:py-16">
         <!-- block -->
         <div class="col-span-12">

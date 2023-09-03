@@ -10,7 +10,13 @@ interface Props extends /* @vue-ignore */ ImgHTMLAttributes {
   options?: ZoomOptions
 }
 
-const props = defineProps<Props>()
+const props = withDefaults(defineProps<Props>(), {
+  options() {
+    return {
+      margin: 16,
+    }
+  },
+})
 
 let zoom: Zoom | null = null
 

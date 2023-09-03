@@ -26,7 +26,7 @@ export const createApp = ViteSSG(
         return {
           el: to.hash,
           behavior: "smooth",
-          top: 32,
+          top: 0,
         }
       } else {
         return { top: 0, behavior: "smooth" }

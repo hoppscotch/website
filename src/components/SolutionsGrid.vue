@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
-      <div class="pt-16 pb-12 md:pt-52 md:pb-20">
+      <div class="pt-32 pb-16">
         <!-- Section header -->
         <div class="max-w-4xl pb-12 mx-auto text-center md:pb-20">
           <div

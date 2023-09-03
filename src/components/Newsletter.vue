@@ -19,7 +19,7 @@
       <input
         id="mce-EMAIL"
         placeholder="Email"
-        class="w-full form-input"
+        class="w-full border-0 rounded bg-slate-900"
         type="email"
         required
         name="EMAIL"
