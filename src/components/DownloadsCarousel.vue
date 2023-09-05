@@ -51,11 +51,13 @@ onMounted(() => {
                 class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
               >
                 <!-- Particles animation -->
-                <Particles
-                  class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500"
-                  :quantity="3"
-                  :refresh="swiperInitialized"
-                />
+                <ClientOnly>
+                  <Particles
+                    class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500"
+                    :quantity="3"
+                    :refresh="swiperInitialized"
+                  />
+                </ClientOnly>
                 <!-- Radial gradient -->
                 <div
                   class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
@@ -104,11 +106,13 @@ onMounted(() => {
                 class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
               >
                 <!-- Particles animation -->
-                <Particles
-                  class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500"
-                  :quantity="3"
-                  :refresh="swiperInitialized"
-                />
+                <ClientOnly>
+                  <Particles
+                    class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500"
+                    :quantity="3"
+                    :refresh="swiperInitialized"
+                  />
+                </ClientOnly>
                 <!-- Radial gradient -->
                 <div
                   class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
@@ -159,11 +163,13 @@ onMounted(() => {
                 class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
               >
                 <!-- Particles animation -->
-                <Particles
-                  class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500"
-                  :quantity="3"
-                  :refresh="swiperInitialized"
-                />
+                <ClientOnly>
+                  <Particles
+                    class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500"
+                    :quantity="3"
+                    :refresh="swiperInitialized"
+                  />
+                </ClientOnly>
                 <!-- Radial gradient -->
                 <div
                   class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
@@ -212,11 +218,13 @@ onMounted(() => {
                 class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
               >
                 <!-- Particles animation -->
-                <Particles
-                  class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500"
-                  :quantity="3"
-                  :refresh="swiperInitialized"
-                />
+                <ClientOnly>
+                  <Particles
+                    class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500"
+                    :quantity="3"
+                    :refresh="swiperInitialized"
+                  />
+                </ClientOnly>
                 <!-- Radial gradient -->
                 <div
                   class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
@@ -263,11 +271,13 @@ onMounted(() => {
                 class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
               >
                 <!-- Particles animation -->
-                <Particles
-                  class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500"
-                  :quantity="3"
-                  :refresh="swiperInitialized"
-                />
+                <ClientOnly>
+                  <Particles
+                    class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500"
+                    :quantity="3"
+                    :refresh="swiperInitialized"
+                  />
+                </ClientOnly>
                 <!-- Radial gradient -->
                 <div
                   class="absolute bottom-0 w-1/3 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"

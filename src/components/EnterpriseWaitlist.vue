@@ -15,7 +15,9 @@
         </div>
       </div>
       <!-- Particles animation -->
-      <Particles class="absolute inset-0 -z-10" />
+      <ClientOnly>
+        <Particles class="absolute inset-0 -z-10" />
+      </ClientOnly>
       <div class="pt-32 pb-12 md:pt-40 md:pb-20">
         <!-- Hero content -->
         <div class="flex flex-col flex-1 lg:flex-row">

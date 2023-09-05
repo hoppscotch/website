@@ -24,7 +24,9 @@ watch(videoModalOpen, () => {
         </div>
       </div>
       <!-- Particles animation -->
-      <Particles class="absolute inset-0 -z-10" />
+      <ClientOnly>
+        <Particles class="absolute inset-0 -z-10" />
+      </ClientOnly>
       <!-- Illustration -->
       <div
         class="absolute inset-0 -z-10 -mx-28 rounded-b-[3rem] pointer-events-none overflow-hidden"

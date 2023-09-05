@@ -54,11 +54,13 @@ onBeforeUnmount(() => {
         <div
           class="absolute top-0 -mt-6 -translate-x-1/2 left-1/2 -z-10 w-80 h-80"
         >
-          <Particles
-            class="absolute inset-0 -z-10"
-            :quantity="10"
-            :staticity="30"
-          />
+          <ClientOnly>
+            <Particles
+              class="absolute inset-0 -z-10"
+              :quantity="10"
+              :staticity="30"
+            />
+          </ClientOnly>
         </div>
         <!-- Carousel -->
         <div class="text-center">

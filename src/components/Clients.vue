@@ -25,7 +25,9 @@ onMounted(() => {
     <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
       <!-- Particles animation -->
       <div class="absolute inset-0 max-w-6xl px-4 mx-auto sm:px-6">
-        <Particles class="absolute inset-0 -z-10" :quantity="5" />
+        <ClientOnly>
+          <Particles class="absolute inset-0 -z-10" :quantity="5" />
+        </ClientOnly>
       </div>
       <div class="py-12 md:py-16">
         <div class="overflow-hidden">
