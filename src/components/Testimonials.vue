@@ -49,7 +49,7 @@ onBeforeUnmount(() => {
 <template>
   <section>
     <div class="max-w-4xl px-4 mx-auto sm:px-6">
-      <div class="relative py-12 md:pb-20">
+      <div class="relative py-12 md:py-16">
         <!-- Particles animation -->
         <div
           class="absolute top-0 -mt-6 -translate-x-1/2 left-1/2 -z-10 w-80 h-80"

@@ -34,9 +34,9 @@ onMounted(() => {
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
       <div class="pt-12 md:pt-20">
         <!-- Section header -->
-        <div class="max-w-4xl pb-12 mx-auto text-center md:pb-20">
+        <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
           <div
-            class="relative inline-flex items-center justify-center px-4 py-2 mb-4 border rounded-full hero-subtitle-gradient border-white/10"
+            class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full hero-subtitle-gradient bg-violet-500/10 border-violet-500/50"
             data-aos="fade-up"
             data-aos-delay="100"
           >
@@ -109,7 +109,7 @@ onMounted(() => {
                         reliable.
                       </div>
                     </div>
-                    <div class="text-right">
+                    <div>
                       <RouterLink
                         class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
@@ -160,11 +160,10 @@ onMounted(() => {
                     <div class="flex flex-col grow">
                       <div class="mb-1 text-lg font-bold">Open Source</div>
                       <div class="mb-3 text-slate-400">
-                        Hoppscotch's API client is completely open-source and
-                        audited by the community.
+                        Open-source and audited by the community.
                       </div>
                     </div>
-                    <div class="text-right">
+                    <div>
                       <RouterLink
                         class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
@@ -215,11 +214,10 @@ onMounted(() => {
                     <div class="flex flex-col grow">
                       <div class="mb-1 text-lg font-bold">On-premise ready</div>
                       <div class="mb-3 text-slate-400">
-                        Self-host Hoppscotch on your own infrastructure and
-                        never worry about your data leaving your network.
+                        Self-host Hoppscotch on your own infrastructure.
                       </div>
                     </div>
-                    <div class="text-right">
+                    <div>
                       <RouterLink
                         class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
@@ -276,7 +274,7 @@ onMounted(() => {
                         transactions.
                       </div>
                     </div>
-                    <div class="text-right">
+                    <div>
                       <RouterLink
                         class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
@@ -331,7 +329,7 @@ onMounted(() => {
                         transactions.
                       </div>
                     </div>
-                    <div class="text-right">
+                    <div>
                       <RouterLink
                         class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                         to="/"

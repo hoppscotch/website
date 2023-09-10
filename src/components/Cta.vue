@@ -2,9 +2,8 @@
   <section>
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
       <div
-        class="relative px-8 py-12 md:py-20 rounded-[3rem] border border-slate-900 my-16 md:my-32 overflow-hidden"
+        class="relative px-8 py-12 md:py-16 rounded-[3rem] border border-slate-900 my-12 md:my-16 overflow-hidden"
       >
-        <MeteorShower />
         <!-- Radial gradient -->
         <div
           class="absolute top-0 flex items-center justify-center w-1/3 pointer-events-none -translate-x-1/2 -translate-y-1/2 left-1/2 -z-10 aspect-square"
@@ -46,7 +45,7 @@
         <!-- Content -->
         <div class="flex flex-col items-center max-w-4xl mx-auto text-center">
           <div
-            class="relative inline-flex items-center justify-center px-4 py-2 mb-4 border rounded-full hero-subtitle-gradient border-white/10"
+            class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full hero-subtitle-gradient bg-violet-500/10 border-violet-500/50"
             data-aos="fade-up"
             data-aos-delay="100"
           >

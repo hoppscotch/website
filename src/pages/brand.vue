@@ -12,5 +12,4 @@ useHead({
 
 <template>
   <BrandHero />
-  <Newsletter />
 </template>

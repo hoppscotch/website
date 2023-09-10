@@ -18,7 +18,7 @@ const { copy, copied } = useClipboard({
 <template>
   <section>
     <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
-      <div class="pt-32 pb-16">
+      <div class="pt-32 pb-24">
         <!-- Section header -->
         <div class="flex items-center justify-between pb-12 md:pb-20">
           <RouterLink
@@ -156,5 +156,4 @@ const { copy, copied } = useClipboard({
       </div>
     </div>
   </section>
-  <Newsletter />
 </template>

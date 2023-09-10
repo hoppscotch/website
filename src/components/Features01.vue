@@ -7,7 +7,7 @@ const tab = ref("1")
     <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
       <!-- Illustration -->
       <div
-        class="absolute inset-0 -z-10 -mx-28 rounded-t-[3rem] pointer-events-none overflow-hidden"
+        class="absolute inset-0 -z-10 -mx-28 rounded-t-[3rem] pointer-events-none"
         aria-hidden="true"
       >
         <div class="absolute top-0 -translate-x-1/2 left-1/2 -z-10">
@@ -20,7 +20,7 @@ const tab = ref("1")
           />
         </div>
       </div>
-      <div class="pt-16 pb-12 md:pt-52 md:pb-20">
+      <div class="pt-32 pb-24">
         <div>
           <!-- Section content -->
           <div
@@ -33,7 +33,7 @@ const tab = ref("1")
             >
               <!-- Content #1 -->
               <div
-                class="relative inline-flex items-center justify-center px-4 py-2 mb-4 border rounded-full hero-subtitle-gradient border-white/10"
+                class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full hero-subtitle-gradient bg-violet-500/10 border-violet-500/50"
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
@@ -112,7 +112,7 @@ const tab = ref("1")
                   >
                     <!-- Halo effect -->
                     <svg
-                      class="absolute inset-0 pointer-events-none transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 will-change-transform blur-2xl"
+                      class="absolute inset-0 pointer-events-none transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 will-change-transform blur-md"
                       width="480"
                       height="480"
                       viewBox="0 0 480 480"

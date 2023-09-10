@@ -1,9 +1,9 @@
 <template>
   <section>
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
-      <div class="py-12 md:py-20">
+      <div class="py-12 md:py-16">
         <!-- Section header -->
-        <div class="max-w-4xl pb-12 mx-auto text-center md:pb-20">
+        <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
           <h2
             class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
           >

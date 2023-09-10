@@ -2,11 +2,11 @@
   <!-- Hero section -->
   <section class="bg-gradient-to-b from-slate-900 to-slate-950">
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
-      <div class="pt-32 pb-16">
+      <div class="pt-32 pb-24">
         <!-- Section header -->
-        <div class="max-w-4xl pb-12 mx-auto text-center md:pb-20">
+        <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
           <div
-            class="relative inline-flex items-center justify-center px-4 py-2 mb-4 border rounded-full hero-subtitle-gradient border-white/10"
+            class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full hero-subtitle-gradient bg-violet-500/10 border-violet-500/50"
             data-aos="fade-up"
             data-aos-delay="100"
           >

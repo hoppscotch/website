@@ -81,7 +81,7 @@ onMounted(() => {
                       Work without distraction on your own or with your team.
                     </div>
                   </div>
-                  <div class="text-right">
+                  <div>
                     <RouterLink
                       class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                       to="/"
@@ -138,7 +138,7 @@ onMounted(() => {
                       Work without distraction on your own or with your team.
                     </div>
                   </div>
-                  <div class="text-right">
+                  <div>
                     <RouterLink
                       class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                       to="/"
@@ -193,7 +193,7 @@ onMounted(() => {
                       Work without distraction on your own or with your team.
                     </div>
                   </div>
-                  <div class="text-right">
+                  <div>
                     <RouterLink
                       class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                       to="/"
@@ -244,7 +244,7 @@ onMounted(() => {
                       Work without distraction on your own or with your team.
                     </div>
                   </div>
-                  <div class="text-right">
+                  <div>
                     <a
                       class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                       href="https://hoppscotch.io"
@@ -299,7 +299,7 @@ onMounted(() => {
                       Work without distraction on your own or with your team.
                     </div>
                   </div>
-                  <div class="text-right">
+                  <div>
                     <RouterLink
                       class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                       to="/"

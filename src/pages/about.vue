@@ -18,5 +18,4 @@ useHead({
   <TeamMembers />
   <Investors />
   <Cta />
-  <Newsletter />
 </template>

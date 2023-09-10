@@ -1,8 +1,9 @@
 <template>
-  <footer>
+  <footer class="mt-16 bg-gray-950">
+    <Newsletter />
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
       <!-- Blocks -->
-      <div class="py-8 grid gap-8 sm:grid-cols-12 md:py-16">
+      <div class="py-4 grid gap-8 sm:grid-cols-12 md:py-8">
         <!-- block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2">
@@ -294,7 +295,7 @@
           </ul>
         </div>
       </div>
-      <div class="py-8 grid gap-8 sm:grid-cols-12 md:py-16">
+      <div class="py-4 grid gap-8 sm:grid-cols-12 md:py-8">
         <!-- block -->
         <div class="col-span-12">
           <div
@@ -359,16 +360,6 @@
           </div>
         </div>
       </div>
-      <!-- <svg viewBox="0 0 115 16" class="my-8 md:mt-16 md:mb-32">
-        <text
-          x="0"
-          y="14"
-          style="stroke-width: 0.2"
-          class="font-black font-jakarta stroke-white fill-white"
-        >
-          HOPPSCOTCH
-        </text>
-      </svg> -->
     </div>
   </footer>
 </template>

@@ -44,7 +44,7 @@ const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
           />
         </svg>
       </div>
-      <div class="pt-32 pb-16">
+      <div class="pt-32 pb-24">
         <!-- Section header -->
         <div class="pb-12 md:pb-20">
           <h2

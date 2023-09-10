@@ -80,17 +80,31 @@ h1 {
   @apply text-5xl font-semibold leading-normal tracking-tight font-jakarta;
 }
 h2 {
-  @apply text-4xl font-semibold leading-normal tracking-tight font-jakarta;
-}
-h3 {
   @apply text-3xl font-semibold leading-normal tracking-tight font-jakarta;
 }
-h4 {
+h3 {
   @apply text-2xl font-semibold leading-normal tracking-tight font-jakarta;
+}
+h4 {
+  @apply text-xl font-semibold leading-normal tracking-tight font-jakarta;
 }
 @screen md {
   h1 {
     @apply text-6xl leading-tight;
+  }
+  h2 {
+    @apply text-4xl leading-tight;
+  }
+  h3 {
+    @apply text-3xl leading-tight;
+  }
+  h4 {
+    @apply text-2xl leading-tight;
+  }
+}
+@screen lg {
+  h1 {
+    @apply text-7xl leading-tight;
   }
   h2 {
     @apply text-5xl leading-tight;
@@ -100,19 +114,5 @@ h4 {
   }
   h4 {
     @apply text-3xl leading-tight;
-  }
-}
-@screen lg {
-  h1 {
-    @apply text-7xl leading-tight;
-  }
-  h2 {
-    @apply text-6xl leading-tight;
-  }
-  h3 {
-    @apply text-5xl leading-tight;
-  }
-  h4 {
-    @apply text-4xl leading-tight;
   }
 }

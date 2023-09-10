@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-8" data-aos="fade-down">
+  <div class="mb-16" data-aos="fade-down">
     <div
       class="relative inline-flex before:absolute before:inset-0 before:bg-violet-500 before:rounded-full before:blur-md"
     >
@@ -8,9 +8,13 @@
         to="/products/enterprise"
       >
         <span class="relative inline-flex items-center">
-          Audit logs, SSO, admin dashboard + more
-          <icon-lucide-sparkle class="mx-2 opacity-50" />
-          Enterprise
+          <span
+            class="inline-flex items-center justify-center px-2 py-1 mr-2 -ml-2 border rounded-full shadow border-violet-500 bg-violet-500/50 backdrop-blur-sm"
+          >
+            <icon-lucide-sparkles class="mr-1" />
+            New
+          </span>
+          Introducing Hoppscotch Enterprise
           <span
             class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
           >

@@ -12,5 +12,4 @@ useHead({
 
 <template>
   <ContactForm />
-  <Newsletter />
 </template>

@@ -39,7 +39,7 @@
             <!-- Content -->
             <div class="max-lg:text-center" data-aos="fade-down">
               <div
-                class="relative inline-flex items-center justify-center px-4 py-2 mb-4 border rounded-full hero-subtitle-gradient border-white/10"
+                class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full hero-subtitle-gradient bg-violet-500/10 border-violet-500/50"
                 data-aos="fade-up"
                 data-aos-delay="100"
               >

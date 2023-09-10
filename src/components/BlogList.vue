@@ -42,7 +42,7 @@ const sortedBlogs = computed(() =>
           >
         </h3>
       </header>
-      <p class="max-w-2xl mb-2 text-slate-300 grow">
+      <p class="max-w-2xl mb-2 text-slate-300">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.
       </p>
@@ -107,7 +107,7 @@ const sortedBlogs = computed(() =>
             </RouterLink>
           </h4>
         </header>
-        <p class="max-w-2xl mb-2 text-slate-300 grow">
+        <p class="max-w-2xl mb-2 text-slate-300">
           {{ blog.description }}
         </p>
         <footer class="flex items-center mt-4">

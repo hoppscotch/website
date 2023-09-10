@@ -44,5 +44,4 @@ useHead({
 
 <template>
   <Blogs />
-  <Newsletter />
 </template>

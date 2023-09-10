@@ -18,5 +18,4 @@ useHead({
   <Testimonials />
   <OpenPositions />
   <Cta />
-  <Newsletter />
 </template>

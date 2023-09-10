@@ -53,7 +53,7 @@ onBeforeUnmount(() => {
         </div>
         <!-- Desktop menu links -->
         <div
-          class="items-center justify-start flex-shrink-0 hidden p-2 border rounded-full space-x-2 flex-nowrap md:flex border-white/10 bg-white/10 backdrop-blur-2xl"
+          class="items-center justify-start flex-shrink-0 hidden p-2 border rounded-full shadow-2xl space-x-2 flex-nowrap md:flex border-white/10 bg-white/10 backdrop-blur-2xl"
           data-aos="fade-down"
           style="transition: all 300ms ease-in-out"
           :style="{ 'max-width': scrollpx > 128 ? '500px' : '403px' }"
@@ -257,7 +257,7 @@ onBeforeUnmount(() => {
                             <span
                               class="text-slate-500 group-hover:text-slate-800"
                             >
-                              Build and test APIs faster with a complete
+                              Build and test APIs faster with the complete
                               toolkit.
                             </span>
                           </div>
@@ -304,7 +304,7 @@ onBeforeUnmount(() => {
                             <span
                               class="text-slate-500 group-hover:text-slate-800"
                             >
-                              Accelerate your business with a modern API
+                              Accelerate your business with the modern API
                               platform.
                             </span>
                           </div>
@@ -328,7 +328,8 @@ onBeforeUnmount(() => {
                             <span
                               class="text-slate-500 group-hover:text-slate-800"
                             >
-                              Empower students to build the future of APIs.
+                              Empower students and educators with API
+                              technology.
                             </span>
                           </div>
                         </RouterLink>
@@ -821,7 +822,7 @@ onBeforeUnmount(() => {
                         Developers
                       </span>
                       <span class="text-slate-500 group-hover:text-slate-800">
-                        Build and test APIs faster with a complete toolkit.
+                        Build and test APIs faster with the complete toolkit.
                       </span>
                     </div>
                   </RouterLink>
@@ -861,7 +862,7 @@ onBeforeUnmount(() => {
                         Enterprises
                       </span>
                       <span class="text-slate-500 group-hover:text-slate-800">
-                        Accelerate your business with a modern API platform.
+                        Accelerate your business with the modern API platform.
                       </span>
                     </div>
                   </RouterLink>
@@ -881,7 +882,7 @@ onBeforeUnmount(() => {
                         Education
                       </span>
                       <span class="text-slate-500 group-hover:text-slate-800">
-                        Empower students to build the future of APIs.
+                        Empower students and educators with API technology.
                       </span>
                     </div>
                   </RouterLink>

@@ -43,7 +43,7 @@
       </div>
     </div>
     <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
-      <div class="py-12 md:py-20">
+      <div class="py-12 md:py-16">
         <!-- Line -->
         <div
           class="hidden md:block absolute top-0 left-1/2 -ml-px -mt-4 w-0.5 h-12 bg-slate-900"

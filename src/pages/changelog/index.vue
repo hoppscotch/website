@@ -44,5 +44,4 @@ useHead({
 
 <template>
   <ChangeLogs />
-  <Newsletter />
 </template>
