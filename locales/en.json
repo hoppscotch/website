@@ -462,7 +462,7 @@
   },
   "home": {
     "announcement": {
-      "long_description": "April, 2023 release with self-host support",
+      "long_description": "2023.8.0 release with Self-Host Enterprise support",
       "long_link_text": "Documentation",
       "short_description": "Self-host support is out",
       "short_link_text": "Docs"
