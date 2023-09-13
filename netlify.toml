@@ -10,7 +10,7 @@ command = "npx pnpm i --store=node_modules/.pnpm-store && npx pnpm run build"
 [[redirects]]
 from = "/careers"
 to = "https://app.pyjamahr.com/careers?company=Hoppscotch&company_uuid=8470DC1BAA"
-status = 200
+status = 301
 force = true
 
 [[redirects]]
