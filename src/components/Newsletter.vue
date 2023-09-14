@@ -1,9 +1,13 @@
 <template>
   <div
     id="newsletter"
-    class="flex flex-col items-center px-4 py-16 border-t border-slate-900"
+    class="flex flex-col items-center px-4 py-12 border-t border-slate-900"
   >
-    <h4 class="text-center text-slate-200">Subscribe to our newsletter</h4>
+    <h4
+      class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
+    >
+      Subscribe to our newsletter
+    </h4>
     <p class="max-w-md mt-2 text-center text-slate-400">
       Receive monthly updates on new posts and features.
     </p>

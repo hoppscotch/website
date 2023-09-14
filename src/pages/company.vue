@@ -15,7 +15,6 @@ useHead({
   <CompanyAchievements />
   <CompanyTimeline />
   <TeamMembers />
-  <Testimonials />
-  <OpenPositions />
+  <Investors />
   <Cta />
 </template>

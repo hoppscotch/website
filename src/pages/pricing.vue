@@ -11,8 +11,10 @@ useHead({
 </script>
 
 <template>
-  <Features04 />
   <PricingTable />
+  <Clients />
+  <ComparrisionTable />
   <Testimonials />
+  <Features04 />
   <Cta />
 </template>

@@ -1,10 +1,14 @@
 <template>
   <section>
     <div class="max-w-6xl px-4 mx-auto">
-      <div class="pb-12 md:pb-20">
+      <div class="py-12 md:py-16">
         <div class="max-w-4xl mx-auto">
           <div class="text-md text-slate-300">
-            <h2 class="mb-8 text-slate-200">Our Story</h2>
+            <h2
+              class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
+            >
+              Our Story
+            </h2>
             <p class="mb-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis

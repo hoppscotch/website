@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const annual = ref(true)
+const platform = ref<"cloud" | "selfhost">("cloud")
 </script>
 
 <template>
@@ -18,7 +19,7 @@ const annual = ref(true)
       </div>
     </div>
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
-      <div class="py-12 md:py-16">
+      <div class="pt-32 pb-24">
         <!-- Content -->
         <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
           <div
@@ -70,6 +71,42 @@ const annual = ref(true)
                 transform="matrix(1 0 0 -1 -661 1163)"
               />
             </svg>
+          </div>
+          <!-- Tabs -->
+          <div class="flex justify-center mb-16">
+            <fieldset
+              class="p-1 text-xs font-semibold text-center text-white rounded-full grid grid-cols-2 leading-5 gap-x-1 bg-white/5"
+            >
+              <legend class="sr-only">Platform</legend>
+              <!-- Cloud -->
+              <label
+                class="cursor-pointer rounded-full px-2.5 py-1"
+                :class="{ 'bg-violet-500': platform === 'cloud' }"
+              >
+                <input
+                  v-model="platform"
+                  type="radio"
+                  name="platform"
+                  value="cloud"
+                  class="sr-only"
+                />
+                <span>Cloud</span>
+              </label>
+              <!-- Self-Host -->
+              <label
+                class="cursor-pointer rounded-full px-2.5 py-1"
+                :class="{ 'bg-blue-500': platform === 'selfhost' }"
+              >
+                <input
+                  v-model="platform"
+                  type="radio"
+                  name="platform"
+                  value="selfhost"
+                  class="sr-only"
+                />
+                <span>Self-Host</span>
+              </label>
+            </fieldset>
           </div>
           <!-- Content -->
           <div

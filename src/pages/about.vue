@@ -14,8 +14,8 @@ useHead({
   <HeroAbout />
   <AboutStory />
   <TeamLocations />
-  <OpenPositions />
   <TeamMembers />
-  <Investors />
+  <OpenPositions />
+  <Testimonials />
   <Cta />
 </template>

@@ -31,6 +31,7 @@ declare module 'vue' {
     CompanyAchievements: typeof import('./src/components/CompanyAchievements.vue')['default']
     CompanyHero: typeof import('./src/components/CompanyHero.vue')['default']
     CompanyTimeline: typeof import('./src/components/CompanyTimeline.vue')['default']
+    ComparrisionTable: typeof import('./src/components/ComparrisionTable.vue')['default']
     Cta: typeof import('./src/components/Cta.vue')['default']
     DownloadProducts: typeof import('./src/components/DownloadProducts.vue')['default']
     DownloadsCarousel: typeof import('./src/components/DownloadsCarousel.vue')['default']

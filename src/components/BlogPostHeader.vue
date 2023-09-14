@@ -6,7 +6,7 @@ defineEmits(["copy"])
 </script>
 
 <template>
-  <div class="flex items-center justify-between pb-12 md:pb-20">
+  <div class="flex items-center justify-between py-12 md:py-16">
     <RouterLink
       to="/blog"
       class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-400 hover:text-slate-200"

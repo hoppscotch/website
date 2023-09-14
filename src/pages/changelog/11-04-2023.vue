@@ -79,7 +79,7 @@ const { copy, copied } = useClipboard({
       </div>
       <div class="pt-32 pb-24">
         <!-- Section header -->
-        <div class="pb-12 md:pb-20">
+        <div class="py-12 md:py-16">
           <h2
             class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
           >

@@ -242,7 +242,7 @@ onBeforeUnmount(() => {
                       <li>
                         <RouterLink
                           class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                          to="/features"
+                          to="/solutions/developers"
                           @click="hide()"
                         >
                           <icon-lucide-box
@@ -266,7 +266,7 @@ onBeforeUnmount(() => {
                       <li>
                         <RouterLink
                           class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                          to="/pricing"
+                          to="/solutions/teams"
                           @click="hide()"
                         >
                           <icon-lucide-package
@@ -289,7 +289,7 @@ onBeforeUnmount(() => {
                       <li>
                         <RouterLink
                           class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                          to="/download"
+                          to="/solutions/enterprises"
                           @click="hide()"
                         >
                           <icon-lucide-package-2
@@ -313,7 +313,7 @@ onBeforeUnmount(() => {
                       <li>
                         <RouterLink
                           class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                          to="/download"
+                          to="/solutions/education"
                           @click="hide()"
                         >
                           <icon-lucide-graduation-cap
@@ -348,7 +348,7 @@ onBeforeUnmount(() => {
                       <li>
                         <RouterLink
                           class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                          to="/features"
+                          to="/solutions/cloud"
                           @click="hide()"
                         >
                           <icon-lucide-cloudy
@@ -371,7 +371,7 @@ onBeforeUnmount(() => {
                       <li>
                         <RouterLink
                           class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                          to="/pricing"
+                          to="/solutions/self-host"
                           @click="hide()"
                         >
                           <icon-lucide-server
@@ -657,7 +657,7 @@ onBeforeUnmount(() => {
                 <li>
                   <RouterLink
                     class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                    to="/features"
+                    to="/products/cloud"
                   >
                     <icon-lucide-cloudy
                       class="flex flex-shrink-0 h-full p-2 mr-3 text-white rounded-md bg-violet-500 w-9 aspect-square"
@@ -677,7 +677,7 @@ onBeforeUnmount(() => {
                 <li>
                   <RouterLink
                     class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                    to="/download"
+                    to="/products/enterprise"
                   >
                     <icon-lucide-building-2
                       class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-red-500 rounded-md w-9 aspect-square"
@@ -697,7 +697,7 @@ onBeforeUnmount(() => {
                 <li>
                   <RouterLink
                     class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                    to="/pricing"
+                    to="/products/self-host"
                   >
                     <icon-lucide-server
                       class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-blue-500 rounded-md w-9 aspect-square"
@@ -718,7 +718,7 @@ onBeforeUnmount(() => {
                 <li>
                   <RouterLink
                     class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                    to="/changelog"
+                    to="/products/cli"
                   >
                     <icon-lucide-terminal-square
                       class="flex flex-shrink-0 h-full p-2 mr-3 text-white rounded-md bg-slate-500 w-9 aspect-square"
@@ -810,7 +810,7 @@ onBeforeUnmount(() => {
                 <li>
                   <RouterLink
                     class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                    to="/features"
+                    to="/solutions/developers"
                   >
                     <icon-lucide-box
                       class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-green-500 rounded-md w-9 aspect-square"
@@ -830,7 +830,7 @@ onBeforeUnmount(() => {
                 <li>
                   <RouterLink
                     class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                    to="/pricing"
+                    to="/solutions/teams"
                   >
                     <icon-lucide-package
                       class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-green-500 rounded-md w-9 aspect-square"
@@ -850,7 +850,7 @@ onBeforeUnmount(() => {
                 <li>
                   <RouterLink
                     class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                    to="/download"
+                    to="/solutions/enterprises"
                   >
                     <icon-lucide-package-2
                       class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-green-500 rounded-md w-9 aspect-square"
@@ -870,7 +870,7 @@ onBeforeUnmount(() => {
                 <li>
                   <RouterLink
                     class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                    to="/download"
+                    to="/solutions/education"
                   >
                     <icon-lucide-graduation-cap
                       class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-green-500 rounded-md w-9 aspect-square"
@@ -899,7 +899,7 @@ onBeforeUnmount(() => {
                 <li>
                   <RouterLink
                     class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                    to="/features"
+                    to="/solutions/cloud"
                   >
                     <icon-lucide-cloudy
                       class="flex flex-shrink-0 h-full p-2 mr-3 text-white rounded-md bg-cyan-500 w-9 aspect-square"
@@ -919,7 +919,7 @@ onBeforeUnmount(() => {
                 <li>
                   <RouterLink
                     class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                    to="/pricing"
+                    to="/solutions/self-host"
                   >
                     <icon-lucide-server
                       class="flex flex-shrink-0 h-full p-2 mr-3 text-white rounded-md bg-cyan-500 w-9 aspect-square"

@@ -39,7 +39,7 @@
           </p>
         </div>
         <!-- Highlighted boxes -->
-        <div class="relative pb-12 md:pb-20">
+        <div class="relative pb-12 md:pb-16">
           <!-- Blurred shape -->
           <div
             class="absolute bottom-0 -mb-20 opacity-50 pointer-events-none -translate-x-1/2 left-1/2 blur-2xl"

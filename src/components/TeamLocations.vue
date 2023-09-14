@@ -44,14 +44,9 @@
     </div>
     <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
       <div class="py-12 md:py-16">
-        <!-- Line -->
-        <div
-          class="hidden md:block absolute top-0 left-1/2 -ml-px -mt-4 w-0.5 h-12 bg-slate-900"
-          aria-hidden="true"
-        ></div>
         <!-- Locations -->
         <div
-          class="items-start max-w-sm mx-auto mb-12 grid gap-12 md:max-w-none md:grid-cols-3 md:gap-x-16 md:mb-20"
+          class="items-start max-w-sm mx-auto grid gap-12 md:max-w-none md:grid-cols-3 md:gap-x-16"
         >
           <!-- location -->
           <div

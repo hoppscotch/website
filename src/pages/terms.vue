@@ -20,7 +20,7 @@ const { copy, copied } = useClipboard({
     <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
       <div class="pt-32 pb-24">
         <!-- Section header -->
-        <div class="flex items-center justify-between pb-12 md:pb-20">
+        <div class="flex items-center justify-between py-12 md:py-16">
           <RouterLink
             to="/resources"
             class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-400 hover:text-slate-200"

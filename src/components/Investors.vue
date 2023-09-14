@@ -4,13 +4,21 @@
       <div class="py-12 md:py-16">
         <!-- Section header -->
         <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
-          <h2 class="text-slate-200">Our incredible investors</h2>
+          <h2
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
+          >
+            Our incredible investors
+          </h2>
+          <p class="text-lg text-slate-400">
+            Hoppscotch is funded by these world-class investors.
+          </p>
         </div>
         <!-- Items -->
         <div class="grid grid-cols-2 gap-2 md:grid-cols-4">
           <!-- Item -->
           <div
-            class="flex items-center justify-center h-24 p-2 border border-slate-800"
+            class="flex items-center justify-center h-24 p-2"
+            data-aos="fade-down"
           >
             <svg
               class="max-w-full fill-slate-400"
@@ -26,7 +34,8 @@
           </div>
           <!-- Item -->
           <div
-            class="flex items-center justify-center h-24 p-2 border border-slate-800"
+            class="flex items-center justify-center h-24 p-2"
+            data-aos="fade-down"
           >
             <svg
               class="max-w-full fill-slate-400"
@@ -42,7 +51,8 @@
           </div>
           <!-- Item -->
           <div
-            class="flex items-center justify-center h-24 p-2 border border-slate-800"
+            class="flex items-center justify-center h-24 p-2"
+            data-aos="fade-down"
           >
             <svg
               class="max-w-full fill-slate-400"
@@ -58,7 +68,8 @@
           </div>
           <!-- Item -->
           <div
-            class="flex items-center justify-center h-24 p-2 border border-slate-800"
+            class="flex items-center justify-center h-24 p-2"
+            data-aos="fade-down"
           >
             <svg
               class="max-w-full fill-slate-400"
@@ -74,7 +85,8 @@
           </div>
           <!-- Item -->
           <div
-            class="flex items-center justify-center h-24 p-2 border border-slate-800"
+            class="flex items-center justify-center h-24 p-2"
+            data-aos="fade-down"
           >
             <svg
               class="max-w-full fill-slate-400"
@@ -90,7 +102,8 @@
           </div>
           <!-- Item -->
           <div
-            class="flex items-center justify-center h-24 p-2 border border-slate-800"
+            class="flex items-center justify-center h-24 p-2"
+            data-aos="fade-down"
           >
             <svg
               class="max-w-full fill-slate-400"
@@ -106,7 +119,8 @@
           </div>
           <!-- Item -->
           <div
-            class="flex items-center justify-center h-24 p-2 border border-slate-800"
+            class="flex items-center justify-center h-24 p-2"
+            data-aos="fade-down"
           >
             <svg
               class="max-w-full fill-slate-400"
@@ -122,7 +136,8 @@
           </div>
           <!-- Item -->
           <div
-            class="flex items-center justify-center h-24 p-2 border border-slate-800"
+            class="flex items-center justify-center h-24 p-2"
+            data-aos="fade-down"
           >
             <svg
               class="max-w-full fill-slate-400"
