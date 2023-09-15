@@ -1,43 +1,43 @@
 <script setup lang="ts">
-const props = defineProps({
-  id: { type: String, required: true },
-  ariaLabel: { type: String, default: "Modal" },
-  modalOpen: { type: Boolean },
-})
+  const props = defineProps({
+    id: { type: String, required: true },
+    ariaLabel: { type: String, default: "Modal" },
+    modalOpen: { type: Boolean },
+  })
 
-const emit = defineEmits(["closeModal"])
+  const emit = defineEmits(["closeModal"])
 
-const modalContent = ref<HTMLElement | null>(null)
+  const modalContent = ref<HTMLElement | null>(null)
 
-// close on click outside
-function clickHandler(event: MouseEvent) {
-  if (
-    !props.modalOpen ||
-    !modalContent.value ||
-    modalContent.value.contains(event.target as Node)
-  ) {
-    return
+  // close on click outside
+  function clickHandler(event: MouseEvent) {
+    if (
+      !props.modalOpen ||
+      !modalContent.value ||
+      modalContent.value.contains(event.target as Node)
+    ) {
+      return
+    }
+    emit("closeModal")
   }
-  emit("closeModal")
-}
 
-// close if the esc key is pressed
-function keyHandler(event: KeyboardEvent) {
-  if (!props.modalOpen || event.key !== "Escape") {
-    return
+  // close if the esc key is pressed
+  function keyHandler(event: KeyboardEvent) {
+    if (!props.modalOpen || event.key !== "Escape") {
+      return
+    }
+    emit("closeModal")
   }
-  emit("closeModal")
-}
 
-onMounted(() => {
-  document.addEventListener("click", clickHandler)
-  document.addEventListener("keydown", keyHandler)
-})
+  onMounted(() => {
+    document.addEventListener("click", clickHandler)
+    document.addEventListener("keydown", keyHandler)
+  })
 
-onUnmounted(() => {
-  document.removeEventListener("click", clickHandler)
-  document.removeEventListener("keydown", keyHandler)
-})
+  onUnmounted(() => {
+    document.removeEventListener("click", clickHandler)
+    document.removeEventListener("keydown", keyHandler)
+  })
 </script>
 
 <template>

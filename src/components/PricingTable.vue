@@ -1,6 +1,6 @@
 <script setup lang="ts">
-const annual = ref(true)
-const platform = ref<"cloud" | "selfhost">("cloud")
+  const annual = ref(true)
+  const platform = ref<"cloud" | "selfhost">("cloud")
 </script>
 
 <template>

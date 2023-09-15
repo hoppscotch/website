@@ -1,8 +1,8 @@
 <script setup lang="ts">
-defineProps({
-  copied: Boolean,
-})
-defineEmits(["copy"])
+  defineProps({
+    copied: Boolean,
+  })
+  defineEmits(["copy"])
 </script>
 
 <template>

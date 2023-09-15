@@ -1,19 +1,19 @@
 <script setup lang="ts">
-const isMobileMenuClosed = ref(true)
-const router = useRouter()
-watch(router.currentRoute, () => {
-  isMobileMenuClosed.value = true
-})
-const scrollpx = ref(0)
-function handleScroll() {
-  scrollpx.value = window.scrollY
-}
-onMounted(() => {
-  document.addEventListener("scroll", handleScroll)
-})
-onBeforeUnmount(() => {
-  document.removeEventListener("scroll", handleScroll)
-})
+  const isMobileMenuClosed = ref(true)
+  const router = useRouter()
+  watch(router.currentRoute, () => {
+    isMobileMenuClosed.value = true
+  })
+  const scrollpx = ref(0)
+  function handleScroll() {
+    scrollpx.value = window.scrollY
+  }
+  onMounted(() => {
+    document.addEventListener("scroll", handleScroll)
+  })
+  onBeforeUnmount(() => {
+    document.removeEventListener("scroll", handleScroll)
+  })
 </script>
 
 <template>

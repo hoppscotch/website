@@ -1,10 +1,10 @@
 <script setup lang="ts">
-const videoModalOpen = ref(false)
-const video = ref<HTMLVideoElement | null>(null)
+  const videoModalOpen = ref(false)
+  const video = ref<HTMLVideoElement | null>(null)
 
-watch(videoModalOpen, () => {
-  videoModalOpen.value ? video.value?.play() : video.value?.pause()
-})
+  watch(videoModalOpen, () => {
+    videoModalOpen.value ? video.value?.play() : video.value?.pause()
+  })
 </script>
 
 <template>

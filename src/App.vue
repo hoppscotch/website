@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import AOS from "aos"
+  import AOS from "aos"
 
-onMounted(() => {
-  AOS.init()
-})
+  onMounted(() => {
+    AOS.init()
+  })
 </script>
 
 <template>

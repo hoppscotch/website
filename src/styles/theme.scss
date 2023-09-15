@@ -2,116 +2,146 @@
 .swiper-button-disabled {
   @apply opacity-50 cursor-default pointer-events-none;
 }
+
 .testimonials-carousel .swiper-slide {
   @apply opacity-80;
 }
+
 .testimonials-carousel .swiper-slide.swiper-slide-active {
   @apply opacity-100;
 }
+
 /* Custom AOS distance */
 @media screen {
   html:not(.no-js) [data-aos="fade-up"] {
-    -webkit-transform: translate3d(0, 14px, 0);
+    transform: translate3d(0, 14px, 0);
     transform: translate3d(0, 14px, 0);
   }
+
   html:not(.no-js) [data-aos="fade-down"] {
-    -webkit-transform: translate3d(0, -14px, 0);
+    transform: translate3d(0, -14px, 0);
     transform: translate3d(0, -14px, 0);
   }
+
   html:not(.no-js) [data-aos="fade-right"] {
-    -webkit-transform: translate3d(-14px, 0, 0);
+    transform: translate3d(-14px, 0, 0);
     transform: translate3d(-14px, 0, 0);
   }
+
   html:not(.no-js) [data-aos="fade-left"] {
-    -webkit-transform: translate3d(14px, 0, 0);
+    transform: translate3d(14px, 0, 0);
     transform: translate3d(14px, 0, 0);
   }
+
   html:not(.no-js) [data-aos="fade-up-right"] {
-    -webkit-transform: translate3d(-14px, 14px, 0);
+    transform: translate3d(-14px, 14px, 0);
     transform: translate3d(-14px, 14px, 0);
   }
+
   html:not(.no-js) [data-aos="fade-up-left"] {
-    -webkit-transform: translate3d(14px, 14px, 0);
+    transform: translate3d(14px, 14px, 0);
     transform: translate3d(14px, 14px, 0);
   }
+
   html:not(.no-js) [data-aos="fade-down-right"] {
-    -webkit-transform: translate3d(-14px, -14px, 0);
+    transform: translate3d(-14px, -14px, 0);
     transform: translate3d(-14px, -14px, 0);
   }
+
   html:not(.no-js) [data-aos="fade-down-left"] {
-    -webkit-transform: translate3d(14px, -14px, 0);
+    transform: translate3d(14px, -14px, 0);
     transform: translate3d(14px, -14px, 0);
   }
+
   html:not(.no-js) [data-aos="zoom-in-up"] {
-    -webkit-transform: translate3d(0, 14px, 0) scale(0.6);
+    transform: translate3d(0, 14px, 0) scale(0.6);
     transform: translate3d(0, 14px, 0) scale(0.6);
   }
+
   html:not(.no-js) [data-aos="zoom-in-down"] {
-    -webkit-transform: translate3d(0, -14px, 0) scale(0.6);
+    transform: translate3d(0, -14px, 0) scale(0.6);
     transform: translate3d(0, -14px, 0) scale(0.6);
   }
+
   html:not(.no-js) [data-aos="zoom-in-right"] {
-    -webkit-transform: translate3d(-14px, 0, 0) scale(0.6);
+    transform: translate3d(-14px, 0, 0) scale(0.6);
     transform: translate3d(-14px, 0, 0) scale(0.6);
   }
+
   html:not(.no-js) [data-aos="zoom-in-left"] {
-    -webkit-transform: translate3d(14px, 0, 0) scale(0.6);
+    transform: translate3d(14px, 0, 0) scale(0.6);
     transform: translate3d(14px, 0, 0) scale(0.6);
   }
+
   html:not(.no-js) [data-aos="zoom-out-up"] {
-    -webkit-transform: translate3d(0, 14px, 0) scale(1.2);
+    transform: translate3d(0, 14px, 0) scale(1.2);
     transform: translate3d(0, 14px, 0) scale(1.2);
   }
+
   html:not(.no-js) [data-aos="zoom-out-down"] {
-    -webkit-transform: translate3d(0, -14px, 0) scale(1.2);
+    transform: translate3d(0, -14px, 0) scale(1.2);
     transform: translate3d(0, -14px, 0) scale(1.2);
   }
+
   html:not(.no-js) [data-aos="zoom-out-right"] {
-    -webkit-transform: translate3d(-14px, 0, 0) scale(1.2);
+    transform: translate3d(-14px, 0, 0) scale(1.2);
     transform: translate3d(-14px, 0, 0) scale(1.2);
   }
+
   html:not(.no-js) [data-aos="zoom-out-left"] {
-    -webkit-transform: translate3d(14px, 0, 0) scale(1.2);
+    transform: translate3d(14px, 0, 0) scale(1.2);
     transform: translate3d(14px, 0, 0) scale(1.2);
   }
 }
+
 /* Typography */
 h1 {
   @apply text-5xl font-semibold leading-normal tracking-tight font-jakarta;
 }
+
 h2 {
   @apply text-3xl font-semibold leading-normal tracking-tight font-jakarta;
 }
+
 h3 {
   @apply text-2xl font-semibold leading-normal tracking-tight font-jakarta;
 }
+
 h4 {
   @apply text-xl font-semibold leading-normal tracking-tight font-jakarta;
 }
+
 @screen md {
   h1 {
     @apply text-6xl leading-tight;
   }
+
   h2 {
     @apply text-4xl leading-tight;
   }
+
   h3 {
     @apply text-3xl leading-tight;
   }
+
   h4 {
     @apply text-2xl leading-tight;
   }
 }
+
 @screen lg {
   h1 {
     @apply text-7xl leading-tight;
   }
+
   h2 {
     @apply text-5xl leading-tight;
   }
+
   h3 {
     @apply text-4xl leading-tight;
   }
+
   h4 {
     @apply text-3xl leading-tight;
   }

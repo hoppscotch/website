@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const tab = ref("1")
+  const tab = ref("1")
 </script>
 
 <template>
@@ -238,31 +238,31 @@ const tab = ref("1")
 </template>
 
 <style lang="scss" scoped>
-/* Pulsing animation */
-@keyframes pulseLoop {
-  0% {
+  /* Pulsing animation */
+  @keyframes pulseLoop {
+    0% {
+      opacity: 0;
+      transform: scale(0.25) translateZ(0);
+    }
+    30% {
+      opacity: 0.4;
+    }
+    70% {
+      opacity: 0;
+    }
+    80% {
+      transform: scale(1) translateZ(0);
+    }
+  }
+  .pulse {
     opacity: 0;
-    transform: scale(0.25) translateZ(0);
+    transform-origin: center;
+    animation: pulseLoop 12000ms linear infinite;
   }
-  30% {
-    opacity: 0.4;
+  .pulse-1 {
+    animation-delay: -4000ms;
   }
-  70% {
-    opacity: 0;
+  .pulse-2 {
+    animation-delay: -8000ms;
   }
-  80% {
-    transform: scale(1) translateZ(0);
-  }
-}
-.pulse {
-  opacity: 0;
-  transform-origin: center;
-  animation: pulseLoop 12000ms linear infinite;
-}
-.pulse-1 {
-  animation-delay: -4000ms;
-}
-.pulse-2 {
-  animation-delay: -8000ms;
-}
 </style>

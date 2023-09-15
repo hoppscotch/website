@@ -1,18 +1,18 @@
 <script setup lang="ts">
-useHead({
-  title: "Privacy Policy • Hoppscotch",
-  meta: [
-    {
-      name: "description",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-  ],
-})
-const source = `${window.location.host}${window.location.pathname}`
-const { copy, copied } = useClipboard({
-  legacy: true,
-})
+  useHead({
+    title: "Privacy Policy • Hoppscotch",
+    meta: [
+      {
+        name: "description",
+        content:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+    ],
+  })
+  const source = `${window.location.host}${window.location.pathname}`
+  const { copy, copied } = useClipboard({
+    legacy: true,
+  })
 </script>
 
 <template>

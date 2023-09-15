@@ -149,21 +149,21 @@
 </template>
 
 <style scoped lang="scss">
-@for $i from 1 through 3 {
-  .moon:nth-child(#{$i}) {
-    @apply absolute;
-    @apply z-10;
-    @apply rounded-full;
-    @apply bg-slate-700;
+  @for $i from 1 through 3 {
+    .moon:nth-child(#{$i}) {
+      @apply absolute;
+      @apply z-10;
+      @apply rounded-full;
+      @apply bg-slate-700;
 
-    $d: calc($i * 256px);
+      $d: calc($i * 256px);
 
-    width: $d;
-    height: $d;
-    box-shadow: 0px 0px 32px 0px rgb(0, 0, 0);
-    opacity: calc(1 / ($i * 6));
-    margin-left: calc(50% - #{$d}/ 2);
-    margin-top: calc(50% - #{$d}/ 2);
+      width: $d;
+      height: $d;
+      box-shadow: 0px 0px 32px 0px rgb(0, 0, 0);
+      opacity: calc(1 / ($i * 6));
+      margin-left: calc(50% - #{$d}/ 2);
+      margin-top: calc(50% - #{$d}/ 2);
+    }
   }
-}
 </style>

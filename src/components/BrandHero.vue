@@ -1,18 +1,19 @@
 <script setup lang="ts">
-const primaryColor = "#A855F7"
-const secondaryColor = "#020617"
-const tertiaryColor = "#64748B"
-const { copy: copyPrimaryColor, copied: copiedPrimaryColor } = useClipboard({
-  source: primaryColor,
-})
-const { copy: copySecondaryColor, copied: copiedSecondaryColor } = useClipboard(
-  {
-    source: secondaryColor,
-  }
-)
-const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard({
-  source: tertiaryColor,
-})
+  const primaryColor = "#A855F7"
+  const secondaryColor = "#020617"
+  const tertiaryColor = "#64748B"
+  const { copy: copyPrimaryColor, copied: copiedPrimaryColor } = useClipboard({
+    source: primaryColor,
+  })
+  const { copy: copySecondaryColor, copied: copiedSecondaryColor } =
+    useClipboard({
+      source: secondaryColor,
+    })
+  const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard(
+    {
+      source: tertiaryColor,
+    }
+  )
 </script>
 
 <template>

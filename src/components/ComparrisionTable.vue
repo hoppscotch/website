@@ -1,155 +1,156 @@
 <script setup lang="ts">
-interface tierType {
-  name: string
-  id: string
-  href: string
-  featured: boolean
-  description: string
-  price: {
-    monthly: string
-    annually: string
+  interface tierType {
+    name: string
+    id: string
+    href: string
+    featured: boolean
+    description: string
+    price: {
+      monthly: string
+      annually: string
+    }
+    mainFeatures: string[]
   }
-  mainFeatures: string[]
-}
 
-const tiers = ref<tierType[]>([
-  {
-    name: "Starter",
-    id: "tier-starter",
-    href: "#",
-    featured: false,
-    description: "All your essential business finances, taken care of.",
-    price: { monthly: "$15", annually: "$144" },
-    mainFeatures: [
-      "Basic invoicing",
-      "Easy to use accounting",
-      "Mutli-accounts",
-    ],
-  },
-  {
-    name: "Scale",
-    id: "tier-scale",
-    href: "#",
-    featured: true,
-    description: "The best financial services for your thriving business.",
-    price: { monthly: "$60", annually: "$576" },
-    mainFeatures: [
-      "Advanced invoicing",
-      "Easy to use accounting",
-      "Mutli-accounts",
-      "Tax planning toolkit",
-      "VAT & VATMOSS filing",
-      "Free bank transfers",
-    ],
-  },
-  {
-    name: "Growth",
-    id: "tier-growth",
-    href: "#",
-    featured: false,
-    description: "Convenient features to take your business to the next level.",
-    price: { monthly: "$30", annually: "$288" },
-    mainFeatures: [
-      "Basic invoicing",
-      "Easy to use accounting",
-      "Mutli-accounts",
-      "Tax planning toolkit",
-    ],
-  },
-])
+  const tiers = ref<tierType[]>([
+    {
+      name: "Starter",
+      id: "tier-starter",
+      href: "#",
+      featured: false,
+      description: "All your essential business finances, taken care of.",
+      price: { monthly: "$15", annually: "$144" },
+      mainFeatures: [
+        "Basic invoicing",
+        "Easy to use accounting",
+        "Mutli-accounts",
+      ],
+    },
+    {
+      name: "Scale",
+      id: "tier-scale",
+      href: "#",
+      featured: true,
+      description: "The best financial services for your thriving business.",
+      price: { monthly: "$60", annually: "$576" },
+      mainFeatures: [
+        "Advanced invoicing",
+        "Easy to use accounting",
+        "Mutli-accounts",
+        "Tax planning toolkit",
+        "VAT & VATMOSS filing",
+        "Free bank transfers",
+      ],
+    },
+    {
+      name: "Growth",
+      id: "tier-growth",
+      href: "#",
+      featured: false,
+      description:
+        "Convenient features to take your business to the next level.",
+      price: { monthly: "$30", annually: "$288" },
+      mainFeatures: [
+        "Basic invoicing",
+        "Easy to use accounting",
+        "Mutli-accounts",
+        "Tax planning toolkit",
+      ],
+    },
+  ])
 
-interface tierPlanType {
-  Starter: boolean | string
-  Scale: boolean | string
-  Growth: boolean | string
-}
+  interface tierPlanType {
+    Starter: boolean | string
+    Scale: boolean | string
+    Growth: boolean | string
+  }
 
-interface featureType {
-  name: string
-  tiers: tierPlanType
-}
+  interface featureType {
+    name: string
+    tiers: tierPlanType
+  }
 
-interface sectionType {
-  name: string
-  features: featureType[]
-}
+  interface sectionType {
+    name: string
+    features: featureType[]
+  }
 
-const sections = ref<sectionType[]>([
-  {
-    name: "Catered for business",
-    features: [
-      {
-        name: "Tax Savings",
-        tiers: { Starter: true, Scale: true, Growth: true },
-      },
-      {
-        name: "Easy to use accounting",
-        tiers: { Starter: true, Scale: true, Growth: true },
-      },
-      {
-        name: "Multi-accounts",
-        tiers: {
-          Starter: "3 accounts",
-          Scale: "Unlimited accounts",
-          Growth: "7 accounts",
+  const sections = ref<sectionType[]>([
+    {
+      name: "Catered for business",
+      features: [
+        {
+          name: "Tax Savings",
+          tiers: { Starter: true, Scale: true, Growth: true },
         },
-      },
-      {
-        name: "Invoicing",
-        tiers: {
-          Starter: "3 invoices",
-          Scale: "Unlimited invoices",
-          Growth: "10 invoices",
+        {
+          name: "Easy to use accounting",
+          tiers: { Starter: true, Scale: true, Growth: true },
         },
-      },
-      {
-        name: "Exclusive offers",
-        tiers: { Starter: false, Scale: true, Growth: true },
-      },
-      {
-        name: "6 months free advisor",
-        tiers: { Starter: false, Scale: true, Growth: true },
-      },
-      {
-        name: "Mobile and web access",
-        tiers: { Starter: false, Scale: true, Growth: false },
-      },
-    ],
-  },
-  {
-    name: "Other perks",
-    features: [
-      {
-        name: "24/7 customer support",
-        tiers: { Starter: true, Scale: true, Growth: true },
-      },
-      {
-        name: "Instant notifications",
-        tiers: { Starter: true, Scale: true, Growth: true },
-      },
-      {
-        name: "Budgeting tools",
-        tiers: { Starter: true, Scale: true, Growth: true },
-      },
-      {
-        name: "Digital receipts",
-        tiers: { Starter: true, Scale: true, Growth: true },
-      },
-      {
-        name: "Pots to separate money",
-        tiers: { Starter: false, Scale: true, Growth: true },
-      },
-      {
-        name: "Free bank transfers",
-        tiers: { Starter: false, Scale: true, Growth: false },
-      },
-      {
-        name: "Business debit card",
-        tiers: { Starter: false, Scale: true, Growth: false },
-      },
-    ],
-  },
-])
+        {
+          name: "Multi-accounts",
+          tiers: {
+            Starter: "3 accounts",
+            Scale: "Unlimited accounts",
+            Growth: "7 accounts",
+          },
+        },
+        {
+          name: "Invoicing",
+          tiers: {
+            Starter: "3 invoices",
+            Scale: "Unlimited invoices",
+            Growth: "10 invoices",
+          },
+        },
+        {
+          name: "Exclusive offers",
+          tiers: { Starter: false, Scale: true, Growth: true },
+        },
+        {
+          name: "6 months free advisor",
+          tiers: { Starter: false, Scale: true, Growth: true },
+        },
+        {
+          name: "Mobile and web access",
+          tiers: { Starter: false, Scale: true, Growth: false },
+        },
+      ],
+    },
+    {
+      name: "Other perks",
+      features: [
+        {
+          name: "24/7 customer support",
+          tiers: { Starter: true, Scale: true, Growth: true },
+        },
+        {
+          name: "Instant notifications",
+          tiers: { Starter: true, Scale: true, Growth: true },
+        },
+        {
+          name: "Budgeting tools",
+          tiers: { Starter: true, Scale: true, Growth: true },
+        },
+        {
+          name: "Digital receipts",
+          tiers: { Starter: true, Scale: true, Growth: true },
+        },
+        {
+          name: "Pots to separate money",
+          tiers: { Starter: false, Scale: true, Growth: true },
+        },
+        {
+          name: "Free bank transfers",
+          tiers: { Starter: false, Scale: true, Growth: false },
+        },
+        {
+          name: "Business debit card",
+          tiers: { Starter: false, Scale: true, Growth: false },
+        },
+      ],
+    },
+  ])
 </script>
 
 <template>

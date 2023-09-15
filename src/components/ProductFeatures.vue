@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const tab = ref(1)
+  const tab = ref(1)
 </script>
 
 <template>

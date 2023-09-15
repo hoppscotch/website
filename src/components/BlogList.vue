@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import blogs from "../data/blogList.json"
+  import blogs from "../data/blogList.json"
 
-const sortedBlogs = computed(() =>
-  blogs.sort((a, b) => {
-    return new Date(b.date).getTime() - new Date(a.date).getTime()
-  })
-)
+  const sortedBlogs = computed(() =>
+    blogs.sort((a, b) => {
+      return new Date(b.date).getTime() - new Date(a.date).getTime()
+    })
+  )
 </script>
 
 <template>

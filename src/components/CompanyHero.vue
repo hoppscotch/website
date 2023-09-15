@@ -1,52 +1,52 @@
 <script setup lang="ts">
-import Image01 from "/images/world-user-01.jpg"
-import Image02 from "/images/world-user-02.jpg"
-import Image03 from "/images/world-user-03.jpg"
+  import Image01 from "/images/world-user-01.jpg"
+  import Image02 from "/images/world-user-02.jpg"
+  import Image03 from "/images/world-user-03.jpg"
 
-const active = ref(0)
-const autorotate = ref(true)
-const autorotateTiming = ref(7000)
-const items = ref([
-  {
-    img: Image01,
-    alt: "Testimonial 01",
-    quote:
-      "“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“",
-    name: "Darya Semenova",
-    role: "Backend Developer",
-  },
-  {
-    img: Image02,
-    alt: "Testimonial 02",
-    quote:
-      "“ Not only in my career but in education as well, I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more.“",
-    name: "Greg Sebastian",
-    role: "Head of Design",
-  },
-  {
-    img: Image03,
-    alt: "Testimonial 03",
-    quote:
-      "“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“",
-    name: "Dominik Prasad",
-    role: "Backend Lead",
-  },
-])
-const autorotateInterval = ref()
-function stopAutorotate() {
-  clearInterval(autorotateInterval.value)
-}
-onMounted(() => {
-  if (autorotate.value) {
-    autorotateInterval.value = setInterval(() => {
-      active.value =
-        active.value + 1 === items.value.length ? 0 : active.value + 1
-    }, autorotateTiming.value)
+  const active = ref(0)
+  const autorotate = ref(true)
+  const autorotateTiming = ref(7000)
+  const items = ref([
+    {
+      img: Image01,
+      alt: "Testimonial 01",
+      quote:
+        "“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“",
+      name: "Darya Semenova",
+      role: "Backend Developer",
+    },
+    {
+      img: Image02,
+      alt: "Testimonial 02",
+      quote:
+        "“ Not only in my career but in education as well, I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more.“",
+      name: "Greg Sebastian",
+      role: "Head of Design",
+    },
+    {
+      img: Image03,
+      alt: "Testimonial 03",
+      quote:
+        "“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“",
+      name: "Dominik Prasad",
+      role: "Backend Lead",
+    },
+  ])
+  const autorotateInterval = ref()
+  function stopAutorotate() {
+    clearInterval(autorotateInterval.value)
   }
-})
-onBeforeUnmount(() => {
-  stopAutorotate()
-})
+  onMounted(() => {
+    if (autorotate.value) {
+      autorotateInterval.value = setInterval(() => {
+        active.value =
+          active.value + 1 === items.value.length ? 0 : active.value + 1
+      }, autorotateTiming.value)
+    }
+  })
+  onBeforeUnmount(() => {
+    stopAutorotate()
+  })
 </script>
 
 <template>

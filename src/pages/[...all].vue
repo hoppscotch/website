@@ -1,13 +1,13 @@
 <script setup lang="ts">
-useHead({
-  title: "404 • Hoppscotch",
-  meta: [
-    {
-      name: "description",
-      content: "The page you are looking for does not exist.",
-    },
-  ],
-})
+  useHead({
+    title: "404 • Hoppscotch",
+    meta: [
+      {
+        name: "description",
+        content: "The page you are looking for does not exist.",
+      },
+    ],
+  })
 </script>
 
 <template>

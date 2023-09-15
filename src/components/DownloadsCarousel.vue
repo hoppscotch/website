@@ -1,32 +1,32 @@
 <script setup lang="ts">
-// Import Swiper
-import Swiper, { Navigation } from "swiper"
-import "swiper/css"
+  // Import Swiper
+  import Swiper, { Navigation } from "swiper"
+  import "swiper/css"
 
-Swiper.use([Navigation])
-const swiperInitialized = ref(false)
-onMounted(() => {
-  new Swiper(".testimonials-carousel", {
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
+  Swiper.use([Navigation])
+  const swiperInitialized = ref(false)
+  onMounted(() => {
+    new Swiper(".testimonials-carousel", {
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+        },
+        640: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
       },
-      640: {
-        slidesPerView: 2,
+      grabCursor: true,
+      spaceBetween: 24,
+      navigation: {
+        nextEl: ".carousel-next",
+        prevEl: ".carousel-prev",
       },
-      1024: {
-        slidesPerView: 3,
-      },
-    },
-    grabCursor: true,
-    spaceBetween: 24,
-    navigation: {
-      nextEl: ".carousel-next",
-      prevEl: ".carousel-prev",
-    },
+    })
+    swiperInitialized.value = true
   })
-  swiperInitialized.value = true
-})
 </script>
 
 <template>

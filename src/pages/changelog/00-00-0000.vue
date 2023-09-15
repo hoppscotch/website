@@ -1,51 +1,51 @@
 <script setup lang="ts">
-useHead({
-  title: "v0000.0.0 • Changelog • Hoppscotch",
-  meta: [
-    {
-      property: "og:title",
-      content: "v0000.0.0 • Changelog • Hoppscotch",
-    },
-    {
-      name: "twitter:title",
-      content: "v0000.0.0 • Changelog • Hoppscotch",
-    },
-    {
-      name: "description",
-      content: "Bug fixes and performance improvements.",
-    },
-    {
-      property: "og:description",
-      content: "Bug fixes and performance improvements.",
-    },
-    {
-      name: "twitter:description",
-      content: "Bug fixes and performance improvements.",
-    },
-    {
-      property: "og:image",
-      content:
-        "https://next.hoppscotch.com/.netlify/functions/og-image?type=changelog&slug=00-00-0000",
-    },
-    {
-      name: "twitter:image",
-      content:
-        "https://next.hoppscotch.com/.netlify/functions/og-image?type=changelog&slug=00-00-0000",
-    },
-    {
-      property: "og:type",
-      content: "article",
-    },
-    {
-      property: "og:url",
-      content: "https://next.hoppscotch.com/changelog/00-00-0000",
-    },
-  ],
-})
-const source = `${window.location.host}${window.location.pathname}`
-const { copy, copied } = useClipboard({
-  legacy: true,
-})
+  useHead({
+    title: "v0000.0.0 • Changelog • Hoppscotch",
+    meta: [
+      {
+        property: "og:title",
+        content: "v0000.0.0 • Changelog • Hoppscotch",
+      },
+      {
+        name: "twitter:title",
+        content: "v0000.0.0 • Changelog • Hoppscotch",
+      },
+      {
+        name: "description",
+        content: "Bug fixes and performance improvements.",
+      },
+      {
+        property: "og:description",
+        content: "Bug fixes and performance improvements.",
+      },
+      {
+        name: "twitter:description",
+        content: "Bug fixes and performance improvements.",
+      },
+      {
+        property: "og:image",
+        content:
+          "https://next.hoppscotch.com/.netlify/functions/og-image?type=changelog&slug=00-00-0000",
+      },
+      {
+        name: "twitter:image",
+        content:
+          "https://next.hoppscotch.com/.netlify/functions/og-image?type=changelog&slug=00-00-0000",
+      },
+      {
+        property: "og:type",
+        content: "article",
+      },
+      {
+        property: "og:url",
+        content: "https://next.hoppscotch.com/changelog/00-00-0000",
+      },
+    ],
+  })
+  const source = `${window.location.host}${window.location.pathname}`
+  const { copy, copied } = useClipboard({
+    legacy: true,
+  })
 </script>
 
 <template>

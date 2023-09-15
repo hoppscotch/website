@@ -1,23 +1,23 @@
 <script setup lang="ts">
-// Import Swiper
-import Swiper, { Autoplay } from "swiper"
-import "swiper/css"
+  // Import Swiper
+  import Swiper, { Autoplay } from "swiper"
+  import "swiper/css"
 
-Swiper.use([Autoplay])
-onMounted(() => {
-  new Swiper(".clients-carousel", {
-    slidesPerView: "auto",
-    spaceBetween: 64,
-    centeredSlides: true,
-    loop: true,
-    speed: 5000,
-    noSwipingClass: "swiper-slide",
-    autoplay: {
-      delay: 0,
-      disableOnInteraction: false,
-    },
+  Swiper.use([Autoplay])
+  onMounted(() => {
+    new Swiper(".clients-carousel", {
+      slidesPerView: "auto",
+      spaceBetween: 64,
+      centeredSlides: true,
+      loop: true,
+      speed: 5000,
+      noSwipingClass: "swiper-slide",
+      autoplay: {
+        delay: 0,
+        disableOnInteraction: false,
+      },
+    })
   })
-})
 </script>
 
 <template>

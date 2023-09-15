@@ -1,54 +1,54 @@
 <script setup lang="ts">
-useHead({
-  title: "The quick brown fox • Blog • Hoppscotch",
-  meta: [
-    {
-      property: "og:title",
-      content: "The quick brown fox • Blog • Hoppscotch",
-    },
-    {
-      name: "twitter:title",
-      content: "The quick brown fox • Blog • Hoppscotch",
-    },
-    {
-      name: "description",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      property: "og:description",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      name: "twitter:description",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      property: "og:image",
-      content:
-        "https://next.hoppscotch.com/.netlify/functions/og-image?type=blog&slug=sample-post",
-    },
-    {
-      name: "twitter:image",
-      content:
-        "https://next.hoppscotch.com/.netlify/functions/og-image?type=blog&slug=sample-post",
-    },
-    {
-      property: "og:type",
-      content: "article",
-    },
-    {
-      property: "og:url",
-      content: "https://next.hoppscotch.com/blog/sample-post",
-    },
-  ],
-})
-const source = `${window.location.host}${window.location.pathname}`
-const { copy, copied } = useClipboard({
-  legacy: true,
-})
+  useHead({
+    title: "The quick brown fox • Blog • Hoppscotch",
+    meta: [
+      {
+        property: "og:title",
+        content: "The quick brown fox • Blog • Hoppscotch",
+      },
+      {
+        name: "twitter:title",
+        content: "The quick brown fox • Blog • Hoppscotch",
+      },
+      {
+        name: "description",
+        content:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      {
+        property: "og:description",
+        content:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      {
+        property: "og:image",
+        content:
+          "https://next.hoppscotch.com/.netlify/functions/og-image?type=blog&slug=sample-post",
+      },
+      {
+        name: "twitter:image",
+        content:
+          "https://next.hoppscotch.com/.netlify/functions/og-image?type=blog&slug=sample-post",
+      },
+      {
+        property: "og:type",
+        content: "article",
+      },
+      {
+        property: "og:url",
+        content: "https://next.hoppscotch.com/blog/sample-post",
+      },
+    ],
+  })
+  const source = `${window.location.host}${window.location.pathname}`
+  const { copy, copied } = useClipboard({
+    legacy: true,
+  })
 </script>
 
 <template>

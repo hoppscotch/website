@@ -1,11 +1,11 @@
 <script setup lang="ts">
-const isDownloading = ref(false)
-function initDownload() {
-  isDownloading.value = true
-  setTimeout(() => {
-    isDownloading.value = false
-  }, 2000)
-}
+  const isDownloading = ref(false)
+  function initDownload() {
+    isDownloading.value = true
+    setTimeout(() => {
+      isDownloading.value = false
+    }, 2000)
+  }
 </script>
 
 <template>
