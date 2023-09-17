@@ -5,11 +5,11 @@
 </template>
 
 <style lang="scss" scoped>
-  $n: 10; // number of meteors
+  $n: 5; // number of meteors
   @for $i from 1 through $n {
-    $v: calc(random(90) + 9); // left
-    $h: calc(random(250) + 50); // top
-    $d: calc(random(70) / 10 + 10); // seconds
+    $v: calc(random(100) + 10); // left
+    $h: calc(random(250) + 20); // top
+    $d: calc(random(80) / 10 + 10); // seconds
     .meteor-#{$i} {
       @apply absolute;
       @apply w-64;

@@ -169,7 +169,7 @@
               </HighlighterItem>
             </div>
             <!-- Box #2 -->
-            <div class="md:col-span-7" data-aos="fade-down">
+            <div class="md:col-span-6" data-aos="fade-down">
               <HighlighterItem>
                 <div
                   class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
@@ -201,14 +201,10 @@
                       </div>
                     </div>
                     <!-- Image -->
-                    <div
-                      class="relative w-full h-64 overflow-hidden md:h-auto md:pb-8"
-                    >
+                    <div class="relative w-full h-64 overflow-hidden">
                       <img
                         class="absolute bottom-0 mx-auto -translate-x-1/2 left-1/2 max-w-none md:max-w-full md:relative md:left-0 md:translate-x-0"
                         src="/images/feature-image-02.png"
-                        width="536"
-                        height="230"
                         alt="Feature 02"
                       />
                     </div>
@@ -217,7 +213,7 @@
               </HighlighterItem>
             </div>
             <!-- Box #3 -->
-            <div class="md:col-span-5" data-aos="fade-down">
+            <div class="md:col-span-6" data-aos="fade-down">
               <HighlighterItem>
                 <div
                   class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
@@ -249,14 +245,10 @@
                       </div>
                     </div>
                     <!-- Image -->
-                    <div
-                      class="relative w-full h-64 overflow-hidden md:h-auto md:pb-8"
-                    >
+                    <div class="relative w-full h-64 overflow-hidden">
                       <img
-                        class="absolute bottom-0 mx-auto -translate-x-1/2 left-1/2 max-w-none md:max-w-full md:relative md:left-0 md:translate-x-0"
+                        class="absolute bottom-0 w-64 h-64 mx-auto -translate-x-1/2 left-1/2 max-w-none md:max-w-full md:relative md:left-0 md:translate-x-0"
                         src="/images/feature-image-03.png"
-                        width="230"
-                        height="230"
                         alt="Feature 03"
                       />
                     </div>

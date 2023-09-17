@@ -18,8 +18,8 @@ dependencies:
     specifier: ^0.2.0
     version: 0.2.0
   "@unhead/addons":
-    specifier: ^1.7.3
-    version: 1.7.3
+    specifier: ^1.7.4
+    version: 1.7.4
   "@vueuse/core":
     specifier: ^10.4.1
     version: 10.4.1(vue@3.3.4)
@@ -68,8 +68,8 @@ devDependencies:
     specifier: ^6.7.0
     version: 6.7.0(eslint@8.49.0)(typescript@5.2.2)
   "@unhead/vue":
-    specifier: ^1.7.3
-    version: 1.7.3(vue@3.3.4)
+    specifier: ^1.7.4
+    version: 1.7.4(vue@3.3.4)
   "@vitejs/plugin-vue":
     specifier: ^4.3.4
     version: 4.3.4(vite@4.4.9)(vue@3.3.4)
@@ -334,7 +334,7 @@ packages:
       }
     engines: { node: ">=6.9.0" }
     dependencies:
-      "@babel/types": 7.22.17
+      "@babel/types": 7.22.19
       "@jridgewell/gen-mapping": 0.3.3
       "@jridgewell/trace-mapping": 0.3.19
       jsesc: 2.5.2
@@ -353,6 +353,15 @@ packages:
         integrity: sha512-4E/F9IIEi8WR94324mbDUMo074YTheJmd7eZF5vITTeYchqAi6sYXRLHUVsmkdmY4QjfKTcB2jB7dVP3NaBElQ==,
       }
     engines: { node: ">=6.9.0" }
+    dev: true
+
+  /@babel/helper-validator-identifier@7.22.20:
+    resolution:
+      {
+        integrity: sha512-Y4OZ+ytlatR8AI+8KZfKuL5urKp7qey08ha31L8b3BwewJAoJamTzyvxPR/5D+KkdJCGPq/+8TukHBlY10FX9A==,
+      }
+    engines: { node: ">=6.9.0" }
+    dev: false
 
   /@babel/helper-validator-identifier@7.22.5:
     resolution:
@@ -381,7 +390,7 @@ packages:
     engines: { node: ">=6.0.0" }
     hasBin: true
     dependencies:
-      "@babel/types": 7.22.17
+      "@babel/types": 7.22.19
     dev: false
 
   /@babel/parser@7.22.7:
@@ -394,15 +403,15 @@ packages:
     dependencies:
       "@babel/types": 7.22.5
 
-  /@babel/types@7.22.17:
+  /@babel/types@7.22.19:
     resolution:
       {
-        integrity: sha512-YSQPHLFtQNE5xN9tHuZnzu8vPr61wVTBZdfv1meex1NBosa4iT05k/Jw06ddJugi4bk7The/oSwQGFcksmEJQg==,
+        integrity: sha512-P7LAw/LbojPzkgp5oznjE6tQEIWbp4PkkfrZDINTro9zgBRtI324/EYsiSI7lhPbpIQ+DCeR2NNmMWANGGfZsg==,
       }
     engines: { node: ">=6.9.0" }
     dependencies:
       "@babel/helper-string-parser": 7.22.5
-      "@babel/helper-validator-identifier": 7.22.15
+      "@babel/helper-validator-identifier": 7.22.20
       to-fast-properties: 2.0.0
     dev: false
 
@@ -1416,15 +1425,15 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@unhead/addons@1.7.3:
+  /@unhead/addons@1.7.4:
     resolution:
       {
-        integrity: sha512-mGtHvd+NoyXEm8BAuIhWoqKOuQ6tDRyTVax/KRK1z0pewPkS/0BBUoOnBNbxGfwFXZ+k25rWeUL91q1s/jPBMw==,
+        integrity: sha512-7WdtWujO9H7R+25Pygr+UjJgP19SVNnyVRVJS5DC985pMMeWaaweS7G/ibLJKPWx32s/Af1UEAkWu9dLyoAxTg==,
       }
     dependencies:
       "@rollup/pluginutils": 5.0.4
-      "@unhead/schema": 1.7.3
-      "@unhead/shared": 1.7.3
+      "@unhead/schema": 1.7.4
+      "@unhead/shared": 1.7.4
       magic-string: 0.30.3
       mlly: 1.4.2
       ufo: 1.3.0
@@ -1444,10 +1453,30 @@ packages:
       "@unhead/shared": 1.7.3
     dev: true
 
+  /@unhead/dom@1.7.4:
+    resolution:
+      {
+        integrity: sha512-xanQMtGmgikqTvDtuyJy6GXgqvUXOdrdnIyqAabpeS8goD8udxo0stzjtbT8ERbMQibzPGSGcN+Ux+MKoWzrjQ==,
+      }
+    dependencies:
+      "@unhead/schema": 1.7.4
+      "@unhead/shared": 1.7.4
+    dev: true
+
   /@unhead/schema@1.7.3:
     resolution:
       {
         integrity: sha512-w2Yvt1++bAnSmsYc7bwLTMalSbff6HFnNmlpFIjNUTSkquOg+oavm62TrgxAwq753dedDOzCXr5cUvzCswc2Yg==,
+      }
+    dependencies:
+      hookable: 5.5.3
+      zhead: 2.1.1
+    dev: true
+
+  /@unhead/schema@1.7.4:
+    resolution:
+      {
+        integrity: sha512-wUL4CK0NSEm3KH4kYsiqVYQw5xBk1hpBi5tiNj0BTZgpQVrRufICdK5EHA9Fh7OIAR6tOTWwTvsf5+nK0BgQDA==,
       }
     dependencies:
       hookable: 5.5.3
@@ -1460,19 +1489,28 @@ packages:
       }
     dependencies:
       "@unhead/schema": 1.7.3
+    dev: true
 
-  /@unhead/vue@1.7.3(vue@3.3.4):
+  /@unhead/shared@1.7.4:
     resolution:
       {
-        integrity: sha512-QSy2Qsc4IurrRrvpnnNzBWL/g4ecz3eblSVJ41QwqBnaUIRdPaSY8EdobA/NR0rtWzHicV6Fy3nEYXSXSRDELQ==,
+        integrity: sha512-YUNA2UxAuDPnDps41BQ8aEIY5hdyvruSB1Vs3AALhRo07MxMivSq5DjNKfYr/JvRN6593RtfI1NHnP9x5M57xA==,
+      }
+    dependencies:
+      "@unhead/schema": 1.7.4
+
+  /@unhead/vue@1.7.4(vue@3.3.4):
+    resolution:
+      {
+        integrity: sha512-ZfgzOhg1Bxo9xwp3upawqerw4134hc9Lhz6t005ixcBwPX+39Wpgc9dC3lf+owFQEVuWkf8F+eAwK2sghVBK4A==,
       }
     peerDependencies:
       vue: ">=2.7 || >=3"
     dependencies:
-      "@unhead/schema": 1.7.3
-      "@unhead/shared": 1.7.3
+      "@unhead/schema": 1.7.4
+      "@unhead/shared": 1.7.4
       hookable: 5.5.3
-      unhead: 1.7.3
+      unhead: 1.7.4
       vue: 3.3.4
     dev: true
 
@@ -3021,7 +3059,7 @@ packages:
     dependencies:
       debug: 3.2.7
       is-core-module: 2.13.0
-      resolve: 1.22.5
+      resolve: 1.22.6
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3125,7 +3163,7 @@ packages:
       get-tsconfig: 4.7.0
       is-glob: 4.0.3
       minimatch: 3.1.2
-      resolve: 1.22.5
+      resolve: 1.22.6
       semver: 7.5.4
     transitivePeerDependencies:
       - "@typescript-eslint/parser"
@@ -6479,6 +6517,18 @@ packages:
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
 
+  /resolve@1.22.6:
+    resolution:
+      {
+        integrity: sha512-njhxM7mV12JfufShqGy3Rz8j11RPdLy4xi15UurGJeoHLfJpVXKdh3ueuOqbYUcDZnffr6X739JBo5LzyahEsw==,
+      }
+    hasBin: true
+    dependencies:
+      is-core-module: 2.13.0
+      path-parse: 1.0.7
+      supports-preserve-symlinks-flag: 1.0.0
+    dev: true
+
   /restore-cursor@4.0.0:
     resolution:
       {
@@ -7412,15 +7462,15 @@ packages:
       through: 2.3.8
     dev: false
 
-  /unhead@1.7.3:
+  /unhead@1.7.4:
     resolution:
       {
-        integrity: sha512-6LbBOVgsr+JCmeWH9okxlBtMtFHGIECX93ySWBnposnOqzSUtnUsEgB0nVB8Qa7uozfHlmJfSBJMUeTztzPfSQ==,
+        integrity: sha512-oOv+9aQS85DQUd0f1uJBtb2uG3SKwCURSTuUWp9WKKzANCb1TjW2dWp5TFmJH5ILF6urXi4uUQfjK+SawzBJAA==,
       }
     dependencies:
-      "@unhead/dom": 1.7.3
-      "@unhead/schema": 1.7.3
-      "@unhead/shared": 1.7.3
+      "@unhead/dom": 1.7.4
+      "@unhead/schema": 1.7.4
+      "@unhead/shared": 1.7.4
       hookable: 5.5.3
     dev: true
 
@@ -7767,7 +7817,7 @@ packages:
         optional: true
     dependencies:
       "@unhead/dom": 1.7.3
-      "@unhead/vue": 1.7.3(vue@3.3.4)
+      "@unhead/vue": 1.7.4(vue@3.3.4)
       fs-extra: 11.1.1
       html-minifier: 4.0.0
       html5parser: 2.0.2

@@ -408,7 +408,7 @@
                   </a>
                   <a
                     class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                    href="https://docs.hoppscotch.io"
+                    href="https://github.com/hoppscotch/hoppscotch"
                     target="_blank"
                     rel="noopener noreferrer"
                     @click="hide()"

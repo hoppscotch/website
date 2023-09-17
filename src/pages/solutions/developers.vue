@@ -1,6 +1,6 @@
 <script setup lang="ts">
   useHead({
-    title: "Enterprise • Hoppscotch",
+    title: "Developers • Hoppscotch",
     meta: [
       {
         name: "description",

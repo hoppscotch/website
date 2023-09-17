@@ -47,7 +47,7 @@
         <img
           src="/images/light-cubes.svg"
           alt="Light cubes"
-          class="mx-auto -mt-40"
+          class="mx-auto -mt-20"
           data-aos="fade-up"
         />
         <!-- Grid -->
