@@ -51,7 +51,7 @@
   >
     <div
       v-show="modalOpen"
-      class="fixed inset-0 z-50 transition-opacity bg-slate-950/10 backdrop-blur-2xl"
+      class="fixed inset-0 z-50 transition-opacity bg-slate-950/10 backdrop-blur"
       aria-hidden="true"
     ></div>
   </Transition>

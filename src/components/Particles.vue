@@ -4,7 +4,7 @@
   const props = defineProps({
     quantity: {
       type: Number,
-      default: 50,
+      default: 30,
     },
     staticity: {
       type: Number,
