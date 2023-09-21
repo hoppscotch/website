@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-16" data-aos="fade-down">
+  <div v-motion-fade class="mb-16">
     <div
       class="relative inline-flex before:absolute before:inset-0 before:bg-violet-500/50 before:rounded-full before:blur-md"
     >

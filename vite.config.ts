@@ -1,3 +1,4 @@
+import path from "node:path"
 import Vue from "@vitejs/plugin-vue"
 import Icons from "unplugin-icons/vite"
 import IconsResolver from "unplugin-icons/resolver"
@@ -21,12 +22,21 @@ const ssgOptions: ViteSSGOptions = {
   },
 }
 
-// https://vitejs.dev/config/
+// https://vitejs.dev/config
 export default defineConfig({
+  resolve: {
+    alias: {
+      "~/": `${path.resolve(__dirname, "src")}/`,
+    },
+  },
+
   plugins: [
     Vue(),
+    // https://github.com/hannoeru/vite-plugin-pages
     Pages(),
+    // https://github.com/JohnCampionJr/vite-plugin-vue-layouts
     Layouts(),
+    // https://github.com/antfu/unplugin-vue-components
     Components({
       resolvers: [
         IconsResolver({
@@ -34,7 +44,10 @@ export default defineConfig({
         }),
       ],
     }),
+    // https://github.com/unplugin/unplugin-icons
     Icons(),
+    // https://github.com/cssninjaStudio/unplugin-fonts
+    // https://github.com/antfu/unplugin-auto-import
     AutoImport({
       eslintrc: {
         enabled: true,
@@ -63,7 +76,9 @@ export default defineConfig({
         ],
       },
     }),
+    // https://github.com/unjs/unhead
     UnheadVite(),
   ],
+  // https://github.com/antfu/vite-ssg
   ssgOptions,
 })

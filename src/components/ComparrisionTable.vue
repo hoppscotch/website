@@ -208,7 +208,9 @@
                         :key="feature.name"
                         class="flex items-center justify-between px-4 py-3 sm:grid sm:grid-cols-2 sm:px-0"
                       >
-                        <dt class="pr-4 text-slate-500">{{ feature.name }}</dt>
+                        <dt class="pr-4 text-slate-500">
+                          {{ feature.name }}
+                        </dt>
                         <dd
                           class="flex items-center justify-end sm:justify-center sm:px-4"
                         >

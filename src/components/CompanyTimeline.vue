@@ -5,9 +5,9 @@
         <!-- Section header -->
         <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
           <div
+            v-motion-fade
             class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full hero-subtitle-gradient bg-violet-500/10 border-violet-500/50"
-            data-aos="fade-up"
-            data-aos-delay="100"
+            :delay="100"
           >
             <span
               class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
@@ -28,7 +28,7 @@
         <!-- Items -->
         <div class="max-w-4xl mx-auto -my-4 md:-my-6">
           <!-- item -->
-          <div class="relative py-4 pl-24 md:py-6" data-aos="fade-up">
+          <div v-motion-fade class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
               <div class="mb-2 text-sm font-medium text-violet-500">
                 The inception
@@ -58,11 +58,7 @@
             </div>
           </div>
           <!-- item -->
-          <div
-            class="relative py-4 pl-24 md:py-6"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
+          <div v-motion-fade class="relative py-4 pl-24 md:py-6" :delay="100">
             <div class="pl-2">
               <div class="mb-2 text-sm font-medium text-violet-500">
                 New beginnings
@@ -91,11 +87,7 @@
             </div>
           </div>
           <!-- item -->
-          <div
-            class="relative py-4 pl-24 md:py-6"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
+          <div v-motion-fade class="relative py-4 pl-24 md:py-6" :delay="200">
             <div class="pl-2">
               <div class="mb-2 text-sm font-medium text-violet-500">
                 The seed
@@ -124,11 +116,7 @@
             </div>
           </div>
           <!-- item -->
-          <div
-            class="relative py-4 pl-24 md:py-6"
-            data-aos="fade-up"
-            data-aos-delay="300"
-          >
+          <div v-motion-fade class="relative py-4 pl-24 md:py-6" :delay="300">
             <div class="pl-2">
               <div class="mb-2 text-sm font-medium text-violet-500">
                 Pivoting
@@ -157,11 +145,7 @@
             </div>
           </div>
           <!-- item -->
-          <div
-            class="relative py-4 pl-24 md:py-6"
-            data-aos="fade-up"
-            data-aos-delay="400"
-          >
+          <div v-motion-fade class="relative py-4 pl-24 md:py-6" :delay="400">
             <div class="pl-2">
               <div class="mb-2 text-sm font-medium text-violet-500">
                 Huge milestone

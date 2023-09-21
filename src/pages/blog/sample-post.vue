@@ -58,10 +58,7 @@
         <!-- Section header -->
         <BlogPostHeader :copied="copied" @copy="copy(source)" />
         <!-- Blog content -->
-        <article
-          class="flex flex-col items-center space-y-8"
-          data-aos="fade-up"
-        >
+        <article v-motion-fade class="flex flex-col items-center space-y-8">
           <header class="flex flex-col w-full max-w-2xl">
             <div class="mb-4">
               <ul class="flex flex-wrap -m-1 text-sm font-medium">

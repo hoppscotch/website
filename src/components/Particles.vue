@@ -4,11 +4,11 @@
   const props = defineProps({
     quantity: {
       type: Number,
-      default: 30,
+      default: 50,
     },
     staticity: {
       type: Number,
-      default: 50,
+      default: 100,
     },
     ease: {
       type: Number,
@@ -22,38 +22,10 @@
   const canvasRef = ref()
   const canvasContainerRef = ref()
   const context = ref()
-  const circles = ref([]) as Ref<Circle[]>
   const mousePosition = useMousePosition()
   const mouse = reactive({ x: 0, y: 0 })
   const canvasSize = reactive({ w: 0, h: 0 })
   const dpr = window.devicePixelRatio || 1
-  onMounted(() => {
-    if (canvasRef.value) {
-      context.value = canvasRef.value.getContext("2d")
-    }
-    initCanvas()
-    animate()
-    document.addEventListener("resize", initCanvas)
-  })
-  onBeforeUnmount(() => {
-    document.removeEventListener("resize", initCanvas)
-  })
-  watch(
-    () => mousePosition.value,
-    () => {
-      onMouseMove()
-    }
-  )
-  watch(
-    () => props.refresh,
-    () => {
-      initCanvas()
-    }
-  )
-  function initCanvas() {
-    resizeCanvas()
-    drawParticles()
-  }
   function onMouseMove() {
     if (canvasRef.value) {
       const rect = canvasRef.value.getBoundingClientRect()
@@ -67,6 +39,7 @@
       }
     }
   }
+  const circles = ref([]) as Ref<Circle[]>
   function resizeCanvas() {
     if (canvasContainerRef.value && canvasRef.value && context.value) {
       circles.value.length = 0
@@ -105,9 +78,7 @@
       magnetism,
     }
   }
-
   type Circle = ReturnType<typeof circleParams>
-
   function drawCircle(circle: Circle, update = false) {
     if (context.value) {
       const { x, y, translateX, translateY, size, alpha } = circle
@@ -117,15 +88,11 @@
       context.value.fillStyle = `rgba(255, 255, 255, ${alpha})`
       context.value.fill()
       context.value.setTransform(dpr, 0, 0, dpr, 0, 0)
-      if (!update) {
-        circles.value.push(circle)
-      }
+      if (!update) circles.value.push(circle)
     }
   }
   function clearContext() {
-    if (context.value) {
-      context.value.clearRect(0, 0, canvasSize.w, canvasSize.h)
-    }
+    if (context.value) context.value.clearRect(0, 0, canvasSize.w, canvasSize.h)
   }
   function drawParticles() {
     clearContext()
@@ -162,9 +129,7 @@
       )
       if (remapClosestEdge > 1) {
         circle.alpha += 0.02
-        if (circle.alpha > circle.targetAlpha) {
-          circle.alpha = circle.targetAlpha
-        }
+        if (circle.alpha > circle.targetAlpha) circle.alpha = circle.targetAlpha
       } else {
         circle.alpha = circle.targetAlpha * remapClosestEdge
       }
@@ -205,10 +170,37 @@
     })
     window.requestAnimationFrame(animate)
   }
+
+  onMounted(() => {
+    if (canvasRef.value) context.value = canvasRef.value.getContext("2d")
+
+    initCanvas()
+    animate()
+    document.addEventListener("resize", initCanvas)
+  })
+  onBeforeUnmount(() => {
+    document.removeEventListener("resize", initCanvas)
+  })
+  watch(
+    () => mousePosition.value,
+    () => {
+      onMouseMove()
+    }
+  )
+  watch(
+    () => props.refresh,
+    () => {
+      initCanvas()
+    }
+  )
+  function initCanvas() {
+    resizeCanvas()
+    drawParticles()
+  }
 </script>
 
 <template>
   <div ref="canvasContainerRef" aria-hidden="true">
-    <canvas ref="canvasRef"></canvas>
+    <canvas ref="canvasRef" />
   </div>
 </template>

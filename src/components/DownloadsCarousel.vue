@@ -43,9 +43,9 @@
           >
             <!-- Carousel items -->
             <HighlighterItem
+              v-motion-fade
               class="h-auto swiper-slide group/slide"
-              data-aos="fade-left"
-              data-aos-delay="100"
+              :delay="100"
             >
               <div
                 class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
@@ -98,9 +98,9 @@
               </div>
             </HighlighterItem>
             <HighlighterItem
+              v-motion-fade
               class="h-auto swiper-slide group/slide"
-              data-aos="fade-left"
-              data-aos-delay="200"
+              :delay="200"
             >
               <div
                 class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
@@ -155,9 +155,9 @@
               </div>
             </HighlighterItem>
             <HighlighterItem
+              v-motion-fade
               class="h-auto swiper-slide group/slide"
-              data-aos="fade-left"
-              data-aos-delay="300"
+              :delay="300"
             >
               <div
                 class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
@@ -210,9 +210,9 @@
               </div>
             </HighlighterItem>
             <HighlighterItem
+              v-motion-fade
               class="h-auto swiper-slide group/slide"
-              data-aos="fade-left"
-              data-aos-delay="400"
+              :delay="400"
             >
               <div
                 class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
@@ -263,9 +263,9 @@
               </div>
             </HighlighterItem>
             <HighlighterItem
+              v-motion-fade
               class="h-auto swiper-slide group/slide"
-              data-aos="fade-left"
-              data-aos-delay="500"
+              :delay="500"
             >
               <div
                 class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"

@@ -22,9 +22,9 @@
         <!-- Section header -->
         <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
           <div
+            v-motion-fade
             class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full hero-subtitle-gradient bg-violet-500/10 border-violet-500/50"
-            data-aos="fade-up"
-            data-aos-delay="100"
+            :delay="100"
           >
             <span
               class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
@@ -33,17 +33,13 @@
             </span>
           </div>
           <h2
+            v-motion-fade
             class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
-            data-aos="fade-up"
-            data-aos-delay="200"
+            :delay="200"
           >
             The power to be your best
           </h2>
-          <p
-            class="text-lg text-slate-400"
-            data-aos="fade-up"
-            data-aos-delay="300"
-          >
+          <p v-motion-fade class="text-lg text-slate-400" :delay="300">
             We build tools that help you build better products.
           </p>
         </div>
@@ -51,7 +47,7 @@
         <div class="max-w-4xl mx-auto">
           <!-- Tabs buttons -->
           <div class="pb-8 grid grid-cols-2 gap-6 sm:grid-cols-4">
-            <div data-aos="fade-up" data-aos-delay="100">
+            <div v-motion-fade :delay="100">
               <button
                 class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-violet-500/10"
                 :class="{
@@ -73,7 +69,7 @@
                 </div>
               </button>
             </div>
-            <div data-aos="fade-up" data-aos-delay="200">
+            <div v-motion-fade :delay="200">
               <button
                 class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-red-500/10"
                 :class="{
@@ -94,7 +90,7 @@
                 </div>
               </button>
             </div>
-            <div data-aos="fade-up" data-aos-delay="300">
+            <div v-motion-fade :delay="300">
               <button
                 class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-blue-500/10"
                 :class="{
@@ -115,7 +111,7 @@
                 </div>
               </button>
             </div>
-            <div data-aos="fade-up" data-aos-delay="400">
+            <div v-motion-fade :delay="400">
               <button
                 class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-slate-500/10"
                 :class="{
@@ -139,7 +135,7 @@
             </div>
           </div>
           <!-- Tab items -->
-          <div class="relative flex flex-col" data-aos="fade-up">
+          <div v-motion-fade class="relative flex flex-col">
             <Transition
               enter-active-class="order-first transition duration-500 "
               enter-from-class="opacity-0 -translate-y-8"

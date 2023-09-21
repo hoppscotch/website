@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <div v-for="index in 15" :key="index" :class="`meteor-${index}`"></div>
+    <div v-for="index in 15" :key="index" :class="`meteor-${index}`" />
   </div>
 </template>
 

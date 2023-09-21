@@ -5,7 +5,7 @@
       <div
         class="max-w-[1652px] mx-auto flex items-center space-x-2 md:space-x-4"
       >
-        <div class="relative w-1/3" data-aos="fade-right">
+        <div v-motion-fade class="relative w-1/3">
           <img
             class="aspect-[3/2] object-cover"
             src="/images/team-01.jpg"
@@ -18,7 +18,7 @@
             aria-hidden="true"
           ></div>
         </div>
-        <div class="relative w-1/3" data-aos="fade">
+        <div v-motion-fade class="relative w-1/3">
           <img
             class="aspect-[3/2] object-cover"
             src="/images/team-02.jpg"
@@ -27,7 +27,7 @@
             alt="Team 02"
           />
         </div>
-        <div class="relative w-1/3" data-aos="fade-left">
+        <div v-motion-fade class="relative w-1/3">
           <img
             class="aspect-[3/2] object-cover"
             src="/images/team-03.jpg"
@@ -50,8 +50,8 @@
         >
           <!-- location -->
           <div
+            v-motion-fade
             class="flex flex-col items-center h-full text-center"
-            data-aos="fade-up"
           >
             <div class="inline-flex w-[62px] h-[62px] mb-4">
               <svg
@@ -76,9 +76,9 @@
           </div>
           <!-- location -->
           <div
+            v-motion-fade
             class="flex flex-col items-center h-full text-center"
-            data-aos="fade-up"
-            data-aos-delay="100"
+            :delay="100"
           >
             <div class="inline-flex w-[62px] h-[62px] mb-4">
               <svg
@@ -103,9 +103,9 @@
           </div>
           <!-- location -->
           <div
+            v-motion-fade
             class="flex flex-col items-center h-full text-center"
-            data-aos="fade-up"
-            data-aos-delay="200"
+            :delay="200"
           >
             <div class="inline-flex w-[62px] h-[62px] mb-4">
               <svg

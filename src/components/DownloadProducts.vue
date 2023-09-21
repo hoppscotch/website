@@ -28,9 +28,9 @@
         <!-- Section header -->
         <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
           <div
+            v-motion-fade
             class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full hero-subtitle-gradient bg-violet-500/10 border-violet-500/50"
-            data-aos="fade-up"
-            data-aos-delay="100"
+            :delay="100"
           >
             <span
               class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
@@ -39,23 +39,19 @@
             </span>
           </div>
           <h2
+            v-motion-fade
             class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
-            data-aos="fade-up"
-            data-aos-delay="200"
+            :delay="200"
           >
             Take Hoppscotch with you
           </h2>
-          <p
-            class="text-lg text-slate-400"
-            data-aos="fade-up"
-            data-aos-delay="300"
-          >
+          <p v-motion-fade class="text-lg text-slate-400" :delay="300">
             Download Hoppscotch for your platform — Web, macOS, Windows, Linux,
             or CLI.
           </p>
         </div>
         <!-- Platform download -->
-        <div data-aos="fade-down">
+        <div v-motion-fade>
           <Highlighter class="group">
             <HighlighterItem>
               <div

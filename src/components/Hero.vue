@@ -47,22 +47,22 @@
         <div class="flex flex-col items-center max-w-4xl mx-auto text-center">
           <Announcement />
           <h1
+            v-motion-fade
             class="mb-8 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
-            data-aos="fade-down"
           >
             Make Better APIs
           </h1>
           <p
+            v-motion-fade
             class="w-2/3 mb-8 text-xl text-slate-300"
-            data-aos="fade-down"
-            data-aos-delay="200"
+            :delay="200"
           >
             Trusted by millions of developers to build, test and share APIs.
           </p>
           <div
+            v-motion-fade
             class="max-w-xs mx-auto space-y-4 sm:max-w-none sm:inline-flex sm:justify-center sm:space-y-0 sm:space-x-4"
-            data-aos="fade-down"
-            data-aos-delay="400"
+            :delay="400"
           >
             <div>
               <a
@@ -97,11 +97,7 @@
               </a>
             </div>
           </div>
-          <div
-            class="relative my-16 xl:-mx-36"
-            data-aos="fade-up"
-            data-aos-delay="400"
-          >
+          <div v-motion-fade class="relative my-16 xl:-mx-36" :delay="400">
             <!-- Radial gradient -->
             <div
               class="absolute inset-0 z-10 overflow-hidden pointer-events-none"

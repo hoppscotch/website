@@ -69,9 +69,9 @@
         <!-- Section header -->
         <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
           <div
+            v-motion-fade
             class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full hero-subtitle-gradient bg-violet-500/10 border-violet-500/50"
-            data-aos="fade-up"
-            data-aos-delay="100"
+            :delay="100"
           >
             <span
               class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
@@ -80,17 +80,13 @@
             </span>
           </div>
           <h2
+            v-motion-fade
             class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
-            data-aos="fade-up"
-            data-aos-delay="200"
+            :delay="200"
           >
             You're in good company
           </h2>
-          <p
-            class="text-lg text-slate-400"
-            data-aos="fade-up"
-            data-aos-delay="300"
-          >
+          <p v-motion-fade class="text-lg text-slate-400" :delay="300">
             We're a team of passionate designers and developers working together
             to build the most advanced and easy-to-use API development platform
             ever created.
@@ -101,43 +97,23 @@
           <ul
             class="flex flex-col flex-wrap items-center justify-center -mx-3 -my-8 text-md text-slate-200 sm:flex-row"
           >
-            <li
-              class="flex items-center mx-3 my-2"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
+            <li v-motion-fade class="flex items-center mx-3 my-2" :delay="400">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>Work Life Balance</span>
             </li>
-            <li
-              class="flex items-center mx-3 my-2"
-              data-aos="fade-up"
-              data-aos-delay="500"
-            >
+            <li v-motion-fade class="flex items-center mx-3 my-2" :delay="500">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>Competitive Salary And Equity</span>
             </li>
-            <li
-              class="flex items-center mx-3 my-2"
-              data-aos="fade-up"
-              data-aos-delay="600"
-            >
+            <li v-motion-fade class="flex items-center mx-3 my-2" :delay="600">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>5 Weeks Paid Vacation</span>
             </li>
-            <li
-              class="flex items-center mx-3 my-2"
-              data-aos="fade-up"
-              data-aos-delay="700"
-            >
+            <li v-motion-fade class="flex items-center mx-3 my-2" :delay="700">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>Generous Gear Credit</span>
             </li>
-            <li
-              class="flex items-center mx-3 my-2"
-              data-aos="fade-up"
-              data-aos-delay="800"
-            >
+            <li v-motion-fade class="flex items-center mx-3 my-2" :delay="800">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>Diversity and Inclusion</span>
             </li>
@@ -165,83 +141,83 @@
                 alt="World map"
               />
               <img
+                v-motion-fade
                 class="absolute rounded-full"
                 style="top: 22%; left: 52%"
                 src="/images/world-user-01.jpg"
                 width="32"
                 height="32"
                 alt="User 01"
-                data-aos="fade-up"
               />
               <img
+                v-motion-fade
                 class="absolute rounded-full"
                 style="top: 50%; left: 58%"
                 src="/images/world-user-02.jpg"
                 width="48"
                 height="48"
                 alt="User 02"
-                data-aos="fade-up"
-                data-aos-delay="400"
+                :delay="400"
               />
               <img
+                v-motion-fade
                 class="absolute rounded-full"
                 style="top: 8.5%; left: 70.5%"
                 src="/images/world-user-03.jpg"
                 width="56"
                 height="56"
                 alt="User 02"
-                data-aos="fade-up"
-                data-aos-delay="100"
+                :delay="100"
               />
               <img
+                v-motion-fade
                 class="absolute rounded-full"
                 style="top: 34%; left: 76.5%"
                 src="/images/world-user-04.jpg"
                 width="72"
                 height="72"
                 alt="User 04"
-                data-aos="fade-up"
-                data-aos-delay="700"
+                :delay="700"
               />
               <img
+                v-motion-fade
                 class="absolute rounded-full"
                 style="top: 29.5%; left: 8.5%"
                 src="/images/world-user-05.jpg"
                 width="48"
                 height="48"
                 alt="User 05"
-                data-aos="fade-up"
-                data-aos-delay="500"
+                :delay="500"
               />
               <img
+                v-motion-fade
                 class="absolute rounded-full"
                 style="top: 56%; left: 19%"
                 src="/images/world-user-06.jpg"
                 width="56"
                 height="56"
                 alt="User 06"
-                data-aos="fade-up"
-                data-aos-delay="200"
+                :delay="200"
               />
               <img
+                v-motion-fade
                 class="absolute rounded-full"
                 style="top: 20%; left: 24.5%"
                 src="/images/world-user-07.jpg"
                 width="64"
                 height="64"
                 alt="User 07"
-                data-aos="fade-up"
-                data-aos-delay="600"
+                :delay="600"
               />
               <img
+                v-motion-fade
                 class="absolute rounded-full"
                 style="top: 39%; left: 43%"
                 src="/images/world-user-08.jpg"
                 width="40"
                 height="40"
                 alt="User 08"
-                data-aos="fade-up"
-                data-aos-delay="300"
+                :delay="300"
               />
             </div>
           </div>

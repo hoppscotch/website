@@ -21,9 +21,7 @@
   let zoom: Zoom | null = null
 
   function getZoom() {
-    if (zoom === null) {
-      zoom = mediumZoom(props.options)
-    }
+    if (zoom === null) zoom = mediumZoom(props.options)
 
     return zoom
   }
@@ -32,11 +30,8 @@
     const image = ref as HTMLImageElement | null
     const zoom = getZoom()
 
-    if (image) {
-      zoom.attach(image)
-    } else {
-      zoom.detach()
-    }
+    if (image) zoom.attach(image)
+    else zoom.detach()
   }
 
   watch(

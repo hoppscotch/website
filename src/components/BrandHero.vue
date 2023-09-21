@@ -327,7 +327,7 @@
                   class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Logo Monochrome Dark
-                  <button></button><icon-lucide-arrow-down-to-line />
+                  <icon-lucide-arrow-down-to-line />
                 </p>
               </div>
             </div>

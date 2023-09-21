@@ -18,9 +18,9 @@
         <!-- Section header -->
         <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
           <div
+            v-motion-fade
             class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full hero-subtitle-gradient bg-violet-500/10 border-violet-500/50"
-            data-aos="fade-up"
-            data-aos-delay="100"
+            :delay="100"
           >
             <span
               class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
@@ -29,31 +29,27 @@
             </span>
           </div>
           <h2
+            v-motion-fade
             class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
-            data-aos="fade-up"
-            data-aos-delay="200"
+            :delay="200"
           >
             New era for developers
           </h2>
-          <p
-            class="text-lg text-slate-400"
-            data-aos="fade-up"
-            data-aos-delay="300"
-          >
+          <p v-motion-fade class="text-lg text-slate-400" :delay="300">
             Hoppscotch is a collaborative open source API development platform.
           </p>
         </div>
         <!-- Section content -->
         <img
+          v-motion-fade
           src="/images/light-cubes.svg"
           alt="Light cubes"
           class="mx-auto -mt-20"
-          data-aos="fade-up"
         />
         <!-- Grid -->
         <div class="grid gap-4 lg:grid-cols-4">
           <!-- Feature #1 -->
-          <div class="lg:col-span-2" data-aos="fade-down">
+          <div v-motion-fade class="lg:col-span-2">
             <div
               class="flex flex-col items-center justify-center h-full p-8 bg-gradient-to-b from-slate-950/10 to-slate-600/10 rounded-xl"
             >
@@ -68,7 +64,7 @@
             </div>
           </div>
           <!-- Feature #2 -->
-          <div data-aos="fade-down">
+          <div v-motion-fade>
             <div
               class="flex flex-col items-center justify-center h-full p-8 bg-gradient-to-b from-slate-950/10 to-slate-600/10 rounded-xl"
             >
@@ -83,7 +79,7 @@
             </div>
           </div>
           <!-- Feature #3 -->
-          <div data-aos="fade-down">
+          <div v-motion-fade>
             <div
               class="flex flex-col items-center justify-center h-full p-8 bg-gradient-to-b from-slate-950/10 to-slate-600/10 rounded-xl"
             >
@@ -98,7 +94,7 @@
             </div>
           </div>
           <!-- Feature #4 -->
-          <div data-aos="fade-down">
+          <div v-motion-fade>
             <div
               class="flex flex-col items-center justify-center h-full p-8 bg-gradient-to-b from-slate-950/10 to-slate-600/10 rounded-xl"
             >
@@ -112,7 +108,7 @@
             </div>
           </div>
           <!-- Feature #5 -->
-          <div class="lg:col-span-2" data-aos="fade-down">
+          <div v-motion-fade class="lg:col-span-2">
             <div
               class="flex flex-col items-center justify-center h-full p-8 bg-gradient-to-b from-slate-950/10 to-slate-600/10 rounded-xl"
             >
@@ -127,7 +123,7 @@
             </div>
           </div>
           <!-- Feature #6 -->
-          <div data-aos="fade-down">
+          <div v-motion-fade>
             <div
               class="flex flex-col items-center justify-center h-full p-8 bg-violet-500/50 rounded-xl"
             >

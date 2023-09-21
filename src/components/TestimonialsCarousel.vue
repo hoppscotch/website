@@ -36,9 +36,9 @@
         <!-- Section header -->
         <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
           <div
+            v-motion-fade
             class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full hero-subtitle-gradient bg-violet-500/10 border-violet-500/50"
-            data-aos="fade-up"
-            data-aos-delay="100"
+            :delay="100"
           >
             <span
               class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
@@ -68,9 +68,9 @@
             >
               <!-- Carousel items -->
               <HighlighterItem
+                v-motion-fade
                 class="h-auto swiper-slide group/slide"
-                data-aos="fade-left"
-                data-aos-delay="100"
+                :delay="100"
               >
                 <div
                   class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
@@ -113,7 +113,8 @@
                       <RouterLink
                         class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
-                        >Learn More
+                      >
+                        Learn More
                         <span
                           class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
                         >
@@ -125,9 +126,9 @@
                 </div>
               </HighlighterItem>
               <HighlighterItem
+                v-motion-fade
                 class="h-auto swiper-slide group/slide"
-                data-aos="fade-left"
-                data-aos-delay="200"
+                :delay="200"
               >
                 <div
                   class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
@@ -167,7 +168,8 @@
                       <RouterLink
                         class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
-                        >Learn More
+                      >
+                        Learn More
                         <span
                           class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
                         >
@@ -179,9 +181,9 @@
                 </div>
               </HighlighterItem>
               <HighlighterItem
+                v-motion-fade
                 class="h-auto swiper-slide group/slide"
-                data-aos="fade-left"
-                data-aos-delay="300"
+                :delay="300"
               >
                 <div
                   class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
@@ -221,7 +223,8 @@
                       <RouterLink
                         class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
-                        >Learn More
+                      >
+                        Learn More
                         <span
                           class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
                         >
@@ -233,9 +236,9 @@
                 </div>
               </HighlighterItem>
               <HighlighterItem
+                v-motion-fade
                 class="h-auto swiper-slide group/slide"
-                data-aos="fade-left"
-                data-aos-delay="400"
+                :delay="400"
               >
                 <div
                   class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
@@ -278,7 +281,8 @@
                       <RouterLink
                         class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
-                        >Learn More
+                      >
+                        Learn More
                         <span
                           class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
                         >
@@ -290,9 +294,9 @@
                 </div>
               </HighlighterItem>
               <HighlighterItem
+                v-motion-fade
                 class="h-auto swiper-slide group/slide"
-                data-aos="fade-left"
-                data-aos-delay="500"
+                :delay="500"
               >
                 <div
                   class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
@@ -333,7 +337,8 @@
                       <RouterLink
                         class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
-                        >Learn More
+                      >
+                        Learn More
                         <span
                           class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
                         >

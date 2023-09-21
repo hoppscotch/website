@@ -15,17 +15,16 @@
       !props.modalOpen ||
       !modalContent.value ||
       modalContent.value.contains(event.target as Node)
-    ) {
+    )
       return
-    }
+
     emit("closeModal")
   }
 
   // close if the esc key is pressed
   function keyHandler(event: KeyboardEvent) {
-    if (!props.modalOpen || event.key !== "Escape") {
-      return
-    }
+    if (!props.modalOpen || event.key !== "Escape") return
+
     emit("closeModal")
   }
 

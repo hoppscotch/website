@@ -1,32 +1,17 @@
 {
-  "root": true,
   "env": {
     "browser": true,
     "es2021": true,
     "node": true
   },
+  "extends": ["plugin:vue/vue3-recommended", "prettier"],
   "parser": "vue-eslint-parser",
   "parserOptions": {
     "parser": "@typescript-eslint/parser"
   },
-  "extends": [
-    "./.eslintrc-auto-import.json",
-    "@antfu",
-    "plugin:vue/strongly-recommended",
-    "eslint:recommended",
-    "plugin:vue/vue3-recommended",
-    "@vue/typescript/recommended",
-    "plugin:prettier/recommended",
-    "@vue/prettier",
-    "prettier"
-  ],
-  "plugins": ["@typescript-eslint", "prettier"],
+  "plugins": ["vue", "html", "prettier"],
   "rules": {
     "prettier/prettier": "error",
-    "no-new": "off",
-    "vue/multi-word-component-names": "off",
-    "vue/no-v-for-template-key": "off",
-    "vue/no-multiple-template-root": "off",
-    "@typescript-eslint/no-unused-vars": "off"
+    "vue/multi-word-component-names": "off"
   }
 }

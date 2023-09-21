@@ -2,12 +2,12 @@ import { ViteSSG } from "vite-ssg"
 import VueTippy, { roundArrow } from "vue-tippy"
 import { setupLayouts } from "virtual:generated-layouts"
 import generatedRoutes from "virtual:generated-pages"
+import { MotionPlugin } from "@vueuse/motion"
 import nProgress from "nprogress"
 import App from "./App.vue"
 import "tippy.js/dist/tippy.css"
 import "tippy.js/dist/svg-arrow.css"
 import "tippy.js/animations/scale-subtle.css"
-import "aos/dist/aos.css"
 import "nprogress/nprogress.css"
 import "@fontsource-variable/inter"
 import "@fontsource-variable/plus-jakarta-sans"
@@ -54,10 +54,10 @@ export const createApp = ViteSSG(
         },
       },
     })
+    app.use(MotionPlugin)
     router.beforeResolve((to, _from, next) => {
-      if (to.name) {
-        isClient && nProgress.start()
-      }
+      if (to.name) isClient && nProgress.start()
+
       next()
     })
     router.afterEach((_to, _from) => {

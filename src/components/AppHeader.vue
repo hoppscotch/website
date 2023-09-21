@@ -4,16 +4,6 @@
   watch(router.currentRoute, () => {
     isMobileMenuClosed.value = true
   })
-  const scrollpx = ref(0)
-  function handleScroll() {
-    scrollpx.value = window.scrollY
-  }
-  onMounted(() => {
-    document.addEventListener("scroll", handleScroll)
-  })
-  onBeforeUnmount(() => {
-    document.removeEventListener("scroll", handleScroll)
-  })
 </script>
 
 <template>
@@ -38,10 +28,10 @@
         >
           <!-- Logo -->
           <RouterLink
-            class="flex items-center justify-center rounded-full"
+            v-motion-pop
+            class="flex items-center justify-center duration-500 rounded-full"
             to="/"
             aria-label="Hoppscotch"
-            data-aos="zoom-in"
           >
             <img
               src="/images/logo.svg"
@@ -52,307 +42,34 @@
           </RouterLink>
         </div>
         <!-- Desktop menu links -->
-        <div
-          class="items-center justify-start flex-shrink-0 hidden p-2 border rounded-full shadow-2xl space-x-2 flex-nowrap md:flex border-white/10 bg-white/10 backdrop-blur-2xl"
-          data-aos="fade-down"
-          style="transition: all 300ms ease-in-out"
-          :style="{ 'max-width': scrollpx > 128 ? '500px' : '403px' }"
-        >
-          <tippy interactive theme="popover">
-            <RouterLink
-              to="/products"
-              class="flex flex-shrink-0 px-3 py-1 text-sm font-medium border border-transparent rounded-full transition text-slate-200 hover:text-white"
-            >
-              Products
-            </RouterLink>
-            <template #content="{ hide }">
-              <div class="flex divide-x w-max divide-slate-100">
-                <div class="flex flex-col p-2">
-                  <span
-                    class="mx-4 my-2 font-semibold tracking-tight text-slate-400"
-                  >
-                    By Platform
-                  </span>
-                  <ul class="flex flex-col space-y-2">
-                    <li>
-                      <RouterLink
-                        class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                        to="/products/cloud"
-                        @click="hide()"
-                      >
-                        <icon-lucide-cloudy
-                          class="flex flex-shrink-0 h-full p-2 mr-3 text-white rounded-md bg-violet-500 w-9 aspect-square"
-                        />
-                        <div class="flex flex-col">
-                          <span
-                            class="text-base font-bold text-slate-700 group-hover:text-slate-950"
-                          >
-                            Cloud
-                          </span>
-                          <span
-                            class="text-slate-500 group-hover:text-slate-800"
-                          >
-                            Seamless collaboration, effortless scalability.
-                          </span>
-                        </div>
-                      </RouterLink>
-                    </li>
-                    <li>
-                      <RouterLink
-                        class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                        to="/products/enterprise"
-                        @click="hide()"
-                      >
-                        <icon-lucide-building-2
-                          class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-red-500 rounded-md w-9 aspect-square"
-                        />
-                        <div class="flex flex-col">
-                          <span
-                            class="text-base font-bold text-slate-700 group-hover:text-slate-950"
-                          >
-                            Enterprise
-                          </span>
-                          <span
-                            class="text-slate-500 group-hover:text-slate-800"
-                          >
-                            API management with unparalleled power and control.
-                          </span>
-                        </div>
-                      </RouterLink>
-                    </li>
-                    <li>
-                      <RouterLink
-                        class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                        to="/products/self-host"
-                        @click="hide()"
-                      >
-                        <icon-lucide-server
-                          class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-blue-500 rounded-md w-9 aspect-square"
-                        />
-                        <div class="flex flex-col">
-                          <span
-                            class="text-base font-bold text-slate-700 group-hover:text-slate-950"
-                          >
-                            Self-Host
-                          </span>
-                          <span
-                            class="text-slate-500 group-hover:text-slate-800"
-                          >
-                            Harness the full potential of APIs with complete
-                            control.
-                          </span>
-                        </div>
-                      </RouterLink>
-                    </li>
-                    <li>
-                      <RouterLink
-                        class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                        to="/products/cli"
-                        @click="hide()"
-                      >
-                        <icon-lucide-terminal-square
-                          class="flex flex-shrink-0 h-full p-2 mr-3 text-white rounded-md bg-slate-500 w-9 aspect-square"
-                        />
-                        <div class="flex flex-col">
-                          <span
-                            class="text-base font-bold text-slate-700 group-hover:text-slate-950"
-                          >
-                            CLI
-                          </span>
-                          <span
-                            class="text-slate-500 group-hover:text-slate-800"
-                          >
-                            Bring API testing and automation into CI/CD
-                            pipelines.
-                          </span>
-                        </div>
-                      </RouterLink>
-                    </li>
-                  </ul>
-                </div>
-                <div class="flex flex-col p-2 bg-slate-50">
-                  <span
-                    class="mx-4 my-2 font-semibold tracking-tight text-slate-400"
-                  >
-                    Explore
-                  </span>
-                  <ul class="flex flex-col">
-                    <li>
-                      <RouterLink
-                        class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                        to="/features"
-                        @click="hide()"
-                      >
-                        <icon-lucide-sparkles class="mr-3" />
-                        Features
-                      </RouterLink>
-                    </li>
-                    <li>
-                      <RouterLink
-                        class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                        to="/download"
-                        @click="hide()"
-                      >
-                        <icon-lucide-download class="mr-3" />
-                        Download
-                      </RouterLink>
-                    </li>
-                    <li>
-                      <RouterLink
-                        class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                        to="/pricing"
-                        @click="hide()"
-                      >
-                        <icon-lucide-gem class="mr-3" />
-                        Pricing
-                      </RouterLink>
-                    </li>
-                    <li>
-                      <RouterLink
-                        class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                        to="/changelog"
-                        @click="hide()"
-                      >
-                        <icon-lucide-scroll-text class="mr-3" />
-                        Changelog
-                      </RouterLink>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </template>
-          </tippy>
-          <tippy interactive theme="popover">
-            <RouterLink
-              to="/solutions"
-              class="flex flex-shrink-0 px-3 py-1 text-sm font-medium border border-transparent rounded-full transition text-slate-200 hover:text-white"
-            >
-              Solutions
-            </RouterLink>
-            <template #content="{ hide }">
-              <div class="flex flex-col divide-y divide-slate-100">
-                <div class="flex w-max">
+        <div v-motion-slide-top class="duration-500">
+          <div
+            class="items-center justify-start flex-shrink-0 hidden p-2 space-x-2 border rounded-full shadow-2xl flex-nowrap md:flex border-white/10 bg-white/10 backdrop-blur-2xl"
+          >
+            <tippy interactive theme="popover">
+              <RouterLink
+                to="/products"
+                class="flex flex-shrink-0 px-3 py-1 text-sm font-medium transition border border-transparent rounded-full text-slate-200 hover:text-white"
+              >
+                Products
+              </RouterLink>
+              <template #content="{ hide }">
+                <div class="flex divide-x w-max divide-slate-100">
                   <div class="flex flex-col p-2">
                     <span
                       class="mx-4 my-2 font-semibold tracking-tight text-slate-400"
                     >
-                      For
+                      By Platform
                     </span>
                     <ul class="flex flex-col space-y-2">
                       <li>
                         <RouterLink
-                          class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                          to="/solutions/developers"
-                          @click="hide()"
-                        >
-                          <icon-lucide-box
-                            class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-green-500 rounded-md w-9 aspect-square"
-                          />
-                          <div class="flex flex-col">
-                            <span
-                              class="text-base font-bold text-slate-700 group-hover:text-slate-950"
-                            >
-                              Developers
-                            </span>
-                            <span
-                              class="text-slate-500 group-hover:text-slate-800"
-                            >
-                              Build and test APIs faster with the complete
-                              toolkit.
-                            </span>
-                          </div>
-                        </RouterLink>
-                      </li>
-                      <li>
-                        <RouterLink
-                          class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                          to="/solutions/teams"
-                          @click="hide()"
-                        >
-                          <icon-lucide-package
-                            class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-green-500 rounded-md w-9 aspect-square"
-                          />
-                          <div class="flex flex-col">
-                            <span
-                              class="text-base font-bold text-slate-700 group-hover:text-slate-950"
-                            >
-                              Teams
-                            </span>
-                            <span
-                              class="text-slate-500 group-hover:text-slate-800"
-                            >
-                              Build and scale your API program with confidence.
-                            </span>
-                          </div>
-                        </RouterLink>
-                      </li>
-                      <li>
-                        <RouterLink
-                          class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                          to="/solutions/enterprises"
-                          @click="hide()"
-                        >
-                          <icon-lucide-package-2
-                            class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-green-500 rounded-md w-9 aspect-square"
-                          />
-                          <div class="flex flex-col">
-                            <span
-                              class="text-base font-bold text-slate-700 group-hover:text-slate-950"
-                            >
-                              Enterprises
-                            </span>
-                            <span
-                              class="text-slate-500 group-hover:text-slate-800"
-                            >
-                              Accelerate your business with the modern API
-                              platform.
-                            </span>
-                          </div>
-                        </RouterLink>
-                      </li>
-                      <li>
-                        <RouterLink
-                          class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                          to="/solutions/education"
-                          @click="hide()"
-                        >
-                          <icon-lucide-graduation-cap
-                            class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-green-500 rounded-md w-9 aspect-square"
-                          />
-                          <div class="flex flex-col">
-                            <span
-                              class="text-base font-bold text-slate-700 group-hover:text-slate-950"
-                            >
-                              Education
-                            </span>
-                            <span
-                              class="text-slate-500 group-hover:text-slate-800"
-                            >
-                              Empower students and educators with API
-                              technology.
-                            </span>
-                          </div>
-                        </RouterLink>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="flex w-max">
-                  <div class="flex flex-col p-2">
-                    <span
-                      class="mx-4 my-2 font-semibold tracking-tight text-slate-400"
-                    >
-                      Use Cases
-                    </span>
-                    <ul class="flex flex-col space-y-2">
-                      <li>
-                        <RouterLink
-                          class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                          to="/solutions/cloud"
+                          class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
+                          to="/products/cloud"
                           @click="hide()"
                         >
                           <icon-lucide-cloudy
-                            class="flex flex-shrink-0 h-full p-2 mr-3 text-white rounded-md bg-cyan-500 w-9 aspect-square"
+                            class="flex flex-shrink-0 h-full p-2 mr-3 text-white rounded-md bg-violet-500 w-9 aspect-square"
                           />
                           <div class="flex flex-col">
                             <span
@@ -370,12 +87,36 @@
                       </li>
                       <li>
                         <RouterLink
-                          class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
-                          to="/solutions/self-host"
+                          class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
+                          to="/products/enterprise"
+                          @click="hide()"
+                        >
+                          <icon-lucide-building-2
+                            class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-red-500 rounded-md w-9 aspect-square"
+                          />
+                          <div class="flex flex-col">
+                            <span
+                              class="text-base font-bold text-slate-700 group-hover:text-slate-950"
+                            >
+                              Enterprise
+                            </span>
+                            <span
+                              class="text-slate-500 group-hover:text-slate-800"
+                            >
+                              API management with unparalleled power and
+                              control.
+                            </span>
+                          </div>
+                        </RouterLink>
+                      </li>
+                      <li>
+                        <RouterLink
+                          class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
+                          to="/products/self-host"
                           @click="hide()"
                         >
                           <icon-lucide-server
-                            class="flex flex-shrink-0 h-full p-2 mr-3 text-white rounded-md bg-cyan-500 w-9 aspect-square"
+                            class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-blue-500 rounded-md w-9 aspect-square"
                           />
                           <div class="flex flex-col">
                             <span
@@ -392,154 +133,397 @@
                           </div>
                         </RouterLink>
                       </li>
+                      <li>
+                        <RouterLink
+                          class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
+                          to="/products/cli"
+                          @click="hide()"
+                        >
+                          <icon-lucide-terminal-square
+                            class="flex flex-shrink-0 h-full p-2 mr-3 text-white rounded-md bg-slate-500 w-9 aspect-square"
+                          />
+                          <div class="flex flex-col">
+                            <span
+                              class="text-base font-bold text-slate-700 group-hover:text-slate-950"
+                            >
+                              CLI
+                            </span>
+                            <span
+                              class="text-slate-500 group-hover:text-slate-800"
+                            >
+                              Bring API testing and automation into CI/CD
+                              pipelines.
+                            </span>
+                          </div>
+                        </RouterLink>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="flex flex-col p-2 bg-slate-50">
+                    <span
+                      class="mx-4 my-2 font-semibold tracking-tight text-slate-400"
+                    >
+                      Explore
+                    </span>
+                    <ul class="flex flex-col">
+                      <li>
+                        <RouterLink
+                          class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                          to="/features"
+                          @click="hide()"
+                        >
+                          <icon-lucide-sparkles class="mr-3" />
+                          Features
+                        </RouterLink>
+                      </li>
+                      <li>
+                        <RouterLink
+                          class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                          to="/download"
+                          @click="hide()"
+                        >
+                          <icon-lucide-download class="mr-3" />
+                          Download
+                        </RouterLink>
+                      </li>
+                      <li>
+                        <RouterLink
+                          class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                          to="/pricing"
+                          @click="hide()"
+                        >
+                          <icon-lucide-gem class="mr-3" />
+                          Pricing
+                        </RouterLink>
+                      </li>
+                      <li>
+                        <RouterLink
+                          class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                          to="/changelog"
+                          @click="hide()"
+                        >
+                          <icon-lucide-scroll-text class="mr-3" />
+                          Changelog
+                        </RouterLink>
+                      </li>
                     </ul>
                   </div>
                 </div>
-                <div class="flex p-2 bg-slate-50">
-                  <a
-                    class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                    href="https://docs.hoppscotch.io"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    @click="hide()"
-                  >
-                    <icon-lucide-file-text class="mr-3" />
-                    Documentation
-                  </a>
-                  <a
-                    class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                    href="https://github.com/hoppscotch/hoppscotch"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    @click="hide()"
-                  >
-                    <icon-lucide-github class="mr-3" />
-                    GitHub
-                  </a>
+              </template>
+            </tippy>
+            <tippy interactive theme="popover">
+              <RouterLink
+                to="/solutions"
+                class="flex flex-shrink-0 px-3 py-1 text-sm font-medium transition border border-transparent rounded-full text-slate-200 hover:text-white"
+              >
+                Solutions
+              </RouterLink>
+              <template #content="{ hide }">
+                <div class="flex flex-col divide-y divide-slate-100">
+                  <div class="flex w-max">
+                    <div class="flex flex-col p-2">
+                      <span
+                        class="mx-4 my-2 font-semibold tracking-tight text-slate-400"
+                      >
+                        For
+                      </span>
+                      <ul class="flex flex-col space-y-2">
+                        <li>
+                          <RouterLink
+                            class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
+                            to="/solutions/developers"
+                            @click="hide()"
+                          >
+                            <icon-lucide-box
+                              class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-green-500 rounded-md w-9 aspect-square"
+                            />
+                            <div class="flex flex-col">
+                              <span
+                                class="text-base font-bold text-slate-700 group-hover:text-slate-950"
+                              >
+                                Developers
+                              </span>
+                              <span
+                                class="text-slate-500 group-hover:text-slate-800"
+                              >
+                                Build and test APIs faster with the complete
+                                toolkit.
+                              </span>
+                            </div>
+                          </RouterLink>
+                        </li>
+                        <li>
+                          <RouterLink
+                            class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
+                            to="/solutions/teams"
+                            @click="hide()"
+                          >
+                            <icon-lucide-package
+                              class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-green-500 rounded-md w-9 aspect-square"
+                            />
+                            <div class="flex flex-col">
+                              <span
+                                class="text-base font-bold text-slate-700 group-hover:text-slate-950"
+                              >
+                                Teams
+                              </span>
+                              <span
+                                class="text-slate-500 group-hover:text-slate-800"
+                              >
+                                Build and scale your API program with
+                                confidence.
+                              </span>
+                            </div>
+                          </RouterLink>
+                        </li>
+                        <li>
+                          <RouterLink
+                            class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
+                            to="/solutions/enterprises"
+                            @click="hide()"
+                          >
+                            <icon-lucide-package-2
+                              class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-green-500 rounded-md w-9 aspect-square"
+                            />
+                            <div class="flex flex-col">
+                              <span
+                                class="text-base font-bold text-slate-700 group-hover:text-slate-950"
+                              >
+                                Enterprises
+                              </span>
+                              <span
+                                class="text-slate-500 group-hover:text-slate-800"
+                              >
+                                Accelerate your business with the modern API
+                                platform.
+                              </span>
+                            </div>
+                          </RouterLink>
+                        </li>
+                        <li>
+                          <RouterLink
+                            class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
+                            to="/solutions/education"
+                            @click="hide()"
+                          >
+                            <icon-lucide-graduation-cap
+                              class="flex flex-shrink-0 h-full p-2 mr-3 text-white bg-green-500 rounded-md w-9 aspect-square"
+                            />
+                            <div class="flex flex-col">
+                              <span
+                                class="text-base font-bold text-slate-700 group-hover:text-slate-950"
+                              >
+                                Education
+                              </span>
+                              <span
+                                class="text-slate-500 group-hover:text-slate-800"
+                              >
+                                Empower students and educators with API
+                                technology.
+                              </span>
+                            </div>
+                          </RouterLink>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="flex w-max">
+                    <div class="flex flex-col p-2">
+                      <span
+                        class="mx-4 my-2 font-semibold tracking-tight text-slate-400"
+                      >
+                        Use Cases
+                      </span>
+                      <ul class="flex flex-col space-y-2">
+                        <li>
+                          <RouterLink
+                            class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
+                            to="/solutions/cloud"
+                            @click="hide()"
+                          >
+                            <icon-lucide-cloudy
+                              class="flex flex-shrink-0 h-full p-2 mr-3 text-white rounded-md bg-cyan-500 w-9 aspect-square"
+                            />
+                            <div class="flex flex-col">
+                              <span
+                                class="text-base font-bold text-slate-700 group-hover:text-slate-950"
+                              >
+                                Cloud
+                              </span>
+                              <span
+                                class="text-slate-500 group-hover:text-slate-800"
+                              >
+                                Seamless collaboration, effortless scalability.
+                              </span>
+                            </div>
+                          </RouterLink>
+                        </li>
+                        <li>
+                          <RouterLink
+                            class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
+                            to="/solutions/self-host"
+                            @click="hide()"
+                          >
+                            <icon-lucide-server
+                              class="flex flex-shrink-0 h-full p-2 mr-3 text-white rounded-md bg-cyan-500 w-9 aspect-square"
+                            />
+                            <div class="flex flex-col">
+                              <span
+                                class="text-base font-bold text-slate-700 group-hover:text-slate-950"
+                              >
+                                Self-Host
+                              </span>
+                              <span
+                                class="text-slate-500 group-hover:text-slate-800"
+                              >
+                                Harness the full potential of APIs with complete
+                                control.
+                              </span>
+                            </div>
+                          </RouterLink>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="flex p-2 bg-slate-50">
+                    <a
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      href="https://docs.hoppscotch.io"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      @click="hide()"
+                    >
+                      <icon-lucide-file-text class="mr-3" />
+                      Documentation
+                    </a>
+                    <a
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      href="https://github.com/hoppscotch/hoppscotch"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      @click="hide()"
+                    >
+                      <icon-lucide-github class="mr-3" />
+                      GitHub
+                    </a>
+                  </div>
                 </div>
-              </div>
-            </template>
-          </tippy>
-          <tippy interactive theme="popover">
-            <RouterLink
-              to="/company"
-              class="flex flex-shrink-0 px-3 py-1 text-sm font-medium border border-transparent rounded-full transition text-slate-200 hover:text-white"
-            >
-              Company
-            </RouterLink>
-            <template #content="{ hide }">
-              <ul class="flex flex-col p-2">
-                <li>
-                  <RouterLink
-                    class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                    to="/about"
-                    @click="hide()"
-                  >
-                    <icon-lucide-user-circle class="mr-3" />
-                    About
-                  </RouterLink>
-                </li>
-                <li>
-                  <RouterLink
-                    class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                    to="/blog"
-                    @click="hide()"
-                  >
-                    <icon-lucide-file-text class="mr-3" />
-                    Blog
-                  </RouterLink>
-                </li>
-                <li>
-                  <RouterLink
-                    class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                    to="/careers"
-                    @click="hide()"
-                  >
-                    <icon-lucide-briefcase class="mr-3" />
-                    Careers
-                  </RouterLink>
-                </li>
-                <li>
-                  <RouterLink
-                    class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                    to="/contact"
-                    @click="hide()"
-                  >
-                    <icon-lucide-mail class="mr-3" />
-                    Contact
-                  </RouterLink>
-                </li>
-              </ul>
-            </template>
-          </tippy>
-          <tippy interactive theme="popover">
-            <RouterLink
-              to="/resources"
-              class="flex flex-shrink-0 px-3 py-1 text-sm font-medium border border-transparent rounded-full transition text-slate-200 hover:text-white"
-            >
-              Resources
-            </RouterLink>
-            <template #content="{ hide }">
-              <ul class="flex flex-col p-2">
-                <li>
-                  <a
-                    class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                    href="https://docs.hoppscotch.io"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    @click="hide()"
-                  >
-                    <icon-lucide-file-text class="mr-3" />
-                    Documentation
-                  </a>
-                </li>
-                <li>
-                  <RouterLink
-                    class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                    to="/community"
-                    @click="hide()"
-                  >
-                    <icon-lucide-heart class="mr-3" />
-                    Community
-                  </RouterLink>
-                </li>
-                <li>
-                  <RouterLink
-                    class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                    to="/brand"
-                    @click="hide()"
-                  >
-                    <icon-lucide-palette class="mr-3" />
-                    Brand
-                  </RouterLink>
-                </li>
-                <li>
-                  <a
-                    class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                    href="https://shop.hoppscotch.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    @click="hide()"
-                  >
-                    <icon-lucide-shopping-bag class="mr-3" />
-                    Shop
-                  </a>
-                </li>
-              </ul>
-            </template>
-          </tippy>
-          <div class="relative flex overflow-hidden rounded-full">
-            <Transition
-              enter-active-class="transition duration-500 ease-out"
-              enter-from-class="translate-x-full"
-              enter-to-class="translate-x-0"
-              leave-active-class="transition duration-500 ease-out"
-              leave-from-class="translate-x-0"
-              leave-to-class="translate-x-full"
+              </template>
+            </tippy>
+            <tippy interactive theme="popover">
+              <RouterLink
+                to="/company"
+                class="flex flex-shrink-0 px-3 py-1 text-sm font-medium transition border border-transparent rounded-full text-slate-200 hover:text-white"
+              >
+                Company
+              </RouterLink>
+              <template #content="{ hide }">
+                <ul class="flex flex-col p-2">
+                  <li>
+                    <RouterLink
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      to="/about"
+                      @click="hide()"
+                    >
+                      <icon-lucide-user-circle class="mr-3" />
+                      About
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      to="/blog"
+                      @click="hide()"
+                    >
+                      <icon-lucide-file-text class="mr-3" />
+                      Blog
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      to="/careers"
+                      @click="hide()"
+                    >
+                      <icon-lucide-briefcase class="mr-3" />
+                      Careers
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      to="/contact"
+                      @click="hide()"
+                    >
+                      <icon-lucide-mail class="mr-3" />
+                      Contact
+                    </RouterLink>
+                  </li>
+                </ul>
+              </template>
+            </tippy>
+            <tippy interactive theme="popover">
+              <RouterLink
+                to="/resources"
+                class="flex flex-shrink-0 px-3 py-1 text-sm font-medium transition border border-transparent rounded-full text-slate-200 hover:text-white"
+              >
+                Resources
+              </RouterLink>
+              <template #content="{ hide }">
+                <ul class="flex flex-col p-2">
+                  <li>
+                    <a
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      href="https://docs.hoppscotch.io"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      @click="hide()"
+                    >
+                      <icon-lucide-file-text class="mr-3" />
+                      Documentation
+                    </a>
+                  </li>
+                  <li>
+                    <RouterLink
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      to="/community"
+                      @click="hide()"
+                    >
+                      <icon-lucide-heart class="mr-3" />
+                      Community
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      to="/brand"
+                      @click="hide()"
+                    >
+                      <icon-lucide-palette class="mr-3" />
+                      Brand
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <a
+                      class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                      href="https://shop.hoppscotch.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      @click="hide()"
+                    >
+                      <icon-lucide-shopping-bag class="mr-3" />
+                      Shop
+                    </a>
+                  </li>
+                </ul>
+              </template>
+            </tippy>
+            <div
+              class="relative flex overflow-hidden duration-500 rounded-full"
             >
               <a
-                v-if="scrollpx > 128"
-                class="flex items-center justify-center flex-shrink-0 px-3 py-1 text-sm font-medium border rounded-full transition bg-slate-950/90 backdrop-blur-2xl border-slate-950 text-slate-200 hover:text-white hover:border-violet-400"
+                v-motion-slide-right
+                class="flex items-center justify-center flex-shrink-0 px-3 py-1 text-sm font-medium transition border rounded-full bg-slate-950/90 backdrop-blur-2xl border-slate-950 text-slate-200 hover:text-white hover:border-violet-400"
                 href="https://github.com/hoppscotch/hoppscotch"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -550,13 +534,13 @@
                   Self-Host
                 </span>
               </a>
-            </Transition>
+            </div>
           </div>
         </div>
         <!-- Desktop CTA links -->
         <div
+          v-motion-fade
           class="items-center justify-end flex-1 flex-shrink-0 hidden md:flex flex-nowrap"
-          data-aos="fade-down"
         >
           <RouterLink
             to="/download"
@@ -579,14 +563,14 @@
         </div>
         <!-- Mobile CTA links -->
         <ul
+          v-motion-fade
           class="flex items-center justify-end flex-1 md:hidden"
-          data-aos="fade-down"
         >
           <li
             class="flex border rounded-full bg-white/10 backdrop-blur-2xl border-white/10"
           >
             <button
-              class="flex items-center justify-center px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
+              class="flex items-center justify-center px-3 py-1 text-sm font-medium transition rounded-full text-slate-200 hover:text-white"
               @click="isMobileMenuClosed = !isMobileMenuClosed"
             >
               {{ isMobileMenuClosed ? "Menu" : "Close" }}
@@ -603,14 +587,14 @@
       >
         <!-- Mobile CTA links -->
         <ul
+          v-motion-fade
           class="flex items-center justify-end flex-1 flex-nowrap"
-          data-aos="fade-left"
         >
           <li
             class="flex border rounded-full bg-white/10 backdrop-blur-2xl border-white/10"
           >
             <a
-              class="flex items-center justify-center px-3 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white"
+              class="flex items-center justify-center px-3 py-1 text-sm font-medium transition rounded-full text-slate-200 hover:text-white"
               href="https://github.com/hoppscotch/hoppscotch"
               target="_blank"
               rel="noopener noreferrer"
@@ -640,10 +624,10 @@
         <ul class="flex flex-col space-y-4 flex-nowrap">
           <li>
             <RouterLink
+              v-motion-fade
               to="/products"
-              class="px-2 py-1 text-sm font-medium rounded transition text-slate-200 hover:text-white"
-              data-aos="fade-right"
-              data-aos-delay="50"
+              class="px-2 py-1 text-sm font-medium transition rounded text-slate-200 hover:text-white"
+              :delay="50"
             >
               Products
             </RouterLink>
@@ -656,7 +640,7 @@
               <ul class="flex flex-col space-y-2">
                 <li>
                   <RouterLink
-                    class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
+                    class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
                     to="/products/cloud"
                   >
                     <icon-lucide-cloudy
@@ -676,7 +660,7 @@
                 </li>
                 <li>
                   <RouterLink
-                    class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
+                    class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
                     to="/products/enterprise"
                   >
                     <icon-lucide-building-2
@@ -696,7 +680,7 @@
                 </li>
                 <li>
                   <RouterLink
-                    class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
+                    class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
                     to="/products/self-host"
                   >
                     <icon-lucide-server
@@ -717,7 +701,7 @@
                 </li>
                 <li>
                   <RouterLink
-                    class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
+                    class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
                     to="/products/cli"
                   >
                     <icon-lucide-terminal-square
@@ -743,13 +727,13 @@
               >
                 Explore
               </span>
-              <ul class="flex-col grid grid-cols-2">
+              <ul class="grid flex-col grid-cols-2">
                 <li>
                   <RouterLink
-                    class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                    v-motion-fade
+                    class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                     to="/features"
-                    data-aos="fade-right"
-                    data-aos-delay="100"
+                    :delay="100"
                   >
                     <icon-lucide-sparkles class="mr-3" />
                     Features
@@ -757,10 +741,10 @@
                 </li>
                 <li>
                   <RouterLink
-                    class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                    v-motion-fade
+                    class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                     to="/download"
-                    data-aos="fade-right"
-                    data-aos-delay="150"
+                    :delay="150"
                   >
                     <icon-lucide-download class="mr-3" />
                     Download
@@ -768,10 +752,10 @@
                 </li>
                 <li>
                   <RouterLink
-                    class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                    v-motion-fade
+                    class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                     to="/pricing"
-                    data-aos="fade-right"
-                    data-aos-delay="200"
+                    :delay="200"
                   >
                     <icon-lucide-gem class="mr-3" />
                     Pricing
@@ -779,10 +763,10 @@
                 </li>
                 <li>
                   <RouterLink
-                    class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                    v-motion-fade
+                    class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                     to="/changelog"
-                    data-aos="fade-right"
-                    data-aos-delay="250"
+                    :delay="250"
                   >
                     <icon-lucide-scroll-text class="mr-3" />
                     Changelog
@@ -793,10 +777,10 @@
           </li>
           <li>
             <RouterLink
+              v-motion-fade
               to="/solutions"
-              class="px-2 py-1 text-sm font-medium rounded transition text-slate-200 hover:text-white"
-              data-aos="fade-right"
-              data-aos-delay="50"
+              class="px-2 py-1 text-sm font-medium transition rounded text-slate-200 hover:text-white"
+              :delay="50"
             >
               Solutions
             </RouterLink>
@@ -809,7 +793,7 @@
               <ul class="flex flex-col space-y-2">
                 <li>
                   <RouterLink
-                    class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
+                    class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
                     to="/solutions/developers"
                   >
                     <icon-lucide-box
@@ -829,7 +813,7 @@
                 </li>
                 <li>
                   <RouterLink
-                    class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
+                    class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
                     to="/solutions/teams"
                   >
                     <icon-lucide-package
@@ -849,7 +833,7 @@
                 </li>
                 <li>
                   <RouterLink
-                    class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
+                    class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
                     to="/solutions/enterprises"
                   >
                     <icon-lucide-package-2
@@ -869,7 +853,7 @@
                 </li>
                 <li>
                   <RouterLink
-                    class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
+                    class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
                     to="/solutions/education"
                   >
                     <icon-lucide-graduation-cap
@@ -898,7 +882,7 @@
               <ul class="flex flex-col space-y-2">
                 <li>
                   <RouterLink
-                    class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
+                    class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
                     to="/solutions/cloud"
                   >
                     <icon-lucide-cloudy
@@ -918,7 +902,7 @@
                 </li>
                 <li>
                   <RouterLink
-                    class="flex items-center px-4 py-2 rounded transition group hover:bg-slate-100"
+                    class="flex items-center px-4 py-2 transition rounded group hover:bg-slate-100"
                     to="/solutions/self-host"
                   >
                     <icon-lucide-server
@@ -941,7 +925,7 @@
             </div>
             <div class="flex">
               <a
-                class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                 href="https://docs.hoppscotch.io"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -950,7 +934,7 @@
                 Documentation
               </a>
               <a
-                class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
+                class="flex items-center px-4 py-2 text-sm transition rounded text-slate-500 hover:text-slate-950 hover:bg-slate-100"
                 href="https://docs.hoppscotch.io"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -962,20 +946,20 @@
           </li>
           <li>
             <RouterLink
+              v-motion-fade
               to="/company"
-              class="px-2 py-1 text-sm font-medium rounded transition text-slate-200 hover:text-white"
-              data-aos="fade-right"
-              data-aos-delay="300"
+              class="px-2 py-1 text-sm font-medium transition rounded text-slate-200 hover:text-white"
+              :delay="300"
             >
               Company
             </RouterLink>
             <ul class="flex flex-col">
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  v-motion-fade
+                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/about"
-                  data-aos="fade-right"
-                  data-aos-delay="350"
+                  :delay="350"
                 >
                   <icon-lucide-user-circle class="mr-3" />
                   About
@@ -983,10 +967,10 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  v-motion-fade
+                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/blog"
-                  data-aos="fade-right"
-                  data-aos-delay="400"
+                  :delay="400"
                 >
                   <icon-lucide-file-text class="mr-3" />
                   Blog
@@ -994,10 +978,10 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  v-motion-fade
+                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/careers"
-                  data-aos="fade-right"
-                  data-aos-delay="450"
+                  :delay="450"
                 >
                   <icon-lucide-briefcase class="mr-3" />
                   Careers
@@ -1005,10 +989,10 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  v-motion-fade
+                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/contact"
-                  data-aos="fade-right"
-                  data-aos-delay="500"
+                  :delay="500"
                 >
                   <icon-lucide-mail class="mr-3" />
                   Contact
@@ -1018,22 +1002,22 @@
           </li>
           <li>
             <RouterLink
+              v-motion-fade
               to="/resources"
-              class="px-2 py-1 text-sm font-medium rounded transition text-slate-200 hover:text-white"
-              data-aos="fade-right"
-              data-aos-delay="550"
+              class="px-2 py-1 text-sm font-medium transition rounded text-slate-200 hover:text-white"
+              :delay="550"
             >
               Resources
             </RouterLink>
             <ul class="flex flex-col">
               <li>
                 <a
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  v-motion-fade
+                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   href="https://docs.hoppscotch.io"
                   target="_blank"
                   rel="noopener noreferrer"
-                  data-aos="fade-right"
-                  data-aos-delay="600"
+                  :delay="600"
                 >
                   <icon-lucide-file-text class="mr-3" />
                   Documentation
@@ -1041,10 +1025,10 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  v-motion-fade
+                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/community"
-                  data-aos="fade-right"
-                  data-aos-delay="650"
+                  :delay="650"
                 >
                   <icon-lucide-heart class="mr-3" />
                   Community
@@ -1052,10 +1036,10 @@
               </li>
               <li>
                 <RouterLink
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  v-motion-fade
+                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/brand"
-                  data-aos="fade-right"
-                  data-aos-delay="700"
+                  :delay="700"
                 >
                   <icon-lucide-palette class="mr-3" />
                   Brand
@@ -1063,12 +1047,12 @@
               </li>
               <li>
                 <a
-                  class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
+                  v-motion-fade
+                  class="flex items-center px-4 py-2 text-sm transition rounded text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   href="https://shop.hoppscotch.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  data-aos="fade-right"
-                  data-aos-delay="750"
+                  :delay="750"
                 >
                   <icon-lucide-shopping-bag class="mr-3" />
                   Shop

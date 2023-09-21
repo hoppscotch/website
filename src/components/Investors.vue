@@ -16,10 +16,7 @@
         <!-- Items -->
         <div class="grid grid-cols-2 gap-2 md:grid-cols-4">
           <!-- Item -->
-          <div
-            class="flex items-center justify-center h-24 p-2"
-            data-aos="fade-down"
-          >
+          <div v-motion-fade class="flex items-center justify-center h-24 p-2">
             <svg
               class="max-w-full fill-slate-400"
               width="124"
@@ -33,10 +30,7 @@
             </svg>
           </div>
           <!-- Item -->
-          <div
-            class="flex items-center justify-center h-24 p-2"
-            data-aos="fade-down"
-          >
+          <div v-motion-fade class="flex items-center justify-center h-24 p-2">
             <svg
               class="max-w-full fill-slate-400"
               width="94"
@@ -50,10 +44,7 @@
             </svg>
           </div>
           <!-- Item -->
-          <div
-            class="flex items-center justify-center h-24 p-2"
-            data-aos="fade-down"
-          >
+          <div v-motion-fade class="flex items-center justify-center h-24 p-2">
             <svg
               class="max-w-full fill-slate-400"
               width="125"
@@ -67,10 +58,7 @@
             </svg>
           </div>
           <!-- Item -->
-          <div
-            class="flex items-center justify-center h-24 p-2"
-            data-aos="fade-down"
-          >
+          <div v-motion-fade class="flex items-center justify-center h-24 p-2">
             <svg
               class="max-w-full fill-slate-400"
               width="104"
@@ -84,10 +72,7 @@
             </svg>
           </div>
           <!-- Item -->
-          <div
-            class="flex items-center justify-center h-24 p-2"
-            data-aos="fade-down"
-          >
+          <div v-motion-fade class="flex items-center justify-center h-24 p-2">
             <svg
               class="max-w-full fill-slate-400"
               width="109"
@@ -101,10 +86,7 @@
             </svg>
           </div>
           <!-- Item -->
-          <div
-            class="flex items-center justify-center h-24 p-2"
-            data-aos="fade-down"
-          >
+          <div v-motion-fade class="flex items-center justify-center h-24 p-2">
             <svg
               class="max-w-full fill-slate-400"
               width="150"
@@ -118,10 +100,7 @@
             </svg>
           </div>
           <!-- Item -->
-          <div
-            class="flex items-center justify-center h-24 p-2"
-            data-aos="fade-down"
-          >
+          <div v-motion-fade class="flex items-center justify-center h-24 p-2">
             <svg
               class="max-w-full fill-slate-400"
               width="109"
@@ -135,10 +114,7 @@
             </svg>
           </div>
           <!-- Item -->
-          <div
-            class="flex items-center justify-center h-24 p-2"
-            data-aos="fade-down"
-          >
+          <div v-motion-fade class="flex items-center justify-center h-24 p-2">
             <svg
               class="max-w-full fill-slate-400"
               width="110"

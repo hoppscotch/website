@@ -13,9 +13,9 @@
   const containerSize = reactive({ w: 0, h: 0 })
   const boxes = ref([]) as Ref<HTMLElement[]>
   onMounted(() => {
-    if (containerRef.value) {
+    if (containerRef.value)
       boxes.value = Array.from(containerRef.value.children)
-    }
+
     initContainer()
     document.addEventListener("resize", initContainer)
   })
@@ -63,6 +63,6 @@
 
 <template>
   <div ref="containerRef">
-    <slot></slot>
+    <slot />
   </div>
 </template>

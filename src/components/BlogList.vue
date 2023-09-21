@@ -11,7 +11,7 @@
 <template>
   <!-- Featured article -->
   <div class="mb-20">
-    <article class="flex flex-col h-full" data-aos="fade-up">
+    <article v-motion-fade class="flex flex-col h-full">
       <header>
         <RouterLink
           to="/blog/sample-post"
@@ -38,8 +38,9 @@
           <RouterLink
             to="/blog/sample-post"
             class="transition text-slate-200 hover:text-slate-100"
-            >The quick brown fox jumped over the lazy dog</RouterLink
           >
+            The quick brown fox jumped over the lazy dog
+          </RouterLink>
         </h3>
       </header>
       <p class="max-w-2xl mb-2 text-slate-300">
@@ -69,8 +70,8 @@
       <article
         v-for="(blog, index) in sortedBlogs"
         :key="`blog-${index}`"
+        v-motion-fade
         class="flex flex-col h-full"
-        data-aos="fade-up"
       >
         <header>
           <RouterLink

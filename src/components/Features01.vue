@@ -28,14 +28,14 @@
           >
             <!-- Content -->
             <div
+              v-motion-fade
               class="order-1 md:w-7/12 lg:w-1/2 md:order-none max-md:text-center"
-              data-aos="fade-down"
             >
               <!-- Content #1 -->
               <div
+                v-motion-fade
                 class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full hero-subtitle-gradient bg-violet-500/10 border-violet-500/50"
-                data-aos="fade-up"
-                data-aos-delay="100"
+                :delay="100"
               >
                 <span
                   class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
@@ -92,11 +92,7 @@
               </div>
             </div>
             <!-- Image -->
-            <div
-              class="md:w-5/12 lg:w-1/2"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
+            <div v-motion-fade class="md:w-5/12 lg:w-1/2" :delay="100">
               <div class="relative py-24">
                 <!-- Particles animation -->
                 <ClientOnly>
@@ -137,19 +133,19 @@
                           fill="url(#pulse-a)"
                           fill-rule="evenodd"
                           d="M240,0 C372.5484,0 480,107.4516 480,240 C480,372.5484 372.5484,480 240,480 C107.4516,480 0,372.5484 0,240 C0,107.4516 107.4516,0 240,0 Z M240,88.8 C156.4944,88.8 88.8,156.4944 88.8,240 C88.8,323.5056 156.4944,391.2 240,391.2 C323.5056,391.2 391.2,323.5056 391.2,240 C391.2,156.4944 323.5056,88.8 240,88.8 Z"
-                        ></path>
+                        />
                         <path
                           class="pulse pulse-1"
                           fill="url(#pulse-a)"
                           fill-rule="evenodd"
                           d="M240,0 C372.5484,0 480,107.4516 480,240 C480,372.5484 372.5484,480 240,480 C107.4516,480 0,372.5484 0,240 C0,107.4516 107.4516,0 240,0 Z M240,88.8 C156.4944,88.8 88.8,156.4944 88.8,240 C88.8,323.5056 156.4944,391.2 240,391.2 C323.5056,391.2 391.2,323.5056 391.2,240 C391.2,156.4944 323.5056,88.8 240,88.8 Z"
-                        ></path>
+                        />
                         <path
                           class="pulse pulse-2"
                           fill="url(#pulse-a)"
                           fill-rule="evenodd"
                           d="M240,0 C372.5484,0 480,107.4516 480,240 C480,372.5484 372.5484,480 240,480 C107.4516,480 0,372.5484 0,240 C0,107.4516 107.4516,0 240,0 Z M240,88.8 C156.4944,88.8 88.8,156.4944 88.8,240 C88.8,323.5056 156.4944,391.2 240,391.2 C323.5056,391.2 391.2,323.5056 391.2,240 C391.2,156.4944 323.5056,88.8 240,88.8 Z"
-                        ></path>
+                        />
                       </g>
                     </svg>
                     <!-- Grid -->

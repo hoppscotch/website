@@ -8,9 +8,9 @@
         >
           <!-- item -->
           <div
+            v-motion-fade
             class="relative flex flex-col items-center"
-            data-aos="fade-up"
-            data-aos-delay="100"
+            :delay="100"
           >
             <div
               aria-hidden="true"
@@ -42,9 +42,9 @@
           </div>
           <!-- item -->
           <div
+            v-motion-fade
             class="relative flex flex-col items-center"
-            data-aos="fade-up"
-            data-aos-delay="200"
+            :delay="200"
           >
             <div
               aria-hidden="true"
@@ -76,9 +76,9 @@
           </div>
           <!-- item -->
           <div
+            v-motion-fade
             class="relative flex flex-col items-center"
-            data-aos="fade-up"
-            data-aos-delay="300"
+            :delay="300"
           >
             <div
               aria-hidden="true"
@@ -110,9 +110,9 @@
           </div>
           <!-- item -->
           <div
+            v-motion-fade
             class="relative flex flex-col items-center"
-            data-aos="fade-up"
-            data-aos-delay="400"
+            :delay="400"
           >
             <div class="relative w-20 h-20 mb-4">
               <div

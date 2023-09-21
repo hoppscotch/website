@@ -17,9 +17,9 @@
         <!-- Section header -->
         <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
           <div
+            v-motion-fade
             class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full hero-subtitle-gradient bg-violet-500/10 border-violet-500/50"
-            data-aos="fade-up"
-            data-aos-delay="100"
+            :delay="100"
           >
             <span
               class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
@@ -69,7 +69,7 @@
           <!-- Grid -->
           <Highlighter class="grid gap-6 md:grid-cols-12 group">
             <!-- Box #1 -->
-            <div class="md:col-span-12" data-aos="fade-down">
+            <div v-motion-fade class="md:col-span-12">
               <HighlighterItem>
                 <div
                   class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
@@ -169,7 +169,7 @@
               </HighlighterItem>
             </div>
             <!-- Box #2 -->
-            <div class="md:col-span-6" data-aos="fade-down">
+            <div v-motion-fade class="md:col-span-6">
               <HighlighterItem>
                 <div
                   class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
@@ -213,7 +213,7 @@
               </HighlighterItem>
             </div>
             <!-- Box #3 -->
-            <div class="md:col-span-6" data-aos="fade-down">
+            <div v-motion-fade class="md:col-span-6">
               <HighlighterItem>
                 <div
                   class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
