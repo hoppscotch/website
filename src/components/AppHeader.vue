@@ -1,8 +1,35 @@
 <script setup lang="ts">
+  import { useScroll } from "@vueuse/gesture"
+  import { useMotion } from "@vueuse/motion"
+
   const isMobileMenuClosed = ref(true)
   const router = useRouter()
+
   watch(router.currentRoute, () => {
     isMobileMenuClosed.value = true
+  })
+
+  const targetElem = ref<HTMLElement>()
+  const { apply } = useMotion(targetElem)
+  const scrollHeight = ref()
+
+  const scrollHandler = ({ xy: [, y] }) => {
+    scrollHeight.value = y
+    if (y > 128) {
+      apply({
+        width: "500px",
+        transitionDuration: "0ms",
+      })
+    } else {
+      apply({
+        width: "403px",
+        transitionDuration: "0ms",
+      })
+    }
+  }
+
+  useScroll(scrollHandler, {
+    domTarget: window,
   })
 </script>
 
@@ -44,7 +71,8 @@
         <!-- Desktop menu links -->
         <div v-motion-slide-top class="duration-500">
           <div
-            class="items-center justify-start flex-shrink-0 hidden p-2 space-x-2 border rounded-full shadow-2xl flex-nowrap md:flex border-white/10 bg-white/10 backdrop-blur-2xl"
+            ref="targetElem"
+            class="items-center justify-start flex-shrink-0 p-2 space-x-2 border rounded-full shadow-2xl flex-nowrap md:flex border-white/10 bg-white/10 backdrop-blur-2xl"
           >
             <tippy interactive theme="popover">
               <RouterLink
@@ -519,10 +547,11 @@
               </template>
             </tippy>
             <div
-              class="relative flex overflow-hidden duration-500 rounded-full"
+              v-if="scrollHeight > 128"
+              v-motion-slide-right
+              class="relative flex overflow-hidden rounded-full duration-0"
             >
               <a
-                v-motion-slide-right
                 class="flex items-center justify-center flex-shrink-0 px-3 py-1 text-sm font-medium transition border rounded-full bg-slate-950/90 backdrop-blur-2xl border-slate-950 text-slate-200 hover:text-white hover:border-violet-400"
                 href="https://github.com/hoppscotch/hoppscotch"
                 target="_blank"

@@ -3,6 +3,7 @@ import VueTippy, { roundArrow } from "vue-tippy"
 import { setupLayouts } from "virtual:generated-layouts"
 import generatedRoutes from "virtual:generated-pages"
 import { MotionPlugin } from "@vueuse/motion"
+import { GesturePlugin } from "@vueuse/gesture"
 import nProgress from "nprogress"
 import App from "./App.vue"
 import "tippy.js/dist/tippy.css"
@@ -55,6 +56,7 @@ export const createApp = ViteSSG(
       },
     })
     app.use(MotionPlugin)
+    app.use(GesturePlugin)
     router.beforeResolve((to, _from, next) => {
       if (to.name) isClient && nProgress.start()
 
