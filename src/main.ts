@@ -31,7 +31,9 @@ export const createApp = ViteSSG(
       }
     },
   },
-  ({ app, router, isClient }) => {
+  ({ app }) => {
+    app.use(GesturePlugin)
+    app.use(MotionPlugin)
     app.use(VueTippy, {
       defaultProps: {
         animation: "scale-subtle",
@@ -52,7 +54,5 @@ export const createApp = ViteSSG(
         },
       },
     })
-    app.use(MotionPlugin)
-    app.use(GesturePlugin)
   }
 )
