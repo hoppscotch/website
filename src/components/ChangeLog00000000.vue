@@ -17,31 +17,31 @@
         class="absolute right-0 inline-flex items-center mb-8 space-x-2 -top-6 md:static mt-[0.1rem]"
       >
         <span
-          class="inline-flex items-center px-2 text-xs font-medium border rounded-md text-violet-400 border-violet-800 bg-violet-500/10"
+          class="inline-flex items-center px-2 text-xs border rounded-md text-violet-400 border-violet-800 bg-violet-500/10"
         >
           <span class="w-1.5 h-1.5 mr-2 bg-violet-400 rounded-full"></span>
           v0000.0.0
         </span>
         <span
-          class="inline-flex items-center px-2 text-xs font-medium text-green-400 border border-green-800 rounded-md bg-green-500/10"
+          class="inline-flex items-center px-2 text-xs text-green-400 border border-green-800 rounded-md bg-green-500/10"
         >
           <span class="w-1.5 h-1.5 mr-2 bg-green-400 rounded-full"></span>
           Latest
         </span>
         <span
-          class="inline-flex items-center px-2 text-xs font-medium text-red-400 border border-red-800 rounded-md bg-red-500/10"
+          class="inline-flex items-center px-2 text-xs text-red-400 border border-red-800 rounded-md bg-red-500/10"
         >
           <span class="w-1.5 h-1.5 mr-2 bg-red-400 rounded-full"></span>
           Hotfix
         </span>
         <span
-          class="inline-flex items-center px-2 text-xs font-medium text-indigo-400 border border-indigo-800 rounded-md bg-indigo-500/10"
+          class="inline-flex items-center px-2 text-xs text-indigo-400 border border-indigo-800 rounded-md bg-indigo-500/10"
         >
           <span class="w-1.5 h-1.5 mr-2 bg-indigo-400 rounded-full"></span>
           Improvement
         </span>
         <span
-          class="inline-flex items-center px-2 text-xs font-medium text-teal-400 border border-teal-800 rounded-md bg-teal-500/10"
+          class="inline-flex items-center px-2 text-xs text-teal-400 border border-teal-800 rounded-md bg-teal-500/10"
         >
           <span class="w-1.5 h-1.5 mr-2 bg-teal-400 rounded-full"></span>
           Feature

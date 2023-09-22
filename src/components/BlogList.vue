@@ -26,7 +26,7 @@
           />
         </RouterLink>
         <div class="mb-4">
-          <ul class="flex flex-wrap -m-1 text-xs font-medium">
+          <ul class="flex flex-wrap -m-1 text-xs">
             <li class="m-1">
               <span class="inline-flex text-center transition text-slate-500"
                 >Product</span
@@ -55,7 +55,7 @@
           height="16"
           alt="Author 01"
         />
-        <div class="text-xs font-medium">
+        <div class="text-xs">
           <span class="transition text-slate-400"> Anastasia Dan </span>
           <span class="mx-2 text-slate-800">|</span>
           <span class="text-slate-600">Jan 17, 2020</span>
@@ -87,7 +87,7 @@
             />
           </RouterLink>
           <div class="mb-4">
-            <ul class="flex flex-wrap -m-1 text-xs font-medium">
+            <ul class="flex flex-wrap -m-1 text-xs">
               <li
                 v-for="(tag, tagIndex) in blog.tags"
                 :key="tagIndex"
@@ -119,7 +119,7 @@
             height="16"
             :alt="blog.author.name"
           />
-          <div class="text-xs font-medium">
+          <div class="text-xs">
             <span class="transition text-slate-400">
               {{ blog.author.name }}
             </span>

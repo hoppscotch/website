@@ -74,7 +74,7 @@
             :delay="100"
           >
             <span
-              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
+              class="inline-flex text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
             >
               Company
             </span>
@@ -243,10 +243,10 @@
                       :alt="item.alt"
                     />
                   </div>
-                  <blockquote class="text-lg font-medium text-slate-200">
+                  <blockquote class="text-lg text-slate-200">
                     {{ item.quote }}
                   </blockquote>
-                  <div class="mt-3 font-medium text-slate-800">
+                  <div class="mt-3 text-slate-800">
                     <cite class="not-italic text-slate-200">
                       {{ item.name }}
                     </cite>

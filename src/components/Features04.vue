@@ -47,7 +47,7 @@
           <div class="py-8 first-of-type:pt-0 last-of-type:pb-0">
             <div>
               <div
-                class="inline-flex pb-6 font-medium text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-violet-200"
+                class="inline-flex pb-6 text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-violet-200"
               >
                 Design
               </div>
@@ -57,7 +57,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-heart-handshake class="fill-slate-200" />
-                  <span class="font-medium text-slate-50">Collaborate</span>
+                  <span class="text-slate-50">Collaborate</span>
                 </div>
                 <p class="text-sm text-slate-400">
                   Engage with your teammates, share, design and collaborate —
@@ -68,7 +68,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-database class="fill-slate-200" />
-                  <span class="font-medium text-slate-50">Mock</span>
+                  <span class="text-slate-50">Mock</span>
                 </div>
                 <p class="text-sm text-slate-400">
                   See exactly how your API will run — even before it's in
@@ -79,7 +79,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-file-check class="fill-slate-200" />
-                  <span class="font-medium text-slate-50">Document</span>
+                  <span class="text-slate-50">Document</span>
                 </div>
                 <p class="text-sm text-slate-400">
                   Make documentation a core part of your API workflow.
@@ -91,7 +91,7 @@
           <div class="py-8">
             <div>
               <div
-                class="inline-flex pb-6 font-medium text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-violet-200"
+                class="inline-flex pb-6 text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-violet-200"
               >
                 Develop
               </div>
@@ -101,7 +101,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-layers class="fill-slate-200" />
-                  <span class="font-medium text-slate-50">Protocols</span>
+                  <span class="text-slate-50">Protocols</span>
                 </div>
                 <p class="text-sm text-slate-400">
                   RESTful, GraphQL, WebSocket and more. Develop all protocols
@@ -112,7 +112,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-box class="fill-slate-200" />
-                  <span class="font-medium text-slate-50">Solutions</span>
+                  <span class="text-slate-50">Solutions</span>
                 </div>
                 <p class="text-sm text-slate-400">
                   Find the right balance for the user convenience, privacy and
@@ -123,7 +123,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-badge-check class="fill-slate-200" />
-                  <span class="font-medium text-slate-50">Integrations</span>
+                  <span class="text-slate-50">Integrations</span>
                 </div>
                 <p class="text-sm text-slate-400">
                   Integrate your favorite tools and frameworks for a streamlined
@@ -136,7 +136,7 @@
           <div class="py-8">
             <div>
               <div
-                class="inline-flex pb-6 font-medium text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-violet-200"
+                class="inline-flex pb-6 text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-violet-200"
               >
                 Test
               </div>
@@ -146,7 +146,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-workflow class="fill-slate-200" />
-                  <span class="font-medium text-slate-50">Automate</span>
+                  <span class="text-slate-50">Automate</span>
                 </div>
                 <p class="text-sm text-slate-400">
                   Run tests automatically from your source code whenever
@@ -157,7 +157,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-terminal-square class="fill-slate-200" />
-                  <span class="font-medium text-slate-50">CLI</span>
+                  <span class="text-slate-50">CLI</span>
                 </div>
                 <p class="text-sm text-slate-400">
                   Run tests from any environments — cloud, local and CI/CD
@@ -168,7 +168,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-crosshair class="fill-slate-200" />
-                  <span class="font-medium text-slate-50">Monitor</span>
+                  <span class="text-slate-50">Monitor</span>
                 </div>
                 <p class="text-sm text-slate-400">
                   Keep track of you APIs health. Get notified when something

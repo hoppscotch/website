@@ -41,7 +41,7 @@
             :delay="100"
           >
             <span
-              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
+              class="inline-flex text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
             >
               The security first platform
             </span>
@@ -111,7 +111,7 @@
                     </div>
                     <div>
                       <RouterLink
-                        class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
+                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
                       >
                         Learn More
@@ -166,7 +166,7 @@
                     </div>
                     <div>
                       <RouterLink
-                        class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
+                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
                       >
                         Learn More
@@ -221,7 +221,7 @@
                     </div>
                     <div>
                       <RouterLink
-                        class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
+                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
                       >
                         Learn More
@@ -279,7 +279,7 @@
                     </div>
                     <div>
                       <RouterLink
-                        class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
+                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
                       >
                         Learn More
@@ -335,7 +335,7 @@
                     </div>
                     <div>
                       <RouterLink
-                        class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
+                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-200 hover:text-white group"
                         to="/"
                       >
                         Learn More

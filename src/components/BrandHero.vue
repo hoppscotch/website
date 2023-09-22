@@ -57,7 +57,7 @@
           <p class="mt-4 text-sm">
             <RouterLink
               :to="{ path: '', hash: '#newsletter' }"
-              class="font-medium rounded transition text-violet-400 hover:text-violet-300"
+              class="rounded transition text-violet-400 hover:text-violet-300"
             >
               Subscribe to updates
             </RouterLink>
@@ -66,13 +66,13 @@
               href="https://twitter.com/hoppscotch_io"
               target="_blank"
               rel="noopener noreferrer"
-              class="font-medium rounded transition text-violet-400 hover:text-violet-300"
+              class="rounded transition text-violet-400 hover:text-violet-300"
               >Follow us on Twitter</a
             >
           </p>
           <p class="mt-8 text-sm">
             <RouterLink
-              class="inline-flex items-center justify-center px-3 py-1 text-sm font-medium border border-transparent rounded-full transition text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+              class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full transition text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
               to="/download"
             >
               Download Brand Assets
@@ -125,7 +125,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Wordmark Primary
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -142,7 +142,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Wordmark Primary Light
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -159,7 +159,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Wordmark Primary Dark
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -176,7 +176,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Wordmark Monochrome
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -193,7 +193,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Wordmark Monochrome Light
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -210,7 +210,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Wordmark Monochrome Dark
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -239,7 +239,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Logo Primary
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -256,7 +256,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Logo Primary Light
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -273,7 +273,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Logo Primary Dark
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -290,7 +290,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Logo Monochrome
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -307,7 +307,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Logo Monochrome Light
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -324,7 +324,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Logo Monochrome Dark
                   <icon-lucide-arrow-down-to-line />
@@ -352,7 +352,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Icon Primary
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -379,7 +379,7 @@
                   #A855F7
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Primary color
                   <button
@@ -403,7 +403,7 @@
                   #020617
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Secondary color
                   <button
@@ -427,7 +427,7 @@
                   #64748B
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm font-medium border-b bg-black/10 border-x border-white/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-white/10 rounded-b-xl"
                 >
                   Tertiary color
                   <button

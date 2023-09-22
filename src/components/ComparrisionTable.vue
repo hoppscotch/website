@@ -342,7 +342,7 @@
                   >
                     <th
                       scope="row"
-                      class="w-1/4 py-3 pr-4 text-sm font-normal text-left leading-6 text-slate-400"
+                      class="w-1/4 py-3 pr-4 text-sm text-left leading-6 text-slate-400"
                     >
                       {{ feature.name }}
                       <div

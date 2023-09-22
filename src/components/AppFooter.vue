@@ -9,7 +9,7 @@
           <h6 class="mb-2">
             <RouterLink
               to="/products"
-              class="text-sm font-medium rounded transition text-slate-200 hover:text-slate-50"
+              class="text-sm rounded transition text-slate-200 hover:text-slate-50"
             >
               Products
             </RouterLink>
@@ -54,7 +54,7 @@
           <h6 class="mb-2">
             <RouterLink
               to="/explore"
-              class="text-sm font-medium rounded transition text-slate-200 hover:text-slate-50"
+              class="text-sm rounded transition text-slate-200 hover:text-slate-50"
             >
               Explore
             </RouterLink>
@@ -99,7 +99,7 @@
           <h6 class="mb-2">
             <RouterLink
               to="/solutions"
-              class="text-sm font-medium rounded transition text-slate-200 hover:text-slate-50"
+              class="text-sm rounded transition text-slate-200 hover:text-slate-50"
             >
               Solutions
             </RouterLink>
@@ -160,7 +160,7 @@
           <h6 class="mb-2">
             <RouterLink
               to="/company"
-              class="text-sm font-medium rounded transition text-slate-200 hover:text-slate-50"
+              class="text-sm rounded transition text-slate-200 hover:text-slate-50"
             >
               Company
             </RouterLink>
@@ -205,7 +205,7 @@
           <h6 class="mb-2">
             <RouterLink
               to="/resources"
-              class="text-sm font-medium rounded transition text-slate-200 hover:text-slate-50"
+              class="text-sm rounded transition text-slate-200 hover:text-slate-50"
             >
               Resources
             </RouterLink>
@@ -254,7 +254,7 @@
           <h6 class="mb-2">
             <RouterLink
               to="/compliances"
-              class="text-sm font-medium rounded transition text-slate-200 hover:text-slate-50"
+              class="text-sm rounded transition text-slate-200 hover:text-slate-50"
             >
               Compliances
             </RouterLink>

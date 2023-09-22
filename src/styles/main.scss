@@ -20,14 +20,8 @@
   @apply p-0 #{!important};
   @apply border-0 #{!important};
 }
-#nprogress .bar {
-  @apply z-50;
-  background: #27c4f5
-    linear-gradient(to right, #27c4f5, #a307ba, #fd8d32, #70c050, #27c4f5);
-}
 .tippy-box {
   @apply max-w-none #{!important};
-  @apply font-medium;
 }
 .tippy-box[data-theme~="tooltip"] {
   @apply rounded;

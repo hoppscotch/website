@@ -18,7 +18,7 @@
       The page you are looking for does not exist.
     </h4>
     <RouterLink
-      class="flex items-center justify-center px-2 py-1 font-medium rounded transition text-slate-400 hover:text-slate-200"
+      class="flex items-center justify-center px-2 py-1 rounded transition text-slate-400 hover:text-slate-200"
       to="/"
     >
       <icon-lucide-home class="mr-4" />

@@ -23,7 +23,7 @@
             :delay="100"
           >
             <span
-              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
+              class="inline-flex text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
             >
               Resources
             </span>

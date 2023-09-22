@@ -44,7 +44,7 @@
                 :delay="100"
               >
                 <span
-                  class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
+                  class="inline-flex text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
                 >
                   Hoppscotch Enterprise Edition
                 </span>
@@ -107,10 +107,7 @@
               lets you build, publish, and document APIs in minutes.
             </p>
             <p class="mt-4">
-              <RouterLink
-                to="/products/cloud"
-                class="flex items-center font-medium"
-              >
+              <RouterLink to="/products/cloud" class="flex items-center">
                 Learn more <icon-lucide-chevron-right class="ml-2" />
               </RouterLink>
             </p>
@@ -134,10 +131,7 @@
               most flexible way to deploy Hoppscotch.
             </p>
             <p class="mt-4">
-              <RouterLink
-                to="/products/self-host"
-                class="flex items-center font-medium"
-              >
+              <RouterLink to="/products/self-host" class="flex items-center">
                 Learn more <icon-lucide-chevron-right class="ml-2" />
               </RouterLink>
             </p>

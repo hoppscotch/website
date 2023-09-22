@@ -61,7 +61,7 @@
         <article v-motion-fade class="flex flex-col items-center space-y-8">
           <header class="flex flex-col w-full max-w-2xl">
             <div class="mb-4">
-              <ul class="flex flex-wrap -m-1 text-sm font-medium">
+              <ul class="flex flex-wrap -m-1 text-sm">
                 <li class="m-1">
                   <span
                     class="inline-flex text-center transition text-slate-500"
@@ -85,7 +85,7 @@
                 height="32"
                 alt="Author 01"
               />
-              <div class="text-sm font-medium">
+              <div class="text-sm">
                 <span class="transition text-slate-400"> Anastasia Dan </span>
               </div>
             </div>

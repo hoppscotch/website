@@ -27,7 +27,7 @@
             :delay="100"
           >
             <span
-              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
+              class="inline-flex text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
             >
               Products
             </span>
@@ -62,7 +62,7 @@
                   <icon-lucide-cloudy />
                 </div>
                 <div
-                  class="text-sm font-medium leading-tight"
+                  class="text-sm leading-tight"
                   :class="{ 'text-slate-200': tab === 1 }"
                 >
                   Cloud
@@ -83,7 +83,7 @@
                   <icon-lucide-building-2 />
                 </div>
                 <div
-                  class="text-sm font-medium leading-tight"
+                  class="text-sm leading-tight"
                   :class="{ 'text-slate-200': tab === 2 }"
                 >
                   Enterprise
@@ -104,7 +104,7 @@
                   <icon-lucide-server />
                 </div>
                 <div
-                  class="text-sm font-medium leading-tight"
+                  class="text-sm leading-tight"
                   :class="{ 'text-slate-200': tab === 3 }"
                 >
                   Self-Host
@@ -126,7 +126,7 @@
                   <icon-lucide-terminal-square />
                 </div>
                 <div
-                  class="text-sm font-medium leading-tight"
+                  class="text-sm leading-tight"
                   :class="{ 'text-slate-200': tab === 4 }"
                 >
                   CLI
@@ -167,7 +167,7 @@
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="inline-flex items-center justify-center px-3 py-1 text-sm font-medium border border-transparent rounded-full shadow-xl transition text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-slate-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
@@ -214,7 +214,7 @@
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="inline-flex items-center justify-center px-3 py-1 text-sm font-medium border border-transparent rounded-full shadow-xl transition text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-slate-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
@@ -261,7 +261,7 @@
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="inline-flex items-center justify-center px-3 py-1 text-sm font-medium border border-transparent rounded-full shadow-xl transition text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-slate-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
@@ -308,7 +308,7 @@
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="inline-flex items-center justify-center px-3 py-1 text-sm font-medium border border-transparent rounded-full shadow-xl transition text-slate-950 backdrop-blur bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-slate-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download

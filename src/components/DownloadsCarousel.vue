@@ -83,7 +83,7 @@
                   </div>
                   <div>
                     <RouterLink
-                      class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
+                      class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-200 hover:text-white group"
                       to="/"
                     >
                       Download
@@ -140,7 +140,7 @@
                   </div>
                   <div>
                     <RouterLink
-                      class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
+                      class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-200 hover:text-white group"
                       to="/"
                     >
                       Download
@@ -195,7 +195,7 @@
                   </div>
                   <div>
                     <RouterLink
-                      class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
+                      class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-200 hover:text-white group"
                       to="/"
                     >
                       Download
@@ -246,7 +246,7 @@
                   </div>
                   <div>
                     <a
-                      class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
+                      class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-200 hover:text-white group"
                       href="https://hoppscotch.io"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -301,7 +301,7 @@
                   </div>
                   <div>
                     <RouterLink
-                      class="inline-flex items-center px-2 py-1 text-sm font-medium rounded-full transition text-slate-200 hover:text-white group"
+                      class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-200 hover:text-white group"
                       to="/"
                     >
                       Install

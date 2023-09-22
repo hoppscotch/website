@@ -10,7 +10,7 @@
             :delay="100"
           >
             <span
-              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
+              class="inline-flex text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
             >
               Timeline
             </span>
@@ -30,9 +30,7 @@
           <!-- item -->
           <div v-motion-fade class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
-              <div class="mb-2 text-sm font-medium text-violet-500">
-                The inception
-              </div>
+              <div class="mb-2 text-sm text-violet-500">The inception</div>
               <div class="flex items-center mb-3">
                 <div
                   class="absolute left-0 inline-flex px-3 py-1 text-xs font-semibold text-green-400 rounded-full bg-green-200/10"
@@ -60,9 +58,7 @@
           <!-- item -->
           <div v-motion-fade class="relative py-4 pl-24 md:py-6" :delay="100">
             <div class="pl-2">
-              <div class="mb-2 text-sm font-medium text-violet-500">
-                New beginnings
-              </div>
+              <div class="mb-2 text-sm text-violet-500">New beginnings</div>
               <div class="flex items-center mb-3">
                 <div
                   class="absolute left-0 inline-flex px-3 py-1 text-xs font-semibold text-green-400 rounded-full bg-green-200/10"
@@ -89,9 +85,7 @@
           <!-- item -->
           <div v-motion-fade class="relative py-4 pl-24 md:py-6" :delay="200">
             <div class="pl-2">
-              <div class="mb-2 text-sm font-medium text-violet-500">
-                The seed
-              </div>
+              <div class="mb-2 text-sm text-violet-500">The seed</div>
               <div class="flex items-center mb-3">
                 <div
                   class="absolute left-0 inline-flex px-3 py-1 text-xs font-semibold text-green-400 rounded-full bg-green-200/10"
@@ -118,9 +112,7 @@
           <!-- item -->
           <div v-motion-fade class="relative py-4 pl-24 md:py-6" :delay="300">
             <div class="pl-2">
-              <div class="mb-2 text-sm font-medium text-violet-500">
-                Pivoting
-              </div>
+              <div class="mb-2 text-sm text-violet-500">Pivoting</div>
               <div class="flex items-center mb-3">
                 <div
                   class="absolute left-0 inline-flex px-3 py-1 text-xs font-semibold text-green-400 rounded-full bg-green-200/10"
@@ -147,9 +139,7 @@
           <!-- item -->
           <div v-motion-fade class="relative py-4 pl-24 md:py-6" :delay="400">
             <div class="pl-2">
-              <div class="mb-2 text-sm font-medium text-violet-500">
-                Huge milestone
-              </div>
+              <div class="mb-2 text-sm text-violet-500">Huge milestone</div>
               <div class="flex items-center mb-3">
                 <div
                   class="absolute left-0 inline-flex px-3 py-1 text-xs font-semibold text-green-400 rounded-full bg-green-200/10"

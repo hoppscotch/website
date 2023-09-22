@@ -22,7 +22,7 @@
             :delay="100"
           >
             <span
-              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
+              class="inline-flex text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
             >
               The developer-first platform
             </span>
@@ -141,7 +141,7 @@
                         </p>
                       </div>
                       <RouterLink
-                        class="text-sm font-medium inline-flex items-center justify-center border border-transparent rounded-full px-3 py-1 text-slate-200 hover:text-white transition group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
+                        class="text-sm inline-flex items-center justify-center border border-transparent rounded-full px-3 py-1 text-slate-200 hover:text-white transition group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
                         to="/"
                       >
                         <span class="relative inline-flex items-center">
@@ -264,9 +264,7 @@
           <div>
             <div class="flex items-center mb-1 space-x-2">
               <icon-lucide-zap class="fill-slate-200" />
-              <span class="font-medium text-slate-50"
-                >Lightweight and snappy</span
-              >
+              <span class="text-slate-50">Lightweight and snappy</span>
             </div>
             <p class="text-sm text-slate-400">
               Designed to be seamless and instant.
@@ -276,7 +274,7 @@
           <div>
             <div class="flex items-center mb-1 space-x-2">
               <icon-lucide-users-2 class="fill-slate-200" />
-              <span class="font-medium text-slate-50">Built for teams</span>
+              <span class="text-slate-50">Built for teams</span>
             </div>
             <p class="text-sm text-slate-400">
               Have all your teams in one shared workspace.
@@ -286,7 +284,7 @@
           <div>
             <div class="flex items-center mb-1 space-x-2">
               <icon-lucide-palette class="fill-slate-200" />
-              <span class="font-medium text-slate-50">Highly customizable</span>
+              <span class="text-slate-50">Highly customizable</span>
             </div>
             <p class="text-sm text-slate-400">
               Make Hoppscotch your own with custom themes.
@@ -296,9 +294,7 @@
           <div>
             <div class="flex items-center mb-1 space-x-2">
               <icon-lucide-command class="fill-slate-200" />
-              <span class="font-medium text-slate-50"
-                >Keyboard first design</span
-              >
+              <span class="text-slate-50">Keyboard first design</span>
             </div>
             <p class="text-sm text-slate-400">
               Designed to be intuitive and easy to use.
@@ -308,7 +304,7 @@
           <div>
             <div class="flex items-center mb-1 space-x-2">
               <icon-lucide-package class="fill-slate-200" />
-              <span class="font-medium text-slate-50">Cross-platform apps</span>
+              <span class="text-slate-50">Cross-platform apps</span>
             </div>
             <p class="text-sm text-slate-400">
               Works on web, Mac, Windows, and mobile.
@@ -318,7 +314,7 @@
           <div>
             <div class="flex items-center mb-1 space-x-2">
               <icon-lucide-shield-check class="fill-slate-200" />
-              <span class="font-medium text-slate-50">Safe and secure</span>
+              <span class="text-slate-50">Safe and secure</span>
             </div>
             <p class="text-sm text-slate-400">
               Designed to keep your data safe and protected.

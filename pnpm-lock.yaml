@@ -14,9 +14,6 @@ dependencies:
   "@sparticuz/chromium":
     specifier: ^117.0.0
     version: 117.0.0
-  "@types/nprogress":
-    specifier: ^0.2.0
-    version: 0.2.0
   "@unhead/addons":
     specifier: ^1.7.4
     version: 1.7.4
@@ -35,12 +32,9 @@ dependencies:
   mustache:
     specifier: ^4.2.0
     version: 4.2.0
-  nprogress:
-    specifier: ^0.2.0
-    version: 0.2.0
   puppeteer-core:
-    specifier: ~21.3.1
-    version: 21.3.1
+    specifier: ~21.3.3
+    version: 21.3.3
   swiper:
     specifier: ^8.4.7
     version: 8.4.7
@@ -53,8 +47,8 @@ dependencies:
 
 devDependencies:
   "@iconify-json/lucide":
-    specifier: ^1.1.128
-    version: 1.1.128
+    specifier: ^1.1.129
+    version: 1.1.129
   "@tailwindcss/forms":
     specifier: ^0.5.6
     version: 0.5.6(tailwindcss@3.3.3)
@@ -141,10 +135,10 @@ devDependencies:
     version: 0.31.0(vite@4.4.9)
   vite-plugin-vue-layouts:
     specifier: ^0.8.0
-    version: 0.8.0(vite@4.4.9)(vue-router@4.2.4)(vue@3.3.4)
+    version: 0.8.0(vite@4.4.9)(vue-router@4.2.5)(vue@3.3.4)
   vite-ssg:
     specifier: ^0.23.3
-    version: 0.23.3(vite@4.4.9)(vue-router@4.2.4)(vue@3.3.4)
+    version: 0.23.3(vite@4.4.9)(vue-router@4.2.5)(vue@3.3.4)
   vite-ssg-sitemap:
     specifier: ^0.5.1
     version: 0.5.1
@@ -152,8 +146,8 @@ devDependencies:
     specifier: ^9.3.1
     version: 9.3.1(eslint@8.49.0)
   vue-router:
-    specifier: ^4.2.4
-    version: 4.2.4(vue@3.3.4)
+    specifier: ^4.2.5
+    version: 4.2.5(vue@3.3.4)
   vue-tsc:
     specifier: ^1.8.13
     version: 1.8.13(typescript@5.2.2)
@@ -937,10 +931,10 @@ packages:
       }
     dev: true
 
-  /@iconify-json/lucide@1.1.128:
+  /@iconify-json/lucide@1.1.129:
     resolution:
       {
-        integrity: sha512-01gydOYLIFAdCcQ9vw6pJa/ffu3LsbRRAhdOYX8rRSRvg73EDgiN878upxudB0V1ayZ2i/w+IQUlJ3cBnb+QwA==,
+        integrity: sha512-9ZuduUDII55iQNpWlK78tGmoW5kp4iD/6EGtVMiSbR5dNdyLpw4X9CGp30aeVIvp4GLPmw2Vf87ZjPcA4qtenw==,
       }
     dependencies:
       "@iconify/types": 2.0.0
@@ -1283,13 +1277,6 @@ packages:
         integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==,
       }
     dev: true
-
-  /@types/nprogress@0.2.0:
-    resolution:
-      {
-        integrity: sha512-1cYJrqq9GezNFPsWTZpFut/d4CjpZqA0vhqDUPFWYKF1oIyBz5qnoYMzR+0C/T96t3ebLAC1SSnwrVOm5/j74A==,
-      }
-    dev: false
 
   /@types/web-bluetooth@0.0.17:
     resolution:
@@ -2230,10 +2217,10 @@ packages:
     dev: false
     optional: true
 
-  /chromium-bidi@0.4.27(devtools-protocol@0.0.1179426):
+  /chromium-bidi@0.4.28(devtools-protocol@0.0.1179426):
     resolution:
       {
-        integrity: sha512-8Irq0FbKYN8Xmj8M62kta6wk5MyDKeYIFtNavxQ2M3xf2v5MCC4ntf+FxitQu1iHaQvGU6t5O+Nrep0RNNS0EQ==,
+        integrity: sha512-2HZ74QlAApJrEwcGlU/sUu0s4VS+FI3CJ09Toc9aE9VemMyhHZXeaROQgJKNRaYMUTUx6qIv1cLBs3F+vfgjSw==,
       }
     peerDependencies:
       devtools-protocol: "*"
@@ -5262,13 +5249,6 @@ packages:
       path-key: 4.0.0
     dev: true
 
-  /nprogress@0.2.0:
-    resolution:
-      {
-        integrity: sha512-I19aIingLgR1fmhftnbWWO3dXc0hSxqHQHQb3H8m+K3TnEn/iSeTZZOyvKXWqQESMwuUVnatlCnZdLBZZt2VSA==,
-      }
-    dev: false
-
   /nth-check@2.1.1:
     resolution:
       {
@@ -5870,19 +5850,19 @@ packages:
     engines: { node: ">=6" }
     dev: true
 
-  /puppeteer-core@21.3.1:
+  /puppeteer-core@21.3.3:
     resolution:
       {
-        integrity: sha512-3VrCDEAHk0hPvE8qtfKgsT8CzRuaQrDQGXdCOuMFJM7Ap+ghpQzhPa9H3DE3gZgwDvC5Jt7SxUkAWLCeNbD0xw==,
+        integrity: sha512-3Y8uwUnkUD5rKQ/WL6rtD4k70E10ke/j1k65sQArFHrv4TLra8+QQy7J3DvElBU8iJLMYz6UtsHBm2O0esVbGA==,
       }
     engines: { node: ">=16.3.0" }
     dependencies:
       "@puppeteer/browsers": 1.7.1
-      chromium-bidi: 0.4.27(devtools-protocol@0.0.1179426)
+      chromium-bidi: 0.4.28(devtools-protocol@0.0.1179426)
       cross-fetch: 4.0.0
       debug: 4.3.4
       devtools-protocol: 0.0.1179426
-      ws: 8.14.1
+      ws: 8.14.2
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -7444,7 +7424,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-vue-layouts@0.8.0(vite@4.4.9)(vue-router@4.2.4)(vue@3.3.4):
+  /vite-plugin-vue-layouts@0.8.0(vite@4.4.9)(vue-router@4.2.5)(vue@3.3.4):
     resolution:
       {
         integrity: sha512-UZW2nSV2LraTSe7gsAL46hfdi7a0X1RvkGGoJVtA2O8beu7anzpXFwQLou8+kHy31CzVycT4gIPySBsHhtBN5g==,
@@ -7459,7 +7439,7 @@ packages:
       fast-glob: 3.3.0
       vite: 4.4.9(sass@1.68.0)
       vue: 3.3.4
-      vue-router: 4.2.4(vue@3.3.4)
+      vue-router: 4.2.5(vue@3.3.4)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -7471,7 +7451,7 @@ packages:
       }
     dev: true
 
-  /vite-ssg@0.23.3(vite@4.4.9)(vue-router@4.2.4)(vue@3.3.4):
+  /vite-ssg@0.23.3(vite@4.4.9)(vue-router@4.2.5)(vue@3.3.4):
     resolution:
       {
         integrity: sha512-SinJROcjl3/wvfB9fTMFjcGnDj42AOaYG4FAPz4FVnazX87qgb1U+q87JrgzLz2PiYKAacPYBMQSHTIjvsnJyw==,
@@ -7499,7 +7479,7 @@ packages:
       prettier: 3.0.3
       vite: 4.4.9(sass@1.68.0)
       vue: 3.3.4
-      vue-router: 4.2.4(vue@3.3.4)
+      vue-router: 4.2.5(vue@3.3.4)
       yargs: 17.7.2
     transitivePeerDependencies:
       - bufferutil
@@ -7585,10 +7565,10 @@ packages:
       - supports-color
     dev: true
 
-  /vue-router@4.2.4(vue@3.3.4):
+  /vue-router@4.2.5(vue@3.3.4):
     resolution:
       {
-        integrity: sha512-9PISkmaCO02OzPVOMq2w82ilty6+xJmQrarYZDkjZBfl4RvYAlt4PKnEX21oW4KTtWfa9OuO/b3qk1Od3AEdCQ==,
+        integrity: sha512-DIUpKcyg4+PTQKfFPX88UWhlagBEBEfJ5A8XDXRJLUnZOvcpMF8o/dnL90vpVkGaPbjvXazV/rC1qBKrZlFugw==,
       }
     peerDependencies:
       vue: ^3.2.0
@@ -7824,22 +7804,6 @@ packages:
       signal-exit: 4.1.0
     dev: true
 
-  /ws@8.14.1:
-    resolution:
-      {
-        integrity: sha512-4OOseMUq8AzRBI/7SLMUwO+FEDnguetSk7KMb1sHwvF2w2Wv5Hoj0nlifx8vtGsftE/jWHojPy8sMMzYLJ2G/A==,
-      }
-    engines: { node: ">=10.0.0" }
-    peerDependencies:
-      bufferutil: ^4.0.1
-      utf-8-validate: ">=5.0.2"
-    peerDependenciesMeta:
-      bufferutil:
-        optional: true
-      utf-8-validate:
-        optional: true
-    dev: false
-
   /ws@8.14.2:
     resolution:
       {
@@ -7854,7 +7818,6 @@ packages:
         optional: true
       utf-8-validate:
         optional: true
-    dev: true
 
   /xml-name-validator@4.0.0:
     resolution:

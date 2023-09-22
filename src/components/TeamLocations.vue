@@ -70,9 +70,7 @@
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur.
             </div>
-            <div class="font-medium font-sm text-slate-600">
-              14 open positions
-            </div>
+            <div class="font-sm text-slate-600">14 open positions</div>
           </div>
           <!-- location -->
           <div
@@ -97,9 +95,7 @@
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur.
             </div>
-            <div class="font-medium font-sm text-slate-600">
-              7 open positions
-            </div>
+            <div class="font-sm text-slate-600">7 open positions</div>
           </div>
           <!-- location -->
           <div
@@ -124,9 +120,7 @@
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur.
             </div>
-            <div class="font-medium font-sm text-slate-600">
-              24 open positions
-            </div>
+            <div class="font-sm text-slate-600">24 open positions</div>
           </div>
         </div>
       </div>

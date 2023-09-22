@@ -311,6 +311,7 @@
     "watchTriggerable": true,
     "watchWithFilter": true,
     "whenever": true,
-    "getActiveHead": true
+    "getActiveHead": true,
+    "WritableComputedRef": true
   }
 }

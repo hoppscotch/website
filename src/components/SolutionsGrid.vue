@@ -23,7 +23,7 @@
             :delay="100"
           >
             <span
-              class="inline-flex font-medium text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
+              class="inline-flex text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
             >
               Solutions
             </span>
@@ -55,7 +55,7 @@
             >
               <img src="/images/solutions-feature-1.svg" />
               <div class="flex flex-col items-start flex-1 w-full mt-8">
-                <h5 class="font-medium">Real-time</h5>
+                <h5 class="">Real-time</h5>
                 <p class="mt-4 text-sm text-slate-500">
                   Test, share and track the progress of your APIs all in one
                   place. No more switching between tools.
@@ -70,7 +70,7 @@
             >
               <img src="/images/solutions-feature-2.svg" />
               <div class="flex flex-col items-start flex-1 w-full mt-8">
-                <h5 class="font-medium">Cloud sync</h5>
+                <h5 class="">Cloud sync</h5>
                 <p class="mt-4 text-sm text-slate-500">
                   Start from where you left off. Your data is synced across
                   devices.
@@ -85,7 +85,7 @@
             >
               <img src="/images/solutions-feature-3.svg" />
               <div class="flex flex-col items-start flex-1 w-full mt-8">
-                <h5 class="font-medium">Multi-platform</h5>
+                <h5 class="">Multi-platform</h5>
                 <p class="mt-4 text-sm text-slate-500">
                   Hoppscotch is available for all platforms. Download the app or
                   use the web app.
@@ -100,7 +100,7 @@
             >
               <img src="/images/solutions-feature-4.svg" />
               <div class="flex flex-col items-start flex-1 w-full mt-8">
-                <h5 class="font-medium">Access levels</h5>
+                <h5 class="">Access levels</h5>
                 <p class="mt-4 text-sm text-slate-500">
                   Share your APIs with your team or keep it private.
                 </p>
@@ -114,7 +114,7 @@
             >
               <img src="/images/solutions-feature-5.svg" />
               <div class="flex flex-col items-start flex-1 w-full mt-8">
-                <h5 class="font-medium">Collaborate with team</h5>
+                <h5 class="">Collaborate with team</h5>
                 <p class="mt-4 text-sm text-slate-500">
                   Invite your team members to collaborate on your APIs. Work
                   together to build the best APIs.
@@ -128,7 +128,7 @@
               class="flex flex-col items-center justify-center h-full p-8 bg-violet-500/50 rounded-xl"
             >
               <div class="flex flex-col items-center flex-1 text-center">
-                <h5 class="font-medium">Get Started</h5>
+                <h5 class="">Get Started</h5>
                 <p class="mt-4 text-sm text-white/30">
                   Start organizing your APIs and projects now.
                 </p>

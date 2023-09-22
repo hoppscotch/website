@@ -99,7 +99,7 @@
         <div class="text-center">
           <RouterLink
             to="/careers"
-            class="inline-flex items-center justify-center px-3 py-1 text-sm font-medium text-white border border-transparent rounded-full transition bg-violet-600 hover:bg-violet-700 group"
+            class="inline-flex items-center justify-center px-3 py-1 text-sm text-white border border-transparent rounded-full transition bg-violet-600 hover:bg-violet-700 group"
           >
             See open positions
             <span
