@@ -87,14 +87,12 @@
               </a>
             </div>
             <div>
-              <a
+              <RouterLink
                 class="inline-flex items-center justify-center w-full px-4 py-2 text-sm bg-white border border-transparent rounded-full transition bg-opacity-10 text-slate-200 hover:text-white hover:bg-opacity-20"
-                href="https://docs.hoppscotch.io"
-                target="_blank"
-                rel="noopener noreferrer"
+                to="/products/self-host"
               >
                 Self-Host
-              </a>
+              </RouterLink>
             </div>
           </div>
           <div v-motion-fade class="relative my-16 xl:-mx-36" :delay="400">
@@ -111,14 +109,14 @@
                 ></div>
               </div>
             </div>
+            <!-- Hero image -->
             <img
               src="/images/screenshot-1.png"
               alt="Screenshot"
-              class="rounded-xl bg-gradient-to-b from-slate-950 to-transparent backdrop-blur-md"
+              class="rounded-xl"
             />
-            <div
-              class="absolute inset-0 flex items-center justify-center after:content-[''] after:h-16 after:w-px after:absolute after:left-0 after:top-3/4 after:duration-700 after:bg-gradient-to-b after:from-transparent after:via-white/50 after:to-transparent after:opacity-0 hover:after:top-1/4 hover:after:opacity-100"
-            >
+            <!-- Video modal trigger -->
+            <div class="absolute inset-0 flex items-center justify-center">
               <button
                 class="border rounded-full shadow-xl transition border-violet-500/10 bg-violet-500/10 backdrop-blur-md group hover:scale-110"
                 @click.stop="videoModalOpen = true"

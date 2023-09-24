@@ -92,7 +92,7 @@
             <tippy interactive theme="popover" class="rounded-full">
               <RouterLink
                 to="/products"
-                class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-slate-300/75"
+                class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-white/75 hover:text-white"
                 @mouseenter="onTabMouseEnter"
               >
                 Products
@@ -258,7 +258,7 @@
             <tippy interactive theme="popover" class="rounded-full">
               <RouterLink
                 to="/solutions"
-                class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-slate-300/75"
+                class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-white/75 hover:text-white"
                 @mouseenter="onTabMouseEnter"
               >
                 Solutions
@@ -458,7 +458,7 @@
             <tippy interactive theme="popover" class="rounded-full">
               <RouterLink
                 to="/company"
-                class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-slate-300/75"
+                class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-white/75 hover:text-white"
                 @mouseenter="onTabMouseEnter"
               >
                 Company
@@ -511,7 +511,7 @@
             <tippy interactive theme="popover" class="rounded-full">
               <RouterLink
                 to="/resources"
-                class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-slate-300/75"
+                class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-white/75 hover:text-white"
                 @mouseenter="onTabMouseEnter"
               >
                 Resources
@@ -579,7 +579,7 @@
           >
             <a
               v-motion-slide-right
-              class="flex items-center justify-center flex-shrink-0 px-4 py-2 text-sm text-white border rounded-full transition border-violet-600 backdrop-blur-md bg-gradient-to-br from-violet-600/50 via-violet-700/50 to-violet-800/50"
+              class="flex items-center justify-center flex-shrink-0 px-4 py-2 text-sm text-white border rounded-full transition border-violet-600 backdrop-blur-md bg-gradient-to-br from-violet-600/30 via-violet-700/30 to-violet-800/30 hover:from-violet-600/50 hover:via-violet-700/50 hover:to-violet-800/50"
               href="https://github.com/hoppscotch/hoppscotch"
               target="_blank"
               rel="noopener noreferrer"
@@ -595,13 +595,9 @@
         >
           <RouterLink
             to="/download"
-            class="relative inline-flex items-center justify-center px-4 py-2 text-sm border rounded-xl hero-subtitle-gradient bg-violet-500/10 border-violet-500/50"
+            class="relative inline-flex items-center justify-center px-4 py-2 text-sm text-white border transition rounded-xl hero-subtitle-gradient bg-violet-500/10 border-violet-500/50 hover:border-violet-500/75"
           >
-            <span
-              class="inline-flex text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-100"
-            >
-              Open App
-            </span>
+            Open App
           </RouterLink>
         </div>
         <!-- Mobile CTA links -->
@@ -978,7 +974,7 @@
               </a>
               <a
                 class="flex items-center px-4 py-2 text-sm rounded transition text-slate-500 hover:text-slate-950 hover:bg-slate-100"
-                href="https://docs.hoppscotch.io"
+                href="https://github.com/hoppscotch/hoppscotch"
                 target="_blank"
                 rel="noopener noreferrer"
               >
