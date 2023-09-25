@@ -29,9 +29,9 @@
           Latest
         </span>
         <span
-          class="inline-flex items-center px-2 text-xs text-indigo-400 border border-indigo-800 rounded-md bg-indigo-500/10"
+          class="inline-flex items-center px-2 text-xs border text-fuchsia-400 border-fuchsia-800 rounded-md bg-fuchsia-500/10"
         >
-          <span class="w-1.5 h-1.5 mr-2 bg-indigo-400 rounded-full"></span>
+          <span class="w-1.5 h-1.5 mr-2 bg-fuchsia-400 rounded-full"></span>
           Improvement
         </span>
       </div>

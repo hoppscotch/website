@@ -4,7 +4,7 @@
   const props = defineProps({
     quantity: {
       type: Number,
-      default: 30,
+      default: 25,
     },
     staticity: {
       type: Number,
@@ -12,7 +12,7 @@
     },
     ease: {
       type: Number,
-      default: 80,
+      default: 50,
     },
     refresh: {
       type: Boolean,

@@ -33,16 +33,14 @@
     },
   })
 
-  const mask = ref<{ left: number; width: number }>({
+  const glider = ref<{ left: number; width: number }>({
     left: 0,
     width: 0,
   })
 
-  const maskStyle = computed(() => mask.value)
-
   const onTabMouseEnter = (e: MouseEvent) => {
     const tab = e.target as HTMLElement
-    mask.value = {
+    glider.value = {
       left: tab.offsetLeft,
       width: tab.clientWidth,
     }
@@ -57,7 +55,7 @@
     }"
   >
     <div
-      class="container px-4 py-4 transition sm:px-6 after:absolute after:h-px after:inset-x-0 after:bottom-0 after:bg-gradient-to-r after:from-transparent after:via-white/10 after:to-transparent"
+      class="container px-4 py-4 transition sm:px-6 after:absolute after:h-px after:inset-x-0 after:bottom-0 after:bg-gradient-to-r after:from-transparent after:via-violet-400/10 after:to-transparent"
       :class="{
         'overflow-y-auto h-full overscroll-contain': !isMobileMenuClosed,
       }"
@@ -86,7 +84,7 @@
         <!-- Desktop menu links -->
         <div
           ref="targetElem"
-          class="items-center justify-start flex-shrink-0 hidden p-1 border rounded-full flex-nowrap md:flex border-white/10"
+          class="items-center justify-start flex-shrink-0 hidden p-1 border rounded-full flex-nowrap md:flex border-violet-400/10"
         >
           <div class="relative flex items-center group">
             <tippy interactive theme="popover" class="rounded-full">
@@ -566,10 +564,10 @@
               </template>
             </tippy>
             <div
-              class="absolute h-full border rounded-full opacity-0 duration-200 group-hover:opacity-100 -z-1 border-white/10 bg-white/5 backdrop-blur-md"
+              class="absolute h-full border rounded-full opacity-0 duration-200 group-hover:opacity-100 -z-1 border-violet-200/10 bg-violet-200/5 backdrop-blur-md"
               :style="{
-                left: `${maskStyle.left}px`,
-                width: `${maskStyle.width}px`,
+                left: `${glider.left}px`,
+                width: `${glider.width}px`,
               }"
             ></div>
           </div>
@@ -595,7 +593,7 @@
         >
           <RouterLink
             to="/download"
-            class="relative inline-flex items-center justify-center px-4 py-2 text-sm text-white border transition rounded-xl hero-subtitle-gradient bg-violet-500/10 border-violet-500/50 hover:border-violet-500/75"
+            class="relative inline-flex items-center justify-center px-4 py-2 text-sm text-white border transition rounded-xl bg-violet-500/10 border-violet-500/50 hover:border-violet-500/75"
           >
             Open App
           </RouterLink>
@@ -606,7 +604,7 @@
           class="flex items-center justify-end flex-1 md:hidden"
         >
           <li
-            class="flex border rounded-full bg-white/10 backdrop-blur-md border-white/10"
+            class="flex border rounded-full bg-white/10 backdrop-blur-md border-violet-400/10"
           >
             <button
               class="flex items-center justify-center px-3 py-1 text-sm rounded-full transition text-slate-200 hover:text-white"
@@ -630,7 +628,7 @@
           class="flex items-center justify-end flex-1 flex-nowrap"
         >
           <li
-            class="flex border rounded-full bg-white/10 backdrop-blur-md border-white/10"
+            class="flex border rounded-full bg-white/10 backdrop-blur-md border-violet-400/10"
           >
             <a
               class="flex items-center justify-center px-3 py-1 text-sm rounded-full transition text-slate-200 hover:text-white"

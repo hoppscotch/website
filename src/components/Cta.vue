@@ -1,82 +1,79 @@
 <template>
   <section>
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
-      <div
-        class="relative px-8 py-12 md:py-16 rounded-[3rem] border border-slate-900 my-12 md:my-16 overflow-hidden"
-      >
-        <!-- Radial gradient -->
-        <div
-          class="absolute top-0 flex items-center justify-center w-1/3 pointer-events-none -translate-x-1/2 -translate-y-1/2 left-1/2 -z-10 aspect-square"
-          aria-hidden="true"
-        >
-          <div
-            class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-70"
-          ></div>
-          <div
-            class="absolute w-1/4 h-1/4 translate-z-0 bg-violet-400 rounded-full blur-[40px]"
-          ></div>
-        </div>
-        <!-- Blurred shape -->
-        <div
-          class="absolute bottom-0 left-0 opacity-50 pointer-events-none translate-y-1/2 blur-2xl -z-10"
-          aria-hidden="true"
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" width="434" height="427">
-            <defs>
-              <linearGradient
-                id="bs5-a"
-                x1="19.609%"
-                x2="50%"
-                y1="14.544%"
-                y2="100%"
-              >
-                <stop offset="0%" stop-color="#A855F7" />
-                <stop offset="100%" stop-color="#6366F1" stop-opacity="0" />
-              </linearGradient>
-            </defs>
-            <path
-              fill="url(#bs5-a)"
-              fill-rule="evenodd"
-              d="m0 0 461 369-284 58z"
-              transform="matrix(1 0 0 -1 0 427)"
-            />
-          </svg>
-        </div>
-        <!-- Content -->
-        <div class="flex flex-col items-center max-w-4xl mx-auto text-center">
-          <div
-            v-motion-fade
-            class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full hero-subtitle-gradient bg-violet-500/10 border-violet-500/50"
-            :delay="100"
-          >
-            <span
-              class="inline-flex text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
-            >
-              The security first platform
-            </span>
+      <div class="relative px-8 py-12 mt-12 overflow-hidden md:py-16 md:mt-16">
+        <!-- Hero content -->
+        <div class="pb-16 overflow-y-clip">
+          <!-- Backdrop image -->
+          <div class="absolute transform -translate-x-1/2 -z-1 left-1/2">
+            <div v-motion-slide-bottom class="duration-1000 -z-1">
+              <div
+                class="h-[1026px] w-[1026px] bg-gradient-to-b from-violet-900/40 from-0% via-20% to-100% via-transparent to-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 -z-1 absolute border-violet-400/10"
+              ></div>
+            </div>
+            <div v-motion-slide-bottom class="duration-1000 -z-1">
+              <div
+                class="h-[684px] w-[684px] shadow-2xl shadow-violet-500/60 bg-gradient-to-b from-violet-900/40 from-0% via-20% to-100% via-transparent to-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 -z-1 top-[160px] absolute border-violet-400/10"
+              ></div>
+            </div>
+            <div v-motion-slide-bottom class="duration-1000 -z-1">
+              <div
+                class="h-[342px] w-[342px] shadow-2xl shadow-violet-500/60 bg-gradient-to-b from-violet-900/40 from-0% via-20% to-100% via-transparent to-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 -z-1 top-[300px] absolute border-violet-400/10"
+              ></div>
+            </div>
           </div>
-          <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
-          >
-            Take control of your business
-          </h2>
-          <p class="mb-8 text-lg text-slate-400">
-            All the lorem ipsum generators on the Internet tend to repeat
-            predefined chunks as necessary, making this the first true generator
-            on the Internet.
-          </p>
-          <div>
-            <RouterLink
-              class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full transition text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
-              to="/products"
+          <!-- Content -->
+          <div class="flex flex-col items-center max-w-4xl mx-auto text-center">
+            <Announcement />
+            <h1
+              v-motion-fade
+              class="mb-8 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
             >
-              Get Started
-              <span
-                class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
-              >
-                <icon-lucide-arrow-right />
-              </span>
-            </RouterLink>
+              Make Better APIs
+            </h1>
+            <p
+              v-motion-fade
+              class="w-2/3 mb-8 text-xl text-slate-300"
+              :delay="200"
+            >
+              Trusted by millions of developers to build, test and share APIs.
+            </p>
+            <div
+              v-motion-fade
+              class="max-w-xs mx-auto space-y-4 sm:max-w-none sm:inline-flex sm:justify-center sm:space-y-0 sm:space-x-4"
+              :delay="400"
+            >
+              <div>
+                <a
+                  href="https://hoppscotch.io"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="relative inline-block overflow-hidden group rounded-full p-[1px]"
+                >
+                  <span
+                    class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,_theme(colors.violet.800)_0%,_theme(colors.blue.800)_50%,_theme(colors.violet.800)_100%)]"
+                  ></span>
+                  <div
+                    class="inline-flex items-center justify-center w-full h-full px-4 py-2 text-sm text-white rounded-full cursor-pointer animate-background-shine bg-[linear-gradient(110deg,_theme(colors.slate.950),45%,_theme(colors.violet.900),55%,_theme(colors.slate.950))] bg-[length:200%_100%] backdrop-blur-md"
+                  >
+                    Get Started on Cloud
+                    <span
+                      class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                    >
+                      <icon-lucide-chevron-right />
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <RouterLink
+                  class="inline-flex items-center justify-center w-full px-4 py-2 text-sm transition bg-white border rounded-full border-violet-400/10 bg-opacity-10 text-slate-200 backdrop-blur-md hover:text-white hover:border-violet-400/20 hover:bg-opacity-20"
+                  to="/products/self-host"
+                >
+                  Self-Host from GitHub
+                </RouterLink>
+              </div>
+            </div>
           </div>
         </div>
       </div>

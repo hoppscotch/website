@@ -78,7 +78,7 @@
         class="relative flex flex-col items-end w-full max-w-6xl max-h-full overflow-auto"
       >
         <button
-          class="p-1 mb-4 border rounded-full transition border-white/10 hover:border-white/25 bg-white/10"
+          class="p-1 mb-4 border rounded-full transition border-violet-400/10 hover:border-violet-400/25 bg-white/10"
           @click="emit('closeModal')"
         >
           <icon-lucide-x />

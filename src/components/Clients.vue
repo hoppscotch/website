@@ -30,7 +30,7 @@
         </ClientOnly>
       </div>
       <div class="py-12 md:py-16">
-        <div class="max-w-sm mx-auto mb-16 text-slate-300">
+        <div class="max-w-sm mx-auto mb-16 text-center text-slate-200">
           Join the maintainers and contributors to the largest open-source
           projects on our waitlist.
         </div>
