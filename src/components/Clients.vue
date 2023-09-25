@@ -30,6 +30,10 @@
         </ClientOnly>
       </div>
       <div class="py-12 md:py-16">
+        <div class="max-w-sm mx-auto mb-16 text-slate-300">
+          Join the maintainers and contributors to the largest open-source
+          projects on our waitlist.
+        </div>
         <div class="overflow-hidden">
           <!-- Carousel built with Swiper.js [https://swiperjs.com/] -->
           <div

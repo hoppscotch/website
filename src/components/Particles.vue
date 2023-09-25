@@ -8,11 +8,11 @@
     },
     staticity: {
       type: Number,
-      default: 100,
+      default: 50,
     },
     ease: {
       type: Number,
-      default: 50,
+      default: 80,
     },
     refresh: {
       type: Boolean,
