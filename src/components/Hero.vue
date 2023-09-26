@@ -9,7 +9,7 @@
 
 <template>
   <section>
-    <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
+    <div class="relative max-w-6xl px-4 mx-auto overflow-y-clip sm:px-6">
       <!-- Radial gradient -->
       <div
         class="absolute inset-0 overflow-hidden pointer-events-none -z-10"
@@ -58,7 +58,7 @@
           </h1>
           <p
             v-motion-fade
-            class="w-2/3 mb-8 text-xl text-slate-300"
+            class="max-w-md mb-8 text-xl md:max-w-2xl text-slate-300"
             :delay="200"
           >
             Trusted by millions of developers to build, test and share APIs.
@@ -135,7 +135,7 @@
           </div>
           <!-- Video modal trigger -->
           <div
-            class="absolute inset-0 flex items-center justify-center bg-gradient-to-b from-transparent to-slate-950"
+            class="absolute inset-0 flex items-center justify-center bg-gradient-to-b from-transparent to-slate-950 to-95%"
           >
             <button
               class="overflow-hidden transition border rounded-full shadow-xl border-violet-500/10 bg-violet-500/10 backdrop-blur-md group hover:scale-110"

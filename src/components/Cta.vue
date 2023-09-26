@@ -33,7 +33,7 @@
             </h1>
             <p
               v-motion-fade
-              class="w-2/3 mb-8 text-xl text-slate-300"
+              class="max-w-md mb-8 text-xl md:max-w-2xl text-slate-300"
               :delay="200"
             >
               Trusted by millions of developers to build, test and share APIs.
@@ -67,7 +67,7 @@
               </div>
               <div>
                 <RouterLink
-                  class="inline-flex items-center justify-center w-full px-4 py-2 text-sm transition bg-white border rounded-full border-violet-400/10 bg-opacity-10 text-slate-200 backdrop-blur-md hover:text-white hover:border-violet-400/20 hover:bg-opacity-20"
+                  class="inline-flex items-center justify-center w-full px-4 py-2 text-sm bg-white border rounded-full transition border-violet-400/10 bg-opacity-10 text-slate-200 backdrop-blur-md hover:text-white hover:border-violet-400/20 hover:bg-opacity-20"
                   to="/products/self-host"
                 >
                   Self-Host from GitHub

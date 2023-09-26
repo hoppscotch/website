@@ -5,21 +5,6 @@
 <template>
   <section>
     <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
-      <!-- Illustration -->
-      <div
-        class="absolute inset-0 -z-10 -mx-28 rounded-t-[3rem] pointer-events-none"
-        aria-hidden="true"
-      >
-        <div class="absolute top-0 -translate-x-1/2 left-1/2 -z-10">
-          <img
-            src="/images/glow-top.svg"
-            class="max-w-none"
-            width="1404"
-            height="658"
-            alt="Features Illustration"
-          />
-        </div>
-      </div>
       <div class="pt-32 pb-24">
         <div>
           <!-- Section content -->
@@ -54,7 +39,7 @@
               </p>
               <div class="max-w-xs mt-8 space-y-2 max-md:mx-auto">
                 <button
-                  class="flex items-center w-full px-3 py-2 text-sm border rounded transition text-slate-50 bg-slate-900/25 hover:opacity-100"
+                  class="flex items-center w-full px-3 py-2 text-sm transition border rounded text-slate-50 bg-slate-900/25 hover:opacity-100"
                   :class="
                     tab !== '1'
                       ? 'border-slate-800 opacity-50'
@@ -66,7 +51,7 @@
                   <span>Built to be fast</span>
                 </button>
                 <button
-                  class="flex items-center w-full px-3 py-2 text-sm border rounded transition text-slate-50 bg-slate-900/25 hover:opacity-100"
+                  class="flex items-center w-full px-3 py-2 text-sm transition border rounded text-slate-50 bg-slate-900/25 hover:opacity-100"
                   :class="
                     tab !== '2'
                       ? 'border-slate-800 opacity-50'
@@ -78,7 +63,7 @@
                   <span>Made with open source</span>
                 </button>
                 <button
-                  class="flex items-center w-full px-3 py-2 text-sm border rounded transition text-slate-50 bg-slate-900/25 hover:opacity-100"
+                  class="flex items-center w-full px-3 py-2 text-sm transition border rounded text-slate-50 bg-slate-900/25 hover:opacity-100"
                   :class="
                     tab !== '3'
                       ? 'border-slate-800 opacity-50'
@@ -108,7 +93,7 @@
                   >
                     <!-- Halo effect -->
                     <svg
-                      class="absolute inset-0 pointer-events-none transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 will-change-transform blur-md"
+                      class="absolute inset-0 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none left-1/2 top-1/2 will-change-transform blur-md"
                       width="480"
                       height="480"
                       viewBox="0 0 480 480"
@@ -171,9 +156,9 @@
                     <Transition
                       enter-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-500 order-first"
                       enter-from-class="opacity-0 -rotate-[60deg]"
-                      enter-to-class="opacity-100 rotate-0"
+                      enter-to-class="rotate-0 opacity-100"
                       leave-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-500 absolute"
-                      leave-from-class="opacity-100 rotate-0"
+                      leave-from-class="rotate-0 opacity-100"
                       leave-to-class="opacity-0 rotate-[60deg]"
                     >
                       <div v-if="tab === '1'" class="absolute">
@@ -189,9 +174,9 @@
                     <Transition
                       enter-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-500 order-first"
                       enter-from-class="opacity-0 -rotate-[60deg]"
-                      enter-to-class="opacity-100 rotate-0"
+                      enter-to-class="rotate-0 opacity-100"
                       leave-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-500 absolute"
-                      leave-from-class="opacity-100 rotate-0"
+                      leave-from-class="rotate-0 opacity-100"
                       leave-to-class="opacity-0 rotate-[60deg]"
                     >
                       <div v-if="tab === '2'" class="absolute">
@@ -207,9 +192,9 @@
                     <Transition
                       enter-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-500 order-first"
                       enter-from-class="opacity-0 -rotate-[60deg]"
-                      enter-to-class="opacity-100 rotate-0"
+                      enter-to-class="rotate-0 opacity-100"
                       leave-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-500 absolute"
-                      leave-from-class="opacity-100 rotate-0"
+                      leave-from-class="rotate-0 opacity-100"
                       leave-to-class="opacity-0 rotate-[60deg]"
                     >
                       <div v-if="tab === '3'" class="absolute">

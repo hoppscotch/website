@@ -33,7 +33,7 @@
         type="submit"
         value="Subscribe"
         name="subscribe"
-        class="px-4 py-2 mt-4 ml-0 text-sm font-semibold transition rounded bg-violet-600 hover:bg-violet-500 sm:mt-0 sm:ml-4"
+        class="px-4 py-2 mt-4 ml-0 text-sm font-semibold rounded transition bg-violet-600 hover:bg-violet-500 sm:mt-0 sm:ml-4"
       />
     </form>
   </div>
