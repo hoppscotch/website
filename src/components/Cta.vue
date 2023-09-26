@@ -1,7 +1,9 @@
 <template>
   <section>
     <div class="max-w-6xl px-4 mx-auto sm:px-6">
-      <div class="relative px-8 py-12 mt-12 overflow-hidden md:py-16 md:mt-16">
+      <div
+        class="relative px-8 py-12 mt-12 overflow-hidden border rounded-[32px] mb-32 border-violet-400/10 md:py-16 md:mt-16"
+      >
         <!-- Hero content -->
         <div class="pb-16 overflow-y-clip">
           <!-- Backdrop image -->
@@ -34,14 +36,12 @@
             <p
               v-motion-fade
               class="max-w-md mb-8 text-xl md:max-w-2xl text-slate-300"
-              :delay="200"
             >
               Trusted by millions of developers to build, test and share APIs.
             </p>
             <div
               v-motion-fade
               class="max-w-xs mx-auto space-y-4 sm:max-w-none sm:inline-flex sm:justify-center sm:space-y-0 sm:space-x-4"
-              :delay="400"
             >
               <div>
                 <a

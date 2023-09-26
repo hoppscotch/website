@@ -57,7 +57,6 @@
             <div
               v-motion-fade
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
-              :delay="100"
             >
               <div class="flex flex-col items-center">
                 <img
@@ -93,7 +92,6 @@
             <div
               v-motion-fade
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
-              :delay="200"
             >
               <div class="flex flex-col items-center">
                 <img
@@ -129,7 +127,6 @@
             <div
               v-motion-fade
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
-              :delay="300"
             >
               <div class="flex flex-col items-center">
                 <img
@@ -165,7 +162,6 @@
             <div
               v-motion-fade
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
-              :delay="400"
             >
               <div class="flex flex-col items-center">
                 <img
@@ -201,7 +197,6 @@
             <div
               v-motion-fade
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
-              :delay="500"
             >
               <div class="flex flex-col items-center">
                 <img
@@ -237,7 +232,6 @@
             <div
               v-motion-fade
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
-              :delay="600"
             >
               <div class="flex flex-col items-center">
                 <img
@@ -273,7 +267,6 @@
             <div
               v-motion-fade
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
-              :delay="700"
             >
               <div class="flex flex-col items-center">
                 <img
@@ -309,7 +302,6 @@
             <div
               v-motion-fade
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
-              :delay="600"
             >
               <div class="flex flex-col items-center">
                 <img
@@ -345,7 +337,6 @@
             <div
               v-motion-fade
               class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7"
-              :delay="700"
             >
               <div class="flex flex-col items-center">
                 <img

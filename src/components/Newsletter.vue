@@ -1,7 +1,7 @@
 <template>
   <div
     id="newsletter"
-    class="flex flex-col items-center px-4 py-12 border-t border-slate-900"
+    class="flex flex-col items-center max-w-6xl px-4 py-12 mx-auto before:absolute before:h-px before:inset-x-0 before:top-0 before:bg-gradient-to-r before:from-transparent before:via-violet-400/10 before:to-transparent"
   >
     <h4
       class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
@@ -23,7 +23,7 @@
       <input
         id="mce-EMAIL"
         placeholder="Email"
-        class="w-full border-0 rounded bg-slate-900/50 placeholder:text-white/10 focus:ring-0 focus:outline-1 focus:outline-offset-4 focus:outline-white/10"
+        class="w-full border-0 rounded bg-violet-500/10 backdrop-blur-md placeholder:text-violet-400/20 focus:ring-0 focus:outline-1 focus:outline-offset-4 focus:outline-white/10"
         type="email"
         required
         name="EMAIL"

@@ -664,7 +664,6 @@
               v-motion-fade
               to="/products"
               class="px-2 py-1 text-sm rounded transition text-slate-200 hover:text-white"
-              :delay="50"
             >
               Products
             </RouterLink>
@@ -770,7 +769,6 @@
                     v-motion-fade
                     class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                     to="/features"
-                    :delay="100"
                   >
                     <icon-lucide-sparkles class="mr-3" />
                     Features
@@ -781,7 +779,6 @@
                     v-motion-fade
                     class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                     to="/download"
-                    :delay="150"
                   >
                     <icon-lucide-download class="mr-3" />
                     Download
@@ -792,7 +789,6 @@
                     v-motion-fade
                     class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                     to="/pricing"
-                    :delay="200"
                   >
                     <icon-lucide-gem class="mr-3" />
                     Pricing
@@ -803,7 +799,6 @@
                     v-motion-fade
                     class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                     to="/changelog"
-                    :delay="250"
                   >
                     <icon-lucide-scroll-text class="mr-3" />
                     Changelog
@@ -817,7 +812,6 @@
               v-motion-fade
               to="/solutions"
               class="px-2 py-1 text-sm rounded transition text-slate-200 hover:text-white"
-              :delay="50"
             >
               Solutions
             </RouterLink>
@@ -986,7 +980,6 @@
               v-motion-fade
               to="/company"
               class="px-2 py-1 text-sm rounded transition text-slate-200 hover:text-white"
-              :delay="300"
             >
               Company
             </RouterLink>
@@ -996,7 +989,6 @@
                   v-motion-fade
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/about"
-                  :delay="350"
                 >
                   <icon-lucide-user-circle class="mr-3" />
                   About
@@ -1007,7 +999,6 @@
                   v-motion-fade
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/blog"
-                  :delay="400"
                 >
                   <icon-lucide-file-text class="mr-3" />
                   Blog
@@ -1018,7 +1009,6 @@
                   v-motion-fade
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/careers"
-                  :delay="450"
                 >
                   <icon-lucide-briefcase class="mr-3" />
                   Careers
@@ -1029,7 +1019,6 @@
                   v-motion-fade
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/contact"
-                  :delay="500"
                 >
                   <icon-lucide-mail class="mr-3" />
                   Contact
@@ -1042,7 +1031,6 @@
               v-motion-fade
               to="/resources"
               class="px-2 py-1 text-sm rounded transition text-slate-200 hover:text-white"
-              :delay="550"
             >
               Resources
             </RouterLink>
@@ -1054,7 +1042,6 @@
                   href="https://docs.hoppscotch.io"
                   target="_blank"
                   rel="noopener noreferrer"
-                  :delay="600"
                 >
                   <icon-lucide-file-text class="mr-3" />
                   Documentation
@@ -1065,7 +1052,6 @@
                   v-motion-fade
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/community"
-                  :delay="650"
                 >
                   <icon-lucide-heart class="mr-3" />
                   Community
@@ -1076,7 +1062,6 @@
                   v-motion-fade
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/brand"
-                  :delay="700"
                 >
                   <icon-lucide-palette class="mr-3" />
                   Brand
@@ -1089,7 +1074,6 @@
                   href="https://shop.hoppscotch.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  :delay="750"
                 >
                   <icon-lucide-shopping-bag class="mr-3" />
                   Shop

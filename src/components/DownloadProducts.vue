@@ -30,7 +30,6 @@
           <div
             v-motion-fade
             class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-violet-500/10 border-violet-500/50"
-            :delay="100"
           >
             <span
               class="inline-flex text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
@@ -41,11 +40,10 @@
           <h2
             v-motion-fade
             class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
-            :delay="200"
           >
             Take Hoppscotch with you
           </h2>
-          <p v-motion-fade class="text-lg text-slate-400" :delay="300">
+          <p v-motion-fade class="text-lg text-slate-400">
             Download Hoppscotch for your platform — Web, macOS, Windows, Linux,
             or CLI.
           </p>

@@ -59,14 +59,12 @@
           <p
             v-motion-fade
             class="max-w-md mb-8 text-xl md:max-w-2xl text-slate-300"
-            :delay="200"
           >
             Trusted by millions of developers to build, test and share APIs.
           </p>
           <div
             v-motion-fade
             class="max-w-xs mx-auto space-y-4 sm:max-w-none sm:inline-flex sm:justify-center sm:space-y-0 sm:space-x-4"
-            :delay="400"
           >
             <div>
               <a
@@ -92,7 +90,7 @@
             </div>
             <div>
               <RouterLink
-                class="inline-flex items-center justify-center w-full px-4 py-2 text-sm transition bg-white border rounded-full border-violet-400/10 bg-opacity-10 text-slate-200 backdrop-blur-md hover:text-white hover:border-violet-400/20 hover:bg-opacity-20"
+                class="inline-flex items-center justify-center w-full px-4 py-2 text-sm bg-white border rounded-full transition border-violet-400/10 bg-opacity-10 text-slate-200 backdrop-blur-md hover:text-white hover:border-violet-400/20 hover:bg-opacity-20"
                 to="/products/self-host"
               >
                 Self-Host from GitHub
@@ -103,7 +101,7 @@
       </div>
       <!-- Hero image -->
       <div class="flex flex-col items-center max-w-4xl mx-auto text-center">
-        <div v-motion-fade class="xl:-mx-36" :delay="400">
+        <div v-motion-slide-bottom class="duration-500 xl:-mx-36">
           <!-- Radial gradient -->
           <div
             class="absolute inset-0 z-10 overflow-hidden pointer-events-none"
@@ -138,11 +136,11 @@
             class="absolute inset-0 flex items-center justify-center bg-gradient-to-b from-transparent to-slate-950 to-95%"
           >
             <button
-              class="overflow-hidden transition border rounded-full shadow-xl border-violet-500/10 bg-violet-500/10 backdrop-blur-md group hover:scale-110"
+              class="overflow-hidden border rounded-full shadow-xl transition border-violet-500/10 bg-violet-500/10 backdrop-blur-md group hover:scale-110"
               @click.stop="videoModalOpen = true"
             >
               <div
-                class="flex items-center justify-center p-4 m-4 text-white transition rounded-full shadow-xl outline outline-violet-500/90 backdrop-blur-md bg-gradient-to-b from-violet-500/50 to-violet-900/10 group-hover:scale-110"
+                class="flex items-center justify-center p-4 m-4 text-white rounded-full shadow-xl transition outline outline-violet-500/90 backdrop-blur-md bg-gradient-to-b from-violet-500/50 to-violet-900/10 group-hover:scale-110"
               >
                 <icon-lucide-play />
               </div>

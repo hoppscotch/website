@@ -5,7 +5,7 @@
 </template>
 
 <style lang="scss" scoped>
-  $n: 5; // number of meteors
+  $n: 8; // number of meteors
   @for $i from 1 through $n {
     $v: calc(random(100) + 10); // left
     $h: calc(random(250) + 20); // top
@@ -15,7 +15,7 @@
       @apply w-64;
       @apply h-0.5;
       @apply bg-gradient-to-r;
-      @apply from-white/50;
+      @apply from-violet-400;
       @apply to-transparent;
       @apply transform;
       @apply -rotate-45;
@@ -27,7 +27,7 @@
       @apply before:w-0.5;
       @apply before:h-0.5;
       @apply before:rounded-full;
-      @apply before:bg-white/90;
+      @apply before:bg-violet-400;
     }
   }
   @keyframes meteor {

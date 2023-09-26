@@ -1,7 +1,20 @@
 <template>
-  <footer class="bg-gray-950">
+  <footer class="relative">
+    <!-- Radial gradient -->
+    <div
+      class="absolute inset-0 overflow-hidden pointer-events-none -z-10"
+      aria-hidden="true"
+    >
+      <div
+        class="absolute top-0 flex items-center justify-center w-1/3 -translate-x-1/2 -translate-y-1/2 left-1/2 aspect-square"
+      >
+        <div
+          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-10"
+        ></div>
+      </div>
+    </div>
     <Newsletter />
-    <div class="max-w-6xl px-4 mx-auto sm:px-6">
+    <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
       <!-- Blocks -->
       <div class="py-4 grid gap-8 sm:grid-cols-12 md:py-8">
         <!-- block -->

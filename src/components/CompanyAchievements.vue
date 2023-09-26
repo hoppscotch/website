@@ -7,11 +7,7 @@
           class="items-start max-w-sm mx-auto grid grid-cols-2 gap-4 gap-y-8 sm:gap-8 md:grid-cols-4 md:max-w-6xl"
         >
           <!-- item -->
-          <div
-            v-motion-fade
-            class="relative flex flex-col items-center"
-            :delay="100"
-          >
+          <div v-motion-fade class="relative flex flex-col items-center">
             <div
               aria-hidden="true"
               class="absolute h-0.5 bg-gradient-to-r from-slate-950 via-slate-800 to-slate-950 hidden md:block"
@@ -39,11 +35,7 @@
             <div class="text-sm text-slate-200">Founded in 2021</div>
           </div>
           <!-- item -->
-          <div
-            v-motion-fade
-            class="relative flex flex-col items-center"
-            :delay="200"
-          >
+          <div v-motion-fade class="relative flex flex-col items-center">
             <div
               aria-hidden="true"
               class="absolute h-0.5 bg-gradient-to-r from-slate-950 via-slate-800 to-slate-950 hidden md:block"
@@ -71,11 +63,7 @@
             <div class="text-sm text-slate-200">Built-with Open Source</div>
           </div>
           <!-- item -->
-          <div
-            v-motion-fade
-            class="relative flex flex-col items-center"
-            :delay="300"
-          >
+          <div v-motion-fade class="relative flex flex-col items-center">
             <div
               aria-hidden="true"
               class="absolute h-0.5 bg-gradient-to-r from-slate-950 via-slate-800 to-slate-950 hidden md:block"
@@ -103,11 +91,7 @@
             <div class="text-sm text-slate-200">52,000+ GitHub Stars</div>
           </div>
           <!-- item -->
-          <div
-            v-motion-fade
-            class="relative flex flex-col items-center"
-            :delay="400"
-          >
+          <div v-motion-fade class="relative flex flex-col items-center">
             <div class="relative w-20 h-20 mb-4">
               <div
                 class="absolute inset-0 rounded-full opacity-30 bg-gradient-to-tr from-pink-500 -z-1"

@@ -21,7 +21,7 @@
     "@vueuse/motion": "^2.0.0",
     "medium-zoom": "^1.0.8",
     "mustache": "^4.2.0",
-    "puppeteer-core": "~21.3.4",
+    "puppeteer-core": "~21.3.5",
     "swiper": "^8.4.7",
     "vue": "^3.3.4",
     "vue-tippy": "^6.3.1"
@@ -61,7 +61,7 @@
     "vite-ssg-sitemap": "^0.5.1",
     "vue-eslint-parser": "^9.3.1",
     "vue-router": "^4.2.5",
-    "vue-tsc": "^1.8.14"
+    "vue-tsc": "^1.8.15"
   },
   "husky": {
     "hooks": {

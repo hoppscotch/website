@@ -76,7 +76,6 @@
           <div
             v-motion-fade
             class="flex flex-col items-center h-full text-center"
-            :delay="100"
           >
             <div class="inline-flex w-[62px] h-[62px] mb-4">
               <svg
@@ -101,7 +100,6 @@
           <div
             v-motion-fade
             class="flex flex-col items-center h-full text-center"
-            :delay="200"
           >
             <div class="inline-flex w-[62px] h-[62px] mb-4">
               <svg

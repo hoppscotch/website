@@ -45,7 +45,6 @@
             <HighlighterItem
               v-motion-fade
               class="h-auto swiper-slide group/slide"
-              :delay="100"
             >
               <div
                 class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
@@ -100,7 +99,6 @@
             <HighlighterItem
               v-motion-fade
               class="h-auto swiper-slide group/slide"
-              :delay="200"
             >
               <div
                 class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
@@ -157,7 +155,6 @@
             <HighlighterItem
               v-motion-fade
               class="h-auto swiper-slide group/slide"
-              :delay="300"
             >
               <div
                 class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
@@ -212,7 +209,6 @@
             <HighlighterItem
               v-motion-fade
               class="h-auto swiper-slide group/slide"
-              :delay="400"
             >
               <div
                 class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
@@ -265,7 +261,6 @@
             <HighlighterItem
               v-motion-fade
               class="h-auto swiper-slide group/slide"
-              :delay="500"
             >
               <div
                 class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"

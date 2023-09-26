@@ -71,7 +71,6 @@
           <div
             v-motion-fade
             class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-violet-500/10 border-violet-500/50"
-            :delay="100"
           >
             <span
               class="inline-flex text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
@@ -82,11 +81,10 @@
           <h2
             v-motion-fade
             class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
-            :delay="200"
           >
             You're in good company
           </h2>
-          <p v-motion-fade class="text-lg text-slate-400" :delay="300">
+          <p v-motion-fade class="text-lg text-slate-400">
             We're a team of passionate designers and developers working together
             to build the most advanced and easy-to-use API development platform
             ever created.
@@ -97,23 +95,23 @@
           <ul
             class="flex flex-col flex-wrap items-center justify-center -mx-3 -my-8 text-md text-slate-200 sm:flex-row"
           >
-            <li v-motion-fade class="flex items-center mx-3 my-2" :delay="400">
+            <li v-motion-fade class="flex items-center mx-3 my-2">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>Work Life Balance</span>
             </li>
-            <li v-motion-fade class="flex items-center mx-3 my-2" :delay="500">
+            <li v-motion-fade class="flex items-center mx-3 my-2">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>Competitive Salary And Equity</span>
             </li>
-            <li v-motion-fade class="flex items-center mx-3 my-2" :delay="600">
+            <li v-motion-fade class="flex items-center mx-3 my-2">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>5 Weeks Paid Vacation</span>
             </li>
-            <li v-motion-fade class="flex items-center mx-3 my-2" :delay="700">
+            <li v-motion-fade class="flex items-center mx-3 my-2">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>Generous Gear Credit</span>
             </li>
-            <li v-motion-fade class="flex items-center mx-3 my-2" :delay="800">
+            <li v-motion-fade class="flex items-center mx-3 my-2">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>Diversity and Inclusion</span>
             </li>
@@ -157,7 +155,6 @@
                 width="48"
                 height="48"
                 alt="User 02"
-                :delay="400"
               />
               <img
                 v-motion-fade
@@ -167,7 +164,6 @@
                 width="56"
                 height="56"
                 alt="User 02"
-                :delay="100"
               />
               <img
                 v-motion-fade
@@ -177,7 +173,6 @@
                 width="72"
                 height="72"
                 alt="User 04"
-                :delay="700"
               />
               <img
                 v-motion-fade
@@ -187,7 +182,6 @@
                 width="48"
                 height="48"
                 alt="User 05"
-                :delay="500"
               />
               <img
                 v-motion-fade
@@ -197,7 +191,6 @@
                 width="56"
                 height="56"
                 alt="User 06"
-                :delay="200"
               />
               <img
                 v-motion-fade
@@ -207,7 +200,6 @@
                 width="64"
                 height="64"
                 alt="User 07"
-                :delay="600"
               />
               <img
                 v-motion-fade
@@ -217,7 +209,6 @@
                 width="40"
                 height="40"
                 alt="User 08"
-                :delay="300"
               />
             </div>
           </div>
