@@ -71,11 +71,9 @@
             <div v-motion-fade class="md:col-span-12">
               <HighlighterItem>
                 <div
-                  class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
+                  class="relative bg-slate-950/90 backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
                 >
-                  <div
-                    class="flex flex-col md:flex-row md:items-center md:justify-between"
-                  >
+                  <div class="flex flex-col">
                     <!-- Blurred shape -->
                     <div
                       class="absolute top-0 right-0 blur-2xl"
@@ -117,16 +115,14 @@
                       aria-hidden="true"
                     >
                       <div
-                        class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-70"
+                        class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-10"
                       ></div>
                       <div
-                        class="absolute w-1/4 h-1/4 translate-z-0 bg-violet-400 rounded-full blur-[40px]"
+                        class="absolute w-1/4 h-1/4 translate-z-0 bg-violet-400 rounded-full blur-[40px] opacity-10"
                       ></div>
                     </div>
                     <!-- Text -->
-                    <div
-                      class="md:max-w-[480px] shrink-0 order-1 md:order-none p-6 pt-0 md:p-8 md:pr-0"
-                    >
+                    <div class="max-w-lg p-8">
                       <div class="flex flex-col items-start mb-6">
                         <h3
                           class="inline-flex pb-1 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
@@ -154,14 +150,15 @@
                       </RouterLink>
                     </div>
                     <!-- Image -->
-                    <div class="relative w-full h-64 overflow-hidden md:h-auto">
-                      <img
-                        class="absolute bottom-0 mx-auto -translate-x-1/2 left-1/2 max-w-none md:relative md:left-0 md:translate-x-0"
-                        src="/images/feature-image-01.png"
-                        width="504"
-                        height="400"
-                        alt="Feature 01"
-                      />
+                    <div class="relative w-full p-2 overflow-hidden">
+                      <div
+                        class="flex items-center justify-center border h-96 rounded-2xl border-violet-500/25 bg-violet-500/5 backdrop-blur-md"
+                      >
+                        <!-- <img
+                          src="/images/feature-image-01.png"
+                          alt="Feature 01"
+                        /> -->
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -171,7 +168,7 @@
             <div v-motion-fade class="md:col-span-6">
               <HighlighterItem>
                 <div
-                  class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
+                  class="relative bg-slate-950/90 backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
                 >
                   <div class="flex flex-col">
                     <!-- Radial gradient -->
@@ -184,9 +181,7 @@
                       ></div>
                     </div>
                     <!-- Text -->
-                    <div
-                      class="md:max-w-[480px] shrink-0 order-1 md:order-none p-6 pt-0 md:p-8 md:pr-0"
-                    >
+                    <div class="max-w-lg p-8">
                       <div>
                         <h3
                           class="inline-flex pb-1 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
@@ -200,12 +195,15 @@
                       </div>
                     </div>
                     <!-- Image -->
-                    <div class="relative w-full h-64 overflow-hidden">
-                      <img
-                        class="absolute bottom-0 mx-auto -translate-x-1/2 left-1/2 max-w-none md:max-w-full md:relative md:left-0 md:translate-x-0"
-                        src="/images/feature-image-02.png"
-                        alt="Feature 02"
-                      />
+                    <div class="relative w-full p-2 overflow-hidden">
+                      <div
+                        class="flex items-center justify-center border h-96 rounded-2xl border-violet-500/25 bg-violet-500/5 backdrop-blur-md"
+                      >
+                        <!-- <img
+                          src="/images/feature-image-02.png"
+                          alt="Feature 02"
+                        /> -->
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -215,7 +213,7 @@
             <div v-motion-fade class="md:col-span-6">
               <HighlighterItem>
                 <div
-                  class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
+                  class="relative bg-slate-950/90 backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
                 >
                   <div class="flex flex-col">
                     <!-- Radial gradient -->
@@ -228,9 +226,7 @@
                       ></div>
                     </div>
                     <!-- Text -->
-                    <div
-                      class="md:max-w-[480px] shrink-0 order-1 md:order-none p-6 pt-0 md:p-8 md:pr-0"
-                    >
+                    <div class="max-w-lg p-8">
                       <div>
                         <h3
                           class="inline-flex pb-1 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
@@ -244,12 +240,15 @@
                       </div>
                     </div>
                     <!-- Image -->
-                    <div class="relative w-full h-64 overflow-hidden">
-                      <img
-                        class="absolute bottom-0 w-64 h-64 mx-auto -translate-x-1/2 left-1/2 max-w-none md:max-w-full md:relative md:left-0 md:translate-x-0"
-                        src="/images/feature-image-03.png"
-                        alt="Feature 03"
-                      />
+                    <div class="relative w-full p-2 overflow-hidden">
+                      <div
+                        class="flex items-center justify-center border h-96 rounded-2xl border-violet-500/25 bg-violet-500/5 backdrop-blur-md"
+                      >
+                        <!-- <img
+                          src="/images/feature-image-03.png"
+                          alt="Feature 03"
+                        /> -->
+                      </div>
                     </div>
                   </div>
                 </div>
