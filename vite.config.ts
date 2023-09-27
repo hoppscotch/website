@@ -1,3 +1,4 @@
+import { fileURLToPath, URL } from "node:url"
 import path from "node:path"
 import Vue from "@vitejs/plugin-vue"
 import Icons from "unplugin-icons/vite"
@@ -26,6 +27,7 @@ const ssgOptions: ViteSSGOptions = {
 export default defineConfig({
   resolve: {
     alias: {
+      "@": fileURLToPath(new URL("./src", import.meta.url)),
       "~/": `${path.resolve(__dirname, "src")}/`,
     },
   },

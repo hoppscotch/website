@@ -43,6 +43,7 @@
                 class="swiper-slide !w-auto"
               >
                 <img
+                  loading="lazy"
                   :src="`/images/client-${String(index).padStart(2, '0')}.svg`"
                   :alt="`Client ${index}`"
                   class="w-24"

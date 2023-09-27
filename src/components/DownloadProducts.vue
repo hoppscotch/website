@@ -28,7 +28,6 @@
         <!-- Section header -->
         <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
           <div
-            v-motion-fade
             class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-violet-500/10 border-violet-500/50"
           >
             <span
@@ -38,18 +37,17 @@
             </span>
           </div>
           <h2
-            v-motion-fade
             class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
           >
             Take Hoppscotch with you
           </h2>
-          <p v-motion-fade class="text-lg text-slate-400">
+          <p class="text-lg text-slate-400">
             Download Hoppscotch for your platform — Web, macOS, Windows, Linux,
             or CLI.
           </p>
         </div>
         <!-- Platform download -->
-        <div v-motion-fade>
+        <div>
           <Highlighter class="group">
             <HighlighterItem>
               <div
@@ -65,6 +63,7 @@
                   ></div>
                 </div>
                 <img
+                  loading="lazy"
                   src="/images/feature-image-04.png"
                   width="768"
                   height="400"

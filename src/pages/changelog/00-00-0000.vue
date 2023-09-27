@@ -42,7 +42,7 @@
       },
     ],
   })
-  const source = `${window.location.host}${window.location.pathname}`
+  const source = `${location.host}${location.pathname}`
   const { copy, copied } = useClipboard({
     legacy: true,
   })

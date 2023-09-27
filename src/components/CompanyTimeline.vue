@@ -5,7 +5,6 @@
         <!-- Section header -->
         <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
           <div
-            v-motion-fade
             class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-violet-500/10 border-violet-500/50"
           >
             <span
@@ -27,7 +26,7 @@
         <!-- Items -->
         <div class="max-w-4xl mx-auto -my-4 md:-my-6">
           <!-- item -->
-          <div v-motion-fade class="relative py-4 pl-24 md:py-6">
+          <div class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
               <div class="mb-2 text-sm text-violet-500">The inception</div>
               <div class="flex items-center mb-3">
@@ -55,7 +54,7 @@
             </div>
           </div>
           <!-- item -->
-          <div v-motion-fade class="relative py-4 pl-24 md:py-6">
+          <div class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
               <div class="mb-2 text-sm text-violet-500">New beginnings</div>
               <div class="flex items-center mb-3">
@@ -82,7 +81,7 @@
             </div>
           </div>
           <!-- item -->
-          <div v-motion-fade class="relative py-4 pl-24 md:py-6">
+          <div class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
               <div class="mb-2 text-sm text-violet-500">The seed</div>
               <div class="flex items-center mb-3">
@@ -109,7 +108,7 @@
             </div>
           </div>
           <!-- item -->
-          <div v-motion-fade class="relative py-4 pl-24 md:py-6">
+          <div class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
               <div class="mb-2 text-sm text-violet-500">Pivoting</div>
               <div class="flex items-center mb-3">
@@ -136,7 +135,7 @@
             </div>
           </div>
           <!-- item -->
-          <div v-motion-fade class="relative py-4 pl-24 md:py-6">
+          <div class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
               <div class="mb-2 text-sm text-violet-500">Huge milestone</div>
               <div class="flex items-center mb-3">

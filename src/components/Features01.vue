@@ -13,12 +13,10 @@
           >
             <!-- Content -->
             <div
-              v-motion-fade
               class="order-1 md:w-7/12 lg:w-1/2 md:order-none max-md:text-center"
             >
               <!-- Content #1 -->
               <div
-                v-motion-fade
                 class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-violet-500/10 border-violet-500/50"
               >
                 <span
@@ -76,7 +74,7 @@
               </div>
             </div>
             <!-- Image -->
-            <div v-motion-fade class="md:w-5/12 lg:w-1/2">
+            <div class="md:w-5/12 lg:w-1/2">
               <div class="relative py-24">
                 <!-- Particles animation -->
                 <ClientOnly>

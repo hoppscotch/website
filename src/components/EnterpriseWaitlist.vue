@@ -30,6 +30,7 @@
               <div class="moon"></div>
             </div>
             <img
+              loading="lazy"
               src="/images/enterpprise-portal.svg"
               class="w-full h-full"
               alt="Enterprise"
@@ -37,9 +38,8 @@
           </div>
           <div class="flex flex-col items-center justify-center flex-1 p-8">
             <!-- Content -->
-            <div v-motion-fade class="max-lg:text-center">
+            <div class="max-lg:text-center">
               <div
-                v-motion-fade
                 class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-violet-500/10 border-violet-500/50"
               >
                 <span
@@ -94,6 +94,7 @@
               class="absolute inset-0 flex items-center justify-center bg-black/10 -z-10"
             >
               <img
+                loading="lazy"
                 src="/images/enterprise-waitlist-card-bg-1.jpg"
                 alt="Cloud"
                 class="opacity-10"
@@ -118,6 +119,7 @@
               class="absolute inset-0 flex items-center justify-center bg-black/10 -z-10"
             >
               <img
+                loading="lazy"
                 src="/images/enterprise-waitlist-card-bg-2.jpg"
                 alt="Self-Host"
                 class="opacity-10"

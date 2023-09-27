@@ -68,12 +68,12 @@
         >
           <!-- Logo -->
           <RouterLink
-            v-motion-pop
             class="flex items-center justify-center rounded-full duration-500"
             to="/"
             aria-label="Hoppscotch"
           >
             <img
+              loading="lazy"
               src="/images/logo.svg"
               width="38"
               height="38"
@@ -588,7 +588,6 @@
         </div>
         <!-- Desktop CTA links -->
         <div
-          v-motion-fade
           class="items-center justify-end flex-1 flex-shrink-0 hidden md:flex flex-nowrap"
         >
           <RouterLink
@@ -599,10 +598,7 @@
           </RouterLink>
         </div>
         <!-- Mobile CTA links -->
-        <ul
-          v-motion-fade
-          class="flex items-center justify-end flex-1 md:hidden"
-        >
+        <ul class="flex items-center justify-end flex-1 md:hidden">
           <li
             class="flex border rounded-full bg-white/10 backdrop-blur-md border-violet-500/20"
           >
@@ -623,10 +619,7 @@
         class="flex flex-col mt-4 md:hidden rounded-xl"
       >
         <!-- Mobile CTA links -->
-        <ul
-          v-motion-fade
-          class="flex items-center justify-end flex-1 flex-nowrap"
-        >
+        <ul class="flex items-center justify-end flex-1 flex-nowrap">
           <li
             class="flex border rounded-full bg-white/10 backdrop-blur-md border-violet-500/20"
           >
@@ -661,7 +654,6 @@
         <ul class="flex flex-col space-y-4 flex-nowrap">
           <li>
             <RouterLink
-              v-motion-fade
               to="/products"
               class="px-2 py-1 text-sm rounded transition text-slate-200 hover:text-white"
             >
@@ -766,7 +758,6 @@
               <ul class="flex-col grid grid-cols-2">
                 <li>
                   <RouterLink
-                    v-motion-fade
                     class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                     to="/features"
                   >
@@ -776,7 +767,6 @@
                 </li>
                 <li>
                   <RouterLink
-                    v-motion-fade
                     class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                     to="/download"
                   >
@@ -786,7 +776,6 @@
                 </li>
                 <li>
                   <RouterLink
-                    v-motion-fade
                     class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                     to="/pricing"
                   >
@@ -796,7 +785,6 @@
                 </li>
                 <li>
                   <RouterLink
-                    v-motion-fade
                     class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                     to="/changelog"
                   >
@@ -809,7 +797,6 @@
           </li>
           <li>
             <RouterLink
-              v-motion-fade
               to="/solutions"
               class="px-2 py-1 text-sm rounded transition text-slate-200 hover:text-white"
             >
@@ -977,7 +964,6 @@
           </li>
           <li>
             <RouterLink
-              v-motion-fade
               to="/company"
               class="px-2 py-1 text-sm rounded transition text-slate-200 hover:text-white"
             >
@@ -986,7 +972,6 @@
             <ul class="flex flex-col">
               <li>
                 <RouterLink
-                  v-motion-fade
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/about"
                 >
@@ -996,7 +981,6 @@
               </li>
               <li>
                 <RouterLink
-                  v-motion-fade
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/blog"
                 >
@@ -1006,7 +990,6 @@
               </li>
               <li>
                 <RouterLink
-                  v-motion-fade
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/careers"
                 >
@@ -1016,7 +999,6 @@
               </li>
               <li>
                 <RouterLink
-                  v-motion-fade
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/contact"
                 >
@@ -1028,7 +1010,6 @@
           </li>
           <li>
             <RouterLink
-              v-motion-fade
               to="/resources"
               class="px-2 py-1 text-sm rounded transition text-slate-200 hover:text-white"
             >
@@ -1037,7 +1018,6 @@
             <ul class="flex flex-col">
               <li>
                 <a
-                  v-motion-fade
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   href="https://docs.hoppscotch.io"
                   target="_blank"
@@ -1049,7 +1029,6 @@
               </li>
               <li>
                 <RouterLink
-                  v-motion-fade
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/community"
                 >
@@ -1059,7 +1038,6 @@
               </li>
               <li>
                 <RouterLink
-                  v-motion-fade
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   to="/brand"
                 >
@@ -1069,7 +1047,6 @@
               </li>
               <li>
                 <a
-                  v-motion-fade
                   class="flex items-center px-4 py-2 text-sm rounded transition text-slate-300 hover:text-slate-200 hover:bg-slate-950/50"
                   href="https://shop.hoppscotch.com"
                   target="_blank"

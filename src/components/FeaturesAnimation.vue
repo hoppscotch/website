@@ -18,7 +18,6 @@
         <!-- Section header -->
         <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
           <div
-            v-motion-fade
             class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-violet-500/10 border-violet-500/50"
           >
             <span
@@ -28,12 +27,11 @@
             </span>
           </div>
           <h2
-            v-motion-fade
             class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
           >
             All in one place
           </h2>
-          <p v-motion-fade class="text-lg text-slate-400">
+          <p class="text-lg text-slate-400">
             We are building the future of API development. All in one place.
           </p>
         </div>
@@ -41,7 +39,6 @@
         <div class="relative flex flex-col items-center p-16">
           <!-- Blurred dots -->
           <svg
-            v-motion-fade
             class="absolute -translate-y-1/2 top-1/2"
             width="557"
             height="93"
@@ -234,10 +231,7 @@
               </g>
             </g>
           </svg>
-          <div
-            v-motion-fade
-            class="relative flex items-center justify-center w-32 h-32"
-          >
+          <div class="relative flex items-center justify-center w-32 h-32">
             <!-- Halo effect -->
             <svg
               class="absolute inset-0 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none h-auto max-w-[200%]"
@@ -305,7 +299,6 @@
             aria-hidden="true"
           ></div>
           <div
-            v-motion-fade
             class="relative flex items-center justify-center p-2 bg-slate-900 rounded-2xl aspect-square"
           >
             <!-- Inner lines -->
@@ -324,6 +317,7 @@
             >
               <!-- Icon -->
               <img
+                loading="lazy"
                 src="/images/integration-icon-01.svg"
                 width="36"
                 height="46"
@@ -332,7 +326,6 @@
             </div>
           </div>
           <div
-            v-motion-fade
             class="relative flex items-center justify-center p-2 bg-slate-900 rounded-2xl aspect-square"
           >
             <!-- Inner lines -->
@@ -351,6 +344,7 @@
             >
               <!-- Icon -->
               <img
+                loading="lazy"
                 src="/images/integration-icon-02.svg"
                 width="46"
                 height="46"
@@ -359,7 +353,6 @@
             </div>
           </div>
           <div
-            v-motion-fade
             class="relative flex items-center justify-center p-2 bg-slate-900 rounded-2xl aspect-square"
           >
             <!-- Inner lines -->
@@ -378,6 +371,7 @@
             >
               <!-- Icon -->
               <img
+                loading="lazy"
                 src="/images/integration-icon-03.svg"
                 width="53"
                 height="45"
@@ -386,7 +380,6 @@
             </div>
           </div>
           <div
-            v-motion-fade
             class="relative flex items-center justify-center p-2 bg-slate-900 rounded-2xl aspect-square"
           >
             <!-- Inner lines -->
@@ -405,6 +398,7 @@
             >
               <!-- Icon -->
               <img
+                loading="lazy"
                 src="/images/integration-icon-04.svg"
                 width="48"
                 height="46"
@@ -413,7 +407,6 @@
             </div>
           </div>
           <div
-            v-motion-fade
             class="relative flex items-center justify-center p-2 bg-slate-900 rounded-2xl aspect-square"
           >
             <!-- Inner lines -->
@@ -432,6 +425,7 @@
             >
               <!-- Icon -->
               <img
+                loading="lazy"
                 src="/images/integration-icon-05.svg"
                 width="49"
                 height="48"
@@ -440,7 +434,6 @@
             </div>
           </div>
           <div
-            v-motion-fade
             class="relative flex items-center justify-center p-2 bg-slate-900 rounded-2xl aspect-square"
           >
             <!-- Inner lines -->
@@ -459,6 +452,7 @@
             >
               <!-- Icon -->
               <img
+                loading="lazy"
                 src="/images/integration-icon-06.svg"
                 width="48"
                 height="44"

@@ -17,7 +17,6 @@
         <!-- Section header -->
         <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
           <div
-            v-motion-fade
             class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-violet-500/10 border-violet-500/50"
           >
             <span
@@ -68,7 +67,7 @@
           <!-- Grid -->
           <Highlighter class="grid gap-6 md:grid-cols-12 group">
             <!-- Box #1 -->
-            <div v-motion-fade class="md:col-span-12">
+            <div class="md:col-span-12">
               <HighlighterItem>
                 <div
                   class="relative bg-slate-950/90 backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
@@ -154,7 +153,7 @@
                       <div
                         class="flex items-center justify-center border h-96 rounded-2xl border-violet-500/25 bg-violet-500/5 backdrop-blur-md"
                       >
-                        <!-- <img
+                        <!-- <img loading="lazy"
                           src="/images/feature-image-01.png"
                           alt="Feature 01"
                         /> -->
@@ -165,7 +164,7 @@
               </HighlighterItem>
             </div>
             <!-- Box #2 -->
-            <div v-motion-fade class="md:col-span-6">
+            <div class="md:col-span-6">
               <HighlighterItem>
                 <div
                   class="relative bg-slate-950/90 backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
@@ -199,7 +198,7 @@
                       <div
                         class="flex items-center justify-center border h-96 rounded-2xl border-violet-500/25 bg-violet-500/5 backdrop-blur-md"
                       >
-                        <!-- <img
+                        <!-- <img loading="lazy"
                           src="/images/feature-image-02.png"
                           alt="Feature 02"
                         /> -->
@@ -210,7 +209,7 @@
               </HighlighterItem>
             </div>
             <!-- Box #3 -->
-            <div v-motion-fade class="md:col-span-6">
+            <div class="md:col-span-6">
               <HighlighterItem>
                 <div
                   class="relative bg-slate-950/90 backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
@@ -244,7 +243,7 @@
                       <div
                         class="flex items-center justify-center border h-96 rounded-2xl border-violet-500/25 bg-violet-500/5 backdrop-blur-md"
                       >
-                        <!-- <img
+                        <!-- <img loading="lazy"
                           src="/images/feature-image-03.png"
                           alt="Feature 03"
                         /> -->

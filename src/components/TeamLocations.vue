@@ -5,8 +5,9 @@
       <div
         class="max-w-[1652px] mx-auto flex items-center space-x-2 md:space-x-4"
       >
-        <div v-motion-fade class="relative w-1/3">
+        <div class="relative w-1/3">
           <img
+            loading="lazy"
             class="aspect-[3/2] object-cover"
             src="/images/team-01.jpg"
             width="540"
@@ -18,8 +19,9 @@
             aria-hidden="true"
           ></div>
         </div>
-        <div v-motion-fade class="relative w-1/3">
+        <div class="relative w-1/3">
           <img
+            loading="lazy"
             class="aspect-[3/2] object-cover"
             src="/images/team-02.jpg"
             width="540"
@@ -27,8 +29,9 @@
             alt="Team 02"
           />
         </div>
-        <div v-motion-fade class="relative w-1/3">
+        <div class="relative w-1/3">
           <img
+            loading="lazy"
             class="aspect-[3/2] object-cover"
             src="/images/team-03.jpg"
             width="540"
@@ -49,10 +52,7 @@
           class="items-start max-w-sm mx-auto grid gap-12 md:max-w-none md:grid-cols-3 md:gap-x-16"
         >
           <!-- location -->
-          <div
-            v-motion-fade
-            class="flex flex-col items-center h-full text-center"
-          >
+          <div class="flex flex-col items-center h-full text-center">
             <div class="inline-flex w-[62px] h-[62px] mb-4">
               <svg
                 class="fill-slate-400"
@@ -73,10 +73,7 @@
             <div class="font-sm text-slate-600">14 open positions</div>
           </div>
           <!-- location -->
-          <div
-            v-motion-fade
-            class="flex flex-col items-center h-full text-center"
-          >
+          <div class="flex flex-col items-center h-full text-center">
             <div class="inline-flex w-[62px] h-[62px] mb-4">
               <svg
                 class="fill-slate-400"
@@ -97,10 +94,7 @@
             <div class="font-sm text-slate-600">7 open positions</div>
           </div>
           <!-- location -->
-          <div
-            v-motion-fade
-            class="flex flex-col items-center h-full text-center"
-          >
+          <div class="flex flex-col items-center h-full text-center">
             <div class="inline-flex w-[62px] h-[62px] mb-4">
               <svg
                 class="fill-slate-400"

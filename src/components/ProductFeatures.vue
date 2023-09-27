@@ -22,7 +22,6 @@
         <!-- Section header -->
         <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
           <div
-            v-motion-fade
             class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-violet-500/10 border-violet-500/50"
           >
             <span
@@ -32,12 +31,11 @@
             </span>
           </div>
           <h2
-            v-motion-fade
             class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
           >
             The power to be your best
           </h2>
-          <p v-motion-fade class="text-lg text-slate-400">
+          <p class="text-lg text-slate-400">
             We build tools that help you build better products.
           </p>
         </div>
@@ -45,7 +43,7 @@
         <div class="max-w-4xl mx-auto">
           <!-- Tabs buttons -->
           <div class="pb-8 grid grid-cols-2 gap-6 sm:grid-cols-4">
-            <div v-motion-fade>
+            <div>
               <button
                 class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-violet-500/10"
                 :class="{
@@ -67,7 +65,7 @@
                 </div>
               </button>
             </div>
-            <div v-motion-fade>
+            <div>
               <button
                 class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-red-500/10"
                 :class="{
@@ -88,7 +86,7 @@
                 </div>
               </button>
             </div>
-            <div v-motion-fade>
+            <div>
               <button
                 class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-blue-500/10"
                 :class="{
@@ -109,7 +107,7 @@
                 </div>
               </button>
             </div>
-            <div v-motion-fade>
+            <div>
               <button
                 class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-slate-500/10"
                 :class="{
@@ -133,7 +131,7 @@
             </div>
           </div>
           <!-- Tab items -->
-          <div v-motion-fade class="relative flex flex-col">
+          <div class="relative flex flex-col">
             <Transition
               enter-active-class="order-first transition duration-500 "
               enter-from-class="opacity-0 -translate-y-8"
@@ -158,6 +156,7 @@
                         ></div>
                       </div>
                       <img
+                        loading="lazy"
                         src="/images/feature-image-04.png"
                         alt="Feature 04"
                       />
@@ -205,6 +204,7 @@
                         ></div>
                       </div>
                       <img
+                        loading="lazy"
                         src="/images/feature-image-04.png"
                         alt="Feature 04"
                       />
@@ -252,6 +252,7 @@
                         ></div>
                       </div>
                       <img
+                        loading="lazy"
                         src="/images/feature-image-04.png"
                         alt="Feature 04"
                       />
@@ -299,6 +300,7 @@
                         ></div>
                       </div>
                       <img
+                        loading="lazy"
                         src="/images/feature-image-04.png"
                         alt="Feature 04"
                       />

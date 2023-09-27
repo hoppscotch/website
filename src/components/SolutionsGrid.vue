@@ -18,7 +18,6 @@
         <!-- Section header -->
         <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
           <div
-            v-motion-fade
             class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-violet-500/10 border-violet-500/50"
           >
             <span
@@ -28,18 +27,17 @@
             </span>
           </div>
           <h2
-            v-motion-fade
             class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
           >
             New era for developers
           </h2>
-          <p v-motion-fade class="text-lg text-slate-400">
+          <p class="text-lg text-slate-400">
             Hoppscotch is a collaborative open source API development platform.
           </p>
         </div>
         <!-- Section content -->
         <img
-          v-motion-fade
+          loading="lazy"
           src="/images/light-cubes.svg"
           alt="Light cubes"
           class="mx-auto -mt-20"
@@ -47,11 +45,11 @@
         <!-- Grid -->
         <div class="grid gap-4 lg:grid-cols-4">
           <!-- Feature #1 -->
-          <div v-motion-fade class="lg:col-span-2">
+          <div class="lg:col-span-2">
             <div
               class="flex flex-col items-center justify-center h-full p-8 bg-gradient-to-b from-slate-950/10 to-slate-600/10 rounded-xl"
             >
-              <img src="/images/solutions-feature-1.svg" />
+              <img loading="lazy" src="/images/solutions-feature-1.svg" />
               <div class="flex flex-col items-start flex-1 w-full mt-8">
                 <h5 class="">Real-time</h5>
                 <p class="mt-4 text-sm text-slate-500">
@@ -62,11 +60,11 @@
             </div>
           </div>
           <!-- Feature #2 -->
-          <div v-motion-fade>
+          <div>
             <div
               class="flex flex-col items-center justify-center h-full p-8 bg-gradient-to-b from-slate-950/10 to-slate-600/10 rounded-xl"
             >
-              <img src="/images/solutions-feature-2.svg" />
+              <img loading="lazy" src="/images/solutions-feature-2.svg" />
               <div class="flex flex-col items-start flex-1 w-full mt-8">
                 <h5 class="">Cloud sync</h5>
                 <p class="mt-4 text-sm text-slate-500">
@@ -77,11 +75,11 @@
             </div>
           </div>
           <!-- Feature #3 -->
-          <div v-motion-fade>
+          <div>
             <div
               class="flex flex-col items-center justify-center h-full p-8 bg-gradient-to-b from-slate-950/10 to-slate-600/10 rounded-xl"
             >
-              <img src="/images/solutions-feature-3.svg" />
+              <img loading="lazy" src="/images/solutions-feature-3.svg" />
               <div class="flex flex-col items-start flex-1 w-full mt-8">
                 <h5 class="">Multi-platform</h5>
                 <p class="mt-4 text-sm text-slate-500">
@@ -92,11 +90,11 @@
             </div>
           </div>
           <!-- Feature #4 -->
-          <div v-motion-fade>
+          <div>
             <div
               class="flex flex-col items-center justify-center h-full p-8 bg-gradient-to-b from-slate-950/10 to-slate-600/10 rounded-xl"
             >
-              <img src="/images/solutions-feature-4.svg" />
+              <img loading="lazy" src="/images/solutions-feature-4.svg" />
               <div class="flex flex-col items-start flex-1 w-full mt-8">
                 <h5 class="">Access levels</h5>
                 <p class="mt-4 text-sm text-slate-500">
@@ -106,11 +104,11 @@
             </div>
           </div>
           <!-- Feature #5 -->
-          <div v-motion-fade class="lg:col-span-2">
+          <div class="lg:col-span-2">
             <div
               class="flex flex-col items-center justify-center h-full p-8 bg-gradient-to-b from-slate-950/10 to-slate-600/10 rounded-xl"
             >
-              <img src="/images/solutions-feature-5.svg" />
+              <img loading="lazy" src="/images/solutions-feature-5.svg" />
               <div class="flex flex-col items-start flex-1 w-full mt-8">
                 <h5 class="">Collaborate with team</h5>
                 <p class="mt-4 text-sm text-slate-500">
@@ -121,7 +119,7 @@
             </div>
           </div>
           <!-- Feature #6 -->
-          <div v-motion-fade>
+          <div>
             <div
               class="flex flex-col items-center justify-center h-full p-8 bg-violet-500/50 rounded-xl"
             >

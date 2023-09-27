@@ -42,10 +42,7 @@
             :refresh="swiperInitialized"
           >
             <!-- Carousel items -->
-            <HighlighterItem
-              v-motion-fade
-              class="h-auto swiper-slide group/slide"
-            >
+            <HighlighterItem class="h-auto swiper-slide group/slide">
               <div
                 class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
               >
@@ -68,6 +65,7 @@
                 </div>
                 <div class="flex flex-col h-full p-6">
                   <img
+                    loading="lazy"
                     class="p-3 mb-4 border rounded-xl border-slate-600 bg-slate-900"
                     src="/images/download-apple.svg"
                     width="40"
@@ -96,10 +94,7 @@
                 </div>
               </div>
             </HighlighterItem>
-            <HighlighterItem
-              v-motion-fade
-              class="h-auto swiper-slide group/slide"
-            >
+            <HighlighterItem class="h-auto swiper-slide group/slide">
               <div
                 class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
               >
@@ -122,6 +117,7 @@
                 </div>
                 <div class="flex flex-col h-full p-6">
                   <img
+                    loading="lazy"
                     class="p-3 mb-4 border rounded-xl border-slate-600 bg-slate-900"
                     src="/images/download-windows.svg"
                     width="40"
@@ -152,10 +148,7 @@
                 </div>
               </div>
             </HighlighterItem>
-            <HighlighterItem
-              v-motion-fade
-              class="h-auto swiper-slide group/slide"
-            >
+            <HighlighterItem class="h-auto swiper-slide group/slide">
               <div
                 class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
               >
@@ -178,6 +171,7 @@
                 </div>
                 <div class="flex flex-col h-full p-6">
                   <img
+                    loading="lazy"
                     class="p-3 mb-4 border rounded-xl border-slate-600 bg-slate-900"
                     src="/images/download-linux.svg"
                     width="40"
@@ -206,10 +200,7 @@
                 </div>
               </div>
             </HighlighterItem>
-            <HighlighterItem
-              v-motion-fade
-              class="h-auto swiper-slide group/slide"
-            >
+            <HighlighterItem class="h-auto swiper-slide group/slide">
               <div
                 class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
               >
@@ -258,10 +249,7 @@
                 </div>
               </div>
             </HighlighterItem>
-            <HighlighterItem
-              v-motion-fade
-              class="h-auto swiper-slide group/slide"
-            >
+            <HighlighterItem class="h-auto swiper-slide group/slide">
               <div
                 class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
               >

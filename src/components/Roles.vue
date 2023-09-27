@@ -11,7 +11,7 @@
         <!-- Job list -->
         <div class="my-3 space-y-8 divide-y divide-slate-900">
           <!-- job -->
-          <div v-motion-fade class="py-3">
+          <div class="py-3">
             <div class="mb-2">
               <a
                 class="flex items-center justify-between text-xl font-bold transition text-violet-500 hover:text-slate-200"
@@ -39,7 +39,7 @@
             </div>
           </div>
           <!-- job -->
-          <div v-motion-fade class="py-3">
+          <div class="py-3">
             <div class="mb-2">
               <a
                 class="flex items-center justify-between text-xl font-bold transition text-violet-500 hover:text-slate-200"
@@ -67,7 +67,7 @@
             </div>
           </div>
           <!-- job -->
-          <div v-motion-fade class="py-3">
+          <div class="py-3">
             <div class="mb-2">
               <a
                 class="flex items-center justify-between text-xl font-bold transition text-violet-500 hover:text-slate-200"

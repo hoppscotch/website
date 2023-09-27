@@ -9,7 +9,7 @@
       },
     ],
   })
-  const source = `${window.location.host}${window.location.pathname}`
+  const source = `${location.host}${location.pathname}`
   const { copy, copied } = useClipboard({
     legacy: true,
   })
@@ -63,7 +63,7 @@
           </span>
         </div>
         <!-- Page content -->
-        <article v-motion-fade class="flex flex-col items-center space-y-8">
+        <article class="flex flex-col items-center space-y-8">
           <header class="flex flex-col w-full max-w-2xl">
             <div class="mb-4">
               <ul class="flex flex-wrap -m-1 text-sm">

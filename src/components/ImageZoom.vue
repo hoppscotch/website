@@ -44,5 +44,5 @@
 </script>
 
 <template>
-  <img :ref="attachZoom" />
+  <img :ref="attachZoom" loading="lazy" />
 </template>

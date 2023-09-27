@@ -13,7 +13,6 @@
         class="absolute -top-[1.0625rem] -left-1 h-[0.5625rem] w-[0.5625rem] rounded-full border-2 border-slate-600 bg-slate-900 md:top-[0.4375rem]"
       ></div>
       <div
-        v-motion-fade
         class="absolute right-0 inline-flex items-center mb-8 space-x-2 -top-6 md:static mt-[0.1rem]"
       >
         <span
@@ -29,7 +28,7 @@
           Improvement
         </span>
       </div>
-      <div v-motion-fade>
+      <div>
         <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-slate-200">
           <RouterLink to="/changelog/02-06-2023">
             Bug fixes and performance improvements

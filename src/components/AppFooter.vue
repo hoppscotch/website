@@ -323,6 +323,7 @@
                   aria-label="Hoppscotch"
                 >
                   <img
+                    loading="lazy"
                     src="/images/logo.svg"
                     width="32"
                     height="32"

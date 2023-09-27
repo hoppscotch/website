@@ -119,6 +119,7 @@
                   class="flex items-center justify-center h-64 p-8 border bg-slate-900 border-violet-500/20 rounded-t-xl"
                 >
                   <img
+                    loading="lazy"
                     src="/images/wordmark-primary-light.svg"
                     alt="Hoppscotch Primary"
                     class="h-16"
@@ -136,6 +137,7 @@
                   class="flex items-center justify-center h-64 p-8 border border-violet-500/20 bg-slate-950 rounded-t-xl"
                 >
                   <img
+                    loading="lazy"
                     src="/images/wordmark-primary-light.svg"
                     alt="Hoppscotch Primary Light"
                     class="h-16"
@@ -153,6 +155,7 @@
                   class="flex items-center justify-center h-64 p-8 bg-white border border-violet-500/20 rounded-t-xl"
                 >
                   <img
+                    loading="lazy"
                     src="/images/wordmark-primary-dark.svg"
                     alt="Hoppscotch Primary Dark"
                     class="h-16"
@@ -170,6 +173,7 @@
                   class="flex items-center justify-center h-64 p-8 border bg-slate-900 border-violet-500/20 rounded-t-xl"
                 >
                   <img
+                    loading="lazy"
                     src="/images/wordmark-monochrome-light.svg"
                     alt="Hoppscotch Monochrome"
                     class="h-16"
@@ -187,6 +191,7 @@
                   class="flex items-center justify-center h-64 p-8 border border-violet-500/20 bg-slate-950 rounded-t-xl"
                 >
                   <img
+                    loading="lazy"
                     src="/images/wordmark-monochrome-light.svg"
                     alt="Hoppscotch Light"
                     class="h-16"
@@ -204,6 +209,7 @@
                   class="flex items-center justify-center h-64 p-8 bg-white border border-violet-500/20 rounded-t-xl"
                 >
                   <img
+                    loading="lazy"
                     src="/images/wordmark-monochrome-dark.svg"
                     alt="Hoppscotch Dark"
                     class="h-16"
@@ -233,6 +239,7 @@
                   class="flex items-center justify-center h-64 p-8 border bg-slate-900 border-violet-500/20 rounded-t-xl"
                 >
                   <img
+                    loading="lazy"
                     src="/images/logo-primary-light.svg"
                     alt="Hoppscotch Primary"
                     class="h-16"
@@ -250,6 +257,7 @@
                   class="flex items-center justify-center h-64 p-8 border border-violet-500/20 bg-slate-950 rounded-t-xl"
                 >
                   <img
+                    loading="lazy"
                     src="/images/logo-primary-light.svg"
                     alt="Hoppscotch Primary Light"
                     class="h-16"
@@ -267,6 +275,7 @@
                   class="flex items-center justify-center h-64 p-8 bg-white border border-violet-500/20 rounded-t-xl"
                 >
                   <img
+                    loading="lazy"
                     src="/images/logo-primary-dark.svg"
                     alt="Hoppscotch Primary Dark"
                     class="h-16"
@@ -284,6 +293,7 @@
                   class="flex items-center justify-center h-64 p-8 border bg-slate-900 border-violet-500/20 rounded-t-xl"
                 >
                   <img
+                    loading="lazy"
                     src="/images/logo-monochrome-light.svg"
                     alt="Hoppscotch Monochrome"
                     class="h-16"
@@ -301,6 +311,7 @@
                   class="flex items-center justify-center h-64 p-8 border border-violet-500/20 bg-slate-950 rounded-t-xl"
                 >
                   <img
+                    loading="lazy"
                     src="/images/logo-monochrome-light.svg"
                     alt="Hoppscotch Light"
                     class="h-16"
@@ -318,6 +329,7 @@
                   class="flex items-center justify-center h-64 p-8 bg-white border border-violet-500/20 rounded-t-xl"
                 >
                   <img
+                    loading="lazy"
                     src="/images/logo-monochrome-dark.svg"
                     alt="Hoppscotch Dark"
                     class="h-16"
@@ -346,6 +358,7 @@
                   class="flex items-center justify-center h-64 p-8 border bg-slate-900 border-violet-500/20 rounded-t-xl"
                 >
                   <img
+                    loading="lazy"
                     src="/images/icon-primary.svg"
                     alt="Hoppscotch Primary"
                     class="h-16"

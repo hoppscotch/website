@@ -85,6 +85,7 @@
                     class="absolute inset-0 h-full -z-10"
                   >
                     <img
+                      loading="lazy"
                       class="relative w-16 h-16 p-1 border rounded-full -translate-x-1/2 top-11 left-1/2 border-violet-500/20"
                       :src="item.img"
                       :alt="item.name"

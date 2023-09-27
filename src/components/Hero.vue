@@ -51,19 +51,14 @@
         <div class="flex flex-col items-center max-w-4xl mx-auto text-center">
           <Announcement />
           <h1
-            v-motion-fade
             class="mb-8 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
           >
             Make Better APIs
           </h1>
-          <p
-            v-motion-fade
-            class="max-w-md mb-8 text-xl md:max-w-2xl text-slate-300"
-          >
+          <p class="max-w-md mb-8 text-xl md:max-w-2xl text-slate-300">
             Trusted by millions of developers to build, test and share APIs.
           </p>
           <div
-            v-motion-fade
             class="max-w-xs mx-auto space-y-4 sm:max-w-none sm:inline-flex sm:justify-center sm:space-y-0 sm:space-x-4"
           >
             <div>

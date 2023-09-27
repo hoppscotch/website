@@ -8,17 +8,17 @@
         <div class="pb-16 overflow-y-clip">
           <!-- Backdrop image -->
           <div class="absolute transform -translate-x-1/2 -z-1 left-1/2">
-            <div v-motion-slide-bottom class="duration-1000 -z-1">
+            <div v-motion-slide-visible-bottom class="duration-1000 -z-1">
               <div
                 class="h-[1026px] w-[1026px] bg-gradient-to-b from-violet-900/40 from-0% via-20% to-100% via-transparent to-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 -z-1 absolute border-violet-500/20"
               ></div>
             </div>
-            <div v-motion-slide-bottom class="duration-1000 -z-1">
+            <div v-motion-slide-visible-bottom class="duration-1000 -z-1">
               <div
                 class="h-[684px] w-[684px] shadow-2xl shadow-violet-500/60 bg-gradient-to-b from-violet-900/40 from-0% via-20% to-100% via-transparent to-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 -z-1 top-[160px] absolute border-violet-500/20"
               ></div>
             </div>
-            <div v-motion-slide-bottom class="duration-1000 -z-1">
+            <div v-motion-slide-visible-bottom class="duration-1000 -z-1">
               <div
                 class="h-[342px] w-[342px] shadow-2xl shadow-violet-500/60 bg-gradient-to-b from-violet-900/40 from-0% via-20% to-100% via-transparent to-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 -z-1 top-[300px] absolute border-violet-500/20"
               ></div>
@@ -28,16 +28,14 @@
           <div class="flex flex-col items-center max-w-4xl mx-auto text-center">
             <Announcement />
             <h2
-              v-motion-fade
               class="mb-8 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
             >
               Make Better APIs
             </h2>
-            <p v-motion-fade class="max-w-md mb-8 md:max-w-2xl text-slate-300">
+            <p class="max-w-md mb-8 md:max-w-2xl text-slate-300">
               Trusted by millions of developers to build, test and share APIs.
             </p>
             <div
-              v-motion-fade
               class="max-w-xs mx-auto space-y-4 sm:max-w-none sm:inline-flex sm:justify-center sm:space-y-0 sm:space-x-4"
             >
               <div>

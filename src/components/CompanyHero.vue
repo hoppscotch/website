@@ -69,7 +69,6 @@
         <!-- Section header -->
         <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
           <div
-            v-motion-fade
             class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-violet-500/10 border-violet-500/50"
           >
             <span
@@ -79,12 +78,11 @@
             </span>
           </div>
           <h2
-            v-motion-fade
             class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
           >
             You're in good company
           </h2>
-          <p v-motion-fade class="text-lg text-slate-400">
+          <p class="text-lg text-slate-400">
             We're a team of passionate designers and developers working together
             to build the most advanced and easy-to-use API development platform
             ever created.
@@ -95,23 +93,23 @@
           <ul
             class="flex flex-col flex-wrap items-center justify-center -mx-3 -my-8 text-md text-slate-200 sm:flex-row"
           >
-            <li v-motion-fade class="flex items-center mx-3 my-2">
+            <li class="flex items-center mx-3 my-2">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>Work Life Balance</span>
             </li>
-            <li v-motion-fade class="flex items-center mx-3 my-2">
+            <li class="flex items-center mx-3 my-2">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>Competitive Salary And Equity</span>
             </li>
-            <li v-motion-fade class="flex items-center mx-3 my-2">
+            <li class="flex items-center mx-3 my-2">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>5 Weeks Paid Vacation</span>
             </li>
-            <li v-motion-fade class="flex items-center mx-3 my-2">
+            <li class="flex items-center mx-3 my-2">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>Generous Gear Credit</span>
             </li>
-            <li v-motion-fade class="flex items-center mx-3 my-2">
+            <li class="flex items-center mx-3 my-2">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>Diversity and Inclusion</span>
             </li>
@@ -133,13 +131,14 @@
               </div>
               <!-- People pics -->
               <img
+                loading="lazy"
                 src="/images/worldmap.svg"
                 width="672"
                 height="330"
                 alt="World map"
               />
               <img
-                v-motion-fade
+                loading="lazy"
                 class="absolute rounded-full"
                 style="top: 22%; left: 52%"
                 src="/images/world-user-01.jpg"
@@ -148,7 +147,7 @@
                 alt="User 01"
               />
               <img
-                v-motion-fade
+                loading="lazy"
                 class="absolute rounded-full"
                 style="top: 50%; left: 58%"
                 src="/images/world-user-02.jpg"
@@ -157,7 +156,7 @@
                 alt="User 02"
               />
               <img
-                v-motion-fade
+                loading="lazy"
                 class="absolute rounded-full"
                 style="top: 8.5%; left: 70.5%"
                 src="/images/world-user-03.jpg"
@@ -166,7 +165,7 @@
                 alt="User 02"
               />
               <img
-                v-motion-fade
+                loading="lazy"
                 class="absolute rounded-full"
                 style="top: 34%; left: 76.5%"
                 src="/images/world-user-04.jpg"
@@ -175,7 +174,7 @@
                 alt="User 04"
               />
               <img
-                v-motion-fade
+                loading="lazy"
                 class="absolute rounded-full"
                 style="top: 29.5%; left: 8.5%"
                 src="/images/world-user-05.jpg"
@@ -184,7 +183,7 @@
                 alt="User 05"
               />
               <img
-                v-motion-fade
+                loading="lazy"
                 class="absolute rounded-full"
                 style="top: 56%; left: 19%"
                 src="/images/world-user-06.jpg"
@@ -193,7 +192,7 @@
                 alt="User 06"
               />
               <img
-                v-motion-fade
+                loading="lazy"
                 class="absolute rounded-full"
                 style="top: 20%; left: 24.5%"
                 src="/images/world-user-07.jpg"
@@ -202,7 +201,7 @@
                 alt="User 07"
               />
               <img
-                v-motion-fade
+                loading="lazy"
                 class="absolute rounded-full"
                 style="top: 39%; left: 43%"
                 src="/images/world-user-08.jpg"
@@ -227,6 +226,7 @@
                 <div v-show="active === index" class="text-center">
                   <div class="inline-flex flex-col justify-center mb-4">
                     <img
+                      loading="lazy"
                       class="p-2 border-2 rounded-full border-violet-500"
                       :src="item.img"
                       width="64"

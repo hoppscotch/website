@@ -36,7 +36,6 @@
         <!-- Section header -->
         <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
           <div
-            v-motion-fade
             class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-violet-500/10 border-violet-500/50"
           >
             <span
@@ -66,10 +65,7 @@
               :refresh="swiperInitialized"
             >
               <!-- Carousel items -->
-              <HighlighterItem
-                v-motion-fade
-                class="h-auto swiper-slide group/slide"
-              >
+              <HighlighterItem class="h-auto swiper-slide group/slide">
                 <div
                   class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
                 >
@@ -92,6 +88,7 @@
                   </div>
                   <div class="flex flex-col h-full p-6">
                     <img
+                      loading="lazy"
                       class="mb-3"
                       src="/images/carousel-icon-01.svg"
                       width="56"
@@ -123,10 +120,7 @@
                   </div>
                 </div>
               </HighlighterItem>
-              <HighlighterItem
-                v-motion-fade
-                class="h-auto swiper-slide group/slide"
-              >
+              <HighlighterItem class="h-auto swiper-slide group/slide">
                 <div
                   class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
                 >
@@ -149,6 +143,7 @@
                   </div>
                   <div class="flex flex-col h-full p-6">
                     <img
+                      loading="lazy"
                       class="mb-3"
                       src="/images/carousel-icon-02.svg"
                       width="56"
@@ -177,10 +172,7 @@
                   </div>
                 </div>
               </HighlighterItem>
-              <HighlighterItem
-                v-motion-fade
-                class="h-auto swiper-slide group/slide"
-              >
+              <HighlighterItem class="h-auto swiper-slide group/slide">
                 <div
                   class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
                 >
@@ -203,6 +195,7 @@
                   </div>
                   <div class="flex flex-col h-full p-6">
                     <img
+                      loading="lazy"
                       class="mb-3"
                       src="/images/carousel-icon-03.svg"
                       width="56"
@@ -231,10 +224,7 @@
                   </div>
                 </div>
               </HighlighterItem>
-              <HighlighterItem
-                v-motion-fade
-                class="h-auto swiper-slide group/slide"
-              >
+              <HighlighterItem class="h-auto swiper-slide group/slide">
                 <div
                   class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
                 >
@@ -257,6 +247,7 @@
                   </div>
                   <div class="flex flex-col h-full p-6">
                     <img
+                      loading="lazy"
                       class="mb-3"
                       src="/images/carousel-icon-04.svg"
                       width="56"
@@ -288,10 +279,7 @@
                   </div>
                 </div>
               </HighlighterItem>
-              <HighlighterItem
-                v-motion-fade
-                class="h-auto swiper-slide group/slide"
-              >
+              <HighlighterItem class="h-auto swiper-slide group/slide">
                 <div
                   class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
                 >
@@ -314,6 +302,7 @@
                   </div>
                   <div class="flex flex-col h-full p-6">
                     <img
+                      loading="lazy"
                       class="mb-3"
                       src="/images/carousel-icon-05.svg"
                       width="56"

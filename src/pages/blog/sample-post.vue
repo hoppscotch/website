@@ -45,7 +45,7 @@
       },
     ],
   })
-  const source = `${window.location.host}${window.location.pathname}`
+  const source = `${location.host}${location.pathname}`
   const { copy, copied } = useClipboard({
     legacy: true,
   })
@@ -58,7 +58,7 @@
         <!-- Section header -->
         <BlogPostHeader :copied="copied" @copy="copy(source)" />
         <!-- Blog content -->
-        <article v-motion-fade class="flex flex-col items-center space-y-8">
+        <article class="flex flex-col items-center space-y-8">
           <header class="flex flex-col w-full max-w-2xl">
             <div class="mb-4">
               <ul class="flex flex-wrap -m-1 text-sm">
@@ -79,6 +79,7 @@
             </h3>
             <div class="flex items-center">
               <img
+                loading="lazy"
                 class="mr-4 rounded-full shrink-0"
                 src="/images/blog-author-01.jpg"
                 width="32"
