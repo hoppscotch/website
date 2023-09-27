@@ -1,7 +1,7 @@
 <template>
   <div
     id="newsletter"
-    class="flex flex-col items-center max-w-6xl px-4 py-12 mx-auto before:absolute before:h-px before:inset-x-0 before:top-0 before:bg-gradient-to-r before:from-transparent before:via-violet-400/10 before:to-transparent"
+    class="flex flex-col items-center max-w-6xl px-4 py-12 mx-auto before:absolute before:h-px before:inset-x-0 before:top-0 before:bg-gradient-to-r before:from-transparent before:via-violet-500/20 before:to-transparent"
   >
     <h4
       class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
@@ -23,7 +23,7 @@
       <input
         id="mce-EMAIL"
         placeholder="Email"
-        class="w-full border-0 rounded bg-violet-500/10 backdrop-blur-md placeholder:text-violet-400/20 focus:ring-0 focus:outline-1 focus:outline-offset-4 focus:outline-white/10"
+        class="w-full px-4 py-2 border rounded-full transition border-violet-500/20 bg-gradient-to-b from-slate-950 via-slate-950 to-slate-900 hover:border-violet-500/60 backdrop-blur-md placeholder:text-violet-500"
         type="email"
         required
         name="EMAIL"
@@ -33,7 +33,7 @@
         type="submit"
         value="Subscribe"
         name="subscribe"
-        class="px-4 py-2 mt-4 ml-0 text-sm font-semibold rounded transition bg-violet-600 hover:bg-violet-500 sm:mt-0 sm:ml-4"
+        class="px-4 py-2 mt-4 ml-0 text-sm font-semibold border rounded-full transition bg-gradient-to-b border-violet-500 from-slate-950 via-slate-900 to-violet-900 hover:to-violet-500 sm:mt-0 sm:ml-4 hover:border-violet-600"
       />
     </form>
   </div>

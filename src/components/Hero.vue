@@ -33,17 +33,17 @@
         <div class="absolute transform -translate-x-1/2 -z-1 left-1/2">
           <div v-motion-slide-bottom class="duration-1000 -z-1">
             <div
-              class="h-[1026px] w-[1026px] bg-gradient-to-b from-violet-900/40 from-0% via-20% to-100% via-transparent to-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 -z-1 absolute border-violet-400/10"
+              class="h-[1026px] w-[1026px] bg-gradient-to-b from-violet-900/40 from-0% via-20% to-100% via-transparent to-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 -z-1 absolute border-violet-500/20"
             ></div>
           </div>
           <div v-motion-slide-bottom class="duration-1000 -z-1">
             <div
-              class="h-[684px] w-[684px] shadow-2xl shadow-violet-500/60 bg-gradient-to-b from-violet-900/40 from-0% via-20% to-100% via-transparent to-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 -z-1 top-[160px] absolute border-violet-400/10"
+              class="h-[684px] w-[684px] shadow-2xl shadow-violet-500/60 bg-gradient-to-b from-violet-900/40 from-0% via-20% to-100% via-transparent to-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 -z-1 top-[160px] absolute border-violet-500/20"
             ></div>
           </div>
           <div v-motion-slide-bottom class="duration-1000 -z-1">
             <div
-              class="h-[342px] w-[342px] shadow-2xl shadow-violet-500/60 bg-gradient-to-b from-violet-900/40 from-0% via-20% to-100% via-transparent to-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 -z-1 top-[300px] absolute border-violet-400/10"
+              class="h-[342px] w-[342px] shadow-2xl shadow-violet-500/60 bg-gradient-to-b from-violet-900/40 from-0% via-20% to-100% via-transparent to-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 -z-1 top-[300px] absolute border-violet-500/20"
             ></div>
           </div>
         </div>
@@ -90,7 +90,7 @@
             </div>
             <div>
               <RouterLink
-                class="inline-flex items-center justify-center w-full px-4 py-2 text-sm bg-white border rounded-full transition border-violet-400/10 bg-opacity-10 text-slate-200 backdrop-blur-md hover:text-white hover:border-violet-400/20 hover:bg-opacity-20"
+                class="inline-flex items-center justify-center w-full px-4 py-2 text-sm bg-white border rounded-full transition border-violet-500/20 bg-opacity-10 text-slate-200 backdrop-blur-md hover:text-white hover:border-violet-500/20 hover:bg-opacity-20"
                 to="/products/self-host"
               >
                 Self-Host from GitHub
@@ -126,7 +126,7 @@
               class="absolute inset-[-1000%] animate-[spin_12s_linear_infinite_6s] bg-[conic-gradient(from_225deg_at_50%_50%,_theme(colors.transparent)_0%,_theme(colors.transparent)_92%,_theme(colors.violet.800)_95%,_theme(colors.violet.500)_100%)]"
             ></span>
             <div
-              class="relative inline-flex items-center justify-center w-full h-full rounded-lg ring ring-violet-400/10 md:rounded-xl bg-slate-950"
+              class="relative inline-flex items-center justify-center w-full h-full rounded-lg ring ring-violet-500/20 md:rounded-xl bg-slate-950"
             >
               <img src="/images/screenshot-1.png" alt="Screenshot" />
             </div>
@@ -155,7 +155,7 @@
       :modal-open="videoModalOpen"
       @close-modal="videoModalOpen = false"
     >
-      <div class="p-1 border rounded-2xl bg-white/10 border-violet-400/10">
+      <div class="p-1 border rounded-2xl bg-white/10 border-violet-500/20">
         <div
           class="relative w-full h-full overflow-hidden border border-slate-950 rounded-xl"
         >

@@ -88,7 +88,7 @@
         </div>
         <div class="px-8 pt-32 grid grid-cols-1 gap-4 md:grid-cols-2">
           <div
-            class="relative p-8 overflow-hidden border border-violet-400/10 rounded-xl"
+            class="relative p-8 overflow-hidden border border-violet-500/20 rounded-xl"
           >
             <div
               class="absolute inset-0 flex items-center justify-center bg-black/10 -z-10"
@@ -112,7 +112,7 @@
             </p>
           </div>
           <div
-            class="relative p-8 overflow-hidden border border-violet-400/10 rounded-xl"
+            class="relative p-8 overflow-hidden border border-violet-500/20 rounded-xl"
           >
             <div
               class="absolute inset-0 flex items-center justify-center bg-black/10 -z-10"

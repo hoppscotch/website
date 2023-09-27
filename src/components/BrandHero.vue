@@ -116,7 +116,7 @@
             <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3">
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border bg-slate-900 border-violet-400/10 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-slate-900 border-violet-500/20 rounded-t-xl"
                 >
                   <img
                     src="/images/wordmark-primary-light.svg"
@@ -125,7 +125,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-400/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-500/20 rounded-b-xl"
                 >
                   Wordmark Primary
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -133,7 +133,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border border-violet-400/10 bg-slate-950 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border border-violet-500/20 bg-slate-950 rounded-t-xl"
                 >
                   <img
                     src="/images/wordmark-primary-light.svg"
@@ -142,7 +142,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-400/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-500/20 rounded-b-xl"
                 >
                   Wordmark Primary Light
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -150,7 +150,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 bg-white border border-violet-400/10 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 bg-white border border-violet-500/20 rounded-t-xl"
                 >
                   <img
                     src="/images/wordmark-primary-dark.svg"
@@ -159,7 +159,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-400/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-500/20 rounded-b-xl"
                 >
                   Wordmark Primary Dark
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -167,7 +167,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border bg-slate-900 border-violet-400/10 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-slate-900 border-violet-500/20 rounded-t-xl"
                 >
                   <img
                     src="/images/wordmark-monochrome-light.svg"
@@ -176,7 +176,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-400/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-500/20 rounded-b-xl"
                 >
                   Wordmark Monochrome
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -184,7 +184,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border border-violet-400/10 bg-slate-950 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border border-violet-500/20 bg-slate-950 rounded-t-xl"
                 >
                   <img
                     src="/images/wordmark-monochrome-light.svg"
@@ -193,7 +193,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-400/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-500/20 rounded-b-xl"
                 >
                   Wordmark Monochrome Light
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -201,7 +201,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 bg-white border border-violet-400/10 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 bg-white border border-violet-500/20 rounded-t-xl"
                 >
                   <img
                     src="/images/wordmark-monochrome-dark.svg"
@@ -210,7 +210,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-400/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-500/20 rounded-b-xl"
                 >
                   Wordmark Monochrome Dark
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -230,7 +230,7 @@
             <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3">
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border bg-slate-900 border-violet-400/10 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-slate-900 border-violet-500/20 rounded-t-xl"
                 >
                   <img
                     src="/images/logo-primary-light.svg"
@@ -239,7 +239,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-400/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-500/20 rounded-b-xl"
                 >
                   Logo Primary
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -247,7 +247,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border border-violet-400/10 bg-slate-950 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border border-violet-500/20 bg-slate-950 rounded-t-xl"
                 >
                   <img
                     src="/images/logo-primary-light.svg"
@@ -256,7 +256,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-400/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-500/20 rounded-b-xl"
                 >
                   Logo Primary Light
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -264,7 +264,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 bg-white border border-violet-400/10 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 bg-white border border-violet-500/20 rounded-t-xl"
                 >
                   <img
                     src="/images/logo-primary-dark.svg"
@@ -273,7 +273,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-400/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-500/20 rounded-b-xl"
                 >
                   Logo Primary Dark
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -281,7 +281,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border bg-slate-900 border-violet-400/10 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-slate-900 border-violet-500/20 rounded-t-xl"
                 >
                   <img
                     src="/images/logo-monochrome-light.svg"
@@ -290,7 +290,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-400/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-500/20 rounded-b-xl"
                 >
                   Logo Monochrome
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -298,7 +298,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border border-violet-400/10 bg-slate-950 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border border-violet-500/20 bg-slate-950 rounded-t-xl"
                 >
                   <img
                     src="/images/logo-monochrome-light.svg"
@@ -307,7 +307,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-400/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-500/20 rounded-b-xl"
                 >
                   Logo Monochrome Light
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -315,7 +315,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 bg-white border border-violet-400/10 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 bg-white border border-violet-500/20 rounded-t-xl"
                 >
                   <img
                     src="/images/logo-monochrome-dark.svg"
@@ -324,7 +324,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-400/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-500/20 rounded-b-xl"
                 >
                   Logo Monochrome Dark
                   <icon-lucide-arrow-down-to-line />
@@ -343,7 +343,7 @@
             <div class="mt-8 grid grid-cols-1 gap-8">
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border bg-slate-900 border-violet-400/10 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-slate-900 border-violet-500/20 rounded-t-xl"
                 >
                   <img
                     src="/images/icon-primary.svg"
@@ -352,7 +352,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-400/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-500/20 rounded-b-xl"
                 >
                   Icon Primary
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -374,12 +374,12 @@
             <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3">
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border bg-violet-500 border-violet-400/10 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-violet-500 border-violet-500/20 rounded-t-xl"
                 >
                   #A855F7
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-400/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-500/20 rounded-b-xl"
                 >
                   Primary color
                   <button
@@ -398,12 +398,12 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border bg-slate-950 border-violet-400/10 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-slate-950 border-violet-500/20 rounded-t-xl"
                 >
                   #020617
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-400/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-500/20 rounded-b-xl"
                 >
                   Secondary color
                   <button
@@ -422,12 +422,12 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border bg-slate-500 border-violet-400/10 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-slate-500 border-violet-500/20 rounded-t-xl"
                 >
                   #64748B
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-400/10 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-violet-500/20 rounded-b-xl"
                 >
                   Tertiary color
                   <button

@@ -55,7 +55,7 @@
     }"
   >
     <div
-      class="container px-4 py-4 transition sm:px-6 after:absolute after:h-px after:inset-x-0 after:bottom-0 after:bg-gradient-to-r after:from-transparent after:via-violet-400/10 after:to-transparent"
+      class="container px-4 py-4 transition sm:px-6 after:-z-10 after:absolute after:h-px after:inset-x-0 after:bottom-0 after:bg-gradient-to-r after:from-transparent after:via-violet-500/20 after:to-transparent"
       :class="{
         'overflow-y-auto h-full overscroll-contain': !isMobileMenuClosed,
       }"
@@ -84,7 +84,7 @@
         <!-- Desktop menu links -->
         <div
           ref="targetElem"
-          class="items-center justify-start flex-shrink-0 hidden p-1 border rounded-full flex-nowrap md:flex border-violet-400/10"
+          class="items-center justify-start flex-shrink-0 hidden p-1 border rounded-full flex-nowrap md:flex border-violet-500/20"
         >
           <div class="relative flex items-center group">
             <tippy interactive theme="popover" class="rounded-full">
@@ -564,7 +564,7 @@
               </template>
             </tippy>
             <div
-              class="absolute h-full border rounded-full opacity-0 duration-200 group-hover:opacity-100 -z-1 border-violet-200/10 bg-violet-200/5 backdrop-blur-md"
+              class="absolute h-full border rounded-full opacity-0 duration-200 group-hover:opacity-100 -z-1 border-violet-200/10 bg-violet-200/10 backdrop-blur-md"
               :style="{
                 left: `${glider.left}px`,
                 width: `${glider.width}px`,
@@ -604,7 +604,7 @@
           class="flex items-center justify-end flex-1 md:hidden"
         >
           <li
-            class="flex border rounded-full bg-white/10 backdrop-blur-md border-violet-400/10"
+            class="flex border rounded-full bg-white/10 backdrop-blur-md border-violet-500/20"
           >
             <button
               class="flex items-center justify-center px-3 py-1 text-sm rounded-full transition text-slate-200 hover:text-white"
@@ -628,7 +628,7 @@
           class="flex items-center justify-end flex-1 flex-nowrap"
         >
           <li
-            class="flex border rounded-full bg-white/10 backdrop-blur-md border-violet-400/10"
+            class="flex border rounded-full bg-white/10 backdrop-blur-md border-violet-500/20"
           >
             <a
               class="flex items-center justify-center px-3 py-1 text-sm rounded-full transition text-slate-200 hover:text-white"
