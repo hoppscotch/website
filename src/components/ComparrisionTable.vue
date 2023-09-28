@@ -155,7 +155,7 @@
 
 <template>
   <div class="relative py-12 md:py-16">
-    <div class="max-w-6xl px-4 mx-auto sm:px-6">
+    <div class="max-w-5xl px-4 mx-auto sm:px-6">
       <!-- Feature comparison (up to lg) -->
       <section aria-labelledby="mobile-comparison-heading" class="lg:hidden">
         <h2 id="mobile-comparison-heading" class="sr-only">

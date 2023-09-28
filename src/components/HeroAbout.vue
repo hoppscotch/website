@@ -15,7 +15,7 @@
       class="absolute inset-0 bg-gradient-to-t from-slate-950"
       aria-hidden="true"
     ></div>
-    <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
+    <div class="relative max-w-5xl px-4 mx-auto sm:px-6">
       <div class="pt-32 pb-12 md:pt-40 md:pb-20">
         <div class="text-center">
           <div class="relative flex items-center justify-center">

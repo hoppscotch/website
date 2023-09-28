@@ -13,7 +13,7 @@
         ></div>
       </div>
     </div>
-    <div class="max-w-6xl px-4 mx-auto sm:px-6">
+    <div class="max-w-5xl px-4 mx-auto sm:px-6">
       <div class="pt-32 pb-24">
         <!-- Section header -->
         <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
@@ -291,7 +291,7 @@
         </div>
         <!-- Integration boxes -->
         <div
-          class="relative max-w-xs mx-auto mt-10 grid grid-cols-2 gap-6 sm:max-w-md md:max-w-6xl sm:grid-cols-3 md:grid-cols-6 md:mt-20"
+          class="relative max-w-xs mx-auto mt-10 grid grid-cols-2 gap-6 sm:max-w-md md:max-w-5xl sm:grid-cols-3 md:grid-cols-6 md:mt-20"
         >
           <!-- Top vertical line -->
           <div

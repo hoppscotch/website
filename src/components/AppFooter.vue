@@ -14,7 +14,7 @@
       </div>
     </div>
     <Newsletter />
-    <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
+    <div class="relative max-w-5xl px-4 mx-auto sm:px-6">
       <!-- Blocks -->
       <div class="py-4 grid gap-8 sm:grid-cols-12 md:py-8">
         <!-- block -->

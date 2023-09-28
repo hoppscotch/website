@@ -45,7 +45,7 @@
         </div>
       </div>
     </div>
-    <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
+    <div class="relative max-w-5xl px-4 mx-auto sm:px-6">
       <div class="py-12 md:py-16">
         <!-- Locations -->
         <div

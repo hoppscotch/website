@@ -22,9 +22,9 @@
 
 <template>
   <section>
-    <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
+    <div class="relative max-w-5xl px-4 mx-auto sm:px-6">
       <!-- Particles animation -->
-      <div class="absolute inset-0 max-w-6xl px-4 mx-auto sm:px-6">
+      <div class="absolute inset-0 max-w-5xl px-4 mx-auto sm:px-6">
         <ClientOnly>
           <Particles class="absolute inset-0 -z-10" :quantity="5" />
         </ClientOnly>

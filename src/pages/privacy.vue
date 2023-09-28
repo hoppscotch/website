@@ -17,7 +17,7 @@
 
 <template>
   <section>
-    <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
+    <div class="relative max-w-5xl px-4 mx-auto sm:px-6">
       <div class="pt-32 pb-24">
         <!-- Section header -->
         <div class="flex items-center justify-between py-12 md:py-16">

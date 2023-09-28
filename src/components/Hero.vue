@@ -9,7 +9,7 @@
 
 <template>
   <section>
-    <div class="relative max-w-6xl px-4 mx-auto overflow-y-clip sm:px-6">
+    <div class="relative max-w-5xl px-4 mx-auto overflow-y-clip sm:px-6">
       <!-- Radial gradient -->
       <div
         class="absolute inset-0 overflow-hidden pointer-events-none -z-10"
@@ -28,7 +28,7 @@
         <Particles class="absolute inset-0 -z-10" />
       </ClientOnly>
       <!-- Hero content -->
-      <div class="pt-32 pb-16 overflow-y-clip md:pt-40">
+      <div class="relative pt-32 pb-16 overflow-y-clip md:pt-40">
         <!-- Backdrop image -->
         <div class="absolute transform -translate-x-1/2 -z-1 left-1/2">
           <div v-motion-slide-bottom class="duration-1000 -z-1">
@@ -48,7 +48,9 @@
           </div>
         </div>
         <!-- Content -->
-        <div class="flex flex-col items-center max-w-4xl mx-auto text-center">
+        <div
+          class="relative flex flex-col items-center max-w-4xl mx-auto text-center"
+        >
           <Announcement />
           <h1
             class="mb-8 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"

@@ -1,7 +1,7 @@
 <template>
   <div
     id="newsletter"
-    class="flex flex-col items-center max-w-6xl px-4 py-12 mx-auto before:absolute before:h-px before:inset-x-0 before:top-0 before:bg-gradient-to-r before:from-transparent before:via-violet-500/20 before:to-transparent"
+    class="flex flex-col items-center max-w-5xl px-4 py-12 mx-auto before:absolute before:h-px before:inset-x-0 before:top-0 before:bg-gradient-to-r before:from-transparent before:via-violet-500/20 before:to-transparent"
   >
     <h4
       class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"

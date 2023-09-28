@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="max-w-6xl px-4 mx-auto">
+    <div class="max-w-5xl px-4 mx-auto">
       <div class="py-12 md:py-16">
         <div class="max-w-4xl mx-auto">
           <div class="text-md text-slate-300">

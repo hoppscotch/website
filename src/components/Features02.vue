@@ -12,7 +12,7 @@
         />
       </ClientOnly>
     </div>
-    <div class="max-w-6xl px-4 mx-auto sm:px-6">
+    <div class="max-w-5xl px-4 mx-auto sm:px-6">
       <div class="py-12 md:py-16">
         <!-- Section header -->
         <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
@@ -31,9 +31,7 @@
             Faster. Smarter.
           </h2>
           <p class="text-lg text-slate-400">
-            Hoppscotch is a collaborative open source API development platform
-            that makes it easy to build high-quality APIs — without the bloat
-            and clutter of other tools.
+            Precision. Elegance. Performance.
           </p>
         </div>
         <!-- Highlighted boxes -->
@@ -67,7 +65,7 @@
           <!-- Grid -->
           <Highlighter class="grid gap-6 md:grid-cols-12 group">
             <!-- Box #1 -->
-            <div class="md:col-span-12">
+            <div class="grid md:col-span-12">
               <HighlighterItem>
                 <div
                   class="relative bg-slate-950/90 backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
@@ -121,20 +119,18 @@
                       ></div>
                     </div>
                     <!-- Text -->
-                    <div class="max-w-lg p-8">
-                      <div class="flex flex-col items-start mb-6">
-                        <h3
-                          class="inline-flex pb-1 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
-                        >
-                          Optimized for speed
-                        </h3>
-                        <p class="text-slate-400">
+                    <div class="p-8">
+                      <div class="flex flex-col items-center text-center">
+                        <icon-lucide-command class="w-6 h-6 mb-4" />
+                        <h5 class="inline-flex pb-2 text-xl">
+                          Keyboard Shortcuts
+                        </h5>
+                        <p class="w-3/4 text-slate-400">
                           Fly through your tasks with rapid-fire keyboard
-                          shortcuts for everything. Literally everything. Built
-                          for speed with 50ms interactions and real-time sync.
+                          shortcuts for everything.
                         </p>
                       </div>
-                      <RouterLink
+                      <!-- <RouterLink
                         class="text-sm inline-flex items-center justify-center border border-transparent rounded-full px-3 py-1 text-slate-200 hover:text-white transition group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
                         to="/"
                       >
@@ -146,17 +142,15 @@
                             <icon-lucide-arrow-right />
                           </span>
                         </span>
-                      </RouterLink>
+                      </RouterLink> -->
                     </div>
                     <!-- Image -->
                     <div class="relative w-full p-2 overflow-hidden">
                       <div
-                        class="flex items-center justify-center border h-96 rounded-2xl border-violet-500/25 bg-violet-500/5 backdrop-blur-md"
+                        class="flex items-start justify-start px-8 overflow-hidden border h-80 rounded-2xl border-violet-500/25 bg-violet-500/5 backdrop-blur-md"
                       >
-                        <!-- <img loading="lazy"
-                          src="/images/feature-image-01.png"
-                          alt="Feature 01"
-                        /> -->
+                        <!-- Keyboard -->
+                        <MacKeyboard class="mx-auto -mt-8" />
                       </div>
                     </div>
                   </div>
@@ -164,7 +158,7 @@
               </HighlighterItem>
             </div>
             <!-- Box #2 -->
-            <div class="md:col-span-6">
+            <div class="grid md:col-span-7">
               <HighlighterItem>
                 <div
                   class="relative bg-slate-950/90 backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
@@ -180,23 +174,20 @@
                       ></div>
                     </div>
                     <!-- Text -->
-                    <div class="max-w-lg p-8">
-                      <div>
-                        <h3
-                          class="inline-flex pb-1 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
-                        >
-                          Extensibility
-                        </h3>
-                        <p class="text-slate-400">
-                          Start building on top of the most powerful and
-                          extensible API platform ever created.
+                    <div class="p-8">
+                      <div class="flex flex-col items-center text-center">
+                        <icon-lucide-terminal-square class="w-6 h-6 mb-4" />
+                        <h5 class="inline-flex pb-2 text-xl">CMD + K</h5>
+                        <p class="w-3/4 text-slate-400">
+                          Access the command palette by pressing CMD+K and type
+                          your query for results.
                         </p>
                       </div>
                     </div>
                     <!-- Image -->
                     <div class="relative w-full p-2 overflow-hidden">
                       <div
-                        class="flex items-center justify-center border h-96 rounded-2xl border-violet-500/25 bg-violet-500/5 backdrop-blur-md"
+                        class="flex items-start justify-start px-8 overflow-hidden border h-80 rounded-2xl border-violet-500/25 bg-violet-500/5 backdrop-blur-md"
                       >
                         <!-- <img loading="lazy"
                           src="/images/feature-image-02.png"
@@ -209,7 +200,7 @@
               </HighlighterItem>
             </div>
             <!-- Box #3 -->
-            <div class="md:col-span-6">
+            <div class="grid md:col-span-5">
               <HighlighterItem>
                 <div
                   class="relative bg-slate-950/90 backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
@@ -225,23 +216,20 @@
                       ></div>
                     </div>
                     <!-- Text -->
-                    <div class="max-w-lg p-8">
-                      <div>
-                        <h3
-                          class="inline-flex pb-1 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
-                        >
-                          Open source
-                        </h3>
-                        <p class="text-slate-400">
-                          Built on top of open-source technologies, we takes
-                          your privacy to the next level.
+                    <div class="p-8">
+                      <div class="flex flex-col items-center text-center">
+                        <icon-lucide-globe class="w-6 h-6 mb-4" />
+                        <h5 class="inline-flex pb-2 text-xl">Open source</h5>
+                        <p class="w-3/4 text-slate-400">
+                          Built on top of open source technologies and
+                          contributions.
                         </p>
                       </div>
                     </div>
                     <!-- Image -->
                     <div class="relative w-full p-2 overflow-hidden">
                       <div
-                        class="flex items-center justify-center border h-96 rounded-2xl border-violet-500/25 bg-violet-500/5 backdrop-blur-md"
+                        class="flex items-start justify-start px-8 overflow-hidden border h-80 rounded-2xl border-violet-500/25 bg-violet-500/5 backdrop-blur-md"
                       >
                         <!-- <img loading="lazy"
                           src="/images/feature-image-03.png"

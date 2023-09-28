@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
+    <div class="relative max-w-5xl px-4 mx-auto sm:px-6">
       <!-- Radial gradient -->
       <div
         class="absolute inset-0 overflow-hidden pointer-events-none -z-10"
@@ -143,7 +143,7 @@
   </section>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
   @for $i from 1 through 3 {
     .moon:nth-child(#{$i}) {
       @apply absolute;

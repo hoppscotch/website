@@ -1,10 +1,10 @@
 <template>
   <section>
-    <div class="max-w-6xl px-4 mx-auto sm:px-6">
+    <div class="max-w-5xl px-4 mx-auto sm:px-6">
       <div class="pt-6 pb-12 md:pt-8 md:pb-20">
         <!-- Items -->
         <div
-          class="items-start max-w-sm mx-auto grid grid-cols-2 gap-4 gap-y-8 sm:gap-8 md:grid-cols-4 md:max-w-6xl"
+          class="items-start max-w-sm mx-auto grid grid-cols-2 gap-4 gap-y-8 sm:gap-8 md:grid-cols-4 md:max-w-5xl"
         >
           <!-- item -->
           <div class="relative flex flex-col items-center">
