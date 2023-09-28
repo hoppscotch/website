@@ -16,7 +16,7 @@
               y2="100%"
             >
               <stop offset="0%" stop-color="#A855F7" />
-              <stop offset="100%" stop-color="#6366F1" stop-opacity="0" />
+              <stop offset="100%" stop-color="#2e1065" stop-opacity="0" />
             </linearGradient>
           </defs>
           <path

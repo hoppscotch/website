@@ -50,8 +50,8 @@
                   y1="14.544%"
                   y2="100%"
                 >
-                  <stop offset="0%" stop-color="#6366F1" />
-                  <stop offset="100%" stop-color="#6366F1" stop-opacity="0" />
+                  <stop offset="0%" stop-color="#2e1065" />
+                  <stop offset="100%" stop-color="#2e1065" stop-opacity="0" />
                 </linearGradient>
               </defs>
               <path
@@ -68,9 +68,9 @@
             <div class="grid md:col-span-12">
               <HighlighterItem>
                 <div
-                  class="relative bg-slate-950/90 backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative bg-slate-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
                 >
-                  <div class="flex flex-col">
+                  <div class="flex flex-col h-full">
                     <!-- Blurred shape -->
                     <div
                       class="absolute top-0 right-0 blur-2xl"
@@ -89,10 +89,10 @@
                             y1="14.544%"
                             y2="100%"
                           >
-                            <stop offset="0%" stop-color="#6366F1" />
+                            <stop offset="0%" stop-color="#2e1065" />
                             <stop
                               offset="100%"
-                              stop-color="#6366F1"
+                              stop-color="#2e1065"
                               stop-opacity="0"
                             />
                           </linearGradient>
@@ -108,24 +108,21 @@
                     </div>
                     <!-- Radial gradient -->
                     <div
-                      class="absolute bottom-0 flex items-center justify-center h-full pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
+                      class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                       aria-hidden="true"
                     >
                       <div
-                        class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-10"
-                      ></div>
-                      <div
-                        class="absolute w-1/4 h-1/4 translate-z-0 bg-violet-400 rounded-full blur-[40px] opacity-10"
+                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-20"
                       ></div>
                     </div>
                     <!-- Text -->
-                    <div class="p-8">
+                    <div class="flex items-start justify-center flex-1 p-8">
                       <div class="flex flex-col items-center text-center">
                         <icon-lucide-command class="w-6 h-6 mb-4" />
                         <h5 class="inline-flex pb-2 text-xl">
                           Keyboard Shortcuts
                         </h5>
-                        <p class="w-3/4 text-slate-400">
+                        <p class="w-full text-slate-400">
                           Fly through your tasks with rapid-fire keyboard
                           shortcuts for everything.
                         </p>
@@ -145,14 +142,7 @@
                       </RouterLink> -->
                     </div>
                     <!-- Image -->
-                    <div class="relative w-full p-2 overflow-hidden">
-                      <div
-                        class="flex items-start justify-start px-8 overflow-hidden border h-80 rounded-2xl border-violet-500/25 bg-violet-500/5 backdrop-blur-md"
-                      >
-                        <!-- Keyboard -->
-                        <MacKeyboard class="mx-auto -mt-8" />
-                      </div>
-                    </div>
+                    <MacKeyboard />
                   </div>
                 </div>
               </HighlighterItem>
@@ -161,20 +151,20 @@
             <div class="grid md:col-span-7">
               <HighlighterItem>
                 <div
-                  class="relative bg-slate-950/90 backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative bg-slate-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
                 >
-                  <div class="flex flex-col">
+                  <div class="flex flex-col h-full">
                     <!-- Radial gradient -->
                     <div
                       class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                       aria-hidden="true"
                     >
                       <div
-                        class="absolute inset-0 translate-z-0 bg-slate-900 rounded-full blur-[80px]"
+                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-20"
                       ></div>
                     </div>
                     <!-- Text -->
-                    <div class="p-8">
+                    <div class="flex items-start justify-center flex-1 p-8">
                       <div class="flex flex-col items-center text-center">
                         <icon-lucide-terminal-square class="w-6 h-6 mb-4" />
                         <h5 class="inline-flex pb-2 text-xl">CMD + K</h5>
@@ -185,16 +175,7 @@
                       </div>
                     </div>
                     <!-- Image -->
-                    <div class="relative w-full p-2 overflow-hidden">
-                      <div
-                        class="flex items-start justify-start px-8 overflow-hidden border h-80 rounded-2xl border-violet-500/25 bg-violet-500/5 backdrop-blur-md"
-                      >
-                        <!-- <img loading="lazy"
-                          src="/images/feature-image-02.png"
-                          alt="Feature 02"
-                        /> -->
-                      </div>
-                    </div>
+                    <CmdK />
                   </div>
                 </div>
               </HighlighterItem>
@@ -203,20 +184,20 @@
             <div class="grid md:col-span-5">
               <HighlighterItem>
                 <div
-                  class="relative bg-slate-950/90 backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative bg-slate-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
                 >
-                  <div class="flex flex-col">
+                  <div class="flex flex-col h-full">
                     <!-- Radial gradient -->
                     <div
                       class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
                       aria-hidden="true"
                     >
                       <div
-                        class="absolute inset-0 translate-z-0 bg-slate-900 rounded-full blur-[80px]"
+                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-20"
                       ></div>
                     </div>
                     <!-- Text -->
-                    <div class="p-8">
+                    <div class="flex items-start justify-center flex-1 p-8">
                       <div class="flex flex-col items-center text-center">
                         <icon-lucide-globe class="w-6 h-6 mb-4" />
                         <h5 class="inline-flex pb-2 text-xl">Open source</h5>
