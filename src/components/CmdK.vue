@@ -136,8 +136,8 @@
       class="flex items-center justify-center focus:outline-none relative p-4 after:content-['']"
       :class="
         activeTab === tab.id
-          ? 'after:absolute text-slate-300 after:inset-x-4 after:-bottom-px after:h-px after:bg-gradient-to-r after:from-transparent after:via-violet-400/50 after:to-transparent flex-1 '
-          : 'text-slate-400'
+          ? 'after:absolute text-slate-300 transition after:inset-x-4 after:-bottom-px after:h-px after:bg-gradient-to-r after:from-transparent after:via-violet-400/50 after:to-transparent flex-1 '
+          : 'text-slate-400 hover:text-slate-300'
       "
       @click="changeTab(tab.id)"
     >
@@ -153,7 +153,7 @@
   </div>
   <div class="relative w-full p-2 overflow-hidden">
     <div
-      class="flex items-start justify-start overflow-y-auto border overscroll-auto h-80 rounded-2xl border-violet-500/25 bg-violet-500/5 backdrop-blur-md"
+      class="flex items-start justify-start overflow-y-auto border overscroll-auto h-80 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5 backdrop-blur-md"
     >
       <div class="relative flex flex-col flex-1 text-xs">
         <input
@@ -172,14 +172,16 @@
               <div class="px-4 py-2 text-violet-200/50">
                 {{ tab.name }}
               </div>
-              <div class="flex flex-col px-2 text-violet-100/80">
+              <div class="flex flex-col px-2">
                 <div
                   v-for="(entry, entryIndex) in filteredEntries(tab.entries)"
                   :key="entryIndex"
                   class="flex items-center justify-between px-3 py-2 cursor-pointer rounded-md"
-                  :class="{
-                    'bg-violet-400/10': entryIndex === selectedEntryIndex,
-                  }"
+                  :class="
+                    entryIndex === selectedEntryIndex
+                      ? 'bg-violet-400/10  text-violet-100'
+                      : 'text-violet-200/80'
+                  "
                   @mouseover="selectEntry(entryIndex)"
                 >
                   <span class="flex items-center">
@@ -190,7 +192,10 @@
                     <span
                       v-for="(key, keyIndex) in entry.shortcut"
                       :key="keyIndex"
-                      class="px-1 rounded bg-violet-200/10 text-[10px]"
+                      class="px-1 rounded bg-violet-400/10 text-violet-200/50 text-[10px]"
+                      :class="{
+                        'text-violet-200/80': entryIndex === selectedEntryIndex,
+                      }"
                     >
                       {{ key }}</span
                     >

@@ -1,10 +1,10 @@
 <template>
   <div class="relative w-full p-2 overflow-hidden">
     <div
-      class="flex items-start justify-start px-8 overflow-hidden border h-80 rounded-2xl border-violet-500/25 bg-violet-500/5 backdrop-blur-md"
+      class="flex items-start justify-start px-8 overflow-hidden border h-80 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5 backdrop-blur-md"
     >
       <div
-        class="flex flex-col p-2 mx-auto -mt-8 text-xs border shadow-lg space-y-2 backdrop-blur-md text-violet-200/60 rounded-3xl border-violet-400/20 bg-violet-400/10"
+        class="flex flex-col p-2 mx-auto -mt-8 text-xs border shadow-lg space-y-2 text-violet-200/80 rounded-3xl border-violet-400/20 bg-violet-400/10"
       >
         <div class="flex h-12 space-x-2">
           <button class="items-center justify-center w-12 key !rounded-tl-2xl">
@@ -96,9 +96,10 @@
         </div>
         <div class="flex h-12 space-x-2">
           <button
-            class="items-start justify-end flex-1 text-left text-[9px] key"
+            class="items-start justify-center flex-1 text-left text-[9px] key"
           >
-            caps lock
+            <span class="flex self-start">•</span>
+            <span class="flex self-start"> caps lock </span>
           </button>
           <button class="items-center justify-center w-12 key">A</button>
           <button class="items-center justify-center w-12 key">S</button>
@@ -214,10 +215,15 @@
     @apply flex;
     @apply flex-col;
     @apply rounded-md;
+    @apply transition;
     @apply bg-gradient-to-b;
-    @apply from-violet-400/5;
-    @apply to-violet-400/20;
-    @apply border border-violet-400/5;
+    @apply from-slate-950/5;
+    @apply via-violet-950/5;
+    @apply to-violet-400/5;
+    @apply border border-violet-400/10;
     @apply ring-1 ring-slate-950;
+    @apply hover:ring-violet-600;
+    @apply focus:ring-violet-500;
+    @apply focus:outline-none;
   }
 </style>
