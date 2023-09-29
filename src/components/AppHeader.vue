@@ -116,9 +116,9 @@
                     >
                       By Platform
                     </div>
-                    <div class="flex flex-col">
+                    <div class="flex flex-col group/navitem">
                       <RouterLink
-                        class="flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
+                        class="group-hover/navitem:opacity-50 hover:!opacity-100 flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
                         to="/products/cloud"
                         @click="hide()"
                       >
@@ -141,7 +141,7 @@
                         </div>
                       </RouterLink>
                       <RouterLink
-                        class="flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
+                        class="group-hover/navitem:opacity-50 hover:!opacity-100 flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
                         to="/products/enterprise"
                         @click="hide()"
                       >
@@ -164,7 +164,7 @@
                         </div>
                       </RouterLink>
                       <RouterLink
-                        class="flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
+                        class="group-hover/navitem:opacity-50 hover:!opacity-100 flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
                         to="/products/self-host"
                         @click="hide()"
                       >
@@ -188,7 +188,7 @@
                         </div>
                       </RouterLink>
                       <RouterLink
-                        class="flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
+                        class="group-hover/navitem:opacity-50 hover:!opacity-100 flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
                         to="/products/cli"
                         @click="hide()"
                       >
@@ -274,9 +274,9 @@
                       >
                         For
                       </div>
-                      <div class="flex flex-col">
+                      <div class="flex flex-col group/navitem">
                         <RouterLink
-                          class="flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
+                          class="group-hover/navitem:opacity-50 hover:!opacity-100 flex items-center p-3 transition rounded-lg group hover:bg-violet-800/50"
                           to="/solutions/developers"
                           @click="hide()"
                         >
@@ -300,7 +300,7 @@
                           </div>
                         </RouterLink>
                         <RouterLink
-                          class="flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
+                          class="group-hover/navitem:opacity-50 hover:!opacity-100 flex items-center p-3 transition rounded-lg group-hover/nav:opacity-50 group hover:bg-violet-800/50"
                           to="/solutions/teams"
                           @click="hide()"
                         >
@@ -323,7 +323,7 @@
                           </div>
                         </RouterLink>
                         <RouterLink
-                          class="flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
+                          class="group-hover/navitem:opacity-50 hover:!opacity-100 flex items-center p-3 transition rounded-lg group-hover/nav:opacity-50 group hover:bg-violet-800/50"
                           to="/solutions/enterprises"
                           @click="hide()"
                         >
@@ -347,7 +347,7 @@
                           </div>
                         </RouterLink>
                         <RouterLink
-                          class="flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
+                          class="group-hover/navitem:opacity-50 hover:!opacity-100 flex items-center p-3 transition rounded-lg group-hover/nav:opacity-50 group hover:bg-violet-800/50"
                           to="/solutions/education"
                           @click="hide()"
                         >
@@ -380,9 +380,9 @@
                       >
                         Use Cases
                       </div>
-                      <div class="flex flex-col">
+                      <div class="flex flex-col group/navitem">
                         <RouterLink
-                          class="flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
+                          class="flex group-hover/navitem:opacity-50 hover:!opacity-100 items-center p-3 transition rounded-lg group hover:bg-violet-800/50"
                           to="/solutions/cloud"
                           @click="hide()"
                         >
@@ -405,7 +405,7 @@
                           </div>
                         </RouterLink>
                         <RouterLink
-                          class="flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
+                          class="flex group-hover/navitem:opacity-50 hover:!opacity-100 items-center p-3 transition rounded-lg group hover:bg-violet-800/50"
                           to="/solutions/self-host"
                           @click="hide()"
                         >
