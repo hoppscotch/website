@@ -175,17 +175,19 @@
             >
               <h3
                 class="text-sm font-semibold leading-6"
-                :class="[tier.featured ? 'text-violet-500' : 'text-slate-400']"
+                :class="[
+                  tier.featured ? 'text-violet-500' : 'text-violet-200/50',
+                ]"
               >
                 {{ tier.name }}
               </h3>
-              <p class="mt-1 text-sm leading-6 text-slate-500">
+              <p class="mt-1 text-sm leading-6 text-violet-100">
                 {{ tier.description }}
               </p>
             </div>
             <div class="mt-10 space-y-10">
               <div v-for="section in sections" :key="section.name">
-                <h4 class="text-sm font-semibold leading-6 text-slate-50">
+                <h4 class="text-sm font-semibold leading-6 text-violet-100">
                   {{ section.name }}
                 </h4>
                 <div class="relative mt-6">
@@ -208,7 +210,7 @@
                         :key="feature.name"
                         class="flex items-center justify-between px-4 py-3 sm:grid sm:grid-cols-2 sm:px-0"
                       >
-                        <dt class="pr-4 text-slate-500">
+                        <dt class="pr-4 text-violet-100">
                           {{ feature.name }}
                         </dt>
                         <dd
@@ -223,7 +225,7 @@
                             :class="
                               tier.featured
                                 ? 'font-semibold text-violet-500'
-                                : 'text-slate-400'
+                                : 'text-violet-200/50'
                             "
                             >{{
                               feature.tiers[tier.name as keyof tierPlanType]
@@ -241,7 +243,7 @@
                             />
                             <icon-lucide-x
                               v-else
-                              class="w-5 h-5 mx-auto text-slate-400"
+                              class="w-5 h-5 mx-auto text-violet-200/50"
                               aria-hidden="true"
                             />
                             <span class="sr-only">{{
@@ -291,11 +293,13 @@
             >
               <p
                 class="text-sm font-semibold leading-6"
-                :class="[tier.featured ? 'text-violet-500' : 'text-slate-400']"
+                :class="[
+                  tier.featured ? 'text-violet-500' : 'text-violet-200/50',
+                ]"
               >
                 {{ tier.name }}
               </p>
-              <p class="mt-1 text-sm leading-6 text-slate-500">
+              <p class="mt-1 text-sm leading-6 text-violet-100">
                 {{ tier.description }}
               </p>
             </div>
@@ -304,7 +308,7 @@
 
         <div class="-mt-6 space-y-16">
           <div v-for="section in sections" :key="section.name">
-            <h3 class="text-sm font-semibold leading-6 text-slate-50">
+            <h3 class="text-sm font-semibold leading-6 text-violet-100">
               {{ section.name }}
             </h3>
             <div class="relative mt-10 -mx-8">
@@ -342,7 +346,7 @@
                   >
                     <th
                       scope="row"
-                      class="w-1/4 py-3 pr-4 text-sm text-left leading-6 text-slate-400"
+                      class="w-1/4 py-3 pr-4 text-sm text-left leading-6 text-violet-200/50"
                     >
                       {{ feature.name }}
                       <div
@@ -366,7 +370,7 @@
                           :class="[
                             tier.featured
                               ? 'font-semibold text-violet-500'
-                              : 'text-slate-400',
+                              : 'text-violet-200/50',
                           ]"
                           >{{
                             feature.tiers[tier.name as keyof tierPlanType]
@@ -383,7 +387,7 @@
                           />
                           <icon-lucide-x
                             v-else
-                            class="w-5 h-5 mx-auto text-slate-400"
+                            class="w-5 h-5 mx-auto text-violet-200/50"
                             aria-hidden="true"
                           />
                           <span class="sr-only">{{

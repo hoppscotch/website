@@ -136,8 +136,8 @@
       class="flex items-center justify-center focus:outline-none relative p-4 after:content-['']"
       :class="
         activeTab === tab.id
-          ? 'after:absolute text-slate-300 transition after:inset-x-4 after:-bottom-px after:h-px after:bg-gradient-to-r after:from-transparent after:via-violet-400/50 after:to-transparent flex-1 '
-          : 'text-slate-400 hover:text-slate-300'
+          ? 'after:absolute text-violet-200/80 transition after:inset-x-4 after:-bottom-px after:h-px after:bg-gradient-to-r after:from-transparent after:via-violet-400/50 after:to-transparent flex-1 '
+          : 'text-violet-200/50 hover:text-violet-200/80'
       "
       @click="changeTab(tab.id)"
     >
@@ -153,7 +153,7 @@
   </div>
   <div class="relative w-full p-2 overflow-hidden">
     <div
-      class="flex items-start justify-start overflow-y-auto border overscroll-auto h-80 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5 backdrop-blur-md"
+      class="flex items-start justify-start overflow-y-auto border brightness-110 overscroll-auto h-80 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5 backdrop-blur-md"
     >
       <div class="relative flex flex-col flex-1 text-xs">
         <input
@@ -176,11 +176,11 @@
                 <div
                   v-for="(entry, entryIndex) in filteredEntries(tab.entries)"
                   :key="entryIndex"
-                  class="flex items-center justify-between px-3 py-2 cursor-pointer rounded-md"
+                  class="flex items-center justify-between px-3 py-2 cursor-pointer transition rounded-md bg-violet-400"
                   :class="
                     entryIndex === selectedEntryIndex
-                      ? 'bg-violet-400/10  text-violet-100'
-                      : 'text-violet-200/80'
+                      ? 'bg-opacity-10 text-violet-100'
+                      : 'bg-opacity-0 text-violet-200/80'
                   "
                   @mouseover="selectEntry(entryIndex)"
                 >

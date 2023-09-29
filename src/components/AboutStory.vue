@@ -3,9 +3,9 @@
     <div class="max-w-5xl px-4 mx-auto">
       <div class="py-12 md:py-16">
         <div class="max-w-4xl mx-auto">
-          <div class="text-md text-slate-300">
+          <div class="text-md text-violet-200/80">
             <h2
-              class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
+              class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
             >
               Our Story
             </h2>

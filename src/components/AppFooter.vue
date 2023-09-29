@@ -22,7 +22,7 @@
           <h6 class="mb-2">
             <RouterLink
               to="/products"
-              class="text-sm rounded transition text-slate-200 hover:text-slate-50"
+              class="text-sm rounded transition text-violet-200 hover:text-violet-100"
             >
               Products
             </RouterLink>
@@ -30,7 +30,7 @@
           <ul class="text-sm space-y-2">
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/products/cloud"
               >
                 Cloud
@@ -38,7 +38,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/products/Enterprise"
               >
                 Enterprise
@@ -46,7 +46,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/products/self-host"
               >
                 Self-Host
@@ -54,7 +54,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/products/cli"
               >
                 CLI
@@ -67,7 +67,7 @@
           <h6 class="mb-2">
             <RouterLink
               to="/explore"
-              class="text-sm rounded transition text-slate-200 hover:text-slate-50"
+              class="text-sm rounded transition text-violet-200 hover:text-violet-100"
             >
               Explore
             </RouterLink>
@@ -75,7 +75,7 @@
           <ul class="text-sm space-y-2">
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/features"
               >
                 Features
@@ -83,7 +83,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/download"
               >
                 Download
@@ -91,7 +91,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/pricing"
               >
                 Pricing
@@ -99,7 +99,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/changelog"
               >
                 Changelog
@@ -112,7 +112,7 @@
           <h6 class="mb-2">
             <RouterLink
               to="/solutions"
-              class="text-sm rounded transition text-slate-200 hover:text-slate-50"
+              class="text-sm rounded transition text-violet-200 hover:text-violet-100"
             >
               Solutions
             </RouterLink>
@@ -120,7 +120,7 @@
           <ul class="text-sm space-y-2">
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/solutions/developers"
               >
                 Developers
@@ -128,7 +128,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/solutions/teams"
               >
                 Teams
@@ -136,7 +136,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/solutions/enterprise"
               >
                 Enterprise
@@ -144,7 +144,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/solutions/education"
               >
                 Education
@@ -152,7 +152,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/solutions/cloud"
               >
                 Cloud
@@ -160,7 +160,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/solutions/self-host"
               >
                 Self-Host
@@ -173,7 +173,7 @@
           <h6 class="mb-2">
             <RouterLink
               to="/company"
-              class="text-sm rounded transition text-slate-200 hover:text-slate-50"
+              class="text-sm rounded transition text-violet-200 hover:text-violet-100"
             >
               Company
             </RouterLink>
@@ -181,7 +181,7 @@
           <ul class="text-sm space-y-2">
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/about"
               >
                 About
@@ -189,7 +189,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/blog"
               >
                 Blog
@@ -197,7 +197,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/careers"
               >
                 Careers
@@ -205,7 +205,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/contact"
               >
                 Contact
@@ -218,7 +218,7 @@
           <h6 class="mb-2">
             <RouterLink
               to="/resources"
-              class="text-sm rounded transition text-slate-200 hover:text-slate-50"
+              class="text-sm rounded transition text-violet-200 hover:text-violet-100"
             >
               Resources
             </RouterLink>
@@ -226,7 +226,7 @@
           <ul class="text-sm space-y-2">
             <li>
               <a
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 href="https://docs.hoppscotch.io"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -236,7 +236,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/community"
               >
                 Community
@@ -244,7 +244,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/brand"
               >
                 Brand
@@ -252,7 +252,7 @@
             </li>
             <li>
               <a
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 href="https://shop.hoppscotch.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -267,7 +267,7 @@
           <h6 class="mb-2">
             <RouterLink
               to="/compliances"
-              class="text-sm rounded transition text-slate-200 hover:text-slate-50"
+              class="text-sm rounded transition text-violet-200 hover:text-violet-100"
             >
               Compliances
             </RouterLink>
@@ -275,7 +275,7 @@
           <ul class="text-sm space-y-2">
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/"
               >
                 ISO 27001
@@ -283,7 +283,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/"
               >
                 SOC 2
@@ -291,7 +291,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/privacy"
               >
                 Privacy Policy
@@ -299,7 +299,7 @@
             </li>
             <li>
               <RouterLink
-                class="rounded transition text-slate-500 hover:text-slate-300"
+                class="rounded transition text-violet-200/50 hover:text-violet-100"
                 to="/terms"
               >
                 Terms of Service
@@ -331,7 +331,7 @@
                   />
                 </RouterLink>
               </div>
-              <div class="text-xs text-slate-400">
+              <div class="text-xs text-violet-200/50">
                 &copy; 2023 Hoppscotch Limited
               </div>
             </div>
@@ -341,7 +341,7 @@
                 href="https://status.hoppscotch.io"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="flex items-center text-xs rounded transition text-slate-500 hover:text-slate-300"
+                class="flex items-center text-xs rounded transition text-violet-200/50 hover:text-violet-100"
               >
                 <div class="w-1 h-1 mr-2 bg-green-500 rounded-full"></div>
                 All systems operational.
@@ -349,7 +349,7 @@
               <ul class="flex">
                 <li>
                   <a
-                    class="flex items-center justify-center rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="flex items-center justify-center rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="https://hoppscotch.io/twitter"
                     aria-label="Twitter"
                     target="_blank"
@@ -360,7 +360,7 @@
                 </li>
                 <li>
                   <a
-                    class="flex items-center justify-center rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="flex items-center justify-center rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="https://hoppscotch.io/github"
                     aria-label="Github"
                     target="_blank"

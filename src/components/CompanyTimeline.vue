@@ -14,11 +14,11 @@
             </span>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
           >
             Our journey so far
           </h2>
-          <p class="text-sm text-slate-400">
+          <p class="text-sm text-violet-200/50">
             Our journey has been a long one, but we've enjoyed every step of the
             way.
           </p>
@@ -45,7 +45,7 @@
                 ></div>
                 <h4>Hoppscotch was founded in Kerala, India</h4>
               </div>
-              <p class="text-sm text-slate-400">
+              <p class="text-sm text-violet-200/50">
                 Liyas Thomas, the founder of Hoppscotch, started the project as
                 an open-source side project to help him with his day-to-day
                 work. He was working as a full-stack developer at a startup in
@@ -73,7 +73,7 @@
                 ></div>
                 <h4>Founders left his job to work on Hoppscotch full-time</h4>
               </div>
-              <p class="text-sm text-slate-400">
+              <p class="text-sm text-violet-200/50">
                 Liyas and his co-founder, Andrew, left their jobs to work on
                 Hoppscotch full-time. They started working on the first version
                 of the Hoppscotch platform along with the open-source community.
@@ -100,7 +100,7 @@
                 ></div>
                 <h4>$3 million seed funding from OSS Capital</h4>
               </div>
-              <p class="text-sm text-slate-400">
+              <p class="text-sm text-violet-200/50">
                 We raised $3 million in seed funding from OSS Capital with
                 participation from many angel investors. We also launched the
                 first version of the Hoppscotch API development platform.
@@ -127,7 +127,7 @@
                 ></div>
                 <h4>1 million happy users</h4>
               </div>
-              <p class="text-sm text-slate-400">
+              <p class="text-sm text-violet-200/50">
                 We reached 1 million happy users and launched the first version
                 of the Hoppscotch Workspaces. We also launched the first version
                 of the "Hoppscotch for Teams" plan.
@@ -150,7 +150,7 @@
                 ></div>
                 <h4>50,000 GitHub Stars</h4>
               </div>
-              <p class="text-sm text-slate-400">
+              <p class="text-sm text-violet-200/50">
                 Hoppscotch crossed 50,000 GitHub stars and became one of the
                 most popular open-source API development tools in the world.
               </p>

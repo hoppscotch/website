@@ -29,7 +29,7 @@
         <div class="mb-4">
           <ul class="flex flex-wrap -m-1 text-xs">
             <li class="m-1">
-              <span class="inline-flex text-center transition text-slate-500"
+              <span class="inline-flex text-center transition text-violet-100"
                 >Product</span
               >
             </li>
@@ -38,13 +38,13 @@
         <h3 class="max-w-2xl mb-4">
           <RouterLink
             to="/blog/sample-post"
-            class="transition text-slate-200 hover:text-slate-100"
+            class="transition text-violet-200 hover:text-violet-100"
           >
             The quick brown fox jumped over the lazy dog
           </RouterLink>
         </h3>
       </header>
-      <p class="max-w-2xl mb-2 text-slate-300">
+      <p class="max-w-2xl mb-2 text-violet-200/80">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.
       </p>
@@ -58,9 +58,9 @@
           alt="Author 01"
         />
         <div class="text-xs">
-          <span class="transition text-slate-400"> Anastasia Dan </span>
-          <span class="mx-2 text-slate-800">|</span>
-          <span class="text-slate-600">Jan 17, 2020</span>
+          <span class="transition text-violet-200/50"> Anastasia Dan </span>
+          <span class="mx-2 text-violet-800">|</span>
+          <span class="text-violet-400/50">Jan 17, 2020</span>
         </div>
       </footer>
     </article>
@@ -95,7 +95,9 @@
                 :key="tagIndex"
                 class="m-1"
               >
-                <span class="inline-flex text-center transition text-slate-500">
+                <span
+                  class="inline-flex text-center transition text-violet-100"
+                >
                   {{ tag }}</span
                 >
               </li>
@@ -104,13 +106,13 @@
           <h4 class="max-w-2xl mb-4">
             <RouterLink
               :to="`/blog/${blog.slug}`"
-              class="transition text-slate-200 hover:text-slate-100"
+              class="transition text-violet-200 hover:text-violet-100"
             >
               {{ blog.title }}
             </RouterLink>
           </h4>
         </header>
-        <p class="max-w-2xl mb-2 text-slate-300">
+        <p class="max-w-2xl mb-2 text-violet-200/80">
           {{ blog.description }}
         </p>
         <footer class="flex items-center mt-4">
@@ -123,11 +125,11 @@
             :alt="blog.author.name"
           />
           <div class="text-xs">
-            <span class="transition text-slate-400">
+            <span class="transition text-violet-200/50">
               {{ blog.author.name }}
             </span>
-            <span class="mx-2 text-slate-800">|</span>
-            <span class="text-slate-600">{{ blog.date }}</span>
+            <span class="mx-2 text-violet-800">|</span>
+            <span class="text-violet-400/50">{{ blog.date }}</span>
           </div>
         </footer>
       </article>

@@ -74,13 +74,13 @@
                   />
                   <div class="flex flex-col grow">
                     <div class="mb-1 text-lg font-bold">Download for Mac</div>
-                    <div class="mb-3 text-slate-400">
+                    <div class="mb-3 text-violet-200/50">
                       Work without distraction on your own or with your team.
                     </div>
                   </div>
                   <div>
                     <RouterLink
-                      class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-200 hover:text-white group"
+                      class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200 hover:text-white group"
                       to="/"
                     >
                       Download
@@ -128,13 +128,13 @@
                     <div class="mb-1 text-lg font-bold">
                       Download for Windows
                     </div>
-                    <div class="mb-3 text-slate-400">
+                    <div class="mb-3 text-violet-200/50">
                       Work without distraction on your own or with your team.
                     </div>
                   </div>
                   <div>
                     <RouterLink
-                      class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-200 hover:text-white group"
+                      class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200 hover:text-white group"
                       to="/"
                     >
                       Download
@@ -180,13 +180,13 @@
                   />
                   <div class="flex flex-col grow">
                     <div class="mb-1 text-lg font-bold">Download for Linux</div>
-                    <div class="mb-3 text-slate-400">
+                    <div class="mb-3 text-violet-200/50">
                       Work without distraction on your own or with your team.
                     </div>
                   </div>
                   <div>
                     <RouterLink
-                      class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-200 hover:text-white group"
+                      class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200 hover:text-white group"
                       to="/"
                     >
                       Download
@@ -227,13 +227,13 @@
                   />
                   <div class="flex flex-col grow">
                     <div class="mb-1 text-lg font-bold">Web App</div>
-                    <div class="mb-3 text-slate-400">
+                    <div class="mb-3 text-violet-200/50">
                       Work without distraction on your own or with your team.
                     </div>
                   </div>
                   <div>
                     <a
-                      class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-200 hover:text-white group"
+                      class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200 hover:text-white group"
                       href="https://hoppscotch.io"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -278,13 +278,13 @@
                     <div class="mb-1 text-lg font-bold">
                       Install for Terminal
                     </div>
-                    <div class="mb-3 text-slate-400">
+                    <div class="mb-3 text-violet-200/50">
                       Work without distraction on your own or with your team.
                     </div>
                   </div>
                   <div>
                     <RouterLink
-                      class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-200 hover:text-white group"
+                      class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200 hover:text-white group"
                       to="/"
                     >
                       Install
@@ -308,7 +308,7 @@
         >
           <span class="sr-only">Previous</span>
           <icon-lucide-arrow-left
-            class="w-4 h-4 transition text-slate-500 group-hover:text-violet-500"
+            class="w-4 h-4 transition text-violet-100 group-hover:text-violet-500"
           />
         </button>
         <button
@@ -316,7 +316,7 @@
         >
           <span class="sr-only">Next</span>
           <icon-lucide-arrow-right
-            class="w-4 h-4 transition text-slate-500 group-hover:text-violet-500"
+            class="w-4 h-4 transition text-violet-100 group-hover:text-violet-500"
           />
         </button>
       </div>

@@ -15,11 +15,11 @@
             </span>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
           >
             Made by the community
           </h2>
-          <p class="text-lg text-slate-400">
+          <p class="text-lg text-violet-200/50">
             Join our community and get help, support, and feedback.
           </p>
         </div>
@@ -35,7 +35,7 @@
               class="w-12 h-12 p-3 mb-4 text-violet-200 bg-violet-600 rounded-xl"
             />
             <h4 class="mb-2 text-xl font-bold">Documentation</h4>
-            <p class="text-sm text-slate-500">
+            <p class="text-sm text-violet-100">
               Read through our docs to learn how to get started with our
               products.
             </p>
@@ -48,7 +48,7 @@
               class="w-12 h-12 p-3 mb-4 text-violet-200 bg-violet-600 rounded-xl"
             />
             <h4 class="mb-2 text-xl font-bold">GitHub</h4>
-            <p class="text-sm text-slate-500">
+            <p class="text-sm text-violet-100">
               Explore our GitHub repositories and contribute to our open source
               projects.
             </p>
@@ -61,7 +61,7 @@
               class="w-12 h-12 p-3 mb-4 text-violet-200 bg-violet-600 rounded-xl"
             />
             <h4 class="mb-2 text-xl font-bold">Twitter</h4>
-            <p class="text-sm text-slate-500">
+            <p class="text-sm text-violet-100">
               Follow us on Twitter to stay up to date with our latest news and
               announcements.
             </p>

@@ -31,11 +31,11 @@
         <!-- Section header -->
         <div class="py-12 md:py-16">
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
           >
             Why trust us?
           </h2>
-          <p class="text-lg text-slate-400">
+          <p class="text-lg text-violet-200/50">
             Many desktop publishing packages and web page editors now use lorem
             ipsum as their default model text, and a search will uncover many
             web sites still in their infancy.
@@ -57,9 +57,9 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-heart-handshake class="fill-slate-200" />
-                  <span class="text-slate-50">Collaborate</span>
+                  <span class="text-violet-100">Collaborate</span>
                 </div>
-                <p class="text-sm text-slate-400">
+                <p class="text-sm text-violet-200/50">
                   Engage with your teammates, share, design and collaborate —
                   all in real-time.
                 </p>
@@ -68,9 +68,9 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-database class="fill-slate-200" />
-                  <span class="text-slate-50">Mock</span>
+                  <span class="text-violet-100">Mock</span>
                 </div>
-                <p class="text-sm text-slate-400">
+                <p class="text-sm text-violet-200/50">
                   See exactly how your API will run — even before it's in
                   production.
                 </p>
@@ -79,9 +79,9 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-file-check class="fill-slate-200" />
-                  <span class="text-slate-50">Document</span>
+                  <span class="text-violet-100">Document</span>
                 </div>
-                <p class="text-sm text-slate-400">
+                <p class="text-sm text-violet-200/50">
                   Make documentation a core part of your API workflow.
                 </p>
               </div>
@@ -101,9 +101,9 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-layers class="fill-slate-200" />
-                  <span class="text-slate-50">Protocols</span>
+                  <span class="text-violet-100">Protocols</span>
                 </div>
-                <p class="text-sm text-slate-400">
+                <p class="text-sm text-violet-200/50">
                   RESTful, GraphQL, WebSocket and more. Develop all protocols
                   under one roof.
                 </p>
@@ -112,9 +112,9 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-box class="fill-slate-200" />
-                  <span class="text-slate-50">Solutions</span>
+                  <span class="text-violet-100">Solutions</span>
                 </div>
-                <p class="text-sm text-slate-400">
+                <p class="text-sm text-violet-200/50">
                   Find the right balance for the user convenience, privacy and
                   security.
                 </p>
@@ -123,9 +123,9 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-badge-check class="fill-slate-200" />
-                  <span class="text-slate-50">Integrations</span>
+                  <span class="text-violet-100">Integrations</span>
                 </div>
-                <p class="text-sm text-slate-400">
+                <p class="text-sm text-violet-200/50">
                   Integrate your favorite tools and frameworks for a streamlined
                   developer experience.
                 </p>
@@ -146,9 +146,9 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-workflow class="fill-slate-200" />
-                  <span class="text-slate-50">Automate</span>
+                  <span class="text-violet-100">Automate</span>
                 </div>
-                <p class="text-sm text-slate-400">
+                <p class="text-sm text-violet-200/50">
                   Run tests automatically from your source code whenever
                   something change.
                 </p>
@@ -157,9 +157,9 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-terminal-square class="fill-slate-200" />
-                  <span class="text-slate-50">CLI</span>
+                  <span class="text-violet-100">CLI</span>
                 </div>
-                <p class="text-sm text-slate-400">
+                <p class="text-sm text-violet-200/50">
                   Run tests from any environments — cloud, local and CI/CD
                   pipelines.
                 </p>
@@ -168,9 +168,9 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-crosshair class="fill-slate-200" />
-                  <span class="text-slate-50">Monitor</span>
+                  <span class="text-violet-100">Monitor</span>
                 </div>
-                <p class="text-sm text-slate-400">
+                <p class="text-sm text-violet-200/50">
                   Keep track of you APIs health. Get notified when something
                   goes wrong.
                 </p>

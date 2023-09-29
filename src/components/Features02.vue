@@ -26,11 +26,11 @@
             </span>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
           >
             Faster. Smarter.
           </h2>
-          <p class="text-lg text-slate-400">
+          <p class="text-lg text-violet-200/50">
             Precision. Elegance. Performance.
           </p>
         </div>
@@ -122,13 +122,13 @@
                         <h5 class="inline-flex pb-2 text-xl">
                           Keyboard Shortcuts
                         </h5>
-                        <p class="w-full text-slate-400">
+                        <p class="w-full text-violet-200/50">
                           Fly through your tasks with rapid-fire keyboard
                           shortcuts for everything.
                         </p>
                       </div>
                       <!-- <RouterLink
-                        class="text-sm inline-flex items-center justify-center border border-transparent rounded-full px-3 py-1 text-slate-200 hover:text-white transition group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
+                        class="text-sm inline-flex items-center justify-center border border-transparent rounded-full px-3 py-1 text-violet-200 hover:text-white transition group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
                         to="/"
                       >
                         <span class="relative inline-flex items-center">
@@ -168,7 +168,7 @@
                       <div class="flex flex-col items-center text-center">
                         <icon-lucide-terminal-square class="w-6 h-6 mb-4" />
                         <h5 class="inline-flex pb-2 text-xl">CMD + K</h5>
-                        <p class="w-3/4 text-slate-400">
+                        <p class="w-3/4 text-violet-200/50">
                           Access the command palette by pressing CMD+K and type
                           your query for results.
                         </p>
@@ -201,24 +201,14 @@
                       <div class="flex flex-col items-center text-center">
                         <icon-lucide-globe class="w-6 h-6 mb-4" />
                         <h5 class="inline-flex pb-2 text-xl">Open source</h5>
-                        <p class="w-3/4 text-slate-400">
+                        <p class="w-3/4 text-violet-200/50">
                           Built on top of open source technologies and
                           contributions.
                         </p>
                       </div>
                     </div>
                     <!-- Image -->
-                    <div class="relative w-full p-2 overflow-hidden">
-                      <div
-                        class="relative flex items-center justify-center px-8 overflow-hidden border h-80 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5 backdrop-blur-md"
-                      >
-                        <img
-                          loading="lazy"
-                          src="/images/globe.png"
-                          class="max-w-none h-[560px] w-[560px] brightness-105 bg-gradient-to-tr from-violet-400/5 to-violet-500/10 shadow-[0_56px_88px_theme(colors.violet.950)_inset] mt-80 rounded-full animate-[spin_64s_linear_infinite]"
-                        />
-                      </div>
-                    </div>
+                    <Globe />
                   </div>
                 </div>
               </HighlighterItem>
@@ -228,62 +218,74 @@
         <!-- Features list -->
         <div class="grid gap-8 md:grid-cols-3 md:gap-12">
           <!-- Feature -->
-          <div>
-            <div class="flex items-center mb-1 space-x-2">
+          <div class="pl-4">
+            <div
+              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-violet-400/20"
+            >
               <icon-lucide-zap class="fill-slate-200" />
-              <span class="text-slate-50">Lightweight and snappy</span>
+              <span class="text-violet-100">Lightweight and snappy</span>
             </div>
-            <p class="text-sm text-slate-400">
+            <p class="text-sm text-violet-200/50">
               Designed to be seamless and instant.
             </p>
           </div>
           <!-- Feature -->
-          <div>
-            <div class="flex items-center mb-1 space-x-2">
+          <div class="pl-4">
+            <div
+              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-violet-400/20"
+            >
               <icon-lucide-users-2 class="fill-slate-200" />
-              <span class="text-slate-50">Built for teams</span>
+              <span class="text-violet-100">Built for teams</span>
             </div>
-            <p class="text-sm text-slate-400">
+            <p class="text-sm text-violet-200/50">
               Have all your teams in one shared workspace.
             </p>
           </div>
           <!-- Feature -->
-          <div>
-            <div class="flex items-center mb-1 space-x-2">
+          <div class="pl-4">
+            <div
+              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-violet-400/20"
+            >
               <icon-lucide-palette class="fill-slate-200" />
-              <span class="text-slate-50">Highly customizable</span>
+              <span class="text-violet-100">Highly customizable</span>
             </div>
-            <p class="text-sm text-slate-400">
+            <p class="text-sm text-violet-200/50">
               Make Hoppscotch your own with custom themes.
             </p>
           </div>
           <!-- Feature -->
-          <div>
-            <div class="flex items-center mb-1 space-x-2">
+          <div class="pl-4">
+            <div
+              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-violet-400/20"
+            >
               <icon-lucide-command class="fill-slate-200" />
-              <span class="text-slate-50">Keyboard first design</span>
+              <span class="text-violet-100">Keyboard first design</span>
             </div>
-            <p class="text-sm text-slate-400">
+            <p class="text-sm text-violet-200/50">
               Designed to be intuitive and easy to use.
             </p>
           </div>
           <!-- Feature -->
-          <div>
-            <div class="flex items-center mb-1 space-x-2">
+          <div class="pl-4">
+            <div
+              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-violet-400/20"
+            >
               <icon-lucide-package class="fill-slate-200" />
-              <span class="text-slate-50">Cross-platform apps</span>
+              <span class="text-violet-100">Cross-platform apps</span>
             </div>
-            <p class="text-sm text-slate-400">
+            <p class="text-sm text-violet-200/50">
               Works on web, Mac, Windows, and mobile.
             </p>
           </div>
           <!-- Feature -->
-          <div>
-            <div class="flex items-center mb-1 space-x-2">
+          <div class="pl-4">
+            <div
+              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-violet-400/20"
+            >
               <icon-lucide-shield-check class="fill-slate-200" />
-              <span class="text-slate-50">Safe and secure</span>
+              <span class="text-violet-100">Safe and secure</span>
             </div>
-            <p class="text-sm text-slate-400">
+            <p class="text-sm text-violet-200/50">
               Designed to keep your data safe and protected.
             </p>
           </div>

@@ -78,11 +78,11 @@
             </span>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
           >
             You're in good company
           </h2>
-          <p class="text-lg text-slate-400">
+          <p class="text-lg text-violet-200/50">
             We're a team of passionate designers and developers working together
             to build the most advanced and easy-to-use API development platform
             ever created.
@@ -91,7 +91,7 @@
         <!-- Check list -->
         <div class="max-w-4xl pb-16 mx-auto">
           <ul
-            class="flex flex-col flex-wrap items-center justify-center -mx-3 -my-8 text-md text-slate-200 sm:flex-row"
+            class="flex flex-col flex-wrap items-center justify-center -mx-3 -my-8 text-md text-violet-200 sm:flex-row"
           >
             <li class="flex items-center mx-3 my-2">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
@@ -234,14 +234,14 @@
                       :alt="item.alt"
                     />
                   </div>
-                  <blockquote class="text-lg text-slate-200">
+                  <blockquote class="text-lg text-violet-200">
                     {{ item.quote }}
                   </blockquote>
-                  <div class="mt-3 text-slate-800">
-                    <cite class="not-italic text-slate-200">
+                  <div class="mt-3 text-violet-800">
+                    <cite class="not-italic text-violet-200">
                       {{ item.name }}
                     </cite>
-                    | <span class="text-slate-500">{{ item.role }}</span>
+                    | <span class="text-violet-100">{{ item.role }}</span>
                   </div>
                 </div>
               </template>

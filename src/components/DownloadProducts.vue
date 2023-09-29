@@ -37,11 +37,11 @@
             </span>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
           >
             Take Hoppscotch with you
           </h2>
-          <p class="text-lg text-slate-400">
+          <p class="text-lg text-violet-200/50">
             Download Hoppscotch for your platform — Web, macOS, Windows, Linux,
             or CLI.
           </p>
@@ -74,7 +74,7 @@
                 >
                   <button
                     v-if="!isDownloading"
-                    class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-slate-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                    class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-violet-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                     @click="initDownload"
                   >
                     <span class="mr-1"> Download </span>

@@ -31,11 +31,11 @@
         <!-- Section header -->
         <div class="py-12 md:py-16">
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
           >
             Blog
           </h2>
-          <p class="text-lg text-slate-400">
+          <p class="text-lg text-violet-200/50">
             Updates from the Hoppscotch team.
           </p>
           <p class="mt-4 text-sm">
@@ -45,7 +45,7 @@
             >
               Subscribe to updates
             </RouterLink>
-            <span class="mx-4 text-slate-800">|</span>
+            <span class="mx-4 text-violet-800">|</span>
             <a
               href="https://twitter.com/hoppscotch_io"
               target="_blank"

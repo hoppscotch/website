@@ -2,37 +2,39 @@
   <section>
     <div class="max-w-5xl px-4 mx-auto sm:px-6">
       <div
-        class="relative px-8 py-12 mt-12 overflow-hidden border rounded-[32px] mb-32 border-violet-500/20 md:py-16 md:mt-16"
+        class="relative px-8 pt-12 mt-12 overflow-hidden border rounded-[32px] mb-32 border-violet-500/20 md:pt-16 md:mt-16"
       >
         <!-- Hero content -->
-        <div class="pb-16 overflow-y-clip">
+        <div class="relative pb-16 overflow-y-clip">
           <!-- Backdrop image -->
           <div class="absolute transform -translate-x-1/2 -z-1 left-1/2">
-            <div v-motion-slide-visible-bottom class="duration-1000 -z-1">
+            <div class="relative -z-1">
               <div
-                class="h-[1026px] w-[1026px] bg-gradient-to-b from-violet-900/40 from-0% via-20% to-100% via-transparent to-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 -z-1 absolute border-violet-500/20"
+                class="h-[1026px] w-[1026px] bg-gradient-to-b from-violet-900/40 from-0% via-20% to-100% via-transparent to-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 absolute border-violet-500/20"
               ></div>
             </div>
-            <div v-motion-slide-visible-bottom class="duration-1000 -z-1">
+            <div class="relative -z-1">
               <div
-                class="h-[684px] w-[684px] shadow-2xl shadow-violet-500/60 bg-gradient-to-b from-violet-900/40 from-0% via-20% to-100% via-transparent to-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 -z-1 top-[160px] absolute border-violet-500/20"
+                class="h-[684px] w-[684px] shadow-2xl shadow-violet-500/60 bg-gradient-to-b from-violet-900/40 from-0% via-20% to-100% via-transparent to-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 top-[160px] absolute border-violet-500/20"
               ></div>
             </div>
-            <div v-motion-slide-visible-bottom class="duration-1000 -z-1">
+            <div class="relative -z-1">
               <div
-                class="h-[342px] w-[342px] shadow-2xl shadow-violet-500/60 bg-gradient-to-b from-violet-900/40 from-0% via-20% to-100% via-transparent to-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 -z-1 top-[300px] absolute border-violet-500/20"
+                class="h-[342px] w-[342px] shadow-2xl shadow-violet-500/60 bg-gradient-to-b from-violet-900/40 from-0% via-20% to-100% via-transparent to-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 top-[300px] absolute border-violet-500/20"
               ></div>
             </div>
           </div>
           <!-- Content -->
-          <div class="flex flex-col items-center max-w-4xl mx-auto text-center">
+          <div
+            class="relative flex flex-col items-center max-w-4xl mx-auto text-center"
+          >
             <Announcement />
-            <h2
-              class="mb-8 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
+            <h1
+              class="mb-8 text-transparent bg-clip-text bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
             >
               Make Better APIs
-            </h2>
-            <p class="max-w-md mb-8 md:max-w-2xl text-slate-300">
+            </h1>
+            <p class="max-w-md mb-8 text-xl md:max-w-2xl text-violet-200/80">
               Trusted by millions of developers to build, test and share APIs.
             </p>
             <div
@@ -62,7 +64,7 @@
               </div>
               <div>
                 <RouterLink
-                  class="inline-flex items-center justify-center w-full px-4 py-2 text-sm bg-white border rounded-full transition border-violet-500/20 bg-opacity-10 text-slate-200 backdrop-blur-md hover:text-white hover:border-violet-500/20 hover:bg-opacity-20"
+                  class="inline-flex items-center justify-center w-full px-4 py-2 text-sm bg-white border rounded-full transition border-violet-500/20 bg-opacity-10 text-violet-200 backdrop-blur-md hover:text-white hover:border-violet-500/20 hover:bg-opacity-20"
                   to="/products/self-host"
                 >
                   Self-Host from GitHub

@@ -9,7 +9,7 @@
   <div class="flex items-center justify-between py-12 md:py-16">
     <RouterLink
       to="/changelog"
-      class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-400 hover:text-slate-200"
+      class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200/50 hover:text-violet-200"
     >
       <icon-lucide-arrow-left class="mr-2" />
       Back
@@ -21,7 +21,7 @@
       >
         Subscribe to updates
       </RouterLink>
-      <span class="mx-4 text-slate-800">|</span>
+      <span class="mx-4 text-violet-800">|</span>
       <a
         v-tippy="{
           content: 'Follow us on Twitter',
@@ -34,7 +34,7 @@
       >
         <icon-lucide-twitter />
       </a>
-      <span class="mx-4 text-slate-800">|</span>
+      <span class="mx-4 text-violet-800">|</span>
       <button
         v-tippy="{
           content: copied ? 'Copied!' : 'Copy permalink',

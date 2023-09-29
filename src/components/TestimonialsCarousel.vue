@@ -45,11 +45,11 @@
             </span>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
           >
             Spot issues faster
           </h2>
-          <p class="text-lg text-slate-400">
+          <p class="text-lg text-violet-200/50">
             All the lorem ipsum generators on the Internet tend to repeat
             predefined chunks as necessary, making this the first true generator
             on the Internet.
@@ -99,14 +99,14 @@
                       <div class="mb-1 text-lg font-bold">
                         Fast and reliable
                       </div>
-                      <div class="mb-3 text-slate-400">
+                      <div class="mb-3 text-violet-200/50">
                         Hoppscotch is built from the ground up to be fast and
                         reliable.
                       </div>
                     </div>
                     <div>
                       <RouterLink
-                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-200 hover:text-white group"
+                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200 hover:text-white group"
                         to="/"
                       >
                         Learn More
@@ -152,13 +152,13 @@
                     />
                     <div class="flex flex-col grow">
                       <div class="mb-1 text-lg font-bold">Open Source</div>
-                      <div class="mb-3 text-slate-400">
+                      <div class="mb-3 text-violet-200/50">
                         Open-source and audited by the community.
                       </div>
                     </div>
                     <div>
                       <RouterLink
-                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-200 hover:text-white group"
+                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200 hover:text-white group"
                         to="/"
                       >
                         Learn More
@@ -204,13 +204,13 @@
                     />
                     <div class="flex flex-col grow">
                       <div class="mb-1 text-lg font-bold">On-premise ready</div>
-                      <div class="mb-3 text-slate-400">
+                      <div class="mb-3 text-violet-200/50">
                         Self-host Hoppscotch on your own infrastructure.
                       </div>
                     </div>
                     <div>
                       <RouterLink
-                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-200 hover:text-white group"
+                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200 hover:text-white group"
                         to="/"
                       >
                         Learn More
@@ -258,14 +258,14 @@
                       <div class="mb-1 text-lg font-bold">
                         Progressive Profiling
                       </div>
-                      <div class="mb-3 text-slate-400">
+                      <div class="mb-3 text-violet-200/50">
                         Incorporate rich user profiling, and facilitate more
                         transactions.
                       </div>
                     </div>
                     <div>
                       <RouterLink
-                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-200 hover:text-white group"
+                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200 hover:text-white group"
                         to="/"
                       >
                         Learn More
@@ -311,14 +311,14 @@
                     />
                     <div class="flex flex-col grow">
                       <div class="mb-1 text-lg font-bold">Secure Access</div>
-                      <div class="mb-3 text-slate-400">
+                      <div class="mb-3 text-violet-200/50">
                         Incorporate rich user profiling, and facilitate more
                         transactions.
                       </div>
                     </div>
                     <div>
                       <RouterLink
-                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-200 hover:text-white group"
+                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200 hover:text-white group"
                         to="/"
                       >
                         Learn More
@@ -342,7 +342,7 @@
           >
             <span class="sr-only">Previous</span>
             <icon-lucide-arrow-left
-              class="w-4 h-4 transition text-slate-500 group-hover:text-violet-500"
+              class="w-4 h-4 transition text-violet-100 group-hover:text-violet-500"
             />
           </button>
           <button
@@ -350,7 +350,7 @@
           >
             <span class="sr-only">Next</span>
             <icon-lucide-arrow-right
-              class="w-4 h-4 transition text-slate-500 group-hover:text-violet-500"
+              class="w-4 h-4 transition text-violet-100 group-hover:text-violet-500"
             />
           </button>
         </div>

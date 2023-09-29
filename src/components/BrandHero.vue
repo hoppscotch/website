@@ -49,11 +49,13 @@
         <!-- Section header -->
         <div class="py-12 md:py-16">
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
           >
             Brand
           </h2>
-          <p class="text-lg text-slate-400">Our brand assets and guidelines.</p>
+          <p class="text-lg text-violet-200/50">
+            Our brand assets and guidelines.
+          </p>
           <p class="mt-4 text-sm">
             <RouterLink
               :to="{ path: '', hash: '#newsletter' }"
@@ -61,7 +63,7 @@
             >
               Subscribe to updates
             </RouterLink>
-            <span class="mx-4 text-slate-800">|</span>
+            <span class="mx-4 text-violet-800">|</span>
             <a
               href="https://twitter.com/hoppscotch_io"
               target="_blank"
@@ -72,7 +74,7 @@
           </p>
           <p class="mt-8 text-sm">
             <RouterLink
-              class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full transition text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+              class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full transition text-violet-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
               to="/download"
             >
               Download Brand Assets
@@ -88,7 +90,7 @@
           <!-- Naming -->
           <div>
             <h4 class="mt-8">Naming</h4>
-            <p class="max-w-4xl mt-2 text-slate-400">
+            <p class="max-w-4xl mt-2 text-violet-200/50">
               "Hoppscotch" is a single word, always spelled with a capital "H".
               It is the brand name of both our company and our application (not
               Hoppscotch app"). When referring to dedicated releases from
@@ -99,7 +101,7 @@
           <!-- Usage -->
           <div>
             <h4 class="mt-8">Usage</h4>
-            <p class="max-w-4xl mt-2 text-slate-400">
+            <p class="max-w-4xl mt-2 text-violet-200/50">
               Provide plenty of space around Hoppscotch assets. Make them big or
               make them small, but give them room to breathe. They shouldn't
               feel cramped or cluttered.
@@ -108,7 +110,7 @@
           <!-- Wordmark -->
           <div>
             <h4 class="mt-8">Wordmark</h4>
-            <p class="max-w-4xl mt-2 text-slate-400">
+            <p class="max-w-4xl mt-2 text-violet-200/50">
               The Hoppscotch wordmark should be used in all references to
               Hoppscotch as space allows. Monochrome usage is preferred with the
               brand colors below.
@@ -227,7 +229,7 @@
           <!-- Logo -->
           <div>
             <h4 class="mt-8">Logo</h4>
-            <p class="max-w-4xl mt-2 text-slate-400">
+            <p class="max-w-4xl mt-2 text-violet-200/50">
               For tight layouts or logo-only grids, the Hoppscotch logomark is a
               concise way to refer to Hoppscotch. Use with good judgment for
               your audience, as the Hoppscotch wordmark has stronger brand
@@ -347,7 +349,7 @@
           <!-- Icon -->
           <div>
             <h4 class="mt-8">Icon</h4>
-            <p class="max-w-4xl mt-2 text-slate-400">
+            <p class="max-w-4xl mt-2 text-violet-200/50">
               When referring to Hoppscotch as a company, such as on social
               media, or where a "chip" design is required, it is acceptable to
               use this stylized icon with an appropriate corner radius.
@@ -377,7 +379,7 @@
           <div>
             {{ copiedPrimaryColor }}
             <h4 class="mt-8">Colors</h4>
-            <p class="max-w-4xl mt-2 text-slate-400">
+            <p class="max-w-4xl mt-2 text-violet-200/50">
               Hoppscotch's color palette is inspired by the colors of the
               internet. The primary color is Hoppscotch violet, which should be
               used sparingly for emphasis. The secondary color is Hoppscotch
@@ -462,7 +464,7 @@
           <!-- Typography -->
           <div>
             <h4 class="mt-8">Typography</h4>
-            <p class="max-w-4xl mt-2 text-slate-400">
+            <p class="max-w-4xl mt-2 text-violet-200/50">
               Hoppscotch uses the "Inter" typeface for all marketing and product
               design. Inter is a variable font, which means that it can be
               adjusted to a wide range of weights and widths. The font is
@@ -486,7 +488,7 @@
           <!-- Iconography -->
           <div>
             <h4 class="mt-8">Iconography</h4>
-            <p class="max-w-4xl mt-2 text-slate-400">
+            <p class="max-w-4xl mt-2 text-violet-200/50">
               Hoppscotch uses the "Lucide" icon set for all marketing and
               product design. Lucide is a set of 1,000+ open-source icons that
               are free to use. The icon set is available for free on

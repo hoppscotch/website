@@ -23,7 +23,7 @@
         <div class="flex items-center justify-between py-12 md:py-16">
           <RouterLink
             to="/resources"
-            class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-slate-400 hover:text-slate-200"
+            class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200/50 hover:text-violet-200"
           >
             <icon-lucide-arrow-left class="mr-2" />
             Back
@@ -35,7 +35,7 @@
             >
               Subscribe to updates
             </RouterLink>
-            <span class="mx-4 text-slate-800">|</span>
+            <span class="mx-4 text-violet-800">|</span>
             <a
               v-tippy="{
                 content: 'Follow us on Twitter',
@@ -48,7 +48,7 @@
             >
               <icon-lucide-twitter />
             </a>
-            <span class="mx-4 text-slate-800">|</span>
+            <span class="mx-4 text-violet-800">|</span>
             <button
               v-tippy="{
                 content: copied ? 'Copied!' : 'Copy permalink',
@@ -69,19 +69,19 @@
               <ul class="flex flex-wrap -m-1 text-sm">
                 <li class="m-1">
                   <span
-                    class="inline-flex text-center transition text-slate-500"
+                    class="inline-flex text-center transition text-violet-100"
                     >Last updated</span
                   >
-                  <span class="mx-2 text-slate-800">|</span>
-                  <span class="text-slate-600">Jan 17, 2020</span>
+                  <span class="mx-2 text-violet-800">|</span>
+                  <span class="text-violet-400/50">Jan 17, 2020</span>
                 </li>
               </ul>
             </div>
             <h3>
-              <span class="text-slate-100"> Privacy Policy </span>
+              <span class="text-violet-100"> Privacy Policy </span>
             </h3>
           </header>
-          <section class="max-w-2xl text-slate-300">
+          <section class="max-w-2xl text-violet-200/80">
             <p class="mt-4 mb-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.

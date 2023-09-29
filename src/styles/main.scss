@@ -30,7 +30,7 @@
 .tippy-box[data-theme~="tooltip"] > .tippy-content {
   @apply text-xs;
   @apply bg-white;
-  @apply text-slate-600;
+  @apply text-violet-400/50;
   @apply px-2;
   @apply py-1;
   @apply rounded;
@@ -40,19 +40,22 @@
   @apply fill-white;
 }
 .tippy-box[data-theme~="popover"] {
-  @apply rounded-lg;
+  @apply rounded-2xl;
   @apply shadow-2xl;
 }
 .tippy-box[data-theme~="popover"] > .tippy-content {
   @apply text-xs;
-  @apply bg-white;
-  @apply text-slate-600;
+  @apply bg-gradient-to-br;
+  @apply from-violet-900;
+  @apply to-violet-950;
+  @apply text-violet-300;
   @apply p-0;
-  @apply rounded-lg;
+  @apply rounded-2xl;
   @apply overflow-hidden;
+  @apply border border-violet-700;
 }
 .tippy-box[data-theme~="popover"] > .tippy-svg-arrow {
-  @apply fill-white;
+  @apply fill-transparent;
 }
 .no-scrollbar {
   -ms-overflow-style: none;

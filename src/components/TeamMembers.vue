@@ -5,11 +5,11 @@
         <!-- Section header -->
         <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
           >
             Our team
           </h2>
-          <p class="text-lg text-slate-400">
+          <p class="text-lg text-violet-200/50">
             Hoppscotch is a collaborative open source API development platform
             that makes it easy to build high-quality APIs — without the bloat
             and clutter of other tools.
@@ -29,11 +29,11 @@
                   height="80"
                   alt="Team member 01"
                 />
-                <h5 class="text-md text-slate-200">Sergey Filkov</h5>
-                <p class="text-sm text-slate-500">Chief Executive Officer</p>
+                <h5 class="text-md text-violet-200">Sergey Filkov</h5>
+                <p class="text-sm text-violet-100">Chief Executive Officer</p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -41,7 +41,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -62,11 +62,11 @@
                   height="80"
                   alt="Team member 02"
                 />
-                <h5 class="text-md text-slate-200">Mary Champ</h5>
-                <p class="text-sm text-slate-500">Chief Technology Officer</p>
+                <h5 class="text-md text-violet-200">Mary Champ</h5>
+                <p class="text-sm text-violet-100">Chief Technology Officer</p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -74,7 +74,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -95,11 +95,11 @@
                   height="80"
                   alt="Team member 03"
                 />
-                <h5 class="text-md text-slate-200">Mark Varsano</h5>
-                <p class="text-sm text-slate-500">Product Manager</p>
+                <h5 class="text-md text-violet-200">Mark Varsano</h5>
+                <p class="text-sm text-violet-100">Product Manager</p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -107,7 +107,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -128,11 +128,11 @@
                   height="80"
                   alt="Team member 04"
                 />
-                <h5 class="text-md text-slate-200">George Hurley</h5>
-                <p class="text-sm text-slate-500">Product Engineer</p>
+                <h5 class="text-md text-violet-200">George Hurley</h5>
+                <p class="text-sm text-violet-100">Product Engineer</p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -140,7 +140,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -161,11 +161,11 @@
                   height="80"
                   alt="Team member 05"
                 />
-                <h5 class="text-md text-slate-200">Ellie Lepisov</h5>
-                <p class="text-sm text-slate-500">Product Engineer</p>
+                <h5 class="text-md text-violet-200">Ellie Lepisov</h5>
+                <p class="text-sm text-violet-100">Product Engineer</p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -173,7 +173,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -194,11 +194,11 @@
                   height="80"
                   alt="Team member 06"
                 />
-                <h5 class="text-md text-slate-200">Connor Bal</h5>
-                <p class="text-sm text-slate-500">Product Engineer</p>
+                <h5 class="text-md text-violet-200">Connor Bal</h5>
+                <p class="text-sm text-violet-100">Product Engineer</p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -206,7 +206,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -227,11 +227,11 @@
                   height="80"
                   alt="Team member 07"
                 />
-                <h5 class="text-md text-slate-200">Marko Sharma</h5>
-                <p class="text-sm text-slate-500">Product Engineer</p>
+                <h5 class="text-md text-violet-200">Marko Sharma</h5>
+                <p class="text-sm text-violet-100">Product Engineer</p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -239,7 +239,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -260,11 +260,11 @@
                   height="80"
                   alt="Team member 08"
                 />
-                <h5 class="text-md text-slate-200">Mick Esposito</h5>
-                <p class="text-sm text-slate-500">Product Engineer</p>
+                <h5 class="text-md text-violet-200">Mick Esposito</h5>
+                <p class="text-sm text-violet-100">Product Engineer</p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -272,7 +272,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -293,11 +293,11 @@
                   height="80"
                   alt="Team member 09"
                 />
-                <h5 class="text-md text-slate-200">Daniel Smith</h5>
-                <p class="text-sm text-slate-500">Product Engineer</p>
+                <h5 class="text-md text-violet-200">Daniel Smith</h5>
+                <p class="text-sm text-violet-100">Product Engineer</p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -305,7 +305,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -326,11 +326,11 @@
                   height="80"
                   alt="Team member 10"
                 />
-                <h5 class="text-md text-slate-200">Patricia Long</h5>
-                <p class="text-sm text-slate-500">Product Engineer</p>
+                <h5 class="text-md text-violet-200">Patricia Long</h5>
+                <p class="text-sm text-violet-100">Product Engineer</p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -338,7 +338,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 rounded-full transition text-slate-500 hover:text-slate-300"
+                    class="p-2 mt-4 rounded-full transition text-violet-200/50 hover:text-violet-100"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"

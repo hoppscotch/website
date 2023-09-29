@@ -32,11 +32,11 @@
             </span>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
+            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
           >
             Flexible plans and features
           </h2>
-          <p class="text-lg text-slate-400">
+          <p class="text-lg text-violet-200/50">
             All the lorem ipsum generators on the Internet tend to repeat
             predefined chunks as necessary, making this the first true generator
             on the Internet.
@@ -116,7 +116,7 @@
                 <!-- Toggle switch -->
                 <div class="max-md:text-center">
                   <div class="inline-flex items-center whitespace-nowrap">
-                    <div class="mr-2 text-sm text-slate-500 md:max-lg:hidden">
+                    <div class="mr-2 text-sm text-violet-100 md:max-lg:hidden">
                       Monthly
                     </div>
                     <div class="relative">
@@ -133,7 +133,7 @@
                         <span class="sr-only">Pay Yearly</span>
                       </label>
                     </div>
-                    <div class="ml-2 text-sm text-slate-500">
+                    <div class="ml-2 text-sm text-violet-100">
                       Yearly (<span class="text-teal-500">-20%</span>)
                     </div>
                   </div>
@@ -149,17 +149,19 @@
                   Pro
                 </div>
                 <div class="mb-1">
-                  <span class="text-lg text-slate-500">$</span
-                  ><span class="text-3xl font-bold text-slate-50">{{
+                  <span class="text-lg text-violet-100">$</span
+                  ><span class="text-3xl font-bold text-violet-100">{{
                     annual ? "24" : "29"
                   }}</span
-                  ><span class="text-sm text-slate-500">/user/month</span>
+                  ><span class="text-sm text-violet-100">/user/month</span>
                 </div>
-                <div class="text-slate-500">Everything at your fingertips.</div>
+                <div class="text-violet-100">
+                  Everything at your fingertips.
+                </div>
               </div>
               <div class="pb-4 border-b border-slate-900">
                 <RouterLink
-                  class="inline-flex items-center justify-center w-full px-3 py-1 text-sm border border-transparent rounded-full transition text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                  class="inline-flex items-center justify-center w-full px-3 py-1 text-sm border border-transparent rounded-full transition text-violet-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                   to="/products"
                 >
                   Get Started
@@ -180,13 +182,15 @@
                   Team
                 </div>
                 <div class="mb-1">
-                  <span class="text-lg text-slate-500">$</span
-                  ><span class="text-3xl font-bold text-slate-50">{{
+                  <span class="text-lg text-violet-100">$</span
+                  ><span class="text-3xl font-bold text-violet-100">{{
                     annual ? "49" : "54"
                   }}</span
-                  ><span class="text-sm text-slate-500">/user/month</span>
+                  ><span class="text-sm text-violet-100">/user/month</span>
                 </div>
-                <div class="text-slate-500">Everything at your fingertips.</div>
+                <div class="text-violet-100">
+                  Everything at your fingertips.
+                </div>
               </div>
               <div class="pb-4 border-b border-slate-900">
                 <RouterLink
@@ -211,17 +215,19 @@
                   Enterprise
                 </div>
                 <div class="mb-1">
-                  <span class="text-lg text-slate-500">$</span
-                  ><span class="text-3xl font-bold text-slate-50">{{
+                  <span class="text-lg text-violet-100">$</span
+                  ><span class="text-3xl font-bold text-violet-100">{{
                     annual ? "79" : "85"
                   }}</span
-                  ><span class="text-sm text-slate-500">/user/month</span>
+                  ><span class="text-sm text-violet-100">/user/month</span>
                 </div>
-                <div class="text-slate-500">Everything at your fingertips.</div>
+                <div class="text-violet-100">
+                  Everything at your fingertips.
+                </div>
               </div>
               <div class="pb-4 border-b border-slate-900">
                 <RouterLink
-                  class="inline-flex items-center justify-center w-full px-3 py-1 text-sm border border-transparent rounded-full transition text-slate-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                  class="inline-flex items-center justify-center w-full px-3 py-1 text-sm border border-transparent rounded-full transition text-violet-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                   to="/products"
                 >
                   Get Started
@@ -235,26 +241,26 @@
             </div>
             <!-- # Usage -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-slate-50">Usage</div>
+              <div class="py-2 mt-4 text-violet-100">Usage</div>
             </div>
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-slate-50 md:hidden">Usage</div>
+              <div class="py-2 mt-4 text-violet-100 md:hidden">Usage</div>
             </div>
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-slate-50 md:hidden">Usage</div>
+              <div class="py-2 mt-4 text-violet-100 md:hidden">Usage</div>
             </div>
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-slate-50 md:hidden">Usage</div>
+              <div class="py-2 mt-4 text-violet-100 md:hidden">Usage</div>
             </div>
             <!-- Social Connections -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-900">
+              <div class="py-2 border-b text-violet-200/50 border-slate-900">
                 Social Connections
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
@@ -264,7 +270,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
@@ -274,7 +280,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
@@ -285,13 +291,13 @@
             </div>
             <!-- Custom Domains -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-900">
+              <div class="py-2 border-b text-violet-200/50 border-slate-900">
                 Custom Domains
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span>4 <span class="md:hidden">Custom Domains</span></span>
@@ -299,7 +305,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
@@ -309,7 +315,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
@@ -319,13 +325,13 @@
             </div>
             <!-- User Role Management -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-900">
+              <div class="py-2 border-b text-violet-200/50 border-slate-900">
                 User Role Management
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
@@ -336,7 +342,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
@@ -347,7 +353,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
@@ -358,13 +364,13 @@
             </div>
             <!-- External Databases -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-900">
+              <div class="py-2 border-b text-violet-200/50 border-slate-900">
                 External Databases
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span>1 <span class="md:hidden">External Databases</span></span>
@@ -372,7 +378,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span>5 <span class="md:hidden">External Databases</span></span>
@@ -380,7 +386,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
@@ -391,26 +397,26 @@
             </div>
             <!-- # Features -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-slate-50">Features</div>
+              <div class="py-2 mt-4 text-violet-100">Features</div>
             </div>
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-slate-50 md:hidden">Features</div>
+              <div class="py-2 mt-4 text-violet-100 md:hidden">Features</div>
             </div>
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-slate-50 md:hidden">Features</div>
+              <div class="py-2 mt-4 text-violet-100 md:hidden">Features</div>
             </div>
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-slate-50 md:hidden">Features</div>
+              <div class="py-2 mt-4 text-violet-100 md:hidden">Features</div>
             </div>
             <!-- Custom Connection -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-900">
+              <div class="py-2 border-b text-violet-200/50 border-slate-900">
                 Custom Connection
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Custom Connection</span></span>
@@ -418,7 +424,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Custom Connection</span></span>
@@ -426,7 +432,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Custom Connection</span></span>
@@ -434,13 +440,13 @@
             </div>
             <!-- Advanced Deployment Options -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-900">
+              <div class="py-2 border-b text-violet-200/50 border-slate-900">
                 Advanced Deployment Options
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
@@ -452,7 +458,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
@@ -464,7 +470,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span
@@ -476,13 +482,13 @@
             </div>
             <!-- Extra Add-ons -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-900">
+              <div class="py-2 border-b text-violet-200/50 border-slate-900">
                 Extra Add-ons
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Extra Add-ons</span></span>
@@ -490,7 +496,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Extra Add-ons</span></span>
@@ -498,7 +504,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Extra Add-ons</span></span>
@@ -506,27 +512,27 @@
             </div>
             <!-- Admin Roles -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-900">
+              <div class="py-2 border-b text-violet-200/50 border-slate-900">
                 Admin Roles
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center py-2 border-b border-slate-900 text-slate-400 max-md:hidden"
+                class="flex items-center py-2 border-b border-slate-900 text-violet-200/50 max-md:hidden"
               >
                 <span><span class="md:hidden">Admin Roles</span></span>
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center py-2 border-b border-slate-900 text-slate-400 max-md:hidden"
+                class="flex items-center py-2 border-b border-slate-900 text-violet-200/50 max-md:hidden"
               >
                 <span><span class="md:hidden">Admin Roles</span></span>
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Admin Roles</span></span>
@@ -534,27 +540,27 @@
             </div>
             <!-- Deploy and Monitor -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-900">
+              <div class="py-2 border-b text-violet-200/50 border-slate-900">
                 Deploy and Monitor
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center py-2 border-b border-slate-900 text-slate-400 max-md:hidden"
+                class="flex items-center py-2 border-b border-slate-900 text-violet-200/50 max-md:hidden"
               >
                 <span><span class="md:hidden">Deploy and Monitor</span></span>
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center py-2 border-b border-slate-900 text-slate-400 max-md:hidden"
+                class="flex items-center py-2 border-b border-slate-900 text-violet-200/50 max-md:hidden"
               >
                 <span><span class="md:hidden">Deploy and Monitor</span></span>
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Deploy and Monitor</span></span>
@@ -562,27 +568,27 @@
             </div>
             <!-- Enterprise Add-ons -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-900">
+              <div class="py-2 border-b text-violet-200/50 border-slate-900">
                 Enterprise Add-ons
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center py-2 border-b border-slate-900 text-slate-400 max-md:hidden"
+                class="flex items-center py-2 border-b border-slate-900 text-violet-200/50 max-md:hidden"
               >
                 <span><span class="md:hidden">Enterprise Add-ons</span></span>
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center py-2 border-b border-slate-900 text-slate-400 max-md:hidden"
+                class="flex items-center py-2 border-b border-slate-900 text-violet-200/50 max-md:hidden"
               >
                 <span><span class="md:hidden">Enterprise Add-ons</span></span>
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Enterprise Add-ons</span></span>
@@ -590,33 +596,33 @@
             </div>
             <!-- # Support -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-slate-50">Support</div>
+              <div class="py-2 mt-4 text-violet-100">Support</div>
             </div>
             <div class="flex flex-col justify-end px-6">
-              <div class="hidden py-2 mt-4 text-slate-50">Support</div>
+              <div class="hidden py-2 mt-4 text-violet-100">Support</div>
             </div>
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-slate-50 md:hidden">Support</div>
+              <div class="py-2 mt-4 text-violet-100 md:hidden">Support</div>
             </div>
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-slate-50 md:hidden">Support</div>
+              <div class="py-2 mt-4 text-violet-100 md:hidden">Support</div>
             </div>
             <!-- Premium Support -->
             <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-slate-400 border-slate-900">
+              <div class="py-2 border-b text-violet-200/50 border-slate-900">
                 Premium Support
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center py-2 border-b border-slate-900 text-slate-400 max-md:hidden"
+                class="flex items-center py-2 border-b border-slate-900 text-violet-200/50 max-md:hidden"
               >
                 <span><span class="md:hidden">Premium Support</span></span>
               </div>
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Premium Support</span></span>
@@ -624,7 +630,7 @@
             </div>
             <div class="flex flex-col justify-end px-6">
               <div
-                class="flex items-center h-full py-2 border-b border-slate-900 text-slate-400"
+                class="flex items-center h-full py-2 border-b border-slate-900 text-violet-200/50"
               >
                 <icon-lucide-check class="mr-3 text-violet-500 shrink-0" />
                 <span><span class="md:hidden">Premium Support</span></span>

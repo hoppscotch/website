@@ -4,7 +4,7 @@
       class="flex items-start justify-start px-8 overflow-hidden border h-80 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5 backdrop-blur-md"
     >
       <div
-        class="flex flex-col p-2 mx-auto -mt-8 text-xs border shadow-lg space-y-2 text-violet-200/80 rounded-3xl border-violet-400/20 bg-violet-400/10"
+        class="flex flex-col p-2 mx-auto -mt-8 text-xs border shadow-lg space-y-2 brightness-110 text-violet-200/80 rounded-3xl border-violet-400/20 bg-violet-500/10"
       >
         <div class="flex h-12 space-x-2">
           <button class="items-center justify-center w-12 key !rounded-tl-2xl">

@@ -32,7 +32,7 @@
                 />
               </svg>
             </div>
-            <div class="text-sm text-slate-200">Founded in 2021</div>
+            <div class="text-sm text-violet-200">Founded in 2021</div>
           </div>
           <!-- item -->
           <div class="relative flex flex-col items-center">
@@ -60,7 +60,7 @@
                 />
               </svg>
             </div>
-            <div class="text-sm text-slate-200">Built-with Open Source</div>
+            <div class="text-sm text-violet-200">Built-with Open Source</div>
           </div>
           <!-- item -->
           <div class="relative flex flex-col items-center">
@@ -88,7 +88,7 @@
                 />
               </svg>
             </div>
-            <div class="text-sm text-slate-200">52,000+ GitHub Stars</div>
+            <div class="text-sm text-violet-200">52,000+ GitHub Stars</div>
           </div>
           <!-- item -->
           <div class="relative flex flex-col items-center">
@@ -107,7 +107,7 @@
                 />
               </svg>
             </div>
-            <div class="text-sm text-slate-200">1.6M+ Users</div>
+            <div class="text-sm text-violet-200">1.6M+ Users</div>
           </div>
         </div>
       </div>

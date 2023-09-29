@@ -42,6 +42,7 @@ declare module "vue" {
     Features03: (typeof import("./src/components/Features03.vue"))["default"]
     Features04: (typeof import("./src/components/Features04.vue"))["default"]
     FeaturesAnimation: (typeof import("./src/components/FeaturesAnimation.vue"))["default"]
+    Globe: (typeof import("./src/components/Globe.vue"))["default"]
     Hero: (typeof import("./src/components/Hero.vue"))["default"]
     HeroAbout: (typeof import("./src/components/HeroAbout.vue"))["default"]
     Highlighter: (typeof import("./src/components/Highlighter.vue"))["default"]

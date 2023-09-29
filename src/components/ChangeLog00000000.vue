@@ -1,7 +1,7 @@
 <template>
   <article id="00-00-0000" class="md:flex">
     <p
-      class="flex flex-col h-full mt-px text-xs leading-6 md:sticky pl-7 md:top-20 sm:text-sm text-slate-200 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
+      class="flex flex-col h-full mt-px text-xs leading-6 md:sticky pl-7 md:top-20 sm:text-sm text-violet-200 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
     >
       <a href="#00-00-0000" class="rounded">MMMM 00, 0000</a>
     </p>
@@ -47,12 +47,12 @@
         </span>
       </div>
       <div>
-        <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-slate-200">
+        <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-violet-200">
           <RouterLink to="/changelog/00-00-0000">
             Bug fixes and performance improvements
           </RouterLink>
         </h1>
-        <p class="mt-4 mb-8 text-slate-400">
+        <p class="mt-4 mb-8 text-violet-200/50">
           We update the Hoppscotch app as often as possible to help make it
           faster and more reliable for you. This version includes several bug
           fixes and performance improvements.
@@ -64,7 +64,7 @@
         <h4 class="flex items-center text-xl font-bold">
           Self-Host support for Hoppscotch
         </h4>
-        <p class="mt-4 mb-8 text-slate-400">
+        <p class="mt-4 mb-8 text-violet-200/50">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia quis
           quasi cupiditate expedita eius accusamus alias doloremque obcaecati ab
           quas ducimus voluptas asperiores fugiat magnam, labore velit nulla!
@@ -73,14 +73,14 @@
         <h4 class="flex items-center text-xl font-bold">
           Collaborate with your team
         </h4>
-        <p class="mt-4 mb-8 text-slate-400">
+        <p class="mt-4 mb-8 text-violet-200/50">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae
           culpa quaerat illo harum exercitationem quae atque natus porro enim,
           cum voluptas quos corrupti, iusto necessitatibus eos error, dolore
           aliquid beatae.
         </p>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-slate-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-violet-200/50 marker:text-violet-100"
         >
           <li class="pl-4">Lorem, ipsum.</li>
           <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -90,7 +90,7 @@
         <h4 class="flex items-center text-xl font-bold">
           Share your collections with the world
         </h4>
-        <p class="mt-4 mb-8 text-slate-400">
+        <p class="mt-4 mb-8 text-violet-200/50">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quis
           quasi cupiditate expedita eius accusamus alias doloremque obcaecati ab
           quas ducimus voluptas asperiores fugiat magnam, labore velit nulla!
@@ -101,7 +101,7 @@
           Added
         </h5>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-green-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-violet-200/50 marker:text-green-500"
         >
           <li class="pl-4">Lorem, ipsum.</li>
           <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -113,7 +113,7 @@
           Changed
         </h5>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-amber-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-violet-200/50 marker:text-amber-500"
         >
           <li class="pl-4">Lorem, ipsum.</li>
           <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -125,7 +125,7 @@
           Deprecated
         </h5>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-pink-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-violet-200/50 marker:text-pink-500"
         >
           <li class="pl-4">Lorem, ipsum.</li>
           <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -137,7 +137,7 @@
           Removed
         </h5>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-red-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-violet-200/50 marker:text-red-500"
         >
           <li class="pl-4">Lorem, ipsum.</li>
           <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -149,7 +149,7 @@
           Fixed
         </h5>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-teal-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-violet-200/50 marker:text-teal-500"
         >
           <li class="pl-4">Lorem, ipsum.</li>
           <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -161,7 +161,7 @@
           Security
         </h5>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-blue-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-violet-200/50 marker:text-blue-500"
         >
           <li class="pl-4">Lorem, ipsum.</li>
           <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -173,7 +173,7 @@
           Performance
         </h5>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-fuchsia-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-violet-200/50 marker:text-fuchsia-500"
         >
           <li class="pl-4">Lorem, ipsum.</li>
           <li class="pl-4">Lorem, ipsum dolor.</li>
@@ -185,7 +185,7 @@
           Other
         </h5>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-violet-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-violet-200/50 marker:text-violet-500"
         >
           <li class="pl-4">Lorem, ipsum.</li>
           <li class="pl-4">Lorem, ipsum dolor.</li>

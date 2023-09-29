@@ -65,12 +65,12 @@
                 />
               </svg>
             </div>
-            <h4 class="mb-2 text-slate-300">Kerala</h4>
-            <div class="mb-2 grow text-slate-400">
+            <h4 class="mb-2 text-violet-200/80">Kerala</h4>
+            <div class="mb-2 grow text-violet-200/50">
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur.
             </div>
-            <div class="font-sm text-slate-600">14 open positions</div>
+            <div class="font-sm text-violet-400/50">14 open positions</div>
           </div>
           <!-- location -->
           <div class="flex flex-col items-center h-full text-center">
@@ -86,12 +86,12 @@
                 />
               </svg>
             </div>
-            <h4 class="mb-2 text-slate-300">Bangalore</h4>
-            <div class="mb-2 grow text-slate-400">
+            <h4 class="mb-2 text-violet-200/80">Bangalore</h4>
+            <div class="mb-2 grow text-violet-200/50">
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur.
             </div>
-            <div class="font-sm text-slate-600">7 open positions</div>
+            <div class="font-sm text-violet-400/50">7 open positions</div>
           </div>
           <!-- location -->
           <div class="flex flex-col items-center h-full text-center">
@@ -107,12 +107,12 @@
                 />
               </svg>
             </div>
-            <h4 class="mb-2 text-slate-300">Bangladesh</h4>
-            <div class="mb-2 grow text-slate-400">
+            <h4 class="mb-2 text-violet-200/80">Bangladesh</h4>
+            <div class="mb-2 grow text-violet-200/50">
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur.
             </div>
-            <div class="font-sm text-slate-600">24 open positions</div>
+            <div class="font-sm text-violet-400/50">24 open positions</div>
           </div>
         </div>
       </div>

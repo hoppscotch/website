@@ -1,7 +1,7 @@
 <template>
   <article id="11-04-2023" class="md:flex">
     <p
-      class="flex flex-col h-full mt-px text-xs leading-6 md:sticky pl-7 md:top-20 sm:text-sm text-slate-200 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
+      class="flex flex-col h-full mt-px text-xs leading-6 md:sticky pl-7 md:top-20 sm:text-sm text-violet-200 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
     >
       <a href="#11-04-2023" class="rounded">April 11, 2023</a>
     </p>
@@ -29,12 +29,12 @@
         </span>
       </div>
       <div>
-        <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-slate-200">
+        <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-violet-200">
           <RouterLink to="/changelog/11-04-2023">
             Tabs, workspaces and more
           </RouterLink>
         </h1>
-        <p class="mt-4 mb-8 text-slate-400">
+        <p class="mt-4 mb-8 text-violet-200/50">
           We are super excited to introduce self-host support to Hoppscotch
           along with workspaces, tabs and collection reordering in this release.
           It's been our most requested feature since we launched.
@@ -46,20 +46,20 @@
         <h4 class="flex items-center text-xl font-bold">
           Self-hosted Hoppscotch
         </h4>
-        <p class="mt-4 mb-8 text-slate-400">
+        <p class="mt-4 mb-8 text-violet-200/50">
           You can now self-host Hoppscotch on your own servers. This is
           especially useful if you want to keep your data private or if you want
           to use Hoppscotch in an environment where the internet is not
           available.
         </p>
         <h3 class="flex items-center text-xl font-bold">Workspaces</h3>
-        <p class="mt-4 mb-8 text-slate-400">
+        <p class="mt-4 mb-8 text-violet-200/50">
           Easily switch between workspaces with our updated user interface for
           workspaces. You can now create, edit, delete and switch between
           workspaces with ease.
         </p>
         <h3 class="flex items-center text-xl font-bold">Tabs</h3>
-        <p class="mt-4 mb-8 text-slate-400">
+        <p class="mt-4 mb-8 text-violet-200/50">
           You can now open multiple requests in separate tabs and work with them
           simultaneously. This is especially useful when you want to compare
           responses or work with multiple requests at the same time.
@@ -67,7 +67,7 @@
         <h4 class="flex items-center text-xl font-bold">
           Reorder requests and collections
         </h4>
-        <p class="mt-4 mb-8 text-slate-400">
+        <p class="mt-4 mb-8 text-violet-200/50">
           Organise your collections more efficiently by using drag and drop to
           reorder. You can also reorder requests within a collection.
         </p>
@@ -76,7 +76,7 @@
           Added
         </h5>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-green-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-violet-200/50 marker:text-green-500"
         >
           <li class="pl-4">Self-hosted support.</li>
           <li class="pl-4">Tabs.</li>
@@ -88,7 +88,7 @@
           Deprecated
         </h5>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-slate-400 marker:text-pink-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-violet-200/50 marker:text-pink-500"
         >
           <li class="pl-4">Hosted Docker image.</li>
         </ul>

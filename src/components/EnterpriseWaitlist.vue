@@ -49,11 +49,11 @@
                 </span>
               </div>
               <h3
-                class="pb-3 text-transparent bg-clip-text bg-gradient-to-br from-white via-white/80 to-white/20"
+                class="pb-3 text-transparent bg-clip-text bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
               >
                 Your Portal to Everything Hoppscotch
               </h3>
-              <p class="mb-8 text-slate-400">
+              <p class="mb-8 text-violet-200/50">
                 SAML-based SSO, on-prem deployment, audit logs, and more.<br />
                 Join the waitlist for the Hoppscotch Enterprise Edition.
               </p>
@@ -101,7 +101,7 @@
               />
             </div>
             <h5 class="font-semibold">Hoppscotch Cloud</h5>
-            <p class="mt-4 text-slate-400">
+            <p class="mt-4 text-violet-200/50">
               Hoppscotch Cloud is the easiest way to get started with
               Hoppscotch. It's a fully managed API development platform that
               lets you build, publish, and document APIs in minutes.
@@ -126,7 +126,7 @@
               />
             </div>
             <h5 class="font-semibold">Self-Host Hoppscotch</h5>
-            <p class="mt-4 text-slate-400">
+            <p class="mt-4 text-violet-200/50">
               Hoppscotch Self-Host is a free and open-source API development
               platform that you can run on your own infrastructure. It's the
               most flexible way to deploy Hoppscotch.
