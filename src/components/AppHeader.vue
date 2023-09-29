@@ -118,7 +118,7 @@
                     </div>
                     <div class="flex flex-col group/navitem">
                       <RouterLink
-                        class="group-hover/navitem:opacity-50 hover:!opacity-100 flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
+                        class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
                         to="/products/cloud"
                         @click="hide()"
                       >
@@ -134,14 +134,14 @@
                             Cloud
                           </div>
                           <div
-                            class="transition text-violet-400 group-hover:text-violet-200"
+                            class="transition text-violet-400 group-hover:text-violet-300"
                           >
                             Seamless collaboration, effortless scalability.
                           </div>
                         </div>
                       </RouterLink>
                       <RouterLink
-                        class="group-hover/navitem:opacity-50 hover:!opacity-100 flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
+                        class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
                         to="/products/enterprise"
                         @click="hide()"
                       >
@@ -157,14 +157,14 @@
                             Enterprise
                           </div>
                           <div
-                            class="transition text-violet-400 group-hover:text-violet-200"
+                            class="transition text-violet-400 group-hover:text-violet-300"
                           >
                             API management with unparalleled power and control.
                           </div>
                         </div>
                       </RouterLink>
                       <RouterLink
-                        class="group-hover/navitem:opacity-50 hover:!opacity-100 flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
+                        class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
                         to="/products/self-host"
                         @click="hide()"
                       >
@@ -180,7 +180,7 @@
                             Self-Host
                           </div>
                           <div
-                            class="transition text-violet-400 group-hover:text-violet-200"
+                            class="transition text-violet-400 group-hover:text-violet-300"
                           >
                             Harness the full potential of APIs with complete
                             control.
@@ -188,7 +188,7 @@
                         </div>
                       </RouterLink>
                       <RouterLink
-                        class="group-hover/navitem:opacity-50 hover:!opacity-100 flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
+                        class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
                         to="/products/cli"
                         @click="hide()"
                       >
@@ -204,7 +204,7 @@
                             CLI
                           </div>
                           <div
-                            class="transition text-violet-400 group-hover:text-violet-200"
+                            class="transition text-violet-400 group-hover:text-violet-300"
                           >
                             Bring API testing and automation into CI/CD
                             pipelines.
@@ -276,7 +276,7 @@
                       </div>
                       <div class="flex flex-col group/navitem">
                         <RouterLink
-                          class="group-hover/navitem:opacity-50 hover:!opacity-100 flex items-center p-3 transition rounded-lg group hover:bg-violet-800/50"
+                          class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 transition rounded-lg group hover:bg-violet-800/50"
                           to="/solutions/developers"
                           @click="hide()"
                         >
@@ -292,7 +292,7 @@
                               Developers
                             </div>
                             <div
-                              class="transition text-violet-400 group-hover:text-violet-200"
+                              class="transition text-violet-400 group-hover:text-violet-300"
                             >
                               Build and test APIs faster with the complete
                               toolkit.
@@ -300,7 +300,7 @@
                           </div>
                         </RouterLink>
                         <RouterLink
-                          class="group-hover/navitem:opacity-50 hover:!opacity-100 flex items-center p-3 transition rounded-lg group-hover/nav:opacity-50 group hover:bg-violet-800/50"
+                          class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 transition rounded-lg group-hover/nav:opacity-50 group hover:bg-violet-800/50"
                           to="/solutions/teams"
                           @click="hide()"
                         >
@@ -316,14 +316,14 @@
                               Teams
                             </div>
                             <div
-                              class="transition text-violet-400 group-hover:text-violet-200"
+                              class="transition text-violet-400 group-hover:text-violet-300"
                             >
                               Build and scale your API program with confidence.
                             </div>
                           </div>
                         </RouterLink>
                         <RouterLink
-                          class="group-hover/navitem:opacity-50 hover:!opacity-100 flex items-center p-3 transition rounded-lg group-hover/nav:opacity-50 group hover:bg-violet-800/50"
+                          class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 transition rounded-lg group-hover/nav:opacity-50 group hover:bg-violet-800/50"
                           to="/solutions/enterprises"
                           @click="hide()"
                         >
@@ -339,7 +339,7 @@
                               Enterprises
                             </div>
                             <div
-                              class="transition text-violet-400 group-hover:text-violet-200"
+                              class="transition text-violet-400 group-hover:text-violet-300"
                             >
                               Accelerate your business with the modern API
                               platform.
@@ -347,7 +347,7 @@
                           </div>
                         </RouterLink>
                         <RouterLink
-                          class="group-hover/navitem:opacity-50 hover:!opacity-100 flex items-center p-3 transition rounded-lg group-hover/nav:opacity-50 group hover:bg-violet-800/50"
+                          class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 transition rounded-lg group-hover/nav:opacity-50 group hover:bg-violet-800/50"
                           to="/solutions/education"
                           @click="hide()"
                         >
@@ -363,7 +363,7 @@
                               Education
                             </div>
                             <div
-                              class="transition text-violet-400 group-hover:text-violet-200"
+                              class="transition text-violet-400 group-hover:text-violet-300"
                             >
                               Empower students and educators with API
                               technology.
@@ -382,7 +382,7 @@
                       </div>
                       <div class="flex flex-col group/navitem">
                         <RouterLink
-                          class="flex group-hover/navitem:opacity-50 hover:!opacity-100 items-center p-3 transition rounded-lg group hover:bg-violet-800/50"
+                          class="flex group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 items-center p-3 transition rounded-lg group hover:bg-violet-800/50"
                           to="/solutions/cloud"
                           @click="hide()"
                         >
@@ -398,14 +398,14 @@
                               Cloud
                             </div>
                             <div
-                              class="transition text-violet-400 group-hover:text-violet-200"
+                              class="transition text-violet-400 group-hover:text-violet-300"
                             >
                               Seamless collaboration, effortless scalability.
                             </div>
                           </div>
                         </RouterLink>
                         <RouterLink
-                          class="flex group-hover/navitem:opacity-50 hover:!opacity-100 items-center p-3 transition rounded-lg group hover:bg-violet-800/50"
+                          class="flex group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 items-center p-3 transition rounded-lg group hover:bg-violet-800/50"
                           to="/solutions/self-host"
                           @click="hide()"
                         >
@@ -421,7 +421,7 @@
                               Self-Host
                             </div>
                             <div
-                              class="transition text-violet-400 group-hover:text-violet-200"
+                              class="transition text-violet-400 group-hover:text-violet-300"
                             >
                               Harness the full potential of APIs with complete
                               control.
@@ -665,7 +665,7 @@
                     Cloud
                   </div>
                   <div
-                    class="text-violet-400 group-hover:text-violet-200"
+                    class="text-violet-400 group-hover:text-violet-300"
                     transition
                   >
                     Seamless collaboration, effortless scalability.
@@ -688,7 +688,7 @@
                     Enterprise
                   </div>
                   <div
-                    class="text-violet-400 group-hover:text-violet-200"
+                    class="text-violet-400 group-hover:text-violet-300"
                     transition
                   >
                     API management with unparalleled power and control.
@@ -711,7 +711,7 @@
                     Self-Host
                   </div>
                   <div
-                    class="text-violet-400 group-hover:text-violet-200"
+                    class="text-violet-400 group-hover:text-violet-300"
                     transition
                   >
                     Harness the full potential of APIs with complete control.
@@ -734,7 +734,7 @@
                     CLI
                   </div>
                   <div
-                    class="text-violet-400 group-hover:text-violet-200"
+                    class="text-violet-400 group-hover:text-violet-300"
                     transition
                   >
                     Bring API testing and automation into CI/CD pipelines.
@@ -805,7 +805,7 @@
                     Developers
                   </div>
                   <div
-                    class="text-violet-400 group-hover:text-violet-200"
+                    class="text-violet-400 group-hover:text-violet-300"
                     transition
                   >
                     Build and test APIs faster with the complete toolkit.
@@ -828,7 +828,7 @@
                     Teams
                   </div>
                   <div
-                    class="text-violet-400 group-hover:text-violet-200"
+                    class="text-violet-400 group-hover:text-violet-300"
                     transition
                   >
                     Build and scale your API program with confidence.
@@ -851,7 +851,7 @@
                     Enterprises
                   </div>
                   <div
-                    class="text-violet-400 group-hover:text-violet-200"
+                    class="text-violet-400 group-hover:text-violet-300"
                     transition
                   >
                     Accelerate your business with the modern API platform.
@@ -874,7 +874,7 @@
                     Education
                   </div>
                   <div
-                    class="text-violet-400 group-hover:text-violet-200"
+                    class="text-violet-400 group-hover:text-violet-300"
                     transition
                   >
                     Empower students and educators with API technology.
@@ -904,7 +904,7 @@
                     Cloud
                   </div>
                   <div
-                    class="text-violet-400 group-hover:text-violet-200"
+                    class="text-violet-400 group-hover:text-violet-300"
                     transition
                   >
                     Seamless collaboration, effortless scalability.
@@ -927,7 +927,7 @@
                     Self-Host
                   </div>
                   <div
-                    class="text-violet-400 group-hover:text-violet-200"
+                    class="text-violet-400 group-hover:text-violet-300"
                     transition
                   >
                     Harness the full potential of APIs with complete control.
