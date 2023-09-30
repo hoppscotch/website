@@ -64,16 +64,18 @@
               <ul class="flex flex-wrap -m-1 text-sm">
                 <li class="m-1">
                   <span
-                    class="inline-flex text-center transition text-violet-100"
+                    class="inline-flex text-center transition text-violet-100/50"
                     >Product</span
                   >
-                  <span class="mx-2 text-violet-800">|</span>
-                  <span class="text-violet-400/50">Jan 17, 2020</span>
+                  <span class="mx-2 text-violet-400/20">|</span>
+                  <span class="text-violet-200/20">Jan 17, 2020</span>
                 </li>
               </ul>
             </div>
             <h3 class="mb-8">
-              <span class="text-violet-100">
+              <span
+                class="text-transparent bg-clip-text bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
+              >
                 The quick brown fox jumped over the lazy dog
               </span>
             </h3>

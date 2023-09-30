@@ -31,11 +31,11 @@
           <span class="flex items-center text-sm">
             <RouterLink
               :to="{ path: '', hash: '#newsletter' }"
-              class="rounded transition text-violet-400 hover:text-violet-300"
+              class="rounded transition text-violet-400/60 hover:text-violet-400/80"
             >
               Subscribe to updates
             </RouterLink>
-            <span class="mx-4 text-violet-800">|</span>
+            <span class="mx-4 text-violet-400/20">|</span>
             <a
               v-tippy="{
                 content: 'Follow us on Twitter',
@@ -44,17 +44,17 @@
               href="https://twitter.com/hoppscotch_io"
               target="_blank"
               rel="noopener noreferrer"
-              class="rounded transition text-violet-400 hover:text-violet-300"
+              class="rounded transition text-violet-400/60 hover:text-violet-400/80"
             >
               <icon-lucide-twitter />
             </a>
-            <span class="mx-4 text-violet-800">|</span>
+            <span class="mx-4 text-violet-400/20">|</span>
             <button
               v-tippy="{
                 content: copied ? 'Copied!' : 'Copy permalink',
                 theme: 'tooltip',
               }"
-              class="rounded transition text-violet-400 hover:text-violet-300"
+              class="rounded transition text-violet-400/60 hover:text-violet-400/80"
               @click="copy(source)"
             >
               <icon-lucide-copy v-if="!copied" />
@@ -69,16 +69,20 @@
               <ul class="flex flex-wrap -m-1 text-sm">
                 <li class="m-1">
                   <span
-                    class="inline-flex text-center transition text-violet-100"
+                    class="inline-flex text-center transition text-violet-100/50"
                     >Last updated</span
                   >
-                  <span class="mx-2 text-violet-800">|</span>
-                  <span class="text-violet-400/50">Jan 17, 2020</span>
+                  <span class="mx-2 text-violet-400/20">|</span>
+                  <span class="text-violet-200/20">Jan 17, 2020</span>
                 </li>
               </ul>
             </div>
             <h3>
-              <span class="text-violet-100"> Privacy Policy </span>
+              <span
+                class="text-transparent bg-clip-text bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
+              >
+                Privacy Policy
+              </span>
             </h3>
           </header>
           <section class="max-w-2xl text-violet-200/80">

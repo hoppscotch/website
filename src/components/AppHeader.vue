@@ -2,6 +2,8 @@
   import { useScroll } from "@vueuse/gesture"
   import { useMotion } from "@vueuse/motion"
 
+  const logoOptions = ref<any | null>(null)
+
   const isMobileMenuClosed = ref<boolean>(true)
   const router = useRouter()
 
@@ -67,18 +69,49 @@
           class="flex items-center justify-start flex-1 flex-shrink-0 flex-nowrap"
         >
           <!-- Logo -->
-          <RouterLink
-            class="flex items-center outline-none transition hover:scale-110 rounded-2xl justifyrounded-full"
-            to="/"
-            aria-label="Hoppscotch"
+          <tippy
+            ref="logoOptions"
+            interactive
+            trigger="manual"
+            theme="popover"
+            class="rounded-full"
           >
-            <img
-              loading="lazy"
-              src="/images/logo.png"
-              alt="Hoppscotch"
-              class="w-10 h-10 rounded-xl ring-1 ring-violet-500/50 hover:ring-violet-500/80"
-            />
-          </RouterLink>
+            <RouterLink
+              class="flex items-center outline-none transition hover:scale-110 rounded-2xl justifyrounded-full"
+              to="/"
+              aria-label="Hoppscotch"
+              @contextmenu.prevent="logoOptions.tippy.show()"
+            >
+              <img
+                loading="lazy"
+                src="/images/logo.png"
+                alt="Hoppscotch"
+                class="w-10 h-10 rounded-xl ring-1 ring-violet-500/50 hover:ring-violet-500/80"
+              />
+            </RouterLink>
+            <template #content="{ hide }">
+              <div class="flex flex-col p-2">
+                <RouterLink
+                  class="flex items-center px-3 py-2 text-sm rounded-lg transition text-violet-300 hover:text-violet-50 hover:bg-violet-800/50"
+                  to="/images/logo.png"
+                  target="_blank"
+                  download="hoppscotch-logo.png"
+                  @click="hide()"
+                >
+                  <icon-lucide-save class="mr-3" />
+                  Save Logo
+                </RouterLink>
+                <RouterLink
+                  class="flex items-center px-3 py-2 text-sm rounded-lg transition text-violet-300 hover:text-violet-50 hover:bg-violet-800/50"
+                  to="/brand"
+                  @click="hide()"
+                >
+                  <icon-lucide-palette class="mr-3" />
+                  Brand
+                </RouterLink>
+              </div>
+            </template>
+          </tippy>
         </div>
         <!-- Desktop menu links -->
         <div
@@ -199,7 +232,7 @@
                       </RouterLink>
                     </div>
                   </div>
-                  <div class="flex flex-col p-2 bg-violet-900/80">
+                  <div class="flex flex-col p-2 bg-violet-900/90">
                     <div
                       class="mx-3 my-2 font-semibold tracking-tight text-violet-400"
                     >
@@ -286,7 +319,7 @@
                           </div>
                         </RouterLink>
                         <RouterLink
-                          class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 transition rounded-lg group-hover/nav:opacity-50 group hover:bg-violet-800/50"
+                          class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 transition rounded-lg group hover:bg-violet-800/50"
                           to="/solutions/teams"
                           @click="hide()"
                         >
@@ -309,7 +342,7 @@
                           </div>
                         </RouterLink>
                         <RouterLink
-                          class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 transition rounded-lg group-hover/nav:opacity-50 group hover:bg-violet-800/50"
+                          class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 transition rounded-lg group hover:bg-violet-800/50"
                           to="/solutions/enterprises"
                           @click="hide()"
                         >
@@ -333,7 +366,7 @@
                           </div>
                         </RouterLink>
                         <RouterLink
-                          class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 transition rounded-lg group-hover/nav:opacity-50 group hover:bg-violet-800/50"
+                          class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 transition rounded-lg group hover:bg-violet-800/50"
                           to="/solutions/education"
                           @click="hide()"
                         >
@@ -417,7 +450,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="flex p-2 bg-violet-900/80">
+                  <div class="flex p-2 bg-violet-900/90">
                     <a
                       class="flex items-center px-3 py-2 text-sm rounded-lg transition text-violet-300 hover:text-violet-50 hover:bg-violet-800/50"
                       href="https://docs.hoppscotch.io"
@@ -544,7 +577,7 @@
               }"
             >
               <div
-                class="invisible w-full h-full border rounded-full duration-200 delay-200 border-violet-50/10 bg-violet-200/10 backdrop-blur-md group-hover/nav:visible"
+                class="w-full h-full border rounded-full opacity-0 duration-200 delay-200 border-violet-50/10 bg-violet-200/10 backdrop-blur-md group-hover/nav:opacity-100"
               ></div>
             </div>
           </div>

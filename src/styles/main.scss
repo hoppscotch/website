@@ -24,35 +24,36 @@
   @apply max-w-none #{!important};
 }
 .tippy-box[data-theme~="tooltip"] {
-  @apply rounded;
-  @apply shadow-sm;
+  @apply rounded-md;
+  @apply shadow-md;
 }
 .tippy-box[data-theme~="tooltip"] > .tippy-content {
   @apply text-xs;
-  @apply bg-white;
-  @apply text-violet-400/50;
-  @apply px-2;
-  @apply py-1;
-  @apply rounded;
+  @apply bg-violet-950;
+  @apply text-violet-400;
+  @apply px-3;
+  @apply py-2;
+  @apply rounded-md;
   @apply overflow-hidden;
 }
 .tippy-box[data-theme~="tooltip"] > .tippy-svg-arrow {
-  @apply fill-white;
+  @apply fill-violet-950;
 }
 .tippy-box[data-theme~="popover"] {
   @apply rounded-2xl;
   @apply shadow-2xl;
+  @apply bg-violet-950;
 }
 .tippy-box[data-theme~="popover"] > .tippy-content {
   @apply text-xs;
   @apply bg-gradient-to-br;
-  @apply from-violet-900;
-  @apply to-violet-950;
+  @apply from-violet-900/80;
+  @apply to-violet-950/80;
   @apply text-violet-300;
   @apply p-0;
   @apply rounded-2xl;
   @apply overflow-hidden;
-  @apply border border-violet-700;
+  @apply border border-violet-800;
 }
 .tippy-box[data-theme~="popover"] > .tippy-svg-arrow {
   @apply fill-transparent;

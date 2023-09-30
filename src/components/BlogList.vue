@@ -29,7 +29,8 @@
         <div class="mb-4">
           <ul class="flex flex-wrap -m-1 text-xs">
             <li class="m-1">
-              <span class="inline-flex text-center transition text-violet-100"
+              <span
+                class="inline-flex text-center transition text-violet-100/50"
                 >Product</span
               >
             </li>
@@ -59,8 +60,8 @@
         />
         <div class="text-xs">
           <span class="transition text-violet-200/50"> Anastasia Dan </span>
-          <span class="mx-2 text-violet-800">|</span>
-          <span class="text-violet-400/50">Jan 17, 2020</span>
+          <span class="mx-2 text-violet-400/20">|</span>
+          <span class="text-violet-200/20">Jan 17, 2020</span>
         </div>
       </footer>
     </article>
@@ -96,7 +97,7 @@
                 class="m-1"
               >
                 <span
-                  class="inline-flex text-center transition text-violet-100"
+                  class="inline-flex text-center transition text-violet-100/50"
                 >
                   {{ tag }}</span
                 >
@@ -128,8 +129,8 @@
             <span class="transition text-violet-200/50">
               {{ blog.author.name }}
             </span>
-            <span class="mx-2 text-violet-800">|</span>
-            <span class="text-violet-400/50">{{ blog.date }}</span>
+            <span class="mx-2 text-violet-400/20">|</span>
+            <span class="text-violet-200/20">{{ blog.date }}</span>
           </div>
         </footer>
       </article>

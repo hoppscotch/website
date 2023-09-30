@@ -41,16 +41,16 @@
           <p class="mt-4 text-sm">
             <RouterLink
               :to="{ path: '', hash: '#newsletter' }"
-              class="rounded transition text-violet-400 hover:text-violet-300"
+              class="rounded transition text-violet-400/60 hover:text-violet-400/80"
             >
               Subscribe to updates
             </RouterLink>
-            <span class="mx-4 text-violet-800">|</span>
+            <span class="mx-4 text-violet-400/20">|</span>
             <a
               href="https://twitter.com/hoppscotch_io"
               target="_blank"
               rel="noopener noreferrer"
-              class="rounded transition text-violet-400 hover:text-violet-300"
+              class="rounded transition text-violet-400/60 hover:text-violet-400/80"
               >Follow us on Twitter</a
             >
           </p>
