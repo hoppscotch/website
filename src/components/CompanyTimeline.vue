@@ -3,18 +3,20 @@
     <div class="max-w-5xl px-4 mx-auto sm:px-6">
       <div class="py-12 md:py-16">
         <!-- Section header -->
-        <div class="max-w-2xl pb-12 mx-auto text-center md:pb-20">
+        <div
+          class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
+        >
           <div
             class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-violet-500/10 border-violet-500/50"
           >
             <span
-              class="inline-flex text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
+              class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-violet-50 to-violet-600"
             >
               Timeline
             </span>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
+            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
           >
             Our journey so far
           </h2>

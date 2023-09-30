@@ -31,7 +31,7 @@
         <!-- Section header -->
         <div class="py-12 md:py-16">
           <h2
-            class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
+            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
           >
             Why trust us?
           </h2>
@@ -47,7 +47,7 @@
           <div class="py-8 first-of-type:pt-0 last-of-type:pb-0">
             <div>
               <div
-                class="inline-flex pb-6 text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-violet-200"
+                class="inline-flex pb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-violet-500 to-violet-200"
               >
                 Design
               </div>
@@ -91,7 +91,7 @@
           <div class="py-8">
             <div>
               <div
-                class="inline-flex pb-6 text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-violet-200"
+                class="inline-flex pb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-violet-500 to-violet-200"
               >
                 Develop
               </div>
@@ -136,7 +136,7 @@
           <div class="py-8">
             <div>
               <div
-                class="inline-flex pb-6 text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-violet-200"
+                class="inline-flex pb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-violet-500 to-violet-200"
               >
                 Test
               </div>

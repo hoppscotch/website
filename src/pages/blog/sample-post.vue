@@ -74,7 +74,7 @@
             </div>
             <h3 class="mb-8">
               <span
-                class="text-transparent bg-clip-text bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
+                class="text-transparent bg-clip-text max-w-max bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
               >
                 The quick brown fox jumped over the lazy dog
               </span>

@@ -20,13 +20,13 @@
                 class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-violet-500/10 border-violet-500/50"
               >
                 <span
-                  class="inline-flex text-transparent bg-clip-text bg-gradient-to-b from-violet-50 to-violet-600"
+                  class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-violet-50 to-violet-600"
                 >
                   Developer-first API platform
                 </span>
               </div>
               <h3
-                class="pb-3 text-transparent bg-clip-text bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
+                class="pb-3 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
               >
                 Essential tools for API development
               </h3>

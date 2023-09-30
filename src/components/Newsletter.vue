@@ -4,7 +4,7 @@
     class="flex flex-col items-center max-w-5xl px-4 py-12 mx-auto before:absolute before:h-px before:inset-x-0 before:top-0 before:bg-gradient-to-r before:from-transparent before:via-violet-500/20 before:to-transparent"
   >
     <h4
-      class="pb-4 text-transparent bg-clip-text bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
+      class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
     >
       Subscribe to our newsletter
     </h4>
