@@ -51,7 +51,7 @@
                     class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,_theme(colors.violet.800)_0%,_theme(colors.blue.800)_50%,_theme(colors.violet.800)_100%)]"
                   ></span>
                   <div
-                    class="inline-flex items-center justify-center w-full h-full px-4 py-2 text-sm text-white rounded-full cursor-pointer animate-background-shine bg-[linear-gradient(110deg,_theme(colors.slate.950),45%,_theme(colors.violet.900),55%,_theme(colors.slate.950))] bg-[length:200%_100%] backdrop-blur-md"
+                    class="inline-flex items-center justify-center w-full h-full px-4 py-2 text-sm text-violet-50 rounded-full cursor-pointer animate-background-shine bg-[linear-gradient(110deg,_theme(colors.slate.950),45%,_theme(colors.violet.900),55%,_theme(colors.slate.950))] bg-[length:200%_100%] backdrop-blur-md"
                   >
                     Get Started on Cloud
                     <span
@@ -64,7 +64,7 @@
               </div>
               <div>
                 <RouterLink
-                  class="inline-flex items-center justify-center w-full px-4 py-2 text-sm bg-white border rounded-full transition border-violet-500/20 bg-opacity-10 text-violet-200 backdrop-blur-md hover:text-white hover:border-violet-500/20 hover:bg-opacity-20"
+                  class="inline-flex items-center justify-center w-full px-4 py-2 text-sm bg-white border rounded-full transition border-violet-500/20 bg-opacity-10 text-violet-200 backdrop-blur-md hover:text-violet-50 hover:border-violet-500/20 hover:bg-opacity-20"
                   to="/products/self-host"
                 >
                   Self-Host from GitHub

@@ -53,9 +53,11 @@
   }
 
   const onTabMouseLeave = () => {
-    glider.value = {
-      opacity: 0,
-    }
+    nextTick(() => {
+      glider.value = {
+        opacity: 0,
+      }
+    })
   }
 </script>
 
@@ -96,14 +98,14 @@
         <!-- Desktop menu links -->
         <div
           ref="targetElem"
-          class="items-center justify-start flex-shrink-0 hidden p-1 border rounded-full flex-nowrap md:flex border-violet-500/20"
+          class="items-center justify-start flex-shrink-0 hidden p-1 border rounded-full flex-nowrap md:flex border-violet-300/10"
           @mouseleave="onTabMouseLeave"
         >
           <div class="relative flex items-center">
             <tippy interactive theme="popover" class="rounded-full">
               <RouterLink
                 to="/products"
-                class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-white/50/75 violet-500xt-whi8e"
+                class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-violet-200/60 hover:text-violet-100/80"
                 @mouseenter="onTabMouseEnter"
               >
                 Products
@@ -260,7 +262,7 @@
             <tippy interactive theme="popover" class="rounded-full">
               <RouterLink
                 to="/solutions"
-                class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-white/50/75 violet-500xt-whi8e"
+                class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-violet-200/60 hover:text-violet-100/80"
                 @mouseenter="onTabMouseEnter"
               >
                 Solutions
@@ -459,7 +461,7 @@
             <tippy interactive theme="popover" class="rounded-full">
               <RouterLink
                 to="/company"
-                class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-white/50/75 violet-500xt-whi8e"
+                class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-violet-200/60 hover:text-violet-100/80"
                 @mouseenter="onTabMouseEnter"
               >
                 Company
@@ -504,7 +506,7 @@
             <tippy interactive theme="popover" class="rounded-full">
               <RouterLink
                 to="/resources"
-                class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-white/50/75 violet-500xt-whi8e"
+                class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-violet-200/60 hover:text-violet-100/80"
                 @mouseenter="onTabMouseEnter"
               >
                 Resources
@@ -551,7 +553,7 @@
               </template>
             </tippy>
             <div
-              class="absolute h-full border rounded-full duration-200 -z-1 border-violet-200/10 bg-violet-200/10 backdrop-blur-md"
+              class="absolute h-full border rounded-full duration-200 -z-1 border-violet-50/10 bg-violet-200/10 backdrop-blur-md"
               :style="{
                 left: `${glider.left}px`,
                 width: `${glider.width}px`,
@@ -565,7 +567,7 @@
           >
             <a
               v-motion-slide-right
-              class="flex items-center justify-center flex-shrink-0 px-4 py-2 text-sm text-white border rounded-full transition border-violet-600 backdrop-blur-md bg-gradient-to-br from-violet-600/30 via-violet-700/30 to-violet-800/30 hover:from-violet-600/50 hover:via-violet-700/50 hover:to-violet-800/50"
+              class="flex items-center justify-center flex-shrink-0 px-4 py-2 text-sm border rounded-full transition text-violet-50 border-violet-600 backdrop-blur-md bg-gradient-to-br from-violet-600/30 via-violet-700/30 to-violet-800/30 hover:from-violet-600/50 hover:via-violet-700/50 hover:to-violet-800/50"
               href="https://github.com/hoppscotch/hoppscotch"
               target="_blank"
               rel="noopener noreferrer"
@@ -587,18 +589,18 @@
         </div>
         <!-- Mobile CTA links -->
         <div class="flex items-center justify-end flex-1 md:hidden">
-          <li
+          <div
             class="flex border rounded-full bg-white/10 backdrop-blur-md border-violet-500/20"
           >
             <button
-              class="flex items-center justify-center px-3 py-1 text-sm rounded-full transition text-violet-200 hover:text-white"
+              class="flex items-center justify-center px-3 py-1 text-sm rounded-full transition text-violet-200 hover:text-violet-50"
               @click="isMobileMenuClosed = !isMobileMenuClosed"
             >
               {{ isMobileMenuClosed ? "Menu" : "Close" }}
               <icon-lucide-menu v-if="isMobileMenuClosed" class="ml-2" />
               <icon-lucide-x v-else class="ml-2" />
             </button>
-          </li>
+          </div>
         </div>
       </nav>
       <!-- Mobile menu -->
@@ -608,21 +610,21 @@
       >
         <!-- Mobile CTA links -->
         <div class="flex items-center justify-end flex-1 flex-nowrap">
-          <li
+          <div
             class="flex border rounded-full bg-white/10 backdrop-blur-md border-violet-500/20"
           >
             <a
-              class="flex items-center justify-center px-3 py-1 text-sm rounded-full transition text-violet-200 hover:text-white"
+              class="flex items-center justify-center px-3 py-1 text-sm rounded-full transition text-violet-200 hover:text-violet-50"
               href="https://github.com/hoppscotch/hoppscotch"
               target="_blank"
               rel="noopener noreferrer"
             >
               Self-Host
             </a>
-          </li>
-          <li class="ml-2">
+          </div>
+          <div class="ml-2">
             <a
-              class="text-sm inline-flex items-center justify-center border border-transparent rounded-full transition px-3 py-1 text-violet-200 hover:text-white w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
+              class="text-sm inline-flex items-center justify-center border border-transparent rounded-full transition px-3 py-1 text-violet-200 hover:text-violet-50 w-full group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
               href="https://hoppscotch.io"
               target="_blank"
               rel="noopener noreferrer"
@@ -636,13 +638,13 @@
                 </div>
               </div>
             </a>
-          </li>
+          </div>
         </div>
         <!-- Mobile menu links -->
         <div class="flex flex-col space-y-4 flex-nowrap">
           <RouterLink
             to="/products"
-            class="px-2 py-1 text-sm rounded-lg transition text-violet-200 hover:text-white"
+            class="px-2 py-1 text-sm rounded-lg transition text-violet-200 hover:text-violet-50"
           >
             Products
           </RouterLink>
@@ -780,7 +782,7 @@
           </div>
           <RouterLink
             to="/solutions"
-            class="px-2 py-1 text-sm rounded-lg transition text-violet-200 hover:text-white"
+            class="px-2 py-1 text-sm rounded-lg transition text-violet-200 hover:text-violet-50"
           >
             Solutions
           </RouterLink>
@@ -958,7 +960,7 @@
           </div>
           <RouterLink
             to="/company"
-            class="px-2 py-1 text-sm rounded-lg transition text-violet-200 hover:text-white"
+            class="px-2 py-1 text-sm rounded-lg transition text-violet-200 hover:text-violet-50"
           >
             Company
           </RouterLink>
@@ -994,7 +996,7 @@
           </div>
           <RouterLink
             to="/resources"
-            class="px-2 py-1 text-sm rounded-lg transition text-violet-200 hover:text-white"
+            class="px-2 py-1 text-sm rounded-lg transition text-violet-200 hover:text-violet-50"
           >
             Resources
           </RouterLink>

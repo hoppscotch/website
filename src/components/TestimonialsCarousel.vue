@@ -106,7 +106,7 @@
                     </div>
                     <div>
                       <RouterLink
-                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200 hover:text-white group"
+                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200 hover:text-violet-50 group"
                         to="/"
                       >
                         Learn More
@@ -158,7 +158,7 @@
                     </div>
                     <div>
                       <RouterLink
-                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200 hover:text-white group"
+                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200 hover:text-violet-50 group"
                         to="/"
                       >
                         Learn More
@@ -210,7 +210,7 @@
                     </div>
                     <div>
                       <RouterLink
-                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200 hover:text-white group"
+                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200 hover:text-violet-50 group"
                         to="/"
                       >
                         Learn More
@@ -265,7 +265,7 @@
                     </div>
                     <div>
                       <RouterLink
-                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200 hover:text-white group"
+                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200 hover:text-violet-50 group"
                         to="/"
                       >
                         Learn More
@@ -318,7 +318,7 @@
                     </div>
                     <div>
                       <RouterLink
-                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200 hover:text-white group"
+                        class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200 hover:text-violet-50 group"
                         to="/"
                       >
                         Learn More

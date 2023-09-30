@@ -128,7 +128,7 @@
                         </p>
                       </div>
                       <!-- <RouterLink
-                        class="text-sm inline-flex items-center justify-center border border-transparent rounded-full px-3 py-1 text-violet-200 hover:text-white transition group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
+                        class="text-sm inline-flex items-center justify-center border border-transparent rounded-full px-3 py-1 text-violet-200 hover:text-violet-50 transition group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
                         to="/"
                       >
                         <span class="relative inline-flex items-center">

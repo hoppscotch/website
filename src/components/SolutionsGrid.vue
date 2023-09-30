@@ -125,7 +125,7 @@
             >
               <div class="flex flex-col items-center flex-1 text-center">
                 <h5 class="">Get Started</h5>
-                <p class="mt-4 text-sm text-white/30">
+                <p class="mt-4 text-sm text-violet-50/30">
                   Start organizing your APIs and projects now.
                 </p>
               </div>

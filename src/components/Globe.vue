@@ -6,7 +6,7 @@
       <img
         loading="lazy"
         src="/images/globe.png"
-        class="max-w-none h-[560px] w-[560px] brightness-110 bg-gradient-to-tr from-violet-400/5 to-violet-500/10 shadow-[0_56px_88px_theme(colors.violet.950)_inset] mt-80 rounded-full animate-[spin_600s_linear_infinite]"
+        class="max-w-none border border-violet-500/40 h-[560px] w-[560px] brightness-110 bg-gradient-to-tr from-violet-400/5 via-transparent to-violet-400/5 shadow-[0_0_64px_32px_theme(colors.violet.950)_inset] mt-80 rounded-full animate-[spin_600s_linear_infinite]"
       />
     </div>
   </div>

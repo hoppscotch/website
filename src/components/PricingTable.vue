@@ -73,7 +73,7 @@
           <!-- Tabs -->
           <div class="flex justify-center mb-16">
             <fieldset
-              class="p-1 text-xs font-semibold text-center text-white rounded-full grid grid-cols-2 leading-5 gap-x-1 bg-white/5"
+              class="p-1 text-xs font-semibold text-center rounded-full text-violet-50 grid grid-cols-2 leading-5 gap-x-1 bg-white/5"
             >
               <legend class="sr-only">Platform</legend>
               <!-- Cloud -->
@@ -194,7 +194,7 @@
               </div>
               <div class="pb-4 border-b border-slate-900">
                 <RouterLink
-                  class="inline-flex items-center justify-center w-full px-3 py-1 text-sm text-white border border-transparent rounded-full transition bg-violet-500 hover:bg-violet-600 group"
+                  class="inline-flex items-center justify-center w-full px-3 py-1 text-sm border border-transparent rounded-full text-violet-50 transition bg-violet-500 hover:bg-violet-600 group"
                   to="/products"
                 >
                   Get Started
