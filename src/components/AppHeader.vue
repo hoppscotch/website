@@ -33,10 +33,9 @@
     },
   })
 
-  const glider = ref<{ left?: number; width?: number; opacity?: number }>({
+  const glider = ref<{ left: number; width: number }>({
     left: 0,
     width: 0,
-    opacity: 0,
   })
 
   const onTabMouseEnter = (e: MouseEvent) => {
@@ -45,19 +44,6 @@
       left: tab.offsetLeft,
       width: tab.clientWidth,
     }
-    setTimeout(() => {
-      glider.value = {
-        opacity: 1,
-      }
-    }, 200)
-  }
-
-  const onTabMouseLeave = () => {
-    nextTick(() => {
-      glider.value = {
-        opacity: 0,
-      }
-    })
   }
 </script>
 
@@ -82,16 +68,15 @@
         >
           <!-- Logo -->
           <RouterLink
-            class="flex items-center outline-none justifyrounded-full"
+            class="flex items-center outline-none transition hover:scale-110 rounded-2xl justifyrounded-full"
             to="/"
             aria-label="Hoppscotch"
           >
             <img
               loading="lazy"
-              src="/images/logo.svg"
-              width="38"
-              height="38"
+              src="/images/logo.png"
               alt="Hoppscotch"
+              class="w-10 h-10 rounded-xl ring-1 ring-violet-500/50 hover:ring-violet-500/80"
             />
           </RouterLink>
         </div>
@@ -99,9 +84,8 @@
         <div
           ref="targetElem"
           class="items-center justify-start flex-shrink-0 hidden p-1 border rounded-full flex-nowrap md:flex border-violet-300/10"
-          @mouseleave="onTabMouseLeave"
         >
-          <div class="relative flex items-center">
+          <div class="relative flex items-center group/nav">
             <tippy interactive theme="popover" class="rounded-full">
               <RouterLink
                 to="/products"
@@ -553,13 +537,16 @@
               </template>
             </tippy>
             <div
-              class="absolute h-full border rounded-full duration-200 -z-1 border-violet-50/10 bg-violet-200/10 backdrop-blur-md"
+              class="absolute h-full opacity-0 duration-200 group-hover/nav:opacity-100 -z-1"
               :style="{
                 left: `${glider.left}px`,
                 width: `${glider.width}px`,
-                opacity: `${glider.opacity}`,
               }"
-            ></div>
+            >
+              <div
+                class="invisible w-full h-full border rounded-full duration-200 delay-200 border-violet-50/10 bg-violet-200/10 backdrop-blur-md group-hover/nav:visible"
+              ></div>
+            </div>
           </div>
           <div
             v-if="scrollHeight > 8"
@@ -582,7 +569,7 @@
         >
           <RouterLink
             to="/download"
-            class="relative inline-flex items-center justify-center px-3 py-2 text-sm border transition violet-500ite/50 rounded-xl bg-violet-500/10 border-violet-500/50 hover:border-violet-500/85"
+            class="relative inline-flex items-center justify-center px-3 py-2 text-sm border transition violet-500ite/50 rounded-xl bg-violet-500/10 border-violet-500/50 hover:border-violet-500/80"
           >
             Open App
           </RouterLink>

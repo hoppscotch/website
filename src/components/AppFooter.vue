@@ -324,7 +324,7 @@
                 >
                   <img
                     loading="lazy"
-                    src="/images/logo.svg"
+                    src="/images/logo.png"
                     width="32"
                     height="32"
                     alt="Hoppscotch"
