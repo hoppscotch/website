@@ -3,11 +3,23 @@ export default function useMousePosition() {
   const handleMouseMove = (event: MouseEvent) => {
     mousePosition.value = { x: event.clientX, y: event.clientY }
   }
+
+  let mousemoveListener: (() => void) | null = null
+
   onMounted(() => {
-    document.addEventListener("mousemove", handleMouseMove)
+    mousemoveListener = useEventListener(document, "mousemove", handleMouseMove)
   })
+
+  const cleanupMousemove = () => {
+    if (mousemoveListener) {
+      mousemoveListener()
+      mousemoveListener = null
+    }
+  }
+
   onBeforeUnmount(() => {
-    document.removeEventListener("mousemove", handleMouseMove)
+    cleanupMousemove()
   })
+
   return mousePosition
 }

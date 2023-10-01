@@ -3,9 +3,10 @@
   import Image02 from "/images/world-user-02.jpg"
   import Image03 from "/images/world-user-03.jpg"
 
-  const active = ref(0)
-  const autorotate = ref(true)
-  const autorotateTiming = ref(7000)
+  const active = ref<number>(0)
+  const autorotate = ref<boolean>(true)
+  const autorotateTiming = ref<number>(7000)
+
   const items = ref([
     {
       img: Image01,
@@ -32,10 +33,15 @@
       role: "Backend Lead",
     },
   ])
-  const autorotateInterval = ref()
-  function stopAutorotate() {
-    clearInterval(autorotateInterval.value)
+
+  const autorotateInterval = ref<NodeJS.Timeout | null>(null)
+
+  const stopAutorotate = () => {
+    if (autorotateInterval.value) {
+      clearInterval(autorotateInterval.value)
+    }
   }
+
   onMounted(() => {
     if (autorotate.value) {
       autorotateInterval.value = setInterval(() => {
@@ -44,6 +50,7 @@
       }, autorotateTiming.value)
     }
   })
+
   onBeforeUnmount(() => {
     stopAutorotate()
   })

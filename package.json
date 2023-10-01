@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.0.8",
-    "@fontsource-variable/plus-jakarta-sans": "^5.0.13",
+    "@fontsource-variable/plus-jakarta-sans": "^5.0.14",
     "@sparticuz/chromium": "^117.0.0",
     "@unhead/addons": "^1.7.4",
     "@vueuse/core": "^10.4.1",

@@ -1,19 +1,24 @@
 <script setup lang="ts">
-  const primaryColor = "#A855F7"
-  const secondaryColor = "#020617"
-  const tertiaryColor = "#64748B"
-  const { copy: copyPrimaryColor, copied: copiedPrimaryColor } = useClipboard({
-    source: primaryColor,
-  })
+  const colors = {
+    primary: "#A855F7",
+    secondary: "#020617",
+    tertiary: "#64748B",
+  }
+
+  const clipboardConfig = {
+    primary: useClipboard({ source: colors.primary }),
+    secondary: useClipboard({ source: colors.secondary }),
+    tertiary: useClipboard({ source: colors.tertiary }),
+  }
+
+  const { copy: copyPrimaryColor, copied: copiedPrimaryColor } =
+    clipboardConfig.primary
+
   const { copy: copySecondaryColor, copied: copiedSecondaryColor } =
-    useClipboard({
-      source: secondaryColor,
-    })
-  const { copy: copyTertiaryColor, copied: copiedTertiaryColor } = useClipboard(
-    {
-      source: tertiaryColor,
-    }
-  )
+    clipboardConfig.secondary
+
+  const { copy: copyTertiaryColor, copied: copiedTertiaryColor } =
+    clipboardConfig.tertiary
 </script>
 
 <template>
@@ -404,7 +409,7 @@
                         : 'Copy color code',
                       theme: 'tooltip',
                     }"
-                    @click="copyPrimaryColor(primaryColor)"
+                    @click="copyPrimaryColor(colors.primary)"
                   >
                     <icon-lucide-copy v-if="!copiedPrimaryColor" />
                     <icon-lucide-check v-else />
@@ -428,7 +433,7 @@
                         : 'Copy color code',
                       theme: 'tooltip',
                     }"
-                    @click="copySecondaryColor(secondaryColor)"
+                    @click="copySecondaryColor(colors.secondary)"
                   >
                     <icon-lucide-copy v-if="!copiedSecondaryColor" />
                     <icon-lucide-check v-else />
@@ -452,7 +457,7 @@
                         : 'Copy color code',
                       theme: 'tooltip',
                     }"
-                    @click="copyTertiaryColor(tertiaryColor)"
+                    @click="copyTertiaryColor(colors.tertiary)"
                   >
                     <icon-lucide-copy v-if="!copiedTertiaryColor" />
                     <icon-lucide-check v-else />

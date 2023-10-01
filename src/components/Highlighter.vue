@@ -34,13 +34,13 @@
       initContainer()
     }
   )
-  function initContainer() {
+  const initContainer = () => {
     if (containerRef.value) {
       containerSize.w = containerRef.value.offsetWidth
       containerSize.h = containerRef.value.offsetHeight
     }
   }
-  function onMouseMove() {
+  const onMouseMove = () => {
     if (containerRef.value) {
       const rect = containerRef.value.getBoundingClientRect()
       const { w, h } = containerSize

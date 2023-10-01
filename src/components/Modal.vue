@@ -2,40 +2,66 @@
   const props = defineProps({
     id: { type: String, required: true },
     ariaLabel: { type: String, default: "Modal" },
-    modalOpen: { type: Boolean },
+    modalOpen: { type: Boolean, required: true, default: false },
   })
 
   const emit = defineEmits(["closeModal"])
 
   const modalContent = ref<HTMLElement | null>(null)
 
-  // close on click outside
-  function clickHandler(event: MouseEvent) {
+  const clickHandler = (event: MouseEvent) => {
     if (
       !props.modalOpen ||
       !modalContent.value ||
       modalContent.value.contains(event.target as Node)
-    )
+    ) {
       return
+    }
 
     emit("closeModal")
   }
 
-  // close if the esc key is pressed
-  function keyHandler(event: KeyboardEvent) {
-    if (!props.modalOpen || event.key !== "Escape") return
+  const keyHandler = (event: KeyboardEvent) => {
+    if (!props.modalOpen || event.key !== "Escape") {
+      return
+    }
 
     emit("closeModal")
   }
 
-  onMounted(() => {
-    document.addEventListener("click", clickHandler)
-    document.addEventListener("keydown", keyHandler)
-  })
+  let clickListener: (() => void) | null = null
+  let keydownListener: (() => void) | null = null
 
-  onUnmounted(() => {
-    document.removeEventListener("click", clickHandler)
-    document.removeEventListener("keydown", keyHandler)
+  watch(
+    () => props.modalOpen,
+    (isOpen) => {
+      if (isOpen) {
+        clickListener = useEventListener("click", clickHandler)
+        keydownListener = useEventListener("keydown", keyHandler)
+      } else {
+        cleanupClick()
+        cleanupKeydown()
+      }
+    }
+  )
+
+  const cleanupClick = () => {
+    if (clickListener) {
+      clickListener()
+      clickListener = null
+    }
+  }
+
+  const cleanupKeydown = () => {
+    if (keydownListener) {
+      keydownListener()
+      keydownListener = null
+    }
+  }
+
+  onBeforeUnmount(() => {
+    cleanupClick()
+    cleanupKeydown()
   })
 </script>
 
@@ -50,7 +76,7 @@
     leave-to-class="opacity-0"
   >
     <div
-      v-show="modalOpen"
+      v-if="modalOpen"
       class="fixed inset-0 z-50 transition-opacity bg-slate-950/10 backdrop-blur-md"
       aria-hidden="true"
     ></div>
@@ -66,7 +92,7 @@
     leave-to-class="opacity-0 scale-95"
   >
     <div
-      v-show="modalOpen"
+      v-if="modalOpen"
       :id="id"
       class="fixed inset-0 z-50 flex items-center justify-center px-4 overflow-hidden sm:px-6"
       role="dialog"

@@ -3,44 +3,55 @@
   import TestimonialImg02 from "/images/testimonial-02.jpg"
   import TestimonialImg03 from "/images/testimonial-03.jpg"
 
-  const active = ref(0)
-  const autorotate = ref(true)
-  const autorotateTiming = ref(7000)
-  const items = ref([
+  interface Testimonial {
+    img: string
+    quote: string
+    name: string
+    role: string
+  }
+
+  const active = ref<number>(0)
+  const autorotate = ref<boolean>(true)
+  const autorotateTiming = ref<number>(7000)
+
+  const items = ref<Testimonial[]>([
     {
       img: TestimonialImg01,
-      quote:
-        "The ability to capture responses is a game-changer. If a user gets tired of the sign up and leaves, that data is still persisted. Additionally, it's great to be able to select between formats.ture responses is a game-changer.",
+      quote: "The ability to capture responses is a game-changer...",
       name: "Jessie J",
       role: "Ltd Head of Product",
     },
     {
       img: TestimonialImg02,
-      quote:
-        "I have been using this product for a few weeks now and I am blown away by the results. My skin looks visibly brighter and smoother, and I have received so many compliments on my complexion.",
+      quote: "I have been using this product for a few weeks now...",
       name: "Mark Luk",
       role: "Spark Founder & CEO",
     },
     {
       img: TestimonialImg03,
       quote:
-        "As a busy professional, I don't have a lot of time to devote to working out. But with this fitness program, I have seen amazing results in just a few short weeks. The workouts are efficient and effective.",
+        "As a busy professional, I don't have a lot of time to devote to working out...",
       name: "Jeff Kahl",
       role: "Appy Product Lead",
     },
   ])
-  const autorotateInterval = ref()
-  function stopAutorotate() {
-    clearInterval(autorotateInterval.value)
+
+  let autorotateInterval: NodeJS.Timeout | null = null
+
+  const stopAutorotate = () => {
+    if (autorotateInterval) {
+      clearInterval(autorotateInterval)
+    }
   }
+
   onMounted(() => {
     if (autorotate.value) {
-      autorotateInterval.value = setInterval(() => {
-        active.value =
-          active.value + 1 === items.value.length ? 0 : active.value + 1
+      autorotateInterval = setInterval(() => {
+        active.value = (active.value + 1) % items.value.length
       }, autorotateTiming.value)
     }
   })
+
   onBeforeUnmount(() => {
     stopAutorotate()
   })

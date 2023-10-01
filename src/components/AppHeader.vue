@@ -3,16 +3,16 @@
   import { useMotion } from "@vueuse/motion"
 
   const logoOptions = ref<any | null>(null)
-
   const isMobileMenuClosed = ref<boolean>(true)
   const router = useRouter()
 
-  watch(router, () => {
+  watch(router.currentRoute, () => {
     isMobileMenuClosed.value = true
   })
 
-  const targetElem = ref<HTMLElement>()
+  const targetElem = ref<HTMLElement | null>(null)
   const { apply } = useMotion(targetElem)
+
   const scrollHeight = ref<number>(0)
 
   const scrollHandler = ({ xy: [, y] }: { xy: [number, number] }) => {
@@ -28,11 +28,13 @@
     }
   }
 
-  useScroll(scrollHandler, {
-    domTarget: window,
-    eventOptions: {
-      passive: true,
-    },
+  onMounted(() => {
+    useScroll(scrollHandler, {
+      domTarget: window,
+      eventOptions: {
+        passive: true,
+      },
+    })
   })
 
   const glider = ref<{ left: number; width: number }>({
@@ -77,7 +79,7 @@
             class="rounded-full"
           >
             <RouterLink
-              class="flex items-center outline-none transition hover:scale-110 rounded-2xl justifyrounded-full"
+              class="inline-flex items-center justify-center outline-none transition hover:scale-110 rounded-2xl"
               to="/"
               aria-label="Hoppscotch"
               @contextmenu.prevent="logoOptions.tippy.show()"

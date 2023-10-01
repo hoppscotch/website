@@ -6,7 +6,7 @@
   } from "vue"
   import mediumZoom, { type Zoom, type ZoomOptions } from "medium-zoom"
 
-  interface Props extends /* @vue-ignore */ ImgHTMLAttributes {
+  interface Props extends ImgHTMLAttributes {
     options?: ZoomOptions
   }
 
@@ -20,13 +20,13 @@
 
   let zoom: Zoom | null = null
 
-  function getZoom() {
+  const getZoom = () => {
     if (zoom === null) zoom = mediumZoom(props.options)
 
     return zoom
   }
 
-  function attachZoom(ref: Element | ComponentPublicInstance | null) {
+  const attachZoom = (ref: Element | ComponentPublicInstance | null) => {
     const image = ref as HTMLImageElement | null
     const zoom = getZoom()
 

@@ -1,11 +1,21 @@
 <script setup lang="ts">
   import blogs from "../data/blogList.json"
 
-  const sortedBlogs = computed(() =>
-    blogs.sort((a, b) => {
-      return new Date(b.date).getTime() - new Date(a.date).getTime()
-    })
-  )
+  const sortedBlogs = computed(() => {
+    try {
+      const clonedBlogs = [...blogs]
+
+      return clonedBlogs.sort((a, b) => {
+        const dateA = new Date(a.date).getTime()
+        const dateB = new Date(b.date).getTime()
+
+        return dateB - dateA
+      })
+    } catch (error) {
+      console.error("Error sorting blogs:", error)
+      return []
+    }
+  })
 </script>
 
 <template>

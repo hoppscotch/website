@@ -1,13 +1,46 @@
 <script setup lang="ts">
-  import { useEventListener } from "@vueuse/core"
+  const target = ref<HTMLDivElement | null>(null)
+  const targetIsVisible = ref(false)
 
-  const getKey = (e: KeyboardEvent) => {
+  let keydownListener: (() => void) | null = null
+  let keyupListener: (() => void) | null = null
+
+  watch(targetIsVisible, (isVisible) => {
+    if (isVisible) {
+      keydownListener = useEventListener(
+        document,
+        "keydown",
+        (e: KeyboardEvent) => {
+          const key = getKey(e)
+          if (!key) {
+            return console.warn("No key for", e.keyCode)
+          }
+          key.setAttribute("data-pressed", "on")
+        }
+      )
+
+      keyupListener = useEventListener(document, "keyup", () => {
+        document.querySelectorAll("[data-pressed]").forEach((key) => {
+          key.removeAttribute("data-pressed")
+        })
+      })
+    } else {
+      cleanupKeydown()
+      cleanupKeyup()
+    }
+  })
+
+  useIntersectionObserver(target, ([{ isIntersecting }]) => {
+    targetIsVisible.value = isIntersecting
+  })
+
+  const getKey = (e: KeyboardEvent): HTMLElement | null => {
     const location = e.location
     let selector
     if (location === KeyboardEvent.DOM_KEY_LOCATION_RIGHT) {
-      selector = [`[data-key="${e.keyCode}-R"]`]
+      selector = `[data-key="${e.keyCode}-R"]`
     } else {
-      var code = e.keyCode || e.which
+      const code = e.keyCode || e.which
       selector = [
         `[data-key="${code}"]`,
         `[data-char="${encodeURIComponent(String.fromCharCode(code))}"]`,
@@ -16,26 +49,33 @@
     return document.querySelector(selector as string)
   }
 
-  useEventListener(document, "keydown", (e) => {
-    const key = getKey(e)
-    if (!key) {
-      return console.warn("No key for", e.keyCode)
+  const cleanupKeydown = () => {
+    if (keydownListener) {
+      keydownListener()
+      keydownListener = null
     }
-    key.setAttribute("data-pressed", "on")
-  })
+  }
 
-  useEventListener(document, "keyup", () => {
-    document.querySelectorAll("[data-pressed]").forEach((key) => {
-      key.removeAttribute("data-pressed")
-    })
+  const cleanupKeyup = () => {
+    if (keyupListener) {
+      keyupListener()
+      keyupListener = null
+    }
+  }
+
+  onBeforeUnmount(() => {
+    cleanupKeydown()
+    cleanupKeyup()
   })
 </script>
+
 <template>
   <div class="relative w-full p-2 overflow-hidden">
     <div
       class="flex items-start justify-start px-8 overflow-hidden border h-80 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5 backdrop-blur-md"
     >
       <div
+        ref="target"
         class="flex flex-col p-2 mx-auto -mt-8 text-xs border shadow-lg space-y-2 keyboard brightness-110 rounded-3xl border-violet-400/20 bg-violet-500/10"
       >
         <div class="flex h-12 space-x-2">
@@ -340,7 +380,7 @@
       @apply bg-gradient-to-b;
       @apply from-slate-950/5;
       @apply to-violet-400/5;
-      @apply border border-violet-400/10;
+      @apply border border-violet-400/5;
       @apply ring-1 ring-slate-950;
       @apply focus:outline-none;
     }

@@ -318,16 +318,15 @@
               <div class="mb-4">
                 <!-- Logo -->
                 <RouterLink
-                  class="inline-block rounded-full"
+                  class="inline-flex items-center justify-center outline-none transition hover:scale-110 rounded-2xl"
                   to="/"
                   aria-label="Hoppscotch"
                 >
                   <img
                     loading="lazy"
                     src="/images/logo.png"
-                    width="32"
-                    height="32"
                     alt="Hoppscotch"
+                    class="w-10 h-10 rounded-xl ring-1 ring-violet-500/50 hover:ring-violet-500/80"
                   />
                 </RouterLink>
               </div>

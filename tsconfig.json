@@ -4,7 +4,8 @@
       "vite/client",
       "vite-plugin-pages/client",
       "vite-plugin-vue-layouts/client",
-      "unplugin-icons/types/vue"
+      "unplugin-icons/types/vue",
+      "node"
     ],
     "target": "ESNext",
     "useDefineForClassFields": true,

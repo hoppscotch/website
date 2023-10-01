@@ -1,6 +1,6 @@
 <script setup lang="ts">
   const isDownloading = ref(false)
-  function initDownload() {
+  const initDownload = () => {
     isDownloading.value = true
     setTimeout(() => {
       isDownloading.value = false

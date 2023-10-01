@@ -9,8 +9,8 @@ dependencies:
     specifier: ^5.0.8
     version: 5.0.8
   "@fontsource-variable/plus-jakarta-sans":
-    specifier: ^5.0.13
-    version: 5.0.13
+    specifier: ^5.0.14
+    version: 5.0.14
   "@sparticuz/chromium":
     specifier: ^117.0.0
     version: 117.0.0
@@ -895,10 +895,10 @@ packages:
       }
     dev: false
 
-  /@fontsource-variable/plus-jakarta-sans@5.0.13:
+  /@fontsource-variable/plus-jakarta-sans@5.0.14:
     resolution:
       {
-        integrity: sha512-H9pqmPld3Z/+dVvdnAiwCSFXJWoZwGobfeMEiz7uEqV3F9HZkWZVN/ZgVnY0nyd2yVCxKaw3u9B7nAzW1A+Nzg==,
+        integrity: sha512-bUmLdUQYgYoCvVzmZ/s4W7im8lX6sEA2ryFEVZEXM+NB8F9N28AQCBzUSJU7U3cLzWfU+Kk/oTi+nQPHYJT9Vw==,
       }
     dev: false
 

@@ -31,6 +31,7 @@
     icon: any
     shortcut?: string[]
   }
+
   interface cmdkTabs {
     id: string
     name: string
@@ -109,22 +110,27 @@
     },
   ]
 
-  const activeTab = ref("request")
-  const selectedEntryIndex = ref(0)
-  const search = ref("")
+  const activeTab = ref<string>("request")
+  const selectedEntryIndex = ref<number>(0)
+  const search = ref<string>("")
 
   const changeTab = (tab: string) => {
     activeTab.value = tab
     selectedEntryIndex.value = 0
   }
+
   const selectEntry = (entry: number) => {
     selectedEntryIndex.value = entry
   }
-  const filteredEntries = (entries: cmdkTabEntry[]) => {
-    return entries.filter((entry) => {
+
+  const filteredEntries = computed(() => {
+    const activeTabData = tabs.find((tab) => tab.id === activeTab.value)
+    if (!activeTabData) return []
+
+    return activeTabData.entries.filter((entry) => {
       return entry.name.toLowerCase().includes(search.value.toLowerCase())
     })
-  }
+  })
 </script>
 <template>
   <div
@@ -174,7 +180,7 @@
               </div>
               <div class="flex flex-col px-2">
                 <div
-                  v-for="(entry, entryIndex) in filteredEntries(tab.entries)"
+                  v-for="(entry, entryIndex) in filteredEntries"
                   :key="entryIndex"
                   class="flex items-center justify-between px-3 py-2 cursor-pointer transition rounded-md bg-violet-400"
                   :class="
@@ -202,7 +208,7 @@
                   </div>
                 </div>
                 <div
-                  v-if="filteredEntries(tab.entries).length === 0"
+                  v-if="filteredEntries.length === 0"
                   class="flex flex-col items-center justify-center h-full text-violet-200/50"
                 >
                   Nothing found for "{{ search }}"

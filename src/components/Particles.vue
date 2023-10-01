@@ -19,14 +19,30 @@
       default: false,
     },
   })
-  const canvasRef = ref()
+
+  interface Circle {
+    x: number
+    y: number
+    translateX: number
+    translateY: number
+    size: number
+    alpha: number
+    targetAlpha: number
+    dx: number
+    dy: number
+    magnetism: number
+  }
+
   const canvasContainerRef = ref()
-  const context = ref()
-  const mousePosition = useMousePosition()
+  const context = ref<CanvasRenderingContext2D | null>(null)
+  const canvasRef = ref<HTMLCanvasElement | null>(null)
   const mouse = reactive({ x: 0, y: 0 })
   const canvasSize = reactive({ w: 0, h: 0 })
   const dpr = window.devicePixelRatio || 1
-  function onMouseMove() {
+  const circles = ref<Circle[]>([])
+  const mousePosition = useMousePosition()
+
+  const onMouseMove = () => {
     if (canvasRef.value) {
       const rect = canvasRef.value.getBoundingClientRect()
       const { w, h } = canvasSize
@@ -39,8 +55,8 @@
       }
     }
   }
-  const circles = ref([]) as Ref<Circle[]>
-  function resizeCanvas() {
+
+  const resizeCanvas = () => {
     if (canvasContainerRef.value && canvasRef.value && context.value) {
       circles.value.length = 0
       canvasSize.w = canvasContainerRef.value.offsetWidth
@@ -52,7 +68,7 @@
       context.value.scale(dpr, dpr)
     }
   }
-  function circleParams() {
+  const circleParams = () => {
     const x = Math.floor(Math.random() * canvasSize.w)
     const y = Math.floor(Math.random() * canvasSize.h)
     const translateX = 0
@@ -78,8 +94,8 @@
       magnetism,
     }
   }
-  type Circle = ReturnType<typeof circleParams>
-  function drawCircle(circle: Circle, update = false) {
+
+  const drawCircle = (circle: Circle, update = false) => {
     if (context.value) {
       const { x, y, translateX, translateY, size, alpha } = circle
       context.value.translate(translateX, translateY)
@@ -91,10 +107,10 @@
       if (!update) circles.value.push(circle)
     }
   }
-  function clearContext() {
+  const clearContext = () => {
     if (context.value) context.value.clearRect(0, 0, canvasSize.w, canvasSize.h)
   }
-  function drawParticles() {
+  const drawParticles = () => {
     clearContext()
     const particleCount = props.quantity
     for (let i = 0; i < particleCount; i++) {
@@ -102,18 +118,18 @@
       drawCircle(circle)
     }
   }
-  function remapValue(
+  const remapValue = (
     value: number,
     start1: number,
     end1: number,
     start2: number,
     end2: number
-  ) {
+  ) => {
     const remapped =
       ((value - start1) * (end2 - start2)) / (end1 - start1) + start2
     return remapped > 0 ? remapped : 0
   }
-  function animate() {
+  const animate = () => {
     clearContext()
     circles.value.forEach((circle, i) => {
       // Handle the alpha value
@@ -176,24 +192,27 @@
 
     initCanvas()
     animate()
-    document.addEventListener("resize", initCanvas)
+    window.addEventListener("resize", initCanvas)
   })
+
   onBeforeUnmount(() => {
-    document.removeEventListener("resize", initCanvas)
+    window.removeEventListener("resize", initCanvas)
   })
+
   watch(
     () => mousePosition.value,
     () => {
       onMouseMove()
     }
   )
+
   watch(
     () => props.refresh,
     () => {
       initCanvas()
     }
   )
-  function initCanvas() {
+  const initCanvas = () => {
     resizeCanvas()
     drawParticles()
   }
