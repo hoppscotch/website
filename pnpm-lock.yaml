@@ -36,8 +36,8 @@ dependencies:
     specifier: ~21.3.6
     version: 21.3.6
   swiper:
-    specifier: ^8.4.7
-    version: 8.4.7
+    specifier: ^10.3.1
+    version: 10.3.1
   vue:
     specifier: ^3.3.4
     version: 3.3.4
@@ -59,8 +59,8 @@ devDependencies:
     specifier: ^1.7.4
     version: 1.7.4(vue@3.3.4)
   "@vitejs/plugin-vue":
-    specifier: ^4.3.4
-    version: 4.3.4(vite@4.4.9)(vue@3.3.4)
+    specifier: ^4.4.0
+    version: 4.4.0(vite@4.4.9)(vue@3.3.4)
   autoprefixer:
     specifier: ^10.4.16
     version: 10.4.16(postcss@8.4.31)
@@ -1419,10 +1419,10 @@ packages:
       vue: 3.3.4
     dev: true
 
-  /@vitejs/plugin-vue@4.3.4(vite@4.4.9)(vue@3.3.4):
+  /@vitejs/plugin-vue@4.4.0(vite@4.4.9)(vue@3.3.4):
     resolution:
       {
-        integrity: sha512-ciXNIHKPriERBisHFBvnTbfKa6r9SAesOYXeGDzgegcvy9Q4xdScSHAmKbNT0M3O0S9LKhIf5/G+UYG4NnnzYw==,
+        integrity: sha512-xdguqb+VUwiRpSg+nsc2HtbAUSGak25DXYvpQQi4RVU1Xq1uworyoH/md9Rfd8zMmPR/pSghr309QNcftUVseg==,
       }
     engines: { node: ^14.18.0 || >=16.0.0 }
     peerDependencies:
@@ -2700,15 +2700,6 @@ packages:
       domhandler: 5.0.3
       entities: 4.5.0
     dev: true
-
-  /dom7@4.0.6:
-    resolution:
-      {
-        integrity: sha512-emjdpPLhpNubapLFdjNL9tP06Sr+GZkrIHEXLWvOGsytACUrkbeIdjO5g77m00BrHTznnlcNqgmn7pCN192TBA==,
-      }
-    dependencies:
-      ssr-window: 4.0.2
-    dev: false
 
   /domelementtype@2.3.0:
     resolution:
@@ -6356,13 +6347,6 @@ packages:
       }
     dev: true
 
-  /ssr-window@4.0.2:
-    resolution:
-      {
-        integrity: sha512-ISv/Ch+ig7SOtw7G2+qkwfVASzazUnvlDTwypdLoPoySv+6MqlOV10VwPSE6EWkGjhW50lUmghPmpYZXMu/+AQ==,
-      }
-    dev: false
-
   /std-env@3.4.3:
     resolution:
       {
@@ -6695,16 +6679,12 @@ packages:
       }
     dev: true
 
-  /swiper@8.4.7:
+  /swiper@10.3.1:
     resolution:
       {
-        integrity: sha512-VwO/KU3i9IV2Sf+W2NqyzwWob4yX9Qdedq6vBtS0rFqJ6Fa5iLUJwxQkuD4I38w0WDJwmFl8ojkdcRFPHWD+2g==,
+        integrity: sha512-24Wk3YUdZHxjc9faID97GTu6xnLNia+adMt6qMTZG/HgdSUt4fS0REsGUXJOgpTED0Amh/j+gRGQxsLayJUlBQ==,
       }
     engines: { node: ">= 4.7.0" }
-    requiresBuild: true
-    dependencies:
-      dom7: 4.0.6
-      ssr-window: 4.0.2
     dev: false
 
   /symbol-tree@3.2.4:

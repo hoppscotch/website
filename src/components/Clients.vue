@@ -1,23 +1,6 @@
-<script setup lang="ts">
-  // Import Swiper
-  import Swiper, { Autoplay } from "swiper"
-  import "swiper/css"
-
-  Swiper.use([Autoplay])
-  onMounted(() => {
-    new Swiper(".clients-carousel", {
-      slidesPerView: "auto",
-      spaceBetween: 64,
-      centeredSlides: true,
-      loop: true,
-      speed: 5000,
-      noSwipingClass: "swiper-slide",
-      autoplay: {
-        delay: 0,
-        disableOnInteraction: false,
-      },
-    })
-  })
+<script setup>
+  import { register } from "swiper/element/bundle"
+  register()
 </script>
 
 <template>
@@ -33,23 +16,29 @@
         <div class="overflow-hidden">
           <!-- Carousel built with Swiper.js [https://swiperjs.com/] -->
           <div
-            class="relative clients-carousel swiper-container before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-slate-950 after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-slate-950"
+            class="relative clients-carousel before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-slate-950 after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-slate-950"
           >
-            <div class="swiper-wrapper !ease-linear select-none items-center">
+            <swiper-container
+              :slides-per-view="'auto'"
+              :space-between="64"
+              :loop="true"
+              :speed="5000"
+              :autoplay-delay="0"
+              :autoplay-disable-on-interaction="false"
+            >
               <!-- Carousel items -->
-              <div
+              <swiper-slide
                 v-for="index in 12"
                 :key="index"
-                class="swiper-slide !w-auto"
+                class="w-24 my-auto"
               >
                 <img
                   loading="lazy"
                   :src="`/images/client-${String(index).padStart(2, '0')}.svg`"
                   :alt="`Client ${index}`"
-                  class="w-24"
                 />
-              </div>
-            </div>
+              </swiper-slide>
+            </swiper-container>
           </div>
         </div>
       </div>

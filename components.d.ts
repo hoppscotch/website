@@ -35,6 +35,7 @@ declare module "vue" {
     Cta: (typeof import("./src/components/Cta.vue"))["default"]
     DownloadProducts: (typeof import("./src/components/DownloadProducts.vue"))["default"]
     DownloadsCarousel: (typeof import("./src/components/DownloadsCarousel.vue"))["default"]
+    DownloadsGrid: (typeof import("./src/components/DownloadsGrid.vue"))["default"]
     EnterpriseCTA: (typeof import("./src/components/EnterpriseCTA.vue"))["default"]
     EnterpriseWaitlist: (typeof import("./src/components/EnterpriseWaitlist.vue"))["default"]
     Features01: (typeof import("./src/components/Features01.vue"))["default"]

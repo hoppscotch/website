@@ -12,7 +12,6 @@
 
 <template>
   <FeaturesAnimation />
-  <TestimonialsCarousel />
   <Features04 />
   <Features02 />
   <Features03 />

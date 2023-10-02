@@ -116,8 +116,11 @@
 
   const changeTab = (tab: string) => {
     activeTab.value = tab
-    selectedEntryIndex.value = 0
   }
+
+  watch(activeTab, () => {
+    selectedEntryIndex.value = 0
+  })
 
   const selectEntry = (entry: number) => {
     selectedEntryIndex.value = entry
@@ -130,6 +133,84 @@
     return activeTabData.entries.filter((entry) => {
       return entry.name.toLowerCase().includes(search.value.toLowerCase())
     })
+  })
+
+  const target = ref<HTMLDivElement | null>(null)
+  const targetIsVisible = ref(false)
+
+  let keydownListener: (() => void) | null = null
+
+  const cycleEntries = (direction: "up" | "down") => {
+    if (direction === "up") {
+      if (selectedEntryIndex.value === 0) {
+        selectedEntryIndex.value = filteredEntries.value.length - 1
+      } else {
+        selectedEntryIndex.value--
+      }
+    } else {
+      if (selectedEntryIndex.value === filteredEntries.value.length - 1) {
+        selectedEntryIndex.value = 0
+      } else {
+        selectedEntryIndex.value++
+      }
+    }
+  }
+
+  const cycleTabs = (direction: "left" | "right") => {
+    const activeTabIndex = tabs.findIndex((tab) => tab.id === activeTab.value)
+    if (direction === "left") {
+      if (activeTabIndex === 0) {
+        activeTab.value = tabs[tabs.length - 1].id
+      } else {
+        activeTab.value = tabs[activeTabIndex - 1].id
+      }
+    } else {
+      if (activeTabIndex === tabs.length - 1) {
+        activeTab.value = tabs[0].id
+      } else {
+        activeTab.value = tabs[activeTabIndex + 1].id
+      }
+    }
+  }
+
+  const getKey = (e: KeyboardEvent) => {
+    if (e.keyCode === 38) return "up"
+    if (e.keyCode === 40) return "down"
+    if (e.keyCode === 37) return "left"
+    if (e.keyCode === 39) return "right"
+    return null
+  }
+
+  watch(targetIsVisible, (isVisible) => {
+    if (isVisible) {
+      keydownListener = useEventListener(
+        document,
+        "keydown",
+        (e: KeyboardEvent) => {
+          const key = getKey(e)
+          if (!key) return
+          if (key === "up" || key === "down") cycleEntries(key)
+          if (key === "left" || key === "right") cycleTabs(key)
+        }
+      )
+    } else {
+      cleanupKeydown()
+    }
+  })
+
+  useIntersectionObserver(target, ([{ isIntersecting }]) => {
+    targetIsVisible.value = isIntersecting
+  })
+
+  const cleanupKeydown = () => {
+    if (keydownListener) {
+      keydownListener()
+      keydownListener = null
+    }
+  }
+
+  onBeforeUnmount(() => {
+    cleanupKeydown()
   })
 </script>
 <template>
@@ -157,7 +238,7 @@
       </span>
     </button>
   </div>
-  <div class="relative w-full p-2 overflow-hidden">
+  <div ref="target" class="relative w-full p-2 overflow-hidden">
     <div
       class="flex items-start justify-start overflow-y-auto border brightness-110 overscroll-auto h-80 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5 backdrop-blur-md"
     >
