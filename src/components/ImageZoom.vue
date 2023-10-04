@@ -6,7 +6,7 @@
   } from "vue"
   import mediumZoom, { type Zoom, type ZoomOptions } from "medium-zoom"
 
-  interface Props extends ImgHTMLAttributes {
+  interface Props extends /* @vue-ignore */ ImgHTMLAttributes {
     options?: ZoomOptions
   }
 

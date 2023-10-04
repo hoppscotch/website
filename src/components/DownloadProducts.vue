@@ -47,7 +47,7 @@
               <!-- Particles animation -->
               <ClientOnly>
                 <Particles
-                  class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500"
+                  class="absolute inset-0 opacity-0 transition-opacity duration-500 -z-10 group-hover/slide:opacity-100"
                   :quantity="3"
                 />
               </ClientOnly>
@@ -57,7 +57,7 @@
                 aria-hidden="true"
               >
                 <div
-                  class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 group-[.swiper-slide-active]/slide:bg-violet-500 transition-colors duration-500 blur-[60px]"
+                  class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 transition-colors duration-500 blur-[60px]"
                 ></div>
               </div>
               <div class="flex flex-col h-full p-6">
@@ -98,7 +98,7 @@
               <!-- Particles animation -->
               <ClientOnly>
                 <Particles
-                  class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500"
+                  class="absolute inset-0 opacity-0 transition-opacity duration-500 -z-10 group-hover/slide:opacity-100"
                   :quantity="3"
                 />
               </ClientOnly>
@@ -108,7 +108,7 @@
                 aria-hidden="true"
               >
                 <div
-                  class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 group-[.swiper-slide-active]/slide:bg-violet-500 transition-colors duration-500 blur-[60px]"
+                  class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 transition-colors duration-500 blur-[60px]"
                 ></div>
               </div>
               <div class="flex flex-col h-full p-6">
@@ -149,7 +149,7 @@
               <!-- Particles animation -->
               <ClientOnly>
                 <Particles
-                  class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500"
+                  class="absolute inset-0 opacity-0 transition-opacity duration-500 -z-10 group-hover/slide:opacity-100"
                   :quantity="3"
                 />
               </ClientOnly>
@@ -159,7 +159,7 @@
                 aria-hidden="true"
               >
                 <div
-                  class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 group-[.swiper-slide-active]/slide:bg-violet-500 transition-colors duration-500 blur-[60px]"
+                  class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 transition-colors duration-500 blur-[60px]"
                 ></div>
               </div>
               <div class="flex flex-col h-full p-6">
@@ -200,7 +200,7 @@
               <!-- Particles animation -->
               <ClientOnly>
                 <Particles
-                  class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500"
+                  class="absolute inset-0 opacity-0 transition-opacity duration-500 -z-10 group-hover/slide:opacity-100"
                   :quantity="3"
                 />
               </ClientOnly>
@@ -210,7 +210,7 @@
                 aria-hidden="true"
               >
                 <div
-                  class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 group-[.swiper-slide-active]/slide:bg-violet-500 transition-colors duration-500 blur-[60px]"
+                  class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 transition-colors duration-500 blur-[60px]"
                 ></div>
               </div>
               <div class="flex flex-col h-full p-6">
@@ -248,7 +248,7 @@
               <!-- Particles animation -->
               <ClientOnly>
                 <Particles
-                  class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500"
+                  class="absolute inset-0 opacity-0 transition-opacity duration-500 -z-10 group-hover/slide:opacity-100"
                   :quantity="3"
                 />
               </ClientOnly>
@@ -258,7 +258,7 @@
                 aria-hidden="true"
               >
                 <div
-                  class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 group-[.swiper-slide-active]/slide:bg-violet-500 transition-colors duration-500 blur-[60px]"
+                  class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 transition-colors duration-500 blur-[60px]"
                 ></div>
               </div>
               <div class="flex flex-col h-full p-6">

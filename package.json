@@ -12,8 +12,8 @@
     "lint:style": "stylelint src/**/*.{css,scss,vue}"
   },
   "dependencies": {
-    "@fontsource-variable/inter": "^5.0.8",
-    "@fontsource-variable/plus-jakarta-sans": "^5.0.14",
+    "@fontsource-variable/inter": "^5.0.12",
+    "@fontsource-variable/plus-jakarta-sans": "^5.0.15",
     "@sparticuz/chromium": "^117.0.0",
     "@unhead/addons": "^1.7.4",
     "@vueuse/core": "^10.4.1",
@@ -28,8 +28,8 @@
   },
   "devDependencies": {
     "@iconify-json/lucide": "^1.1.130",
-    "@types/node": "^20.8.0",
-    "@typescript-eslint/parser": "^6.7.3",
+    "@types/node": "^20.8.2",
+    "@typescript-eslint/parser": "^6.7.4",
     "@unhead/vue": "^1.7.4",
     "@vitejs/plugin-vue": "^4.4.0",
     "autoprefixer": "^10.4.16",
@@ -54,7 +54,7 @@
     "unplugin-fonts": "^1.0.3",
     "unplugin-icons": "^0.17.0",
     "unplugin-vue-components": "^0.25.2",
-    "vite": "^4.4.9",
+    "vite": "^4.4.10",
     "vite-plugin-pages": "^0.31.0",
     "vite-plugin-vue-layouts": "^0.8.0",
     "vite-ssg": "^0.23.3",
