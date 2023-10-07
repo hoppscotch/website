@@ -1,7 +1,7 @@
 <template>
   <div class="relative w-full p-2 overflow-hidden">
     <div
-      class="relative flex items-center justify-center px-8 overflow-hidden border h-80 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5 backdrop-blur-md"
+      class="relative flex items-center justify-center px-8 overflow-hidden border h-80 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5"
     >
       <img
         loading="lazy"

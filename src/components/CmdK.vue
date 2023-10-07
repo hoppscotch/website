@@ -240,7 +240,7 @@
   </div>
   <div ref="target" class="relative w-full p-2 overflow-hidden">
     <div
-      class="flex items-start justify-start overflow-y-auto border brightness-110 overscroll-auto h-80 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5 backdrop-blur-md"
+      class="flex items-start justify-start overflow-y-auto border brightness-110 overscroll-auto h-80 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5"
     >
       <div class="relative flex flex-col flex-1 text-xs">
         <input

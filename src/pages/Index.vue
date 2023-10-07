@@ -53,6 +53,7 @@
   <Features02 />
   <Features03 />
   <Features04 />
+  <Features05 />
   <Testimonials />
   <Cta />
 </template>
