@@ -24,16 +24,16 @@
             <span
               class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-violet-50 to-violet-600"
             >
-              Tools for Power Users
+              Built for Developers
             </span>
           </div>
           <h2
             class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
           >
-            Faster. Smarter.
+            Works As You Expect
           </h2>
           <p class="text-lg text-violet-200/50">
-            Designed for developers, by developers.
+            Everything you'd expect from a modern API client.
           </p>
         </div>
         <!-- Highlighted boxes -->
@@ -59,37 +59,23 @@
                     <!-- Text -->
                     <div class="flex items-start justify-center flex-1 p-8">
                       <div class="flex flex-col items-center text-center">
-                        <icon-lucide-command class="w-6 h-6 mb-4" />
+                        <icon-lucide-zap class="w-6 h-6 mb-4" />
                         <h5 class="inline-flex pb-2 text-xl">
-                          Keyboard Shortcuts
+                          Cross-Platform Apps
                         </h5>
                         <p class="w-full text-violet-200/50">
-                          Fly through your tasks with rapid-fire keyboard
-                          shortcuts for everything.
+                          Works on web, Mac, Windows, Linux and CLI.
                         </p>
                       </div>
-                      <!-- <RouterLink
-                        class="text-sm inline-flex items-center justify-center border border-transparent rounded-full px-3 py-1 text-violet-200 hover:text-violet-50 transition group [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-full before:pointer-events-none"
-                        to="/"
-                      >
-                        <span class="relative inline-flex items-center">
-                          Learn more
-                          <span
-                            class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
-                          >
-                            <icon-lucide-arrow-right />
-                          </span>
-                        </span>
-                      </RouterLink> -->
                     </div>
                     <!-- Image -->
-                    <MacKeyboard />
+                    <CrossPlatform />
                   </div>
                 </div>
               </HighlighterItem>
             </div>
             <!-- Box #2 -->
-            <div class="grid md:col-span-7">
+            <div class="grid md:col-span-6">
               <HighlighterItem>
                 <div
                   class="relative bg-slate-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
@@ -107,22 +93,22 @@
                     <!-- Text -->
                     <div class="flex items-start justify-center flex-1 p-8">
                       <div class="flex flex-col items-center text-center">
-                        <icon-lucide-terminal-square class="w-6 h-6 mb-4" />
-                        <h5 class="inline-flex pb-2 text-xl">CMD + K</h5>
+                        <icon-lucide-cloudy class="w-6 h-6 mb-4" />
+                        <h5 class="inline-flex pb-2 text-xl">Cloud Sync</h5>
                         <p class="w-3/4 text-violet-200/50">
-                          Access the command palette by pressing CMD+K and type
-                          your query for results.
+                          Sync your data across all your devices. Never lose
+                          your data again.
                         </p>
                       </div>
                     </div>
                     <!-- Image -->
-                    <CmdK />
+                    <CloudSync />
                   </div>
                 </div>
               </HighlighterItem>
             </div>
             <!-- Box #3 -->
-            <div class="grid md:col-span-5">
+            <div class="grid md:col-span-6">
               <HighlighterItem>
                 <div
                   class="relative bg-slate-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
@@ -140,16 +126,16 @@
                     <!-- Text -->
                     <div class="flex items-start justify-center flex-1 p-8">
                       <div class="flex flex-col items-center text-center">
-                        <icon-lucide-globe class="w-6 h-6 mb-4" />
-                        <h5 class="inline-flex pb-2 text-xl">Open-Source</h5>
+                        <icon-lucide-cable class="w-6 h-6 mb-4" />
+                        <h5 class="inline-flex pb-2 text-xl">Multi-Protocol</h5>
                         <p class="w-3/4 text-violet-200/50">
-                          Built on top of open-source technologies and
-                          contributions.
+                          HTTP, GraphQL, WebSocket, Socket.IO, MQTT, Server-Sent
+                          Events and more.
                         </p>
                       </div>
                     </div>
                     <!-- Image -->
-                    <Globe />
+                    <MultiProtocol />
                   </div>
                 </div>
               </HighlighterItem>
@@ -163,12 +149,11 @@
             <div
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-violet-400/20"
             >
-              <icon-lucide-zap class="fill-slate-200" />
-              <span class="text-violet-100">Lightweight and Snappy</span>
+              <icon-lucide-share-2 class="fill-slate-200" />
+              <span class="text-violet-100"> Shared Requests </span>
             </div>
             <p class="text-sm text-violet-200/50">
-              Designed to be seamless and instant. 150ms interactions and
-              animations.
+              Share your requests with your team, friends or the world.
             </p>
           </div>
           <!-- Feature -->
@@ -176,12 +161,12 @@
             <div
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-violet-400/20"
             >
-              <icon-lucide-users-2 class="fill-slate-200" />
-              <span class="text-violet-100">Built for Collaboration </span>
+              <icon-lucide-code class="fill-slate-200" />
+              <span class="text-violet-100"> Generate Code Snippets </span>
             </div>
             <p class="text-sm text-violet-200/50">
-              Collaborate with your team in real-time. Share collections and
-              environments.
+              Generate code snippets for your requests in various languages and
+              frameworks.
             </p>
           </div>
           <!-- Feature -->
@@ -189,11 +174,11 @@
             <div
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-violet-400/20"
             >
-              <icon-lucide-palette class="fill-slate-200" />
-              <span class="text-violet-100">Highly Customizable</span>
+              <icon-lucide-shuffle class="fill-slate-200" />
+              <span class="text-violet-100"> One-Click Migration </span>
             </div>
             <p class="text-sm text-violet-200/50">
-              Make it your own. Customize the theme, layout, and more.
+              Migrate from Postman, Insomnia, cURL with a single click
             </p>
           </div>
           <!-- Feature -->
@@ -201,11 +186,12 @@
             <div
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-violet-400/20"
             >
-              <icon-lucide-filter class="fill-slate-200" />
-              <span class="text-violet-100"> Filter and Sort </span>
+              <icon-lucide-command class="fill-slate-200" />
+              <span class="text-violet-100"> Command-Line Interface </span>
             </div>
             <p class="text-sm text-violet-200/50">
-              See only what you need. Filter and sort response and collections.
+              Use the CLI to run your requests from the terminal. Automate your
+              workflow.
             </p>
           </div>
           <!-- Feature -->
@@ -213,12 +199,13 @@
             <div
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-violet-400/20"
             >
-              <icon-lucide-package class="fill-slate-200" />
-              <span class="text-violet-100">Cross-Platform Apps</span>
+              <icon-lucide-arrow-up-down class="fill-slate-200" />
+              <span class="text-violet-100">
+                Proxy and Interceptor Support
+              </span>
             </div>
             <p class="text-sm text-violet-200/50">
-              Works on Web, Mac, Windows, Linux and CLI. Take your work
-              anywhere.
+              Bypass CORS, debug requests and intercept responses.
             </p>
           </div>
           <!-- Feature -->
@@ -227,10 +214,10 @@
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-violet-400/20"
             >
               <icon-lucide-shield-check class="fill-slate-200" />
-              <span class="text-violet-100">Safe and Secure</span>
+              <span class="text-violet-100"> Secure and Private </span>
             </div>
             <p class="text-sm text-violet-200/50">
-              Designed to keep your data safe and protected.
+              Local-first data storage. No tracking. No analytics. No ads.
             </p>
           </div>
         </div>

@@ -1,31 +1,5 @@
 <template>
   <section class="relative">
-    <!-- Blurred shape -->
-    <div
-      class="absolute top-0 opacity-50 pointer-events-none -translate-x-1/2 -translate-y-1/4 left-1/2 blur-2xl -z-10"
-      aria-hidden="true"
-    >
-      <svg xmlns="http://www.w3.org/2000/svg" width="434" height="427">
-        <defs>
-          <linearGradient
-            id="bs3-a"
-            x1="19.609%"
-            x2="50%"
-            y1="14.544%"
-            y2="100%"
-          >
-            <stop offset="0%" stop-color="#2e1065" />
-            <stop offset="100%" stop-color="#2e1065" stop-opacity="0" />
-          </linearGradient>
-        </defs>
-        <path
-          fill="url(#bs3-a)"
-          fill-rule="evenodd"
-          d="m410 0 461 369-284 58z"
-          transform="matrix(1 0 0 -1 -410 427)"
-        />
-      </svg>
-    </div>
     <div class="max-w-5xl px-4 mx-auto sm:px-6">
       <div class="pt-32 pb-24">
         <!-- Section header -->
@@ -38,13 +12,13 @@
             <span
               class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-violet-50 to-violet-600"
             >
-              The developer-first platform
+              Download
             </span>
           </div>
           <h2
             class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
           >
-            Unlock your potential
+            Unlock Your Potential
           </h2>
           <p class="text-lg text-violet-200/50">
             Take Hoppscotch with you wherever you go. Download the app to get

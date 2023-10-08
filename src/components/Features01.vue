@@ -22,13 +22,13 @@
                 <span
                   class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-violet-50 to-violet-600"
                 >
-                  Developer-first API platform
+                  Developer-First API Platform
                 </span>
               </div>
               <h3
                 class="pb-3 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
               >
-                Essential tools for API development
+                Essential Tools for API Development
               </h3>
               <p class="mb-8 text-lg text-violet-200/50">
                 Hoppscotch simplifies each step of the API lifecycle and
@@ -36,7 +36,7 @@
               </p>
               <div class="max-w-xs mt-8 space-y-2 max-md:mx-auto">
                 <button
-                  class="flex items-center w-full px-3 py-2 text-sm border rounded transition text-violet-100 bg-slate-900/25 hover:opacity-100"
+                  class="flex items-center w-full px-3 py-2 text-sm border transition rounded-md text-violet-100 bg-slate-900/25 hover:opacity-100"
                   :class="
                     tab !== '1'
                       ? 'border-slate-800 opacity-50'
@@ -45,10 +45,10 @@
                   @click.prevent="tab = '1'"
                 >
                   <icon-lucide-zap class="mr-3" />
-                  <span>Built to be fast</span>
+                  <span>Built to be Fast</span>
                 </button>
                 <button
-                  class="flex items-center w-full px-3 py-2 text-sm border rounded transition text-violet-100 bg-slate-900/25 hover:opacity-100"
+                  class="flex items-center w-full px-3 py-2 text-sm border transition rounded-md text-violet-100 bg-slate-900/25 hover:opacity-100"
                   :class="
                     tab !== '2'
                       ? 'border-slate-800 opacity-50'
@@ -57,10 +57,10 @@
                   @click.prevent="tab = '2'"
                 >
                   <icon-lucide-heart class="mr-3" />
-                  <span>Made with open source</span>
+                  <span>Made with Open-Source</span>
                 </button>
                 <button
-                  class="flex items-center w-full px-3 py-2 text-sm border rounded transition text-violet-100 bg-slate-900/25 hover:opacity-100"
+                  class="flex items-center w-full px-3 py-2 text-sm border transition rounded-md text-violet-100 bg-slate-900/25 hover:opacity-100"
                   :class="
                     tab !== '3'
                       ? 'border-slate-800 opacity-50'
@@ -69,7 +69,7 @@
                   @click.prevent="tab = '3'"
                 >
                   <icon-lucide-users-2 class="mr-3" />
-                  <span>Designed for teams</span>
+                  <span>Designed for Teams</span>
                 </button>
               </div>
             </div>

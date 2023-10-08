@@ -46,32 +46,6 @@
         </div>
         <!-- Pricing tabs -->
         <div class="relative">
-          <!-- Blurred shape -->
-          <div
-            class="absolute bottom-0 -mb-20 pointer-events-none -translate-x-1/2 max-md:hidden left-2/3 blur-2xl opacity-70"
-            aria-hidden="true"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" width="434" height="427">
-              <defs>
-                <linearGradient
-                  id="bs5-a"
-                  x1="19.609%"
-                  x2="50%"
-                  y1="14.544%"
-                  y2="100%"
-                >
-                  <stop offset="0%" stop-color="#A855F7" />
-                  <stop offset="100%" stop-color="#2e1065" stop-opacity="0" />
-                </linearGradient>
-              </defs>
-              <path
-                fill="url(#bs5-a)"
-                fill-rule="evenodd"
-                d="m661 736 461 369-284 58z"
-                transform="matrix(1 0 0 -1 -661 1163)"
-              />
-            </svg>
-          </div>
           <!-- Tabs -->
           <div class="flex justify-center mb-16">
             <fieldset

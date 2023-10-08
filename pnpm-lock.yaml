@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   "@fontsource-variable/inter":
-    specifier: ^5.0.12
-    version: 5.0.12
+    specifier: ^5.0.13
+    version: 5.0.13
   "@fontsource-variable/plus-jakarta-sans":
-    specifier: ^5.0.15
-    version: 5.0.15
+    specifier: ^5.0.16
+    version: 5.0.16
   "@sparticuz/chromium":
     specifier: ^117.0.0
     version: 117.0.0
@@ -18,8 +18,8 @@ dependencies:
     specifier: ^1.7.4
     version: 1.7.4
   "@vueuse/core":
-    specifier: ^10.4.1
-    version: 10.4.1(vue@3.3.4)
+    specifier: ^10.5.0
+    version: 10.5.0(vue@3.3.4)
   "@vueuse/gesture":
     specifier: 2.0.0-beta.1
     version: 2.0.0-beta.1(vue@3.3.4)
@@ -117,7 +117,7 @@ devDependencies:
     version: 5.2.2
   unplugin-auto-import:
     specifier: ^0.16.6
-    version: 0.16.6(@vueuse/core@10.4.1)
+    version: 0.16.6(@vueuse/core@10.5.0)
   unplugin-fonts:
     specifier: ^1.0.3
     version: 1.0.3(vite@4.4.11)
@@ -888,17 +888,17 @@ packages:
     engines: { node: ^12.22.0 || ^14.17.0 || >=16.0.0 }
     dev: true
 
-  /@fontsource-variable/inter@5.0.12:
+  /@fontsource-variable/inter@5.0.13:
     resolution:
       {
-        integrity: sha512-BuYkYLsvqLnWlXeyUvo6HpcAAgiOpIeQeVXWuxTNrJWr3NpuY5mWzizCxHnHD2gWLZOSOx0GkBqhQl7Oh6zTUQ==,
+        integrity: sha512-mb2WyZ2rHeqIG8aqGJIvLBOmo4sg2x7SHlsE6PUhwxbOicVzO59EZwSGtzNO3FmchuDPFVAxzcXYcR5B6jE6Qw==,
       }
     dev: false
 
-  /@fontsource-variable/plus-jakarta-sans@5.0.15:
+  /@fontsource-variable/plus-jakarta-sans@5.0.16:
     resolution:
       {
-        integrity: sha512-e6ITs3dw5l1ZzItG3ru9OjJRhyjxqnnCG7CFIBXasXmcO3uRA+CWvIXFQCYIBYcsZX3plDtI3+OvYdhWS/GVEg==,
+        integrity: sha512-bFVypDdE+IlfdF1+UGVRw/DuKJBeUEOCebiB6J5t/mDJzhtb9uFf2WjX/uw/4ZzwhR/QANnMWSw85SKnSLGYlA==,
       }
     dev: false
 
@@ -1264,10 +1264,10 @@ packages:
       }
     dev: true
 
-  /@types/web-bluetooth@0.0.17:
+  /@types/web-bluetooth@0.0.18:
     resolution:
       {
-        integrity: sha512-4p9vcSmxAayx72yn70joFoL44c9MO/0+iVEBIQXe3v2h2SiAsEIo/G5v6ObFWvNKRFjbrVadNf9LqEEZeQPzdA==,
+        integrity: sha512-v/ZHEj9xh82usl8LMR3GarzFY1IrbXJw5L4QfQhokjRV91q+SelFqxQWSep1ucXEZ22+dSTwLFkXeur25sPIbw==,
       }
 
   /@types/yauzl@2.10.1:
@@ -1604,15 +1604,15 @@ packages:
       - typescript
     dev: true
 
-  /@vueuse/core@10.4.1(vue@3.3.4):
+  /@vueuse/core@10.5.0(vue@3.3.4):
     resolution:
       {
-        integrity: sha512-DkHIfMIoSIBjMgRRvdIvxsyboRZQmImofLyOHADqiVbQVilP8VVHDhBX2ZqoItOgu7dWa8oXiNnScOdPLhdEXg==,
+        integrity: sha512-z/tI2eSvxwLRjOhDm0h/SXAjNm8N5ld6/SC/JQs6o6kpJ6Ya50LnEL8g5hoYu005i28L0zqB5L5yAl8Jl26K3A==,
       }
     dependencies:
-      "@types/web-bluetooth": 0.0.17
-      "@vueuse/metadata": 10.4.1
-      "@vueuse/shared": 10.4.1(vue@3.3.4)
+      "@types/web-bluetooth": 0.0.18
+      "@vueuse/metadata": 10.5.0
+      "@vueuse/shared": 10.5.0(vue@3.3.4)
       vue-demi: 0.14.6(vue@3.3.4)
     transitivePeerDependencies:
       - "@vue/composition-api"
@@ -1637,10 +1637,10 @@ packages:
       vue-demi: 0.14.6(vue@3.3.4)
     dev: false
 
-  /@vueuse/metadata@10.4.1:
+  /@vueuse/metadata@10.5.0:
     resolution:
       {
-        integrity: sha512-2Sc8X+iVzeuMGHr6O2j4gv/zxvQGGOYETYXEc41h0iZXIRnRbJZGmY/QP8dvzqUelf8vg0p/yEA5VpCEu+WpZg==,
+        integrity: sha512-fEbElR+MaIYyCkeM0SzWkdoMtOpIwO72x8WsZHRE7IggiOlILttqttM69AS13nrDxosnDBYdyy3C5mR1LCxHsw==,
       }
 
   /@vueuse/motion@2.0.0(vue@3.3.4):
@@ -1651,7 +1651,7 @@ packages:
     peerDependencies:
       vue: ">=3.0.0"
     dependencies:
-      "@vueuse/core": 10.4.1(vue@3.3.4)
+      "@vueuse/core": 10.5.0(vue@3.3.4)
       "@vueuse/shared": 10.4.1(vue@3.3.4)
       csstype: 3.1.2
       framesync: 6.1.2
@@ -1670,6 +1670,18 @@ packages:
     resolution:
       {
         integrity: sha512-vz5hbAM4qA0lDKmcr2y3pPdU+2EVw/yzfRsBdu+6+USGa4PxqSQRYIUC9/NcT06y+ZgaTsyURw2I9qOFaaXHAg==,
+      }
+    dependencies:
+      vue-demi: 0.14.6(vue@3.3.4)
+    transitivePeerDependencies:
+      - "@vue/composition-api"
+      - vue
+    dev: false
+
+  /@vueuse/shared@10.5.0(vue@3.3.4):
+    resolution:
+      {
+        integrity: sha512-18iyxbbHYLst9MqU1X1QNdMHIjks6wC7XTVf0KNOv5es/Ms6gjVFCAAWTVP2JStuGqydg3DT+ExpFORUEi9yhg==,
       }
     dependencies:
       vue-demi: 0.14.6(vue@3.3.4)
@@ -7124,7 +7136,7 @@ packages:
       - rollup
     dev: false
 
-  /unplugin-auto-import@0.16.6(@vueuse/core@10.4.1):
+  /unplugin-auto-import@0.16.6(@vueuse/core@10.5.0):
     resolution:
       {
         integrity: sha512-M+YIITkx3C/Hg38hp8HmswP5mShUUyJOzpifv7RTlAbeFlO2Tyw0pwrogSSxnipHDPTtI8VHFBpkYkNKzYSuyA==,
@@ -7141,7 +7153,7 @@ packages:
     dependencies:
       "@antfu/utils": 0.7.5
       "@rollup/pluginutils": 5.0.2
-      "@vueuse/core": 10.4.1(vue@3.3.4)
+      "@vueuse/core": 10.5.0(vue@3.3.4)
       fast-glob: 3.3.0
       local-pkg: 0.4.3
       magic-string: 0.30.1

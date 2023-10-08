@@ -17,43 +17,30 @@
   const items = ref<Testimonial[]>([
     {
       img: TestimonialImg01,
-      quote: "The ability to capture responses is a game-changer...",
+      quote: "Truly amazing. I've never seen anything like this before.",
       name: "Jessie J",
       role: "Ltd Head of Product",
     },
     {
       img: TestimonialImg02,
-      quote: "I have been using this product for a few weeks now...",
+      quote: "Hoppscotch is a great tool for API development.",
       name: "Mark Luk",
       role: "Spark Founder & CEO",
     },
     {
       img: TestimonialImg03,
-      quote:
-        "As a busy professional, I don't have a lot of time to devote to working out...",
+      quote: "Our team loves Hoppscotch. Saved us a lot of time.",
       name: "Jeff Kahl",
       role: "Appy Product Lead",
     },
   ])
 
-  let autorotateInterval: NodeJS.Timeout | null = null
-
-  const stopAutorotate = () => {
-    if (autorotateInterval) {
-      clearInterval(autorotateInterval)
-    }
-  }
-
   onMounted(() => {
     if (autorotate.value) {
-      autorotateInterval = setInterval(() => {
+      setInterval(() => {
         active.value = (active.value + 1) % items.value.length
       }, autorotateTiming.value)
     }
-  })
-
-  onBeforeUnmount(() => {
-    stopAutorotate()
   })
 </script>
 
@@ -107,7 +94,7 @@
             </div>
           </div>
           <!-- Text -->
-          <div class="relative flex flex-col mb-10">
+          <div class="relative flex flex-col items-center mb-10">
             <TransitionGroup
               enter-active-class="order-first transition duration-500 delay-200"
               enter-from-class="opacity-0 -translate-x-4"
@@ -117,12 +104,11 @@
               leave-to-class="opacity-0 translate-x-4"
             >
               <template v-for="(item, index) in items" :key="index">
-                <div v-if="active === index">
-                  <div
-                    class="text-xl font-bold text-transparent bg-clip-text max-w-max bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
-                  >
-                    {{ item.quote }}
-                  </div>
+                <div
+                  v-if="active === index"
+                  class="text-xl font-bold text-transparent bg-clip-text max-w-max bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
+                >
+                  {{ item.quote }}
                 </div>
               </template>
             </TransitionGroup>
@@ -140,7 +126,6 @@
                 @click="
                   () => {
                     active = index
-                    stopAutorotate()
                   }
                 "
               >

@@ -12,11 +12,11 @@
     "lint:style": "stylelint src/**/*.{css,scss,vue}"
   },
   "dependencies": {
-    "@fontsource-variable/inter": "^5.0.12",
-    "@fontsource-variable/plus-jakarta-sans": "^5.0.15",
+    "@fontsource-variable/inter": "^5.0.13",
+    "@fontsource-variable/plus-jakarta-sans": "^5.0.16",
     "@sparticuz/chromium": "^117.0.0",
     "@unhead/addons": "^1.7.4",
-    "@vueuse/core": "^10.4.1",
+    "@vueuse/core": "^10.5.0",
     "@vueuse/gesture": "2.0.0-beta.1",
     "@vueuse/motion": "^2.0.0",
     "medium-zoom": "^1.0.8",
