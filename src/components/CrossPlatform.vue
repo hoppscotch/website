@@ -25,6 +25,14 @@
         height="64"
         alt="Icon 01"
       />
+      <img
+        loading="lazy"
+        class="z-10 p-3 mb-4 border rounded-xl border-violet-400/20 bg-violet-400/10 backdrop-blur-md"
+        src="/images/download-linux.svg"
+        width="64"
+        height="64"
+        alt="Icon 01"
+      />
       <icon-lucide-terminal
         class="z-10 w-16 h-16 p-3 mb-4 border rounded-xl border-violet-400/20 bg-violet-400/10 backdrop-blur-md"
       />

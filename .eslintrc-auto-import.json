@@ -312,6 +312,8 @@
     "watchWithFilter": true,
     "whenever": true,
     "getActiveHead": true,
-    "WritableComputedRef": true
+    "WritableComputedRef": true,
+    "injectLocal": true,
+    "provideLocal": true
   }
 }
