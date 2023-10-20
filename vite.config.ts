@@ -19,7 +19,9 @@ const ssgOptions: ViteSSGOptions = {
   script: "async",
   formatting: "minify",
   onFinished() {
-    generateSitemap()
+    generateSitemap({
+      hostname: "https://next.hoppscotch.com/",
+    })
   },
 }
 

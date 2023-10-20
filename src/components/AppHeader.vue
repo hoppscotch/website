@@ -55,16 +55,17 @@
   <header
     class="fixed top-0 z-30 w-full bg-slate-950/5 backdrop-blur-md"
     :class="{
-      'bottom-0': !isMobileMenuClosed,
+      'bottom-0 md:bottom-auto': !isMobileMenuClosed,
     }"
   >
     <div
       class="container px-4 py-4 transition sm:px-6 after:-z-10 after:absolute after:h-px after:inset-x-0 after:bottom-0 after:bg-gradient-to-r after:from-transparent after:via-violet-500/20 after:to-transparent"
       :class="{
-        'overflow-y-auto h-full overscroll-contain': !isMobileMenuClosed,
+        'overflow-y-auto md:overflow-y-visible h-full overscroll-contain':
+          !isMobileMenuClosed,
       }"
     >
-      <!-- Desktop navigation -->
+      <!-- Navigation -->
       <nav class="flex grow">
         <!-- Site branding -->
         <div
@@ -679,9 +680,11 @@
                 class="flex items-center p-3 rounded-lg transition group hover:bg-violet-800/50"
                 to="/products/cloud"
               >
-                <icon-lucide-cloudy
-                  class="flex flex-shrink-0 p-2 mr-3 rounded-full text-violet-500 bg-violet-500 w-9 h-9 aspect-squa8e"
-                />
+                <div
+                  class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 rounded-full text-violet-500 bg-gradient-to-br from-violet-950 to-violet-950/80"
+                >
+                  <icon-lucide-cloudy class="w-5 h-5" />
+                </div>
                 <div class="flex flex-col">
                   <div
                     class="text-base font-bold transition text-violet-100 group-hover:text-violet-50"
@@ -689,8 +692,7 @@
                     Cloud
                   </div>
                   <div
-                    class="text-violet-400 group-hover:text-violet-300"
-                    transition
+                    class="transition text-violet-400 group-hover:text-violet-300"
                   >
                     Seamless collaboration, effortless scalability.
                   </div>
@@ -712,8 +714,7 @@
                     Enterprise
                   </div>
                   <div
-                    class="text-violet-400 group-hover:text-violet-300"
-                    transition
+                    class="transition text-violet-400 group-hover:text-violet-300"
                   >
                     API management with unparalleled power and control.
                   </div>
@@ -735,8 +736,7 @@
                     Self-Host
                   </div>
                   <div
-                    class="text-violet-400 group-hover:text-violet-300"
-                    transition
+                    class="transition text-violet-400 group-hover:text-violet-300"
                   >
                     Harness the full potential of APIs with complete control.
                   </div>
@@ -758,8 +758,7 @@
                     CLI
                   </div>
                   <div
-                    class="text-violet-400 group-hover:text-violet-300"
-                    transition
+                    class="transition text-violet-400 group-hover:text-violet-300"
                   >
                     Bring API testing and automation into CI/CD pipelines.
                   </div>
@@ -829,8 +828,7 @@
                     Developers
                   </div>
                   <div
-                    class="text-violet-400 group-hover:text-violet-300"
-                    transition
+                    class="transition text-violet-400 group-hover:text-violet-300"
                   >
                     Build and test APIs faster with the complete toolkit.
                   </div>
@@ -852,8 +850,7 @@
                     Teams
                   </div>
                   <div
-                    class="text-violet-400 group-hover:text-violet-300"
-                    transition
+                    class="transition text-violet-400 group-hover:text-violet-300"
                   >
                     Build and scale your API program with confidence.
                   </div>
@@ -875,8 +872,7 @@
                     Enterprises
                   </div>
                   <div
-                    class="text-violet-400 group-hover:text-violet-300"
-                    transition
+                    class="transition text-violet-400 group-hover:text-violet-300"
                   >
                     Accelerate your business with the modern API platform.
                   </div>
@@ -898,8 +894,7 @@
                     Education
                   </div>
                   <div
-                    class="text-violet-400 group-hover:text-violet-300"
-                    transition
+                    class="transition text-violet-400 group-hover:text-violet-300"
                   >
                     Empower students and educators with API technology.
                   </div>
@@ -928,8 +923,7 @@
                     Cloud
                   </div>
                   <div
-                    class="text-violet-400 group-hover:text-violet-300"
-                    transition
+                    class="transition text-violet-400 group-hover:text-violet-300"
                   >
                     Seamless collaboration, effortless scalability.
                   </div>
@@ -951,8 +945,7 @@
                     Self-Host
                   </div>
                   <div
-                    class="text-violet-400 group-hover:text-violet-300"
-                    transition
+                    class="transition text-violet-400 group-hover:text-violet-300"
                   >
                     Harness the full potential of APIs with complete control.
                   </div>

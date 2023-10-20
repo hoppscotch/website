@@ -2,19 +2,12 @@
   <section>
     <div class="relative max-w-5xl px-4 mx-auto sm:px-6">
       <div class="py-10">
-        <div class="absolute inset-0 flex items-center justify-center">
-          <p
-            class="max-w-xl text-4xl font-semibold tracking-tight text-center font-inter"
-          >
-            Hoppscotch processes over <br />
-            <span class="text-violet-400">300 million requests</span> per month
-          </p>
-        </div>
         <svg
           preserveAspectRatio="xMinYMin"
           width="100%"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 46 16"
+          class="relative z-10"
         >
           <text
             xmlns="http://www.w3.org/2000/svg"
@@ -32,6 +25,14 @@
             300M
           </text>
         </svg>
+        <div class="absolute inset-0 z-20 flex items-center justify-center">
+          <p
+            class="max-w-xl font-semibold tracking-tight text-center text-md md:text-4xl font-inter"
+          >
+            Hoppscotch processes over <br />
+            <span class="text-violet-400">300 million requests</span> per month
+          </p>
+        </div>
       </div>
     </div>
   </section>
