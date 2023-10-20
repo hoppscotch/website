@@ -64,7 +64,7 @@
                           Cross-Platform Apps
                         </h5>
                         <p class="w-full text-violet-200/50">
-                          Works on web, Mac, Windows, Linux and CLI.
+                          Works on Mac, Windows, Linux, Web and CLI.
                         </p>
                       </div>
                     </div>

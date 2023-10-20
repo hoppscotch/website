@@ -1,41 +1,35 @@
 <template>
   <div class="relative w-full p-2 overflow-hidden">
     <div
-      class="relative flex items-center justify-center px-8 overflow-hidden border space-x-4 h-80 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5"
+      class="relative flex items-center justify-center px-8 overflow-hidden border h-80 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5"
     >
+      <!-- <div
+        class="absolute bg-center inset-0 h-full w-full bg-[linear-gradient(to_right,theme(colors.violet.400)1A_1px,transparent_1px),linear-gradient(to_bottom,theme(colors.violet.400)1A_1px,transparent_1px)] bg-[size:20px_20px]"
+      ></div> -->
       <div
-        class="absolute inset-0 h-full w-full bg-[radial-gradient(theme(colors.violet.950)_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_60%,transparent_100%)]"
+        class="absolute bg-center inset-0 h-full w-full bg-[radial-gradient(theme(colors.violet.400)1A_1px,transparent_1px)] [background-size:18px_18px]"
       ></div>
-      <icon-lucide-globe
-        class="z-10 w-16 h-16 p-3 mb-4 border rounded-xl border-violet-400/20 bg-violet-400/10 backdrop-blur-md"
-      />
-      <img
-        loading="lazy"
-        class="z-10 p-3 mb-4 border rounded-xl border-violet-400/20 bg-violet-400/10 backdrop-blur-md"
-        src="/images/download-apple.svg"
-        width="64"
-        height="64"
-        alt="Icon 01"
-      />
-      <img
-        loading="lazy"
-        class="z-10 p-3 mb-4 border rounded-xl border-violet-400/20 bg-violet-400/10 backdrop-blur-md"
-        src="/images/download-windows.svg"
-        width="64"
-        height="64"
-        alt="Icon 01"
-      />
-      <img
-        loading="lazy"
-        class="z-10 p-3 mb-4 border rounded-xl border-violet-400/20 bg-violet-400/10 backdrop-blur-md"
-        src="/images/download-linux.svg"
-        width="64"
-        height="64"
-        alt="Icon 01"
-      />
-      <icon-lucide-terminal
-        class="z-10 w-16 h-16 p-3 mb-4 border rounded-xl border-violet-400/20 bg-violet-400/10 backdrop-blur-md"
-      />
+      <RouterLink
+        class="relative inline-flex items-center px-8 py-4 mx-auto overflow-hidden rounded-full transition transform bg-violet-800/80 hover:scale-110 group"
+        to="/download"
+      >
+        <div
+          class="absolute inset-0 flex items-center [container-type:inline-size]"
+        >
+          <div
+            class="absolute h-[100cqw] w-[100cqw] animate-spin bg-[conic-gradient(from_0_at_50%_50%,theme(colors.violet.500)_0deg,transparent_60deg,transparent_300deg,theme(colors.violet.500)_360deg)] transition duration-300 [animation-duration:3s]"
+          ></div>
+        </div>
+        <div class="absolute inset-0.5 rounded-full bg-violet-950"></div>
+        <div
+          class="absolute bottom-0 w-4/5 rounded-full opacity-50 transition-all duration-500 -translate-x-1/2 left-1/2 h-1/3 bg-violet-900 blur-md group-hover:h-2/3 group-hover:opacity-100"
+        ></div>
+        <span
+          class="relative text-lg font-medium text-transparent transition-all duration-200 font-mona bg-gradient-to-b from-violet-200/25 to-violet-50 bg-clip-text"
+        >
+          Get Desktop App
+        </span>
+      </RouterLink>
     </div>
   </div>
 </template>
