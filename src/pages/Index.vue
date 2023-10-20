@@ -50,6 +50,7 @@
   <Hero />
   <Clients />
   <Features01 />
+  <Stats />
   <Features02 />
   <Features03 />
   <Features04 />
