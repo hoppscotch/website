@@ -28,7 +28,7 @@
             </span>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
+            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-violet-200 via-violet-100 to-violet-50"
           >
             Works As You Expect
           </h2>

@@ -79,25 +79,25 @@
             class="rounded-full"
           >
             <RouterLink
-              class="inline-flex items-center justify-center outline-none transition hover:scale-110 rounded-2xl"
+              class="inline-flex items-center justify-center p-1 border rounded-full outline-none transition border-violet-500/50 hover:border-violet-500/80 hover:scale-110"
               to="/"
               aria-label="Hoppscotch"
               @contextmenu.prevent="logoOptions.tippy.show()"
             >
               <img
                 loading="lazy"
-                src="/images/logo.png"
+                src="/images/logo.svg"
                 alt="Hoppscotch"
-                class="w-10 h-10 rounded-xl ring-1 ring-violet-500/50 hover:ring-violet-500/80"
+                class="w-9 h-9"
               />
             </RouterLink>
             <template #content="{ hide }">
               <div class="flex flex-col p-2">
                 <RouterLink
-                  class="flex items-center px-3 py-2 text-sm rounded-lg transition text-violet-300 hover:text-violet-50 hover:bg-violet-800/50"
-                  to="/images/logo.png"
+                  class="flex items-center px-3 py-2 text-sm rounded-full transition text-violet-300 hover:text-violet-50 hover:bg-violet-800/50"
+                  to="/images/logo.svg"
                   target="_blank"
-                  download="hoppscotch-logo.png"
+                  download="hoppscotch-logo.svg"
                   @click="hide()"
                 >
                   <icon-lucide-save class="mr-3" />
