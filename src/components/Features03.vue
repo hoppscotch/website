@@ -45,13 +45,13 @@
                     <!-- Text -->
                     <div class="flex items-start justify-center flex-1 p-8">
                       <div class="flex flex-col items-center text-center">
-                        <icon-lucide-command class="w-6 h-6 mb-4" />
-                        <h5 class="inline-flex pb-2 text-xl">
-                          Keyboard Shortcuts
-                        </h5>
+                        <icon-lucide-mouse-pointer-square
+                          class="w-6 h-6 mb-4"
+                        />
+                        <h5 class="inline-flex pb-2 text-xl">Inspections</h5>
                         <p class="w-full text-violet-200/50">
-                          Fly through your tasks with rapid-fire keyboard
-                          shortcuts for everything.
+                          From prototyping to production - develop without
+                          switching tabs.
                         </p>
                       </div>
                     </div>
@@ -73,6 +73,16 @@
             </Highlighter>
           </div>
         </div>
+        <span
+          class="table mx-auto items-center pointer-events-none mt-4 text-center animate-background-shine bg-[linear-gradient(110deg,transparent,45%,theme(colors.violet.200),55%,transparent)] bg-[length:200%_100%] bg-clip-text text-xs text-transparent"
+        >
+          <span class="mr-2">Press</span>
+          <span
+            class="relative before:text-lg contents before:align-middle before:-mr-[13.5px] before:content-['▢']"
+            >H</span
+          >
+          <span class="ml-2"> anytime to get started </span>
+        </span>
       </div>
     </div>
   </section>
