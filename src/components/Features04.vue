@@ -53,7 +53,7 @@
                       aria-hidden="true"
                     >
                       <div
-                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-20"
+                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-5"
                       ></div>
                     </div>
                     <!-- Image -->
@@ -96,7 +96,7 @@
                       aria-hidden="true"
                     >
                       <div
-                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-20"
+                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-5"
                       ></div>
                     </div>
                     <!-- Image -->
@@ -141,11 +141,20 @@
                       aria-hidden="true"
                     >
                       <div
-                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-20"
+                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-5"
                       ></div>
                     </div>
                     <!-- Image -->
-                    <FeatureBlock />
+                    <div class="relative w-full p-2 overflow-hidden">
+                      <div
+                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5"
+                      >
+                        <img
+                          src="/images/feature-realtime-collaboration.png"
+                          class="w-auto max-h-full"
+                        />
+                      </div>
+                    </div>
                     <!-- Text -->
                     <div class="flex items-start justify-center flex-1 p-8">
                       <div class="flex flex-col items-center text-center">
@@ -177,11 +186,20 @@
                       aria-hidden="true"
                     >
                       <div
-                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-20"
+                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-5"
                       ></div>
                     </div>
                     <!-- Image -->
-                    <FeatureBlock />
+                    <div class="relative w-full p-2 overflow-hidden">
+                      <div
+                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5"
+                      >
+                        <img
+                          src="/images/feature-on-prem-deployment.png"
+                          class="w-auto max-h-full"
+                        />
+                      </div>
+                    </div>
                     <!-- Text -->
                     <div class="flex items-start justify-center flex-1 p-8">
                       <div class="flex flex-col items-center text-center">
@@ -213,11 +231,20 @@
                       aria-hidden="true"
                     >
                       <div
-                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-20"
+                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-5"
                       ></div>
                     </div>
                     <!-- Image -->
-                    <FeatureBlock />
+                    <div class="relative w-full p-2 overflow-hidden">
+                      <div
+                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5"
+                      >
+                        <img
+                          src="/images/feature-collections-folders.png"
+                          class="w-auto max-h-full"
+                        />
+                      </div>
+                    </div>
                     <!-- Text -->
                     <div class="flex items-start justify-center flex-1 p-8">
                       <div class="flex flex-col items-center text-center">
@@ -250,11 +277,20 @@
                       aria-hidden="true"
                     >
                       <div
-                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-20"
+                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-5"
                       ></div>
                     </div>
                     <!-- Image -->
-                    <FeatureBlock />
+                    <div class="relative w-full p-2 overflow-hidden">
+                      <div
+                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5"
+                      >
+                        <img
+                          src="/images/feature-environments.png"
+                          class="w-auto max-h-full"
+                        />
+                      </div>
+                    </div>
                     <!-- Text -->
                     <div class="flex items-start justify-center flex-1 p-8">
                       <div class="flex flex-col items-center text-center">
@@ -287,11 +323,20 @@
                       aria-hidden="true"
                     >
                       <div
-                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-20"
+                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-5"
                       ></div>
                     </div>
                     <!-- Image -->
-                    <FeatureBlock />
+                    <div class="relative w-full p-2 overflow-hidden">
+                      <div
+                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5"
+                      >
+                        <img
+                          src="/images/feature-history.png"
+                          class="w-auto max-h-full"
+                        />
+                      </div>
+                    </div>
                     <!-- Text -->
                     <div class="flex items-start justify-center flex-1 p-8">
                       <div class="flex flex-col items-center text-center">

@@ -19,7 +19,7 @@
           class="absolute top-0 flex items-center justify-center w-1/3 -translate-x-1/2 -translate-y-1/2 left-1/2 aspect-square"
         >
           <div
-            class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-10"
+            class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-5"
           ></div>
         </div>
       </div>
@@ -108,7 +108,7 @@
               class="absolute top-0 flex items-center justify-center w-1/3 -translate-x-1/2 -translate-y-1/2 left-1/2 aspect-square"
             >
               <div
-                class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-10"
+                class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-5"
               ></div>
             </div>
           </div>
@@ -137,9 +137,20 @@
               @click.stop="videoModalOpen = true"
             >
               <div
-                class="flex items-center justify-center p-4 m-4 rounded-full shadow-xl text-violet-50 transition outline outline-violet-500/90 backdrop-blur-md bg-gradient-to-b from-violet-500/50 to-violet-900/10 group-hover:scale-110"
+                class="flex items-center justify-center p-5 m-3 border rounded-full shadow-xl transition text-violet-50 border-violet-500/90 backdrop-blur-md bg-gradient-to-b from-violet-500/50 to-violet-900/10 group-hover:scale-105"
               >
-                <icon-lucide-play />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  class="text-violet-200"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M6.3 2.841A1.5 1.5 0 0 0 4 4.11v11.78a1.5 1.5 0 0 0 2.3 1.269l9.344-5.89a1.5 1.5 0 0 0 0-2.538L6.3 2.84Z"
+                  />
+                </svg>
               </div>
             </button>
           </div>

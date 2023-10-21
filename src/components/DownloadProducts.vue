@@ -9,7 +9,7 @@
         class="absolute top-0 flex items-center justify-center w-1/3 -translate-x-1/2 -translate-y-1/2 left-1/2 aspect-square"
       >
         <div
-          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-10"
+          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-5"
         ></div>
       </div>
     </div>
@@ -57,7 +57,7 @@
                 aria-hidden="true"
               >
                 <div
-                  class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 transition-colors duration-500 blur-[60px]"
+                  class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 transition-colors duration-500 blur-[60px] opacity-5"
                 ></div>
               </div>
               <div class="flex flex-col h-full p-6">
@@ -108,7 +108,7 @@
                 aria-hidden="true"
               >
                 <div
-                  class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 transition-colors duration-500 blur-[60px]"
+                  class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 transition-colors duration-500 blur-[60px] opacity-5"
                 ></div>
               </div>
               <div class="flex flex-col h-full p-6">
@@ -159,7 +159,7 @@
                 aria-hidden="true"
               >
                 <div
-                  class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 transition-colors duration-500 blur-[60px]"
+                  class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 transition-colors duration-500 blur-[60px] opacity-5"
                 ></div>
               </div>
               <div class="flex flex-col h-full p-6">
@@ -210,7 +210,7 @@
                 aria-hidden="true"
               >
                 <div
-                  class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 transition-colors duration-500 blur-[60px]"
+                  class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 transition-colors duration-500 blur-[60px] opacity-5"
                 ></div>
               </div>
               <div class="flex flex-col h-full p-6">
@@ -258,7 +258,7 @@
                 aria-hidden="true"
               >
                 <div
-                  class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 transition-colors duration-500 blur-[60px]"
+                  class="absolute inset-0 translate-z-0 rounded-full bg-slate-900 transition-colors duration-500 blur-[60px] opacity-5"
                 ></div>
               </div>
               <div class="flex flex-col h-full p-6">

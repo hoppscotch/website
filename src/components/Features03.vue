@@ -38,12 +38,12 @@
                     aria-hidden="true"
                   >
                     <div
-                      class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px]"
+                      class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-5"
                     ></div>
                   </div>
                   <img
                     loading="lazy"
-                    src="/images/feature-image-04.png"
+                    src="/images/screenshot-1.png"
                     alt="Feature 04"
                   />
                   <div

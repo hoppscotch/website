@@ -53,7 +53,7 @@
                       aria-hidden="true"
                     >
                       <div
-                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-20"
+                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-5"
                       ></div>
                     </div>
                     <!-- Text -->
@@ -101,7 +101,7 @@
                       aria-hidden="true"
                     >
                       <div
-                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-20"
+                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-5"
                       ></div>
                     </div>
                     <!-- Text -->
@@ -134,7 +134,7 @@
                       aria-hidden="true"
                     >
                       <div
-                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-20"
+                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-5"
                       ></div>
                     </div>
                     <!-- Text -->

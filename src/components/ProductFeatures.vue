@@ -13,7 +13,7 @@
         class="absolute top-0 flex items-center justify-center w-1/3 -translate-x-1/2 -translate-y-1/2 left-1/2 aspect-square"
       >
         <div
-          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-10"
+          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-5"
         ></div>
       </div>
     </div>
@@ -154,12 +154,12 @@
                         aria-hidden="true"
                       >
                         <div
-                          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px]"
+                          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-5"
                         ></div>
                       </div>
                       <img
                         loading="lazy"
-                        src="/images/feature-image-04.png"
+                        src="/images/screenshot-1.png"
                         alt="Feature 04"
                       />
                       <div
@@ -202,12 +202,12 @@
                         aria-hidden="true"
                       >
                         <div
-                          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px]"
+                          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-5"
                         ></div>
                       </div>
                       <img
                         loading="lazy"
-                        src="/images/feature-image-04.png"
+                        src="/images/screenshot-1.png"
                         alt="Feature 04"
                       />
                       <div
@@ -250,12 +250,12 @@
                         aria-hidden="true"
                       >
                         <div
-                          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px]"
+                          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-5"
                         ></div>
                       </div>
                       <img
                         loading="lazy"
-                        src="/images/feature-image-04.png"
+                        src="/images/screenshot-1.png"
                         alt="Feature 04"
                       />
                       <div
@@ -298,12 +298,12 @@
                         aria-hidden="true"
                       >
                         <div
-                          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px]"
+                          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-5"
                         ></div>
                       </div>
                       <img
                         loading="lazy"
-                        src="/images/feature-image-04.png"
+                        src="/images/screenshot-1.png"
                         alt="Feature 04"
                       />
                       <div
