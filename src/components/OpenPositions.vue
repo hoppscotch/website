@@ -10,7 +10,7 @@
         </h3>
         <!-- Job list -->
         <div class="my-3 space-y-8 divide-y divide-slate-900">
-          <!-- job -->
+          <!-- Job -->
           <div class="py-3">
             <div class="mb-2">
               <a
@@ -38,7 +38,7 @@
               </div>
             </div>
           </div>
-          <!-- job -->
+          <!-- Job -->
           <div class="py-3">
             <div class="mb-2">
               <a
@@ -66,7 +66,7 @@
               </div>
             </div>
           </div>
-          <!-- job -->
+          <!-- Job -->
           <div class="py-3">
             <div class="mb-2">
               <a
@@ -99,7 +99,7 @@
         <div class="text-center">
           <RouterLink
             to="/careers"
-            class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full text-violet-50 transition bg-violet-600 hover:bg-violet-700 group"
+            class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full transition text-violet-50 bg-violet-600 hover:bg-violet-700 group"
           >
             See open positions
             <span

@@ -6,7 +6,7 @@
         <div
           class="items-start max-w-sm mx-auto grid grid-cols-2 gap-4 gap-y-8 sm:gap-8 md:grid-cols-4 md:max-w-5xl"
         >
-          <!-- item -->
+          <!-- Item -->
           <div class="relative flex flex-col items-center">
             <div
               aria-hidden="true"
@@ -34,7 +34,7 @@
             </div>
             <div class="text-sm text-violet-200">Founded in 2021</div>
           </div>
-          <!-- item -->
+          <!-- Item -->
           <div class="relative flex flex-col items-center">
             <div
               aria-hidden="true"
@@ -62,7 +62,7 @@
             </div>
             <div class="text-sm text-violet-200">Built-with Open Source</div>
           </div>
-          <!-- item -->
+          <!-- Item -->
           <div class="relative flex flex-col items-center">
             <div
               aria-hidden="true"
@@ -90,7 +90,7 @@
             </div>
             <div class="text-sm text-violet-200">52,000+ GitHub Stars</div>
           </div>
-          <!-- item -->
+          <!-- Item -->
           <div class="relative flex flex-col items-center">
             <div class="relative w-20 h-20 mb-4">
               <div

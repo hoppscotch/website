@@ -41,7 +41,7 @@
         <div
           class="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-4 md:max-w-2xl lg:max-w-none"
         >
-          <!-- item -->
+          <!-- Item -->
           <div
             class="relative flex flex-col p-8 shadow-xl rounded-2xl bg-slate-900"
           >
@@ -54,7 +54,7 @@
               products.
             </p>
           </div>
-          <!-- item -->
+          <!-- Item -->
           <div
             class="relative flex flex-col p-8 shadow-xl rounded-2xl bg-slate-900"
           >
@@ -67,7 +67,7 @@
               team.
             </p>
           </div>
-          <!-- item -->
+          <!-- Item -->
           <div
             class="relative flex flex-col p-8 shadow-xl rounded-2xl bg-slate-900"
           >
@@ -80,7 +80,7 @@
               presentations.
             </p>
           </div>
-          <!-- item -->
+          <!-- Item -->
           <div
             class="relative flex flex-col p-8 shadow-xl rounded-2xl bg-slate-900"
           >

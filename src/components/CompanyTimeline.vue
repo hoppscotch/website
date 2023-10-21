@@ -27,7 +27,7 @@
         </div>
         <!-- Items -->
         <div class="max-w-4xl mx-auto -my-4 md:-my-6">
-          <!-- item -->
+          <!-- Item -->
           <div class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
               <div class="mb-2 text-sm text-violet-500">The inception</div>
@@ -55,7 +55,7 @@
               </p>
             </div>
           </div>
-          <!-- item -->
+          <!-- Item -->
           <div class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
               <div class="mb-2 text-sm text-violet-500">New beginnings</div>
@@ -82,7 +82,7 @@
               </p>
             </div>
           </div>
-          <!-- item -->
+          <!-- Item -->
           <div class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
               <div class="mb-2 text-sm text-violet-500">The seed</div>
@@ -109,7 +109,7 @@
               </p>
             </div>
           </div>
-          <!-- item -->
+          <!-- Item -->
           <div class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
               <div class="mb-2 text-sm text-violet-500">Pivoting</div>
@@ -136,7 +136,7 @@
               </p>
             </div>
           </div>
-          <!-- item -->
+          <!-- Item -->
           <div class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
               <div class="mb-2 text-sm text-violet-500">Huge milestone</div>

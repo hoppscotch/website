@@ -51,7 +51,7 @@
         <div
           class="items-start max-w-sm mx-auto grid gap-12 md:max-w-none md:grid-cols-3 md:gap-x-16"
         >
-          <!-- location -->
+          <!-- Location -->
           <div class="flex flex-col items-center h-full text-center">
             <div class="inline-flex w-[62px] h-[62px] mb-4">
               <svg
@@ -72,7 +72,7 @@
             </div>
             <div class="font-sm text-violet-400/20">14 open positions</div>
           </div>
-          <!-- location -->
+          <!-- Location -->
           <div class="flex flex-col items-center h-full text-center">
             <div class="inline-flex w-[62px] h-[62px] mb-4">
               <svg
@@ -93,7 +93,7 @@
             </div>
             <div class="font-sm text-violet-400/20">7 open positions</div>
           </div>
-          <!-- location -->
+          <!-- Location -->
           <div class="flex flex-col items-center h-full text-center">
             <div class="inline-flex w-[62px] h-[62px] mb-4">
               <svg

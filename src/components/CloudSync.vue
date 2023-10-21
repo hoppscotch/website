@@ -73,59 +73,62 @@
   .lines {
     @apply absolute;
     @apply inset-0;
-  }
-
-  .line {
     @apply flex;
     @apply items-start;
     @apply justify-center;
     @apply flex-col;
-    @apply absolute;
-    @apply w-px;
-    @apply top-0;
-    @apply bottom-0;
-    @apply left-1/2;
-    @apply bg-violet-400/10;
 
-    &::after {
-      content: "";
-      @apply block;
+    .line {
+      @apply flex;
+      @apply items-start;
+      @apply justify-center;
+      @apply flex-col;
+      @apply w-px;
       @apply absolute;
-      @apply h-full;
-      @apply w-full;
-      @apply -top-1/2;
-      @apply left-0;
-      @apply bg-gradient-to-b;
-      @apply from-transparent;
-      @apply via-violet-400/10;
-      @apply to-violet-400;
-
-      animation: drop 6s 0s cubic-bezier(0.4, 0.26, 0, 0.97) infinite forwards;
-    }
-
-    &:nth-child(1) {
-      margin-left: -25%;
+      @apply top-0;
+      @apply bottom-0;
+      @apply left-1/2;
+      @apply bg-violet-400/10;
 
       &::after {
-        animation-delay: 1s;
+        content: "";
+        @apply block;
+        @apply absolute;
+        @apply h-full;
+        @apply w-full;
+        @apply bg-gradient-to-b;
+        @apply from-transparent;
+        @apply via-violet-400/10;
+        @apply to-violet-400;
+        @apply -top-1/2 left-0;
+
+        animation: drop 6s ease-in-out infinite forwards;
       }
-    }
 
-    &:nth-child(3) {
-      margin-left: 25%;
+      &:nth-child(1) {
+        margin-left: -25%;
 
-      &::after {
-        animation-delay: 1.5s;
+        &::after {
+          animation-delay: 1s;
+        }
+      }
+
+      &:nth-child(3) {
+        margin-left: 25%;
+
+        &::after {
+          animation-delay: 1.5s;
+        }
       }
     }
   }
 
   @keyframes drop {
     0% {
-      top: -100%;
+      transform: translateY(-100%);
     }
     100% {
-      top: 100%;
+      transform: translateY(100%);
     }
   }
 </style>

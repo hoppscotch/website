@@ -14,7 +14,7 @@
       </div>
       <div class="py-12 md:py-16">
         <div class="overflow-hidden">
-          <!-- Carousel built with Swiper.js [https://swiperjs.com/] -->
+          <!-- Carousel built with Swiper.js -->
           <swiper-container
             :slides-per-view="'auto'"
             :space-between="64"

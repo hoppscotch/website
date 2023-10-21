@@ -17,7 +17,7 @@
     <div class="relative max-w-5xl px-4 mx-auto sm:px-6">
       <!-- Blocks -->
       <div class="py-4 grid gap-8 sm:grid-cols-12 md:py-8">
-        <!-- block -->
+        <!-- Block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2">
             <RouterLink
@@ -62,7 +62,7 @@
             </li>
           </ul>
         </div>
-        <!-- block -->
+        <!-- Block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2">
             <RouterLink
@@ -107,7 +107,7 @@
             </li>
           </ul>
         </div>
-        <!-- block -->
+        <!-- Block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2">
             <RouterLink
@@ -168,7 +168,7 @@
             </li>
           </ul>
         </div>
-        <!-- block -->
+        <!-- Block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2">
             <RouterLink
@@ -213,7 +213,7 @@
             </li>
           </ul>
         </div>
-        <!-- block -->
+        <!-- Block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2">
             <RouterLink
@@ -262,7 +262,7 @@
             </li>
           </ul>
         </div>
-        <!-- block -->
+        <!-- Block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="mb-2">
             <RouterLink
@@ -309,7 +309,7 @@
         </div>
       </div>
       <div class="py-4 grid gap-8 sm:grid-cols-12 md:py-8">
-        <!-- block -->
+        <!-- Block -->
         <div class="col-span-12">
           <div
             class="flex flex-col justify-between h-full sm:flex-row lg:flex-col"

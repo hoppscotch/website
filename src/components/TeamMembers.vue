@@ -20,7 +20,7 @@
         <!-- Team members -->
         <div class="max-w-xs mx-auto sm:max-w-lg md:max-w-4xl lg:max-w-5xl">
           <div class="flex flex-wrap justify-center -m-5 lg:-my-7">
-            <!-- member -->
+            <!-- Member -->
             <div class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7">
               <div class="flex flex-col items-center">
                 <img
@@ -53,7 +53,7 @@
                 </div>
               </div>
             </div>
-            <!-- member -->
+            <!-- Member -->
             <div class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7">
               <div class="flex flex-col items-center">
                 <img
@@ -86,7 +86,7 @@
                 </div>
               </div>
             </div>
-            <!-- member -->
+            <!-- Member -->
             <div class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7">
               <div class="flex flex-col items-center">
                 <img
@@ -119,7 +119,7 @@
                 </div>
               </div>
             </div>
-            <!-- member -->
+            <!-- Member -->
             <div class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7">
               <div class="flex flex-col items-center">
                 <img
@@ -152,7 +152,7 @@
                 </div>
               </div>
             </div>
-            <!-- member -->
+            <!-- Member -->
             <div class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7">
               <div class="flex flex-col items-center">
                 <img
@@ -185,7 +185,7 @@
                 </div>
               </div>
             </div>
-            <!-- member -->
+            <!-- Member -->
             <div class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7">
               <div class="flex flex-col items-center">
                 <img
@@ -218,7 +218,7 @@
                 </div>
               </div>
             </div>
-            <!-- member -->
+            <!-- Member -->
             <div class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7">
               <div class="flex flex-col items-center">
                 <img
@@ -251,7 +251,7 @@
                 </div>
               </div>
             </div>
-            <!-- member -->
+            <!-- Member -->
             <div class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7">
               <div class="flex flex-col items-center">
                 <img
@@ -284,7 +284,7 @@
                 </div>
               </div>
             </div>
-            <!-- member -->
+            <!-- Member -->
             <div class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7">
               <div class="flex flex-col items-center">
                 <img
@@ -317,7 +317,7 @@
                 </div>
               </div>
             </div>
-            <!-- member -->
+            <!-- Member -->
             <div class="w-1/2 p-5 sm:w-1/3 md:w-1/4 lg:w-1/5 lg:py-7">
               <div class="flex flex-col items-center">
                 <img

@@ -30,36 +30,43 @@
             <Highlighter class="group">
               <HighlighterItem>
                 <div
-                  class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
+                  class="relative bg-slate-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
                 >
-                  <!-- Radial gradient -->
-                  <div
-                    class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
-                    aria-hidden="true"
-                  >
+                  <div class="flex flex-col h-full">
+                    <!-- Radial gradient -->
                     <div
-                      class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-5"
-                    ></div>
-                  </div>
-                  <img
-                    loading="lazy"
-                    src="/images/screenshot-1.png"
-                    alt="Feature 04"
-                  />
-                  <div
-                    class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
-                  >
-                    <RouterLink
-                      class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-violet-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
-                      to="/download"
+                      class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
+                      aria-hidden="true"
                     >
-                      Download
-                      <span
-                        class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                      <div
+                        class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-5"
+                      ></div>
+                    </div>
+                    <!-- Text -->
+                    <div class="flex items-start justify-center flex-1 p-8">
+                      <div class="flex flex-col items-center text-center">
+                        <icon-lucide-command class="w-6 h-6 mb-4" />
+                        <h5 class="inline-flex pb-2 text-xl">
+                          Keyboard Shortcuts
+                        </h5>
+                        <p class="w-full text-violet-200/50">
+                          Fly through your tasks with rapid-fire keyboard
+                          shortcuts for everything.
+                        </p>
+                      </div>
+                    </div>
+                    <!-- Image -->
+                    <div class="relative w-full p-2 overflow-hidden">
+                      <div
+                        class="flex items-start justify-start overflow-y-auto border brightness-110 overscroll-auto h-80 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5"
                       >
-                        <icon-lucide-arrow-right />
-                      </span>
-                    </RouterLink>
+                        <img
+                          loading="lazy"
+                          src="/images/screenshot-1.png"
+                          alt="Feature 04"
+                        />
+                      </div>
+                    </div>
                   </div>
                 </div>
               </HighlighterItem>

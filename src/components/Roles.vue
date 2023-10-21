@@ -10,7 +10,7 @@
         </h3>
         <!-- Job list -->
         <div class="my-3 space-y-8 divide-y divide-slate-900">
-          <!-- job -->
+          <!-- Job -->
           <div class="py-3">
             <div class="mb-2">
               <a
@@ -38,7 +38,7 @@
               </div>
             </div>
           </div>
-          <!-- job -->
+          <!-- Job -->
           <div class="py-3">
             <div class="mb-2">
               <a
@@ -66,7 +66,7 @@
               </div>
             </div>
           </div>
-          <!-- job -->
+          <!-- Job -->
           <div class="py-3">
             <div class="mb-2">
               <a

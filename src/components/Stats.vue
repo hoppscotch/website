@@ -20,7 +20,7 @@
             text-rendering="geometricPrecision"
             stroke-width=".05"
             paint-order="stroke"
-            class="stroke-violet-400/50 fill-violet-500/5"
+            class="stroke-violet-400/20 fill-violet-500/5"
           >
             300M
           </text>
