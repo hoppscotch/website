@@ -72,11 +72,11 @@
 <template>
   <div class="relative w-full p-2 overflow-hidden">
     <div
-      class="flex items-start justify-start px-8 overflow-hidden border h-80 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5"
+      class="flex items-start justify-start px-8 overflow-hidden border h-80 rounded-2xl border-neutral-500/25 bg-gradient-to-b from-neutral-600/5 to-neutral-500/5"
     >
       <div
         ref="target"
-        class="flex flex-col p-2 mx-auto -mt-8 text-xs border shadow-lg space-y-2 keyboard brightness-110 rounded-3xl border-violet-400/20 bg-violet-500/10"
+        class="flex flex-col p-2 mx-auto -mt-8 text-xs border shadow-lg space-y-2 keyboard brightness-110 rounded-3xl border-neutral-400/20 bg-neutral-600/10"
       >
         <div class="flex h-12 space-x-2">
           <button
@@ -375,24 +375,24 @@
       @apply flex-col;
       @apply rounded-md;
       @apply transition;
-      @apply text-violet-200;
+      @apply text-neutral-200;
       @apply text-opacity-80;
       @apply bg-gradient-to-b;
-      @apply from-slate-950/5;
-      @apply to-violet-400/5;
-      @apply border border-violet-400/5;
-      @apply ring-1 ring-slate-950;
+      @apply from-neutral-950/5;
+      @apply to-neutral-600/10;
+      @apply border border-neutral-400/5;
+      @apply ring-1 ring-neutral-950;
       @apply focus:outline-none;
     }
 
     &:has([data-pressed="on"]) {
       .key {
         @apply text-opacity-0;
-        @apply to-slate-950/5;
+        @apply to-neutral-950/5;
 
         &[data-pressed="on"] {
           @apply text-opacity-80;
-          @apply to-violet-400/5;
+          @apply to-neutral-400/5;
         }
       }
     }

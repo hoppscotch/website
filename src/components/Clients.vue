@@ -22,7 +22,7 @@
             :speed="5000"
             :autoplay-delay="0"
             :autoplay-disable-on-interaction="false"
-            class="before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-slate-950 after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-slate-950"
+            class="before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-neutral-950 after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-neutral-950"
           >
             <!-- Carousel items -->
             <swiper-slide v-for="index in 12" :key="index" class="w-24 my-auto">

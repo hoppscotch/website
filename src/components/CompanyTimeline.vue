@@ -7,20 +7,20 @@
           class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
         >
           <div
-            class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-violet-500/10 border-violet-500/50"
+            class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-neutral-500/10 border-neutral-500/50"
           >
             <span
-              class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-violet-50 to-violet-600"
+              class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-neutral-50 to-neutral-600"
             >
               Timeline
             </span>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-violet-200 via-violet-100 to-violet-50"
+            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-200/80 to-neutral-100/80"
           >
             Our journey so far
           </h2>
-          <p class="text-sm text-violet-200/50">
+          <p class="text-sm text-neutral-200/50">
             Our journey has been a long one, but we've enjoyed every step of the
             way.
           </p>
@@ -30,7 +30,7 @@
           <!-- Item -->
           <div class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
-              <div class="mb-2 text-sm text-violet-500">The inception</div>
+              <div class="mb-2 text-sm text-neutral-500">The inception</div>
               <div class="flex items-center mb-3">
                 <div
                   class="absolute left-0 inline-flex px-3 py-1 text-xs font-semibold text-green-400 rounded-full bg-green-200/10"
@@ -38,16 +38,16 @@
                   2019
                 </div>
                 <div
-                  class="absolute left-0 self-start h-full px-px ml-20 transform -translate-x-1/2 translate-y-3 bg-slate-800"
+                  class="absolute left-0 self-start h-full px-px ml-20 transform -translate-x-1/2 translate-y-3 bg-neutral-800"
                   aria-hidden="true"
                 ></div>
                 <div
-                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-slate-800"
+                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-neutral-800"
                   aria-hidden="true"
                 ></div>
                 <h4>Hoppscotch was founded in Kerala, India</h4>
               </div>
-              <p class="text-sm text-violet-200/50">
+              <p class="text-sm text-neutral-200/50">
                 Liyas Thomas, the founder of Hoppscotch, started the project as
                 an open-source side project to help him with his day-to-day
                 work. He was working as a full-stack developer at a startup in
@@ -58,7 +58,7 @@
           <!-- Item -->
           <div class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
-              <div class="mb-2 text-sm text-violet-500">New beginnings</div>
+              <div class="mb-2 text-sm text-neutral-500">New beginnings</div>
               <div class="flex items-center mb-3">
                 <div
                   class="absolute left-0 inline-flex px-3 py-1 text-xs font-semibold text-green-400 rounded-full bg-green-200/10"
@@ -66,16 +66,16 @@
                   2020
                 </div>
                 <div
-                  class="absolute left-0 self-start h-full px-px ml-20 transform -translate-x-1/2 translate-y-3 bg-slate-800"
+                  class="absolute left-0 self-start h-full px-px ml-20 transform -translate-x-1/2 translate-y-3 bg-neutral-800"
                   aria-hidden="true"
                 ></div>
                 <div
-                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-slate-800"
+                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-neutral-800"
                   aria-hidden="true"
                 ></div>
                 <h4>Founders left his job to work on Hoppscotch full-time</h4>
               </div>
-              <p class="text-sm text-violet-200/50">
+              <p class="text-sm text-neutral-200/50">
                 Liyas and his co-founder, Andrew, left their jobs to work on
                 Hoppscotch full-time. They started working on the first version
                 of the Hoppscotch platform along with the open-source community.
@@ -85,7 +85,7 @@
           <!-- Item -->
           <div class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
-              <div class="mb-2 text-sm text-violet-500">The seed</div>
+              <div class="mb-2 text-sm text-neutral-500">The seed</div>
               <div class="flex items-center mb-3">
                 <div
                   class="absolute left-0 inline-flex px-3 py-1 text-xs font-semibold text-green-400 rounded-full bg-green-200/10"
@@ -93,16 +93,16 @@
                   2021
                 </div>
                 <div
-                  class="absolute left-0 self-start h-full px-px ml-20 transform -translate-x-1/2 translate-y-3 bg-slate-800"
+                  class="absolute left-0 self-start h-full px-px ml-20 transform -translate-x-1/2 translate-y-3 bg-neutral-800"
                   aria-hidden="true"
                 ></div>
                 <div
-                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-slate-800"
+                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-neutral-800"
                   aria-hidden="true"
                 ></div>
                 <h4>$3 million seed funding from OSS Capital</h4>
               </div>
-              <p class="text-sm text-violet-200/50">
+              <p class="text-sm text-neutral-200/50">
                 We raised $3 million in seed funding from OSS Capital with
                 participation from many angel investors. We also launched the
                 first version of the Hoppscotch API development platform.
@@ -112,7 +112,7 @@
           <!-- Item -->
           <div class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
-              <div class="mb-2 text-sm text-violet-500">Pivoting</div>
+              <div class="mb-2 text-sm text-neutral-500">Pivoting</div>
               <div class="flex items-center mb-3">
                 <div
                   class="absolute left-0 inline-flex px-3 py-1 text-xs font-semibold text-green-400 rounded-full bg-green-200/10"
@@ -120,16 +120,16 @@
                   2022
                 </div>
                 <div
-                  class="absolute left-0 self-start h-full px-px ml-20 transform -translate-x-1/2 translate-y-3 bg-slate-800"
+                  class="absolute left-0 self-start h-full px-px ml-20 transform -translate-x-1/2 translate-y-3 bg-neutral-800"
                   aria-hidden="true"
                 ></div>
                 <div
-                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-slate-800"
+                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-neutral-800"
                   aria-hidden="true"
                 ></div>
                 <h4>1 million happy users</h4>
               </div>
-              <p class="text-sm text-violet-200/50">
+              <p class="text-sm text-neutral-200/50">
                 We reached 1 million happy users and launched the first version
                 of the Hoppscotch Workspaces. We also launched the first version
                 of the "Hoppscotch for Teams" plan.
@@ -139,7 +139,7 @@
           <!-- Item -->
           <div class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
-              <div class="mb-2 text-sm text-violet-500">Huge milestone</div>
+              <div class="mb-2 text-sm text-neutral-500">Huge milestone</div>
               <div class="flex items-center mb-3">
                 <div
                   class="absolute left-0 inline-flex px-3 py-1 text-xs font-semibold text-green-400 rounded-full bg-green-200/10"
@@ -147,12 +147,12 @@
                   2023
                 </div>
                 <div
-                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-slate-800"
+                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full box-content transform -translate-x-1/2 border-neutral-800"
                   aria-hidden="true"
                 ></div>
                 <h4>50,000 GitHub Stars</h4>
               </div>
-              <p class="text-sm text-violet-200/50">
+              <p class="text-sm text-neutral-200/50">
                 Hoppscotch crossed 50,000 GitHub stars and became one of the
                 most popular open-source API development tools in the world.
               </p>

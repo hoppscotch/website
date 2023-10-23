@@ -3,9 +3,9 @@
     <div class="max-w-5xl px-4 mx-auto">
       <div class="py-12 md:py-16">
         <div class="max-w-4xl mx-auto">
-          <div class="text-md text-violet-200/80">
+          <div class="text-md text-neutral-200/80">
             <h2
-              class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-violet-200 via-violet-100 to-violet-50"
+              class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-200/80 to-neutral-100/80"
             >
               Our Story
             </h2>
@@ -30,7 +30,7 @@
             </p>
             <p class="mb-8">The Tidy Team</p>
             <svg
-              class="fill-slate-200"
+              class="fill-neutral-200"
               width="90"
               height="32"
               viewBox="0 0 90 32"

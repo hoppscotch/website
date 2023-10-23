@@ -55,11 +55,11 @@
         <!-- Section header -->
         <div class="py-12 md:py-16">
           <h2
-            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-violet-200/50 via-violet-200/80 to-violet-100/80"
+            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-200/80 to-neutral-100/80"
           >
             Changelog
           </h2>
-          <p class="text-lg text-violet-200/50">
+          <p class="text-lg text-neutral-200/50">
             New updates and improvements to Hoppscotch.
           </p>
         </div>

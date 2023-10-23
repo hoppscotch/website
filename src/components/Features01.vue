@@ -17,30 +17,30 @@
             >
               <!-- Content #1 -->
               <div
-                class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-violet-500/10 border-violet-500/50"
+                class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-neutral-500/10 border-neutral-500/50"
               >
                 <span
-                  class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-violet-50 to-violet-600"
+                  class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-neutral-50 to-neutral-600"
                 >
                   Developer-First API Platform
                 </span>
               </div>
               <h3
-                class="pb-3 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-violet-200 via-violet-100 to-violet-50"
+                class="pb-3 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-200/80 to-neutral-100/80"
               >
                 Essential Tools for API Development
               </h3>
-              <p class="mb-8 text-lg text-violet-200/50">
+              <p class="mb-8 text-lg text-neutral-200/50">
                 Hoppscotch simplifies each step of the API lifecycle and
                 streamlines collaboration so you can create better APIs.
               </p>
               <div class="max-w-xs mt-8 space-y-2 max-md:mx-auto">
                 <button
-                  class="flex items-center w-full px-3 py-2 text-sm border transition rounded-md text-violet-100 bg-slate-900/25 hover:opacity-100"
+                  class="flex items-center w-full px-3 py-2 text-sm border transition rounded-md text-neutral-100 bg-neutral-900/25 hover:opacity-100"
                   :class="
                     tab !== '1'
-                      ? 'border-slate-800 opacity-50'
-                      : 'border-violet-700 shadow shadow-violet-500/25'
+                      ? 'border-neutral-800 opacity-50'
+                      : 'border-neutral-700 shadow shadow-neutral-500/25'
                   "
                   @click.prevent="tab = '1'"
                 >
@@ -48,11 +48,11 @@
                   <span>Built to be Fast</span>
                 </button>
                 <button
-                  class="flex items-center w-full px-3 py-2 text-sm border transition rounded-md text-violet-100 bg-slate-900/25 hover:opacity-100"
+                  class="flex items-center w-full px-3 py-2 text-sm border transition rounded-md text-neutral-100 bg-neutral-900/25 hover:opacity-100"
                   :class="
                     tab !== '2'
-                      ? 'border-slate-800 opacity-50'
-                      : 'border-violet-700 shadow shadow-violet-500/25'
+                      ? 'border-neutral-800 opacity-50'
+                      : 'border-neutral-700 shadow shadow-neutral-500/25'
                   "
                   @click.prevent="tab = '2'"
                 >
@@ -60,11 +60,11 @@
                   <span>Made with Open-Source</span>
                 </button>
                 <button
-                  class="flex items-center w-full px-3 py-2 text-sm border transition rounded-md text-violet-100 bg-slate-900/25 hover:opacity-100"
+                  class="flex items-center w-full px-3 py-2 text-sm border transition rounded-md text-neutral-100 bg-neutral-900/25 hover:opacity-100"
                   :class="
                     tab !== '3'
-                      ? 'border-slate-800 opacity-50'
-                      : 'border-violet-700 shadow shadow-violet-500/25'
+                      ? 'border-neutral-800 opacity-50'
+                      : 'border-neutral-700 shadow shadow-neutral-500/25'
                   "
                   @click.prevent="tab = '3'"
                 >
@@ -104,9 +104,9 @@
                           y1="100%"
                           y2="0%"
                         >
-                          <stop offset="0%" stop-color="#A855F7" />
-                          <stop offset="76.382%" stop-color="#FAF5FF" />
-                          <stop offset="100%" stop-color="#2e1065" />
+                          <stop offset="0%" stop-color="#000" />
+                          <stop offset="50%" stop-color="#fff" />
+                          <stop offset="100%" stop-color="#000" />
                         </linearGradient>
                       </defs>
                       <g fill-rule="evenodd">
@@ -139,13 +139,13 @@
                           class="absolute inset-0 [background:_repeating-linear-gradient(transparent,_transparent_48px,_theme(colors.white)_48px,_theme(colors.white)_49px)] blur-[2px] opacity-20"
                         ></div>
                         <div
-                          class="absolute inset-0 [background:_repeating-linear-gradient(transparent,_transparent_48px,_theme(colors.violet.500)_48px,_theme(colors.violet.500)_49px)]"
+                          class="absolute inset-0 [background:_repeating-linear-gradient(transparent,_transparent_48px,_theme(colors.neutral.500)_48px,_theme(colors.neutral.500)_49px)]"
                         ></div>
                         <div
                           class="absolute inset-0 [background:_repeating-linear-gradient(90deg,_transparent,_transparent_48px,_theme(colors.white)_48px,_theme(colors.white)_49px)] blur-[2px] opacity-20"
                         ></div>
                         <div
-                          class="absolute inset-0 [background:_repeating-linear-gradient(90deg,_transparent,_transparent_48px,_theme(colors.violet.500)_48px,_theme(colors.violet.500)_49px)]"
+                          class="absolute inset-0 [background:_repeating-linear-gradient(90deg,_transparent,_transparent_48px,_theme(colors.neutral.500)_48px,_theme(colors.neutral.500)_49px)]"
                         ></div>
                       </div>
                     </div>
@@ -160,10 +160,10 @@
                     >
                       <div v-if="tab === '1'" class="absolute">
                         <div
-                          class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl -rotate-[14deg] [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-2xl"
+                          class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl -rotate-[14deg] [background:linear-gradient(theme(colors.neutral.900),_theme(colors.neutral.900))_padding-box,_conic-gradient(theme(colors.neutral.400),_theme(colors.neutral.700)_25%,_theme(colors.neutral.700)_75%,_theme(colors.neutral.400)_100%)_border-box] before:absolute before:inset-0 before:bg-neutral-900/30 before:rounded-2xl"
                         >
                           <icon-lucide-zap
-                            class="relative w-8 h-8 fill-slate-200"
+                            class="relative w-8 h-8 fill-neutral-200"
                           />
                         </div>
                       </div>
@@ -178,10 +178,10 @@
                     >
                       <div v-if="tab === '2'" class="absolute">
                         <div
-                          class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl -rotate-[14deg] [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-2xl"
+                          class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl -rotate-[14deg] [background:linear-gradient(theme(colors.neutral.900),_theme(colors.neutral.900))_padding-box,_conic-gradient(theme(colors.neutral.400),_theme(colors.neutral.700)_25%,_theme(colors.neutral.700)_75%,_theme(colors.neutral.400)_100%)_border-box] before:absolute before:inset-0 before:bg-neutral-900/30 before:rounded-2xl"
                         >
                           <icon-lucide-heart
-                            class="relative w-8 h-8 fill-slate-200"
+                            class="relative w-8 h-8 fill-neutral-200"
                           />
                         </div>
                       </div>
@@ -196,10 +196,10 @@
                     >
                       <div v-if="tab === '3'" class="absolute">
                         <div
-                          class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl -rotate-[14deg] [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] before:absolute before:inset-0 before:bg-slate-900/30 before:rounded-2xl"
+                          class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl -rotate-[14deg] [background:linear-gradient(theme(colors.neutral.900),_theme(colors.neutral.900))_padding-box,_conic-gradient(theme(colors.neutral.400),_theme(colors.neutral.700)_25%,_theme(colors.neutral.700)_75%,_theme(colors.neutral.400)_100%)_border-box] before:absolute before:inset-0 before:bg-neutral-900/30 before:rounded-2xl"
                         >
                           <icon-lucide-users-2
-                            class="relative w-8 h-8 fill-slate-200"
+                            class="relative w-8 h-8 fill-neutral-200"
                           />
                         </div>
                       </div>

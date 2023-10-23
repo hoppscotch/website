@@ -1,5 +1,17 @@
 <template>
   <section class="relative">
+    <!-- Particles animation -->
+    <div
+      class="absolute top-0 -mt-24 -ml-32 -translate-x-1/2 left-1/2 -z-10 w-80 h-80"
+    >
+      <ClientOnly>
+        <Particles
+          class="absolute inset-0 -z-10"
+          :quantity="6"
+          :staticity="30"
+        />
+      </ClientOnly>
+    </div>
     <div class="max-w-5xl px-4 mx-auto sm:px-6">
       <div class="pt-32 pb-24">
         <!-- Section header -->
@@ -7,20 +19,20 @@
           class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
         >
           <div
-            class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-violet-500/10 border-violet-500/50"
+            class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-neutral-500/10 border-neutral-500/50"
           >
             <span
-              class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-violet-50 to-violet-600"
+              class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-neutral-50 to-neutral-600"
             >
               Download
             </span>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-violet-200 via-violet-100 to-violet-50"
+            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-200/80 to-neutral-100/80"
           >
             Unlock Your Potential
           </h2>
-          <p class="text-lg text-violet-200/50">
+          <p class="text-lg text-neutral-200/50">
             Take Hoppscotch with you wherever you go. Download the app to get
             started.
           </p>
@@ -30,18 +42,9 @@
             <Highlighter class="group">
               <HighlighterItem>
                 <div
-                  class="relative bg-slate-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative bg-neutral-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
                 >
                   <div class="flex flex-col h-full">
-                    <!-- Radial gradient -->
-                    <div
-                      class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
-                      aria-hidden="true"
-                    >
-                      <div
-                        class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-5"
-                      ></div>
-                    </div>
                     <!-- Text -->
                     <div class="flex items-start justify-center flex-1 p-8">
                       <div class="flex flex-col items-center text-center">
@@ -51,7 +54,7 @@
                         <h5 class="inline-flex pb-2 text-xl">
                           All in one platform
                         </h5>
-                        <p class="w-full text-violet-200/50">
+                        <p class="w-full text-neutral-200/50">
                           From prototyping to production - develop without
                           switching tabs.
                         </p>
@@ -66,7 +69,7 @@
           </div>
         </div>
         <span
-          class="table mx-auto items-center pointer-events-none mt-4 text-center animate-background-shine bg-[linear-gradient(110deg,transparent,45%,theme(colors.violet.300),55%,transparent)] bg-[length:200%_100%] bg-clip-text text-xs text-transparent"
+          class="table mx-auto items-center pointer-events-none mt-4 text-center animate-background-shine bg-[linear-gradient(110deg,transparent,45%,theme(colors.neutral.300),55%,transparent)] bg-[length:200%_100%] bg-clip-text text-xs text-transparent"
         >
           <span class="mr-2">Press</span>
           <span

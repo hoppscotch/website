@@ -10,10 +10,10 @@
       aria-hidden="true"
     >
       <div
-        class="absolute top-0 flex items-center justify-center w-1/3 -translate-x-1/2 -translate-y-1/2 left-1/2 aspect-square"
+        class="absolute top-0 flex items-center justify-center w-1/3 -translate-x-1/2 -translate-y-1/2 left-1/2 aspect-video"
       >
         <div
-          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-5"
+          class="absolute inset-0 translate-z-0 bg-neutral-500 rounded-full blur-[60px] opacity-10"
         ></div>
       </div>
     </div>
@@ -24,20 +24,20 @@
           class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
         >
           <div
-            class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-violet-500/10 border-violet-500/50"
+            class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-neutral-500/10 border-neutral-500/50"
           >
             <span
-              class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-violet-50 to-violet-600"
+              class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-neutral-50 to-neutral-600"
             >
               Products
             </span>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-violet-200 via-violet-100 to-violet-50"
+            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-200/80 to-neutral-100/80"
           >
             The power to be your best
           </h2>
-          <p class="text-lg text-violet-200/50">
+          <p class="text-lg text-neutral-200/50">
             We build tools that help you build better products.
           </p>
         </div>
@@ -82,7 +82,7 @@
                 </div>
                 <div
                   class="text-sm leading-tight"
-                  :class="{ 'text-violet-200': tab === 2 }"
+                  :class="{ 'text-neutral-200': tab === 2 }"
                 >
                   Enterprise
                 </div>
@@ -103,7 +103,7 @@
                 </div>
                 <div
                   class="text-sm leading-tight"
-                  :class="{ 'text-violet-200': tab === 3 }"
+                  :class="{ 'text-neutral-200': tab === 3 }"
                 >
                   Self-Host
                 </div>
@@ -125,7 +125,7 @@
                 </div>
                 <div
                   class="text-sm leading-tight"
-                  :class="{ 'text-violet-200': tab === 4 }"
+                  :class="{ 'text-slate-200': tab === 4 }"
                 >
                   CLI
                 </div>
@@ -146,17 +146,8 @@
                 <Highlighter class="group">
                   <HighlighterItem>
                     <div
-                      class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
+                      class="relative h-full bg-neutral-950 rounded-[inherit] z-20 overflow-hidden"
                     >
-                      <!-- Radial gradient -->
-                      <div
-                        class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
-                        aria-hidden="true"
-                      >
-                        <div
-                          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-5"
-                        ></div>
-                      </div>
                       <img
                         loading="lazy"
                         src="/images/screenshot-1.png"
@@ -166,12 +157,12 @@
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-violet-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-neutral-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
                           <span
-                            class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                            class="text-neutral-500 group-hover:translate-x-0.5 transition-transform ml-1"
                           >
                             <icon-lucide-arrow-right />
                           </span>
@@ -194,17 +185,8 @@
                 <Highlighter class="group">
                   <HighlighterItem>
                     <div
-                      class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
+                      class="relative h-full bg-neutral-950 rounded-[inherit] z-20 overflow-hidden"
                     >
-                      <!-- Radial gradient -->
-                      <div
-                        class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
-                        aria-hidden="true"
-                      >
-                        <div
-                          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-5"
-                        ></div>
-                      </div>
                       <img
                         loading="lazy"
                         src="/images/screenshot-1.png"
@@ -214,12 +196,12 @@
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-violet-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-neutral-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
                           <span
-                            class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                            class="text-neutral-500 group-hover:translate-x-0.5 transition-transform ml-1"
                           >
                             <icon-lucide-arrow-right />
                           </span>
@@ -242,17 +224,8 @@
                 <Highlighter class="group">
                   <HighlighterItem>
                     <div
-                      class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
+                      class="relative h-full bg-neutral-950 rounded-[inherit] z-20 overflow-hidden"
                     >
-                      <!-- Radial gradient -->
-                      <div
-                        class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
-                        aria-hidden="true"
-                      >
-                        <div
-                          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-5"
-                        ></div>
-                      </div>
                       <img
                         loading="lazy"
                         src="/images/screenshot-1.png"
@@ -262,12 +235,12 @@
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-violet-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-neutral-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
                           <span
-                            class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                            class="text-neutral-500 group-hover:translate-x-0.5 transition-transform ml-1"
                           >
                             <icon-lucide-arrow-right />
                           </span>
@@ -290,17 +263,8 @@
                 <Highlighter class="group">
                   <HighlighterItem>
                     <div
-                      class="relative h-full bg-slate-950 rounded-[inherit] z-20 overflow-hidden"
+                      class="relative h-full bg-neutral-950 rounded-[inherit] z-20 overflow-hidden"
                     >
-                      <!-- Radial gradient -->
-                      <div
-                        class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
-                        aria-hidden="true"
-                      >
-                        <div
-                          class="absolute inset-0 translate-z-0 bg-violet-500 rounded-full blur-[120px] opacity-5"
-                        ></div>
-                      </div>
                       <img
                         loading="lazy"
                         src="/images/screenshot-1.png"
@@ -310,12 +274,12 @@
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-violet-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-neutral-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
                           <span
-                            class="text-violet-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                            class="text-neutral-500 group-hover:translate-x-0.5 transition-transform ml-1"
                           >
                             <icon-lucide-arrow-right />
                           </span>

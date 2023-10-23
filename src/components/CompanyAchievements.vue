@@ -10,7 +10,7 @@
           <div class="relative flex flex-col items-center">
             <div
               aria-hidden="true"
-              class="absolute h-0.5 bg-gradient-to-r from-slate-950 via-slate-800 to-slate-950 hidden md:block"
+              class="absolute h-0.5 bg-gradient-to-r from-neutral-950 via-neutral-800 to-neutral-950 hidden md:block"
               style="
                 width: calc(100% - 96px);
                 left: calc(50% + 64px);
@@ -32,13 +32,13 @@
                 />
               </svg>
             </div>
-            <div class="text-sm text-violet-200">Founded in 2021</div>
+            <div class="text-sm text-neutral-200">Founded in 2021</div>
           </div>
           <!-- Item -->
           <div class="relative flex flex-col items-center">
             <div
               aria-hidden="true"
-              class="absolute h-0.5 bg-gradient-to-r from-slate-950 via-slate-800 to-slate-950 hidden md:block"
+              class="absolute h-0.5 bg-gradient-to-r from-neutral-950 via-neutral-800 to-neutral-950 hidden md:block"
               style="
                 width: calc(100% - 96px);
                 left: calc(50% + 64px);
@@ -47,11 +47,11 @@
             ></div>
             <div class="relative w-20 h-20 mb-4">
               <div
-                class="absolute inset-0 rounded-full opacity-30 bg-gradient-to-tr from-violet-500 -z-1"
+                class="absolute inset-0 rounded-full opacity-30 bg-gradient-to-tr from-neutral-500 -z-1"
                 aria-hidden="true"
               ></div>
               <svg
-                class="w-20 h-20 fill-current text-violet-500"
+                class="w-20 h-20 fill-current text-neutral-500"
                 viewBox="0 0 80 80"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -60,13 +60,13 @@
                 />
               </svg>
             </div>
-            <div class="text-sm text-violet-200">Built-with Open Source</div>
+            <div class="text-sm text-neutral-200">Built-with Open Source</div>
           </div>
           <!-- Item -->
           <div class="relative flex flex-col items-center">
             <div
               aria-hidden="true"
-              class="absolute h-0.5 bg-gradient-to-r from-slate-950 via-slate-800 to-slate-950 hidden md:block"
+              class="absolute h-0.5 bg-gradient-to-r from-neutral-950 via-neutral-800 to-neutral-950 hidden md:block"
               style="
                 width: calc(100% - 96px);
                 left: calc(50% + 64px);
@@ -75,11 +75,11 @@
             ></div>
             <div class="relative w-20 h-20 mb-4">
               <div
-                class="absolute inset-0 rounded-full opacity-30 bg-gradient-to-tr from-violet-500 -z-1"
+                class="absolute inset-0 rounded-full opacity-30 bg-gradient-to-tr from-neutral-500 -z-1"
                 aria-hidden="true"
               ></div>
               <svg
-                class="w-20 h-20 fill-current text-violet-500"
+                class="w-20 h-20 fill-current text-neutral-500"
                 viewBox="0 0 80 80"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -88,7 +88,7 @@
                 />
               </svg>
             </div>
-            <div class="text-sm text-violet-200">52,000+ GitHub Stars</div>
+            <div class="text-sm text-neutral-200">52,000+ GitHub Stars</div>
           </div>
           <!-- Item -->
           <div class="relative flex flex-col items-center">
@@ -107,7 +107,7 @@
                 />
               </svg>
             </div>
-            <div class="text-sm text-violet-200">1.6M+ Users</div>
+            <div class="text-sm text-neutral-200">1.6M+ Users</div>
           </div>
         </div>
       </div>

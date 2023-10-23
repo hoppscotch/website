@@ -47,8 +47,8 @@ dependencies:
 
 devDependencies:
   "@iconify-json/lucide":
-    specifier: ^1.1.135
-    version: 1.1.135
+    specifier: ^1.1.136
+    version: 1.1.136
   "@types/node":
     specifier: ^20.8.7
     version: 20.8.7
@@ -956,10 +956,10 @@ packages:
       }
     dev: true
 
-  /@iconify-json/lucide@1.1.135:
+  /@iconify-json/lucide@1.1.136:
     resolution:
       {
-        integrity: sha512-IHM/EqvNVVhggLsZK706NMhQGDm5fPcwAN9CoHMhAeFjIqUqhlR0mBiLNBQmwThQ3hLmY2OgAstUHBJUz5rsWw==,
+        integrity: sha512-h5kyzcG0hUezdsWmok4PeGd9G4DwXB3bHhp8EeE/1tnBlNODTRCXy8MdbuQi2PG5g7vFv+vCX26lC/z+fNA8bg==,
       }
     dependencies:
       "@iconify/types": 2.0.0

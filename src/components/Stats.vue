@@ -20,17 +20,17 @@
             text-rendering="geometricPrecision"
             stroke-width=".05"
             paint-order="stroke"
-            class="stroke-violet-400/20 fill-violet-500/5"
+            class="stroke-neutral-400/20 fill-neutral-500/5"
           >
             300M
           </text>
         </svg>
         <div class="absolute inset-0 z-20 flex items-center justify-center">
           <p
-            class="max-w-xl font-semibold tracking-tight text-center text-md md:text-4xl font-inter"
+            class="max-w-xl font-semibold tracking-tight text-center text-neutral-500 text-md md:text-4xl font-inter"
           >
             Hoppscotch processes over <br />
-            <span class="text-violet-400">300 million requests</span> per month
+            <span class="text-neutral-50">300 million requests</span> per month
           </p>
         </div>
       </div>

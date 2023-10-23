@@ -15,7 +15,7 @@
       @apply w-64;
       @apply h-0.5;
       @apply bg-gradient-to-r;
-      @apply from-violet-400;
+      @apply from-neutral-50;
       @apply to-transparent;
       @apply transform;
       @apply -rotate-45;
@@ -27,7 +27,8 @@
       @apply before:w-0.5;
       @apply before:h-0.5;
       @apply before:rounded-full;
-      @apply before:bg-violet-400;
+      @apply before:bg-neutral-50;
+      @apply before:z-10;
     }
   }
   @keyframes meteor {

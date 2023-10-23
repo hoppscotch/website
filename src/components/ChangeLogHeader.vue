@@ -9,7 +9,7 @@
   <div class="flex items-center justify-between py-12 md:py-16">
     <RouterLink
       to="/changelog"
-      class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-violet-200/50 hover:text-violet-200"
+      class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-neutral-200/50 hover:text-neutral-200"
     >
       <icon-lucide-arrow-left class="mr-2" />
       Back
@@ -17,11 +17,11 @@
     <span class="flex items-center text-sm">
       <RouterLink
         :to="{ path: '', hash: '#newsletter' }"
-        class="rounded transition text-violet-400/60 hover:text-violet-400/80"
+        class="rounded transition text-neutral-400/60 hover:text-neutral-400/80"
       >
         Subscribe to updates
       </RouterLink>
-      <span class="mx-4 text-violet-400/20">|</span>
+      <span class="mx-4 text-neutral-400/20">|</span>
       <a
         v-tippy="{
           content: 'Follow us on Twitter',
@@ -30,17 +30,17 @@
         href="https://twitter.com/hoppscotch_io"
         target="_blank"
         rel="noopener noreferrer"
-        class="rounded transition text-violet-400/60 hover:text-violet-400/80"
+        class="rounded transition text-neutral-400/60 hover:text-neutral-400/80"
       >
         <icon-lucide-twitter />
       </a>
-      <span class="mx-4 text-violet-400/20">|</span>
+      <span class="mx-4 text-neutral-400/20">|</span>
       <button
         v-tippy="{
           content: copied ? 'Copied!' : 'Copy permalink',
           theme: 'tooltip',
         }"
-        class="rounded transition text-violet-400/60 hover:text-violet-400/80"
+        class="rounded transition text-neutral-400/60 hover:text-neutral-400/80"
         @click="$emit('copy')"
       >
         <icon-lucide-copy v-if="!copied" />

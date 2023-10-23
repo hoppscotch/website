@@ -2,10 +2,10 @@
   <div class="relative flex mb-16 z-1">
     <RouterLink
       to="/products/enterprise"
-      class="relative inline-flex items-center justify-center px-4 py-2 text-sm border rounded-full transition backdrop-blur-md bg-gradient-to-b from-slate-950 via-slate-950 border-violet-500/50 hover:to-white/5 hover:border-violet-500/75"
+      class="relative inline-flex items-center justify-center px-4 py-2 text-sm border rounded-full transition backdrop-blur-md bg-gradient-to-b from-neutral-950 via-neutral-950 border-neutral-500/50 hover:to-white/5 hover:border-neutral-500/75"
     >
       <span
-        class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-violet-50 to-violet-600"
+        class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-neutral-50 to-neutral-600"
       >
         <span class="mr-2">✦</span> Introducing Hoppscotch Enterprise
       </span>

@@ -15,7 +15,7 @@
             alt="Team 01"
           />
           <div
-            class="absolute inset-0 bg-gradient-to-r from-slate-950"
+            class="absolute inset-0 bg-gradient-to-r from-neutral-950"
             aria-hidden="true"
           ></div>
         </div>
@@ -39,7 +39,7 @@
             alt="Team 03"
           />
           <div
-            class="absolute inset-0 bg-gradient-to-l from-slate-950"
+            class="absolute inset-0 bg-gradient-to-l from-neutral-950"
             aria-hidden="true"
           ></div>
         </div>
@@ -55,7 +55,7 @@
           <div class="flex flex-col items-center h-full text-center">
             <div class="inline-flex w-[62px] h-[62px] mb-4">
               <svg
-                class="fill-slate-400"
+                class="fill-neutral-400"
                 width="62"
                 height="61"
                 viewBox="0 0 62 61"
@@ -65,18 +65,18 @@
                 />
               </svg>
             </div>
-            <h4 class="mb-2 text-violet-200/80">Kerala</h4>
-            <div class="mb-2 grow text-violet-200/50">
+            <h4 class="mb-2 text-neutral-200/80">Kerala</h4>
+            <div class="mb-2 grow text-neutral-200/50">
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur.
             </div>
-            <div class="font-sm text-violet-400/20">14 open positions</div>
+            <div class="font-sm text-neutral-400/20">14 open positions</div>
           </div>
           <!-- Location -->
           <div class="flex flex-col items-center h-full text-center">
             <div class="inline-flex w-[62px] h-[62px] mb-4">
               <svg
-                class="fill-slate-400"
+                class="fill-neutral-400"
                 width="60"
                 height="61"
                 viewBox="0 0 60 61"
@@ -86,18 +86,18 @@
                 />
               </svg>
             </div>
-            <h4 class="mb-2 text-violet-200/80">Bangalore</h4>
-            <div class="mb-2 grow text-violet-200/50">
+            <h4 class="mb-2 text-neutral-200/80">Bangalore</h4>
+            <div class="mb-2 grow text-neutral-200/50">
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur.
             </div>
-            <div class="font-sm text-violet-400/20">7 open positions</div>
+            <div class="font-sm text-neutral-400/20">7 open positions</div>
           </div>
           <!-- Location -->
           <div class="flex flex-col items-center h-full text-center">
             <div class="inline-flex w-[62px] h-[62px] mb-4">
               <svg
-                class="fill-slate-400"
+                class="fill-neutral-400"
                 width="62"
                 height="62"
                 viewBox="0 0 62 62"
@@ -107,12 +107,12 @@
                 />
               </svg>
             </div>
-            <h4 class="mb-2 text-violet-200/80">Bangladesh</h4>
-            <div class="mb-2 grow text-violet-200/50">
+            <h4 class="mb-2 text-neutral-200/80">Bangladesh</h4>
+            <div class="mb-2 grow text-neutral-200/50">
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur.
             </div>
-            <div class="font-sm text-violet-400/20">24 open positions</div>
+            <div class="font-sm text-neutral-400/20">24 open positions</div>
           </div>
         </div>
       </div>

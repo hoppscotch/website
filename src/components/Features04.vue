@@ -19,20 +19,20 @@
           class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
         >
           <div
-            class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-violet-500/10 border-violet-500/50"
+            class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-neutral-500/10 border-neutral-500/50"
           >
             <span
-              class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-violet-50 to-violet-600"
+              class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-neutral-50 to-neutral-600"
             >
               Features
             </span>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-violet-200 via-violet-100 to-violet-50"
+            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-200/80 to-neutral-100/80"
           >
             Everything You Need
           </h2>
-          <p class="text-lg text-violet-200/50">
+          <p class="text-lg text-neutral-200/50">
             Hoppscotch got everything you need to make API development easy.
           </p>
         </div>
@@ -44,22 +44,13 @@
             <div class="grid md:col-span-4">
               <HighlighterItem>
                 <div
-                  class="relative bg-slate-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative bg-neutral-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
                 >
                   <div class="flex flex-col h-full">
-                    <!-- Radial gradient -->
-                    <div
-                      class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
-                      aria-hidden="true"
-                    >
-                      <div
-                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-5"
-                      ></div>
-                    </div>
                     <!-- Image -->
                     <div class="relative w-full p-2 overflow-hidden">
                       <div
-                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5"
+                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-neutral-500/25 bg-gradient-to-b from-neutral-600/5 to-neutral-500/5"
                       >
                         <img
                           src="/images/feature-workspaces.png"
@@ -74,7 +65,7 @@
                           <icon-lucide-users class="inline-flex mr-2" />
                           <h5 class="inline-flex text-lg">Workspaces</h5>
                         </div>
-                        <p class="w-full text-violet-200/50">
+                        <p class="w-full text-neutral-200/50">
                           Create workspaces for your teams.
                         </p>
                       </div>
@@ -87,22 +78,13 @@
             <div class="grid md:col-span-4">
               <HighlighterItem>
                 <div
-                  class="relative bg-slate-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative bg-neutral-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
                 >
                   <div class="flex flex-col h-full">
-                    <!-- Radial gradient -->
-                    <div
-                      class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
-                      aria-hidden="true"
-                    >
-                      <div
-                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-5"
-                      ></div>
-                    </div>
                     <!-- Image -->
                     <div class="relative w-full p-2 overflow-hidden">
                       <div
-                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5"
+                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-neutral-500/25 bg-gradient-to-b from-neutral-600/5 to-neutral-500/5"
                       >
                         <img
                           src="/images/feature-access-roles.png"
@@ -119,7 +101,7 @@
                             Access-Level Roles
                           </h5>
                         </div>
-                        <p class="w-3/4 text-violet-200/50">
+                        <p class="w-3/4 text-neutral-200/50">
                           Control access to your workspaces.
                         </p>
                       </div>
@@ -132,22 +114,13 @@
             <div class="grid md:col-span-4">
               <HighlighterItem>
                 <div
-                  class="relative bg-slate-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative bg-neutral-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
                 >
                   <div class="flex flex-col h-full">
-                    <!-- Radial gradient -->
-                    <div
-                      class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
-                      aria-hidden="true"
-                    >
-                      <div
-                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-5"
-                      ></div>
-                    </div>
                     <!-- Image -->
                     <div class="relative w-full p-2 overflow-hidden">
                       <div
-                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5"
+                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-neutral-500/25 bg-gradient-to-b from-neutral-600/5 to-neutral-500/5"
                       >
                         <img
                           src="/images/feature-realtime-collaboration.png"
@@ -164,7 +137,7 @@
                             Real-Time Collaboration
                           </h5>
                         </div>
-                        <p class="w-3/4 text-violet-200/50">
+                        <p class="w-3/4 text-neutral-200/50">
                           Work together with your team in real-time.
                         </p>
                       </div>
@@ -177,22 +150,13 @@
             <div class="grid md:col-span-4">
               <HighlighterItem>
                 <div
-                  class="relative bg-slate-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative bg-neutral-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
                 >
                   <div class="flex flex-col h-full">
-                    <!-- Radial gradient -->
-                    <div
-                      class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
-                      aria-hidden="true"
-                    >
-                      <div
-                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-5"
-                      ></div>
-                    </div>
                     <!-- Image -->
                     <div class="relative w-full p-2 overflow-hidden">
                       <div
-                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5"
+                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-neutral-500/25 bg-gradient-to-b from-neutral-600/5 to-neutral-500/5"
                       >
                         <img
                           src="/images/feature-on-prem-deployment.png"
@@ -209,7 +173,7 @@
                             On-Prem Deployment
                           </h5>
                         </div>
-                        <p class="w-full text-violet-200/50">
+                        <p class="w-full text-neutral-200/50">
                           Deploy Hoppscotch on your own servers.
                         </p>
                       </div>
@@ -222,22 +186,13 @@
             <div class="grid md:col-span-8">
               <HighlighterItem>
                 <div
-                  class="relative bg-slate-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative bg-neutral-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
                 >
                   <div class="flex flex-col h-full">
-                    <!-- Radial gradient -->
-                    <div
-                      class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
-                      aria-hidden="true"
-                    >
-                      <div
-                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-5"
-                      ></div>
-                    </div>
                     <!-- Image -->
                     <div class="relative w-full p-2 overflow-hidden">
                       <div
-                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5"
+                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-neutral-500/25 bg-gradient-to-b from-neutral-600/5 to-neutral-500/5"
                       >
                         <img
                           src="/images/feature-collections-folders.png"
@@ -254,7 +209,7 @@
                             Collections & Folders
                           </h5>
                         </div>
-                        <p class="w-3/4 text-violet-200/50">
+                        <p class="w-3/4 text-neutral-200/50">
                           Organize your requests in collections or folders and
                           share them with your team.
                         </p>
@@ -268,22 +223,13 @@
             <div class="grid md:col-span-8">
               <HighlighterItem>
                 <div
-                  class="relative bg-slate-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative bg-neutral-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
                 >
                   <div class="flex flex-col h-full">
-                    <!-- Radial gradient -->
-                    <div
-                      class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
-                      aria-hidden="true"
-                    >
-                      <div
-                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-5"
-                      ></div>
-                    </div>
                     <!-- Image -->
                     <div class="relative w-full p-2 overflow-hidden">
                       <div
-                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5"
+                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-neutral-500/25 bg-gradient-to-b from-neutral-600/5 to-neutral-500/5"
                       >
                         <img
                           src="/images/feature-environments.png"
@@ -300,7 +246,7 @@
                             Environment Variables
                           </h5>
                         </div>
-                        <p class="w-3/4 text-violet-200/50">
+                        <p class="w-3/4 text-neutral-200/50">
                           Manage your environment variables and use them
                           everywhere.
                         </p>
@@ -314,22 +260,13 @@
             <div class="grid md:col-span-4">
               <HighlighterItem>
                 <div
-                  class="relative bg-slate-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative bg-neutral-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
                 >
                   <div class="flex flex-col h-full">
-                    <!-- Radial gradient -->
-                    <div
-                      class="absolute bottom-0 w-1/2 pointer-events-none -translate-x-1/2 translate-y-1/2 left-1/2 -z-10 aspect-square"
-                      aria-hidden="true"
-                    >
-                      <div
-                        class="absolute inset-0 translate-z-0 bg-violet-950 rounded-full blur-[80px] opacity-5"
-                      ></div>
-                    </div>
                     <!-- Image -->
                     <div class="relative w-full p-2 overflow-hidden">
                       <div
-                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5"
+                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-neutral-500/25 bg-gradient-to-b from-neutral-600/5 to-neutral-500/5"
                       >
                         <img
                           src="/images/feature-history.png"
@@ -344,7 +281,7 @@
                           <icon-lucide-history class="inline-flex mr-2" />
                           <h5 class="inline-flex text-lg">History</h5>
                         </div>
-                        <p class="w-3/4 text-violet-200/50">
+                        <p class="w-3/4 text-neutral-200/50">
                           View and manage your request history.
                         </p>
                       </div>
@@ -360,12 +297,12 @@
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-violet-400/20"
+              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
-              <icon-lucide-file-code class="fill-slate-200" />
-              <span class="text-violet-100"> Pre-Request Scripts </span>
+              <icon-lucide-file-code class="fill-neutral-200" />
+              <span class="text-neutral-100"> Pre-Request Scripts </span>
             </div>
-            <p class="text-sm text-violet-200/50">
+            <p class="text-sm text-neutral-200/50">
               Modify headers, authenticate requests, generate random data, and
               much more.
             </p>
@@ -373,60 +310,60 @@
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-violet-400/20"
+              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
-              <icon-lucide-file-check-2 class="fill-slate-200" />
-              <span class="text-violet-100"> Post Request Tests </span>
+              <icon-lucide-file-check-2 class="fill-neutral-200" />
+              <span class="text-neutral-100"> Post Request Tests </span>
             </div>
-            <p class="text-sm text-violet-200/50">
+            <p class="text-sm text-neutral-200/50">
               Test your APIs and write assertions for the response.
             </p>
           </div>
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-violet-400/20"
+              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
-              <icon-lucide-languages class="fill-slate-200" />
-              <span class="text-violet-100"> Translations </span>
+              <icon-lucide-languages class="fill-neutral-200" />
+              <span class="text-neutral-100"> Translations </span>
             </div>
-            <p class="text-sm text-violet-200/50">
+            <p class="text-sm text-neutral-200/50">
               Use Hoppscotch in your native language. We support 30+ languages.
             </p>
           </div>
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-violet-400/20"
+              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
-              <icon-lucide-crosshair class="fill-slate-200" />
-              <span class="text-violet-100"> Audit Logs </span>
+              <icon-lucide-crosshair class="fill-neutral-200" />
+              <span class="text-neutral-100"> Audit Logs </span>
             </div>
-            <p class="text-sm text-violet-200/50">
+            <p class="text-sm text-neutral-200/50">
               Track all the activities in your workspace. Who did what and when.
             </p>
           </div>
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-violet-400/20"
+              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
-              <icon-lucide-lock class="fill-slate-200" />
-              <span class="text-violet-100"> Single-Sign-On </span>
+              <icon-lucide-lock class="fill-neutral-200" />
+              <span class="text-neutral-100"> Single-Sign-On </span>
             </div>
-            <p class="text-sm text-violet-200/50">
+            <p class="text-sm text-neutral-200/50">
               Use your existing SSO provider to login to Hoppscotch.
             </p>
           </div>
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-violet-400/20"
+              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
-              <icon-lucide-shield-check class="fill-slate-200" />
-              <span class="text-violet-100"> Admin Dashboard </span>
+              <icon-lucide-shield-check class="fill-neutral-200" />
+              <span class="text-neutral-100"> Admin Dashboard </span>
             </div>
-            <p class="text-sm text-violet-200/50">
+            <p class="text-sm text-neutral-200/50">
               Manage your users, workspaces, and more.
             </p>
           </div>

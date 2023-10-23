@@ -5,26 +5,26 @@
         <!-- Section header -->
         <div class="py-12 md:py-16">
           <h2
-            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-violet-200 via-violet-100 to-violet-50"
+            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-200/80 to-neutral-100/80"
           >
             Changelog
           </h2>
-          <p class="text-lg text-violet-200/50">
+          <p class="text-lg text-neutral-200/50">
             New updates and improvements to Hoppscotch.
           </p>
           <p class="mt-4 text-sm">
             <RouterLink
               :to="{ path: '', hash: '#newsletter' }"
-              class="rounded transition text-violet-400/60 hover:text-violet-400/80"
+              class="rounded transition text-neutral-400/60 hover:text-neutral-400/80"
             >
               Subscribe to updates
             </RouterLink>
-            <span class="mx-4 text-violet-400/20">|</span>
+            <span class="mx-4 text-neutral-400/20">|</span>
             <a
               href="https://twitter.com/hoppscotch_io"
               target="_blank"
               rel="noopener noreferrer"
-              class="rounded transition text-violet-400/60 hover:text-violet-400/80"
+              class="rounded transition text-neutral-400/60 hover:text-neutral-400/80"
               >Follow us on Twitter</a
             >
           </p>
