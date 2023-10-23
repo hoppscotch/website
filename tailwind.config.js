@@ -13,8 +13,20 @@ export default {
         "endless-wave": "endless-wave 20s linear infinite",
         "background-shine": "background-shine 3s linear infinite",
         "text-gradient": "text-gradient 1.5s linear infinite",
+        flip: "flip 6s infinite steps(2, end)",
+        rotate: "rotate 3s linear infinite both",
       },
       keyframes: {
+        flip: {
+          to: {
+            transform: "rotate(360deg)",
+          },
+        },
+        rotate: {
+          to: {
+            transform: "rotate(90deg)",
+          },
+        },
         "endless-wave": {
           from: { transform: "translateY(0)" },
           to: { transform: "translateY(-245px)" },

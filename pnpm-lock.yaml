@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   "@fontsource-variable/inter":
-    specifier: ^5.0.14
-    version: 5.0.14
+    specifier: ^5.0.15
+    version: 5.0.15
   "@fontsource-variable/plus-jakarta-sans":
-    specifier: ^5.0.17
-    version: 5.0.17
+    specifier: ^5.0.18
+    version: 5.0.18
   "@sparticuz/chromium":
     specifier: ^117.0.0
     version: 117.0.0
@@ -913,17 +913,17 @@ packages:
     engines: { node: ^12.22.0 || ^14.17.0 || >=16.0.0 }
     dev: true
 
-  /@fontsource-variable/inter@5.0.14:
+  /@fontsource-variable/inter@5.0.15:
     resolution:
       {
-        integrity: sha512-i+aX+g14Qw9aEZ+VoJXNAFOs6TnYqAuWnj0lGDJP/4wbJsvTU+nVYfiqyh4QTLv9KTdwB7K4ZvE8B9A/yYyrrg==,
+        integrity: sha512-CdQPQQgOVxg6ifmbrqYZeUqtQf7p2wPn6EvJ4M+vdNnsmYZgYwPPPQDNlIOU7LCUlSGaN26v6H0uA030WKn61g==,
       }
     dev: false
 
-  /@fontsource-variable/plus-jakarta-sans@5.0.17:
+  /@fontsource-variable/plus-jakarta-sans@5.0.18:
     resolution:
       {
-        integrity: sha512-Ll/2W8jmAuIg/N9Q/rdtVVs1zv7TPnWaZU9IMrYtqXK9PSON9NKcm0WqKhcdQIVK3kuJQWjQSEufMwhwnkooiQ==,
+        integrity: sha512-VSBjZU3gTaMmz2bVgcyw8xU2oyrLvLlDV4zSZFBLOrO1AvrG20RHW85VKUdRCwbM5Ih2fmRlXkWhdIIUs45bmA==,
       }
     dev: false
 

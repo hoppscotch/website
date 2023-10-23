@@ -48,7 +48,9 @@
                         <icon-lucide-mouse-pointer-square
                           class="w-6 h-6 mb-4"
                         />
-                        <h5 class="inline-flex pb-2 text-xl">Inspections</h5>
+                        <h5 class="inline-flex pb-2 text-xl">
+                          All in one platform
+                        </h5>
                         <p class="w-full text-violet-200/50">
                           From prototyping to production - develop without
                           switching tabs.
@@ -56,17 +58,7 @@
                       </div>
                     </div>
                     <!-- Image -->
-                    <div class="relative w-full p-2 overflow-hidden">
-                      <div
-                        class="flex items-start justify-start overflow-y-auto border brightness-110 overscroll-auto h-80 rounded-2xl border-violet-500/25 bg-gradient-to-b from-violet-600/5 to-violet-500/5"
-                      >
-                        <img
-                          loading="lazy"
-                          src="/images/screenshot-1.png"
-                          alt="Feature 04"
-                        />
-                      </div>
-                    </div>
+                    <Mockup />
                   </div>
                 </div>
               </HighlighterItem>
@@ -74,11 +66,11 @@
           </div>
         </div>
         <span
-          class="table mx-auto items-center pointer-events-none mt-4 text-center animate-background-shine bg-[linear-gradient(110deg,transparent,45%,theme(colors.violet.200),55%,transparent)] bg-[length:200%_100%] bg-clip-text text-xs text-transparent"
+          class="table mx-auto items-center pointer-events-none mt-4 text-center animate-background-shine bg-[linear-gradient(110deg,transparent,45%,theme(colors.violet.300),55%,transparent)] bg-[length:200%_100%] bg-clip-text text-xs text-transparent"
         >
           <span class="mr-2">Press</span>
           <span
-            class="relative before:text-lg contents before:align-middle before:-mr-[13.5px] before:content-['▢']"
+            class="before:text-lg before:inline-block before:-mr-[13.5px] before:-mt-[1.5px] before:align-middle before:content-['▢']"
             >H</span
           >
           <span class="ml-2"> anytime to get started </span>

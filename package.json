@@ -12,8 +12,8 @@
     "lint:style": "stylelint src/**/*.{css,scss,vue}"
   },
   "dependencies": {
-    "@fontsource-variable/inter": "^5.0.14",
-    "@fontsource-variable/plus-jakarta-sans": "^5.0.17",
+    "@fontsource-variable/inter": "^5.0.15",
+    "@fontsource-variable/plus-jakarta-sans": "^5.0.18",
     "@sparticuz/chromium": "^117.0.0",
     "@unhead/addons": "^1.7.4",
     "@vueuse/core": "^10.5.0",
