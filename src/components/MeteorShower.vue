@@ -16,7 +16,6 @@
       @apply h-0.5;
       @apply bg-gradient-to-r;
       @apply from-neutral-50;
-      @apply to-transparent;
       @apply transform;
       @apply -rotate-45;
       top: $h + px;

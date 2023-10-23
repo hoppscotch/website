@@ -223,7 +223,7 @@
       class="flex items-center justify-center focus:outline-none relative p-4 after:content-['']"
       :class="
         activeTab === tab.id
-          ? 'after:absolute text-neutral-200/80 transition after:inset-x-4 after:-bottom-px after:h-px after:bg-gradient-to-r after:from-transparent after:via-neutral-400/50 after:to-transparent flex-1 '
+          ? 'after:absolute text-neutral-200/80 transition after:inset-x-4 after:-bottom-px after:h-px after:bg-gradient-to-r after:from-transparent after:via-neutral-400/50 flex-1'
           : 'text-neutral-200/50 hover:text-neutral-200/80'
       "
       @click="changeTab(tab.id)"

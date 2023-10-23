@@ -96,10 +96,9 @@
         @apply absolute;
         @apply h-full;
         @apply w-full;
-        @apply bg-gradient-to-b;
-        @apply from-transparent;
+        @apply bg-gradient-to-t;
+        @apply from-neutral-50;
         @apply via-neutral-400/10;
-        @apply to-neutral-50;
         @apply -top-1/2 left-0;
 
         animation: drop 6s ease-in-out infinite forwards;

@@ -152,6 +152,7 @@ declare module "vue" {
     Investors: (typeof import("./src/components/Investors.vue"))["default"]
     MacKeyboard: (typeof import("./src/components/MacKeyboard.vue"))["default"]
     MeteorShower: (typeof import("./src/components/MeteorShower.vue"))["default"]
+    MobileMenuLinks: (typeof import("./src/components/MobileMenuLinks.vue"))["default"]
     Mockup: (typeof import("./src/components/Mockup.vue"))["default"]
     Modal: (typeof import("./src/components/Modal.vue"))["default"]
     MultiProtocol: (typeof import("./src/components/MultiProtocol.vue"))["default"]

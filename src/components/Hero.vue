@@ -33,17 +33,17 @@
         <div class="absolute transform -translate-x-1/2 -z-1 left-1/2">
           <div class="relative -z-1">
             <div
-              class="h-[1026px] w-[1026px] bg-gradient-to-b from-neutral-900 from-0% via-20% to-100% via-transparent to-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 absolute border-neutral-500/20"
+              class="h-[1026px] w-[1026px] bg-gradient-to-b from-neutral-900 from-0% via-20% to-100% via-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 absolute border-neutral-500/20"
             ></div>
           </div>
           <div class="relative -z-1">
             <div
-              class="h-[684px] w-[684px] shadow-2xl shadow-neutral-500/50 bg-gradient-to-b from-neutral-900 from-0% via-20% to-100% via-transparent to-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 top-[160px] absolute border-neutral-500/20"
+              class="h-[684px] w-[684px] shadow-2xl shadow-neutral-500/50 bg-gradient-to-b from-neutral-900 from-0% via-20% to-100% via-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 top-[160px] absolute border-neutral-500/20"
             ></div>
           </div>
           <div class="relative -z-1">
             <div
-              class="h-[342px] w-[342px] shadow-2xl shadow-neutral-500/50 bg-gradient-to-b from-neutral-900 from-0% via-20% to-100% via-transparent to-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 top-[300px] absolute border-neutral-500/20"
+              class="h-[342px] w-[342px] shadow-2xl shadow-neutral-500/50 bg-gradient-to-b from-neutral-900 from-0% via-20% to-100% via-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 top-[300px] absolute border-neutral-500/20"
             ></div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 <template>
   <div
     id="newsletter"
-    class="relative flex flex-col items-center max-w-5xl px-4 py-12 mx-auto before:absolute before:h-px before:inset-x-0 before:top-0 before:bg-gradient-to-r before:from-transparent before:via-neutral-500/20 before:to-transparent"
+    class="relative flex flex-col items-center max-w-5xl px-4 py-12 mx-auto before:absolute before:h-px before:inset-x-0 before:top-0 before:bg-gradient-to-r before:from-transparent before:via-neutral-500/20"
   >
     <!-- Radial gradient -->
     <div
