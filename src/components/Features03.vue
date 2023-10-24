@@ -28,7 +28,7 @@
             </span>
           </div>
           <h2
-            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-200/80 to-neutral-100/80"
+            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-100/80 to-neutral-50/80"
           >
             Unlock Your Potential
           </h2>
@@ -48,11 +48,9 @@
                     <!-- Text -->
                     <div class="flex items-start justify-center flex-1 p-8">
                       <div class="flex flex-col items-center text-center">
-                        <icon-lucide-mouse-pointer-square
-                          class="w-6 h-6 mb-4"
-                        />
+                        <icon-lucide-wand-2 class="w-6 h-6 mb-4" />
                         <h5 class="inline-flex pb-2 text-xl">
-                          All in one platform
+                          All-In-One Platform
                         </h5>
                         <p class="w-full text-neutral-200/50">
                           From prototyping to production - develop without
@@ -68,7 +66,7 @@
             </Highlighter>
           </div>
         </div>
-        <span
+        <!-- <span
           class="table mx-auto items-center pointer-events-none mt-4 text-center animate-background-shine bg-[linear-gradient(110deg,transparent,45%,theme(colors.neutral.300),55%,transparent)] bg-[length:200%_100%] bg-clip-text text-xs text-transparent"
         >
           <span class="mr-2">Press</span>
@@ -77,7 +75,7 @@
             >H</span
           >
           <span class="ml-2"> anytime to get started </span>
-        </span>
+        </span> -->
       </div>
     </div>
   </section>

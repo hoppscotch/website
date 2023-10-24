@@ -53,7 +53,7 @@
         >
           <Announcement />
           <h1
-            class="mb-8 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-200/80 to-neutral-100/80"
+            class="mb-8 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-100/80 to-neutral-50/80"
           >
             Make Better APIs
           </h1>

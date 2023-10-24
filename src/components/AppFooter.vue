@@ -6,7 +6,7 @@
       <div class="py-4 grid gap-8 sm:grid-cols-12 md:py-8">
         <!-- Block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="mb-2">
+          <h6 class="mb-4">
             <RouterLink
               to="/products"
               class="text-sm rounded transition text-neutral-200 hover:text-neutral-100"
@@ -51,7 +51,7 @@
         </div>
         <!-- Block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="mb-2">
+          <h6 class="mb-4">
             <RouterLink
               to="/explore"
               class="text-sm rounded transition text-neutral-200 hover:text-neutral-100"
@@ -96,7 +96,7 @@
         </div>
         <!-- Block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="mb-2">
+          <h6 class="mb-4">
             <RouterLink
               to="/solutions"
               class="text-sm rounded transition text-neutral-200 hover:text-neutral-100"
@@ -157,7 +157,7 @@
         </div>
         <!-- Block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="mb-2">
+          <h6 class="mb-4">
             <RouterLink
               to="/company"
               class="text-sm rounded transition text-neutral-200 hover:text-neutral-100"
@@ -202,7 +202,7 @@
         </div>
         <!-- Block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="mb-2">
+          <h6 class="mb-4">
             <RouterLink
               to="/resources"
               class="text-sm rounded transition text-neutral-200 hover:text-neutral-100"
@@ -251,31 +251,15 @@
         </div>
         <!-- Block -->
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="mb-2">
+          <h6 class="mb-4">
             <RouterLink
-              to="/compliances"
+              to="/legal"
               class="text-sm rounded transition text-neutral-200 hover:text-neutral-100"
             >
-              Compliances
+              Legal
             </RouterLink>
           </h6>
           <ul class="text-sm space-y-2">
-            <li>
-              <RouterLink
-                class="rounded transition text-neutral-200/50 hover:text-neutral-100"
-                to="/"
-              >
-                ISO 27001
-              </RouterLink>
-            </li>
-            <li>
-              <RouterLink
-                class="rounded transition text-neutral-200/50 hover:text-neutral-100"
-                to="/"
-              >
-                SOC 2
-              </RouterLink>
-            </li>
             <li>
               <RouterLink
                 class="rounded transition text-neutral-200/50 hover:text-neutral-100"

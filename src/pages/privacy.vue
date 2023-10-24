@@ -22,7 +22,7 @@
         <!-- Section header -->
         <div class="flex items-center justify-between py-12 md:py-16">
           <RouterLink
-            to="/resources"
+            to="/legal"
             class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-neutral-200/50 hover:text-neutral-200"
           >
             <icon-lucide-arrow-left class="mr-2" />
@@ -79,7 +79,7 @@
             </div>
             <h3>
               <span
-                class="text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-200/80 to-neutral-100/80"
+                class="text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-100/80 to-neutral-50/80"
               >
                 Privacy Policy
               </span>

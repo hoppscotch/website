@@ -58,6 +58,9 @@
 .tippy-box[data-theme~="popover"] > .tippy-svg-arrow {
   @apply fill-transparent;
 }
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;

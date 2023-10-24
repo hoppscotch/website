@@ -28,8 +28,8 @@
   },
   "devDependencies": {
     "@iconify-json/lucide": "^1.1.136",
-    "@types/node": "^20.8.7",
-    "@typescript-eslint/parser": "^6.8.0",
+    "@types/node": "^20.8.8",
+    "@typescript-eslint/parser": "^6.9.0",
     "@unhead/vue": "^1.7.4",
     "@vitejs/plugin-vue": "^4.4.0",
     "autoprefixer": "^10.4.16",
