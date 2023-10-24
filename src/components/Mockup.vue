@@ -24,15 +24,6 @@
   const showResponse = ref(false)
   const sendingRequest = ref(false)
 
-  const sendRequest = () => {
-    sendingRequest.value = true
-    setTimeout(() => {
-      showResponse.value = true
-      sendingRequest.value = false
-    }, 1800)
-  }
-
-  const activeResponseTab = ref("JSON")
   const responseTabs = [
     {
       name: "JSON",
@@ -47,8 +38,8 @@
       name: "Test Results",
     },
   ]
-  const responseTime = computed(() => Math.floor(Math.random() * 5000))
-  const responseSize = computed(() => Math.floor(Math.random() * 1000))
+  const responseTime = () => Math.floor(Math.random() * 5000)
+  const responseSize = () => Math.floor(Math.random() * 1000)
   const responseText = `{
     "method": "GET",
     "args": {},
@@ -69,6 +60,16 @@
     "path": "/",
     "isBase64Encoded": true
   }`
+
+  const activeResponseTab = ref("JSON")
+
+  const sendRequest = () => {
+    sendingRequest.value = true
+    setTimeout(() => {
+      showResponse.value = true
+      sendingRequest.value = false
+    }, 1800)
+  }
 </script>
 
 <template>
@@ -138,8 +139,8 @@
           <div class="flex flex-col w-full h-full">
             <div class="flex w-full p-4 gap-4 text-neutral-600">
               <span> Status: 200 OK </span>
-              <span> Time: {{ responseTime }}ms </span>
-              <span> Size: {{ responseSize }}B </span>
+              <span> Time: {{ responseTime() }}ms </span>
+              <span> Size: {{ responseSize() }}B </span>
             </div>
             <div
               class="flex w-full min-w-0 overflow-x-auto border-b no-scrollbar border-neutral-400/10"
