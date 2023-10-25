@@ -82,7 +82,7 @@
             class="rounded-full"
           >
             <RouterLink
-              class="inline-flex items-center justify-center p-2 border rounded-full outline-none transition border-neutral-500/50 hover:border-neutral-500/80 hover:scale-110"
+              class="inline-flex items-center justify-center p-2 rounded-full outline-none transition border-neutral-500/50 hover:border-neutral-500/80 hover:scale-110"
               to="/"
               aria-label="Hoppscotch"
               @contextmenu.prevent="logoOptions.tippy.show()"
@@ -93,6 +93,9 @@
                 alt="Hoppscotch"
                 class="w-7 h-7"
               />
+              <span class="ml-2 text-lg font-bold font-jakarta"
+                >Hoppscotch</span
+              >
             </RouterLink>
             <template #content="{ hide }">
               <div class="flex flex-col p-2">
