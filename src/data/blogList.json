@@ -9,7 +9,7 @@
       "name": "Liyas Thomas",
       "image": "blog-author-01.jpg"
     },
-    "styles": "md:col-span-3 xl:col-span-2",
+    "styles": "md:col-span-12",
     "tags": ["Product", "Engineering", "Design"]
   },
   {
@@ -22,7 +22,7 @@
       "name": "Liyas Thomas",
       "image": "blog-author-02.jpg"
     },
-    "styles": "md:col-span-3 xl:col-span-2",
+    "styles": "md:col-span-6",
     "tags": ["Product", "Engineering", "Design"]
   },
   {
@@ -35,7 +35,7 @@
       "name": "Liyas Thomas",
       "image": "blog-author-03.jpg"
     },
-    "styles": "md:col-span-3 xl:col-span-2",
+    "styles": "md:col-span-6",
     "tags": ["Product", "Engineering", "Design"]
   },
   {
@@ -48,7 +48,7 @@
       "name": "Liyas Thomas",
       "image": "blog-author-04.jpg"
     },
-    "styles": "md:col-span-3 xl:col-span-2",
+    "styles": "md:col-span-12",
     "tags": ["Product", "Engineering", "Design"]
   },
   {
@@ -61,7 +61,7 @@
       "name": "Liyas Thomas",
       "image": "blog-author-05.jpg"
     },
-    "styles": "md:col-span-3 xl:col-span-2",
+    "styles": "md:col-span-6",
     "tags": ["Product", "Engineering", "Design"]
   },
   {
@@ -74,7 +74,7 @@
       "name": "Liyas Thomas",
       "image": "blog-author-06.jpg"
     },
-    "styles": "md:col-span-3 xl:col-span-2",
+    "styles": "md:col-span-6",
     "tags": ["Product", "Engineering", "Design"]
   },
   {
@@ -87,7 +87,7 @@
       "name": "Liyas Thomas",
       "image": "blog-author-02.jpg"
     },
-    "styles": "md:col-span-3 xl:col-span-2",
+    "styles": "md:col-span-6",
     "tags": ["Product", "Engineering", "Design"]
   },
   {
@@ -100,7 +100,7 @@
       "name": "Liyas Thomas",
       "image": "blog-author-04.jpg"
     },
-    "styles": "md:col-span-3 xl:col-span-2",
+    "styles": "md:col-span-6",
     "tags": ["Product", "Engineering", "Design"]
   },
   {
@@ -113,7 +113,7 @@
       "name": "Liyas Thomas",
       "image": "blog-author-01.jpg"
     },
-    "styles": "md:col-span-3 xl:col-span-2",
+    "styles": "md:col-span-12",
     "tags": ["Product", "Engineering", "Design"]
   },
   {
@@ -126,20 +126,7 @@
       "name": "Liyas Thomas",
       "image": "blog-author-02.jpg"
     },
-    "styles": "md:col-span-3 xl:col-span-2",
-    "tags": ["Product", "Engineering", "Design"]
-  },
-  {
-    "slug": "hoppscotch-v1",
-    "title": "Hoppscotch v1",
-    "description": "Today we're rolling out Hoppscotch v1 for everyone. Let's take a look at what's new. What we've been working on for the past few days.",
-    "banner": "blog-hoppscotch-v1.png",
-    "date": "2019-08-04",
-    "author": {
-      "name": "Liyas Thomas",
-      "image": "blog-author-03.jpg"
-    },
-    "styles": "md:col-span-3 xl:col-span-2",
+    "styles": "md:col-span-12",
     "tags": ["Product", "Engineering", "Design"]
   },
   {
@@ -152,7 +139,20 @@
       "name": "Liyas Thomas",
       "image": "blog-author-04.jpg"
     },
-    "styles": "md:col-span-3 xl:col-span-2",
+    "styles": "md:col-span-6",
+    "tags": ["Product", "Engineering", "Design"]
+  },
+  {
+    "slug": "hoppscotch-v1",
+    "title": "Hoppscotch v1",
+    "description": "Today we're rolling out Hoppscotch v1 for everyone. Let's take a look at what's new. What we've been working on for the past few days.",
+    "banner": "blog-hoppscotch-v1.png",
+    "date": "2019-08-04",
+    "author": {
+      "name": "Liyas Thomas",
+      "image": "blog-author-03.jpg"
+    },
+    "styles": "md:col-span-6",
     "tags": ["Product", "Engineering", "Design"]
   }
 ]

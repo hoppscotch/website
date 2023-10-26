@@ -6,7 +6,7 @@
 </script>
 
 <template>
-  <div class="flex items-center justify-between py-12 md:py-16">
+  <div class="flex items-center justify-between pb-12 md:pb-16">
     <RouterLink
       to="/blog"
       class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-neutral-200/50 hover:text-neutral-200"
