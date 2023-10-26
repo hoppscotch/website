@@ -39,9 +39,7 @@
             Flexible plans and features
           </h2>
           <p class="text-lg text-neutral-200/50">
-            All the lorem ipsum generators on the Internet tend to repeat
-            predefined chunks as necessary, making this the first true generator
-            on the Internet.
+            Choose the plan that works for you.
           </p>
         </div>
         <!-- Pricing tabs -->
@@ -52,10 +50,9 @@
               class="p-1 text-xs font-semibold text-center rounded-full grid grid-cols-2 leading-5 text-neutral-50 gap-x-1 bg-white/5"
             >
               <legend class="sr-only">Platform</legend>
-              <!-- Cloud -->
               <label
                 class="cursor-pointer rounded-full px-2.5 py-1"
-                :class="{ 'bg-neutral-500': platform === 'cloud' }"
+                :class="{ 'bg-neutral-700': platform === 'cloud' }"
               >
                 <input
                   v-model="platform"
@@ -66,10 +63,9 @@
                 />
                 <span>Cloud</span>
               </label>
-              <!-- Self-Host -->
               <label
                 class="cursor-pointer rounded-full px-2.5 py-1"
-                :class="{ 'bg-blue-500': platform === 'selfhost' }"
+                :class="{ 'bg-neutral-700': platform === 'selfhost' }"
               >
                 <input
                   v-model="platform"
@@ -90,7 +86,7 @@
             <div class="flex flex-col justify-end px-6">
               <div class="pb-5 md:border-b border-neutral-900">
                 <!-- Toggle switch -->
-                <div class="max-md:text-center">
+                <!-- <div class="max-md:text-center">
                   <div class="inline-flex items-center whitespace-nowrap">
                     <div class="mr-2 text-sm text-neutral-100 md:max-lg:hidden">
                       Monthly
@@ -113,7 +109,7 @@
                       Yearly (<span class="text-teal-500">-20%</span>)
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
             <!-- Pro price -->
@@ -122,7 +118,7 @@
                 <div
                   class="text-base bg-clip-text max-w-max text-transparent bg-gradient-to-r from-neutral-500 to-neutral-200 pb-0.5"
                 >
-                  Pro
+                  Cloud Edition
                 </div>
                 <div class="mb-1">
                   <span class="text-lg text-neutral-100">$</span
@@ -155,7 +151,7 @@
                 <div
                   class="text-base bg-clip-text max-w-max text-transparent bg-gradient-to-r from-neutral-500 to-neutral-200 pb-0.5"
                 >
-                  Team
+                  Community Edition
                 </div>
                 <div class="mb-1">
                   <span class="text-lg text-neutral-100">$</span

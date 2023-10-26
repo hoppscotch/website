@@ -11,12 +11,12 @@
     scrollHeight.value = y
     if (y > 8) {
       apply({
-        width: "608px",
+        width: "510.1px",
         // width: "495px",
       })
     } else {
       apply({
-        width: "511.4px",
+        width: "413.5px",
         // width: "398px",
       })
     }
@@ -57,13 +57,6 @@
         Download
       </RouterLink>
       <RouterLink
-        to="/pricing"
-        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-neutral-200/60 hover:text-neutral-100/80"
-        @mouseenter="onTabMouseEnter"
-      >
-        Pricing
-      </RouterLink>
-      <RouterLink
         to="/changelog"
         class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-neutral-200/60 hover:text-neutral-100/80"
         @mouseenter="onTabMouseEnter"
@@ -77,20 +70,13 @@
       >
         Blog
       </RouterLink>
-      <RouterLink
-        to="/careers"
-        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-neutral-200/60 hover:text-neutral-100/80"
-        @mouseenter="onTabMouseEnter"
-      >
-        Careers
-      </RouterLink>
       <a
         href="https://docs.hoppscotch.io/"
         target="_blank"
         class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-neutral-200/60 hover:text-neutral-100/80"
         @mouseenter="onTabMouseEnter"
       >
-        Docs
+        Documentation
       </a>
       <div
         class="absolute h-full opacity-0 duration-200 group-hover/nav:opacity-100 -z-1"

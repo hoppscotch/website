@@ -3,13 +3,13 @@
     "slug": "introducing-hoppscotch-desktop-application",
     "title": "Introducing Hoppscotch Desktop Application",
     "description": "We have been working hard to bring some exciting new developments to Hoppscotch.",
-    "banner": "blog-introducing-hoppscotch-desktop-application.jpg",
+    "banner": "blog-introducing-hoppscotch-desktop-application.png",
     "date": "2023-10-28",
     "author": {
       "name": "Liyas Thomas",
       "image": "blog-author-01.jpg"
     },
-    "styles": "md:col-span-6",
+    "styles": "md:col-span-12",
     "tags": ["Product"]
   },
   {
@@ -22,7 +22,7 @@
       "name": "Liyas Thomas",
       "image": "blog-author-01.jpg"
     },
-    "styles": "md:col-span-6",
+    "styles": "md:col-span-12",
     "tags": ["Product", "Engineering", "Design"]
   }
 ]

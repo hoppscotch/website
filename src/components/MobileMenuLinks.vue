@@ -9,13 +9,6 @@
     </RouterLink>
     <RouterLink
       class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-200/80 hover:text-neutral-200 hover:bg-neutral-800/50"
-      to="/pricing"
-    >
-      <icon-lucide-gem class="mr-3" />
-      Pricing
-    </RouterLink>
-    <RouterLink
-      class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-200/80 hover:text-neutral-200 hover:bg-neutral-800/50"
       to="/changelog"
     >
       <icon-lucide-scroll-text class="mr-3" />
@@ -27,13 +20,6 @@
     >
       <icon-lucide-newspaper class="mr-3" />
       Blog
-    </RouterLink>
-    <RouterLink
-      class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-200/80 hover:text-neutral-200 hover:bg-neutral-800/50"
-      to="/careers"
-    >
-      <icon-lucide-briefcase class="mr-3" />
-      Careers
     </RouterLink>
     <a
       class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-200/80 hover:text-neutral-200 hover:bg-neutral-800/50"
