@@ -150,7 +150,7 @@
                     >
                       <img
                         loading="lazy"
-                        src="/images/screenshot-1.png"
+                        src="/images/hero-screenshot.png"
                         alt="Feature 04"
                       />
                       <div
@@ -189,7 +189,7 @@
                     >
                       <img
                         loading="lazy"
-                        src="/images/screenshot-1.png"
+                        src="/images/hero-screenshot.png"
                         alt="Feature 04"
                       />
                       <div
@@ -228,7 +228,7 @@
                     >
                       <img
                         loading="lazy"
-                        src="/images/screenshot-1.png"
+                        src="/images/hero-screenshot.png"
                         alt="Feature 04"
                       />
                       <div
@@ -267,7 +267,7 @@
                     >
                       <img
                         loading="lazy"
-                        src="/images/screenshot-1.png"
+                        src="/images/hero-screenshot.png"
                         alt="Feature 04"
                       />
                       <div

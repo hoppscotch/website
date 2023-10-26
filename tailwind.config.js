@@ -10,19 +10,20 @@ export default {
         jakarta: ["Plus Jakarta Sans Variable", "sans-serif"],
       },
       animation: {
+        "flip-element": "flip-element 6s infinite steps(2, end)",
+        "rotate-element": "rotate-element 3s linear infinite both",
         "endless-wave": "endless-wave 20s linear infinite",
         "background-shine": "background-shine 3s linear infinite",
         "text-gradient": "text-gradient 1.5s linear infinite",
-        flip: "flip 6s infinite steps(2, end)",
-        rotate: "rotate 3s linear infinite both",
+        "infinite-scroll": "infinite-scroll 64s linear infinite",
       },
       keyframes: {
-        flip: {
+        "flip-element": {
           to: {
             transform: "rotate(360deg)",
           },
         },
-        rotate: {
+        "rotate-element": {
           to: {
             transform: "rotate(90deg)",
           },
@@ -43,6 +44,10 @@ export default {
           to: {
             backgroundPosition: "200% center",
           },
+        },
+        "infinite-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
         },
       },
     },

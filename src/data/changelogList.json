@@ -1,10 +1,45 @@
 [
+  // {
+  //   "slug": "00-00-0000",
+  //   "version": "v0000.0.0",
+  //   "title": "Bug fixes and performance improvements",
+  //   "date": "MMMM DD, YYYY",
+  //   "banner": "changelog-00-00-0000.png"
+  // },
   {
-    "slug": "00-00-0000",
-    "version": "v0000.0.0",
+    "slug": "15-10-2023",
+    "version": "v2023.8.2",
     "title": "Bug fixes and performance improvements",
-    "date": "MMMM DD, YYYY",
-    "banner": "changelog-00-00-0000.png"
+    "date": "October 15, 2023",
+    "banner": "changelog-15-10-2023.png"
+  },
+  {
+    "slug": "18-09-2023",
+    "version": "v2023.8.1",
+    "title": "Bug fixes and performance improvements",
+    "date": "September 18, 2023",
+    "banner": "changelog-18-09-2023.png"
+  },
+  {
+    "slug": "31-08-2023",
+    "version": "v2023.8.0",
+    "title": "Spotlight, environment quick peek and GraphQL improvements",
+    "date": "August 31, 2023",
+    "banner": "changelog-31-08-2023.png"
+  },
+  {
+    "slug": "18-07-2023",
+    "version": "v2023.4.8",
+    "title": "Bug fixes and performance improvements",
+    "date": "July 18, 2023",
+    "banner": "changelog-18-07-2023.png"
+  },
+  {
+    "slug": "27-06-2023",
+    "version": "v2023.4.7",
+    "title": "Bug fixes and performance improvements",
+    "date": "June 27, 2023",
+    "banner": "changelog-27-06-2023.png"
   },
   {
     "slug": "12-06-2023",

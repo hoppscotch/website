@@ -177,7 +177,7 @@
               <span class="text-neutral-100">Cross-Platform Apps</span>
             </div>
             <p class="text-sm text-neutral-200/50">
-              Works on Web, Mac, Windows, Linux and CLI. Take your work
+              Works on Mac, Windows, Linux, Web and CLI. Take your work
               anywhere.
             </p>
           </div>

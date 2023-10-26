@@ -1,3 +1,7 @@
+<script setup lang="ts">
+  const tab = ref(1)
+</script>
+
 <template>
   <section class="relative">
     <!-- Radial gradient -->
@@ -13,7 +17,7 @@
         ></div>
       </div>
     </div>
-    <div class="max-w-5xl px-4 mx-auto sm:px-6">
+    <div class="relative max-w-5xl px-4 mx-auto sm:px-6">
       <div class="pt-32 pb-24">
         <!-- Section header -->
         <div
@@ -31,218 +35,245 @@
           <h2
             class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-100/80 to-neutral-50/80"
           >
-            Take Hoppscotch with you
+            The power to be your best
           </h2>
           <p class="text-lg text-neutral-200/50">
-            Download Hoppscotch for your platform — Web, macOS, Windows, Linux,
-            or CLI.
+            Download for — Mac, Windows, Linux, Web and CLI.
           </p>
         </div>
-        <!-- Platform download -->
-        <Highlighter class="grid grid-cols-12 gap-8 group">
-          <HighlighterItem class="col-span-12 md:col-span-4 group/slide">
-            <div
-              class="relative h-full bg-neutral-950 rounded-[inherit] z-20 overflow-hidden"
+        <!-- Section content -->
+        <div class="max-w-4xl mx-auto">
+          <!-- Tabs buttons -->
+          <div
+            class="flex w-full min-w-0 mb-10 overflow-x-auto gap-4 no-scrollbar"
+          >
+            <button
+              class="inline-flex flex-col items-center justify-center flex-shrink-0 px-8 py-4 m-2 text-center border border-transparent opacity-50 transition-opacity grow rounded-xl hover:bg-neutral-500/10"
+              :class="{
+                'bg-neutral-500/10 !opacity-100 !border-neutral-400/10':
+                  tab === 1,
+              }"
+              @click="tab = 1"
             >
-              <!-- Particles animation -->
-              <ClientOnly>
-                <Particles
-                  class="absolute inset-0 opacity-0 transition-opacity duration-500 -z-10 group-hover/slide:opacity-100"
-                  :quantity="3"
-                />
-              </ClientOnly>
-              <div class="flex flex-col h-full p-6">
+              <div
+                class="flex flex-shrink-0 p-4 mb-4 border rounded-xl border-neutral-600 bg-neutral-900"
+              >
                 <img
                   loading="lazy"
-                  class="p-3 mb-4 border rounded-xl border-neutral-600 bg-neutral-900"
+                  class="w-6 h-6"
                   src="/images/download-apple.svg"
-                  width="40"
-                  height="40"
-                  alt="Icon 01"
+                  alt="Mac"
                 />
-                <div class="flex flex-col grow">
-                  <div class="mb-1 text-lg font-bold">Download for Mac</div>
-                  <div class="mb-3 text-neutral-200/50">
-                    Work without distraction on your own or with your team.
-                  </div>
-                </div>
-                <div>
-                  <RouterLink
-                    class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-neutral-200 hover:text-neutral-50 group"
-                    to="/"
-                  >
-                    Download
-                    <span
-                      class="text-neutral-500 group-hover:translate-x-0.5 transition-transform ml-1"
-                    >
-                      <icon-lucide-arrow-right />
-                    </span>
-                  </RouterLink>
-                </div>
               </div>
-            </div>
-          </HighlighterItem>
-          <HighlighterItem class="col-span-12 md:col-span-4 group/slide">
-            <div
-              class="relative h-full bg-neutral-950 rounded-[inherit] z-20 overflow-hidden"
+              <div
+                class="text-sm leading-tight"
+                :class="{ 'text-neutral-200': tab === 1 }"
+              >
+                Mac
+              </div>
+            </button>
+            <button
+              class="inline-flex flex-col items-center justify-center flex-shrink-0 px-8 py-4 m-2 text-center border border-transparent opacity-50 transition-opacity grow rounded-xl hover:bg-neutral-500/10"
+              :class="{
+                'bg-neutral-500/10 !opacity-100 !border-neutral-400/10':
+                  tab === 2,
+              }"
+              @click="tab = 2"
             >
-              <!-- Particles animation -->
-              <ClientOnly>
-                <Particles
-                  class="absolute inset-0 opacity-0 transition-opacity duration-500 -z-10 group-hover/slide:opacity-100"
-                  :quantity="3"
-                />
-              </ClientOnly>
-              <div class="flex flex-col h-full p-6">
+              <div
+                class="flex flex-shrink-0 p-4 mb-4 border rounded-xl border-neutral-600 bg-neutral-900"
+              >
                 <img
                   loading="lazy"
-                  class="p-3 mb-4 border rounded-xl border-neutral-600 bg-neutral-900"
+                  class="w-6 h-6"
                   src="/images/download-windows.svg"
-                  width="40"
-                  height="40"
-                  alt="Icon 01"
+                  alt="Windows"
                 />
-                <div class="flex flex-col grow">
-                  <div class="mb-1 text-lg font-bold">Download for Windows</div>
-                  <div class="mb-3 text-neutral-200/50">
-                    Work without distraction on your own or with your team.
-                  </div>
-                </div>
-                <div>
-                  <RouterLink
-                    class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-neutral-200 hover:text-neutral-50 group"
-                    to="/"
-                  >
-                    Download
-                    <span
-                      class="text-neutral-500 group-hover:translate-x-0.5 transition-transform ml-1"
-                    >
-                      <icon-lucide-arrow-right />
-                    </span>
-                  </RouterLink>
-                </div>
               </div>
-            </div>
-          </HighlighterItem>
-          <HighlighterItem class="col-span-12 md:col-span-4 group/slide">
-            <div
-              class="relative h-full bg-neutral-950 rounded-[inherit] z-20 overflow-hidden"
+              <div
+                class="text-sm leading-tight"
+                :class="{ 'text-neutral-200': tab === 2 }"
+              >
+                Windows
+              </div>
+            </button>
+            <button
+              class="inline-flex flex-col items-center justify-center flex-shrink-0 px-8 py-4 m-2 text-center border border-transparent opacity-50 transition-opacity grow rounded-xl hover:bg-neutral-500/10"
+              :class="{
+                'bg-neutral-500/10 !opacity-100 !border-neutral-400/10':
+                  tab === 3,
+              }"
+              @click="tab = 3"
             >
-              <!-- Particles animation -->
-              <ClientOnly>
-                <Particles
-                  class="absolute inset-0 opacity-0 transition-opacity duration-500 -z-10 group-hover/slide:opacity-100"
-                  :quantity="3"
-                />
-              </ClientOnly>
-              <div class="flex flex-col h-full p-6">
+              <div
+                class="flex flex-shrink-0 p-4 mb-4 border rounded-xl border-neutral-600 bg-neutral-900"
+              >
                 <img
                   loading="lazy"
-                  class="p-3 mb-4 border rounded-xl border-neutral-600 bg-neutral-900"
+                  class="w-6 h-6"
                   src="/images/download-linux.svg"
-                  width="40"
-                  height="40"
-                  alt="Icon 01"
+                  alt="Linux"
                 />
-                <div class="flex flex-col grow">
-                  <div class="mb-1 text-lg font-bold">Download for Linux</div>
-                  <div class="mb-3 text-neutral-200/50">
-                    Work without distraction on your own or with your team.
-                  </div>
-                </div>
-                <div>
-                  <RouterLink
-                    class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-neutral-200 hover:text-neutral-50 group"
-                    to="/"
-                  >
-                    Download
-                    <span
-                      class="text-neutral-500 group-hover:translate-x-0.5 transition-transform ml-1"
-                    >
-                      <icon-lucide-arrow-right />
-                    </span>
-                  </RouterLink>
-                </div>
               </div>
-            </div>
-          </HighlighterItem>
-          <HighlighterItem class="col-span-12 md:col-span-6 group/slide">
-            <div
-              class="relative h-full bg-neutral-950 rounded-[inherit] z-20 overflow-hidden"
+              <div
+                class="text-sm leading-tight"
+                :class="{ 'text-neutral-200': tab === 3 }"
+              >
+                Linux
+              </div>
+            </button>
+            <button
+              class="inline-flex flex-col items-center justify-center flex-shrink-0 px-8 py-4 m-2 text-center border border-transparent opacity-50 transition-opacity grow rounded-xl hover:bg-neutral-500/10"
+              :class="{
+                'bg-neutral-500/10 !opacity-100 !border-neutral-400/10':
+                  tab === 4,
+              }"
+              @click="tab = 4"
             >
-              <!-- Particles animation -->
-              <ClientOnly>
-                <Particles
-                  class="absolute inset-0 opacity-0 transition-opacity duration-500 -z-10 group-hover/slide:opacity-100"
-                  :quantity="3"
-                />
-              </ClientOnly>
-              <div class="flex flex-col h-full p-6">
-                <icon-lucide-globe
-                  class="w-10 h-10 p-3 mb-4 border rounded-xl border-neutral-600 bg-neutral-900"
-                />
-                <div class="flex flex-col grow">
-                  <div class="mb-1 text-lg font-bold">Web App</div>
-                  <div class="mb-3 text-neutral-200/50">
-                    Work without distraction on your own or with your team.
-                  </div>
-                </div>
-                <div>
+              <div
+                class="flex flex-shrink-0 p-4 mb-4 border rounded-xl border-neutral-600 bg-neutral-900"
+              >
+                <icon-lucide-globe class="w-6 h-6" />
+              </div>
+              <div
+                class="text-sm leading-tight"
+                :class="{ 'text-neutral-200': tab === 4 }"
+              >
+                Web App
+              </div>
+            </button>
+            <button
+              class="inline-flex flex-col items-center justify-center flex-shrink-0 px-8 py-4 m-2 text-center border border-transparent opacity-50 transition-opacity grow rounded-xl hover:bg-neutral-500/10"
+              :class="{
+                'bg-neutral-500/10 !opacity-100 !border-neutral-400/10':
+                  tab === 5,
+              }"
+              @click="tab = 5"
+            >
+              <div
+                class="flex flex-shrink-0 p-4 mb-4 border rounded-xl border-neutral-600 bg-neutral-900"
+              >
+                <icon-lucide-terminal class="w-6 h-6" />
+              </div>
+              <div
+                class="text-sm leading-tight"
+                :class="{ 'text-neutral-200': tab === 5 }"
+              >
+                CLI
+              </div>
+            </button>
+          </div>
+          <!-- Tab items -->
+          <div class="relative flex flex-col">
+            <Transition
+              enter-active-class="order-first transition duration-500 "
+              enter-from-class="opacity-0 -translate-y-8"
+              enter-to-class="opacity-100 translate-y-0"
+              leave-active-class="absolute transition duration-500 "
+              leave-from-class="opacity-100 -translate-y-0"
+              leave-to-class="opacity-0 translate-y-8"
+            >
+              <div v-if="tab === 1" class="flex justify-center w-full">
+                <div class="flex flex-col items-stretch gap-4">
                   <a
-                    class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-neutral-200 hover:text-neutral-50 group"
-                    href="https://hoppscotch.io"
+                    href="https://github.com/hoppscotch/hoppscotch/releases"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition neutral-500ite/50 rounded-xl bg-neutral-500/10 border-neutral-500/50 hover:border-neutral-500/80"
                     target="_blank"
-                    rel="noopener noreferrer"
                   >
-                    Open App
-                    <span
-                      class="text-neutral-500 group-hover:translate-x-0.5 transition-transform ml-1"
-                    >
-                      <icon-lucide-arrow-right />
-                    </span>
+                    Download for Mac ~ Apple Silicon
+                  </a>
+                  <a
+                    href="https://github.com/hoppscotch/hoppscotch/releases"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition neutral-500ite/50 rounded-xl bg-neutral-500/10 border-neutral-500/50 hover:border-neutral-500/80"
+                    target="_blank"
+                  >
+                    Download for Mac ~ Intel
                   </a>
                 </div>
               </div>
-            </div>
-          </HighlighterItem>
-          <HighlighterItem class="col-span-12 md:col-span-6 group/slide">
-            <div
-              class="relative h-full bg-neutral-950 rounded-[inherit] z-20 overflow-hidden"
+            </Transition>
+            <Transition
+              enter-active-class="order-first transition duration-500 "
+              enter-from-class="opacity-0 -translate-y-8"
+              enter-to-class="opacity-100 translate-y-0"
+              leave-active-class="absolute transition duration-500 "
+              leave-from-class="opacity-100 -translate-y-0"
+              leave-to-class="opacity-0 translate-y-8"
             >
-              <!-- Particles animation -->
-              <ClientOnly>
-                <Particles
-                  class="absolute inset-0 opacity-0 transition-opacity duration-500 -z-10 group-hover/slide:opacity-100"
-                  :quantity="3"
-                />
-              </ClientOnly>
-              <div class="flex flex-col h-full p-6">
-                <icon-lucide-terminal
-                  class="w-10 h-10 p-3 mb-4 border rounded-xl border-neutral-600 bg-neutral-900"
-                />
-                <div class="flex flex-col grow">
-                  <div class="mb-1 text-lg font-bold">Install for Terminal</div>
-                  <div class="mb-3 text-neutral-200/50">
-                    Work without distraction on your own or with your team.
-                  </div>
-                </div>
-                <div>
-                  <RouterLink
-                    class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-neutral-200 hover:text-neutral-50 group"
-                    to="/"
+              <div v-if="tab === 2" class="flex justify-center w-full">
+                <div class="flex flex-col items-stretch gap-4">
+                  <a
+                    href="https://github.com/hoppscotch/hoppscotch/releases"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition neutral-500ite/50 rounded-xl bg-neutral-500/10 border-neutral-500/50 hover:border-neutral-500/80"
+                    target="_blank"
                   >
-                    Install
-                    <span
-                      class="text-neutral-500 group-hover:translate-x-0.5 transition-transform ml-1"
-                    >
-                      <icon-lucide-arrow-right />
-                    </span>
-                  </RouterLink>
+                    Download for Windows
+                  </a>
                 </div>
               </div>
-            </div>
-          </HighlighterItem>
-        </Highlighter>
+            </Transition>
+            <Transition
+              enter-active-class="order-first transition duration-500 "
+              enter-from-class="opacity-0 -translate-y-8"
+              enter-to-class="opacity-100 translate-y-0"
+              leave-active-class="absolute transition duration-500 "
+              leave-from-class="opacity-100 -translate-y-0"
+              leave-to-class="opacity-0 translate-y-8"
+            >
+              <div v-if="tab === 3" class="flex justify-center w-full">
+                <div class="flex flex-col items-stretch gap-4">
+                  <a
+                    href="https://github.com/hoppscotch/hoppscotch/releases"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition neutral-500ite/50 rounded-xl bg-neutral-500/10 border-neutral-500/50 hover:border-neutral-500/80"
+                    target="_blank"
+                  >
+                    Download for Linux
+                  </a>
+                </div>
+              </div>
+            </Transition>
+            <Transition
+              enter-active-class="order-first transition duration-500 "
+              enter-from-class="opacity-0 -translate-y-8"
+              enter-to-class="opacity-100 translate-y-0"
+              leave-active-class="absolute transition duration-500 "
+              leave-from-class="opacity-100 -translate-y-0"
+              leave-to-class="opacity-0 translate-y-8"
+            >
+              <div v-if="tab === 4" class="flex justify-center w-full">
+                <div class="flex flex-col items-stretch gap-4">
+                  <a
+                    href="https://hoppscotch.io"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition neutral-500ite/50 rounded-xl bg-neutral-500/10 border-neutral-500/50 hover:border-neutral-500/80"
+                    target="_blank"
+                  >
+                    Open Web App
+                  </a>
+                </div>
+              </div>
+            </Transition>
+            <Transition
+              enter-active-class="order-first transition duration-500 "
+              enter-from-class="opacity-0 -translate-y-8"
+              enter-to-class="opacity-100 translate-y-0"
+              leave-active-class="absolute transition duration-500 "
+              leave-from-class="opacity-100 -translate-y-0"
+              leave-to-class="opacity-0 translate-y-8"
+            >
+              <div v-if="tab === 5" class="flex justify-center w-full">
+                <div class="flex flex-col items-stretch gap-4">
+                  <a
+                    href="https://docs.hoppscotch.io/documentation/clients/cli"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition neutral-500ite/50 rounded-xl bg-neutral-500/10 border-neutral-500/50 hover:border-neutral-500/80"
+                    target="_blank"
+                  >
+                    Install CLI
+                  </a>
+                </div>
+              </div>
+            </Transition>
+          </div>
+        </div>
       </div>
     </div>
   </section>

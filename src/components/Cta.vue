@@ -63,12 +63,13 @@
                 </a>
               </div>
               <div>
-                <RouterLink
+                <a
                   class="inline-flex items-center justify-center w-full px-4 py-2 text-sm bg-white border rounded-full transition border-neutral-500/20 bg-opacity-10 text-neutral-200 backdrop-blur-md hover:text-neutral-50 hover:border-neutral-500/20 hover:bg-opacity-20"
-                  to="/products/self-host"
+                  href="https://docs.hoppscotch.io/documentation/self-host/getting-started"
+                  target="_blank"
                 >
                   Self-Host from GitHub
-                </RouterLink>
+                </a>
               </div>
             </div>
           </div>

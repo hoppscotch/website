@@ -12,5 +12,5 @@
 
 <template>
   <DownloadProducts />
-  <Features04 />
+  <Cta />
 </template>

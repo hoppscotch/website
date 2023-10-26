@@ -35,9 +35,6 @@ dependencies:
   puppeteer-core:
     specifier: ~21.4.1
     version: 21.4.1
-  swiper:
-    specifier: ^11.0.2
-    version: 11.0.2
   vue:
     specifier: ^3.3.7
     version: 3.3.7(typescript@5.2.2)
@@ -6850,14 +6847,6 @@ packages:
         integrity: sha512-ovssysQTa+luh7A5Weu3Rta6FJlFBBbInjOh722LIt6klpU2/HtdUbszju/G4devcvk8PGt7FCLv5wftu3THUA==,
       }
     dev: true
-
-  /swiper@11.0.2:
-    resolution:
-      {
-        integrity: sha512-JMHZYdUDG0V5ZdzWJkQicW4F7u4edmS4vlOhciTDhcZokDL2N8EE2uP4INxqIgpiJMoeHlwATqZk2yEAW7F6Dw==,
-      }
-    engines: { node: ">= 4.7.0" }
-    dev: false
 
   /symbol-tree@3.2.4:
     resolution:

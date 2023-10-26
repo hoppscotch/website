@@ -1,9 +1,9 @@
 <template>
-  <article id="12-06-2023" class="md:flex">
+  <article id="18-07-2023" class="md:flex">
     <p
       class="flex flex-col h-full mt-px text-xs leading-6 md:sticky pl-7 md:top-20 sm:text-sm text-neutral-200 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
     >
-      <a href="#12-06-2023" class="rounded">June 12, 2023</a>
+      <a href="#18-07-2023" class="rounded">July 18, 2023</a>
     </p>
     <div class="relative pt-2 pb-16 pl-7 md:w-4/5 md:pt-0 md:pl-12">
       <div
@@ -19,7 +19,7 @@
           class="inline-flex items-center px-2 text-xs border rounded-md text-neutral-400 border-neutral-800 bg-neutral-500/10"
         >
           <span class="w-1.5 h-1.5 mr-2 bg-neutral-400 rounded-full"></span>
-          v2023.4.6
+          v2023.4.8
         </span>
         <span
           class="inline-flex items-center px-2 text-xs border rounded-md text-fuchsia-400 border-fuchsia-800 bg-fuchsia-500/10"
@@ -30,7 +30,7 @@
       </div>
       <div>
         <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-neutral-200">
-          <RouterLink to="/changelog/12-06-2023">
+          <RouterLink to="/changelog/18-07-2023">
             Bug fixes and performance improvements
           </RouterLink>
         </h1>
@@ -40,9 +40,25 @@
           fixes and performance improvements.
         </p>
         <ImageZoom
-          src="/images/changelog-12-06-2023.png"
+          src="/images/changelog-18-07-2023.png"
           class="p-2 mt-4 mb-8 border rounded-3xl border-neutral-900"
         />
+        <h5 class="flex items-center">
+          <icon-lucide-badge-check class="mr-3" />
+          Changed
+        </h5>
+        <ul
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-amber-500"
+        >
+          <li class="pl-4">
+            New filled star icon to toggle favorite history entry.
+          </li>
+          <li class="pl-4">
+            Introduce Team-Environments into self-host refactored to pseudo-fp
+            format
+          </li>
+          <li class="pl-4">Team invitation module in pseudo fp-ts format.</li>
+        </ul>
         <h5 class="flex items-center">
           <icon-lucide-check-check class="mr-3" />
           Fixed
@@ -50,14 +66,21 @@
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-teal-500"
         >
-          <li class="pl-4">Stack order of tab inside environment selector.</li>
-          <li class="pl-4">Team environment lost when route changes.</li>
-          <li class="pl-4">Collection request name edit issue.</li>
           <li class="pl-4">
-            Failed to execute 'observe' on 'IntersectionObserver'.
+            Email not being checked case insensitive on team invitation
+            acceptance
           </li>
           <li class="pl-4">
-            URL getting overridden when query params are present.
+            Update vite-plugin-dts version which fixes build issue on
+            docker/alpine.
+          </li>
+          <li class="pl-4">Team environment test cases.</li>
+          <li class="pl-4">
+            Add health-check for hoppscotch-db in docker-compose.
+          </li>
+          <li class="pl-4">Keybinding modifier issue.</li>
+          <li class="pl-4">
+            Reduce the memory consumption during build to prevent OOM.
           </li>
         </ul>
         <h5 class="flex items-center">
@@ -67,7 +90,7 @@
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-neutral-500"
         >
-          <li class="pl-4">Updated i18n strings.</li>
+          <li class="pl-4">Updated Chinese (Taiwan) translations.</li>
         </ul>
       </div>
     </div>

@@ -86,12 +86,13 @@
               </a>
             </div>
             <div>
-              <RouterLink
+              <a
                 class="inline-flex items-center justify-center w-full px-4 py-2 text-sm bg-white border rounded-full transition border-neutral-500/20 bg-opacity-10 text-neutral-200 backdrop-blur-md hover:text-neutral-50 hover:border-neutral-500/20 hover:bg-opacity-20"
-                to="/products/self-host"
+                href="https://docs.hoppscotch.io/documentation/self-host/getting-started"
+                target="_blank"
               >
                 Self-Host from GitHub
-              </RouterLink>
+              </a>
             </div>
           </div>
         </div>
@@ -112,14 +113,14 @@
             <div
               class="relative inline-flex items-center justify-center w-full h-full rounded-lg ring ring-neutral-500/20 md:rounded-xl bg-neutral-950"
             >
-              <img src="/images/screenshot-1.png" alt="Screenshot" />
+              <img src="/images/hero-screenshot.png" alt="Screenshot" />
             </div>
           </div>
           <!-- Video modal trigger -->
           <div
             class="absolute inset-0 flex items-center justify-center bg-gradient-to-b from-transparent to-neutral-950 to-95%"
           >
-            <button
+            <!-- <button
               class="overflow-hidden border rounded-full shadow-xl transition border-neutral-500/10 bg-neutral-500/10 backdrop-blur-md group hover:scale-110"
               @click.stop="videoModalOpen = true"
             >
@@ -139,7 +140,7 @@
                   />
                 </svg>
               </div>
-            </button>
+            </button> -->
           </div>
         </div>
       </div>
