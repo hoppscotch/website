@@ -314,6 +314,9 @@
     "getActiveHead": true,
     "WritableComputedRef": true,
     "injectLocal": true,
-    "provideLocal": true
+    "provideLocal": true,
+    "ExtractDefaultPropTypes": true,
+    "ExtractPropTypes": true,
+    "ExtractPublicPropTypes": true
   }
 }

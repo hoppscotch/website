@@ -107,6 +107,7 @@ declare module "vue" {
     IconLucideMapPin: (typeof import("~icons/lucide/map-pin"))["default"]
     IconLucideMenu: (typeof import("~icons/lucide/menu"))["default"]
     IconLucideMonitor: (typeof import("~icons/lucide/monitor"))["default"]
+    IconLucideNewspaper: (typeof import("~icons/lucide/newspaper"))["default"]
     IconLucidePackage: (typeof import("~icons/lucide/package"))["default"]
     IconLucidePackage2: (typeof import("~icons/lucide/package2"))["default"]
     IconLucidePalette: (typeof import("~icons/lucide/palette"))["default"]

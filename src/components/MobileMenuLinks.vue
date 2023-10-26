@@ -1,6 +1,52 @@
 <template>
   <div class="flex flex-col flex-nowrap">
     <RouterLink
+      class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-200/80 hover:text-neutral-200 hover:bg-neutral-800/50"
+      to="/download"
+    >
+      <icon-lucide-download class="mr-3" />
+      Download
+    </RouterLink>
+    <RouterLink
+      class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-200/80 hover:text-neutral-200 hover:bg-neutral-800/50"
+      to="/pricing"
+    >
+      <icon-lucide-gem class="mr-3" />
+      Pricing
+    </RouterLink>
+    <RouterLink
+      class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-200/80 hover:text-neutral-200 hover:bg-neutral-800/50"
+      to="/changelog"
+    >
+      <icon-lucide-scroll-text class="mr-3" />
+      Changelog
+    </RouterLink>
+    <RouterLink
+      class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-200/80 hover:text-neutral-200 hover:bg-neutral-800/50"
+      to="/blog"
+    >
+      <icon-lucide-newspaper class="mr-3" />
+      Blog
+    </RouterLink>
+    <RouterLink
+      class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-200/80 hover:text-neutral-200 hover:bg-neutral-800/50"
+      to="/careers"
+    >
+      <icon-lucide-briefcase class="mr-3" />
+      Careers
+    </RouterLink>
+    <a
+      class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-200/80 hover:text-neutral-200 hover:bg-neutral-800/50"
+      href="https://docs.hoppscotch.io"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <icon-lucide-file-text class="mr-3" />
+      Documentation
+    </a>
+  </div>
+  <!-- <div class="flex flex-col flex-nowrap">
+    <RouterLink
       to="/products"
       class="px-2 py-1 mb-4 text-sm rounded-lg transition text-neutral-200 hover:text-neutral-50"
     >
@@ -309,7 +355,7 @@
         </a>
         <a
           class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-300 hover:text-neutral-50 hover:bg-neutral-800/50"
-          href="https://github.com/hoppscotch/hoppscotch"
+          href="https://docs.hoppscotch.io/documentation/self-host/getting-started"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -396,5 +442,5 @@
         Shop
       </a>
     </div>
-  </div>
+  </div> -->
 </template>

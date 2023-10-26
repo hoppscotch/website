@@ -26,7 +26,12 @@
       }"
     >
       <!-- Navigation -->
-      <nav class="flex grow">
+      <nav
+        class="flex flex-grow"
+        :class="{
+          'flex-grow-0': menuOpen,
+        }"
+      >
         <!-- Site branding -->
         <div
           class="flex items-center justify-start flex-1 flex-shrink-0 flex-nowrap"

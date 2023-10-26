@@ -47,8 +47,8 @@ devDependencies:
     specifier: ^1.1.137
     version: 1.1.137
   "@types/node":
-    specifier: ^20.8.8
-    version: 20.8.8
+    specifier: ^20.8.9
+    version: 20.8.9
   "@typescript-eslint/parser":
     specifier: ^6.9.0
     version: 6.9.0(eslint@8.52.0)(typescript@5.2.2)
@@ -92,8 +92,8 @@ devDependencies:
     specifier: ^3.0.3
     version: 3.0.3
   sass:
-    specifier: ^1.69.4
-    version: 1.69.4
+    specifier: ^1.69.5
+    version: 1.69.5
   stylelint:
     specifier: ^15.11.0
     version: 15.11.0(typescript@5.2.2)
@@ -107,14 +107,14 @@ devDependencies:
     specifier: ^34.0.0
     version: 34.0.0(stylelint@15.11.0)
   tailwindcss:
-    specifier: ^3.3.4
-    version: 3.3.4
+    specifier: ^3.3.5
+    version: 3.3.5
   typescript:
     specifier: ^5.2.2
     version: 5.2.2
   unplugin-auto-import:
-    specifier: ^0.16.6
-    version: 0.16.6(@vueuse/core@10.5.0)
+    specifier: ^0.16.7
+    version: 0.16.7(@vueuse/core@10.5.0)
   unplugin-fonts:
     specifier: ^1.0.3
     version: 1.0.3(vite@4.5.0)
@@ -126,7 +126,7 @@ devDependencies:
     version: 0.25.2(vue@3.3.7)
   vite:
     specifier: ^4.5.0
-    version: 4.5.0(@types/node@20.8.8)(sass@1.69.4)
+    version: 4.5.0(@types/node@20.8.9)(sass@1.69.5)
   vite-plugin-pages:
     specifier: ^0.31.0
     version: 0.31.0(vite@4.5.0)
@@ -134,8 +134,8 @@ devDependencies:
     specifier: ^0.8.0
     version: 0.8.0(vite@4.5.0)(vue-router@4.2.5)(vue@3.3.7)
   vite-ssg:
-    specifier: ^0.23.3
-    version: 0.23.3(vite@4.5.0)(vue-router@4.2.5)(vue@3.3.7)
+    specifier: ^0.23.4
+    version: 0.23.4(vite@4.5.0)(vue-router@4.2.5)(vue@3.3.7)
   vite-ssg-sitemap:
     specifier: ^0.6.0
     version: 0.6.0
@@ -187,13 +187,6 @@ packages:
     dependencies:
       execa: 5.1.1
       find-up: 5.0.0
-    dev: true
-
-  /@antfu/utils@0.7.5:
-    resolution:
-      {
-        integrity: sha512-dlR6LdS+0SzOAPx/TPRhnoi7hE251OVeT2Snw0RguNbBSbjUHdWr0l3vcUUDg26rEysT89kCbtw1lVorBXLLCg==,
-      }
     dev: true
 
   /@antfu/utils@0.7.6:
@@ -1183,23 +1176,6 @@ packages:
       - supports-color
     dev: false
 
-  /@rollup/pluginutils@5.0.2:
-    resolution:
-      {
-        integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==,
-      }
-    engines: { node: ">=14.0.0" }
-    peerDependencies:
-      rollup: ^1.20.0||^2.0.0||^3.0.0
-    peerDependenciesMeta:
-      rollup:
-        optional: true
-    dependencies:
-      "@types/estree": 1.0.1
-      estree-walker: 2.0.2
-      picomatch: 2.3.1
-    dev: true
-
   /@rollup/pluginutils@5.0.4:
     resolution:
       {
@@ -1232,8 +1208,6 @@ packages:
       "@types/estree": 1.0.3
       estree-walker: 2.0.2
       picomatch: 2.3.1
-    dev: false
-    optional: true
 
   /@sparticuz/chromium@118.0.0:
     resolution:
@@ -1284,8 +1258,6 @@ packages:
         integrity: sha512-CS2rOaoQ/eAgAfcTfq6amKG7bsN+EMcgGY4FAFQdvSj2y1ixvOZTUA9mOtCai7E1SYu283XNw7urKK30nP3wkQ==,
       }
     requiresBuild: true
-    dev: false
-    optional: true
 
   /@types/minimist@1.2.4:
     resolution:
@@ -1301,13 +1273,13 @@ packages:
       }
     dev: true
 
-  /@types/node@20.8.8:
+  /@types/node@20.8.9:
     resolution:
       {
-        integrity: sha512-YRsdVxq6OaLfmR9Hy816IMp33xOBjfyOgUd77ehqg96CFywxAPbDbXvAsuN2KVg2HOT8Eh6uAfU+l4WffwPVrQ==,
+        integrity: sha512-UzykFsT3FhHb1h7yD4CA4YhBHq545JC0YnEz41xkipN88eKQtL6rSgocL5tbAP6Ola9Izm/Aw4Ora8He4x0BHg==,
       }
     dependencies:
-      undici-types: 5.25.3
+      undici-types: 5.26.5
 
   /@types/normalize-package-data@2.4.3:
     resolution:
@@ -1329,7 +1301,7 @@ packages:
       }
     requiresBuild: true
     dependencies:
-      "@types/node": 20.8.8
+      "@types/node": 20.8.9
     dev: false
     optional: true
 
@@ -1488,7 +1460,7 @@ packages:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.5.0(@types/node@20.8.8)(sass@1.69.4)
+      vite: 4.5.0(@types/node@20.8.9)(sass@1.69.5)
       vue: 3.3.7(typescript@5.2.2)
     dev: true
 
@@ -3268,7 +3240,7 @@ packages:
       }
     requiresBuild: true
     dependencies:
-      "@types/estree": 1.0.1
+      "@types/estree": 1.0.3
     dev: false
     optional: true
 
@@ -6300,10 +6272,10 @@ packages:
       }
     dev: true
 
-  /sass@1.69.4:
+  /sass@1.69.5:
     resolution:
       {
-        integrity: sha512-+qEreVhqAy8o++aQfCJwp0sklr2xyEzkm9Pp/Igu9wNPoe7EZEQ8X/MBvvXggI2ql607cxKg/RKOwDj6pp2XDA==,
+        integrity: sha512-qg2+UCJibLr2LCVOt3OlPhr/dqVHWOa9XtZf2OjbLs/T4VPSJ00udtgJxH3neXZm+QqX8B+3cU7RaLqp1iVfcQ==,
       }
     engines: { node: ">=14.0.0" }
     hasBin: true
@@ -6639,15 +6611,6 @@ packages:
     engines: { node: ">=8" }
     dev: true
 
-  /strip-literal@1.0.1:
-    resolution:
-      {
-        integrity: sha512-QZTsipNpa2Ppr6v1AmJHESqJ3Uz247MUS0OjrnnZjFAvEoWqxuyFuXn2xLgMtRnijJShAa1HL0gtJyUs7u7n3Q==,
-      }
-    dependencies:
-      acorn: 8.10.0
-    dev: true
-
   /strip-literal@1.3.0:
     resolution:
       {
@@ -6656,8 +6619,6 @@ packages:
     requiresBuild: true
     dependencies:
       acorn: 8.10.0
-    dev: false
-    optional: true
 
   /style-search@0.1.0:
     resolution:
@@ -6880,10 +6841,10 @@ packages:
       strip-ansi: 6.0.1
     dev: true
 
-  /tailwindcss@3.3.4:
+  /tailwindcss@3.3.5:
     resolution:
       {
-        integrity: sha512-JXZNOkggUAc9T5E7nCrimoXHcSf9h3NWFe5sh36CGD/3M5TRLuQeFnQoDsit2uVTqgoOZHLx5rTykLUu16vsMQ==,
+        integrity: sha512-5SEZU4J7pxZgSkv7FP1zY8i2TIAOooNZ1e/OGtxIEv6GltpoiXUqWvLy89+a10qYTB1N5Ifkuw9lqQkN9sscvA==,
       }
     engines: { node: ">=14.0.0" }
     hasBin: true
@@ -7182,15 +7143,15 @@ packages:
     dependencies:
       acorn: 8.10.0
       estree-walker: 3.0.3
-      magic-string: 0.30.3
+      magic-string: 0.30.5
       unplugin: 1.5.0
     dev: false
     optional: true
 
-  /undici-types@5.25.3:
+  /undici-types@5.26.5:
     resolution:
       {
-        integrity: sha512-Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA==,
+        integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==,
       }
 
   /unhead@1.7.4:
@@ -7203,27 +7164,6 @@ packages:
       "@unhead/schema": 1.7.4
       "@unhead/shared": 1.7.4
       hookable: 5.5.3
-    dev: true
-
-  /unimport@3.0.14:
-    resolution:
-      {
-        integrity: sha512-67Rh/sGpEuVqdHWkXaZ6NOq+I7sKt86o+DUtKeGB6dh4Hk1A8AQrzyVGg2+LaVEYotStH7HwvV9YSaRjyT7Uqg==,
-      }
-    dependencies:
-      "@rollup/pluginutils": 5.0.2
-      escape-string-regexp: 5.0.0
-      fast-glob: 3.3.0
-      local-pkg: 0.4.3
-      magic-string: 0.30.1
-      mlly: 1.4.0
-      pathe: 1.1.1
-      pkg-types: 1.0.3
-      scule: 1.0.0
-      strip-literal: 1.0.1
-      unplugin: 1.3.2
-    transitivePeerDependencies:
-      - rollup
     dev: true
 
   /unimport@3.4.0:
@@ -7246,8 +7186,6 @@ packages:
       unplugin: 1.5.0
     transitivePeerDependencies:
       - rollup
-    dev: false
-    optional: true
 
   /universalify@0.1.2:
     resolution:
@@ -7291,10 +7229,10 @@ packages:
       - rollup
     dev: false
 
-  /unplugin-auto-import@0.16.6(@vueuse/core@10.5.0):
+  /unplugin-auto-import@0.16.7(@vueuse/core@10.5.0):
     resolution:
       {
-        integrity: sha512-M+YIITkx3C/Hg38hp8HmswP5mShUUyJOzpifv7RTlAbeFlO2Tyw0pwrogSSxnipHDPTtI8VHFBpkYkNKzYSuyA==,
+        integrity: sha512-w7XmnRlchq6YUFJVFGSvG1T/6j8GrdYN6Em9Wf0Ye+HXgD/22kont+WnuCAA0UaUoxtuvRR1u/mXKy63g/hfqQ==,
       }
     engines: { node: ">=14" }
     peerDependencies:
@@ -7306,15 +7244,15 @@ packages:
       "@vueuse/core":
         optional: true
     dependencies:
-      "@antfu/utils": 0.7.5
-      "@rollup/pluginutils": 5.0.2
+      "@antfu/utils": 0.7.6
+      "@rollup/pluginutils": 5.0.5
       "@vueuse/core": 10.5.0(vue@3.3.7)
-      fast-glob: 3.3.0
-      local-pkg: 0.4.3
-      magic-string: 0.30.1
+      fast-glob: 3.3.1
+      local-pkg: 0.5.0
+      magic-string: 0.30.5
       minimatch: 9.0.3
-      unimport: 3.0.14
-      unplugin: 1.3.2
+      unimport: 3.4.0
+      unplugin: 1.5.0
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -7333,7 +7271,7 @@ packages:
     dependencies:
       fast-glob: 3.3.0
       unplugin: 1.4.0
-      vite: 4.5.0(@types/node@20.8.8)(sass@1.69.4)
+      vite: 4.5.0(@types/node@20.8.9)(sass@1.69.5)
     dev: true
 
   /unplugin-icons@0.17.1:
@@ -7400,18 +7338,6 @@ packages:
     transitivePeerDependencies:
       - rollup
       - supports-color
-    dev: true
-
-  /unplugin@1.3.2:
-    resolution:
-      {
-        integrity: sha512-Lh7/2SryjXe/IyWqx9K7IKwuKhuOFZEhotiBquOODsv2IVyDkI9lv/XhgfjdXf/xdbv32txmnBNnC/JVTDJlsA==,
-      }
-    dependencies:
-      acorn: 8.10.0
-      chokidar: 3.5.3
-      webpack-sources: 3.2.3
-      webpack-virtual-modules: 0.5.0
     dev: true
 
   /unplugin@1.4.0:
@@ -7554,7 +7480,7 @@ packages:
       json5: 2.2.3
       local-pkg: 0.4.3
       picocolors: 1.0.0
-      vite: 4.5.0(@types/node@20.8.8)(sass@1.69.4)
+      vite: 4.5.0(@types/node@20.8.9)(sass@1.69.5)
       yaml: 2.3.1
     transitivePeerDependencies:
       - supports-color
@@ -7573,7 +7499,7 @@ packages:
       "@vue/compiler-sfc": 3.3.4
       debug: 4.3.4
       fast-glob: 3.3.0
-      vite: 4.5.0(@types/node@20.8.8)(sass@1.69.4)
+      vite: 4.5.0(@types/node@20.8.9)(sass@1.69.5)
       vue: 3.3.7(typescript@5.2.2)
       vue-router: 4.2.5(vue@3.3.7)
     transitivePeerDependencies:
@@ -7587,16 +7513,16 @@ packages:
       }
     dev: true
 
-  /vite-ssg@0.23.3(vite@4.5.0)(vue-router@4.2.5)(vue@3.3.7):
+  /vite-ssg@0.23.4(vite@4.5.0)(vue-router@4.2.5)(vue@3.3.7):
     resolution:
       {
-        integrity: sha512-SinJROcjl3/wvfB9fTMFjcGnDj42AOaYG4FAPz4FVnazX87qgb1U+q87JrgzLz2PiYKAacPYBMQSHTIjvsnJyw==,
+        integrity: sha512-y86Jj+BQMpXPDBZ+sJleE3EuGp9EGPX+IiAGGxG9on/8Vak45ubpsuSjL6inv4afGKe7QFVmMH7bAID81U6SAQ==,
       }
     engines: { node: ">=14.0.0" }
     hasBin: true
     peerDependencies:
       critters: ^0.0.16
-      vite: ^2.0.0 || ^3.0.0 || ^4.0.0
+      vite: ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0-0
       vue: ^3.2.10
       vue-router: ^4.0.1
     peerDependenciesMeta:
@@ -7613,7 +7539,7 @@ packages:
       jsdom: 22.1.0
       kolorist: 1.8.0
       prettier: 3.0.3
-      vite: 4.5.0(@types/node@20.8.8)(sass@1.69.4)
+      vite: 4.5.0(@types/node@20.8.9)(sass@1.69.5)
       vue: 3.3.7(typescript@5.2.2)
       vue-router: 4.2.5(vue@3.3.7)
       yargs: 17.7.2
@@ -7624,7 +7550,7 @@ packages:
       - utf-8-validate
     dev: true
 
-  /vite@4.5.0(@types/node@20.8.8)(sass@1.69.4):
+  /vite@4.5.0(@types/node@20.8.9)(sass@1.69.5):
     resolution:
       {
         integrity: sha512-ulr8rNLA6rkyFAlVWw2q5YJ91v098AFQ2R0PRFwPzREXOUJQPtFUG0t+/ZikhaOCDqFoDhN6/v8Sq0o4araFAw==,
@@ -7655,11 +7581,11 @@ packages:
       terser:
         optional: true
     dependencies:
-      "@types/node": 20.8.8
+      "@types/node": 20.8.9
       esbuild: 0.18.20
       postcss: 8.4.31
       rollup: 3.29.4
-      sass: 1.69.4
+      sass: 1.69.5
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
