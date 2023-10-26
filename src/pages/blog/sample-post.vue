@@ -90,7 +90,7 @@
               />
               <div class="text-sm">
                 <span class="transition text-neutral-200/50">
-                  Anastasia Dan
+                  Liyas Thomas
                 </span>
               </div>
             </div>

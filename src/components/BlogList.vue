@@ -58,7 +58,7 @@
               </li>
             </ul>
           </div>
-          <h4 class="max-w-2xl mb-4">
+          <h4 class="w-4/5 mb-4">
             <RouterLink
               :to="`/blog/${blog.slug}`"
               class="transition text-neutral-200 hover:text-neutral-100"

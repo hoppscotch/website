@@ -1,156 +1,26 @@
 [
   {
-    "slug": "sample-post",
-    "title": "June 2023 Release - Team workspaces, Tabs, Self-hosting support and more",
-    "description": "This is a sample post for testing",
-    "banner": "blog-sample-post.png",
-    "date": "2023-03-27",
+    "slug": "introducing-hoppscotch-desktop-application",
+    "title": "Introducing Hoppscotch Desktop Application",
+    "description": "We have been working hard to bring some exciting new developments to Hoppscotch.",
+    "banner": "blog-introducing-hoppscotch-desktop-application.jpg",
+    "date": "2023-10-28",
     "author": {
       "name": "Liyas Thomas",
       "image": "blog-author-01.jpg"
     },
-    "styles": "md:col-span-12",
-    "tags": ["Product", "Engineering", "Design"]
-  },
-  {
-    "slug": "march-2023-release",
-    "title": "March 2023 Release",
-    "description": "Team workspaces, Tabs, Self-hosting support and more. Explore what's new in Hoppscotch March 2023 Release",
-    "banner": "blog-march-2023-release.png",
-    "date": "2023-03-27",
-    "author": {
-      "name": "Liyas Thomas",
-      "image": "blog-author-02.jpg"
-    },
     "styles": "md:col-span-6",
-    "tags": ["Product", "Engineering", "Design"]
+    "tags": ["Product"]
   },
   {
-    "slug": "50000-github-stars",
-    "title": "Celebrating 50,000 GitHub Stars",
-    "description": "Hoppscotch just received its 50,000th star on GitHub. We'll use this milestone to recap Hoppscotch’s growth and other important milestones since its beginning.",
-    "banner": "blog-50000-github-stars.png",
-    "date": "2023-02-22",
-    "author": {
-      "name": "Liyas Thomas",
-      "image": "blog-author-03.jpg"
-    },
-    "styles": "md:col-span-6",
-    "tags": ["Product", "Engineering", "Design"]
-  },
-  {
-    "slug": "create-teams-for-collaboration-in-hoppscotch",
-    "title": "Create Teams for Collaboration in Hoppscotch",
-    "description": "Today Hoppscotch is launching Teams Collaboration support with no caps.",
-    "banner": "blog-create-teams-for-collaboration-in-hoppscotch.png",
-    "date": "2021-12-29",
-    "author": {
-      "name": "Liyas Thomas",
-      "image": "blog-author-04.jpg"
-    },
-    "styles": "md:col-span-12",
-    "tags": ["Product", "Engineering", "Design"]
-  },
-  {
-    "slug": "hoppscotch-raises-3m-in-seed-funding-to-build-open-source-api-development-ecosystem",
-    "title": "Hoppscotch raises $3M in seed funding to build open source API development ecosystem",
-    "description": "We have come a long way and we are excited to share the latest milestones in our journey.",
-    "banner": "blog-hoppscotch-raises-3m-in-seed-funding-to-build-open-source-api-development-ecosystem.png",
-    "date": "2021-12-13",
-    "author": {
-      "name": "Liyas Thomas",
-      "image": "blog-author-05.jpg"
-    },
-    "styles": "md:col-span-6",
-    "tags": ["Product", "Engineering", "Design"]
-  },
-  {
-    "slug": "hoppscotch-v2",
-    "title": "Hoppscotch v2",
-    "description": "Today we're rolling out Hoppscotch v2 for everyone.",
-    "banner": "blog-hoppscotch-v2.png",
-    "date": "2021-08-28",
-    "author": {
-      "name": "Liyas Thomas",
-      "image": "blog-author-06.jpg"
-    },
-    "styles": "md:col-span-6",
-    "tags": ["Product", "Engineering", "Design"]
-  },
-  {
-    "slug": "hoppscotch-is-celebrating-30-000-github-stars",
-    "title": "Hoppscotch is celebrating 30,000 GitHub Stars",
-    "description": "Since the initial commit (~2 years ago), Hoppscotch has evolved from being an open-source side project to an enterprise developer tool.",
-    "banner": "blog-hoppscotch-is-celebrating-30-000-github-stars.png",
-    "date": "2021-08-02",
-    "author": {
-      "name": "Liyas Thomas",
-      "image": "blog-author-02.jpg"
-    },
-    "styles": "md:col-span-6",
-    "tags": ["Product", "Engineering", "Design"]
-  },
-  {
-    "slug": "github-externship-hoppscotch",
-    "title": "GitHub Externship - Hoppscotch",
-    "description": "We are super excited to be a ‘Partner Organization’ of GitHub Externship and look forward to supporting all interested students to participate and contribute to our open-source projects.",
-    "banner": "blog-github-externship-hoppscotch.png",
-    "date": "2021-09-26",
-    "author": {
-      "name": "Liyas Thomas",
-      "image": "blog-author-04.jpg"
-    },
-    "styles": "md:col-span-6",
-    "tags": ["Product", "Engineering", "Design"]
-  },
-  {
-    "slug": "hoppscotch-celebrating-25-000-github-stars",
-    "title": "Hoppscotch Celebrating 25,000 GitHub Stars",
-    "description": "Hoppscotch just received its 25,000th star on GitHub. We'll use this milestone to recap Hoppscotch’s growth and other important milestones since its beginning.",
-    "banner": "blog-hoppscotch-celebrating-25-000-github-stars.png",
-    "date": "2020-11-10",
+    "slug": "introducing-hoppscotch-enterprise-edition",
+    "title": "Introducing Hoppscotch Enterprise Edition",
+    "description": "We are thrilled to reveal our Hoppscotch August Release, v2023.8.0.",
+    "banner": "blog-introducing-hoppscotch-enterprise-edition.png",
+    "date": "2023-08-31",
     "author": {
       "name": "Liyas Thomas",
       "image": "blog-author-01.jpg"
-    },
-    "styles": "md:col-span-12",
-    "tags": ["Product", "Engineering", "Design"]
-  },
-  {
-    "slug": "hacktoberfest-with-hoppscotch",
-    "title": "Hacktoberfest with Hoppscotch",
-    "description": "We're developing Hoppscotch, an open-source API request builder for the web, and would love to count you as a contributor to improve our components & applications.",
-    "banner": "blog-hacktoberfest-with-hoppscotch.png",
-    "date": "2019-10-01",
-    "author": {
-      "name": "Liyas Thomas",
-      "image": "blog-author-02.jpg"
-    },
-    "styles": "md:col-span-12",
-    "tags": ["Product", "Engineering", "Design"]
-  },
-  {
-    "slug": "creating-hoppscotch",
-    "title": "Creating Hoppscotch",
-    "description": "The story behind Hoppscotch, The very first task I was assigned is an API integration of an old project. That's when I came across the Postman.",
-    "banner": "blog-creating-hoppscotch.png",
-    "date": "2019-08-22",
-    "author": {
-      "name": "Liyas Thomas",
-      "image": "blog-author-04.jpg"
-    },
-    "styles": "md:col-span-6",
-    "tags": ["Product", "Engineering", "Design"]
-  },
-  {
-    "slug": "hoppscotch-v1",
-    "title": "Hoppscotch v1",
-    "description": "Today we're rolling out Hoppscotch v1 for everyone. Let's take a look at what's new. What we've been working on for the past few days.",
-    "banner": "blog-hoppscotch-v1.png",
-    "date": "2019-08-04",
-    "author": {
-      "name": "Liyas Thomas",
-      "image": "blog-author-03.jpg"
     },
     "styles": "md:col-span-6",
     "tags": ["Product", "Engineering", "Design"]
