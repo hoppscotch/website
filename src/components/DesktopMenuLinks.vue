@@ -11,12 +11,12 @@
     scrollHeight.value = y
     if (y > 8) {
       apply({
-        width: "510.1px",
+        width: "410.2px",
         // width: "495px",
       })
     } else {
       apply({
-        width: "413.5px",
+        width: "313.5px",
         // width: "398px",
       })
     }
@@ -49,13 +49,6 @@
     class="items-center justify-start flex-shrink-0 hidden p-1 border rounded-full flex-nowrap md:flex border-neutral-300/10"
   >
     <div class="relative flex items-center group/nav">
-      <RouterLink
-        to="/download"
-        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-neutral-200/60 hover:text-neutral-100/80"
-        @mouseenter="onTabMouseEnter"
-      >
-        Download
-      </RouterLink>
       <RouterLink
         to="/changelog"
         class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-neutral-200/60 hover:text-neutral-100/80"

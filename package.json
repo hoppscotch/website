@@ -36,7 +36,7 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-html": "7.1.0",
     "eslint-plugin-prettier": "5.0.1",
-    "eslint-plugin-vue": "^9.18.0",
+    "eslint-plugin-vue": "^9.18.1",
     "husky": "^8.0.3",
     "lint-staged": "^15.0.2",
     "postcss": "^8.4.31",
@@ -60,7 +60,7 @@
     "vite-ssg-sitemap": "^0.6.0",
     "vue-eslint-parser": "^9.3.2",
     "vue-router": "^4.2.5",
-    "vue-tsc": "^1.8.21"
+    "vue-tsc": "^1.8.22"
   },
   "husky": {
     "hooks": {
