@@ -1,7 +1,7 @@
 <script setup lang="ts">
-  import TestimonialImg01 from "/images/testimonial-01.jpg"
-  import TestimonialImg02 from "/images/testimonial-02.jpg"
-  import TestimonialImg03 from "/images/testimonial-03.jpg"
+  import TestimonialImg01 from "/images/testimonial-01.jpeg"
+  import TestimonialImg02 from "/images/testimonial-02.jpeg"
+  import TestimonialImg03 from "/images/testimonial-03.jpeg"
 
   interface Testimonial {
     img: string
@@ -17,21 +17,22 @@
   const items = ref<Testimonial[]>([
     {
       img: TestimonialImg01,
-      quote: "Truly amazing. I've never seen anything like this before.",
-      name: "Jessie J",
-      role: "Ltd Head of Product",
+      quote:
+        "Hoppscotch is the future of API development infrastructure, and the future is here.",
+      name: "Joseph Jacks",
+      role: "Founder, OSS Capital",
     },
     {
       img: TestimonialImg02,
-      quote: "Hoppscotch is a great tool for API development.",
-      name: "Mark Luk",
-      role: "Spark Founder & CEO",
+      quote: "Hoppscotch which gives me all of the functions I need.",
+      name: "Jason McFeetors",
+      role: "Automation Evangelist, n8n",
     },
     {
       img: TestimonialImg03,
       quote: "Our team loves Hoppscotch. Saved us a lot of time.",
-      name: "Jeff Kahl",
-      role: "Appy Product Lead",
+      name: "Rakshit Arora",
+      role: "Founder, MoonlightDevs",
     },
   ])
 
