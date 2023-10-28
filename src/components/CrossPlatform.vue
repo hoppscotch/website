@@ -9,9 +9,8 @@
       <div
         class="absolute bg-center inset-0 h-full w-full bg-[radial-gradient(theme(colors.neutral.400)1A_1px,transparent_1px)] [background-size:18px_18px]"
       ></div>
-      <RouterLink
+      <div
         class="relative inline-flex items-center px-8 py-4 mx-auto overflow-hidden rounded-full transition transform bg-neutral-800/80 hover:scale-110 group"
-        to="/download"
       >
         <div
           class="absolute inset-0 flex items-center [container-type:inline-size]"
@@ -27,9 +26,9 @@
         <span
           class="relative text-lg font-medium text-transparent transition-all duration-200 font-mona bg-gradient-to-b from-neutral-200/25 to-neutral-50 bg-clip-text"
         >
-          Get Desktop App
+          Comming Soon
         </span>
-      </RouterLink>
+      </div>
     </div>
   </div>
 </template>
