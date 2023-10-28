@@ -28,12 +28,12 @@
       {
         property: "og:image",
         content:
-          "https://next.hoppscotch.com/.netlify/functions/og-image?type=blog&slug=sample-post",
+          "https://next.hoppscotch.com/.netlify/functions/og-image?type=blog&slug=introducing-hoppscotch-enterprise-edition",
       },
       {
         name: "twitter:image",
         content:
-          "https://next.hoppscotch.com/.netlify/functions/og-image?type=blog&slug=sample-post",
+          "https://next.hoppscotch.com/.netlify/functions/og-image?type=blog&slug=introducing-hoppscotch-enterprise-edition",
       },
       {
         property: "og:type",
@@ -41,7 +41,8 @@
       },
       {
         property: "og:url",
-        content: "https://next.hoppscotch.com/blog/sample-post",
+        content:
+          "https://next.hoppscotch.com/blog/introducing-hoppscotch-enterprise-edition",
       },
     ],
   })

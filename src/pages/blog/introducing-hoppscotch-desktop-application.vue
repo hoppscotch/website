@@ -28,12 +28,12 @@
       {
         property: "og:image",
         content:
-          "https://next.hoppscotch.com/.netlify/functions/og-image?type=blog&slug=sample-post",
+          "https://next.hoppscotch.com/.netlify/functions/og-image?type=blog&slug=introducing-hoppscotch-desktop-application",
       },
       {
         name: "twitter:image",
         content:
-          "https://next.hoppscotch.com/.netlify/functions/og-image?type=blog&slug=sample-post",
+          "https://next.hoppscotch.com/.netlify/functions/og-image?type=blog&slug=introducing-hoppscotch-desktop-application",
       },
       {
         property: "og:type",
@@ -41,7 +41,8 @@
       },
       {
         property: "og:url",
-        content: "https://next.hoppscotch.com/blog/sample-post",
+        content:
+          "https://next.hoppscotch.com/blog/introducing-hoppscotch-desktop-application",
       },
     ],
   })
@@ -134,7 +135,7 @@
           <section class="max-w-4xl">
             <ImageZoom
               class="w-full h-full rounded-xl"
-              src="/images/blog-sample-post.png"
+              src="/images/blog-introducing-hoppscotch-desktop-application.png"
               width="352"
               height="198"
               alt="News 01"
