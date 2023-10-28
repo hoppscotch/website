@@ -1,0 +1,21 @@
+<script setup lang="ts">
+  useHead({
+    title: "About • Hoppscotch",
+    meta: [
+      {
+        name: "description",
+        content: "We're the humans behind Hoppscotch.",
+      },
+    ],
+  })
+</script>
+
+<template>
+  <HeroAbout />
+  <AboutStory />
+  <TeamLocations />
+  <TeamMembers />
+  <OpenPositions />
+  <Testimonials />
+  <Cta />
+</template>

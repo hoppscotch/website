@@ -1,0 +1,116 @@
+<script setup lang="ts">
+  const props = defineProps({
+    id: { type: String, required: true },
+    ariaLabel: { type: String, default: "Modal" },
+    modalOpen: { type: Boolean, required: true, default: false },
+  })
+
+  const emit = defineEmits(["closeModal"])
+
+  const modalContent = ref<HTMLElement | null>(null)
+
+  const clickHandler = (event: MouseEvent) => {
+    if (
+      !props.modalOpen ||
+      !modalContent.value ||
+      modalContent.value.contains(event.target as Node)
+    ) {
+      return
+    }
+
+    emit("closeModal")
+  }
+
+  const keyHandler = (event: KeyboardEvent) => {
+    if (!props.modalOpen || event.key !== "Escape") {
+      return
+    }
+
+    emit("closeModal")
+  }
+
+  let clickListener: (() => void) | null = null
+  let keydownListener: (() => void) | null = null
+
+  watch(
+    () => props.modalOpen,
+    (isOpen) => {
+      if (isOpen) {
+        clickListener = useEventListener("click", clickHandler)
+        keydownListener = useEventListener("keydown", keyHandler)
+      } else {
+        cleanupClick()
+        cleanupKeydown()
+      }
+    }
+  )
+
+  const cleanupClick = () => {
+    if (clickListener) {
+      clickListener()
+      clickListener = null
+    }
+  }
+
+  const cleanupKeydown = () => {
+    if (keydownListener) {
+      keydownListener()
+      keydownListener = null
+    }
+  }
+
+  onBeforeUnmount(() => {
+    cleanupClick()
+    cleanupKeydown()
+  })
+</script>
+
+<template>
+  <!-- Modal backdrop -->
+  <Transition
+    enter-active-class="transition duration-200 ease-out"
+    enter-from-class="opacity-0"
+    enter-to-class="opacity-100"
+    leave-active-class="transition duration-100 ease-out"
+    leave-from-class="opacity-100"
+    leave-to-class="opacity-0"
+  >
+    <div
+      v-if="modalOpen"
+      class="fixed inset-0 z-50 transition-opacity bg-neutral-950/10 backdrop-blur-md"
+      aria-hidden="true"
+    ></div>
+  </Transition>
+
+  <!-- Modal dialog -->
+  <Transition
+    enter-active-class="transition duration-200 ease-out"
+    enter-from-class="opacity-0 scale-95"
+    enter-to-class="opacity-100 scale-100"
+    leave-active-class="transition duration-200 ease-out"
+    leave-from-class="opacity-100 scale-100"
+    leave-to-class="opacity-0 scale-95"
+  >
+    <div
+      v-if="modalOpen"
+      :id="id"
+      class="fixed inset-0 z-50 flex items-center justify-center px-4 overflow-hidden sm:px-6"
+      role="dialog"
+      aria-modal="true"
+      :aria-labelledby="ariaLabel"
+    >
+      <div
+        ref="modalContent"
+        class="relative flex flex-col items-end w-full max-w-6xl max-h-full overflow-auto"
+      >
+        <button
+          class="p-1 mb-4 border rounded-full transition border-neutral-500/20 hover:border-neutral-400/25 bg-white/10"
+          @click="emit('closeModal')"
+        >
+          <icon-lucide-x />
+        </button>
+        <slot />
+      </div>
+    </div>
+  </Transition>
+</template>

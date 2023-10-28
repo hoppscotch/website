@@ -1,32 +1,17 @@
 {
-  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": ["plugin:vue/vue3-recommended", "prettier"],
   "parser": "vue-eslint-parser",
   "parserOptions": {
     "parser": "@typescript-eslint/parser"
   },
-  "extends": [
-    "@antfu",
-    "plugin:vue/strongly-recommended",
-    "eslint:recommended",
-    "plugin:vue/vue3-recommended",
-    "@vue/typescript/recommended",
-    "prettier"
-  ],
-  "plugins": ["@typescript-eslint", "prettier"],
+  "plugins": ["vue", "html", "prettier"],
   "rules": {
-    "semi": [2, "never"],
-    "import/named": "off", // because, named import issue with typescript see: https://github.com/typescript-eslint/typescript-eslint/issues/154
-    "no-console": "off",
-    "no-debugger": "error",
-    "vue/multi-word-component-names": "off",
-    "vue/no-side-effects-in-computed-properties": "off",
-    "import/no-named-as-default": "off",
-    "import/no-named-as-default-member": "off",
-    "@typescript-eslint/no-non-null-assertion": "off",
-    "@typescript-eslint/no-explicit-any": "off",
-    "import/default": "off",
-    "no-undef": "off",
-    "vue/require-default-prop": "off",
-    "vue/no-v-for-template-key": "off"
+    "prettier/prettier": "error",
+    "vue/multi-word-component-names": "off"
   }
 }

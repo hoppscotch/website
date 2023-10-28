@@ -1,12 +1,17 @@
 <script setup lang="ts">
-useHead({
-  title: "Hoppscotch - Solutions",
-})
+  useHead({
+    title: "Solutions • Hoppscotch",
+    meta: [
+      {
+        name: "description",
+        content: "The power to be your best.",
+      },
+    ],
+  })
 </script>
 
 <template>
-  <div class="flex flex-col">
-    <SolutionHero />
-    <SolutionDiagram />
-  </div>
+  <section class="relative">
+    <SolutionsGrid />
+  </section>
 </template>

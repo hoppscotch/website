@@ -1,0 +1,79 @@
+[
+  {
+    "slug": "15-10-2023",
+    "version": "v2023.8.2",
+    "title": "Bug fixes and performance improvements",
+    "date": "October 15, 2023",
+    "banner": "changelog-15-10-2023.png"
+  },
+  {
+    "slug": "18-09-2023",
+    "version": "v2023.8.1",
+    "title": "Bug fixes and performance improvements",
+    "date": "September 18, 2023",
+    "banner": "changelog-18-09-2023.png"
+  },
+  {
+    "slug": "31-08-2023",
+    "version": "v2023.8.0",
+    "title": "Spotlight, environment quick peek and GraphQL improvements",
+    "date": "August 31, 2023",
+    "banner": "changelog-31-08-2023.png"
+  },
+  {
+    "slug": "18-07-2023",
+    "version": "v2023.4.8",
+    "title": "Bug fixes and performance improvements",
+    "date": "July 18, 2023",
+    "banner": "changelog-18-07-2023.png"
+  },
+  {
+    "slug": "27-06-2023",
+    "version": "v2023.4.7",
+    "title": "Bug fixes and performance improvements",
+    "date": "June 27, 2023",
+    "banner": "changelog-27-06-2023.png"
+  },
+  {
+    "slug": "12-06-2023",
+    "version": "v2023.4.6",
+    "title": "Bug fixes and performance improvements",
+    "date": "June 12, 2023",
+    "banner": "changelog-12-06-2023.png"
+  },
+  {
+    "slug": "05-06-2023",
+    "version": "v2023.4.5",
+    "title": "Security guidance",
+    "date": "June 05, 2023",
+    "banner": "changelog-05-06-2023.png"
+  },
+  {
+    "slug": "02-06-2023",
+    "version": "v2023.4.4",
+    "title": "Bug fixes and performance improvements",
+    "date": "June 02, 2023",
+    "banner": "changelog-02-06-2023.png"
+  },
+  {
+    "slug": "23-04-2023",
+    "version": "v2023.4.1",
+    "title": "Bug fixes and performance improvements",
+    "date": "April 23, 2023",
+    "banner": "changelog-23-04-2023.png"
+  },
+  {
+    "slug": "11-04-2023",
+    "version": "v2023.4.0",
+    "title": "Tabs, workspaces and more",
+    "date": "April 11, 2023",
+    "banner": "changelog-11-04-2023.png"
+  },
+  {
+    "slug": "11-05-2023",
+    "version": "v2023.3.0",
+    "title": "Bug fixes and performance improvements",
+    "date": "May 11, 2023",
+    "banner": "changelog-11-05-2023.png"
+  }
+]

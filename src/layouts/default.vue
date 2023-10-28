@@ -1,10 +1,12 @@
 <template>
-  <div class="relative flex flex-col min-h-screen">
-    <HomeHeader />
-    <main class="container flex flex-col flex-1">
+  <div class="flex flex-col min-h-screen">
+    <!-- Site header -->
+    <AppHeader />
+    <!-- Page content -->
+    <main class="flex flex-col overflow-clip grow">
       <RouterView />
     </main>
-    <LandingNewsletter class="container lg:max-w-4xl" />
-    <!-- <HomeFooter class="container lg:max-w-4xl" /> -->
+    <!-- Site footer -->
+    <AppFooter />
   </div>
 </template>

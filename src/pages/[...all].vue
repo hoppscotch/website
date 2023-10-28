@@ -1,35 +1,33 @@
 <script setup lang="ts">
-import { gradients } from "~/assets/data/gradients"
-
-const { t } = useI18n()
-
-useHead({
-  title: "Hoppscotch - Not found",
-})
+  useHead({
+    title: "404 • Hoppscotch",
+    meta: [
+      {
+        name: "description",
+        content: "The page you are looking for does not exist.",
+      },
+    ],
+  })
 </script>
 
 <template>
-  <div class="flex flex-col px-8 py-16">
-    <div class="flex flex-col items-center">
-      <div
-        class="max-w-2xl text-4xl tracking-tight text-center text-transparent transition bg-clip-text bg-gradient-to-br md:text-5xl lg:text-6xl !leading-[initial]"
-        :class="gradients.gray"
-      >
-        {{ t("error.404") }}
-      </div>
-      <div
-        class="my-4 text-xl tracking-tight text-center text-transparent md:w-3/5 bg-clip-text bg-gradient-to-br"
-        :class="gradients.gray"
-      >
-        {{ t("error.404_description") }}
-      </div>
-      <ButtonSecondary
-        to="/"
-        class="mt-4"
-        :label="t('action.home')"
-        outline
-        fill
-      />
-    </div>
+  <div class="flex flex-col items-center justify-center flex-1">
+    <h1 class="mb-2">404</h1>
+    <h2 class="mb-8 text-neutral-200">Page not found</h2>
+    <h4 class="mb-8 text-neutral-100">
+      The page you are looking for does not exist.
+    </h4>
+    <RouterLink
+      class="flex items-center justify-center px-2 py-1 rounded transition text-neutral-200/50 hover:text-neutral-200"
+      to="/"
+    >
+      <icon-lucide-home class="mr-4" />
+      Go back home
+    </RouterLink>
   </div>
 </template>
+
+<route lang="yaml">
+meta:
+  layout: empty
+</route>

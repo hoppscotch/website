@@ -1,40 +1,58 @@
-// register vue composition api globally
 import { ViteSSG } from "vite-ssg"
-import generatedRoutes from "virtual:generated-pages"
+import VueTippy, { roundArrow } from "vue-tippy"
 import { setupLayouts } from "virtual:generated-layouts"
+import generatedRoutes from "virtual:generated-pages"
+import { MotionPlugin } from "@vueuse/motion"
+import { GesturePlugin } from "@vueuse/gesture"
 import App from "./App.vue"
-
-// windicss layers
-import "virtual:windi-base.css"
-import "virtual:windi-components.css"
-
-// your custom styles here
-import "./styles/main.scss"
-
-// windicss utilities should be the last style import
-import "virtual:windi-utilities.css"
-
-// windicss devtools support (dev only)
-import "virtual:windi-devtools"
+import "tippy.js/dist/tippy.css"
+import "tippy.js/dist/svg-arrow.css"
+import "tippy.js/animations/scale-subtle.css"
+import "@fontsource-variable/inter"
+import "@fontsource-variable/plus-jakarta-sans"
+import "./styles/style.scss"
 
 const routes = setupLayouts(generatedRoutes)
 
-// https://github.com/antfu/vite-ssg
 export const createApp = ViteSSG(
   App,
   {
     routes,
     base: import.meta.env.BASE_URL,
-    scrollBehavior() {
-      return {
-        top: 0,
+    scrollBehavior(to, _from, _savedPosition) {
+      if (to.hash) {
+        return {
+          el: to.hash,
+          behavior: "smooth",
+          top: 0,
+        }
+      } else {
+        return { top: 0, behavior: "smooth" }
       }
     },
   },
-  (ctx) => {
-    // install all modules under `modules/`
-    Object.values(import.meta.glob("./modules/*.ts", { eager: true })).forEach(
-      (i) => i.install?.(ctx)
-    )
+  ({ app }) => {
+    app.use(GesturePlugin)
+    app.use(MotionPlugin)
+    app.use(VueTippy, {
+      defaultProps: {
+        animation: "scale-subtle",
+        allowHTML: false,
+        animateFill: false,
+        arrow: roundArrow + roundArrow,
+        offset: [0, 16],
+        popperOptions: {
+          modifiers: [
+            {
+              name: "preventOverflow",
+              options: {
+                rootBoundary: "document",
+                escapeWithReference: true,
+              },
+            },
+          ],
+        },
+      },
+    })
   }
 )
