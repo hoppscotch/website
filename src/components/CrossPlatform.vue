@@ -26,7 +26,7 @@
         <span
           class="relative text-lg font-medium text-transparent transition-all duration-200 font-mona bg-gradient-to-b from-neutral-200/25 to-neutral-50 bg-clip-text"
         >
-          Comming Soon
+          Coming Soon
         </span>
       </div>
     </div>
