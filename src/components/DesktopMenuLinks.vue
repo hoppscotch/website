@@ -2,8 +2,8 @@
   import { useScroll } from "@vueuse/gesture"
   import { useMotion } from "@vueuse/motion"
 
-  const targetElem = ref<HTMLElement | null>(null)
-  const { apply } = useMotion(targetElem)
+  const targetElement = ref<HTMLElement>()
+  const { apply } = useMotion(targetElement)
 
   const scrollHeight = ref<number>(0)
 
@@ -45,7 +45,7 @@
 
 <template>
   <div
-    ref="targetElem"
+    ref="targetElement"
     class="items-center justify-start flex-shrink-0 hidden p-1 border rounded-full flex-nowrap md:flex border-neutral-300/10"
   >
     <div class="relative flex items-center group/nav">
@@ -96,7 +96,7 @@
     </div>
   </div>
   <!-- <div
-    ref="targetElem"
+    ref="targetElement"
     class="items-center justify-start flex-shrink-0 hidden p-1 border rounded-full flex-nowrap md:flex border-neutral-300/10"
   >
     <div class="relative flex items-center group/nav">

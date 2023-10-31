@@ -15,7 +15,7 @@
   <AboutStory />
   <TeamLocations />
   <TeamMembers />
-  <OpenPositions />
+  <TeamRoles />
   <Testimonials />
   <Cta />
 </template>

@@ -13,5 +13,5 @@
 
 <template>
   <TeamLocations />
-  <Roles />
+  <OpenPositions />
 </template>

@@ -27,6 +27,7 @@
         </svg>
         <div class="absolute inset-0 z-20 flex items-center justify-center">
           <p
+            v-motion-fade-visible-once
             class="max-w-xl font-semibold tracking-tight text-center text-neutral-500 text-md md:text-4xl font-inter"
           >
             Hoppscotch processes over <br />

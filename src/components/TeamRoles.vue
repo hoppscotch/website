@@ -50,6 +50,20 @@
             </div>
           </div>
         </div>
+        <!-- See All Customers -->
+        <div class="text-center">
+          <RouterLink
+            to="/careers"
+            class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full transition text-neutral-50 bg-neutral-600 hover:bg-neutral-700 group"
+          >
+            See open positions
+            <span
+              class="text-neutral-300 group-hover:translate-x-0.5 transition-transform ml-1"
+            >
+              <icon-lucide-arrow-right />
+            </span>
+          </RouterLink>
+        </div>
       </div>
     </div>
   </section>

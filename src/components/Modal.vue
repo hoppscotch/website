@@ -7,7 +7,7 @@
 
   const emit = defineEmits(["closeModal"])
 
-  const modalContent = ref<HTMLElement | null>(null)
+  const modalContent = ref<HTMLElement>()
 
   const clickHandler = (event: MouseEvent) => {
     if (

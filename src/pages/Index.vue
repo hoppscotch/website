@@ -55,6 +55,7 @@
   <Features03 />
   <Features04 />
   <!-- <Features05 /> -->
+  <Features07 />
   <Features06 />
   <Testimonials />
   <Cta />
