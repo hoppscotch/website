@@ -15,7 +15,7 @@
     "@fontsource-variable/inter": "^5.0.15",
     "@fontsource-variable/plus-jakarta-sans": "^5.0.18",
     "@sparticuz/chromium": "^118.0.0",
-    "@unhead/addons": "^1.8.0",
+    "@unhead/addons": "^1.8.2",
     "@vueuse/core": "^10.5.0",
     "@vueuse/gesture": "2.0.0-beta.1",
     "@vueuse/motion": "^2.0.0",
@@ -26,10 +26,10 @@
     "vue-tippy": "^6.3.1"
   },
   "devDependencies": {
-    "@iconify-json/lucide": "^1.1.137",
-    "@types/node": "^20.8.9",
-    "@typescript-eslint/parser": "^6.9.0",
-    "@unhead/vue": "^1.8.0",
+    "@iconify-json/lucide": "^1.1.139",
+    "@types/node": "^20.8.10",
+    "@typescript-eslint/parser": "^6.9.1",
+    "@unhead/vue": "^1.8.2",
     "@vitejs/plugin-vue": "^4.4.0",
     "autoprefixer": "^10.4.16",
     "eslint": "^8.52.0",

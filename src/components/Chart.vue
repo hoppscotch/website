@@ -1,7 +1,7 @@
 <template>
   <div class="relative w-full p-2 overflow-hidden">
     <div
-      class="flex flex-col items-start flex-1 overflow-y-auto text-xs border justify-staitems-start brightness-110 overscroll-auto h-96 rounded-2xl border-neutral-500/25 bg-gradient-to-b from-neutral-600/5 to-neutral-500/5"
+      class="flex flex-col items-start flex-1 overflow-y-auto text-xs border justify-staitems-start brightness-110 overscroll-auto h-80 rounded-2xl border-neutral-500/25 bg-gradient-to-b from-neutral-600/5 to-neutral-500/5"
     >
       <table class="block w-full h-full overflow-y-auto area-chart">
         <tbody
