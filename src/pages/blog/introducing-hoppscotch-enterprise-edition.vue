@@ -1,39 +1,41 @@
 <script setup lang="ts">
   useHead({
-    title: "The quick brown fox • Blog • Hoppscotch",
+    title: "Introducing Hoppscotch Enterprise Edition • Blog • Hoppscotch",
     meta: [
       {
         property: "og:title",
-        content: "The quick brown fox • Blog • Hoppscotch",
+        content:
+          "Introducing Hoppscotch Enterprise Edition • Blog • Hoppscotch",
       },
       {
         name: "twitter:title",
-        content: "The quick brown fox • Blog • Hoppscotch",
+        content:
+          "Introducing Hoppscotch Enterprise Edition • Blog • Hoppscotch",
       },
       {
         name: "description",
         content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "We are thrilled to reveal our Hoppscotch August Release, v2023.8.0.",
       },
       {
         property: "og:description",
         content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "We are thrilled to reveal our Hoppscotch August Release, v2023.8.0.",
       },
       {
         name: "twitter:description",
         content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "We are thrilled to reveal our Hoppscotch August Release, v2023.8.0.",
       },
       {
         property: "og:image",
         content:
-          "https://next.hoppscotch.com/.netlify/functions/og-image?type=blog&slug=introducing-hoppscotch-enterprise-edition",
+          "https://hoppscotch.com/images/blog-introducing-hoppscotch-enterprise-edition.png",
       },
       {
         name: "twitter:image",
         content:
-          "https://next.hoppscotch.com/.netlify/functions/og-image?type=blog&slug=introducing-hoppscotch-enterprise-edition",
+          "https://hoppscotch.com/images/blog-introducing-hoppscotch-enterprise-edition.png",
       },
       {
         property: "og:type",
