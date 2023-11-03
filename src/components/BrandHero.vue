@@ -472,7 +472,7 @@
               product design. Lucide is a set of 1,000+ open-source icons that
               are free to use. The icon set is available for free on
               <a
-                href="https://lucide.dev/"
+                href="https://lucide.dev"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="transition text-neutral-500 hover:underline"

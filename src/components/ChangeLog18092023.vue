@@ -1,7 +1,7 @@
 <template>
   <article id="18-09-2023" class="md:flex">
     <p
-      class="flex flex-col h-full mt-px text-xs leading-6 md:sticky pl-7 md:top-20 sm:text-sm text-neutral-200 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
+      class="flex flex-col h-full text-xs leading-6 md:sticky pl-7 md:top-32 sm:text-sm text-neutral-200 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
     >
       <a href="#18-09-2023" class="rounded">September 18, 2023</a>
     </p>

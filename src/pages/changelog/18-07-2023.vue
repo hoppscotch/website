@@ -25,12 +25,12 @@
       {
         property: "og:image",
         content:
-          "https://next.hoppscotch.com/.netlify/functions/og-image?type=changelog&slug=18-07-2023",
+          "https://hoppscotch.com/.netlify/functions/og-image?type=changelog&slug=18-07-2023",
       },
       {
         name: "twitter:image",
         content:
-          "https://next.hoppscotch.com/.netlify/functions/og-image?type=changelog&slug=18-07-2023",
+          "https://hoppscotch.com/.netlify/functions/og-image?type=changelog&slug=18-07-2023",
       },
       {
         property: "og:type",
@@ -38,7 +38,7 @@
       },
       {
         property: "og:url",
-        content: "https://next.hoppscotch.com/changelog/18-07-2023",
+        content: "https://hoppscotch.com/changelog/18-07-2023",
       },
     ],
   })

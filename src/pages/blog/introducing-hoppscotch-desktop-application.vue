@@ -1,14 +1,16 @@
 <script setup lang="ts">
   useHead({
-    title: "The quick brown fox • Blog • Hoppscotch",
+    title: "Introducing Hoppscotch Desktop Application • Blog • Hoppscotch",
     meta: [
       {
         property: "og:title",
-        content: "The quick brown fox • Blog • Hoppscotch",
+        content:
+          "Introducing Hoppscotch Desktop Application • Blog • Hoppscotch",
       },
       {
         name: "twitter:title",
-        content: "The quick brown fox • Blog • Hoppscotch",
+        content:
+          "Introducing Hoppscotch Desktop Application • Blog • Hoppscotch",
       },
       {
         name: "description",
@@ -28,12 +30,12 @@
       {
         property: "og:image",
         content:
-          "https://next.hoppscotch.com/.netlify/functions/og-image?type=blog&slug=introducing-hoppscotch-desktop-application",
+          "https://hoppscotch.com/images/blog-introducing-hoppscotch-desktop-application.png",
       },
       {
         name: "twitter:image",
         content:
-          "https://next.hoppscotch.com/.netlify/functions/og-image?type=blog&slug=introducing-hoppscotch-desktop-application",
+          "https://hoppscotch.com/images/blog-introducing-hoppscotch-desktop-application.png",
       },
       {
         property: "og:type",
@@ -42,7 +44,7 @@
       {
         property: "og:url",
         content:
-          "https://next.hoppscotch.com/blog/introducing-hoppscotch-desktop-application",
+          "https://hoppscotch.com/blog/introducing-hoppscotch-desktop-application",
       },
     ],
   })
@@ -84,14 +86,14 @@
               <img
                 loading="lazy"
                 class="mr-4 rounded-full shrink-0"
-                src="/images/blog-author-01.jpg"
+                src="/images/blog-author-02.jpg"
                 width="32"
                 height="32"
-                alt="Author 01"
+                alt="Kiran Johns"
               />
               <div class="text-sm">
                 <span class="transition text-neutral-200/50">
-                  Liyas Thomas
+                  Kiran Johns
                 </span>
               </div>
             </div>

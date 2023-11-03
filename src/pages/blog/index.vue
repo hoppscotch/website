@@ -24,11 +24,11 @@
       },
       {
         property: "og:image",
-        content: "https://next.hoppscotch.com/banner-blog.png",
+        content: "https://hoppscotch.com/banner-blog.png",
       },
       {
         name: "twitter:image",
-        content: "https://next.hoppscotch.com/banner-blog.png",
+        content: "https://hoppscotch.com/banner-blog.png",
       },
       {
         property: "og:type",
@@ -36,7 +36,7 @@
       },
       {
         property: "og:url",
-        content: "https://next.hoppscotch.com/blog",
+        content: "https://hoppscotch.com/blog",
       },
     ],
   })

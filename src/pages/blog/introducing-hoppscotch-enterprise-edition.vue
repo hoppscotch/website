@@ -44,7 +44,7 @@
       {
         property: "og:url",
         content:
-          "https://next.hoppscotch.com/blog/introducing-hoppscotch-enterprise-edition",
+          "https://hoppscotch.com/blog/introducing-hoppscotch-enterprise-edition",
       },
     ],
   })
@@ -89,7 +89,7 @@
                 src="/images/blog-author-01.jpg"
                 width="32"
                 height="32"
-                alt="Author 01"
+                alt="Liyas Thomas"
               />
               <div class="text-sm">
                 <span class="transition text-neutral-200/50">

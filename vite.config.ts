@@ -20,7 +20,7 @@ const ssgOptions: ViteSSGOptions = {
   formatting: "minify",
   onFinished() {
     generateSitemap({
-      hostname: "https://next.hoppscotch.com/",
+      hostname: "https://hoppscotch.com/",
     })
   },
 }
