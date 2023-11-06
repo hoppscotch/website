@@ -10,6 +10,26 @@
   @apply bg-neutral-400/50;
   @apply text-neutral-50;
 }
+#nprogress {
+  @apply pointer-events-none;
+  .bar {
+    @apply fixed;
+    @apply left-0;
+    @apply bottom-0;
+    @apply h-0.5;
+    @apply w-full;
+    @apply z-50;
+    @apply bg-neutral-50;
+    background-image: linear-gradient(
+      to right,
+      #27c4f5,
+      #a307ba,
+      #fd8d32,
+      #70c050,
+      #27c4f5
+    );
+  }
+}
 .medium-zoom-overlay {
   @apply bg-neutral-950 #{!important};
   @apply z-40 #{!important};
