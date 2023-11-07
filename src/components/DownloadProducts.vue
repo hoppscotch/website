@@ -35,7 +35,7 @@
           <h2
             class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-100/80 to-neutral-50/80"
           >
-            The power to be your best
+            Hoppscotch App
           </h2>
           <p class="text-lg text-neutral-200/50">
             Download for — Mac, Windows, Linux, Web and CLI.

@@ -65,13 +65,6 @@
             </Highlighter>
           </div>
         </div>
-        <a
-          href="https://github.com/hoppscotch/hoppscotch"
-          target="_blank"
-          class="table mx-auto items-center mt-4 text-center animate-background-shine bg-[linear-gradient(110deg,transparent,45%,theme(colors.neutral.300),55%,transparent)] bg-[length:200%_100%] bg-clip-text text-xs text-transparent"
-        >
-          Star us on GitHub
-        </a>
       </div>
     </div>
   </section>

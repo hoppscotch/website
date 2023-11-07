@@ -24,7 +24,7 @@
             <span
               class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-neutral-50 to-neutral-600"
             >
-              Built for Developers
+              Platform Agnostic
             </span>
           </div>
           <h2
