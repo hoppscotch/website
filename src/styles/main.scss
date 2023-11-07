@@ -10,6 +10,10 @@
   @apply bg-neutral-400/50;
   @apply text-neutral-50;
 }
+html {
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+}
 #nprogress {
   @apply pointer-events-none;
   .bar {

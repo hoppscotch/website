@@ -48,10 +48,6 @@
       },
     ],
   })
-  const source = `${location.host}${location.pathname}`
-  const { copy, copied } = useClipboard({
-    legacy: true,
-  })
 </script>
 
 <template>
@@ -59,7 +55,7 @@
     <div class="relative max-w-5xl px-4 mx-auto sm:px-6">
       <div class="pt-32 pb-24">
         <!-- Section header -->
-        <BlogPostHeader :copied="copied" @copy="copy(source)" />
+        <BlogPostHeader />
         <!-- Blog content -->
         <article class="flex flex-col items-center space-y-8">
           <header class="flex flex-col w-full max-w-2xl">

@@ -1,8 +1,8 @@
 <script setup lang="ts">
-  defineProps({
-    copied: Boolean,
+  const source = `${location.host}${location.pathname}`
+  const { copy, copied } = useClipboard({
+    legacy: true,
   })
-  defineEmits(["copy"])
 </script>
 
 <template>
@@ -41,7 +41,7 @@
           theme: 'tooltip',
         }"
         class="rounded transition text-neutral-400/60 hover:text-neutral-400/80"
-        @click="$emit('copy')"
+        @click="copy(source)"
       >
         <icon-lucide-copy v-if="!copied" />
         <icon-lucide-check v-else />

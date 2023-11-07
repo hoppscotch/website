@@ -49,16 +49,14 @@
                     <div class="flex items-start justify-center flex-1 p-8">
                       <div class="flex flex-col items-center text-center">
                         <icon-lucide-heart class="w-6 h-6 mb-4" />
-                        <h5 class="inline-flex pb-2 text-xl">
-                          55,000+ GitHub Stars
-                        </h5>
+                        <h5 class="inline-flex pb-2 text-xl">Made with Love</h5>
                         <p class="w-full text-neutral-200/50">
                           Most popular API development tool on GitHub.
                         </p>
                       </div>
                     </div>
                     <!-- Image -->
-                    <Chart />
+                    <StarUs />
                   </div>
                 </div>
               </HighlighterItem>

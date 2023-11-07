@@ -13,14 +13,16 @@
         class="absolute -top-[1.0625rem] -left-1 h-[0.5625rem] w-[0.5625rem] rounded-full border-2 border-neutral-600 bg-neutral-900 md:top-[0.4375rem]"
       ></div>
       <div
+        id="2023.4.0"
         class="absolute right-0 inline-flex items-center mb-8 space-x-2 -top-6 md:static mt-[0.1rem]"
       >
-        <span
+        <a
+          href="#2023.4.0"
           class="inline-flex items-center px-2 text-xs border rounded-md text-neutral-400 border-neutral-800 bg-neutral-500/10"
         >
           <span class="w-1.5 h-1.5 mr-2 bg-neutral-400 rounded-full"></span>
           v2023.4.0
-        </span>
+        </a>
         <span
           class="inline-flex items-center px-2 text-xs text-teal-400 border border-teal-800 rounded-md bg-teal-500/10"
         >
@@ -30,7 +32,7 @@
       </div>
       <div>
         <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-neutral-200">
-          <RouterLink to="/changelog/11-04-2023">
+          <RouterLink class="rounded" to="/changelog/11-04-2023">
             Tabs, workspaces and more
           </RouterLink>
         </h1>
