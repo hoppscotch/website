@@ -190,6 +190,13 @@
               height="198"
               alt="News 01"
             />
+            <p class="mt-2 text-xs italic">
+              *Benchmark is done using AppTimer on Windows 11 on an arm64 VM,
+              for 30 iterations with 2 second cooldown in between iterations.
+              The value provided is the mean time measured over the iterations.
+              One run is counted as the time from when the execution starts till
+              the window becomes responsive after all the loading.
+            </p>
           </section>
           <section class="max-w-2xl text-neutral-200/80">
             <p class="mt-4 mb-8">
@@ -266,17 +273,18 @@
             </RouterLink>
           </section>
           <section class="max-w-2xl text-neutral-200/80">
-            <p class="mt-4 mb-8">
-              <i class="text-xs"
-                >We are aware that you may encounter bugs, so if you do, please
-                report them on our
-                <a
-                  href="https://github.com/hoppscotch/hoppscotch"
-                  target="_blank"
-                  class="border-b transition border-neutral-200 hover:text-neutral-50"
-                  >GitHub repository</a
-                >.
-              </i>
+            <p class="mt-4 mb-8 text-xs italic">
+              *The Hoppscotch Desktop App is currently in alpha. This means that
+              it is not yet feature-complete and may contain bugs. We are
+              actively working on improving the app and adding new features. You
+              may encounter bugs and issues while using the app. If you do,
+              please report them on our
+              <a
+                href="https://github.com/hoppscotch/hoppscotch"
+                target="_blank"
+                class="border-b transition border-neutral-200 hover:text-neutral-50"
+                >GitHub repository</a
+              >.
             </p>
             <p class="mt-4 mb-8">
               Once you've installed the desktop app, you can use Hoppscotch with

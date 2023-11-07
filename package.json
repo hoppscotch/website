@@ -30,7 +30,7 @@
   "devDependencies": {
     "@iconify-json/lucide": "^1.1.140",
     "@types/node": "^20.8.10",
-    "@typescript-eslint/parser": "^6.9.1",
+    "@typescript-eslint/parser": "^6.10.0",
     "@unhead/vue": "^1.8.3",
     "@vitejs/plugin-vue": "^4.4.0",
     "autoprefixer": "^10.4.16",
