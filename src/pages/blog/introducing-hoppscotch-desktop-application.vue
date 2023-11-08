@@ -15,17 +15,17 @@
       {
         name: "description",
         content:
-          "The Hoppscotch Desktop app has been a highly requested product by a large number of our community. We've been listening and are excited to announce that the day has finally arrived.",
+          "The Hoppscotch Desktop app has been a highly requested product by our community. We've been listening and are excited to announce that the day has finally arrived.",
       },
       {
         property: "og:description",
         content:
-          "The Hoppscotch Desktop app has been a highly requested product by a large number of our community. We've been listening and are excited to announce that the day has finally arrived.",
+          "The Hoppscotch Desktop app has been a highly requested product by our community. We've been listening and are excited to announce that the day has finally arrived.",
       },
       {
         name: "twitter:description",
         content:
-          "The Hoppscotch Desktop app has been a highly requested product by a large number of our community. We've been listening and are excited to announce that the day has finally arrived.",
+          "The Hoppscotch Desktop app has been a highly requested product by our community. We've been listening and are excited to announce that the day has finally arrived.",
       },
       {
         property: "og:image",
@@ -125,10 +125,10 @@
                 class="border-b transition border-neutral-200 hover:text-neutral-50"
                 >highly requested product</a
               >
-              by a large number of our community. We've been listening and are
-              excited to announce that the day has finally arrived - today marks
-              the launch of the public alpha version of the Hoppscotch Desktop
-              App for macOS, Windows, and Linux!
+              by our community. We've been listening and are excited to announce
+              that the day has finally arrived - today marks the launch of the
+              public alpha version of the Hoppscotch Desktop App for macOS,
+              Windows, and Linux!
             </p>
             <p class="mt-4 mb-8">
               You can get started with the Hoppscotch Desktop App right away.

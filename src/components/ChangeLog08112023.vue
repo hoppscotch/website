@@ -65,11 +65,10 @@
           Desktop Application (Alpha)
         </h4>
         <p class="mt-4 mb-8 text-neutral-200/50">
-          The Hoppscotch Desktop app has been a highly requested product by a
-          large number of our community. We've been listening and are excited to
-          announce that the day has finally arrived - today marks the launch of
-          the public alpha version of the Hoppscotch Desktop App for macOS,
-          Windows, and Linux!
+          The Hoppscotch Desktop app has been a highly requested product by our
+          community. We've been listening and are excited to announce that the
+          day has finally arrived - today marks the launch of the public alpha
+          version of the Hoppscotch Desktop App for macOS, Windows, and Linux!
         </p>
         <p class="mb-8 -mt-4">
           <RouterLink
