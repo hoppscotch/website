@@ -1,29 +1,29 @@
 <script setup lang="ts">
   useHead({
-    title: "Hoppscotch • Open source API development ecosystem",
+    title: "Hoppscotch • Make better APIs",
     meta: [
       {
         property: "og:title",
-        content: "Hoppscotch • Open source API development ecosystem",
+        content: "Hoppscotch • Make better APIs",
       },
       {
         name: "twitter:title",
-        content: "Hoppscotch • Open source API development ecosystem",
+        content: "Hoppscotch • Make better APIs",
       },
       {
         name: "description",
         content:
-          "Helps you create requests faster, saving precious time on development.",
+          "Hoppscotch is an open-source API development ecosystem that helps you create and test your API requests saving precious time in development.",
       },
       {
         property: "og:description",
         content:
-          "Helps you create requests faster, saving precious time on development.",
+          "Hoppscotch is an open-source API development ecosystem that helps you create and test your API requests saving precious time in development.",
       },
       {
         name: "twitter:description",
         content:
-          "Helps you create requests faster, saving precious time on development.",
+          "Hoppscotch is an open-source API development ecosystem that helps you create and test your API requests saving precious time in development.",
       },
       {
         property: "og:image",

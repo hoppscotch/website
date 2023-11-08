@@ -1,4 +1,5 @@
 import { ViteSSG } from "vite-ssg"
+import VueGtag from "vue-gtag"
 import VueTippy, { roundArrow } from "vue-tippy"
 import { setupLayouts } from "virtual:generated-layouts"
 import generatedRoutes from "virtual:generated-pages"
@@ -35,6 +36,9 @@ export const createApp = ViteSSG(
     },
   },
   ({ app, isClient, router }) => {
+    app.use(VueGtag, {
+      config: { id: "G-LQ01D3PKKN" },
+    })
     app.use(GesturePlugin)
     app.use(MotionPlugin)
     app.use(VueTippy, {
