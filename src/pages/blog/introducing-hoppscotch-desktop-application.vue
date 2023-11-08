@@ -60,15 +60,28 @@
         <article class="flex flex-col items-center space-y-8">
           <header class="flex flex-col w-full max-w-2xl">
             <div class="mb-4">
-              <ul class="flex flex-wrap -m-1 text-sm">
+              <ul class="flex flex-wrap items-center -m-1 text-sm">
                 <li class="m-1">
                   <span
                     class="inline-flex text-center transition text-neutral-100/50"
-                    >Product</span
+                    >Product,</span
                   >
-                  <span class="mx-2 text-neutral-400/20">|</span>
-                  <span class="text-neutral-200/20">October 28, 2023</span>
                 </li>
+                <li class="m-1">
+                  <span
+                    class="inline-flex text-center transition text-neutral-100/50"
+                    >Engineering,</span
+                  >
+                </li>
+
+                <li class="m-1">
+                  <span
+                    class="inline-flex text-center transition text-neutral-100/50"
+                    >Design</span
+                  >
+                </li>
+                <span class="mx-2 text-neutral-400/20">|</span>
+                <span class="text-neutral-200/20">November 8, 2023</span>
               </ul>
             </div>
             <h3 class="mb-8">

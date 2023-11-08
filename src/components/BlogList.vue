@@ -84,7 +84,15 @@
               {{ blog.author.name }}
             </span>
             <span class="mx-2 text-neutral-400/20">|</span>
-            <span class="text-neutral-200/20">{{ blog.date }}</span>
+            <span class="text-neutral-200/20">
+              {{
+                new Date(blog.date).toLocaleDateString("en-US", {
+                  month: "long",
+                  day: "numeric",
+                  year: "numeric",
+                })
+              }}
+            </span>
           </div>
         </footer>
       </article>

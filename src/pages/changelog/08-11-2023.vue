@@ -1,34 +1,34 @@
 <script setup lang="ts">
   useHead({
-    title: "v2023.4.4 • Changelog • Hoppscotch",
+    title: "v2023.8.3 • Changelog • Hoppscotch",
     meta: [
       {
         property: "og:title",
-        content: "v2023.4.4 • Changelog • Hoppscotch",
+        content: "v2023.8.3 • Changelog • Hoppscotch",
       },
       {
         name: "twitter:title",
-        content: "v2023.4.4 • Changelog • Hoppscotch",
+        content: "v2023.8.3 • Changelog • Hoppscotch",
       },
       {
         name: "description",
-        content: "Bug fixes and performance improvements.",
+        content: "Introducing Hoppscotch Desktop App (Alpha).",
       },
       {
         property: "og:description",
-        content: "Bug fixes and performance improvements.",
+        content: "Introducing Hoppscotch Desktop App (Alpha).",
       },
       {
         name: "twitter:description",
-        content: "Bug fixes and performance improvements.",
+        content: "Introducing Hoppscotch Desktop App (Alpha).",
       },
       {
         property: "og:image",
-        content: "https://hoppscotch.com/images/changelog-02-06-2023.png",
+        content: "https://hoppscotch.com/images/changelog-07-11-2023.png",
       },
       {
         name: "twitter:image",
-        content: "https://hoppscotch.com/images/changelog-02-06-2023.png",
+        content: "https://hoppscotch.com/images/changelog-07-11-2023.png",
       },
       {
         property: "og:type",
@@ -36,7 +36,7 @@
       },
       {
         property: "og:url",
-        content: "https://hoppscotch.com/changelog/02-06-2023",
+        content: "https://hoppscotch.com/changelog/07-11-2023",
       },
     ],
   })
@@ -49,7 +49,7 @@
         <!-- Section header -->
         <ChangeLogHeader />
         <!-- Changelog content -->
-        <ChangeLog02062023 />
+        <ChangeLog08112023 />
       </div>
     </div>
   </section>

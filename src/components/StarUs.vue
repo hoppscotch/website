@@ -17,8 +17,9 @@
               href="https://github.com/hoppscotch/hoppscotch"
               target="_blank"
               rel="noopener noreferrer"
-              class="table mx-8 truncate items-center text-center animate-background-shine bg-[linear-gradient(110deg,transparent,45%,theme(colors.neutral.300),55%,transparent)] bg-[length:200%_100%] bg-clip-text font-bold font-jakarta text-transparent"
-              ><h1>Star us on GitHub</h1>
+              class="table mx-8 truncate items-center text-center animate-background-shine bg-[linear-gradient(110deg,transparent,45%,theme(colors.neutral.300),55%,transparent)] bg-[length:200%_100%] bg-clip-text font-bold font-jakarta text-transparent text-6xl leading-normal tracking-tight"
+            >
+              Star us on GitHub
             </a>
           </ul>
           <ul
@@ -31,9 +32,9 @@
               href="https://github.com/hoppscotch/hoppscotch"
               target="_blank"
               rel="noopener noreferrer"
-              class="table mx-8 truncate items-center text-center animate-background-shine bg-[linear-gradient(110deg,transparent,45%,theme(colors.neutral.300),55%,transparent)] bg-[length:200%_100%] bg-clip-text font-bold font-jakarta text-transparent"
+              class="table mx-8 truncate items-center text-center animate-background-shine bg-[linear-gradient(110deg,transparent,45%,theme(colors.neutral.300),55%,transparent)] bg-[length:200%_100%] bg-clip-text font-bold font-jakarta text-transparent text-6xl leading-normal tracking-tight"
             >
-              <h1>Star us on GitHub</h1>
+              Star us on GitHub
             </a>
           </ul>
         </div>

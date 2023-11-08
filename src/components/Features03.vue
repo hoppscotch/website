@@ -24,7 +24,7 @@
             <span
               class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-neutral-50 to-neutral-600"
             >
-              Download
+              API Client
             </span>
           </div>
           <h2
@@ -33,8 +33,8 @@
             Unlock Your Potential
           </h2>
           <p class="text-lg text-neutral-200/50">
-            Take Hoppscotch with you wherever you go. Download the app to get
-            started.
+            Create APIs faster, test them instantly, document them automatically
+            and share them easily.
           </p>
         </div>
         <div class="max-w-4xl mx-auto">

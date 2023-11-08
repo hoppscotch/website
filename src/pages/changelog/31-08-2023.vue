@@ -24,13 +24,11 @@
       },
       {
         property: "og:image",
-        content:
-          "https://hoppscotch.com/.netlify/functions/og-image?type=changelog&slug=27-06-2023",
+        content: "https://hoppscotch.com/images/changelog-27-06-2023.png",
       },
       {
         name: "twitter:image",
-        content:
-          "https://hoppscotch.com/.netlify/functions/og-image?type=changelog&slug=27-06-2023",
+        content: "https://hoppscotch.com/images/changelog-27-06-2023.png",
       },
       {
         property: "og:type",
