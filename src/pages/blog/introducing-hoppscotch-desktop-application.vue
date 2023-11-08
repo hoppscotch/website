@@ -377,8 +377,9 @@
               uncover the endless possibilities it offers.
             </p>
             <p class="mt-4 mb-8">
-              Kiran Johns<br />
-              Product Manager, Hoppscotch
+              Thank you for being a part of this remarkable journey.
+              <br />
+              The Hoppscotch Team
             </p>
           </section>
         </article>

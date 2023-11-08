@@ -1,15 +1,28 @@
 [
   {
+    "slug": "introducing-hoppscotch-desktop-application",
+    "title": "Introducing Hoppscotch Desktop Application",
+    "description": "The Hoppscotch Desktop app has been a highly requested product by a large number of our community. We're excited to announce that the day has finally arrived.",
+    "banner": "blog-introducing-hoppscotch-desktop-application.png",
+    "date": "2023-11-08",
+    "author": {
+      "name": "Kiran Johns",
+      "image": "blog-author-02.jpg"
+    },
+    "styles": "md:col-span-6",
+    "tags": ["Product", "Engineering", "Design"]
+  },
+  {
     "slug": "introducing-hoppscotch-enterprise-edition",
     "title": "Introducing Hoppscotch Enterprise Edition",
-    "description": "We are thrilled to reveal our Hoppscotch August Release, v2023.8.0.",
+    "description": "We are thrilled to reveal our Hoppscotch August Release, v2023.8.0 along with the new Hoppscotch Enterprise Edition.",
     "banner": "blog-introducing-hoppscotch-enterprise-edition.png",
     "date": "2023-08-31",
     "author": {
       "name": "Liyas Thomas",
       "image": "blog-author-01.jpg"
     },
-    "styles": "md:col-span-12",
-    "tags": ["Product", "Engineering", "Design"]
+    "styles": "md:col-span-6",
+    "tags": ["Product", "Engineering"]
   }
 ]

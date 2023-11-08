@@ -176,14 +176,14 @@
               <div v-if="tab === 1" class="flex justify-center w-full">
                 <div class="flex flex-col items-stretch gap-4">
                   <a
-                    href="https://github.com/hoppscotch/hoppscotch/releases"
+                    href="https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_mac_aarch64.dmg"
                     class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition neutral-500ite/50 rounded-xl bg-neutral-500/10 border-neutral-500/50 hover:border-neutral-500/80"
                     target="_blank"
                   >
                     Download for Mac &nbsp; ~ &nbsp; Apple Silicon
                   </a>
                   <a
-                    href="https://github.com/hoppscotch/hoppscotch/releases"
+                    href="https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_mac_x64.dmg"
                     class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition neutral-500ite/50 rounded-xl bg-neutral-500/10 border-neutral-500/50 hover:border-neutral-500/80"
                     target="_blank"
                   >
@@ -203,7 +203,7 @@
               <div v-if="tab === 2" class="flex justify-center w-full">
                 <div class="flex flex-col items-stretch gap-4">
                   <a
-                    href="https://github.com/hoppscotch/hoppscotch/releases"
+                    href="https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_win_x64.msi"
                     class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition neutral-500ite/50 rounded-xl bg-neutral-500/10 border-neutral-500/50 hover:border-neutral-500/80"
                     target="_blank"
                   >
@@ -223,11 +223,18 @@
               <div v-if="tab === 3" class="flex justify-center w-full">
                 <div class="flex flex-col items-stretch gap-4">
                   <a
-                    href="https://github.com/hoppscotch/hoppscotch/releases"
+                    href="https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_linux_x64.deb"
                     class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition neutral-500ite/50 rounded-xl bg-neutral-500/10 border-neutral-500/50 hover:border-neutral-500/80"
                     target="_blank"
                   >
-                    Download for Linux
+                    Download for Linux &nbsp; ~ &nbsp; .deb
+                  </a>
+                  <a
+                    href="https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_linux_x64.AppImage"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition neutral-500ite/50 rounded-xl bg-neutral-500/10 border-neutral-500/50 hover:border-neutral-500/80"
+                    target="_blank"
+                  >
+                    Download for Linux &nbsp; ~ &nbsp; .AppImage
                   </a>
                 </div>
               </div>

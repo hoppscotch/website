@@ -2,10 +2,10 @@
   <div class="flex flex-col flex-nowrap">
     <RouterLink
       class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-200/80 hover:text-neutral-200 hover:bg-neutral-800/50"
-      to="/changelog"
+      to="/download"
     >
-      <icon-lucide-scroll-text class="mr-3" />
-      Changelog
+      <icon-lucide-download class="mr-3" />
+      Download
     </RouterLink>
     <RouterLink
       class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-200/80 hover:text-neutral-200 hover:bg-neutral-800/50"
@@ -14,6 +14,20 @@
       <icon-lucide-newspaper class="mr-3" />
       Blog
     </RouterLink>
+    <RouterLink
+      class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-200/80 hover:text-neutral-200 hover:bg-neutral-800/50"
+      to="/changelog"
+    >
+      <icon-lucide-scroll-text class="mr-3" />
+      Changelog
+    </RouterLink>
+    <RouterLink
+      class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-200/80 hover:text-neutral-200 hover:bg-neutral-800/50"
+      to="/careers"
+    >
+      <icon-lucide-briefcase class="mr-3" />
+      Careers
+    </RouterLink>
     <a
       class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-200/80 hover:text-neutral-200 hover:bg-neutral-800/50"
       href="https://docs.hoppscotch.io"
@@ -21,7 +35,7 @@
       rel="noopener noreferrer"
     >
       <icon-lucide-file-text class="mr-3" />
-      Documentation
+      Docs
     </a>
   </div>
   <!-- <div class="flex flex-col flex-nowrap">

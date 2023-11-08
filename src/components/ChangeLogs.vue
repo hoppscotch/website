@@ -30,6 +30,7 @@
           </p>
         </div>
         <!-- Logs -->
+        <ChangeLog08112023 />
         <ChangeLog15102023 />
         <ChangeLog18092023 />
         <ChangeLog31082023 />

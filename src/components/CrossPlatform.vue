@@ -3,13 +3,11 @@
     <div
       class="relative flex items-center justify-center px-8 overflow-hidden border h-80 rounded-2xl border-neutral-500/25 bg-gradient-to-b from-neutral-600/5 to-neutral-500/5"
     >
-      <!-- <div
-        class="absolute bg-center inset-0 h-full w-full bg-[linear-gradient(to_right,theme(colors.neutral.400)1A_1px,transparent_1px),linear-gradient(to_bottom,theme(colors.neutral.400)1A_1px,transparent_1px)] bg-[size:20px_20px]"
-      ></div> -->
       <div
         class="absolute bg-center inset-0 h-full w-full bg-[radial-gradient(theme(colors.neutral.400)1A_1px,transparent_1px)] [background-size:18px_18px]"
       ></div>
-      <div
+      <RouterLink
+        to="/download"
         class="relative inline-flex items-center px-8 py-4 mx-auto overflow-hidden rounded-full transition transform bg-neutral-800/80 hover:scale-110 group"
       >
         <div
@@ -26,9 +24,9 @@
         <span
           class="relative text-lg font-medium text-transparent transition-all duration-200 font-mona bg-gradient-to-b from-neutral-200/25 to-neutral-50 bg-clip-text"
         >
-          Coming Soon
+          Download App
         </span>
-      </div>
+      </RouterLink>
     </div>
   </div>
 </template>

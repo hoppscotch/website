@@ -177,7 +177,7 @@
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-fuchsia-500"
         >
-          <li class="pl-4">Bump dependencies .</li>
+          <li class="pl-4">Bump dependencies.</li>
           <li class="pl-4">Type and UX improvement for SmartTree.</li>
         </ul>
         <h5 class="flex items-center">

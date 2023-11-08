@@ -39,7 +39,7 @@
       <div>
         <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-neutral-200">
           <RouterLink class="rounded" to="/changelog/08-11-2023">
-            Introducing Hoppscotch Desktop App (Alpha)
+            Introducing Hoppscotch Desktop App
           </RouterLink>
         </h1>
         <p class="mt-4 mb-8 text-neutral-200/50">
@@ -49,10 +49,35 @@
           browser. Hoppscotch Desktop App is currently in alpha and is available
           for Mac, Windows and Linux.
         </p>
+        <p class="mt-4 mb-8">
+          <RouterLink
+            to="/download"
+            class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition neutral-500ite/50 rounded-xl bg-neutral-500/10 border-neutral-500/50 hover:border-neutral-500/80"
+          >
+            Download Hoppscotch Desktop App
+          </RouterLink>
+        </p>
         <ImageZoom
           src="/images/changelog-08-11-2023.png"
           class="p-2 mt-4 mb-8 border rounded-3xl border-neutral-900"
         />
+        <h4 class="flex items-center text-xl font-bold">
+          Desktop Application (Alpha)
+        </h4>
+        <p class="mt-4 mb-8 text-neutral-200/50">
+          The Hoppscotch Desktop app has been a highly requested product by a
+          large number of our community. We've been listening and are excited to
+          announce that the day has finally arrived - today marks the launch of
+          the public alpha version of the Hoppscotch Desktop App for macOS,
+          Windows, and Linux!
+        </p>
+        <p class="mb-8 -mt-4">
+          <RouterLink
+            to="/blog/introducing-hoppscotch-desktop-application"
+            class="border-b transition border-neutral-200 hover:text-neutral-50"
+            >Read more about Hoppscotch Desktop App on our blog</RouterLink
+          >.
+        </p>
         <h5 class="flex items-center">
           <icon-lucide-sparkles class="mr-3" />
           Added
@@ -60,18 +85,7 @@
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-green-500"
         >
-          <li class="pl-4">
-            Alert the user on empty collection/environment exports.
-          </li>
-        </ul>
-        <h5 class="flex items-center">
-          <icon-lucide-trash-2 class="mr-3" />
-          Removed
-        </h5>
-        <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-red-500"
-        >
-          <li class="pl-4">Stale type definitions.</li>
+          <li class="pl-4">Cookies support in Hoppscotch Desktop App.</li>
         </ul>
         <h5 class="flex items-center">
           <icon-lucide-check-check class="mr-3" />
@@ -80,7 +94,20 @@
         <ul
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-teal-500"
         >
-          <li class="pl-4">GraphQL teamID is not passed issue.</li>
+          <li class="pl-4">
+            GraphQL page crashing and broken syntax highlighting.
+          </li>
+          <li class="pl-4">Mailer templates missing.</li>
+          <li class="pl-4">Deprecated status missing in GraphQL query.</li>
+        </ul>
+        <h5 class="flex items-center">
+          <icon-lucide-rocket class="mr-3" />
+          Performance
+        </h5>
+        <ul
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-fuchsia-500"
+        >
+          <li class="pl-4">Bump dependencies.</li>
         </ul>
         <h5 class="flex items-center">
           <icon-lucide-flask-conical class="mr-3" />
@@ -90,6 +117,7 @@
           class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-neutral-500"
         >
           <li class="pl-4">Updated translations to reflect latest strings.</li>
+          <li class="pl-4">Enforced pre-commit type checks.</li>
         </ul>
       </div>
     </div>
