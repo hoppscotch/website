@@ -31,8 +31,8 @@
                 Essential Tools for API Development
               </h3>
               <p class="mb-8 text-lg text-neutral-200/50">
-                Hoppscotch simplifies each step of the API lifecycle and
-                streamlines collaboration so you can create better APIs.
+                Hoppscotch makes it easy to create and test your APIs, helping
+                you to ship products faster.
               </p>
               <div class="max-w-xs mt-8 space-y-2 max-md:mx-auto">
                 <button

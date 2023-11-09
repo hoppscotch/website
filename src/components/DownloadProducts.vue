@@ -38,7 +38,7 @@
             Hoppscotch App
           </h2>
           <p class="text-lg text-neutral-200/50">
-            Download for — Mac, Windows, Linux, Web and CLI.
+            Download Alpha Release for Mac, Windows, Linux — Web and CLI.
           </p>
         </div>
         <!-- Section content -->
