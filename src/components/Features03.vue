@@ -66,16 +66,6 @@
             </Highlighter>
           </div>
         </div>
-        <!-- <span
-          class="table mx-auto items-center pointer-events-none mt-4 text-center animate-background-shine bg-[linear-gradient(110deg,transparent,45%,theme(colors.neutral.300),55%,transparent)] bg-[length:200%_100%] bg-clip-text text-xs text-transparent"
-        >
-          <span class="mr-2">Press</span>
-          <span
-            class="before:text-lg before:inline-block before:-mr-[13.5px] before:-mt-[1.5px] before:align-middle before:content-['▢']"
-            >H</span
-          >
-          <span class="ml-2"> anytime to get started </span>
-        </span> -->
       </div>
     </div>
   </section>
