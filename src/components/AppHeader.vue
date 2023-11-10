@@ -11,7 +11,7 @@
 
 <template>
   <header
-    class="fixed inset-x-0 top-0 z-30 overflow-x-auto bg-neutral-950/5"
+    class="fixed inset-x-0 top-0 z-30 bg-neutral-950/5"
     :class="
       menuOpen
         ? 'bottom-0 md:bottom-auto backdrop-blur-3xl'

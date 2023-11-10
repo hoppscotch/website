@@ -317,6 +317,7 @@
     "provideLocal": true,
     "ExtractDefaultPropTypes": true,
     "ExtractPropTypes": true,
-    "ExtractPublicPropTypes": true
+    "ExtractPublicPropTypes": true,
+    "useClipboardItems": true
   }
 }

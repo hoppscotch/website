@@ -14,6 +14,7 @@ import { ElementPlusResolver } from "unplugin-vue-components/resolvers"
 import { defineConfig } from "vite"
 import Unfonts from "unplugin-fonts/vite"
 import type { ViteSSGOptions } from "vite-ssg"
+import Markdown from "unplugin-vue-markdown/vite"
 
 const ssgOptions: ViteSSGOptions = {
   script: "async",
@@ -35,22 +36,31 @@ export default defineConfig({
   },
 
   plugins: [
-    Vue(),
+    Vue({
+      include: [/\.vue$/, /\.md$/],
+    }),
     // https://github.com/hannoeru/vite-plugin-pages
-    Pages(),
+    Pages({
+      extensions: ["vue", "md"],
+    }),
     // https://github.com/JohnCampionJr/vite-plugin-vue-layouts
     Layouts(),
+    // https://github.com/unplugin/unplugin-vue-markdown
+    Markdown({
+      headEnabled: true,
+    }),
     // https://github.com/antfu/unplugin-vue-components
     Components({
+      extensions: ["vue", "md"],
       resolvers: [
         IconsResolver({
           prefix: "icon",
         }),
       ],
+      include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
     }),
     // https://github.com/unplugin/unplugin-icons
     Icons(),
-    // https://github.com/cssninjaStudio/unplugin-fonts
     // https://github.com/antfu/unplugin-auto-import
     AutoImport({
       eslintrc: {
@@ -66,6 +76,7 @@ export default defineConfig({
       vueTemplate: true,
       dirs: ["./components/**"],
     }),
+    // https://github.com/cssninjaStudio/unplugin-fonts
     Unfonts({
       fontsource: {
         families: [
