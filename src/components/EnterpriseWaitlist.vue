@@ -127,9 +127,9 @@
             </div>
             <h5 class="font-semibold">Self-Host Hoppscotch</h5>
             <p class="mt-4 text-neutral-200/50">
-              Hoppscotch Self-Host is a free and open-source API development
-              platform that you can run on your own infrastructure. It's the
-              most flexible way to deploy Hoppscotch.
+              Hoppscotch Self-Host is an open-source API development platform
+              that you can run on your own infrastructure. It's the most
+              flexible way to deploy Hoppscotch.
             </p>
             <p class="mt-4">
               <RouterLink to="/products/self-host" class="flex items-center">
