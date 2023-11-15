@@ -31,8 +31,12 @@
                   height="80"
                   alt="Team member 01"
                 />
-                <h5 class="text-md text-neutral-200">Sergey Filkov</h5>
-                <p class="text-sm text-neutral-100">Chief Executive Officer</p>
+                <h5 class="text-center text-md text-neutral-200">
+                  Sergey Filkov
+                </h5>
+                <p class="text-sm text-center text-neutral-100">
+                  Chief Executive Officer
+                </p>
                 <div class="flex items-center">
                   <a
                     class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
@@ -64,8 +68,10 @@
                   height="80"
                   alt="Team member 02"
                 />
-                <h5 class="text-md text-neutral-200">Mary Champ</h5>
-                <p class="text-sm text-neutral-100">Chief Technology Officer</p>
+                <h5 class="text-center text-md text-neutral-200">Mary Champ</h5>
+                <p class="text-sm text-center text-neutral-100">
+                  Chief Technology Officer
+                </p>
                 <div class="flex items-center">
                   <a
                     class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
@@ -97,8 +103,12 @@
                   height="80"
                   alt="Team member 03"
                 />
-                <h5 class="text-md text-neutral-200">Mark Varsano</h5>
-                <p class="text-sm text-neutral-100">Product Manager</p>
+                <h5 class="text-center text-md text-neutral-200">
+                  Mark Varsano
+                </h5>
+                <p class="text-sm text-center text-neutral-100">
+                  Product Manager
+                </p>
                 <div class="flex items-center">
                   <a
                     class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
@@ -130,8 +140,12 @@
                   height="80"
                   alt="Team member 04"
                 />
-                <h5 class="text-md text-neutral-200">George Hurley</h5>
-                <p class="text-sm text-neutral-100">Product Engineer</p>
+                <h5 class="text-center text-md text-neutral-200">
+                  George Hurley
+                </h5>
+                <p class="text-sm text-center text-neutral-100">
+                  Product Engineer
+                </p>
                 <div class="flex items-center">
                   <a
                     class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
@@ -163,8 +177,12 @@
                   height="80"
                   alt="Team member 05"
                 />
-                <h5 class="text-md text-neutral-200">Ellie Lepisov</h5>
-                <p class="text-sm text-neutral-100">Product Engineer</p>
+                <h5 class="text-center text-md text-neutral-200">
+                  Ellie Lepisov
+                </h5>
+                <p class="text-sm text-center text-neutral-100">
+                  Product Engineer
+                </p>
                 <div class="flex items-center">
                   <a
                     class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
@@ -196,8 +214,10 @@
                   height="80"
                   alt="Team member 06"
                 />
-                <h5 class="text-md text-neutral-200">Connor Bal</h5>
-                <p class="text-sm text-neutral-100">Product Engineer</p>
+                <h5 class="text-center text-md text-neutral-200">Connor Bal</h5>
+                <p class="text-sm text-center text-neutral-100">
+                  Product Engineer
+                </p>
                 <div class="flex items-center">
                   <a
                     class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
@@ -229,8 +249,12 @@
                   height="80"
                   alt="Team member 07"
                 />
-                <h5 class="text-md text-neutral-200">Marko Sharma</h5>
-                <p class="text-sm text-neutral-100">Product Engineer</p>
+                <h5 class="text-center text-md text-neutral-200">
+                  Marko Sharma
+                </h5>
+                <p class="text-sm text-center text-neutral-100">
+                  Product Engineer
+                </p>
                 <div class="flex items-center">
                   <a
                     class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
@@ -262,8 +286,12 @@
                   height="80"
                   alt="Team member 08"
                 />
-                <h5 class="text-md text-neutral-200">Mick Esposito</h5>
-                <p class="text-sm text-neutral-100">Product Engineer</p>
+                <h5 class="text-center text-md text-neutral-200">
+                  Mick Esposito
+                </h5>
+                <p class="text-sm text-center text-neutral-100">
+                  Product Engineer
+                </p>
                 <div class="flex items-center">
                   <a
                     class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
@@ -295,8 +323,12 @@
                   height="80"
                   alt="Team member 09"
                 />
-                <h5 class="text-md text-neutral-200">Daniel Smith</h5>
-                <p class="text-sm text-neutral-100">Product Engineer</p>
+                <h5 class="text-center text-md text-neutral-200">
+                  Daniel Smith
+                </h5>
+                <p class="text-sm text-center text-neutral-100">
+                  Product Engineer
+                </p>
                 <div class="flex items-center">
                   <a
                     class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
@@ -328,8 +360,12 @@
                   height="80"
                   alt="Team member 10"
                 />
-                <h5 class="text-md text-neutral-200">Patricia Long</h5>
-                <p class="text-sm text-neutral-100">Product Engineer</p>
+                <h5 class="text-center text-md text-neutral-200">
+                  Patricia Long
+                </h5>
+                <p class="text-sm text-center text-neutral-100">
+                  Product Engineer
+                </p>
                 <div class="flex items-center">
                   <a
                     class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"

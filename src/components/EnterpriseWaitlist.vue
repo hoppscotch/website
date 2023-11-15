@@ -39,15 +39,11 @@
           <div class="flex flex-col items-center justify-center flex-1 p-8">
             <!-- Content -->
             <div class="max-lg:text-center">
-              <div
-                class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-neutral-500/10 border-neutral-500/50"
+              <span
+                class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-b from-neutral-50 to-neutral-600"
               >
-                <span
-                  class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-neutral-50 to-neutral-600"
-                >
-                  Hoppscotch Enterprise Edition
-                </span>
-              </div>
+                Hoppscotch Enterprise Edition
+              </span>
               <h3
                 class="pb-3 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-100/80 to-neutral-50/80"
               >

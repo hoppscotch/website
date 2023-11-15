@@ -12,6 +12,5 @@
 </script>
 
 <template>
-  <TeamLocations />
   <OpenPositions />
 </template>

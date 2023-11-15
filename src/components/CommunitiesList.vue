@@ -7,15 +7,11 @@
         <div
           class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
         >
-          <div
-            class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-neutral-500/10 border-neutral-500/50"
+          <span
+            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-b from-neutral-50 to-neutral-600"
           >
-            <span
-              class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-neutral-50 to-neutral-600"
-            >
-              Communities
-            </span>
-          </div>
+            Communities
+          </span>
           <h2
             class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-100/80 to-neutral-50/80"
           >

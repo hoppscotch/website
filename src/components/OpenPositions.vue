@@ -1,10 +1,10 @@
 <template>
   <section>
-    <div class="max-w-4xl px-4 mx-auto sm:px-6">
-      <div class="py-12 md:py-16">
+    <div class="relative max-w-5xl px-4 mx-auto sm:px-6">
+      <div class="pt-32 pb-24">
         <!-- Section header -->
         <h3
-          class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-100/80 to-neutral-50/80"
+          class="pb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-100/80 to-neutral-50/80"
         >
           Open positions
         </h3>
@@ -14,11 +14,12 @@
           <div class="py-4">
             <div class="mb-2">
               <a
-                class="inline-flex items-center justify-between text-xl font-semibold tracking-tight transition text-neutral-400 hover:text-neutral-200"
+                class="inline-flex items-center justify-between text-xl font-semibold tracking-tight transition text-neutral-200 hover:text-neutral-100"
                 href="https://app.pyjamahr.com/careers?company=Hoppscotch&job_id=55362&company_uuid=8470DC1BAA"
                 target="_blank"
               >
                 <span>Backend Engineer (Infrastructure)</span>
+                <icon-lucide-arrow-right class="ml-2" />
               </a>
             </div>
             <div class="text-md text-neutral-200/50">
@@ -33,11 +34,12 @@
           <div class="py-4">
             <div class="mb-2">
               <a
-                class="inline-flex items-center justify-between text-xl font-semibold tracking-tight transition text-neutral-400 hover:text-neutral-200"
+                class="inline-flex items-center justify-between text-xl font-semibold tracking-tight transition text-neutral-200 hover:text-neutral-100"
                 href="https://app.pyjamahr.com/careers?company=Hoppscotch&job_id=54930&company_uuid=8470DC1BAA"
                 target="_blank"
               >
                 <span>Frontend Engineer (Senior)</span>
+                <icon-lucide-arrow-right class="ml-2" />
               </a>
             </div>
             <div class="text-md text-neutral-200/50">

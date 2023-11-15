@@ -1,6 +1,82 @@
 <script setup lang="ts">
-  const annual = ref(true)
   const platform = ref<"cloud" | "selfhost">("cloud")
+
+  const cloudTiers = [
+    {
+      name: "Community",
+      id: "tier-community",
+      cta: "Get started",
+      href: "https://hoppscotch.io",
+      price: "Free",
+      unit: "forever",
+      description:
+        "We build software in the open, with permissive licenses and thriving communities because we believe investing in open source will help leave the world a little better than we found it.",
+      features: [
+        "25 products",
+        "Up to 10,000 subscribers",
+        "Advanced analytics",
+        "24-hour support response time",
+      ],
+      featured: false,
+    },
+    {
+      name: "Enterprise",
+      id: "tier-enterprise",
+      cta: "Join the waitlist",
+      href: "https://forms.gle/XPYDMp8m6JHNWcYp9",
+      price: "comming soon",
+      unit: "",
+      description:
+        "Deploy Hoppscotch on-premise with our support. Securely manage, organize, and accelerate API-first development at scale.",
+      features: [
+        "Unlimited products",
+        "Unlimited subscribers",
+        "Advanced analytics",
+        "Dedicated support representative",
+        "Marketing automations",
+        "Custom integrations",
+      ],
+      featured: true,
+    },
+  ]
+  const selfhostTiers = [
+    {
+      name: "Community",
+      id: "tier-community",
+      cta: "Get started",
+      href: "https://docs.hoppscotch.io/documentation/self-host/getting-started",
+      price: "Free",
+      unit: "forever",
+      description:
+        "We build software in the open, with permissive licenses and thriving communities because we believe investing in open source will help leave the world a little better than we found it.",
+      features: [
+        "25 products",
+        "Up to 10,000 subscribers",
+        "Advanced analytics",
+        "24-hour support response time",
+      ],
+      featured: false,
+    },
+    {
+      name: "Enterprise",
+      id: "tier-enterprise",
+      cta: "Contact sales",
+      href: "https://cal.com/hoppscotch/enterprise-demo",
+      price: "$19",
+      unit: "per user per month",
+      description:
+        "Deploy Hoppscotch on-premise with our support. Securely manage, organize, and accelerate API-first development at scale.",
+      features: [
+        "Unlimited products",
+        "Unlimited subscribers",
+        "Advanced analytics",
+        "Dedicated support representative",
+        "Marketing automations",
+        "Custom integrations",
+      ],
+      featured: true,
+    },
+  ]
 </script>
 
 <template>
@@ -24,15 +100,11 @@
         <div
           class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
         >
-          <div
-            class="relative inline-flex items-center justify-center px-4 py-2 mb-6 text-sm border rounded-full bg-neutral-500/10 border-neutral-500/50"
+          <span
+            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-b from-neutral-50 to-neutral-600"
           >
-            <span
-              class="inline-flex text-transparent bg-clip-text max-w-max bg-gradient-to-b from-neutral-50 to-neutral-600"
-            >
-              Pricing plans
-            </span>
-          </div>
+            Pricing plans
+          </span>
           <h2
             class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-100/80 to-neutral-50/80"
           >
@@ -47,12 +119,14 @@
           <!-- Tabs -->
           <div class="flex justify-center mb-16">
             <fieldset
-              class="p-1 text-xs font-semibold text-center rounded-full grid grid-cols-2 leading-5 text-neutral-50 gap-x-1 bg-white/5"
+              class="p-1 text-xs font-semibold text-center rounded-full grid grid-cols-2 text-neutral-500 bg-neutral-800"
             >
               <legend class="sr-only">Platform</legend>
               <label
-                class="cursor-pointer rounded-full px-2.5 py-1"
-                :class="{ 'bg-neutral-700': platform === 'cloud' }"
+                class="px-3 py-2 rounded-full cursor-pointer transition hover:text-neutral-400"
+                :class="{
+                  '!bg-neutral-900 !text-neutral-50': platform === 'cloud',
+                }"
               >
                 <input
                   v-model="platform"
@@ -64,8 +138,10 @@
                 <span>Cloud</span>
               </label>
               <label
-                class="cursor-pointer rounded-full px-2.5 py-1"
-                :class="{ 'bg-neutral-700': platform === 'selfhost' }"
+                class="px-3 py-2 rounded-full cursor-pointer transition hover:text-neutral-400"
+                :class="{
+                  '!bg-neutral-900 !text-neutral-50': platform === 'selfhost',
+                }"
               >
                 <input
                   v-model="platform"
@@ -80,533 +156,94 @@
           </div>
           <!-- Content -->
           <div
-            class="grid md:grid-cols-4 xl:-mx-6 text-sm [&>div:nth-of-type(-n+4)]:py-6 [&>div:nth-last-of-type(-n+4)]:pb-6 max-md:[&>div:nth-last-of-type(-n+4)]:mb-8 max-md:[&>div:nth-of-type(-n+4):nth-of-type(n+1)]:rounded-t-3xl max-md:[&>div:nth-last-of-type(-n+4)]:rounded-b-3xl md:[&>div:nth-of-type(2)]:rounded-tl-3xl md:[&>div:nth-of-type(4)]:rounded-tr-3xl md:[&>div:nth-last-of-type(3)]:rounded-bl-3xl md:[&>div:nth-last-of-type(1)]:rounded-br-3xl [&>div]:bg-neutral-800/20 [&>div:nth-of-type(4n+1)]:bg-transparent max-md:[&>div:nth-of-type(4n+5)]:hidden max-md:[&>div:nth-of-type(4n+2)]:order-1 max-md:[&>div:nth-of-type(4n+3)]:order-2 max-md:[&>div:nth-of-type(4n+4)]:order-3 max-md:md:[&>div:nth-of-type(n)]:mb-0 [&>div:nth-of-type(4n+3)]:relative before:[&>div:nth-of-type(4n+3)]:absolute before:[&>div:nth-of-type(4n+3)]:-inset-px before:[&>div:nth-of-type(4n+3)]:rounded-[inherit] before:[&>div:nth-of-type(4n+3)]:border-x-2 before:[&>div:nth-of-type(3)]:border-t-2 before:[&>div:nth-last-of-type(2)]:border-b-2 before:[&>div:nth-of-type(4n+3)]:border-neutral-500 before:[&>div:nth-of-type(4n+3)]:-z-10 before:[&>div:nth-of-type(4n+3)]:pointer-events-none"
+            class="items-center max-w-lg mx-auto mt-16 grid grid-cols-1 gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2"
           >
-            <!-- Pricing toggle -->
-            <div class="flex flex-col justify-end px-6">
-              <div class="pb-5 md:border-b border-neutral-900">
-                <!-- Toggle switch -->
-                <!-- <div class="max-md:text-center">
-                  <div class="inline-flex items-center whitespace-nowrap">
-                    <div class="mr-2 text-sm text-neutral-100 md:max-lg:hidden">
-                      Monthly
-                    </div>
-                    <div class="relative">
-                      <input
-                        id="toggle"
-                        v-model="annual"
-                        type="checkbox"
-                        class="sr-only peer"
-                      />
-                      <label
-                        for="toggle"
-                        class="relative flex h-6 w-11 cursor-pointer items-center rounded-full bg-neutral-400 px-0.5 outline-neutral-400 transition-colors before:h-5 before:w-5 before:rounded-full before:bg-white before:shadow-sm before:transition-transform before:duration-200 peer-checked:bg-neutral-500 peer-checked:before:translate-x-full peer-focus-visible:outline peer-focus-visible:outline-offset-2 peer-focus-visible:outline-neutral-400 peer-checked:peer-focus-visible:outline-neutral-500"
-                      >
-                        <span class="sr-only">Pay Yearly</span>
-                      </label>
-                    </div>
-                    <div class="ml-2 text-sm text-neutral-100">
-                      Yearly (<span class="text-teal-500">-20%</span>)
-                    </div>
-                  </div>
-                </div> -->
-              </div>
-            </div>
-            <!-- Pro price -->
-            <div class="flex flex-col justify-end px-6">
-              <div class="pb-4 mb-4 border-b grow border-neutral-900">
-                <div
-                  class="text-base bg-clip-text max-w-max text-transparent bg-gradient-to-r from-neutral-500 to-neutral-200 pb-0.5"
-                >
-                  Cloud Edition
-                </div>
-                <div class="mb-1">
-                  <span class="text-lg text-neutral-100">$</span
-                  ><span class="text-3xl font-bold text-neutral-100">{{
-                    annual ? "24" : "29"
-                  }}</span
-                  ><span class="text-sm text-neutral-100">/user/month</span>
-                </div>
-                <div class="text-neutral-100">
-                  Everything at your fingertips.
-                </div>
-              </div>
-              <div class="pb-4 border-b border-neutral-900">
-                <RouterLink
-                  class="inline-flex items-center justify-center w-full px-3 py-1 text-sm border border-transparent rounded-full transition text-neutral-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
-                  to="/products"
-                >
-                  Get Started
-                  <span
-                    class="text-neutral-500 group-hover:translate-x-0.5 transition-transform ml-1"
-                  >
-                    <icon-lucide-arrow-right />
-                  </span>
-                </RouterLink>
-              </div>
-            </div>
-            <!-- Team price -->
-            <div class="flex flex-col justify-end px-6">
-              <div class="pb-4 mb-4 border-b grow border-neutral-900">
-                <div
-                  class="text-base bg-clip-text max-w-max text-transparent bg-gradient-to-r from-neutral-500 to-neutral-200 pb-0.5"
-                >
-                  Community Edition
-                </div>
-                <div class="mb-1">
-                  <span class="text-lg text-neutral-100">$</span
-                  ><span class="text-3xl font-bold text-neutral-100">{{
-                    annual ? "49" : "54"
-                  }}</span
-                  ><span class="text-sm text-neutral-100">/user/month</span>
-                </div>
-                <div class="text-neutral-100">
-                  Everything at your fingertips.
-                </div>
-              </div>
-              <div class="pb-4 border-b border-neutral-900">
-                <RouterLink
-                  class="inline-flex items-center justify-center w-full px-3 py-1 text-sm border border-transparent rounded-full transition text-neutral-50 bg-neutral-500 hover:bg-neutral-600 group"
-                  to="/products"
-                >
-                  Get Started
-                  <span
-                    class="text-neutral-300 group-hover:translate-x-0.5 transition-transform ml-1"
-                  >
-                    <icon-lucide-arrow-right />
-                  </span>
-                </RouterLink>
-              </div>
-            </div>
-            <!-- Enterprise price -->
-            <div class="flex flex-col justify-end px-6">
-              <div class="pb-4 mb-4 border-b grow border-neutral-900">
-                <div
-                  class="text-base bg-clip-text max-w-max text-transparent bg-gradient-to-r from-neutral-500 to-neutral-200 pb-0.5"
-                >
-                  Enterprise
-                </div>
-                <div class="mb-1">
-                  <span class="text-lg text-neutral-100">$</span
-                  ><span class="text-3xl font-bold text-neutral-100">{{
-                    annual ? "79" : "85"
-                  }}</span
-                  ><span class="text-sm text-neutral-100">/user/month</span>
-                </div>
-                <div class="text-neutral-100">
-                  Everything at your fingertips.
-                </div>
-              </div>
-              <div class="pb-4 border-b border-neutral-900">
-                <RouterLink
-                  class="inline-flex items-center justify-center w-full px-3 py-1 text-sm border border-transparent rounded-full transition text-neutral-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
-                  to="/products"
-                >
-                  Get Started
-                  <span
-                    class="text-neutral-500 group-hover:translate-x-0.5 transition-transform ml-1"
-                  >
-                    <icon-lucide-arrow-right />
-                  </span>
-                </RouterLink>
-              </div>
-            </div>
-            <!-- # Usage -->
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-neutral-100">Usage</div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-neutral-100 md:hidden">Usage</div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-neutral-100 md:hidden">Usage</div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-neutral-100 md:hidden">Usage</div>
-            </div>
-            <!-- Social Connections -->
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-neutral-200/50 border-neutral-900">
-                Social Connections
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
+            <div
+              v-for="(tier, index) in platform === 'cloud'
+                ? cloudTiers
+                : selfhostTiers"
+              :key="tier.id"
+              :class="[
+                tier.featured
+                  ? 'relative bg-neutral-200/90 shadow-2xl'
+                  : 'bg-neutral-900/90 sm:mx-8 lg:mx-0',
+                tier.featured
+                  ? ''
+                  : index === 0
+                    ? 'rounded-t-3xl sm:rounded-b-none lg:rounded-tr-none lg:rounded-bl-3xl'
+                    : 'sm:rounded-t-none lg:rounded-tr-3xl lg:rounded-bl-none',
+                'rounded-3xl p-8 ring-1 ring-neutral-800 backdrop-blur-md',
+              ]"
+            >
+              <h4
+                :id="tier.id"
+                :class="[
+                  tier.featured ? 'text-neutral-950' : 'text-neutral-400',
+                  'font-semibold leading-loose',
+                ]"
               >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
+                {{ tier.name }}
+              </h4>
+              <div class="flex items-baseline mt-4 gap-x-2">
+                <h1
+                  :class="[
+                    tier.featured ? 'text-neutral-950' : 'text-neutral-400',
+                    'text-5xl font-bold tracking-tight',
+                  ]"
+                >
+                  {{ tier.price }}
+                </h1>
                 <span
-                  >100 <span class="md:hidden">Social Connections</span></span
+                  :class="[
+                    tier.featured ? 'text-neutral-600' : 'text-neutral-500',
+                    'font-jakarta',
+                  ]"
                 >
+                  {{ tier.unit }}
+                </span>
               </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
+              <p
+                :class="[
+                  tier.featured ? 'text-neutral-700' : 'text-neutral-500',
+                  'mt-6 text-sm',
+                ]"
               >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span
-                  >250 <span class="md:hidden">Social Connections</span></span
+                {{ tier.description }}
+              </p>
+              <ul
+                role="list"
+                :class="[
+                  tier.featured ? 'text-neutral-800' : 'text-neutral-500',
+                  'mt-8 space-y-3 text-sm',
+                ]"
+              >
+                <li
+                  v-for="feature in tier.features"
+                  :key="feature"
+                  class="flex items-center gap-x-3"
                 >
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
+                  <icon-lucide-check
+                    :class="[
+                      tier.featured ? 'text-neutral-900' : 'text-neutral-400',
+                    ]"
+                    aria-hidden="true"
+                  />
+                  {{ feature }}
+                </li>
+              </ul>
+              <a
+                :href="tier.href"
+                :aria-describedby="tier.id"
+                target="_blank"
+                class="relative inline-flex items-center justify-center flex-shrink-0 w-full px-3 py-2 mt-8 text-sm font-medium border transition font-jakarta rounded-xl"
+                :class="[
+                  tier.featured
+                    ? 'bg-neutral-900/10 text-neutral-950 border-neutral-800/50 hover:border-neutral-800/80'
+                    : 'bg-neutral-600/10 text-neutral-400 border-neutral-500/50 hover:border-neutral-500/80',
+                ]"
               >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span
-                  >Unlimited
-                  <span class="md:hidden">Social Connections</span></span
-                >
-              </div>
-            </div>
-            <!-- Custom Domains -->
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-neutral-200/50 border-neutral-900">
-                Custom Domains
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span>4 <span class="md:hidden">Custom Domains</span></span>
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span
-                  >Unlimited <span class="md:hidden">Custom Domains</span></span
-                >
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span
-                  >Unlimited <span class="md:hidden">Custom Domains</span></span
-                >
-              </div>
-            </div>
-            <!-- User Role Management -->
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-neutral-200/50 border-neutral-900">
-                User Role Management
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span
-                  >Unlimited
-                  <span class="md:hidden">User Role Management</span></span
-                >
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span
-                  >Unlimited
-                  <span class="md:hidden">User Role Management</span></span
-                >
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span
-                  >Unlimited
-                  <span class="md:hidden">User Role Management</span></span
-                >
-              </div>
-            </div>
-            <!-- External Databases -->
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-neutral-200/50 border-neutral-900">
-                External Databases
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span>1 <span class="md:hidden">External Databases</span></span>
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span>5 <span class="md:hidden">External Databases</span></span>
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span
-                  >Unlimited
-                  <span class="md:hidden">External Databases</span></span
-                >
-              </div>
-            </div>
-            <!-- # Features -->
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-neutral-100">Features</div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-neutral-100 md:hidden">Features</div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-neutral-100 md:hidden">Features</div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-neutral-100 md:hidden">Features</div>
-            </div>
-            <!-- Custom Connection -->
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-neutral-200/50 border-neutral-900">
-                Custom Connection
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span><span class="md:hidden">Custom Connection</span></span>
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span><span class="md:hidden">Custom Connection</span></span>
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span><span class="md:hidden">Custom Connection</span></span>
-              </div>
-            </div>
-            <!-- Advanced Deployment Options -->
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-neutral-200/50 border-neutral-900">
-                Advanced Deployment Options
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span
-                  ><span class="md:hidden"
-                    >Advanced Deployment Options</span
-                  ></span
-                >
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span
-                  ><span class="md:hidden"
-                    >Advanced Deployment Options</span
-                  ></span
-                >
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span
-                  ><span class="md:hidden"
-                    >Advanced Deployment Options</span
-                  ></span
-                >
-              </div>
-            </div>
-            <!-- Extra Add-ons -->
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-neutral-200/50 border-neutral-900">
-                Extra Add-ons
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span><span class="md:hidden">Extra Add-ons</span></span>
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span><span class="md:hidden">Extra Add-ons</span></span>
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span><span class="md:hidden">Extra Add-ons</span></span>
-              </div>
-            </div>
-            <!-- Admin Roles -->
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-neutral-200/50 border-neutral-900">
-                Admin Roles
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center py-2 border-b border-neutral-900 text-neutral-200/50 max-md:hidden"
-              >
-                <span><span class="md:hidden">Admin Roles</span></span>
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center py-2 border-b border-neutral-900 text-neutral-200/50 max-md:hidden"
-              >
-                <span><span class="md:hidden">Admin Roles</span></span>
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span><span class="md:hidden">Admin Roles</span></span>
-              </div>
-            </div>
-            <!-- Deploy and Monitor -->
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-neutral-200/50 border-neutral-900">
-                Deploy and Monitor
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center py-2 border-b border-neutral-900 text-neutral-200/50 max-md:hidden"
-              >
-                <span><span class="md:hidden">Deploy and Monitor</span></span>
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center py-2 border-b border-neutral-900 text-neutral-200/50 max-md:hidden"
-              >
-                <span><span class="md:hidden">Deploy and Monitor</span></span>
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span><span class="md:hidden">Deploy and Monitor</span></span>
-              </div>
-            </div>
-            <!-- Enterprise Add-ons -->
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-neutral-200/50 border-neutral-900">
-                Enterprise Add-ons
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center py-2 border-b border-neutral-900 text-neutral-200/50 max-md:hidden"
-              >
-                <span><span class="md:hidden">Enterprise Add-ons</span></span>
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center py-2 border-b border-neutral-900 text-neutral-200/50 max-md:hidden"
-              >
-                <span><span class="md:hidden">Enterprise Add-ons</span></span>
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span><span class="md:hidden">Enterprise Add-ons</span></span>
-              </div>
-            </div>
-            <!-- # Support -->
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-neutral-100">Support</div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div class="hidden py-2 mt-4 text-neutral-100">Support</div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-neutral-100 md:hidden">Support</div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 mt-4 text-neutral-100 md:hidden">Support</div>
-            </div>
-            <!-- Premium Support -->
-            <div class="flex flex-col justify-end px-6">
-              <div class="py-2 border-b text-neutral-200/50 border-neutral-900">
-                Premium Support
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center py-2 border-b border-neutral-900 text-neutral-200/50 max-md:hidden"
-              >
-                <span><span class="md:hidden">Premium Support</span></span>
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span><span class="md:hidden">Premium Support</span></span>
-              </div>
-            </div>
-            <div class="flex flex-col justify-end px-6">
-              <div
-                class="flex items-center h-full py-2 border-b border-neutral-900 text-neutral-200/50"
-              >
-                <icon-lucide-check class="mr-3 text-neutral-500 shrink-0" />
-                <span><span class="md:hidden">Premium Support</span></span>
-              </div>
+                {{ tier.cta }}
+              </a>
             </div>
           </div>
         </div>

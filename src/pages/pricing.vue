@@ -12,9 +12,8 @@
 
 <template>
   <PricingTable />
-  <Clients />
-  <ComparrisionTable />
+  <!-- <ComparrisionTable /> -->
+  <!-- <Clients /> -->
   <Testimonials />
-  <Features04 />
   <Cta />
 </template>
