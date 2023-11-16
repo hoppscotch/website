@@ -1,7 +1,7 @@
 <template>
   <article id="08-11-2023" class="md:flex">
     <p
-      class="flex flex-col h-full text-xs leading-6 md:sticky pl-7 md:top-32 sm:text-sm text-neutral-200 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
+      class="flex flex-col h-full text-xs leading-6 md:sticky pl-7 md:top-32 sm:text-sm text-neutral-400 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
     >
       <a href="#08-11-2023" class="rounded">November 08, 2023</a>
     </p>
@@ -23,12 +23,6 @@
           <span class="w-1.5 h-1.5 mr-2 bg-neutral-400 rounded-full"></span>
           v2023.8.3
         </a>
-        <span
-          class="inline-flex items-center px-2 text-xs text-green-400 border border-green-800 rounded-md bg-green-500/10"
-        >
-          <span class="w-1.5 h-1.5 mr-2 bg-green-400 rounded-full"></span>
-          Latest
-        </span>
         <span
           class="inline-flex items-center px-2 text-xs text-teal-400 border border-teal-800 rounded-md bg-teal-500/10"
         >

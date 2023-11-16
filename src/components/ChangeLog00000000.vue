@@ -1,7 +1,7 @@
 <template>
   <article id="00-00-0000" class="md:flex">
     <p
-      class="flex flex-col h-full text-xs leading-6 md:sticky pl-7 md:top-32 sm:text-sm text-neutral-200 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
+      class="flex flex-col h-full text-xs leading-6 md:sticky pl-7 md:top-32 sm:text-sm text-neutral-400 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
     >
       <a href="#00-00-0000" class="rounded">MMMM 00, 0000</a>
     </p>

@@ -17,7 +17,7 @@
             >
               <!-- Content #1 -->
               <span
-                class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-b from-neutral-50 to-neutral-600"
+                class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-50 to-neutral-600"
               >
                 Developer-First API Platform
               </span>

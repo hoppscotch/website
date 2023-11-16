@@ -20,7 +20,7 @@
     {
       name: "Enterprise",
       id: "tier-enterprise",
-      cta: "Join the waitlist",
+      cta: "Join waitlist",
       href: "https://forms.gle/XPYDMp8m6JHNWcYp9",
       price: "Coming soon!",
       unit: "",
@@ -97,7 +97,7 @@
           class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
         >
           <span
-            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-b from-neutral-50 to-neutral-600"
+            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-50 to-neutral-600"
           >
             Pricing
           </span>

@@ -1,7 +1,7 @@
 <template>
   <article id="14-11-2023" class="md:flex">
     <p
-      class="flex flex-col h-full text-xs leading-6 md:sticky pl-7 md:top-32 sm:text-sm text-neutral-200 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
+      class="flex flex-col h-full text-xs leading-6 md:sticky pl-7 md:top-32 sm:text-sm text-neutral-400 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
     >
       <a href="#14-11-2023" class="rounded">November 14, 2023</a>
     </p>
@@ -24,6 +24,12 @@
           v2023.8.4
         </a>
         <span
+          class="inline-flex items-center px-2 text-xs text-green-400 border border-green-800 rounded-md bg-green-500/10"
+        >
+          <span class="w-1.5 h-1.5 mr-2 bg-green-400 rounded-full"></span>
+          Latest
+        </span>
+        <span
           class="inline-flex items-center px-2 text-xs text-red-400 border border-red-800 rounded-md bg-red-500/10"
         >
           <span class="w-1.5 h-1.5 mr-2 bg-red-400 rounded-full"></span>
@@ -33,7 +39,7 @@
       <div>
         <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-neutral-200">
           <RouterLink class="rounded" to="/changelog/14-11-2023">
-            Emergency hotfix
+            Hotfix
           </RouterLink>
         </h1>
         <p class="mt-4 mb-8 text-neutral-200/50">

@@ -12,15 +12,15 @@
       },
       {
         name: "description",
-        content: "Emergency hotfix.",
+        content: "Hotfix.",
       },
       {
         property: "og:description",
-        content: "Emergency hotfix.",
+        content: "Hotfix.",
       },
       {
         name: "twitter:description",
-        content: "Emergency hotfix.",
+        content: "Hotfix.",
       },
       {
         property: "og:image",
