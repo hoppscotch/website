@@ -144,7 +144,7 @@
               comes with a treasure trove of additional features including:
             </p>
             <ul
-              class="mt-4 mb-8 ml-5 list-disc space-y-2 marker:text-neutral-100"
+              class="mt-4 mb-8 ml-5 list-disc space-y-2 marker:text-secondary"
             >
               <li class="pl-4">
                 SAML-based Single Sign-On Support: Take the reins of user
@@ -228,7 +228,7 @@
               and effectiveness.
             </p>
             <ul
-              class="mt-4 mb-8 ml-5 list-disc space-y-2 marker:text-neutral-100"
+              class="mt-4 mb-8 ml-5 list-disc space-y-2 marker:text-secondary"
             >
               <li class="pl-4">
                 Multi-Query Capabilities: Embrace the freedom to write and

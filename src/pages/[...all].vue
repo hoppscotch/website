@@ -14,7 +14,7 @@
   <div class="flex flex-col items-center justify-center flex-1">
     <h1 class="mb-2">404</h1>
     <h2 class="mb-8 text-neutral-200">Page not found</h2>
-    <h4 class="mb-8 text-neutral-100">
+    <h4 class="mb-8 text-secondary">
       The page you are looking for does not exist.
     </h4>
     <RouterLink

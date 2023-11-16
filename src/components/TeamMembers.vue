@@ -34,12 +34,12 @@
                 <h5 class="text-center text-md text-neutral-200">
                   Sergey Filkov
                 </h5>
-                <p class="text-sm text-center text-neutral-100">
+                <p class="text-sm text-center text-secondary">
                   Chief Executive Officer
                 </p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-secondary"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -47,7 +47,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-secondary"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -69,12 +69,12 @@
                   alt="Team member 02"
                 />
                 <h5 class="text-center text-md text-neutral-200">Mary Champ</h5>
-                <p class="text-sm text-center text-neutral-100">
+                <p class="text-sm text-center text-secondary">
                   Chief Technology Officer
                 </p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-secondary"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -82,7 +82,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-secondary"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -106,12 +106,12 @@
                 <h5 class="text-center text-md text-neutral-200">
                   Mark Varsano
                 </h5>
-                <p class="text-sm text-center text-neutral-100">
+                <p class="text-sm text-center text-secondary">
                   Product Manager
                 </p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-secondary"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -119,7 +119,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-secondary"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -143,12 +143,12 @@
                 <h5 class="text-center text-md text-neutral-200">
                   George Hurley
                 </h5>
-                <p class="text-sm text-center text-neutral-100">
+                <p class="text-sm text-center text-secondary">
                   Product Engineer
                 </p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-secondary"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -156,7 +156,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-secondary"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -180,12 +180,12 @@
                 <h5 class="text-center text-md text-neutral-200">
                   Ellie Lepisov
                 </h5>
-                <p class="text-sm text-center text-neutral-100">
+                <p class="text-sm text-center text-secondary">
                   Product Engineer
                 </p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-secondary"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -193,7 +193,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-secondary"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -215,12 +215,12 @@
                   alt="Team member 06"
                 />
                 <h5 class="text-center text-md text-neutral-200">Connor Bal</h5>
-                <p class="text-sm text-center text-neutral-100">
+                <p class="text-sm text-center text-secondary">
                   Product Engineer
                 </p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-secondary"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -228,7 +228,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-secondary"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -252,12 +252,12 @@
                 <h5 class="text-center text-md text-neutral-200">
                   Marko Sharma
                 </h5>
-                <p class="text-sm text-center text-neutral-100">
+                <p class="text-sm text-center text-secondary">
                   Product Engineer
                 </p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-secondary"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -265,7 +265,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-secondary"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -289,12 +289,12 @@
                 <h5 class="text-center text-md text-neutral-200">
                   Mick Esposito
                 </h5>
-                <p class="text-sm text-center text-neutral-100">
+                <p class="text-sm text-center text-secondary">
                   Product Engineer
                 </p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-secondary"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -302,7 +302,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-secondary"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -326,12 +326,12 @@
                 <h5 class="text-center text-md text-neutral-200">
                   Daniel Smith
                 </h5>
-                <p class="text-sm text-center text-neutral-100">
+                <p class="text-sm text-center text-secondary">
                   Product Engineer
                 </p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-secondary"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -339,7 +339,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-secondary"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -363,12 +363,12 @@
                 <h5 class="text-center text-md text-neutral-200">
                   Patricia Long
                 </h5>
-                <p class="text-sm text-center text-neutral-100">
+                <p class="text-sm text-center text-secondary">
                   Product Engineer
                 </p>
                 <div class="flex items-center">
                   <a
-                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-secondary"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -376,7 +376,7 @@
                     <icon-lucide-twitter />
                   </a>
                   <a
-                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="p-2 mt-4 rounded-full transition text-neutral-200/50 hover:text-secondary"
                     href="/"
                     target="_blank"
                     rel="noopener noreferrer"

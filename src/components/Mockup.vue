@@ -99,9 +99,9 @@
               ></span>
             </span>
             <span
-              class="backdrop absolute inset-[1px] rounded-full bg-neutral-950 transition-colors duration-200 group-hover/button:bg-neutral-900"
+              class="backdrop absolute inset-[1px] rounded-full bg-primary transition-colors duration-200 group-hover/button:bg-primaryDark"
             ></span>
-            <span class="z-10 text text-neutral-100">Send</span>
+            <span class="z-10 text text-secondary">Send</span>
           </button>
         </div>
         <div

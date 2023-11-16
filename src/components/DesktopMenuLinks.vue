@@ -150,7 +150,7 @@
                   </div>
                   <div class="flex flex-col">
                     <div
-                      class="text-base font-bold transition text-neutral-100 group-hover:text-neutral-50"
+                      class="text-base font-bold transition text-secondary group-hover:text-neutral-50"
                     >
                       Cloud
                     </div>
@@ -173,7 +173,7 @@
                   </div>
                   <div class="flex flex-col">
                     <div
-                      class="text-base font-bold transition text-neutral-100 group-hover:text-neutral-50"
+                      class="text-base font-bold transition text-secondary group-hover:text-neutral-50"
                     >
                       Enterprise
                     </div>
@@ -196,7 +196,7 @@
                   </div>
                   <div class="flex flex-col">
                     <div
-                      class="text-base font-bold transition text-neutral-100 group-hover:text-neutral-50"
+                      class="text-base font-bold transition text-secondary group-hover:text-neutral-50"
                     >
                       Self-Host
                     </div>
@@ -219,7 +219,7 @@
                   </div>
                   <div class="flex flex-col">
                     <div
-                      class="text-base font-bold transition text-neutral-100 group-hover:text-neutral-50"
+                      class="text-base font-bold transition text-secondary group-hover:text-neutral-50"
                     >
                       CLI
                     </div>
@@ -306,7 +306,7 @@
                     </div>
                     <div class="flex flex-col">
                       <div
-                        class="text-base font-bold transition text-neutral-100 group-hover:text-neutral-50"
+                        class="text-base font-bold transition text-secondary group-hover:text-neutral-50"
                       >
                         Developers
                       </div>
@@ -329,7 +329,7 @@
                     </div>
                     <div class="flex flex-col">
                       <div
-                        class="text-base font-bold transition text-neutral-100 group-hover:text-neutral-50"
+                        class="text-base font-bold transition text-secondary group-hover:text-neutral-50"
                       >
                         Teams
                       </div>
@@ -352,7 +352,7 @@
                     </div>
                     <div class="flex flex-col">
                       <div
-                        class="text-base font-bold transition text-neutral-100 group-hover:text-neutral-50"
+                        class="text-base font-bold transition text-secondary group-hover:text-neutral-50"
                       >
                         Enterprises
                       </div>
@@ -375,7 +375,7 @@
                     </div>
                     <div class="flex flex-col">
                       <div
-                        class="text-base font-bold transition text-neutral-100 group-hover:text-neutral-50"
+                        class="text-base font-bold transition text-secondary group-hover:text-neutral-50"
                       >
                         Education
                       </div>
@@ -409,7 +409,7 @@
                     </div>
                     <div class="flex flex-col">
                       <div
-                        class="text-base font-bold transition text-neutral-100 group-hover:text-neutral-50"
+                        class="text-base font-bold transition text-secondary group-hover:text-neutral-50"
                       >
                         Cloud
                       </div>
@@ -432,7 +432,7 @@
                     </div>
                     <div class="flex flex-col">
                       <div
-                        class="text-base font-bold transition text-neutral-100 group-hover:text-neutral-50"
+                        class="text-base font-bold transition text-secondary group-hover:text-neutral-50"
                       >
                         Self-Host
                       </div>

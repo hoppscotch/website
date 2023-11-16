@@ -181,13 +181,13 @@
               >
                 {{ tier.name }}
               </h3>
-              <p class="mt-1 text-sm leading-6 text-neutral-100">
+              <p class="mt-1 text-sm leading-6 text-secondary">
                 {{ tier.description }}
               </p>
             </div>
             <div class="mt-10 space-y-10">
               <div v-for="section in sections" :key="section.name">
-                <h4 class="text-sm font-semibold leading-6 text-neutral-100">
+                <h4 class="text-sm font-semibold leading-6 text-secondary">
                   {{ section.name }}
                 </h4>
                 <div class="relative mt-6">
@@ -210,7 +210,7 @@
                         :key="feature.name"
                         class="flex items-center justify-between px-4 py-3 sm:grid sm:grid-cols-2 sm:px-0"
                       >
-                        <dt class="pr-4 text-neutral-100">
+                        <dt class="pr-4 text-secondary">
                           {{ feature.name }}
                         </dt>
                         <dd
@@ -299,7 +299,7 @@
               >
                 {{ tier.name }}
               </p>
-              <p class="mt-1 text-sm leading-6 text-neutral-100">
+              <p class="mt-1 text-sm leading-6 text-secondary">
                 {{ tier.description }}
               </p>
             </div>
@@ -308,7 +308,7 @@
 
         <div class="-mt-6 space-y-16">
           <div v-for="section in sections" :key="section.name">
-            <h3 class="text-sm font-semibold leading-6 text-neutral-100">
+            <h3 class="text-sm font-semibold leading-6 text-secondary">
               {{ section.name }}
             </h3>
             <div class="relative mt-10 -mx-8">
@@ -351,7 +351,7 @@
                       {{ feature.name }}
                       <div
                         v-if="featureIdx !== section.features.length - 1"
-                        class="absolute h-px mt-3 bg-neutral-900 inset-x-8"
+                        class="absolute h-px mt-3 bg-primaryDark inset-x-8"
                       ></div>
                     </th>
                     <td

@@ -17,9 +17,9 @@
             class="absolute h-[100cqw] w-[100cqw] animate-spin bg-[conic-gradient(from_0_at_50%_50%,theme(colors.neutral.50)_0deg,transparent_60deg,transparent_300deg,theme(colors.neutral.50)_360deg)] transition duration-300 [animation-duration:3s]"
           ></div>
         </div>
-        <div class="absolute inset-0.5 rounded-full bg-neutral-950"></div>
+        <div class="absolute inset-0.5 rounded-full bg-primary"></div>
         <div
-          class="absolute bottom-0 w-4/5 rounded-full opacity-50 transition-all duration-500 -translate-x-1/2 left-1/2 h-1/3 bg-neutral-900 blur-md group-hover:h-2/3 group-hover:opacity-100"
+          class="absolute bottom-0 w-4/5 rounded-full opacity-50 transition-all duration-500 -translate-x-1/2 left-1/2 h-1/3 bg-primaryDark blur-md group-hover:h-2/3 group-hover:opacity-100"
         ></div>
         <span
           class="relative text-lg font-medium text-transparent transition-all duration-200 font-mona bg-gradient-to-b from-neutral-200/25 to-neutral-50 bg-clip-text"

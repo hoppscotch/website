@@ -121,7 +121,7 @@
               <label
                 class="px-3 py-2 rounded-full cursor-pointer transition hover:text-neutral-400"
                 :class="{
-                  '!bg-neutral-900 !text-neutral-50': platform === 'cloud',
+                  '!bg-primaryDark !text-neutral-50': platform === 'cloud',
                 }"
               >
                 <input
@@ -136,7 +136,7 @@
               <label
                 class="px-3 py-2 rounded-full cursor-pointer transition hover:text-neutral-400"
                 :class="{
-                  '!bg-neutral-900 !text-neutral-50': platform === 'selfhost',
+                  '!bg-primaryDark !text-neutral-50': platform === 'selfhost',
                 }"
               >
                 <input

@@ -7,10 +7,10 @@
     </p>
     <div class="relative pt-2 pb-16 pl-7 md:w-4/5 md:pt-0 md:pl-12">
       <div
-        class="absolute -bottom-2 left-0 w-px bg-neutral-900 -top-3 md:top-2.5"
+        class="absolute -bottom-2 left-0 w-px bg-primaryDark -top-3 md:top-2.5"
       ></div>
       <div
-        class="absolute -top-[1.0625rem] -left-1 h-[0.5625rem] w-[0.5625rem] rounded-full border-2 border-neutral-600 bg-neutral-900 md:top-[0.4375rem]"
+        class="absolute -top-[1.0625rem] -left-1 h-[0.5625rem] w-[0.5625rem] rounded-full border-2 border-neutral-600 bg-primaryDark md:top-[0.4375rem]"
       ></div>
       <div
         id="0000.0.0"
@@ -82,7 +82,7 @@
           aliquid beatae.
         </p>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-neutral-100"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-secondary"
         >
           <li class="pl-4">Lorem, ipsum.</li>
           <li class="pl-4">Lorem, ipsum dolor.</li>

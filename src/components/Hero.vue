@@ -111,7 +111,7 @@
               class="absolute inset-[-1000%] animate-[spin_12s_linear_infinite_6s] bg-[conic-gradient(from_225deg_at_50%_50%,_theme(colors.transparent)_0%,_theme(colors.transparent)_92%,_theme(colors.neutral.800)_95%,_theme(colors.neutral.50)_100%)]"
             ></span>
             <div
-              class="relative inline-flex items-center justify-center w-full h-full rounded-lg ring ring-neutral-500/20 md:rounded-xl bg-neutral-950"
+              class="relative inline-flex items-center justify-center w-full h-full rounded-lg ring ring-neutral-500/20 md:rounded-xl bg-primary"
             >
               <img src="/images/hero-screenshot.png" alt="Screenshot" />
             </div>

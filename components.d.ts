@@ -112,6 +112,7 @@ declare module "vue" {
     IconLucideMagnet: (typeof import("~icons/lucide/magnet"))["default"]
     IconLucideMenu: (typeof import("~icons/lucide/menu"))["default"]
     IconLucideMonitor: (typeof import("~icons/lucide/monitor"))["default"]
+    IconLucideMoon: (typeof import("~icons/lucide/moon"))["default"]
     IconLucideNavigation: (typeof import("~icons/lucide/navigation"))["default"]
     IconLucideNewspaper: (typeof import("~icons/lucide/newspaper"))["default"]
     IconLucideOctagon: (typeof import("~icons/lucide/octagon"))["default"]

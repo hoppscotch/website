@@ -293,11 +293,11 @@
         >
           <!-- Top vertical line -->
           <div
-            class="hidden md:block absolute w-0.5 h-8 -top-16 -mt-2 bg-neutral-900 left-1/2 -translate-x-1/2"
+            class="hidden md:block absolute w-0.5 h-8 -top-16 -mt-2 bg-primaryDark left-1/2 -translate-x-1/2"
             aria-hidden="true"
           ></div>
           <div
-            class="relative flex items-center justify-center p-2 bg-neutral-900 rounded-2xl aspect-square"
+            class="relative flex items-center justify-center p-2 bg-primaryDark rounded-2xl aspect-square"
           >
             <!-- Inner lines -->
             <div
@@ -305,9 +305,9 @@
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-neutral-900 left-1/2 -translate-x-1/2"
+                class="absolute w-0.5 h-full bg-primaryDark left-1/2 -translate-x-1/2"
               ></div>
-              <div class="absolute w-1/2 h-0.5 bg-neutral-900 right-0" />
+              <div class="absolute w-1/2 h-0.5 bg-primaryDark right-0" />
             </div>
             <!-- Circle -->
             <div
@@ -324,7 +324,7 @@
             </div>
           </div>
           <div
-            class="relative flex items-center justify-center p-2 bg-neutral-900 rounded-2xl aspect-square"
+            class="relative flex items-center justify-center p-2 bg-primaryDark rounded-2xl aspect-square"
           >
             <!-- Inner lines -->
             <div
@@ -332,9 +332,9 @@
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-neutral-900 left-1/2 -translate-x-1/2"
+                class="absolute w-0.5 h-full bg-primaryDark left-1/2 -translate-x-1/2"
               ></div>
-              <div class="absolute w-full h-0.5 bg-neutral-900" />
+              <div class="absolute w-full h-0.5 bg-primaryDark" />
             </div>
             <!-- Circle -->
             <div
@@ -351,7 +351,7 @@
             </div>
           </div>
           <div
-            class="relative flex items-center justify-center p-2 bg-neutral-900 rounded-2xl aspect-square"
+            class="relative flex items-center justify-center p-2 bg-primaryDark rounded-2xl aspect-square"
           >
             <!-- Inner lines -->
             <div
@@ -359,9 +359,9 @@
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-neutral-900 left-1/2 -translate-x-1/2"
+                class="absolute w-0.5 h-full bg-primaryDark left-1/2 -translate-x-1/2"
               ></div>
-              <div class="absolute w-full h-0.5 bg-neutral-900" />
+              <div class="absolute w-full h-0.5 bg-primaryDark" />
             </div>
             <!-- Circle -->
             <div
@@ -378,7 +378,7 @@
             </div>
           </div>
           <div
-            class="relative flex items-center justify-center p-2 bg-neutral-900 rounded-2xl aspect-square"
+            class="relative flex items-center justify-center p-2 bg-primaryDark rounded-2xl aspect-square"
           >
             <!-- Inner lines -->
             <div
@@ -386,9 +386,9 @@
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-neutral-900 left-1/2 -translate-x-1/2"
+                class="absolute w-0.5 h-full bg-primaryDark left-1/2 -translate-x-1/2"
               ></div>
-              <div class="absolute w-full h-0.5 bg-neutral-900" />
+              <div class="absolute w-full h-0.5 bg-primaryDark" />
             </div>
             <!-- Circle -->
             <div
@@ -405,7 +405,7 @@
             </div>
           </div>
           <div
-            class="relative flex items-center justify-center p-2 bg-neutral-900 rounded-2xl aspect-square"
+            class="relative flex items-center justify-center p-2 bg-primaryDark rounded-2xl aspect-square"
           >
             <!-- Inner lines -->
             <div
@@ -413,9 +413,9 @@
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-neutral-900 left-1/2 -translate-x-1/2"
+                class="absolute w-0.5 h-full bg-primaryDark left-1/2 -translate-x-1/2"
               ></div>
-              <div class="absolute w-full h-0.5 bg-neutral-900" />
+              <div class="absolute w-full h-0.5 bg-primaryDark" />
             </div>
             <!-- Circle -->
             <div
@@ -432,7 +432,7 @@
             </div>
           </div>
           <div
-            class="relative flex items-center justify-center p-2 bg-neutral-900 rounded-2xl aspect-square"
+            class="relative flex items-center justify-center p-2 bg-primaryDark rounded-2xl aspect-square"
           >
             <!-- Inner lines -->
             <div
@@ -440,9 +440,9 @@
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-neutral-900 left-1/2 -translate-x-1/2"
+                class="absolute w-0.5 h-full bg-primaryDark left-1/2 -translate-x-1/2"
               ></div>
-              <div class="absolute w-1/2 h-0.5 bg-neutral-900 left-0" />
+              <div class="absolute w-1/2 h-0.5 bg-primaryDark left-0" />
             </div>
             <!-- Circle -->
             <div
