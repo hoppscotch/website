@@ -11,8 +11,7 @@
       unit: "forever",
       description: "Everything you need to get started with API testing.",
       features: [
-        "REST, GraphQL and Realtime API testing",
-        "Unlimited API collections",
+        "Unlimited collections",
         "Unlimited collaborators",
         "Community support",
       ],
@@ -28,7 +27,7 @@
       description:
         "Crafted for teams and enterprises seeking an unparalleled API testing experience. Includes everything in the free edition, plus...",
       features: [
-        "Single sign-on via SAML",
+        "Single Sign-On via SAML",
         "Identity and access management",
         "Audit logs",
         "Dedicated support",
@@ -48,10 +47,9 @@
       description:
         "Everything you need to get started with API testing, perfect for individuals and small teams.",
       features: [
-        "REST, GraphQL and Realtime API testing",
-        "Unlimited API collections",
+        "Unlimited collections",
         "Unlimited collaborators",
-        "Team management",
+        "Admin dashboard",
         "Community support",
       ],
       featured: false,
@@ -66,7 +64,7 @@
       description:
         "Crafted for teams and enterprises seeking an unparalleled API testing experience. Includes everything in the community edition, plus...",
       features: [
-        "Single sign-on via SAML",
+        "Single Sign-On via SAML",
         "Identity and access management",
         "Audit logs",
         "Dedicated support",
