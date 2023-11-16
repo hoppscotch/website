@@ -11,12 +11,12 @@
     scrollHeight.value = y
     if (y > 8) {
       apply({
-        width: "529px",
+        width: "522px",
         // width: "495px",
       })
     } else {
       apply({
-        width: "432px",
+        width: "425.5px",
         // width: "398px",
       })
     }
@@ -71,12 +71,19 @@
         Changelog
       </RouterLink>
       <RouterLink
+        to="/pricing"
+        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-neutral-200/60 hover:text-neutral-100/80"
+        @mouseenter="onTabMouseEnter"
+      >
+        Pricing
+      </RouterLink>
+      <!-- <RouterLink
         to="/careers"
         class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-neutral-200/60 hover:text-neutral-100/80"
         @mouseenter="onTabMouseEnter"
       >
         Careers
-      </RouterLink>
+      </RouterLink> -->
       <a
         href="https://docs.hoppscotch.io"
         target="_blank"

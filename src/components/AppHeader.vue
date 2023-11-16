@@ -64,7 +64,7 @@
             <template #content="{ hide }">
               <div class="flex flex-col p-2">
                 <RouterLink
-                  class="flex items-center px-3 py-2 text-sm rounded-full transition text-neutral-300 hover:text-neutral-50 hover:bg-neutral-800/50"
+                  class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-300 hover:text-neutral-50 hover:bg-neutral-800/50"
                   to="/images/logo.svg"
                   target="_blank"
                   download="hoppscotch-logo.svg"
@@ -73,14 +73,14 @@
                   <icon-lucide-save class="mr-3" />
                   Save Logo
                 </RouterLink>
-                <RouterLink
+                <!-- <RouterLink
                   class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-300 hover:text-neutral-50 hover:bg-neutral-800/50"
                   to="/brand"
                   @click="hide()"
                 >
                   <icon-lucide-palette class="mr-3" />
                   Brand
-                </RouterLink>
+                </RouterLink> -->
               </div>
             </template>
           </tippy>

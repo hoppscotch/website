@@ -18,8 +18,8 @@ dependencies:
     specifier: ^0.2.3
     version: 0.2.3
   "@unhead/addons":
-    specifier: ^1.8.3
-    version: 1.8.3
+    specifier: ^1.8.4
+    version: 1.8.4
   "@vueuse/core":
     specifier: ^10.6.1
     version: 10.6.1(vue@3.3.8)
@@ -39,8 +39,8 @@ dependencies:
     specifier: ^0.2.0
     version: 0.2.0
   puppeteer-core:
-    specifier: ~21.5.1
-    version: 21.5.1
+    specifier: ~21.5.2
+    version: 21.5.2
   unplugin-vue-markdown:
     specifier: ^0.25.1
     version: 0.25.1(vite@4.5.0)
@@ -65,8 +65,8 @@ devDependencies:
     specifier: ^6.11.0
     version: 6.11.0(eslint@8.53.0)(typescript@5.2.2)
   "@unhead/vue":
-    specifier: ^1.8.3
-    version: 1.8.3(vue@3.3.8)
+    specifier: ^1.8.4
+    version: 1.8.4(vue@3.3.8)
   "@vitejs/plugin-vue":
     specifier: ^4.4.1
     version: 4.4.1(vite@4.5.0)(vue@3.3.8)
@@ -261,8 +261,23 @@ packages:
         integrity: sha512-lN85QRR+5IbYrMWM6Y4pE/noaQtg4pNiqeNGX60eqOfo6gtEj6uw/JagelB8vVztSd7R6M5n1+PQkDbHbBRU4g==,
       }
     engines: { node: ">=6.9.0" }
+    requiresBuild: true
     dependencies:
       "@babel/types": 7.23.0
+      "@jridgewell/gen-mapping": 0.3.3
+      "@jridgewell/trace-mapping": 0.3.20
+      jsesc: 2.5.2
+    dev: false
+    optional: true
+
+  /@babel/generator@7.23.3:
+    resolution:
+      {
+        integrity: sha512-keeZWAV4LU3tW0qRi19HRpabC/ilM0HRBBzf9/k8FFiG4KVpiv0FIy4hHfLfFQZNhziCTPTmd59zoyv6DNISzg==,
+      }
+    engines: { node: ">=6.9.0" }
+    dependencies:
+      "@babel/types": 7.23.3
       "@jridgewell/gen-mapping": 0.3.3
       "@jridgewell/trace-mapping": 0.3.20
       jsesc: 2.5.2
@@ -436,6 +451,17 @@ packages:
     dependencies:
       "@babel/types": 7.23.0
 
+  /@babel/parser@7.23.3:
+    resolution:
+      {
+        integrity: sha512-uVsWNvlVsIninV2prNz/3lHCb+5CJ+e+IUBfbjToAHODtfGYLfCFuY4AU7TskI+dAKk+njsPiBjq1gKTvZOBaw==,
+      }
+    engines: { node: ">=6.0.0" }
+    hasBin: true
+    dependencies:
+      "@babel/types": 7.23.3
+    dev: false
+
   /@babel/standalone@7.22.20:
     resolution:
       {
@@ -493,6 +519,18 @@ packages:
       "@babel/helper-string-parser": 7.22.5
       "@babel/helper-validator-identifier": 7.22.20
       to-fast-properties: 2.0.0
+
+  /@babel/types@7.23.3:
+    resolution:
+      {
+        integrity: sha512-OZnvoH2l8PK5eUvEcUyCt/sXgr/h+UWpVuBbOljwcrAgUl6lpchoQ++PHGyQy1AtYnVA6CEq3y5xeEI10brpXw==,
+      }
+    engines: { node: ">=6.9.0" }
+    dependencies:
+      "@babel/helper-string-parser": 7.22.5
+      "@babel/helper-validator-identifier": 7.22.20
+      to-fast-properties: 2.0.0
+    dev: false
 
   /@csstools/css-parser-algorithms@2.3.2(@csstools/css-tokenizer@2.2.1):
     resolution:
@@ -1024,7 +1062,7 @@ packages:
       pkg-types: 1.0.3
       scule: 1.0.0
       semver: 7.5.4
-      ufo: 1.3.1
+      ufo: 1.3.2
       unctx: 2.3.1
       unimport: 3.4.0
       untyped: 1.4.0
@@ -1049,7 +1087,7 @@ packages:
       pathe: 1.1.1
       pkg-types: 1.0.3
       std-env: 3.4.3
-      ufo: 1.3.1
+      ufo: 1.3.2
       unimport: 3.4.0
       untyped: 1.4.0
     transitivePeerDependencies:
@@ -1355,18 +1393,18 @@ packages:
       }
     dev: true
 
-  /@unhead/addons@1.8.3:
+  /@unhead/addons@1.8.4:
     resolution:
       {
-        integrity: sha512-gc2cmrHLCxfxn4RVsDWKi4FZnV9wAoxxeqP7BQV58TRctfjH+/GMib0qXProuZx//Qd2mndtDHC1i4GPUWXaEw==,
+        integrity: sha512-l7QVlzE1DH9/+kSl0HSgOkeXA+MmvEV5r4Bu7iM894lV6D/GRjbtc6my/WGw+t18UmKIHdfWBbWBLbtWTGBAbQ==,
       }
     dependencies:
       "@rollup/pluginutils": 5.0.5
-      "@unhead/schema": 1.8.3
-      "@unhead/shared": 1.8.3
+      "@unhead/schema": 1.8.4
+      "@unhead/shared": 1.8.4
       magic-string: 0.30.5
       mlly: 1.4.2
-      ufo: 1.3.1
+      ufo: 1.3.2
       unplugin: 1.5.0
       unplugin-ast: 0.8.2
     transitivePeerDependencies:
@@ -1383,10 +1421,30 @@ packages:
       "@unhead/shared": 1.8.3
     dev: true
 
+  /@unhead/dom@1.8.4:
+    resolution:
+      {
+        integrity: sha512-WJ/NM+M+JqHJpiRUcPlj+H1qqbw3MykqvfHh1tT1J/WMNFS4lac+gAFCSFFSP1P19CW+30Q92XbAgMbgA45cow==,
+      }
+    dependencies:
+      "@unhead/schema": 1.8.4
+      "@unhead/shared": 1.8.4
+    dev: true
+
   /@unhead/schema@1.8.3:
     resolution:
       {
         integrity: sha512-3XbcJzdlyLr/RV2TKaygI21YorlU6XPgHn/MoWjQvH4PYiHkH8PtTGg8Je6k3gvcUURSiDfucFKaGEYdJXAVqQ==,
+      }
+    dependencies:
+      hookable: 5.5.3
+      zhead: 2.2.4
+    dev: true
+
+  /@unhead/schema@1.8.4:
+    resolution:
+      {
+        integrity: sha512-Lfeu123sFpqUJbFYIWUygUXjTq9TTtEH148VV8iiN1NC4THa7GeDgHWbb7FbigV9c5pFTGI7oREHKFCaTtLGSg==,
       }
     dependencies:
       hookable: 5.5.3
@@ -1399,19 +1457,28 @@ packages:
       }
     dependencies:
       "@unhead/schema": 1.8.3
+    dev: true
 
-  /@unhead/vue@1.8.3(vue@3.3.8):
+  /@unhead/shared@1.8.4:
     resolution:
       {
-        integrity: sha512-sj/1VosMreUQXd68rn5jDLdpgFVdN0mKrjW/8eZMWbomZkzbzs7FxyRUApd584xNjFVdtyWrTepmrNSKmEwKgg==,
+        integrity: sha512-DXgzbFPqdrms2TLJzmjG1F1tZPyejuCF95AF0cz/GjVEJErEyBMKyhWogVbkyYqPGiVCQT1uCKMYucuM9LhdZw==,
+      }
+    dependencies:
+      "@unhead/schema": 1.8.4
+
+  /@unhead/vue@1.8.4(vue@3.3.8):
+    resolution:
+      {
+        integrity: sha512-U2rXe5qocVK5qHaEj5/V2VimHVWbc6IJ4PpjpD7IwgN8uhxSt9oxNObhLIyRzdqim13PoAfS+zUAwFii4y0hpQ==,
       }
     peerDependencies:
       vue: ">=2.7 || >=3"
     dependencies:
-      "@unhead/schema": 1.8.3
-      "@unhead/shared": 1.8.3
+      "@unhead/schema": 1.8.4
+      "@unhead/shared": 1.8.4
       hookable: 5.5.3
-      unhead: 1.8.3
+      unhead: 1.8.4
       vue: 3.3.8(typescript@5.2.2)
     dev: true
 
@@ -1971,7 +2038,7 @@ packages:
       }
     engines: { node: ">=16.14.0" }
     dependencies:
-      "@babel/parser": 7.23.0
+      "@babel/parser": 7.23.3
       "@rollup/pluginutils": 5.0.5
       pathe: 1.1.1
     transitivePeerDependencies:
@@ -6001,12 +6068,12 @@ packages:
     engines: { node: ">=6" }
     dev: true
 
-  /puppeteer-core@21.5.1:
+  /puppeteer-core@21.5.2:
     resolution:
       {
-        integrity: sha512-u6c3SZKAOaOQogaTkQvllxT/o2PP16wkbrUWINtMhfvrB4ko+xwqC1pb+vyCPMmNUh3N/CX5YGqb3DWx2fUPSQ==,
+        integrity: sha512-v4T0cWnujSKs+iEfmb8ccd7u4/x8oblEyKqplqKnJ582Kw8PewYAWvkH4qUWhitN3O2q9RF7dzkvjyK5HbzjLA==,
       }
-    engines: { node: ">=16.3.0" }
+    engines: { node: ">=16.13.2" }
     dependencies:
       "@puppeteer/browsers": 1.8.0
       chromium-bidi: 0.4.33(devtools-protocol@0.0.1203626)
@@ -7120,12 +7187,11 @@ packages:
         integrity: sha512-bRn3CsoojyNStCZe0BG0Mt4Nr/4KF+rhFlnNXybgqt5pXHNFRlqinSoQaTrGyzE4X8aHplSb+TorH+COin9Yxw==,
       }
 
-  /ufo@1.3.1:
+  /ufo@1.3.2:
     resolution:
       {
-        integrity: sha512-uY/99gMLIOlJPwATcMVYfqDSxUR9//AUcgZMzwfSTJPDKzA1S8mX4VLqa+fiAtveraQUBCz4FFcwVZBGbwBXIw==,
+        integrity: sha512-o+ORpgGwaYQXgqGDwd+hkS4PuZ3QnmqMMxRuajK/a38L6fTpcE5GPIfrf+L/KemFzfUpeUQc1rRS1iDBozvnFA==,
       }
-    requiresBuild: true
     dev: false
 
   /uglify-js@3.17.4:
@@ -7167,15 +7233,15 @@ packages:
         integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==,
       }
 
-  /unhead@1.8.3:
+  /unhead@1.8.4:
     resolution:
       {
-        integrity: sha512-2/5NJs7nY1MgCkUNuyevALM9nSgGp2loRv5QPhYyZXUPdF+F76CpKvkqATEOEJ/1yDzWjCaWrNh4u5lS6BEioA==,
+        integrity: sha512-r2SFK18KzjKgSaOBawjQXXAz4odqKjy+fYtw7g+nwlc3FU1JNQqScVeTic0gEK69IJ/cRsqL6bPqF1ILkyVmTQ==,
       }
     dependencies:
-      "@unhead/dom": 1.8.3
-      "@unhead/schema": 1.8.3
-      "@unhead/shared": 1.8.3
+      "@unhead/dom": 1.8.4
+      "@unhead/schema": 1.8.4
+      "@unhead/shared": 1.8.4
       hookable: 5.5.3
     dev: true
 
@@ -7232,8 +7298,8 @@ packages:
     engines: { node: ">=16.14.0" }
     dependencies:
       "@antfu/utils": 0.7.6
-      "@babel/generator": 7.23.0
-      "@babel/parser": 7.23.0
+      "@babel/generator": 7.23.3
+      "@babel/parser": 7.23.3
       "@rollup/pluginutils": 5.0.5
       ast-kit: 0.6.9
       magic-string-ast: 0.1.3
@@ -7567,7 +7633,7 @@ packages:
         optional: true
     dependencies:
       "@unhead/dom": 1.8.3
-      "@unhead/vue": 1.8.3(vue@3.3.8)
+      "@unhead/vue": 1.8.4(vue@3.3.8)
       fs-extra: 11.1.1
       html-minifier: 4.0.0
       html5parser: 2.0.2
