@@ -3,19 +3,18 @@
 
   const cloudTiers = [
     {
-      name: "Community",
-      id: "tier-community",
+      name: "Free",
+      id: "tier-free",
       cta: "Get started",
       href: "https://hoppscotch.io",
-      price: "Free",
+      price: "$0",
       unit: "forever",
-      description:
-        "We build software in the open, with permissive licenses and thriving communities because we believe investing in open source will help leave the world a little better than we found it.",
+      description: "Everything you need to get started with API testing.",
       features: [
-        "25 products",
-        "Up to 10,000 subscribers",
-        "Advanced analytics",
-        "24-hour support response time",
+        "REST, GraphQL and Realtime API testing",
+        "Unlimited API collections",
+        "Unlimited collaborators",
+        "Community support",
       ],
       featured: false,
     },
@@ -24,17 +23,16 @@
       id: "tier-enterprise",
       cta: "Join the waitlist",
       href: "https://forms.gle/XPYDMp8m6JHNWcYp9",
-      price: "comming soon",
+      price: "Coming soon!",
       unit: "",
       description:
-        "Deploy Hoppscotch on-premise with our support. Securely manage, organize, and accelerate API-first development at scale.",
+        "Crafted for teams and enterprises seeking an unparalleled API testing experience. Includes everything in the free edition, plus...",
       features: [
-        "Unlimited products",
-        "Unlimited subscribers",
-        "Advanced analytics",
-        "Dedicated support representative",
-        "Marketing automations",
-        "Custom integrations",
+        "Single sign-on via SAML",
+        "Identity and access management",
+        "Audit logs",
+        "Dedicated support",
+        "Custom payment options",
       ],
       featured: true,
     },
@@ -45,15 +43,16 @@
       id: "tier-community",
       cta: "Get started",
       href: "https://docs.hoppscotch.io/documentation/self-host/getting-started",
-      price: "Free",
+      price: "$0",
       unit: "forever",
       description:
-        "We build software in the open, with permissive licenses and thriving communities because we believe investing in open source will help leave the world a little better than we found it.",
+        "Everything you need to get started with API testing, perfect for individuals and small teams.",
       features: [
-        "25 products",
-        "Up to 10,000 subscribers",
-        "Advanced analytics",
-        "24-hour support response time",
+        "REST, GraphQL and Realtime API testing",
+        "Unlimited API collections",
+        "Unlimited collaborators",
+        "Team management",
+        "Community support",
       ],
       featured: false,
     },
@@ -63,16 +62,15 @@
       cta: "Contact sales",
       href: "https://cal.com/hoppscotch/enterprise-demo",
       price: "$19",
-      unit: "per user per month",
+      unit: "/ user / month",
       description:
-        "Deploy Hoppscotch on-premise with our support. Securely manage, organize, and accelerate API-first development at scale.",
+        "Crafted for teams and enterprises seeking an unparalleled API testing experience. Includes everything in the community edition, plus...",
       features: [
-        "Unlimited products",
-        "Unlimited subscribers",
-        "Advanced analytics",
-        "Dedicated support representative",
-        "Marketing automations",
-        "Custom integrations",
+        "Single sign-on via SAML",
+        "Identity and access management",
+        "Audit logs",
+        "Dedicated support",
+        "Custom payment options",
       ],
       featured: true,
     },
@@ -103,15 +101,15 @@
           <span
             class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-b from-neutral-50 to-neutral-600"
           >
-            Pricing plans
+            Pricing
           </span>
           <h2
             class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-100/80 to-neutral-50/80"
           >
-            Flexible plans and features
+            Affordable plans for everyone
           </h2>
           <p class="text-lg text-neutral-200/50">
-            Choose the plan that works for you.
+            Begin your API testing for free, upgrade as you grow.
           </p>
         </div>
         <!-- Pricing tabs -->
