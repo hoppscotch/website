@@ -42,8 +42,8 @@ dependencies:
     specifier: ~21.5.2
     version: 21.5.2
   unplugin-vue-markdown:
-    specifier: ^0.25.1
-    version: 0.25.1(vite@4.5.0)
+    specifier: ^0.25.2
+    version: 0.25.2(vite@4.5.0)
   vue:
     specifier: ^3.3.8
     version: 3.3.8(typescript@5.2.2)
@@ -59,8 +59,8 @@ devDependencies:
     specifier: ^1.1.141
     version: 1.1.141
   "@types/node":
-    specifier: ^20.9.0
-    version: 20.9.0
+    specifier: ^20.9.1
+    version: 20.9.1
   "@typescript-eslint/parser":
     specifier: ^6.11.0
     version: 6.11.0(eslint@8.53.0)(typescript@5.2.2)
@@ -68,8 +68,8 @@ devDependencies:
     specifier: ^1.8.4
     version: 1.8.4(vue@3.3.8)
   "@vitejs/plugin-vue":
-    specifier: ^4.4.1
-    version: 4.4.1(vite@4.5.0)(vue@3.3.8)
+    specifier: ^4.5.0
+    version: 4.5.0(vite@4.5.0)(vue@3.3.8)
   autoprefixer:
     specifier: ^10.4.16
     version: 10.4.16(postcss@8.4.31)
@@ -138,7 +138,7 @@ devDependencies:
     version: 0.25.2(vue@3.3.8)
   vite:
     specifier: ^4.5.0
-    version: 4.5.0(@types/node@20.9.0)(sass@1.69.5)
+    version: 4.5.0(@types/node@20.9.1)(sass@1.69.5)
   vite-plugin-pages:
     specifier: ^0.31.0
     version: 0.31.0(vite@4.5.0)
@@ -1269,10 +1269,10 @@ packages:
       }
     dev: true
 
-  /@types/node@20.9.0:
+  /@types/node@20.9.1:
     resolution:
       {
-        integrity: sha512-nekiGu2NDb1BcVofVcEKMIwzlx4NjHlcjhoxxKBNLtz15Y1z7MYf549DFvkHSId02Ax6kGwWntIBPC3l/JZcmw==,
+        integrity: sha512-HhmzZh5LSJNS5O8jQKpJ/3ZcrrlG6L70hpGqMIAoM9YVD0YBRNWYsfwcXq8VnSjlNpCpgLzMXdiPo+dxcvSmiA==,
       }
     dependencies:
       undici-types: 5.26.5
@@ -1304,7 +1304,7 @@ packages:
       }
     requiresBuild: true
     dependencies:
-      "@types/node": 20.9.0
+      "@types/node": 20.9.1
     dev: false
     optional: true
 
@@ -1482,17 +1482,17 @@ packages:
       vue: 3.3.8(typescript@5.2.2)
     dev: true
 
-  /@vitejs/plugin-vue@4.4.1(vite@4.5.0)(vue@3.3.8):
+  /@vitejs/plugin-vue@4.5.0(vite@4.5.0)(vue@3.3.8):
     resolution:
       {
-        integrity: sha512-HCQG8VDFDM7YDAdcj5QI5DvUi+r6xvo9LgvYdk7LSkUNwdpempdB5horkMSZsbdey9Ywsf5aaU8kEPw9M5kREA==,
+        integrity: sha512-a2WSpP8X8HTEww/U00bU4mX1QpLINNuz/2KMNpLsdu3BzOpak3AGI1CJYBTXcc4SPhaD0eNRUp7IyQK405L5dQ==,
       }
     engines: { node: ^14.18.0 || >=16.0.0 }
     peerDependencies:
-      vite: ^4.0.0
+      vite: ^4.0.0 || ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.5.0(@types/node@20.9.0)(sass@1.69.5)
+      vite: 4.5.0(@types/node@20.9.1)(sass@1.69.5)
       vue: 3.3.8(typescript@5.2.2)
     dev: true
 
@@ -1865,6 +1865,15 @@ packages:
       }
     engines: { node: ">=0.4.0" }
     hasBin: true
+
+  /acorn@8.11.2:
+    resolution:
+      {
+        integrity: sha512-nc0Axzp/0FILLEVsm4fNwLCwMttvhEI263QtVPQcbpfZZ3ts0hLsZGOpE6czNlid7CJ9MlyH8reXkpsf3YUY4w==,
+      }
+    engines: { node: ">=0.4.0" }
+    hasBin: true
+    dev: false
 
   /agent-base@6.0.2:
     resolution:
@@ -7350,7 +7359,7 @@ packages:
     dependencies:
       fast-glob: 3.3.0
       unplugin: 1.4.0
-      vite: 4.5.0(@types/node@20.9.0)(sass@1.69.5)
+      vite: 4.5.0(@types/node@20.9.1)(sass@1.69.5)
     dev: true
 
   /unplugin-icons@0.17.4:
@@ -7419,13 +7428,13 @@ packages:
       - supports-color
     dev: true
 
-  /unplugin-vue-markdown@0.25.1(vite@4.5.0):
+  /unplugin-vue-markdown@0.25.2(vite@4.5.0):
     resolution:
       {
-        integrity: sha512-LY4nG6J5GTYuqFTV8pczsCHlR3CK1EOn5JXu1YebM1gsJTiqQiGcwrmoU/XMkAeKilxdn8hmrt2UP8By2yvJ3w==,
+        integrity: sha512-bDDWqtK1PUkWK/+kczOk33hqO5WulOUx5ZxfbCZuVArcUSwY7aB2vf4e2K+qdrlxalxkpjIA64z/liOrC/cjiQ==,
       }
     peerDependencies:
-      vite: ^2.0.0 || ^3.0.0-0 || ^4.0.0
+      vite: ^2.0.0 || ^3.0.0-0 || ^4.0.0-0 || ^5.0.0-0
     dependencies:
       "@mdit-vue/plugin-component": 1.0.0
       "@mdit-vue/plugin-frontmatter": 1.0.0
@@ -7433,8 +7442,8 @@ packages:
       "@rollup/pluginutils": 5.0.5
       "@types/markdown-it": 13.0.6
       markdown-it: 13.0.2
-      unplugin: 1.5.0
-      vite: 4.5.0(@types/node@20.9.0)(sass@1.69.5)
+      unplugin: 1.5.1
+      vite: 4.5.0(@types/node@20.9.1)(sass@1.69.5)
     transitivePeerDependencies:
       - rollup
     dev: false
@@ -7461,6 +7470,18 @@ packages:
       chokidar: 3.5.3
       webpack-sources: 3.2.3
       webpack-virtual-modules: 0.5.0
+
+  /unplugin@1.5.1:
+    resolution:
+      {
+        integrity: sha512-0QkvG13z6RD+1L1FoibQqnvTwVBXvS4XSPwAyinVgoOCl2jAgwzdUKmEj05o4Lt8xwQI85Hb6mSyYkcAGwZPew==,
+      }
+    dependencies:
+      acorn: 8.11.2
+      chokidar: 3.5.3
+      webpack-sources: 3.2.3
+      webpack-virtual-modules: 0.6.0
+    dev: false
 
   /untildify@4.0.0:
     resolution:
@@ -7581,7 +7602,7 @@ packages:
       json5: 2.2.3
       local-pkg: 0.4.3
       picocolors: 1.0.0
-      vite: 4.5.0(@types/node@20.9.0)(sass@1.69.5)
+      vite: 4.5.0(@types/node@20.9.1)(sass@1.69.5)
       yaml: 2.3.1
     transitivePeerDependencies:
       - supports-color
@@ -7600,7 +7621,7 @@ packages:
       "@vue/compiler-sfc": 3.3.4
       debug: 4.3.4
       fast-glob: 3.3.0
-      vite: 4.5.0(@types/node@20.9.0)(sass@1.69.5)
+      vite: 4.5.0(@types/node@20.9.1)(sass@1.69.5)
       vue: 3.3.8(typescript@5.2.2)
       vue-router: 4.2.5(vue@3.3.8)
     transitivePeerDependencies:
@@ -7640,7 +7661,7 @@ packages:
       jsdom: 22.1.0
       kolorist: 1.8.0
       prettier: 3.1.0
-      vite: 4.5.0(@types/node@20.9.0)(sass@1.69.5)
+      vite: 4.5.0(@types/node@20.9.1)(sass@1.69.5)
       vue: 3.3.8(typescript@5.2.2)
       vue-router: 4.2.5(vue@3.3.8)
       yargs: 17.7.2
@@ -7651,7 +7672,7 @@ packages:
       - utf-8-validate
     dev: true
 
-  /vite@4.5.0(@types/node@20.9.0)(sass@1.69.5):
+  /vite@4.5.0(@types/node@20.9.1)(sass@1.69.5):
     resolution:
       {
         integrity: sha512-ulr8rNLA6rkyFAlVWw2q5YJ91v098AFQ2R0PRFwPzREXOUJQPtFUG0t+/ZikhaOCDqFoDhN6/v8Sq0o4araFAw==,
@@ -7682,7 +7703,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      "@types/node": 20.9.0
+      "@types/node": 20.9.1
       esbuild: 0.18.20
       postcss: 8.4.31
       rollup: 3.29.4
@@ -7843,6 +7864,13 @@ packages:
       {
         integrity: sha512-kyDivFZ7ZM0BVOUteVbDFhlRt7Ah/CSPwJdi8hBpkK7QLumUqdLtVfm/PX/hkcnrvr0i77fO5+TjZ94Pe+C9iw==,
       }
+
+  /webpack-virtual-modules@0.6.0:
+    resolution:
+      {
+        integrity: sha512-KnaMTE6EItz/f2q4Gwg5/rmeKVi79OR58NoYnwDJqCk9ywMtTGbBnBcfoBtN4QbYu0lWXvyMoH2Owxuhe4qI6Q==,
+      }
+    dev: false
 
   /whatwg-encoding@2.0.0:
     resolution:
