@@ -61,7 +61,7 @@
           <h4 class="w-4/5 mb-4">
             <RouterLink
               :to="`/blog/${blog.slug}`"
-              class="transition text-neutral-200 hover:text-secondary"
+              class="transition text-neutral-200 hover:text-neutral-100"
             >
               {{ blog.title }}
             </RouterLink>

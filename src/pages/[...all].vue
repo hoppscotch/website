@@ -11,23 +11,17 @@
 </script>
 
 <template>
-  <div class="flex flex-col items-center justify-center flex-1">
+  <div class="flex flex-col items-center justify-center flex-1 min-h-screen">
     <h1 class="mb-2">404</h1>
-    <h2 class="mb-8 text-neutral-200">Page not found</h2>
-    <h4 class="mb-8 text-secondary">
+    <h4 class="mb-8 text-neutral-200">Page not found</h4>
+    <h5 class="mb-8 text-neutral-400">
       The page you are looking for does not exist.
-    </h4>
+    </h5>
     <RouterLink
-      class="flex items-center justify-center px-2 py-1 rounded transition text-neutral-200/50 hover:text-neutral-200"
+      class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition neutral-500ite/50 rounded-xl bg-neutral-500/10 border-neutral-500/50 hover:border-neutral-500/80"
       to="/"
     >
-      <icon-lucide-home class="mr-4" />
-      Go back home
+      Home
     </RouterLink>
   </div>
 </template>
-
-<route lang="yaml">
-meta:
-  layout: empty
-</route>

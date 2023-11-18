@@ -34,7 +34,7 @@
             >
               Make Better APIs
             </h1>
-            <p class="max-w-md mb-8 text-xl md:max-w-2xl text-neutral-200/80">
+            <p class="max-w-md mb-8 md:max-w-2xl text-neutral-200/80">
               Trusted by millions of developers to build, test and share APIs.
             </p>
             <div

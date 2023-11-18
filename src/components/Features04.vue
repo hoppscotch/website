@@ -296,7 +296,7 @@
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
               <icon-lucide-file-code class="fill-neutral-200" />
-              <span class="text-secondary"> Pre-Request Scripts </span>
+              <span class="text-neutral-100"> Pre-Request Scripts </span>
             </div>
             <p class="text-sm text-neutral-200/50">
               Modify headers, authenticate requests, generate random data, and
@@ -309,7 +309,7 @@
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
               <icon-lucide-file-check-2 class="fill-neutral-200" />
-              <span class="text-secondary"> Post Request Tests </span>
+              <span class="text-neutral-100"> Post Request Tests </span>
             </div>
             <p class="text-sm text-neutral-200/50">
               Test your APIs and write assertions for the response.
@@ -321,7 +321,7 @@
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
               <icon-lucide-languages class="fill-neutral-200" />
-              <span class="text-secondary"> Translations </span>
+              <span class="text-neutral-100"> Translations </span>
             </div>
             <p class="text-sm text-neutral-200/50">
               Use Hoppscotch in your native language. We support 30+ languages.
@@ -333,7 +333,7 @@
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
               <icon-lucide-crosshair class="fill-neutral-200" />
-              <span class="text-secondary"> Audit Logs </span>
+              <span class="text-neutral-100"> Audit Logs </span>
             </div>
             <p class="text-sm text-neutral-200/50">
               Track all the activities in your workspace. Who did what and when.
@@ -345,7 +345,7 @@
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
               <icon-lucide-lock class="fill-neutral-200" />
-              <span class="text-secondary"> Single-Sign-On </span>
+              <span class="text-neutral-100"> Single-Sign-On </span>
             </div>
             <p class="text-sm text-neutral-200/50">
               Use your existing SSO provider to login to Hoppscotch.
@@ -357,7 +357,7 @@
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
               <icon-lucide-shield-check class="fill-neutral-200" />
-              <span class="text-secondary"> Admin Dashboard </span>
+              <span class="text-neutral-100"> Admin Dashboard </span>
             </div>
             <p class="text-sm text-neutral-200/50">
               Manage your users, workspaces, and more.

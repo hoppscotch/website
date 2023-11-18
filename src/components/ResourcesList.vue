@@ -39,52 +39,52 @@
         >
           <!-- Item -->
           <div
-            class="relative flex flex-col p-8 shadow-xl rounded-2xl bg-primaryDark"
+            class="relative flex flex-col p-8 shadow-xl rounded-2xl bg-neutral-900"
           >
             <icon-lucide-book-open
               class="w-12 h-12 p-3 mb-4 text-neutral-200 bg-neutral-600 rounded-xl"
             />
             <h4 class="mb-2 text-xl font-bold">Documentation</h4>
-            <p class="text-sm text-secondary">
+            <p class="text-sm text-neutral-100">
               Read through our docs to learn how to get started with our
               products.
             </p>
           </div>
           <!-- Item -->
           <div
-            class="relative flex flex-col p-8 shadow-xl rounded-2xl bg-primaryDark"
+            class="relative flex flex-col p-8 shadow-xl rounded-2xl bg-neutral-900"
           >
             <icon-lucide-heart
               class="w-12 h-12 p-3 mb-4 text-neutral-200 bg-neutral-600 rounded-xl"
             />
             <h4 class="mb-2 text-xl font-bold">Community</h4>
-            <p class="text-sm text-secondary">
+            <p class="text-sm text-neutral-100">
               Join our community to get help, support, and feedback from our
               team.
             </p>
           </div>
           <!-- Item -->
           <div
-            class="relative flex flex-col p-8 shadow-xl rounded-2xl bg-primaryDark"
+            class="relative flex flex-col p-8 shadow-xl rounded-2xl bg-neutral-900"
           >
             <icon-lucide-palette
               class="w-12 h-12 p-3 mb-4 text-neutral-200 bg-neutral-600 rounded-xl"
             />
             <h4 class="mb-2 text-xl font-bold">Brand</h4>
-            <p class="text-sm text-secondary">
+            <p class="text-sm text-neutral-100">
               Download our brand assets to use in your projects and
               presentations.
             </p>
           </div>
           <!-- Item -->
           <div
-            class="relative flex flex-col p-8 shadow-xl rounded-2xl bg-primaryDark"
+            class="relative flex flex-col p-8 shadow-xl rounded-2xl bg-neutral-900"
           >
             <icon-lucide-shopping-bag
               class="w-12 h-12 p-3 mb-4 text-neutral-200 bg-neutral-600 rounded-xl"
             />
             <h4 class="mb-2 text-xl font-bold">Shop</h4>
-            <p class="text-sm text-secondary">
+            <p class="text-sm text-neutral-100">
               Get some cool swag to show your support for our products.
             </p>
           </div>

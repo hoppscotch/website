@@ -14,7 +14,7 @@
           <div class="py-4">
             <div class="mb-2">
               <a
-                class="inline-flex items-center justify-between text-xl font-semibold tracking-tight transition text-neutral-200 hover:text-secondary"
+                class="inline-flex items-center justify-between text-xl font-semibold tracking-tight transition text-neutral-200 hover:text-neutral-100"
                 href="https://app.pyjamahr.com/careers?company=Hoppscotch&job_id=55362&company_uuid=8470DC1BAA"
                 target="_blank"
               >
@@ -34,7 +34,7 @@
           <div class="py-4">
             <div class="mb-2">
               <a
-                class="inline-flex items-center justify-between text-xl font-semibold tracking-tight transition text-neutral-200 hover:text-secondary"
+                class="inline-flex items-center justify-between text-xl font-semibold tracking-tight transition text-neutral-200 hover:text-neutral-100"
                 href="https://app.pyjamahr.com/careers?company=Hoppscotch&job_id=54930&company_uuid=8470DC1BAA"
                 target="_blank"
               >

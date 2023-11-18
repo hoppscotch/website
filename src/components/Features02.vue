@@ -120,7 +120,7 @@
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
               <icon-lucide-zap class="fill-neutral-200" />
-              <span class="text-secondary">Lightweight and Snappy</span>
+              <span class="text-neutral-100">Lightweight and Snappy</span>
             </div>
             <p class="text-sm text-neutral-200/50">
               Designed to be seamless and instant. 150ms interactions and
@@ -133,7 +133,7 @@
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
               <icon-lucide-users-2 class="fill-neutral-200" />
-              <span class="text-secondary">Built for Collaboration </span>
+              <span class="text-neutral-100">Built for Collaboration </span>
             </div>
             <p class="text-sm text-neutral-200/50">
               Collaborate with your team in real-time. Share collections and
@@ -146,7 +146,7 @@
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
               <icon-lucide-palette class="fill-neutral-200" />
-              <span class="text-secondary">Highly Customizable</span>
+              <span class="text-neutral-100">Highly Customizable</span>
             </div>
             <p class="text-sm text-neutral-200/50">
               Make it your own. Customize the theme, layout, and more.
@@ -158,7 +158,7 @@
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
               <icon-lucide-filter class="fill-neutral-200" />
-              <span class="text-secondary"> Filter and Sort </span>
+              <span class="text-neutral-100"> Filter and Sort </span>
             </div>
             <p class="text-sm text-neutral-200/50">
               See only what you need. Filter and sort response and collections.
@@ -170,7 +170,7 @@
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
               <icon-lucide-package class="fill-neutral-200" />
-              <span class="text-secondary">Cross-Platform Apps</span>
+              <span class="text-neutral-100">Cross-Platform Apps</span>
             </div>
             <p class="text-sm text-neutral-200/50">
               Works on Mac, Windows, Linux, Web and CLI. Take your work
@@ -183,7 +183,7 @@
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
               <icon-lucide-shield-check class="fill-neutral-200" />
-              <span class="text-secondary">Safe and Secure</span>
+              <span class="text-neutral-100">Safe and Secure</span>
             </div>
             <p class="text-sm text-neutral-200/50">
               Designed to keep your data safe and protected.

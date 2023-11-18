@@ -97,7 +97,7 @@
             <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3">
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border bg-primaryDark border-neutral-500/20 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-neutral-900 border-neutral-500/20 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -115,7 +115,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border border-neutral-500/20 bg-primary rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border border-neutral-500/20 bg-neutral-950 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -151,7 +151,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border bg-primaryDark border-neutral-500/20 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-neutral-900 border-neutral-500/20 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -169,7 +169,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border border-neutral-500/20 bg-primary rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border border-neutral-500/20 bg-neutral-950 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -217,7 +217,7 @@
             <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3">
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border bg-primaryDark border-neutral-500/20 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-neutral-900 border-neutral-500/20 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -235,7 +235,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border border-neutral-500/20 bg-primary rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border border-neutral-500/20 bg-neutral-950 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -271,7 +271,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border bg-primaryDark border-neutral-500/20 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-neutral-900 border-neutral-500/20 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -289,7 +289,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border border-neutral-500/20 bg-primary rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border border-neutral-500/20 bg-neutral-950 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -336,7 +336,7 @@
             <div class="mt-8 grid grid-cols-1 gap-8">
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border bg-primaryDark border-neutral-500/20 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-neutral-900 border-neutral-500/20 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -392,7 +392,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border bg-primary border-neutral-500/20 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-neutral-950 border-neutral-500/20 rounded-t-xl"
                 >
                   #020617
                 </div>

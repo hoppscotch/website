@@ -1,8 +1,3 @@
-<script setup lang="ts">
-  const isDark = useDark({})
-  const toggleDark = useToggle(isDark)
-</script>
-
 <template>
   <footer>
     <Newsletter />
@@ -43,30 +38,17 @@
                     href="https://status.hoppscotch.io"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="flex items-center text-xs rounded transition text-neutral-200/50 hover:text-secondary"
+                    class="flex items-center text-xs rounded transition text-neutral-200/50 hover:text-neutral-100"
                   >
                     <div class="w-1 h-1 mr-2 bg-green-500 rounded-full"></div>
                     All systems operational.
                   </a>
                 </li>
-                <li>
-                  <button
-                    v-tippy="{
-                      content: isDark ? 'Light mode' : 'Dark mode',
-                      theme: 'tooltip',
-                    }"
-                    class="flex items-center justify-center rounded-full transition text-neutral-200/50 hover:text-secondary"
-                    @click="toggleDark()"
-                  >
-                    <icon-lucide-moon v-if="isDark" class="w-8 h-8 p-2" />
-                    <icon-lucide-sun v-else class="w-8 h-8 p-2" />
-                  </button>
-                </li>
               </ul>
               <ul class="flex items-center">
                 <li>
                   <a
-                    class="flex items-center justify-center rounded-full transition text-neutral-200/50 hover:text-secondary"
+                    class="flex items-center justify-center rounded-full transition text-neutral-200/50 hover:text-neutral-100"
                     href="https://hoppscotch.io/twitter"
                     aria-label="Twitter"
                     target="_blank"
@@ -77,7 +59,7 @@
                 </li>
                 <li>
                   <a
-                    class="flex items-center justify-center rounded-full transition text-neutral-200/50 hover:text-secondary"
+                    class="flex items-center justify-center rounded-full transition text-neutral-200/50 hover:text-neutral-100"
                     href="https://hoppscotch.io/github"
                     aria-label="Github"
                     target="_blank"

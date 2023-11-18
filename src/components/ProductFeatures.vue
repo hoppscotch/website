@@ -142,7 +142,7 @@
                 <Highlighter class="group">
                   <HighlighterItem>
                     <div
-                      class="relative h-full bg-primary rounded-[inherit] z-20 overflow-hidden"
+                      class="relative h-full bg-neutral-950 rounded-[inherit] z-20 overflow-hidden"
                     >
                       <img
                         loading="lazy"
@@ -181,7 +181,7 @@
                 <Highlighter class="group">
                   <HighlighterItem>
                     <div
-                      class="relative h-full bg-primary rounded-[inherit] z-20 overflow-hidden"
+                      class="relative h-full bg-neutral-950 rounded-[inherit] z-20 overflow-hidden"
                     >
                       <img
                         loading="lazy"
@@ -220,7 +220,7 @@
                 <Highlighter class="group">
                   <HighlighterItem>
                     <div
-                      class="relative h-full bg-primary rounded-[inherit] z-20 overflow-hidden"
+                      class="relative h-full bg-neutral-950 rounded-[inherit] z-20 overflow-hidden"
                     >
                       <img
                         loading="lazy"
@@ -259,7 +259,7 @@
                 <Highlighter class="group">
                   <HighlighterItem>
                     <div
-                      class="relative h-full bg-primary rounded-[inherit] z-20 overflow-hidden"
+                      class="relative h-full bg-neutral-950 rounded-[inherit] z-20 overflow-hidden"
                     >
                       <img
                         loading="lazy"

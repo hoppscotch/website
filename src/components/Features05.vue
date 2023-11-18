@@ -48,7 +48,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-heart-handshake class="fill-neutral-200" />
-                  <span class="text-secondary">Collaborate</span>
+                  <span class="text-neutral-100">Collaborate</span>
                 </div>
                 <p class="text-sm text-neutral-200/50">
                   Engage with your teammates, share, design and collaborate —
@@ -59,7 +59,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-database class="fill-neutral-200" />
-                  <span class="text-secondary">Mock</span>
+                  <span class="text-neutral-100">Mock</span>
                 </div>
                 <p class="text-sm text-neutral-200/50">
                   See exactly how your API will run — even before it's in
@@ -70,7 +70,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-file-check class="fill-neutral-200" />
-                  <span class="text-secondary">Document</span>
+                  <span class="text-neutral-100">Document</span>
                 </div>
                 <p class="text-sm text-neutral-200/50">
                   Make documentation a core part of your API workflow.
@@ -92,7 +92,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-compass class="fill-neutral-200" />
-                  <span class="text-secondary"> Discover </span>
+                  <span class="text-neutral-100"> Discover </span>
                 </div>
                 <p class="text-sm text-neutral-200/50">
                   Find and explore APIs from your team and the community.
@@ -102,7 +102,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-layers class="fill-neutral-200" />
-                  <span class="text-secondary">Protocols</span>
+                  <span class="text-neutral-100">Protocols</span>
                 </div>
                 <p class="text-sm text-neutral-200/50">
                   Develop APIs using the protocols you love under one roof.
@@ -112,7 +112,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-git-compare class="fill-neutral-200" />
-                  <span class="text-secondary">Integrations</span>
+                  <span class="text-neutral-100">Integrations</span>
                 </div>
                 <p class="text-sm text-neutral-200/50">
                   Integrate with your favorite tools and services.
@@ -134,7 +134,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-atom class="fill-neutral-200" />
-                  <span class="text-secondary"> Automate </span>
+                  <span class="text-neutral-100"> Automate </span>
                 </div>
                 <p class="text-sm text-neutral-200/50">
                   Run tests automatically from your source code whenever
@@ -145,7 +145,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-terminal-square class="fill-neutral-200" />
-                  <span class="text-secondary">CLI</span>
+                  <span class="text-neutral-100">CLI</span>
                 </div>
                 <p class="text-sm text-neutral-200/50">
                   Run tests from any environments — cloud, local and CI/CD
@@ -156,7 +156,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-shield-check class="fill-neutral-200" />
-                  <span class="text-secondary"> Manual </span>
+                  <span class="text-neutral-100"> Manual </span>
                 </div>
                 <p class="text-sm text-neutral-200/50">
                   Run tests manually with human supervision. Streamline your QA
@@ -179,7 +179,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-workflow class="fill-neutral-200" />
-                  <span class="text-secondary"> Workflow </span>
+                  <span class="text-neutral-100"> Workflow </span>
                 </div>
                 <p class="text-sm text-neutral-200/50">
                   Deploy your APIs to production with confidence. Automate your
@@ -190,7 +190,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-file class="fill-neutral-200" />
-                  <span class="text-secondary"> Documentation </span>
+                  <span class="text-neutral-100"> Documentation </span>
                 </div>
                 <p class="text-sm text-neutral-200/50">
                   Make it easy for developers to consume your APIs with
@@ -201,7 +201,7 @@
               <div>
                 <div class="flex items-center mb-1 space-x-2">
                   <icon-lucide-crosshair class="fill-neutral-200" />
-                  <span class="text-secondary"> Monitor </span>
+                  <span class="text-neutral-100"> Monitor </span>
                 </div>
                 <p class="text-sm text-neutral-200/50">
                   Keep track of you APIs health. Get notified when something

@@ -6,11 +6,6 @@ export default {
       center: true,
     },
     extend: {
-      colors: {
-        primary: "var(--color-primary)",
-        primaryDark: "var(--color-primary-dark)",
-        secondary: "var(--color-secondary)",
-      },
       fontFamily: {
         inter: ["Inter Variable", "sans-serif"],
         jakarta: ["Plus Jakarta Sans Variable", "sans-serif"],

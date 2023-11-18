@@ -6,7 +6,7 @@
       <h6 class="mb-4">
         <RouterLink
           to="/products"
-          class="text-sm rounded transition text-neutral-200 hover:text-secondary"
+          class="text-sm rounded transition text-neutral-200 hover:text-neutral-100"
         >
           Products
         </RouterLink>
@@ -14,7 +14,7 @@
       <ul class="text-sm space-y-2">
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/products/cloud"
           >
             Cloud
@@ -22,7 +22,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/products/Enterprise"
           >
             Enterprise
@@ -30,7 +30,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/products/self-host"
           >
             Self-Host
@@ -38,7 +38,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/products/cli"
           >
             CLI
@@ -51,7 +51,7 @@
       <h6 class="mb-4">
         <RouterLink
           to="/explore"
-          class="text-sm rounded transition text-neutral-200 hover:text-secondary"
+          class="text-sm rounded transition text-neutral-200 hover:text-neutral-100"
         >
           Explore
         </RouterLink>
@@ -59,7 +59,7 @@
       <ul class="text-sm space-y-2">
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/features"
           >
             Features
@@ -67,7 +67,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/download"
           >
             Download
@@ -75,7 +75,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/pricing"
           >
             Pricing
@@ -83,7 +83,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/changelog"
           >
             Changelog
@@ -96,7 +96,7 @@
       <h6 class="mb-4">
         <RouterLink
           to="/solutions"
-          class="text-sm rounded transition text-neutral-200 hover:text-secondary"
+          class="text-sm rounded transition text-neutral-200 hover:text-neutral-100"
         >
           Solutions
         </RouterLink>
@@ -104,7 +104,7 @@
       <ul class="text-sm space-y-2">
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/solutions/developers"
           >
             Developers
@@ -112,7 +112,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/solutions/teams"
           >
             Teams
@@ -120,7 +120,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/solutions/enterprise"
           >
             Enterprise
@@ -128,7 +128,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/solutions/education"
           >
             Education
@@ -136,7 +136,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/solutions/cloud"
           >
             Cloud
@@ -144,7 +144,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/solutions/self-host"
           >
             Self-Host
@@ -157,7 +157,7 @@
       <h6 class="mb-4">
         <RouterLink
           to="/company"
-          class="text-sm rounded transition text-neutral-200 hover:text-secondary"
+          class="text-sm rounded transition text-neutral-200 hover:text-neutral-100"
         >
           Company
         </RouterLink>
@@ -165,7 +165,7 @@
       <ul class="text-sm space-y-2">
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/about"
           >
             About
@@ -173,7 +173,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/blog"
           >
             Blog
@@ -181,7 +181,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/careers"
           >
             Careers
@@ -189,7 +189,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/contact"
           >
             Contact
@@ -202,7 +202,7 @@
       <h6 class="mb-4">
         <RouterLink
           to="/resources"
-          class="text-sm rounded transition text-neutral-200 hover:text-secondary"
+          class="text-sm rounded transition text-neutral-200 hover:text-neutral-100"
         >
           Resources
         </RouterLink>
@@ -210,7 +210,7 @@
       <ul class="text-sm space-y-2">
         <li>
           <a
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             href="https://docs.hoppscotch.io"
             target="_blank"
             rel="noopener noreferrer"
@@ -220,7 +220,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/community"
           >
             Community
@@ -228,7 +228,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/brand"
           >
             Brand
@@ -236,7 +236,7 @@
         </li>
         <li>
           <a
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             href="https://shop.hoppscotch.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -251,7 +251,7 @@
       <h6 class="mb-4">
         <RouterLink
           to="/legal"
-          class="text-sm rounded transition text-neutral-200 hover:text-secondary"
+          class="text-sm rounded transition text-neutral-200 hover:text-neutral-100"
         >
           Legal
         </RouterLink>
@@ -259,7 +259,7 @@
       <ul class="text-sm space-y-2">
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/privacy"
           >
             Privacy Policy
@@ -267,7 +267,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-neutral-200/50 hover:text-secondary"
+            class="rounded transition text-neutral-200/50 hover:text-neutral-100"
             to="/terms"
           >
             Terms of Service

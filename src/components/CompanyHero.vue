@@ -246,7 +246,7 @@
                     <cite class="not-italic text-neutral-200">
                       {{ item.name }}
                     </cite>
-                    | <span class="text-secondary">{{ item.role }}</span>
+                    | <span class="text-neutral-100">{{ item.role }}</span>
                   </div>
                 </div>
               </template>

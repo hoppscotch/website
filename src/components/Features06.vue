@@ -119,7 +119,7 @@
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
               <icon-lucide-share-2 class="fill-neutral-200" />
-              <span class="text-secondary"> Shared Requests </span>
+              <span class="text-neutral-100"> Shared Requests </span>
             </div>
             <p class="text-sm text-neutral-200/50">
               Share your requests with your team, friends or the world.
@@ -131,7 +131,7 @@
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
               <icon-lucide-code class="fill-neutral-200" />
-              <span class="text-secondary"> Generate Code Snippets </span>
+              <span class="text-neutral-100"> Generate Code Snippets </span>
             </div>
             <p class="text-sm text-neutral-200/50">
               Generate code snippets for your requests in various languages and
@@ -144,7 +144,7 @@
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
               <icon-lucide-shuffle class="fill-neutral-200" />
-              <span class="text-secondary"> One-Click Migration </span>
+              <span class="text-neutral-100"> One-Click Migration </span>
             </div>
             <p class="text-sm text-neutral-200/50">
               Migrate from Postman, Insomnia, cURL with a single click
@@ -156,7 +156,7 @@
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
               <icon-lucide-command class="fill-neutral-200" />
-              <span class="text-secondary"> Command-Line Interface </span>
+              <span class="text-neutral-100"> Command-Line Interface </span>
             </div>
             <p class="text-sm text-neutral-200/50">
               Use the CLI to run your requests from the terminal. Automate your
@@ -169,7 +169,7 @@
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
               <icon-lucide-arrow-up-down class="fill-neutral-200" />
-              <span class="text-secondary">
+              <span class="text-neutral-100">
                 Proxy and Interceptor Support
               </span>
             </div>
@@ -183,7 +183,7 @@
               class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
             >
               <icon-lucide-shield-check class="fill-neutral-200" />
-              <span class="text-secondary"> Secure and Private </span>
+              <span class="text-neutral-100"> Secure and Private </span>
             </div>
             <p class="text-sm text-neutral-200/50">
               Local-first data storage. No tracking. No analytics. No ads.

@@ -57,7 +57,7 @@
           >
             Make Better APIs
           </h1>
-          <p class="max-w-md mb-8 text-xl md:max-w-2xl text-neutral-200/80">
+          <p class="max-w-md mb-8 md:max-w-2xl text-neutral-200/80">
             Trusted by millions of developers to build, test and share APIs.
           </p>
           <div
@@ -68,7 +68,7 @@
                 href="https://hoppscotch.io"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="relative inline-block overflow-hidden group rounded-full p-[1px]"
+                class="relative inline-flex overflow-hidden group rounded-full p-[1px]"
               >
                 <span
                   class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,_theme(colors.neutral.800)_0%,_theme(colors.neutral.50)_50%,_theme(colors.neutral.800)_100%)]"
@@ -102,16 +102,16 @@
         <div class="relative xl:-mx-36">
           <!-- Backdrop image -->
           <div
-            class="relative inline-block p-px overflow-hidden rounded-lg md:rounded-xl"
+            class="relative inline-flex p-px overflow-hidden rounded-lg md:rounded-xl"
           >
             <span
-              class="absolute inset-[-1000%] animate-[spin_12s_linear_infinite] bg-[conic-gradient(from_225deg_at_50%_50%,_theme(colors.transparent)_0%,_theme(colors.transparent)_92%,_theme(colors.neutral.800)_95%,_theme(colors.neutral.50)_100%)]"
+              class="absolute inset-[-1000%] animate-[spin_16s_linear_infinite] bg-[conic-gradient(from_225deg_at_50%_50%,_theme(colors.transparent)_0%,_theme(colors.transparent)_92%,_theme(colors.neutral.800)_95%,_theme(colors.neutral.50)_100%)]"
             ></span>
             <span
-              class="absolute inset-[-1000%] animate-[spin_12s_linear_infinite_6s] bg-[conic-gradient(from_225deg_at_50%_50%,_theme(colors.transparent)_0%,_theme(colors.transparent)_92%,_theme(colors.neutral.800)_95%,_theme(colors.neutral.50)_100%)]"
+              class="absolute inset-[-1000%] animate-[spin_16s_linear_infinite_8s] bg-[conic-gradient(from_225deg_at_50%_50%,_theme(colors.transparent)_0%,_theme(colors.transparent)_92%,_theme(colors.neutral.800)_95%,_theme(colors.neutral.50)_100%)]"
             ></span>
             <div
-              class="relative inline-flex items-center justify-center w-full h-full rounded-lg ring ring-neutral-500/20 md:rounded-xl bg-primary"
+              class="relative inline-flex items-center justify-center w-full h-full rounded-lg ring ring-neutral-500/20 md:rounded-xl bg-neutral-950"
             >
               <img src="/images/hero-screenshot.png" alt="Screenshot" />
             </div>
@@ -125,7 +125,7 @@
               @click.stop="videoModalOpen = true"
             >
               <div
-                class="flex items-center justify-center p-5 m-3 border rounded-full shadow-xl transition text-neutral-50 border-neutral-500/90 backdrop-blur-md bg-gradient-to-b from-neutral-500/50 to-neutral-900/10 group-hover:scale-105"
+                class="flex items-center justify-center p-6 m-4 border rounded-full shadow-xl transition text-neutral-50 border-neutral-500/90 backdrop-blur-md bg-gradient-to-b from-neutral-500/50 to-neutral-900/10 group-hover:scale-105"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

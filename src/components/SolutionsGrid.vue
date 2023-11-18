@@ -50,7 +50,7 @@
               <img loading="lazy" src="/images/solutions-feature-1.svg" />
               <div class="flex flex-col items-start flex-1 w-full mt-8">
                 <h5 class="">Real-time</h5>
-                <p class="mt-4 text-sm text-secondary">
+                <p class="mt-4 text-sm text-neutral-100">
                   Test, share and track the progress of your APIs all in one
                   place. No more switching between tools.
                 </p>
@@ -65,7 +65,7 @@
               <img loading="lazy" src="/images/solutions-feature-2.svg" />
               <div class="flex flex-col items-start flex-1 w-full mt-8">
                 <h5 class="">Cloud sync</h5>
-                <p class="mt-4 text-sm text-secondary">
+                <p class="mt-4 text-sm text-neutral-100">
                   Start from where you left off. Your data is synced across
                   devices.
                 </p>
@@ -80,7 +80,7 @@
               <img loading="lazy" src="/images/solutions-feature-3.svg" />
               <div class="flex flex-col items-start flex-1 w-full mt-8">
                 <h5 class="">Multi-platform</h5>
-                <p class="mt-4 text-sm text-secondary">
+                <p class="mt-4 text-sm text-neutral-100">
                   Hoppscotch is available for all platforms. Download the app or
                   use the web app.
                 </p>
@@ -95,7 +95,7 @@
               <img loading="lazy" src="/images/solutions-feature-4.svg" />
               <div class="flex flex-col items-start flex-1 w-full mt-8">
                 <h5 class="">Access levels</h5>
-                <p class="mt-4 text-sm text-secondary">
+                <p class="mt-4 text-sm text-neutral-100">
                   Share your APIs with your team or keep it private.
                 </p>
               </div>
@@ -109,7 +109,7 @@
               <img loading="lazy" src="/images/solutions-feature-5.svg" />
               <div class="flex flex-col items-start flex-1 w-full mt-8">
                 <h5 class="">Collaborate with team</h5>
-                <p class="mt-4 text-sm text-secondary">
+                <p class="mt-4 text-sm text-neutral-100">
                   Invite your team members to collaborate on your APIs. Work
                   together to build the best APIs.
                 </p>

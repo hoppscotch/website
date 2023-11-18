@@ -35,7 +35,7 @@ html {
   }
 }
 .medium-zoom-overlay {
-  @apply bg-primary #{!important};
+  @apply bg-neutral-950 #{!important};
   @apply z-40 #{!important};
 }
 .medium-zoom-image--opened {
