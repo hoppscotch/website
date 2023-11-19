@@ -29,25 +29,6 @@
       </ClientOnly>
       <!-- Hero content -->
       <div class="relative pt-32 pb-16 overflow-y-clip md:pt-40">
-        <!-- Backdrop image -->
-        <div class="absolute transform -translate-x-1/2 -z-1 left-1/2">
-          <div class="relative -z-1">
-            <div
-              class="h-[1026px] w-[1026px] bg-gradient-to-b from-neutral-900 from-0% via-20% to-100% via-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 absolute border-neutral-500/20"
-            ></div>
-          </div>
-          <div class="relative -z-1">
-            <div
-              class="h-[684px] w-[684px] shadow-2xl shadow-neutral-500/50 bg-gradient-to-b from-neutral-900 from-0% via-20% to-100% via-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 top-[160px] absolute border-neutral-500/20"
-            ></div>
-          </div>
-          <div class="relative -z-1">
-            <div
-              class="h-[342px] w-[342px] shadow-2xl shadow-neutral-500/50 bg-gradient-to-b from-neutral-900 from-0% via-20% to-100% via-transparent rounded-full border-t transform -translate-x-1/2 -z-1 left-1/2 top-[300px] absolute border-neutral-500/20"
-            ></div>
-          </div>
-        </div>
-        <!-- Content -->
         <div
           class="relative flex flex-col items-center max-w-4xl mx-auto text-center"
         >
@@ -105,10 +86,10 @@
             class="relative inline-flex p-px overflow-hidden rounded-lg md:rounded-xl"
           >
             <span
-              class="absolute inset-[-1000%] animate-[spin_16s_linear_infinite] bg-[conic-gradient(from_225deg_at_50%_50%,_theme(colors.transparent)_0%,_theme(colors.transparent)_92%,_theme(colors.neutral.800)_95%,_theme(colors.neutral.50)_100%)]"
+              class="absolute inset-[-1000%] animate-[spin_16s_linear_infinite] bg-[conic-gradient(from_225deg_at_50%_50%,_theme(colors.transparent)_0%,_theme(colors.transparent)_92%,_theme(colors.neutral.800)_95%,_theme(colors.neutral.100)_100%)]"
             ></span>
             <span
-              class="absolute inset-[-1000%] animate-[spin_16s_linear_infinite_8s] bg-[conic-gradient(from_225deg_at_50%_50%,_theme(colors.transparent)_0%,_theme(colors.transparent)_92%,_theme(colors.neutral.800)_95%,_theme(colors.neutral.50)_100%)]"
+              class="absolute inset-[-1000%] animate-[spin_16s_linear_infinite_8s] bg-[conic-gradient(from_225deg_at_50%_50%,_theme(colors.transparent)_0%,_theme(colors.transparent)_92%,_theme(colors.neutral.800)_95%,_theme(colors.neutral.100)_100%)]"
             ></span>
             <div
               class="relative inline-flex items-center justify-center w-full h-full rounded-lg ring ring-neutral-500/20 md:rounded-xl bg-neutral-950"

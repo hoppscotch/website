@@ -5,7 +5,7 @@
 </template>
 
 <style lang="scss" scoped>
-  $n: 6; // number of meteors
+  $n: 3; // number of meteors
   @for $i from 1 through $n {
     $v: calc(random(100)); // left
     $h: calc(random(250)); // top
