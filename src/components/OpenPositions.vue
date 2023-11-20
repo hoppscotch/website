@@ -15,6 +15,28 @@
             <div class="mb-2">
               <a
                 class="inline-flex items-center justify-between text-xl font-semibold tracking-tight transition text-neutral-200 hover:text-neutral-100"
+                href="https://app.pyjamahr.com/careers?company=Hoppscotch&job_id=67074&company_uuid=8470DC1BAA"
+                target="_blank"
+              >
+                <span>Backend Engineer</span>
+                <icon-lucide-arrow-right class="ml-2" />
+              </a>
+            </div>
+            <div class="text-md text-neutral-200/50">
+              You will be at the forefront of developing, optimizing, and
+              maintaining the core functionality of our cutting-edge,
+              self-hosted applications. This role requires a passion for
+              creating robust, scalable solutions that empower users to host and
+              manage our software with ease. Collaboration with cross-functional
+              teams is essential to ensure the reliability, security, and
+              extensibility of our self-hosted offerings.
+            </div>
+          </div>
+          <!-- Job -->
+          <div class="py-4">
+            <div class="mb-2">
+              <a
+                class="inline-flex items-center justify-between text-xl font-semibold tracking-tight transition text-neutral-200 hover:text-neutral-100"
                 href="https://app.pyjamahr.com/careers?company=Hoppscotch&job_id=55362&company_uuid=8470DC1BAA"
                 target="_blank"
               >
