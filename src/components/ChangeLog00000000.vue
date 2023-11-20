@@ -1,7 +1,7 @@
 <template>
   <article id="00-00-0000" class="md:flex">
     <p
-      class="flex flex-col h-full text-xs leading-6 md:sticky pl-7 md:top-32 sm:text-sm text-neutral-400 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
+      class="flex flex-col h-full text-xs leading-6 text-neutral-400 md:sticky pl-7 md:top-32 sm:text-sm md:w-1/5 md:pl-0 md:pr-12 md:text-right"
     >
       <a href="#00-00-0000" class="rounded">MMMM 00, 0000</a>
     </p>
@@ -49,7 +49,7 @@
         </span>
       </div>
       <div>
-        <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-neutral-200">
+        <h1 class="mb-8 text-2xl font-bold text-neutral-200 sm:text-4xl">
           <RouterLink class="rounded" to="/changelog/00-00-0000">
             Bug fixes and performance improvements
           </RouterLink>
@@ -61,7 +61,7 @@
         </p>
         <ImageZoom
           src="/images/changelog-00-00-0000.png"
-          class="p-2 mt-4 mb-8 border rounded-3xl border-neutral-900"
+          class="p-2 mt-4 mb-8 border border-neutral-900 rounded-3xl"
         />
         <h4 class="flex items-center text-xl font-bold">
           Self-Host support for Hoppscotch

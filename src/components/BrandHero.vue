@@ -363,7 +363,7 @@
               internet. The primary color is Hoppscotch neutral, which should be
               used sparingly for emphasis. The secondary color is Hoppscotch
               Slate, which is used for backgrounds and borders. The tertiary
-              color is Hoppscotch Gray, which is used for text and icons.
+              color is Hoppscotch Neutral, which is used for text and icons.
             </p>
             <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3">
               <div class="flex flex-col">

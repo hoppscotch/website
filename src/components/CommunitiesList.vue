@@ -27,7 +27,7 @@
         >
           <!-- Item -->
           <div
-            class="relative flex flex-col p-8 shadow-xl rounded-2xl bg-neutral-900"
+            class="relative flex flex-col p-8 shadow-xl bg-neutral-900 rounded-2xl"
           >
             <icon-lucide-book-open
               class="w-12 h-12 p-3 mb-4 text-neutral-200 bg-neutral-600 rounded-xl"
@@ -40,7 +40,7 @@
           </div>
           <!-- Item -->
           <div
-            class="relative flex flex-col p-8 shadow-xl rounded-2xl bg-neutral-900"
+            class="relative flex flex-col p-8 shadow-xl bg-neutral-900 rounded-2xl"
           >
             <icon-lucide-github
               class="w-12 h-12 p-3 mb-4 text-neutral-200 bg-neutral-600 rounded-xl"
@@ -53,7 +53,7 @@
           </div>
           <!-- Item -->
           <div
-            class="relative flex flex-col p-8 shadow-xl rounded-2xl bg-neutral-900"
+            class="relative flex flex-col p-8 shadow-xl bg-neutral-900 rounded-2xl"
           >
             <icon-lucide-twitter
               class="w-12 h-12 p-3 mb-4 text-neutral-200 bg-neutral-600 rounded-xl"

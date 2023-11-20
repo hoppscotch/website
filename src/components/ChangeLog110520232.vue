@@ -1,7 +1,7 @@
 <template>
   <article id="11-05-2023" class="md:flex">
     <p
-      class="flex flex-col h-full text-xs leading-6 md:sticky pl-7 md:top-32 sm:text-sm text-neutral-400 md:w-1/5 md:pl-0 md:pr-12 md:text-right"
+      class="flex flex-col h-full text-xs leading-6 text-neutral-400 md:sticky pl-7 md:top-32 sm:text-sm md:w-1/5 md:pl-0 md:pr-12 md:text-right"
     >
       <a href="#11-05-2023" class="rounded">May 11, 2023</a>
     </p>
@@ -31,7 +31,7 @@
         </span>
       </div>
       <div>
-        <h1 class="mb-8 text-2xl font-bold sm:text-4xl text-neutral-200">
+        <h1 class="mb-8 text-2xl font-bold text-neutral-200 sm:text-4xl">
           <RouterLink class="rounded" to="/changelog/11-05-2023">
             Hotfix
           </RouterLink>

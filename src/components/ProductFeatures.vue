@@ -43,21 +43,21 @@
           <div class="pb-8 grid grid-cols-2 gap-6 sm:grid-cols-4">
             <div>
               <button
-                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-violet-500/10"
+                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-neutral-500/10"
                 :class="{
-                  'bg-violet-500/10 !opacity-100 ring-1 ring-violet-600':
+                  'bg-neutral-500/10 !opacity-100 ring-1 ring-neutral-600':
                     tab === 1,
                 }"
                 @click="tab = 1"
               >
                 <div
-                  class="inline-flex p-4 mb-4 rounded-full shadow-md bg-violet-600"
+                  class="inline-flex p-4 mb-4 rounded-full shadow-md bg-neutral-600"
                 >
                   <icon-lucide-cloudy />
                 </div>
                 <div
                   class="text-sm leading-tight"
-                  :class="{ 'text-violet-200': tab === 1 }"
+                  :class="{ 'text-neutral-200': tab === 1 }"
                 >
                   Cloud
                 </div>

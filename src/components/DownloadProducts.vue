@@ -52,7 +52,7 @@
               @click="tab = 1"
             >
               <div
-                class="flex flex-shrink-0 p-4 mb-4 border rounded-xl border-neutral-600 bg-neutral-900"
+                class="flex flex-shrink-0 p-4 mb-4 border bg-neutral-900 border-neutral-600 rounded-xl"
               >
                 <img
                   loading="lazy"
@@ -77,7 +77,7 @@
               @click="tab = 2"
             >
               <div
-                class="flex flex-shrink-0 p-4 mb-4 border rounded-xl border-neutral-600 bg-neutral-900"
+                class="flex flex-shrink-0 p-4 mb-4 border bg-neutral-900 border-neutral-600 rounded-xl"
               >
                 <img
                   loading="lazy"
@@ -102,7 +102,7 @@
               @click="tab = 3"
             >
               <div
-                class="flex flex-shrink-0 p-4 mb-4 border rounded-xl border-neutral-600 bg-neutral-900"
+                class="flex flex-shrink-0 p-4 mb-4 border bg-neutral-900 border-neutral-600 rounded-xl"
               >
                 <img
                   loading="lazy"
@@ -127,7 +127,7 @@
               @click="tab = 4"
             >
               <div
-                class="flex flex-shrink-0 p-4 mb-4 border rounded-xl border-neutral-600 bg-neutral-900"
+                class="flex flex-shrink-0 p-4 mb-4 border bg-neutral-900 border-neutral-600 rounded-xl"
               >
                 <icon-lucide-globe class="w-6 h-6" />
               </div>
@@ -147,7 +147,7 @@
               @click="tab = 5"
             >
               <div
-                class="flex flex-shrink-0 p-4 mb-4 border rounded-xl border-neutral-600 bg-neutral-900"
+                class="flex flex-shrink-0 p-4 mb-4 border bg-neutral-900 border-neutral-600 rounded-xl"
               >
                 <icon-lucide-terminal class="w-6 h-6" />
               </div>

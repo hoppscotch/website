@@ -96,7 +96,7 @@
         <!-- Check list -->
         <div class="max-w-4xl pb-16 mx-auto">
           <ul
-            class="flex flex-col flex-wrap items-center justify-center -mx-3 -my-8 text-md text-neutral-200 sm:flex-row"
+            class="flex flex-col flex-wrap items-center justify-center -mx-3 -my-8 text-neutral-200 text-md sm:flex-row"
           >
             <li class="flex items-center mx-3 my-2">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
@@ -131,7 +131,7 @@
                 aria-hidden="true"
               >
                 <div
-                  class="bottom-0 border-l border-dashed transform translate-y-8 h-1/2 border-neutral-700"
+                  class="bottom-0 border-l border-dashed transform translate-y-8 border-neutral-700 h-1/2"
                 ></div>
               </div>
               <!-- People pics -->

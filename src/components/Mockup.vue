@@ -80,7 +80,7 @@
       <div class="sticky top-0 flex flex-col w-full">
         <div class="flex w-full p-4 gap-4">
           <div
-            class="px-4 py-2 font-semibold border rounded-full shrink-0 text-neutral-600 border-neutral-400/10 backdrop-blur-md"
+            class="px-4 py-2 font-semibold border rounded-full text-neutral-600 shrink-0 border-neutral-400/10 backdrop-blur-md"
           >
             GET
           </div>
@@ -101,7 +101,7 @@
             <span
               class="backdrop absolute inset-[1px] rounded-full bg-neutral-950 transition-colors duration-200 group-hover/button:bg-neutral-900"
             ></span>
-            <span class="z-10 text text-neutral-100">Send</span>
+            <span class="z-10 text-neutral-100 text">Send</span>
           </button>
         </div>
         <div

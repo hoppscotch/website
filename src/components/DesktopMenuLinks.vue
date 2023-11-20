@@ -107,7 +107,7 @@
     <div v-if="scrollHeight > 8" class="flex overflow-hidden rounded-full">
       <a
         v-motion-slide-right
-        class="flex items-center justify-center flex-shrink-0 px-4 py-2 text-sm border rounded-full transition text-neutral-50 border-neutral-600 backdrop-blur-md bg-gradient-to-br from-neutral-600/30 via-neutral-700/30 to-neutral-800/30 hover:from-neutral-600/50 hover:via-neutral-700/50 hover:to-neutral-800/50"
+        class="flex items-center justify-center flex-shrink-0 px-4 py-2 text-sm border rounded-full transition border-neutral-600 text-neutral-50 backdrop-blur-md bg-gradient-to-br from-neutral-600/30 via-neutral-700/30 to-neutral-800/30 hover:from-neutral-600/50 hover:via-neutral-700/50 hover:to-neutral-800/50"
         href="https://github.com/hoppscotch/hoppscotch"
         target="_blank"
         rel="noopener noreferrer"
@@ -581,7 +581,7 @@
     <div v-if="scrollHeight > 8" class="flex overflow-hidden rounded-full">
       <a
         v-motion-slide-right
-        class="flex items-center justify-center flex-shrink-0 px-4 py-2 text-sm border rounded-full transition text-neutral-50 border-neutral-600 backdrop-blur-md bg-gradient-to-br from-neutral-600/30 via-neutral-700/30 to-neutral-800/30 hover:from-neutral-600/50 hover:via-neutral-700/50 hover:to-neutral-800/50"
+        class="flex items-center justify-center flex-shrink-0 px-4 py-2 text-sm border rounded-full transition border-neutral-600 text-neutral-50 backdrop-blur-md bg-gradient-to-br from-neutral-600/30 via-neutral-700/30 to-neutral-800/30 hover:from-neutral-600/50 hover:via-neutral-700/50 hover:to-neutral-800/50"
         href="https://github.com/hoppscotch/hoppscotch"
         target="_blank"
         rel="noopener noreferrer"

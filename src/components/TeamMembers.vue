@@ -31,7 +31,7 @@
                   height="80"
                   alt="Team member 01"
                 />
-                <h5 class="text-center text-md text-neutral-200">
+                <h5 class="text-center text-neutral-200 text-md">
                   Sergey Filkov
                 </h5>
                 <p class="text-sm text-center text-neutral-100">
@@ -68,7 +68,7 @@
                   height="80"
                   alt="Team member 02"
                 />
-                <h5 class="text-center text-md text-neutral-200">Mary Champ</h5>
+                <h5 class="text-center text-neutral-200 text-md">Mary Champ</h5>
                 <p class="text-sm text-center text-neutral-100">
                   Chief Technology Officer
                 </p>
@@ -103,7 +103,7 @@
                   height="80"
                   alt="Team member 03"
                 />
-                <h5 class="text-center text-md text-neutral-200">
+                <h5 class="text-center text-neutral-200 text-md">
                   Mark Varsano
                 </h5>
                 <p class="text-sm text-center text-neutral-100">
@@ -140,7 +140,7 @@
                   height="80"
                   alt="Team member 04"
                 />
-                <h5 class="text-center text-md text-neutral-200">
+                <h5 class="text-center text-neutral-200 text-md">
                   George Hurley
                 </h5>
                 <p class="text-sm text-center text-neutral-100">
@@ -177,7 +177,7 @@
                   height="80"
                   alt="Team member 05"
                 />
-                <h5 class="text-center text-md text-neutral-200">
+                <h5 class="text-center text-neutral-200 text-md">
                   Ellie Lepisov
                 </h5>
                 <p class="text-sm text-center text-neutral-100">
@@ -214,7 +214,7 @@
                   height="80"
                   alt="Team member 06"
                 />
-                <h5 class="text-center text-md text-neutral-200">Connor Bal</h5>
+                <h5 class="text-center text-neutral-200 text-md">Connor Bal</h5>
                 <p class="text-sm text-center text-neutral-100">
                   Product Engineer
                 </p>
@@ -249,7 +249,7 @@
                   height="80"
                   alt="Team member 07"
                 />
-                <h5 class="text-center text-md text-neutral-200">
+                <h5 class="text-center text-neutral-200 text-md">
                   Marko Sharma
                 </h5>
                 <p class="text-sm text-center text-neutral-100">
@@ -286,7 +286,7 @@
                   height="80"
                   alt="Team member 08"
                 />
-                <h5 class="text-center text-md text-neutral-200">
+                <h5 class="text-center text-neutral-200 text-md">
                   Mick Esposito
                 </h5>
                 <p class="text-sm text-center text-neutral-100">
@@ -323,7 +323,7 @@
                   height="80"
                   alt="Team member 09"
                 />
-                <h5 class="text-center text-md text-neutral-200">
+                <h5 class="text-center text-neutral-200 text-md">
                   Daniel Smith
                 </h5>
                 <p class="text-sm text-center text-neutral-100">
@@ -360,7 +360,7 @@
                   height="80"
                   alt="Team member 10"
                 />
-                <h5 class="text-center text-md text-neutral-200">
+                <h5 class="text-center text-neutral-200 text-md">
                   Patricia Long
                 </h5>
                 <p class="text-sm text-center text-neutral-100">

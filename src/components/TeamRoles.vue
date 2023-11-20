@@ -54,7 +54,7 @@
         <div class="text-center">
           <RouterLink
             to="/careers"
-            class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full transition text-neutral-50 bg-neutral-600 hover:bg-neutral-700 group"
+            class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full transition bg-neutral-600 text-neutral-50 hover:bg-neutral-700 group"
           >
             See open positions
             <span

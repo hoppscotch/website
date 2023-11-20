@@ -85,7 +85,7 @@
                   >
                     <img
                       loading="lazy"
-                      class="relative w-16 h-16 p-1 border rounded-full -translate-x-1/2 filter grayscale top-11 left-1/2 border-neutral-500/20"
+                      class="relative w-16 h-16 p-1 border rounded-full -translate-x-1/2 filter neutralscale top-11 left-1/2 border-neutral-500/20"
                       :src="item.img"
                       :alt="item.name"
                     />

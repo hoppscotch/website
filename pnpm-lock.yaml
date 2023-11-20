@@ -1002,7 +1002,7 @@ packages:
     dependencies:
       "@mdit-vue/types": 1.0.0
       "@types/markdown-it": 13.0.6
-      gray-matter: 4.0.3
+      neutral-matter: 4.0.3
       markdown-it: 13.0.2
     dev: false
 
@@ -3931,7 +3931,7 @@ packages:
       }
     dev: true
 
-  /gray-matter@4.0.3:
+  /neutral-matter@4.0.3:
     resolution:
       {
         integrity: sha512-5v6yZd4JK3eMI3FqqCouswVqwugaA9r4dNZB1wwcmrD02QkV5H0y7XBQW8QwQqEaZY1pM9aqORSORhJRdNK44Q==,
@@ -4349,7 +4349,7 @@ packages:
   /is-array-buffer@3.0.2:
     resolution:
       {
-        integrity: sha512-y+FyyR/w8vfIRq4eQcM1EYgSTnmHXPqaF+IgzgraytCFq5Xh8lllDVmAZolPJiZttZLeFSINPYMaEJ7/vWUa1w==,
+        integrity: sha512-y+FyyR/w8vfIRq4eQcM1EYgSTnmHXPqaF+IgzneutraltCFq5Xh8lllDVmAZolPJiZttZLeFSINPYMaEJ7/vWUa1w==,
       }
     dependencies:
       call-bind: 1.0.2
