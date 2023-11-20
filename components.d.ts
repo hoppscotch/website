@@ -90,6 +90,7 @@ declare module "vue" {
     IconLucideLanguages: (typeof import("~icons/lucide/languages"))["default"]
     IconLucideLaptop: (typeof import("~icons/lucide/laptop"))["default"]
     IconLucideLayers: (typeof import("~icons/lucide/layers"))["default"]
+    IconLucideLinkedin: (typeof import("~icons/lucide/linkedin"))["default"]
     IconLucideLoader2: (typeof import("~icons/lucide/loader2"))["default"]
     IconLucideLock: (typeof import("~icons/lucide/lock"))["default"]
     IconLucideMenu: (typeof import("~icons/lucide/menu"))["default"]
