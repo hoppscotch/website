@@ -23,7 +23,7 @@
         <div class="flex items-center justify-between pb-12 md:pb-16">
           <RouterLink
             to="/legal"
-            class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-neutral-200/50 hover:text-neutral-200"
+            class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-gray-400/80 hover:text-gray-200"
           >
             <icon-lucide-arrow-left class="mr-2" />
             Back
@@ -31,11 +31,11 @@
           <span class="flex items-center text-sm">
             <RouterLink
               :to="{ path: '', hash: '#newsletter' }"
-              class="rounded transition text-neutral-400/60 hover:text-neutral-400/80"
+              class="rounded transition text-gray-400/60 hover:text-gray-400/80"
             >
               Subscribe to updates
             </RouterLink>
-            <span class="mx-4 text-neutral-400/20">|</span>
+            <span class="mx-4 text-gray-400/20">|</span>
             <a
               v-tippy="{
                 content: 'Follow us on Twitter',
@@ -44,17 +44,17 @@
               href="https://twitter.com/hoppscotch_io"
               target="_blank"
               rel="noopener noreferrer"
-              class="rounded transition text-neutral-400/60 hover:text-neutral-400/80"
+              class="rounded transition text-gray-400/60 hover:text-gray-400/80"
             >
               <icon-lucide-twitter />
             </a>
-            <span class="mx-4 text-neutral-400/20">|</span>
+            <span class="mx-4 text-gray-400/20">|</span>
             <button
               v-tippy="{
                 content: copied ? 'Copied!' : 'Copy permalink',
                 theme: 'tooltip',
               }"
-              class="rounded transition text-neutral-400/60 hover:text-neutral-400/80"
+              class="rounded transition text-gray-400/60 hover:text-gray-400/80"
               @click="copy(source)"
             >
               <icon-lucide-copy v-if="!copied" />
@@ -69,23 +69,23 @@
               <ul class="flex flex-wrap -m-1 text-sm">
                 <li class="m-1">
                   <span
-                    class="inline-flex text-center transition text-neutral-100/50"
+                    class="inline-flex text-center transition text-gray-100/50"
                     >Last updated</span
                   >
-                  <span class="mx-2 text-neutral-400/20">|</span>
-                  <span class="text-neutral-200/20">Jan 17, 2020</span>
+                  <span class="mx-2 text-gray-400/20">|</span>
+                  <span class="text-gray-200/20">Jan 17, 2020</span>
                 </li>
               </ul>
             </div>
             <h3>
               <span
-                class="text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-100/80 to-neutral-50/80"
+                class="text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-200/50 via-gray-100/80 to-gray-50/80"
               >
                 Privacy Policy
               </span>
             </h3>
           </header>
-          <section class="max-w-2xl text-neutral-200/80">
+          <section class="max-w-2xl text-gray-200/80">
             <p class="mt-4 mb-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.

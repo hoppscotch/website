@@ -17,7 +17,7 @@
    xmlns:svg="http://www.w3.org/2000/svg"><defs
    id="defs859" /><sodipodi:namedview
    id="namedview857"
-   pagecolor="#ffffff"
+   pagecolor="rgba(255,255,255,0.75)"
    bordercolor="#666666"
    borderopacity="1.0"
    inkscape:pageshadow="2"
@@ -40,8 +40,8 @@
 <style
    type="text/css"
    id="style824">
-	.st0{fill:#a3a3a3;}
-	.st1{fill:#a3a3a3;}
+	.st0{fill:rgba(255,255,255,0.75);}
+	.st1{fill:rgba(255,255,255,0.75);}
 	.st2{fill:none;}
 </style>
 <g

@@ -19,16 +19,16 @@
           class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
         >
           <span
-            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-50 to-neutral-600"
+            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-50 to-gray-600"
           >
             Open Source
           </span>
           <h2
-            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-100/80 to-neutral-50/80"
+            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-200/50 via-gray-100/80 to-gray-50/80"
           >
             Built for Developers
           </h2>
-          <p class="text-lg text-neutral-200/50">
+          <p class="text-gray-400/80">
             Hoppscotch is built by developers for developers to make their lives
             easier.
           </p>
@@ -38,7 +38,7 @@
             <Highlighter class="group">
               <HighlighterItem>
                 <div
-                  class="relative bg-neutral-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative bg-gray-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
                 >
                   <div class="flex flex-col h-full">
                     <!-- Text -->
@@ -46,7 +46,7 @@
                       <div class="flex flex-col items-center text-center">
                         <icon-lucide-heart class="w-6 h-6 mb-4" />
                         <h5 class="inline-flex pb-2 text-xl">Made with Love</h5>
-                        <p class="w-full text-neutral-200/50">
+                        <p class="w-full text-gray-400/80">
                           Most popular API development tool on GitHub.
                         </p>
                       </div>

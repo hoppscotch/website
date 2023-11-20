@@ -77,7 +77,7 @@
   >
     <div
       v-if="modalOpen"
-      class="fixed inset-0 z-50 transition-opacity bg-neutral-950/10 backdrop-blur-md"
+      class="fixed inset-0 z-50 transition-opacity bg-gray-950/10 backdrop-blur-md"
       aria-hidden="true"
     ></div>
   </Transition>
@@ -104,7 +104,7 @@
         class="relative flex flex-col items-end w-full max-w-6xl max-h-full overflow-auto"
       >
         <button
-          class="p-1 mb-4 border rounded-full transition border-neutral-500/20 hover:border-neutral-400/25 bg-white/10"
+          class="p-1 mb-4 border rounded-full transition border-gray-500/20 hover:border-gray-400/25 bg-white/10"
           @click="emit('closeModal')"
         >
           <icon-lucide-x />

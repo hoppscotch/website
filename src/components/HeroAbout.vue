@@ -12,7 +12,7 @@
       />
     </div>
     <div
-      class="absolute inset-0 bg-gradient-to-t from-neutral-950"
+      class="absolute inset-0 bg-gradient-to-t from-gray-950"
       aria-hidden="true"
     ></div>
     <div class="relative max-w-5xl px-4 mx-auto sm:px-6">
@@ -28,13 +28,13 @@
                 alt="About hero"
               />
               <div
-                class="absolute inset-0 bg-gradient-to-t from-neutral-950"
+                class="absolute inset-0 bg-gradient-to-t from-gray-950"
                 aria-hidden="true"
               ></div>
             </div>
             <div class="absolute">
               <h2
-                class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-100/80 to-neutral-50/80"
+                class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-200/50 via-gray-100/80 to-gray-50/80"
               >
                 Simplicity is the ultimate sophistication
               </h2>

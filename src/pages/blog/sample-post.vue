@@ -60,17 +60,17 @@
               <ul class="flex flex-wrap -m-1 text-sm">
                 <li class="m-1">
                   <span
-                    class="inline-flex text-center transition text-neutral-100/50"
+                    class="inline-flex text-center transition text-gray-100/50"
                     >Product</span
                   >
-                  <span class="mx-2 text-neutral-400/20">|</span>
-                  <span class="text-neutral-200/20">Jan 17, 2020</span>
+                  <span class="mx-2 text-gray-400/20">|</span>
+                  <span class="text-gray-200/20">Jan 17, 2020</span>
                 </li>
               </ul>
             </div>
             <h3 class="mb-8">
               <span
-                class="text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-100/80 to-neutral-50/80"
+                class="text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-200/50 via-gray-100/80 to-gray-50/80"
               >
                 The quick brown fox jumped over the lazy dog
               </span>
@@ -85,9 +85,7 @@
                 alt="Liyas Thomas"
               />
               <div class="text-sm">
-                <span class="transition text-neutral-200/50">
-                  Liyas Thomas
-                </span>
+                <span class="transition text-gray-400/80"> Liyas Thomas </span>
               </div>
             </div>
           </header>
@@ -100,7 +98,7 @@
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-neutral-200/80">
+          <section class="max-w-2xl text-gray-200/80">
             <p class="mt-4 mb-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -136,7 +134,7 @@
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-neutral-200/80">
+          <section class="max-w-2xl text-gray-200/80">
             <p class="mt-4 mb-8">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit

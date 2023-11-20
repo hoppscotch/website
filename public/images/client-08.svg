@@ -5,14 +5,14 @@
 	 viewBox="0 0 623 150.2" style="enable-background:new 0 0 623 150.2;" xml:space="preserve">
 <style type="text/css">
 	.st0{display:none;}
-	.st1{display:inline;fill:#a3a3a3;}
-	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#a3a3a3;}
+	.st1{display:inline;fill:rgba(255,255,255,0.75);}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:rgba(255,255,255,0.75);}
 	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#020617;}
 	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:none;}
-	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#a3a3a3;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:rgba(255,255,255,0.75);}
 	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#020617;}
 	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#020617;}
-	.st8{fill:#a3a3a3;}
+	.st8{fill:rgba(255,255,255,0.75);}
 </style>
 <g class="st0">
 	<path class="st1" d="M203.5,73.9c-1.5-9.3-6.7-15-16.6-15c-14.6,0-19.2,13.9-19.2,26.3c0,12,2.9,26.8,19.1,26.8

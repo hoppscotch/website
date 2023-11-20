@@ -10,7 +10,7 @@
           class="absolute top-0 flex items-center justify-center w-1/3 -translate-x-1/2 -translate-y-1/2 left-1/2 aspect-video"
         >
           <div
-            class="absolute inset-0 translate-z-0 bg-neutral-500 rounded-full blur-[60px] opacity-10"
+            class="absolute inset-0 translate-z-0 bg-gray-500 rounded-full blur-[60px] opacity-10"
           ></div>
         </div>
       </div>
@@ -40,16 +40,16 @@
             <!-- Content -->
             <div class="max-lg:text-center">
               <span
-                class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-50 to-neutral-600"
+                class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-50 to-gray-600"
               >
                 Hoppscotch Enterprise Edition
               </span>
               <h3
-                class="pb-3 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-100/80 to-neutral-50/80"
+                class="pb-3 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-200/50 via-gray-100/80 to-gray-50/80"
               >
                 Your Portal to Everything Hoppscotch
               </h3>
-              <p class="mb-8 text-neutral-200/50">
+              <p class="mb-8 text-gray-400/80">
                 SAML-based SSO, on-prem deployment, audit logs, and more.<br />
                 Join the waitlist for the Hoppscotch Enterprise Edition.
               </p>
@@ -65,7 +65,7 @@
                     id="mce-email"
                     name="email"
                     type="email"
-                    class="inline-flex flex-1 px-4 py-3 font-bold border-0 rounded outline-none transition focus:ring-neutral-400 hover:ring-neutral-600 ring-1 ring-neutral-950 placeholder:text-neutral-400 text-neutral-50 font-2xl bg-neutral-500/10"
+                    class="inline-flex flex-1 px-4 py-3 font-bold border-0 rounded outline-none transition focus:ring-gray-400 hover:ring-gray-600 ring-1 ring-gray-950 placeholder:text-gray-400 text-gray-50 font-2xl bg-gray-500/10"
                     placeholder="Email address"
                     required
                   />
@@ -73,7 +73,7 @@
                     id="mc-embedded-subscribe"
                     name="subscribe"
                     type="submit"
-                    class="inline-flex px-4 py-3 font-bold border-0 rounded outline-none transition focus:ring-neutral-400 hover:ring-neutral-600 ring-1 ring-neutral-950 placeholder:text-neutral-400 text-neutral-50 font-2xl bg-neutral-500/10"
+                    class="inline-flex px-4 py-3 font-bold border-0 rounded outline-none transition focus:ring-gray-400 hover:ring-gray-600 ring-1 ring-gray-950 placeholder:text-gray-400 text-gray-50 font-2xl bg-gray-500/10"
                   >
                     Subscribe
                   </button>
@@ -84,7 +84,7 @@
         </div>
         <div class="px-8 pt-32 grid grid-cols-1 gap-4 md:grid-cols-2">
           <div
-            class="relative p-8 overflow-hidden border border-neutral-500/20 rounded-xl"
+            class="relative p-8 overflow-hidden border border-gray-500/20 rounded-xl"
           >
             <div
               class="absolute inset-0 flex items-center justify-center bg-black/10 -z-10"
@@ -97,7 +97,7 @@
               />
             </div>
             <h5 class="font-semibold">Hoppscotch Cloud</h5>
-            <p class="mt-4 text-neutral-200/50">
+            <p class="mt-4 text-gray-400/80">
               Hoppscotch Cloud is the easiest way to get started with
               Hoppscotch. It's a fully managed API development platform that
               lets you build, publish, and document APIs in minutes.
@@ -109,7 +109,7 @@
             </p>
           </div>
           <div
-            class="relative p-8 overflow-hidden border border-neutral-500/20 rounded-xl"
+            class="relative p-8 overflow-hidden border border-gray-500/20 rounded-xl"
           >
             <div
               class="absolute inset-0 flex items-center justify-center bg-black/10 -z-10"
@@ -122,7 +122,7 @@
               />
             </div>
             <h5 class="font-semibold">Self-Host Hoppscotch</h5>
-            <p class="mt-4 text-neutral-200/50">
+            <p class="mt-4 text-gray-400/80">
               Hoppscotch Self-Host is an open-source API development platform
               that you can run on your own infrastructure. It's the most
               flexible way to deploy Hoppscotch.
@@ -145,7 +145,7 @@
       @apply absolute;
       @apply z-10;
       @apply rounded-full;
-      @apply bg-neutral-700;
+      @apply bg-gray-700;
 
       $d: calc($i * 256px);
 

@@ -46,40 +46,40 @@
 <template>
   <div
     ref="targetElement"
-    class="items-center justify-start flex-shrink-0 hidden p-1 border rounded-full flex-nowrap md:flex border-neutral-300/10"
+    class="items-center justify-start flex-shrink-0 hidden p-1 border rounded-full flex-nowrap md:flex border-gray-300/10"
   >
     <div class="relative flex items-center group/nav">
       <RouterLink
         to="/download"
-        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-neutral-200/60 hover:text-neutral-100/80"
+        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-gray-200/60 hover:text-gray-100/80"
         @mouseenter="onTabMouseEnter"
       >
         Download
       </RouterLink>
       <RouterLink
         to="/blog"
-        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-neutral-200/60 hover:text-neutral-100/80"
+        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-gray-200/60 hover:text-gray-100/80"
         @mouseenter="onTabMouseEnter"
       >
         Blog
       </RouterLink>
       <RouterLink
         to="/changelog"
-        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-neutral-200/60 hover:text-neutral-100/80"
+        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-gray-200/60 hover:text-gray-100/80"
         @mouseenter="onTabMouseEnter"
       >
         Changelog
       </RouterLink>
       <RouterLink
         to="/pricing"
-        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-neutral-200/60 hover:text-neutral-100/80"
+        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-gray-200/60 hover:text-gray-100/80"
         @mouseenter="onTabMouseEnter"
       >
         Pricing
       </RouterLink>
       <!-- <RouterLink
         to="/careers"
-        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-neutral-200/60 hover:text-neutral-100/80"
+        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-gray-200/60 hover:text-gray-100/80"
         @mouseenter="onTabMouseEnter"
       >
         Careers
@@ -87,7 +87,7 @@
       <a
         href="https://docs.hoppscotch.io"
         target="_blank"
-        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-neutral-200/60 hover:text-neutral-100/80"
+        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-gray-200/60 hover:text-gray-100/80"
         @mouseenter="onTabMouseEnter"
       >
         Docs
@@ -100,14 +100,14 @@
         }"
       >
         <div
-          class="w-full h-full border rounded-full opacity-0 duration-200 delay-200 border-neutral-50/10 bg-neutral-200/10 backdrop-blur-md group-hover/nav:opacity-100"
+          class="w-full h-full border rounded-full opacity-0 duration-200 delay-200 border-gray-50/10 bg-gray-200/10 backdrop-blur-md group-hover/nav:opacity-100"
         ></div>
       </div>
     </div>
     <div v-if="scrollHeight > 8" class="flex overflow-hidden rounded-full">
       <a
         v-motion-slide-right
-        class="flex items-center justify-center flex-shrink-0 px-4 py-2 text-sm border rounded-full transition border-neutral-600 text-neutral-50 backdrop-blur-md bg-gradient-to-br from-neutral-600/30 via-neutral-700/30 to-neutral-800/30 hover:from-neutral-600/50 hover:via-neutral-700/50 hover:to-neutral-800/50"
+        class="flex items-center justify-center flex-shrink-0 px-4 py-2 text-sm border border-gray-600 rounded-full transition text-gray-50 backdrop-blur-md bg-gradient-to-br from-gray-600/30 via-gray-700/30 to-gray-800/30 hover:from-gray-600/50 hover:via-gray-700/50 hover:to-gray-800/50"
         href="https://github.com/hoppscotch/hoppscotch"
         target="_blank"
         rel="noopener noreferrer"
@@ -118,113 +118,113 @@
   </div>
   <!-- <div
     ref="targetElement"
-    class="items-center justify-start flex-shrink-0 hidden p-1 border rounded-full flex-nowrap md:flex border-neutral-300/10"
+    class="items-center justify-start flex-shrink-0 hidden p-1 border rounded-full flex-nowrap md:flex border-gray-300/10"
   >
     <div class="relative flex items-center group/nav">
       <tippy interactive theme="popover" class="rounded-full">
         <RouterLink
           to="/products"
-          class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-neutral-200/60 hover:text-neutral-100/80"
+          class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-gray-200/60 hover:text-gray-100/80"
           @mouseenter="onTabMouseEnter"
         >
           Products
         </RouterLink>
         <template #content="{ hide }">
-          <div class="flex divide-x w-max divide-neutral-800">
+          <div class="flex divide-x w-max divide-gray-800">
             <div class="flex flex-col p-2">
               <div
-                class="mx-3 my-2 font-semibold tracking-tight text-neutral-400"
+                class="mx-3 my-2 font-semibold tracking-tight text-gray-400"
               >
                 By Platform
               </div>
               <div class="flex flex-col group/navitem">
                 <RouterLink
-                  class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 rounded-lg transition group hover:bg-neutral-800/50"
+                  class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 rounded-lg transition group hover:bg-gray-800/50"
                   to="/products/cloud"
                   @click="hide()"
                 >
                   <div
-                    class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 rounded-full text-neutral-400 bg-gradient-to-br from-neutral-950 to-neutral-950/80"
+                    class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
                   >
                     <icon-lucide-cloudy class="w-5 h-5" />
                   </div>
                   <div class="flex flex-col">
                     <div
-                      class="text-base font-bold transition text-neutral-100 group-hover:text-neutral-50"
+                      class="text-base font-bold text-gray-100 transition group-hover:text-gray-50"
                     >
                       Cloud
                     </div>
                     <div
-                      class="transition text-neutral-400 group-hover:text-neutral-300"
+                      class="text-gray-400 transition group-hover:text-gray-300"
                     >
                       Seamless collaboration, effortless scalability.
                     </div>
                   </div>
                 </RouterLink>
                 <RouterLink
-                  class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 rounded-lg transition group hover:bg-neutral-800/50"
+                  class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 rounded-lg transition group hover:bg-gray-800/50"
                   to="/products/enterprise"
                   @click="hide()"
                 >
                   <div
-                    class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 rounded-full text-neutral-400 bg-gradient-to-br from-neutral-950 to-neutral-950/80"
+                    class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
                   >
                     <icon-lucide-building-2 class="w-5 h-5" />
                   </div>
                   <div class="flex flex-col">
                     <div
-                      class="text-base font-bold transition text-neutral-100 group-hover:text-neutral-50"
+                      class="text-base font-bold text-gray-100 transition group-hover:text-gray-50"
                     >
                       Enterprise
                     </div>
                     <div
-                      class="transition text-neutral-400 group-hover:text-neutral-300"
+                      class="text-gray-400 transition group-hover:text-gray-300"
                     >
                       API management with unparalleled power and control.
                     </div>
                   </div>
                 </RouterLink>
                 <RouterLink
-                  class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 rounded-lg transition group hover:bg-neutral-800/50"
+                  class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 rounded-lg transition group hover:bg-gray-800/50"
                   to="/products/self-host"
                   @click="hide()"
                 >
                   <div
-                    class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 rounded-full text-neutral-400 bg-gradient-to-br from-neutral-950 to-neutral-950/80"
+                    class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
                   >
                     <icon-lucide-server class="w-5 h-5" />
                   </div>
                   <div class="flex flex-col">
                     <div
-                      class="text-base font-bold transition text-neutral-100 group-hover:text-neutral-50"
+                      class="text-base font-bold text-gray-100 transition group-hover:text-gray-50"
                     >
                       Self-Host
                     </div>
                     <div
-                      class="transition text-neutral-400 group-hover:text-neutral-300"
+                      class="text-gray-400 transition group-hover:text-gray-300"
                     >
                       Harness the full potential of APIs with complete control.
                     </div>
                   </div>
                 </RouterLink>
                 <RouterLink
-                  class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 rounded-lg transition group hover:bg-neutral-800/50"
+                  class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 rounded-lg transition group hover:bg-gray-800/50"
                   to="/products/cli"
                   @click="hide()"
                 >
                   <div
-                    class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 rounded-full text-neutral-400 bg-gradient-to-br from-neutral-950 to-neutral-950/80"
+                    class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
                   >
                     <icon-lucide-terminal-square class="w-5 h-5" />
                   </div>
                   <div class="flex flex-col">
                     <div
-                      class="text-base font-bold transition text-neutral-100 group-hover:text-neutral-50"
+                      class="text-base font-bold text-gray-100 transition group-hover:text-gray-50"
                     >
                       CLI
                     </div>
                     <div
-                      class="transition text-neutral-400 group-hover:text-neutral-300"
+                      class="text-gray-400 transition group-hover:text-gray-300"
                     >
                       Bring API testing and automation into CI/CD pipelines.
                     </div>
@@ -232,15 +232,15 @@
                 </RouterLink>
               </div>
             </div>
-            <div class="flex flex-col p-2 bg-neutral-900/90">
+            <div class="flex flex-col p-2 bg-gray-900/90">
               <div
-                class="mx-3 my-2 font-semibold tracking-tight text-neutral-400"
+                class="mx-3 my-2 font-semibold tracking-tight text-gray-400"
               >
                 Explore
               </div>
               <div class="flex flex-col">
                 <RouterLink
-                  class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-300 hover:text-neutral-50 hover:bg-neutral-800/50"
+                  class="flex items-center px-3 py-2 text-sm text-gray-300 rounded-lg transition hover:text-gray-50 hover:bg-gray-800/50"
                   to="/features"
                   @click="hide()"
                 >
@@ -248,7 +248,7 @@
                   Features
                 </RouterLink>
                 <RouterLink
-                  class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-300 hover:text-neutral-50 hover:bg-neutral-800/50"
+                  class="flex items-center px-3 py-2 text-sm text-gray-300 rounded-lg transition hover:text-gray-50 hover:bg-gray-800/50"
                   to="/download"
                   @click="hide()"
                 >
@@ -256,7 +256,7 @@
                   Download
                 </RouterLink>
                 <RouterLink
-                  class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-300 hover:text-neutral-50 hover:bg-neutral-800/50"
+                  class="flex items-center px-3 py-2 text-sm text-gray-300 rounded-lg transition hover:text-gray-50 hover:bg-gray-800/50"
                   to="/pricing"
                   @click="hide()"
                 >
@@ -264,7 +264,7 @@
                   Pricing
                 </RouterLink>
                 <RouterLink
-                  class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-300 hover:text-neutral-50 hover:bg-neutral-800/50"
+                  class="flex items-center px-3 py-2 text-sm text-gray-300 rounded-lg transition hover:text-gray-50 hover:bg-gray-800/50"
                   to="/changelog"
                   @click="hide()"
                 >
@@ -279,108 +279,108 @@
       <tippy interactive theme="popover" class="rounded-full">
         <RouterLink
           to="/solutions"
-          class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-neutral-200/60 hover:text-neutral-100/80"
+          class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-gray-200/60 hover:text-gray-100/80"
           @mouseenter="onTabMouseEnter"
         >
           Solutions
         </RouterLink>
         <template #content="{ hide }">
-          <div class="flex flex-col divide-y divide-neutral-800">
+          <div class="flex flex-col divide-y divide-gray-800">
             <div class="flex w-max">
               <div class="flex flex-col p-2">
                 <div
-                  class="mx-3 my-2 font-semibold tracking-tight text-neutral-400"
+                  class="mx-3 my-2 font-semibold tracking-tight text-gray-400"
                 >
                   For
                 </div>
                 <div class="flex flex-col group/navitem">
                   <RouterLink
-                    class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 transition rounded-lg group hover:bg-neutral-800/50"
+                    class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 transition rounded-lg group hover:bg-gray-800/50"
                     to="/solutions/developers"
                     @click="hide()"
                   >
                     <div
-                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 rounded-full text-neutral-400 bg-gradient-to-br from-neutral-950 to-neutral-950/80"
+                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
                     >
                       <icon-lucide-box class="w-5 h-5" />
                     </div>
                     <div class="flex flex-col">
                       <div
-                        class="text-base font-bold transition text-neutral-100 group-hover:text-neutral-50"
+                        class="text-base font-bold text-gray-100 transition group-hover:text-gray-50"
                       >
                         Developers
                       </div>
                       <div
-                        class="transition text-neutral-400 group-hover:text-neutral-300"
+                        class="text-gray-400 transition group-hover:text-gray-300"
                       >
                         Build and test APIs faster with the complete toolkit.
                       </div>
                     </div>
                   </RouterLink>
                   <RouterLink
-                    class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 transition rounded-lg group hover:bg-neutral-800/50"
+                    class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 transition rounded-lg group hover:bg-gray-800/50"
                     to="/solutions/teams"
                     @click="hide()"
                   >
                     <div
-                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 rounded-full text-neutral-400 bg-gradient-to-br from-neutral-950 to-neutral-950/80"
+                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
                     >
                       <icon-lucide-package class="w-5 h-5" />
                     </div>
                     <div class="flex flex-col">
                       <div
-                        class="text-base font-bold transition text-neutral-100 group-hover:text-neutral-50"
+                        class="text-base font-bold text-gray-100 transition group-hover:text-gray-50"
                       >
                         Teams
                       </div>
                       <div
-                        class="transition text-neutral-400 group-hover:text-neutral-300"
+                        class="text-gray-400 transition group-hover:text-gray-300"
                       >
                         Build and scale your API program with confidence.
                       </div>
                     </div>
                   </RouterLink>
                   <RouterLink
-                    class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 transition rounded-lg group hover:bg-neutral-800/50"
+                    class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 transition rounded-lg group hover:bg-gray-800/50"
                     to="/solutions/enterprises"
                     @click="hide()"
                   >
                     <div
-                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 rounded-full text-neutral-400 bg-gradient-to-br from-neutral-950 to-neutral-950/80"
+                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
                     >
                       <icon-lucide-package-2 class="w-5 h-5" />
                     </div>
                     <div class="flex flex-col">
                       <div
-                        class="text-base font-bold transition text-neutral-100 group-hover:text-neutral-50"
+                        class="text-base font-bold text-gray-100 transition group-hover:text-gray-50"
                       >
                         Enterprises
                       </div>
                       <div
-                        class="transition text-neutral-400 group-hover:text-neutral-300"
+                        class="text-gray-400 transition group-hover:text-gray-300"
                       >
                         Accelerate your business with the modern API platform.
                       </div>
                     </div>
                   </RouterLink>
                   <RouterLink
-                    class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 transition rounded-lg group hover:bg-neutral-800/50"
+                    class="group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 flex items-center p-3 transition rounded-lg group hover:bg-gray-800/50"
                     to="/solutions/education"
                     @click="hide()"
                   >
                     <div
-                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 rounded-full text-neutral-400 bg-gradient-to-br from-neutral-950 to-neutral-950/80"
+                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
                     >
                       <icon-lucide-graduation-cap class="w-5 h-5" />
                     </div>
                     <div class="flex flex-col">
                       <div
-                        class="text-base font-bold transition text-neutral-100 group-hover:text-neutral-50"
+                        class="text-base font-bold text-gray-100 transition group-hover:text-gray-50"
                       >
                         Education
                       </div>
                       <div
-                        class="transition text-neutral-400 group-hover:text-neutral-300"
+                        class="text-gray-400 transition group-hover:text-gray-300"
                       >
                         Empower students and educators with API technology.
                       </div>
@@ -392,52 +392,52 @@
             <div class="flex w-max">
               <div class="flex flex-col p-2">
                 <div
-                  class="mx-3 my-2 font-semibold tracking-tight text-neutral-400"
+                  class="mx-3 my-2 font-semibold tracking-tight text-gray-400"
                 >
                   Use Cases
                 </div>
                 <div class="flex flex-col group/navitem">
                   <RouterLink
-                    class="flex group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 items-center p-3 transition rounded-lg group hover:bg-neutral-800/50"
+                    class="flex group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 items-center p-3 transition rounded-lg group hover:bg-gray-800/50"
                     to="/solutions/cloud"
                     @click="hide()"
                   >
                     <div
-                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 rounded-full text-neutral-400 bg-gradient-to-br from-neutral-950 to-neutral-950/80"
+                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
                     >
                       <icon-lucide-cloudy class="w-5 h-5" />
                     </div>
                     <div class="flex flex-col">
                       <div
-                        class="text-base font-bold transition text-neutral-100 group-hover:text-neutral-50"
+                        class="text-base font-bold text-gray-100 transition group-hover:text-gray-50"
                       >
                         Cloud
                       </div>
                       <div
-                        class="transition text-neutral-400 group-hover:text-neutral-300"
+                        class="text-gray-400 transition group-hover:text-gray-300"
                       >
                         Seamless collaboration, effortless scalability.
                       </div>
                     </div>
                   </RouterLink>
                   <RouterLink
-                    class="flex group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 items-center p-3 transition rounded-lg group hover:bg-neutral-800/50"
+                    class="flex group-hover/navitem:opacity-25 group-hover/navitem:scale-95 hover:!scale-100 hover:!opacity-100 items-center p-3 transition rounded-lg group hover:bg-gray-800/50"
                     to="/solutions/self-host"
                     @click="hide()"
                   >
                     <div
-                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 rounded-full text-neutral-400 bg-gradient-to-br from-neutral-950 to-neutral-950/80"
+                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
                     >
                       <icon-lucide-server class="w-5 h-5" />
                     </div>
                     <div class="flex flex-col">
                       <div
-                        class="text-base font-bold transition text-neutral-100 group-hover:text-neutral-50"
+                        class="text-base font-bold text-gray-100 transition group-hover:text-gray-50"
                       >
                         Self-Host
                       </div>
                       <div
-                        class="transition text-neutral-400 group-hover:text-neutral-300"
+                        class="text-gray-400 transition group-hover:text-gray-300"
                       >
                         Harness the full potential of APIs with complete
                         control.
@@ -447,9 +447,9 @@
                 </div>
               </div>
             </div>
-            <div class="flex p-2 bg-neutral-900/90">
+            <div class="flex p-2 bg-gray-900/90">
               <a
-                class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-300 hover:text-neutral-50 hover:bg-neutral-800/50"
+                class="flex items-center px-3 py-2 text-sm text-gray-300 rounded-lg transition hover:text-gray-50 hover:bg-gray-800/50"
                 href="https://docs.hoppscotch.io"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -459,7 +459,7 @@
                 Documentation
               </a>
               <a
-                class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-300 hover:text-neutral-50 hover:bg-neutral-800/50"
+                class="flex items-center px-3 py-2 text-sm text-gray-300 rounded-lg transition hover:text-gray-50 hover:bg-gray-800/50"
                 href="https://github.com/hoppscotch/hoppscotch"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -475,7 +475,7 @@
       <tippy interactive theme="popover" class="rounded-full">
         <RouterLink
           to="/company"
-          class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-neutral-200/60 hover:text-neutral-100/80"
+          class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-gray-200/60 hover:text-gray-100/80"
           @mouseenter="onTabMouseEnter"
         >
           Company
@@ -483,7 +483,7 @@
         <template #content="{ hide }">
           <div class="flex flex-col p-2">
             <RouterLink
-              class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-300 hover:text-neutral-50 hover:bg-neutral-800/50"
+              class="flex items-center px-3 py-2 text-sm text-gray-300 rounded-lg transition hover:text-gray-50 hover:bg-gray-800/50"
               to="/about"
               @click="hide()"
             >
@@ -491,7 +491,7 @@
               About
             </RouterLink>
             <RouterLink
-              class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-300 hover:text-neutral-50 hover:bg-neutral-800/50"
+              class="flex items-center px-3 py-2 text-sm text-gray-300 rounded-lg transition hover:text-gray-50 hover:bg-gray-800/50"
               to="/blog"
               @click="hide()"
             >
@@ -499,7 +499,7 @@
               Blog
             </RouterLink>
             <RouterLink
-              class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-300 hover:text-neutral-50 hover:bg-neutral-800/50"
+              class="flex items-center px-3 py-2 text-sm text-gray-300 rounded-lg transition hover:text-gray-50 hover:bg-gray-800/50"
               to="/careers"
               @click="hide()"
             >
@@ -507,7 +507,7 @@
               Careers
             </RouterLink>
             <RouterLink
-              class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-300 hover:text-neutral-50 hover:bg-neutral-800/50"
+              class="flex items-center px-3 py-2 text-sm text-gray-300 rounded-lg transition hover:text-gray-50 hover:bg-gray-800/50"
               to="/contact"
               @click="hide()"
             >
@@ -520,7 +520,7 @@
       <tippy interactive theme="popover" class="rounded-full">
         <RouterLink
           to="/resources"
-          class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-neutral-200/60 hover:text-neutral-100/80"
+          class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-gray-200/60 hover:text-gray-100/80"
           @mouseenter="onTabMouseEnter"
         >
           Resources
@@ -528,7 +528,7 @@
         <template #content="{ hide }">
           <div class="flex flex-col p-2">
             <a
-              class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-300 hover:text-neutral-50 hover:bg-neutral-800/50"
+              class="flex items-center px-3 py-2 text-sm text-gray-300 rounded-lg transition hover:text-gray-50 hover:bg-gray-800/50"
               href="https://docs.hoppscotch.io"
               target="_blank"
               rel="noopener noreferrer"
@@ -538,7 +538,7 @@
               Documentation
             </a>
             <RouterLink
-              class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-300 hover:text-neutral-50 hover:bg-neutral-800/50"
+              class="flex items-center px-3 py-2 text-sm text-gray-300 rounded-lg transition hover:text-gray-50 hover:bg-gray-800/50"
               to="/community"
               @click="hide()"
             >
@@ -546,7 +546,7 @@
               Community
             </RouterLink>
             <RouterLink
-              class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-300 hover:text-neutral-50 hover:bg-neutral-800/50"
+              class="flex items-center px-3 py-2 text-sm text-gray-300 rounded-lg transition hover:text-gray-50 hover:bg-gray-800/50"
               to="/brand"
               @click="hide()"
             >
@@ -554,7 +554,7 @@
               Brand
             </RouterLink>
             <a
-              class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-300 hover:text-neutral-50 hover:bg-neutral-800/50"
+              class="flex items-center px-3 py-2 text-sm text-gray-300 rounded-lg transition hover:text-gray-50 hover:bg-gray-800/50"
               href="https://shop.hoppscotch.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -574,14 +574,14 @@
         }"
       >
         <div
-          class="w-full h-full border rounded-full opacity-0 duration-200 delay-200 border-neutral-50/10 bg-neutral-200/10 backdrop-blur-md group-hover/nav:opacity-100"
+          class="w-full h-full border rounded-full opacity-0 duration-200 delay-200 border-gray-50/10 bg-gray-200/10 backdrop-blur-md group-hover/nav:opacity-100"
         ></div>
       </div>
     </div>
     <div v-if="scrollHeight > 8" class="flex overflow-hidden rounded-full">
       <a
         v-motion-slide-right
-        class="flex items-center justify-center flex-shrink-0 px-4 py-2 text-sm border rounded-full transition border-neutral-600 text-neutral-50 backdrop-blur-md bg-gradient-to-br from-neutral-600/30 via-neutral-700/30 to-neutral-800/30 hover:from-neutral-600/50 hover:via-neutral-700/50 hover:to-neutral-800/50"
+        class="flex items-center justify-center flex-shrink-0 px-4 py-2 text-sm border border-gray-600 rounded-full transition text-gray-50 backdrop-blur-md bg-gradient-to-br from-gray-600/30 via-gray-700/30 to-gray-800/30 hover:from-gray-600/50 hover:via-gray-700/50 hover:to-gray-800/50"
         href="https://github.com/hoppscotch/hoppscotch"
         target="_blank"
         rel="noopener noreferrer"

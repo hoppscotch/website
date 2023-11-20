@@ -1,30 +1,28 @@
 <template>
   <div class="relative w-full p-2 overflow-hidden">
     <div
-      class="relative flex items-center justify-center px-8 overflow-hidden border h-80 rounded-2xl border-neutral-500/25 bg-gradient-to-b from-neutral-600/5 to-neutral-500/5"
+      class="relative flex items-center justify-center px-8 overflow-hidden border h-80 rounded-2xl border-gray-500/25 bg-gradient-to-b from-gray-800/10 to-gray-600/10"
     >
-      <div class="m-4 border rounded-full border-neutral-400/10">
-        <div class="m-4 border rounded-full border-neutral-400/10">
-          <div class="m-4 border rounded-full border-neutral-400/10">
-            <div class="m-4 border rounded-full border-neutral-400/10">
-              <div class="m-4 border rounded-full border-neutral-400/10">
-                <div class="m-4 border rounded-full border-neutral-400/10">
-                  <div class="m-4 border rounded-full border-neutral-400/10">
-                    <div class="m-4 border rounded-full border-neutral-400/10">
-                      <div
-                        class="m-4 border rounded-full border-neutral-400/10"
-                      >
+      <div class="m-4 border rounded-full border-gray-400/10">
+        <div class="m-4 border rounded-full border-gray-400/10">
+          <div class="m-4 border rounded-full border-gray-400/10">
+            <div class="m-4 border rounded-full border-gray-400/10">
+              <div class="m-4 border rounded-full border-gray-400/10">
+                <div class="m-4 border rounded-full border-gray-400/10">
+                  <div class="m-4 border rounded-full border-gray-400/10">
+                    <div class="m-4 border rounded-full border-gray-400/10">
+                      <div class="m-4 border rounded-full border-gray-400/10">
                         <div
-                          class="m-4 border rounded-full p border-neutral-400/10"
+                          class="m-4 border rounded-full p border-gray-400/10"
                         >
                           <div
-                            class="relative w-40 h-40 m-4 border rounded-full border-neutral-400/10"
+                            class="relative w-40 h-40 m-4 border rounded-full border-gray-400/10"
                           >
                             <div
                               class="circular animate-[spin_100s_linear_infinite_reverse]"
                             >
                               <span
-                                class="relative p-4 border rounded-full border-neutral-400/20 bg-neutral-400/10 backdrop-blur-md"
+                                class="relative p-4 border rounded-full border-gray-400/20 bg-gray-400/10 backdrop-blur-md"
                               >
                                 <svg
                                   class="animate-[spin_100s_linear_infinite]"
@@ -46,7 +44,7 @@
                                 </svg>
                               </span>
                               <span
-                                class="relative p-4 border rounded-full border-neutral-400/20 bg-neutral-400/10 backdrop-blur-md"
+                                class="relative p-4 border rounded-full border-gray-400/20 bg-gray-400/10 backdrop-blur-md"
                               >
                                 <svg
                                   class="animate-[spin_100s_linear_infinite]"
@@ -65,7 +63,7 @@
                                 </svg>
                               </span>
                               <span
-                                class="relative p-4 border rounded-full border-neutral-400/20 bg-neutral-400/10 backdrop-blur-md"
+                                class="relative p-4 border rounded-full border-gray-400/20 bg-gray-400/10 backdrop-blur-md"
                               >
                                 <svg
                                   class="animate-[spin_100s_linear_infinite]"
@@ -90,7 +88,7 @@
                                 </svg>
                               </span>
                               <span
-                                class="relative p-4 border rounded-full border-neutral-400/20 bg-neutral-400/10 backdrop-blur-md"
+                                class="relative p-4 border rounded-full border-gray-400/20 bg-gray-400/10 backdrop-blur-md"
                               >
                                 <svg
                                   class="animate-[spin_100s_linear_infinite]"
@@ -115,7 +113,7 @@
                                 </svg>
                               </span>
                               <span
-                                class="relative p-4 border rounded-full border-neutral-400/20 bg-neutral-400/10 backdrop-blur-md"
+                                class="relative p-4 border rounded-full border-gray-400/20 bg-gray-400/10 backdrop-blur-md"
                               >
                                 <svg
                                   class="animate-[spin_100s_linear_infinite]"

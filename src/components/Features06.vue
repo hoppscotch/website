@@ -19,16 +19,16 @@
           class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
         >
           <span
-            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-50 to-neutral-600"
+            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-50 to-gray-600"
           >
             Platform Agnostic
           </span>
           <h2
-            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-100/80 to-neutral-50/80"
+            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-200/50 via-gray-100/80 to-gray-50/80"
           >
             Works As You Expect
           </h2>
-          <p class="text-lg text-neutral-200/50">
+          <p class="text-gray-400/80">
             Everything you'd expect from a modern API client.
           </p>
         </div>
@@ -40,7 +40,7 @@
             <div class="grid md:col-span-12">
               <HighlighterItem>
                 <div
-                  class="relative bg-neutral-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative bg-gray-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
                 >
                   <div class="flex flex-col h-full">
                     <!-- Text -->
@@ -50,7 +50,7 @@
                         <h5 class="inline-flex pb-2 text-xl">
                           Cross-Platform Apps
                         </h5>
-                        <p class="w-full text-neutral-200/50">
+                        <p class="w-full text-gray-400/80">
                           Works on Mac, Windows, Linux, Web and CLI.
                         </p>
                       </div>
@@ -65,7 +65,7 @@
             <div class="grid md:col-span-6">
               <HighlighterItem>
                 <div
-                  class="relative bg-neutral-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative bg-gray-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
                 >
                   <div class="flex flex-col h-full">
                     <!-- Text -->
@@ -73,7 +73,7 @@
                       <div class="flex flex-col items-center text-center">
                         <icon-lucide-cloudy class="w-6 h-6 mb-4" />
                         <h5 class="inline-flex pb-2 text-xl">Cloud Sync</h5>
-                        <p class="w-3/4 text-neutral-200/50">
+                        <p class="w-3/4 text-gray-400/80">
                           Sync your data across all your devices. Never lose
                           your data again.
                         </p>
@@ -89,7 +89,7 @@
             <div class="grid md:col-span-6">
               <HighlighterItem>
                 <div
-                  class="relative bg-neutral-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative bg-gray-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
                 >
                   <div class="flex flex-col h-full">
                     <!-- Text -->
@@ -97,7 +97,7 @@
                       <div class="flex flex-col items-center text-center">
                         <icon-lucide-cable class="w-6 h-6 mb-4" />
                         <h5 class="inline-flex pb-2 text-xl">Multi-Protocol</h5>
-                        <p class="w-3/4 text-neutral-200/50">
+                        <p class="w-3/4 text-gray-400/80">
                           HTTP, GraphQL, WebSocket, Socket.IO, MQTT, Server-Sent
                           Events and more.
                         </p>
@@ -116,24 +116,24 @@
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
+              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-gray-400/20"
             >
-              <icon-lucide-share-2 class="fill-neutral-200" />
-              <span class="text-neutral-100"> Shared Requests </span>
+              <icon-lucide-share-2 class="fill-gray-200" />
+              <span class="text-gray-100"> Shared Requests </span>
             </div>
-            <p class="text-sm text-neutral-200/50">
+            <p class="text-sm text-gray-400/80">
               Share your requests with your team, friends or the world.
             </p>
           </div>
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
+              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-gray-400/20"
             >
-              <icon-lucide-code class="fill-neutral-200" />
-              <span class="text-neutral-100"> Generate Code Snippets </span>
+              <icon-lucide-code class="fill-gray-200" />
+              <span class="text-gray-100"> Generate Code Snippets </span>
             </div>
-            <p class="text-sm text-neutral-200/50">
+            <p class="text-sm text-gray-400/80">
               Generate code snippets for your requests in various languages and
               frameworks.
             </p>
@@ -141,24 +141,24 @@
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
+              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-gray-400/20"
             >
-              <icon-lucide-shuffle class="fill-neutral-200" />
-              <span class="text-neutral-100"> One-Click Migration </span>
+              <icon-lucide-shuffle class="fill-gray-200" />
+              <span class="text-gray-100"> One-Click Migration </span>
             </div>
-            <p class="text-sm text-neutral-200/50">
+            <p class="text-sm text-gray-400/80">
               Migrate from Postman, Insomnia, cURL with a single click
             </p>
           </div>
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
+              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-gray-400/20"
             >
-              <icon-lucide-command class="fill-neutral-200" />
-              <span class="text-neutral-100"> Command-Line Interface </span>
+              <icon-lucide-command class="fill-gray-200" />
+              <span class="text-gray-100"> Command-Line Interface </span>
             </div>
-            <p class="text-sm text-neutral-200/50">
+            <p class="text-sm text-gray-400/80">
               Use the CLI to run your requests from the terminal. Automate your
               workflow.
             </p>
@@ -166,26 +166,24 @@
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
+              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-gray-400/20"
             >
-              <icon-lucide-arrow-up-down class="fill-neutral-200" />
-              <span class="text-neutral-100">
-                Proxy and Interceptor Support
-              </span>
+              <icon-lucide-arrow-up-down class="fill-gray-200" />
+              <span class="text-gray-100"> Proxy and Interceptor Support </span>
             </div>
-            <p class="text-sm text-neutral-200/50">
+            <p class="text-sm text-gray-400/80">
               Bypass CORS, debug requests and intercept responses.
             </p>
           </div>
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-neutral-400/20"
+              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-gray-400/20"
             >
-              <icon-lucide-shield-check class="fill-neutral-200" />
-              <span class="text-neutral-100"> Secure and Private </span>
+              <icon-lucide-shield-check class="fill-gray-200" />
+              <span class="text-gray-100"> Secure and Private </span>
             </div>
-            <p class="text-sm text-neutral-200/50">
+            <p class="text-sm text-gray-400/80">
               Local-first data storage. No tracking. No analytics. No ads.
             </p>
           </div>

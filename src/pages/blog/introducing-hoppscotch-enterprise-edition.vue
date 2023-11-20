@@ -63,23 +63,23 @@
               <ul class="flex flex-wrap items-center -m-1 text-sm">
                 <li class="m-1">
                   <span
-                    class="inline-flex text-center transition text-neutral-100/50"
+                    class="inline-flex text-center transition text-gray-100/50"
                     >Product,</span
                   >
                 </li>
                 <li class="m-1">
                   <span
-                    class="inline-flex text-center transition text-neutral-100/50"
+                    class="inline-flex text-center transition text-gray-100/50"
                     >Engineering</span
                   >
                 </li>
-                <span class="mx-2 text-neutral-400/20">|</span>
-                <span class="text-neutral-200/20">August 31, 2023</span>
+                <span class="mx-2 text-gray-400/20">|</span>
+                <span class="text-gray-200/20">August 31, 2023</span>
               </ul>
             </div>
             <h3 class="mb-8">
               <span
-                class="text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-100/80 to-neutral-50/80"
+                class="text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-200/50 via-gray-100/80 to-gray-50/80"
               >
                 Introducing Hoppscotch Enterprise Edition
               </span>
@@ -94,9 +94,7 @@
                 alt="Liyas Thomas"
               />
               <div class="text-sm">
-                <span class="transition text-neutral-200/50">
-                  Liyas Thomas
-                </span>
+                <span class="transition text-gray-400/80"> Liyas Thomas </span>
               </div>
             </div>
           </header>
@@ -109,7 +107,7 @@
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-neutral-200/80">
+          <section class="max-w-2xl text-gray-200/80">
             <p class="mt-4 mb-8">
               We are thrilled to reveal our Hoppscotch August Release, version
               2023.8.0! Our dedicated team has been working tirelessly to bring
@@ -138,14 +136,12 @@
               alt="News"
             />
           </section>
-          <section class="max-w-2xl text-neutral-200/80">
+          <section class="max-w-2xl text-gray-200/80">
             <p class="mt-4 mb-8">
               But that's not all – the Hoppscotch Self-Host Enterprise edition
               comes with a treasure trove of additional features including:
             </p>
-            <ul
-              class="mt-4 mb-8 ml-5 list-disc space-y-2 marker:text-neutral-100"
-            >
+            <ul class="mt-4 mb-8 ml-5 list-disc space-y-2 marker:text-gray-100">
               <li class="pl-4">
                 SAML-based Single Sign-On Support: Take the reins of user
                 authentication and authorization with this cutting-edge
@@ -164,7 +160,7 @@
               <a
                 href="https://cal.com/hoppscotch/enterprise-demo"
                 target="_blank"
-                class="border-b transition border-neutral-200 hover:text-neutral-50"
+                class="border-b border-gray-200 transition hover:text-gray-50"
                 >book a demo</a
               >
               with us today to witness the transformation that Hoppscotch
@@ -178,7 +174,7 @@
               alt="News"
             />
           </section>
-          <section class="max-w-2xl text-neutral-200/80">
+          <section class="max-w-2xl text-gray-200/80">
             <h4 class="mb-4">Spotlight — New way to navigate Hoppscotch</h4>
             <p class="mt-4 mb-8">
               Introducing Spotlight Search, a new way to interact with
@@ -191,7 +187,7 @@
               with the platform.
             </p>
             <hr
-              class="h-px my-12 border-t-0 bg-gradient-to-r from-transparent via-neutral-500/20"
+              class="h-px my-12 border-t-0 bg-gradient-to-r from-transparent via-gray-500/20"
             />
             <h4 class="mb-4">Inspections — Debug your APIs with ease</h4>
             <p class="mt-4 mb-8">
@@ -202,7 +198,7 @@
               settings.
             </p>
             <hr
-              class="h-px my-12 border-t-0 bg-gradient-to-r from-transparent via-neutral-500/20"
+              class="h-px my-12 border-t-0 bg-gradient-to-r from-transparent via-gray-500/20"
             />
             <h4 class="mb-4">Context Menus — Assist content-aware actions</h4>
             <p class="mt-4 mb-8">
@@ -217,7 +213,7 @@
               duplicate, and close them effortlessly with just a right-click.
             </p>
             <hr
-              class="h-px my-12 border-t-0 bg-gradient-to-r from-transparent via-neutral-500/20"
+              class="h-px my-12 border-t-0 bg-gradient-to-r from-transparent via-gray-500/20"
             />
             <h4 class="mb-4">GraphQL Client — Upgraded for speed</h4>
             <p class="mt-4 mb-8">
@@ -227,9 +223,7 @@
               has received a significant upgrade, amplifying your productivity
               and effectiveness.
             </p>
-            <ul
-              class="mt-4 mb-8 ml-5 list-disc space-y-2 marker:text-neutral-100"
-            >
+            <ul class="mt-4 mb-8 ml-5 list-disc space-y-2 marker:text-gray-100">
               <li class="pl-4">
                 Multi-Query Capabilities: Embrace the freedom to write and
                 execute multiple queries within a single tab. This flexibility
@@ -245,7 +239,7 @@
               </li>
             </ul>
             <hr
-              class="h-px my-12 border-t-0 bg-gradient-to-r from-transparent via-neutral-500/20"
+              class="h-px my-12 border-t-0 bg-gradient-to-r from-transparent via-gray-500/20"
             />
             <p class="mt-4 mb-8">
               We've taken extra steps to enhance the Hoppscotch experience in

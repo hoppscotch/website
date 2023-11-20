@@ -11,7 +11,7 @@
 
 <template>
   <header
-    class="fixed inset-x-0 top-0 z-30 bg-neutral-950/5"
+    class="fixed inset-x-0 top-0 z-30 bg-gray-950/5"
     :class="
       menuOpen
         ? 'bottom-0 md:bottom-auto backdrop-blur-3xl'
@@ -19,7 +19,7 @@
     "
   >
     <div
-      class="container flex px-4 py-4 transition sm:px-6 after:-z-10 after:absolute after:h-px after:inset-x-0 after:bottom-0 after:bg-gradient-to-r after:from-transparent after:via-neutral-500/20"
+      class="container flex px-4 py-4 transition sm:px-6 after:-z-10 after:absolute after:h-px after:inset-x-0 after:bottom-0 after:bg-gradient-to-r after:from-transparent after:via-gray-500/20"
       :class="{
         'overflow-y-auto flex-col md:overflow-y-visible h-full overscroll-contain':
           menuOpen,
@@ -45,7 +45,7 @@
             class="rounded-full"
           >
             <RouterLink
-              class="inline-flex items-center justify-center p-2 rounded-full outline-none transition border-neutral-500/50 hover:border-neutral-500/80 hover:scale-105"
+              class="inline-flex items-center justify-center p-2 rounded-full outline-none transition border-gray-500/50 hover:border-gray-500/80 hover:scale-105"
               to="/"
               aria-label="Hoppscotch"
               @contextmenu.prevent="logoOptions.tippy.show()"
@@ -64,7 +64,7 @@
             <template #content="{ hide }">
               <div class="flex flex-col p-2">
                 <RouterLink
-                  class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-300 hover:text-neutral-50 hover:bg-neutral-800/50"
+                  class="flex items-center px-3 py-2 text-sm text-gray-300 rounded-lg transition hover:text-gray-50 hover:bg-gray-800/50"
                   to="/images/logo.svg"
                   target="_blank"
                   download="hoppscotch-logo.svg"
@@ -74,7 +74,7 @@
                   Save Logo
                 </RouterLink>
                 <!-- <RouterLink
-                  class="flex items-center px-3 py-2 text-sm rounded-lg transition text-neutral-300 hover:text-neutral-50 hover:bg-neutral-800/50"
+                  class="flex items-center px-3 py-2 text-sm text-gray-300 rounded-lg transition hover:text-gray-50 hover:bg-gray-800/50"
                   to="/brand"
                   @click="hide()"
                 >
@@ -93,7 +93,7 @@
         >
           <a
             href="https://hoppscotch.io"
-            class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition neutral-500ite/50 rounded-xl bg-neutral-500/10 border-neutral-500/50 hover:border-neutral-500/80"
+            class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition gray-500ite/50 rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
             target="_blank"
           >
             Open App
@@ -102,10 +102,10 @@
         <!-- Mobile CTA links -->
         <div class="flex items-center justify-end flex-1 md:hidden">
           <div
-            class="flex border rounded-full bg-white/10 backdrop-blur-md border-neutral-500/20"
+            class="flex border rounded-full bg-white/10 backdrop-blur-md border-gray-500/20"
           >
             <button
-              class="flex items-center justify-center px-3 py-1 text-sm rounded-full transition text-neutral-200 hover:text-neutral-50"
+              class="flex items-center justify-center px-3 py-1 text-sm text-gray-200 rounded-full transition hover:text-gray-50"
               @click="menuOpen = !menuOpen"
             >
               {{ menuOpen ? "Close" : "Menu" }}
@@ -120,10 +120,10 @@
         <!-- Mobile CTA links -->
         <div class="flex items-center justify-end flex-1 my-4 flex-nowrap">
           <div
-            class="flex border rounded-full bg-white/10 backdrop-blur-md border-neutral-500/20"
+            class="flex border rounded-full bg-white/10 backdrop-blur-md border-gray-500/20"
           >
             <a
-              class="flex items-center justify-center px-3 py-1 text-sm rounded-full transition text-neutral-200 hover:text-neutral-50"
+              class="flex items-center justify-center px-3 py-1 text-sm text-gray-200 rounded-full transition hover:text-gray-50"
               href="https://github.com/hoppscotch/hoppscotch"
               target="_blank"
               rel="noopener noreferrer"
@@ -133,7 +133,7 @@
           </div>
           <div class="ml-2">
             <a
-              class="text-sm inline-flex items-center justify-center border border-transparent rounded-full transition px-3 py-1 text-neutral-200 hover:text-neutral-50 w-full group [background:linear-gradient(theme(colors.neutral.900),_theme(colors.neutral.900))_padding-box,_conic-gradient(theme(colors.neutral.400),_theme(colors.neutral.700)_25%,_theme(colors.neutral.700)_75%,_theme(colors.neutral.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-neutral-900/30 before:rounded-full before:pointer-events-none"
+              class="text-sm inline-flex items-center justify-center border border-transparent rounded-full transition px-3 py-1 text-gray-200 hover:text-gray-50 w-full group [background:linear-gradient(theme(colors.gray.900),_theme(colors.gray.900))_padding-box,_conic-gradient(theme(colors.gray.400),_theme(colors.gray.700)_25%,_theme(colors.gray.700)_75%,_theme(colors.gray.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-gray-900/30 before:rounded-full before:pointer-events-none"
               href="https://hoppscotch.io"
               target="_blank"
               rel="noopener noreferrer"
@@ -141,7 +141,7 @@
               <div class="relative inline-flex items-center">
                 Open app
                 <div
-                  class="text-neutral-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                  class="text-gray-500 group-hover:translate-x-0.5 transition-transform ml-1"
                 >
                   <icon-lucide-arrow-right />
                 </div>

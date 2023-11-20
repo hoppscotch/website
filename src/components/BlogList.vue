@@ -51,7 +51,7 @@
                 class="m-1"
               >
                 <span
-                  class="inline-flex text-center transition text-neutral-100/50"
+                  class="inline-flex text-center transition text-gray-100/50"
                 >
                   {{ tag }}</span
                 >
@@ -61,13 +61,13 @@
           <h4 class="w-4/5 mb-4">
             <RouterLink
               :to="`/blog/${blog.slug}`"
-              class="transition text-neutral-200 hover:text-neutral-100"
+              class="text-gray-200 transition hover:text-gray-100"
             >
               {{ blog.title }}
             </RouterLink>
           </h4>
         </header>
-        <p class="max-w-2xl mb-2 text-neutral-200/80">
+        <p class="max-w-2xl mb-2 text-gray-400/80">
           {{ blog.description }}
         </p>
         <footer class="flex items-center mt-4">
@@ -80,11 +80,11 @@
             :alt="blog.author.name"
           />
           <div class="text-xs">
-            <span class="transition text-neutral-200/50">
+            <span class="transition text-gray-400/80">
               {{ blog.author.name }}
             </span>
-            <span class="mx-2 text-neutral-400/20">|</span>
-            <span class="text-neutral-200/20">
+            <span class="mx-2 text-gray-400/20">|</span>
+            <span class="text-gray-200/20">
               {{
                 new Date(blog.date).toLocaleDateString("en-US", {
                   month: "long",

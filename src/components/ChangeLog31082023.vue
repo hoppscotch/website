@@ -1,16 +1,16 @@
 <template>
   <article id="31-08-2023" class="md:flex">
     <p
-      class="flex flex-col h-full text-xs leading-6 text-neutral-400 md:sticky pl-7 md:top-32 sm:text-sm md:w-1/5 md:pl-0 md:pr-12 md:text-right"
+      class="flex flex-col h-full text-xs text-gray-400 leading-6 md:sticky pl-7 md:top-32 sm:text-sm md:w-1/5 md:pl-0 md:pr-12 md:text-right"
     >
       <a href="#31-08-2023" class="rounded">August 31, 2023</a>
     </p>
     <div class="relative pt-2 pb-16 pl-7 md:w-4/5 md:pt-0 md:pl-12">
       <div
-        class="absolute -bottom-2 left-0 w-px bg-neutral-900 -top-3 md:top-2.5"
+        class="absolute -bottom-2 left-0 w-px bg-gray-900 -top-3 md:top-2.5"
       ></div>
       <div
-        class="absolute -top-[1.0625rem] -left-1 h-[0.5625rem] w-[0.5625rem] rounded-full border-2 border-neutral-600 bg-neutral-900 md:top-[0.4375rem]"
+        class="absolute -top-[1.0625rem] -left-1 h-[0.5625rem] w-[0.5625rem] rounded-full border-2 border-gray-600 bg-gray-900 md:top-[0.4375rem]"
       ></div>
       <div
         id="2023.8.0"
@@ -18,9 +18,9 @@
       >
         <a
           href="#2023.8.0"
-          class="inline-flex items-center px-2 text-xs border rounded-md text-neutral-400 border-neutral-800 bg-neutral-500/10"
+          class="inline-flex items-center px-2 text-xs text-gray-400 border border-gray-800 rounded-md bg-gray-500/10"
         >
-          <span class="w-1.5 h-1.5 mr-2 bg-neutral-400 rounded-full"></span>
+          <span class="w-1.5 h-1.5 mr-2 bg-gray-400 rounded-full"></span>
           v2023.8.0
         </a>
         <span
@@ -37,22 +37,22 @@
         </span>
       </div>
       <div>
-        <h1 class="mb-8 text-2xl font-bold text-neutral-200 sm:text-4xl">
+        <h1 class="mb-8 text-2xl font-bold text-gray-200 sm:text-4xl">
           <RouterLink class="rounded" to="/changelog/31-08-2023">
             Spotlight, environment quick peek and GraphQL improvements
           </RouterLink>
         </h1>
-        <p class="mt-4 mb-8 text-neutral-200/50">
+        <p class="mt-4 mb-8 text-gray-400/80">
           We update the Hoppscotch app as often as possible to help make it
           faster and more reliable for you. This version includes several bug
           fixes and performance improvements.
         </p>
         <ImageZoom
           src="/images/changelog-31-08-2023.png"
-          class="p-2 mt-4 mb-8 border border-neutral-900 rounded-3xl"
+          class="p-2 mt-4 mb-8 border border-gray-900 rounded-3xl"
         />
         <h4 class="flex items-center text-xl font-bold">Revamped spotlight</h4>
-        <p class="mt-4 mb-8 text-neutral-200/50">
+        <p class="mt-4 mb-8 text-gray-400/80">
           Spotlight is now more powerful and useful than ever. You can now
           search for any request, collection, environment, workspace, etc. from
           the spotlight. You can also use the spotlight to quickly navigate to
@@ -61,7 +61,7 @@
         <h4 class="flex items-center text-xl font-bold">
           Auto-complete recent history entries
         </h4>
-        <p class="mt-4 mb-8 text-neutral-200/50">
+        <p class="mt-4 mb-8 text-gray-400/80">
           You can now auto-complete recent history entries from the request URL
           input. This will help you quickly navigate to your recent history
           entries.
@@ -69,7 +69,7 @@
         <h4 class="flex items-center text-xl font-bold">
           Content-aware context menu
         </h4>
-        <p class="mt-4 mb-8 text-neutral-200/50">
+        <p class="mt-4 mb-8 text-gray-400/80">
           The context menu is now content-aware. It will show you only the
           relevant options based on the context. For example, if you right-click
           on the request URL input, it will show you options related to the
@@ -77,7 +77,7 @@
           show you options related to the response body. Same goes for;
         </p>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-neutral-100"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-gray-400/80 marker:text-gray-100"
         >
           <li class="pl-4">Collections</li>
           <li class="pl-4">Environments</li>
@@ -88,27 +88,27 @@
         <h4 class="flex items-center text-xl font-bold">
           All-in-one container images
         </h4>
-        <p class="mt-4 mb-8 text-neutral-200/50">
+        <p class="mt-4 mb-8 text-gray-400/80">
           We now provide all-in-one container images for Hoppscotch. You can now
           run Hoppscotch with a single command.
         </p>
         <h4 class="flex items-center text-xl font-bold">
           Environment quick peek
         </h4>
-        <p class="mt-4 mb-8 text-neutral-200/50">
+        <p class="mt-4 mb-8 text-gray-400/80">
           You can now quickly peek into the environment variables from the
           environment selector.
         </p>
         <h4 class="flex items-center text-xl font-bold">
           GraphQL improvements
         </h4>
-        <p class="mt-4 mb-8 text-neutral-200/50">
+        <p class="mt-4 mb-8 text-gray-400/80">
           We have improved the GraphQL support in Hoppscotch. Multiple GraphQL
           queries and mutations are now supported. You can now also use GraphQL
           variables.
         </p>
         <h4 class="flex items-center text-xl font-bold">Inspections</h4>
-        <p class="mt-4 mb-8 text-neutral-200/50">
+        <p class="mt-4 mb-8 text-gray-400/80">
           Inspections are now available in Hoppscotch. Hoppscotch will now
           automatically detect and highlight common issues in your requests.
         </p>
@@ -117,7 +117,7 @@
           Added
         </h5>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-green-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-gray-400/80 marker:text-green-500"
         >
           <li class="pl-4">i18n support to admin dashboard.</li>
           <li class="pl-4">Auto-complete recent history entries in URL bar.</li>
@@ -132,7 +132,7 @@
           Changed
         </h5>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-amber-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-gray-400/80 marker:text-amber-500"
         >
           <li class="pl-4">Revamped spotlight.</li>
           <li class="pl-4">UX improvement for SmartTree.</li>
@@ -146,7 +146,7 @@
           Removed
         </h5>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-red-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-gray-400/80 marker:text-red-500"
         >
           <li class="pl-4">Unnecessary dependencies from hoppscotch-ui.</li>
           <li class="pl-4">Move crisp out of common.</li>
@@ -156,7 +156,7 @@
           Fixed
         </h5>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-teal-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-gray-400/80 marker:text-teal-500"
         >
           <li class="pl-4">Shortcut keys for spotlight and shortcuts.</li>
           <li class="pl-4">Firefox browser scrollbar issue.</li>
@@ -175,7 +175,7 @@
           Performance
         </h5>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-fuchsia-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-gray-400/80 marker:text-fuchsia-500"
         >
           <li class="pl-4">Bump dependencies.</li>
           <li class="pl-4">Type and UX improvement for SmartTree.</li>
@@ -185,7 +185,7 @@
           Other
         </h5>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-neutral-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-gray-400/80 marker:text-gray-500"
         >
           <li class="pl-4">Updated font size and truncation on fields.</li>
           <li class="pl-4">Improved command labels and icons.</li>

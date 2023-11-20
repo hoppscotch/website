@@ -15,7 +15,7 @@
       @apply w-64;
       @apply h-0.5;
       @apply bg-gradient-to-r;
-      @apply from-neutral-50;
+      @apply from-gray-50;
       @apply transform;
       @apply -rotate-45;
       top: $h + px;
@@ -26,7 +26,7 @@
       @apply before:w-0.5;
       @apply before:h-0.5;
       @apply before:rounded-full;
-      @apply before:bg-neutral-50;
+      @apply before:bg-gray-50;
       @apply before:z-10;
     }
   }

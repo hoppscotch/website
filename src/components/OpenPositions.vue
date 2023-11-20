@@ -4,17 +4,17 @@
       <div class="pt-32 pb-24">
         <!-- Section header -->
         <h3
-          class="pb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-100/80 to-neutral-50/80"
+          class="pb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-200/50 via-gray-100/80 to-gray-50/80"
         >
           Open positions
         </h3>
         <!-- Job list -->
-        <div class="my-2 divide-y divide-neutral-900">
+        <div class="my-2 divide-y divide-gray-900">
           <!-- Job -->
           <div class="py-4">
             <div class="mb-2">
               <a
-                class="inline-flex items-center justify-between text-xl font-semibold tracking-tight transition text-neutral-200 hover:text-neutral-100"
+                class="inline-flex items-center justify-between text-xl font-semibold tracking-tight text-gray-200 transition hover:text-gray-100"
                 href="https://app.pyjamahr.com/careers?company=Hoppscotch&job_id=67074&company_uuid=8470DC1BAA"
                 target="_blank"
               >
@@ -22,7 +22,7 @@
                 <icon-lucide-arrow-right class="ml-2" />
               </a>
             </div>
-            <div class="text-md text-neutral-200/50">
+            <div class="text-md text-gray-400/80">
               You will be at the forefront of developing, optimizing, and
               maintaining the core functionality of our cutting-edge,
               self-hosted applications. This role requires a passion for
@@ -36,7 +36,7 @@
           <div class="py-4">
             <div class="mb-2">
               <a
-                class="inline-flex items-center justify-between text-xl font-semibold tracking-tight transition text-neutral-200 hover:text-neutral-100"
+                class="inline-flex items-center justify-between text-xl font-semibold tracking-tight text-gray-200 transition hover:text-gray-100"
                 href="https://app.pyjamahr.com/careers?company=Hoppscotch&job_id=55362&company_uuid=8470DC1BAA"
                 target="_blank"
               >
@@ -44,7 +44,7 @@
                 <icon-lucide-arrow-right class="ml-2" />
               </a>
             </div>
-            <div class="text-md text-neutral-200/50">
+            <div class="text-md text-gray-400/80">
               You will be responsible for designing, building and maintaining
               core services and the infrastructure that supports our software
               development, deployment, and operations. You will collaborate with
@@ -56,7 +56,7 @@
           <div class="py-4">
             <div class="mb-2">
               <a
-                class="inline-flex items-center justify-between text-xl font-semibold tracking-tight transition text-neutral-200 hover:text-neutral-100"
+                class="inline-flex items-center justify-between text-xl font-semibold tracking-tight text-gray-200 transition hover:text-gray-100"
                 href="https://app.pyjamahr.com/careers?company=Hoppscotch&job_id=54930&company_uuid=8470DC1BAA"
                 target="_blank"
               >
@@ -64,7 +64,7 @@
                 <icon-lucide-arrow-right class="ml-2" />
               </a>
             </div>
-            <div class="text-md text-neutral-200/50">
+            <div class="text-md text-gray-400/80">
               You will be tasked with planning and building performant, robust
               and highly interactive frontend systems for the main Hoppscotch
               client. You will have to collaborate with our team and build

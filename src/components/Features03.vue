@@ -19,16 +19,16 @@
           class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
         >
           <span
-            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-50 to-neutral-600"
+            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-50 to-gray-600"
           >
             API Client
           </span>
           <h2
-            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-neutral-200/50 via-neutral-100/80 to-neutral-50/80"
+            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-200/50 via-gray-100/80 to-gray-50/80"
           >
             Unlock Your Potential
           </h2>
-          <p class="text-lg text-neutral-200/50">
+          <p class="text-gray-400/80">
             Create APIs faster, test them instantly, document them automatically
             and share them easily.
           </p>
@@ -38,7 +38,7 @@
             <Highlighter class="group">
               <HighlighterItem>
                 <div
-                  class="relative bg-neutral-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative bg-gray-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
                 >
                   <div class="flex flex-col h-full">
                     <!-- Text -->
@@ -48,7 +48,7 @@
                         <h5 class="inline-flex pb-2 text-xl">
                           All-In-One Platform
                         </h5>
-                        <p class="w-full text-neutral-200/50">
+                        <p class="w-full text-gray-400/80">
                           From prototyping to production - develop without
                           switching tabs.
                         </p>

@@ -14,7 +14,7 @@
               <div class="mb-4">
                 <!-- Logo -->
                 <RouterLink
-                  class="inline-flex items-center justify-center p-2 border rounded-full outline-none transition border-neutral-500/50 hover:border-neutral-500/80 hover:scale-110"
+                  class="inline-flex items-center justify-center p-2 border rounded-full outline-none transition border-gray-500/50 hover:border-gray-500/80 hover:scale-110"
                   to="/"
                   aria-label="Hoppscotch"
                 >
@@ -26,7 +26,7 @@
                   />
                 </RouterLink>
               </div>
-              <div class="text-xs text-neutral-200/50">
+              <div class="text-xs text-gray-400/80">
                 &copy; 2023 Hoppscotch Limited
               </div>
             </div>
@@ -38,7 +38,7 @@
                     href="https://status.hoppscotch.io"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="flex items-center text-xs rounded transition text-neutral-200/50 hover:text-neutral-100"
+                    class="flex items-center text-xs rounded transition text-gray-400/80 hover:text-gray-100"
                   >
                     <div class="w-1 h-1 mr-2 bg-green-500 rounded-full"></div>
                     All systems operational.
@@ -48,7 +48,7 @@
               <ul class="flex items-center">
                 <li>
                   <a
-                    class="flex items-center justify-center rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="flex items-center justify-center rounded-full transition text-gray-400/80 hover:text-gray-100"
                     href="https://hoppscotch.io/twitter"
                     aria-label="Twitter"
                     target="_blank"
@@ -59,7 +59,7 @@
                 </li>
                 <li>
                   <a
-                    class="flex items-center justify-center rounded-full transition text-neutral-200/50 hover:text-neutral-100"
+                    class="flex items-center justify-center rounded-full transition text-gray-400/80 hover:text-gray-100"
                     href="https://hoppscotch.io/github"
                     aria-label="Github"
                     target="_blank"

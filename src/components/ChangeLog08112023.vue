@@ -1,16 +1,16 @@
 <template>
   <article id="08-11-2023" class="md:flex">
     <p
-      class="flex flex-col h-full text-xs leading-6 text-neutral-400 md:sticky pl-7 md:top-32 sm:text-sm md:w-1/5 md:pl-0 md:pr-12 md:text-right"
+      class="flex flex-col h-full text-xs text-gray-400 leading-6 md:sticky pl-7 md:top-32 sm:text-sm md:w-1/5 md:pl-0 md:pr-12 md:text-right"
     >
       <a href="#08-11-2023" class="rounded">November 08, 2023</a>
     </p>
     <div class="relative pt-2 pb-16 pl-7 md:w-4/5 md:pt-0 md:pl-12">
       <div
-        class="absolute -bottom-2 left-0 w-px bg-neutral-900 -top-3 md:top-2.5"
+        class="absolute -bottom-2 left-0 w-px bg-gray-900 -top-3 md:top-2.5"
       ></div>
       <div
-        class="absolute -top-[1.0625rem] -left-1 h-[0.5625rem] w-[0.5625rem] rounded-full border-2 border-neutral-600 bg-neutral-900 md:top-[0.4375rem]"
+        class="absolute -top-[1.0625rem] -left-1 h-[0.5625rem] w-[0.5625rem] rounded-full border-2 border-gray-600 bg-gray-900 md:top-[0.4375rem]"
       ></div>
       <div
         id="2023.8.3"
@@ -18,9 +18,9 @@
       >
         <a
           href="#2023.8.3"
-          class="inline-flex items-center px-2 text-xs border rounded-md text-neutral-400 border-neutral-800 bg-neutral-500/10"
+          class="inline-flex items-center px-2 text-xs text-gray-400 border border-gray-800 rounded-md bg-gray-500/10"
         >
-          <span class="w-1.5 h-1.5 mr-2 bg-neutral-400 rounded-full"></span>
+          <span class="w-1.5 h-1.5 mr-2 bg-gray-400 rounded-full"></span>
           v2023.8.3
         </a>
         <span
@@ -31,12 +31,12 @@
         </span>
       </div>
       <div>
-        <h1 class="mb-8 text-2xl font-bold text-neutral-200 sm:text-4xl">
+        <h1 class="mb-8 text-2xl font-bold text-gray-200 sm:text-4xl">
           <RouterLink class="rounded" to="/changelog/08-11-2023">
             Introducing Hoppscotch Desktop App
           </RouterLink>
         </h1>
-        <p class="mt-4 mb-8 text-neutral-200/50">
+        <p class="mt-4 mb-8 text-gray-400/80">
           Hoppscotch Desktop App is a cross-platform desktop application built
           with Tauri and Hoppscotch Web Client. It is a standalone version of
           Hoppscotch that can be installed on your computer and used without a
@@ -46,19 +46,19 @@
         <p class="mt-4 mb-8">
           <RouterLink
             to="/download"
-            class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition neutral-500ite/50 rounded-xl bg-neutral-500/10 border-neutral-500/50 hover:border-neutral-500/80"
+            class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition gray-500ite/50 rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
           >
             Download Hoppscotch Desktop App
           </RouterLink>
         </p>
         <ImageZoom
           src="/images/changelog-08-11-2023.png"
-          class="p-2 mt-4 mb-8 border border-neutral-900 rounded-3xl"
+          class="p-2 mt-4 mb-8 border border-gray-900 rounded-3xl"
         />
         <h4 class="flex items-center text-xl font-bold">
           Desktop Application (Alpha)
         </h4>
-        <p class="mt-4 mb-8 text-neutral-200/50">
+        <p class="mt-4 mb-8 text-gray-400/80">
           The Hoppscotch Desktop app has been a highly requested product by our
           community. We've been listening and are excited to announce that the
           day has finally arrived - today marks the launch of the public alpha
@@ -67,7 +67,7 @@
         <p class="mb-8 -mt-4">
           <RouterLink
             to="/blog/introducing-hoppscotch-desktop-application"
-            class="border-b transition border-neutral-200 hover:text-neutral-50"
+            class="border-b border-gray-200 transition hover:text-gray-50"
             >Read more about Hoppscotch Desktop App on our blog</RouterLink
           >.
         </p>
@@ -76,7 +76,7 @@
           Added
         </h5>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-green-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-gray-400/80 marker:text-green-500"
         >
           <li class="pl-4">Cookies support in Hoppscotch Desktop App.</li>
         </ul>
@@ -85,7 +85,7 @@
           Fixed
         </h5>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-teal-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-gray-400/80 marker:text-teal-500"
         >
           <li class="pl-4">
             GraphQL page crashing and broken syntax highlighting.
@@ -98,7 +98,7 @@
           Performance
         </h5>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-fuchsia-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-gray-400/80 marker:text-fuchsia-500"
         >
           <li class="pl-4">Bump dependencies.</li>
         </ul>
@@ -107,7 +107,7 @@
           Other
         </h5>
         <ul
-          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-neutral-200/50 marker:text-neutral-500"
+          class="mt-4 mb-8 ml-5 list-disc space-y-2 text-gray-400/80 marker:text-gray-500"
         >
           <li class="pl-4">Updated translations to reflect latest strings.</li>
           <li class="pl-4">Enforced pre-commit type checks.</li>
