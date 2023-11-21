@@ -85,7 +85,7 @@
               </span>
             </h3>
           </header>
-          <section class="max-w-2xl text-gray-200/80">
+          <section class="max-w-2xl text-gray-400/80">
             <p class="mt-4 mb-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.

@@ -18,20 +18,20 @@
             font-weight="bold"
             text-anchor="middle"
             text-rendering="geometricPrecision"
-            stroke-width=".05"
+            stroke-width=".1"
             paint-order="stroke"
-            class="stroke-gray-400/20 fill-gray-500/5"
+            class="stroke-gray-800 fill-gray-900/20"
           >
-            800K
+            300K
           </text>
         </svg>
         <div class="absolute inset-0 z-20 flex items-center justify-center">
           <p
             v-motion-fade-visible-once
-            class="max-w-xl font-semibold tracking-tight text-center text-gray-500 text-md md:text-4xl font-inter"
+            class="max-w-xl font-semibold tracking-tight text-center text-gray-400 text-md md:text-4xl font-inter"
           >
             Hoppscotch processes over <br />
-            <span class="text-gray-50">800 thousand requests</span> per month
+            <span class="text-gray-50">300 thousand requests</span> per week
           </p>
         </div>
       </div>

@@ -38,7 +38,7 @@
           >
             Make Better APIs
           </h1>
-          <p class="max-w-md mb-8 md:max-w-2xl text-gray-200/80">
+          <p class="max-w-md mb-8 md:max-w-2xl text-gray-400/80">
             Trusted by millions of developers to build, test and share APIs.
           </p>
           <div
@@ -52,7 +52,7 @@
                 class="relative inline-flex overflow-hidden group rounded-full p-[1px]"
               >
                 <span
-                  class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,_theme(colors.gray.800)_0%,_theme(colors.gray.50)_50%,_theme(colors.gray.800)_100%)]"
+                  class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,_theme(colors.gray.900)_0%,_theme(colors.gray.600)_50%,_theme(colors.gray.900)_100%)]"
                 ></span>
                 <div
                   class="inline-flex items-center justify-center w-full h-full px-4 py-2 text-sm text-gray-50 rounded-full cursor-pointer animate-background-shine bg-[linear-gradient(110deg,_theme(colors.gray.950),45%,_theme(colors.gray.900),55%,_theme(colors.gray.950))] bg-[length:200%_100%] backdrop-blur-md"
@@ -68,7 +68,7 @@
             </div>
             <div>
               <a
-                class="inline-flex items-center justify-center w-full px-4 py-2 text-sm text-gray-200 bg-white border rounded-full transition border-gray-500/20 bg-opacity-10 backdrop-blur-md hover:text-gray-50 hover:border-gray-500/20 hover:bg-opacity-20"
+                class="inline-flex items-center justify-center w-full px-4 py-2 text-sm text-gray-200 transition bg-white border rounded-full border-gray-500/20 bg-opacity-10 backdrop-blur-md hover:text-gray-50 hover:border-gray-500/20 hover:bg-opacity-20"
                 href="https://docs.hoppscotch.io/documentation/self-host/getting-started"
                 target="_blank"
               >
@@ -86,10 +86,10 @@
             class="relative inline-flex p-px overflow-hidden rounded-lg md:rounded-xl"
           >
             <span
-              class="absolute inset-[-1000%] animate-[spin_16s_linear_infinite] bg-[conic-gradient(from_225deg_at_50%_50%,_theme(colors.transparent)_0%,_theme(colors.transparent)_92%,_theme(colors.gray.950)_95%,_theme(colors.gray.200)_100%)]"
+              class="absolute inset-[-1000%] animate-[spin_16s_linear_infinite] bg-[conic-gradient(from_225deg_at_50%_50%,_theme(colors.transparent)_0%,_theme(colors.transparent)_92%,_theme(colors.gray.600)_97%,_theme(colors.gray.400)_100%)]"
             ></span>
             <span
-              class="absolute inset-[-1000%] animate-[spin_16s_linear_infinite_8s] bg-[conic-gradient(from_225deg_at_50%_50%,_theme(colors.transparent)_0%,_theme(colors.transparent)_92%,_theme(colors.gray.950)_95%,_theme(colors.gray.200)_100%)]"
+              class="absolute inset-[-1000%] animate-[spin_16s_linear_infinite_8s] bg-[conic-gradient(from_225deg_at_50%_50%,_theme(colors.transparent)_0%,_theme(colors.transparent)_92%,_theme(colors.gray.600)_97%,_theme(colors.gray.400)_100%)]"
             ></span>
             <div
               class="relative inline-flex items-center justify-center w-full h-full rounded-lg bg-gray-950 ring ring-gray-500/25 md:rounded-xl"
@@ -102,11 +102,11 @@
             class="absolute inset-0 flex items-center justify-center bg-gradient-to-b from-transparent to-gray-950 to-95%"
           >
             <!-- <button
-              class="overflow-hidden border rounded-full shadow-xl transition border-gray-500/10 bg-gray-500/10 backdrop-blur-md group hover:scale-110"
+              class="overflow-hidden transition border rounded-full shadow-xl border-gray-500/10 bg-gray-500/10 backdrop-blur-md group hover:scale-110"
               @click.stop="videoModalOpen = true"
             >
               <div
-                class="flex items-center justify-center p-6 m-4 border rounded-full shadow-xl transition text-gray-50 border-gray-500/90 backdrop-blur-md bg-gradient-to-b from-gray-500/50 to-gray-900/10 group-hover:scale-105"
+                class="flex items-center justify-center p-6 m-4 transition border rounded-full shadow-xl text-gray-50 border-gray-500/90 backdrop-blur-md bg-gradient-to-b from-gray-500/50 to-gray-900/10 group-hover:scale-105"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

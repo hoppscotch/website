@@ -114,7 +114,7 @@
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-gray-200/80">
+          <section class="max-w-2xl text-gray-400/80">
             <p class="mt-4 mb-8">
               The Hoppscotch Desktop app has been a
               <a
@@ -149,7 +149,7 @@
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-gray-200/80">
+          <section class="max-w-2xl text-gray-400/80">
             <p class="mt-4 mb-8">
               Just over a year ago, we shared our ambitious plans to develop a
               dedicated desktop app that would enhance your API testing and
@@ -205,7 +205,7 @@
               the window becomes responsive after all the loading.
             </p>
           </section>
-          <section class="max-w-2xl text-gray-200/80">
+          <section class="max-w-2xl text-gray-400/80">
             <p class="mt-4 mb-8">
               Hoppscotch is 10x faster than Postman and 6x faster than Insomnia
               in terms of startup time. There's a lot more optimizing to be done
@@ -228,7 +228,7 @@
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-gray-200/80">
+          <section class="max-w-2xl text-gray-400/80">
             <p class="mt-4 mb-8">
               Security is paramount for us, and the Hoppscotch app takes this
               seriously. By default, Hoppscotch is sandboxed, safeguarding your
@@ -257,7 +257,7 @@
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-gray-200/80">
+          <section class="max-w-2xl text-gray-400/80">
             <hr
               class="h-px my-12 border-t-0 bg-gradient-to-r from-transparent via-gray-500/20"
             />
@@ -279,7 +279,7 @@
               />
             </RouterLink>
           </section>
-          <section class="max-w-2xl text-gray-200/80">
+          <section class="max-w-2xl text-gray-400/80">
             <p class="mt-4 mb-8 text-xs italic">
               *The Hoppscotch Desktop App is currently in alpha. This means that
               it is not yet feature-complete and may contain bugs. We are
@@ -315,7 +315,7 @@
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-gray-200/80">
+          <section class="max-w-2xl text-gray-400/80">
             <p class="mt-4 mb-8">
               The Hoppscotch desktop app has unlocked a lot of possibilities for
               what we can achieve. Some potential possibilities include local
@@ -362,7 +362,7 @@
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-gray-200/80">
+          <section class="max-w-2xl text-gray-400/80">
             <p class="mt-4 mb-8">
               Thank you for joining us on this exciting journey as we introduce
               the Hoppscotch Desktop App as well as our new brand identity. It

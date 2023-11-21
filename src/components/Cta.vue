@@ -34,7 +34,7 @@
             >
               Make Better APIs
             </h1>
-            <p class="max-w-md mb-8 md:max-w-2xl text-gray-200/80">
+            <p class="max-w-md mb-8 md:max-w-2xl text-gray-400/80">
               Trusted by millions of developers to build, test and share APIs.
             </p>
             <div
@@ -48,7 +48,7 @@
                   class="relative inline-block overflow-hidden group rounded-full p-[1px]"
                 >
                   <span
-                    class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,_theme(colors.gray.800)_0%,_theme(colors.gray.50)_50%,_theme(colors.gray.800)_100%)]"
+                    class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,_theme(colors.gray.900)_0%,_theme(colors.gray.600)_50%,_theme(colors.gray.900)_100%)]"
                   ></span>
                   <div
                     class="inline-flex items-center justify-center w-full h-full px-4 py-2 text-sm text-gray-50 rounded-full cursor-pointer animate-background-shine bg-[linear-gradient(110deg,_theme(colors.gray.950),45%,_theme(colors.gray.900),55%,_theme(colors.gray.950))] bg-[length:200%_100%] backdrop-blur-md"

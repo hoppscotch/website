@@ -98,7 +98,7 @@
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-gray-200/80">
+          <section class="max-w-2xl text-gray-400/80">
             <p class="mt-4 mb-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -134,7 +134,7 @@
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-gray-200/80">
+          <section class="max-w-2xl text-gray-400/80">
             <p class="mt-4 mb-8">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
