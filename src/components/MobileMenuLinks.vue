@@ -70,7 +70,7 @@
           </div>
           <div class="flex flex-col">
             <div
-              class="text-base font-bold text-gray-100 transition group-hover:text-gray-50"
+              class="text-base font-semibold text-gray-100 transition group-hover:text-gray-50"
             >
               Cloud
             </div>
@@ -92,7 +92,7 @@
           </div>
           <div class="flex flex-col">
             <div
-              class="text-base font-bold text-gray-100 transition group-hover:text-gray-50"
+              class="text-base font-semibold text-gray-100 transition group-hover:text-gray-50"
             >
               Enterprise
             </div>
@@ -114,7 +114,7 @@
           </div>
           <div class="flex flex-col">
             <div
-              class="text-base font-bold text-gray-100 transition group-hover:text-gray-50"
+              class="text-base font-semibold text-gray-100 transition group-hover:text-gray-50"
             >
               Self-Host
             </div>
@@ -136,7 +136,7 @@
           </div>
           <div class="flex flex-col">
             <div
-              class="text-base font-bold text-gray-100 transition group-hover:text-gray-50"
+              class="text-base font-semibold text-gray-100 transition group-hover:text-gray-50"
             >
               CLI
             </div>
@@ -208,7 +208,7 @@
           </div>
           <div class="flex flex-col">
             <div
-              class="text-base font-bold text-gray-100 transition group-hover:text-gray-50"
+              class="text-base font-semibold text-gray-100 transition group-hover:text-gray-50"
             >
               Developers
             </div>
@@ -230,7 +230,7 @@
           </div>
           <div class="flex flex-col">
             <div
-              class="text-base font-bold text-gray-100 transition group-hover:text-gray-50"
+              class="text-base font-semibold text-gray-100 transition group-hover:text-gray-50"
             >
               Teams
             </div>
@@ -252,7 +252,7 @@
           </div>
           <div class="flex flex-col">
             <div
-              class="text-base font-bold text-gray-100 transition group-hover:text-gray-50"
+              class="text-base font-semibold text-gray-100 transition group-hover:text-gray-50"
             >
               Enterprises
             </div>
@@ -274,7 +274,7 @@
           </div>
           <div class="flex flex-col">
             <div
-              class="text-base font-bold text-gray-100 transition group-hover:text-gray-50"
+              class="text-base font-semibold text-gray-100 transition group-hover:text-gray-50"
             >
               Education
             </div>
@@ -305,7 +305,7 @@
           </div>
           <div class="flex flex-col">
             <div
-              class="text-base font-bold text-gray-100 transition group-hover:text-gray-50"
+              class="text-base font-semibold text-gray-100 transition group-hover:text-gray-50"
             >
               Cloud
             </div>
@@ -327,7 +327,7 @@
           </div>
           <div class="flex flex-col">
             <div
-              class="text-base font-bold text-gray-100 transition group-hover:text-gray-50"
+              class="text-base font-semibold text-gray-100 transition group-hover:text-gray-50"
             >
               Self-Host
             </div>

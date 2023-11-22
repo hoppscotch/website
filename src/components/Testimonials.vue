@@ -107,7 +107,7 @@
               <template v-for="(item, index) in items" :key="index">
                 <div
                   v-if="active === index"
-                  class="block text-xl font-bold text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
+                  class="block text-xl font-semibold text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
                 >
                   {{ item.quote }}
                 </div>

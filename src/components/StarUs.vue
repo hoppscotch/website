@@ -17,7 +17,7 @@
               href="https://github.com/hoppscotch/hoppscotch"
               target="_blank"
               rel="noopener noreferrer"
-              class="table mx-8 truncate items-center text-center animate-background-shine bg-[linear-gradient(110deg,transparent,45%,theme(colors.gray.300),55%,transparent)] bg-[length:200%_100%] bg-clip-text font-bold font-jakarta text-transparent text-6xl leading-normal tracking-tight"
+              class="table mx-8 truncate items-center text-center animate-background-shine bg-[linear-gradient(110deg,transparent,45%,theme(colors.gray.300),55%,transparent)] bg-[length:200%_100%] bg-clip-text font-semibold font-jakarta text-transparent text-6xl leading-normal tracking-tight"
             >
               Star us on GitHub
             </a>
@@ -32,7 +32,7 @@
               href="https://github.com/hoppscotch/hoppscotch"
               target="_blank"
               rel="noopener noreferrer"
-              class="table mx-8 truncate items-center text-center animate-background-shine bg-[linear-gradient(110deg,transparent,45%,theme(colors.gray.300),55%,transparent)] bg-[length:200%_100%] bg-clip-text font-bold font-jakarta text-transparent text-6xl leading-normal tracking-tight"
+              class="table mx-8 truncate items-center text-center animate-background-shine bg-[linear-gradient(110deg,transparent,45%,theme(colors.gray.300),55%,transparent)] bg-[length:200%_100%] bg-clip-text font-semibold font-jakarta text-transparent text-6xl leading-normal tracking-tight"
             >
               Star us on GitHub
             </a>

@@ -57,7 +57,7 @@
                 class="w-7 h-7"
               />
               <span
-                class="ml-2 text-lg font-bold sm:hidden lg:flex font-jakarta"
+                class="ml-2 text-lg font-semibold sm:hidden lg:flex font-jakarta"
                 >Hoppscotch</span
               >
             </RouterLink>

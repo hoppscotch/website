@@ -31,7 +31,7 @@
         </span>
       </div>
       <div>
-        <h1 class="mb-8 text-2xl font-bold text-gray-200 sm:text-4xl">
+        <h1 class="mb-8 text-2xl font-semibold text-gray-200 sm:text-4xl">
           <RouterLink class="rounded" to="/changelog/08-11-2023">
             Introducing Hoppscotch Desktop App
           </RouterLink>
@@ -55,7 +55,7 @@
           src="/images/changelog-08-11-2023.png"
           class="p-2 mt-4 mb-8 border border-gray-900 rounded-3xl"
         />
-        <h4 class="flex items-center text-xl font-bold">
+        <h4 class="flex items-center text-xl font-semibold">
           Desktop Application (Alpha)
         </h4>
         <p class="mt-4 mb-8 text-gray-400/80">

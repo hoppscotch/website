@@ -49,7 +49,7 @@
         </span>
       </div>
       <div>
-        <h1 class="mb-8 text-2xl font-bold text-gray-200 sm:text-4xl">
+        <h1 class="mb-8 text-2xl font-semibold text-gray-200 sm:text-4xl">
           <RouterLink class="rounded" to="/changelog/00-00-0000">
             Bug fixes and performance improvements
           </RouterLink>
@@ -63,7 +63,7 @@
           src="/images/changelog-00-00-0000.png"
           class="p-2 mt-4 mb-8 border border-gray-900 rounded-3xl"
         />
-        <h4 class="flex items-center text-xl font-bold">
+        <h4 class="flex items-center text-xl font-semibold">
           Self-Host support for Hoppscotch
         </h4>
         <p class="mt-4 mb-8 text-gray-400/80">
@@ -72,7 +72,7 @@
           quas ducimus voluptas asperiores fugiat magnam, labore velit nulla!
           Neque, at.
         </p>
-        <h4 class="flex items-center text-xl font-bold">
+        <h4 class="flex items-center text-xl font-semibold">
           Collaborate with your team
         </h4>
         <p class="mt-4 mb-8 text-gray-400/80">
@@ -89,7 +89,7 @@
           <li class="pl-4">Ipsum dolor sit.</li>
           <li class="pl-4">Lorem dolor.</li>
         </ul>
-        <h4 class="flex items-center text-xl font-bold">
+        <h4 class="flex items-center text-xl font-semibold">
           Share your collections with the world
         </h4>
         <p class="mt-4 mb-8 text-gray-400/80">

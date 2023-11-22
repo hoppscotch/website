@@ -31,7 +31,7 @@
         </span>
       </div>
       <div>
-        <h1 class="mb-8 text-2xl font-bold text-gray-200 sm:text-4xl">
+        <h1 class="mb-8 text-2xl font-semibold text-gray-200 sm:text-4xl">
           <RouterLink class="rounded" to="/changelog/11-04-2023">
             Tabs, workspaces and more
           </RouterLink>
@@ -45,7 +45,7 @@
           src="/images/changelog-11-04-2023.png"
           class="p-2 mt-4 mb-8 border border-gray-900 rounded-3xl"
         />
-        <h4 class="flex items-center text-xl font-bold">
+        <h4 class="flex items-center text-xl font-semibold">
           Self-hosted Hoppscotch
         </h4>
         <p class="mt-4 mb-8 text-gray-400/80">
@@ -54,19 +54,19 @@
           to use Hoppscotch in an environment where the internet is not
           available.
         </p>
-        <h3 class="flex items-center text-xl font-bold">Workspaces</h3>
+        <h3 class="flex items-center text-xl font-semibold">Workspaces</h3>
         <p class="mt-4 mb-8 text-gray-400/80">
           Easily switch between workspaces with our updated user interface for
           workspaces. You can now create, edit, delete and switch between
           workspaces with ease.
         </p>
-        <h3 class="flex items-center text-xl font-bold">Tabs</h3>
+        <h3 class="flex items-center text-xl font-semibold">Tabs</h3>
         <p class="mt-4 mb-8 text-gray-400/80">
           You can now open multiple requests in separate tabs and work with them
           simultaneously. This is especially useful when you want to compare
           responses or work with multiple requests at the same time.
         </p>
-        <h4 class="flex items-center text-xl font-bold">
+        <h4 class="flex items-center text-xl font-semibold">
           Reorder requests and collections
         </h4>
         <p class="mt-4 mb-8 text-gray-400/80">

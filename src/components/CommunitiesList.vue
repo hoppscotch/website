@@ -32,7 +32,7 @@
             <icon-lucide-book-open
               class="w-12 h-12 p-3 mb-4 text-gray-200 bg-gray-600 rounded-xl"
             />
-            <h4 class="mb-2 text-xl font-bold">Documentation</h4>
+            <h4 class="mb-2 text-xl font-semibold">Documentation</h4>
             <p class="text-sm text-gray-100">
               Read through our docs to learn how to get started with our
               products.
@@ -45,7 +45,7 @@
             <icon-lucide-github
               class="w-12 h-12 p-3 mb-4 text-gray-200 bg-gray-600 rounded-xl"
             />
-            <h4 class="mb-2 text-xl font-bold">GitHub</h4>
+            <h4 class="mb-2 text-xl font-semibold">GitHub</h4>
             <p class="text-sm text-gray-100">
               Explore our GitHub repositories and contribute to our open source
               projects.
@@ -58,7 +58,7 @@
             <icon-lucide-twitter
               class="w-12 h-12 p-3 mb-4 text-gray-200 bg-gray-600 rounded-xl"
             />
-            <h4 class="mb-2 text-xl font-bold">Twitter</h4>
+            <h4 class="mb-2 text-xl font-semibold">Twitter</h4>
             <p class="text-sm text-gray-100">
               Follow us on Twitter to stay up to date with our latest news and
               announcements.

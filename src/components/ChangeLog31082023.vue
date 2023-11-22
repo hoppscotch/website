@@ -37,7 +37,7 @@
         </span>
       </div>
       <div>
-        <h1 class="mb-8 text-2xl font-bold text-gray-200 sm:text-4xl">
+        <h1 class="mb-8 text-2xl font-semibold text-gray-200 sm:text-4xl">
           <RouterLink class="rounded" to="/changelog/31-08-2023">
             Spotlight, environment quick peek and GraphQL improvements
           </RouterLink>
@@ -51,14 +51,16 @@
           src="/images/changelog-31-08-2023.png"
           class="p-2 mt-4 mb-8 border border-gray-900 rounded-3xl"
         />
-        <h4 class="flex items-center text-xl font-bold">Revamped spotlight</h4>
+        <h4 class="flex items-center text-xl font-semibold">
+          Revamped spotlight
+        </h4>
         <p class="mt-4 mb-8 text-gray-400/80">
           Spotlight is now more powerful and useful than ever. You can now
           search for any request, collection, environment, workspace, etc. from
           the spotlight. You can also use the spotlight to quickly navigate to
           any request, collection, environment, workspace, etc.
         </p>
-        <h4 class="flex items-center text-xl font-bold">
+        <h4 class="flex items-center text-xl font-semibold">
           Auto-complete recent history entries
         </h4>
         <p class="mt-4 mb-8 text-gray-400/80">
@@ -66,7 +68,7 @@
           input. This will help you quickly navigate to your recent history
           entries.
         </p>
-        <h4 class="flex items-center text-xl font-bold">
+        <h4 class="flex items-center text-xl font-semibold">
           Content-aware context menu
         </h4>
         <p class="mt-4 mb-8 text-gray-400/80">
@@ -85,21 +87,21 @@
           <li class="pl-4">Requests</li>
           <li class="pl-4">Responses</li>
         </ul>
-        <h4 class="flex items-center text-xl font-bold">
+        <h4 class="flex items-center text-xl font-semibold">
           All-in-one container images
         </h4>
         <p class="mt-4 mb-8 text-gray-400/80">
           We now provide all-in-one container images for Hoppscotch. You can now
           run Hoppscotch with a single command.
         </p>
-        <h4 class="flex items-center text-xl font-bold">
+        <h4 class="flex items-center text-xl font-semibold">
           Environment quick peek
         </h4>
         <p class="mt-4 mb-8 text-gray-400/80">
           You can now quickly peek into the environment variables from the
           environment selector.
         </p>
-        <h4 class="flex items-center text-xl font-bold">
+        <h4 class="flex items-center text-xl font-semibold">
           GraphQL improvements
         </h4>
         <p class="mt-4 mb-8 text-gray-400/80">
@@ -107,7 +109,7 @@
           queries and mutations are now supported. You can now also use GraphQL
           variables.
         </p>
-        <h4 class="flex items-center text-xl font-bold">Inspections</h4>
+        <h4 class="flex items-center text-xl font-semibold">Inspections</h4>
         <p class="mt-4 mb-8 text-gray-400/80">
           Inspections are now available in Hoppscotch. Hoppscotch will now
           automatically detect and highlight common issues in your requests.

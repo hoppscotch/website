@@ -65,7 +65,7 @@
                     id="mce-email"
                     name="email"
                     type="email"
-                    class="inline-flex flex-1 px-4 py-3 font-bold border-0 rounded outline-none transition focus:ring-gray-400 hover:ring-gray-600 ring-1 ring-gray-950 placeholder:text-gray-400 text-gray-50 font-2xl bg-gray-500/10"
+                    class="inline-flex flex-1 px-4 py-3 font-semibold border-0 rounded outline-none transition focus:ring-gray-400 hover:ring-gray-600 ring-1 ring-gray-950 placeholder:text-gray-400 text-gray-50 font-2xl bg-gray-500/10"
                     placeholder="Email address"
                     required
                   />
@@ -73,7 +73,7 @@
                     id="mc-embedded-subscribe"
                     name="subscribe"
                     type="submit"
-                    class="inline-flex px-4 py-3 font-bold border-0 rounded outline-none transition focus:ring-gray-400 hover:ring-gray-600 ring-1 ring-gray-950 placeholder:text-gray-400 text-gray-50 font-2xl bg-gray-500/10"
+                    class="inline-flex px-4 py-3 font-semibold border-0 rounded outline-none transition focus:ring-gray-400 hover:ring-gray-600 ring-1 ring-gray-950 placeholder:text-gray-400 text-gray-50 font-2xl bg-gray-500/10"
                   >
                     Subscribe
                   </button>

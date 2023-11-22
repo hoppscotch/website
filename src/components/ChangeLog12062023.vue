@@ -31,7 +31,7 @@
         </span>
       </div>
       <div>
-        <h1 class="mb-8 text-2xl font-bold text-gray-200 sm:text-4xl">
+        <h1 class="mb-8 text-2xl font-semibold text-gray-200 sm:text-4xl">
           <RouterLink class="rounded" to="/changelog/12-06-2023">
             Bug fixes and performance improvements
           </RouterLink>
