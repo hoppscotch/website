@@ -107,7 +107,7 @@
     <div v-if="scrollHeight > 8" class="flex overflow-hidden rounded-full">
       <a
         v-motion-slide-right
-        class="flex items-center justify-center flex-shrink-0 px-4 py-2 text-sm border border-gray-600 rounded-full transition text-gray-50 backdrop-blur-md bg-gradient-to-br from-gray-600/30 via-gray-700/30 to-gray-800/30 hover:from-gray-600/50 hover:via-gray-700/50 hover:to-gray-800/50"
+        class="flex items-center justify-center flex-shrink-0 px-4 py-2 text-sm border border-gray-600 rounded-full transition text-gray-50 backdrop-blur-md bg-gradient-to-r from-gray-600/30 via-gray-700/30 to-gray-800/30 hover:from-gray-600/50 hover:via-gray-700/50 hover:to-gray-800/50"
         href="https://github.com/hoppscotch/hoppscotch"
         target="_blank"
         rel="noopener noreferrer"
@@ -144,7 +144,7 @@
                   @click="hide()"
                 >
                   <div
-                    class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
+                    class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-r from-gray-950 to-gray-950/80"
                   >
                     <icon-lucide-cloudy class="w-5 h-5" />
                   </div>
@@ -167,7 +167,7 @@
                   @click="hide()"
                 >
                   <div
-                    class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
+                    class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-r from-gray-950 to-gray-950/80"
                   >
                     <icon-lucide-building-2 class="w-5 h-5" />
                   </div>
@@ -190,7 +190,7 @@
                   @click="hide()"
                 >
                   <div
-                    class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
+                    class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-r from-gray-950 to-gray-950/80"
                   >
                     <icon-lucide-server class="w-5 h-5" />
                   </div>
@@ -213,7 +213,7 @@
                   @click="hide()"
                 >
                   <div
-                    class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
+                    class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-r from-gray-950 to-gray-950/80"
                   >
                     <icon-lucide-terminal-square class="w-5 h-5" />
                   </div>
@@ -300,7 +300,7 @@
                     @click="hide()"
                   >
                     <div
-                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
+                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-r from-gray-950 to-gray-950/80"
                     >
                       <icon-lucide-box class="w-5 h-5" />
                     </div>
@@ -323,7 +323,7 @@
                     @click="hide()"
                   >
                     <div
-                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
+                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-r from-gray-950 to-gray-950/80"
                     >
                       <icon-lucide-package class="w-5 h-5" />
                     </div>
@@ -346,7 +346,7 @@
                     @click="hide()"
                   >
                     <div
-                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
+                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-r from-gray-950 to-gray-950/80"
                     >
                       <icon-lucide-package-2 class="w-5 h-5" />
                     </div>
@@ -369,7 +369,7 @@
                     @click="hide()"
                   >
                     <div
-                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
+                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-r from-gray-950 to-gray-950/80"
                     >
                       <icon-lucide-graduation-cap class="w-5 h-5" />
                     </div>
@@ -403,7 +403,7 @@
                     @click="hide()"
                   >
                     <div
-                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
+                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-r from-gray-950 to-gray-950/80"
                     >
                       <icon-lucide-cloudy class="w-5 h-5" />
                     </div>
@@ -426,7 +426,7 @@
                     @click="hide()"
                   >
                     <div
-                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
+                      class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-r from-gray-950 to-gray-950/80"
                     >
                       <icon-lucide-server class="w-5 h-5" />
                     </div>
@@ -581,7 +581,7 @@
     <div v-if="scrollHeight > 8" class="flex overflow-hidden rounded-full">
       <a
         v-motion-slide-right
-        class="flex items-center justify-center flex-shrink-0 px-4 py-2 text-sm border border-gray-600 rounded-full transition text-gray-50 backdrop-blur-md bg-gradient-to-br from-gray-600/30 via-gray-700/30 to-gray-800/30 hover:from-gray-600/50 hover:via-gray-700/50 hover:to-gray-800/50"
+        class="flex items-center justify-center flex-shrink-0 px-4 py-2 text-sm border border-gray-600 rounded-full transition text-gray-50 backdrop-blur-md bg-gradient-to-r from-gray-600/30 via-gray-700/30 to-gray-800/30 hover:from-gray-600/50 hover:via-gray-700/50 hover:to-gray-800/50"
         href="https://github.com/hoppscotch/hoppscotch"
         target="_blank"
         rel="noopener noreferrer"

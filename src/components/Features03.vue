@@ -24,13 +24,13 @@
             API Client
           </span>
           <h2
-            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-200/50 via-gray-100/80 to-gray-50/80"
+            class="block pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
           >
             Unlock Your Potential
           </h2>
           <p class="text-gray-400/80">
-            Create APIs faster, test them instantly, document them automatically
-            and share them easily.
+            Create APIs faster, test them instantly, document and share them
+            automatically.
           </p>
         </div>
         <div class="max-w-4xl mx-auto">

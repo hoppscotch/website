@@ -64,7 +64,7 @@
           to="/products/cloud"
         >
           <div
-            class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
+            class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-r from-gray-950 to-gray-950/80"
           >
             <icon-lucide-cloudy class="w-5 h-5" />
           </div>
@@ -86,7 +86,7 @@
           to="/products/enterprise"
         >
           <div
-            class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
+            class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-r from-gray-950 to-gray-950/80"
           >
             <icon-lucide-building-2 class="w-5 h-5" />
           </div>
@@ -108,7 +108,7 @@
           to="/products/self-host"
         >
           <div
-            class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
+            class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-r from-gray-950 to-gray-950/80"
           >
             <icon-lucide-server class="w-5 h-5" />
           </div>
@@ -130,7 +130,7 @@
           to="/products/cli"
         >
           <div
-            class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
+            class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-r from-gray-950 to-gray-950/80"
           >
             <icon-lucide-terminal-square class="w-5 h-5" />
           </div>
@@ -202,7 +202,7 @@
           to="/solutions/developers"
         >
           <div
-            class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
+            class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-r from-gray-950 to-gray-950/80"
           >
             <icon-lucide-box class="w-5 h-5" />
           </div>
@@ -224,7 +224,7 @@
           to="/solutions/teams"
         >
           <div
-            class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
+            class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-r from-gray-950 to-gray-950/80"
           >
             <icon-lucide-package class="w-5 h-5" />
           </div>
@@ -246,7 +246,7 @@
           to="/solutions/enterprises"
         >
           <div
-            class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
+            class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-r from-gray-950 to-gray-950/80"
           >
             <icon-lucide-building-2 class="w-5 h-5" />
           </div>
@@ -268,7 +268,7 @@
           to="/solutions/education"
         >
           <div
-            class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
+            class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-r from-gray-950 to-gray-950/80"
           >
             <icon-lucide-graduation-cap class="w-5 h-5" />
           </div>
@@ -299,7 +299,7 @@
           to="/solutions/cloud"
         >
           <div
-            class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
+            class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-r from-gray-950 to-gray-950/80"
           >
             <icon-lucide-cloudy class="w-5 h-5" />
           </div>
@@ -321,7 +321,7 @@
           to="/solutions/self-host"
         >
           <div
-            class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-br from-gray-950 to-gray-950/80"
+            class="flex items-center justify-center flex-shrink-0 w-10 h-10 mr-3 text-gray-400 rounded-full bg-gradient-to-r from-gray-950 to-gray-950/80"
           >
             <icon-lucide-server class="w-5 h-5" />
           </div>

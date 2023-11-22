@@ -24,7 +24,7 @@
             Manifesto
           </span>
           <h2
-            class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-200/50 via-gray-100/80 to-gray-50/80"
+            class="block pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
           >
             New Way to Build APIs
           </h2>
@@ -38,7 +38,7 @@
           <div class="py-8 first-of-type:pt-0 last-of-type:pb-0">
             <div>
               <div
-                class="inline-flex pb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-gray-500 to-gray-200"
+                class="inline-flex pb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-500 to-gray-200"
               >
                 Design
               </div>
@@ -82,7 +82,7 @@
           <div class="py-8">
             <div>
               <div
-                class="inline-flex pb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-gray-500 to-gray-200"
+                class="inline-flex pb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-500 to-gray-200"
               >
                 Develop
               </div>
@@ -124,7 +124,7 @@
           <div class="py-8">
             <div>
               <div
-                class="inline-flex pb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-gray-500 to-gray-200"
+                class="inline-flex pb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-500 to-gray-200"
               >
                 Test
               </div>
@@ -169,7 +169,7 @@
           <div class="py-8">
             <div>
               <div
-                class="inline-flex pb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-gray-500 to-gray-200"
+                class="inline-flex pb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-500 to-gray-200"
               >
                 Deploy
               </div>

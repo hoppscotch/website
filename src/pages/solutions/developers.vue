@@ -127,7 +127,7 @@
         class="flex flex-col items-center justify-center h-screen max-w-4xl pt-32 pb-24 mx-auto text-center"
       >
         <h1
-          class="pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-200/50 via-gray-100/80 to-gray-50/80"
+          class="block pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
         >
           Hoppscotch for
           <div ref="textElement">&nbsp;</div>

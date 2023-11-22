@@ -34,7 +34,7 @@
         >
           <Announcement />
           <h1
-            class="mb-8 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-200/50 via-gray-100/80 to-gray-50/80"
+            class="block mb-8 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
           >
             Make Better APIs
           </h1>
@@ -68,7 +68,7 @@
             </div>
             <div>
               <a
-                class="inline-flex items-center justify-center w-full px-4 py-2 text-sm text-gray-200 transition bg-white border rounded-full border-gray-500/20 bg-opacity-10 backdrop-blur-md hover:text-gray-50 hover:border-gray-500/20 hover:bg-opacity-20"
+                class="inline-flex items-center justify-center w-full px-4 py-2 text-sm text-gray-200 bg-white border rounded-full transition border-gray-500/20 bg-opacity-10 backdrop-blur-md hover:text-gray-50 hover:border-gray-500/20 hover:bg-opacity-20"
                 href="https://docs.hoppscotch.io/documentation/self-host/getting-started"
                 target="_blank"
               >
@@ -102,11 +102,11 @@
             class="absolute inset-0 flex items-center justify-center bg-gradient-to-b from-transparent to-gray-950 to-95%"
           >
             <!-- <button
-              class="overflow-hidden transition border rounded-full shadow-xl border-gray-500/10 bg-gray-500/10 backdrop-blur-md group hover:scale-110"
+              class="overflow-hidden border rounded-full shadow-xl transition border-gray-500/10 bg-gray-500/10 backdrop-blur-md group hover:scale-110"
               @click.stop="videoModalOpen = true"
             >
               <div
-                class="flex items-center justify-center p-6 m-4 transition border rounded-full shadow-xl text-gray-50 border-gray-500/90 backdrop-blur-md bg-gradient-to-b from-gray-500/50 to-gray-900/10 group-hover:scale-105"
+                class="flex items-center justify-center p-6 m-4 border rounded-full shadow-xl transition text-gray-50 border-gray-500/90 backdrop-blur-md bg-gradient-to-b from-gray-500/50 to-gray-900/10 group-hover:scale-105"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

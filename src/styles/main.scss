@@ -70,7 +70,7 @@ html {
 }
 .tippy-box[data-theme~="popover"] > .tippy-content {
   @apply text-xs;
-  @apply bg-gradient-to-br;
+  @apply bg-gradient-to-r;
   @apply from-gray-900/80;
   @apply to-gray-950/80;
   @apply text-gray-300;
@@ -90,16 +90,16 @@ html {
   scrollbar-width: none;
 }
 h1 {
-  @apply text-5xl font-semibold leading-normal tracking-tight font-jakarta;
+  @apply text-5xl leading-normal tracking-tight font-jakarta;
 }
 h2 {
-  @apply text-3xl font-semibold leading-normal tracking-tight font-jakarta;
+  @apply text-3xl leading-normal tracking-tight font-jakarta;
 }
 h3 {
-  @apply text-2xl font-semibold leading-normal tracking-tight font-jakarta;
+  @apply text-2xl leading-normal tracking-tight font-jakarta;
 }
 h4 {
-  @apply text-xl font-semibold leading-normal tracking-tight font-jakarta;
+  @apply text-xl leading-normal tracking-tight font-jakarta;
 }
 @screen md {
   h1 {

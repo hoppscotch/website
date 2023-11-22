@@ -4,7 +4,7 @@
       <div class="pt-32 pb-24">
         <!-- Section header -->
         <h3
-          class="pb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-200/50 via-gray-100/80 to-gray-50/80"
+          class="block pb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
         >
           Open positions
         </h3>
