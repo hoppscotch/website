@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  const platform = ref<"cloud" | "selfhost">("cloud")
+  const platform = ref<"cloud" | "selfhost">("selfhost")
 
   const cloudTiers = [
     {
@@ -121,21 +121,6 @@
               <label
                 class="px-3 py-2 transition rounded-full cursor-pointer hover:text-gray-400"
                 :class="{
-                  '!bg-gray-950 !text-gray-50': platform === 'cloud',
-                }"
-              >
-                <input
-                  v-model="platform"
-                  type="radio"
-                  name="platform"
-                  value="cloud"
-                  class="sr-only"
-                />
-                <span>Cloud</span>
-              </label>
-              <label
-                class="px-3 py-2 transition rounded-full cursor-pointer hover:text-gray-400"
-                :class="{
                   '!bg-gray-950 !text-gray-50': platform === 'selfhost',
                 }"
               >
@@ -147,6 +132,21 @@
                   class="sr-only"
                 />
                 <span>Self-Host</span>
+              </label>
+              <label
+                class="px-3 py-2 transition rounded-full cursor-pointer hover:text-gray-400"
+                :class="{
+                  '!bg-gray-950 !text-gray-50': platform === 'cloud',
+                }"
+              >
+                <input
+                  v-model="platform"
+                  type="radio"
+                  name="platform"
+                  value="cloud"
+                  class="sr-only"
+                />
+                <span>Cloud</span>
               </label>
             </fieldset>
           </div>
