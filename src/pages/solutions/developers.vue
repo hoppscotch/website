@@ -260,7 +260,7 @@
         <!-- Section #3 -->
         <section>
           <div
-            class="relative z-0 overflow-hidden border transition-transform duration-700 ease-in-out bg-black/50 backdrop-blur-md rounded-2xl border-gray-500/25"
+            class="relative z-0 overflow-hidden border border-gray-800 transition-transform duration-700 ease-in-out bg-black/50 backdrop-blur-md rounded-2xl"
           >
             <div class="items-center justify-between md:flex">
               <div class="px-12 shrink-0 py-14 max-md:pb-0 md:pr-0">

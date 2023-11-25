@@ -223,7 +223,7 @@
       class="flex items-center justify-center focus:outline-none relative p-4 after:content-['']"
       :class="
         activeTab === tab.id
-          ? 'after:absolute text-gray-400/80 transition after:inset-x-4 after:-bottom-px after:h-px after:bg-gradient-to-r after:from-transparent after:via-gray-400/50 flex-1'
+          ? 'after:absolute text-gray-400/80 transition after:inset-x-4 after:-bottom-px after:h-px after:bg-gradient-to-r after:from-transparent after:via-gray-500 after:z-10 flex-1'
           : 'text-gray-400/80 hover:text-gray-400/80'
       "
       @click="changeTab(tab.id)"
@@ -240,7 +240,7 @@
   </div>
   <div ref="target" class="relative w-full p-2 overflow-hidden">
     <div
-      class="flex items-start justify-start overflow-y-auto border brightness-110 overscroll-auto h-80 rounded-2xl border-gray-500/25 bg-gradient-to-b from-gray-800/10 to-gray-600/10"
+      class="flex items-start justify-start overflow-y-auto border border-gray-800 brightness-110 overscroll-auto h-80 rounded-2xl bg-gradient-to-b from-gray-800/10 to-gray-400/10"
     >
       <div class="relative flex flex-col flex-1 text-xs">
         <input

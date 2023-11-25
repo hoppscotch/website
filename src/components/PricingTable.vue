@@ -115,11 +115,11 @@
           <!-- Tabs -->
           <div class="flex justify-center mb-16">
             <fieldset
-              class="grid grid-cols-2 p-1 text-xs font-semibold text-center text-gray-400 bg-gray-900 rounded-full"
+              class="p-1 text-xs font-semibold text-center text-gray-400 bg-gray-900 rounded-full grid grid-cols-2"
             >
               <legend class="sr-only">Platform</legend>
               <label
-                class="px-3 py-2 transition rounded-full cursor-pointer hover:text-gray-400"
+                class="px-3 py-2 rounded-full cursor-pointer transition hover:text-gray-400"
                 :class="{
                   '!bg-gray-950 !text-gray-50': platform === 'selfhost',
                 }"
@@ -134,7 +134,7 @@
                 <span>Self-Host</span>
               </label>
               <label
-                class="px-3 py-2 transition rounded-full cursor-pointer hover:text-gray-400"
+                class="px-3 py-2 rounded-full cursor-pointer transition hover:text-gray-400"
                 :class="{
                   '!bg-gray-950 !text-gray-50': platform === 'cloud',
                 }"
@@ -152,7 +152,7 @@
           </div>
           <!-- Content -->
           <div
-            class="grid items-center max-w-lg grid-cols-1 mx-auto mt-16 gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-3xl lg:grid-cols-2"
+            class="items-center max-w-lg mx-auto mt-16 grid grid-cols-1 gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-3xl lg:grid-cols-2"
           >
             <div
               v-for="(tier, index) in platform === 'cloud'
@@ -229,7 +229,7 @@
                 :href="tier.href"
                 :aria-describedby="tier.id"
                 target="_blank"
-                class="relative inline-flex items-center justify-center flex-shrink-0 w-full px-3 py-2 mt-8 text-sm font-medium transition border font-jakarta rounded-xl"
+                class="relative inline-flex items-center justify-center flex-shrink-0 w-full px-3 py-2 mt-8 text-sm font-medium border transition font-jakarta rounded-xl"
                 :class="[
                   tier.featured
                     ? 'bg-gray-900/10 text-gray-950 border-gray-800/50 hover:border-gray-800/80'

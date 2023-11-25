@@ -46,7 +46,7 @@
                     <!-- Image -->
                     <div class="relative w-full p-2 overflow-hidden">
                       <div
-                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-gray-500/25 bg-gradient-to-b from-gray-800/10 to-gray-600/10"
+                        class="relative flex items-center justify-center p-8 overflow-hidden border border-gray-800 h-72 rounded-2xl bg-gradient-to-b from-gray-800/10 to-gray-400/10"
                       >
                         <img
                           src="/images/feature-workspaces.png"
@@ -80,7 +80,7 @@
                     <!-- Image -->
                     <div class="relative w-full p-2 overflow-hidden">
                       <div
-                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-gray-500/25 bg-gradient-to-b from-gray-800/10 to-gray-600/10"
+                        class="relative flex items-center justify-center p-8 overflow-hidden border border-gray-800 h-72 rounded-2xl bg-gradient-to-b from-gray-800/10 to-gray-400/10"
                       >
                         <img
                           src="/images/feature-access-roles.png"
@@ -116,7 +116,7 @@
                     <!-- Image -->
                     <div class="relative w-full p-2 overflow-hidden">
                       <div
-                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-gray-500/25 bg-gradient-to-b from-gray-800/10 to-gray-600/10"
+                        class="relative flex items-center justify-center p-8 overflow-hidden border border-gray-800 h-72 rounded-2xl bg-gradient-to-b from-gray-800/10 to-gray-400/10"
                       >
                         <img
                           src="/images/feature-realtime-collaboration.png"
@@ -152,7 +152,7 @@
                     <!-- Image -->
                     <div class="relative w-full p-2 overflow-hidden">
                       <div
-                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-gray-500/25 bg-gradient-to-b from-gray-800/10 to-gray-600/10"
+                        class="relative flex items-center justify-center p-8 overflow-hidden border border-gray-800 h-72 rounded-2xl bg-gradient-to-b from-gray-800/10 to-gray-400/10"
                       >
                         <img
                           src="/images/feature-on-prem-deployment.png"
@@ -188,7 +188,7 @@
                     <!-- Image -->
                     <div class="relative w-full p-2 overflow-hidden">
                       <div
-                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-gray-500/25 bg-gradient-to-b from-gray-800/10 to-gray-600/10"
+                        class="relative flex items-center justify-center p-8 overflow-hidden border border-gray-800 h-72 rounded-2xl bg-gradient-to-b from-gray-800/10 to-gray-400/10"
                       >
                         <img
                           src="/images/feature-collections-folders.png"
@@ -225,7 +225,7 @@
                     <!-- Image -->
                     <div class="relative w-full p-2 overflow-hidden">
                       <div
-                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-gray-500/25 bg-gradient-to-b from-gray-800/10 to-gray-600/10"
+                        class="relative flex items-center justify-center p-8 overflow-hidden border border-gray-800 h-72 rounded-2xl bg-gradient-to-b from-gray-800/10 to-gray-400/10"
                       >
                         <img
                           src="/images/feature-environments.png"
@@ -262,7 +262,7 @@
                     <!-- Image -->
                     <div class="relative w-full p-2 overflow-hidden">
                       <div
-                        class="relative flex items-center justify-center p-8 overflow-hidden border h-72 rounded-2xl border-gray-500/25 bg-gradient-to-b from-gray-800/10 to-gray-600/10"
+                        class="relative flex items-center justify-center p-8 overflow-hidden border border-gray-800 h-72 rounded-2xl bg-gradient-to-b from-gray-800/10 to-gray-400/10"
                       >
                         <img
                           src="/images/feature-history.png"

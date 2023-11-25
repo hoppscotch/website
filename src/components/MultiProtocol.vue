@@ -1,7 +1,7 @@
 <template>
   <div class="relative w-full p-2 overflow-hidden">
     <div
-      class="relative flex items-center justify-center px-8 overflow-hidden border h-80 rounded-2xl border-gray-500/25 bg-gradient-to-b from-gray-800/10 to-gray-600/10"
+      class="relative flex items-center justify-center px-8 overflow-hidden border border-gray-800 h-80 rounded-2xl bg-gradient-to-b from-gray-800/10 to-gray-400/10"
     >
       <div class="m-4 border rounded-full border-gray-400/10">
         <div class="m-4 border rounded-full border-gray-400/10">

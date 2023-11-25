@@ -23,7 +23,7 @@
         <div class="flex items-center justify-between pb-12 md:pb-16">
           <RouterLink
             to="/legal"
-            class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-gray-400/80 hover:text-gray-200"
+            class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-gray-200/80 hover:text-gray-200"
           >
             <icon-lucide-arrow-left class="mr-2" />
             Back
@@ -31,7 +31,7 @@
           <span class="flex items-center text-sm">
             <RouterLink
               :to="{ path: '', hash: '#newsletter' }"
-              class="rounded transition text-gray-400/60 hover:text-gray-400/80"
+              class="rounded transition text-gray-400/60 hover:text-gray-200/80"
             >
               Subscribe to updates
             </RouterLink>
@@ -44,7 +44,7 @@
               href="https://twitter.com/hoppscotch_io"
               target="_blank"
               rel="noopener noreferrer"
-              class="rounded transition text-gray-400/60 hover:text-gray-400/80"
+              class="rounded transition text-gray-400/60 hover:text-gray-200/80"
             >
               <icon-lucide-twitter />
             </a>
@@ -54,7 +54,7 @@
                 content: copied ? 'Copied!' : 'Copy permalink',
                 theme: 'tooltip',
               }"
-              class="rounded transition text-gray-400/60 hover:text-gray-400/80"
+              class="rounded transition text-gray-400/60 hover:text-gray-200/80"
               @click="copy(source)"
             >
               <icon-lucide-copy v-if="!copied" />
@@ -85,7 +85,7 @@
               </span>
             </h3>
           </header>
-          <section class="max-w-2xl text-gray-400/80">
+          <section class="max-w-2xl text-gray-200/80">
             <p class="mt-4 mb-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.

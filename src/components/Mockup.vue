@@ -66,16 +66,17 @@
   const sendRequest = () => {
     sendingRequest.value = true
     setTimeout(() => {
-      showResponse.value = true
       sendingRequest.value = false
-    }, 1800)
+      showResponse.value = true
+    }, 500)
   }
 </script>
 
 <template>
   <div class="relative w-full p-2 overflow-hidden">
     <div
-      class="flex flex-col items-start flex-1 overflow-y-auto text-xs border justify-staitems-start brightness-110 overscroll-auto h-80 rounded-2xl border-gray-500/25 bg-gradient-to-b from-gray-800/10 to-gray-600/10"
+      class="flex flex-col items-start flex-1 overflow-y-auto text-xs border border-gray-800 transition-all duration-500 justify-staitems-start brightness-110 overscroll-auto rounded-2xl bg-gradient-to-b from-gray-800/10 to-gray-400/10"
+      :class="sendingRequest || showResponse ? 'h-96' : 'h-80'"
     >
       <div class="sticky top-0 flex flex-col w-full">
         <div class="flex w-full p-4 gap-4">
@@ -136,7 +137,7 @@
           class="w-4 h-4 text-gray-500 animate-spin"
         />
         <template v-else-if="showResponse">
-          <div class="flex flex-col w-full h-full">
+          <div v-motion-fade-visible-once class="flex flex-col w-full h-full">
             <div class="flex w-full p-4 text-gray-600 gap-4">
               <span> Status: 200 OK </span>
               <span> Time: {{ responseTime() }}ms </span>

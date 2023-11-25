@@ -94,7 +94,7 @@
                 alt="Liyas Thomas"
               />
               <div class="text-sm">
-                <span class="transition text-gray-400/80"> Liyas Thomas </span>
+                <span class="transition text-gray-200/80"> Liyas Thomas </span>
               </div>
             </div>
           </header>
@@ -107,7 +107,7 @@
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-gray-400/80">
+          <section class="max-w-2xl text-gray-200/80">
             <p class="mt-4 mb-8">
               We are thrilled to reveal our Hoppscotch August Release, version
               2023.8.0! Our dedicated team has been working tirelessly to bring
@@ -136,7 +136,7 @@
               alt="News"
             />
           </section>
-          <section class="max-w-2xl text-gray-400/80">
+          <section class="max-w-2xl text-gray-200/80">
             <p class="mt-4 mb-8">
               But that's not all – the Hoppscotch Self-Host Enterprise edition
               comes with a treasure trove of additional features including:
@@ -174,7 +174,7 @@
               alt="News"
             />
           </section>
-          <section class="max-w-2xl text-gray-400/80">
+          <section class="max-w-2xl text-gray-200/80">
             <h4 class="mb-4">Spotlight — New way to navigate Hoppscotch</h4>
             <p class="mt-4 mb-8">
               Introducing Spotlight Search, a new way to interact with

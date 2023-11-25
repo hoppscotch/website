@@ -358,10 +358,10 @@
             <h4 class="mt-8">Colors</h4>
             <p class="max-w-4xl mt-2 text-gray-400/80">
               Hoppscotch's color palette is inspired by the colors of the
-              internet. The primary color is Hoppscotch gray, which should be
+              internet. The primary color is Hoppscotch slate, which should be
               used sparingly for emphasis. The secondary color is Hoppscotch
               Slate, which is used for backgrounds and borders. The tertiary
-              color is Hoppscotch gray, which is used for text and icons.
+              color is Hoppscotch slate, which is used for text and icons.
             </p>
             <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3">
               <div class="flex flex-col">
