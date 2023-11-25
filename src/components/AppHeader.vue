@@ -108,7 +108,7 @@
               role="img"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
-              class="w-4 h-4 mr-2 fill-current"
+              class="w-5 h-5 mr-2 fill-current"
             >
               <title>GitHub</title>
               <path
