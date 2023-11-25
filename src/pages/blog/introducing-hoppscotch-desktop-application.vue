@@ -134,7 +134,7 @@
             <p class="mt-4 mb-8">
               <RouterLink
                 to="/download"
-                class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition gray-500ite/50 rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
+                class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
               >
                 Download Hoppscotch Desktop App
               </RouterLink>

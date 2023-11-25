@@ -1,42 +1,42 @@
 <template>
   <div class="flex flex-col flex-nowrap">
     <RouterLink
-      class="flex items-center px-3 py-2 text-sm rounded-lg transition text-gray-400/80 hover:text-gray-200 hover:bg-gray-800/50"
+      class="flex items-center px-3 py-2 text-sm text-gray-400 rounded-lg transition hover:text-gray-200 hover:bg-gray-800/50"
       to="/download"
     >
       <icon-lucide-download class="mr-3" />
       Download
     </RouterLink>
     <RouterLink
-      class="flex items-center px-3 py-2 text-sm rounded-lg transition text-gray-400/80 hover:text-gray-200 hover:bg-gray-800/50"
+      class="flex items-center px-3 py-2 text-sm text-gray-400 rounded-lg transition hover:text-gray-200 hover:bg-gray-800/50"
       to="/blog"
     >
       <icon-lucide-newspaper class="mr-3" />
       Blog
     </RouterLink>
     <RouterLink
-      class="flex items-center px-3 py-2 text-sm rounded-lg transition text-gray-400/80 hover:text-gray-200 hover:bg-gray-800/50"
+      class="flex items-center px-3 py-2 text-sm text-gray-400 rounded-lg transition hover:text-gray-200 hover:bg-gray-800/50"
       to="/changelog"
     >
       <icon-lucide-scroll-text class="mr-3" />
       Changelog
     </RouterLink>
     <RouterLink
-      class="flex items-center px-3 py-2 text-sm rounded-lg transition text-gray-400/80 hover:text-gray-200 hover:bg-gray-800/50"
+      class="flex items-center px-3 py-2 text-sm text-gray-400 rounded-lg transition hover:text-gray-200 hover:bg-gray-800/50"
       to="/pricing"
     >
       <icon-lucide-gem class="mr-3" />
       Pricing
     </RouterLink>
     <!-- <RouterLink
-      class="flex items-center px-3 py-2 text-sm rounded-lg transition text-gray-400/80 hover:text-gray-200 hover:bg-gray-800/50"
+      class="flex items-center px-3 py-2 text-sm text-gray-400 rounded-lg transition hover:text-gray-200 hover:bg-gray-800/50"
       to="/careers"
     >
       <icon-lucide-briefcase class="mr-3" />
       Careers
     </RouterLink> -->
     <a
-      class="flex items-center px-3 py-2 text-sm rounded-lg transition text-gray-400/80 hover:text-gray-200 hover:bg-gray-800/50"
+      class="flex items-center px-3 py-2 text-sm text-gray-400 rounded-lg transition hover:text-gray-200 hover:bg-gray-800/50"
       href="https://docs.hoppscotch.io"
       target="_blank"
       rel="noopener noreferrer"
@@ -157,28 +157,28 @@
       </div>
       <div class="flex-1 grid grid-cols-2">
         <RouterLink
-          class="flex items-center px-3 py-2 text-sm rounded-lg transition text-gray-400/80 hover:text-gray-200 hover:bg-gray-800/50"
+          class="flex items-center px-3 py-2 text-sm text-gray-400 rounded-lg transition hover:text-gray-200 hover:bg-gray-800/50"
           to="/features"
         >
           <icon-lucide-sparkles class="mr-3" />
           Features
         </RouterLink>
         <RouterLink
-          class="flex items-center px-3 py-2 text-sm rounded-lg transition text-gray-400/80 hover:text-gray-200 hover:bg-gray-800/50"
+          class="flex items-center px-3 py-2 text-sm text-gray-400 rounded-lg transition hover:text-gray-200 hover:bg-gray-800/50"
           to="/download"
         >
           <icon-lucide-download class="mr-3" />
           Download
         </RouterLink>
         <RouterLink
-          class="flex items-center px-3 py-2 text-sm rounded-lg transition text-gray-400/80 hover:text-gray-200 hover:bg-gray-800/50"
+          class="flex items-center px-3 py-2 text-sm text-gray-400 rounded-lg transition hover:text-gray-200 hover:bg-gray-800/50"
           to="/pricing"
         >
           <icon-lucide-gem class="mr-3" />
           Pricing
         </RouterLink>
         <RouterLink
-          class="flex items-center px-3 py-2 text-sm rounded-lg transition text-gray-400/80 hover:text-gray-200 hover:bg-gray-800/50"
+          class="flex items-center px-3 py-2 text-sm text-gray-400 rounded-lg transition hover:text-gray-200 hover:bg-gray-800/50"
           to="/changelog"
         >
           <icon-lucide-scroll-text class="mr-3" />
@@ -374,28 +374,28 @@
       class="relative flex flex-col pb-4 mb-4 after:-z-10 after:absolute after:h-px after:inset-x-0 after:bottom-0 after:bg-gradient-to-r after:from-transparent after:via-gray-500/20"
     >
       <RouterLink
-        class="flex items-center px-3 py-2 text-sm rounded-lg transition text-gray-400/80 hover:text-gray-200 hover:bg-gray-800/50"
+        class="flex items-center px-3 py-2 text-sm text-gray-400 rounded-lg transition hover:text-gray-200 hover:bg-gray-800/50"
         to="/about"
       >
         <icon-lucide-user-circle class="mr-3" />
         About
       </RouterLink>
       <RouterLink
-        class="flex items-center px-3 py-2 text-sm rounded-lg transition text-gray-400/80 hover:text-gray-200 hover:bg-gray-800/50"
+        class="flex items-center px-3 py-2 text-sm text-gray-400 rounded-lg transition hover:text-gray-200 hover:bg-gray-800/50"
         to="/blog"
       >
         <icon-lucide-file-text class="mr-3" />
         Blog
       </RouterLink>
       <RouterLink
-        class="flex items-center px-3 py-2 text-sm rounded-lg transition text-gray-400/80 hover:text-gray-200 hover:bg-gray-800/50"
+        class="flex items-center px-3 py-2 text-sm text-gray-400 rounded-lg transition hover:text-gray-200 hover:bg-gray-800/50"
         to="/careers"
       >
         <icon-lucide-briefcase class="mr-3" />
         Careers
       </RouterLink>
       <RouterLink
-        class="flex items-center px-3 py-2 text-sm rounded-lg transition text-gray-400/80 hover:text-gray-200 hover:bg-gray-800/50"
+        class="flex items-center px-3 py-2 text-sm text-gray-400 rounded-lg transition hover:text-gray-200 hover:bg-gray-800/50"
         to="/contact"
       >
         <icon-lucide-mail class="mr-3" />
@@ -410,7 +410,7 @@
     </RouterLink>
     <div class="flex flex-col pb-4 mb-4">
       <a
-        class="flex items-center px-3 py-2 text-sm rounded-lg transition text-gray-400/80 hover:text-gray-200 hover:bg-gray-800/50"
+        class="flex items-center px-3 py-2 text-sm text-gray-400 rounded-lg transition hover:text-gray-200 hover:bg-gray-800/50"
         href="https://docs.hoppscotch.io"
         target="_blank"
         rel="noopener noreferrer"
@@ -419,21 +419,21 @@
         Documentation
       </a>
       <RouterLink
-        class="flex items-center px-3 py-2 text-sm rounded-lg transition text-gray-400/80 hover:text-gray-200 hover:bg-gray-800/50"
+        class="flex items-center px-3 py-2 text-sm text-gray-400 rounded-lg transition hover:text-gray-200 hover:bg-gray-800/50"
         to="/community"
       >
         <icon-lucide-heart class="mr-3" />
         Community
       </RouterLink>
       <RouterLink
-        class="flex items-center px-3 py-2 text-sm rounded-lg transition text-gray-400/80 hover:text-gray-200 hover:bg-gray-800/50"
+        class="flex items-center px-3 py-2 text-sm text-gray-400 rounded-lg transition hover:text-gray-200 hover:bg-gray-800/50"
         to="/brand"
       >
         <icon-lucide-palette class="mr-3" />
         Brand
       </RouterLink>
       <a
-        class="flex items-center px-3 py-2 text-sm rounded-lg transition text-gray-400/80 hover:text-gray-200 hover:bg-gray-800/50"
+        class="flex items-center px-3 py-2 text-sm text-gray-400 rounded-lg transition hover:text-gray-200 hover:bg-gray-800/50"
         href="https://shop.hoppscotch.com"
         target="_blank"
         rel="noopener noreferrer"

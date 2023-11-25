@@ -168,14 +168,14 @@
                 <div class="flex flex-col items-stretch gap-4">
                   <a
                     href="https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_mac_aarch64.dmg"
-                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition gray-500ite/50 rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
                     target="_blank"
                   >
                     Download for Mac &nbsp; ~ &nbsp; Apple Silicon
                   </a>
                   <a
                     href="https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_mac_x64.dmg"
-                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition gray-500ite/50 rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
                     target="_blank"
                   >
                     Download for Mac &nbsp; ~ &nbsp; Intel
@@ -195,7 +195,7 @@
                 <div class="flex flex-col items-stretch gap-4">
                   <a
                     href="https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_win_x64.msi"
-                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition gray-500ite/50 rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
                     target="_blank"
                   >
                     Download for Windows
@@ -215,14 +215,14 @@
                 <div class="flex flex-col items-stretch gap-4">
                   <a
                     href="https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_linux_x64.deb"
-                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition gray-500ite/50 rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
                     target="_blank"
                   >
                     Download for Linux &nbsp; ~ &nbsp; .deb
                   </a>
                   <a
                     href="https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_linux_x64.AppImage"
-                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition gray-500ite/50 rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
                     target="_blank"
                   >
                     Download for Linux &nbsp; ~ &nbsp; .AppImage
@@ -242,7 +242,7 @@
                 <div class="flex flex-col items-stretch gap-4">
                   <a
                     href="https://hoppscotch.io"
-                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition gray-500ite/50 rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
                     target="_blank"
                   >
                     Open Web App
@@ -262,7 +262,7 @@
                 <div class="flex flex-col items-stretch gap-4">
                   <a
                     href="https://docs.hoppscotch.io/documentation/clients/cli"
-                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition gray-500ite/50 rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
                     target="_blank"
                   >
                     Install CLI

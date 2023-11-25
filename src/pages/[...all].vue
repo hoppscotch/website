@@ -18,7 +18,7 @@
       The page you are looking for does not exist.
     </h5>
     <RouterLink
-      class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition gray-500ite/50 rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
+      class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
       to="/"
     >
       Home

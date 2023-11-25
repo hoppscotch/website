@@ -46,7 +46,7 @@
         type="submit"
         value="Subscribe"
         name="subscribe"
-        class="relative inline-flex items-center justify-center px-3 py-2 text-sm border cursor-pointer transition gray-500ite/50 rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
+        class="relative inline-flex items-center justify-center px-3 py-2 text-sm border cursor-pointer transition rounded-xl bg-gray-500/10 border-gray-500/50 hover:border-gray-500/80"
       />
     </form>
   </div>

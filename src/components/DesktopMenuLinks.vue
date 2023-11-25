@@ -11,7 +11,7 @@
     scrollHeight.value = y
     if (y > 8) {
       apply({
-        width: "522px",
+        width: "522.2px",
         // width: "495px",
       })
     } else {
@@ -51,35 +51,35 @@
     <div class="relative flex items-center group/nav">
       <RouterLink
         to="/download"
-        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-gray-200/60 hover:text-gray-100/80"
+        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm text-gray-400 border border-transparent rounded-full transition hover:text-gray-100/80"
         @mouseenter="onTabMouseEnter"
       >
         Download
       </RouterLink>
       <RouterLink
         to="/blog"
-        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-gray-200/60 hover:text-gray-100/80"
+        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm text-gray-400 border border-transparent rounded-full transition hover:text-gray-100/80"
         @mouseenter="onTabMouseEnter"
       >
         Blog
       </RouterLink>
       <RouterLink
         to="/changelog"
-        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-gray-200/60 hover:text-gray-100/80"
+        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm text-gray-400 border border-transparent rounded-full transition hover:text-gray-100/80"
         @mouseenter="onTabMouseEnter"
       >
         Changelog
       </RouterLink>
       <RouterLink
         to="/pricing"
-        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-gray-200/60 hover:text-gray-100/80"
+        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm text-gray-400 border border-transparent rounded-full transition hover:text-gray-100/80"
         @mouseenter="onTabMouseEnter"
       >
         Pricing
       </RouterLink>
       <!-- <RouterLink
         to="/careers"
-        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-gray-200/60 hover:text-gray-100/80"
+        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm text-gray-400 border border-transparent rounded-full transition hover:text-gray-100/80"
         @mouseenter="onTabMouseEnter"
       >
         Careers
@@ -87,7 +87,7 @@
       <a
         href="https://docs.hoppscotch.io"
         target="_blank"
-        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-gray-200/60 hover:text-gray-100/80"
+        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm text-gray-400 border border-transparent rounded-full transition hover:text-gray-100/80"
         @mouseenter="onTabMouseEnter"
       >
         Docs
@@ -107,7 +107,7 @@
     <div v-if="scrollHeight > 8" class="flex overflow-hidden rounded-full">
       <a
         v-motion-slide-right
-        class="flex items-center justify-center flex-shrink-0 px-4 py-2 text-sm border border-gray-600 rounded-full transition text-gray-50 backdrop-blur-md bg-gradient-to-r from-gray-600/30 via-gray-700/30 to-gray-800/30 hover:from-gray-600/50 hover:via-gray-700/50 hover:to-gray-800/50"
+        class="flex items-center justify-center flex-shrink-0 px-4 py-2 text-sm border border-gray-700 rounded-full transition text-gray-50 backdrop-blur-md bg-gradient-to-r from-gray-600/30 via-gray-700/30 to-gray-800/30 hover:from-gray-600/50 hover:via-gray-700/50 hover:to-gray-800/50"
         href="https://github.com/hoppscotch/hoppscotch"
         target="_blank"
         rel="noopener noreferrer"
@@ -124,13 +124,13 @@
       <tippy interactive theme="popover" class="rounded-full">
         <RouterLink
           to="/products"
-          class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-gray-200/60 hover:text-gray-100/80"
+          class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm text-gray-400 border border-transparent rounded-full transition hover:text-gray-100/80"
           @mouseenter="onTabMouseEnter"
         >
           Products
         </RouterLink>
         <template #content="{ hide }">
-          <div class="flex divide-x w-max divide-gray-800">
+          <div class="flex divide-x divide-gray-800 w-max">
             <div class="flex flex-col p-2">
               <div
                 class="mx-3 my-2 font-semibold tracking-tight text-gray-400"
@@ -279,7 +279,7 @@
       <tippy interactive theme="popover" class="rounded-full">
         <RouterLink
           to="/solutions"
-          class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-gray-200/60 hover:text-gray-100/80"
+          class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm text-gray-400 border border-transparent rounded-full transition hover:text-gray-100/80"
           @mouseenter="onTabMouseEnter"
         >
           Solutions
@@ -475,7 +475,7 @@
       <tippy interactive theme="popover" class="rounded-full">
         <RouterLink
           to="/company"
-          class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-gray-200/60 hover:text-gray-100/80"
+          class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm text-gray-400 border border-transparent rounded-full transition hover:text-gray-100/80"
           @mouseenter="onTabMouseEnter"
         >
           Company
@@ -520,7 +520,7 @@
       <tippy interactive theme="popover" class="rounded-full">
         <RouterLink
           to="/resources"
-          class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full transition text-gray-200/60 hover:text-gray-100/80"
+          class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm text-gray-400 border border-transparent rounded-full transition hover:text-gray-100/80"
           @mouseenter="onTabMouseEnter"
         >
           Resources
@@ -581,7 +581,7 @@
     <div v-if="scrollHeight > 8" class="flex overflow-hidden rounded-full">
       <a
         v-motion-slide-right
-        class="flex items-center justify-center flex-shrink-0 px-4 py-2 text-sm border border-gray-600 rounded-full transition text-gray-50 backdrop-blur-md bg-gradient-to-r from-gray-600/30 via-gray-700/30 to-gray-800/30 hover:from-gray-600/50 hover:via-gray-700/50 hover:to-gray-800/50"
+        class="flex items-center justify-center flex-shrink-0 px-4 py-2 text-sm border border-gray-700 rounded-full transition text-gray-50 backdrop-blur-md bg-gradient-to-r from-gray-600/30 via-gray-700/30 to-gray-800/30 hover:from-gray-600/50 hover:via-gray-700/50 hover:to-gray-800/50"
         href="https://github.com/hoppscotch/hoppscotch"
         target="_blank"
         rel="noopener noreferrer"
