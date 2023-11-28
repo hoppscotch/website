@@ -16,12 +16,10 @@ import "./styles/style.scss"
 
 NProgress.configure({ showSpinner: false })
 
-const routes = setupLayouts(generatedRoutes)
-
 export const createApp = ViteSSG(
   App,
   {
-    routes,
+    routes: setupLayouts(generatedRoutes),
     base: import.meta.env.BASE_URL,
     scrollBehavior(to, _from, _savedPosition) {
       if (to.hash) {

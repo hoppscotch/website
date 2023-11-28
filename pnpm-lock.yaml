@@ -56,8 +56,8 @@ dependencies:
 
 devDependencies:
   "@iconify-json/lucide":
-    specifier: ^1.1.141
-    version: 1.1.141
+    specifier: ^1.1.142
+    version: 1.1.142
   "@types/node":
     specifier: ^20.10.0
     version: 20.10.0
@@ -125,8 +125,8 @@ devDependencies:
     specifier: ^5.3.2
     version: 5.3.2
   unplugin-auto-import:
-    specifier: ^0.16.7
-    version: 0.16.7(@vueuse/core@10.6.1)
+    specifier: ^0.17.1
+    version: 0.17.1(@vueuse/core@10.6.1)
   unplugin-fonts:
     specifier: ^1.1.1
     version: 1.1.1(vite@4.5.0)
@@ -140,8 +140,8 @@ devDependencies:
     specifier: ^4.5.0
     version: 4.5.0(@types/node@20.10.0)(sass@1.69.5)
   vite-plugin-pages:
-    specifier: ^0.31.0
-    version: 0.31.0(vite@4.5.0)
+    specifier: ^0.32.0
+    version: 0.32.0(vite@4.5.0)
   vite-plugin-vue-layouts:
     specifier: ^0.8.0
     version: 0.8.0(vite@4.5.0)(vue-router@4.2.5)(vue@3.3.9)
@@ -874,10 +874,10 @@ packages:
       }
     dev: true
 
-  /@iconify-json/lucide@1.1.141:
+  /@iconify-json/lucide@1.1.142:
     resolution:
       {
-        integrity: sha512-sqVopjdB7m8JOnpZilQbLCM1sOq3snE2OEP2BnP1EIefAd6uhzBBrV7Zy6hkkvdHVKYmX4aVzOHF6enDFO7kHA==,
+        integrity: sha512-iV3I3FlLvwkr+FTZZCljPd9BEIR3SEDvURz24LQjXwuEoizpOSk7Pp27wsyaHlFjnDcetdTNa+lZ7Pgc6W8bgQ==,
       }
     dependencies:
       "@iconify/types": 2.0.0
@@ -2879,6 +2879,7 @@ packages:
         integrity: sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==,
       }
     engines: { node: ">=12" }
+    requiresBuild: true
 
   /escodegen@2.1.0:
     resolution:
@@ -6098,6 +6099,7 @@ packages:
       {
         integrity: sha512-vRUjqhyM/YWYzT+jsMk6tnl3NkY4A4soJ8uyh3O6Um+JXEQL9ozUCe7pqrxn3CSKokw0hw3nFStfskzpgYwR0g==,
       }
+    requiresBuild: true
 
   /section-matter@1.0.0:
     resolution:
@@ -6454,6 +6456,7 @@ packages:
       {
         integrity: sha512-PugKzOsyXpArk0yWmUwqOZecSO0GH0bPoctLcqNDH9J04pVW3lflYE0ujElBGTloevcxF5MofAOZ7C5l2b+wLg==,
       }
+    requiresBuild: true
     dependencies:
       acorn: 8.11.2
 
@@ -7057,10 +7060,10 @@ packages:
       - rollup
     dev: false
 
-  /unplugin-auto-import@0.16.7(@vueuse/core@10.6.1):
+  /unplugin-auto-import@0.17.1(@vueuse/core@10.6.1):
     resolution:
       {
-        integrity: sha512-w7XmnRlchq6YUFJVFGSvG1T/6j8GrdYN6Em9Wf0Ye+HXgD/22kont+WnuCAA0UaUoxtuvRR1u/mXKy63g/hfqQ==,
+        integrity: sha512-QvdJKtFK0COSuRXzVnwjG3ir870zVhdMg6O8GKG3UO/O5W4fmJm5h71QvzI7Gp8Sx0qfCvC3f+2v0Vm489fnqQ==,
       }
     engines: { node: ">=14" }
     peerDependencies:
@@ -7298,14 +7301,14 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-pages@0.31.0(vite@4.5.0):
+  /vite-plugin-pages@0.32.0(vite@4.5.0):
     resolution:
       {
-        integrity: sha512-fw3onBfVTXQI7rOzAbSZhmfwvk50+3qNnGZpERjmD93c8nEjrGLyd53eFXYMxcJV4KA1vzi4qIHt2+6tS4dEMw==,
+        integrity: sha512-OxS3n0zUo5wsfgNCAuw2FiG/KD1ipgQV+2Flst4RyeI2iPv+m0YueVq+nx41k5NOWJj/zhqEas6I0b7HXveXjA==,
       }
     peerDependencies:
       "@vue/compiler-sfc": ^2.7.0 || ^3.0.0
-      vite: ^2.0.0 || ^3.0.0-0 || ^4.0.0
+      vite: ^2.0.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0
     peerDependenciesMeta:
       "@vue/compiler-sfc":
         optional: true
@@ -7316,7 +7319,7 @@ packages:
       extract-comments: 1.1.0
       fast-glob: 3.3.2
       json5: 2.2.3
-      local-pkg: 0.4.3
+      local-pkg: 0.5.0
       picocolors: 1.0.0
       vite: 4.5.0(@types/node@20.10.0)(sass@1.69.5)
       yaml: 2.3.4

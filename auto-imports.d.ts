@@ -330,6 +330,7 @@ declare global {
     VNode,
     WritableComputedRef,
   } from "vue"
+  import("vue")
 }
 // for vue template auto import
 import { UnwrapRef } from "vue"

@@ -25,9 +25,10 @@
       price: "Coming soon!",
       unit: "",
       description:
-        "Crafted for teams and enterprises seeking an unparalleled API testing experience. Includes everything in the free edition, plus...",
+        "Crafted for teams and enterprises seeking an unparalleled API testing experience.",
       features: [
-        "Single Sign-On via SAML",
+        "Everything in free plan",
+        "SAML-based Single-Sign-On",
         "Identity and access management",
         "Audit logs",
         "Dedicated support",
@@ -62,9 +63,10 @@
       price: "$19",
       unit: "/ user / month",
       description:
-        "Crafted for teams and enterprises seeking an unparalleled API testing experience. Includes everything in the community edition, plus...",
+        "Crafted for teams and enterprises seeking an unparalleled, privacy-friendly API testing experience.",
       features: [
-        "Single Sign-On via SAML",
+        "Everything in community edition",
+        "SAML-based Single-Sign-On",
         "Identity and access management",
         "Audit logs",
         "Dedicated support",

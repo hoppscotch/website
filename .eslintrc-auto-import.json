@@ -318,6 +318,8 @@
     "ExtractDefaultPropTypes": true,
     "ExtractPropTypes": true,
     "ExtractPublicPropTypes": true,
-    "useClipboardItems": true
+    "useClipboardItems": true,
+    "defineLoader": true,
+    "definePage": true
   }
 }
