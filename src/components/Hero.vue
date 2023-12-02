@@ -79,7 +79,12 @@
         </div>
       </div>
       <!-- Hero image -->
-      <div class="flex flex-col items-center max-w-4xl mx-auto text-center">
+      <div
+        class="relative flex flex-col items-center max-w-4xl mx-auto text-center"
+      >
+        <span
+          class="absolute -top-4 h-1/4 rounded-3xl bg-gray-600/20 -inset-x-1/4 blur-3xl"
+        ></span>
         <div class="relative xl:-mx-36">
           <!-- Backdrop image -->
           <div
