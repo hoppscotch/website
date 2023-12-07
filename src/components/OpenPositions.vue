@@ -52,27 +52,6 @@
               security of our systems.
             </div>
           </div>
-          <!-- Job -->
-          <div class="py-4">
-            <div class="mb-2">
-              <a
-                class="inline-flex items-center justify-between text-xl font-semibold tracking-tight text-gray-200 transition hover:text-gray-100"
-                href="https://app.pyjamahr.com/careers?company=Hoppscotch&job_id=54930&company_uuid=8470DC1BAA"
-                target="_blank"
-              >
-                <span>Frontend Engineer (Senior)</span>
-                <icon-lucide-arrow-right class="ml-2" />
-              </a>
-            </div>
-            <div class="text-md text-gray-400/80">
-              You will be tasked with planning and building performant, robust
-              and highly interactive frontend systems for the main Hoppscotch
-              client. You will have to collaborate with our team and build
-              smooth and intuitive user experiences along with the internal
-              subsystems to support it for developers such as yourself and our
-              millions of users worldwide.
-            </div>
-          </div>
         </div>
       </div>
     </div>
