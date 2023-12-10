@@ -1,11 +1,11 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
   const videoModalOpen = ref(false)
   const video = ref<HTMLVideoElement | null>(null)
 
   watch(videoModalOpen, () => {
     videoModalOpen.value ? video.value?.play() : video.value?.pause()
   })
-</script>
+</script> -->
 
 <template>
   <section>
@@ -131,7 +131,7 @@
         </div>
       </div>
     </div>
-    <Modal
+    <!-- <Modal
       id="video-modal"
       aria-label="modal-headline"
       :modal-open="videoModalOpen"
@@ -154,6 +154,6 @@
           </video>
         </div>
       </div>
-    </Modal>
+    </Modal> -->
   </section>
 </template>
