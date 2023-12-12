@@ -11,7 +11,7 @@
         <!-- Job list -->
         <div class="my-2 divide-y divide-gray-900">
           <!-- Job -->
-          <div class="py-4">
+          <!-- <div class="py-4">
             <div class="mb-2">
               <a
                 class="inline-flex items-center justify-between text-xl font-semibold tracking-tight text-gray-200 transition hover:text-gray-100"
@@ -31,25 +31,18 @@
               teams is essential to ensure the reliability, security, and
               extensibility of our self-hosted offerings.
             </div>
-          </div>
-          <!-- Job -->
+          </div> -->
+          <!-- No Job -->
           <div class="py-4">
             <div class="mb-2">
-              <a
+              <span
                 class="inline-flex items-center justify-between text-xl font-semibold tracking-tight text-gray-200 transition hover:text-gray-100"
-                href="https://app.pyjamahr.com/careers?company=Hoppscotch&job_id=55362&company_uuid=8470DC1BAA"
-                target="_blank"
               >
-                <span>Backend Engineer (Infrastructure)</span>
-                <icon-lucide-arrow-right class="ml-2" />
-              </a>
+                <span>No open positions</span>
+              </span>
             </div>
             <div class="text-md text-gray-400/80">
-              You will be responsible for designing, building and maintaining
-              core services and the infrastructure that supports our software
-              development, deployment, and operations. You will collaborate with
-              cross-functional teams to ensure the scalability, reliability, and
-              security of our systems.
+              We are not hiring at the moment. Please check back later.
             </div>
           </div>
         </div>
