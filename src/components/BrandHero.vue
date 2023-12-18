@@ -32,31 +32,31 @@
           >
             Brand
           </h2>
-          <p class="text-gray-400/80">Our brand assets and guidelines.</p>
+          <p class="text-zinc-400/80">Our brand assets and guidelines.</p>
           <p class="mt-4 text-sm">
             <RouterLink
               :to="{ path: '', hash: '#newsletter' }"
-              class="rounded transition text-gray-400/60 hover:text-gray-400/80"
+              class="rounded transition text-zinc-400/60 hover:text-zinc-400/80"
             >
               Subscribe to updates
             </RouterLink>
-            <span class="mx-4 text-gray-400/20">|</span>
+            <span class="mx-4 text-zinc-400/20">|</span>
             <a
               href="https://twitter.com/hoppscotch_io"
               target="_blank"
               rel="noopener noreferrer"
-              class="rounded transition text-gray-400/60 hover:text-gray-400/80"
+              class="rounded transition text-zinc-400/60 hover:text-zinc-400/80"
               >Follow us on Twitter</a
             >
           </p>
           <p class="mt-8 text-sm">
             <RouterLink
-              class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full transition text-gray-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+              class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full transition text-zinc-950 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
               to="/download"
             >
               Download Brand Assets
               <span
-                class="text-gray-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                class="text-zinc-500 group-hover:translate-x-0.5 transition-transform ml-1"
               >
                 <icon-lucide-arrow-right />
               </span>
@@ -67,7 +67,7 @@
           <!-- Naming -->
           <div>
             <h4 class="mt-8">Naming</h4>
-            <p class="max-w-4xl mt-2 text-gray-400/80">
+            <p class="max-w-4xl mt-2 text-zinc-400/80">
               "Hoppscotch" is a single word, always spelled with a capital "H".
               It is the brand name of both our company and our application (not
               Hoppscotch app"). When referring to dedicated releases from
@@ -78,7 +78,7 @@
           <!-- Usage -->
           <div>
             <h4 class="mt-8">Usage</h4>
-            <p class="max-w-4xl mt-2 text-gray-400/80">
+            <p class="max-w-4xl mt-2 text-zinc-400/80">
               Provide plenty of space around Hoppscotch assets. Make them big or
               make them small, but give them room to breathe. They shouldn't
               feel cramped or cluttered.
@@ -87,7 +87,7 @@
           <!-- Wordmark -->
           <div>
             <h4 class="mt-8">Wordmark</h4>
-            <p class="max-w-4xl mt-2 text-gray-400/80">
+            <p class="max-w-4xl mt-2 text-zinc-400/80">
               The Hoppscotch wordmark should be used in all references to
               Hoppscotch as space allows. Monochrome usage is preferred with the
               brand colors below.
@@ -95,7 +95,7 @@
             <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3">
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 bg-gray-900 border border-gray-500/20 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-zinc-900 border-zinc-500/20 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -105,7 +105,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-gray-500/20 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-zinc-500/20 rounded-b-xl"
                 >
                   Wordmark Primary
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -113,7 +113,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border border-gray-500/20 bg-gray-950 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border border-zinc-500/20 bg-zinc-950 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -123,7 +123,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-gray-500/20 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-zinc-500/20 rounded-b-xl"
                 >
                   Wordmark Primary Light
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -131,7 +131,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 bg-white border border-gray-500/20 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 bg-white border border-zinc-500/20 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -141,7 +141,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-gray-500/20 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-zinc-500/20 rounded-b-xl"
                 >
                   Wordmark Primary Dark
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -149,7 +149,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 bg-gray-900 border border-gray-500/20 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-zinc-900 border-zinc-500/20 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -159,7 +159,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-gray-500/20 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-zinc-500/20 rounded-b-xl"
                 >
                   Wordmark Monochrome
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -167,7 +167,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border border-gray-500/20 bg-gray-950 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border border-zinc-500/20 bg-zinc-950 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -177,7 +177,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-gray-500/20 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-zinc-500/20 rounded-b-xl"
                 >
                   Wordmark Monochrome Light
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -185,7 +185,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 bg-white border border-gray-500/20 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 bg-white border border-zinc-500/20 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -195,7 +195,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-gray-500/20 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-zinc-500/20 rounded-b-xl"
                 >
                   Wordmark Monochrome Dark
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -206,7 +206,7 @@
           <!-- Logo -->
           <div>
             <h4 class="mt-8">Logo</h4>
-            <p class="max-w-4xl mt-2 text-gray-400/80">
+            <p class="max-w-4xl mt-2 text-zinc-400/80">
               For tight layouts or logo-only grids, the Hoppscotch logomark is a
               concise way to refer to Hoppscotch. Use with good judgment for
               your audience, as the Hoppscotch wordmark has stronger brand
@@ -215,7 +215,7 @@
             <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3">
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 bg-gray-900 border border-gray-500/20 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-zinc-900 border-zinc-500/20 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -225,7 +225,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-gray-500/20 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-zinc-500/20 rounded-b-xl"
                 >
                   Logo Primary
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -233,7 +233,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border border-gray-500/20 bg-gray-950 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border border-zinc-500/20 bg-zinc-950 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -243,7 +243,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-gray-500/20 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-zinc-500/20 rounded-b-xl"
                 >
                   Logo Primary Light
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -251,7 +251,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 bg-white border border-gray-500/20 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 bg-white border border-zinc-500/20 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -261,7 +261,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-gray-500/20 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-zinc-500/20 rounded-b-xl"
                 >
                   Logo Primary Dark
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -269,7 +269,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 bg-gray-900 border border-gray-500/20 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-zinc-900 border-zinc-500/20 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -279,7 +279,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-gray-500/20 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-zinc-500/20 rounded-b-xl"
                 >
                   Logo Monochrome
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -287,7 +287,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border border-gray-500/20 bg-gray-950 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border border-zinc-500/20 bg-zinc-950 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -297,7 +297,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-gray-500/20 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-zinc-500/20 rounded-b-xl"
                 >
                   Logo Monochrome Light
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -305,7 +305,7 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 bg-white border border-gray-500/20 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 bg-white border border-zinc-500/20 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -315,7 +315,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-gray-500/20 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-zinc-500/20 rounded-b-xl"
                 >
                   Logo Monochrome Dark
                   <icon-lucide-arrow-down-to-line />
@@ -326,7 +326,7 @@
           <!-- Icon -->
           <div>
             <h4 class="mt-8">Icon</h4>
-            <p class="max-w-4xl mt-2 text-gray-400/80">
+            <p class="max-w-4xl mt-2 text-zinc-400/80">
               When referring to Hoppscotch as a company, such as on social
               media, or where a "chip" design is required, it is acceptable to
               use this stylized icon with an appropriate corner radius.
@@ -334,7 +334,7 @@
             <div class="mt-8 grid grid-cols-1 gap-8">
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 bg-gray-900 border border-gray-500/20 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-zinc-900 border-zinc-500/20 rounded-t-xl"
                 >
                   <img
                     loading="lazy"
@@ -344,7 +344,7 @@
                   />
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-gray-500/20 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-zinc-500/20 rounded-b-xl"
                 >
                   Icon Primary
                   <button><icon-lucide-arrow-down-to-line /></button>
@@ -356,7 +356,7 @@
           <div>
             {{ copiedPrimaryColor }}
             <h4 class="mt-8">Colors</h4>
-            <p class="max-w-4xl mt-2 text-gray-400/80">
+            <p class="max-w-4xl mt-2 text-zinc-400/80">
               Hoppscotch's color palette is inspired by the colors of the
               internet. The primary color is Hoppscotch slate, which should be
               used sparingly for emphasis. The secondary color is Hoppscotch
@@ -366,12 +366,12 @@
             <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3">
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 bg-gray-500 border border-gray-500/20 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-zinc-500 border-zinc-500/20 rounded-t-xl"
                 >
                   #A855F7
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-gray-500/20 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-zinc-500/20 rounded-b-xl"
                 >
                   Primary color
                   <button
@@ -390,12 +390,12 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 border bg-gray-950 border-gray-500/20 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-zinc-950 border-zinc-500/20 rounded-t-xl"
                 >
                   #020617
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-gray-500/20 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-zinc-500/20 rounded-b-xl"
                 >
                   Secondary color
                   <button
@@ -414,12 +414,12 @@
               </div>
               <div class="flex flex-col">
                 <div
-                  class="flex items-center justify-center h-64 p-8 bg-gray-500 border border-gray-500/20 rounded-t-xl"
+                  class="flex items-center justify-center h-64 p-8 border bg-zinc-500 border-zinc-500/20 rounded-t-xl"
                 >
                   #64748B
                 </div>
                 <p
-                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-gray-500/20 rounded-b-xl"
+                  class="flex items-center justify-between px-4 py-3 text-sm border-b bg-black/10 border-x border-zinc-500/20 rounded-b-xl"
                 >
                   Tertiary color
                   <button
@@ -441,7 +441,7 @@
           <!-- Typography -->
           <div>
             <h4 class="mt-8">Typography</h4>
-            <p class="max-w-4xl mt-2 text-gray-400/80">
+            <p class="max-w-4xl mt-2 text-zinc-400/80">
               Hoppscotch uses the "Inter" typeface for all marketing and product
               design. Inter is a variable font, which means that it can be
               adjusted to a wide range of weights and widths. The font is
@@ -450,7 +450,7 @@
                 href="https://fonts.google.com/specimen/Inter"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-gray-500 transition hover:underline"
+                class="transition text-zinc-500 hover:underline"
                 >Google Fonts</a
               >.
             </p>
@@ -465,7 +465,7 @@
           <!-- Iconography -->
           <div>
             <h4 class="mt-8">Iconography</h4>
-            <p class="max-w-4xl mt-2 text-gray-400/80">
+            <p class="max-w-4xl mt-2 text-zinc-400/80">
               Hoppscotch uses the "Lucide" icon set for all marketing and
               product design. Lucide is a set of 1,000+ open-source icons that
               are free to use. The icon set is available for free on
@@ -473,7 +473,7 @@
                 href="https://lucide.dev"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-gray-500 transition hover:underline"
+                class="transition text-zinc-500 hover:underline"
                 >Lucide.dev</a
               >.
             </p>

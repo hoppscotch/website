@@ -9,12 +9,12 @@
           Open positions
         </h3>
         <!-- Job list -->
-        <div class="my-2 divide-y divide-gray-900">
+        <div class="my-2 divide-y divide-zinc-900">
           <!-- Job -->
           <!-- <div class="py-4">
             <div class="mb-2">
               <a
-                class="inline-flex items-center justify-between text-xl font-semibold tracking-tight text-gray-200 transition hover:text-gray-100"
+                class="inline-flex items-center justify-between text-xl font-semibold tracking-tight text-zinc-200 transition hover:text-zinc-100"
                 href="https://app.pyjamahr.com/careers?company=Hoppscotch&job_id=67074&company_uuid=8470DC1BAA"
                 target="_blank"
               >
@@ -22,7 +22,7 @@
                 <icon-lucide-arrow-right class="ml-2" />
               </a>
             </div>
-            <div class="text-md text-gray-400/80">
+            <div class="text-md text-zinc-400/80">
               You will be at the forefront of developing, optimizing, and
               maintaining the core functionality of our cutting-edge,
               self-hosted applications. This role requires a passion for
@@ -36,12 +36,12 @@
           <div class="py-4">
             <div class="mb-2">
               <span
-                class="inline-flex items-center justify-between text-xl font-semibold tracking-tight text-gray-200 transition hover:text-gray-100"
+                class="inline-flex items-center justify-between text-xl font-semibold tracking-tight text-zinc-200 transition hover:text-zinc-100"
               >
                 <span>No open positions</span>
               </span>
             </div>
-            <div class="text-md text-gray-400/80">
+            <div class="text-md text-zinc-400/80">
               We are not hiring at the moment. Please check back later.
             </div>
           </div>

@@ -108,19 +108,6 @@
 
 <template>
   <section class="relative">
-    <!-- Radial gradient -->
-    <div
-      class="absolute inset-0 overflow-hidden pointer-events-none -z-10"
-      aria-hidden="true"
-    >
-      <div
-        class="absolute top-0 flex items-center justify-center w-1/3 -translate-x-1/2 -translate-y-1/2 left-1/2 aspect-video"
-      >
-        <div
-          class="absolute inset-0 translate-z-0 bg-gray-500 rounded-full blur-[60px] opacity-10"
-        ></div>
-      </div>
-    </div>
     <div class="relative max-w-5xl px-4 mx-auto sm:px-6">
       <!-- Section header -->
       <div
@@ -138,7 +125,7 @@
         <!-- Section #1 -->
         <section>
           <div
-            class="relative bg-black/50 backdrop-blur-md rounded-2xl border border-gray-500/25 overflow-hidden transition-transform duration-700 ease-in-out z-[2]"
+            class="relative bg-black/50 backdrop-blur-md rounded-2xl border border-zinc-500/25 overflow-hidden transition-transform duration-700 ease-in-out z-[2]"
           >
             <div class="items-center justify-between md:flex">
               <div class="px-12 shrink-0 py-14 max-md:pb-0 md:pr-0">
@@ -161,21 +148,21 @@
                       />
                     </svg>
                   </div>
-                  <h1 class="mb-4 text-4xl font-extrabold text-gray-50">
+                  <h1 class="mb-4 text-4xl font-extrabold text-zinc-50">
                     The modern way to find high-quality devs
                   </h1>
-                  <p class="mb-6 text-gray-400">
+                  <p class="mb-6 text-zinc-400">
                     We're the world's largest marketplace of quality developers
                     for early-stage startups. Need a hand with development? Grab
                     one of ours!
                   </p>
                   <a
-                    class="text-sm font-medium inline-flex items-center justify-center px-3 py-1.5 border border-gray-500/25 rounded-lg tracking-normal transition text-gray-300 hover:text-gray-50 group"
+                    class="text-sm font-medium inline-flex items-center justify-center px-3 py-1.5 border border-zinc-500/25 rounded-lg tracking-normal transition text-zinc-300 hover:text-zinc-50 group"
                     href="#0"
                   >
                     Learn More
                     <span
-                      class="text-gray-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
+                      class="text-zinc-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
                       >-&gt;</span
                     >
                   </a>
@@ -190,7 +177,7 @@
               />
             </div>
             <div
-              class="absolute bottom-0 flex items-center text-xs font-medium text-gray-400 left-12 h-14"
+              class="absolute bottom-0 flex items-center text-xs font-medium text-zinc-400 left-12 h-14"
             >
               01
             </div>
@@ -199,7 +186,7 @@
         <!-- Section #2 -->
         <section>
           <div
-            class="relative bg-black/50 backdrop-blur-md rounded-2xl border border-gray-500/25 overflow-hidden transition-transform duration-700 ease-in-out z-[1]"
+            class="relative bg-black/50 backdrop-blur-md rounded-2xl border border-zinc-500/25 overflow-hidden transition-transform duration-700 ease-in-out z-[1]"
           >
             <div class="items-center justify-between md:flex">
               <div class="px-12 shrink-0 py-14 max-md:pb-0 md:pr-0">
@@ -222,21 +209,21 @@
                       />
                     </svg>
                   </div>
-                  <h1 class="mb-4 text-4xl font-extrabold text-gray-50">
+                  <h1 class="mb-4 text-4xl font-extrabold text-zinc-50">
                     The modern way to find high-quality devs
                   </h1>
-                  <p class="mb-6 text-gray-400">
+                  <p class="mb-6 text-zinc-400">
                     We're the world's largest marketplace of quality developers
                     for early-stage startups. Need a hand with development? Grab
                     one of ours!
                   </p>
                   <a
-                    class="text-sm font-medium inline-flex items-center justify-center px-3 py-1.5 border border-gray-500/25 rounded-lg tracking-normal transition text-gray-300 hover:text-gray-50 group"
+                    class="text-sm font-medium inline-flex items-center justify-center px-3 py-1.5 border border-zinc-500/25 rounded-lg tracking-normal transition text-zinc-300 hover:text-zinc-50 group"
                     href="#0"
                   >
                     Learn More
                     <span
-                      class="text-gray-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
+                      class="text-zinc-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
                       >-&gt;</span
                     >
                   </a>
@@ -251,7 +238,7 @@
               />
             </div>
             <div
-              class="absolute bottom-0 flex items-center text-xs font-medium text-gray-400 left-12 h-14"
+              class="absolute bottom-0 flex items-center text-xs font-medium text-zinc-400 left-12 h-14"
             >
               02
             </div>
@@ -260,7 +247,7 @@
         <!-- Section #3 -->
         <section>
           <div
-            class="relative z-0 overflow-hidden border border-gray-800 transition-transform duration-700 ease-in-out bg-black/50 backdrop-blur-md rounded-2xl"
+            class="relative z-0 overflow-hidden border border-zinc-800 transition-transform duration-700 ease-in-out bg-black/50 backdrop-blur-md rounded-2xl"
           >
             <div class="items-center justify-between md:flex">
               <div class="px-12 shrink-0 py-14 max-md:pb-0 md:pr-0">
@@ -283,21 +270,21 @@
                       />
                     </svg>
                   </div>
-                  <h1 class="mb-4 text-4xl font-extrabold text-gray-50">
+                  <h1 class="mb-4 text-4xl font-extrabold text-zinc-50">
                     The modern way to find high-quality devs
                   </h1>
-                  <p class="mb-6 text-gray-400">
+                  <p class="mb-6 text-zinc-400">
                     We're the world's largest marketplace of quality developers
                     for early-stage startups. Need a hand with development? Grab
                     one of ours!
                   </p>
                   <a
-                    class="text-sm font-medium inline-flex items-center justify-center px-3 py-1.5 border border-gray-500/25 rounded-lg tracking-normal transition text-gray-300 hover:text-gray-50 group"
+                    class="text-sm font-medium inline-flex items-center justify-center px-3 py-1.5 border border-zinc-500/25 rounded-lg tracking-normal transition text-zinc-300 hover:text-zinc-50 group"
                     href="#0"
                   >
                     Learn More
                     <span
-                      class="text-gray-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
+                      class="text-zinc-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
                       >-&gt;</span
                     >
                   </a>
@@ -312,7 +299,7 @@
               />
             </div>
             <div
-              class="absolute bottom-0 flex items-center text-xs font-medium text-gray-400 left-12 h-14"
+              class="absolute bottom-0 flex items-center text-xs font-medium text-zinc-400 left-12 h-14"
             >
               03
             </div>

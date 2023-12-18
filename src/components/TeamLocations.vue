@@ -15,7 +15,7 @@
             alt="Team 01"
           />
           <div
-            class="absolute inset-0 bg-gradient-to-r from-gray-950"
+            class="absolute inset-0 bg-gradient-to-r from-zinc-950"
             aria-hidden="true"
           ></div>
         </div>
@@ -39,7 +39,7 @@
             alt="Team 03"
           />
           <div
-            class="absolute inset-0 bg-gradient-to-l from-gray-950"
+            class="absolute inset-0 bg-gradient-to-l from-zinc-950"
             aria-hidden="true"
           ></div>
         </div>

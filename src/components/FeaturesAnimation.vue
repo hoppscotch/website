@@ -1,18 +1,5 @@
 <template>
   <section class="relative">
-    <!-- Radial gradient -->
-    <div
-      class="absolute inset-0 overflow-hidden pointer-events-none -z-10"
-      aria-hidden="true"
-    >
-      <div
-        class="absolute top-0 flex items-center justify-center w-1/3 -translate-x-1/2 -translate-y-1/2 left-1/2 aspect-video"
-      >
-        <div
-          class="absolute inset-0 translate-z-0 bg-gray-500 rounded-full blur-[60px] opacity-10"
-        ></div>
-      </div>
-    </div>
     <div class="max-w-5xl px-4 mx-auto sm:px-6">
       <div class="pt-32 pb-24">
         <!-- Section header -->
@@ -20,7 +7,7 @@
           class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
         >
           <span
-            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-50 to-gray-600"
+            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600"
           >
             Features
           </span>
@@ -29,7 +16,7 @@
           >
             All in one place
           </h2>
-          <p class="text-gray-400/80">
+          <p class="text-zinc-400/80">
             We are building the future of API development. All in one place.
           </p>
         </div>
@@ -145,7 +132,7 @@
               </filter>
             </defs>
             <g fill="none" fill-rule="evenodd">
-              <g class="fill-gray-600" transform="translate(437 8)">
+              <g class="fill-zinc-600" transform="translate(437 8)">
                 <circle
                   fill-opacity=".64"
                   filter="url(#blurreddots-a)"
@@ -186,7 +173,7 @@
                 <circle fill-opacity=".64" cx="118" cy="22" r="2" />
                 <circle fill-opacity=".32" cx="118" cy="50" r="2" />
               </g>
-              <g class="fill-gray-600" transform="matrix(-1 0 0 1 120 8)">
+              <g class="fill-zinc-600" transform="matrix(-1 0 0 1 120 8)">
                 <circle
                   fill-opacity=".64"
                   filter="url(#blurreddots-f)"
@@ -244,7 +231,7 @@
                   <stop stop-color="#020617" offset="100%" />
                 </linearGradient>
               </defs>
-              <g class="opacity-75 fill-gray-600" fill-rule="evenodd">
+              <g class="opacity-75 fill-zinc-600" fill-rule="evenodd">
                 <circle class="pulse" cx="400" cy="400" r="200" />
                 <circle class="pulse pulse-1" cx="400" cy="400" r="200" />
                 <circle class="pulse pulse-2" cx="400" cy="400" r="200" />
@@ -293,11 +280,11 @@
         >
           <!-- Top vertical line -->
           <div
-            class="hidden md:block absolute w-0.5 h-8 -top-16 -mt-2 bg-gray-900 left-1/2 -translate-x-1/2"
+            class="hidden md:block absolute w-0.5 h-8 -top-16 -mt-2 bg-zinc-900 left-1/2 -translate-x-1/2"
             aria-hidden="true"
           ></div>
           <div
-            class="relative flex items-center justify-center p-2 bg-gray-900 rounded-2xl aspect-square"
+            class="relative flex items-center justify-center p-2 bg-zinc-900 rounded-2xl aspect-square"
           >
             <!-- Inner lines -->
             <div
@@ -305,13 +292,13 @@
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-gray-900 left-1/2 -translate-x-1/2"
+                class="absolute w-0.5 h-full bg-zinc-900 left-1/2 -translate-x-1/2"
               ></div>
-              <div class="absolute w-1/2 h-0.5 bg-gray-900 right-0" />
+              <div class="absolute w-1/2 h-0.5 bg-zinc-900 right-0" />
             </div>
             <!-- Circle -->
             <div
-              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-gray-900 to-gray-950"
+              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-zinc-900 to-zinc-950"
             >
               <!-- Icon -->
               <img
@@ -324,7 +311,7 @@
             </div>
           </div>
           <div
-            class="relative flex items-center justify-center p-2 bg-gray-900 rounded-2xl aspect-square"
+            class="relative flex items-center justify-center p-2 bg-zinc-900 rounded-2xl aspect-square"
           >
             <!-- Inner lines -->
             <div
@@ -332,13 +319,13 @@
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-gray-900 left-1/2 -translate-x-1/2"
+                class="absolute w-0.5 h-full bg-zinc-900 left-1/2 -translate-x-1/2"
               ></div>
-              <div class="absolute w-full h-0.5 bg-gray-900" />
+              <div class="absolute w-full h-0.5 bg-zinc-900" />
             </div>
             <!-- Circle -->
             <div
-              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-gray-900 to-gray-950"
+              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-zinc-900 to-zinc-950"
             >
               <!-- Icon -->
               <img
@@ -351,7 +338,7 @@
             </div>
           </div>
           <div
-            class="relative flex items-center justify-center p-2 bg-gray-900 rounded-2xl aspect-square"
+            class="relative flex items-center justify-center p-2 bg-zinc-900 rounded-2xl aspect-square"
           >
             <!-- Inner lines -->
             <div
@@ -359,13 +346,13 @@
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-gray-900 left-1/2 -translate-x-1/2"
+                class="absolute w-0.5 h-full bg-zinc-900 left-1/2 -translate-x-1/2"
               ></div>
-              <div class="absolute w-full h-0.5 bg-gray-900" />
+              <div class="absolute w-full h-0.5 bg-zinc-900" />
             </div>
             <!-- Circle -->
             <div
-              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-gray-900 to-gray-950"
+              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-zinc-900 to-zinc-950"
             >
               <!-- Icon -->
               <img
@@ -378,7 +365,7 @@
             </div>
           </div>
           <div
-            class="relative flex items-center justify-center p-2 bg-gray-900 rounded-2xl aspect-square"
+            class="relative flex items-center justify-center p-2 bg-zinc-900 rounded-2xl aspect-square"
           >
             <!-- Inner lines -->
             <div
@@ -386,13 +373,13 @@
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-gray-900 left-1/2 -translate-x-1/2"
+                class="absolute w-0.5 h-full bg-zinc-900 left-1/2 -translate-x-1/2"
               ></div>
-              <div class="absolute w-full h-0.5 bg-gray-900" />
+              <div class="absolute w-full h-0.5 bg-zinc-900" />
             </div>
             <!-- Circle -->
             <div
-              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-gray-900 to-gray-950"
+              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-zinc-900 to-zinc-950"
             >
               <!-- Icon -->
               <img
@@ -405,7 +392,7 @@
             </div>
           </div>
           <div
-            class="relative flex items-center justify-center p-2 bg-gray-900 rounded-2xl aspect-square"
+            class="relative flex items-center justify-center p-2 bg-zinc-900 rounded-2xl aspect-square"
           >
             <!-- Inner lines -->
             <div
@@ -413,13 +400,13 @@
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-gray-900 left-1/2 -translate-x-1/2"
+                class="absolute w-0.5 h-full bg-zinc-900 left-1/2 -translate-x-1/2"
               ></div>
-              <div class="absolute w-full h-0.5 bg-gray-900" />
+              <div class="absolute w-full h-0.5 bg-zinc-900" />
             </div>
             <!-- Circle -->
             <div
-              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-gray-900 to-gray-950"
+              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-zinc-900 to-zinc-950"
             >
               <!-- Icon -->
               <img
@@ -432,7 +419,7 @@
             </div>
           </div>
           <div
-            class="relative flex items-center justify-center p-2 bg-gray-900 rounded-2xl aspect-square"
+            class="relative flex items-center justify-center p-2 bg-zinc-900 rounded-2xl aspect-square"
           >
             <!-- Inner lines -->
             <div
@@ -440,13 +427,13 @@
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-gray-900 left-1/2 -translate-x-1/2"
+                class="absolute w-0.5 h-full bg-zinc-900 left-1/2 -translate-x-1/2"
               ></div>
-              <div class="absolute w-1/2 h-0.5 bg-gray-900 left-0" />
+              <div class="absolute w-1/2 h-0.5 bg-zinc-900 left-0" />
             </div>
             <!-- Circle -->
             <div
-              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-gray-900 to-gray-950"
+              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-zinc-900 to-zinc-950"
             >
               <!-- Icon -->
               <img

@@ -58,19 +58,6 @@
 
 <template>
   <section class="relative">
-    <!-- Radial gradient -->
-    <div
-      class="absolute inset-0 overflow-hidden pointer-events-none -z-10"
-      aria-hidden="true"
-    >
-      <div
-        class="absolute top-0 flex items-center justify-center w-1/3 -translate-x-1/2 -translate-y-1/2 left-1/2 aspect-video"
-      >
-        <div
-          class="absolute inset-0 translate-z-0 bg-gray-500 rounded-full blur-[60px] opacity-10"
-        ></div>
-      </div>
-    </div>
     <div class="max-w-5xl px-4 mx-auto sm:px-6">
       <div class="pt-32 pb-24">
         <!-- Section header -->
@@ -78,7 +65,7 @@
           class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
         >
           <span
-            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-50 to-gray-600"
+            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600"
           >
             Company
           </span>
@@ -87,7 +74,7 @@
           >
             You're in good company
           </h2>
-          <p class="text-gray-400/80">
+          <p class="text-zinc-400/80">
             We're a team of passionate designers and developers working together
             to build the most advanced and easy-to-use API development platform
             ever created.
@@ -96,7 +83,7 @@
         <!-- Check list -->
         <div class="max-w-4xl pb-16 mx-auto">
           <ul
-            class="flex flex-col flex-wrap items-center justify-center -mx-3 -my-8 text-gray-200 text-md sm:flex-row"
+            class="flex flex-col flex-wrap items-center justify-center -mx-3 -my-8 text-zinc-200 text-md sm:flex-row"
           >
             <li class="flex items-center mx-3 my-2">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
@@ -131,7 +118,7 @@
                 aria-hidden="true"
               >
                 <div
-                  class="bottom-0 border-l border-gray-700 border-dashed transform translate-y-8 h-1/2"
+                  class="bottom-0 border-l border-dashed transform translate-y-8 border-zinc-700 h-1/2"
                 ></div>
               </div>
               <!-- People pics -->
@@ -232,21 +219,21 @@
                   <div class="inline-flex flex-col justify-center mb-4">
                     <img
                       loading="lazy"
-                      class="p-2 border-2 border-gray-500 rounded-full"
+                      class="p-2 border-2 rounded-full border-zinc-500"
                       :src="item.img"
                       width="64"
                       height="64"
                       :alt="item.alt"
                     />
                   </div>
-                  <blockquote class="text-lg text-gray-200">
+                  <blockquote class="text-lg text-zinc-200">
                     {{ item.quote }}
                   </blockquote>
-                  <div class="mt-3 text-gray-800">
-                    <cite class="not-italic text-gray-200">
+                  <div class="mt-3 text-zinc-800">
+                    <cite class="not-italic text-zinc-200">
                       {{ item.name }}
                     </cite>
-                    | <span class="text-gray-100">{{ item.role }}</span>
+                    | <span class="text-zinc-100">{{ item.role }}</span>
                   </div>
                 </div>
               </template>
@@ -264,8 +251,8 @@
                   "
                 >
                   <span
-                    class="block w-2 h-2 rounded-full transition group-hover:bg-gray-400"
-                    :class="active === index ? 'bg-gray-200' : 'bg-gray-500'"
+                    class="block w-2 h-2 rounded-full transition group-hover:bg-zinc-400"
+                    :class="active === index ? 'bg-zinc-200' : 'bg-zinc-500'"
                   ></span>
                 </button>
               </template>

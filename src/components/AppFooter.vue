@@ -1,3 +1,8 @@
+<script setup lang="ts">
+  const isDark = useDark()
+  const toggleDark = useToggle(isDark)
+</script>
+
 <template>
   <footer>
     <Newsletter />
@@ -14,7 +19,7 @@
               <div class="mb-4">
                 <!-- Logo -->
                 <RouterLink
-                  class="inline-flex items-center justify-center p-2 border rounded-full outline-none transition border-gray-500/50 hover:border-gray-500/80 hover:scale-110"
+                  class="inline-flex items-center justify-center p-2 border rounded-full outline-none transition border-zinc-500/50 hover:border-zinc-500/80 hover:scale-110"
                   to="/"
                   aria-label="Hoppscotch"
                 >
@@ -26,8 +31,8 @@
                   />
                 </RouterLink>
               </div>
-              <div class="text-xs text-gray-400/80">
-                &copy; 2023 Hoppscotch Limited
+              <div class="text-xs text-zinc-400/80">
+                &copy; 2023 Hoppscotch Limited. All rights reserved.
               </div>
             </div>
             <!-- Social links -->
@@ -38,18 +43,29 @@
                     href="https://status.hoppscotch.io"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="flex items-center text-xs rounded transition text-gray-400/80 hover:text-gray-100"
+                    class="flex items-center text-xs rounded transition text-zinc-400/80 hover:text-zinc-100"
                   >
                     <div class="w-1 h-1 mr-2 bg-green-500 rounded-full"></div>
                     All systems operational.
                   </a>
                 </li>
               </ul>
-              <ul class="flex items-center">
+              <ul
+                class="flex items-center overflow-hidden border rounded-full border-zinc-800"
+              >
+                <li class="border-r border-zinc-800">
+                  <button
+                    class="flex items-center justify-center rounded-full transition text-zinc-400/80 hover:text-zinc-100"
+                    @click="toggleDark()"
+                  >
+                    <icon-lucide-moon v-if="isDark" class="w-8 h-8 p-2" />
+                    <icon-lucide-sun v-else class="w-8 h-8 p-2" />
+                  </button>
+                </li>
                 <li>
                   <a
-                    class="flex items-center justify-center rounded-full transition text-gray-400/80 hover:text-gray-100"
-                    href="https://hoppscotch.io/twitter"
+                    class="flex items-center justify-center rounded-full transition text-zinc-400/80 hover:text-zinc-100"
+                    href="https://twitter.com/hoppscotch_io"
                     aria-label="Twitter"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -59,8 +75,19 @@
                 </li>
                 <li>
                   <a
-                    class="flex items-center justify-center rounded-full transition text-gray-400/80 hover:text-gray-100"
-                    href="https://hoppscotch.io/github"
+                    class="flex items-center justify-center rounded-full transition text-zinc-400/80 hover:text-zinc-100"
+                    href="https://www.linkedin.com/company/hoppscotch"
+                    aria-label="Discord"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <icon-lucide-linkedin class="w-8 h-8 p-2" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="flex items-center justify-center rounded-full transition text-zinc-400/80 hover:text-zinc-100"
+                    href="https://github.com/hoppscotch/hoppscotch"
                     aria-label="Github"
                     target="_blank"
                     rel="noopener noreferrer"

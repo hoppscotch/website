@@ -165,27 +165,27 @@
           <div
             v-for="tier in tiers"
             :key="tier.id"
-            class="border-t border-gray-900"
+            class="border-t border-zinc-900"
           >
             <div
               class="'-mt-px w-72 border-t-2 pt-10 md:w-80'"
               :class="[
-                tier.featured ? 'border-gray-500' : 'border-transparent',
+                tier.featured ? 'border-zinc-500' : 'border-transparent',
               ]"
             >
               <h3
                 class="text-sm font-semibold leading-6"
-                :class="[tier.featured ? 'text-gray-500' : 'text-gray-400/80']"
+                :class="[tier.featured ? 'text-zinc-500' : 'text-zinc-400/80']"
               >
                 {{ tier.name }}
               </h3>
-              <p class="mt-1 text-sm text-gray-100 leading-6">
+              <p class="mt-1 text-sm text-zinc-100 leading-6">
                 {{ tier.description }}
               </p>
             </div>
             <div class="mt-10 space-y-10">
               <div v-for="section in sections" :key="section.name">
-                <h4 class="text-sm font-semibold text-gray-100 leading-6">
+                <h4 class="text-sm font-semibold text-zinc-100 leading-6">
                   {{ section.name }}
                 </h4>
                 <div class="relative mt-6">
@@ -198,17 +198,17 @@
                     class="relative bg-white rounded-lg shadow-sm sm:rounded-none sm:bg-transparent sm:shadow-none sm:ring-0"
                     :class="[
                       tier.featured
-                        ? 'ring-2 ring-gray-500'
-                        : 'ring-1 ring-gray-900/10',
+                        ? 'ring-2 ring-zinc-500'
+                        : 'ring-1 ring-zinc-900/10',
                     ]"
                   >
-                    <dl class="text-sm leading-6 divide-y divide-gray-200">
+                    <dl class="text-sm leading-6 divide-y divide-zinc-200">
                       <div
                         v-for="feature in section.features"
                         :key="feature.name"
                         class="flex items-center justify-between px-4 py-3 sm:grid sm:grid-cols-2 sm:px-0"
                       >
-                        <dt class="pr-4 text-gray-100">
+                        <dt class="pr-4 text-zinc-100">
                           {{ feature.name }}
                         </dt>
                         <dd
@@ -222,8 +222,8 @@
                             "
                             :class="
                               tier.featured
-                                ? 'font-semibold text-gray-500'
-                                : 'text-gray-400/80'
+                                ? 'font-semibold text-zinc-500'
+                                : 'text-zinc-400/80'
                             "
                             >{{
                               feature.tiers[tier.name as keyof tierPlanType]
@@ -236,12 +236,12 @@
                                   tier.name as keyof tierPlanType
                                 ] === true
                               "
-                              class="w-5 h-5 mx-auto text-gray-500"
+                              class="w-5 h-5 mx-auto text-zinc-500"
                               aria-hidden="true"
                             />
                             <icon-lucide-x
                               v-else
-                              class="w-5 h-5 mx-auto text-gray-400/80"
+                              class="w-5 h-5 mx-auto text-zinc-400/80"
                               aria-hidden="true"
                             />
                             <span class="sr-only">{{
@@ -261,8 +261,8 @@
                     class="absolute inset-y-0 right-0 hidden w-1/2 rounded-lg pointer-events-none sm:block"
                     :class="[
                       tier.featured
-                        ? 'ring-2 ring-gray-500'
-                        : 'ring-1 ring-gray-900/10',
+                        ? 'ring-2 ring-zinc-500'
+                        : 'ring-1 ring-zinc-900/10',
                     ]"
                   ></div>
                 </div>
@@ -275,7 +275,7 @@
       <section aria-labelledby="comparison-heading" class="hidden lg:block">
         <h2 id="comparison-heading" class="sr-only">Feature comparison</h2>
         <div
-          class="border-t grid grid-cols-4 gap-x-8 border-gray-500/10 before:block"
+          class="border-t grid grid-cols-4 gap-x-8 border-zinc-500/10 before:block"
         >
           <div
             v-for="tier in tiers"
@@ -286,16 +286,16 @@
             <div
               class="pt-10 border-t-2"
               :class="[
-                tier.featured ? 'border-gray-500' : 'border-transparent',
+                tier.featured ? 'border-zinc-500' : 'border-transparent',
               ]"
             >
               <p
                 class="text-sm font-semibold leading-6"
-                :class="[tier.featured ? 'text-gray-500' : 'text-gray-400/80']"
+                :class="[tier.featured ? 'text-zinc-500' : 'text-zinc-400/80']"
               >
                 {{ tier.name }}
               </p>
-              <p class="mt-1 text-sm text-gray-100 leading-6">
+              <p class="mt-1 text-sm text-zinc-100 leading-6">
                 {{ tier.description }}
               </p>
             </div>
@@ -304,7 +304,7 @@
 
         <div class="-mt-6 space-y-16">
           <div v-for="section in sections" :key="section.name">
-            <h3 class="text-sm font-semibold text-gray-100 leading-6">
+            <h3 class="text-sm font-semibold text-zinc-100 leading-6">
               {{ section.name }}
             </h3>
             <div class="relative mt-10 -mx-8">
@@ -314,13 +314,13 @@
                 aria-hidden="true"
               >
                 <div
-                  class="w-full h-full rounded-lg shadow-sm bg-gray-800/20"
+                  class="w-full h-full rounded-lg shadow-sm bg-zinc-800/20"
                 ></div>
                 <div
-                  class="w-full h-full rounded-lg shadow-sm bg-gray-800/20"
+                  class="w-full h-full rounded-lg shadow-sm bg-zinc-800/20"
                 ></div>
                 <div
-                  class="w-full h-full rounded-lg shadow-sm bg-gray-800/20"
+                  class="w-full h-full rounded-lg shadow-sm bg-zinc-800/20"
                 ></div>
               </div>
 
@@ -342,12 +342,12 @@
                   >
                     <th
                       scope="row"
-                      class="w-1/4 py-3 pr-4 text-sm text-left leading-6 text-gray-400/80"
+                      class="w-1/4 py-3 pr-4 text-sm text-left leading-6 text-zinc-400/80"
                     >
                       {{ feature.name }}
                       <div
                         v-if="featureIdx !== section.features.length - 1"
-                        class="absolute h-px mt-3 bg-gray-900 inset-x-8"
+                        class="absolute h-px mt-3 bg-zinc-900 inset-x-8"
                       ></div>
                     </th>
                     <td
@@ -365,8 +365,8 @@
                           class="text-sm leading-6"
                           :class="[
                             tier.featured
-                              ? 'font-semibold text-gray-500'
-                              : 'text-gray-400/80',
+                              ? 'font-semibold text-zinc-500'
+                              : 'text-zinc-400/80',
                           ]"
                           >{{
                             feature.tiers[tier.name as keyof tierPlanType]
@@ -378,12 +378,12 @@
                               feature.tiers[tier.name as keyof tierPlanType] ===
                               true
                             "
-                            class="w-5 h-5 mx-auto text-gray-500"
+                            class="w-5 h-5 mx-auto text-zinc-500"
                             aria-hidden="true"
                           />
                           <icon-lucide-x
                             v-else
-                            class="w-5 h-5 mx-auto text-gray-400/80"
+                            class="w-5 h-5 mx-auto text-zinc-400/80"
                             aria-hidden="true"
                           />
                           <span class="sr-only">{{
@@ -410,8 +410,8 @@
                   class="rounded-lg"
                   :class="[
                     tier.featured
-                      ? 'ring-2 ring-gray-500'
-                      : 'ring-1 ring-gray-900/10',
+                      ? 'ring-2 ring-zinc-500'
+                      : 'ring-1 ring-zinc-900/10',
                   ]"
                 ></div>
               </div>

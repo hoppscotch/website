@@ -65,10 +65,10 @@
         <div class="text-center">
           <!-- Testimonial image -->
           <div
-            class="relative h-32 [mask-image:_linear-gradient(0deg,_transparent,_theme(colors.gray.500)_40%,_theme(colors.gray.500))]"
+            class="relative h-32 [mask-image:_linear-gradient(0deg,_transparent,_theme(colors.zinc.500)_40%,_theme(colors.zinc.500))]"
           >
             <div
-              class="absolute top-0 left-1/2 -translate-x-1/2 w-[480px] h-[480px] -z-10 pointer-events-none before:rounded-full rounded-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-gray-500/20 before: before:to-20% after:rounded-full after:absolute after:inset-0 after:bg-gray-950 after:m-px before:-z-20 after:-z-20"
+              class="absolute top-0 left-1/2 -translate-x-1/2 w-[480px] h-[480px] -z-10 pointer-events-none before:rounded-full rounded-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-zinc-500/20 before: before:to-20% after:rounded-full after:absolute after:inset-0 after:bg-zinc-950 after:m-px before:-z-20 after:-z-20"
             >
               <TransitionGroup
                 enter-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-500 order-first"
@@ -85,7 +85,7 @@
                   >
                     <img
                       loading="lazy"
-                      class="relative w-16 h-16 p-1 border rounded-full -translate-x-1/2 filter slatescale top-11 left-1/2 border-gray-500/20"
+                      class="relative w-16 h-16 p-1 border rounded-full -translate-x-1/2 filter slatescale top-11 left-1/2 border-zinc-500/20"
                       :src="item.img"
                       :alt="item.name"
                     />
@@ -118,10 +118,10 @@
           <div class="flex flex-wrap justify-center -m-1.5">
             <template v-for="(item, index) in items" :key="index">
               <button
-                class="inline-flex items-center justify-center border border-transparent rounded-full transition px-3 py-1 m-1.5 text-xs text-gray-200 [background:linear-gradient(theme(colors.gray.950),_theme(colors.gray.950))_padding-box,_conic-gradient(theme(colors.gray.400),_theme(colors.gray.700)_25%,_theme(colors.gray.700)_75%,_theme(colors.gray.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-gray-950/10 before:rounded-full before:pointer-events-none"
+                class="inline-flex items-center justify-center border border-transparent rounded-full transition px-3 py-1 m-1.5 text-xs text-zinc-200 [background:linear-gradient(theme(colors.zinc.950),_theme(colors.zinc.950))_padding-box,_conic-gradient(theme(colors.zinc.400),_theme(colors.zinc.700)_25%,_theme(colors.zinc.700)_75%,_theme(colors.zinc.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-zinc-950/10 before:rounded-full before:pointer-events-none"
                 :class="
                   active === index
-                    ? 'opacity-100 shadow-gray-950/50 shadow-xl'
+                    ? 'opacity-100 shadow-zinc-950/50 shadow-xl'
                     : 'opacity-50 hover:opacity-80'
                 "
                 @click="
@@ -131,8 +131,8 @@
                 "
               >
                 <span class="relative">
-                  <span class="text-gray-50">{{ item.name }}</span>
-                  <span class="ml-2 text-gray-500">{{ item.role }}</span>
+                  <span class="text-zinc-50">{{ item.name }}</span>
+                  <span class="ml-2 text-zinc-500">{{ item.role }}</span>
                 </span>
               </button>
             </template>

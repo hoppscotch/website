@@ -7,8 +7,8 @@
   @apply outline-white/10;
 }
 ::selection {
-  @apply bg-gray-400/50;
-  @apply text-gray-50;
+  @apply bg-zinc-400/50;
+  @apply text-zinc-50;
 }
 html {
   scroll-behavior: smooth;
@@ -23,7 +23,7 @@ html {
     @apply h-0.5;
     @apply w-full;
     @apply z-50;
-    @apply bg-gray-50;
+    @apply bg-zinc-50;
     background-image: linear-gradient(
       to right,
       #27c4f5,
@@ -35,7 +35,7 @@ html {
   }
 }
 .medium-zoom-overlay {
-  @apply bg-gray-950 #{!important};
+  @apply bg-zinc-950 #{!important};
   @apply z-40 #{!important};
 }
 .medium-zoom-image--opened {
@@ -53,31 +53,31 @@ html {
 }
 .tippy-box[data-theme~="tooltip"] > .tippy-content {
   @apply text-xs;
-  @apply bg-gray-900;
-  @apply text-gray-300;
+  @apply bg-zinc-900;
+  @apply text-zinc-300;
   @apply px-3;
   @apply py-2;
   @apply rounded-md;
   @apply overflow-hidden;
 }
 .tippy-box[data-theme~="tooltip"] > .tippy-svg-arrow {
-  @apply fill-gray-950;
+  @apply fill-zinc-950;
 }
 .tippy-box[data-theme~="popover"] {
   @apply rounded-2xl;
   @apply shadow-2xl;
-  @apply bg-gray-950;
+  @apply bg-zinc-950;
 }
 .tippy-box[data-theme~="popover"] > .tippy-content {
   @apply text-xs;
   @apply bg-gradient-to-r;
-  @apply from-gray-900/80;
-  @apply to-gray-950/80;
-  @apply text-gray-300;
+  @apply from-zinc-900/80;
+  @apply to-zinc-950/80;
+  @apply text-zinc-300;
   @apply p-0;
   @apply rounded-2xl;
   @apply overflow-hidden;
-  @apply border border-gray-800;
+  @apply border border-zinc-800;
 }
 .tippy-box[data-theme~="popover"] > .tippy-svg-arrow {
   @apply fill-transparent;

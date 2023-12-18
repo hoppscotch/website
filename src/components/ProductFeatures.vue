@@ -4,19 +4,6 @@
 
 <template>
   <section class="relative">
-    <!-- Radial gradient -->
-    <div
-      class="absolute inset-0 overflow-hidden pointer-events-none -z-10"
-      aria-hidden="true"
-    >
-      <div
-        class="absolute top-0 flex items-center justify-center w-1/3 -translate-x-1/2 -translate-y-1/2 left-1/2 aspect-video"
-      >
-        <div
-          class="absolute inset-0 translate-z-0 bg-gray-500 rounded-full blur-[60px] opacity-10"
-        ></div>
-      </div>
-    </div>
     <div class="relative max-w-5xl px-4 mx-auto sm:px-6">
       <div class="pt-32 pb-24">
         <!-- Section header -->
@@ -24,7 +11,7 @@
           class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
         >
           <span
-            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-gray-50 to-gray-600"
+            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600"
           >
             Products
           </span>
@@ -33,7 +20,7 @@
           >
             The power to be your best
           </h2>
-          <p class="text-gray-400/80">
+          <p class="text-zinc-400/80">
             We build tools that help you build better products.
           </p>
         </div>
@@ -43,20 +30,20 @@
           <div class="pb-8 grid grid-cols-2 gap-6 sm:grid-cols-4">
             <div>
               <button
-                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-gray-500/10"
+                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-zinc-500/10"
                 :class="{
-                  'bg-gray-500/10 !opacity-100 ring-1 ring-gray-600': tab === 1,
+                  'bg-zinc-500/10 !opacity-100 ring-1 ring-zinc-600': tab === 1,
                 }"
                 @click="tab = 1"
               >
                 <div
-                  class="inline-flex p-4 mb-4 bg-gray-600 rounded-full shadow-md"
+                  class="inline-flex p-4 mb-4 rounded-full shadow-md bg-zinc-600"
                 >
                   <icon-lucide-cloudy />
                 </div>
                 <div
                   class="text-sm leading-tight"
-                  :class="{ 'text-gray-200': tab === 1 }"
+                  :class="{ 'text-zinc-200': tab === 1 }"
                 >
                   Cloud
                 </div>
@@ -77,7 +64,7 @@
                 </div>
                 <div
                   class="text-sm leading-tight"
-                  :class="{ 'text-gray-200': tab === 2 }"
+                  :class="{ 'text-zinc-200': tab === 2 }"
                 >
                   Enterprise
                 </div>
@@ -98,7 +85,7 @@
                 </div>
                 <div
                   class="text-sm leading-tight"
-                  :class="{ 'text-gray-200': tab === 3 }"
+                  :class="{ 'text-zinc-200': tab === 3 }"
                 >
                   Self-Host
                 </div>
@@ -106,20 +93,20 @@
             </div>
             <div>
               <button
-                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-gray-500/10"
+                class="w-full p-4 text-center opacity-50 transition-opacity grow rounded-xl hover:bg-zinc-500/10"
                 :class="{
-                  'bg-gray-500/10 !opacity-100 ring-1 ring-gray-600': tab === 4,
+                  'bg-zinc-500/10 !opacity-100 ring-1 ring-zinc-600': tab === 4,
                 }"
                 @click="tab = 4"
               >
                 <div
-                  class="inline-flex p-4 mb-4 bg-gray-600 rounded-full shadow-md"
+                  class="inline-flex p-4 mb-4 rounded-full shadow-md bg-zinc-600"
                 >
                   <icon-lucide-terminal-square />
                 </div>
                 <div
                   class="text-sm leading-tight"
-                  :class="{ 'text-gray-200': tab === 4 }"
+                  :class="{ 'text-zinc-200': tab === 4 }"
                 >
                   CLI
                 </div>
@@ -140,7 +127,7 @@
                 <Highlighter class="group">
                   <HighlighterItem>
                     <div
-                      class="relative h-full bg-gray-950 rounded-[inherit] z-20 overflow-hidden"
+                      class="relative h-full bg-zinc-950 rounded-[inherit] z-20 overflow-hidden"
                     >
                       <img
                         loading="lazy"
@@ -151,12 +138,12 @@
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-gray-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-zinc-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
                           <span
-                            class="text-gray-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                            class="text-zinc-500 group-hover:translate-x-0.5 transition-transform ml-1"
                           >
                             <icon-lucide-arrow-right />
                           </span>
@@ -179,7 +166,7 @@
                 <Highlighter class="group">
                   <HighlighterItem>
                     <div
-                      class="relative h-full bg-gray-950 rounded-[inherit] z-20 overflow-hidden"
+                      class="relative h-full bg-zinc-950 rounded-[inherit] z-20 overflow-hidden"
                     >
                       <img
                         loading="lazy"
@@ -190,12 +177,12 @@
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-gray-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-zinc-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
                           <span
-                            class="text-gray-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                            class="text-zinc-500 group-hover:translate-x-0.5 transition-transform ml-1"
                           >
                             <icon-lucide-arrow-right />
                           </span>
@@ -218,7 +205,7 @@
                 <Highlighter class="group">
                   <HighlighterItem>
                     <div
-                      class="relative h-full bg-gray-950 rounded-[inherit] z-20 overflow-hidden"
+                      class="relative h-full bg-zinc-950 rounded-[inherit] z-20 overflow-hidden"
                     >
                       <img
                         loading="lazy"
@@ -229,12 +216,12 @@
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-gray-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-zinc-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
                           <span
-                            class="text-gray-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                            class="text-zinc-500 group-hover:translate-x-0.5 transition-transform ml-1"
                           >
                             <icon-lucide-arrow-right />
                           </span>
@@ -257,7 +244,7 @@
                 <Highlighter class="group">
                   <HighlighterItem>
                     <div
-                      class="relative h-full bg-gray-950 rounded-[inherit] z-20 overflow-hidden"
+                      class="relative h-full bg-zinc-950 rounded-[inherit] z-20 overflow-hidden"
                     >
                       <img
                         loading="lazy"
@@ -268,12 +255,12 @@
                         class="absolute inset-0 flex items-center justify-center p-8 md:items-end md:justify-end"
                       >
                         <RouterLink
-                          class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-gray-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
+                          class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full shadow-xl transition text-zinc-950 backdrop-blur-md bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white group"
                           to="/download"
                         >
                           Download
                           <span
-                            class="text-gray-500 group-hover:translate-x-0.5 transition-transform ml-1"
+                            class="text-zinc-500 group-hover:translate-x-0.5 transition-transform ml-1"
                           >
                             <icon-lucide-arrow-right />
                           </span>

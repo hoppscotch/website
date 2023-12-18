@@ -60,11 +60,11 @@
               <ul class="flex flex-wrap -m-1 text-sm">
                 <li class="m-1">
                   <span
-                    class="inline-flex text-center transition text-gray-100/50"
+                    class="inline-flex text-center transition text-zinc-100/50"
                     >Product</span
                   >
-                  <span class="mx-2 text-gray-400/20">|</span>
-                  <span class="text-gray-200/20">Jan 17, 2020</span>
+                  <span class="mx-2 text-zinc-400/20">|</span>
+                  <span class="text-zinc-200/20">Jan 17, 2020</span>
                 </li>
               </ul>
             </div>
@@ -85,7 +85,7 @@
                 alt="Liyas Thomas"
               />
               <div class="text-sm">
-                <span class="transition text-gray-200/80"> Liyas Thomas </span>
+                <span class="transition text-zinc-200/80"> Liyas Thomas </span>
               </div>
             </div>
           </header>
@@ -98,7 +98,7 @@
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-gray-200/80">
+          <section class="max-w-2xl text-zinc-200/80">
             <p class="mt-4 mb-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -134,7 +134,7 @@
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-gray-200/80">
+          <section class="max-w-2xl text-zinc-200/80">
             <p class="mt-4 mb-8">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit

@@ -1,10 +1,10 @@
 <template>
   <div class="relative w-full p-2 overflow-hidden">
     <div
-      class="relative flex items-center justify-center px-8 overflow-hidden border border-gray-800 h-80 rounded-2xl bg-gradient-to-b from-gray-800/10 to-gray-400/10"
+      class="relative flex items-center justify-center px-8 overflow-hidden border border-zinc-800 h-80 rounded-2xl bg-gradient-to-b from-zinc-800/10 to-zinc-400/10"
     >
       <div
-        class="absolute bg-center inset-0 h-full w-full bg-[linear-gradient(to_right,theme(colors.gray.400)1A_1px,transparent_1px),linear-gradient(to_bottom,theme(colors.gray.400)1A_1px,transparent_1px)] bg-[size:128px_128px]"
+        class="absolute bg-center inset-0 h-full w-full bg-[linear-gradient(to_right,theme(colors.zinc.400)1A_1px,transparent_1px),linear-gradient(to_bottom,theme(colors.zinc.400)1A_1px,transparent_1px)] bg-[size:128px_128px]"
       ></div>
       <div class="flex flex-col items-center justify-center">
         <div
@@ -17,7 +17,7 @@
               href="https://github.com/hoppscotch/hoppscotch"
               target="_blank"
               rel="noopener noreferrer"
-              class="table mx-8 truncate items-center text-center animate-background-shine bg-[linear-gradient(110deg,transparent,45%,theme(colors.gray.300),55%,transparent)] bg-[length:200%_100%] bg-clip-text font-semibold font-jakarta text-transparent text-6xl leading-normal tracking-tight"
+              class="items-center table mx-8 text-6xl font-semibold leading-normal tracking-tight text-center truncate text-zinc-400 font-jakarta"
             >
               Star us on GitHub
             </a>
@@ -32,7 +32,7 @@
               href="https://github.com/hoppscotch/hoppscotch"
               target="_blank"
               rel="noopener noreferrer"
-              class="table mx-8 truncate items-center text-center animate-background-shine bg-[linear-gradient(110deg,transparent,45%,theme(colors.gray.300),55%,transparent)] bg-[length:200%_100%] bg-clip-text font-semibold font-jakarta text-transparent text-6xl leading-normal tracking-tight"
+              class="items-center table mx-8 text-6xl font-semibold leading-normal tracking-tight text-center truncate text-zinc-400 font-jakarta"
             >
               Star us on GitHub
             </a>

@@ -9,7 +9,7 @@
       </div>
       <div class="py-12 md:py-16">
         <div
-          class="items-center max-w-xs mx-auto mb-16 -mt-16 text-center text-gray-400"
+          class="items-center max-w-xs mx-auto mb-16 -mt-16 text-center text-zinc-400"
         >
           Join the developers and engineers from startups to enterprises who
           trust us.

@@ -11,7 +11,7 @@
           >
             Our incredible investors
           </h2>
-          <p class="text-gray-400/80">
+          <p class="text-zinc-400/80">
             Hoppscotch is funded by these world-class investors.
           </p>
         </div>
@@ -20,7 +20,7 @@
           <!-- Item -->
           <div class="flex items-center justify-center h-24 p-2">
             <svg
-              class="max-w-full fill-gray-400"
+              class="max-w-full fill-zinc-400"
               width="124"
               height="24"
               viewBox="0 0 124 24"
@@ -34,7 +34,7 @@
           <!-- Item -->
           <div class="flex items-center justify-center h-24 p-2">
             <svg
-              class="max-w-full fill-gray-400"
+              class="max-w-full fill-zinc-400"
               width="94"
               height="30"
               viewBox="0 0 94 30"
@@ -48,7 +48,7 @@
           <!-- Item -->
           <div class="flex items-center justify-center h-24 p-2">
             <svg
-              class="max-w-full fill-gray-400"
+              class="max-w-full fill-zinc-400"
               width="125"
               height="39"
               viewBox="0 0 125 39"
@@ -62,7 +62,7 @@
           <!-- Item -->
           <div class="flex items-center justify-center h-24 p-2">
             <svg
-              class="max-w-full fill-gray-400"
+              class="max-w-full fill-zinc-400"
               width="104"
               height="28"
               viewBox="0 0 104 28"
@@ -76,7 +76,7 @@
           <!-- Item -->
           <div class="flex items-center justify-center h-24 p-2">
             <svg
-              class="max-w-full fill-gray-400"
+              class="max-w-full fill-zinc-400"
               width="109"
               height="36"
               viewBox="0 0 109 36"
@@ -90,7 +90,7 @@
           <!-- Item -->
           <div class="flex items-center justify-center h-24 p-2">
             <svg
-              class="max-w-full fill-gray-400"
+              class="max-w-full fill-zinc-400"
               width="150"
               height="20"
               viewBox="0 0 150 20"
@@ -104,7 +104,7 @@
           <!-- Item -->
           <div class="flex items-center justify-center h-24 p-2">
             <svg
-              class="max-w-full fill-gray-400"
+              class="max-w-full fill-zinc-400"
               width="109"
               height="33"
               viewBox="0 0 109 33"
@@ -118,7 +118,7 @@
           <!-- Item -->
           <div class="flex items-center justify-center h-24 p-2">
             <svg
-              class="max-w-full fill-gray-400"
+              class="max-w-full fill-zinc-400"
               width="110"
               height="36"
               viewBox="0 0 110 36"

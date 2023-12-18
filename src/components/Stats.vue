@@ -20,7 +20,7 @@
             text-rendering="geometricPrecision"
             stroke-width=".08"
             paint-order="stroke"
-            class="stroke-gray-800 fill-gray-900/20"
+            class="stroke-zinc-800 fill-zinc-900/20"
           >
             300K
           </text>
@@ -28,10 +28,10 @@
         <div class="absolute inset-0 z-20 flex items-center justify-center">
           <p
             v-motion-fade-visible-once
-            class="max-w-xl font-semibold tracking-tight text-center text-gray-500 text-md md:text-4xl font-inter"
+            class="max-w-xl font-semibold tracking-tight text-center text-zinc-500 text-md md:text-4xl font-inter"
           >
             Hoppscotch processes over <br />
-            <span class="text-gray-50">300 thousand requests per week</span>
+            <span class="text-zinc-50">300 thousand requests per week</span>
           </p>
         </div>
       </div>

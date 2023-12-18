@@ -215,7 +215,7 @@
 </script>
 <template>
   <div
-    class="flex items-center px-4 -mb-2 text-sm justify-evenly border-gray-400/10"
+    class="flex items-center px-4 -mb-2 text-sm justify-evenly border-zinc-400/10"
   >
     <button
       v-for="(tab, index) in tabs"
@@ -223,8 +223,8 @@
       class="flex items-center justify-center focus:outline-none relative p-4 after:content-['']"
       :class="
         activeTab === tab.id
-          ? 'after:absolute text-gray-400/80 transition after:inset-x-4 after:-bottom-px after:h-px after:bg-gradient-to-r after:from-transparent after:via-gray-500 after:z-10 flex-1'
-          : 'text-gray-400/80 hover:text-gray-400/80'
+          ? 'after:absolute text-zinc-400/80 transition after:inset-x-4 after:-bottom-px after:h-px after:bg-gradient-to-r after:from-transparent after:via-zinc-500 after:z-10 flex-1'
+          : 'text-zinc-400/80 hover:text-zinc-400/80'
       "
       @click="changeTab(tab.id)"
     >
@@ -240,12 +240,12 @@
   </div>
   <div ref="target" class="relative w-full p-2 overflow-hidden">
     <div
-      class="flex items-start justify-start overflow-y-auto border border-gray-800 brightness-110 overscroll-auto h-80 rounded-2xl bg-gradient-to-b from-gray-800/10 to-gray-400/10"
+      class="flex items-start justify-start overflow-y-auto border border-zinc-800 brightness-110 overscroll-auto h-80 rounded-2xl bg-gradient-to-b from-zinc-800/10 to-zinc-400/10"
     >
       <div class="relative flex flex-col flex-1 text-xs">
         <input
           v-model="search"
-          class="sticky top-0 z-10 flex-1 px-4 py-4 border-b bg-gray-950/5 backdrop-blur-md placeholder:text-gray-400/80 focus:outline-none border-gray-400/10"
+          class="sticky top-0 z-10 flex-1 px-4 py-4 border-b bg-zinc-950/5 backdrop-blur-md placeholder:text-zinc-400/80 focus:outline-none border-zinc-400/10"
           placeholder="Type a command or search…"
         />
         <div class="relative z-0 flex flex-col">
@@ -256,18 +256,18 @@
               v-motion-fade
               class="duration-500"
             >
-              <div class="px-4 py-2 text-gray-400/80">
+              <div class="px-4 py-2 text-zinc-400/80">
                 {{ tab.name }}
               </div>
               <div class="flex flex-col px-2">
                 <div
                   v-for="(entry, entryIndex) in filteredEntries"
                   :key="entryIndex"
-                  class="flex items-center justify-between px-3 py-2 bg-gray-400 cursor-pointer transition rounded-md"
+                  class="flex items-center justify-between px-3 py-2 cursor-pointer bg-zinc-400 transition rounded-md"
                   :class="
                     entryIndex === selectedEntryIndex
-                      ? 'bg-opacity-10 text-gray-100'
-                      : 'bg-opacity-0 text-gray-400/80'
+                      ? 'bg-opacity-10 text-zinc-100'
+                      : 'bg-opacity-0 text-zinc-400/80'
                   "
                   @mouseover="selectEntry(entryIndex)"
                 >
@@ -279,9 +279,9 @@
                     <span
                       v-for="(key, keyIndex) in entry.shortcut"
                       :key="keyIndex"
-                      class="px-1 rounded bg-gray-400/10 text-gray-400/80 text-[10px]"
+                      class="px-1 rounded bg-zinc-400/10 text-zinc-400/80 text-[10px]"
                       :class="{
-                        'text-gray-400/80': entryIndex === selectedEntryIndex,
+                        'text-zinc-400/80': entryIndex === selectedEntryIndex,
                       }"
                     >
                       {{ key }}</span
@@ -290,7 +290,7 @@
                 </div>
                 <div
                   v-if="filteredEntries.length === 0"
-                  class="flex flex-col items-center justify-center h-full text-gray-400/80"
+                  class="flex flex-col items-center justify-center h-full text-zinc-400/80"
                 >
                   Nothing found for "{{ search }}"
                   <button class="m-2 underline" @click="search = ''">

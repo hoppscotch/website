@@ -12,7 +12,7 @@
       />
     </div>
     <div
-      class="absolute inset-0 bg-gradient-to-t from-gray-950"
+      class="absolute inset-0 bg-gradient-to-t from-zinc-950"
       aria-hidden="true"
     ></div>
     <div class="relative max-w-5xl px-4 mx-auto sm:px-6">
@@ -28,7 +28,7 @@
                 alt="About hero"
               />
               <div
-                class="absolute inset-0 bg-gradient-to-t from-gray-950"
+                class="absolute inset-0 bg-gradient-to-t from-zinc-950"
                 aria-hidden="true"
               ></div>
             </div>

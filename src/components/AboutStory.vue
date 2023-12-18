@@ -3,7 +3,7 @@
     <div class="max-w-5xl px-4 mx-auto">
       <div class="py-12 md:py-16">
         <div class="max-w-4xl mx-auto">
-          <div class="text-md text-gray-400/80">
+          <div class="text-md text-zinc-400/80">
             <h2
               class="block pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
             >
@@ -30,7 +30,7 @@
             </p>
             <p class="mb-8">The Tidy Team</p>
             <svg
-              class="fill-gray-200"
+              class="fill-zinc-200"
               width="90"
               height="32"
               viewBox="0 0 90 32"

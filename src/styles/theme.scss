@@ -1,0 +1,12 @@
+:root {
+  /* --color-primary: theme("colors.zinc.100");
+  --color-secondary: theme("colors.zinc.950"); */
+
+  --color-primary: theme("colors.zinc.950");
+  --color-secondary: theme("colors.zinc.100");
+
+  &.dark {
+    --color-primary: theme("colors.zinc.950");
+    --color-secondary: theme("colors.zinc.100");
+  }
+}

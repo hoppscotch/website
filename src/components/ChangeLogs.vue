@@ -9,22 +9,22 @@
           >
             Changelog
           </h2>
-          <p class="text-gray-400/80">
+          <p class="text-zinc-400/80">
             New updates and improvements to Hoppscotch.
           </p>
           <p class="mt-4 text-sm">
             <RouterLink
               :to="{ path: '', hash: '#newsletter' }"
-              class="rounded transition text-gray-400/60 hover:text-gray-400/80"
+              class="rounded transition text-zinc-400/60 hover:text-zinc-400/80"
             >
               Subscribe to updates
             </RouterLink>
-            <span class="mx-4 text-gray-400/20">|</span>
+            <span class="mx-4 text-zinc-400/20">|</span>
             <a
               href="https://twitter.com/hoppscotch_io"
               target="_blank"
               rel="noopener noreferrer"
-              class="rounded transition text-gray-400/60 hover:text-gray-400/80"
+              class="rounded transition text-zinc-400/60 hover:text-zinc-400/80"
               >Follow us on Twitter</a
             >
           </p>
