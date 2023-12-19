@@ -1,14 +1,17 @@
 <script setup lang="ts">
   useHead({
-    title: "Better API testing capabilities and more • Blog • Hoppscotch",
+    title:
+      "Hoppscotch v2023.12.0: Better API testing capabilities and more • Blog • Hoppscotch",
     meta: [
       {
         property: "og:title",
-        content: "Better API testing capabilities and more • Blog • Hoppscotch",
+        content:
+          "Hoppscotch v2023.12.0: Better API testing capabilities and more • Blog • Hoppscotch",
       },
       {
         name: "twitter:title",
-        content: "Better API testing capabilities and more • Blog • Hoppscotch",
+        content:
+          "Hoppscotch v2023.12.0: Better API testing capabilities and more • Blog • Hoppscotch",
       },
       {
         name: "description",
@@ -79,7 +82,7 @@
               <span
                 class="block text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
               >
-                Better API testing capabilities and more
+                Hoppscotch v2023.12.0: Better API testing capabilities and more
               </span>
             </h3>
             <div class="flex items-center">
