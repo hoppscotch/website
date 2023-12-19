@@ -73,7 +73,6 @@
                     >Engineering,</span
                   >
                 </li>
-
                 <li class="m-1">
                   <span
                     class="inline-flex text-center transition text-zinc-100/50"
@@ -120,7 +119,7 @@
               <a
                 href="https://github.com/hoppscotch/hoppscotch/issues/3101"
                 target="_blank"
-                class="border-b border-zinc-200 transition hover:text-zinc-50"
+                class="border-b transition border-zinc-200 hover:text-zinc-50"
                 >highly requested product</a
               >
               by our community. We've been listening and are excited to announce
@@ -289,7 +288,7 @@
               <a
                 href="https://github.com/hoppscotch/hoppscotch"
                 target="_blank"
-                class="border-b border-zinc-200 transition hover:text-zinc-50"
+                class="border-b transition border-zinc-200 hover:text-zinc-50"
                 >GitHub repository</a
               >.
             </p>

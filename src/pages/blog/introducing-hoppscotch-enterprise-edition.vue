@@ -160,7 +160,7 @@
               <a
                 href="https://cal.com/hoppscotch/enterprise-demo"
                 target="_blank"
-                class="border-b border-zinc-200 transition hover:text-zinc-50"
+                class="border-b transition border-zinc-200 hover:text-zinc-50"
                 >book a demo</a
               >
               with us today to witness the transformation that Hoppscotch

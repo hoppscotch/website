@@ -1,5 +1,18 @@
 [
   {
+    "slug": "better-api-testing-capabilities-and-more",
+    "title": "Better API testing capabilities and more",
+    "description": "We're excited to share what we've been working on the past few months with the launch of our latest release, Hoppscotch v2023.12.0.",
+    "banner": "blog-better-api-testing-capabilities-and-more.png",
+    "date": "2023-12-19",
+    "author": {
+      "name": "Kiran Johns",
+      "image": "blog-author-02.jpg"
+    },
+    "styles": "md:col-span-12",
+    "tags": ["Product", "Engineering"]
+  },
+  {
     "slug": "introducing-hoppscotch-desktop-application",
     "title": "Introducing Hoppscotch Desktop Application",
     "description": "The Hoppscotch Desktop app has been a highly requested product by our community. We're excited to announce that the day has finally arrived.",
