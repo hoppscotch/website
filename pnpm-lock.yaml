@@ -45,7 +45,7 @@ dependencies:
     specifier: ^0.25.2
     version: 0.25.2(vite@5.0.10)
   vue:
-    specifier: ^3.3.13
+    specifier: ^3.3.12
     version: 3.3.13(typescript@5.3.3)
   vue-gtag:
     specifier: ^2.0.1
@@ -119,7 +119,7 @@ devDependencies:
     specifier: ^35.0.0
     version: 35.0.0(stylelint@16.0.2)
   tailwindcss:
-    specifier: ^3.3.7
+    specifier: ^3.3.6
     version: 3.3.7
   typescript:
     specifier: ^5.3.3
