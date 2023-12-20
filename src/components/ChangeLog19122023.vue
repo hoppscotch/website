@@ -122,7 +122,7 @@
         >
           <li class="pl-4">Replaced WindiCSS with TailwindCSS.</li>
           <li class="pl-4">
-            Sisplay status text from the API response if available.
+            Display status text from the API response if available.
           </li>
         </ul>
         <h5 class="flex items-center">
