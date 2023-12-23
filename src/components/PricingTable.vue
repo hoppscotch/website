@@ -98,7 +98,8 @@
             Affordable Plans for Everyone
           </h2>
           <p class="text-zinc-400/80">
-            Begin your API testing for free, upgrade as you grow.
+            Hoppscotch is free to use for everyone. We also offer paid plans
+            with additional features and support.
           </p>
         </div>
         <!-- Pricing tabs -->
@@ -106,7 +107,7 @@
           <!-- Tabs -->
           <div class="flex justify-center mb-16">
             <fieldset
-              class="p-1 text-xs font-semibold text-center rounded-full text-zinc-400 bg-zinc-900 grid grid-cols-2"
+              class="p-1 text-xs font-semibold text-center rounded-full grid grid-cols-2 text-zinc-400 bg-zinc-900"
             >
               <legend class="sr-only">Platform</legend>
               <label

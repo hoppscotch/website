@@ -58,8 +58,8 @@
         <BlogPostHeader />
         <!-- Blog content -->
         <article class="flex flex-col items-center space-y-8">
-          <header class="flex flex-col w-full max-w-2xl">
-            <div class="mb-4">
+          <header class="flex flex-col w-full max-w-xl">
+            <div class="mb-4 text-white">
               <ul class="flex flex-wrap items-center -m-1 text-sm">
                 <li class="m-1">
                   <span
@@ -100,14 +100,14 @@
           </header>
           <section class="max-w-4xl">
             <ImageZoom
-              class="w-full h-full rounded-xl"
+              class="w-full h-full rounded md:rounded-xl"
               src="/images/blog-introducing-hoppscotch-enterprise-edition.png"
               width="352"
               height="198"
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-zinc-200/80">
+          <section class="max-w-xl text-zinc-200/80">
             <p class="mt-4 mb-8">
               We are thrilled to reveal our Hoppscotch August Release, version
               2023.8.0! Our dedicated team has been working tirelessly to bring
@@ -117,7 +117,9 @@
               heights, and we cannot wait for you to explore the transformative
               power it brings.
             </p>
-            <h4 class="mb-4">Hoppscotch Self-Host Enterprise Edition</h4>
+            <h4 class="mb-4 text-white">
+              Hoppscotch Self-Host Enterprise Edition
+            </h4>
             <p class="mt-4 mb-8">
               Hoppscotch is one of the most beloved API testing tools available,
               and our community has consistently expressed their desire to see
@@ -131,12 +133,12 @@
           </section>
           <section class="max-w-4xl">
             <ImageZoom
-              class="w-full h-full rounded-xl"
+              class="w-full h-full rounded md:rounded-xl"
               src="/images/blog-introducing-hoppscotch-enterprise-edition-1.png"
               alt="News"
             />
           </section>
-          <section class="max-w-2xl text-zinc-200/80">
+          <section class="max-w-xl text-zinc-200/80">
             <p class="mt-4 mb-8">
               But that's not all – the Hoppscotch Self-Host Enterprise edition
               comes with a treasure trove of additional features including:
@@ -169,13 +171,15 @@
           </section>
           <section class="max-w-4xl">
             <ImageZoom
-              class="w-full h-full rounded-xl"
+              class="w-full h-full rounded md:rounded-xl"
               src="/images/blog-introducing-hoppscotch-enterprise-edition-2.png"
               alt="News"
             />
           </section>
-          <section class="max-w-2xl text-zinc-200/80">
-            <h4 class="mb-4">Spotlight — New way to navigate Hoppscotch</h4>
+          <section class="max-w-xl text-zinc-200/80">
+            <h4 class="mb-4 text-white">
+              Spotlight — New way to navigate Hoppscotch
+            </h4>
             <p class="mt-4 mb-8">
               Introducing Spotlight Search, a new way to interact with
               Hoppscotch. No more navigating through complex menus or searching
@@ -189,7 +193,9 @@
             <hr
               class="h-px my-12 border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
-            <h4 class="mb-4">Inspections — Debug your APIs with ease</h4>
+            <h4 class="mb-4 text-white">
+              Inspections — Debug your APIs with ease
+            </h4>
             <p class="mt-4 mb-8">
               Hoppscotch now comes equipped with the Inspections feature that
               not only alerts you to misconfiguration but also guides you toward
@@ -200,7 +206,9 @@
             <hr
               class="h-px my-12 border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
-            <h4 class="mb-4">Context Menus — Assist content-aware actions</h4>
+            <h4 class="mb-4 text-white">
+              Context Menus — Assist content-aware actions
+            </h4>
             <p class="mt-4 mb-8">
               Context-aware menus assist you in swiftly executing actions on
               text and elements. Just select a piece of text and hover over it
@@ -215,7 +223,7 @@
             <hr
               class="h-px my-12 border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
-            <h4 class="mb-4">GraphQL Client — Upgraded for speed</h4>
+            <h4 class="mb-4 text-white">GraphQL Client — Upgraded for speed</h4>
             <p class="mt-4 mb-8">
               Embrace a superior GraphQL experience with this release. Enjoy tab
               support for working on different connections and seamlessly switch

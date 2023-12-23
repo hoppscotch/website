@@ -64,8 +64,8 @@
         </div>
         <!-- Page content -->
         <article class="flex flex-col items-center space-y-8">
-          <header class="flex flex-col w-full max-w-2xl">
-            <div class="mb-4">
+          <header class="flex flex-col w-full max-w-xl">
+            <div class="mb-4 text-white">
               <ul class="flex flex-wrap -m-1 text-sm">
                 <li class="m-1">
                   <span
@@ -85,7 +85,7 @@
               </span>
             </h3>
           </header>
-          <section class="max-w-2xl text-zinc-200/80">
+          <section class="max-w-xl text-zinc-200/80">
             <p class="mt-4 mb-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -96,14 +96,14 @@
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur.
             </p>
-            <h4 class="mb-4">Lorem ipsum dolor sit amet</h4>
+            <h4 class="mb-4 text-white">Lorem ipsum dolor sit amet</h4>
             <p class="mt-4 mb-8">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
               amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua.
             </p>
-            <h4 class="mb-4">Lorem sit amet</h4>
+            <h4 class="mb-4 text-white">Lorem sit amet</h4>
             <p class="mt-4 mb-8">
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
@@ -117,7 +117,7 @@
               amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua.
             </p>
-            <h4 class="mb-4">Lorem ipsum dolor sit amet</h4>
+            <h4 class="mb-4 text-white">Lorem ipsum dolor sit amet</h4>
             <p class="mt-4 mb-8">
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
@@ -131,7 +131,7 @@
               amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua.
             </p>
-            <h4 class="mb-4">Lorem sit amet</h4>
+            <h4 class="mb-4 text-white">Lorem sit amet</h4>
             <p class="mt-4 mb-8">
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in

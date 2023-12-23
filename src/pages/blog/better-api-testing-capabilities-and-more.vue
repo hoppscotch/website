@@ -59,8 +59,8 @@
         <BlogPostHeader />
         <!-- Blog content -->
         <article class="flex flex-col items-center space-y-8">
-          <header class="flex flex-col w-full max-w-2xl">
-            <div class="mb-4">
+          <header class="flex flex-col w-full max-w-xl">
+            <div class="mb-4 text-white">
               <ul class="flex flex-wrap items-center -m-1 text-sm">
                 <li class="m-1">
                   <span
@@ -101,14 +101,14 @@
           </header>
           <section class="max-w-4xl">
             <ImageZoom
-              class="w-full h-full rounded-xl"
+              class="w-full h-full rounded md:rounded-xl"
               src="/images/blog-better-api-testing-capabilities-and-more.png"
               width="352"
               height="198"
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-zinc-200/80">
+          <section class="max-w-xl text-zinc-200/80">
             <p class="mt-4 mb-8">
               At Hoppscotch, we're creating an API development ecosystem to help
               you ship software faster. Easily test your APIs anytime,
@@ -123,7 +123,9 @@
               API testing capabilities, collaboration features, and an overall
               improved app experience and performance!
             </p>
-            <h4 class="mb-4">Collection-level authorization and header</h4>
+            <h4 class="mb-4 text-white">
+              Collection-level authorization and header
+            </h4>
             <p class="mt-4 mb-8">
               When working with numerous requests within a collection, setting
               authorization and header configurations for each request with
@@ -136,19 +138,21 @@
           </section>
           <section class="max-w-4xl">
             <ImageZoom
-              class="w-full h-full rounded-xl"
+              class="w-full h-full rounded md:rounded-xl"
               src="/images/blog-collection-level-headers-and-auth.png"
               width="352"
               height="198"
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-zinc-200/80">
+          <section class="max-w-xl text-zinc-200/80">
             <p class="mt-4 mb-8">
               Requests or folders within the collection can choose to either
               inherit the properties of the root collection or override them.
             </p>
-            <h4 class="mb-4">Easily share your API requests with anyone</h4>
+            <h4 class="mb-4 text-white">
+              Easily share your API requests with anyone
+            </h4>
             <p class="mt-4 mb-8">
               Sharing your work is now easier than ever! With our enhanced
               experience for sharing a request, you can simply right-click on
@@ -173,14 +177,14 @@
           </section>
           <section class="max-w-4xl">
             <ImageZoom
-              class="w-full h-full rounded-xl"
+              class="w-full h-full rounded md:rounded-xl"
               src="/images/blog-shared-requests-widgets.png"
               width="352"
               height="198"
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-zinc-200/80">
+          <section class="max-w-xl text-zinc-200/80">
             <p class="mt-4 mb-8">
               Sharing a request doesn't grant others access to the original
               data; it simply provides them with a copy to use. Therefore, if a
@@ -188,7 +192,7 @@
               function properly, and it is advisable to replace the environment
               variable with its corresponding value before sharing.
             </p>
-            <h4 class="mb-4">
+            <h4 class="mb-4 text-white">
               Easily manage your self-hosted server configurations
             </h4>
             <p class="mt-4 mb-8">

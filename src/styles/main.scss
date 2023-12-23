@@ -39,7 +39,7 @@ html {
   @apply z-40 #{!important};
 }
 .medium-zoom-image--opened {
-  @apply rounded-md #{!important};
+  @apply rounded md:rounded-xl #{!important};
   @apply z-50 #{!important};
   @apply p-0 #{!important};
   @apply border-0 #{!important};

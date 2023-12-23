@@ -32,11 +32,11 @@
         <header>
           <RouterLink
             :to="`/blog/${blog.slug}`"
-            class="relative block w-full mb-4 aspect-video rounded-xl"
+            class="relative block w-full mb-4 rounded aspect-video md:rounded-xl"
           >
             <img
               loading="lazy"
-              class="absolute inset-0 object-cover w-full h-full transition duration-500 rounded-xl"
+              class="absolute inset-0 object-cover w-full h-full rounded transition duration-500 md:rounded-xl"
               :src="`/images/${blog.banner}`"
               width="352"
               height="198"
@@ -61,7 +61,7 @@
           <h4 class="w-4/5 mb-4">
             <RouterLink
               :to="`/blog/${blog.slug}`"
-              class="text-zinc-200 transition hover:text-zinc-100"
+              class="transition text-zinc-200 hover:text-zinc-100"
             >
               {{ blog.title }}
             </RouterLink>

@@ -1,5 +1,18 @@
 [
   {
+    "slug": "hoppscotch-wrapped-2023",
+    "title": "Hoppscotch Wrapped 2023",
+    "description": "2023 has been an exciting and productive year for us here at Hoppscotch. We look back on a year of progress and momentum with dozens of new features, hundreds of fixes and improvements, and thousands of happy customers.",
+    "banner": "blog-hoppscotch-wrapped-2023.png",
+    "date": "2023-12-23",
+    "author": {
+      "name": "Liyas Thomas",
+      "image": "blog-author-01.jpg"
+    },
+    "styles": "md:col-span-12",
+    "tags": ["Product"]
+  },
+  {
     "slug": "better-api-testing-capabilities-and-more",
     "title": "Hoppscotch v2023.12.0: Better API testing capabilities and more",
     "description": "We're excited to share what we've been working on the past few months with the launch of our latest release, Hoppscotch v2023.12.0.",
@@ -9,7 +22,7 @@
       "name": "Kiran Johns",
       "image": "blog-author-02.jpg"
     },
-    "styles": "md:col-span-12",
+    "styles": "md:col-span-6",
     "tags": ["Product", "Engineering"]
   },
   {
@@ -35,7 +48,7 @@
       "name": "Liyas Thomas",
       "image": "blog-author-01.jpg"
     },
-    "styles": "md:col-span-6",
+    "styles": "md:col-span-12",
     "tags": ["Product", "Engineering"]
   }
 ]

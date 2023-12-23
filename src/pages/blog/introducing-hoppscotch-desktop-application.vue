@@ -58,8 +58,8 @@
         <BlogPostHeader />
         <!-- Blog content -->
         <article class="flex flex-col items-center space-y-8">
-          <header class="flex flex-col w-full max-w-2xl">
-            <div class="mb-4">
+          <header class="flex flex-col w-full max-w-xl">
+            <div class="mb-4 text-white">
               <ul class="flex flex-wrap items-center -m-1 text-sm">
                 <li class="m-1">
                   <span
@@ -106,14 +106,14 @@
           </header>
           <section class="max-w-4xl">
             <ImageZoom
-              class="w-full h-full rounded-xl"
+              class="w-full h-full rounded md:rounded-xl"
               src="/images/blog-introducing-hoppscotch-desktop-application.png"
               width="352"
               height="198"
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-zinc-200/80">
+          <section class="max-w-xl text-zinc-200/80">
             <p class="mt-4 mb-8">
               The Hoppscotch Desktop app has been a
               <a
@@ -141,14 +141,14 @@
           </section>
           <section class="max-w-4xl">
             <ImageZoom
-              class="w-full h-full rounded-xl"
+              class="w-full h-full rounded md:rounded-xl"
               src="/images/blog-introducing-hoppscotch-desktop-application-1.png"
               width="352"
               height="198"
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-zinc-200/80">
+          <section class="max-w-xl text-zinc-200/80">
             <p class="mt-4 mb-8">
               Just over a year ago, we shared our ambitious plans to develop a
               dedicated desktop app that would enhance your API testing and
@@ -174,7 +174,7 @@
               performance and easy-to-use interface, Hoppscotch Desktop is the
               app you need for your API development.
             </p>
-            <h4 class="mb-4">Game-Changer for API Testing</h4>
+            <h4 class="mb-4 text-white">Game-Changer for API Testing</h4>
             <p class="mt-4 mb-8">
               The Hoppscotch Desktop app is built on the robust Tauri framework
               using Rust, which redefines the API client experience. With its
@@ -190,7 +190,7 @@
           </section>
           <section class="max-w-4xl">
             <ImageZoom
-              class="w-full h-full rounded-xl"
+              class="w-full h-full rounded md:rounded-xl"
               src="/images/blog-introducing-hoppscotch-desktop-application-2.png"
               width="352"
               height="198"
@@ -204,7 +204,7 @@
               the window becomes responsive after all the loading.
             </p>
           </section>
-          <section class="max-w-2xl text-zinc-200/80">
+          <section class="max-w-xl text-zinc-200/80">
             <p class="mt-4 mb-8">
               Hoppscotch is 10x faster than Postman and 6x faster than Insomnia
               in terms of startup time. There's a lot more optimizing to be done
@@ -220,14 +220,14 @@
           </section>
           <section class="max-w-4xl">
             <ImageZoom
-              class="w-full h-full rounded-xl"
+              class="w-full h-full rounded md:rounded-xl"
               src="/images/blog-introducing-hoppscotch-desktop-application-3.png"
               width="352"
               height="198"
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-zinc-200/80">
+          <section class="max-w-xl text-zinc-200/80">
             <p class="mt-4 mb-8">
               Security is paramount for us, and the Hoppscotch app takes this
               seriously. By default, Hoppscotch is sandboxed, safeguarding your
@@ -238,7 +238,7 @@
               The Hoppscotch Desktop app doesn't just meet expectations, it sets
               new standards in performance, optimization, and security.
             </p>
-            <h4 class="mb-4">Here's a Cookie</h4>
+            <h4 class="mb-4 text-white">Here's a Cookie</h4>
             <p class="mt-4 mb-8">
               With the desktop app, you can now have cookie support for your
               requests. With the new Cookie Manager, you can add a domain and
@@ -249,18 +249,18 @@
           </section>
           <section class="max-w-4xl">
             <ImageZoom
-              class="w-full h-full rounded-xl"
+              class="w-full h-full rounded md:rounded-xl"
               src="/images/blog-introducing-hoppscotch-desktop-application-4.png"
               width="352"
               height="198"
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-zinc-200/80">
+          <section class="max-w-xl text-zinc-200/80">
             <hr
               class="h-px my-12 border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
-            <h4 class="mb-4">Get Hoppscotch Desktop App now!</h4>
+            <h4 class="mb-4 text-white">Get Hoppscotch Desktop App now!</h4>
             <p class="mt-4 mb-8">
               For this alpha release, Hoppscotch is now available for download
               on macOS (Intel & Apple Silicon), Windows, and Linux. You can
@@ -270,7 +270,7 @@
           <section class="max-w-4xl">
             <RouterLink to="/download">
               <img
-                class="w-full h-full rounded-xl"
+                class="w-full h-full rounded md:rounded-xl"
                 src="/images/blog-introducing-hoppscotch-desktop-application-5.png"
                 width="352"
                 height="198"
@@ -278,7 +278,7 @@
               />
             </RouterLink>
           </section>
-          <section class="max-w-2xl text-zinc-200/80">
+          <section class="max-w-xl text-zinc-200/80">
             <p class="mt-4 mb-8 text-xs italic">
               *The Hoppscotch Desktop App is currently in alpha. This means that
               it is not yet feature-complete and may contain bugs. We are
@@ -307,14 +307,14 @@
           </section>
           <section class="max-w-4xl">
             <ImageZoom
-              class="w-full h-full rounded-xl"
+              class="w-full h-full rounded md:rounded-xl"
               src="/images/blog-introducing-hoppscotch-desktop-application-6.png"
               width="352"
               height="198"
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-zinc-200/80">
+          <section class="max-w-xl text-zinc-200/80">
             <p class="mt-4 mb-8">
               The Hoppscotch desktop app has unlocked a lot of possibilities for
               what we can achieve. Some potential possibilities include local
@@ -331,7 +331,7 @@
             <hr
               class="h-px my-12 border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
-            <h4 class="mb-4">A Fresh New Look and Identity</h4>
+            <h4 class="mb-4 text-white">A Fresh New Look and Identity</h4>
             <p class="mt-4 mb-8">
               Hoppscotch has now grown beyond being just an alternative product.
               Our vision today is to build an ecosystem of tools around the
@@ -347,21 +347,21 @@
           </section>
           <section class="max-w-4xl">
             <ImageZoom
-              class="w-full h-full rounded-xl"
+              class="w-full h-full rounded md:rounded-xl"
               src="/images/blog-introducing-hoppscotch-desktop-application-7.png"
               width="352"
               height="198"
               alt="News 01"
             />
             <ImageZoom
-              class="w-full h-full rounded-xl"
+              class="w-full h-full rounded md:rounded-xl"
               src="/images/blog-introducing-hoppscotch-desktop-application-8.png"
               width="352"
               height="198"
               alt="News 01"
             />
           </section>
-          <section class="max-w-2xl text-zinc-200/80">
+          <section class="max-w-xl text-zinc-200/80">
             <p class="mt-4 mb-8">
               Thank you for joining us on this exciting journey as we introduce
               the Hoppscotch Desktop App as well as our new brand identity. It
