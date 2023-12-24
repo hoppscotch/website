@@ -23,7 +23,7 @@
       id: "tier-enterprise",
       cta: "Join waitlist",
       href: "https://forms.gle/XPYDMp8m6JHNWcYp9",
-      price: "Coming soon!",
+      price: "Coming soon",
       unit: "",
       description:
         "Crafted for teams and enterprises seeking an unparalleled API testing experience.",

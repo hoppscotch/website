@@ -1,12 +1,3 @@
-<!-- <script setup lang="ts">
-  const videoModalOpen = ref(false)
-  const video = ref<HTMLVideoElement | null>(null)
-
-  watch(videoModalOpen, () => {
-    videoModalOpen.value ? video.value?.play() : video.value?.pause()
-  })
-</script> -->
-
 <template>
   <section>
     <div class="relative max-w-5xl px-4 mx-auto overflow-y-clip sm:px-6">
@@ -78,10 +69,10 @@
             class="relative inline-flex p-px overflow-hidden rounded-lg md:rounded-xl"
           >
             <span
-              class="absolute inset-[-1000%] animate-[spin_16s_linear_infinite] bg-[conic-gradient(from_225deg_at_50%_50%,_theme(colors.transparent)_0%,_theme(colors.transparent)_92%,_theme(colors.zinc.600)_97%,_theme(colors.zinc.400)_100%)]"
+              class="absolute inset-[-1000%] animate-[spin_16s_linear_infinite] bg-[conic-gradient(from_225deg_at_50%_50%,_theme(colors.transparent)_0%,_theme(colors.transparent)_92%,_theme(colors.zinc.600)_97%,_theme(colors.transparent)_100%)]"
             ></span>
             <span
-              class="absolute inset-[-1000%] animate-[spin_16s_linear_infinite_8s] bg-[conic-gradient(from_225deg_at_50%_50%,_theme(colors.transparent)_0%,_theme(colors.transparent)_92%,_theme(colors.zinc.600)_97%,_theme(colors.zinc.400)_100%)]"
+              class="absolute inset-[-1000%] animate-[spin_16s_linear_infinite_8s] bg-[conic-gradient(from_225deg_at_50%_50%,_theme(colors.transparent)_0%,_theme(colors.transparent)_92%,_theme(colors.zinc.600)_97%,_theme(colors.transparent)_100%)]"
             ></span>
             <div
               class="relative inline-flex items-center justify-center w-full h-full rounded-lg bg-zinc-950 ring ring-zinc-500/25 md:rounded-xl"
@@ -89,62 +80,29 @@
               <img
                 src="/images/hero-screenshot.png"
                 alt="Screenshot"
-                class="rounded-[inherit]"
+                class="rounded-[inherit] opacity-45 grayscale"
               />
             </div>
           </div>
-          <!-- Video modal trigger -->
+          <!-- CTA trigger -->
           <div
             class="absolute inset-0 flex items-center justify-center bg-gradient-to-b from-transparent to-zinc-950 to-95%"
           >
-            <!-- <button
+            <a
+              href="https://hoppscotch.io"
+              target="_blank"
+              rel="noopener noreferrer"
               class="overflow-hidden border rounded-full shadow-xl transition border-zinc-500/10 bg-zinc-500/10 backdrop-blur-md group hover:scale-110"
-              @click.stop="videoModalOpen = true"
             >
               <div
                 class="flex items-center justify-center p-6 m-4 border rounded-full shadow-xl transition text-zinc-50 border-zinc-500/90 backdrop-blur-md bg-gradient-to-b from-zinc-500/50 to-zinc-900/10 group-hover:scale-105"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 20 20"
-                  class="text-zinc-200"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M6.3 2.841A1.5 1.5 0 0 0 4 4.11v11.78a1.5 1.5 0 0 0 2.3 1.269l9.344-5.89a1.5 1.5 0 0 0 0-2.538L6.3 2.84Z"
-                  />
-                </svg>
+                <icon-lucide-arrow-up-right />
               </div>
-            </button> -->
+            </a>
           </div>
         </div>
       </div>
     </div>
-    <!-- <Modal
-      id="video-modal"
-      aria-label="modal-headline"
-      :modal-open="videoModalOpen"
-      @close-modal="videoModalOpen = false"
-    >
-      <div class="p-1 border rounded-2xl bg-white/10 border-zinc-500/20">
-        <div
-          class="relative w-full h-full overflow-hidden border border-zinc-950 rounded-xl"
-        >
-          <video
-            ref="video"
-            className="w-full aspect-video"
-            width="1920"
-            height="1080"
-            loop
-            controls
-          >
-            <source src="/videos/promo.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      </div>
-    </Modal> -->
   </section>
 </template>

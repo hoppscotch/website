@@ -67,6 +67,7 @@ declare module "vue" {
     IconLucideArrowLeft: (typeof import("~icons/lucide/arrow-left"))["default"]
     IconLucideArrowRight: (typeof import("~icons/lucide/arrow-right"))["default"]
     IconLucideArrowUpDown: (typeof import("~icons/lucide/arrow-up-down"))["default"]
+    IconLucideArrowUpRight: (typeof import("~icons/lucide/arrow-up-right"))["default"]
     IconLucideBadgeCheck: (typeof import("~icons/lucide/badge-check"))["default"]
     IconLucideCable: (typeof import("~icons/lucide/cable"))["default"]
     IconLucideCheck: (typeof import("~icons/lucide/check"))["default"]
