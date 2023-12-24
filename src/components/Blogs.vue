@@ -11,12 +11,7 @@
           </h2>
           <p class="text-zinc-400/80">Updates from the Hoppscotch team.</p>
           <p class="mt-4 text-sm">
-            <RouterLink
-              :to="{ path: '', hash: '#newsletter' }"
-              class="rounded transition text-zinc-400/60 hover:text-zinc-400/80"
-            >
-              Subscribe to updates
-            </RouterLink>
+            <SubscribeToUpdates />
             <span class="mx-4 text-zinc-400/20">|</span>
             <a
               href="https://twitter.com/hoppscotch_io"

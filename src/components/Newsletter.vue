@@ -1,10 +1,10 @@
 <template>
   <div
     id="newsletter"
-    class="relative flex flex-col items-center max-w-5xl px-4 py-12 mx-auto before:absolute before:h-px before:inset-x-0 before:top-0 before:bg-gradient-to-r before:from-transparent before:via-zinc-500/20"
+    class="relative flex flex-col items-center max-w-5xl p-10 mx-auto before:absolute before:h-px before:inset-x-0 before:top-0 before:bg-gradient-to-r before:from-transparent before:via-zinc-500/20"
   >
     <h4
-      class="block pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
+      class="block pb-4 text-center text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
     >
       Subscribe to our newsletter
     </h4>

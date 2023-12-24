@@ -13,12 +13,7 @@
             New updates and improvements to Hoppscotch.
           </p>
           <p class="mt-4 text-sm">
-            <RouterLink
-              :to="{ path: '', hash: '#newsletter' }"
-              class="rounded transition text-zinc-400/60 hover:text-zinc-400/80"
-            >
-              Subscribe to updates
-            </RouterLink>
+            <SubscribeToUpdates />
             <span class="mx-4 text-zinc-400/20">|</span>
             <a
               href="https://twitter.com/hoppscotch_io"
@@ -30,6 +25,7 @@
           </p>
         </div>
         <!-- Logs -->
+        <ChangeLog24122023 />
         <ChangeLog19122023 />
         <ChangeLog14112023 />
         <ChangeLog08112023 />

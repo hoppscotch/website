@@ -15,12 +15,7 @@
       Back
     </RouterLink>
     <span class="flex items-center text-sm">
-      <RouterLink
-        :to="{ path: '', hash: '#newsletter' }"
-        class="rounded transition text-zinc-400/60 hover:text-zinc-400/80"
-      >
-        Subscribe to updates
-      </RouterLink>
+      <SubscribeToUpdates />
       <span class="mx-4 text-zinc-400/20">|</span>
       <a
         v-tippy="{

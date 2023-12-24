@@ -101,7 +101,7 @@
     >
       <div
         ref="modalContent"
-        class="relative flex flex-col items-center justify-center w-full max-w-6xl max-h-full overflow-auto"
+        class="relative flex flex-col items-center justify-center w-auto max-w-6xl max-h-full overflow-auto"
       >
         <button
           class="p-1 mb-4 border rounded-full transition border-zinc-500/20 hover:border-zinc-400/25 bg-white/10"
