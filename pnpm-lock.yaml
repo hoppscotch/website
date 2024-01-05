@@ -20,6 +20,9 @@ dependencies:
   "@unhead/addons":
     specifier: ^1.8.9
     version: 1.8.9
+  "@unhead/vue":
+    specifier: ^1.8.9
+    version: 1.8.9(vue@3.4.5)
   "@vueuse/core":
     specifier: ^10.7.1
     version: 10.7.1(vue@3.4.5)
@@ -50,6 +53,9 @@ dependencies:
   vue-gtag:
     specifier: ^2.0.1
     version: 2.0.1(vue@3.4.5)
+  vue-router:
+    specifier: ^4.2.5
+    version: 4.2.5(vue@3.4.5)
   vue-tippy:
     specifier: ^6.4.1
     version: 6.4.1(vue@3.4.5)
@@ -64,9 +70,6 @@ devDependencies:
   "@typescript-eslint/parser":
     specifier: ^6.17.0
     version: 6.17.0(eslint@8.56.0)(typescript@5.3.3)
-  "@unhead/vue":
-    specifier: ^1.8.9
-    version: 1.8.9(vue@3.4.5)
   "@vitejs/plugin-vue":
     specifier: ^5.0.2
     version: 5.0.2(vite@5.0.11)(vue@3.4.5)
@@ -154,9 +157,6 @@ devDependencies:
   vue-eslint-parser:
     specifier: ^9.3.2
     version: 9.3.2(eslint@8.56.0)
-  vue-router:
-    specifier: ^4.2.5
-    version: 4.2.5(vue@3.4.5)
   vue-tsc:
     specifier: ^1.8.27
     version: 1.8.27(typescript@5.3.3)
@@ -1504,7 +1504,6 @@ packages:
     dependencies:
       "@unhead/schema": 1.8.9
       "@unhead/shared": 1.8.9
-    dev: true
 
   /@unhead/schema@1.8.9:
     resolution:
@@ -1536,7 +1535,6 @@ packages:
       hookable: 5.5.3
       unhead: 1.8.9
       vue: 3.4.5(typescript@5.3.3)
-    dev: true
 
   /@vitejs/plugin-vue@5.0.2(vite@5.0.11)(vue@3.4.5):
     resolution:
@@ -1654,7 +1652,6 @@ packages:
       {
         integrity: sha512-+KpckaAQyfbvshdDW5xQylLni1asvNSGme1JFs8I1+/H5pHEhqUKMEQD/qn3Nx5+/nycBq11qAEi8lk+LXI2dA==,
       }
-    dev: true
 
   /@vue/language-core@1.8.27(typescript@5.3.3):
     resolution:
@@ -6588,7 +6585,6 @@ packages:
       "@unhead/schema": 1.8.9
       "@unhead/shared": 1.8.9
       hookable: 5.5.3
-    dev: true
 
   /unicorn-magic@0.1.0:
     resolution:
@@ -7097,7 +7093,6 @@ packages:
     dependencies:
       "@vue/devtools-api": 6.5.1
       vue: 3.4.5(typescript@5.3.3)
-    dev: true
 
   /vue-template-compiler@2.7.16:
     resolution:
