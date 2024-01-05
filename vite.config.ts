@@ -4,7 +4,6 @@ import Vue from "@vitejs/plugin-vue"
 import Icons from "unplugin-icons/vite"
 import IconsResolver from "unplugin-icons/resolver"
 import Components from "unplugin-vue-components/vite"
-import Pages from "vite-plugin-pages"
 import Layouts from "vite-plugin-vue-layouts"
 import generateSitemap from "vite-ssg-sitemap"
 import { unheadVueComposablesImports } from "@unhead/vue"
@@ -15,6 +14,8 @@ import { defineConfig } from "vite"
 import Unfonts from "unplugin-fonts/vite"
 import type { ViteSSGOptions } from "vite-ssg"
 import Markdown from "unplugin-vue-markdown/vite"
+import VueRouter from "unplugin-vue-router/vite"
+import { VueRouterAutoImports } from "unplugin-vue-router"
 
 const ssgOptions: ViteSSGOptions = {
   script: "async",
@@ -36,12 +37,11 @@ export default defineConfig({
   },
 
   plugins: [
+    VueRouter({
+      extensions: [".vue", ".md"],
+    }),
     Vue({
       include: [/\.vue$/, /\.md$/],
-    }),
-    // https://github.com/hannoeru/vite-plugin-pages
-    Pages({
-      extensions: ["vue", "md"],
     }),
     // https://github.com/JohnCampionJr/vite-plugin-vue-layouts
     Layouts(),
@@ -68,9 +68,13 @@ export default defineConfig({
       },
       imports: [
         "vue",
-        "vue-router",
         "@vueuse/core",
         unheadVueComposablesImports,
+        VueRouterAutoImports,
+        {
+          // add any other imports you were relying on
+          "vue-router/auto": ["useLink"],
+        },
       ],
       resolvers: [ElementPlusResolver()],
       vueTemplate: true,

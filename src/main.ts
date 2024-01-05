@@ -2,7 +2,7 @@ import { ViteSSG } from "vite-ssg"
 import VueGtag from "vue-gtag"
 import VueTippy, { roundArrow } from "vue-tippy"
 import { setupLayouts } from "virtual:generated-layouts"
-import generatedRoutes from "virtual:generated-pages"
+import { routes } from "vue-router/auto/routes"
 import { MotionPlugin } from "@vueuse/motion"
 import { GesturePlugin } from "@vueuse/gesture"
 import App from "./App.vue"
@@ -19,7 +19,7 @@ NProgress.configure({ showSpinner: false })
 export const createApp = ViteSSG(
   App,
   {
-    routes: setupLayouts(generatedRoutes),
+    routes: setupLayouts(routes),
     base: import.meta.env.BASE_URL,
     scrollBehavior(to, _from, _savedPosition) {
       if (to.hash) {

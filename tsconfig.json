@@ -2,7 +2,6 @@
   "compilerOptions": {
     "types": [
       "vite/client",
-      "vite-plugin-pages/client",
       "vite-plugin-vue-layouts/client",
       "unplugin-icons/types/vue",
       "node"
@@ -35,7 +34,8 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "components.d.ts",
-    "auto-imports.d.ts"
+    "auto-imports.d.ts",
+    "typed-router.d.ts"
   ],
   "exclude": ["node_modules", "dist"],
   "references": [{ "path": "./tsconfig.node.json" }]
