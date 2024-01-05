@@ -2,3 +2,8 @@
 included_files = ["./netlify/functions/templates/**"]
 node_bundler = "esbuild"
 external_node_modules = ["@sparticuz/chromium"]
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
