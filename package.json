@@ -27,8 +27,8 @@
     "puppeteer-core": "~21.7.0",
     "unplugin-vue-markdown": "^0.25.2",
     "vue": "^3.4.5",
-    "vue-router": "^4.2.5",
     "vue-gtag": "^2.0.1",
+    "vue-router": "^4.2.5",
     "vue-tippy": "^6.4.1"
   },
   "devDependencies": {
@@ -60,7 +60,7 @@
     "unplugin-vue-components": "^0.26.0",
     "unplugin-vue-router": "^0.7.0",
     "vite": "^5.0.11",
-    "vite-plugin-vue-layouts": "^0.10.0",
+    "vite-plugin-vue-layouts": "^0.11.0",
     "vite-ssg": "^0.23.6",
     "vite-ssg-sitemap": "^0.6.1",
     "vue-eslint-parser": "^9.3.2",
