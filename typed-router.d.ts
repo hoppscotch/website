@@ -232,6 +232,12 @@ declare module "vue-router/auto/routes" {
       Record<never, never>,
       Record<never, never>
     >
+    "/Index": RouteRecordInfo<
+      "/Index",
+      "/Index",
+      Record<never, never>,
+      Record<never, never>
+    >
     "/pricing": RouteRecordInfo<
       "/pricing",
       "/pricing",
