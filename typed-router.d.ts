@@ -82,6 +82,12 @@ declare module "vue-router/auto/routes" {
       Record<never, never>,
       Record<never, never>
     >
+    "/blog/introducing-secret-variables": RouteRecordInfo<
+      "/blog/introducing-secret-variables",
+      "/blog/introducing-secret-variables",
+      Record<never, never>,
+      Record<never, never>
+    >
     "/blog/sample-post": RouteRecordInfo<
       "/blog/sample-post",
       "/blog/sample-post",
