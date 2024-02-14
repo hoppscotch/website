@@ -1,5 +1,18 @@
 [
   {
+    "slug": "introducing-secret-variables",
+    "title": "Introducing secret variables in Hoppscotch Environments",
+    "description": "Making it easy for you to manage sensitive information such as tokens, API keys, and passwords. Secrets not only enhance the security of managing your secrets but also prevent accidental sharing with third parties.",
+    "banner": "blog-secret-variables.png",
+    "date": "2024-02-14",
+    "author": {
+      "name": "Kiran johns",
+      "image": "blog-author-02.jpg"
+    },
+    "styles": "md:col-span-12",
+    "tags": ["Product"]
+  },
+  {
     "slug": "hoppscotch-wrapped-2023",
     "title": "Hoppscotch Wrapped 2023",
     "description": "2023 has been an exciting and productive year for us here at Hoppscotch. We look back on a year of progress and momentum with dozens of new features, hundreds of fixes and improvements, and thousands of happy customers.",
