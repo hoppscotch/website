@@ -2,7 +2,7 @@
   <section class="relative">
     <!-- Particles animation -->
     <div
-      class="absolute top-0 -mt-24 -ml-32 -translate-x-1/2 left-1/2 -z-10 w-80 h-80"
+      class="absolute left-1/2 top-0 -z-10 -ml-32 -mt-24 h-80 w-80 -translate-x-1/2"
     >
       <ClientOnly>
         <Particles
@@ -12,19 +12,19 @@
         />
       </ClientOnly>
     </div>
-    <div class="max-w-5xl px-4 mx-auto sm:px-6">
-      <div class="pt-32 pb-24">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6">
+      <div class="pb-24 pt-32">
         <!-- Section header -->
         <div
-          class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
+          class="mx-auto flex max-w-2xl flex-col items-center pb-12 text-center md:pb-20"
         >
           <span
-            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600"
+            class="mb-6 inline-flex max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600 bg-clip-text text-transparent"
           >
             Manifesto
           </span>
           <h2
-            class="block pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
+            class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text pb-4 text-transparent"
           >
             New Way to Build APIs
           </h2>
@@ -38,7 +38,7 @@
           <div class="py-8 first-of-type:pt-0 last-of-type:pb-0">
             <div>
               <div
-                class="inline-flex pb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-zinc-500 to-zinc-200"
+                class="inline-flex max-w-max bg-gradient-to-br from-zinc-500 to-zinc-200 bg-clip-text pb-6 text-transparent"
               >
                 Design
               </div>
@@ -46,7 +46,7 @@
             <div class="mb-2 grid gap-8 md:grid-cols-3 md:gap-12">
               <!-- Feature -->
               <div>
-                <div class="flex items-center mb-1 space-x-2">
+                <div class="mb-1 flex items-center space-x-2">
                   <icon-lucide-heart-handshake class="fill-zinc-200" />
                   <span class="text-zinc-100">Collaborate</span>
                 </div>
@@ -57,7 +57,7 @@
               </div>
               <!-- Feature -->
               <div>
-                <div class="flex items-center mb-1 space-x-2">
+                <div class="mb-1 flex items-center space-x-2">
                   <icon-lucide-database class="fill-zinc-200" />
                   <span class="text-zinc-100">Mock</span>
                 </div>
@@ -68,7 +68,7 @@
               </div>
               <!-- Feature -->
               <div>
-                <div class="flex items-center mb-1 space-x-2">
+                <div class="mb-1 flex items-center space-x-2">
                   <icon-lucide-file-check class="fill-zinc-200" />
                   <span class="text-zinc-100">Document</span>
                 </div>
@@ -82,7 +82,7 @@
           <div class="py-8">
             <div>
               <div
-                class="inline-flex pb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-zinc-500 to-zinc-200"
+                class="inline-flex max-w-max bg-gradient-to-br from-zinc-500 to-zinc-200 bg-clip-text pb-6 text-transparent"
               >
                 Develop
               </div>
@@ -90,7 +90,7 @@
             <div class="mb-2 grid gap-8 md:grid-cols-3 md:gap-12">
               <!-- Feature -->
               <div>
-                <div class="flex items-center mb-1 space-x-2">
+                <div class="mb-1 flex items-center space-x-2">
                   <icon-lucide-compass class="fill-zinc-200" />
                   <span class="text-zinc-100"> Discover </span>
                 </div>
@@ -100,7 +100,7 @@
               </div>
               <!-- Feature -->
               <div>
-                <div class="flex items-center mb-1 space-x-2">
+                <div class="mb-1 flex items-center space-x-2">
                   <icon-lucide-layers class="fill-zinc-200" />
                   <span class="text-zinc-100">Protocols</span>
                 </div>
@@ -110,7 +110,7 @@
               </div>
               <!-- Feature -->
               <div>
-                <div class="flex items-center mb-1 space-x-2">
+                <div class="mb-1 flex items-center space-x-2">
                   <icon-lucide-git-compare class="fill-zinc-200" />
                   <span class="text-zinc-100">Integrations</span>
                 </div>
@@ -124,7 +124,7 @@
           <div class="py-8">
             <div>
               <div
-                class="inline-flex pb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-zinc-500 to-zinc-200"
+                class="inline-flex max-w-max bg-gradient-to-br from-zinc-500 to-zinc-200 bg-clip-text pb-6 text-transparent"
               >
                 Test
               </div>
@@ -132,7 +132,7 @@
             <div class="mb-2 grid gap-8 md:grid-cols-3 md:gap-12">
               <!-- Feature -->
               <div>
-                <div class="flex items-center mb-1 space-x-2">
+                <div class="mb-1 flex items-center space-x-2">
                   <icon-lucide-atom class="fill-zinc-200" />
                   <span class="text-zinc-100"> Automate </span>
                 </div>
@@ -143,7 +143,7 @@
               </div>
               <!-- Feature -->
               <div>
-                <div class="flex items-center mb-1 space-x-2">
+                <div class="mb-1 flex items-center space-x-2">
                   <icon-lucide-terminal-square class="fill-zinc-200" />
                   <span class="text-zinc-100">CLI</span>
                 </div>
@@ -154,7 +154,7 @@
               </div>
               <!-- Feature -->
               <div>
-                <div class="flex items-center mb-1 space-x-2">
+                <div class="mb-1 flex items-center space-x-2">
                   <icon-lucide-shield-check class="fill-zinc-200" />
                   <span class="text-zinc-100"> Manual </span>
                 </div>
@@ -169,7 +169,7 @@
           <div class="py-8">
             <div>
               <div
-                class="inline-flex pb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-zinc-500 to-zinc-200"
+                class="inline-flex max-w-max bg-gradient-to-br from-zinc-500 to-zinc-200 bg-clip-text pb-6 text-transparent"
               >
                 Deploy
               </div>
@@ -177,7 +177,7 @@
             <div class="mb-2 grid gap-8 md:grid-cols-3 md:gap-12">
               <!-- Feature -->
               <div>
-                <div class="flex items-center mb-1 space-x-2">
+                <div class="mb-1 flex items-center space-x-2">
                   <icon-lucide-workflow class="fill-zinc-200" />
                   <span class="text-zinc-100"> Workflow </span>
                 </div>
@@ -188,7 +188,7 @@
               </div>
               <!-- Feature -->
               <div>
-                <div class="flex items-center mb-1 space-x-2">
+                <div class="mb-1 flex items-center space-x-2">
                   <icon-lucide-file class="fill-zinc-200" />
                   <span class="text-zinc-100"> Documentation </span>
                 </div>
@@ -199,7 +199,7 @@
               </div>
               <!-- Feature -->
               <div>
-                <div class="flex items-center mb-1 space-x-2">
+                <div class="mb-1 flex items-center space-x-2">
                   <icon-lucide-crosshair class="fill-zinc-200" />
                   <span class="text-zinc-100"> Monitor </span>
                 </div>

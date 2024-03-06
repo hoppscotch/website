@@ -1,21 +1,21 @@
 <script setup lang="ts">
-  import blogs from "../data/blogList.json"
+import blogs from "../data/blogList.json"
 
-  const sortedBlogs = computed(() => {
-    try {
-      const clonedBlogs = [...blogs]
+const sortedBlogs = computed(() => {
+  try {
+    const clonedBlogs = [...blogs]
 
-      return clonedBlogs.sort((a, b) => {
-        const dateA = new Date(a.date).getTime()
-        const dateB = new Date(b.date).getTime()
+    return clonedBlogs.sort((a, b) => {
+      const dateA = new Date(a.date).getTime()
+      const dateB = new Date(b.date).getTime()
 
-        return dateB - dateA
-      })
-    } catch (error) {
-      console.error("Error sorting blogs:", error)
-      return []
-    }
-  })
+      return dateB - dateA
+    })
+  } catch (error) {
+    console.error("Error sorting blogs:", error)
+    return []
+  }
+})
 </script>
 
 <template>
@@ -26,17 +26,17 @@
       <article
         v-for="(blog, index) in sortedBlogs"
         :key="`blog-${index}`"
-        class="flex flex-col h-full"
+        class="flex h-full flex-col"
         :class="blog.styles"
       >
         <header>
           <RouterLink
             :to="`/blog/${blog.slug}`"
-            class="relative block w-full mb-4 rounded aspect-video md:rounded-xl"
+            class="relative mb-4 block aspect-video w-full rounded md:rounded-xl"
           >
             <img
               loading="lazy"
-              class="absolute inset-0 object-cover w-full h-full rounded transition duration-500 md:rounded-xl"
+              class="absolute inset-0 h-full w-full rounded object-cover transition duration-500 md:rounded-xl"
               :src="`/images/${blog.banner}`"
               width="352"
               height="198"
@@ -44,43 +44,43 @@
             />
           </RouterLink>
           <div class="mb-4">
-            <ul class="flex flex-wrap -m-1 text-xs">
+            <ul class="-m-1 flex flex-wrap text-xs">
               <li
                 v-for="(tag, tagIndex) in blog.tags"
                 :key="tagIndex"
                 class="m-1"
               >
                 <span
-                  class="inline-flex text-center transition text-zinc-100/50"
+                  class="inline-flex text-center text-zinc-100/50 transition"
                 >
                   {{ tag }}</span
                 >
               </li>
             </ul>
           </div>
-          <h4 class="w-4/5 mb-4">
+          <h4 class="mb-4 w-4/5">
             <RouterLink
               :to="`/blog/${blog.slug}`"
-              class="transition text-zinc-200 hover:text-zinc-100"
+              class="text-zinc-200 transition hover:text-zinc-100"
             >
               {{ blog.title }}
             </RouterLink>
           </h4>
         </header>
-        <p class="max-w-2xl mb-2 text-zinc-400/80">
+        <p class="mb-2 max-w-2xl text-zinc-400/80">
           {{ blog.description }}
         </p>
-        <footer class="flex items-center mt-4">
+        <footer class="mt-4 flex items-center">
           <img
             loading="lazy"
-            class="mr-2 rounded-full shrink-0"
+            class="mr-2 shrink-0 rounded-full"
             :src="`/images/${blog.author.image}`"
             width="16"
             height="16"
             :alt="blog.author.name"
           />
           <div class="text-xs">
-            <span class="transition text-zinc-400/80">
+            <span class="text-zinc-400/80 transition">
               {{ blog.author.name }}
             </span>
             <span class="mx-2 text-zinc-400/20">|</span>

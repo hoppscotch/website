@@ -1,18 +1,18 @@
 <template>
   <section class="relative">
-    <div class="max-w-5xl px-4 mx-auto sm:px-6">
-      <div class="pt-32 pb-24">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6">
+      <div class="pb-24 pt-32">
         <!-- Section header -->
         <div
-          class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
+          class="mx-auto flex max-w-2xl flex-col items-center pb-12 text-center md:pb-20"
         >
           <span
-            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600"
+            class="mb-6 inline-flex max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600 bg-clip-text text-transparent"
           >
             Resources
           </span>
           <h2
-            class="block pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
+            class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text pb-4 text-transparent"
           >
             Made by the community
           </h2>
@@ -22,14 +22,14 @@
         </div>
         <!-- Items -->
         <div
-          class="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-4 md:max-w-2xl lg:max-w-none"
+          class="mx-auto grid max-w-sm gap-6 md:max-w-2xl md:grid-cols-2 lg:max-w-none lg:grid-cols-4"
         >
           <!-- Item -->
           <div
-            class="relative flex flex-col p-8 shadow-xl bg-zinc-900 rounded-2xl"
+            class="relative flex flex-col rounded-2xl bg-zinc-900 p-8 shadow-xl"
           >
             <icon-lucide-book-open
-              class="w-12 h-12 p-3 mb-4 text-zinc-200 bg-zinc-600 rounded-xl"
+              class="mb-4 h-12 w-12 rounded-xl bg-zinc-600 p-3 text-zinc-200"
             />
             <h4 class="mb-2 text-xl font-semibold">Documentation</h4>
             <p class="text-sm text-zinc-100">
@@ -39,10 +39,10 @@
           </div>
           <!-- Item -->
           <div
-            class="relative flex flex-col p-8 shadow-xl bg-zinc-900 rounded-2xl"
+            class="relative flex flex-col rounded-2xl bg-zinc-900 p-8 shadow-xl"
           >
             <icon-lucide-heart
-              class="w-12 h-12 p-3 mb-4 text-zinc-200 bg-zinc-600 rounded-xl"
+              class="mb-4 h-12 w-12 rounded-xl bg-zinc-600 p-3 text-zinc-200"
             />
             <h4 class="mb-2 text-xl font-semibold">Community</h4>
             <p class="text-sm text-zinc-100">
@@ -52,10 +52,10 @@
           </div>
           <!-- Item -->
           <div
-            class="relative flex flex-col p-8 shadow-xl bg-zinc-900 rounded-2xl"
+            class="relative flex flex-col rounded-2xl bg-zinc-900 p-8 shadow-xl"
           >
             <icon-lucide-palette
-              class="w-12 h-12 p-3 mb-4 text-zinc-200 bg-zinc-600 rounded-xl"
+              class="mb-4 h-12 w-12 rounded-xl bg-zinc-600 p-3 text-zinc-200"
             />
             <h4 class="mb-2 text-xl font-semibold">Brand</h4>
             <p class="text-sm text-zinc-100">
@@ -65,10 +65,10 @@
           </div>
           <!-- Item -->
           <div
-            class="relative flex flex-col p-8 shadow-xl bg-zinc-900 rounded-2xl"
+            class="relative flex flex-col rounded-2xl bg-zinc-900 p-8 shadow-xl"
           >
             <icon-lucide-shopping-bag
-              class="w-12 h-12 p-3 mb-4 text-zinc-200 bg-zinc-600 rounded-xl"
+              class="mb-4 h-12 w-12 rounded-xl bg-zinc-600 p-3 text-zinc-200"
             />
             <h4 class="mb-2 text-xl font-semibold">Shop</h4>
             <p class="text-sm text-zinc-100">

@@ -1,18 +1,18 @@
 <template>
   <section>
-    <div class="max-w-5xl px-4 mx-auto sm:px-6">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6">
       <div class="py-12 md:py-16">
         <!-- Section header -->
         <div
-          class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
+          class="mx-auto flex max-w-2xl flex-col items-center pb-12 text-center md:pb-20"
         >
           <span
-            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600"
+            class="mb-6 inline-flex max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600 bg-clip-text text-transparent"
           >
             Timeline
           </span>
           <h2
-            class="block pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
+            class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text pb-4 text-transparent"
           >
             Our journey so far
           </h2>
@@ -22,23 +22,23 @@
           </p>
         </div>
         <!-- Items -->
-        <div class="max-w-4xl mx-auto -my-4 md:-my-6">
+        <div class="-my-4 mx-auto max-w-4xl md:-my-6">
           <!-- Item -->
           <div class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
               <div class="mb-2 text-sm text-zinc-500">The inception</div>
-              <div class="flex items-center mb-3">
+              <div class="mb-3 flex items-center">
                 <div
-                  class="absolute left-0 inline-flex px-3 py-1 text-xs font-semibold text-green-400 rounded-full bg-green-200/10"
+                  class="absolute left-0 inline-flex rounded-full bg-green-200/10 px-3 py-1 text-xs font-semibold text-green-400"
                 >
                   2019
                 </div>
                 <div
-                  class="absolute left-0 self-start h-full px-px ml-20 bg-zinc-800 transform -translate-x-1/2 translate-y-3"
+                  class="absolute left-0 ml-20 h-full -translate-x-1/2 translate-y-3 transform self-start bg-zinc-800 px-px"
                   aria-hidden="true"
                 ></div>
                 <div
-                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full border-zinc-800 box-content transform -translate-x-1/2"
+                  class="absolute left-0 ml-20 box-content h-2 w-2 -translate-x-1/2 transform rounded-full border-4 border-zinc-800 bg-green-500"
                   aria-hidden="true"
                 ></div>
                 <h4>Hoppscotch was founded in Kerala, India</h4>
@@ -55,18 +55,18 @@
           <div class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
               <div class="mb-2 text-sm text-zinc-500">New beginnings</div>
-              <div class="flex items-center mb-3">
+              <div class="mb-3 flex items-center">
                 <div
-                  class="absolute left-0 inline-flex px-3 py-1 text-xs font-semibold text-green-400 rounded-full bg-green-200/10"
+                  class="absolute left-0 inline-flex rounded-full bg-green-200/10 px-3 py-1 text-xs font-semibold text-green-400"
                 >
                   2020
                 </div>
                 <div
-                  class="absolute left-0 self-start h-full px-px ml-20 bg-zinc-800 transform -translate-x-1/2 translate-y-3"
+                  class="absolute left-0 ml-20 h-full -translate-x-1/2 translate-y-3 transform self-start bg-zinc-800 px-px"
                   aria-hidden="true"
                 ></div>
                 <div
-                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full border-zinc-800 box-content transform -translate-x-1/2"
+                  class="absolute left-0 ml-20 box-content h-2 w-2 -translate-x-1/2 transform rounded-full border-4 border-zinc-800 bg-green-500"
                   aria-hidden="true"
                 ></div>
                 <h4>Founders left his job to work on Hoppscotch full-time</h4>
@@ -82,18 +82,18 @@
           <div class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
               <div class="mb-2 text-sm text-zinc-500">The seed</div>
-              <div class="flex items-center mb-3">
+              <div class="mb-3 flex items-center">
                 <div
-                  class="absolute left-0 inline-flex px-3 py-1 text-xs font-semibold text-green-400 rounded-full bg-green-200/10"
+                  class="absolute left-0 inline-flex rounded-full bg-green-200/10 px-3 py-1 text-xs font-semibold text-green-400"
                 >
                   2021
                 </div>
                 <div
-                  class="absolute left-0 self-start h-full px-px ml-20 bg-zinc-800 transform -translate-x-1/2 translate-y-3"
+                  class="absolute left-0 ml-20 h-full -translate-x-1/2 translate-y-3 transform self-start bg-zinc-800 px-px"
                   aria-hidden="true"
                 ></div>
                 <div
-                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full border-zinc-800 box-content transform -translate-x-1/2"
+                  class="absolute left-0 ml-20 box-content h-2 w-2 -translate-x-1/2 transform rounded-full border-4 border-zinc-800 bg-green-500"
                   aria-hidden="true"
                 ></div>
                 <h4>$3 million seed funding from OSS Capital</h4>
@@ -109,18 +109,18 @@
           <div class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
               <div class="mb-2 text-sm text-zinc-500">Pivoting</div>
-              <div class="flex items-center mb-3">
+              <div class="mb-3 flex items-center">
                 <div
-                  class="absolute left-0 inline-flex px-3 py-1 text-xs font-semibold text-green-400 rounded-full bg-green-200/10"
+                  class="absolute left-0 inline-flex rounded-full bg-green-200/10 px-3 py-1 text-xs font-semibold text-green-400"
                 >
                   2022
                 </div>
                 <div
-                  class="absolute left-0 self-start h-full px-px ml-20 bg-zinc-800 transform -translate-x-1/2 translate-y-3"
+                  class="absolute left-0 ml-20 h-full -translate-x-1/2 translate-y-3 transform self-start bg-zinc-800 px-px"
                   aria-hidden="true"
                 ></div>
                 <div
-                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full border-zinc-800 box-content transform -translate-x-1/2"
+                  class="absolute left-0 ml-20 box-content h-2 w-2 -translate-x-1/2 transform rounded-full border-4 border-zinc-800 bg-green-500"
                   aria-hidden="true"
                 ></div>
                 <h4>1 million happy users</h4>
@@ -136,14 +136,14 @@
           <div class="relative py-4 pl-24 md:py-6">
             <div class="pl-2">
               <div class="mb-2 text-sm text-zinc-500">Huge milestone</div>
-              <div class="flex items-center mb-3">
+              <div class="mb-3 flex items-center">
                 <div
-                  class="absolute left-0 inline-flex px-3 py-1 text-xs font-semibold text-green-400 rounded-full bg-green-200/10"
+                  class="absolute left-0 inline-flex rounded-full bg-green-200/10 px-3 py-1 text-xs font-semibold text-green-400"
                 >
                   2023
                 </div>
                 <div
-                  class="absolute left-0 w-2 h-2 ml-20 bg-green-500 border-4 rounded-full border-zinc-800 box-content transform -translate-x-1/2"
+                  class="absolute left-0 ml-20 box-content h-2 w-2 -translate-x-1/2 transform rounded-full border-4 border-zinc-800 bg-green-500"
                   aria-hidden="true"
                 ></div>
                 <h4>50,000 GitHub Stars</h4>

@@ -1,29 +1,29 @@
 <template>
   <section>
-    <div class="max-w-5xl px-4 mx-auto sm:px-6">
-      <div class="pt-6 pb-12 md:pt-8 md:pb-20">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6">
+      <div class="pb-12 pt-6 md:pb-20 md:pt-8">
         <!-- Items -->
         <div
-          class="items-start max-w-sm mx-auto grid grid-cols-2 gap-4 gap-y-8 sm:gap-8 md:grid-cols-4 md:max-w-5xl"
+          class="mx-auto grid max-w-sm grid-cols-2 items-start gap-4 gap-y-8 sm:gap-8 md:max-w-5xl md:grid-cols-4"
         >
           <!-- Item -->
           <div class="relative flex flex-col items-center">
             <div
               aria-hidden="true"
-              class="absolute h-0.5 bg-gradient-to-r from-zinc-950 via-zinc-800 to-zinc-950 hidden md:block"
+              class="absolute hidden h-0.5 bg-gradient-to-r from-zinc-950 via-zinc-800 to-zinc-950 md:block"
               style="
                 width: calc(100% - 96px);
                 left: calc(50% + 64px);
                 top: 40px;
               "
             ></div>
-            <div class="relative w-20 h-20 mb-4">
+            <div class="relative mb-4 h-20 w-20">
               <div
-                class="absolute inset-0 rounded-full opacity-30 bg-gradient-to-tr from-teal-500 -z-1"
+                class="-z-1 absolute inset-0 rounded-full bg-gradient-to-tr from-teal-500 opacity-30"
                 aria-hidden="true"
               ></div>
               <svg
-                class="w-20 h-20 text-teal-500 fill-current"
+                class="h-20 w-20 fill-current text-teal-500"
                 viewBox="0 0 80 80"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -38,20 +38,20 @@
           <div class="relative flex flex-col items-center">
             <div
               aria-hidden="true"
-              class="absolute h-0.5 bg-gradient-to-r from-zinc-950 via-zinc-800 to-zinc-950 hidden md:block"
+              class="absolute hidden h-0.5 bg-gradient-to-r from-zinc-950 via-zinc-800 to-zinc-950 md:block"
               style="
                 width: calc(100% - 96px);
                 left: calc(50% + 64px);
                 top: 40px;
               "
             ></div>
-            <div class="relative w-20 h-20 mb-4">
+            <div class="relative mb-4 h-20 w-20">
               <div
-                class="absolute inset-0 rounded-full opacity-30 bg-gradient-to-tr from-zinc-500 -z-1"
+                class="-z-1 absolute inset-0 rounded-full bg-gradient-to-tr from-zinc-500 opacity-30"
                 aria-hidden="true"
               ></div>
               <svg
-                class="w-20 h-20 fill-current text-zinc-500"
+                class="h-20 w-20 fill-current text-zinc-500"
                 viewBox="0 0 80 80"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -66,20 +66,20 @@
           <div class="relative flex flex-col items-center">
             <div
               aria-hidden="true"
-              class="absolute h-0.5 bg-gradient-to-r from-zinc-950 via-zinc-800 to-zinc-950 hidden md:block"
+              class="absolute hidden h-0.5 bg-gradient-to-r from-zinc-950 via-zinc-800 to-zinc-950 md:block"
               style="
                 width: calc(100% - 96px);
                 left: calc(50% + 64px);
                 top: 40px;
               "
             ></div>
-            <div class="relative w-20 h-20 mb-4">
+            <div class="relative mb-4 h-20 w-20">
               <div
-                class="absolute inset-0 rounded-full opacity-30 bg-gradient-to-tr from-zinc-500 -z-1"
+                class="-z-1 absolute inset-0 rounded-full bg-gradient-to-tr from-zinc-500 opacity-30"
                 aria-hidden="true"
               ></div>
               <svg
-                class="w-20 h-20 fill-current text-zinc-500"
+                class="h-20 w-20 fill-current text-zinc-500"
                 viewBox="0 0 80 80"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -92,13 +92,13 @@
           </div>
           <!-- Item -->
           <div class="relative flex flex-col items-center">
-            <div class="relative w-20 h-20 mb-4">
+            <div class="relative mb-4 h-20 w-20">
               <div
-                class="absolute inset-0 rounded-full opacity-30 bg-gradient-to-tr from-pink-500 -z-1"
+                class="-z-1 absolute inset-0 rounded-full bg-gradient-to-tr from-pink-500 opacity-30"
                 aria-hidden="true"
               ></div>
               <svg
-                class="w-20 h-20 text-pink-500 fill-current"
+                class="h-20 w-20 fill-current text-pink-500"
                 viewBox="0 0 80 80"
                 xmlns="http://www.w3.org/2000/svg"
               >

@@ -1,11 +1,11 @@
 <template>
   <section>
-    <div class="max-w-5xl px-4 mx-auto">
+    <div class="mx-auto max-w-5xl px-4">
       <div class="py-12 md:py-16">
-        <div class="max-w-4xl mx-auto">
+        <div class="mx-auto max-w-4xl">
           <div class="text-md text-zinc-400/80">
             <h2
-              class="block pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
+              class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text pb-4 text-transparent"
             >
               Our Story
             </h2>

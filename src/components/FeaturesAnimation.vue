@@ -1,18 +1,18 @@
 <template>
   <section class="relative">
-    <div class="max-w-5xl px-4 mx-auto sm:px-6">
-      <div class="pt-32 pb-24">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6">
+      <div class="pb-24 pt-32">
         <!-- Section header -->
         <div
-          class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
+          class="mx-auto flex max-w-2xl flex-col items-center pb-12 text-center md:pb-20"
         >
           <span
-            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600"
+            class="mb-6 inline-flex max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600 bg-clip-text text-transparent"
           >
             Features
           </span>
           <h2
-            class="block pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
+            class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text pb-4 text-transparent"
           >
             All in one place
           </h2>
@@ -24,7 +24,7 @@
         <div class="relative flex flex-col items-center p-16">
           <!-- Blurred dots -->
           <svg
-            class="absolute -translate-y-1/2 top-1/2"
+            class="absolute top-1/2 -translate-y-1/2"
             width="557"
             height="93"
             xmlns="http://www.w3.org/2000/svg"
@@ -216,10 +216,10 @@
               </g>
             </g>
           </svg>
-          <div class="relative flex items-center justify-center w-32 h-32">
+          <div class="relative flex h-32 w-32 items-center justify-center">
             <!-- Halo effect -->
             <svg
-              class="absolute inset-0 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none h-auto max-w-[200%]"
+              class="pointer-events-none absolute inset-0 left-1/2 top-1/2 h-auto max-w-[200%] -translate-x-1/2 -translate-y-1/2 transform"
               width="800"
               height="800"
               viewBox="0 0 800 800"
@@ -231,7 +231,7 @@
                   <stop stop-color="#020617" offset="100%" />
                 </linearGradient>
               </defs>
-              <g class="opacity-75 fill-zinc-600" fill-rule="evenodd">
+              <g class="fill-zinc-600 opacity-75" fill-rule="evenodd">
                 <circle class="pulse" cx="400" cy="400" r="200" />
                 <circle class="pulse pulse-1" cx="400" cy="400" r="200" />
                 <circle class="pulse pulse-2" cx="400" cy="400" r="200" />
@@ -241,7 +241,7 @@
             </svg>
             <!-- Logo -->
             <svg
-              class="w-16 h-16"
+              class="h-16 w-16"
               viewBox="0 0 32 32"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -276,29 +276,29 @@
         </div>
         <!-- Integration boxes -->
         <div
-          class="relative max-w-xs mx-auto mt-10 grid grid-cols-2 gap-6 sm:max-w-md md:max-w-5xl sm:grid-cols-3 md:grid-cols-6 md:mt-20"
+          class="relative mx-auto mt-10 grid max-w-xs grid-cols-2 gap-6 sm:max-w-md sm:grid-cols-3 md:mt-20 md:max-w-5xl md:grid-cols-6"
         >
           <!-- Top vertical line -->
           <div
-            class="hidden md:block absolute w-0.5 h-8 -top-16 -mt-2 bg-zinc-900 left-1/2 -translate-x-1/2"
+            class="absolute -top-16 left-1/2 -mt-2 hidden h-8 w-0.5 -translate-x-1/2 bg-zinc-900 md:block"
             aria-hidden="true"
           ></div>
           <div
-            class="relative flex items-center justify-center p-2 bg-zinc-900 rounded-2xl aspect-square"
+            class="relative flex aspect-square items-center justify-center rounded-2xl bg-zinc-900 p-2"
           >
             <!-- Inner lines -->
             <div
-              class="hidden md:block absolute inset-0 w-[calc(100%+24px)] h-6 -top-10 left-1/2 -translate-x-1/2"
+              class="absolute inset-0 -top-10 left-1/2 hidden h-6 w-[calc(100%+24px)] -translate-x-1/2 md:block"
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-zinc-900 left-1/2 -translate-x-1/2"
+                class="absolute left-1/2 h-full w-0.5 -translate-x-1/2 bg-zinc-900"
               ></div>
-              <div class="absolute w-1/2 h-0.5 bg-zinc-900 right-0" />
+              <div class="absolute right-0 h-0.5 w-1/2 bg-zinc-900" />
             </div>
             <!-- Circle -->
             <div
-              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-zinc-900 to-zinc-950"
+              class="flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-t from-zinc-900 to-zinc-950"
             >
               <!-- Icon -->
               <img
@@ -311,21 +311,21 @@
             </div>
           </div>
           <div
-            class="relative flex items-center justify-center p-2 bg-zinc-900 rounded-2xl aspect-square"
+            class="relative flex aspect-square items-center justify-center rounded-2xl bg-zinc-900 p-2"
           >
             <!-- Inner lines -->
             <div
-              class="hidden md:block absolute inset-0 w-[calc(100%+24px)] h-6 -top-10 left-1/2 -translate-x-1/2"
+              class="absolute inset-0 -top-10 left-1/2 hidden h-6 w-[calc(100%+24px)] -translate-x-1/2 md:block"
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-zinc-900 left-1/2 -translate-x-1/2"
+                class="absolute left-1/2 h-full w-0.5 -translate-x-1/2 bg-zinc-900"
               ></div>
-              <div class="absolute w-full h-0.5 bg-zinc-900" />
+              <div class="absolute h-0.5 w-full bg-zinc-900" />
             </div>
             <!-- Circle -->
             <div
-              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-zinc-900 to-zinc-950"
+              class="flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-t from-zinc-900 to-zinc-950"
             >
               <!-- Icon -->
               <img
@@ -338,21 +338,21 @@
             </div>
           </div>
           <div
-            class="relative flex items-center justify-center p-2 bg-zinc-900 rounded-2xl aspect-square"
+            class="relative flex aspect-square items-center justify-center rounded-2xl bg-zinc-900 p-2"
           >
             <!-- Inner lines -->
             <div
-              class="hidden md:block absolute inset-0 w-[calc(100%+24px)] h-6 -top-10 left-1/2 -translate-x-1/2"
+              class="absolute inset-0 -top-10 left-1/2 hidden h-6 w-[calc(100%+24px)] -translate-x-1/2 md:block"
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-zinc-900 left-1/2 -translate-x-1/2"
+                class="absolute left-1/2 h-full w-0.5 -translate-x-1/2 bg-zinc-900"
               ></div>
-              <div class="absolute w-full h-0.5 bg-zinc-900" />
+              <div class="absolute h-0.5 w-full bg-zinc-900" />
             </div>
             <!-- Circle -->
             <div
-              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-zinc-900 to-zinc-950"
+              class="flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-t from-zinc-900 to-zinc-950"
             >
               <!-- Icon -->
               <img
@@ -365,21 +365,21 @@
             </div>
           </div>
           <div
-            class="relative flex items-center justify-center p-2 bg-zinc-900 rounded-2xl aspect-square"
+            class="relative flex aspect-square items-center justify-center rounded-2xl bg-zinc-900 p-2"
           >
             <!-- Inner lines -->
             <div
-              class="hidden md:block absolute inset-0 w-[calc(100%+24px)] h-6 -top-10 left-1/2 -translate-x-1/2"
+              class="absolute inset-0 -top-10 left-1/2 hidden h-6 w-[calc(100%+24px)] -translate-x-1/2 md:block"
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-zinc-900 left-1/2 -translate-x-1/2"
+                class="absolute left-1/2 h-full w-0.5 -translate-x-1/2 bg-zinc-900"
               ></div>
-              <div class="absolute w-full h-0.5 bg-zinc-900" />
+              <div class="absolute h-0.5 w-full bg-zinc-900" />
             </div>
             <!-- Circle -->
             <div
-              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-zinc-900 to-zinc-950"
+              class="flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-t from-zinc-900 to-zinc-950"
             >
               <!-- Icon -->
               <img
@@ -392,21 +392,21 @@
             </div>
           </div>
           <div
-            class="relative flex items-center justify-center p-2 bg-zinc-900 rounded-2xl aspect-square"
+            class="relative flex aspect-square items-center justify-center rounded-2xl bg-zinc-900 p-2"
           >
             <!-- Inner lines -->
             <div
-              class="hidden md:block absolute inset-0 w-[calc(100%+24px)] h-6 -top-10 left-1/2 -translate-x-1/2"
+              class="absolute inset-0 -top-10 left-1/2 hidden h-6 w-[calc(100%+24px)] -translate-x-1/2 md:block"
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-zinc-900 left-1/2 -translate-x-1/2"
+                class="absolute left-1/2 h-full w-0.5 -translate-x-1/2 bg-zinc-900"
               ></div>
-              <div class="absolute w-full h-0.5 bg-zinc-900" />
+              <div class="absolute h-0.5 w-full bg-zinc-900" />
             </div>
             <!-- Circle -->
             <div
-              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-zinc-900 to-zinc-950"
+              class="flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-t from-zinc-900 to-zinc-950"
             >
               <!-- Icon -->
               <img
@@ -419,21 +419,21 @@
             </div>
           </div>
           <div
-            class="relative flex items-center justify-center p-2 bg-zinc-900 rounded-2xl aspect-square"
+            class="relative flex aspect-square items-center justify-center rounded-2xl bg-zinc-900 p-2"
           >
             <!-- Inner lines -->
             <div
-              class="hidden md:block absolute inset-0 w-[calc(100%+24px)] h-6 -top-10 left-1/2 -translate-x-1/2"
+              class="absolute inset-0 -top-10 left-1/2 hidden h-6 w-[calc(100%+24px)] -translate-x-1/2 md:block"
               aria-hidden="true"
             >
               <div
-                class="absolute w-0.5 h-full bg-zinc-900 left-1/2 -translate-x-1/2"
+                class="absolute left-1/2 h-full w-0.5 -translate-x-1/2 bg-zinc-900"
               ></div>
-              <div class="absolute w-1/2 h-0.5 bg-zinc-900 left-0" />
+              <div class="absolute left-0 h-0.5 w-1/2 bg-zinc-900" />
             </div>
             <!-- Circle -->
             <div
-              class="flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-t from-zinc-900 to-zinc-950"
+              class="flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-t from-zinc-900 to-zinc-950"
             >
               <!-- Icon -->
               <img
@@ -452,39 +452,39 @@
 </template>
 
 <style lang="scss" scoped>
-  /* Pulsing animation */
-  @keyframes pulseLoop {
-    0% {
-      opacity: 0;
-      transform: scale(1) translateZ(0);
-    }
-    30% {
-      opacity: 0.4;
-    }
-    60% {
-      opacity: 0;
-    }
-    80% {
-      opacity: 0;
-      transform: scale(2.5) translateZ(0);
-    }
-  }
-  .pulse {
-    transform: scale(1);
+/* Pulsing animation */
+@keyframes pulseLoop {
+  0% {
     opacity: 0;
-    transform-origin: center;
-    animation: pulseLoop 8000ms linear infinite;
+    transform: scale(1) translateZ(0);
   }
-  .pulse-1 {
-    animation-delay: -2000ms;
+  30% {
+    opacity: 0.4;
   }
-  .pulse-2 {
-    animation-delay: -4000ms;
+  60% {
+    opacity: 0;
   }
-  .pulse-3 {
-    animation-delay: -6000ms;
+  80% {
+    opacity: 0;
+    transform: scale(2.5) translateZ(0);
   }
-  .translate-z-0 {
-    transform: translateZ(0);
-  }
+}
+.pulse {
+  transform: scale(1);
+  opacity: 0;
+  transform-origin: center;
+  animation: pulseLoop 8000ms linear infinite;
+}
+.pulse-1 {
+  animation-delay: -2000ms;
+}
+.pulse-2 {
+  animation-delay: -4000ms;
+}
+.pulse-3 {
+  animation-delay: -6000ms;
+}
+.translate-z-0 {
+  transform: translateZ(0);
+}
 </style>

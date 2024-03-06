@@ -3,7 +3,7 @@
     <!-- Images container -->
     <div class="-ml-28 -mr-28">
       <div
-        class="max-w-[1652px] mx-auto flex items-center space-x-2 md:space-x-4"
+        class="mx-auto flex max-w-[1652px] items-center space-x-2 md:space-x-4"
       >
         <div class="relative w-1/3">
           <img

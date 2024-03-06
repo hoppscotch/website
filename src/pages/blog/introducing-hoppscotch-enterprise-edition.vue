@@ -1,75 +1,73 @@
 <script setup lang="ts">
-  useHead({
-    title: "Introducing Hoppscotch Enterprise Edition • Blog • Hoppscotch",
-    meta: [
-      {
-        property: "og:title",
-        content:
-          "Introducing Hoppscotch Enterprise Edition • Blog • Hoppscotch",
-      },
-      {
-        name: "twitter:title",
-        content:
-          "Introducing Hoppscotch Enterprise Edition • Blog • Hoppscotch",
-      },
-      {
-        name: "description",
-        content:
-          "We are thrilled to reveal our Hoppscotch August Release, v2023.8.0.",
-      },
-      {
-        property: "og:description",
-        content:
-          "We are thrilled to reveal our Hoppscotch August Release, v2023.8.0.",
-      },
-      {
-        name: "twitter:description",
-        content:
-          "We are thrilled to reveal our Hoppscotch August Release, v2023.8.0.",
-      },
-      {
-        property: "og:image",
-        content:
-          "https://hoppscotch.com/images/blog-introducing-hoppscotch-enterprise-edition.png",
-      },
-      {
-        name: "twitter:image",
-        content:
-          "https://hoppscotch.com/images/blog-introducing-hoppscotch-enterprise-edition.png",
-      },
-      {
-        property: "og:type",
-        content: "article",
-      },
-      {
-        property: "og:url",
-        content:
-          "https://hoppscotch.com/blog/introducing-hoppscotch-enterprise-edition",
-      },
-    ],
-  })
+useHead({
+  title: "Introducing Hoppscotch Enterprise Edition • Blog • Hoppscotch",
+  meta: [
+    {
+      property: "og:title",
+      content: "Introducing Hoppscotch Enterprise Edition • Blog • Hoppscotch",
+    },
+    {
+      name: "twitter:title",
+      content: "Introducing Hoppscotch Enterprise Edition • Blog • Hoppscotch",
+    },
+    {
+      name: "description",
+      content:
+        "We are thrilled to reveal our Hoppscotch August Release, v2023.8.0.",
+    },
+    {
+      property: "og:description",
+      content:
+        "We are thrilled to reveal our Hoppscotch August Release, v2023.8.0.",
+    },
+    {
+      name: "twitter:description",
+      content:
+        "We are thrilled to reveal our Hoppscotch August Release, v2023.8.0.",
+    },
+    {
+      property: "og:image",
+      content:
+        "https://hoppscotch.com/images/blog-introducing-hoppscotch-enterprise-edition.png",
+    },
+    {
+      name: "twitter:image",
+      content:
+        "https://hoppscotch.com/images/blog-introducing-hoppscotch-enterprise-edition.png",
+    },
+    {
+      property: "og:type",
+      content: "article",
+    },
+    {
+      property: "og:url",
+      content:
+        "https://hoppscotch.com/blog/introducing-hoppscotch-enterprise-edition",
+    },
+  ],
+})
 </script>
 
 <template>
   <section>
-    <div class="relative max-w-5xl px-4 mx-auto sm:px-6">
-      <div class="pt-32 pb-24">
+    <div class="relative mx-auto max-w-5xl px-4 sm:px-6">
+      <div class="pb-24 pt-32">
         <!-- Section header -->
         <BlogPostHeader />
         <!-- Blog content -->
         <article class="flex flex-col items-center space-y-8">
-          <header class="flex flex-col w-full max-w-xl">
+          <header class="flex w-full max-w-xl flex-col">
             <div class="mb-4 text-white">
-              <ul class="flex flex-wrap items-center -m-1 text-sm">
+              <ul class="-m-1 flex flex-wrap items-center text-sm">
                 <li class="m-1">
                   <span
-                    class="inline-flex text-center transition text-zinc-100/50"
+                    class="inline-flex text-center text-zinc-100/50 transition"
                     >Product,</span
                   >
                 </li>
                 <li class="m-1">
                   <span
-                    class="inline-flex text-center transition text-zinc-100/50"
+                    class="inline-flex text-center text-zinc-100/50 transition"
                     >Engineering</span
                   >
                 </li>
@@ -79,7 +77,7 @@
             </div>
             <h3 class="mb-8">
               <span
-                class="block text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
+                class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text text-transparent"
               >
                 Introducing Hoppscotch Enterprise Edition
               </span>
@@ -87,20 +85,20 @@
             <div class="flex items-center">
               <img
                 loading="lazy"
-                class="mr-4 rounded-full shrink-0"
+                class="mr-4 shrink-0 rounded-full"
                 src="/images/blog-author-01.jpg"
                 width="32"
                 height="32"
                 alt="Liyas Thomas"
               />
               <div class="text-sm">
-                <span class="transition text-zinc-200/80"> Liyas Thomas </span>
+                <span class="text-zinc-200/80 transition"> Liyas Thomas </span>
               </div>
             </div>
           </header>
           <section class="max-w-4xl">
             <ImageZoom
-              class="w-full h-full rounded md:rounded-xl"
+              class="h-full w-full rounded md:rounded-xl"
               src="/images/blog-introducing-hoppscotch-enterprise-edition.png"
               width="352"
               height="198"
@@ -108,7 +106,7 @@
             />
           </section>
           <section class="max-w-xl text-zinc-200/80">
-            <p class="mt-4 mb-8">
+            <p class="mb-8 mt-4">
               We are thrilled to reveal our Hoppscotch August Release, version
               2023.8.0! Our dedicated team has been working tirelessly to bring
               you an array of exhilarating enhancements and innovative features
@@ -120,7 +118,7 @@
             <h4 class="mb-4 text-white">
               Hoppscotch Self-Host Enterprise Edition
             </h4>
-            <p class="mt-4 mb-8">
+            <p class="mb-8 mt-4">
               Hoppscotch is one of the most beloved API testing tools available,
               and our community has consistently expressed their desire to see
               Hoppscotch become enterprise-ready. We are thrilled to announce
@@ -133,17 +131,17 @@
           </section>
           <section class="max-w-4xl">
             <ImageZoom
-              class="w-full h-full rounded md:rounded-xl"
+              class="h-full w-full rounded md:rounded-xl"
               src="/images/blog-introducing-hoppscotch-enterprise-edition-1.png"
               alt="News"
             />
           </section>
           <section class="max-w-xl text-zinc-200/80">
-            <p class="mt-4 mb-8">
+            <p class="mb-8 mt-4">
               But that's not all – the Hoppscotch Self-Host Enterprise edition
               comes with a treasure trove of additional features including:
             </p>
-            <ul class="mt-4 mb-8 ml-5 list-disc space-y-2 marker:text-zinc-100">
+            <ul class="mb-8 ml-5 mt-4 list-disc space-y-2 marker:text-zinc-100">
               <li class="pl-4">
                 SAML-based Single Sign-On Support: Take the reins of user
                 authentication and authorization with this cutting-edge
@@ -157,12 +155,12 @@
                 operation using audit logs.
               </li>
             </ul>
-            <p class="mt-4 mb-8">
+            <p class="mb-8 mt-4">
               Seize the opportunity and
               <a
                 href="https://cal.com/hoppscotch/enterprise-demo"
                 target="_blank"
-                class="border-b transition border-zinc-200 hover:text-zinc-50"
+                class="border-b border-zinc-200 transition hover:text-zinc-50"
                 >book a demo</a
               >
               with us today to witness the transformation that Hoppscotch
@@ -171,7 +169,7 @@
           </section>
           <section class="max-w-4xl">
             <ImageZoom
-              class="w-full h-full rounded md:rounded-xl"
+              class="h-full w-full rounded md:rounded-xl"
               src="/images/blog-introducing-hoppscotch-enterprise-edition-2.png"
               alt="News"
             />
@@ -180,7 +178,7 @@
             <h4 class="mb-4 text-white">
               Spotlight — New way to navigate Hoppscotch
             </h4>
-            <p class="mt-4 mb-8">
+            <p class="mb-8 mt-4">
               Introducing Spotlight Search, a new way to interact with
               Hoppscotch. No more navigating through complex menus or searching
               for specific options. With Spotlight Search, you can swiftly
@@ -191,12 +189,12 @@
               with the platform.
             </p>
             <hr
-              class="h-px my-12 border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
+              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
             <h4 class="mb-4 text-white">
               Inspections — Debug your APIs with ease
             </h4>
-            <p class="mt-4 mb-8">
+            <p class="mb-8 mt-4">
               Hoppscotch now comes equipped with the Inspections feature that
               not only alerts you to misconfiguration but also guides you toward
               the exact point of correction. Debugging your API requests has
@@ -204,34 +202,34 @@
               settings.
             </p>
             <hr
-              class="h-px my-12 border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
+              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
             <h4 class="mb-4 text-white">
               Context Menus — Assist content-aware actions
             </h4>
-            <p class="mt-4 mb-8">
+            <p class="mb-8 mt-4">
               Context-aware menus assist you in swiftly executing actions on
               text and elements. Just select a piece of text and hover over it
               to reveal the available actions you can perform. Context Menus on
               text elements help you create variables and even add query
               parameters to the parameters tab easily.
             </p>
-            <p class="mt-4 mb-8">
+            <p class="mb-8 mt-4">
               What's more? we've extended the context menus to tabs — rename,
               duplicate, and close them effortlessly with just a right-click.
             </p>
             <hr
-              class="h-px my-12 border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
+              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
             <h4 class="mb-4 text-white">GraphQL Client — Upgraded for speed</h4>
-            <p class="mt-4 mb-8">
+            <p class="mb-8 mt-4">
               Embrace a superior GraphQL experience with this release. Enjoy tab
               support for working on different connections and seamlessly switch
               between various queries within a single tab. The GraphQL client
               has received a significant upgrade, amplifying your productivity
               and effectiveness.
             </p>
-            <ul class="mt-4 mb-8 ml-5 list-disc space-y-2 marker:text-zinc-100">
+            <ul class="mb-8 ml-5 mt-4 list-disc space-y-2 marker:text-zinc-100">
               <li class="pl-4">
                 Multi-Query Capabilities: Embrace the freedom to write and
                 execute multiple queries within a single tab. This flexibility
@@ -247,16 +245,16 @@
               </li>
             </ul>
             <hr
-              class="h-px my-12 border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
+              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
-            <p class="mt-4 mb-8">
+            <p class="mb-8 mt-4">
               We've taken extra steps to enhance the Hoppscotch experience in
               every possible way. Enjoy additional features like URL
               auto-completion as you type, quick access to environment
               variables, and a finely tuned performance that promises the
               smoothest experience yet.
             </p>
-            <p class="mt-4 mb-8">
+            <p class="mb-8 mt-4">
               At Hoppscotch, innovation is our driving force. We're on an
               unrelenting journey to provide you with the pinnacle of API
               development and testing experiences. The excitement is palpable as
@@ -265,7 +263,7 @@
               we embark on this thrilling chapter, your feedback remains a
               guiding light, shaping the future of Hoppscotch.
             </p>
-            <p class="mt-4 mb-8">
+            <p class="mb-8 mt-4">
               Thank you for being a part of this remarkable journey.
               <br />
               The Hoppscotch Team

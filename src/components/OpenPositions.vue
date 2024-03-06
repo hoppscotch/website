@@ -1,10 +1,10 @@
 <template>
   <section>
-    <div class="relative max-w-5xl px-4 mx-auto sm:px-6">
-      <div class="pt-32 pb-24">
+    <div class="relative mx-auto max-w-5xl px-4 sm:px-6">
+      <div class="pb-24 pt-32">
         <!-- Section header -->
         <h3
-          class="block pb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
+          class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text pb-6 text-transparent"
         >
           Open positions
         </h3>

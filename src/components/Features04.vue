@@ -2,7 +2,7 @@
   <section class="relative">
     <!-- Particles animation -->
     <div
-      class="absolute top-0 -mt-24 -ml-32 -translate-x-1/2 left-1/2 -z-10 w-80 h-80"
+      class="absolute left-1/2 top-0 -z-10 -ml-32 -mt-24 h-80 w-80 -translate-x-1/2"
     >
       <ClientOnly>
         <Particles
@@ -12,19 +12,19 @@
         />
       </ClientOnly>
     </div>
-    <div class="max-w-5xl px-4 mx-auto sm:px-6">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6">
       <div class="py-12 md:py-16">
         <!-- Section header -->
         <div
-          class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
+          class="mx-auto flex max-w-2xl flex-col items-center pb-12 text-center md:pb-20"
         >
           <span
-            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600"
+            class="mb-6 inline-flex max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600 bg-clip-text text-transparent"
           >
             Features
           </span>
           <h2
-            class="block pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
+            class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text pb-4 text-transparent"
           >
             Everything You Need
           </h2>
@@ -35,30 +35,30 @@
         <!-- Highlighted boxes -->
         <div class="relative pb-12 md:pb-16">
           <!-- Grid -->
-          <Highlighter class="grid gap-6 md:grid-cols-12 group">
+          <Highlighter class="group grid gap-6 md:grid-cols-12">
             <!-- Box #1 -->
             <div class="grid md:col-span-4">
               <HighlighterItem>
                 <div
-                  class="relative bg-zinc-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative z-20 h-full overflow-hidden rounded-[inherit] bg-zinc-950/90 backdrop-blur-md"
                 >
-                  <div class="flex flex-col h-full">
+                  <div class="flex h-full flex-col">
                     <!-- Image -->
-                    <div class="relative w-full p-2 overflow-hidden">
+                    <div class="relative w-full overflow-hidden p-2">
                       <div
-                        class="relative flex items-center justify-center p-8 overflow-hidden border border-zinc-800 h-72 rounded-2xl bg-gradient-to-b from-zinc-800/10 to-zinc-400/10"
+                        class="relative flex h-72 items-center justify-center overflow-hidden rounded-2xl border border-zinc-800 bg-gradient-to-b from-zinc-800/10 to-zinc-400/10 p-8"
                       >
                         <img
                           src="/images/feature-workspaces.png"
-                          class="w-auto max-h-full"
+                          class="max-h-full w-auto"
                         />
                       </div>
                     </div>
                     <!-- Text -->
-                    <div class="flex items-start justify-center flex-1 p-8">
+                    <div class="flex flex-1 items-start justify-center p-8">
                       <div class="flex flex-col items-center text-center">
-                        <div class="flex items-center justify-center mb-2">
-                          <icon-lucide-users class="inline-flex mr-2" />
+                        <div class="mb-2 flex items-center justify-center">
+                          <icon-lucide-users class="mr-2 inline-flex" />
                           <h5 class="inline-flex text-lg">Workspaces</h5>
                         </div>
                         <p class="w-full text-zinc-400/80">
@@ -74,25 +74,25 @@
             <div class="grid md:col-span-4">
               <HighlighterItem>
                 <div
-                  class="relative bg-zinc-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative z-20 h-full overflow-hidden rounded-[inherit] bg-zinc-950/90 backdrop-blur-md"
                 >
-                  <div class="flex flex-col h-full">
+                  <div class="flex h-full flex-col">
                     <!-- Image -->
-                    <div class="relative w-full p-2 overflow-hidden">
+                    <div class="relative w-full overflow-hidden p-2">
                       <div
-                        class="relative flex items-center justify-center p-8 overflow-hidden border border-zinc-800 h-72 rounded-2xl bg-gradient-to-b from-zinc-800/10 to-zinc-400/10"
+                        class="relative flex h-72 items-center justify-center overflow-hidden rounded-2xl border border-zinc-800 bg-gradient-to-b from-zinc-800/10 to-zinc-400/10 p-8"
                       >
                         <img
                           src="/images/feature-access-roles.png"
-                          class="w-auto max-h-full"
+                          class="max-h-full w-auto"
                         />
                       </div>
                     </div>
                     <!-- Text -->
-                    <div class="flex items-start justify-center flex-1 p-8">
+                    <div class="flex flex-1 items-start justify-center p-8">
                       <div class="flex flex-col items-center text-center">
-                        <div class="flex items-center justify-center mb-2">
-                          <icon-lucide-shield-check class="inline-flex mr-2" />
+                        <div class="mb-2 flex items-center justify-center">
+                          <icon-lucide-shield-check class="mr-2 inline-flex" />
                           <h5 class="inline-flex text-lg">
                             Access-Level Roles
                           </h5>
@@ -110,25 +110,25 @@
             <div class="grid md:col-span-4">
               <HighlighterItem>
                 <div
-                  class="relative bg-zinc-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative z-20 h-full overflow-hidden rounded-[inherit] bg-zinc-950/90 backdrop-blur-md"
                 >
-                  <div class="flex flex-col h-full">
+                  <div class="flex h-full flex-col">
                     <!-- Image -->
-                    <div class="relative w-full p-2 overflow-hidden">
+                    <div class="relative w-full overflow-hidden p-2">
                       <div
-                        class="relative flex items-center justify-center p-8 overflow-hidden border border-zinc-800 h-72 rounded-2xl bg-gradient-to-b from-zinc-800/10 to-zinc-400/10"
+                        class="relative flex h-72 items-center justify-center overflow-hidden rounded-2xl border border-zinc-800 bg-gradient-to-b from-zinc-800/10 to-zinc-400/10 p-8"
                       >
                         <img
                           src="/images/feature-realtime-collaboration.png"
-                          class="w-auto max-h-full"
+                          class="max-h-full w-auto"
                         />
                       </div>
                     </div>
                     <!-- Text -->
-                    <div class="flex items-start justify-center flex-1 p-8">
+                    <div class="flex flex-1 items-start justify-center p-8">
                       <div class="flex flex-col items-center text-center">
-                        <div class="flex items-center justify-center mb-2">
-                          <icon-lucide-zap class="inline-flex mr-2" />
+                        <div class="mb-2 flex items-center justify-center">
+                          <icon-lucide-zap class="mr-2 inline-flex" />
                           <h5 class="inline-flex text-lg">
                             Real-Time Collaboration
                           </h5>
@@ -146,25 +146,25 @@
             <div class="grid md:col-span-4">
               <HighlighterItem>
                 <div
-                  class="relative bg-zinc-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative z-20 h-full overflow-hidden rounded-[inherit] bg-zinc-950/90 backdrop-blur-md"
                 >
-                  <div class="flex flex-col h-full">
+                  <div class="flex h-full flex-col">
                     <!-- Image -->
-                    <div class="relative w-full p-2 overflow-hidden">
+                    <div class="relative w-full overflow-hidden p-2">
                       <div
-                        class="relative flex items-center justify-center p-8 overflow-hidden border border-zinc-800 h-72 rounded-2xl bg-gradient-to-b from-zinc-800/10 to-zinc-400/10"
+                        class="relative flex h-72 items-center justify-center overflow-hidden rounded-2xl border border-zinc-800 bg-gradient-to-b from-zinc-800/10 to-zinc-400/10 p-8"
                       >
                         <img
                           src="/images/feature-on-prem-deployment.png"
-                          class="w-auto max-h-full"
+                          class="max-h-full w-auto"
                         />
                       </div>
                     </div>
                     <!-- Text -->
-                    <div class="flex items-start justify-center flex-1 p-8">
+                    <div class="flex flex-1 items-start justify-center p-8">
                       <div class="flex flex-col items-center text-center">
-                        <div class="flex items-center justify-center mb-2">
-                          <icon-lucide-database-zap class="inline-flex mr-2" />
+                        <div class="mb-2 flex items-center justify-center">
+                          <icon-lucide-database-zap class="mr-2 inline-flex" />
                           <h5 class="inline-flex text-lg">
                             On-Prem Deployment
                           </h5>
@@ -182,25 +182,25 @@
             <div class="grid md:col-span-8">
               <HighlighterItem>
                 <div
-                  class="relative bg-zinc-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative z-20 h-full overflow-hidden rounded-[inherit] bg-zinc-950/90 backdrop-blur-md"
                 >
-                  <div class="flex flex-col h-full">
+                  <div class="flex h-full flex-col">
                     <!-- Image -->
-                    <div class="relative w-full p-2 overflow-hidden">
+                    <div class="relative w-full overflow-hidden p-2">
                       <div
-                        class="relative flex items-center justify-center p-8 overflow-hidden border border-zinc-800 h-72 rounded-2xl bg-gradient-to-b from-zinc-800/10 to-zinc-400/10"
+                        class="relative flex h-72 items-center justify-center overflow-hidden rounded-2xl border border-zinc-800 bg-gradient-to-b from-zinc-800/10 to-zinc-400/10 p-8"
                       >
                         <img
                           src="/images/feature-collections-folders.png"
-                          class="w-auto max-h-full"
+                          class="max-h-full w-auto"
                         />
                       </div>
                     </div>
                     <!-- Text -->
-                    <div class="flex items-start justify-center flex-1 p-8">
+                    <div class="flex flex-1 items-start justify-center p-8">
                       <div class="flex flex-col items-center text-center">
-                        <div class="flex items-center justify-center mb-2">
-                          <icon-lucide-cloudy class="inline-flex mr-2" />
+                        <div class="mb-2 flex items-center justify-center">
+                          <icon-lucide-cloudy class="mr-2 inline-flex" />
                           <h5 class="inline-flex text-lg">
                             Collections & Folders
                           </h5>
@@ -219,25 +219,25 @@
             <div class="grid md:col-span-8">
               <HighlighterItem>
                 <div
-                  class="relative bg-zinc-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative z-20 h-full overflow-hidden rounded-[inherit] bg-zinc-950/90 backdrop-blur-md"
                 >
-                  <div class="flex flex-col h-full">
+                  <div class="flex h-full flex-col">
                     <!-- Image -->
-                    <div class="relative w-full p-2 overflow-hidden">
+                    <div class="relative w-full overflow-hidden p-2">
                       <div
-                        class="relative flex items-center justify-center p-8 overflow-hidden border border-zinc-800 h-72 rounded-2xl bg-gradient-to-b from-zinc-800/10 to-zinc-400/10"
+                        class="relative flex h-72 items-center justify-center overflow-hidden rounded-2xl border border-zinc-800 bg-gradient-to-b from-zinc-800/10 to-zinc-400/10 p-8"
                       >
                         <img
                           src="/images/feature-environments.png"
-                          class="w-auto max-h-full"
+                          class="max-h-full w-auto"
                         />
                       </div>
                     </div>
                     <!-- Text -->
-                    <div class="flex items-start justify-center flex-1 p-8">
+                    <div class="flex flex-1 items-start justify-center p-8">
                       <div class="flex flex-col items-center text-center">
-                        <div class="flex items-center justify-center mb-2">
-                          <icon-lucide-layers class="inline-flex mr-2" />
+                        <div class="mb-2 flex items-center justify-center">
+                          <icon-lucide-layers class="mr-2 inline-flex" />
                           <h5 class="inline-flex text-lg">
                             Environment Variables
                           </h5>
@@ -256,25 +256,25 @@
             <div class="grid md:col-span-4">
               <HighlighterItem>
                 <div
-                  class="relative bg-zinc-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative z-20 h-full overflow-hidden rounded-[inherit] bg-zinc-950/90 backdrop-blur-md"
                 >
-                  <div class="flex flex-col h-full">
+                  <div class="flex h-full flex-col">
                     <!-- Image -->
-                    <div class="relative w-full p-2 overflow-hidden">
+                    <div class="relative w-full overflow-hidden p-2">
                       <div
-                        class="relative flex items-center justify-center p-8 overflow-hidden border border-zinc-800 h-72 rounded-2xl bg-gradient-to-b from-zinc-800/10 to-zinc-400/10"
+                        class="relative flex h-72 items-center justify-center overflow-hidden rounded-2xl border border-zinc-800 bg-gradient-to-b from-zinc-800/10 to-zinc-400/10 p-8"
                       >
                         <img
                           src="/images/feature-history.png"
-                          class="w-auto max-h-full"
+                          class="max-h-full w-auto"
                         />
                       </div>
                     </div>
                     <!-- Text -->
-                    <div class="flex items-start justify-center flex-1 p-8">
+                    <div class="flex flex-1 items-start justify-center p-8">
                       <div class="flex flex-col items-center text-center">
-                        <div class="flex items-center justify-center mb-2">
-                          <icon-lucide-history class="inline-flex mr-2" />
+                        <div class="mb-2 flex items-center justify-center">
+                          <icon-lucide-history class="mr-2 inline-flex" />
                           <h5 class="inline-flex text-lg">History</h5>
                         </div>
                         <p class="w-3/4 text-zinc-400/80">
@@ -293,7 +293,7 @@
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-zinc-400/20"
+              class="relative mb-1 flex items-center space-x-2 before:absolute before:inset-y-0 before:-ml-4 before:w-px before:bg-zinc-400/20"
             >
               <icon-lucide-file-code class="fill-zinc-200" />
               <span class="text-zinc-100"> Pre-Request Scripts </span>
@@ -306,7 +306,7 @@
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-zinc-400/20"
+              class="relative mb-1 flex items-center space-x-2 before:absolute before:inset-y-0 before:-ml-4 before:w-px before:bg-zinc-400/20"
             >
               <icon-lucide-file-check-2 class="fill-zinc-200" />
               <span class="text-zinc-100"> Post Request Tests </span>
@@ -318,7 +318,7 @@
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-zinc-400/20"
+              class="relative mb-1 flex items-center space-x-2 before:absolute before:inset-y-0 before:-ml-4 before:w-px before:bg-zinc-400/20"
             >
               <icon-lucide-languages class="fill-zinc-200" />
               <span class="text-zinc-100"> Translations </span>
@@ -330,7 +330,7 @@
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-zinc-400/20"
+              class="relative mb-1 flex items-center space-x-2 before:absolute before:inset-y-0 before:-ml-4 before:w-px before:bg-zinc-400/20"
             >
               <icon-lucide-crosshair class="fill-zinc-200" />
               <span class="text-zinc-100"> Audit Logs </span>
@@ -342,7 +342,7 @@
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-zinc-400/20"
+              class="relative mb-1 flex items-center space-x-2 before:absolute before:inset-y-0 before:-ml-4 before:w-px before:bg-zinc-400/20"
             >
               <icon-lucide-lock class="fill-zinc-200" />
               <span class="text-zinc-100"> Single-Sign-On </span>
@@ -354,7 +354,7 @@
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-zinc-400/20"
+              class="relative mb-1 flex items-center space-x-2 before:absolute before:inset-y-0 before:-ml-4 before:w-px before:bg-zinc-400/20"
             >
               <icon-lucide-shield-check class="fill-zinc-200" />
               <span class="text-zinc-100"> Admin Dashboard </span>

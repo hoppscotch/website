@@ -1,68 +1,68 @@
 <script setup lang="ts">
-  const props = defineProps({
-    id: { type: String, required: true },
-    ariaLabel: { type: String, default: "Modal" },
-    modalOpen: { type: Boolean, required: true, default: false },
-  })
+const props = defineProps({
+  id: { type: String, required: true },
+  ariaLabel: { type: String, default: "Modal" },
+  modalOpen: { type: Boolean, required: true, default: false },
+})
 
-  const emit = defineEmits(["closeModal"])
+const emit = defineEmits(["closeModal"])
 
-  const modalContent = ref<HTMLElement>()
+const modalContent = ref<HTMLElement>()
 
-  const clickHandler = (event: MouseEvent) => {
-    if (
-      !props.modalOpen ||
-      !modalContent.value ||
-      modalContent.value.contains(event.target as Node)
-    ) {
-      return
-    }
-
-    emit("closeModal")
+const clickHandler = (event: MouseEvent) => {
+  if (
+    !props.modalOpen ||
+    !modalContent.value ||
+    modalContent.value.contains(event.target as Node)
+  ) {
+    return
   }
 
-  const keyHandler = (event: KeyboardEvent) => {
-    if (!props.modalOpen || event.key !== "Escape") {
-      return
-    }
+  emit("closeModal")
+}
 
-    emit("closeModal")
+const keyHandler = (event: KeyboardEvent) => {
+  if (!props.modalOpen || event.key !== "Escape") {
+    return
   }
 
-  let clickListener: (() => void) | null = null
-  let keydownListener: (() => void) | null = null
+  emit("closeModal")
+}
 
-  watch(
-    () => props.modalOpen,
-    (isOpen) => {
-      if (isOpen) {
-        clickListener = useEventListener("click", clickHandler)
-        keydownListener = useEventListener("keydown", keyHandler)
-      } else {
-        cleanupClick()
-        cleanupKeydown()
-      }
-    }
-  )
+let clickListener: (() => void) | null = null
+let keydownListener: (() => void) | null = null
 
-  const cleanupClick = () => {
-    if (clickListener) {
-      clickListener()
-      clickListener = null
+watch(
+  () => props.modalOpen,
+  (isOpen) => {
+    if (isOpen) {
+      clickListener = useEventListener("click", clickHandler)
+      keydownListener = useEventListener("keydown", keyHandler)
+    } else {
+      cleanupClick()
+      cleanupKeydown()
     }
+  },
+)
+
+const cleanupClick = () => {
+  if (clickListener) {
+    clickListener()
+    clickListener = null
   }
+}
 
-  const cleanupKeydown = () => {
-    if (keydownListener) {
-      keydownListener()
-      keydownListener = null
-    }
+const cleanupKeydown = () => {
+  if (keydownListener) {
+    keydownListener()
+    keydownListener = null
   }
+}
 
-  onBeforeUnmount(() => {
-    cleanupClick()
-    cleanupKeydown()
-  })
+onBeforeUnmount(() => {
+  cleanupClick()
+  cleanupKeydown()
+})
 </script>
 
 <template>
@@ -77,7 +77,7 @@
   >
     <div
       v-if="modalOpen"
-      class="fixed inset-0 z-50 transition-opacity bg-zinc-950/10 backdrop-blur-md"
+      class="fixed inset-0 z-50 bg-zinc-950/10 backdrop-blur-md transition-opacity"
       aria-hidden="true"
     ></div>
   </Transition>
@@ -94,17 +94,17 @@
     <div
       v-if="modalOpen"
       :id="id"
-      class="fixed inset-0 z-50 flex items-center justify-center px-4 overflow-hidden sm:px-6"
+      class="fixed inset-0 z-50 flex items-center justify-center overflow-hidden px-4 sm:px-6"
       role="dialog"
       aria-modal="true"
       :aria-labelledby="ariaLabel"
     >
       <div
         ref="modalContent"
-        class="relative flex flex-col items-center justify-center w-auto max-w-6xl max-h-full overflow-auto"
+        class="relative flex max-h-full w-auto max-w-6xl flex-col items-center justify-center overflow-auto"
       >
         <button
-          class="p-1 mb-4 border rounded-full transition border-zinc-500/20 hover:border-zinc-400/25 bg-white/10"
+          class="mb-4 rounded-full border border-zinc-500/20 bg-white/10 p-1 transition hover:border-zinc-400/25"
           @click="emit('closeModal')"
         >
           <icon-lucide-x />

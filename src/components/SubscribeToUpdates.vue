@@ -1,10 +1,10 @@
 <script setup lang="ts">
-  const newsletterModalOpen = ref(false)
+const newsletterModalOpen = ref(false)
 </script>
 
 <template>
   <button
-    class="rounded transition text-zinc-400/60 hover:text-zinc-400/80"
+    class="rounded text-zinc-400/60 transition hover:text-zinc-400/80"
     @click.stop="newsletterModalOpen = true"
   >
     Subscribe to updates
@@ -15,9 +15,9 @@
     :modal-open="newsletterModalOpen"
     @close-modal="newsletterModalOpen = false"
   >
-    <div class="p-1 border rounded-2xl bg-white/10 border-zinc-500/20">
+    <div class="rounded-2xl border border-zinc-500/20 bg-white/10 p-1">
       <div
-        class="relative w-full h-full overflow-hidden border border-zinc-950 rounded-xl bg-primary"
+        class="relative h-full w-full overflow-hidden rounded-xl border border-zinc-950 bg-primary"
       >
         <Newsletter />
       </div>

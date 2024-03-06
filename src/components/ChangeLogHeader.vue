@@ -1,15 +1,15 @@
 <script setup lang="ts">
-  const source = `${location.host}${location.pathname}`
-  const { copy, copied } = useClipboard({
-    legacy: true,
-  })
+const source = `${location.host}${location.pathname}`
+const { copy, copied } = useClipboard({
+  legacy: true,
+})
 </script>
 
 <template>
   <div class="flex items-center justify-between pb-12 md:pb-16">
     <RouterLink
       to="/changelog"
-      class="inline-flex items-center px-2 py-1 text-sm rounded-full transition text-zinc-400/80 hover:text-zinc-200"
+      class="inline-flex items-center rounded-full px-2 py-1 text-sm text-zinc-400/80 transition hover:text-zinc-200"
     >
       <icon-lucide-arrow-left class="mr-2" />
       Back
@@ -25,7 +25,7 @@
         href="https://twitter.com/hoppscotch_io"
         target="_blank"
         rel="noopener noreferrer"
-        class="rounded transition text-zinc-400/60 hover:text-zinc-400/80"
+        class="rounded text-zinc-400/60 transition hover:text-zinc-400/80"
       >
         <icon-lucide-twitter />
       </a>
@@ -35,7 +35,7 @@
           content: copied ? 'Copied!' : 'Copy permalink',
           theme: 'tooltip',
         }"
-        class="rounded transition text-zinc-400/60 hover:text-zinc-400/80"
+        class="rounded text-zinc-400/60 transition hover:text-zinc-400/80"
         @click="copy(source)"
       >
         <icon-lucide-copy v-if="!copied" />

@@ -1,28 +1,28 @@
 <script setup lang="ts">
-  const tab = ref("1")
+const tab = ref("1")
 </script>
 
 <template>
   <section>
-    <div class="relative max-w-5xl px-4 mx-auto sm:px-6">
-      <div class="pt-32 pb-24">
+    <div class="relative mx-auto max-w-5xl px-4 sm:px-6">
+      <div class="pb-24 pt-32">
         <div>
           <!-- Section content -->
           <div
-            class="flex flex-col max-w-xl mx-auto space-y-8 space-y-reverse md:max-w-none md:flex-row md:space-x-8 lg:space-x-16 xl:space-x-20 md:space-y-0"
+            class="mx-auto flex max-w-xl flex-col space-y-8 space-y-reverse md:max-w-none md:flex-row md:space-x-8 md:space-y-0 lg:space-x-16 xl:space-x-20"
           >
             <!-- Content -->
             <div
-              class="order-1 md:w-7/12 lg:w-1/2 md:order-none max-md:text-center"
+              class="order-1 max-md:text-center md:order-none md:w-7/12 lg:w-1/2"
             >
               <!-- Content #1 -->
               <span
-                class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600"
+                class="mb-6 inline-flex max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600 bg-clip-text text-transparent"
               >
                 Developer-First API Platform
               </span>
               <h3
-                class="block pb-3 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
+                class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text pb-3 text-transparent"
               >
                 Essential Tools for API Development
               </h3>
@@ -30,9 +30,9 @@
                 Hoppscotch makes it easy to create and test your APIs, helping
                 you to ship products faster.
               </p>
-              <div class="max-w-xs mt-8 space-y-2 max-md:mx-auto">
+              <div class="mt-8 max-w-xs space-y-2 max-md:mx-auto">
                 <button
-                  class="flex items-center w-full px-3 py-2 text-sm border text-zinc-100 transition rounded-md bg-zinc-900/25 hover:opacity-100"
+                  class="flex w-full items-center rounded-md border bg-zinc-900/25 px-3 py-2 text-sm text-zinc-100 transition hover:opacity-100"
                   :class="
                     tab !== '1'
                       ? 'border-zinc-800 opacity-50'
@@ -44,7 +44,7 @@
                   <span>Built to be Fast</span>
                 </button>
                 <button
-                  class="flex items-center w-full px-3 py-2 text-sm border text-zinc-100 transition rounded-md bg-zinc-900/25 hover:opacity-100"
+                  class="flex w-full items-center rounded-md border bg-zinc-900/25 px-3 py-2 text-sm text-zinc-100 transition hover:opacity-100"
                   :class="
                     tab !== '2'
                       ? 'border-zinc-800 opacity-50'
@@ -56,7 +56,7 @@
                   <span>Made with Open-Source</span>
                 </button>
                 <button
-                  class="flex items-center w-full px-3 py-2 text-sm border text-zinc-100 transition rounded-md bg-zinc-900/25 hover:opacity-100"
+                  class="flex w-full items-center rounded-md border bg-zinc-900/25 px-3 py-2 text-sm text-zinc-100 transition hover:opacity-100"
                   :class="
                     tab !== '3'
                       ? 'border-zinc-800 opacity-50'
@@ -82,11 +82,11 @@
                 </ClientOnly>
                 <div class="flex items-center justify-center">
                   <div
-                    class="relative flex items-center justify-center w-48 h-48"
+                    class="relative flex h-48 w-48 items-center justify-center"
                   >
                     <!-- Halo effect -->
                     <svg
-                      class="absolute inset-0 pointer-events-none transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 will-change-transform blur-md"
+                      class="pointer-events-none absolute inset-0 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform blur-md will-change-transform"
                       width="480"
                       height="480"
                       viewBox="0 0 480 480"
@@ -128,17 +128,17 @@
                     </svg>
                     <!-- Grid -->
                     <div
-                      class="absolute inset-0 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none w-[500px] h-[500px] rounded-full overflow-hidden [mask-image:_radial-gradient(black,_transparent_60%)]"
+                      class="pointer-events-none absolute inset-0 left-1/2 top-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 transform overflow-hidden rounded-full [mask-image:_radial-gradient(black,_transparent_60%)]"
                     >
                       <div class="h-[200%] animate-endless-wave">
                         <div
-                          class="absolute inset-0 [background:_repeating-linear-gradient(transparent,_transparent_48px,_theme(colors.white)_48px,_theme(colors.white)_49px)] blur-[2px] opacity-20"
+                          class="absolute inset-0 opacity-20 blur-[2px] [background:_repeating-linear-gradient(transparent,_transparent_48px,_theme(colors.white)_48px,_theme(colors.white)_49px)]"
                         ></div>
                         <div
                           class="absolute inset-0 [background:_repeating-linear-gradient(transparent,_transparent_48px,_theme(colors.zinc.500)_48px,_theme(colors.zinc.500)_49px)]"
                         ></div>
                         <div
-                          class="absolute inset-0 [background:_repeating-linear-gradient(90deg,_transparent,_transparent_48px,_theme(colors.white)_48px,_theme(colors.white)_49px)] blur-[2px] opacity-20"
+                          class="absolute inset-0 opacity-20 blur-[2px] [background:_repeating-linear-gradient(90deg,_transparent,_transparent_48px,_theme(colors.white)_48px,_theme(colors.white)_49px)]"
                         ></div>
                         <div
                           class="absolute inset-0 [background:_repeating-linear-gradient(90deg,_transparent,_transparent_48px,_theme(colors.zinc.500)_48px,_theme(colors.zinc.500)_49px)]"
@@ -156,10 +156,10 @@
                     >
                       <div v-if="tab === '1'" class="absolute">
                         <div
-                          class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl -rotate-[14deg] [background:linear-gradient(theme(colors.zinc.900),_theme(colors.zinc.900))_padding-box,_conic-gradient(theme(colors.zinc.400),_theme(colors.zinc.700)_25%,_theme(colors.zinc.700)_75%,_theme(colors.zinc.400)_100%)_border-box] before:absolute before:inset-0 before:bg-zinc-900/30 before:rounded-2xl"
+                          class="relative flex h-16 w-16 -rotate-[14deg] items-center justify-center rounded-2xl border border-transparent shadow-2xl [background:linear-gradient(theme(colors.zinc.900),_theme(colors.zinc.900))_padding-box,_conic-gradient(theme(colors.zinc.400),_theme(colors.zinc.700)_25%,_theme(colors.zinc.700)_75%,_theme(colors.zinc.400)_100%)_border-box] before:absolute before:inset-0 before:rounded-2xl before:bg-zinc-900/30"
                         >
                           <icon-lucide-zap
-                            class="relative w-8 h-8 fill-zinc-200"
+                            class="relative h-8 w-8 fill-zinc-200"
                           />
                         </div>
                       </div>
@@ -174,10 +174,10 @@
                     >
                       <div v-if="tab === '2'" class="absolute">
                         <div
-                          class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl -rotate-[14deg] [background:linear-gradient(theme(colors.zinc.900),_theme(colors.zinc.900))_padding-box,_conic-gradient(theme(colors.zinc.400),_theme(colors.zinc.700)_25%,_theme(colors.zinc.700)_75%,_theme(colors.zinc.400)_100%)_border-box] before:absolute before:inset-0 before:bg-zinc-900/30 before:rounded-2xl"
+                          class="relative flex h-16 w-16 -rotate-[14deg] items-center justify-center rounded-2xl border border-transparent shadow-2xl [background:linear-gradient(theme(colors.zinc.900),_theme(colors.zinc.900))_padding-box,_conic-gradient(theme(colors.zinc.400),_theme(colors.zinc.700)_25%,_theme(colors.zinc.700)_75%,_theme(colors.zinc.400)_100%)_border-box] before:absolute before:inset-0 before:rounded-2xl before:bg-zinc-900/30"
                         >
                           <icon-lucide-heart
-                            class="relative w-8 h-8 fill-zinc-200"
+                            class="relative h-8 w-8 fill-zinc-200"
                           />
                         </div>
                       </div>
@@ -192,10 +192,10 @@
                     >
                       <div v-if="tab === '3'" class="absolute">
                         <div
-                          class="relative flex items-center justify-center w-16 h-16 border border-transparent rounded-2xl shadow-2xl -rotate-[14deg] [background:linear-gradient(theme(colors.zinc.900),_theme(colors.zinc.900))_padding-box,_conic-gradient(theme(colors.zinc.400),_theme(colors.zinc.700)_25%,_theme(colors.zinc.700)_75%,_theme(colors.zinc.400)_100%)_border-box] before:absolute before:inset-0 before:bg-zinc-900/30 before:rounded-2xl"
+                          class="relative flex h-16 w-16 -rotate-[14deg] items-center justify-center rounded-2xl border border-transparent shadow-2xl [background:linear-gradient(theme(colors.zinc.900),_theme(colors.zinc.900))_padding-box,_conic-gradient(theme(colors.zinc.400),_theme(colors.zinc.700)_25%,_theme(colors.zinc.700)_75%,_theme(colors.zinc.400)_100%)_border-box] before:absolute before:inset-0 before:rounded-2xl before:bg-zinc-900/30"
                         >
                           <icon-lucide-users-2
-                            class="relative w-8 h-8 fill-zinc-200"
+                            class="relative h-8 w-8 fill-zinc-200"
                           />
                         </div>
                       </div>
@@ -212,31 +212,31 @@
 </template>
 
 <style lang="scss" scoped>
-  /* Pulsing animation */
-  @keyframes pulseLoop {
-    0% {
-      opacity: 0;
-      transform: scale(0.25) translateZ(0);
-    }
-    30% {
-      opacity: 0.4;
-    }
-    70% {
-      opacity: 0;
-    }
-    80% {
-      transform: scale(1) translateZ(0);
-    }
-  }
-  .pulse {
+/* Pulsing animation */
+@keyframes pulseLoop {
+  0% {
     opacity: 0;
-    transform-origin: center;
-    animation: pulseLoop 12000ms linear infinite;
+    transform: scale(0.25) translateZ(0);
   }
-  .pulse-1 {
-    animation-delay: -4000ms;
+  30% {
+    opacity: 0.4;
   }
-  .pulse-2 {
-    animation-delay: -8000ms;
+  70% {
+    opacity: 0;
   }
+  80% {
+    transform: scale(1) translateZ(0);
+  }
+}
+.pulse {
+  opacity: 0;
+  transform-origin: center;
+  animation: pulseLoop 12000ms linear infinite;
+}
+.pulse-1 {
+  animation-delay: -4000ms;
+}
+.pulse-2 {
+  animation-delay: -8000ms;
+}
 </style>

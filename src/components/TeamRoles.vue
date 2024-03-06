@@ -1,10 +1,10 @@
 <template>
   <section>
-    <div class="max-w-4xl px-4 mx-auto sm:px-6">
+    <div class="mx-auto max-w-4xl px-4 sm:px-6">
       <div class="py-12 md:py-16">
         <!-- Section header -->
         <h3
-          class="block pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
+          class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text pb-4 text-transparent"
         >
           Open positions
         </h3>
@@ -54,11 +54,11 @@
         <div class="text-center">
           <RouterLink
             to="/careers"
-            class="inline-flex items-center justify-center px-3 py-1 text-sm border border-transparent rounded-full bg-zinc-600 transition text-zinc-50 hover:bg-zinc-700 group"
+            class="group inline-flex items-center justify-center rounded-full border border-transparent bg-zinc-600 px-3 py-1 text-sm text-zinc-50 transition hover:bg-zinc-700"
           >
             See open positions
             <span
-              class="text-zinc-300 group-hover:translate-x-0.5 transition-transform ml-1"
+              class="ml-1 text-zinc-300 transition-transform group-hover:translate-x-0.5"
             >
               <icon-lucide-arrow-right />
             </span>

@@ -2,7 +2,7 @@ import { ViteSSG } from "vite-ssg"
 import VueGtag from "vue-gtag"
 import VueTippy, { roundArrow } from "vue-tippy"
 import { setupLayouts } from "virtual:generated-layouts"
-import { routes } from "vue-router/auto/routes"
+import { routes } from "vue-router/auto-routes"
 import { MotionPlugin } from "@vueuse/motion"
 import { GesturePlugin } from "@vueuse/gesture"
 import App from "./App.vue"
@@ -21,7 +21,7 @@ export const createApp = ViteSSG(
   {
     routes: setupLayouts(routes),
     base: import.meta.env.BASE_URL,
-    scrollBehavior(to, _from, _savedPosition) {
+    scrollBehavior(to) {
       if (to.hash) {
         return {
           el: to.hash,
@@ -67,5 +67,5 @@ export const createApp = ViteSSG(
         NProgress.done()
       })
     }
-  }
+  },
 )

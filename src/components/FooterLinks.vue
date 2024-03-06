@@ -1,20 +1,20 @@
 <template>
   <!-- Blocks -->
-  <div class="py-4 grid gap-8 sm:grid-cols-12 md:py-8">
+  <div class="grid gap-8 py-4 sm:grid-cols-12 md:py-8">
     <!-- Block -->
     <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
       <h6 class="mb-4">
         <RouterLink
           to="/products"
-          class="text-sm rounded text-zinc-200 transition hover:text-zinc-100"
+          class="rounded text-sm text-zinc-200 transition hover:text-zinc-100"
         >
           Products
         </RouterLink>
       </h6>
-      <ul class="text-sm space-y-2">
+      <ul class="space-y-2 text-sm">
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/products/cloud"
           >
             Cloud
@@ -22,7 +22,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/products/Enterprise"
           >
             Enterprise
@@ -30,7 +30,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/products/self-host"
           >
             Self-Host
@@ -38,7 +38,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/products/cli"
           >
             CLI
@@ -51,15 +51,15 @@
       <h6 class="mb-4">
         <RouterLink
           to="/explore"
-          class="text-sm rounded text-zinc-200 transition hover:text-zinc-100"
+          class="rounded text-sm text-zinc-200 transition hover:text-zinc-100"
         >
           Explore
         </RouterLink>
       </h6>
-      <ul class="text-sm space-y-2">
+      <ul class="space-y-2 text-sm">
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/features"
           >
             Features
@@ -67,7 +67,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/download"
           >
             Download
@@ -75,7 +75,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/pricing"
           >
             Pricing
@@ -83,7 +83,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/changelog"
           >
             Changelog
@@ -96,15 +96,15 @@
       <h6 class="mb-4">
         <RouterLink
           to="/solutions"
-          class="text-sm rounded text-zinc-200 transition hover:text-zinc-100"
+          class="rounded text-sm text-zinc-200 transition hover:text-zinc-100"
         >
           Solutions
         </RouterLink>
       </h6>
-      <ul class="text-sm space-y-2">
+      <ul class="space-y-2 text-sm">
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/solutions/developers"
           >
             Developers
@@ -112,7 +112,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/solutions/teams"
           >
             Teams
@@ -120,7 +120,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/solutions/enterprise"
           >
             Enterprise
@@ -128,7 +128,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/solutions/education"
           >
             Education
@@ -136,7 +136,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/solutions/cloud"
           >
             Cloud
@@ -144,7 +144,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/solutions/self-host"
           >
             Self-Host
@@ -157,15 +157,15 @@
       <h6 class="mb-4">
         <RouterLink
           to="/company"
-          class="text-sm rounded text-zinc-200 transition hover:text-zinc-100"
+          class="rounded text-sm text-zinc-200 transition hover:text-zinc-100"
         >
           Company
         </RouterLink>
       </h6>
-      <ul class="text-sm space-y-2">
+      <ul class="space-y-2 text-sm">
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/about"
           >
             About
@@ -173,7 +173,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/blog"
           >
             Blog
@@ -181,7 +181,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/careers"
           >
             Careers
@@ -189,7 +189,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/contact"
           >
             Contact
@@ -202,15 +202,15 @@
       <h6 class="mb-4">
         <RouterLink
           to="/resources"
-          class="text-sm rounded text-zinc-200 transition hover:text-zinc-100"
+          class="rounded text-sm text-zinc-200 transition hover:text-zinc-100"
         >
           Resources
         </RouterLink>
       </h6>
-      <ul class="text-sm space-y-2">
+      <ul class="space-y-2 text-sm">
         <li>
           <a
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             href="https://docs.hoppscotch.io"
             target="_blank"
             rel="noopener noreferrer"
@@ -220,7 +220,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/community"
           >
             Community
@@ -228,7 +228,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/brand"
           >
             Brand
@@ -236,7 +236,7 @@
         </li>
         <li>
           <a
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             href="https://shop.hoppscotch.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -251,15 +251,15 @@
       <h6 class="mb-4">
         <RouterLink
           to="/legal"
-          class="text-sm rounded text-zinc-200 transition hover:text-zinc-100"
+          class="rounded text-sm text-zinc-200 transition hover:text-zinc-100"
         >
           Legal
         </RouterLink>
       </h6>
-      <ul class="text-sm space-y-2">
+      <ul class="space-y-2 text-sm">
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/privacy"
           >
             Privacy Policy
@@ -267,7 +267,7 @@
         </li>
         <li>
           <RouterLink
-            class="rounded transition text-zinc-400/80 hover:text-zinc-100"
+            class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/terms"
           >
             Terms of Service

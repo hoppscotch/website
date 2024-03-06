@@ -1,28 +1,28 @@
 <template>
   <div class="flex flex-col flex-nowrap">
     <RouterLink
-      class="flex items-center px-3 py-2 text-sm rounded-lg text-zinc-400 transition hover:text-zinc-200 hover:bg-zinc-800/50"
+      class="flex items-center rounded-lg px-3 py-2 text-sm text-zinc-400 transition hover:bg-zinc-800/50 hover:text-zinc-200"
       to="/download"
     >
       <icon-lucide-download class="mr-3" />
       Download
     </RouterLink>
     <RouterLink
-      class="flex items-center px-3 py-2 text-sm rounded-lg text-zinc-400 transition hover:text-zinc-200 hover:bg-zinc-800/50"
+      class="flex items-center rounded-lg px-3 py-2 text-sm text-zinc-400 transition hover:bg-zinc-800/50 hover:text-zinc-200"
       to="/blog"
     >
       <icon-lucide-newspaper class="mr-3" />
       Blog
     </RouterLink>
     <RouterLink
-      class="flex items-center px-3 py-2 text-sm rounded-lg text-zinc-400 transition hover:text-zinc-200 hover:bg-zinc-800/50"
+      class="flex items-center rounded-lg px-3 py-2 text-sm text-zinc-400 transition hover:bg-zinc-800/50 hover:text-zinc-200"
       to="/changelog"
     >
       <icon-lucide-scroll-text class="mr-3" />
       Changelog
     </RouterLink>
     <RouterLink
-      class="flex items-center px-3 py-2 text-sm rounded-lg text-zinc-400 transition hover:text-zinc-200 hover:bg-zinc-800/50"
+      class="flex items-center rounded-lg px-3 py-2 text-sm text-zinc-400 transition hover:bg-zinc-800/50 hover:text-zinc-200"
       to="/pricing"
     >
       <icon-lucide-gem class="mr-3" />
@@ -36,7 +36,7 @@
       Careers
     </RouterLink> -->
     <a
-      class="flex items-center px-3 py-2 text-sm rounded-lg text-zinc-400 transition hover:text-zinc-200 hover:bg-zinc-800/50"
+      class="flex items-center rounded-lg px-3 py-2 text-sm text-zinc-400 transition hover:bg-zinc-800/50 hover:text-zinc-200"
       href="https://docs.hoppscotch.io"
       target="_blank"
       rel="noopener noreferrer"

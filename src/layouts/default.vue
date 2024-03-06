@@ -1,9 +1,9 @@
 <template>
-  <div class="flex flex-col min-h-screen">
+  <div class="flex min-h-screen flex-col">
     <!-- Site header -->
     <AppHeader />
     <!-- Page content -->
-    <main class="flex flex-col overflow-clip grow">
+    <main class="flex grow flex-col overflow-clip">
       <RouterView />
     </main>
     <!-- Site footer -->

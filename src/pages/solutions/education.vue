@@ -1,13 +1,13 @@
 <script setup lang="ts">
-  useHead({
-    title: "Education • Hoppscotch",
-    meta: [
-      {
-        name: "description",
-        content: "The power to be your best.",
-      },
-    ],
-  })
+useHead({
+  title: "Education • Hoppscotch",
+  meta: [
+    {
+      name: "description",
+      content: "The power to be your best.",
+    },
+  ],
+})
 </script>
 
 <template>

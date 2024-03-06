@@ -1,57 +1,57 @@
 <script setup lang="ts">
-  import TestimonialImg01 from "/images/testimonial-01.jpeg"
-  import TestimonialImg02 from "/images/testimonial-02.jpeg"
-  import TestimonialImg03 from "/images/testimonial-03.jpeg"
+import TestimonialImg01 from "/images/testimonial-01.jpeg"
+import TestimonialImg02 from "/images/testimonial-02.jpeg"
+import TestimonialImg03 from "/images/testimonial-03.jpeg"
 
-  interface Testimonial {
-    img: string
-    quote: string
-    name: string
-    role: string
+interface Testimonial {
+  img: string
+  quote: string
+  name: string
+  role: string
+}
+
+const active = ref<number>(0)
+const autorotate = ref<boolean>(true)
+const autorotateTiming = ref<number>(7000)
+
+const items = ref<Testimonial[]>([
+  {
+    img: TestimonialImg01,
+    quote:
+      "Hoppscotch is the future of API development infrastructure, and the future is here.",
+    name: "Joseph Jacks",
+    role: "Founder, OSS Capital",
+  },
+  {
+    img: TestimonialImg02,
+    quote: "Hoppscotch which gives me all of the functions I need.",
+    name: "Jason McFeetors",
+    role: "Automation Evangelist, n8n",
+  },
+  {
+    img: TestimonialImg03,
+    quote: "Our team loves Hoppscotch. Saved us a lot of time.",
+    name: "Rakshit Arora",
+    role: "Founder, MoonlightDevs",
+  },
+])
+
+onMounted(() => {
+  if (autorotate.value) {
+    setInterval(() => {
+      active.value = (active.value + 1) % items.value.length
+    }, autorotateTiming.value)
   }
-
-  const active = ref<number>(0)
-  const autorotate = ref<boolean>(true)
-  const autorotateTiming = ref<number>(7000)
-
-  const items = ref<Testimonial[]>([
-    {
-      img: TestimonialImg01,
-      quote:
-        "Hoppscotch is the future of API development infrastructure, and the future is here.",
-      name: "Joseph Jacks",
-      role: "Founder, OSS Capital",
-    },
-    {
-      img: TestimonialImg02,
-      quote: "Hoppscotch which gives me all of the functions I need.",
-      name: "Jason McFeetors",
-      role: "Automation Evangelist, n8n",
-    },
-    {
-      img: TestimonialImg03,
-      quote: "Our team loves Hoppscotch. Saved us a lot of time.",
-      name: "Rakshit Arora",
-      role: "Founder, MoonlightDevs",
-    },
-  ])
-
-  onMounted(() => {
-    if (autorotate.value) {
-      setInterval(() => {
-        active.value = (active.value + 1) % items.value.length
-      }, autorotateTiming.value)
-    }
-  })
+})
 </script>
 
 <template>
   <section>
-    <div class="max-w-4xl px-4 mx-auto sm:px-6">
+    <div class="mx-auto max-w-4xl px-4 sm:px-6">
       <div class="relative pb-12 md:pb-16">
         <!-- Particles animation -->
         <div
-          class="absolute top-0 -mt-6 -translate-x-1/2 left-1/2 -z-10 w-80 h-80"
+          class="absolute left-1/2 top-0 -z-10 -mt-6 h-80 w-80 -translate-x-1/2"
         >
           <ClientOnly>
             <Particles
@@ -68,7 +68,7 @@
             class="relative h-32 [mask-image:_linear-gradient(0deg,_transparent,_theme(colors.zinc.500)_40%,_theme(colors.zinc.500))]"
           >
             <div
-              class="absolute top-0 left-1/2 -translate-x-1/2 w-[480px] h-[480px] -z-10 pointer-events-none before:rounded-full rounded-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-zinc-500/20 before: before:to-20% after:rounded-full after:absolute after:inset-0 after:bg-zinc-950 after:m-px before:-z-20 after:-z-20"
+              class="before: pointer-events-none absolute left-1/2 top-0 -z-10 h-[480px] w-[480px] -translate-x-1/2 rounded-full before:absolute before:inset-0 before:-z-20 before:rounded-full before:bg-gradient-to-b before:from-zinc-500/20 before:to-20% after:absolute after:inset-0 after:-z-20 after:m-px after:rounded-full after:bg-zinc-950"
             >
               <TransitionGroup
                 enter-active-class="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-500 order-first"
@@ -81,11 +81,11 @@
                 <template v-for="(item, index) in items" :key="index">
                   <div
                     v-if="active === index"
-                    class="absolute inset-0 h-full -z-10"
+                    class="absolute inset-0 -z-10 h-full"
                   >
                     <img
                       loading="lazy"
-                      class="relative w-16 h-16 p-1 border rounded-full -translate-x-1/2 filter slatescale top-11 left-1/2 border-zinc-500/20"
+                      class="slatescale relative left-1/2 top-11 h-16 w-16 -translate-x-1/2 rounded-full border border-zinc-500/20 p-1 filter"
                       :src="item.img"
                       :alt="item.name"
                     />
@@ -95,7 +95,7 @@
             </div>
           </div>
           <!-- Text -->
-          <div class="relative flex flex-col items-center mb-10">
+          <div class="relative mb-10 flex flex-col items-center">
             <TransitionGroup
               enter-active-class="order-first transition duration-500 delay-200"
               enter-from-class="opacity-0 -translate-x-4"
@@ -107,7 +107,7 @@
               <template v-for="(item, index) in items" :key="index">
                 <div
                   v-if="active === index"
-                  class="block text-xl font-semibold text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
+                  class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text text-xl font-semibold text-transparent"
                 >
                   {{ item.quote }}
                 </div>
@@ -115,13 +115,13 @@
             </TransitionGroup>
           </div>
           <!-- Buttons -->
-          <div class="flex flex-wrap justify-center -m-1.5">
+          <div class="-m-1.5 flex flex-wrap justify-center">
             <template v-for="(item, index) in items" :key="index">
               <button
-                class="inline-flex items-center justify-center border border-transparent rounded-full transition px-3 py-1 m-1.5 text-xs text-zinc-200 [background:linear-gradient(theme(colors.zinc.950),_theme(colors.zinc.950))_padding-box,_conic-gradient(theme(colors.zinc.400),_theme(colors.zinc.700)_25%,_theme(colors.zinc.700)_75%,_theme(colors.zinc.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-zinc-950/10 before:rounded-full before:pointer-events-none"
+                class="relative m-1.5 inline-flex items-center justify-center rounded-full border border-transparent px-3 py-1 text-xs text-zinc-200 transition [background:linear-gradient(theme(colors.zinc.950),_theme(colors.zinc.950))_padding-box,_conic-gradient(theme(colors.zinc.400),_theme(colors.zinc.700)_25%,_theme(colors.zinc.700)_75%,_theme(colors.zinc.400)_100%)_border-box] before:pointer-events-none before:absolute before:inset-0 before:rounded-full before:bg-zinc-950/10"
                 :class="
                   active === index
-                    ? 'opacity-100 shadow-zinc-950/50 shadow-xl'
+                    ? 'opacity-100 shadow-xl shadow-zinc-950/50'
                     : 'opacity-50 hover:opacity-80'
                 "
                 @click="

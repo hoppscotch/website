@@ -1,21 +1,26 @@
 *:focus {
   @apply outline-none;
 }
+
 *:focus-visible {
   @apply outline-1;
   @apply outline-offset-4;
   @apply outline-white/10;
 }
+
 ::selection {
   @apply bg-zinc-400/50;
   @apply text-zinc-50;
 }
+
 html {
   scroll-behavior: smooth;
   scrollbar-gutter: stable;
 }
+
 #nprogress {
   @apply pointer-events-none;
+
   .bar {
     @apply fixed;
     @apply left-0;
@@ -24,6 +29,7 @@ html {
     @apply w-full;
     @apply z-50;
     @apply bg-zinc-50;
+
     background-image: linear-gradient(
       to right,
       #27c4f5,
@@ -34,23 +40,32 @@ html {
     );
   }
 }
+
 .medium-zoom-overlay {
   @apply bg-zinc-950 #{!important};
+
   @apply z-40 #{!important};
 }
+
 .medium-zoom-image--opened {
   @apply rounded md:rounded-xl #{!important};
+
   @apply z-50 #{!important};
+
   @apply p-0 #{!important};
+
   @apply border-0 #{!important};
 }
+
 .tippy-box {
   @apply max-w-none #{!important};
 }
+
 .tippy-box[data-theme~="tooltip"] {
   @apply rounded-md;
   @apply shadow-md;
 }
+
 .tippy-box[data-theme~="tooltip"] > .tippy-content {
   @apply text-xs;
   @apply bg-zinc-900;
@@ -60,14 +75,17 @@ html {
   @apply rounded-md;
   @apply overflow-hidden;
 }
+
 .tippy-box[data-theme~="tooltip"] > .tippy-svg-arrow {
   @apply fill-zinc-950;
 }
+
 .tippy-box[data-theme~="popover"] {
   @apply rounded-2xl;
   @apply shadow-2xl;
   @apply bg-zinc-950;
 }
+
 .tippy-box[data-theme~="popover"] > .tippy-content {
   @apply text-xs;
   @apply bg-gradient-to-r;
@@ -79,52 +97,67 @@ html {
   @apply overflow-hidden;
   @apply border border-zinc-800;
 }
+
 .tippy-box[data-theme~="popover"] > .tippy-svg-arrow {
   @apply fill-transparent;
 }
+
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
 h1 {
-  @apply text-5xl leading-normal tracking-tight font-jakarta;
+  @apply font-jakarta text-5xl leading-normal tracking-tight;
 }
+
 h2 {
-  @apply text-3xl leading-normal tracking-tight font-jakarta;
+  @apply font-jakarta text-3xl leading-normal tracking-tight;
 }
+
 h3 {
-  @apply text-2xl leading-normal tracking-tight font-jakarta;
+  @apply font-jakarta text-2xl leading-normal tracking-tight;
 }
+
 h4 {
-  @apply text-xl leading-normal tracking-tight font-jakarta;
+  @apply font-jakarta text-xl leading-normal tracking-tight;
 }
+
 @screen md {
   h1 {
     @apply text-6xl leading-tight;
   }
+
   h2 {
     @apply text-4xl leading-tight;
   }
+
   h3 {
     @apply text-3xl leading-tight;
   }
+
   h4 {
     @apply text-2xl leading-tight;
   }
 }
+
 @screen lg {
   h1 {
     @apply text-7xl leading-tight;
   }
+
   h2 {
     @apply text-5xl leading-tight;
   }
+
   h3 {
     @apply text-4xl leading-tight;
   }
+
   h4 {
     @apply text-3xl leading-tight;
   }

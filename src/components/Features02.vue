@@ -2,7 +2,7 @@
   <section class="relative">
     <!-- Particles animation -->
     <div
-      class="absolute top-0 -mt-24 -ml-32 -translate-x-1/2 left-1/2 -z-10 w-80 h-80"
+      class="absolute left-1/2 top-0 -z-10 -ml-32 -mt-24 h-80 w-80 -translate-x-1/2"
     >
       <ClientOnly>
         <Particles
@@ -12,19 +12,19 @@
         />
       </ClientOnly>
     </div>
-    <div class="max-w-5xl px-4 mx-auto sm:px-6">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6">
       <div class="py-12 md:py-16">
         <!-- Section header -->
         <div
-          class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
+          class="mx-auto flex max-w-2xl flex-col items-center pb-12 text-center md:pb-20"
         >
           <span
-            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600"
+            class="mb-6 inline-flex max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600 bg-clip-text text-transparent"
           >
             Tools for Power Users
           </span>
           <h2
-            class="block pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
+            class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text pb-4 text-transparent"
           >
             Faster. Smarter.
           </h2>
@@ -35,18 +35,18 @@
         <!-- Highlighted boxes -->
         <div class="relative pb-12 md:pb-16">
           <!-- Grid -->
-          <Highlighter class="grid gap-6 md:grid-cols-12 group">
+          <Highlighter class="group grid gap-6 md:grid-cols-12">
             <!-- Box #1 -->
             <div class="grid md:col-span-12">
               <HighlighterItem>
                 <div
-                  class="relative bg-zinc-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative z-20 h-full overflow-hidden rounded-[inherit] bg-zinc-950/90 backdrop-blur-md"
                 >
-                  <div class="flex flex-col h-full">
+                  <div class="flex h-full flex-col">
                     <!-- Text -->
-                    <div class="flex items-start justify-center flex-1 p-8">
+                    <div class="flex flex-1 items-start justify-center p-8">
                       <div class="flex flex-col items-center text-center">
-                        <icon-lucide-command class="w-6 h-6 mb-4" />
+                        <icon-lucide-command class="mb-4 h-6 w-6" />
                         <h5 class="inline-flex pb-2 text-xl">
                           Keyboard Shortcuts
                         </h5>
@@ -66,13 +66,13 @@
             <div class="grid md:col-span-7">
               <HighlighterItem>
                 <div
-                  class="relative bg-zinc-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative z-20 h-full overflow-hidden rounded-[inherit] bg-zinc-950/90 backdrop-blur-md"
                 >
-                  <div class="flex flex-col h-full">
+                  <div class="flex h-full flex-col">
                     <!-- Text -->
-                    <div class="flex items-start justify-center flex-1 p-8">
+                    <div class="flex flex-1 items-start justify-center p-8">
                       <div class="flex flex-col items-center text-center">
-                        <icon-lucide-terminal-square class="w-6 h-6 mb-4" />
+                        <icon-lucide-terminal-square class="mb-4 h-6 w-6" />
                         <h5 class="inline-flex pb-2 text-xl">CMD + K</h5>
                         <p class="w-3/4 text-zinc-400/80">
                           Access the command palette by pressing CMD+K and type
@@ -90,13 +90,13 @@
             <div class="grid md:col-span-5">
               <HighlighterItem>
                 <div
-                  class="relative bg-zinc-950/90 h-full backdrop-blur-md rounded-[inherit] z-20 overflow-hidden"
+                  class="relative z-20 h-full overflow-hidden rounded-[inherit] bg-zinc-950/90 backdrop-blur-md"
                 >
-                  <div class="flex flex-col h-full">
+                  <div class="flex h-full flex-col">
                     <!-- Text -->
-                    <div class="flex items-start justify-center flex-1 p-8">
+                    <div class="flex flex-1 items-start justify-center p-8">
                       <div class="flex flex-col items-center text-center">
-                        <icon-lucide-globe class="w-6 h-6 mb-4" />
+                        <icon-lucide-globe class="mb-4 h-6 w-6" />
                         <h5 class="inline-flex pb-2 text-xl">Open-Source</h5>
                         <p class="w-3/4 text-zinc-400/80">
                           Built on top of open-source technologies and
@@ -117,7 +117,7 @@
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-zinc-400/20"
+              class="relative mb-1 flex items-center space-x-2 before:absolute before:inset-y-0 before:-ml-4 before:w-px before:bg-zinc-400/20"
             >
               <icon-lucide-zap class="fill-zinc-200" />
               <span class="text-zinc-100">Lightweight and Snappy</span>
@@ -130,7 +130,7 @@
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-zinc-400/20"
+              class="relative mb-1 flex items-center space-x-2 before:absolute before:inset-y-0 before:-ml-4 before:w-px before:bg-zinc-400/20"
             >
               <icon-lucide-users-2 class="fill-zinc-200" />
               <span class="text-zinc-100">Built for Collaboration </span>
@@ -143,7 +143,7 @@
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-zinc-400/20"
+              class="relative mb-1 flex items-center space-x-2 before:absolute before:inset-y-0 before:-ml-4 before:w-px before:bg-zinc-400/20"
             >
               <icon-lucide-palette class="fill-zinc-200" />
               <span class="text-zinc-100">Highly Customizable</span>
@@ -155,7 +155,7 @@
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-zinc-400/20"
+              class="relative mb-1 flex items-center space-x-2 before:absolute before:inset-y-0 before:-ml-4 before:w-px before:bg-zinc-400/20"
             >
               <icon-lucide-filter class="fill-zinc-200" />
               <span class="text-zinc-100"> Filter and Sort </span>
@@ -167,7 +167,7 @@
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-zinc-400/20"
+              class="relative mb-1 flex items-center space-x-2 before:absolute before:inset-y-0 before:-ml-4 before:w-px before:bg-zinc-400/20"
             >
               <icon-lucide-package class="fill-zinc-200" />
               <span class="text-zinc-100">Cross-Platform Apps</span>
@@ -180,7 +180,7 @@
           <!-- Feature -->
           <div class="pl-4">
             <div
-              class="relative flex items-center mb-1 space-x-2 before:-ml-4 before:absolute before:inset-y-0 before:w-px before:bg-zinc-400/20"
+              class="relative mb-1 flex items-center space-x-2 before:absolute before:inset-y-0 before:-ml-4 before:w-px before:bg-zinc-400/20"
             >
               <icon-lucide-shield-check class="fill-zinc-200" />
               <span class="text-zinc-100">Safe and Secure</span>

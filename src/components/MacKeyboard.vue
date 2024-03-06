@@ -1,142 +1,142 @@
 <script setup lang="ts">
-  const target = ref<HTMLDivElement | null>(null)
-  const targetIsVisible = ref(false)
+const target = ref<HTMLDivElement | null>(null)
+const targetIsVisible = ref(false)
 
-  let keydownListener: (() => void) | null = null
-  let keyupListener: (() => void) | null = null
+let keydownListener: (() => void) | null = null
+let keyupListener: (() => void) | null = null
 
-  watch(targetIsVisible, (isVisible) => {
-    if (isVisible) {
-      keydownListener = useEventListener(
-        document,
-        "keydown",
-        (e: KeyboardEvent) => {
-          const key = getKey(e)
-          if (!key) {
-            return console.warn("No key for", e.keyCode)
-          }
-          key.setAttribute("data-pressed", "on")
+watch(targetIsVisible, (isVisible) => {
+  if (isVisible) {
+    keydownListener = useEventListener(
+      document,
+      "keydown",
+      (e: KeyboardEvent) => {
+        const key = getKey(e)
+        if (!key) {
+          return console.warn("No key for", e.keyCode)
         }
-      )
+        key.setAttribute("data-pressed", "on")
+      },
+    )
 
-      keyupListener = useEventListener(document, "keyup", () => {
-        document.querySelectorAll("[data-pressed]").forEach((key) => {
-          key.removeAttribute("data-pressed")
-        })
+    keyupListener = useEventListener(document, "keyup", () => {
+      document.querySelectorAll("[data-pressed]").forEach((key) => {
+        key.removeAttribute("data-pressed")
       })
-    } else {
-      cleanupKeydown()
-      cleanupKeyup()
-    }
-  })
-
-  useIntersectionObserver(target, ([{ isIntersecting }]) => {
-    targetIsVisible.value = isIntersecting
-  })
-
-  const getKey = (e: KeyboardEvent): HTMLElement | null => {
-    const location = e.location
-    let selector
-    if (location === KeyboardEvent.DOM_KEY_LOCATION_RIGHT) {
-      selector = `[data-key="${e.keyCode}-R"]`
-    } else {
-      const code = e.keyCode || e.which
-      selector = [
-        `[data-key="${code}"]`,
-        `[data-char="${encodeURIComponent(String.fromCharCode(code))}"]`,
-      ].join(",")
-    }
-    return document.querySelector(selector as string)
-  }
-
-  const cleanupKeydown = () => {
-    if (keydownListener) {
-      keydownListener()
-      keydownListener = null
-    }
-  }
-
-  const cleanupKeyup = () => {
-    if (keyupListener) {
-      keyupListener()
-      keyupListener = null
-    }
-  }
-
-  onBeforeUnmount(() => {
+    })
+  } else {
     cleanupKeydown()
     cleanupKeyup()
-  })
+  }
+})
+
+useIntersectionObserver(target, ([{ isIntersecting }]) => {
+  targetIsVisible.value = isIntersecting
+})
+
+const getKey = (e: KeyboardEvent): HTMLElement | null => {
+  const location = e.location
+  let selector
+  if (location === KeyboardEvent.DOM_KEY_LOCATION_RIGHT) {
+    selector = `[data-key="${e.keyCode}-R"]`
+  } else {
+    const code = e.keyCode || e.which
+    selector = [
+      `[data-key="${code}"]`,
+      `[data-char="${encodeURIComponent(String.fromCharCode(code))}"]`,
+    ].join(",")
+  }
+  return document.querySelector(selector as string)
+}
+
+const cleanupKeydown = () => {
+  if (keydownListener) {
+    keydownListener()
+    keydownListener = null
+  }
+}
+
+const cleanupKeyup = () => {
+  if (keyupListener) {
+    keyupListener()
+    keyupListener = null
+  }
+}
+
+onBeforeUnmount(() => {
+  cleanupKeydown()
+  cleanupKeyup()
+})
 </script>
 
 <template>
-  <div class="relative w-full p-2 overflow-hidden">
+  <div class="relative w-full overflow-hidden p-2">
     <div
-      class="flex items-start justify-start px-8 overflow-hidden border border-zinc-800 h-80 rounded-2xl bg-gradient-to-b from-zinc-800/10 to-zinc-400/10"
+      class="flex h-80 items-start justify-start overflow-hidden rounded-2xl border border-zinc-800 bg-gradient-to-b from-zinc-800/10 to-zinc-400/10 px-8"
     >
       <div
         ref="target"
-        class="flex flex-col p-2 mx-auto -mt-8 text-xs border shadow-lg space-y-2 keyboard brightness-110 rounded-3xl border-zinc-400/20 bg-zinc-600/10"
+        class="keyboard mx-auto -mt-8 flex flex-col space-y-2 rounded-3xl border border-zinc-400/20 bg-zinc-600/10 p-2 text-xs shadow-lg brightness-110"
       >
         <div class="flex h-12 space-x-2">
           <button
             data-key="192"
-            class="items-center justify-center w-12 key !rounded-tl-2xl"
+            class="key w-12 items-center justify-center !rounded-tl-2xl"
           >
             <span class="flex self-center">~</span>
             <span class="flex self-center">`</span>
           </button>
-          <button data-key="49" class="items-center justify-center w-12 key">
+          <button data-key="49" class="key w-12 items-center justify-center">
             <span class="flex self-center">!</span>
             <span class="flex self-center">1</span>
           </button>
-          <button data-key="50" class="items-center justify-center w-12 key">
+          <button data-key="50" class="key w-12 items-center justify-center">
             <span class="flex self-center">@</span>
             <span class="flex self-center">2</span>
           </button>
-          <button data-key="51" class="items-center justify-center w-12 key">
+          <button data-key="51" class="key w-12 items-center justify-center">
             <span class="flex self-center">#</span>
             <span class="flex self-center">3</span>
           </button>
-          <button data-key="52" class="items-center justify-center w-12 key">
+          <button data-key="52" class="key w-12 items-center justify-center">
             <span class="flex self-center">$</span>
             <span class="flex self-center">4</span>
           </button>
-          <button data-key="53" class="items-center justify-center w-12 key">
+          <button data-key="53" class="key w-12 items-center justify-center">
             <span class="flex self-center">%</span>
             <span class="flex self-center">5</span>
           </button>
-          <button data-key="54" class="items-center justify-center w-12 key">
+          <button data-key="54" class="key w-12 items-center justify-center">
             <span class="flex self-center">^</span>
             <span class="flex self-center">6</span>
           </button>
-          <button data-key="55" class="items-center justify-center w-12 key">
+          <button data-key="55" class="key w-12 items-center justify-center">
             <span class="flex self-center">&</span>
             <span class="flex self-center">7</span>
           </button>
-          <button data-key="56" class="items-center justify-center w-12 key">
+          <button data-key="56" class="key w-12 items-center justify-center">
             <span class="flex self-center">*</span>
             <span class="flex self-center">8</span>
           </button>
-          <button data-key="57" class="items-center justify-center w-12 key">
+          <button data-key="57" class="key w-12 items-center justify-center">
             <span class="flex self-center">(</span>
             <span class="flex self-center">9</span>
           </button>
-          <button data-key="48" class="items-center justify-center w-12 key">
+          <button data-key="48" class="key w-12 items-center justify-center">
             <span class="flex self-center">)</span>
             <span class="flex self-center">0</span>
           </button>
-          <button data-key="189" class="items-center justify-center w-12 key">
+          <button data-key="189" class="key w-12 items-center justify-center">
             <span class="flex self-center">_</span>
             <span class="flex self-center">-</span>
           </button>
-          <button data-key="187" class="items-center justify-center w-12 key">
+          <button data-key="187" class="key w-12 items-center justify-center">
             <span class="flex self-center">+</span>
             <span class="flex self-center">=</span>
           </button>
           <button
             data-key="8"
-            class="items-end justify-end flex-1 key text-[9px] !rounded-tr-2xl"
+            class="key flex-1 items-end justify-end !rounded-tr-2xl text-[9px]"
           >
             delete
           </button>
@@ -144,44 +144,44 @@
         <div class="flex h-12 space-x-2">
           <button
             data-key="9"
-            class="items-start justify-end flex-1 text-left text-[9px] key"
+            class="key flex-1 items-start justify-end text-left text-[9px]"
           >
             tab
           </button>
-          <button data-char="Q" class="items-center justify-center w-12 key">
+          <button data-char="Q" class="key w-12 items-center justify-center">
             Q
           </button>
-          <button data-char="W" class="items-center justify-center w-12 key">
+          <button data-char="W" class="key w-12 items-center justify-center">
             W
           </button>
-          <button data-char="E" class="items-center justify-center w-12 key">
+          <button data-char="E" class="key w-12 items-center justify-center">
             E
           </button>
-          <button data-char="R" class="items-center justify-center w-12 key">
+          <button data-char="R" class="key w-12 items-center justify-center">
             R
           </button>
-          <button data-char="T" class="items-center justify-center w-12 key">
+          <button data-char="T" class="key w-12 items-center justify-center">
             T
           </button>
-          <button data-char="Y" class="items-center justify-center w-12 key">
+          <button data-char="Y" class="key w-12 items-center justify-center">
             Y
           </button>
-          <button data-char="U" class="items-center justify-center w-12 key">
+          <button data-char="U" class="key w-12 items-center justify-center">
             U
           </button>
-          <button data-char="I" class="items-center justify-center w-12 key">
+          <button data-char="I" class="key w-12 items-center justify-center">
             I
           </button>
-          <button data-char="O" class="items-center justify-center w-12 key">
+          <button data-char="O" class="key w-12 items-center justify-center">
             O
           </button>
-          <button data-char="P" class="items-center justify-center w-12 key">
+          <button data-char="P" class="key w-12 items-center justify-center">
             P
           </button>
           <button
             data-key="219"
             data-char="{["
-            class="items-center justify-center w-12 key"
+            class="key w-12 items-center justify-center"
           >
             <span class="flex self-center">{</span>
             <span class="flex self-center">[</span>
@@ -189,7 +189,7 @@
           <button
             data-key="221"
             data-char="}]"
-            class="items-center justify-center w-12 key"
+            class="key w-12 items-center justify-center"
           >
             <span class="flex self-center">}</span>
             <span class="flex self-center">]</span>
@@ -197,7 +197,7 @@
           <button
             data-key="220"
             data-char="|\"
-            class="items-center justify-center w-12 key"
+            class="key w-12 items-center justify-center"
           >
             <span class="flex self-center">|</span>
             <span class="flex self-center">\</span>
@@ -206,49 +206,49 @@
         <div class="flex h-12 space-x-2">
           <button
             data-key="20"
-            class="items-start justify-center flex-1 text-left text-[9px] key"
+            class="key flex-1 items-start justify-center text-left text-[9px]"
           >
             <span class="flex self-start">•</span>
             <span class="flex self-start"> caps lock </span>
           </button>
-          <button data-char="A" class="items-center justify-center w-12 key">
+          <button data-char="A" class="key w-12 items-center justify-center">
             A
           </button>
-          <button data-char="S" class="items-center justify-center w-12 key">
+          <button data-char="S" class="key w-12 items-center justify-center">
             S
           </button>
-          <button data-char="D" class="items-center justify-center w-12 key">
+          <button data-char="D" class="key w-12 items-center justify-center">
             D
           </button>
-          <button data-char="F" class="items-center justify-center w-12 key">
+          <button data-char="F" class="key w-12 items-center justify-center">
             F
           </button>
-          <button data-char="G" class="items-center justify-center w-12 key">
+          <button data-char="G" class="key w-12 items-center justify-center">
             G
           </button>
-          <button data-char="H" class="items-center justify-center w-12 key">
+          <button data-char="H" class="key w-12 items-center justify-center">
             H
           </button>
-          <button data-char="J" class="items-center justify-center w-12 key">
+          <button data-char="J" class="key w-12 items-center justify-center">
             J
           </button>
-          <button data-char="K" class="items-center justify-center w-12 key">
+          <button data-char="K" class="key w-12 items-center justify-center">
             K
           </button>
-          <button data-char="L" class="items-center justify-center w-12 key">
+          <button data-char="L" class="key w-12 items-center justify-center">
             L
           </button>
-          <button data-key="186" class="items-center justify-center w-12 key">
+          <button data-key="186" class="key w-12 items-center justify-center">
             <span class="flex self-center">:</span>
             <span class="flex self-center">;</span>
           </button>
-          <button data-key="222" class="items-center justify-center w-12 key">
+          <button data-key="222" class="key w-12 items-center justify-center">
             <span class="flex self-center">"</span>
             <span class="flex self-center">'</span>
           </button>
           <button
             data-key="13"
-            class="items-end justify-end flex-1 text-[9px] key"
+            class="key flex-1 items-end justify-end text-[9px]"
           >
             return
           </button>
@@ -256,108 +256,108 @@
         <div class="flex h-12 space-x-2">
           <button
             data-key="16"
-            class="items-start text-[9px] justify-end flex-1 text-left key"
+            class="key flex-1 items-start justify-end text-left text-[9px]"
           >
             shift
           </button>
-          <button data-char="Z" class="items-center justify-center w-12 key">
+          <button data-char="Z" class="key w-12 items-center justify-center">
             Z
           </button>
-          <button data-char="X" class="items-center justify-center w-12 key">
+          <button data-char="X" class="key w-12 items-center justify-center">
             X
           </button>
-          <button data-char="C" class="items-center justify-center w-12 key">
+          <button data-char="C" class="key w-12 items-center justify-center">
             C
           </button>
-          <button data-char="V" class="items-center justify-center w-12 key">
+          <button data-char="V" class="key w-12 items-center justify-center">
             V
           </button>
-          <button data-char="B" class="items-center justify-center w-12 key">
+          <button data-char="B" class="key w-12 items-center justify-center">
             B
           </button>
-          <button data-char="N" class="items-center justify-center w-12 key">
+          <button data-char="N" class="key w-12 items-center justify-center">
             N
           </button>
-          <button data-char="M" class="items-center justify-center w-12 key">
+          <button data-char="M" class="key w-12 items-center justify-center">
             M
           </button>
-          <button data-key="188" class="items-center justify-center w-12 key">
+          <button data-key="188" class="key w-12 items-center justify-center">
             <span class="flex self-center">&lt;</span>
             <span class="flex self-center">,</span>
           </button>
-          <button data-key="190" class="items-center justify-center w-12 key">
+          <button data-key="190" class="key w-12 items-center justify-center">
             <span class="flex self-center"></span>
             <span class="flex self-center">.</span>
           </button>
-          <button data-key="191" class="items-center justify-center w-12 key">
+          <button data-key="191" class="key w-12 items-center justify-center">
             <span class="flex self-center">?</span>
             <span class="flex self-center">/</span>
           </button>
           <button
             data-key="16-R"
-            class="items-end justify-end flex-1 text-[9px] key"
+            class="key flex-1 items-end justify-end text-[9px]"
           >
             shift
           </button>
         </div>
         <div class="flex h-12 space-x-2">
           <button
-            class="items-center justify-center w-12 text-left key !rounded-bl-2xl"
+            class="key w-12 items-center justify-center !rounded-bl-2xl text-left"
           >
             <span class="flex self-end text-[9px]">fn</span>
             <span class="flex self-start">🌐</span>
           </button>
-          <button data-key="17" class="items-center justify-center w-12 key">
+          <button data-key="17" class="key w-12 items-center justify-center">
             <span class="flex self-end">⌃</span>
             <span class="flex self-end text-[9px]">control</span>
           </button>
-          <button data-key="18" class="items-center justify-center w-12 key">
+          <button data-key="18" class="key w-12 items-center justify-center">
             <span class="flex self-end">⌥</span>
             <span class="flex self-end text-[9px]">option</span>
           </button>
-          <button data-key="91" class="items-center justify-center flex-1 key">
+          <button data-key="91" class="key flex-1 items-center justify-center">
             <span class="flex self-end">⌘</span>
             <span class="flex self-end text-[9px]">command</span>
           </button>
           <button
             data-key="32"
             data-char=" "
-            class="flex-col key items-center justify-center w-[272px]"
+            class="key w-[272px] flex-col items-center justify-center"
           ></button>
           <button
             data-key="93-R"
-            class="items-center justify-center flex-1 key"
+            class="key flex-1 items-center justify-center"
           >
             <span class="flex self-start">⌘</span>
             <span class="flex self-start text-[9px]">command</span>
           </button>
-          <button data-key="18-R" class="items-center justify-center w-12 key">
+          <button data-key="18-R" class="key w-12 items-center justify-center">
             <span class="flex self-start">⌥</span>
             <span class="flex self-start text-[9px]">option</span>
           </button>
           <button
             data-key="37"
-            class="items-center justify-center h-6 self-end text-[7px] w-12 key"
+            class="key h-6 w-12 items-center justify-center self-end text-[7px]"
           >
             ◀
           </button>
           <div class="flex flex-col">
             <button
               data-key="38"
-              class="items-center justify-center text-[7px] w-12 h-6 !rounded-b-none key"
+              class="key h-6 w-12 items-center justify-center !rounded-b-none text-[7px]"
             >
               ▲
             </button>
             <button
               data-key="40"
-              class="items-center justify-center text-[7px] w-12 h-6 !rounded-t-none key"
+              class="key h-6 w-12 items-center justify-center !rounded-t-none text-[7px]"
             >
               ▼
             </button>
           </div>
           <button
             data-key="39"
-            class="items-center justify-center text-[7px] h-6 self-end w-12 key !rounded-br-2xl"
+            class="key h-6 w-12 items-center justify-center self-end !rounded-br-2xl text-[7px]"
           >
             ▶
           </button>
@@ -368,33 +368,33 @@
 </template>
 
 <style lang="scss" scoped>
-  .keyboard {
+.keyboard {
+  .key {
+    @apply p-2;
+    @apply flex;
+    @apply flex-col;
+    @apply rounded-md;
+    @apply transition;
+    @apply text-zinc-200;
+    @apply text-opacity-80;
+    @apply bg-gradient-to-b;
+    @apply from-zinc-950/5;
+    @apply to-zinc-600/10;
+    @apply border border-zinc-400/5;
+    @apply ring-1 ring-zinc-950;
+    @apply focus:outline-none;
+  }
+
+  &:has([data-pressed="on"]) {
     .key {
-      @apply p-2;
-      @apply flex;
-      @apply flex-col;
-      @apply rounded-md;
-      @apply transition;
-      @apply text-zinc-200;
-      @apply text-opacity-80;
-      @apply bg-gradient-to-b;
-      @apply from-zinc-950/5;
-      @apply to-zinc-600/10;
-      @apply border border-zinc-400/5;
-      @apply ring-1 ring-zinc-950;
-      @apply focus:outline-none;
-    }
+      @apply text-opacity-0;
+      @apply to-zinc-950/5;
 
-    &:has([data-pressed="on"]) {
-      .key {
-        @apply text-opacity-0;
-        @apply to-zinc-950/5;
-
-        &[data-pressed="on"] {
-          @apply text-opacity-80;
-          @apply to-zinc-400/5;
-        }
+      &[data-pressed="on"] {
+        @apply text-opacity-80;
+        @apply to-zinc-400/5;
       }
     }
   }
+}
 </style>

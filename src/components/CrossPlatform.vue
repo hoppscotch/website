@@ -1,14 +1,14 @@
 <template>
-  <div class="relative w-full p-2 overflow-hidden">
+  <div class="relative w-full overflow-hidden p-2">
     <div
-      class="relative flex items-center justify-center px-8 overflow-hidden border border-zinc-800 h-80 rounded-2xl bg-gradient-to-b from-zinc-800/10 to-zinc-400/10"
+      class="relative flex h-80 items-center justify-center overflow-hidden rounded-2xl border border-zinc-800 bg-gradient-to-b from-zinc-800/10 to-zinc-400/10 px-8"
     >
       <div
-        class="absolute bg-center inset-0 h-full w-full bg-[radial-gradient(theme(colors.zinc.400)1A_1px,transparent_1px)] [background-size:18px_18px]"
+        class="absolute inset-0 h-full w-full bg-[radial-gradient(theme(colors.zinc.400)1A_1px,transparent_1px)] bg-center [background-size:18px_18px]"
       ></div>
       <RouterLink
         to="/download"
-        class="relative inline-flex items-center px-8 py-4 mx-auto overflow-hidden rounded-full transition transform bg-zinc-800/80 hover:scale-110 group"
+        class="group relative mx-auto inline-flex transform items-center overflow-hidden rounded-full bg-zinc-800/80 px-8 py-4 transition hover:scale-110"
       >
         <div
           class="absolute inset-0 flex items-center [container-type:inline-size]"
@@ -19,10 +19,10 @@
         </div>
         <div class="absolute inset-0.5 rounded-full bg-zinc-950"></div>
         <div
-          class="absolute bottom-0 w-4/5 rounded-full opacity-50 bg-zinc-900 transition-all duration-500 -translate-x-1/2 left-1/2 h-1/3 blur-md group-hover:h-2/3 group-hover:opacity-100"
+          class="absolute bottom-0 left-1/2 h-1/3 w-4/5 -translate-x-1/2 rounded-full bg-zinc-900 opacity-50 blur-md transition-all duration-500 group-hover:h-2/3 group-hover:opacity-100"
         ></div>
         <span
-          class="relative text-lg font-medium text-transparent transition-all duration-200 font-mona bg-gradient-to-b from-zinc-200/25 to-zinc-50 bg-clip-text"
+          class="font-mona relative bg-gradient-to-b from-zinc-200/25 to-zinc-50 bg-clip-text text-lg font-medium text-transparent transition-all duration-200"
         >
           Download App
         </span>

@@ -1,13 +1,13 @@
 <template>
   <section>
-    <div class="max-w-5xl px-4 mx-auto sm:px-6">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6">
       <div class="py-12 md:py-16">
         <!-- Section header -->
         <div
-          class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
+          class="mx-auto flex max-w-2xl flex-col items-center pb-12 text-center md:pb-20"
         >
           <h2
-            class="block pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
+            class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text pb-4 text-transparent"
           >
             Our incredible investors
           </h2>
@@ -18,7 +18,7 @@
         <!-- Items -->
         <div class="grid grid-cols-2 gap-2 md:grid-cols-4">
           <!-- Item -->
-          <div class="flex items-center justify-center h-24 p-2">
+          <div class="flex h-24 items-center justify-center p-2">
             <svg
               class="max-w-full fill-zinc-400"
               width="124"
@@ -32,7 +32,7 @@
             </svg>
           </div>
           <!-- Item -->
-          <div class="flex items-center justify-center h-24 p-2">
+          <div class="flex h-24 items-center justify-center p-2">
             <svg
               class="max-w-full fill-zinc-400"
               width="94"
@@ -46,7 +46,7 @@
             </svg>
           </div>
           <!-- Item -->
-          <div class="flex items-center justify-center h-24 p-2">
+          <div class="flex h-24 items-center justify-center p-2">
             <svg
               class="max-w-full fill-zinc-400"
               width="125"
@@ -60,7 +60,7 @@
             </svg>
           </div>
           <!-- Item -->
-          <div class="flex items-center justify-center h-24 p-2">
+          <div class="flex h-24 items-center justify-center p-2">
             <svg
               class="max-w-full fill-zinc-400"
               width="104"
@@ -74,7 +74,7 @@
             </svg>
           </div>
           <!-- Item -->
-          <div class="flex items-center justify-center h-24 p-2">
+          <div class="flex h-24 items-center justify-center p-2">
             <svg
               class="max-w-full fill-zinc-400"
               width="109"
@@ -88,7 +88,7 @@
             </svg>
           </div>
           <!-- Item -->
-          <div class="flex items-center justify-center h-24 p-2">
+          <div class="flex h-24 items-center justify-center p-2">
             <svg
               class="max-w-full fill-zinc-400"
               width="150"
@@ -102,7 +102,7 @@
             </svg>
           </div>
           <!-- Item -->
-          <div class="flex items-center justify-center h-24 p-2">
+          <div class="flex h-24 items-center justify-center p-2">
             <svg
               class="max-w-full fill-zinc-400"
               width="109"
@@ -116,7 +116,7 @@
             </svg>
           </div>
           <!-- Item -->
-          <div class="flex items-center justify-center h-24 p-2">
+          <div class="flex h-24 items-center justify-center p-2">
             <svg
               class="max-w-full fill-zinc-400"
               width="110"

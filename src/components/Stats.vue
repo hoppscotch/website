@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="relative max-w-5xl px-4 mx-auto sm:px-6">
+    <div class="relative mx-auto max-w-5xl px-4 sm:px-6">
       <div class="py-10">
         <svg
           preserveAspectRatio="xMinYMin"
@@ -20,7 +20,7 @@
             text-rendering="geometricPrecision"
             stroke-width=".08"
             paint-order="stroke"
-            class="stroke-zinc-800 fill-zinc-900/20"
+            class="fill-zinc-900/20 stroke-zinc-800"
           >
             300K
           </text>
@@ -28,7 +28,7 @@
         <div class="absolute inset-0 z-20 flex items-center justify-center">
           <p
             v-motion-fade-visible-once
-            class="max-w-xl font-semibold tracking-tight text-center text-zinc-500 text-md md:text-4xl font-inter"
+            class="text-md max-w-xl text-center font-inter font-semibold tracking-tight text-zinc-500 md:text-4xl"
           >
             Hoppscotch processes over <br />
             <span class="text-zinc-50">300 thousand requests per week</span>

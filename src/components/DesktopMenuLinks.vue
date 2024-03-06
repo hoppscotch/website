@@ -1,78 +1,78 @@
 <script setup lang="ts">
-  import { useScroll } from "@vueuse/gesture"
-  import { useMotion } from "@vueuse/motion"
+import { useScroll } from "@vueuse/gesture"
+import { useMotion } from "@vueuse/motion"
 
-  const targetElement = ref<HTMLElement>()
-  const { apply } = useMotion(targetElement)
+const targetElement = ref<HTMLElement>()
+const { apply } = useMotion(targetElement)
 
-  const scrollHeight = ref<number>(0)
+const scrollHeight = ref<number>(0)
 
-  const scrollHandler = ({ xy: [, y] }: { xy: [number, number] }) => {
-    scrollHeight.value = y
-    if (y > 8) {
-      apply({
-        width: "522.2px",
-        // width: "495px",
-      })
-    } else {
-      apply({
-        width: "425.5px",
-        // width: "398px",
-      })
-    }
+const scrollHandler = ({ xy: [, y] }: { xy: [number, number] }) => {
+  scrollHeight.value = y
+  if (y > 8) {
+    apply({
+      width: "522.2px",
+      // width: "495px",
+    })
+  } else {
+    apply({
+      width: "425.5px",
+      // width: "398px",
+    })
   }
+}
 
-  useScroll(scrollHandler, {
-    domTarget: window,
-    eventOptions: {
-      passive: true,
-    },
-  })
+useScroll(scrollHandler, {
+  domTarget: window,
+  eventOptions: {
+    passive: true,
+  },
+})
 
-  const glider = ref<{ left: number; width: number }>({
-    left: 0,
-    width: 0,
-  })
+const glider = ref<{ left: number; width: number }>({
+  left: 0,
+  width: 0,
+})
 
-  const onTabMouseEnter = (e: MouseEvent) => {
-    const tab = e.target as HTMLElement
-    glider.value = {
-      left: tab.offsetLeft,
-      width: tab.clientWidth,
-    }
+const onTabMouseEnter = (e: MouseEvent) => {
+  const tab = e.target as HTMLElement
+  glider.value = {
+    left: tab.offsetLeft,
+    width: tab.clientWidth,
   }
+}
 </script>
 
 <template>
   <div
     ref="targetElement"
-    class="items-center justify-start flex-shrink-0 hidden p-1 border rounded-full flex-nowrap md:flex border-zinc-300/10"
+    class="hidden flex-shrink-0 flex-nowrap items-center justify-start rounded-full border border-zinc-300/10 p-1 md:flex"
   >
-    <div class="relative flex items-center group/nav">
+    <div class="group/nav relative flex items-center">
       <RouterLink
         to="/download"
-        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full text-zinc-400 transition hover:text-zinc-100/80"
+        class="relative z-10 flex flex-shrink-0 rounded-full border border-transparent px-4 py-2 text-sm text-zinc-400 transition hover:text-zinc-100/80"
         @mouseenter="onTabMouseEnter"
       >
         Download
       </RouterLink>
       <RouterLink
         to="/blog"
-        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full text-zinc-400 transition hover:text-zinc-100/80"
+        class="relative z-10 flex flex-shrink-0 rounded-full border border-transparent px-4 py-2 text-sm text-zinc-400 transition hover:text-zinc-100/80"
         @mouseenter="onTabMouseEnter"
       >
         Blog
       </RouterLink>
       <RouterLink
         to="/changelog"
-        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full text-zinc-400 transition hover:text-zinc-100/80"
+        class="relative z-10 flex flex-shrink-0 rounded-full border border-transparent px-4 py-2 text-sm text-zinc-400 transition hover:text-zinc-100/80"
         @mouseenter="onTabMouseEnter"
       >
         Changelog
       </RouterLink>
       <RouterLink
         to="/pricing"
-        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full text-zinc-400 transition hover:text-zinc-100/80"
+        class="relative z-10 flex flex-shrink-0 rounded-full border border-transparent px-4 py-2 text-sm text-zinc-400 transition hover:text-zinc-100/80"
         @mouseenter="onTabMouseEnter"
       >
         Pricing
@@ -87,27 +87,27 @@
       <a
         href="https://docs.hoppscotch.io"
         target="_blank"
-        class="relative z-10 flex flex-shrink-0 px-4 py-2 text-sm border border-transparent rounded-full text-zinc-400 transition hover:text-zinc-100/80"
+        class="relative z-10 flex flex-shrink-0 rounded-full border border-transparent px-4 py-2 text-sm text-zinc-400 transition hover:text-zinc-100/80"
         @mouseenter="onTabMouseEnter"
       >
         Docs
       </a>
       <div
-        class="absolute h-full opacity-0 duration-200 group-hover/nav:opacity-100 -z-1"
+        class="-z-1 absolute h-full opacity-0 duration-200 group-hover/nav:opacity-100"
         :style="{
           left: `${glider.left}px`,
           width: `${glider.width}px`,
         }"
       >
         <div
-          class="w-full h-full border rounded-full opacity-0 duration-200 delay-200 border-zinc-50/10 bg-zinc-200/10 backdrop-blur-md group-hover/nav:opacity-100"
+          class="h-full w-full rounded-full border border-zinc-50/10 bg-zinc-200/10 opacity-0 backdrop-blur-md delay-200 duration-200 group-hover/nav:opacity-100"
         ></div>
       </div>
     </div>
     <div v-if="scrollHeight > 8" class="flex overflow-hidden rounded-full">
       <a
         v-motion-slide-right
-        class="flex items-center justify-center flex-shrink-0 px-4 py-2 text-sm border rounded-full border-zinc-700 transition text-zinc-50 backdrop-blur-md bg-gradient-to-r from-zinc-600/30 via-zinc-700/30 to-zinc-800/30 hover:from-zinc-600/50 hover:via-zinc-700/50 hover:to-zinc-800/50"
+        class="flex flex-shrink-0 items-center justify-center rounded-full border border-zinc-700 bg-gradient-to-r from-zinc-600/30 via-zinc-700/30 to-zinc-800/30 px-4 py-2 text-sm text-zinc-50 backdrop-blur-md transition hover:from-zinc-600/50 hover:via-zinc-700/50 hover:to-zinc-800/50"
         href="https://github.com/hoppscotch/hoppscotch"
         target="_blank"
         rel="noopener noreferrer"

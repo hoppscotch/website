@@ -1,76 +1,76 @@
 <script setup lang="ts">
-  import Image01 from "/images/world-user-01.jpg"
-  import Image02 from "/images/world-user-02.jpg"
-  import Image03 from "/images/world-user-03.jpg"
+import Image01 from "/images/world-user-01.jpg"
+import Image02 from "/images/world-user-02.jpg"
+import Image03 from "/images/world-user-03.jpg"
 
-  const active = ref<number>(0)
-  const autorotate = ref<boolean>(true)
-  const autorotateTiming = ref<number>(7000)
+const active = ref<number>(0)
+const autorotate = ref<boolean>(true)
+const autorotateTiming = ref<number>(7000)
 
-  const items = ref([
-    {
-      img: Image01,
-      alt: "Testimonial 01",
-      quote:
-        "“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“",
-      name: "Darya Semenova",
-      role: "Backend Developer",
-    },
-    {
-      img: Image02,
-      alt: "Testimonial 02",
-      quote:
-        "“ Not only in my career but in education as well, I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more.“",
-      name: "Greg Sebastian",
-      role: "Head of Design",
-    },
-    {
-      img: Image03,
-      alt: "Testimonial 03",
-      quote:
-        "“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“",
-      name: "Dominik Prasad",
-      role: "Backend Lead",
-    },
-  ])
+const items = ref([
+  {
+    img: Image01,
+    alt: "Testimonial 01",
+    quote:
+      "“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“",
+    name: "Darya Semenova",
+    role: "Backend Developer",
+  },
+  {
+    img: Image02,
+    alt: "Testimonial 02",
+    quote:
+      "“ Not only in my career but in education as well, I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more.“",
+    name: "Greg Sebastian",
+    role: "Head of Design",
+  },
+  {
+    img: Image03,
+    alt: "Testimonial 03",
+    quote:
+      "“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“",
+    name: "Dominik Prasad",
+    role: "Backend Lead",
+  },
+])
 
-  const autorotateInterval = ref<NodeJS.Timeout | null>(null)
+const autorotateInterval = ref<NodeJS.Timeout | null>(null)
 
-  const stopAutorotate = () => {
-    if (autorotateInterval.value) {
-      clearInterval(autorotateInterval.value)
-    }
+const stopAutorotate = () => {
+  if (autorotateInterval.value) {
+    clearInterval(autorotateInterval.value)
   }
+}
 
-  onMounted(() => {
-    if (autorotate.value) {
-      autorotateInterval.value = setInterval(() => {
-        active.value =
-          active.value + 1 === items.value.length ? 0 : active.value + 1
-      }, autorotateTiming.value)
-    }
-  })
+onMounted(() => {
+  if (autorotate.value) {
+    autorotateInterval.value = setInterval(() => {
+      active.value =
+        active.value + 1 === items.value.length ? 0 : active.value + 1
+    }, autorotateTiming.value)
+  }
+})
 
-  onBeforeUnmount(() => {
-    stopAutorotate()
-  })
+onBeforeUnmount(() => {
+  stopAutorotate()
+})
 </script>
 
 <template>
   <section class="relative">
-    <div class="max-w-5xl px-4 mx-auto sm:px-6">
-      <div class="pt-32 pb-24">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6">
+      <div class="pb-24 pt-32">
         <!-- Section header -->
         <div
-          class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
+          class="mx-auto flex max-w-2xl flex-col items-center pb-12 text-center md:pb-20"
         >
           <span
-            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600"
+            class="mb-6 inline-flex max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600 bg-clip-text text-transparent"
           >
             Company
           </span>
           <h2
-            class="block pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
+            class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text pb-4 text-transparent"
           >
             You're in good company
           </h2>
@@ -81,34 +81,34 @@
           </p>
         </div>
         <!-- Check list -->
-        <div class="max-w-4xl pb-16 mx-auto">
+        <div class="mx-auto max-w-4xl pb-16">
           <ul
-            class="flex flex-col flex-wrap items-center justify-center -mx-3 -my-8 text-zinc-200 text-md sm:flex-row"
+            class="text-md -mx-3 -my-8 flex flex-col flex-wrap items-center justify-center text-zinc-200 sm:flex-row"
           >
-            <li class="flex items-center mx-3 my-2">
+            <li class="mx-3 my-2 flex items-center">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>Work Life Balance</span>
             </li>
-            <li class="flex items-center mx-3 my-2">
+            <li class="mx-3 my-2 flex items-center">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>Competitive Salary And Equity</span>
             </li>
-            <li class="flex items-center mx-3 my-2">
+            <li class="mx-3 my-2 flex items-center">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>5 Weeks Paid Vacation</span>
             </li>
-            <li class="flex items-center mx-3 my-2">
+            <li class="mx-3 my-2 flex items-center">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>Generous Gear Credit</span>
             </li>
-            <li class="flex items-center mx-3 my-2">
+            <li class="mx-3 my-2 flex items-center">
               <icon-lucide-badge-check class="mr-3 text-green-400" />
               <span>Diversity and Inclusion</span>
             </li>
           </ul>
         </div>
         <!-- Carousel area -->
-        <div class="max-w-2xl mx-auto">
+        <div class="mx-auto max-w-2xl">
           <!-- World map -->
           <div class="py-12">
             <div class="relative">
@@ -118,7 +118,7 @@
                 aria-hidden="true"
               >
                 <div
-                  class="bottom-0 border-l border-dashed transform translate-y-8 border-zinc-700 h-1/2"
+                  class="bottom-0 h-1/2 translate-y-8 transform border-l border-dashed border-zinc-700"
                 ></div>
               </div>
               <!-- People pics -->
@@ -204,7 +204,7 @@
             </div>
           </div>
           <!-- Carousel -->
-          <div class="relative flex flex-col items-center mt-2">
+          <div class="relative mt-2 flex flex-col items-center">
             <!-- Testimonials -->
             <TransitionGroup
               enter-active-class="order-first transition duration-500 transform"
@@ -216,10 +216,10 @@
             >
               <template v-for="(item, index) in items" :key="index">
                 <div v-show="active === index" class="text-center">
-                  <div class="inline-flex flex-col justify-center mb-4">
+                  <div class="mb-4 inline-flex flex-col justify-center">
                     <img
                       loading="lazy"
-                      class="p-2 border-2 rounded-full border-zinc-500"
+                      class="rounded-full border-2 border-zinc-500 p-2"
                       :src="item.img"
                       width="64"
                       height="64"
@@ -239,10 +239,10 @@
               </template>
             </TransitionGroup>
             <!-- Bullets -->
-            <div class="flex justify-center mt-6">
+            <div class="mt-6 flex justify-center">
               <template v-for="(_item, index) in items" :key="index">
                 <button
-                  class="p-1 group"
+                  class="group p-1"
                   @click="
                     () => {
                       active = index
@@ -251,7 +251,7 @@
                   "
                 >
                   <span
-                    class="block w-2 h-2 rounded-full transition group-hover:bg-zinc-400"
+                    class="block h-2 w-2 rounded-full transition group-hover:bg-zinc-400"
                     :class="active === index ? 'bg-zinc-200' : 'bg-zinc-500'"
                   ></span>
                 </button>

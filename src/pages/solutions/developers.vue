@@ -1,141 +1,141 @@
 <script setup lang="ts">
-  useHead({
-    title: "Developers • Hoppscotch",
-    meta: [
-      {
-        name: "description",
-        content: "The power to be your best.",
-      },
-    ],
-  })
-  class TextScramble {
-    el: HTMLElement
-    chars: string
-    resolve: () => void
-    frameRequest: number
-    frame: number
-    queue: {
-      from: string
-      to: string
-      start: number
-      end: number
-      char?: string
-    }[]
+useHead({
+  title: "Developers • Hoppscotch",
+  meta: [
+    {
+      name: "description",
+      content: "The power to be your best.",
+    },
+  ],
+})
+class TextScramble {
+  el: HTMLElement
+  chars: string
+  resolve: () => void
+  frameRequest: number
+  frame: number
+  queue: {
+    from: string
+    to: string
+    start: number
+    end: number
+    char?: string
+  }[]
 
-    constructor(el: HTMLElement) {
-      this.el = el
-      this.chars = "!<>-_\\/[]{}—=+*^?#________"
-      this.resolve = () => {}
-      this.frameRequest = 0
-      this.frame = 0
-      this.queue = []
-      this.update = this.update.bind(this)
+  constructor(el: HTMLElement) {
+    this.el = el
+    this.chars = "!<>-_\\/[]{}—=+*^?#________"
+    this.resolve = () => {}
+    this.frameRequest = 0
+    this.frame = 0
+    this.queue = []
+    this.update = this.update.bind(this)
+  }
+
+  setText(newText: string) {
+    const oldText = this.el.innerText
+    const length = Math.max(oldText.length, newText.length)
+    const promise = new Promise<void>((resolve) => (this.resolve = resolve))
+    this.queue = []
+    for (let i = 0; i < length; i++) {
+      const from = oldText[i] || ""
+      const to = newText[i] || ""
+      const start = Math.floor(Math.random() * 40)
+      const end = start + Math.floor(Math.random() * 40)
+      this.queue.push({ from, to, start, end })
     }
+    cancelAnimationFrame(this.frameRequest)
+    this.frame = 0
+    this.update()
+    return promise
+  }
 
-    setText(newText: string) {
-      const oldText = this.el.innerText
-      const length = Math.max(oldText.length, newText.length)
-      const promise = new Promise<void>((resolve) => (this.resolve = resolve))
-      this.queue = []
-      for (let i = 0; i < length; i++) {
-        const from = oldText[i] || ""
-        const to = newText[i] || ""
-        const start = Math.floor(Math.random() * 40)
-        const end = start + Math.floor(Math.random() * 40)
-        this.queue.push({ from, to, start, end })
-      }
-      cancelAnimationFrame(this.frameRequest)
-      this.frame = 0
-      this.update()
-      return promise
-    }
-
-    update() {
-      let output = ""
-      let complete = 0
-      for (let i = 0, n = this.queue.length; i < n; i++) {
-        let { from, to, start, end, char } = this.queue[i]
-        if (this.frame >= end) {
-          complete++
-          output += to
-        } else if (this.frame >= start) {
-          if (!char || Math.random() < 0.28) {
-            char = this.randomChar()
-            this.queue[i].char = char
-          }
-          output += `<span class="dud">${char}</span>`
-        } else {
-          output += from
+  update() {
+    let output = ""
+    let complete = 0
+    for (let i = 0, n = this.queue.length; i < n; i++) {
+      let { from, to, start, end, char } = this.queue[i]
+      if (this.frame >= end) {
+        complete++
+        output += to
+      } else if (this.frame >= start) {
+        if (!char || Math.random() < 0.28) {
+          char = this.randomChar()
+          this.queue[i].char = char
         }
-      }
-      this.el.innerHTML = output
-      if (complete === this.queue.length) {
-        this.resolve()
+        output += `<span class="dud">${char}</span>`
       } else {
-        this.frameRequest = requestAnimationFrame(this.update)
-        this.frame++
+        output += from
       }
     }
-
-    randomChar() {
-      return this.chars[Math.floor(Math.random() * this.chars.length)]
+    this.el.innerHTML = output
+    if (complete === this.queue.length) {
+      this.resolve()
+    } else {
+      this.frameRequest = requestAnimationFrame(this.update)
+      this.frame++
     }
   }
 
-  const phrases = ["Developers"]
-
-  const textElement = ref<HTMLElement | null>(null)
-  const textScramble = ref<TextScramble | null>(null)
-
-  let counter = 0
-
-  const next = () => {
-    if (textScramble.value) {
-      textScramble.value.setText(phrases[counter]).then(() => {
-        setTimeout(next, 3000)
-      })
-      counter = (counter + 1) % phrases.length
-    }
+  randomChar() {
+    return this.chars[Math.floor(Math.random() * this.chars.length)]
   }
+}
 
-  onMounted(() => {
-    if (textElement.value) {
-      textScramble.value = new TextScramble(textElement.value)
-      next()
-    }
-  })
+const phrases = ["Developers"]
+
+const textElement = ref<HTMLElement | null>(null)
+const textScramble = ref<TextScramble | null>(null)
+
+let counter = 0
+
+const next = () => {
+  if (textScramble.value) {
+    textScramble.value.setText(phrases[counter]).then(() => {
+      setTimeout(next, 3000)
+    })
+    counter = (counter + 1) % phrases.length
+  }
+}
+
+onMounted(() => {
+  if (textElement.value) {
+    textScramble.value = new TextScramble(textElement.value)
+    next()
+  }
+})
 </script>
 
 <template>
   <section class="relative">
-    <div class="relative max-w-5xl px-4 mx-auto sm:px-6">
+    <div class="relative mx-auto max-w-5xl px-4 sm:px-6">
       <!-- Section header -->
       <div
-        class="flex flex-col items-center justify-center h-screen max-w-4xl pt-32 pb-24 mx-auto text-center"
+        class="mx-auto flex h-screen max-w-4xl flex-col items-center justify-center pb-24 pt-32 text-center"
       >
         <h1
-          class="block pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
+          class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text pb-4 text-transparent"
         >
           Hoppscotch for
           <div ref="textElement">&nbsp;</div>
         </h1>
       </div>
       <!-- Section content -->
-      <div class="max-w-5xl mx-auto space-y-14">
+      <div class="mx-auto max-w-5xl space-y-14">
         <!-- Section #1 -->
         <section>
           <div
-            class="relative bg-black/50 backdrop-blur-md rounded-2xl border border-zinc-500/25 overflow-hidden transition-transform duration-700 ease-in-out z-[2]"
+            class="relative z-[2] overflow-hidden rounded-2xl border border-zinc-500/25 bg-black/50 backdrop-blur-md transition-transform duration-700 ease-in-out"
           >
             <div class="items-center justify-between md:flex">
-              <div class="px-12 shrink-0 py-14 max-md:pb-0 md:pr-0">
+              <div class="shrink-0 px-12 py-14 max-md:pb-0 md:pr-0">
                 <div class="md:max-w-md">
                   <div
-                    class="relative inline-flex items-end justify-center mb-2 text-xl text-indigo-500 font-nycd"
+                    class="font-nycd relative mb-2 inline-flex items-end justify-center text-xl text-indigo-500"
                   >
                     Interesting
                     <svg
-                      class="absolute fill-indigo-500 opacity-40 -z-10"
+                      class="absolute -z-10 fill-indigo-500 opacity-40"
                       xmlns="http://www.w3.org/2000/svg"
                       width="88"
                       height="4"
@@ -157,12 +157,12 @@
                     one of ours!
                   </p>
                   <a
-                    class="text-sm font-medium inline-flex items-center justify-center px-3 py-1.5 border border-zinc-500/25 rounded-lg tracking-normal transition text-zinc-300 hover:text-zinc-50 group"
+                    class="group inline-flex items-center justify-center rounded-lg border border-zinc-500/25 px-3 py-1.5 text-sm font-medium tracking-normal text-zinc-300 transition hover:text-zinc-50"
                     href="#0"
                   >
                     Learn More
                     <span
-                      class="text-zinc-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
+                      class="ml-1 text-zinc-600 transition-transform duration-150 ease-in-out group-hover:translate-x-0.5"
                       >-&gt;</span
                     >
                   </a>
@@ -177,7 +177,7 @@
               />
             </div>
             <div
-              class="absolute bottom-0 flex items-center text-xs font-medium text-zinc-400 left-12 h-14"
+              class="absolute bottom-0 left-12 flex h-14 items-center text-xs font-medium text-zinc-400"
             >
               01
             </div>
@@ -186,17 +186,17 @@
         <!-- Section #2 -->
         <section>
           <div
-            class="relative bg-black/50 backdrop-blur-md rounded-2xl border border-zinc-500/25 overflow-hidden transition-transform duration-700 ease-in-out z-[1]"
+            class="relative z-[1] overflow-hidden rounded-2xl border border-zinc-500/25 bg-black/50 backdrop-blur-md transition-transform duration-700 ease-in-out"
           >
             <div class="items-center justify-between md:flex">
-              <div class="px-12 shrink-0 py-14 max-md:pb-0 md:pr-0">
+              <div class="shrink-0 px-12 py-14 max-md:pb-0 md:pr-0">
                 <div class="md:max-w-md">
                   <div
-                    class="relative inline-flex items-end justify-center mb-2 text-xl font-nycd text-sky-500"
+                    class="font-nycd relative mb-2 inline-flex items-end justify-center text-xl text-sky-500"
                   >
                     Engaging
                     <svg
-                      class="absolute fill-sky-500 opacity-40 -z-10"
+                      class="absolute -z-10 fill-sky-500 opacity-40"
                       xmlns="http://www.w3.org/2000/svg"
                       width="88"
                       height="4"
@@ -218,12 +218,12 @@
                     one of ours!
                   </p>
                   <a
-                    class="text-sm font-medium inline-flex items-center justify-center px-3 py-1.5 border border-zinc-500/25 rounded-lg tracking-normal transition text-zinc-300 hover:text-zinc-50 group"
+                    class="group inline-flex items-center justify-center rounded-lg border border-zinc-500/25 px-3 py-1.5 text-sm font-medium tracking-normal text-zinc-300 transition hover:text-zinc-50"
                     href="#0"
                   >
                     Learn More
                     <span
-                      class="text-zinc-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
+                      class="ml-1 text-zinc-600 transition-transform duration-150 ease-in-out group-hover:translate-x-0.5"
                       >-&gt;</span
                     >
                   </a>
@@ -238,7 +238,7 @@
               />
             </div>
             <div
-              class="absolute bottom-0 flex items-center text-xs font-medium text-zinc-400 left-12 h-14"
+              class="absolute bottom-0 left-12 flex h-14 items-center text-xs font-medium text-zinc-400"
             >
               02
             </div>
@@ -247,17 +247,17 @@
         <!-- Section #3 -->
         <section>
           <div
-            class="relative z-0 overflow-hidden border border-zinc-800 transition-transform duration-700 ease-in-out bg-black/50 backdrop-blur-md rounded-2xl"
+            class="relative z-0 overflow-hidden rounded-2xl border border-zinc-800 bg-black/50 backdrop-blur-md transition-transform duration-700 ease-in-out"
           >
             <div class="items-center justify-between md:flex">
-              <div class="px-12 shrink-0 py-14 max-md:pb-0 md:pr-0">
+              <div class="shrink-0 px-12 py-14 max-md:pb-0 md:pr-0">
                 <div class="md:max-w-md">
                   <div
-                    class="relative inline-flex items-end justify-center mb-2 text-xl text-teal-500 font-nycd"
+                    class="font-nycd relative mb-2 inline-flex items-end justify-center text-xl text-teal-500"
                   >
                     Appealing
                     <svg
-                      class="absolute fill-teal-500 opacity-40 -z-10"
+                      class="absolute -z-10 fill-teal-500 opacity-40"
                       xmlns="http://www.w3.org/2000/svg"
                       width="88"
                       height="4"
@@ -279,12 +279,12 @@
                     one of ours!
                   </p>
                   <a
-                    class="text-sm font-medium inline-flex items-center justify-center px-3 py-1.5 border border-zinc-500/25 rounded-lg tracking-normal transition text-zinc-300 hover:text-zinc-50 group"
+                    class="group inline-flex items-center justify-center rounded-lg border border-zinc-500/25 px-3 py-1.5 text-sm font-medium tracking-normal text-zinc-300 transition hover:text-zinc-50"
                     href="#0"
                   >
                     Learn More
                     <span
-                      class="text-zinc-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
+                      class="ml-1 text-zinc-600 transition-transform duration-150 ease-in-out group-hover:translate-x-0.5"
                       >-&gt;</span
                     >
                   </a>
@@ -299,7 +299,7 @@
               />
             </div>
             <div
-              class="absolute bottom-0 flex items-center text-xs font-medium text-zinc-400 left-12 h-14"
+              class="absolute bottom-0 left-12 flex h-14 items-center text-xs font-medium text-zinc-400"
             >
               03
             </div>

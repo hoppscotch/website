@@ -1,22 +1,22 @@
 <script setup lang="ts">
-  const tab = ref(1)
+const tab = ref(1)
 </script>
 
 <template>
   <section class="relative">
-    <div class="relative max-w-5xl px-4 mx-auto sm:px-6">
-      <div class="pt-32 pb-24">
+    <div class="relative mx-auto max-w-5xl px-4 sm:px-6">
+      <div class="pb-24 pt-32">
         <!-- Section header -->
         <div
-          class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
+          class="mx-auto flex max-w-2xl flex-col items-center pb-12 text-center md:pb-20"
         >
           <span
-            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600"
+            class="mb-6 inline-flex max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600 bg-clip-text text-transparent"
           >
             Download
           </span>
           <h2
-            class="block pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
+            class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text pb-4 text-transparent"
           >
             Hoppscotch Client
           </h2>
@@ -25,24 +25,24 @@
           </p>
         </div>
         <!-- Section content -->
-        <div class="max-w-4xl mx-auto">
+        <div class="mx-auto max-w-4xl">
           <!-- Tabs buttons -->
           <div
-            class="flex w-full min-w-0 mb-10 overflow-x-auto gap-4 no-scrollbar"
+            class="no-scrollbar mb-10 flex w-full min-w-0 gap-4 overflow-x-auto"
           >
             <button
-              class="inline-flex flex-col items-center justify-center flex-shrink-0 px-8 py-4 m-2 text-center border border-transparent opacity-50 transition-opacity grow rounded-xl hover:bg-zinc-500/10"
+              class="m-2 inline-flex flex-shrink-0 grow flex-col items-center justify-center rounded-xl border border-transparent px-8 py-4 text-center opacity-50 transition-opacity hover:bg-zinc-500/10"
               :class="{
-                'bg-zinc-500/10 !opacity-100 !border-zinc-400/10': tab === 1,
+                '!border-zinc-400/10 bg-zinc-500/10 !opacity-100': tab === 1,
               }"
               @click="tab = 1"
             >
               <div
-                class="flex flex-shrink-0 p-4 mb-4 border bg-zinc-900 border-zinc-600 rounded-xl"
+                class="mb-4 flex flex-shrink-0 rounded-xl border border-zinc-600 bg-zinc-900 p-4"
               >
                 <img
                   loading="lazy"
-                  class="w-6 h-6"
+                  class="h-6 w-6"
                   src="/images/download-apple.svg"
                   alt="Mac"
                 />
@@ -55,18 +55,18 @@
               </div>
             </button>
             <button
-              class="inline-flex flex-col items-center justify-center flex-shrink-0 px-8 py-4 m-2 text-center border border-transparent opacity-50 transition-opacity grow rounded-xl hover:bg-zinc-500/10"
+              class="m-2 inline-flex flex-shrink-0 grow flex-col items-center justify-center rounded-xl border border-transparent px-8 py-4 text-center opacity-50 transition-opacity hover:bg-zinc-500/10"
               :class="{
-                'bg-zinc-500/10 !opacity-100 !border-zinc-400/10': tab === 2,
+                '!border-zinc-400/10 bg-zinc-500/10 !opacity-100': tab === 2,
               }"
               @click="tab = 2"
             >
               <div
-                class="flex flex-shrink-0 p-4 mb-4 border bg-zinc-900 border-zinc-600 rounded-xl"
+                class="mb-4 flex flex-shrink-0 rounded-xl border border-zinc-600 bg-zinc-900 p-4"
               >
                 <img
                   loading="lazy"
-                  class="w-6 h-6"
+                  class="h-6 w-6"
                   src="/images/download-windows.svg"
                   alt="Windows"
                 />
@@ -79,18 +79,18 @@
               </div>
             </button>
             <button
-              class="inline-flex flex-col items-center justify-center flex-shrink-0 px-8 py-4 m-2 text-center border border-transparent opacity-50 transition-opacity grow rounded-xl hover:bg-zinc-500/10"
+              class="m-2 inline-flex flex-shrink-0 grow flex-col items-center justify-center rounded-xl border border-transparent px-8 py-4 text-center opacity-50 transition-opacity hover:bg-zinc-500/10"
               :class="{
-                'bg-zinc-500/10 !opacity-100 !border-zinc-400/10': tab === 3,
+                '!border-zinc-400/10 bg-zinc-500/10 !opacity-100': tab === 3,
               }"
               @click="tab = 3"
             >
               <div
-                class="flex flex-shrink-0 p-4 mb-4 border bg-zinc-900 border-zinc-600 rounded-xl"
+                class="mb-4 flex flex-shrink-0 rounded-xl border border-zinc-600 bg-zinc-900 p-4"
               >
                 <img
                   loading="lazy"
-                  class="w-6 h-6"
+                  class="h-6 w-6"
                   src="/images/download-linux.svg"
                   alt="Linux"
                 />
@@ -103,16 +103,16 @@
               </div>
             </button>
             <button
-              class="inline-flex flex-col items-center justify-center flex-shrink-0 px-8 py-4 m-2 text-center border border-transparent opacity-50 transition-opacity grow rounded-xl hover:bg-zinc-500/10"
+              class="m-2 inline-flex flex-shrink-0 grow flex-col items-center justify-center rounded-xl border border-transparent px-8 py-4 text-center opacity-50 transition-opacity hover:bg-zinc-500/10"
               :class="{
-                'bg-zinc-500/10 !opacity-100 !border-zinc-400/10': tab === 4,
+                '!border-zinc-400/10 bg-zinc-500/10 !opacity-100': tab === 4,
               }"
               @click="tab = 4"
             >
               <div
-                class="flex flex-shrink-0 p-4 mb-4 border bg-zinc-900 border-zinc-600 rounded-xl"
+                class="mb-4 flex flex-shrink-0 rounded-xl border border-zinc-600 bg-zinc-900 p-4"
               >
-                <icon-lucide-globe class="w-6 h-6" />
+                <icon-lucide-globe class="h-6 w-6" />
               </div>
               <div
                 class="text-sm leading-tight"
@@ -122,16 +122,16 @@
               </div>
             </button>
             <button
-              class="inline-flex flex-col items-center justify-center flex-shrink-0 px-8 py-4 m-2 text-center border border-transparent opacity-50 transition-opacity grow rounded-xl hover:bg-zinc-500/10"
+              class="m-2 inline-flex flex-shrink-0 grow flex-col items-center justify-center rounded-xl border border-transparent px-8 py-4 text-center opacity-50 transition-opacity hover:bg-zinc-500/10"
               :class="{
-                'bg-zinc-500/10 !opacity-100 !border-zinc-400/10': tab === 5,
+                '!border-zinc-400/10 bg-zinc-500/10 !opacity-100': tab === 5,
               }"
               @click="tab = 5"
             >
               <div
-                class="flex flex-shrink-0 p-4 mb-4 border bg-zinc-900 border-zinc-600 rounded-xl"
+                class="mb-4 flex flex-shrink-0 rounded-xl border border-zinc-600 bg-zinc-900 p-4"
               >
-                <icon-lucide-terminal class="w-6 h-6" />
+                <icon-lucide-terminal class="h-6 w-6" />
               </div>
               <div
                 class="text-sm leading-tight"
@@ -151,18 +151,18 @@
               leave-from-class="opacity-100 -translate-y-0"
               leave-to-class="opacity-0 translate-y-8"
             >
-              <div v-if="tab === 1" class="flex justify-center w-full">
+              <div v-if="tab === 1" class="flex w-full justify-center">
                 <div class="flex flex-col items-stretch gap-4">
                   <a
                     href="https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_mac_aarch64.dmg"
-                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition rounded-xl bg-zinc-500/10 border-zinc-500/50 hover:border-zinc-500/80"
+                    class="relative inline-flex flex-shrink-0 items-center justify-center rounded-xl border border-zinc-500/50 bg-zinc-500/10 px-3 py-2 text-sm transition hover:border-zinc-500/80"
                     target="_blank"
                   >
                     Download for Mac &nbsp; ~ &nbsp; Apple Silicon
                   </a>
                   <a
                     href="https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_mac_x64.dmg"
-                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition rounded-xl bg-zinc-500/10 border-zinc-500/50 hover:border-zinc-500/80"
+                    class="relative inline-flex flex-shrink-0 items-center justify-center rounded-xl border border-zinc-500/50 bg-zinc-500/10 px-3 py-2 text-sm transition hover:border-zinc-500/80"
                     target="_blank"
                   >
                     Download for Mac &nbsp; ~ &nbsp; Intel
@@ -178,11 +178,11 @@
               leave-from-class="opacity-100 -translate-y-0"
               leave-to-class="opacity-0 translate-y-8"
             >
-              <div v-if="tab === 2" class="flex justify-center w-full">
+              <div v-if="tab === 2" class="flex w-full justify-center">
                 <div class="flex flex-col items-stretch gap-4">
                   <a
                     href="https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_win_x64.msi"
-                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition rounded-xl bg-zinc-500/10 border-zinc-500/50 hover:border-zinc-500/80"
+                    class="relative inline-flex flex-shrink-0 items-center justify-center rounded-xl border border-zinc-500/50 bg-zinc-500/10 px-3 py-2 text-sm transition hover:border-zinc-500/80"
                     target="_blank"
                   >
                     Download for Windows
@@ -198,18 +198,18 @@
               leave-from-class="opacity-100 -translate-y-0"
               leave-to-class="opacity-0 translate-y-8"
             >
-              <div v-if="tab === 3" class="flex justify-center w-full">
+              <div v-if="tab === 3" class="flex w-full justify-center">
                 <div class="flex flex-col items-stretch gap-4">
                   <a
                     href="https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_linux_x64.deb"
-                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition rounded-xl bg-zinc-500/10 border-zinc-500/50 hover:border-zinc-500/80"
+                    class="relative inline-flex flex-shrink-0 items-center justify-center rounded-xl border border-zinc-500/50 bg-zinc-500/10 px-3 py-2 text-sm transition hover:border-zinc-500/80"
                     target="_blank"
                   >
                     Download for Linux &nbsp; ~ &nbsp; .deb
                   </a>
                   <a
                     href="https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_linux_x64.AppImage"
-                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition rounded-xl bg-zinc-500/10 border-zinc-500/50 hover:border-zinc-500/80"
+                    class="relative inline-flex flex-shrink-0 items-center justify-center rounded-xl border border-zinc-500/50 bg-zinc-500/10 px-3 py-2 text-sm transition hover:border-zinc-500/80"
                     target="_blank"
                   >
                     Download for Linux &nbsp; ~ &nbsp; .AppImage
@@ -225,11 +225,11 @@
               leave-from-class="opacity-100 -translate-y-0"
               leave-to-class="opacity-0 translate-y-8"
             >
-              <div v-if="tab === 4" class="flex justify-center w-full">
+              <div v-if="tab === 4" class="flex w-full justify-center">
                 <div class="flex flex-col items-stretch gap-4">
                   <a
                     href="https://hoppscotch.io"
-                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition rounded-xl bg-zinc-500/10 border-zinc-500/50 hover:border-zinc-500/80"
+                    class="relative inline-flex flex-shrink-0 items-center justify-center rounded-xl border border-zinc-500/50 bg-zinc-500/10 px-3 py-2 text-sm transition hover:border-zinc-500/80"
                     target="_blank"
                   >
                     Open Web App
@@ -245,11 +245,11 @@
               leave-from-class="opacity-100 -translate-y-0"
               leave-to-class="opacity-0 translate-y-8"
             >
-              <div v-if="tab === 5" class="flex justify-center w-full">
+              <div v-if="tab === 5" class="flex w-full justify-center">
                 <div class="flex flex-col items-stretch gap-4">
                   <a
                     href="https://docs.hoppscotch.io/documentation/clients/cli"
-                    class="relative inline-flex items-center justify-center flex-shrink-0 px-3 py-2 text-sm border transition rounded-xl bg-zinc-500/10 border-zinc-500/50 hover:border-zinc-500/80"
+                    class="relative inline-flex flex-shrink-0 items-center justify-center rounded-xl border border-zinc-500/50 bg-zinc-500/10 px-3 py-2 text-sm transition hover:border-zinc-500/80"
                     target="_blank"
                   >
                     Install CLI

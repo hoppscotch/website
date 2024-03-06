@@ -1,28 +1,28 @@
 <template>
-  <div class="relative w-full p-2 overflow-hidden">
+  <div class="relative w-full overflow-hidden p-2">
     <div
-      class="relative flex items-center justify-center px-8 overflow-hidden border border-zinc-800 h-80 rounded-2xl bg-gradient-to-b from-zinc-800/10 to-zinc-400/10"
+      class="relative flex h-80 items-center justify-center overflow-hidden rounded-2xl border border-zinc-800 bg-gradient-to-b from-zinc-800/10 to-zinc-400/10 px-8"
     >
-      <div class="m-4 border rounded-full border-zinc-400/10">
-        <div class="m-4 border rounded-full border-zinc-400/10">
-          <div class="m-4 border rounded-full border-zinc-400/10">
-            <div class="m-4 border rounded-full border-zinc-400/10">
-              <div class="m-4 border rounded-full border-zinc-400/10">
-                <div class="m-4 border rounded-full border-zinc-400/10">
-                  <div class="m-4 border rounded-full border-zinc-400/10">
-                    <div class="m-4 border rounded-full border-zinc-400/10">
-                      <div class="m-4 border rounded-full border-zinc-400/10">
+      <div class="m-4 rounded-full border border-zinc-400/10">
+        <div class="m-4 rounded-full border border-zinc-400/10">
+          <div class="m-4 rounded-full border border-zinc-400/10">
+            <div class="m-4 rounded-full border border-zinc-400/10">
+              <div class="m-4 rounded-full border border-zinc-400/10">
+                <div class="m-4 rounded-full border border-zinc-400/10">
+                  <div class="m-4 rounded-full border border-zinc-400/10">
+                    <div class="m-4 rounded-full border border-zinc-400/10">
+                      <div class="m-4 rounded-full border border-zinc-400/10">
                         <div
-                          class="m-4 border rounded-full p border-zinc-400/10"
+                          class="p m-4 rounded-full border border-zinc-400/10"
                         >
                           <div
-                            class="relative w-40 h-40 m-4 border rounded-full border-zinc-400/10"
+                            class="relative m-4 h-40 w-40 rounded-full border border-zinc-400/10"
                           >
                             <div
                               class="circular animate-[spin_100s_linear_infinite_reverse]"
                             >
                               <span
-                                class="relative p-4 border rounded-full border-zinc-400/20 bg-zinc-400/10 backdrop-blur-md"
+                                class="relative rounded-full border border-zinc-400/20 bg-zinc-400/10 p-4 backdrop-blur-md"
                               >
                                 <svg
                                   class="animate-[spin_100s_linear_infinite]"
@@ -44,7 +44,7 @@
                                 </svg>
                               </span>
                               <span
-                                class="relative p-4 border rounded-full border-zinc-400/20 bg-zinc-400/10 backdrop-blur-md"
+                                class="relative rounded-full border border-zinc-400/20 bg-zinc-400/10 p-4 backdrop-blur-md"
                               >
                                 <svg
                                   class="animate-[spin_100s_linear_infinite]"
@@ -63,7 +63,7 @@
                                 </svg>
                               </span>
                               <span
-                                class="relative p-4 border rounded-full border-zinc-400/20 bg-zinc-400/10 backdrop-blur-md"
+                                class="relative rounded-full border border-zinc-400/20 bg-zinc-400/10 p-4 backdrop-blur-md"
                               >
                                 <svg
                                   class="animate-[spin_100s_linear_infinite]"
@@ -88,7 +88,7 @@
                                 </svg>
                               </span>
                               <span
-                                class="relative p-4 border rounded-full border-zinc-400/20 bg-zinc-400/10 backdrop-blur-md"
+                                class="relative rounded-full border border-zinc-400/20 bg-zinc-400/10 p-4 backdrop-blur-md"
                               >
                                 <svg
                                   class="animate-[spin_100s_linear_infinite]"
@@ -113,7 +113,7 @@
                                 </svg>
                               </span>
                               <span
-                                class="relative p-4 border rounded-full border-zinc-400/20 bg-zinc-400/10 backdrop-blur-md"
+                                class="relative rounded-full border border-zinc-400/20 bg-zinc-400/10 p-4 backdrop-blur-md"
                               >
                                 <svg
                                   class="animate-[spin_100s_linear_infinite]"
@@ -148,51 +148,51 @@
 </template>
 
 <style lang="scss" scoped>
-  .circular {
-    padding: 0 0 100% 0;
-  }
-  .circular > * {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 40%;
-    height: 40%;
-    margin: -20%;
-  }
-  .circular > *:nth-of-type(1) {
-    transform: rotate(0) translate(125%);
-  }
-  .circular > *:nth-last-child(2):first-child ~ :nth-of-type(2) {
-    transform: rotate(180deg) translate(125%) rotate(-180deg);
-  }
-  .circular > *:nth-last-child(3):first-child ~ :nth-of-type(2) {
-    transform: rotate(120deg) translate(125%) rotate(-120deg);
-  }
-  .circular > *:nth-last-child(3):first-child ~ :nth-of-type(3) {
-    transform: rotate(240deg) translate(125%) rotate(-240deg);
-  }
-  .circular > *:nth-last-child(4):first-child ~ :nth-of-type(2) {
-    transform: rotate(90deg) translate(125%) rotate(-90deg);
-  }
-  .circular > *:nth-last-child(4):first-child ~ :nth-of-type(3) {
-    transform: rotate(180deg) translate(125%) rotate(-180deg);
-  }
-  .circular > *:nth-last-child(4):first-child ~ :nth-of-type(4) {
-    transform: rotate(270deg) translate(125%) rotate(-270deg);
-  }
-  .circular > *:nth-last-child(5):first-child ~ :nth-of-type(2) {
-    transform: rotate(72deg) translate(125%) rotate(-72deg);
-  }
-  .circular > *:nth-last-child(5):first-child ~ :nth-of-type(3) {
-    transform: rotate(144deg) translate(125%) rotate(-144deg);
-  }
-  .circular > *:nth-last-child(5):first-child ~ :nth-of-type(4) {
-    transform: rotate(216deg) translate(125%) rotate(-216deg);
-  }
-  .circular > *:nth-last-child(5):first-child ~ :nth-of-type(5) {
-    transform: rotate(288deg) translate(125%) rotate(-288deg);
-  }
+.circular {
+  padding: 0 0 100% 0;
+}
+.circular > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40%;
+  height: 40%;
+  margin: -20%;
+}
+.circular > *:nth-of-type(1) {
+  transform: rotate(0) translate(125%);
+}
+.circular > *:nth-last-child(2):first-child ~ :nth-of-type(2) {
+  transform: rotate(180deg) translate(125%) rotate(-180deg);
+}
+.circular > *:nth-last-child(3):first-child ~ :nth-of-type(2) {
+  transform: rotate(120deg) translate(125%) rotate(-120deg);
+}
+.circular > *:nth-last-child(3):first-child ~ :nth-of-type(3) {
+  transform: rotate(240deg) translate(125%) rotate(-240deg);
+}
+.circular > *:nth-last-child(4):first-child ~ :nth-of-type(2) {
+  transform: rotate(90deg) translate(125%) rotate(-90deg);
+}
+.circular > *:nth-last-child(4):first-child ~ :nth-of-type(3) {
+  transform: rotate(180deg) translate(125%) rotate(-180deg);
+}
+.circular > *:nth-last-child(4):first-child ~ :nth-of-type(4) {
+  transform: rotate(270deg) translate(125%) rotate(-270deg);
+}
+.circular > *:nth-last-child(5):first-child ~ :nth-of-type(2) {
+  transform: rotate(72deg) translate(125%) rotate(-72deg);
+}
+.circular > *:nth-last-child(5):first-child ~ :nth-of-type(3) {
+  transform: rotate(144deg) translate(125%) rotate(-144deg);
+}
+.circular > *:nth-last-child(5):first-child ~ :nth-of-type(4) {
+  transform: rotate(216deg) translate(125%) rotate(-216deg);
+}
+.circular > *:nth-last-child(5):first-child ~ :nth-of-type(5) {
+  transform: rotate(288deg) translate(125%) rotate(-288deg);
+}
 </style>

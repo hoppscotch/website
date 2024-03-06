@@ -1,18 +1,18 @@
 <template>
   <section class="relative">
-    <div class="max-w-5xl px-4 mx-auto sm:px-6">
-      <div class="pt-32 pb-24">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6">
+      <div class="pb-24 pt-32">
         <!-- Section header -->
         <div
-          class="flex flex-col items-center max-w-2xl pb-12 mx-auto text-center md:pb-20"
+          class="mx-auto flex max-w-2xl flex-col items-center pb-12 text-center md:pb-20"
         >
           <span
-            class="inline-flex mb-6 text-transparent bg-clip-text max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600"
+            class="mb-6 inline-flex max-w-max bg-gradient-to-br from-zinc-50 to-zinc-600 bg-clip-text text-transparent"
           >
             Solutions
           </span>
           <h2
-            class="block pb-4 text-transparent bg-clip-text max-w-max bg-gradient-to-r from-white via-white/80 to-white/30"
+            class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text pb-4 text-transparent"
           >
             New era for developers
           </h2>
@@ -32,10 +32,10 @@
           <!-- Feature #1 -->
           <div class="lg:col-span-2">
             <div
-              class="flex flex-col items-center justify-center h-full p-8 bg-gradient-to-b from-zinc-950/10 to-zinc-600/10 rounded-xl"
+              class="flex h-full flex-col items-center justify-center rounded-xl bg-gradient-to-b from-zinc-950/10 to-zinc-600/10 p-8"
             >
               <img loading="lazy" src="/images/solutions-feature-1.svg" />
-              <div class="flex flex-col items-start flex-1 w-full mt-8">
+              <div class="mt-8 flex w-full flex-1 flex-col items-start">
                 <h5 class="">Real-time</h5>
                 <p class="mt-4 text-sm text-zinc-100">
                   Test, share and track the progress of your APIs all in one
@@ -47,10 +47,10 @@
           <!-- Feature #2 -->
           <div>
             <div
-              class="flex flex-col items-center justify-center h-full p-8 bg-gradient-to-b from-zinc-950/10 to-zinc-600/10 rounded-xl"
+              class="flex h-full flex-col items-center justify-center rounded-xl bg-gradient-to-b from-zinc-950/10 to-zinc-600/10 p-8"
             >
               <img loading="lazy" src="/images/solutions-feature-2.svg" />
-              <div class="flex flex-col items-start flex-1 w-full mt-8">
+              <div class="mt-8 flex w-full flex-1 flex-col items-start">
                 <h5 class="">Cloud sync</h5>
                 <p class="mt-4 text-sm text-zinc-100">
                   Start from where you left off. Your data is synced across
@@ -62,10 +62,10 @@
           <!-- Feature #3 -->
           <div>
             <div
-              class="flex flex-col items-center justify-center h-full p-8 bg-gradient-to-b from-zinc-950/10 to-zinc-600/10 rounded-xl"
+              class="flex h-full flex-col items-center justify-center rounded-xl bg-gradient-to-b from-zinc-950/10 to-zinc-600/10 p-8"
             >
               <img loading="lazy" src="/images/solutions-feature-3.svg" />
-              <div class="flex flex-col items-start flex-1 w-full mt-8">
+              <div class="mt-8 flex w-full flex-1 flex-col items-start">
                 <h5 class="">Multi-platform</h5>
                 <p class="mt-4 text-sm text-zinc-100">
                   Hoppscotch is available for all platforms. Download the app or
@@ -77,10 +77,10 @@
           <!-- Feature #4 -->
           <div>
             <div
-              class="flex flex-col items-center justify-center h-full p-8 bg-gradient-to-b from-zinc-950/10 to-zinc-600/10 rounded-xl"
+              class="flex h-full flex-col items-center justify-center rounded-xl bg-gradient-to-b from-zinc-950/10 to-zinc-600/10 p-8"
             >
               <img loading="lazy" src="/images/solutions-feature-4.svg" />
-              <div class="flex flex-col items-start flex-1 w-full mt-8">
+              <div class="mt-8 flex w-full flex-1 flex-col items-start">
                 <h5 class="">Access levels</h5>
                 <p class="mt-4 text-sm text-zinc-100">
                   Share your APIs with your team or keep it private.
@@ -91,10 +91,10 @@
           <!-- Feature #5 -->
           <div class="lg:col-span-2">
             <div
-              class="flex flex-col items-center justify-center h-full p-8 bg-gradient-to-b from-zinc-950/10 to-zinc-600/10 rounded-xl"
+              class="flex h-full flex-col items-center justify-center rounded-xl bg-gradient-to-b from-zinc-950/10 to-zinc-600/10 p-8"
             >
               <img loading="lazy" src="/images/solutions-feature-5.svg" />
-              <div class="flex flex-col items-start flex-1 w-full mt-8">
+              <div class="mt-8 flex w-full flex-1 flex-col items-start">
                 <h5 class="">Collaborate with team</h5>
                 <p class="mt-4 text-sm text-zinc-100">
                   Invite your team members to collaborate on your APIs. Work
@@ -106,9 +106,9 @@
           <!-- Feature #6 -->
           <div>
             <div
-              class="flex flex-col items-center justify-center h-full p-8 bg-zinc-500/50 rounded-xl"
+              class="flex h-full flex-col items-center justify-center rounded-xl bg-zinc-500/50 p-8"
             >
-              <div class="flex flex-col items-center flex-1 text-center">
+              <div class="flex flex-1 flex-col items-center text-center">
                 <h5 class="">Get Started</h5>
                 <p class="mt-4 text-sm text-zinc-50/30">
                   Start organizing your APIs and projects now.
@@ -116,7 +116,7 @@
               </div>
               <RouterLink
                 to="/download"
-                class="px-4 py-2 mt-4 font-semibold bg-white rounded-full text-zinc-950"
+                class="mt-4 rounded-full bg-white px-4 py-2 font-semibold text-zinc-950"
               >
                 Start for free
               </RouterLink>
