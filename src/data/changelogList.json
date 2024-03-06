@@ -1,5 +1,19 @@
 [
   {
+    "slug": "31-01-2024",
+    "version": "v2023.12.3",
+    "title": "Bug fixes and performance improvements",
+    "date": "January 31, 2024",
+    "banner": "changelog-31-01-2024.png"
+  },
+  {
+    "slug": "03-01-2024",
+    "version": "v2023.12.2",
+    "title": "Hotfix",
+    "date": "January 03, 2024",
+    "banner": "changelog-03-01-2024.png"
+  },
+  {
     "slug": "24-12-2023",
     "version": "v2023.12.1",
     "title": "Hotfix",

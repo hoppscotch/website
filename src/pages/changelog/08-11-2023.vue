@@ -24,11 +24,11 @@ useHead({
     },
     {
       property: "og:image",
-      content: "https://hoppscotch.com/images/changelog-07-11-2023.png",
+      content: "https://hoppscotch.com/images/changelog-08-11-2023.png",
     },
     {
       name: "twitter:image",
-      content: "https://hoppscotch.com/images/changelog-07-11-2023.png",
+      content: "https://hoppscotch.com/images/changelog-08-11-2023.png",
     },
     {
       property: "og:type",
@@ -36,7 +36,7 @@ useHead({
     },
     {
       property: "og:url",
-      content: "https://hoppscotch.com/changelog/07-11-2023",
+      content: "https://hoppscotch.com/changelog/08-11-2023",
     },
   ],
 })

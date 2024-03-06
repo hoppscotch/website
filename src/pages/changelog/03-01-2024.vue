@@ -1,14 +1,14 @@
 <script setup lang="ts">
 useHead({
-  title: "v2023.12.1 • Changelog • Hoppscotch",
+  title: "v2023.12.2 • Changelog • Hoppscotch",
   meta: [
     {
       property: "og:title",
-      content: "v2023.12.1 • Changelog • Hoppscotch",
+      content: "v2023.12.2 • Changelog • Hoppscotch",
     },
     {
       name: "twitter:title",
-      content: "v2023.12.1 • Changelog • Hoppscotch",
+      content: "v2023.12.2 • Changelog • Hoppscotch",
     },
     {
       name: "description",
@@ -36,7 +36,7 @@ useHead({
     },
     {
       property: "og:url",
-      content: "https://hoppscotch.com/changelog/24-12-2023",
+      content: "https://hoppscotch.com/changelog/03-01-2024",
     },
   ],
 })
@@ -49,7 +49,7 @@ useHead({
         <!-- Section header -->
         <ChangeLogHeader />
         <!-- Changelog content -->
-        <ChangeLog24122023 />
+        <ChangeLog03012024 />
       </div>
     </div>
   </section>
