@@ -13,6 +13,6 @@ useHead({
 <template>
   <FeaturesAnimation />
   <Features04 />
-  <Features02 />
+  <!-- <Features02 /> -->
   <Features03 />
 </template>
