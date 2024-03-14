@@ -10,11 +10,11 @@ useHead({
 })
 </script>
 
-<template>
+<!-- <template>
   <CompanyHero />
   <CompanyAchievements />
   <CompanyTimeline />
   <TeamMembers />
   <Investors />
   <Cta />
-</template>
+</template> -->
