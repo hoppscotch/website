@@ -15,6 +15,7 @@ import type { ViteSSGOptions } from "vite-ssg"
 import Markdown from "unplugin-vue-markdown/vite"
 import VueRouter from "unplugin-vue-router/vite"
 import { VueRouterAutoImports } from "unplugin-vue-router"
+import { ViteImageOptimizer } from "vite-plugin-image-optimizer"
 
 const ssgOptions: ViteSSGOptions = {
   script: "async",
@@ -58,6 +59,8 @@ export default defineConfig({
       ],
       include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
     }),
+    // https://github.com/FatehAK/vite-plugin-image-optimizer
+    ViteImageOptimizer({}),
     // https://github.com/unplugin/unplugin-icons
     Icons(),
     // https://github.com/antfu/unplugin-auto-import
