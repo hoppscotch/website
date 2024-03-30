@@ -101,7 +101,12 @@ useHead({
               Hoppscotch is a powerful yet simple-to-use API testing suite. It
               removes a lot of complexity, making it easy for anyone to get
               started with API testing.
-              <a href="https://hoppscotch.io" target="_blank"
+              <br />
+              <br />
+              <a
+                href="https://hoppscotch.io"
+                target="_blank"
+                class="border-b border-zinc-200 transition hover:text-zinc-50"
                 >Try Hoppscotch now!</a
               >
             </p>
@@ -112,6 +117,7 @@ useHead({
               <a
                 href="https://docs.hoppscotch.io/documentation/features/environments"
                 target="_blank"
+                class="border-b border-zinc-200 transition hover:text-zinc-50"
                 >Hoppscotch Environments</a
               >
               allow you to group together a set of variable data, making it
@@ -189,9 +195,16 @@ useHead({
             <p class="mb-8 mt-4">
               If you have any product feedback, please feel free to reach out to
               us at
-              <a href="mailto:hello@hoppscotch.io">hello@hoppscotch.io</a> or
-              raise an issue on our
-              <a href="https://github.com/hoppscotch/hoppscotch" target="_blank"
+              <a
+                href="mailto:hello@hoppscotch.io"
+                class="border-b border-zinc-200 transition hover:text-zinc-50"
+                >hello@hoppscotch.io</a
+              >
+              or raise an issue on our
+              <a
+                href="https://github.com/hoppscotch/hoppscotch"
+                target="_blank"
+                class="border-b border-zinc-200 transition hover:text-zinc-50"
                 >GitHub repository.</a
               >
             </p>

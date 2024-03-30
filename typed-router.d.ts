@@ -23,6 +23,7 @@ declare module 'vue-router/auto-routes' {
     '/about': RouteRecordInfo<'/about', '/about', Record<never, never>, Record<never, never>>,
     '/blog/': RouteRecordInfo<'/blog/', '/blog', Record<never, never>, Record<never, never>>,
     '/blog/better-api-testing-capabilities-and-more': RouteRecordInfo<'/blog/better-api-testing-capabilities-and-more', '/blog/better-api-testing-capabilities-and-more', Record<never, never>, Record<never, never>>,
+    '/blog/hoppscotch-v2024-3-0': RouteRecordInfo<'/blog/hoppscotch-v2024-3-0', '/blog/hoppscotch-v2024-3-0', Record<never, never>, Record<never, never>>,
     '/blog/hoppscotch-wrapped-2023': RouteRecordInfo<'/blog/hoppscotch-wrapped-2023', '/blog/hoppscotch-wrapped-2023', Record<never, never>, Record<never, never>>,
     '/blog/introducing-hoppscotch-desktop-application': RouteRecordInfo<'/blog/introducing-hoppscotch-desktop-application', '/blog/introducing-hoppscotch-desktop-application', Record<never, never>, Record<never, never>>,
     '/blog/introducing-hoppscotch-enterprise-edition': RouteRecordInfo<'/blog/introducing-hoppscotch-enterprise-edition', '/blog/introducing-hoppscotch-enterprise-edition', Record<never, never>, Record<never, never>>,
