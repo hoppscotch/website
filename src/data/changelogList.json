@@ -1,5 +1,26 @@
 [
   {
+    "slug": "28-03-2024",
+    "version": "v2024.3.0",
+    "title": "Hotfix",
+    "date": "March 28, 2024",
+    "banner": "changelog-28-03-2024.png"
+  },
+  {
+    "slug": "16-02-2024",
+    "version": "v2023.12.5",
+    "title": "Hotfix",
+    "date": "February 16, 2024",
+    "banner": "changelog-16-02-2024.png"
+  },
+  {
+    "slug": "14-02-2024",
+    "version": "v2023.12.4",
+    "title": "Bug fixes and performance improvements",
+    "date": "February 14, 2024",
+    "banner": "changelog-14-02-2024.png"
+  },
+  {
     "slug": "31-01-2024",
     "version": "v2023.12.3",
     "title": "Bug fixes and performance improvements",
