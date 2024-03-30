@@ -1,14 +1,14 @@
 <script setup lang="ts">
 useHead({
-  title: "v2023.12.6 • Changelog • Hoppscotch",
+  title: "v2024.3.0 • Changelog • Hoppscotch",
   meta: [
     {
       property: "og:title",
-      content: "v2023.12.6 • Changelog • Hoppscotch",
+      content: "v2024.3.0 • Changelog • Hoppscotch",
     },
     {
       name: "twitter:title",
-      content: "v2023.12.6 • Changelog • Hoppscotch",
+      content: "v2024.3.0 • Changelog • Hoppscotch",
     },
     {
       name: "description",
