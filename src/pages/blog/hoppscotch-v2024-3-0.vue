@@ -65,7 +65,7 @@ useHead({
                   >
                 </li>
                 <span class="mx-2 text-zinc-400/20">|</span>
-                <span class="text-zinc-200/20">Feb 14, 2024</span>
+                <span class="text-zinc-200/20">Mar 28, 2024</span>
               </ul>
             </div>
             <h3 class="mb-8">
