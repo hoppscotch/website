@@ -32,20 +32,20 @@ $n: 3; // number of meteors
 }
 @keyframes meteor {
   0% {
-    @apply opacity-100;
-    @apply -mt-64;
-    @apply -mr-64;
+    opacity: 1;
+    margin-top: -12rem;
+    margin-right: -12rem;
   }
   12% {
-    @apply opacity-0;
+    opacity: 0;
   }
   15% {
-    @apply opacity-0;
-    @apply mt-64;
+    opacity: 0;
+    margin-top: 12rem;
     margin-left: -512px;
   }
   100% {
-    @apply opacity-0;
+    opacity: 0;
   }
 }
 </style>
