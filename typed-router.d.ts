@@ -66,6 +66,7 @@ declare module 'vue-router/auto-routes' {
     '/products/cloud': RouteRecordInfo<'/products/cloud', '/products/cloud', Record<never, never>, Record<never, never>>,
     '/products/enterprise': RouteRecordInfo<'/products/enterprise', '/products/enterprise', Record<never, never>, Record<never, never>>,
     '/products/self-host': RouteRecordInfo<'/products/self-host', '/products/self-host', Record<never, never>, Record<never, never>>,
+    '/releases': RouteRecordInfo<'/releases', '/releases', Record<never, never>, Record<never, never>>,
     '/resources': RouteRecordInfo<'/resources', '/resources', Record<never, never>, Record<never, never>>,
     '/solutions/': RouteRecordInfo<'/solutions/', '/solutions', Record<never, never>, Record<never, never>>,
     '/solutions/cloud': RouteRecordInfo<'/solutions/cloud', '/solutions/cloud', Record<never, never>, Record<never, never>>,
