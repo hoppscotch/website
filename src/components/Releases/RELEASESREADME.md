@@ -1,18 +1,18 @@
  <VersionBadge version="v1.0.0" date="November 8th 2023"/>
 
-## <b>Release Notes</b>
+## <p class="font-semibold">Release Notes</p>
 
 <p className="text-xl"> New Features Every New Release </p>
 
-<div className="flex flex-row gap-2 mt-2">
+<Row>
     <TypeBadge type="improvement"/>
     <TypeBadge type="feature"/>
     <TypeBadge type="hotfix"/>
-</div>
+</Row>
 
 <br/><br/>
 
-## <b>Introducing Hoppscotch Desktop App</b>
+## <p class="font-semibold">Introducing Hoppscotch Desktop App</p>
 
 <SectionContent>
         Hoppscotch Desktop App is a cross-platform desktop application built
@@ -39,41 +39,33 @@
 
 <Section>
     <SectionTitle title=" Regular Updations" />
-      <Section>
           <Row>
             <Added>
-              <li class="pl-4">i18n support to admin dashboard.</li>
-              <li class="pl-4">
-                Auto-complete recent history entries in URL bar.
-              </li>
-              <li class="pl-4">Context menu.</li>
-            </Added>
-            <Changed>
-              <li class="pl-4">Revamped spotlight.</li>
-              <li class="pl-4">UX improvement for SmartTree.</li>
-              <li class="pl-4">Fonts are now bundled with packages.</li>
-            </Changed>
-            <Removed>
-              <li class="pl-4">
-                Unnecessary dependencies from hoppscotch-ui.
-              </li>
-              <li class="pl-4">Move crisp out of common.</li>
-            </Removed>
-            <Fixed>
-              <li class="pl-4">Shortcut keys for spotlight and shortcuts.</li>
-              <li class="pl-4">Firefox browser scrollbar issue.</li>
-              <li class="pl-4">Elastic overscroll on Safari.</li>
-            </Fixed>
-            <Performance>
-              <li class="pl-4">Bump dependencies.</li>
-              <li class="pl-4">Type and UX improvement for SmartTree.</li>
-            </Performance>
-            <Others>
-              <li class="pl-4">
-                Updated font size and truncation on fields.
-              </li>
-              <li class="pl-4">Improved command labels and icons.</li>
+                <ListItem content="i18n support to admin dashboard."/>
+                <ListItem content="Auto-complete recent history entries in URL bar."/>
+                <ListItem content="Context menu."/>
+              </Added>
+              <Changed>
+                <ListItem content="Revamped spotlight."/>
+                <ListItem content="UX improvement for SmartTree."/>
+                <ListItem content="Fonts are now bundled with packages."/>
+              </Changed>
+              <Removed>
+                <ListItem content="Unnecessary dependencies from hoppscotch-ui."/>
+                <ListItem content="Move crisp out of common."/>
+              </Removed>
+              <Fixed>
+                <ListItem content="Shortcut keys for spotlight and shortcuts."/>
+                <ListItem content="Firefox browser scrollbar issue."/>
+                <ListItem content="Elastic overscroll on Safari."/>
+              </Fixed>
+              <Performance>
+                <ListItem content="Bump dependencies."/>
+                <ListItem content="Type and UX improvement for SmartTree."/>
+              </Performance>
+              <Others>
+                <ListItem content="Updated font size and truncation on fields."/>
+                <ListItem content="Improved command labels and icons."/>
             </Others>
-          </Row>
-        </Section>
+          </Row>    
 </Section>

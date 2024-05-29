@@ -127,6 +127,7 @@ declare module 'vue' {
     IconLucideZap: typeof import('~icons/lucide/zap')['default']
     ImageZoom: typeof import('./src/components/ImageZoom.vue')['default']
     Investors: typeof import('./src/components/Investors.vue')['default']
+    ListItem: typeof import('./src/components/Releases/components/ListItem.vue')['default']
     MacKeyboard: typeof import('./src/components/MacKeyboard.vue')['default']
     MeteorShower: typeof import('./src/components/MeteorShower.vue')['default']
     MobileMenuLinks: typeof import('./src/components/MobileMenuLinks.vue')['default']
