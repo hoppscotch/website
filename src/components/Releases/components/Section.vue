@@ -1,5 +1,5 @@
 <template>
-  <section class="mb-6">
+  <section class="md-section mb-6">
     <slot></slot>
   </section>
 </template>

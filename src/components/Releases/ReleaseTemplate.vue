@@ -11,7 +11,7 @@ export default {
 <template>
   <section>
     <div class="relative mx-auto max-w-5xl px-4 sm:px-6">
-      <div class="pb-24 pt-32">
+      <div class="md-file pb-24 pt-32">
         <Releases />
       </div>
     </div>

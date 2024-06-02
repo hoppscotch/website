@@ -162,3 +162,27 @@ h4 {
     @apply text-3xl leading-tight;
   }
 }
+
+.markdown-body p {
+  @apply max-w-4xl;
+  @apply text-lg;
+  @apply font-light;
+  @apply text-zinc-400;
+}
+
+.markdown-body h2 {
+  @apply font-semibold;
+}
+
+.markdown-body h3 {
+  @apply text-xl;
+}
+
+.markdown-body h4 {
+  @apply mb-4;
+  @apply mt-12;
+  @apply text-2xl;
+  @apply font-semibold;
+  @apply text-zinc-200;
+  @apply sm:text-2xl;
+}
