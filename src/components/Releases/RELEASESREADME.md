@@ -32,30 +32,29 @@ environment, workspace, etc.
 
 <Row>
    <Added>
-      <ListItem content="i18n support to admin dashboard."/>
-      <ListItem content="Auto-complete recent history entries in URL bar."/>
-      <ListItem content="Context menu."/>
+      <li>i18n support to admin dashboard.</li>
+      <li>Auto-complete recent history entries in URL bar.</li>
+      <li>Context menu.</li>
    </Added>
    <Changed>
-      <ListItem content="Revamped spotlight."/>
-      <ListItem content="UX improvement for SmartTree."/>
-      <ListItem content="Fonts are now bundled with packages."/>
+      <li>Revamped spotlight.</li>
+      <li>UX improvement for SmartTree.</li>
+      <li>Fonts are now bundled with packages.</li>
    </Changed>
    <Removed>
-      <ListItem content="Unnecessary dependencies from hoppscotch-ui."/>
-      <ListItem content="Move crisp out of common."/>
+      <li>Unnecessary dependencies from hoppscotch-ui.</li>
+      <li>Move crisp out of common.</li>
    </Removed>
    <Fixed>
-      <ListItem content=""/>
-      <ListItem content="Firefox browser scrollbar issue."/>
-      <ListItem content="Elastic overscroll on Safari."/>
+      <li>Firefox browser scrollbar issue.</li>
+      <li>Elastic overscroll on Safari.</li>
    </Fixed>
    <Performance>
-      <ListItem content="Bump dependencies."/>
-      <ListItem content="Type and UX improvement for SmartTree."/>
+      <li>Bump dependencies.</li>
+      <li>Type and UX improvement for SmartTree.</li>
    </Performance>
    <Others>
-      <ListItem content="Updated font size and truncation on fields."/>
-      <ListItem content="Improved command labels and icons."/>
+      <li>Updated font size and truncation on fields.</li>
+      <li>Improved command labels and icons.</li>
    </Others>
 </Row>
