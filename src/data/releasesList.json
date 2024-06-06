@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Release Notes - v2024.5.5",
+    "description": "Description of the release notes for v2024.5.5",
+    "image": "changelog-08-11-2023.png",
+    "meta": [
+      {
+        "created_at": "2024-04-05"
+      },
+      {
+        "published_at": "2024-04-15"
+      }
+    ],
+    "author": {
+      "name": "Kiran johns",
+      "image": "blog-author-02.jpg"
+    },
+    "slug": "release-notes-v2024-5-5",
+    "title": "Release Notes - v2024.5.5",
+    "banner": "changelog-08-11-2023.png",
+    "date": "2024-04-15",
+    "styles": "",
+    "tags": []
+  },
+  {
+    "name": "Release Notes - v2024.5.3",
+    "description": "Description of the release notes for v2024.5.3",
+    "image": "changelog-08-11-2023.png",
+    "meta": [
+      {
+        "created_at": "2024-03-05"
+      },
+      {
+        "published_at": "2024-03-07"
+      }
+    ],
+    "author": {
+      "name": "Kiran johns",
+      "image": "blog-author-02.jpg"
+    },
+    "slug": "release-notes-v2024-5-3",
+    "title": "Release Notes - v2024.5.3",
+    "banner": "changelog-08-11-2023.png",
+    "date": "2024-03-07",
+    "styles": "",
+    "tags": []
+  },
+  {
+    "name": "Release Notes - v2024.4.5",
+    "description": "Hoppscotch Desktop App is a cross-platform desktop application built with Tauri and Hoppscotch Web Client. It is a standalone version of Hoppscotch that can be installed on your computer and used without a browser. Hoppscotch Desktop App is currently in alpha and is available for Mac, Windows and Linux.",
+    "image": "changelog-08-11-2023.png",
+    "meta": [
+      {
+        "created_at": "2024-04-05"
+      },
+      {
+        "published_at": "2024-04-05"
+      }
+    ],
+    "author": {
+      "name": "Kiran johns",
+      "image": "blog-author-02.jpg"
+    },
+    "slug": "release-notes-v2024-4-5",
+    "title": "Release Notes - v2024.4.5",
+    "banner": "changelog-08-11-2023.png",
+    "date": "2024-04-05",
+    "styles": "",
+    "tags": []
+  }
+]

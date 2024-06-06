@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import ReleasesList from "@/components/Releases/components/ReleasesList.vue"
+</script>
+
 <template>
   <section>
     <div class="relative mx-auto max-w-5xl px-4 sm:px-6">
@@ -6,7 +10,7 @@
         <h2
           class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text pb-4 text-transparent"
         >
-          Releasess
+          Releases
         </h2>
         <p class="text-zinc-400/80">Updates from the Hoppscotch team.</p>
         <p class="mt-4 text-sm">
@@ -22,7 +26,7 @@
         </p>
       </div>
       <!-- Blogs -->
-      <BlogList />
+      <ReleasesList />
     </div>
   </section>
 </template>

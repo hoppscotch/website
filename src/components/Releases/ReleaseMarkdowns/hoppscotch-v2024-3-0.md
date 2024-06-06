@@ -1,6 +1,16 @@
-<VersionBadge version="v2024.4.0" date="November 8th 2023"/>
+---
+name: "Release Notes - v2024.5.3"
+description: "Description of the release notes for v2024.5.3"
+image: /images/changelog-08-11-2023.png
+meta:
+  - created_at: "2024-03-05"
+  - published_at: "2024-03-07"
+author: "Author Name"
+---
 
-## Release Notes - April
+<VersionBadge version="v2024.3.0" date="November 8th 2023"/>
+
+## Release Notes - March
 
 ### New Features Every New Release
 
