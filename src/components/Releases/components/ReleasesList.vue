@@ -31,7 +31,7 @@ const sortedReleases = computed(() => {
       >
         <header>
           <RouterLink
-            :to="`/release/${release.slug}`"
+            :to="`/releases/${release.slug}`"
             class="relative mb-4 block aspect-video w-full rounded md:rounded-xl"
           >
             <img
@@ -60,7 +60,7 @@ const sortedReleases = computed(() => {
           </div>
           <h4 class="mb-4 w-4/5">
             <RouterLink
-              :to="`/release/${release.slug}`"
+              :to="`/releases/${release.slug}`"
               class="text-zinc-200 transition hover:text-zinc-100"
             >
               {{ release.title }}
