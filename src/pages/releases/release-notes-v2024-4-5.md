@@ -1,5 +1,6 @@
 ---
-name: "Release Notes - v2024.4.5"
+name: "Release Notes - v2024.5.3"
+title: "Release Notes - v2024.5.3"
 description: "Hoppscotch Desktop App is a cross-platform desktop application built
 with Tauri and Hoppscotch Web Client. It is a standalone version of
 Hoppscotch that can be installed on your computer and used without a

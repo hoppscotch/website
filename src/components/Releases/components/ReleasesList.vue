@@ -6,8 +6,8 @@ const sortedReleases = computed(() => {
     const clonedReleases = [...releases]
 
     return clonedReleases.sort((a, b) => {
-      const dateA = new Date(a.date).getTime()
-      const dateB = new Date(b.date).getTime()
+      const dateA = new Date(a.published_at).getTime()
+      const dateB = new Date(b.published_at).getTime()
 
       return dateB - dateA
     })

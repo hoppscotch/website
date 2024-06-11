@@ -1,5 +1,6 @@
 ---
 name: "Release Notes - v2024.5.5"
+title: "Release Notes - v2024.5.5"
 description: "Description of the release notes for v2024.5.5"
 image: /images/changelog-08-11-2023.png
 meta:
