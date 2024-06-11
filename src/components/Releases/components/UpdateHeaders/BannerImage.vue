@@ -1,8 +1,7 @@
 <template>
-  <img
-    class="mb-4 mt-12 w-full rounded-lg border border-zinc-800 shadow-lg"
+  <ImageZoom
     :src="imageSource"
-    alt=""
+    class="mb-4 mt-12 w-full rounded-lg border border-zinc-800 shadow-lg"
   />
 </template>
 

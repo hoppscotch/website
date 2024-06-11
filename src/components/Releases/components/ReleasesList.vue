@@ -86,7 +86,7 @@ const sortedReleases = computed(() => {
             <span class="mx-2 text-zinc-400/20">|</span>
             <span class="text-zinc-200/20">
               {{
-                new Date(release.date).toLocaleDateString("en-US", {
+                new Date(release.published_at).toLocaleDateString("en-US", {
                   month: "long",
                   day: "numeric",
                   year: "numeric",
