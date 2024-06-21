@@ -9,7 +9,13 @@ const { copy, copied } = useClipboard({
 const router = useRouter()
 
 function goBack() {
-  router.back()
+  // Get the current URL
+  let currentUrl = router.currentRoute.value.path
+  // Remove the last part of the URL
+  let newUrl = currentUrl.substring(0, currentUrl.lastIndexOf("/") + 1)
+  // Navigate to the new URL
+
+  router.push(newUrl)
 }
 </script>
 
