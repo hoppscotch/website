@@ -9,6 +9,8 @@ meta:
 author: "Author Name"
 ---
 
+<PostHeader/>
+
 <VersionBadge version="v2024.4.0" date="November 8th 2023"/>
 
 ## Release Notes - April

@@ -165,7 +165,7 @@ h4 {
 
 .markdown-body p {
   @apply font-light;
-  @apply text-zinc-400;
+  @apply text-zinc-200/80;
 }
 
 .markdown-body h2 {
@@ -180,8 +180,5 @@ h4 {
   @apply mb-4;
   @apply mt-12;
   @apply mb-4;
-  @apply text-2xl;
-  @apply font-semibold;
-  @apply text-zinc-200;
-  @apply sm:text-2xl;
+  @apply text-white;
 }

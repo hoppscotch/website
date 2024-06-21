@@ -56,7 +56,7 @@ useHead({
     <div class="relative mx-auto max-w-5xl px-4 sm:px-6">
       <div class="pb-24 pt-32">
         <!-- Section header -->
-        <BlogPostHeader />
+        <PostHeader />
         <!-- Blog content -->
         <article class="flex flex-col items-center space-y-8">
           <header class="flex w-full max-w-xl flex-col">
