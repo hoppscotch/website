@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row flex-wrap gap-1">
+  <div class="mb-8 mr-3 mt-2 inline-block">
     <span :class="getTypeClass(type)">
       <span :class="getIconClass(type)"></span>
       {{ getTypeLabel(type) }}
@@ -19,11 +19,11 @@ export default {
     getTypeClass(type) {
       switch (type) {
         case "improvement":
-          return "inline-flex items-center rounded-md border border-fuchsia-800 bg-fuchsia-500/10 px-2 text-sm text-fuchsia-400"
+          return "inline-flex items-center rounded-md border border-fuchsia-800 bg-fuchsia-500/10 px-2 text-xs text-fuchsia-400"
         case "feature":
-          return "inline-flex items-center rounded-md border border-teal-800 bg-teal-500/10 px-2 text-sm text-teal-400"
+          return "inline-flex items-center rounded-md border border-teal-800 bg-teal-500/10 px-2 text-xs text-teal-400"
         case "hotfix":
-          return "inline-flex items-center rounded-md border border-red-800 bg-red-500/10 px-2 text-sm text-red-400"
+          return "inline-flex items-center rounded-md border border-red-800 bg-red-500/10 px-2 text-xs text-red-400"
         default:
           return ""
       }

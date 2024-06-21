@@ -1,5 +1,5 @@
 <template>
-  <div class="w-96 max-w-2xl">
+  <div class="max-w-2xl">
     <h5 class="flex items-center">
       <icon-lucide-trash-2 class="mr-3" />
       Removed

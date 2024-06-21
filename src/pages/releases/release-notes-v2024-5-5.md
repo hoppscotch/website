@@ -13,15 +13,13 @@ author: "Author Name"
 
 ## Release Notes - April
 
-### New Features Every New Release
+New Features Every New Release
 
-<Row>
-    <TypeBadge type="improvement"/>
-    <TypeBadge type="feature"/>
-    <TypeBadge type="hotfix"/>
-</Row>
+<TypeBadge type="improvement"/>
+<TypeBadge type="feature"/>
+<TypeBadge type="hotfix"/>
 
-## Introducing Hoppscotch Desktop App
+### Introducing Hoppscotch Desktop App
 
 Hoppscotch Desktop App is a cross-platform desktop application built
 with Tauri and Hoppscotch Web Client. It is a standalone version of

@@ -164,23 +164,22 @@ h4 {
 }
 
 .markdown-body p {
-  @apply max-w-4xl;
-  @apply text-lg;
   @apply font-light;
   @apply text-zinc-400;
 }
 
 .markdown-body h2 {
-  @apply font-semibold;
+  @apply block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text text-transparent;
 }
 
 .markdown-body h3 {
-  @apply text-xl;
+  @apply mb-8 text-2xl font-semibold text-zinc-200 sm:text-4xl;
 }
 
 .markdown-body h4 {
   @apply mb-4;
   @apply mt-12;
+  @apply mb-4;
   @apply text-2xl;
   @apply font-semibold;
   @apply text-zinc-200;

@@ -17,13 +17,11 @@ author: "Kiran Johns"
 
 ## Release Notes - May
 
-### New Features Every New Release
+New Features Every New Release
 
-<Row>
-    <TypeBadge type="improvement"/>
-    <TypeBadge type="feature"/>
-    <TypeBadge type="hotfix"/>
-</Row>
+<TypeBadge type="improvement"/>
+<TypeBadge type="feature"/>
+<TypeBadge type="hotfix"/>
 
 ## Introducing Hoppscotch Desktop App
 
