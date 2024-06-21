@@ -22,7 +22,7 @@ const sortedReleases = computed(() => {
   <!-- Articles list -->
   <div class="mx-auto">
     <!-- Articles container -->
-    <div class="grid gap-16 md:grid-cols-2 md:gap-y-20">
+    <div class="grid gap-16 md:grid-cols-12 md:gap-y-20">
       <article
         v-for="(release, index) in sortedReleases"
         :key="`release-${index}`"
