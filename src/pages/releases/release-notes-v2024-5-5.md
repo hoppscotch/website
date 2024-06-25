@@ -17,8 +17,8 @@ author: "Author Name"
 
 New Features Every New Release
 
-<TypeBadge type="improvement"/>
-<TypeBadge type="feature"/>
+<TypeBadge type="improvements"/>
+<TypeBadge type="new features"/>
 <TypeBadge type="hotfix"/>
 
 ### Introducing Hoppscotch Desktop App

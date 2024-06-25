@@ -5,7 +5,7 @@
       Fixed
     </h5>
     <ul
-      class="mb-8 ml-5 mt-4 list-disc space-y-2 text-zinc-400/80 marker:text-teal-500"
+      class="mb-8 ml-5 mt-4 list-disc space-y-2 text-zinc-400/80 marker:text-red-500"
     >
       <slot> </slot>
     </ul>
