@@ -33,6 +33,8 @@ Hoppscotch that can be installed on your computer and used without a
 browser. Hoppscotch Desktop App is currently in alpha and is
 available for Mac, Windows and Linux.
 
+<a href="https://google.com/">Wow</a>
+
 <BannerImage imageSource="/images/changelog-08-11-2023.png"/>
 
 #### Revamped spotlight

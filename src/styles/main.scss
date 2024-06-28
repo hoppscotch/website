@@ -168,6 +168,10 @@ h4 {
   @apply text-zinc-200/80;
 }
 
+.markdown-body a {
+  @apply underline;
+}
+
 .markdown-body h2 {
   @apply block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text text-transparent;
 }
