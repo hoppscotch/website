@@ -180,7 +180,7 @@ h4 {
   @apply mb-8 text-2xl font-semibold text-zinc-200 sm:text-4xl;
 }
 
-.markdown-body h4 {
+.markdown-body h4, .markdown-body h3 {
   @apply mb-4;
   @apply mt-12;
   @apply mb-4;
