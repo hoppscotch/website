@@ -1,7 +1,7 @@
 [
   {
     "slug": "hoppscotch-v2024-7-0",
-    "title": "Hoppscotch v2024.7.0: Hoppscotch + AI, CLI JUnit Reports and more",
+    "title": "Hoppscotch v2024.7.0: JUnit Reports, User management API & more",
     "description": "We’re adding AI-powered functionalities to Hoppscotch to enhance your API testing experience. Starting today, you’ll be able to automatically name your requests using AI!",
     "banner": "blog-v2024-7-0.png",
     "date": "2024-07-30",
