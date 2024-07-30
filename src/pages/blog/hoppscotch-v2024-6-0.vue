@@ -42,7 +42,7 @@ useHead({
     },
     {
       property: "og:url",
-      content: "https://hoppscotch.com/blog/hoppscotch-v2024-3-0",
+      content: "https://hoppscotch.com/blog/hoppscotch-v2024-6-0",
     },
   ],
 })
