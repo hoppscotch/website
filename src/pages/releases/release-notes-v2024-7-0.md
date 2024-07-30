@@ -26,7 +26,9 @@ Hoppscotch + AI, CLI JUnit Reports and more...
 
 ### Hoppscotch meets AI ✨
 
-We're adding a few quality of AI features to Hoppscotch to help you with API Testing. Starting today you'll be able to automatically name your requests using AI! Hoppscotch AI will also help you generate a request body from prompts!
+We're adding a few quality of AI features to Hoppscotch to help you with API Testing. Starting today you'll be able to automatically name your requests using AI!
+
+<br />
 
 Check out the latest AI featues and let us know your feedback!
 
@@ -50,7 +52,6 @@ JUnit reports are essential for documenting test results, integrating with CI to
    <Added>
       <li>JUnit Reports</li>
       <li>Autoname requests with AI</li>
-      <li>Generate request body with AI</li>
       <li>APIs for user management </li>
    </Added>
    <Fixed>
