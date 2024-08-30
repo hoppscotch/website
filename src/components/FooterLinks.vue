@@ -81,14 +81,14 @@
             Pricing
           </RouterLink>
         </li>
-        <li>
+        <!-- <li>
           <RouterLink
             class="rounded text-zinc-400/80 transition hover:text-zinc-100"
             to="/changelog"
           >
             Changelog
           </RouterLink>
-        </li>
+        </li> -->
       </ul>
     </div>
     <!-- Block -->

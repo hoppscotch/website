@@ -11,12 +11,12 @@ const scrollHandler = ({ xy: [, y] }: { xy: [number, number] }) => {
   scrollHeight.value = y
   if (y > 8) {
     apply({
-      width: "522.2px",
+      width: "418.28px",
       // width: "495px",
     })
   } else {
     apply({
-      width: "425.5px",
+      width: "321.75px",
       // width: "398px",
     })
   }
@@ -63,13 +63,13 @@ const onTabMouseEnter = (e: MouseEvent) => {
       >
         Blog
       </RouterLink>
-      <RouterLink
+      <!-- <RouterLink
         to="/changelog"
         class="relative z-10 flex flex-shrink-0 rounded-full border border-transparent px-4 py-2 text-sm text-zinc-400 transition hover:text-zinc-100/80"
         @mouseenter="onTabMouseEnter"
       >
         Changelog
-      </RouterLink>
+      </RouterLink> -->
       <RouterLink
         to="/pricing"
         class="relative z-10 flex flex-shrink-0 rounded-full border border-transparent px-4 py-2 text-sm text-zinc-400 transition hover:text-zinc-100/80"

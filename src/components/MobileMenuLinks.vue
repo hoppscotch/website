@@ -14,13 +14,13 @@
       <icon-lucide-newspaper class="mr-3" />
       Blog
     </RouterLink>
-    <RouterLink
+    <!-- <RouterLink
       class="flex items-center rounded-lg px-3 py-2 text-sm text-zinc-400 transition hover:bg-zinc-800/50 hover:text-zinc-200"
       to="/changelog"
     >
       <icon-lucide-scroll-text class="mr-3" />
       Changelog
-    </RouterLink>
+    </RouterLink> -->
     <RouterLink
       class="flex items-center rounded-lg px-3 py-2 text-sm text-zinc-400 transition hover:bg-zinc-800/50 hover:text-zinc-200"
       to="/pricing"
