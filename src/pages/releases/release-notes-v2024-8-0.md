@@ -24,12 +24,6 @@ AWS Signature, HAR File Imports, Header Descriptions
 
 <br />
 
-#### AI Generated Request Body ✨
-
-Create complex request payloads tailored to your specific API endpoints by describing them using Hoppscotch AI
-
-<br />
-
 #### AWS Signature Authorization Type 🔒
 
 Support for AWS Signature authorization is now available. Just enter your AWS Access Key and Secret Key to securely sign your API requests within Hoppscotch.
@@ -50,15 +44,14 @@ With this new importer, you can now bring HAR files as your Hoppscotch Collectio
 
 #### 👉 [Read the entire release blog](https://hoppscotch.com/blog/hoppscotch-v2024-8-0)
 
-
 #### Summary
 
 <Row>
    <Added>
       <li>AWS Signature Auth</li>
-      <li>Request Body Generation</li>
       <li>Header and Parameter Descriptions</li>
       <li>HAR File Imports </li>
+      <li>OAuth2 Token Refresh</li>
    </Added>
    <Fixed>
       <li>Request Variable Support on Collection Runs</li>
