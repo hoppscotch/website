@@ -24,6 +24,10 @@ AWS Signature, HAR File Imports, Header Descriptions
 
 <br />
 
+This update introduces new additions to the Hoppscotch Backend that require users to run a new migration (instructions can be found here for [community](https://docs.hoppscotch.io/documentation/self-host/community-edition/install-and-build#migrations) and [enterprise](https://docs.hoppscotch.io/documentation/self-host/enterprise-edition/install-and-build#migrations) editions respectively), in addition to that, we're also adding a new environment variable `DATA_ENCRYPTION_KEY` whose value is a 32 character alphanumeric string. For more details on this please refer to the [documentation](https://docs.hoppscotch.io).
+
+<br />
+
 #### AWS Signature Authorization Type 🔒
 
 Support for AWS Signature authorization is now available. Just enter your AWS Access Key and Secret Key to securely sign your API requests within Hoppscotch.
@@ -32,13 +36,13 @@ Support for AWS Signature authorization is now available. Just enter your AWS Ac
 
 #### Header & Parameter Descriptions 📝
 
-You can now can add notes about what each parameter or header does right inside Hoppscotch, making it easier to remember the purpose of each part of your request
+You can now can add notes about what each parameter or header does right inside Hoppscotch, making it easier to remember the purpose of each part of your request.
 
 <br />
 
 #### Import HAR Files to Hoppscotch Collection 📦
 
-With this new importer, you can now bring HAR files as your Hoppscotch Collection
+With this new importer, you can now bring HAR files as your Hoppscotch Collection.
 
 <br />
 

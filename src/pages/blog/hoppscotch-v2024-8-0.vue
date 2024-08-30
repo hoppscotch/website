@@ -117,6 +117,37 @@ useHead({
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
+            This update introduces new additions to the Hoppscotch Backend that
+            require users to run a new migration (instructions can be found here
+            for
+            <a
+              href="https://docs.hoppscotch.io/documentation/self-host/community-edition/install-and-build#migrations"
+              target="_blank"
+              class="border-b border-zinc-200 transition hover:text-zinc-50"
+            >
+              community</a
+            >
+            and
+            <a
+              href="https://docs.hoppscotch.io/documentation/self-host/enterprise-edition/install-and-build#migrations"
+              target="_blank"
+              class="border-b border-zinc-200 transition hover:text-zinc-50"
+            >
+              enterprise</a
+            >
+            editions respectively), in addition to that, we're also adding a new
+            environment variable `DATA_ENCRYPTION_KEY` whose value is a 32
+            character alphanumeric string. For more details on this please refer
+            to the
+            <a
+              href="https://docs.hoppscotch.io"
+              target="_blank"
+              class="border-b border-zinc-200 transition hover:text-zinc-50"
+              >documentation</a
+            >.
+            <hr
+              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
+            />
             <h4 class="mb-4 text-white">AWS Signature Authorization Type</h4>
             <p class="mb-8 mt-4">
               Support for AWS Signature authorization is now available. This
