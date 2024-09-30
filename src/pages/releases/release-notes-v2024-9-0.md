@@ -57,7 +57,6 @@ Collaborating on API requests just got easier! You can now add comments directly
       <li>Predefined Variables</li>
       <li>JSON Request Body Comments</li>
       <li>AI Request Body Generation</li>
-      <li>Digest Auth</li>
    </Added>
    <Fixed>
       <li>Desktop App Launch Issues</li>
