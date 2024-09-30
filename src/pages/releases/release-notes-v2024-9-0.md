@@ -66,7 +66,7 @@ Collaborating on API requests just got easier! You can now add comments directly
       <li>Duplicate Collections on Self Host</li>
       <li>Optional Client Secrets</li>
    </Changed>
-   <Others>
-      <li>App performance</li>
-   </Others>
+   <Removed>
+      <li>HoppSmartExpand from Importers</li>
+   </Removed>
 </Row>
