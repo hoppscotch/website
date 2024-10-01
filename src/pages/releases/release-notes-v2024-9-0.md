@@ -32,13 +32,9 @@ We're introducing a new way to make it easier for developers to work with our we
 
 You can now save examples of API responses directly in your collection. This means you no longer have to send the same request repeatedly just to see a response—previous responses can be saved alongside their corresponding requests.
 
-<br />
-
 #### Hoppscotch now supports predefined variables ⭐
 
 We’re excited to introduce predefined variables, making it easier to generate dynamic, realistic data during request execution. Use these variables in your requests in the format `$variable`.
-
-<br />
 
 #### Add comments on a JSON request body 💬
 
