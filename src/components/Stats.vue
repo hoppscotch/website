@@ -22,7 +22,7 @@
             paint-order="stroke"
             class="fill-zinc-900/20 stroke-zinc-800"
           >
-            300K
+            500K
           </text>
         </svg>
         <div class="absolute inset-0 z-20 flex items-center justify-center">
@@ -31,7 +31,7 @@
             class="text-md max-w-xl text-center font-inter font-semibold tracking-tight text-zinc-500 md:text-4xl"
           >
             Hoppscotch processes over <br />
-            <span class="text-zinc-50">300 thousand requests per week</span>
+            <span class="text-zinc-50">500 thousand requests per week</span>
           </p>
         </div>
       </div>

@@ -54,7 +54,7 @@ const toggleDark = useToggle(isDark)
               <ul
                 class="flex items-center overflow-hidden rounded-full border border-zinc-800"
               >
-                <li class="border-r border-zinc-800">
+                <!-- <li class="border-r border-zinc-800">
                   <button
                     class="flex items-center justify-center rounded-full text-zinc-400/80 transition hover:text-zinc-100"
                     @click="toggleDark()"
@@ -62,7 +62,7 @@ const toggleDark = useToggle(isDark)
                     <icon-lucide-moon v-if="isDark" class="h-8 w-8 p-2" />
                     <icon-lucide-sun v-else class="h-8 w-8 p-2" />
                   </button>
-                </li>
+                </li> -->
                 <li>
                   <a
                     class="flex items-center justify-center rounded-full text-zinc-400/80 transition hover:text-zinc-100"

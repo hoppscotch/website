@@ -1,17 +1,16 @@
 <script setup lang="ts">
 useHead({
-  title:
-    "Hoppscotch v2024.7.0: We're adding AI-powered functionalities to Hoppscotch to enhance your API testing experience. Starting today, you'll be able to automatically name your requests using AI!",
+  title: "Hoppscotch v2024.7.0: JUnit Reports, User management API & more",
   meta: [
     {
       property: "og:title",
       content:
-        "Hoppscotch v2024.7.0: We're adding AI-powered functionalities to Hoppscotch to enhance your API testing experience. Starting today, you'll be able to automatically name your requests using AI!",
+        "Hoppscotch v2024.7.0: JUnit Reports, User management API & more",
     },
     {
       name: "twitter:title",
       content:
-        "Hoppscotch v2024.7.0: We're adding AI-powered functionalities to Hoppscotch to enhance your API testing experience. Starting today, you'll be able to automatically name your requests using AI!",
+        "Hoppscotch v2024.7.0: JUnit Reports, User management API & more",
     },
     {
       name: "description",

@@ -131,7 +131,6 @@ declare module 'vue' {
     IconLucideQrCode: typeof import('~icons/lucide/qr-code')['default']
     IconLucideRocket: typeof import('~icons/lucide/rocket')['default']
     IconLucideSave: typeof import('~icons/lucide/save')['default']
-    IconLucideScrollText: typeof import('~icons/lucide/scroll-text')['default']
     IconLucideServer: typeof import('~icons/lucide/server')['default']
     IconLucideSettings: typeof import('~icons/lucide/settings')['default']
     IconLucideShare2: typeof import('~icons/lucide/share2')['default']

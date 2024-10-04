@@ -1,17 +1,17 @@
 <script setup lang="ts">
 useHead({
   title:
-    "Hoppscotch v2024.8.0: With our latest update, version 2024.8.0, we're excited to introduce cool new features that we think you'll love.",
+    "Hoppscotch v2024.8.0: AWS Signature, Workspace Management APIs, and more",
   meta: [
     {
       property: "og:title",
       content:
-        "Hoppscotch v2024.8.0: With our latest update, version 2024.8.0, we're excited to introduce cool new features that we think you'll love.",
+        "Hoppscotch v2024.8.0: AWS Signature, Workspace Management APIs, and more",
     },
     {
       name: "twitter:title",
       content:
-        "Hoppscotch v2024.8.0: With our latest update, version 2024.8.0, we're excited to introduce cool new features that we think you'll love.",
+        "Hoppscotch v2024.8.0: AWS Signature, Workspace Management APIs, and more",
     },
     {
       name: "description",
