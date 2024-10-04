@@ -1,5 +1,18 @@
 [
   {
+    "slug": "hoppscotch-v2024-9-0",
+    "title": "Hoppscotch v2024.9.0: Save API Responses, Predefined Variables, and more",
+    "description": "Hoppscotch v2024.9.0 brings some exciting updates and addresses key issues that have been bugging our users for a while.",
+    "banner": "blog-v2024-9-0.png",
+    "date": "2024-10-04",
+    "author": {
+      "name": "Kiran johns",
+      "image": "blog-author-02.jpg"
+    },
+    "styles": "md:col-span-6",
+    "tags": ["Product"]
+  },
+  {
     "slug": "hoppscotch-v2024-8-0",
     "title": "Hoppscotch v2024.8.0: AWS Signature, Workspace Management APIs, and more",
     "description": "With our latest update, version 2024.8.0, we're excited to introduce cool new features that we think you'll love.",
@@ -9,7 +22,7 @@
       "name": "Kiran johns",
       "image": "blog-author-02.jpg"
     },
-    "styles": "md:col-span-12",
+    "styles": "md:col-span-6",
     "tags": ["Product"]
   },
   {
