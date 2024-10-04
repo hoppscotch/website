@@ -1,5 +1,21 @@
 [
   {
+    "name": "Release Notes - v2024.9.0",
+    "description": "Hoppscotch Agent, Save API Responses, Predefined Variables & more.",
+    "image": "release-2024-9-0.png",
+    "created_at": "2024-09-30",
+    "published_at": "2024-09-30",
+    "author": {
+      "name": "Kiran johns",
+      "image": "blog-author-02.jpg"
+    },
+    "slug": "release-notes-v2024-9-0",
+    "title": "Release Notes - v2024.9.0",
+    "banner": "release-2024-9-0.png",
+    "styles": "md:col-span-6",
+    "tags": []
+  },
+  {
     "name": "Release Notes - v2024.8.0",
     "description": "AWS Signature, HAR File Imports, Header Descriptions",
     "image": "release-2024-8-0.png",
