@@ -129,7 +129,7 @@ useHead({
             <p class="mb-8 mt-4">
               Learn more about
               <a
-                href="https://github.com/hoppscotch/hoppscotch"
+                href="https://docs.hoppscotch.io/documentation/features/interceptor#hoppscotch-agent"
                 target="_blank"
                 class="border-b border-zinc-200 transition hover:text-zinc-50"
                 >Hoppscotch Agent from documentation</a
