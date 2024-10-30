@@ -11,7 +11,7 @@ author: "Kiran Johns"
 
 <PostHeader/>
 
-<VersionBadge version="v2024.10.0" date="October 31th 2024"/>
+<VersionBadge version="v2024.10.0" date="October 31st 2024"/>
 
 ## Release Notes - v2024.10.0
 
