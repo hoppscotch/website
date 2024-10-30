@@ -34,7 +34,7 @@ We reorganized our settings page and you can now encode query parameters when se
 
 #### CA and Client Certificates
 
-We're also bringing CA and Client Certificates to the web app, and you can use and configure your certificates when you use the Hoppscotch Agent as the interceptor
+Added CA certificate support and HTTP proxy support to the desktop app. We're also bringing CA and client certificates to the web app, allowing you to use and configure your certificates when using the Hoppscotch Agent as the interceptor on the web app.
 
 <br />
 
