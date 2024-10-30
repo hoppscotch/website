@@ -1,5 +1,18 @@
 [
   {
+    "slug": "hoppscotch-v2024-10-0",
+    "title": "Hoppscotch v2024.10.0: Digest Auth, CA and Client Certificates, and more",
+    "description": "Hoppscotch v2024.10.0 release brings some nifty updates to Hoppscotch.",
+    "banner": "blog-v2024-10-0.png",
+    "date": "2024-10-31",
+    "author": {
+      "name": "Kiran johns",
+      "image": "blog-author-02.jpg"
+    },
+    "styles": "md:col-span-12",
+    "tags": ["Product"]
+  },
+  {
     "slug": "hoppscotch-v2024-9-0",
     "title": "Hoppscotch v2024.9.0: Save API Responses, Predefined Variables, and more",
     "description": "Hoppscotch v2024.9.0 brings some exciting updates and addresses key issues that have been bugging our users for a while.",
