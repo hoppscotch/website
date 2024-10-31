@@ -6,19 +6,19 @@ external_node_modules = ["@sparticuz/chromium"]
 [[redirects]]
 from = "/download/app/*"
 to = "https://github.com/hoppscotch/releases/releases/latest/download/:splat"
-status = 200
+status = 301
 force = true
 
 [[redirects]]
 from = "/download/desktop/*"
 to = "https://github.com/hoppscotch/releases/releases/latest/download/:splat"
-status = 200
+status = 301
 force = true
 
 [[redirects]]
 from = "/download/agent/*"
 to = "https://github.com/hoppscotch/agent-releases/releases/latest/download/:splat"
-status = 200
+status = 301
 force = true
 
 [[redirects]]
