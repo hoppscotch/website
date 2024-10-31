@@ -4,6 +4,11 @@ node_bundler = "esbuild"
 external_node_modules = ["@sparticuz/chromium"]
 
 [[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+
+[[redirects]]
 from = "/download/app/*"
 to = "https://github.com/hoppscotch/releases/releases/latest/download/:splat"
 status = 301
