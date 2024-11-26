@@ -24,23 +24,24 @@ Collection runner, Send binary files in request body, form-data content types an
 
 <br />
 
-#### Execute Requests with the New Collection Runner
+#### Execute Requests with the New Collection Runner 🏃
 
 Introducing the collection runner in the Hoppscotch API testing client! This feature lets you automate the execution of multiple requests within a collection.
 
-#### Send Binary Files in Your Request Body
+#### Send Binary Files in Your Request Body 0️⃣1️⃣
 
 We’ve enhanced binary file support, enabling you to seamlessly include binary file content-types in your API requests.
 
-#### View Detailed Import Summaries
+#### View Detailed Import Summaries 📊
 
 We’ve improved data imports with a comprehensive summary feature. This overview provides key details such as number of collections, requests etc. ensuring greater visibility and a smoother user experience.
 
-#### Specify Content Types for Request Body Form Data
+#### Specify Content Types for Request Body Form Data 🗂️
 
 We now allow flexible content-type customization for multipart/form-data requests. While file content-types are handled automatically, you can override them for specific parameters.
 
-#### Generate Queries from GraphQL Documentation
+#### Generate Queries from GraphQL Documentation 🤖
+
 We’ve simplified GraphQL development with an intelligent query generation feature. By using your GraphQL documentation, you can quickly generate accurate, well-structured queries
 
 <br />
@@ -56,14 +57,11 @@ We’ve simplified GraphQL development with an intelligent query generation feat
       <li>Import summaries</li>
       <li>Content types in form-data</li>
       <li>GraphQL query generation</li>
+      <li> Iterations on CLI Runner </li>
    </Added>
    <Fixed>
    <li>Errors in tab service </li>
+   <li>Issues with GraphQL collections</li>
+   <li>Return 0 complexity for introspection fields </li>
    </Fixed>
-   <Changed>
-   <li>Size of collection import on SH is now 50MB </li>
-   </Changed>
-   <Performance>
-      <li>Dependency bumps</li>
-   </Performance>
 </Row>
