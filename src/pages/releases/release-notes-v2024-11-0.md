@@ -40,10 +40,6 @@ We’ve improved data imports with a comprehensive summary feature. This overvie
 
 We now allow flexible content-type customization for multipart/form-data requests. While file content-types are handled automatically, you can override them for specific parameters.
 
-#### Generate Queries from GraphQL Documentation 🤖
-
-We’ve simplified GraphQL development with an intelligent query generation feature. By using your GraphQL documentation, you can quickly generate accurate, well-structured queries
-
 <br />
 
 #### 👉 [Read the entire release blog](https://hoppscotch.com/blog/hoppscotch-v2024-11-0)
