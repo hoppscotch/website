@@ -130,10 +130,16 @@ useHead({
               multiple requests within a collection.
             </p>
             <p class="mb-8 mt-4">
-              Access the collection runner by clicking the runner icon while
-              hovering over a collection or navigating to the collection's menu.
-              Configure your settings in the runner menu, then run the
-              collection to receive responses.
+              Access the
+              <a
+                href="https://docs.hoppscotch.io/documentation/features/runner"
+                target="_blank"
+                class="border-b border-zinc-200 transition hover:text-zinc-50"
+                >collection runner</a
+              >
+              by clicking the runner icon while hovering over a collection or
+              navigating to the collection's menu. Configure your settings in
+              the runner menu, then run the collection to receive responses.
             </p>
             <p class="mb-8 mt-4">
               You can also integrate the collection runner into your CI/CD
@@ -144,7 +150,7 @@ useHead({
               iterations and data feed. For more insights on run settings, see
               the
               <a
-                href="https://docs.hoppscotch.io"
+                href="https://docs.hoppscotch.io/documentation/clients/cli/overview#running-collections-present-on-the-api-client"
                 target="_blank"
                 class="border-b border-zinc-200 transition hover:text-zinc-50"
                 >documentation</a
@@ -172,7 +178,7 @@ useHead({
               file option, and incorporate your files with just a few clicks.
               Get full details on uploading binary data in our
               <a
-                href="https://docs.hoppscotch.io/documentation/getting-started/rest/uploading-data"
+                href="https://docs.hoppscotch.io/documentation/getting-started/rest/uploading-data#uploading-binary-data"
                 target="_blank"
                 class="border-b border-zinc-200 transition hover:text-zinc-50"
                 >documentation</a
