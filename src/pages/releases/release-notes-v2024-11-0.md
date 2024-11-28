@@ -52,7 +52,6 @@ We now allow flexible content-type customization for multipart/form-data request
       <li>Binary files in request body</li>
       <li>Import summaries</li>
       <li>Content types in form-data</li>
-      <li>GraphQL query generation</li>
       <li> Iterations on CLI Runner </li>
    </Added>
    <Fixed>
