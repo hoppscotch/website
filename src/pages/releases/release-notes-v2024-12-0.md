@@ -52,6 +52,7 @@ This new feature 🛠️ **automatically generates GraphQL queries** from your e
       <li>⚡ GraphQL query generation</li>
       <li>📝 Bulk edit on form-data body</li>
       <li>🧠 AI script generation</li>
+      <li>📝 Enable / Disable user's request history on self-host</li>
    </Added>
    <Fixed>
    <li>🐛 Bugs on self-host user management dashboard</li>
