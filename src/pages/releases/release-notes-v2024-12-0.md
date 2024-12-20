@@ -1,7 +1,7 @@
 ---
 name: "Release Notes - v2024.12.0"
 title: "Release Notes - v2024.12.0"
-description: "🚀 Generate scripts with AI, ⚡ Updates to GraphQL and more."
+description: "🚀 Generate scripts with AI, ⚡ Sync admin role from SAML"
 image: /images/release-2024-12-0.png
 meta:
   - created_at: "2024-12-23"
@@ -15,7 +15,7 @@ author: "Kiran Johns"
 
 ## Release Notes - v2024.12.0
 
-Generate scripts with AI, Updates to GraphQL and more.
+Generate scripts with AI, Sync admin role from SAML and more.
 
 <TypeBadge type="new features"/>
 <TypeBadge type="improvements"/>
@@ -27,10 +27,6 @@ Generate scripts with AI, Updates to GraphQL and more.
 #### ✨ Generate pre and post request scripts using prompts
 
 🧠 Generate your **pre and post request scripts** using prompts, making it easy to test and validate your API endpoints!
-
-#### ⚡ GraphQL Query Generation
-
-This new feature 🛠️ **automatically generates GraphQL queries** from your existing GraphQL mutations, which streamlines your development workflow and reduces manual query writing.
 
 #### 📝 Bulk edit on request body form data
 
@@ -49,7 +45,6 @@ This new feature 🛠️ **automatically generates GraphQL queries** from your e
 <Row>
    <Added>
       <li>🔐 Role syncing via SAML on self-host</li>
-      <li>⚡ GraphQL query generation</li>
       <li>📝 Bulk edit on form-data body</li>
       <li>🧠 AI script generation</li>
       <li>📝 Enable / Disable user's request history on self-host</li>
