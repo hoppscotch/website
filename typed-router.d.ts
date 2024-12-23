@@ -75,6 +75,7 @@ declare module 'vue-router/auto-routes' {
     '/releases/': RouteRecordInfo<'/releases/', '/releases', Record<never, never>, Record<never, never>>,
     '/releases/release-notes-v2024-10-0': RouteRecordInfo<'/releases/release-notes-v2024-10-0', '/releases/release-notes-v2024-10-0', Record<never, never>, Record<never, never>>,
     '/releases/release-notes-v2024-11-0': RouteRecordInfo<'/releases/release-notes-v2024-11-0', '/releases/release-notes-v2024-11-0', Record<never, never>, Record<never, never>>,
+    '/releases/release-notes-v2024-12-0': RouteRecordInfo<'/releases/release-notes-v2024-12-0', '/releases/release-notes-v2024-12-0', Record<never, never>, Record<never, never>>,
     '/releases/release-notes-v2024-6-0': RouteRecordInfo<'/releases/release-notes-v2024-6-0', '/releases/release-notes-v2024-6-0', Record<never, never>, Record<never, never>>,
     '/releases/release-notes-v2024-7-0': RouteRecordInfo<'/releases/release-notes-v2024-7-0', '/releases/release-notes-v2024-7-0', Record<never, never>, Record<never, never>>,
     '/releases/release-notes-v2024-8-0': RouteRecordInfo<'/releases/release-notes-v2024-8-0', '/releases/release-notes-v2024-8-0', Record<never, never>, Record<never, never>>,
