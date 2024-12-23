@@ -1,5 +1,18 @@
 [
   {
+    "slug": "hoppscotch-v2024-12-0",
+    "title": "Hoppscotch v2024.12.0: Generate scripts with AI, Sync Admin role from SAML, and more",
+    "description": "Our 2024.12.0 release introduces exciting updates to enhance your experience with Hoppscotch.",
+    "banner": "blog-v2024-12-0.png",
+    "date": "2024-12-23",
+    "author": {
+      "name": "Kiran johns",
+      "image": "blog-author-02.jpg"
+    },
+    "styles": "md:col-span-6",
+    "tags": ["Product"]
+  },
+  {
     "slug": "hoppscotch-v2024-11-0",
     "title": "Hoppscotch v2024.11.0: Introducing collection runner, and more",
     "description": "Our 2024.11.0 release introduces exciting updates to enhance your experience with Hoppscotch.",
