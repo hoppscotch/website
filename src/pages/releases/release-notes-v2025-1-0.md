@@ -1,7 +1,7 @@
 ---
 name: "Release Notes - v2025.1.0"
 title: "Release Notes - v2025.1.0"
-description: "Hoppscotch cloud for organizations, Activity Logs & more."
+description: "Hoppscotch cloud for organizations, Desktop app support for Hoppscotch Self Host & More."
 image: /images/release-2025-1-0.png
 meta:
   - created_at: "2025-01-30"
@@ -43,7 +43,6 @@ Stay informed with detailed logs of every change and activity.
 
 Simplify GraphQL query creation with automated generation tools. ✍️
 Spend less time writing and more time testing your APIs.
-
 
 #### 👉 [Read the entire release blog](https://hoppscotch.com/blog/hoppscotch-v2025-1-0)
 
