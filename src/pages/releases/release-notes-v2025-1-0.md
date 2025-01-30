@@ -15,7 +15,7 @@ author: "Kiran Johns"
 
 ## Release Notes - v2025.1.0
 
-SCIM, Workspace Acivity Logs and more.
+SCIM, Workspace Activity Logs and more.
 
 <TypeBadge type="new features"/>  
 <TypeBadge type="improvements"/>
