@@ -1,7 +1,7 @@
 ---
 name: "Release Notes - v2025.1.0"
 title: "Release Notes - v2025.1.0"
-description: "Hoppscotch cloud for organizations, Desktop app support for Hoppscotch Self Host & More."
+description: "SCIM, Workspace Acivity Logs and more. 🎉"
 image: /images/release-2025-1-0.png
 meta:
   - created_at: "2025-01-30"
@@ -15,48 +15,43 @@ author: "Kiran Johns"
 
 ## Release Notes - v2025.1.0
 
-Hoppscotch cloud for organizations, Activity Logs & more.
+SCIM, Workspace Acivity Logs and more.
 
-<TypeBadge type="new features"/>
+<TypeBadge type="new features"/>  
 <TypeBadge type="improvements"/>
 
 <BannerImage imageSource="/images/release-2025-1-0.png"/>
 
 <br />
 
-#### ✨ Announcing Hoppscotch Cloud for Organizations
+#### 🆕 SCIM Provisioning (Enterprise Only)
 
-Effortlessly collaborate and manage your API projects with your team on the cloud. 🌩️
-With an all new Hoppscotch Admin dashboard and tons of features starting at just $8/user/month
+🔐 Manage user access effortlessly with SCIM provisioning for self-hosted enterprise deployments.
 
-#### 💻 Desktop App Support for Hoppscotch Self-Host
+#### 📊 Workspace Activity Logs (Enterprise Only)
 
-Take control of your API testing with our desktop app for self-hosted instances. 🖥️
-Connect your self-hosted instance to the desktop app easily with just a click
-
-#### 📊 Workspace Activity Logs
-
-See all the actions within your workspace for better collaboration. 🔍
-Stay informed with detailed logs of every change and activity.
+📝 Track all actions within your workspace for better collaboration.  
+🔍 Stay informed with detailed logs of every change and activity.
 
 #### 🛠️ GraphQL Query Generation
 
-Simplify GraphQL query creation with automated generation tools. ✍️
-Spend less time writing and more time testing your APIs.
+✨ Simplify GraphQL query creation with automated generation tools.  
+✍️ Spend less time writing and more time testing your APIs.
 
 #### 👉 [Read the entire release blog](https://hoppscotch.com/blog/hoppscotch-v2025-1-0)
 
-#### 📋 Summary
+### 📋 Summary
 
-<Row>
-   <Added>
-      <li>🔐 Cloud for organizations</li>
-      <li>📝 Desktop app support of Hoppscotch self-host</li>
-      <li>🧠 Workspace activity logs</li>
-      <li>📝 GraphQL query generation</li>
-   </Added>
-   <Fixed>
-   <li>🐛 Bugs on API client</li>
-   <li>📅 Bugs on the desktop app</li>
-   </Fixed>
+<Row>  
+   <Added>  
+      <li>🔐 SCIM provisioning for Self-Host Enterprise</li>  
+      <li>🧠 Workspace activity logs for Self-Host Enterprise</li>  
+      <li>⚠️ Warning when overwriting saved responses</li>  
+      <li>📝 GraphQL query generation</li>  
+      <li>🚀 Improvements to collection runner</li>  
+   </Added>  
+   <Fixed>  
+      <li>🐛 Fixed authorization hierarchy in Postman import</li>  
+      <li>📅 Fixed bugs on the desktop app</li>  
+   </Fixed>  
 </Row>
