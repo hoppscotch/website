@@ -1,7 +1,7 @@
 ---
 name: "Release Notes - v2025.1.0"
 title: "Release Notes - v2025.1.0"
-description: "SCIM, Workspace Acivity Logs and more. 🎉"
+description: "SCIM, Workspace Activity Logs and more. 🎉"
 image: /images/release-2025-1-0.png
 meta:
   - created_at: "2025-01-30"
