@@ -1,40 +1,37 @@
 <script setup lang="ts">
 useHead({
-  title:
-    "Hoppscotch v2024.10.0: Digest Auth, CA and Client Certificates, and more",
+  title: "Hoppscotch v2025.1.0: SCIM, Workspace Activity Logs and more",
   meta: [
     {
       property: "og:title",
-      content:
-        "Hoppscotch v2024.10.0: Digest Auth, CA and Client Certificates, and more",
+      content: "Hoppscotch v2025.1.0: SCIM, Workspace Activity Logs and more",
     },
     {
       name: "twitter:title",
-      content:
-        "Hoppscotch v2024.10.0: Digest Auth, CA and Client Certificates, and more",
+      content: "Hoppscotch v2025.1.0: SCIM, Workspace Activity Logs and more",
     },
     {
       name: "description",
       content:
-        "Hoppscotch v2024.10.0 release brings some nifty updates to Hoppscotch.",
+        "Our v2025.1.0 release introduces exciting updates to enhance your experience with Hoppscotch.",
     },
     {
       property: "og:description",
       content:
-        "Hoppscotch v2024.10.0 release brings some nifty updates to Hoppscotch.",
+        "Our v2025.1.0 release introduces exciting updates to enhance your experience with Hoppscotch.",
     },
     {
       name: "twitter:description",
       content:
-        "Hoppscotch v2024.10.0 release brings some nifty updates to Hoppscotch.",
+        "Our v2025.1.0 release introduces exciting updates to enhance your experience with Hoppscotch.",
     },
     {
       property: "og:image",
-      content: "https://hoppscotch.com/images/blog-v2024-10-0.png",
+      content: "https://hoppscotch.com/images/blog-v2025-1-0.png",
     },
     {
       name: "twitter:image",
-      content: "https://hoppscotch.com/images/blog-v2024-10-0.png",
+      content: "https://hoppscotch.com/images/blog-v2025-1-0.png",
     },
     {
       property: "og:type",
@@ -42,7 +39,7 @@ useHead({
     },
     {
       property: "og:url",
-      content: "https://hoppscotch.com/blog/hoppscotch-v2024-10-0",
+      content: "https://hoppscotch.com/blog/hoppscotch-v2025-1-0",
     },
   ],
 })
@@ -66,15 +63,14 @@ useHead({
                   >
                 </li>
                 <span class="mx-2 text-zinc-400/20">|</span>
-                <span class="text-zinc-200/20">Oct 31, 2024</span>
+                <span class="text-zinc-200/20">Jan 31, 2025</span>
               </ul>
             </div>
             <h3 class="mb-8">
               <span
                 class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text text-transparent"
               >
-                Hoppscotch v2024.10.0: Digest Auth, CA and Client Certificates,
-                and more
+                Hoppscotch v2025.1.0: SCIM, Workspace Activity Logs and more
               </span>
             </h3>
             <div class="flex items-center">
@@ -94,7 +90,7 @@ useHead({
           <section class="max-w-4xl">
             <ImageZoom
               class="h-full w-full rounded md:rounded-xl"
-              src="/images/blog-v2024-10-0.png"
+              src="/images/blog-v2025-1-0.png"
               width="352"
               height="198"
               alt="News 01"
@@ -102,42 +98,74 @@ useHead({
           </section>
           <section class="max-w-xl text-zinc-200/80">
             <p class="mb-8 mt-4">
-              At Hoppscotch, we're building an easy-to-use, developer-friendly,
-              powerful API testing client. Our v2024.10.0 release brings some
-              nifty updates to Hoppscotch.
-            </p>
-            <p class="mb-8 mt-4">
+              Hoppscotch is a simple straightforward API testing client that
+              helps developers around the world to work with their APIs. You can
+              easily get started with Hoppscotch by visiting
               <a
                 href="https://hoppscotch.io/"
                 target="_blank"
                 class="border-b border-zinc-200 transition hover:text-zinc-50"
-                >Try it out</a
-              >
-              — get started with our API web client easily! We're always looking
-              to improve, so let us know what you'd like to see next at
-              <a
-                href="mailto:hello@hoppscotch.io"
-                target="_blank"
-                class="border-b border-zinc-200 transition hover:text-zinc-50"
-                >hello@hoppscotch.io</a
+                >hoppscotch.io</a
               >.
             </p>
+            <p class="mb-8 mt-4">
+              We're really excited to share the latest updates from the first
+              release of this year! We've been working towards providing support
+              to some of the major requests from the Hoppscotch community!
+            </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
-            <h4 class="mb-4 text-white">Support for Digest Authorization</h4>
+            <h4 class="mb-4 text-white">SCIM Provisioning</h4>
             <p class="mb-8 mt-4">
-              We've added support for digest authorization. To use it, go to the
-              "Authorization" tab in your request, choose "Digest Auth" from the
-              "Auth-Type" dropdown, enter your credentials, and you're ready to
-              go! Digest authorization ensures secure access to protected
-              resources, giving you more flexibility and security in your API
-              workflows.
+              Manage user access effortlessly with SCIM provisioning for
+              self-hosted enterprise deployments. This powerful feature enables:
+            </p>
+            <ul class="mb-8 ml-5 mt-4 list-disc space-y-2 marker:text-zinc-100">
+              <li class="pl-4">
+                Automated user provisioning and deprovisioning across your
+                organization
+              </li>
+              <li class="pl-4">
+                Seamless integration with major identity providers (IdPs)
+              </li>
+              <li class="pl-4">
+                Enhanced security through standardized user management protocols
+              </li>
+            </ul>
+            <p class="mb-8 mt-4">
+              Perfect for enterprises looking to manager their team workflow
+              while maintaining robust security standards.
+            </p>
+            <hr
+              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
+            />
+            <h4 class="mb-4 text-white">Workspace Activity Logs</h4>
+            <p class="mb-8 mt-4">
+              Transparency and collaboration are at the heart of every
+              successful team. With Workspace Activity Logs on Hoppscotch
+              Enterprise, you can now:
+            </p>
+            <ul class="mb-8 ml-5 mt-4 list-disc space-y-2 marker:text-zinc-100">
+              <li class="pl-4">
+                Visibility Every Action: Get real-time visibility into all
+                changes and actions happening within your workspace.
+              </li>
+              <li class="pl-4">
+                Improve Collaboration: Keep everyone on the same page with
+                detailed logs of every update, ensuring accountability and
+                better teamwork.
+              </li>
+            </ul>
+            <p class="mb-8 mt-4">
+              Whether you're working with a small team or managing a larger
+              organization, Workspace Activity Logs help you stay informed and
+              maintain a collaborative environment.
             </p>
             <section class="max-w-4xl">
               <ImageZoom
                 class="h-full w-full rounded md:rounded-xl"
-                src="/images/blog-v2024-10-0-1.jpeg"
+                src="/images/blog-v2025-1-0-2.png"
                 width="352"
                 height="198"
                 alt="News 01"
@@ -146,40 +174,18 @@ useHead({
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
-            <h4 class="mb-4 text-white">
-              Updated Settings Page, Query Parameter Encoding, CA and Client
-              Certificates
-            </h4>
+            <h4 class="mb-4 text-white">GraphQL Query Generation</h4>
             <p class="mb-8 mt-4">
-              We've reorganized the settings page and added a new feature to
-              encode query parameters when sending requests.
+              GraphQL users, we've got something exciting for you! Writing
+              queries can sometimes feel tedious and repetitive, but with
+              GraphQL Query Generation, we're making it easier than ever with
+              Automated Query Creation Generate GraphQL queries instantly from
+              the documentation
             </p>
             <section class="max-w-4xl">
               <ImageZoom
                 class="h-full w-full rounded md:rounded-xl"
-                src="/images/blog-v2024-10-0-2.jpeg"
-                width="352"
-                height="198"
-                alt="News 01"
-              />
-            </section>
-            <br />
-            <p class="mb-8 mt-4">
-              We're also bringing CA and Client Certificates to the web app, and
-              you can use and configure your certificates when you use the
-              Hoppscotch Agent as the interceptor! To learn more about the
-              Hoppscotch Agent Interceptor, check out our
-              <a
-                href="https://docs.hoppscotch.io/documentation/features/interceptor"
-                target="_blank"
-                class="border-b border-zinc-200 transition hover:text-zinc-50"
-                >documentation</a
-              >.
-            </p>
-            <section class="max-w-4xl">
-              <ImageZoom
-                class="h-full w-full rounded md:rounded-xl"
-                src="/images/blog-v2024-10-0-3.jpeg"
+                src="/images/blog-v2025-1-0-3.png"
                 width="352"
                 height="198"
                 alt="News 01"
@@ -188,20 +194,8 @@ useHead({
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
-            <h4 class="mb-4 text-white">
-              Increased Collection Import Size Limit on Self-Hosted Editions
-            </h4>
             <p class="mb-8 mt-4">
-              We've increased the collection import limit for self-host to 50MB
-              on Hoppscotch Self-Host Editions.
-            </p>
-            <hr
-              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
-            />
-            <p class="mb-8 mt-4">
-              The 2024.10.0 release brings a lot of crucial features necessary
-              for API testing, and we're excited to hear what you think of it!
-              Write to us at
+              What do you want us to build next? Write to us at
               <a
                 href="mailto:hello@hoppscotch.io"
                 class="border-b border-zinc-200 transition hover:text-zinc-50"

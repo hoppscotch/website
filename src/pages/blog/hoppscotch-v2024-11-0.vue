@@ -13,17 +13,17 @@ useHead({
     {
       name: "description",
       content:
-        "Our 2024.11.0 release introduces exciting updates to enhance your experience with Hoppscotch.",
+        "Our v2024.11.0 release introduces exciting updates to enhance your experience with Hoppscotch.",
     },
     {
       property: "og:description",
       content:
-        "Our 2024.11.0 release introduces exciting updates to enhance your experience with Hoppscotch.",
+        "Our v2024.11.0 release introduces exciting updates to enhance your experience with Hoppscotch.",
     },
     {
       name: "twitter:description",
       content:
-        "Our 2024.11.0 release introduces exciting updates to enhance your experience with Hoppscotch.",
+        "Our v2024.11.0 release introduces exciting updates to enhance your experience with Hoppscotch.",
     },
     {
       property: "og:image",
@@ -99,7 +99,7 @@ useHead({
           <section class="max-w-xl text-zinc-200/80">
             <p class="mb-8 mt-4">
               At Hoppscotch, we build an easy-to-use, developer-friendly,
-              powerful API testing client. Our 2024.11.0 release introduces
+              powerful API testing client. Our v2024.11.0 release introduces
               exciting updates to enhance your experience with Hoppscotch.
             </p>
             <p class="mb-8 mt-4">

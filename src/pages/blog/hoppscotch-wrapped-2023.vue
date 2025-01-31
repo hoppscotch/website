@@ -204,8 +204,8 @@ useHead({
               that journey.
             </p>
             <p class="mb-8 mt-4">
-              If your 2024 goals include taking up a new professional challenge,
-              you should consider
+              If yOur v2024 goals include taking up a new professional
+              challenge, you should consider
               <RouterLink
                 to="/careers"
                 class="border-b border-zinc-200 transition hover:text-zinc-50"
