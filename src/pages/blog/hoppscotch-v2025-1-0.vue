@@ -148,11 +148,11 @@ useHead({
             </p>
             <ul class="mb-8 ml-5 mt-4 list-disc space-y-2 marker:text-zinc-100">
               <li class="pl-4">
-                Visibility Every Action: Get real-time visibility into all
+                Visibility into every action: Get real-time visibility into all
                 changes and actions happening within your workspace.
               </li>
               <li class="pl-4">
-                Improve Collaboration: Keep everyone on the same page with
+                Improve collaboration: Keep everyone on the same page with
                 detailed logs of every update, ensuring accountability and
                 better teamwork.
               </li>
