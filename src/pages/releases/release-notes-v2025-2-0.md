@@ -26,7 +26,7 @@ Cloud for Organizations, Desktop App for Self-Host, and more! 🎉
 
 #### 🆕 Cloud for Organizations
 
-Introducing Hoppscotch Cloud for Organizations at $8 per user per month! Admin dashboard to manage users, teams, and workspaces Priority support for seamless API collaboration.
+Introducing Hoppscotch Cloud for Organizations at $8 per user per month! Admin dashboard to manage users, teams, and workspaces. Priority support for seamless API collaboration.
 
 #### 💻 Desktop App Support for Self-Hosted Instances
 
