@@ -1,5 +1,6 @@
 <script setup lang="ts">
-const platform = ref<"cloud" | "selfhost">("selfhost")
+const platform = ref<"cloud" | "selfhost">("cloud")
+const planPeriod = ref<"monthly" | "annually">("annually")
 
 const cloudTiers = [
   {
@@ -7,9 +8,13 @@ const cloudTiers = [
     id: "tier-free",
     cta: "Get started",
     href: "https://hoppscotch.io",
-    price: "$0",
-    unit: "forever",
-    description: "Everything you need to get started with API testing.",
+    price: { monthly: "$0", annually: "$0" },
+    unit: {
+      monthly: "forever",
+      annually: "forever",
+    },
+    description:
+      "Everything you need to get started with API testing. Perfect for individuals and small teams.",
     features: [
       "Unlimited workspaces",
       "Unlimited collections",
@@ -19,18 +24,21 @@ const cloudTiers = [
     featured: false,
   },
   {
-    name: "Enterprise",
-    id: "tier-enterprise",
-    cta: "Join waitlist",
-    href: "https://forms.gle/XPYDMp8m6JHNWcYp9",
-    price: "Coming soon",
-    unit: "",
+    name: "Organization",
+    id: "tier-organization",
+    cta: "Create an organization",
+    href: "https://hoppscotch.io/orgs",
+    price: { monthly: "$8", annually: "$6" },
+    unit: {
+      monthly: "per user/month, billed monthly",
+      annually: "per user/month, billed annually",
+    },
     description:
-      "Crafted for teams and enterprises seeking an unparalleled API testing experience.",
+      "Crafted for teams and organizations seeking an unparalleled API testing experience.",
     features: [
       "Everything in free plan",
-      "SAML-based Single-Sign-On",
-      "Identity and access management",
+      "Identity and Access Management",
+      "Single-Sign-On",
       "Audit logs",
       "Dedicated support",
       "Custom payment options",
@@ -40,19 +48,21 @@ const cloudTiers = [
 ]
 const selfhostTiers = [
   {
-    name: "Community",
-    id: "tier-community",
+    name: "Free",
+    id: "tier-free",
     cta: "Get started",
     href: "https://docs.hoppscotch.io/documentation/self-host/getting-started",
-    price: "$0",
-    unit: "forever",
+    price: { monthly: "$0", annually: "$0" },
+    unit: {
+      monthly: "forever",
+      annually: "forever",
+    },
     description:
-      "Everything you need to get started with API testing, perfect for individuals and small teams.",
+      "Everything you need to get started with API testing, perfect for hobbyists and small teams.",
     features: [
       "Unlimited workspaces",
       "Unlimited collections",
       "Unlimited collaborators",
-      "Admin dashboard",
       "Community support",
     ],
     featured: false,
@@ -60,16 +70,19 @@ const selfhostTiers = [
   {
     name: "Enterprise",
     id: "tier-enterprise",
-    cta: "Contact sales",
+    cta: "Book a demo",
     href: "https://cal.com/hoppscotch/enterprise-demo",
-    price: "$19",
-    unit: "/ user / month",
+    price: { monthly: "$19", annually: "$190" },
+    unit: {
+      monthly: "per user/month, billed monthly",
+      annually: "per user/year, billed annually",
+    },
     description:
-      "Crafted for teams and enterprises seeking an unparalleled, privacy-friendly API testing experience.",
+      "Crafted for teams and enterprises seeking an unparalleled API testing experience.",
     features: [
       "Everything in community edition",
-      "SAML-based Single-Sign-On",
-      "Identity and access management",
+      "Identity and Access Management",
+      "Single-Sign-On",
       "Audit logs",
       "Dedicated support",
       "Custom payment options",
@@ -113,21 +126,6 @@ const selfhostTiers = [
               <label
                 class="cursor-pointer rounded-full px-3 py-2 transition hover:text-zinc-400"
                 :class="{
-                  '!bg-zinc-950 !text-zinc-50': platform === 'selfhost',
-                }"
-              >
-                <input
-                  v-model="platform"
-                  type="radio"
-                  name="platform"
-                  value="selfhost"
-                  class="sr-only"
-                />
-                <span>Self-Host</span>
-              </label>
-              <label
-                class="cursor-pointer rounded-full px-3 py-2 transition hover:text-zinc-400"
-                :class="{
                   '!bg-zinc-950 !text-zinc-50': platform === 'cloud',
                 }"
               >
@@ -140,11 +138,26 @@ const selfhostTiers = [
                 />
                 <span>Cloud</span>
               </label>
+              <label
+                class="cursor-pointer rounded-full px-3 py-2 transition hover:text-zinc-400"
+                :class="{
+                  '!bg-zinc-950 !text-zinc-50': platform === 'selfhost',
+                }"
+              >
+                <input
+                  v-model="platform"
+                  type="radio"
+                  name="platform"
+                  value="selfhost"
+                  class="sr-only"
+                />
+                <span>Self-Host</span>
+              </label>
             </fieldset>
           </div>
           <!-- Content -->
           <div
-            class="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-3xl lg:grid-cols-2"
+            class="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2"
           >
             <div
               v-for="(tier, index) in platform === 'cloud'
@@ -163,6 +176,49 @@ const selfhostTiers = [
                 'rounded-3xl p-8 ring-1 ring-zinc-800 backdrop-blur-md',
               ]"
             >
+              <!-- Plan period toggle -->
+              <div v-if="tier.featured" class="flex justify-center">
+                <fieldset
+                  class="mb-4 grid w-full grid-cols-2 rounded-lg bg-zinc-200 p-2 text-center text-xs font-semibold text-zinc-500"
+                >
+                  <legend class="sr-only">Plan Period</legend>
+                  <label
+                    class="cursor-pointer rounded-md p-2 transition hover:text-zinc-500"
+                    :class="{
+                      '!bg-zinc-800 !text-zinc-50': planPeriod === 'annually',
+                    }"
+                  >
+                    <input
+                      v-model="planPeriod"
+                      type="radio"
+                      name="planPeriod"
+                      value="annually"
+                      class="sr-only"
+                    />
+                    <span
+                      >Annually
+                      {{
+                        platform === "cloud" ? "(25% OFF)" : "(2-Months FREE)"
+                      }}</span
+                    >
+                  </label>
+                  <label
+                    class="cursor-pointer rounded-md p-2 transition hover:text-zinc-500"
+                    :class="{
+                      '!bg-zinc-800 !text-zinc-50': planPeriod === 'monthly',
+                    }"
+                  >
+                    <input
+                      v-model="planPeriod"
+                      type="radio"
+                      name="planPeriod"
+                      value="monthly"
+                      class="sr-only"
+                    />
+                    <span>Monthly</span>
+                  </label>
+                </fieldset>
+              </div>
               <h4
                 :id="tier.id"
                 :class="[
@@ -179,7 +235,7 @@ const selfhostTiers = [
                     'text-5xl font-semibold tracking-tight',
                   ]"
                 >
-                  {{ tier.price }}
+                  {{ tier.price[planPeriod] }}
                 </h1>
                 <span
                   :class="[
@@ -187,7 +243,7 @@ const selfhostTiers = [
                     'font-jakarta',
                   ]"
                 >
-                  {{ tier.unit }}
+                  {{ tier.unit[planPeriod] }}
                 </span>
               </div>
               <p
