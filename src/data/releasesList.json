@@ -1,5 +1,21 @@
 [
   {
+    "name": "Release Notes - v2025.2.0",
+    "description": "Cloud for Organizations, Desktop App for Self-Host, and more!",
+    "image": "release-2025-2-0.png",
+    "created_at": "2025-2-27",
+    "published_at": "2025-2-27",
+    "author": {
+      "name": "Kiran johns",
+      "image": "blog-author-02.jpg"
+    },
+    "slug": "release-notes-v2025-2-0",
+    "title": "Release Notes - v2025.2.0",
+    "banner": "release-2025-2-0.png",
+    "styles": "md:col-span-6",
+    "tags": []
+  },
+  {
     "name": "Release Notes - v2025.1.0",
     "description": "SCIM, Workspace Acivity Logs and more.",
     "image": "release-2025-1-0.png",
