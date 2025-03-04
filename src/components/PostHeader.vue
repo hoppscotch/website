@@ -1,33 +1,19 @@
 <script setup lang="ts">
-import { useRouter } from "vue-router"
-
 const source = `${location.host}${location.pathname}`
 const { copy, copied } = useClipboard({
   legacy: true,
 })
-
-const router = useRouter()
-
-function goBack() {
-  // Get the current URL
-  let currentUrl = router.currentRoute.value.path
-  // Remove the last part of the URL
-  let newUrl = currentUrl.substring(0, currentUrl.lastIndexOf("/") + 1)
-  // Navigate to the new URL
-
-  router.push(newUrl)
-}
 </script>
 
 <template>
   <div class="flex items-center justify-between pb-12 md:pb-16">
-    <a
-      @click="goBack"
+    <RouterLink
+      to="/blog"
       class="inline-flex items-center rounded-full px-2 py-1 text-sm text-zinc-400/80 transition hover:text-zinc-200"
     >
       <icon-lucide-arrow-left class="mr-2" />
       Back
-    </a>
+    </RouterLink>
     <span class="flex items-center text-sm">
       <SubscribeToUpdates />
       <span class="mx-4 text-zinc-400/20">|</span>

@@ -32,6 +32,7 @@ declare module 'vue-router/auto-routes' {
     '/blog/hoppscotch-v2024-8-0': RouteRecordInfo<'/blog/hoppscotch-v2024-8-0', '/blog/hoppscotch-v2024-8-0', Record<never, never>, Record<never, never>>,
     '/blog/hoppscotch-v2024-9-0': RouteRecordInfo<'/blog/hoppscotch-v2024-9-0', '/blog/hoppscotch-v2024-9-0', Record<never, never>, Record<never, never>>,
     '/blog/hoppscotch-v2025-1-0': RouteRecordInfo<'/blog/hoppscotch-v2025-1-0', '/blog/hoppscotch-v2025-1-0', Record<never, never>, Record<never, never>>,
+    '/blog/hoppscotch-v2025-2-0': RouteRecordInfo<'/blog/hoppscotch-v2025-2-0', '/blog/hoppscotch-v2025-2-0', Record<never, never>, Record<never, never>>,
     '/blog/hoppscotch-wrapped-2023': RouteRecordInfo<'/blog/hoppscotch-wrapped-2023', '/blog/hoppscotch-wrapped-2023', Record<never, never>, Record<never, never>>,
     '/blog/introducing-hoppscotch-desktop-application': RouteRecordInfo<'/blog/introducing-hoppscotch-desktop-application', '/blog/introducing-hoppscotch-desktop-application', Record<never, never>, Record<never, never>>,
     '/blog/introducing-hoppscotch-enterprise-edition': RouteRecordInfo<'/blog/introducing-hoppscotch-enterprise-edition', '/blog/introducing-hoppscotch-enterprise-edition', Record<never, never>, Record<never, never>>,

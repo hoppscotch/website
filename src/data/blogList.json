@@ -1,5 +1,18 @@
 [
   {
+    "slug": "hoppscotch-v2025-2-0",
+    "title": "Hoppscotch v2025.2.0: Cloud for Organizations, Desktop App for Hoppscotch Self-Host and more",
+    "description": "We're thrilled to unveil Hoppscotch v2025.2.0, packed with major enhancements our community has been asking for.",
+    "banner": "blog-v2025-2-0.png",
+    "date": "2025-03-04",
+    "author": {
+      "name": "Kiran johns",
+      "image": "blog-author-02.jpg"
+    },
+    "styles": "md:col-span-12",
+    "tags": ["Product"]
+  },
+  {
     "slug": "hoppscotch-v2025-1-0",
     "title": "Hoppscotch v2025.1.0: SCIM, Workspace Activity Logs and more",
     "description": "Our v2025.1.0 release introduces exciting updates to enhance your experience with Hoppscotch.",
@@ -9,7 +22,7 @@
       "name": "Kiran johns",
       "image": "blog-author-02.jpg"
     },
-    "styles": "md:col-span-12",
+    "styles": "md:col-span-6",
     "tags": ["Product"]
   },
   {
