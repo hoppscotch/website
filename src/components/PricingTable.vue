@@ -18,7 +18,8 @@ const cloudTiers = [
     features: [
       "Unlimited workspaces",
       "Unlimited collections",
-      "Unlimited collaborators",
+      "Unlimited requests",
+      "Unlimted runners",
       "Community support",
     ],
     featured: false,
@@ -62,7 +63,8 @@ const selfhostTiers = [
     features: [
       "Unlimited workspaces",
       "Unlimited collections",
-      "Unlimited collaborators",
+      "Unlimited requests",
+      "Unlimted runners",
       "Community support",
     ],
     featured: false,
