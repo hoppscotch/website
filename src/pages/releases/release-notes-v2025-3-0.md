@@ -57,8 +57,6 @@ Enhanced **JSON validation** ensures stricter schema checks, helping you catch e
    </Added>  
    <Fixed>  
       <li>OpenAPI import errors</li>  
-      <li>GraphQL auth header issue</li>  
-      <li>Variable overflow bug</li>  
       <li>Agent interceptor issue</li>  
    </Fixed>  
 </Row>
