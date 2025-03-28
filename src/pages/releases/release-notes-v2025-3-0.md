@@ -37,8 +37,6 @@ You can now create new requests **without carrying over data** from the previous
 
 Quickly find and filter environments through the selector dropdown. This helps you manage multiple environments more efficiently and reduces time spent scrolling through long environment lists.
 
-Enhanced **JSON validation** ensures stricter schema checks, helping you catch errors earlier when testing API responses.
-
 #### 👉 [Read the entire release blog](https://hoppscotch.com/blog/hoppscotch-v2025-3-0)
 
 <br/><br/>
