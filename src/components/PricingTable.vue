@@ -28,7 +28,7 @@ const cloudTiers = [
     name: "Organization",
     id: "tier-organization",
     cta: "Create an organization",
-    href: "https://hoppscotch.io/orgs",
+    href: "https://hoppscotch.io",
     price: { monthly: "$8", annually: "$6" },
     unit: {
       monthly: "per user/month, billed monthly",
@@ -38,9 +38,7 @@ const cloudTiers = [
       "Crafted for teams and organizations seeking an unparalleled API testing experience.",
     features: [
       "Everything in free plan",
-      "Identity and Access Management",
-      "Single-Sign-On",
-      "Audit Logs",
+      "Admin Dashboard",
       "Dedicated Support",
       "Custom payment options",
     ],
