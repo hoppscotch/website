@@ -66,6 +66,7 @@ declare module 'vue-router/auto-routes' {
     '/changelog/31-08-2023': RouteRecordInfo<'/changelog/31-08-2023', '/changelog/31-08-2023', Record<never, never>, Record<never, never>>,
     '/community': RouteRecordInfo<'/community', '/community', Record<never, never>, Record<never, never>>,
     '/company': RouteRecordInfo<'/company', '/company', Record<never, never>, Record<never, never>>,
+    '/compare': RouteRecordInfo<'/compare', '/compare', Record<never, never>, Record<never, never>>,
     '/contact': RouteRecordInfo<'/contact', '/contact', Record<never, never>, Record<never, never>>,
     '/download': RouteRecordInfo<'/download', '/download', Record<never, never>, Record<never, never>>,
     '/features': RouteRecordInfo<'/features', '/features', Record<never, never>, Record<never, never>>,
