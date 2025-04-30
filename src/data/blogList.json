@@ -1,15 +1,28 @@
 [
   {
-    "slug": "hoppscotch-v2025-3-0",
-    "title": "Hoppscotch v2025.3.0: Deactivate Organization Users, App Improvements and more",
-    "description": "We're excited to announce Hoppscotch v2025.3.0, bringing you new features, improvements, and fixes to enhance your API testing experience. This release makes managing organization users simpler and includes several app enhancements based on your feedback.",
-    "banner": "blog-v2025-3-0.png",
-    "date": "2025-03-04",
+    "slug": "hoppscotch-v2025-4-0",
+    "title": "Hoppscotch v2025.4.0: Hawk Auth, Admin dashboard UX Upgrade and more",
+    "description": "We're excited to release Hoppscotch v2025.4.0, introducing new features and quality-of-life improvements that make API testing and collaboration more powerful and intuitive.",
+    "banner": "blog-v2025-4-0.png",
+    "date": "2025-04-30",
     "author": {
       "name": "Kiran johns",
       "image": "blog-author-02.jpg"
     },
-    "styles": "md:col-span-12",
+    "styles": "md:col-span-6",
+    "tags": ["Product"]
+  },
+  {
+    "slug": "hoppscotch-v2025-3-0",
+    "title": "Hoppscotch v2025.3.0: Deactivate Organization Users, App Improvements and more",
+    "description": "We're excited to announce Hoppscotch v2025.3.0, bringing you new features, improvements, and fixes to enhance your API testing experience. This release makes managing organization users simpler and includes several app enhancements based on your feedback.",
+    "banner": "blog-v2025-3-0.png",
+    "date": "2025-03-28",
+    "author": {
+      "name": "Kiran johns",
+      "image": "blog-author-02.jpg"
+    },
+    "styles": "md:col-span-6",
     "tags": ["Product"]
   },
   {
