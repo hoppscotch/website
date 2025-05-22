@@ -21,7 +21,7 @@ type DownloadablePlatform = {
   }[]
 }
 
-const platform = defineModel("platform")
+const platform = defineModel<DownloadablePlatformType>("platform")
 
 const platforms: DownloadablePlatform[] = [
   {
@@ -204,7 +204,7 @@ const handlePlatformChange = (newPlatform: DownloadablePlatformType) => {
                     class="relative inline-flex flex-shrink-0 items-center justify-center rounded-xl border border-zinc-500/50 bg-zinc-500/10 px-3 py-2 text-sm transition hover:border-zinc-500/80"
                     target="_blank"
                   >
-                    <div v-html="link.name" />
+                    <span v-html="link.name" />
                   </a>
                 </div>
               </div>
