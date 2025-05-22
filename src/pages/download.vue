@@ -40,9 +40,38 @@ useHead({
     },
   ],
 })
+
+const validPlatforms = ["macOS", "windows", "linux", "web", "cli"]
+
+export type DownloadablePlatformType =
+  | "macOS"
+  | "windows"
+  | "linux"
+  | "web"
+  | "cli"
+
+const platform = ref<DownloadablePlatformType>("macOS")
+
+const router = useRouter()
+
+const isValidPlatform = (
+  platform: string,
+): platform is DownloadablePlatformType => {
+  return validPlatforms.includes(platform)
+}
+
+// Set the platform based on the URL query parameter
+// If the parameter is not valid, default to "macOS"
+onMounted(() => {
+  const platformFromUrl = router.currentRoute.value.query.platform as string
+
+  if (platformFromUrl && isValidPlatform(platformFromUrl))
+    platform.value = platformFromUrl as DownloadablePlatformType
+  else platform.value = "macOS"
+})
 </script>
 
 <template>
-  <DownloadProducts />
+  <DownloadProducts v-model:platform="platform" />
   <Cta />
 </template>
