@@ -1,5 +1,121 @@
 <script setup lang="ts">
-const tab = ref(1)
+import type { DownloadablePlatformType } from "@/pages/download.vue"
+import IconGlobe from "~icons/lucide/globe"
+import IconTerminal from "~icons/lucide/terminal"
+
+type DownloadablePlatform = {
+  id: DownloadablePlatformType
+  name: string
+  icon:
+    | {
+        type: "image"
+        src: string
+      }
+    | {
+        type: "svg"
+        src: any
+      }
+  downloadLinks: {
+    name: string
+    url: string
+  }[]
+}
+
+const platform = defineModel<DownloadablePlatformType>("platform")
+
+const platforms: DownloadablePlatform[] = [
+  {
+    id: "macOS",
+    name: "Mac",
+    icon: {
+      type: "image",
+      src: "/images/download-apple.svg",
+    },
+    downloadLinks: [
+      {
+        name: "Download for Mac &nbsp; ~ &nbsp; Apple Silicon",
+        url: "https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_mac_aarch64.dmg",
+      },
+      {
+        name: "Download for Mac &nbsp; ~ &nbsp; Intel",
+        url: "https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_mac_x64.dmg",
+      },
+    ],
+  },
+  {
+    id: "windows",
+    name: "Windows",
+    icon: {
+      type: "image",
+      src: "/images/download-windows.svg",
+    },
+    downloadLinks: [
+      {
+        name: "Download for Windows",
+        url: "https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_win_x64.msi",
+      },
+    ],
+  },
+  {
+    id: "linux",
+    name: "Linux",
+    icon: {
+      type: "image",
+      src: "/images/download-linux.svg",
+    },
+    downloadLinks: [
+      {
+        name: "Download for Linux &nbsp; ~ &nbsp; .deb",
+        url: "https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_linux_x64.deb",
+      },
+      {
+        name: "Download for Linux &nbsp; ~ &nbsp; .AppImage",
+        url: "https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_linux_x64.AppImage",
+      },
+    ],
+  },
+  {
+    id: "web",
+    name: "Web App",
+    icon: {
+      type: "svg",
+      src: IconGlobe,
+    },
+    downloadLinks: [
+      {
+        name: "Open Web App",
+        url: "https://hoppscotch.io",
+      },
+    ],
+  },
+  {
+    id: "cli",
+    name: "CLI",
+    icon: {
+      type: "svg",
+      src: IconTerminal,
+    },
+    downloadLinks: [
+      {
+        name: "Install CLI",
+        url: "https://docs.hoppscotch.io/documentation/clients/cli",
+      },
+    ],
+  },
+]
+
+const router = useRouter()
+
+// Set the URL query parameter based on the platform selected
+const handlePlatformChange = (newPlatform: DownloadablePlatformType) => {
+  platform.value = newPlatform
+  router.push({
+    name: "/download",
+    query: {
+      platform: newPlatform,
+    },
+  })
+}
 </script>
 
 <template>
@@ -31,119 +147,44 @@ const tab = ref(1)
             class="no-scrollbar mb-10 flex w-full min-w-0 gap-4 overflow-x-auto"
           >
             <button
+              v-for="item in platforms"
+              :key="item.id"
               class="m-2 inline-flex flex-shrink-0 grow flex-col items-center justify-center rounded-xl border border-transparent px-8 py-4 text-center opacity-50 transition-opacity hover:bg-zinc-500/10"
               :class="{
-                '!border-zinc-400/10 bg-zinc-500/10 !opacity-100': tab === 1,
+                '!border-zinc-400/10 bg-zinc-500/10 !opacity-100':
+                  platform === item.id,
               }"
-              @click="tab = 1"
+              @click="handlePlatformChange(item.id)"
             >
               <div
                 class="mb-4 flex flex-shrink-0 rounded-xl border border-zinc-600 bg-zinc-900 p-4"
               >
                 <img
+                  v-if="item.icon.type === 'image'"
                   loading="lazy"
                   class="h-6 w-6"
-                  src="/images/download-apple.svg"
-                  alt="Mac"
+                  :src="item.icon.src"
+                  :alt="item.name"
+                />
+                <component
+                  v-else-if="item.icon.type === 'svg'"
+                  :is="item.icon.src"
+                  class="h-6 w-6"
                 />
               </div>
               <div
                 class="text-sm leading-tight"
-                :class="{ 'text-zinc-200': tab === 1 }"
+                :class="{ 'text-zinc-200': platform === item.id }"
               >
-                Mac
-              </div>
-            </button>
-            <button
-              class="m-2 inline-flex flex-shrink-0 grow flex-col items-center justify-center rounded-xl border border-transparent px-8 py-4 text-center opacity-50 transition-opacity hover:bg-zinc-500/10"
-              :class="{
-                '!border-zinc-400/10 bg-zinc-500/10 !opacity-100': tab === 2,
-              }"
-              @click="tab = 2"
-            >
-              <div
-                class="mb-4 flex flex-shrink-0 rounded-xl border border-zinc-600 bg-zinc-900 p-4"
-              >
-                <img
-                  loading="lazy"
-                  class="h-6 w-6"
-                  src="/images/download-windows.svg"
-                  alt="Windows"
-                />
-              </div>
-              <div
-                class="text-sm leading-tight"
-                :class="{ 'text-zinc-200': tab === 2 }"
-              >
-                Windows
-              </div>
-            </button>
-            <button
-              class="m-2 inline-flex flex-shrink-0 grow flex-col items-center justify-center rounded-xl border border-transparent px-8 py-4 text-center opacity-50 transition-opacity hover:bg-zinc-500/10"
-              :class="{
-                '!border-zinc-400/10 bg-zinc-500/10 !opacity-100': tab === 3,
-              }"
-              @click="tab = 3"
-            >
-              <div
-                class="mb-4 flex flex-shrink-0 rounded-xl border border-zinc-600 bg-zinc-900 p-4"
-              >
-                <img
-                  loading="lazy"
-                  class="h-6 w-6"
-                  src="/images/download-linux.svg"
-                  alt="Linux"
-                />
-              </div>
-              <div
-                class="text-sm leading-tight"
-                :class="{ 'text-zinc-200': tab === 3 }"
-              >
-                Linux
-              </div>
-            </button>
-            <button
-              class="m-2 inline-flex flex-shrink-0 grow flex-col items-center justify-center rounded-xl border border-transparent px-8 py-4 text-center opacity-50 transition-opacity hover:bg-zinc-500/10"
-              :class="{
-                '!border-zinc-400/10 bg-zinc-500/10 !opacity-100': tab === 4,
-              }"
-              @click="tab = 4"
-            >
-              <div
-                class="mb-4 flex flex-shrink-0 rounded-xl border border-zinc-600 bg-zinc-900 p-4"
-              >
-                <icon-lucide-globe class="h-6 w-6" />
-              </div>
-              <div
-                class="text-sm leading-tight"
-                :class="{ 'text-zinc-200': tab === 4 }"
-              >
-                Web App
-              </div>
-            </button>
-            <button
-              class="m-2 inline-flex flex-shrink-0 grow flex-col items-center justify-center rounded-xl border border-transparent px-8 py-4 text-center opacity-50 transition-opacity hover:bg-zinc-500/10"
-              :class="{
-                '!border-zinc-400/10 bg-zinc-500/10 !opacity-100': tab === 5,
-              }"
-              @click="tab = 5"
-            >
-              <div
-                class="mb-4 flex flex-shrink-0 rounded-xl border border-zinc-600 bg-zinc-900 p-4"
-              >
-                <icon-lucide-terminal class="h-6 w-6" />
-              </div>
-              <div
-                class="text-sm leading-tight"
-                :class="{ 'text-zinc-200': tab === 5 }"
-              >
-                CLI
+                {{ item.name }}
               </div>
             </button>
           </div>
           <!-- Tab items -->
-          <div class="relative flex flex-col">
+          <div class="relative flex min-h-32 flex-col">
             <Transition
+              v-for="item in platforms"
+              :key="item.id"
               enter-active-class="order-first transition duration-500 "
               enter-from-class="opacity-0 -translate-y-8"
               enter-to-class="opacity-100 translate-y-0"
@@ -151,108 +192,19 @@ const tab = ref(1)
               leave-from-class="opacity-100 -translate-y-0"
               leave-to-class="opacity-0 translate-y-8"
             >
-              <div v-if="tab === 1" class="flex w-full justify-center">
+              <div
+                v-if="platform === item.id"
+                class="flex w-full justify-center"
+              >
                 <div class="flex flex-col items-stretch gap-4">
                   <a
-                    href="https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_mac_aarch64.dmg"
+                    v-for="link in item.downloadLinks"
+                    :key="link.name"
+                    :href="link.url"
                     class="relative inline-flex flex-shrink-0 items-center justify-center rounded-xl border border-zinc-500/50 bg-zinc-500/10 px-3 py-2 text-sm transition hover:border-zinc-500/80"
                     target="_blank"
                   >
-                    Download for Mac &nbsp; ~ &nbsp; Apple Silicon
-                  </a>
-                  <a
-                    href="https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_mac_x64.dmg"
-                    class="relative inline-flex flex-shrink-0 items-center justify-center rounded-xl border border-zinc-500/50 bg-zinc-500/10 px-3 py-2 text-sm transition hover:border-zinc-500/80"
-                    target="_blank"
-                  >
-                    Download for Mac &nbsp; ~ &nbsp; Intel
-                  </a>
-                </div>
-              </div>
-            </Transition>
-            <Transition
-              enter-active-class="order-first transition duration-500 "
-              enter-from-class="opacity-0 -translate-y-8"
-              enter-to-class="opacity-100 translate-y-0"
-              leave-active-class="absolute transition duration-500 "
-              leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="opacity-0 translate-y-8"
-            >
-              <div v-if="tab === 2" class="flex w-full justify-center">
-                <div class="flex flex-col items-stretch gap-4">
-                  <a
-                    href="https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_win_x64.msi"
-                    class="relative inline-flex flex-shrink-0 items-center justify-center rounded-xl border border-zinc-500/50 bg-zinc-500/10 px-3 py-2 text-sm transition hover:border-zinc-500/80"
-                    target="_blank"
-                  >
-                    Download for Windows
-                  </a>
-                </div>
-              </div>
-            </Transition>
-            <Transition
-              enter-active-class="order-first transition duration-500 "
-              enter-from-class="opacity-0 -translate-y-8"
-              enter-to-class="opacity-100 translate-y-0"
-              leave-active-class="absolute transition duration-500 "
-              leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="opacity-0 translate-y-8"
-            >
-              <div v-if="tab === 3" class="flex w-full justify-center">
-                <div class="flex flex-col items-stretch gap-4">
-                  <a
-                    href="https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_linux_x64.deb"
-                    class="relative inline-flex flex-shrink-0 items-center justify-center rounded-xl border border-zinc-500/50 bg-zinc-500/10 px-3 py-2 text-sm transition hover:border-zinc-500/80"
-                    target="_blank"
-                  >
-                    Download for Linux &nbsp; ~ &nbsp; .deb
-                  </a>
-                  <a
-                    href="https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_linux_x64.AppImage"
-                    class="relative inline-flex flex-shrink-0 items-center justify-center rounded-xl border border-zinc-500/50 bg-zinc-500/10 px-3 py-2 text-sm transition hover:border-zinc-500/80"
-                    target="_blank"
-                  >
-                    Download for Linux &nbsp; ~ &nbsp; .AppImage
-                  </a>
-                </div>
-              </div>
-            </Transition>
-            <Transition
-              enter-active-class="order-first transition duration-500 "
-              enter-from-class="opacity-0 -translate-y-8"
-              enter-to-class="opacity-100 translate-y-0"
-              leave-active-class="absolute transition duration-500 "
-              leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="opacity-0 translate-y-8"
-            >
-              <div v-if="tab === 4" class="flex w-full justify-center">
-                <div class="flex flex-col items-stretch gap-4">
-                  <a
-                    href="https://hoppscotch.io"
-                    class="relative inline-flex flex-shrink-0 items-center justify-center rounded-xl border border-zinc-500/50 bg-zinc-500/10 px-3 py-2 text-sm transition hover:border-zinc-500/80"
-                    target="_blank"
-                  >
-                    Open Web App
-                  </a>
-                </div>
-              </div>
-            </Transition>
-            <Transition
-              enter-active-class="order-first transition duration-500 "
-              enter-from-class="opacity-0 -translate-y-8"
-              enter-to-class="opacity-100 translate-y-0"
-              leave-active-class="absolute transition duration-500 "
-              leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="opacity-0 translate-y-8"
-            >
-              <div v-if="tab === 5" class="flex w-full justify-center">
-                <div class="flex flex-col items-stretch gap-4">
-                  <a
-                    href="https://docs.hoppscotch.io/documentation/clients/cli"
-                    class="relative inline-flex flex-shrink-0 items-center justify-center rounded-xl border border-zinc-500/50 bg-zinc-500/10 px-3 py-2 text-sm transition hover:border-zinc-500/80"
-                    target="_blank"
-                  >
-                    Install CLI
+                    <span v-html="link.name" />
                   </a>
                 </div>
               </div>
