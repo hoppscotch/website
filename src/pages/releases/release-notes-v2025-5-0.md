@@ -29,6 +29,7 @@ User Groups, Improved Auth Types, Bug Fixes and More! 🚀
 We’re excited to introduce **User Groups**! This feature allows you to create and manage groups of users, making it easier to collaborate on workspaces and shared resources.
 
 #### Improved Authentication Types
+
 We’ve revamped our authentication methods to support more robust and flexible options. This includes improvements to Hawk authentication, AWS Signature, and more.
 
 #### 👉 [Read the full release blog](https://hoppscotch.com/blog/hoppscotch-v2025-5-0)
@@ -42,6 +43,7 @@ We’ve revamped our authentication methods to support more robust and flexible 
       <li>Console.log support in the script editor</li>
       <li>JWT Token support in Authorization</li>
       <li>Improved Hawk and AWS Signature authentication types</li>
+      <li>Initial and current values for environment variables</li>
    </Added>
    <Fixed>
       <li>Fix error on OpenAPI Import</li>

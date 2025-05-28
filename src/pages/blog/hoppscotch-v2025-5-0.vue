@@ -1,14 +1,17 @@
 <script setup lang="ts">
 useHead({
-  title: "Hoppscotch v2025.5.0: User Groups, Improved Auth Types, Bug Fixes and more",
+  title:
+    "Hoppscotch v2025.5.0: User Groups, Improved Auth Types, Bug Fixes and more",
   meta: [
     {
       property: "og:title",
-      content: "Hoppscotch v2025.5.0: User Groups, Improved Auth Types, Bug Fixes and more",
+      content:
+        "Hoppscotch v2025.5.0: User Groups, Improved Auth Types, Bug Fixes and more",
     },
     {
       name: "twitter:title",
-      content: "Hoppscotch v2025.5.0: User Groups, Improved Auth Types, Bug Fixes and more",
+      content:
+        "Hoppscotch v2025.5.0: User Groups, Improved Auth Types, Bug Fixes and more",
     },
     {
       name: "description",
@@ -70,7 +73,8 @@ useHead({
               <span
                 class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text text-transparent"
               >
-                Hoppscotch v2025.5.0: User Groups, Improved Auth Types, Bug Fixes and more
+                Hoppscotch v2025.5.0: User Groups, Improved Auth Types, Bug
+                Fixes and more
               </span>
             </h3>
             <div class="flex items-center">
@@ -98,14 +102,20 @@ useHead({
           </section>
           <section class="max-w-xl text-zinc-200/80">
             <p class="mb-8 mt-4">
-              Hoppscotch v2025.5.0 is here, packed with new features, improvements, and bug fixes to enhance your API development experience. Here's a quick overview of the new features and improvements:
+              Hoppscotch v2025.5.0 is here, packed with new features,
+              improvements, and bug fixes to enhance your API development
+              experience. Here's a quick overview of the new features and
+              improvements:
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
             <h4 class="mb-4 text-white">User Groups</h4>
             <p class="mb-8 mt-4">
-              Hoppscotch now supports user groups, allowing you to manage team members more effectively. Admins can create groups, assign roles, and control access to different workspaces of your self-hosted enterprise instance.
+              Hoppscotch now supports user groups, allowing you to manage team
+              members more effectively. Admins can create groups, assign roles,
+              and control access to different workspaces of your self-hosted
+              enterprise instance.
             </p>
             <section class="max-w-4xl">
               <ImageZoom
@@ -118,30 +128,46 @@ useHead({
             </section>
             <br />
             <p class="mb-8 mt-4">
-              This feature is particularly useful for teams working on large projects, as it simplifies user management and enhances collaboration.
+              This feature is particularly useful for teams working on large
+              projects, as it simplifies user management and enhances
+              collaboration.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
             <h4 class="mb-4 text-white">Improved Authentication Types</h4>
             <p class="mb-8 mt-4">
-              We've improved the authentication types in Hoppscotch, making it easier to manage and configure authentication for your API requests.
+              We've improved the authentication types in Hoppscotch, making it
+              easier to manage and configure authentication for your API
+              requests.
             </p>
             <p class="mb-8 mt-4">
-              HAWK authentication now supports request payloads, allowing you to sign requests with the payload included. This is particularly useful for APIs that require payload signing for security.
+              HAWK authentication now supports request payloads, allowing you to
+              sign requests with the payload included. This is particularly
+              useful for APIs that require payload signing for security.
             </p>
             <p class="mb-8 mt-4">
-              AWS Signature Version 4 authentication now supports request body when signing requests. This enhancement ensures that your requests are signed correctly, even when the request body is included.
+              AWS Signature Version 4 authentication now supports request body
+              when signing requests. This enhancement ensures that your requests
+              are signed correctly, even when the request body is included.
             </p>
             <p class="mb-8 mt-4">
-              JWT authentication has been revamped to support both <code>HS256</code>, <code>HS384</code>, and <code>HS512</code> algorithms. This improvement allows you to choose the algorithm that best fits your API's security requirements.
+              JWT authentication has been revamped to support both
+              <code>HS256</code>, <code>HS384</code>, and
+              <code>HS512</code> algorithms. This improvement allows you to
+              choose the algorithm that best fits your API's security
+              requirements.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
             <h4 class="mb-4 text-white">Improved Script Editor</h4>
             <p class="mb-8 mt-4">
-              The script editor in Hoppscotch has been improved to support console methods like <code>console.log()</code>, <code>console.error()</code>, and more. This enhancement makes it easier to debug your scripts and see the output directly in the console.
+              The script editor in Hoppscotch has been improved to support
+              console methods like <code>console.log()</code>,
+              <code>console.error()</code>, and more. This enhancement makes it
+              easier to debug your scripts and see the output directly in the
+              console.
             </p>
             <section class="max-w-4xl">
               <ImageZoom
@@ -153,14 +179,28 @@ useHead({
               />
             </section>
             <br />
-             <p class="mb-8 mt-4">
-              You can opt-out of the new experience from <strong>Settings > Experiments</strong>.
+            <p class="mb-8 mt-4">
+              You can opt-out of the new experience from
+              <strong>Settings > Experiments</strong>.
+            </p>
+            <hr
+              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
+            />
+            <h4 class="mb-4 text-white">
+              Initial and Current Values for Environment Variables
+            </h4>
+            <p class="mb-8 mt-4">
+              Hoppscotch now supports initial and current values for environment
+              variables. This feature allows you to set default values for your
+              environment variables, which can be overridden at runtime.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
             <p class="mb-8 mt-4">
-              In addition to these new features, we've also made several bug fixes and improvements to enhance the overall performance and stability of Hoppscotch.
+              In addition to these new features, we've also made several bug
+              fixes and improvements to enhance the overall performance and
+              stability of Hoppscotch.
             </p>
             <p class="mb-8 mt-4">
               What do you want us to build next? Write to us at
@@ -182,7 +222,7 @@ useHead({
                 >GitHub repository</a
               >.
             </p>
-            </section>
+          </section>
         </article>
       </div>
     </div>
