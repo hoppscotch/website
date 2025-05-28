@@ -1,5 +1,18 @@
 [
   {
+    "slug": "hoppscotch-v2025-5-0",
+    "title": "Hoppscotch v2025.5.0: User Groups, Improved Auth Types, Bug Fixes and more",
+    "description": "Here's a quick overview of the new features and improvements in Hoppscotch v2025.5.0.",
+    "banner": "blog-v2025-5-0.png",
+    "date": "2025-05-28",
+    "author": {
+      "name": "Liyas Thomas",
+      "image": "blog-author-01.jpg"
+    },
+    "styles": "md:col-span-12",
+    "tags": ["Product"]
+  },
+  {
     "slug": "hoppscotch-v2025-4-0",
     "title": "Hoppscotch v2025.4.0: Hawk Auth, Admin dashboard UX Upgrade and more",
     "description": "We're excited to release Hoppscotch v2025.4.0, introducing new features and quality-of-life improvements that make API testing and collaboration more powerful and intuitive.",
