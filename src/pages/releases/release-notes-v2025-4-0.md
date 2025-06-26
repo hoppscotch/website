@@ -9,7 +9,7 @@ meta:
 author: "Kiran Johns"
 ---
 
-<PostHeader/>
+<ReleaseHeader/>
 
 <VersionBadge version="v2025.4.0" date="April 30th 2025"/>
 
@@ -17,7 +17,7 @@ author: "Kiran Johns"
 
 Hawk Authentication, Admin Dashboard Improvements & more! 🚀
 
-<TypeBadge type="new features"/>  
+<TypeBadge type="new features"/>
 <TypeBadge type="improvements"/>
 
 <BannerImage imageSource="/images/release-2025-4-0.png"/>
@@ -36,9 +36,9 @@ We’ve added support for **Hawk Authentication**, allowing secure, time-sensiti
 
 <br/><br/>
 
-<Row>  
-   <Added>  
-      <li>Hawk authentication method</li>  
-      <li>Self-host admin dashboard UI/UX</li>  
-   </Added>  
+<Row>
+   <Added>
+      <li>Hawk authentication method</li>
+      <li>Self-host admin dashboard UI/UX</li>
+   </Added>
 </Row>

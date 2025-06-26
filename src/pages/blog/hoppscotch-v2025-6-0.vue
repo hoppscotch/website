@@ -1,0 +1,293 @@
+<script setup lang="ts">
+useHead({
+  title:
+    "Hoppscotch v2025.6.0: Improved Variable Scope, Keyboard Shortcuts for Desktop App and more",
+  meta: [
+    {
+      property: "og:title",
+      content:
+        "Hoppscotch v2025.6.0: Improved Variable Scope, Keyboard Shortcuts for Desktop App and more",
+    },
+    {
+      name: "twitter:title",
+      content:
+        "Hoppscotch v2025.6.0: Improved Variable Scope, Keyboard Shortcuts for Desktop App and more",
+    },
+    {
+      name: "description",
+      content:
+        "We're excited to announce Hoppscotch v2025.6.0, packed with new features and improvements to enhance your API testing experience.",
+    },
+    {
+      property: "og:description",
+      content:
+        "We're excited to announce Hoppscotch v2025.6.0, packed with new features and improvements to enhance your API testing experience.",
+    },
+    {
+      name: "twitter:description",
+      content:
+        "We're excited to announce Hoppscotch v2025.6.0, packed with new features and improvements to enhance your API testing experience.",
+    },
+    {
+      property: "og:image",
+      content: "https://hoppscotch.com/images/blog-v2025-6-0.png",
+    },
+    {
+      name: "twitter:image",
+      content: "https://hoppscotch.com/images/blog-v2025-6-0.png",
+    },
+    {
+      property: "og:type",
+      content: "article",
+    },
+    {
+      property: "og:url",
+      content: "https://hoppscotch.com/blog/hoppscotch-v2025-6-0",
+    },
+  ],
+})
+</script>
+
+<template>
+  <section>
+    <div class="relative mx-auto max-w-5xl px-4 sm:px-6">
+      <div class="pb-24 pt-32">
+        <!-- Section header -->
+        <PostHeader />
+        <!-- Blog content -->
+        <article class="flex flex-col items-center space-y-8">
+          <header class="flex w-full max-w-xl flex-col">
+            <div class="mb-4 text-white">
+              <ul class="-m-1 flex flex-wrap items-center text-sm">
+                <li class="m-1">
+                  <span
+                    class="inline-flex text-center text-zinc-100/50 transition"
+                    >Product</span
+                  >
+                </li>
+                <span class="mx-2 text-zinc-400/20">|</span>
+                <span class="text-zinc-200/20">Jun 26, 2025</span>
+              </ul>
+            </div>
+            <h3 class="mb-8">
+              <span
+                class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text text-transparent"
+              >
+                Hoppscotch v2025.6.0: Improved Variable Scope, Keyboard
+                Shortcuts for Desktop App and more
+              </span>
+            </h3>
+            <div class="flex items-center">
+              <img
+                loading="lazy"
+                class="mr-4 shrink-0 rounded-full"
+                src="/images/blog-author-01.jpg"
+                width="32"
+                height="32"
+                alt="Liyas Thomas"
+              />
+              <div class="text-sm">
+                <span class="text-zinc-200/80 transition"> Liyas Thomas </span>
+              </div>
+            </div>
+          </header>
+          <section class="max-w-4xl">
+            <ImageZoom
+              class="h-full w-full rounded md:rounded-xl"
+              src="/images/blog-v2025-6-0.png"
+              width="352"
+              height="198"
+              alt="News 01"
+            />
+          </section>
+          <section class="max-w-xl text-zinc-200/80">
+            <p class="mb-8 mt-4">
+              We're excited to announce Hoppscotch v2025.6.0, packed with new
+              features and improvements to enhance your API testing experience.
+            </p>
+            <hr
+              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
+            />
+            <h4 class="mb-4 text-white">Improved Variable Scope</h4>
+            <p class="mb-8 mt-4">
+              Environment variables in Hoppscotch now support initial and
+              current values, allowing you to set default values for your
+              variables that can be overridden at runtime. When current values
+              are not set, the initial values will be used.
+            </p>
+            <section class="max-w-4xl">
+              <ImageZoom
+                class="h-full w-full rounded md:rounded-xl"
+                src="/images/blog-v2025-6-0-1.png"
+                width="352"
+                height="198"
+                alt="News 01"
+              />
+            </section>
+            <br />
+            <p class="mb-8 mt-4">
+              You can copy all or one-by-one variable's current to initial and
+              vice versa.
+            </p>
+            <ul class="mb-8 ml-5 mt-4 list-disc space-y-2 marker:text-zinc-100">
+              <li class="pl-4">
+                <strong>Initial Value:</strong> This is the default value for
+                the variable, which can be set when creating or editing the
+                variable.
+              </li>
+              <li class="pl-4">
+                <strong>Current Value:</strong> This is the value that will be
+                used at runtime. If not set, the initial value will be used.
+              </li>
+              <li class="pl-4">
+                <strong>Note:</strong> Initial values are set by workspace
+                members with roles <code>Owner</code> and <code>Editor</code>.
+                Current values can be set by any user.
+              </li>
+              <li class="pl-4">
+                <strong>Note:</strong> Current values are not synced to the team
+                and are only available to the user who set them.
+              </li>
+            </ul>
+            <hr
+              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
+            />
+            <h4 class="mb-4 text-white">Keyboard Shortcuts for Desktop App</h4>
+            <p class="mb-8 mt-4">
+              The Hoppscotch desktop app now supports keyboard shortcuts for
+              various actions, making it easier to navigate and use the app
+              efficiently.
+            </p>
+            <section class="max-w-4xl">
+              <ImageZoom
+                class="h-full w-full rounded md:rounded-xl"
+                src="/images/blog-v2025-6-0-2.png"
+                width="352"
+                height="198"
+                alt="News 01"
+              />
+            </section>
+            <br />
+            <p class="mb-8 mt-4">
+              Here are some of the keyboard shortcuts you can use in the desktop
+              app:
+            </p>
+            <ul class="mb-8 ml-5 mt-4 list-disc space-y-2 marker:text-zinc-100">
+              <li class="pl-4"><code>Ctrl/Cmd + T</code>: Open new tab</li>
+              <li class="pl-4"><code>Ctrl/Cmd + W</code>: Close current tab</li>
+              <li class="pl-4">
+                <code>Ctrl/Cmd + Alt + Left</code>: Navigate to previous tab
+              </li>
+              <li class="pl-4">
+                <code>Ctrl/Cmd + Alt + Right</code>: Navigate to next tab
+              </li>
+              <li class="pl-4">
+                <code>Ctrl/Cmd + 9</code>: Corresponds to (, navigate to the
+                left-most tab
+              </li>
+              <li class="pl-4">
+                <code>Ctrl/Cmd + 0</code>: Corresponds to ), navigate to the
+                right-most tab
+              </li>
+            </ul>
+            <hr
+              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
+            />
+            <h4 class="mb-4 text-white">Minor Bug Fixes and Improvements</h4>
+            <p class="mb-8 mt-4">
+              In addition to the major features, we've also made several minor
+              bug fixes and improvements to enhance the overall performance and
+              stability of Hoppscotch.
+            </p>
+            <ul class="mb-8 ml-5 mt-4 list-disc space-y-2 marker:text-zinc-100">
+              <li class="pl-4">
+                <strong>OpenAPI Import Worker:</strong> Fixed an issue where the
+                OpenAPI import worker was not working in production.
+              </li>
+              <li class="pl-4">
+                <strong>Desktop App Launch:</strong> Aligned the connected
+                instance with the launch of the desktop app.
+              </li>
+              <li class="pl-4">
+                <strong>Health Check:</strong> Used the
+                <code>HOPP_AIO_ALTERNATE_PORT</code> in the health check.
+              </li>
+              <li class="pl-4">
+                <strong>In-App Console UI Enhancements:</strong> Improved the
+                in-app console UI for better usability.
+              </li>
+              <li class="pl-4">
+                <strong>Arrow Inserting Escape Sequences:</strong> Fixed an issue
+                where arrow keys were inserting escape sequences in the request
+                body.
+              </li>
+              <li class="pl-4">
+                <strong>Fill Current Value:</strong> Fixed an issue where the
+                current value was not being filled in the request body.
+              </li>
+              <li class="pl-4">
+                <strong>Admin Dashboard Team Member Count:</strong> Fixed a bug
+                in the admin dashboard where the team member count was not
+                displaying correctly.
+              </li>
+              <li class="pl-4">
+                <strong>Rename Test to Post-Request:</strong> Renamed the "Test"
+                tab to "Post-Request" for clarity.
+              </li>
+              <li class="pl-4">
+                <strong>Prevent Navigation on File Drops:</strong> Fixed an issue
+                in the desktop app where file drops were causing navigation.
+              </li>
+              <li class="pl-4">
+                <strong>Output Raw Numbers in JSON Filter:</strong> Fixed an
+                issue where raw numbers were not being outputted correctly in the
+                JSON filter.
+              </li>
+              <li class="pl-4">
+                <strong>Resolve Global Env in Team Env:</strong> Resolved the
+                global environment in the team environment and updated the tooltip
+                UI.
+              </li>
+              <li class="pl-4">
+                <strong>Auto Unescape UTF-8:</strong> Fixed an issue where UTF-8
+                characters were not being auto-unescaped in the request body.
+              </li>
+              <li class="pl-4">
+                <strong>Use Initial Value in Runtime:</strong> Used the initial
+                value in runtime if the current value is empty.
+              </li>
+            </ul>
+            <hr
+              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
+            />
+            <p class="mb-8 mt-4">
+              In addition to these new features, we've also made several bug
+              fixes and improvements to enhance the overall performance and
+              stability of Hoppscotch.
+            </p>
+            <p class="mb-8 mt-4">
+              What do you want us to build next? Write to us at
+              <a
+                href="mailto:hello@hoppscotch.io"
+                class="border-b border-zinc-200 transition hover:text-zinc-50"
+                >hello@hoppscotch.io</a
+              >, join the conversation on our
+              <a
+                href="https://hoppscotch.io/discord"
+                target="_blank"
+                class="border-b border-zinc-200 transition hover:text-zinc-50"
+                >Discord server</a
+              >, or head over to our
+              <a
+                href="https://github.com/hoppscotch/hoppscotch"
+                target="_blank"
+                class="border-b border-zinc-200 transition hover:text-zinc-50"
+                >GitHub repository</a
+              >.
+            </p>
+          </section>
+        </article>
+      </div>
+    </div>
+  </section>
+</template>

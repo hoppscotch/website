@@ -9,7 +9,7 @@ meta:
 author: "Kiran Johns"
 ---
 
-<PostHeader/>
+<ReleaseHeader/>
 
 <VersionBadge version="v2024.9.0" date="September 30th 2024"/>
 

@@ -9,7 +9,7 @@ meta:
 author: "Kiran Johns"
 ---
 
-<PostHeader/>
+<ReleaseHeader/>
 
 <VersionBadge version="v2025.3.0" date="March 28th 2025"/>
 
@@ -17,8 +17,8 @@ author: "Kiran Johns"
 
 Deactivate an organization user, app improvements, and bug fixes! 🚀
 
-<TypeBadge type="new features"/>  
-<TypeBadge type="improvements"/>  
+<TypeBadge type="new features"/>
+<TypeBadge type="improvements"/>
 <TypeBadge type="fixes"/>
 
 <BannerImage imageSource="/images/release-2025-3-0.png"/>
@@ -41,14 +41,14 @@ Quickly find and filter environments through the selector dropdown. This helps y
 
 <br/><br/>
 
-<Row>  
-   <Added>  
-      <li>Deactivate organization users</li>  
-      <li>Proxy URL configuration from env variables</li>  
-      <li>Create new requests without siphoning data</li>  
-      <li>Improved JSON validation</li>  
-   </Added>  
-   <Fixed>  
-      <li>Agent interceptor issue</li>  
-   </Fixed>  
+<Row>
+   <Added>
+      <li>Deactivate organization users</li>
+      <li>Proxy URL configuration from env variables</li>
+      <li>Create new requests without siphoning data</li>
+      <li>Improved JSON validation</li>
+   </Added>
+   <Fixed>
+      <li>Agent interceptor issue</li>
+   </Fixed>
 </Row>

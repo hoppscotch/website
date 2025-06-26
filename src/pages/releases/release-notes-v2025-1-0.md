@@ -9,7 +9,7 @@ meta:
 author: "Kiran Johns"
 ---
 
-<PostHeader/>
+<ReleaseHeader/>
 
 <VersionBadge version="v2025.1.0" date="January 30th 2025"/>
 
@@ -17,7 +17,7 @@ author: "Kiran Johns"
 
 SCIM, Workspace Activity Logs and more.
 
-<TypeBadge type="new features"/>  
+<TypeBadge type="new features"/>
 <TypeBadge type="improvements"/>
 
 <BannerImage imageSource="/images/release-2025-1-0.png"/>
@@ -30,28 +30,28 @@ SCIM, Workspace Activity Logs and more.
 
 #### 📊 Workspace Activity Logs (Enterprise Only)
 
-📝 Track all actions within your workspace for better collaboration.  
+📝 Track all actions within your workspace for better collaboration.
 🔍 Stay informed with detailed logs of every change and activity.
 
 #### 🛠️ GraphQL Query Generation
 
-✨ Simplify GraphQL query creation with automated generation tools.  
+✨ Simplify GraphQL query creation with automated generation tools.
 ✍️ Spend less time writing and more time testing your APIs.
 
 #### 👉 [Read the entire release blog](https://hoppscotch.com/blog/hoppscotch-v2025-1-0)
 
 ### 📋 Summary
 
-<Row>  
-   <Added>  
-      <li>🔐 SCIM provisioning for Self-Host Enterprise</li>  
-      <li>🧠 Workspace activity logs for Self-Host Enterprise</li>  
-      <li>⚠️ Warning when overwriting saved responses</li>  
-      <li>📝 GraphQL query generation</li>  
-      <li>🚀 Improvements to collection runner</li>  
-   </Added>  
-   <Fixed>  
-      <li>🐛 Fixed authorization hierarchy in Postman import</li>  
-      <li>📅 Fixed bugs on the desktop app</li>  
-   </Fixed>  
+<Row>
+   <Added>
+      <li>🔐 SCIM provisioning for Self-Host Enterprise</li>
+      <li>🧠 Workspace activity logs for Self-Host Enterprise</li>
+      <li>⚠️ Warning when overwriting saved responses</li>
+      <li>📝 GraphQL query generation</li>
+      <li>🚀 Improvements to collection runner</li>
+   </Added>
+   <Fixed>
+      <li>🐛 Fixed authorization hierarchy in Postman import</li>
+      <li>📅 Fixed bugs on the desktop app</li>
+   </Fixed>
 </Row>

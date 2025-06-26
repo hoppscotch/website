@@ -9,7 +9,7 @@ meta:
 author: "Liyas Thomas"
 ---
 
-<PostHeader/>
+<ReleaseHeader/>
 
 <VersionBadge version="v2025.5.0" date="May 28th 2025"/>
 

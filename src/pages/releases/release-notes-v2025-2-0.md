@@ -9,7 +9,7 @@ meta:
 author: "Kiran Johns"
 ---
 
-<PostHeader/>
+<ReleaseHeader/>
 
 <VersionBadge version="v2025.2.0" date="February 27th 2025"/>
 
@@ -17,7 +17,7 @@ author: "Kiran Johns"
 
 Cloud for Organizations, Desktop App for Self-Host, and more! 🎉
 
-<TypeBadge type="new features"/>  
+<TypeBadge type="new features"/>
 <TypeBadge type="improvements"/>
 
 <BannerImage imageSource="/images/release-2025-2-0.png"/>
@@ -44,16 +44,16 @@ Self-hosted organizations can now set a default proxy URL for all team members.
 
 ### 📋 Summary
 
-<Row>  
-   <Added>  
-      <li>Self-Host Support for Desktop App</li>  
-      <li>Cloud for organizations</li>  
-      <li>Default proxy URLs</li>  
-      <li>Customizable email template</li>  
-   </Added>  
-   <Fixed>  
-      <li>Fix error on OpenAPI Import</li>  
-      <li>Auth header issue on GraphQL</li>  
-      <li>Set as variable overflow issue</li>  
-   </Fixed>  
+<Row>
+   <Added>
+      <li>Self-Host Support for Desktop App</li>
+      <li>Cloud for organizations</li>
+      <li>Default proxy URLs</li>
+      <li>Customizable email template</li>
+   </Added>
+   <Fixed>
+      <li>Fix error on OpenAPI Import</li>
+      <li>Auth header issue on GraphQL</li>
+      <li>Set as variable overflow issue</li>
+   </Fixed>
 </Row>
