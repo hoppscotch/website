@@ -1,5 +1,18 @@
 [
   {
+    "slug": "hoppscotch-v2025-7-0",
+    "title": "Hoppscotch v2025.7.0: Improved Self-Hosted Onboarding Flow, Authorization Panel UI and more",
+    "description": "We're excited to announce the release of Hoppscotch v2025.7.0, which includes significant improvements to the self-hosted onboarding flow, a revamped authorization panel UI, and an experimental scripting editor.",
+    "banner": "blog-v2025-7-0.png",
+    "date": "2025-07-30",
+    "author": {
+      "name": "Liyas Thomas",
+      "image": "blog-author-01.jpg"
+    },
+    "styles": "md:col-span-12",
+    "tags": ["Product"]
+  },
+  {
     "slug": "hoppscotch-v2025-6-0",
     "title": "Hoppscotch v2025.6.0: Improved Variable Scope, Keyboard Shortcuts for Desktop App and more",
     "description": "We're excited to announce Hoppscotch v2025.6.0, packed with new features and improvements to enhance your API testing experience.",

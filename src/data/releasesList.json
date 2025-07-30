@@ -1,5 +1,21 @@
 [
   {
+    "name": "Release Notes - v2025.7.0",
+    "description": "Improved Self-Hosted Onboarding Flow, Authorization Panel UI, Experimental Scripting Editor, Bug Fixes and More...",
+    "image": "release-2025-7-0.png",
+    "created_at": "2025-7-30",
+    "published_at": "2025-7-30",
+    "author": {
+      "name": "Liyas Thomas",
+      "image": "blog-author-01.jpg"
+    },
+    "slug": "release-notes-v2025-7-0",
+    "title": "Release Notes - v2025.7.0",
+    "banner": "release-2025-7-0.png",
+    "styles": "md:col-span-6",
+    "tags": []
+  },
+  {
     "name": "Release Notes - v2025.6.0",
     "description": "Improved Variable Scope, Keyboard Shortcuts for Desktop App, Bug Fixes and More...",
     "image": "release-2025-6-0.png",
