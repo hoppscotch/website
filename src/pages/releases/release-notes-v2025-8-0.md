@@ -44,20 +44,11 @@ Collection Variables, structured JSON data support, Bug Fixes and More! 🚀
     <li>Update masked secret environment value after replace action</li>
     <li>Preserve request name when importing cURL commands</li>
     <li>Show argument type on click in GraphQL documentation view</li>
-    <li>Handle edge cases and bugs in collection variables</li>
-    <li>Desktop: rebase with app load mirror and hash</li>
-    <li>Prevent GraphQL request failure caused by collection property computation</li>
     <li>Maintain incremental orderIndex for collections and requests</li>
   </Fixed>
   <Changed>
     <li>Bump dependencies and account for breaking changes</li>
-    <li>Native: bump and align dependencies</li>
-    <li>Align TailwindCSS to 3.4.16</li>
-    <li>Bump version to 2025.8.0</li>
-    <li>Bump CLI version</li>
     <li>Security patch for the dependency chain</li>
     <li>Improve French translations</li>
-    <li>Update <code>ws</code> dependency for <code>subscriptions-transport-ws</code></li>
-    <li>Revert dependency override for <code>ws</code> in <code>subscriptions-transport-ws</code></li>
   </Changed>
 </Row>
