@@ -72,7 +72,7 @@
                 <h4>Founders left his job to work on Hoppscotch full-time</h4>
               </div>
               <p class="text-sm text-zinc-400/80">
-                Liyas and his co-founder, Andrew, left their jobs to work on
+                Liyas and his co-founder andrew, left their jobs to work on
                 Hoppscotch full-time. They started working on the first version
                 of the Hoppscotch platform along with the open-source community.
               </p>

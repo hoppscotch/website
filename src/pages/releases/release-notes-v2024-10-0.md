@@ -26,7 +26,7 @@ Digest Auth, CA and Client Certificates, Parameter Encoding and more
 
 #### Support for digest auth
 
-We've added support for digest authorization. To use it, go to the Authorization tab in your request, choose Digest Auth from the Auth Type dropdown, enter your credentials, and you're ready to go!
+We've added support for digest authorization. To use it, go to the Authorization tab in your request, choose Digest Auth from the Auth Type dropdown, enter your credentials and you're ready to go!
 
 #### Encode Query Paramaters
 

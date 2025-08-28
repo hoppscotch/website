@@ -1,15 +1,28 @@
 [
   {
+    "slug": "hoppscotch-v2025-8-0",
+    "title": "Hoppscotch v2025.8.0: Collection Variables, Improved OpenAPI Support and more",
+    "description": "We're excited to announce Hoppscotch v2025.8.0, featuring collection variables, structured JSON data support and more.",
+    "banner": "blog-v2025-8-0.png",
+    "date": "2025-08-28",
+    "author": {
+      "name": "Liyas Thomas",
+      "image": "blog-author-01.jpg"
+    },
+    "styles": "md:col-span-6",
+    "tags": ["Product"]
+  },
+  {
     "slug": "hoppscotch-v2025-7-0",
     "title": "Hoppscotch v2025.7.0: Improved Self-Hosted Onboarding Flow, Authorization Panel UI and more",
-    "description": "We're excited to announce the release of Hoppscotch v2025.7.0, which includes significant improvements to the self-hosted onboarding flow, a revamped authorization panel UI, and an experimental scripting editor.",
+    "description": "We're excited to announce the release of Hoppscotch v2025.7.0, which includes significant improvements to the self-hosted onboarding flow, a revamped authorization panel UI and an experimental scripting editor.",
     "banner": "blog-v2025-7-0.png",
     "date": "2025-07-30",
     "author": {
       "name": "Liyas Thomas",
       "image": "blog-author-01.jpg"
     },
-    "styles": "md:col-span-12",
+    "styles": "md:col-span-6",
     "tags": ["Product"]
   },
   {
@@ -54,7 +67,7 @@
   {
     "slug": "hoppscotch-v2025-3-0",
     "title": "Hoppscotch v2025.3.0: Deactivate Organization Users, App Improvements and more",
-    "description": "We're excited to announce Hoppscotch v2025.3.0, bringing you new features, improvements, and fixes to enhance your API testing experience. This release makes managing organization users simpler and includes several app enhancements based on your feedback.",
+    "description": "We're excited to announce Hoppscotch v2025.3.0, bringing you new features, improvements and fixes to enhance your API testing experience. This release makes managing organization users simpler and includes several app enhancements based on your feedback.",
     "banner": "blog-v2025-3-0.png",
     "date": "2025-03-28",
     "author": {
@@ -92,7 +105,7 @@
   },
   {
     "slug": "hoppscotch-v2024-12-0",
-    "title": "Hoppscotch v2024.12.0: Generate scripts with AI, Sync Admin role from SAML, and more",
+    "title": "Hoppscotch v2024.12.0: Generate scripts with AI, Sync Admin role from SAML and more",
     "description": "Our v2024.12.0 release introduces exciting updates to enhance your experience with Hoppscotch.",
     "banner": "blog-v2024-12-0.png",
     "date": "2024-12-23",
@@ -105,7 +118,7 @@
   },
   {
     "slug": "hoppscotch-v2024-11-0",
-    "title": "Hoppscotch v2024.11.0: Introducing collection runner, and more",
+    "title": "Hoppscotch v2024.11.0: Introducing collection runner and more",
     "description": "Our v2024.11.0 release introduces exciting updates to enhance your experience with Hoppscotch.",
     "banner": "blog-v2024-11-0.png",
     "date": "2024-11-28",
@@ -118,7 +131,7 @@
   },
   {
     "slug": "hoppscotch-v2024-10-0",
-    "title": "Hoppscotch v2024.10.0: Digest Auth, CA and Client Certificates, and more",
+    "title": "Hoppscotch v2024.10.0: Digest Auth, CA and Client Certificates and more",
     "description": "Hoppscotch v2024.10.0 release brings some nifty updates to Hoppscotch.",
     "banner": "blog-v2024-10-0.png",
     "date": "2024-10-31",
@@ -131,7 +144,7 @@
   },
   {
     "slug": "hoppscotch-v2024-9-0",
-    "title": "Hoppscotch v2024.9.0: Save API Responses, Predefined Variables, and more",
+    "title": "Hoppscotch v2024.9.0: Save API Responses, Predefined Variables and more",
     "description": "Hoppscotch v2024.9.0 brings some exciting updates and addresses key issues that have been bugging our users for a while.",
     "banner": "blog-v2024-9-0.png",
     "date": "2024-10-04",
@@ -144,7 +157,7 @@
   },
   {
     "slug": "hoppscotch-v2024-8-0",
-    "title": "Hoppscotch v2024.8.0: AWS Signature, Workspace Management APIs, and more",
+    "title": "Hoppscotch v2024.8.0: AWS Signature, Workspace Management APIs and more",
     "description": "With our latest update, version 2024.8.0, we're excited to introduce cool new features that we think you'll love.",
     "banner": "blog-v2024-8-0.png",
     "date": "2024-08-30",
@@ -170,7 +183,7 @@
   },
   {
     "slug": "hoppscotch-v2024-6-0",
-    "title": "Hoppscotch v2024.6.0: Collection Runner on CLI, Team Invite Links, Client Certificates, and more",
+    "title": "Hoppscotch v2024.6.0: Collection Runner on CLI, Team Invite Links, Client Certificates and more",
     "description": "We are excited to announce the release of Hoppscotch v2024.6.0. This release includes a number of new features and improvements that will make your API testing experience even better.",
     "banner": "blog-v2024-6-0.png",
     "date": "2024-06-28",
@@ -197,7 +210,7 @@
   {
     "slug": "introducing-secret-variables",
     "title": "Introducing secret variables in Hoppscotch Environments",
-    "description": "Making it easy for you to manage sensitive information such as tokens, API keys, and passwords. Secrets not only enhance the security of managing your secrets but also prevent accidental sharing with third parties.",
+    "description": "Making it easy for you to manage sensitive information such as tokens, API keys and passwords. Secrets not only enhance the security of managing your secrets but also prevent accidental sharing with third parties.",
     "banner": "blog-secret-variables.png",
     "date": "2024-02-14",
     "author": {
@@ -210,7 +223,7 @@
   {
     "slug": "hoppscotch-wrapped-2023",
     "title": "Hoppscotch Wrapped 2023",
-    "description": "2023 has been an exciting and productive year for us here at Hoppscotch. We look back on a year of progress and momentum with dozens of new features, hundreds of fixes and improvements, and thousands of happy customers.",
+    "description": "2023 has been an exciting and productive year for us here at Hoppscotch. We look back on a year of progress and momentum with dozens of new features, hundreds of fixes and improvements and thousands of happy customers.",
     "banner": "blog-hoppscotch-wrapped-2023.png",
     "date": "2023-12-23",
     "author": {

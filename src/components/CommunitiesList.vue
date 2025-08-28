@@ -18,7 +18,7 @@
             Made by the community
           </h2>
           <p class="text-zinc-400/80">
-            Join our community and get help, support, and feedback.
+            Join our community and get help, support and feedback.
           </p>
         </div>
         <!-- Items -->

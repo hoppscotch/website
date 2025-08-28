@@ -123,7 +123,7 @@ useHead({
               by our community. We've been listening and are excited to announce
               that the day has finally arrived - today marks the launch of the
               public alpha version of the Hoppscotch Desktop App for macOS,
-              Windows, and Linux!
+              Windows and Linux!
             </p>
             <p class="mb-8 mt-4">
               You can get started with the Hoppscotch Desktop App right away.
@@ -183,7 +183,7 @@ useHead({
             <p class="mb-8 mt-4">
               To test how fast Hoppscotch really is, we ran a performance
               benchmark on a Windows 11 machine with an ARM64 VM, comparing
-              Postman, Insomnia, and Hoppscotch.
+              Postman, Insomnia and Hoppscotch.
             </p>
           </section>
           <section class="max-w-4xl">
@@ -227,14 +227,14 @@ useHead({
           </section>
           <section class="max-w-xl text-zinc-200/80">
             <p class="mb-8 mt-4">
-              Security is paramount for us, and the Hoppscotch app takes this
+              Security is paramount for us and the Hoppscotch app takes this
               seriously. By default, Hoppscotch is sandboxed, safeguarding your
-              system from malware and other potential security threats, and
+              system from malware and other potential security threats and
               offering a worry-free experience.
             </p>
             <p class="mb-8 mt-4">
               The Hoppscotch Desktop app doesn't just meet expectations, it sets
-              new standards in performance, optimization, and security.
+              new standards in performance, optimization and security.
             </p>
             <h4 class="mb-4 text-white">Here's a Cookie</h4>
             <p class="mb-8 mt-4">
@@ -261,7 +261,7 @@ useHead({
             <h4 class="mb-4 text-white">Get Hoppscotch Desktop App now!</h4>
             <p class="mb-8 mt-4">
               For this alpha release, Hoppscotch is now available for download
-              on macOS (Intel & Apple Silicon), Windows, and Linux. You can
+              on macOS (Intel & Apple Silicon), Windows and Linux. You can
               download the latest release here on our website.
             </p>
           </section>
@@ -333,7 +333,7 @@ useHead({
             <p class="mb-8 mt-4">
               Hoppscotch has now grown beyond being just an alternative product.
               Our vision today is to build an ecosystem of tools around the
-              entire API development lifecycle, and we have already started
+              entire API development lifecycle and we have already started
               building the foundation for this.
             </p>
             <p class="mb-8 mt-4">

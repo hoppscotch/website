@@ -16,17 +16,17 @@ useHead({
     {
       name: "description",
       content:
-        "We're excited to announce the release of Hoppscotch v2025.7.0, which includes significant improvements to the self-hosted onboarding flow, a revamped authorization panel UI, and an experimental scripting editor.",
+        "We're excited to announce the release of Hoppscotch v2025.7.0, which includes significant improvements to the self-hosted onboarding flow, a revamped authorization panel UI and an experimental scripting editor.",
     },
     {
       property: "og:description",
       content:
-        "We're excited to announce the release of Hoppscotch v2025.7.0, which includes significant improvements to the self-hosted onboarding flow, a revamped authorization panel UI, and an experimental scripting editor.",
+        "We're excited to announce the release of Hoppscotch v2025.7.0, which includes significant improvements to the self-hosted onboarding flow, a revamped authorization panel UI and an experimental scripting editor.",
     },
     {
       name: "twitter:description",
       content:
-        "We're excited to announce the release of Hoppscotch v2025.7.0, which includes significant improvements to the self-hosted onboarding flow, a revamped authorization panel UI, and an experimental scripting editor.",
+        "We're excited to announce the release of Hoppscotch v2025.7.0, which includes significant improvements to the self-hosted onboarding flow, a revamped authorization panel UI and an experimental scripting editor.",
     },
     {
       property: "og:image",
@@ -116,7 +116,7 @@ improvement: audience attribute addition in OAuth2 flows -->
             <p class="mb-8 mt-4">
               We're excited to announce the release of Hoppscotch v2025.7.0,
               which includes significant improvements to the self-hosted
-              onboarding flow, a revamped authorization panel UI, and an
+              onboarding flow, a revamped authorization panel UI and an
               experimental scripting editor.
             </p>
             <hr
@@ -187,7 +187,7 @@ improvement: audience attribute addition in OAuth2 flows -->
               Hoppscotch v2025.7.0 introduces an experimental scripting editor
               based on the Monaco Editor. This new experience comes with a
               variety of features, including syntax highlighting, code
-              completion, and debugging tools, making it easier to write and
+              completion and debugging tools, making it easier to write and
               test scripts within Hoppscotch.
             </p>
             <section class="max-w-4xl">
@@ -201,7 +201,7 @@ improvement: audience attribute addition in OAuth2 flows -->
             </section>
             <br />
             <p class="mb-8 mt-4">
-              This feature is still in development, and we welcome feedback from
+              This feature is still in development and we welcome feedback from
               the community to help shape its future. You can opt-in to the
               experimental scripting editor from the Settings page > Experiments
               > Experimental Scripting Sandbox.
@@ -231,7 +231,7 @@ improvement: audience attribute addition in OAuth2 flows -->
             <p class="mb-8 mt-4">
               The status code and metadata are now included in the response
               status code, providing valuable information about the success or
-              failure of the request, response size, and other relevant details.
+              failure of the request, response size and other relevant details.
               This feature is particularly useful for debugging and
               troubleshooting GraphQL queries.
             </p>

@@ -1,17 +1,17 @@
 <script setup lang="ts">
 useHead({
   title:
-    "Hoppscotch v2024.12.0: Generate scripts with AI, Sync Admin role from SAML, and more",
+    "Hoppscotch v2024.12.0: Generate scripts with AI, Sync Admin role from SAML and more",
   meta: [
     {
       property: "og:title",
       content:
-        "Hoppscotch v2024.12.0: Generate scripts with AI, Sync Admin role from SAML, and more",
+        "Hoppscotch v2024.12.0: Generate scripts with AI, Sync Admin role from SAML and more",
     },
     {
       name: "twitter:title",
       content:
-        "Hoppscotch v2024.12.0: Generate scripts with AI, Sync Admin role from SAML, and more",
+        "Hoppscotch v2024.12.0: Generate scripts with AI, Sync Admin role from SAML and more",
     },
     {
       name: "description",
@@ -74,7 +74,7 @@ useHead({
                 class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text text-transparent"
               >
                 Hoppscotch v2024.12.0: Generate scripts with AI, Sync Admin role
-                from SAML, and more
+                from SAML and more
               </span>
             </h3>
             <div class="flex items-center">

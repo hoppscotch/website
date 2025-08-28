@@ -1,14 +1,14 @@
 <script setup lang="ts">
 useHead({
-  title: "Hoppscotch v2024.11.0: Introducing collection runner, and more",
+  title: "Hoppscotch v2024.11.0: Introducing collection runner and more",
   meta: [
     {
       property: "og:title",
-      content: "Hoppscotch v2024.11.0: Introducing collection runner, and more",
+      content: "Hoppscotch v2024.11.0: Introducing collection runner and more",
     },
     {
       name: "twitter:title",
-      content: "Hoppscotch v2024.11.0: Introducing collection runner, and more",
+      content: "Hoppscotch v2024.11.0: Introducing collection runner and more",
     },
     {
       name: "description",
@@ -70,7 +70,7 @@ useHead({
               <span
                 class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text text-transparent"
               >
-                Hoppscotch v2024.11.0: Introducing collection runner, and more
+                Hoppscotch v2024.11.0: Introducing collection runner and more
               </span>
             </h3>
             <div class="flex items-center">
@@ -175,7 +175,7 @@ useHead({
               We've enhanced binary file support, enabling you to seamlessly
               include binary file content-types in your API requests. To use
               this feature, go to the request body section, select the binary
-              file option, and incorporate your files with just a few clicks.
+              file option and incorporate your files with just a few clicks.
               Get full details on uploading binary data in our
               <a
                 href="https://docs.hoppscotch.io/documentation/getting-started/rest/uploading-data#uploading-binary-data"

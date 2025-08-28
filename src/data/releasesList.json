@@ -1,5 +1,21 @@
 [
   {
+    "name": "Release Notes - v2025.8.0",
+    "description": "Collection Variables, structured JSON data support, Bug Fixes and More...",
+    "image": "release-2025-8-0.png",
+    "created_at": "2025-8-28",
+    "published_at": "2025-8-28",
+    "author": {
+      "name": "Liyas Thomas",
+      "image": "blog-author-01.jpg"
+    },
+    "slug": "release-notes-v2025-8-0",
+    "title": "Release Notes - v2025.8.0",
+    "banner": "release-2025-8-0.png",
+    "styles": "md:col-span-6",
+    "tags": []
+  },
+  {
     "name": "Release Notes - v2025.7.0",
     "description": "Improved Self-Hosted Onboarding Flow, Authorization Panel UI, Experimental Scripting Editor, Bug Fixes and More...",
     "image": "release-2025-7-0.png",
@@ -81,7 +97,7 @@
   },
   {
     "name": "Release Notes - v2025.2.0",
-    "description": "Cloud for Organizations, Desktop App for Self-Host, and more!",
+    "description": "Cloud for Organizations, Desktop App for Self-Host and more!",
     "image": "release-2025-2-0.png",
     "created_at": "2025-2-27",
     "published_at": "2025-2-27",
@@ -209,7 +225,7 @@
   },
   {
     "name": "Release Notes - v2024.6.0",
-    "description": "Major upgrades to the CLI, client certificates, and more...",
+    "description": "Major upgrades to the CLI, client certificates and more...",
     "image": "release-2024-6-0.png",
     "created_at": "2024-06-28",
     "published_at": "2024-06-28",

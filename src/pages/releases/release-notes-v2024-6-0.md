@@ -1,7 +1,7 @@
 ---
 name: "Release Notes - v2024.6.0"
 title: "Release Notes - v2024.6.0"
-description: "Major upgrades to the CLI, client certificates, and more..."
+description: "Major upgrades to the CLI, client certificates and more..."
 image: /images/release-2024-6-0.png
 meta:
   - created_at: "2024-06-28"
@@ -28,7 +28,7 @@ Hoppscotch CLI can now connect with your workspaces on Hoppscotch Cloud and Hopp
 
 #### Client Certificates
 
-You can now configure client certificates on the Hoppscotch Desktop app to connect to APIs using mTLS. [**Read more about it here**](https://docs.hoppscotch.io/documentation/features/client-certificate), and [click here](https://hoppscotch.com/download) to download the Hoppscotch Desktop app!
+You can now configure client certificates on the Hoppscotch Desktop app to connect to APIs using mTLS. [**Read more about it here**](https://docs.hoppscotch.io/documentation/features/client-certificate) and [click here](https://hoppscotch.com/download) to download the Hoppscotch Desktop app!
 
 #### Custom Banners
 

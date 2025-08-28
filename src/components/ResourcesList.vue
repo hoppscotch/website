@@ -17,7 +17,7 @@
             Made by the community
           </h2>
           <p class="text-zinc-400/80">
-            Join our community and get help, support, and feedback.
+            Join our community and get help, support and feedback.
           </p>
         </div>
         <!-- Items -->
@@ -46,7 +46,7 @@
             />
             <h4 class="mb-2 text-xl font-semibold">Community</h4>
             <p class="text-sm text-zinc-100">
-              Join our community to get help, support, and feedback from our
+              Join our community to get help, support and feedback from our
               team.
             </p>
           </div>

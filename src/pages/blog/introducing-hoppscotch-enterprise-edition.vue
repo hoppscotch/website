@@ -112,7 +112,7 @@ useHead({
               you an array of exhilarating enhancements and innovative features
               that have been requested by our dynamic community. This release is
               all about elevating your API testing experience to unprecedented
-              heights, and we cannot wait for you to explore the transformative
+              heights and we cannot wait for you to explore the transformative
               power it brings.
             </p>
             <h4 class="mb-4 text-white">
@@ -185,7 +185,7 @@ useHead({
               access every corner of Hoppscotch by simply pressing Command + K
               or Control + K and typing in what you want to do. You can access
               every corner of Hoppscotch effortlessly. It's a swift,
-              streamlined, and intuitive approach that enhances your interaction
+              streamlined and intuitive approach that enhances your interaction
               with the platform.
             </p>
             <hr
@@ -216,7 +216,7 @@ useHead({
             </p>
             <p class="mb-8 mt-4">
               What's more? we've extended the context menus to tabs — rename,
-              duplicate, and close them effortlessly with just a right-click.
+              duplicate and close them effortlessly with just a right-click.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
@@ -251,7 +251,7 @@ useHead({
               We've taken extra steps to enhance the Hoppscotch experience in
               every possible way. Enjoy additional features like URL
               auto-completion as you type, quick access to environment
-              variables, and a finely tuned performance that promises the
+              variables and a finely tuned performance that promises the
               smoothest experience yet.
             </p>
             <p class="mb-8 mt-4">
@@ -259,7 +259,7 @@ useHead({
               unrelenting journey to provide you with the pinnacle of API
               development and testing experiences. The excitement is palpable as
               we invite you to explore these features, harness their
-              capabilities, and seamlessly integrate them into your workflow. As
+              capabilities and seamlessly integrate them into your workflow. As
               we embark on this thrilling chapter, your feedback remains a
               guiding light, shaping the future of Hoppscotch.
             </p>

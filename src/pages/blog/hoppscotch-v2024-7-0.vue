@@ -143,7 +143,7 @@ hopp test &lt;file_path_or_id&gt; --env &lt;file_path_or_id&gt; --reporter-junit
             <p class="mb-8 mt-4">
               We are gradually introducing AI-powered features to provide
               quality of life features to help improve your API testing
-              experience, and we're starting with one small feature.
+              experience and we're starting with one small feature.
             </p>
             <h4 class="mb-4 text-white">Automatically naming an API request</h4>
             <p class="mb-8 mt-4">
@@ -199,7 +199,7 @@ hopp test &lt;file_path_or_id&gt; --env &lt;file_path_or_id&gt; --reporter-junit
             />
             <p class="mb-8 mt-4">
               And that's a wrap for this month's release! Our team is dedicated
-              to continuously improving Hoppscotch, and we appreciate your
+              to continuously improving Hoppscotch and we appreciate your
               support in helping us get better each day. If you have any
               feedback or suggestions, please reach out to us at
               <a

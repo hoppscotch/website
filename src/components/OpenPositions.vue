@@ -23,12 +23,12 @@
               </a>
             </div>
             <div class="text-md text-zinc-400/80">
-              You will be at the forefront of developing, optimizing, and
+              You will be at the forefront of developing, optimizing and
               maintaining the core functionality of our cutting-edge,
               self-hosted applications. This role requires a passion for
               creating robust, scalable solutions that empower users to host and
               manage our software with ease. Collaboration with cross-functional
-              teams is essential to ensure the reliability, security, and
+              teams is essential to ensure the reliability, security and
               extensibility of our self-hosted offerings.
             </div>
           </div> -->

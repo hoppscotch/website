@@ -1,17 +1,17 @@
 <script setup lang="ts">
 useHead({
   title:
-    "Hoppscotch v2024.10.0: Digest Auth, CA and Client Certificates, and more",
+    "Hoppscotch v2024.10.0: Digest Auth, CA and Client Certificates and more",
   meta: [
     {
       property: "og:title",
       content:
-        "Hoppscotch v2024.10.0: Digest Auth, CA and Client Certificates, and more",
+        "Hoppscotch v2024.10.0: Digest Auth, CA and Client Certificates and more",
     },
     {
       name: "twitter:title",
       content:
-        "Hoppscotch v2024.10.0: Digest Auth, CA and Client Certificates, and more",
+        "Hoppscotch v2024.10.0: Digest Auth, CA and Client Certificates and more",
     },
     {
       name: "description",
@@ -129,7 +129,7 @@ useHead({
             <p class="mb-8 mt-4">
               We've added support for digest authorization. To use it, go to the
               "Authorization" tab in your request, choose "Digest Auth" from the
-              "Auth-Type" dropdown, enter your credentials, and you're ready to
+              "Auth-Type" dropdown, enter your credentials and you're ready to
               go! Digest authorization ensures secure access to protected
               resources, giving you more flexibility and security in your API
               workflows.
@@ -165,7 +165,7 @@ useHead({
             </section>
             <br />
             <p class="mb-8 mt-4">
-              We're also bringing CA and Client Certificates to the web app, and
+              We're also bringing CA and Client Certificates to the web app and
               you can use and configure your certificates when you use the
               Hoppscotch Agent as the interceptor! To learn more about the
               Hoppscotch Agent Interceptor, check out our
@@ -200,7 +200,7 @@ useHead({
             />
             <p class="mb-8 mt-4">
               The 2024.10.0 release brings a lot of crucial features necessary
-              for API testing, and we're excited to hear what you think of it!
+              for API testing and we're excited to hear what you think of it!
               Write to us at
               <a
                 href="mailto:hello@hoppscotch.io"

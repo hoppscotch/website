@@ -120,7 +120,7 @@ useHead({
               We're excited to share what we've been working on the past few
               months with the launch of our latest release, Hoppscotch
               v2023.12.0! This release is all about providing you with better
-              API testing capabilities, collaboration features, and an overall
+              API testing capabilities, collaboration features and an overall
               improved app experience and performance!
             </p>
             <h4 class="mb-4 text-white">
@@ -189,7 +189,7 @@ useHead({
               Sharing a request doesn't grant others access to the original
               data; it simply provides them with a copy to use. Therefore, if a
               shared request contains environment variables, it will not
-              function properly, and it is advisable to replace the environment
+              function properly and it is advisable to replace the environment
               variable with its corresponding value before sharing.
             </p>
             <h4 class="mb-4 text-white">

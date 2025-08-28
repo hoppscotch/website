@@ -149,7 +149,7 @@
               <span class="text-zinc-100">Highly Customizable</span>
             </div>
             <p class="text-sm text-zinc-400/80">
-              Make it your own. Customize the theme, layout, and more.
+              Make it your own. Customize the theme, layout and more.
             </p>
           </div>
           <!-- Feature -->

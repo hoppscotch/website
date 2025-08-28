@@ -1,37 +1,40 @@
 <script setup lang="ts">
 useHead({
-  title: "Hoppscotch v2025.4.0: Hawk Auth, Admin dashboard UX Upgrade and more",
+  title:
+    "Hoppscotch v2025.8.0: Collection Variables, Improved OpenAPI Support and more",
   meta: [
     {
       property: "og:title",
-      content: "Hoppscotch v2025.4.0: Hawk Auth, Admin dashboard UX Upgrade and more",
+      content:
+        "Hoppscotch v2025.8.0: Collection Variables, Improved OpenAPI Support and more",
     },
     {
       name: "twitter:title",
-      content: "Hoppscotch v2025.4.0: Hawk Auth, Admin dashboard UX Upgrade and more",
+      content:
+        "Hoppscotch v2025.8.0: Collection Variables, Improved OpenAPI Support and more",
     },
     {
       name: "description",
       content:
-        "We're excited to release Hoppscotch v2025.4.0, introducing new features and quality-of-life improvements that make API testing and collaboration more powerful and intuitive.",
+        "We're excited to announce Hoppscotch v2025.8.0, featuring collection variables, structured JSON data support, OpenAPI import improvements and more.",
     },
     {
       property: "og:description",
       content:
-        "We're excited to release Hoppscotch v2025.4.0, introducing new features and quality-of-life improvements that make API testing and collaboration more powerful and intuitive.",
+        "We're excited to announce Hoppscotch v2025.8.0, featuring collection variables, structured JSON data support, OpenAPI import improvements and more.",
     },
     {
       name: "twitter:description",
       content:
-        "We're excited to release Hoppscotch v2025.4.0, introducing new features and quality-of-life improvements that make API testing and collaboration more powerful and intuitive.",
+        "We're excited to announce Hoppscotch v2025.8.0, featuring collection variables, structured JSON data support, OpenAPI import improvements and more.",
     },
     {
       property: "og:image",
-      content: "https://hoppscotch.com/images/blog-v2025-4-0.png",
+      content: "https://hoppscotch.com/images/blog-v2025-8-0.png",
     },
     {
       name: "twitter:image",
-      content: "https://hoppscotch.com/images/blog-v2025-4-0.png",
+      content: "https://hoppscotch.com/images/blog-v2025-8-0.png",
     },
     {
       property: "og:type",
@@ -39,7 +42,7 @@ useHead({
     },
     {
       property: "og:url",
-      content: "https://hoppscotch.com/blog/hoppscotch-v2025-4-0",
+      content: "https://hoppscotch.com/blog/hoppscotch-v2025-8-0",
     },
   ],
 })
@@ -63,87 +66,100 @@ useHead({
                   >
                 </li>
                 <span class="mx-2 text-zinc-400/20">|</span>
-                <span class="text-zinc-200/20">Apr 30, 2025</span>
+                <span class="text-zinc-200/20">Aug 28, 2025</span>
               </ul>
             </div>
             <h3 class="mb-8">
               <span
                 class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text text-transparent"
               >
-                Hoppscotch v2025.4.0: Hawk Auth, Admin dashboard UX Upgrade and more
+                Hoppscotch v2025.8.0: Collection Variables, Improved OpenAPI Support and more
               </span>
             </h3>
             <div class="flex items-center">
               <img
                 loading="lazy"
                 class="mr-4 shrink-0 rounded-full"
-                src="/images/blog-author-02.jpg"
+                src="/images/blog-author-01.jpg"
                 width="32"
                 height="32"
-                alt="Kiran Johns"
+                alt="Liyas Thomas"
               />
               <div class="text-sm">
-                <span class="text-zinc-200/80 transition"> Kiran Johns </span>
+                <span class="text-zinc-200/80 transition"> Liyas Thomas </span>
               </div>
             </div>
           </header>
           <section class="max-w-4xl">
             <ImageZoom
               class="h-full w-full rounded md:rounded-xl"
-              src="/images/blog-v2025-4-0.png"
+              src="/images/blog-v2025-8-0.png"
               width="352"
               height="198"
-              alt="News 01"
+              alt="v2025.8.0"
             />
           </section>
           <section class="max-w-xl text-zinc-200/80">
             <p class="mb-8 mt-4">
-              We're excited to announce Hoppscotch v2025.4.0, bringing you new features, improvements and fixes to enhance your API testing experience.
+              We're excited to announce Hoppscotch v2025.8.0, featuring
+              <strong>collection variables</strong>,
+              <strong>structured JSON data support</strong> in the response
+              viewer, <strong>advanced OAuth parameters</strong>, improved
+              <strong>OpenAPI import</strong> support for body schemas,
+              and desktop <strong>portable loader infra</strong> — plus lots of
+              fixes and refinements.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
-            <h4 class="mb-4 text-white">Self-Host Admin Dashboard UX Redesign</h4>
+            <h4 class="mb-4 text-white">Collection Variables</h4>
             <p class="mb-8 mt-4">
-              We've improved the user experience of the Self-Host Admin Dashboard to make managing your instance more intuitive.
+              Scope reusable values to a collection to simplify request authoring
+              and reduce duplication. Perfect for sharing base URLs, tokens and
+              defaults across a set of requests without leaking to other
+              workspaces.
             </p>
             <section class="max-w-4xl">
               <ImageZoom
                 class="h-full w-full rounded md:rounded-xl"
-                src="/images/blog-v2025-4-0-1.png"
+                src="/images/blog-v2025-8-0-1.png"
                 width="352"
                 height="198"
-                alt="News 01"
+                alt="Collection Variables"
               />
             </section>
             <br />
-            <p class="mb-8 mt-4">
-              What's new:
-            </p>
-            <ul class="mb-8 ml-5 mt-4 list-disc space-y-2 marker:text-zinc-100">
-              <li class="pl-4">
-                Simplified navigation and cleaner layouts.
-                            </li>
-              <li class="pl-4">
-                Faster access to key administrative functions.
-                            </li>
-            </ul>
-            <p class="mb-8 mt-4">
-              While it's not a full visual overhaul, this update is all about helping you get things done with less friction.
-              </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
-            <h4 class="mb-4 text-white">Hawk Authentication Support</h4>
+            <h4 class="mb-4 text-white">Structured JSON Data Support</h4>
+            <p class="mb-8 mt-4">
+              Navigate large responses with structured fold markers in the
+              response viewer. Collapse/expand blocks quickly to focus on the
+              parts that matter.
+            </p>
+            <section class="max-w-4xl">
+              <ImageZoom
+                class="h-full w-full rounded md:rounded-xl"
+                src="/images/blog-v2025-8-0-2.png"
+                width="352"
+                height="198"
+                alt="Structured JSON Data Support"
+              />
+            </section>
             <br />
-            <p class="mb-8 mt-4">
-              Hoppscotch now supports Hawk Authentication, a MAC-based scheme used in many secure APIs.            </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
+            <h4 class="mb-4 text-white">OpenAPI Import: Body Schemas</h4>
             <p class="mb-8 mt-4">
-              Update to Hoppscotch v2025.4.0 to start using these new features and improvements. Whether you're managing teams, testing complex APIs, or running your own self-hosted instance, this release makes your workflow smoother and more powerful.
+              The OpenAPI importer now understands body schemas for POST/PUT,
+              making generated requests more complete and accurate out of the
+              box.
             </p>
+            <hr
+              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
+            />
             <p class="mb-8 mt-4">
               What do you want us to build next? Write to us at
               <a
@@ -164,7 +180,7 @@ useHead({
                 >GitHub repository</a
               >.
             </p>
-            </section>
+          </section>
         </article>
       </div>
     </div>

@@ -30,7 +30,7 @@ We’re excited to introduce **User Groups**! This feature allows you to create 
 
 #### Improved Authentication Types
 
-We’ve revamped our authentication methods to support more robust and flexible options. This includes improvements to Hawk authentication, AWS Signature, and more.
+We’ve revamped our authentication methods to support more robust and flexible options. This includes improvements to Hawk authentication, AWS Signature and more.
 
 #### 👉 [Read the full release blog](https://hoppscotch.com/blog/hoppscotch-v2025-5-0)
 

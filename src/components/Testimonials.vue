@@ -18,7 +18,7 @@ const items = ref<Testimonial[]>([
   {
     img: TestimonialImg01,
     quote:
-      "Hoppscotch is the future of API development infrastructure, and the future is here.",
+      "Hoppscotch is the future of API development infrastructure and the future is here.",
     name: "Joseph Jacks",
     role: "Founder, OSS Capital",
   },

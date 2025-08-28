@@ -24,8 +24,8 @@
             <div class="text-md text-zinc-400/80">
               You will be responsible for designing, building and maintaining
               core services and the infrastructure that supports our software
-              development, deployment, and operations. You will collaborate with
-              cross-functional teams to ensure the scalability, reliability, and
+              development, deployment and operations. You will collaborate with
+              cross-functional teams to ensure the scalability, reliability and
               security of our systems.
             </div>
           </div>

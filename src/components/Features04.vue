@@ -299,7 +299,7 @@
               <span class="text-zinc-100"> Pre-Request Scripts </span>
             </div>
             <p class="text-sm text-zinc-400/80">
-              Modify headers, authenticate requests, generate random data, and
+              Modify headers, authenticate requests, generate random data and
               much more.
             </p>
           </div>
@@ -360,7 +360,7 @@
               <span class="text-zinc-100"> Admin Dashboard </span>
             </div>
             <p class="text-sm text-zinc-400/80">
-              Manage your users, workspaces, and more.
+              Manage your users, workspaces and more.
             </p>
           </div>
         </div>

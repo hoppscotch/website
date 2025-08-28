@@ -37,7 +37,7 @@
                 Your Portal to Everything Hoppscotch
               </h3>
               <p class="mb-8 text-zinc-400/80">
-                SAML-based SSO, on-prem deployment, audit logs, and more.<br />
+                SAML-based SSO, on-prem deployment, audit logs and more.<br />
                 Join the waitlist for the Hoppscotch Enterprise Edition.
               </p>
               <div class="mt-8 max-w-sm space-y-2 max-lg:mx-auto">
@@ -87,7 +87,7 @@
             <p class="mt-4 text-zinc-400/80">
               Hoppscotch Cloud is the easiest way to get started with
               Hoppscotch. It's a fully managed API development platform that
-              lets you build, publish, and document APIs in minutes.
+              lets you build, publish and document APIs in minutes.
             </p>
             <p class="mt-4">
               <RouterLink to="/products/cloud" class="flex items-center">

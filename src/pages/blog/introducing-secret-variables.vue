@@ -13,17 +13,17 @@ useHead({
     {
       name: "description",
       content:
-        "Making it easy for you to manage sensitive information such as tokens, API keys, and passwords. Secrets not only enhance the security of managing your secrets but also prevent accidental sharing with third parties.",
+        "Making it easy for you to manage sensitive information such as tokens, API keys and passwords. Secrets not only enhance the security of managing your secrets but also prevent accidental sharing with third parties.",
     },
     {
       property: "og:description",
       content:
-        "Making it easy for you to manage sensitive information such as tokens, API keys, and passwords. Secrets not only enhance the security of managing your secrets but also prevent accidental sharing with third parties.",
+        "Making it easy for you to manage sensitive information such as tokens, API keys and passwords. Secrets not only enhance the security of managing your secrets but also prevent accidental sharing with third parties.",
     },
     {
       name: "twitter:description",
       content:
-        "Making it easy for you to manage sensitive information such as tokens, API keys, and passwords. Secrets not only enhance the security of managing your secrets but also prevent accidental sharing with third parties.",
+        "Making it easy for you to manage sensitive information such as tokens, API keys and passwords. Secrets not only enhance the security of managing your secrets but also prevent accidental sharing with third parties.",
     },
     {
       property: "og:image",
@@ -128,7 +128,7 @@ useHead({
             <p class="mb-8 mt-4">
               With the introduction of secrets in a Hoppscotch environment, we
               aim to make it easy for you to manage sensitive information such
-              as tokens, API keys, and passwords. Secrets not only enhance the
+              as tokens, API keys and passwords. Secrets not only enhance the
               security of managing your secrets but also prevent accidental
               sharing with third parties.
             </p>
@@ -161,7 +161,7 @@ useHead({
             </p>
             <p class="mb-8 mt-4">
               Moreover, in a shared workspace, workspace owners and editors can
-              create, delete, edit, and use secrets. On the other hand,
+              create, delete, edit and use secrets. On the other hand,
               workspace viewers only have the ability to add values to already
               created secrets.
             </p>

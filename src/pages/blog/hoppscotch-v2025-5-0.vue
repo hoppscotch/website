@@ -103,7 +103,7 @@ useHead({
           <section class="max-w-xl text-zinc-200/80">
             <p class="mb-8 mt-4">
               Hoppscotch v2025.5.0 is here, packed with new features,
-              improvements, and bug fixes to enhance your API development
+              improvements and bug fixes to enhance your API development
               experience. Here's a quick overview of the new features and
               improvements:
             </p>
@@ -153,7 +153,7 @@ useHead({
             </p>
             <p class="mb-8 mt-4">
               JWT authentication has been revamped to support both
-              <code>HS256</code>, <code>HS384</code>, and
+              <code>HS256</code>, <code>HS384</code> and
               <code>HS512</code> algorithms. This improvement allows you to
               choose the algorithm that best fits your API's security
               requirements.
@@ -165,7 +165,7 @@ useHead({
             <p class="mb-8 mt-4">
               The script editor in Hoppscotch has been improved to support
               console methods like <code>console.log()</code>,
-              <code>console.error()</code>, and more. This enhancement makes it
+              <code>console.error()</code> and more. This enhancement makes it
               easier to debug your scripts and see the output directly in the
               console.
             </p>

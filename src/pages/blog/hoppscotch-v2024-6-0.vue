@@ -1,17 +1,17 @@
 <script setup lang="ts">
 useHead({
   title:
-    "Hoppscotch v2024.6.0: Collection Runner on CLI, Team Invite Links, Client Certificates, and more",
+    "Hoppscotch v2024.6.0: Collection Runner on CLI, Team Invite Links, Client Certificates and more",
   meta: [
     {
       property: "og:title",
       content:
-        "Hoppscotch v2024.6.0: Collection Runner on CLI, Team Invite Links, Client Certificates, and more",
+        "Hoppscotch v2024.6.0: Collection Runner on CLI, Team Invite Links, Client Certificates and more",
     },
     {
       name: "twitter:title",
       content:
-        "Hoppscotch v2024.6.0: Collection Runner on CLI, Team Invite Links, Client Certificates, and more",
+        "Hoppscotch v2024.6.0: Collection Runner on CLI, Team Invite Links, Client Certificates and more",
     },
     {
       name: "description",
@@ -74,7 +74,7 @@ useHead({
                 class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text text-transparent"
               >
                 Hoppscotch v2024.6.0: Collection Runner on CLI, Team Invite
-                Links, Client Certificates, and more
+                Links, Client Certificates and more
               </span>
             </h3>
             <div class="flex items-center">
@@ -137,7 +137,7 @@ useHead({
               To run the collections present in your API client, you need to
               create a personal access token! Once the personal access token is
               created, you can right-click any collection, select Run
-              Collection, copy the command you see, and run it on the CLI!
+              Collection, copy the command you see and run it on the CLI!
             </p>
             <p class="mb-8 mt-4">
               To run a collection present in the Hoppscotch cloud, the command
@@ -205,7 +205,7 @@ hopp test -e &lt;environment_id&gt; -d &lt;delay_in_ms&gt; &lt;hoppscotch_collec
               Custom banners allow the self-host admin to share important
               announcements such as a scheduled maintenance or instance upgrade
               with the rest of your team! Banners are exclusive to Hoppscotch
-              self-host enterprise, and you can read more about it here.
+              self-host enterprise and you can read more about it here.
             </p>
             <section class="max-w-4xl">
               <ImageZoom
@@ -232,7 +232,7 @@ hopp test -e &lt;environment_id&gt; -d &lt;delay_in_ms&gt; &lt;hoppscotch_collec
             />
             <p class="mb-8 mt-4">
               That's it for the June release, a big thanks to all our
-              contributors and supporters, and thank you so much for reading! If
+              contributors and supporters and thank you so much for reading! If
               you've any feedback, contact us at hello@hoppscotch.io - we'd love
               to hear from you!
             </p>

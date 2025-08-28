@@ -106,7 +106,7 @@ useHead({
               stands out as a powerful yet intuitive API development platform, empowering developers worldwide to streamline their API workflows.
             </p>
             <p class="mb-8 mt-4">
-              We're thrilled to unveil Hoppscotch v2025.2.0, packed with major enhancements our community has been asking for. This update delivers new capabilities including our Cloud for Organizations, expanded desktop app functionality for self-hosted instances, customizable email templates, and advanced proxy management tools.
+              We're thrilled to unveil Hoppscotch v2025.2.0, packed with major enhancements our community has been asking for. This update delivers new capabilities including our Cloud for Organizations, expanded desktop app functionality for self-hosted instances, customizable email templates and advanced proxy management tools.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
@@ -130,7 +130,7 @@ useHead({
             </p>
             <ul class="mb-8 ml-5 mt-4 list-disc space-y-2 marker:text-zinc-100">
               <li class="pl-4">
-                An admin dashboard to manage users, teams, and workspaces
+                An admin dashboard to manage users, teams and workspaces
               </li>
               <li class="pl-4">
                 Priority support for all your API testing needs
@@ -158,7 +158,7 @@ useHead({
             </section>
             <br />
             <p class="mb-8 mt-4">
-              The Hoppscotch Desktop App now fully supports self-hosted deployments! Simply add the URL of your self-hosted Hoppscotch instance, and you can start using it seamlessly within the desktop app.
+              The Hoppscotch Desktop App now fully supports self-hosted deployments! Simply add the URL of your self-hosted Hoppscotch instance and you can start using it seamlessly within the desktop app.
             </p>
             <p class="mb-8 mt-4">
               This update ensures that self-hosted users get the same smooth experience as cloud users, with all the advantages of a dedicated desktop client.

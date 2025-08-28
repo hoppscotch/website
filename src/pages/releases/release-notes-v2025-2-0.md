@@ -1,7 +1,7 @@
 ---
 name: "Release Notes - v2025.2.0"
 title: "Release Notes - v2025.2.0"
-description: "Cloud for Organizations, Desktop App for Self-Host, and more! 🎉"
+description: "Cloud for Organizations, Desktop App for Self-Host and more! 🎉"
 image: /images/release-2025-2-0.png
 meta:
   - created_at: "2025-02-27"
@@ -15,7 +15,7 @@ author: "Kiran Johns"
 
 ## Release Notes - v2025.2.0
 
-Cloud for Organizations, Desktop App for Self-Host, and more! 🎉
+Cloud for Organizations, Desktop App for Self-Host and more! 🎉
 
 <TypeBadge type="new features"/>
 <TypeBadge type="improvements"/>
@@ -26,7 +26,7 @@ Cloud for Organizations, Desktop App for Self-Host, and more! 🎉
 
 #### 🆕 Cloud for Organizations
 
-Introducing Hoppscotch Cloud for Organizations at $8 per user per month! Admin dashboard to manage users, teams, and workspaces. Priority support for seamless API collaboration.
+Introducing Hoppscotch Cloud for Organizations at $8 per user per month! Admin dashboard to manage users, teams and workspaces. Priority support for seamless API collaboration.
 
 #### 💻 Desktop App Support for Self-Hosted Instances
 

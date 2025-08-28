@@ -13,17 +13,17 @@ useHead({
     {
       name: "description",
       content:
-        "2023 has been an exciting and productive year for us here at Hoppscotch. We look back on a year of progress and momentum with dozens of new features, hundreds of fixes and improvements, and thousands of happy customers.",
+        "2023 has been an exciting and productive year for us here at Hoppscotch. We look back on a year of progress and momentum with dozens of new features, hundreds of fixes and improvements and thousands of happy customers.",
     },
     {
       property: "og:description",
       content:
-        "2023 has been an exciting and productive year for us here at Hoppscotch. We look back on a year of progress and momentum with dozens of new features, hundreds of fixes and improvements, and thousands of happy customers.",
+        "2023 has been an exciting and productive year for us here at Hoppscotch. We look back on a year of progress and momentum with dozens of new features, hundreds of fixes and improvements and thousands of happy customers.",
     },
     {
       name: "twitter:description",
       content:
-        "2023 has been an exciting and productive year for us here at Hoppscotch. We look back on a year of progress and momentum with dozens of new features, hundreds of fixes and improvements, and thousands of happy customers.",
+        "2023 has been an exciting and productive year for us here at Hoppscotch. We look back on a year of progress and momentum with dozens of new features, hundreds of fixes and improvements and thousands of happy customers.",
     },
     {
       property: "og:image",
@@ -100,7 +100,7 @@ useHead({
             <p class="mb-8 mt-4">
               2023 has been an exciting and productive year for us here at
               Hoppscotch. We look back on a year of progress and momentum with
-              dozens of new features, hundreds of fixes and improvements, and
+              dozens of new features, hundreds of fixes and improvements and
               thousands of happy customers.
             </p>
             <hr
@@ -121,7 +121,7 @@ useHead({
               impactful companies, aiding them in their unique paths to success.
               But today, the spotlight isn't on the destination; it's on the
               trail traversed. It's about cherishing the journey of the past 365
-              days—a journey marked by growth, camaraderie, and innovation.
+              days—a journey marked by growth, camaraderie and innovation.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
@@ -129,7 +129,7 @@ useHead({
             <h4 class="mb-4 text-white">Growth</h4>
             <p class="mb-8 mt-4">
               2023 was a year of growth for Hoppscotch. We grew our user base,
-              our team, and our product. We also grew our community, which
+              our team and our product. We also grew our community, which
               remains at the heart of everything we do.
             </p>
             <p class="mb-8 mt-4">
@@ -143,13 +143,13 @@ useHead({
             <h4 class="mb-4 text-white">Community</h4>
             <p class="mb-8 mt-4">
               The Hoppscotch community is a vibrant and diverse group of
-              developers. They are the architects of the future, and we are
+              developers. They are the architects of the future and we are
               honored to be a part of their journey.
             </p>
             <p class="mb-8 mt-4">
               A true testament to the strength of our community is the fact that
               Hoppscotch is now available in 20 languages. 57,000+ GitHub stars,
-              4,000+ forks, and 200+ contributors are a few other metrics that
+              4,000+ forks and 200+ contributors are a few other metrics that
               highlight the community's passion and dedication.
             </p>
             <hr

@@ -13,17 +13,17 @@ useHead({
     {
       name: "description",
       content:
-        "We're excited to announce Hoppscotch v2025.3.0, bringing you new features, improvements, and fixes to enhance your API testing experience. This release makes managing organization users simpler and includes several app enhancements based on your feedback.",
+        "We're excited to announce Hoppscotch v2025.3.0, bringing you new features, improvements and fixes to enhance your API testing experience. This release makes managing organization users simpler and includes several app enhancements based on your feedback.",
     },
     {
       property: "og:description",
       content:
-        "We're excited to announce Hoppscotch v2025.3.0, bringing you new features, improvements, and fixes to enhance your API testing experience. This release makes managing organization users simpler and includes several app enhancements based on your feedback.",
+        "We're excited to announce Hoppscotch v2025.3.0, bringing you new features, improvements and fixes to enhance your API testing experience. This release makes managing organization users simpler and includes several app enhancements based on your feedback.",
     },
     {
       name: "twitter:description",
       content:
-        "We're excited to announce Hoppscotch v2025.3.0, bringing you new features, improvements, and fixes to enhance your API testing experience. This release makes managing organization users simpler and includes several app enhancements based on your feedback.",
+        "We're excited to announce Hoppscotch v2025.3.0, bringing you new features, improvements and fixes to enhance your API testing experience. This release makes managing organization users simpler and includes several app enhancements based on your feedback.",
     },
     {
       property: "og:image",
@@ -106,7 +106,7 @@ useHead({
               stands out as a powerful yet intuitive API development platform, empowering developers worldwide to streamline their API workflows.
             </p>
             <p class="mb-8 mt-4">
-              We're excited to announce Hoppscotch v2025.3.0, bringing you new features, improvements, and fixes to enhance your API testing experience.
+              We're excited to announce Hoppscotch v2025.3.0, bringing you new features, improvements and fixes to enhance your API testing experience.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"

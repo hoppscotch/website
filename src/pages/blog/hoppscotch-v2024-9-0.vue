@@ -1,17 +1,17 @@
 <script setup lang="ts">
 useHead({
   title:
-    "Hoppscotch v2024.9.0: Save API Responses, Predefined Variables, and more",
+    "Hoppscotch v2024.9.0: Save API Responses, Predefined Variables and more",
   meta: [
     {
       property: "og:title",
       content:
-        "Hoppscotch v2024.9.0: Save API Responses, Predefined Variables, and more",
+        "Hoppscotch v2024.9.0: Save API Responses, Predefined Variables and more",
     },
     {
       name: "twitter:title",
       content:
-        "Hoppscotch v2024.9.0: Save API Responses, Predefined Variables, and more",
+        "Hoppscotch v2024.9.0: Save API Responses, Predefined Variables and more",
     },
     {
       name: "description",

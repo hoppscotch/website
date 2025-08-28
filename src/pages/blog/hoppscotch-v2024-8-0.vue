@@ -1,17 +1,17 @@
 <script setup lang="ts">
 useHead({
   title:
-    "Hoppscotch v2024.8.0: AWS Signature, Workspace Management APIs, and more",
+    "Hoppscotch v2024.8.0: AWS Signature, Workspace Management APIs and more",
   meta: [
     {
       property: "og:title",
       content:
-        "Hoppscotch v2024.8.0: AWS Signature, Workspace Management APIs, and more",
+        "Hoppscotch v2024.8.0: AWS Signature, Workspace Management APIs and more",
     },
     {
       name: "twitter:title",
       content:
-        "Hoppscotch v2024.8.0: AWS Signature, Workspace Management APIs, and more",
+        "Hoppscotch v2024.8.0: AWS Signature, Workspace Management APIs and more",
     },
     {
       name: "description",
@@ -107,7 +107,7 @@ useHead({
               easier for developers to test APIs directly from their browser
               without logging in (hoppscotch.io). Today, we've evolved far
               beyond that initial vision. Hoppscotch now features a Self-Hosted
-              Edition, giving you greater control over your data, and a Desktop
+              Edition, giving you greater control over your data and a Desktop
               Application for a smoother, faster experience.
             </p>
             <p class="mb-8 mt-4">
@@ -206,7 +206,7 @@ useHead({
             <p class="mb-8 mt-4">
               Admins using the Self-Hosted Enterprise Edition can now manage
               workspaces more easily with simple API calls. Tasks such as
-              creating new workspaces, updating existing workspace details, and
+              creating new workspaces, updating existing workspace details and
               deleting workspaces can be performed with just a single click.
             </p>
             <hr

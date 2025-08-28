@@ -15,7 +15,7 @@ author: "Kiran Johns"
 
 ## Release Notes - v2025.3.0
 
-Deactivate an organization user, app improvements, and bug fixes! 🚀
+Deactivate an organization user, app improvements and bug fixes! 🚀
 
 <TypeBadge type="new features"/>
 <TypeBadge type="improvements"/>
