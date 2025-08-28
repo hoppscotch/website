@@ -151,12 +151,44 @@ useHead({
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
+            <h4 class="mb-4 text-white">Advanced OAuth Parameters</h4>
+            <p class="mb-8 mt-4">
+              We've added support for additional parameters across OAuth 2.0 grant
+              types, including <strong>implicit</strong>, <strong>password</strong>, and
+              <strong>client_credentials</strong>. This gives you more flexibility when
+              integrating with different providers. Configure the extra fields in the
+              Authorization panel as required by your identity provider.
+            </p>
+            <hr
+              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
+            />
             <h4 class="mb-4 text-white">OpenAPI Import: Body Schemas</h4>
             <p class="mb-8 mt-4">
               The OpenAPI importer now understands body schemas for POST/PUT,
               making generated requests more complete and accurate out of the
               box.
             </p>
+            <hr
+              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
+            />
+            <h4 class="mb-4 text-white">OpenTelemetry Integration (Enterprise Edition)</h4>
+            <p class="mb-8 mt-4">
+              Enterprise Edition now integrates with <strong>OpenTelemetry</strong> to emit
+              traces, metrics, and logs from Hoppscotch services. Forward telemetry via
+              <strong>OTLP</strong> to your observability backend (for example, Jaeger, Tempo,
+              Datadog, or Honeycomb) to gain deep visibility into request flows and
+              performance across your stack.
+            </p>
+            <section class="max-w-4xl">
+              <ImageZoom
+                class="h-full w-full rounded md:rounded-xl"
+                src="/images/blog-v2025-8-0-3.png"
+                width="352"
+                height="198"
+                alt="OpenTelemetry Integration (Enterprise Edition)"
+              />
+            </section>
+            <br />
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
