@@ -30,6 +30,18 @@ Collection Sorting, Experimental hopp Scripting Namespace, Enhanced Security Upd
 - Improved UI interactions including better sidebar indentation and modal handling.
 - New experimental hopp scripting namespace for future-proof script development.
 
+<br/>
+
+It is not recommended to migrate or reformat your existing scripts to the new scripting APIs at this time. Upcoming updates are expected to introduce breaking changes as we continue to refine and improve the scripting experience.
+
+<br/>
+
+The current rollout is intentionally gradual, allowing us to gather user feedback and iterate based on real-world usage.
+
+<br/>
+
+All further updates to scripting will be scoped to the experimental scripting sandbox, which is the default, and the preference can be updated from Settings → Experiments.
+
 <br/><br/>
 
 <Row>

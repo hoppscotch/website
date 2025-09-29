@@ -180,6 +180,13 @@ useHead({
               />
             </section>
             <br />
+            <p class="mb-8 mt-4">
+              It is not recommended to migrate or reformat your existing scripts to the new scripting APIs at this time. Upcoming updates are expected to introduce breaking changes as we continue to refine and improve the scripting experience.
+              <br /><br />
+              The current rollout is intentionally gradual, allowing us to gather user feedback and iterate based on real-world usage.
+              <br/><br />
+              All further updates to scripting will be scoped to the experimental scripting sandbox, which is the default, and the preference can be updated from Settings → Experiments.
+            </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
