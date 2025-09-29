@@ -1,7 +1,23 @@
 [
   {
+    "name": "Release Notes - v2025.9.0",
+    "description": "Collection Sorting, Experimental hopp Scripting Namespace, Enhanced Security Updates and more...",
+    "image": "release-2025-9-0.png",
+    "created_at": "2025-9-29",
+    "published_at": "2025-9-29",
+    "author": {
+      "name": "Liyas Thomas",
+      "image": "blog-author-01.jpg"
+    },
+    "slug": "release-notes-v2025-9-0",
+    "title": "Release Notes - v2025.9.0",
+    "banner": "release-2025-9-0.png",
+    "styles": "md:col-span-6",
+    "tags": []
+  },
+  {
     "name": "Release Notes - v2025.8.0",
-    "description": "Collection Variables, structured JSON data support, Bug Fixes and More...",
+    "description": "Collection Variables, structured JSON data support, Bug Fixes and more...",
     "image": "release-2025-8-0.png",
     "created_at": "2025-8-28",
     "published_at": "2025-8-28",
@@ -17,7 +33,7 @@
   },
   {
     "name": "Release Notes - v2025.7.0",
-    "description": "Improved Self-Hosted Onboarding Flow, Authorization Panel UI, Experimental Scripting Editor, Bug Fixes and More...",
+    "description": "Improved Self-Hosted Onboarding Flow, Authorization Panel UI, Experimental Scripting Editor, Bug Fixes and more...",
     "image": "release-2025-7-0.png",
     "created_at": "2025-7-30",
     "published_at": "2025-7-30",
@@ -33,7 +49,7 @@
   },
   {
     "name": "Release Notes - v2025.6.0",
-    "description": "Improved Variable Scope, Keyboard Shortcuts for Desktop App, Bug Fixes and More...",
+    "description": "Improved Variable Scope, Keyboard Shortcuts for Desktop App, Bug Fixes and more...",
     "image": "release-2025-6-0.png",
     "created_at": "2025-6-26",
     "published_at": "2025-6-26",
@@ -49,7 +65,7 @@
   },
   {
     "name": "Release Notes - v2025.5.0",
-    "description": "User Groups, Improved Auth Types, Bug Fixes and More...",
+    "description": "User Groups, Improved Auth Types, Bug Fixes and more...",
     "image": "release-2025-5-0.png",
     "created_at": "2025-5-28",
     "published_at": "2025-5-28",
@@ -65,7 +81,7 @@
   },
   {
     "name": "Release Notes - v2025.4.0",
-    "description": "Hawk Auth, Admin dashboard UX Upgrade & More...",
+    "description": "Hawk Auth, Admin dashboard UX Upgrade and more...",
     "image": "release-2025-3-0.png",
     "created_at": "2025-4-30",
     "published_at": "2025-4-30",
@@ -81,7 +97,7 @@
   },
   {
     "name": "Release Notes - v2025.3.0",
-    "description": "Deactivate an organization user, App improvements & more...",
+    "description": "Deactivate an organization user, App improvements and more...",
     "image": "release-2025-3-0.png",
     "created_at": "2025-3-28",
     "published_at": "2025-3-28",
@@ -97,7 +113,7 @@
   },
   {
     "name": "Release Notes - v2025.2.0",
-    "description": "Cloud for Organizations, Desktop App for Self-Host and more!",
+    "description": "Cloud for Organizations, Desktop App for Self-Host and more...",
     "image": "release-2025-2-0.png",
     "created_at": "2025-2-27",
     "published_at": "2025-2-27",
@@ -113,7 +129,7 @@
   },
   {
     "name": "Release Notes - v2025.1.0",
-    "description": "SCIM, Workspace Acivity Logs and more.",
+    "description": "SCIM, Workspace Acivity Logs and more...",
     "image": "release-2025-1-0.png",
     "created_at": "2025-1-30",
     "published_at": "2025-1-30",
@@ -129,7 +145,7 @@
   },
   {
     "name": "Release Notes - v2024.12.0",
-    "description": "Generate scripts with AI, Sync admin role from SAML and more.",
+    "description": "Generate scripts with AI, Sync admin role from SAML and more...",
     "image": "release-2024-12-0.png",
     "created_at": "2024-12-23",
     "published_at": "2024-12-23",
@@ -145,7 +161,7 @@
   },
   {
     "name": "Release Notes - v2024.11.0",
-    "description": "Collection runner, Send binary files in request body, form-data content types and more",
+    "description": "Collection runner, Send binary files in request body, form-data content types and more...",
     "image": "release-2024-11-0.png",
     "created_at": "2024-11-28",
     "published_at": "2024-11-28",
@@ -161,7 +177,7 @@
   },
   {
     "name": "Release Notes - v2024.10.0",
-    "description": "Digest Auth, CA and Client Certificates, Parameter Encoding and more",
+    "description": "Digest Auth, CA and Client Certificates, Parameter Encoding and more...",
     "image": "release-2024-10-0.png",
     "created_at": "2024-10-31",
     "published_at": "2024-10-31",
@@ -177,7 +193,7 @@
   },
   {
     "name": "Release Notes - v2024.9.0",
-    "description": "Hoppscotch Agent, Save API Responses, Predefined Variables & more.",
+    "description": "Hoppscotch Agent, Save API Responses, Predefined Variables and more...",
     "image": "release-2024-9-0.png",
     "created_at": "2024-09-30",
     "published_at": "2024-09-30",
@@ -193,7 +209,7 @@
   },
   {
     "name": "Release Notes - v2024.8.0",
-    "description": "AWS Signature, HAR File Imports, Header Descriptions",
+    "description": "AWS Signature, HAR File Imports, Header Descriptions and more...",
     "image": "release-2024-8-0.png",
     "created_at": "2024-08-30",
     "published_at": "2024-08-30",
