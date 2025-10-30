@@ -1,5 +1,18 @@
 [
   {
+    "slug": "hoppscotch-v2025-10-0",
+    "title": "Hoppscotch v2025.10.0: API Mock Servers, Chai.js-based Assertions in Scripts and more",
+    "description": "We're excited to announce Hoppscotch v2025.10.0, featuring API Mock Servers, Chai.js-based assertions in scripts, enhanced testing capabilities and more.",
+    "banner": "blog-v2025-10-0.png",
+    "date": "2025-10-30",
+    "author": {
+      "name": "Liyas Thomas",
+      "image": "blog-author-01.jpg"
+    },
+    "styles": "md:col-span-12",
+    "tags": ["Product"]
+  },
+  {
     "slug": "hoppscotch-v2025-9-0",
     "title": "Hoppscotch v2025.9.0: Sort Collections, New Experimental Scripting Namespace and more",
     "description": "We're excited to announce Hoppscotch v2025.9.0, featuring collection sorting, improved workspace management, enhanced security updates and better UI interactions.",

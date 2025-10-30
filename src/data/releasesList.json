@@ -1,5 +1,21 @@
 [
   {
+    "name": "Release Notes - v2025.10.0",
+    "description": "API Mock Servers, Chai.js-based Assertions with Postman Compatibility, Agent Redirect Control, Auth Improvements and more...",
+    "image": "release-2025-10-0.png",
+    "created_at": "2025-10-30",
+    "published_at": "2025-10-30",
+    "author": {
+      "name": "Liyas Thomas",
+      "image": "blog-author-01.jpg"
+    },
+    "slug": "release-notes-v2025-10-0",
+    "title": "Release Notes - v2025.10.0",
+    "banner": "release-2025-10-0.png",
+    "styles": "md:col-span-6",
+    "tags": []
+  },
+  {
     "name": "Release Notes - v2025.9.0",
     "description": "Collection Sorting, Experimental hopp Scripting Namespace, Enhanced Security Updates and more...",
     "image": "release-2025-9-0.png",
