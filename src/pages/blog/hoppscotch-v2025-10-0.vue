@@ -1,17 +1,17 @@
 <script setup lang="ts">
 useHead({
   title:
-    "Hoppscotch v2025.10.0: API Mock Servers, Chai.js-based Assertions in Scripts and more",
+    "Hoppscotch v2025.10.0: API Mock Servers, Postman Script Import Support, Chai.js Assertions and more",
   meta: [
     {
       property: "og:title",
       content:
-        "Hoppscotch v2025.10.0: API Mock Servers, Chai.js-based Assertions in Scripts and more",
+        "Hoppscotch v2025.10.0: API Mock Servers, Postman Script Import Support, Chai.js Assertions and more",
     },
     {
       name: "twitter:title",
       content:
-        "Hoppscotch v2025.10.0: API Mock Servers, Chai.js-based Assertions in Scripts and more",
+        "Hoppscotch v2025.10.0: API Mock Servers, Postman Script Import Support, Chai.js Assertions and more",
     },
     {
       name: "description",
@@ -73,7 +73,7 @@ useHead({
               <span
                 class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text text-transparent"
               >
-                Hoppscotch v2025.10.0: API Mock Servers, Chai.js-based Assertions in Scripts and more
+                Hoppscotch v2025.10.0: API Mock Servers, Postman Script Import Support, Chai.js Assertions and more
               </span>
             </h3>
             <div class="flex items-center">
@@ -103,7 +103,8 @@ useHead({
             <p class="mb-8 mt-4">
               We're excited to announce Hoppscotch v2025.10.0, featuring
               <strong>API Mock Servers</strong> for simulating API responses,
-              <strong>Chai.js-based assertions</strong> with Postman compatibility layer in scripts,
+              <strong>Experimental Postman script import support</strong> to help you migrate your existing collections,
+              <strong>Chai.js-based assertions</strong> for powerful test scripting,
               <strong>redirect control in Agent</strong>,
               <strong>enhanced authentication flows</strong>, and numerous improvements to make your API development workflow even more efficient.
             </p>
@@ -139,13 +140,19 @@ useHead({
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
-            <h4 class="mb-4 text-white">Chai.js-based Assertions with Postman Compatibility</h4>
+            <h4 class="mb-4 text-white">Experimental Postman Script Import Support</h4>
             <p class="mb-8 mt-4">
-              We've integrated the Chai.js assertion library into our scripting environment with
-              a Postman compatibility layer, making it easier than ever to migrate your existing
-              test scripts. Use familiar Chai syntax to validate responses, check data structures,
-              and ensure your APIs behave as expected - all while maintaining compatibility with
-              Postman script patterns.
+              One of the most significant additions in this release is our <strong>experimental support
+              for importing Postman scripts</strong> during the collection import flow. This feature
+              is designed to help teams migrate from Postman to Hoppscotch by preserving their
+              existing test scripts and automation logic.
+            </p>
+            <p class="mb-8 mt-4">
+              <strong>How it works:</strong> When importing a Postman collection (v2.0 or v2.1 format),
+              you'll be presented with a consent dialog explaining the experimental nature of this
+              feature. Upon your explicit approval, Hoppscotch will attempt to import pre-request
+              and test scripts from your collection, translating Postman's scripting patterns into
+              our Chai.js-based environment.
             </p>
             <section class="max-w-4xl">
               <ImageZoom
@@ -153,16 +160,57 @@ useHead({
                 src="/images/blog-v2025-10-0-2.png"
                 width="352"
                 height="198"
-                alt="Chai.js-based Assertions"
+                alt="Postman Script Import"
               />
             </section>
             <br />
             <p class="mb-8 mt-4">
+              <strong>Important considerations:</strong>
+            </p>
+            <ul class="mb-8 list-inside list-disc space-y-2">
+              <li>
+                <strong>Experimental Feature:</strong> This capability is currently in experimental
+                stage. While it handles many common Postman scripting patterns, you may encounter
+                edge cases that require manual adjustment.
+              </li>
+              <li>
+                <strong>User Consent Required:</strong> Script import is opt-in only. You'll need to
+                explicitly approve the import during the collection import process, ensuring you're
+                aware of what's being migrated.
+              </li>
+              <li>
+                <strong>Supported Formats:</strong> We support Postman collection v2.0 and v2.1 formats.
+                Collections using these versions will have the best compatibility with our import system.
+              </li>
+              <li>
+                <strong>Known Limitations:</strong> Some legacy Postman patterns and deprecated APIs
+                may not be fully supported. Complex custom libraries, certain Newman-specific features,
+                and some older scripting patterns might require manual migration. We recommend reviewing
+                imported scripts to ensure they work as expected in Hoppscotch's environment.
+              </li>
+            </ul>
+            <p class="mb-8 mt-4">
+              This feature represents our commitment to making the migration from Postman as smooth
+              as possible. We're actively working to expand coverage and improve compatibility based
+              on community feedback.
+            </p>
+            <hr
+              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
+            />
+            <h4 class="mb-4 text-white">Chai.js-based Assertions for Powerful Testing</h4>
+            <p class="mb-8 mt-4">
+              Building upon the Postman script import capability, we've integrated the Chai.js
+              assertion library into our scripting environment. This provides a robust, modern
+              foundation for writing test scripts with familiar, expressive syntax. Use Chai to
+              validate responses, check data structures, and ensure your APIs behave as expected.
+            </p>
+            <p class="mb-8 mt-4">
               With support for BDD-style assertions (expect/should) and TDD-style assertions (assert),
               you can write more readable and maintainable test scripts. Chain assertions together
               for comprehensive validation of API responses, including deep equality checks, type
-              validation, and more. The enhanced scripting sandbox now preserves file uploads and
-              provides improved value handling and serialization for more reliable test execution.
+              validation, property existence checks, and more. The enhanced scripting sandbox now
+              preserves file uploads and provides improved value handling and serialization for
+              more reliable test execution.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
