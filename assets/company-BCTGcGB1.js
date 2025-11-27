@@ -1,0 +1,1 @@
+import{u as e}from"./vue.-sixQ7xP-DTC_9rDL.js";import{d as o}from"./app-Dxt2aQNI.js";const a=o({__name:"company",setup(t){return e({title:"Company • Hoppscotch",meta:[{name:"description",content:"We're the humans behind Hoppscotch."}]}),()=>{}}});export{a as default};
