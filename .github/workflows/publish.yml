@@ -1,0 +1,25 @@
+on: [push]
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      # build your site for deployment... in this case the `public` folder is being deployed
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Build Site
+        run: |
+          npm install
+          npm run build
+
+      - name: Publish
+        uses: South-Paw/action-netlify-cli@v2
+        id: netlify
+        with:
+          # be sure to escape any double quotes with a backslash
+          args: 'deploy --json --dir \"./public\" --message \"draft [${{ github.sha }}]\"'
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
+      # and access outputs in other steps with ${{ steps.netlify.outputs.OUTPUT_ID }}

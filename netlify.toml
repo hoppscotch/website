@@ -1,8 +1,3 @@
-[functions]
-included_files = ["./netlify/functions/templates/**"]
-node_bundler = "esbuild"
-external_node_modules = ["@sparticuz/chromium"]
-
 [[redirects]]
 from = "/download/app/*"
 to = "https://github.com/hoppscotch/releases/releases/latest/download/:splat"
