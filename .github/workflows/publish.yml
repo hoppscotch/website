@@ -1,30 +1,35 @@
-on: [push]
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: write
 jobs:
-  publish:
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
     runs-on: ubuntu-latest
     steps:
-      # build your site for deployment... in this case the `public` folder is being deployed
-      - name: Checkout
-        uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
         with:
           version: 9
 
-      - name: Build Site
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "pnpm"
+
+      - name: Install and Build # This example project is built using pnpm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
         run: |
           pnpm install
           pnpm run build
 
-      - name: Publish
-        uses: South-Paw/action-netlify-cli@v2
-        id: netlify
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          # be sure to escape any double quotes with a backslash
-          args: 'deploy --json --prod --dir \"./dist\" --message \"production [${{ github.sha }}]\"'
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-
-      # and access outputs in other steps with ${{ steps.netlify.outputs.OUTPUT_ID }}
+          folder: dist # The folder the action should deploy.
