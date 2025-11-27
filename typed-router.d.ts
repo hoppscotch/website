@@ -46,7 +46,6 @@ declare module 'vue-router/auto-routes' {
     '/blog/introducing-hoppscotch-desktop-application': RouteRecordInfo<'/blog/introducing-hoppscotch-desktop-application', '/blog/introducing-hoppscotch-desktop-application', Record<never, never>, Record<never, never>>,
     '/blog/introducing-hoppscotch-enterprise-edition': RouteRecordInfo<'/blog/introducing-hoppscotch-enterprise-edition', '/blog/introducing-hoppscotch-enterprise-edition', Record<never, never>, Record<never, never>>,
     '/blog/introducing-secret-variables': RouteRecordInfo<'/blog/introducing-secret-variables', '/blog/introducing-secret-variables', Record<never, never>, Record<never, never>>,
-    '/blog/sample-post': RouteRecordInfo<'/blog/sample-post', '/blog/sample-post', Record<never, never>, Record<never, never>>,
     '/brand': RouteRecordInfo<'/brand', '/brand', Record<never, never>, Record<never, never>>,
     '/careers': RouteRecordInfo<'/careers', '/careers', Record<never, never>, Record<never, never>>,
     '/changelog/': RouteRecordInfo<'/changelog/', '/changelog', Record<never, never>, Record<never, never>>,
