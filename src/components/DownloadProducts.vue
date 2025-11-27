@@ -54,6 +54,10 @@ const platforms: DownloadablePlatform[] = [
         name: "Download for Windows",
         url: "https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_win_x64.msi",
       },
+      {
+        name: "Download for Windows &nbsp; ~ &nbsp; Portable",
+        url: "https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_Cloud_win_x64_portable.zip",
+      },
     ],
   },
   {
