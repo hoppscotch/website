@@ -1,5 +1,18 @@
 [
   {
+    "slug": "hoppscotch-v2025-11-0",
+    "title": "Hoppscotch v2025.11.0: API Documentation [Beta], Scripting, API Mocking Enhancements, and Portable Desktop Apps",
+    "description": "We're excited to announce Hoppscotch v2025.11.0, featuring API Documentation [Beta], a scripting revamp, mocking enhancements, and portable desktop apps.",
+    "banner": "blog-v2025-11-0.png",
+    "date": "2025-11-27",
+    "author": {
+      "name": "Liyas Thomas",
+      "image": "blog-author-01.jpg"
+    },
+    "styles": "md:col-span-12",
+    "tags": ["Product"]
+  },
+  {
     "slug": "hoppscotch-v2025-10-0",
     "title": "Hoppscotch v2025.10.0: API Mock Servers, Chai.js-based Assertions in Scripts and more",
     "description": "We're excited to announce Hoppscotch v2025.10.0, featuring API Mock Servers, Chai.js-based assertions in scripts, enhanced testing capabilities and more.",
@@ -9,7 +22,7 @@
       "name": "Liyas Thomas",
       "image": "blog-author-01.jpg"
     },
-    "styles": "md:col-span-12",
+    "styles": "md:col-span-6",
     "tags": ["Product"]
   },
   {
@@ -22,7 +35,7 @@
       "name": "Liyas Thomas",
       "image": "blog-author-01.jpg"
     },
-    "styles": "md:col-span-12",
+    "styles": "md:col-span-6",
     "tags": ["Product"]
   },
   {
