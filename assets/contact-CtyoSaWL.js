@@ -1,0 +1,1 @@
+import{u as t}from"./vue.-sixQ7xP-BKMIzeAL.js";import{d as e,r as n,o as c,y as a}from"./app-8Q9p2Ntk.js";const i=e({__name:"contact",setup(r){return t({title:"Contact • Hoppscotch",meta:[{name:"description",content:"Contact Hoppscotch"}]}),(s,p)=>{const o=n("ContactForm");return c(),a(o)}}});export{i as default};
