@@ -46,6 +46,9 @@ API Documentation (Beta), Scripting Revamp, Portable Desktop Apps, Mock Server E
 
 <br /><br />
 
+This update includes new features and core desktop improvements. Your data will be backed up automatically. If needed, see [<u>Downgrading and Restoring Backups</u>](https://docs.hoppscotch.io/guides/articles/downgrading-and-restoring-backups).
+
+<br /><br />
 
 #### 👉 [Read the full release blog](https://hoppscotch.com/blog/hoppscotch-v2025-11-0)
 
