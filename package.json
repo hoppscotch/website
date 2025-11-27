@@ -59,7 +59,7 @@
     "unplugin-icons": "^22.2.0",
     "unplugin-vue-components": "^28.8.0",
     "unplugin-vue-router": "^0.11.2",
-    "vite": "^6.0.11",
+    "vite": "^6.4.1",
     "vite-plugin-image-optimizer": "^1.1.8",
     "vite-plugin-md": "^0.21.5",
     "vite-plugin-vue-layouts": "^0.11.0",
