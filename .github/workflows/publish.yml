@@ -7,10 +7,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 9
+
       - name: Build Site
         run: |
-          npm install
-          npm run build
+          pnpm install
+          pnpm run build
 
       - name: Publish
         uses: South-Paw/action-netlify-cli@v2
