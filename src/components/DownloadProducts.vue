@@ -141,7 +141,7 @@ const handlePlatformChange = (newPlatform: DownloadablePlatformType) => {
             Hoppscotch Client
           </h2>
           <p class="text-zinc-400/80">
-            Download (alpha release) for Mac, Windows, Linux — Web and CLI.
+            Download for Mac, Windows, Linux — Web and CLI.
           </p>
         </div>
         <!-- Section content -->
