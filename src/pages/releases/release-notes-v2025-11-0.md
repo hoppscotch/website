@@ -42,6 +42,10 @@ API Documentation (Beta), Scripting Revamp, Portable Desktop Apps, Mock Server E
 
 <br /><br />
 
+- **CLI Updates:** The minimum supported Node.js version for the CLI is now `v22`. If you're on Node.js `v20` (EOL in April, 2026), you can continue using CLI `v0.26.0` alongside `v2025.10.1` of the Hoppscotch app. Future CLI versions will require Node.js v22 or higher.
+
+<br /><br />
+
 - **Other Improvements:** Added platform-specific import support for personal collections, improved Profile Page UX with routing, and new keybindings for erasing responses.
 
 <br /><br />
@@ -66,6 +70,5 @@ This update includes new features and core desktop improvements. Your data will 
   <Fixed>
     <li>Collection variable referencing issues</li>
     <li>Duplicate active indicators for requests</li>
-    <li>API documentation UI flow improvements</li>
   </Fixed>
 </Row>
