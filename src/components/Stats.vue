@@ -6,7 +6,7 @@
           preserveAspectRatio="xMinYMin"
           width="100%"
           xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 46 16"
+          viewBox="0 0 74 14"
           class="relative z-10"
         >
           <text
@@ -22,7 +22,7 @@
             paint-order="stroke"
             class="fill-zinc-900/20 stroke-zinc-800"
           >
-            500K
+            5000000
           </text>
         </svg>
         <div class="absolute inset-0 z-20 flex items-center justify-center">
@@ -31,7 +31,7 @@
             class="text-md max-w-xl text-center font-inter font-semibold tracking-tight text-zinc-500 md:text-4xl"
           >
             Hoppscotch processes over <br />
-            <span class="text-zinc-50">500 thousand requests per week</span>
+            <span class="text-zinc-50">5M+ requests</span> every month
           </p>
         </div>
       </div>
