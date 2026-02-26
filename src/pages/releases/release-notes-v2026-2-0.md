@@ -1,7 +1,7 @@
 ---
 name: "Release Notes - v2026.2.0"
 title: "Release Notes - v2026.2.0"
-description: "URL Encoding, API Docs Versioning, Stronger Security and more..."
+description: "URL Encoding of Highlighted Text, API Docs Versioning, Stronger Security and more..."
 image: /images/release-2026-2-0.png
 meta:
   - created_at: "2026-02-26"
@@ -14,7 +14,7 @@ author: "Liyas Thomas"
 
 ## Release Notes - v2026.2.0
 
-URL Encoding, API Docs Versioning, Stronger Security and more! 🚀
+URL Encoding of Highlighted Text, API Docs Versioning, Stronger Security and more! 🚀
 
 <TypeBadge type="new features"/>
 <TypeBadge type="improvements"/>
