@@ -37,6 +37,7 @@ declare module 'vue' {
     ChangeLog23042023: typeof import('./src/components/ChangeLog/ChangeLog23042023.vue')['default']
     ChangeLog24122023: typeof import('./src/components/ChangeLog/ChangeLog24122023.vue')['default']
     ChangeLog26022024: typeof import('./src/components/ChangeLog/ChangeLog26022024.vue')['default']
+    ChangeLog26022026: typeof import('./src/components/ChangeLog/ChangeLog26022026.vue')['default']
     ChangeLog27062023: typeof import('./src/components/ChangeLog/ChangeLog27062023.vue')['default']
     ChangeLog28032024: typeof import('./src/components/ChangeLog/ChangeLog28032024.vue')['default']
     ChangeLog31012024: typeof import('./src/components/ChangeLog/ChangeLog31012024.vue')['default']
