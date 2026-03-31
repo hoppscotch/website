@@ -67,14 +67,13 @@ This update includes new features and important security fixes. Your data will b
     <li>Validated device-login redirect URI to prevent token theft via DNS rebinding</li>
     <li>OAuth2 code challenge method selection now persists correctly</li>
     <li>Keyboard shortcuts now work on non-English keyboard layouts</li>
-    <li>Restored numpad support for first/last tab shortcuts</li>
     <li>Fixed infinite auth refresh retry loop on permanent token errors</li>
     <li>Full team collection tree is now fetched on workspace import</li>
     <li>Restored tooltips on icon-only buttons inside popover triggers</li>
     <li>Operation title used as fallback name in OpenAPI imports</li>
     <li>File objects in HAR postData text are now handled correctly</li>
     <li>Newly created folders now appear in the save-as dialog</li>
-    <li>Fixed missing field and translateToNewRequest for history</li>
+    <li>Resolved history schema validation error on page reload</li>
     <li>Updated dependencies to address security vulnerabilities and hardened production image</li>
     <li>Updated Chinese translations</li>
   </Fixed>
