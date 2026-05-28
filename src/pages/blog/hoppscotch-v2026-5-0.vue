@@ -16,17 +16,17 @@ useHead({
     {
       name: "description",
       content:
-        "We're excited to announce Hoppscotch v2026.5.0, featuring OpenAPI 3.1 collection export, configurable proxy URL, desktop zoom controls, Mongolian translation, a secret variable security fix, and supply chain hardening.",
+        "We're excited to announce Hoppscotch v2026.5.0, featuring OpenAPI 3.1 collection export, configurable proxy URL, desktop zoom controls, Mongolian translation, stronger secret variable handling, and onboarding hardening.",
     },
     {
       property: "og:description",
       content:
-        "We're excited to announce Hoppscotch v2026.5.0, featuring OpenAPI 3.1 collection export, configurable proxy URL, desktop zoom controls, Mongolian translation, a secret variable security fix, and supply chain hardening.",
+        "We're excited to announce Hoppscotch v2026.5.0, featuring OpenAPI 3.1 collection export, configurable proxy URL, desktop zoom controls, Mongolian translation, stronger secret variable handling, and onboarding hardening.",
     },
     {
       name: "twitter:description",
       content:
-        "We're excited to announce Hoppscotch v2026.5.0, featuring OpenAPI 3.1 collection export, configurable proxy URL, desktop zoom controls, Mongolian translation, a secret variable security fix, and supply chain hardening.",
+        "We're excited to announce Hoppscotch v2026.5.0, featuring OpenAPI 3.1 collection export, configurable proxy URL, desktop zoom controls, Mongolian translation, stronger secret variable handling, and onboarding hardening.",
     },
     {
       property: "og:image",
@@ -104,10 +104,10 @@ useHead({
             <p class="mb-8 mt-4">
               We're excited to announce the release of Hoppscotch v2026.5.0!
               This update brings OpenAPI 3.1 collection export, a configurable
-              proxy URL for self-hosted teams, zoom level controls in the desktop
-              app, Mongolian language support, a critical fix preventing secret
-              variables from leaking to the backend, and ongoing supply chain
-              security hardening.
+              proxy URL for self-hosted Community Edition deployments, zoom
+              level controls in the desktop app, Mongolian language support,
+              and stronger security protections across secret variable handling
+              and fresh-install onboarding.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
@@ -140,9 +140,12 @@ useHead({
               Configurable Proxy URL (Self-Hosted)
             </h4>
             <p class="mb-8 mt-4">
-              Self-hosted instances can now configure the proxy URL via
-              environment variables or through the admin dashboard — no more
-              redeployments just to update your proxy routing. This gives
+              Self-hosted Community Edition deployments can now configure the
+              Proxy URL from
+              <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
+                >PROXY_APP_URL</code
+              >
+              environment variable or the Admin Dashboard. This gives
               infrastructure teams more flexibility when managing network
               policies and simplifies proxy management across environments.
             </p>
@@ -192,16 +195,17 @@ useHead({
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
-            <h4 class="mb-4 text-white">Supply Chain Security Hardening</h4>
+            <h4 class="mb-4 text-white">Security Hardening</h4>
             <p class="mb-8 mt-4">
-              This release continues our investment in supply chain security.
-              We've applied a dependency chain security patch and enforced
+              Fresh-install onboarding now strips and rejects unknown DTO
+              fields, preventing mass-assignment of sensitive configuration like
               <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
-                >minimumReleaseAge</code
+                >JWT_SECRET</code
               >
-              across our Renovate configuration, ensuring that newly published
-              dependency versions go through an observation window before being
-              adopted — reducing exposure to newly introduced malicious packages.
+              or
+              <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
+                >SESSION_SECRET</code
+              >.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
@@ -212,20 +216,8 @@ useHead({
             </p>
             <ul class="mb-8 list-inside list-disc space-y-2">
               <li>
-                Collection tree structure is now preserved when re-importing an
-                OpenAPI spec, preventing unexpected flattening or reordering.
-              </li>
-              <li>
-                Fixed a class validation issue for
-                <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
-                  >updateRESTUserRequest</code
-                >
-                that could cause request update failures.
-              </li>
-              <li>
-                Resolved app load type mismatches and a shell import alias issue
-                in the desktop app that could prevent it from starting correctly
-                in some configurations.
+                Fixed REST request update failures caused by backend validation
+                handling.
               </li>
             </ul>
             <hr

@@ -30,7 +30,7 @@ OpenAPI 3.1 Export, Proxy Configuration, Desktop Zoom, Mongolian Translation, Se
 
 <br /><br />
 
-- **Configurable Proxy URL:** The proxy URL can now be set via environment variables and configured directly from the admin dashboard, giving self-hosted teams full control over proxy routing without redeployment.
+- **Configurable Proxy URL:** The proxy URL can now be set via environment variables and configured directly from the admin dashboard, giving self-hosted Community Edition deployments full control over proxy routing without redeployment.
 
 <br /><br />
 
@@ -42,11 +42,15 @@ OpenAPI 3.1 Export, Proxy Configuration, Desktop Zoom, Mongolian Translation, Se
 
 <br /><br />
 
-- **Secret Variable Leak Fix:** Secret variable values are no longer sent to the backend, closing a potential data exposure path and keeping your sensitive credentials client-side only.
+- **Secret Variable Leak Fix:** Secret variable values from collections and environments are no longer sent to the backend, closing a potential data exposure path and keeping your sensitive credentials client-side only.
 
 <br /><br />
 
-- **Security Patches:** This release includes dependency chain hardening with `minimumReleaseAge` enforcement and a security patch across the supply chain.
+- **Security Patches:** Updated vulnerable dependencies and Docker build components as part of the v2026.5.0 security patch cycle.
+
+<br /><br />
+
+- **Onboarding Hardening:** Fresh-install onboarding is now hardened against mass-assignment of sensitive configuration fields.
 
 <br /><br />
 
@@ -66,12 +70,10 @@ This update includes new features and important security fixes. Your data will b
     <li>Mongolian language translation</li>
   </Added>
   <Fixed>
-    <li>Secret variable values no longer leak to the backend</li>
-    <li>Collection tree is now preserved on OpenAPI re-import</li>
-    <li>Class validation issue for updateRESTUserRequest</li>
-    <li>Desktop app load types aligned and shell import alias resolved</li>
+    <li>Secret variable values from collections and environments are no longer sent to the backend</li>
+    <li>Fixed REST request update failures caused by backend validation handling</li>
     <li>Proxy settings are now awaited before issuing requests</li>
-    <li>Security patch for dependency chain (supply chain hardening)</li>
-    <li>Enforced minimumReleaseAge for supply chain hardening</li>
+    <li>Updated vulnerable dependencies and Docker build components as part of the v2026.5.0 security patch cycle</li>
+    <li>Hardened fresh-install onboarding against mass-assignment of sensitive configuration fields</li>
   </Fixed>
 </Row>
