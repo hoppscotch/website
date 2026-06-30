@@ -1,32 +1,32 @@
 <script setup lang="ts">
 useHead({
   title:
-    "Hoppscotch v2026.6.0: Desktop Cookie Persistence, Security Hardening, Mock Server Reliability and more",
+    "Hoppscotch v2026.6.0: Desktop Cookie Persistence, OAuth2 ID Token Support, and more",
   meta: [
     {
       property: "og:title",
       content:
-        "Hoppscotch v2026.6.0: Desktop Cookie Persistence, Security Hardening, Mock Server Reliability and more",
+        "Hoppscotch v2026.6.0: Desktop Cookie Persistence, OAuth2 ID Token Support, and more",
     },
     {
       name: "twitter:title",
       content:
-        "Hoppscotch v2026.6.0: Desktop Cookie Persistence, Security Hardening, Mock Server Reliability and more",
+        "Hoppscotch v2026.6.0: Desktop Cookie Persistence, OAuth2 ID Token Support, and more",
     },
     {
       name: "description",
       content:
-        "We're excited to announce Hoppscotch v2026.6.0, featuring desktop cookie persistence and reapplication, self-hosted version sync fixes, mock server reliability improvements, and security hardening.",
+        "We're excited to announce Hoppscotch v2026.6.0, featuring desktop cookie persistence and reapplication, ID Token support for OAuth2, mock server reliability fixes, Thai language support, and backend security hardening.",
     },
     {
       property: "og:description",
       content:
-        "We're excited to announce Hoppscotch v2026.6.0, featuring desktop cookie persistence and reapplication, self-hosted version sync fixes, mock server reliability improvements, and security hardening.",
+        "We're excited to announce Hoppscotch v2026.6.0, featuring desktop cookie persistence and reapplication, ID Token support for OAuth2, mock server reliability fixes, Thai language support, and backend security hardening.",
     },
     {
       name: "twitter:description",
       content:
-        "We're excited to announce Hoppscotch v2026.6.0, featuring desktop cookie persistence and reapplication, self-hosted version sync fixes, mock server reliability improvements, and security hardening.",
+        "We're excited to announce Hoppscotch v2026.6.0, featuring desktop cookie persistence and reapplication, ID Token support for OAuth2, mock server reliability fixes, Thai language support, and backend security hardening.",
     },
     {
       property: "og:image",
@@ -73,8 +73,8 @@ useHead({
               <span
                 class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text text-transparent"
               >
-                Hoppscotch v2026.6.0: Desktop Cookie Persistence, Thai
-                Security Hardening, Mock Server Reliability and more
+                Hoppscotch v2026.6.0: Desktop Cookie Persistence, OAuth2 ID
+                Token Support, and more
               </span>
             </h3>
             <div class="flex items-center">
@@ -103,10 +103,12 @@ useHead({
           <section class="max-w-xl text-zinc-200/80">
             <p class="mb-8 mt-4">
               We're excited to announce the release of Hoppscotch v2026.6.0!
-              This update improves desktop auth workflows with cookie
-              persistence and reapplication, strengthens self-hosted
-              reliability, and ships important backend
-              and supply-chain security hardening.
+              This update brings cookie persistence and reapplication to the
+              desktop app, adds ID Token support for OAuth2 token requests,
+              fixes mock server URL handling for subpath deployments, and
+              introduces Thai language support — alongside backend ownership
+              enforcement, stricter SMTP URL validation, and a fresh round of
+              security patches and bug fixes.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
@@ -120,11 +122,6 @@ useHead({
               testing APIs that depend on cookie-based sessions.
             </p>
             <p class="mb-8">
-              We also fixed desktop self-hosted instance version syncing from
-              the manifest, reducing mismatch issues and improving the
-              consistency of self-hosted desktop environments.
-            </p>
-            <p class="mb-8">
               <a
                 href="/download"
                 class="border-b border-zinc-200 transition hover:text-zinc-50"
@@ -135,83 +132,84 @@ useHead({
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
-            <h4 class="mb-4 text-white">Self-Hosted Version Sync Reliability</h4>
+            <h4 class="mb-4 text-white">ID Token Support for OAuth2</h4>
             <p class="mb-8 mt-4">
-              Desktop now correctly syncs self-hosted instance version details
-              from manifest data, improving reliability and reducing confusion
-              in managed and self-hosted environments.
+              When working with OAuth2, you can now choose which token to send.
+              Alongside the standard access token, Hoppscotch can use the
+              <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
+                >id_token</code
+              >
+              returned by OpenID Connect providers — useful when an API expects
+              the OIDC identity token for authentication rather than the access
+              token.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
-            <h4 class="mb-4 text-white">Mock Server and Collection Reliability</h4>
+            <h4 class="mb-4 text-white">Mock Server Reliability</h4>
             <p class="mb-8 mt-4">
-              This release includes several improvements to request and mock
-              workflows:
+              Domain-based mock server URLs now append
+              <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
+                >/backend</code
+              >
+              when subpath access is enabled, so mock URLs resolve correctly for
+              subpath deployments.
+            </p>
+            <hr
+              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
+            />
+            <h4 class="mb-4 text-white">Thai Language Support</h4>
+            <p class="mb-8 mt-4">
+              Hoppscotch is now available in Thai. Thanks to our community
+              translators for helping more developers use Hoppscotch in their
+              own language.
+            </p>
+            <hr
+              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
+            />
+            <h4 class="mb-4 text-white">Security Hardening</h4>
+            <p class="mb-8 mt-4">
+              This release also tightens security on a few fronts:
             </p>
             <ul class="mb-8 list-inside list-disc space-y-2">
               <li>
-                Domain-based mock server URLs now append
-                <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
-                  >/backend</code
-                >
-                when subpath access is enabled.
+                Backend APIs now enforce ownership on user history and private
+                user fields, so one account can't read another's data.
               </li>
+              <li>Hardened SMTP URL validation in the self-hosted backend.</li>
+              <li>Security patches for the v2026.6.0 dependency chain.</li>
+            </ul>
+            <hr
+              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
+            />
+            <h4 class="mb-4 text-white">Self-Hosted Admin Dashboard</h4>
+            <p class="mb-8 mt-4">
+              The self-hosted admin dashboard now surfaces which configuration
+              fields are blocking a save, so operators can spot and fix invalid
+              states without digging through logs.
+            </p>
+            <hr
+              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
+            />
+            <h4 class="mb-4 text-white">Bug Fixes</h4>
+            <p class="mb-8 mt-4">
+              We've also resolved a few bugs in this release:
+            </p>
+            <ul class="mb-8 list-inside list-disc space-y-2">
               <li>
-                Mock server creation now persists the
-                <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
-                  >isPublic</code
-                >
-                field correctly, with a private default.
-              </li>
-              <li>
-                OpenAPI re-import now preserves collection tree structure.
+                New mock servers now default to private, and their
+                public/private visibility is saved correctly on creation.
               </li>
               <li>
                 Inherited collection headers now correctly resolve environment
                 variables.
               </li>
+              <li>JSON bodies are now preserved in cURL parser conversions.</li>
               <li>
-                JSON bodies are now preserved in cURL parser conversions.
+                The desktop app now syncs the self-hosted instance version from
+                the manifest, reducing version mismatches.
               </li>
             </ul>
-            <hr
-              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
-            />
-            <h4 class="mb-4 text-white">Security and Platform Hardening</h4>
-            <p class="mb-8 mt-4">
-              Security is a major focus of v2026.6.0. This release includes:
-            </p>
-            <ul class="mb-8 list-inside list-disc space-y-2">
-              <li>
-                Ownership enforcement for user history and private user fields
-                in backend APIs.
-              </li>
-              <li>
-                Stricter SMTP URL validation rejecting path, query, and fragment
-                segments (GHSA-v7q6-r45w-2c6r).
-              </li>
-              <li>
-                Dependency chain security patches for v2026.6.0 and release-age
-                policy enforcement for supply-chain hardening.
-              </li>
-              <li>
-                <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
-                  >@hoppscotch/ui</code
-                >
-                bumped to v0.2.6 across packages.
-              </li>
-            </ul>
-            <hr
-              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
-            />
-            <h4 class="mb-4 text-white">Self-Hosted and Developer Experience</h4>
-            <p class="mb-8 mt-4">
-              Self-hosted admin now surfaces which configuration fields block
-              saving, helping operators debug invalid states quickly. We also
-              fixed class validation for updateRESTUserRequest and refreshed
-              js-sandbox development instructions.
-            </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
             />
