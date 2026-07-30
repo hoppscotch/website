@@ -1,5 +1,18 @@
 [
   {
+    "slug": "hoppscotch-v2026-7-0",
+    "title": "Hoppscotch v2026.7.0: More Reliable Team Collections, Desktop Stability Improvements, Security Hardening and more",
+    "description": "We're excited to announce Hoppscotch v2026.7.0, featuring stronger reliability for large team collections, safer personal workspaces, desktop stability improvements, and dependency security hardening.",
+    "banner": "blog-v2026-7-0.png",
+    "date": "2026-07-30",
+    "author": {
+      "name": "Liyas Thomas",
+      "image": "blog-author-01.jpg"
+    },
+    "styles": "md:col-span-12",
+    "tags": ["Product"]
+  },
+  {
     "slug": "hoppscotch-v2026-6-0",
     "title": "Hoppscotch v2026.6.0: Desktop Cookie Persistence, Security Hardening, Mock Server Reliability and more",
     "description": "We're excited to announce Hoppscotch v2026.6.0, featuring desktop cookie persistence and reapplication, self-hosted version sync fixes, mock server reliability improvements, and security hardening.",
