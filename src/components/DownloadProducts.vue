@@ -34,11 +34,11 @@ const platforms: DownloadablePlatform[] = [
     downloadLinks: [
       {
         name: "Download for Mac &nbsp; ~ &nbsp; Apple Silicon",
-        url: "https://github.com/hoppscotch/releases/releases/download/latest/Hoppscotch_mac_aarch64.dmg",
+        url: "https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_mac_aarch64.dmg",
       },
       {
         name: "Download for Mac &nbsp; ~ &nbsp; Intel",
-        url: "https://github.com/hoppscotch/releases/releases/download/latest/Hoppscotch_mac_x64.dmg",
+        url: "https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_mac_x64.dmg",
       },
     ],
   },
@@ -52,11 +52,11 @@ const platforms: DownloadablePlatform[] = [
     downloadLinks: [
       {
         name: "Download for Windows",
-        url: "https://github.com/hoppscotch/releases/releases/download/latest/Hoppscotch_win_x64.msi",
+        url: "https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_win_x64.msi",
       },
       {
         name: "Download for Windows &nbsp; ~ &nbsp; Portable",
-        url: "https://github.com/hoppscotch/releases/releases/download/latest/Hoppscotch_Cloud_win_x64_portable.zip",
+        url: "https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_Cloud_win_x64_portable.zip",
       },
     ],
   },
@@ -70,11 +70,11 @@ const platforms: DownloadablePlatform[] = [
     downloadLinks: [
       {
         name: "Download for Linux &nbsp; ~ &nbsp; .deb",
-        url: "https://github.com/hoppscotch/releases/releases/download/latest/Hoppscotch_linux_x64.deb",
+        url: "https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_linux_x64.deb",
       },
       {
         name: "Download for Linux &nbsp; ~ &nbsp; .AppImage",
-        url: "https://github.com/hoppscotch/releases/releases/download/latest/Hoppscotch_linux_x64.AppImage",
+        url: "https://github.com/hoppscotch/releases/releases/latest/download/Hoppscotch_linux_x64.AppImage",
       },
     ],
   },
