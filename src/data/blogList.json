@@ -1,5 +1,18 @@
 [
   {
+    "slug": "introducing-hoppscotch-mcp-server",
+    "title": "Introducing the Hoppscotch MCP Server",
+    "description": "The Hoppscotch Model Context Protocol (MCP) server lets an AI agent in a host such as Claude Code or Cursor drive your collections, requests, environments, and teams, run real API requests, and generate code, across Cloud or self-hosted offerings.",
+    "banner": "blog-introducing-hoppscotch-mcp-server.png",
+    "date": "2026-08-25",
+    "author": {
+      "name": "James George",
+      "image": "blog-author-03.jpeg"
+    },
+    "styles": "md:col-span-12",
+    "tags": ["Product", "Engineering"]
+  },
+  {
     "slug": "hoppscotch-v2026-7-0",
     "title": "Hoppscotch v2026.7.0: More Reliable Team Collections, Desktop Stability Improvements, Security Hardening and more",
     "description": "We're excited to announce Hoppscotch v2026.7.0, featuring stronger reliability for large team collections, safer personal workspaces, desktop stability improvements, and dependency security hardening.",
@@ -9,7 +22,7 @@
       "name": "Liyas Thomas",
       "image": "blog-author-01.jpg"
     },
-    "styles": "md:col-span-12",
+    "styles": "md:col-span-6",
     "tags": ["Product"]
   },
   {
@@ -22,7 +35,7 @@
       "name": "Liyas Thomas",
       "image": "blog-author-01.jpg"
     },
-    "styles": "md:col-span-12",
+    "styles": "md:col-span-6",
     "tags": ["Product"]
   },
   {
