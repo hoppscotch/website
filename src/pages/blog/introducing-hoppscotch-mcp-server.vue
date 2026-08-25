@@ -247,8 +247,9 @@ useHead({
               <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
                 >standard</code
               >
-              trades request execution and code generation for team
-              administration and the advanced collection operations.
+              gives up request execution, code generation, and the tools that
+              create and edit individual requests, and gains team administration
+              and the advanced collection operations in return.
               <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm">full</code>
               is all 53.
               <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm">core</code>
@@ -283,13 +284,14 @@ useHead({
               Secret environment values are the other thing to scope. By default
               they substitute into requests freely, the same as any other
               variable. You can set an allowlist of origins that are allowed to
-              receive them, and a request to any other origin is then refused.
-              The server also removes secret values from a response before the
-              agent sees them, but that pass is best-effort and covers only
-              environment values you marked secret. A credential you write
-              straight into a header or into the authentication block is never
-              in that set, so do not rely on the response pass for anything
-              sensitive.
+              receive them, and the server then refuses to send a secret to any
+              origin outside that list. A request that carries no secret reaches
+              its target either way. The server also removes secret values from
+              a response before the agent sees them, but that pass is
+              best-effort and covers only environment values you marked secret.
+              A credential you write straight into a header or into the
+              authentication block is never in that set, so do not rely on the
+              response pass for anything sensitive.
             </p>
             <p class="mb-8 mt-4">
               One more control helps when you open untrusted code. If the
@@ -346,10 +348,9 @@ useHead({
             <h4 class="mb-4 text-white">What's next?</h4>
             <p class="mb-8 mt-4">
               This first release speaks over a local process, which fits an
-              agent running on your own machine. The next iteration adds a
-              streamable HTTP interface, so the server can run somewhere else
-              and be reached remotely. If there is a workflow you want it to
-              cover, tell us.
+              agent running on your own machine. Running it remotely, so an
+              agent on another machine can reach it, is on our list to explore.
+              If there is a workflow you want it to cover, tell us.
             </p>
             <p class="mb-8 mt-4">
               The server is open source under the MIT license. Try it, and send
