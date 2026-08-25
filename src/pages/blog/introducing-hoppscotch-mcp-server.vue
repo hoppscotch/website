@@ -101,7 +101,7 @@ useHead({
               src="/images/blog-introducing-hoppscotch-mcp-server.png"
               width="352"
               height="198"
-              alt="News 01"
+              alt="Hoppscotch MCP Server"
             />
           </section>
           <section class="max-w-xl text-zinc-200/80">
