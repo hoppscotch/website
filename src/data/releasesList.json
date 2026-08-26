@@ -1,7 +1,7 @@
 [
   {
     "name": "Release Notes - v2026.8.0",
-    "description": "Hoppscotch MCP Server launch, AI-agent tooling across collections and teams, secure request execution guards and profile-based tool access...",
+    "description": "A unified REST and GraphQL workspace, data-driven collection runs, more predictable cookie handling, desktop fixes, and a companion Hoppscotch MCP Server...",
     "image": "release-2026-8-0.png",
     "created_at": "2026-08-25",
     "published_at": "2026-08-25",
