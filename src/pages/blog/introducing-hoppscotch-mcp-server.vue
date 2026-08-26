@@ -136,8 +136,7 @@ useHead({
               tool takes a raw method and URL, applies any authentication you
               pass, and substitutes environment variables into the URL, the
               header values, and the body. Substitution reads your personal
-              environments only, so it works on self-hosted instances. A team
-              environment id is rejected, and on Hoppscotch Cloud any
+              environments, on Hoppscotch Cloud and self-hosted alike. A team
               environment id is rejected as not found.
             </p>
             <p class="mb-8 mt-4">
@@ -179,12 +178,22 @@ useHead({
               invite members, and set roles.
             </p>
             <p class="mb-8 mt-4">
-              Hoppscotch Cloud behaves a little differently for personal data.
-              The team workspace is the full surface there. The personal
-              workspace is only partly available, because reading your personal
-              collections is gated and returns an error, while personal writes
-              still run. Self-hosted instances have the full personal workspace.
-              When in doubt on Cloud, work in a team.
+              Hoppscotch Cloud and self-hosted are nearly at parity. Two tools
+              are the exception. Fetching a single personal collection with
+              <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
+                >get_user_collection</code
+              >
+              errors on Cloud for now, because the backend fails to serialize
+              the collection's data there;
+              <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
+                >list_user_collections</code
+              >
+              returns the same collections in the meantime. And
+              <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
+                >search_team_requests</code
+              >
+              is self-hosted only, because the Cloud backend rejects that query.
+              Everything else works on both.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
@@ -248,8 +257,8 @@ useHead({
                 >standard</code
               >
               gives up request execution, code generation, and the tools that
-              create and edit individual requests, and gains team administration
-              and the advanced collection operations in return.
+              work with individual requests, and gains team administration and
+              the advanced collection operations in return.
               <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm">full</code>
               is all 53.
               <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm">core</code>
