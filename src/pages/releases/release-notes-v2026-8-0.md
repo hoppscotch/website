@@ -1,7 +1,7 @@
 ---
 name: "Release Notes - v2026.8.0"
 title: "Release Notes - v2026.8.0"
-description: "A unified REST and GraphQL workspace, data-driven collection runs, more predictable cookie handling, desktop fixes, and a companion Hoppscotch MCP Server..."
+description: "Data-driven collection runs, more predictable cookie handling, fixes, and a companion Hoppscotch MCP Server, with a unified REST and GraphQL workspace up next..."
 image: /images/release-2026-8-0.png
 meta:
   - created_at: "2026-08-25"
@@ -12,9 +12,9 @@ author: "James George"
 <ReleaseHeader/>
 <VersionBadge version="v2026.8.0" date="August 25th 2026"/>
 
-## Release Notes - v2026.8.0: A Unified API Workspace, Data-Driven Runs, and the MCP Server
+## Release Notes - v2026.8.0: Data-Driven Collection Runs, Cookie Fixes, and the MCP Server
 
-Hoppscotch v2026.8.0 unifies REST and GraphQL into a single workspace, makes the collection runner data-driven, improves cookie handling, ships a couple more fixes, and launches a companion Hoppscotch MCP Server. 🚀
+Hoppscotch v2026.8.0 makes the collection runner data-driven, improves cookie handling, ships a couple more fixes, and launches a companion Hoppscotch MCP Server — with a unified REST and GraphQL workspace up next. 🚀
 
 <TypeBadge type="new features"/>
 <TypeBadge type="improvements"/>
@@ -25,10 +25,6 @@ Hoppscotch v2026.8.0 unifies REST and GraphQL into a single workspace, makes the
 <br />
 
 ### Highlights
-
-- **Unified REST and GraphQL Workspace:** REST and GraphQL now live in a single tabbed workspace, so you can create, switch between, and manage both from the same place. GraphQL gets first-class tooling alongside REST — a schema explorer and search, inline docs, headers and authorization, variables, and revamped subscriptions with a live subscription log — and a single collection can mix REST and GraphQL queries and mutations in one run.
-
-<br /><br />
 
 - **Data-Driven Collection Runs:** Attach a CSV or JSON data file to a collection run and the runner executes the collection once per row, exposing each row's columns as iteration variables that take priority for that iteration and are never saved. You can also run a subset of requests and export the run results as JSON.
 
@@ -46,6 +42,10 @@ Hoppscotch v2026.8.0 unifies REST and GraphQL into a single workspace, makes the
 
 <br /><br />
 
+- **Coming Next — Unified REST and GraphQL Workspace:** REST and GraphQL are coming together into a single tabbed workspace with first-class GraphQL tooling alongside REST. That work is in review and lands in an upcoming release.
+
+<br /><br />
+
 This release brings some of our most requested capabilities together while continuing to strengthen the platform. Your data will be backed up automatically. If needed, see [<u>Downgrading and Restoring Backups</u>](https://docs.hoppscotch.io/guides/articles/downgrading-and-restoring-backups).
 
 <br/>
@@ -60,9 +60,6 @@ This release brings some of our most requested capabilities together while conti
 
 <Row>
   <Added>
-    <li>Unified REST and GraphQL workspace with protocol switching and shared tabs</li>
-    <li>Full GraphQL tooling: schema explorer and search, docs, headers/auth, variables, and revamped subscriptions with a live subscription log</li>
-    <li>Mixed REST and GraphQL collection runs with inherited scripts and auth</li>
     <li>Data-driven collection runs via CSV/JSON datasets with per-iteration variables</li>
     <li>Request-subset selection and JSON export for collection runs</li>
     <li>Hoppscotch MCP server for AI host integrations across collections, requests, environments, teams, and import/export</li>

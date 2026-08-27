@@ -14,8 +14,8 @@
   },
   {
     "slug": "hoppscotch-v2026-8-0",
-    "title": "Hoppscotch v2026.8.0: A Unified API Workspace and Data-Driven Collection Runs",
-    "description": "We're excited to announce Hoppscotch v2026.8.0 — REST and GraphQL now share a unified workspace, the collection runner is data-driven, cookie handling is more predictable, and a companion Hoppscotch MCP Server launches alongside.",
+    "title": "Hoppscotch v2026.8.0: Data-Driven Collection Runs, More Predictable Cookies and more",
+    "description": "We're excited to announce Hoppscotch v2026.8.0 — the collection runner is data-driven, cookie handling is more predictable, and a companion Hoppscotch MCP Server launches alongside, with a unified REST and GraphQL workspace up next.",
     "banner": "blog-v2026-8-0.png",
     "date": "2026-08-25",
     "author": {
