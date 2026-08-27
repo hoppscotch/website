@@ -16,17 +16,17 @@ useHead({
     {
       name: "description",
       content:
-        "We're excited to announce Hoppscotch v2026.8.0 — the collection runner is data-driven, cookie handling is more predictable, and a companion Hoppscotch MCP Server launches alongside, with a unified REST and GraphQL workspace up next.",
+        "We're excited to announce Hoppscotch v2026.8.0 — the collection runner is data-driven, cookie handling is more predictable, and a companion Hoppscotch MCP Server launches alongside.",
     },
     {
       property: "og:description",
       content:
-        "We're excited to announce Hoppscotch v2026.8.0 — the collection runner is data-driven, cookie handling is more predictable, and a companion Hoppscotch MCP Server launches alongside, with a unified REST and GraphQL workspace up next.",
+        "We're excited to announce Hoppscotch v2026.8.0 — the collection runner is data-driven, cookie handling is more predictable, and a companion Hoppscotch MCP Server launches alongside.",
     },
     {
       name: "twitter:description",
       content:
-        "We're excited to announce Hoppscotch v2026.8.0 — the collection runner is data-driven, cookie handling is more predictable, and a companion Hoppscotch MCP Server launches alongside, with a unified REST and GraphQL workspace up next.",
+        "We're excited to announce Hoppscotch v2026.8.0 — the collection runner is data-driven, cookie handling is more predictable, and a companion Hoppscotch MCP Server launches alongside.",
     },
     {
       property: "og:image",
@@ -105,8 +105,7 @@ useHead({
               We're excited to announce the release of Hoppscotch v2026.8.0!
               This update makes the collection runner data-driven and smooths
               out cookie handling — and it arrives alongside a companion
-              Hoppscotch MCP Server, with a unified REST and GraphQL workspace
-              up next.
+              Hoppscotch MCP Server.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
@@ -158,19 +157,6 @@ useHead({
               >
                 Get the latest version →</a
               >
-            </p>
-            <hr
-              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
-            />
-            <h4 class="mb-4 text-white">
-              Coming next: a unified REST and GraphQL workspace
-            </h4>
-            <p class="mb-8 mt-4">
-              REST and GraphQL are coming together into a single workspace, so
-              you can create, switch between, and manage both kinds of requests
-              from the same tabbed interface, with first-class GraphQL tooling
-              alongside REST. That work is in review now and lands in an
-              upcoming release.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"

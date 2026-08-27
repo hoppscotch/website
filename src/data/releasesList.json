@@ -1,7 +1,7 @@
 [
   {
     "name": "Release Notes - v2026.8.0",
-    "description": "Data-driven collection runs, more predictable cookie handling, fixes, and a companion Hoppscotch MCP Server, with a unified REST and GraphQL workspace up next...",
+    "description": "Data-driven collection runs, more predictable cookie handling, fixes, and a companion Hoppscotch MCP Server...",
     "image": "release-2026-8-0.png",
     "created_at": "2026-08-25",
     "published_at": "2026-08-25",

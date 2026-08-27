@@ -1,7 +1,7 @@
 ---
 name: "Release Notes - v2026.8.0"
 title: "Release Notes - v2026.8.0"
-description: "Data-driven collection runs, more predictable cookie handling, fixes, and a companion Hoppscotch MCP Server, with a unified REST and GraphQL workspace up next..."
+description: "Data-driven collection runs, more predictable cookie handling, fixes, and a companion Hoppscotch MCP Server..."
 image: /images/release-2026-8-0.png
 meta:
   - created_at: "2026-08-25"
@@ -14,7 +14,7 @@ author: "James George"
 
 ## Release Notes - v2026.8.0: Data-Driven Collection Runs, Cookie Fixes, and the MCP Server
 
-Hoppscotch v2026.8.0 makes the collection runner data-driven, improves cookie handling, ships a couple more fixes, and launches a companion Hoppscotch MCP Server — with a unified REST and GraphQL workspace up next. 🚀
+Hoppscotch v2026.8.0 makes the collection runner data-driven, improves cookie handling, ships a couple more fixes, and launches a companion Hoppscotch MCP Server. 🚀
 
 <TypeBadge type="new features"/>
 <TypeBadge type="improvements"/>
@@ -39,10 +39,6 @@ Hoppscotch v2026.8.0 makes the collection runner data-driven, improves cookie ha
 <br /><br />
 
 - **Hoppscotch MCP Server Launch:** A companion Model Context Protocol (MCP) server lets AI hosts like Claude Code, Claude Desktop, and Cursor work with your Hoppscotch workspace — reading and writing collections, requests, and environments, executing and validating requests, and generating code and documentation — with network guards and profile-based tool scoping to keep control in your hands.
-
-<br /><br />
-
-- **Coming Next — Unified REST and GraphQL Workspace:** REST and GraphQL are coming together into a single tabbed workspace with first-class GraphQL tooling alongside REST. That work is in review and lands in an upcoming release.
 
 <br /><br />
 
