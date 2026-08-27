@@ -118,8 +118,9 @@ useHead({
               call. It reads and writes collections, requests, and environments,
               manages teams, runs real HTTP requests, and generates code and
               documentation. It works against Hoppscotch Cloud and any
-              self-hosted instance, and it signs you in through the browser, so
-              there is no token to copy for interactive use.
+              self-hosted instance, and when a tool needs your account it signs
+              you in through the browser, so there is no token to copy to get
+              started.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
@@ -317,9 +318,9 @@ useHead({
               <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
                 >HOPPSCOTCH_STRICT_ENV</code
               >
-              to make it ignore trust-sensitive values from that file, such as
-              the sign-in target, the request guard, and the secret allowlist,
-              so a hostile repository cannot repoint them.
+              to "true" to make it ignore trust-sensitive values from that file,
+              such as the sign-in target, the request guard, and the secret
+              allowlist, so a hostile repository cannot repoint them.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
@@ -343,10 +344,16 @@ useHead({
 </pre
             >
             <p class="mb-8 mt-4">
-              On the first tool call that touches your account, the server opens
-              the Hoppscotch device-login page in your browser. Sign in once and
-              the session is cached on your machine, so later calls skip the
-              browser. For a self-hosted instance, add
+              When a tool needs your Hoppscotch account, the server uses
+              <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
+                >HOPPSCOTCH_ACCESS_TOKEN</code
+              >
+              if you set one, or a session it has already cached. With neither,
+              it opens the Hoppscotch device-login page in your browser. Sign in
+              once and the session is cached on your machine, so later calls
+              skip the browser. In a session with no browser to open, like CI or
+              SSH, it fails with instructions instead. For a self-hosted
+              instance, add
               <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
                 >HOPPSCOTCH_SERVER_URL</code
               >
