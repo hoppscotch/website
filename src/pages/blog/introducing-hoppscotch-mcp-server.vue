@@ -224,7 +224,9 @@ useHead({
               works the other way around. It produces Markdown for a request and
               masks credentials by default, because documentation tends to be
               shared. One tool is meant to run and the other to circulate, so
-              they start from opposite defaults.
+              they start from opposite defaults. Masking is pattern-based either
+              way. It catches auth values and recognized secret fields, not
+              every place a secret can hide, so look over anything you share.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
