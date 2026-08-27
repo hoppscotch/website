@@ -119,8 +119,8 @@ useHead({
               manages teams, runs real HTTP requests, and generates code and
               documentation. It works against Hoppscotch Cloud and any
               self-hosted instance, and when a tool needs your account it signs
-              you in through the browser, so there is no token to copy to get
-              started.
+              you in through the browser by default, so there is no token to
+              copy to get started.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
