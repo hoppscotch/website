@@ -245,8 +245,9 @@ useHead({
               The default is
               <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm">core</code>,
               with 39 tools, covering the create, read, update, and delete
-              operations, request execution, and code generation you need for
-              day-to-day API work, plus read-only team discovery.
+              operations, request execution, and code and documentation
+              generation you need for day-to-day API work, plus read-only team
+              discovery.
             </p>
             <p class="mb-8 mt-4">
               <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm">core</code>
@@ -260,10 +261,10 @@ useHead({
               <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
                 >standard</code
               >
-              gives up request execution, code generation, and the tools that
-              read and edit individual requests, and gains team administration,
-              the advanced collection operations, and team-request search in
-              return.
+              gives up request execution, code and documentation generation, and
+              the tools that read and edit individual requests, and gains team
+              administration, the advanced collection operations, and
+              team-request search in return.
               <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm">full</code>
               is all 53.
               <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm">core</code>
@@ -340,10 +341,10 @@ useHead({
 </pre
             >
             <p class="mb-8 mt-4">
-              On the first tool call the server opens the Hoppscotch
-              device-login page in your browser. Sign in once and the session is
-              cached on your machine, so later calls skip the browser. For a
-              self-hosted instance, add
+              On the first tool call that touches your account, the server opens
+              the Hoppscotch device-login page in your browser. Sign in once and
+              the session is cached on your machine, so later calls skip the
+              browser. For a self-hosted instance, add
               <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
                 >HOPPSCOTCH_SERVER_URL</code
               >
