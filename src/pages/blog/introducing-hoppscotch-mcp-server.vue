@@ -184,11 +184,15 @@ useHead({
                 >get_user_collection</code
               >
               errors on Cloud for now, because the backend fails to serialize
-              the collection's data there;
+              the collection's data there. In the meantime,
               <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
                 >list_user_collections</code
               >
-              returns the same collections in the meantime. And
+              still lists your root collections, and
+              <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
+                >export_user_collection</code
+              >
+              works for a known id. And
               <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
                 >search_team_requests</code
               >
@@ -257,8 +261,9 @@ useHead({
                 >standard</code
               >
               gives up request execution, code generation, and the tools that
-              work with individual requests, and gains team administration and
-              the advanced collection operations in return.
+              read and edit individual requests, and gains team administration,
+              the advanced collection operations, and team-request search in
+              return.
               <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm">full</code>
               is all 53.
               <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm">core</code>
