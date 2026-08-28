@@ -1,32 +1,32 @@
 <script setup lang="ts">
 useHead({
   title:
-    "Hoppscotch v2026.8.0: Data-Driven Collection Runs, More Predictable Cookies and more",
+    "Hoppscotch v2026.8.0: Unified REST and GraphQL Workspace, Data-Driven Collection Runs and more",
   meta: [
     {
       property: "og:title",
       content:
-        "Hoppscotch v2026.8.0: Data-Driven Collection Runs, More Predictable Cookies and more",
+        "Hoppscotch v2026.8.0: Unified REST and GraphQL Workspace, Data-Driven Collection Runs and more",
     },
     {
       name: "twitter:title",
       content:
-        "Hoppscotch v2026.8.0: Data-Driven Collection Runs, More Predictable Cookies and more",
+        "Hoppscotch v2026.8.0: Unified REST and GraphQL Workspace, Data-Driven Collection Runs and more",
     },
     {
       name: "description",
       content:
-        "We're excited to announce Hoppscotch v2026.8.0 — the collection runner is data-driven, cookie handling is more predictable, and a companion Hoppscotch MCP Server launches alongside.",
+        "We're excited to announce Hoppscotch v2026.8.0 — REST and GraphQL now share a unified workspace, the collection runner is data-driven, cookie handling is more predictable, and a companion Hoppscotch MCP Server launches alongside.",
     },
     {
       property: "og:description",
       content:
-        "We're excited to announce Hoppscotch v2026.8.0 — the collection runner is data-driven, cookie handling is more predictable, and a companion Hoppscotch MCP Server launches alongside.",
+        "We're excited to announce Hoppscotch v2026.8.0 — REST and GraphQL now share a unified workspace, the collection runner is data-driven, cookie handling is more predictable, and a companion Hoppscotch MCP Server launches alongside.",
     },
     {
       name: "twitter:description",
       content:
-        "We're excited to announce Hoppscotch v2026.8.0 — the collection runner is data-driven, cookie handling is more predictable, and a companion Hoppscotch MCP Server launches alongside.",
+        "We're excited to announce Hoppscotch v2026.8.0 — REST and GraphQL now share a unified workspace, the collection runner is data-driven, cookie handling is more predictable, and a companion Hoppscotch MCP Server launches alongside.",
     },
     {
       property: "og:image",
@@ -73,8 +73,8 @@ useHead({
               <span
                 class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text text-transparent"
               >
-                Hoppscotch v2026.8.0: Data-Driven Collection Runs, More
-                Predictable Cookies and more
+                Hoppscotch v2026.8.0: Unified REST and GraphQL Workspace,
+                Data-Driven Collection Runs and more
               </span>
             </h3>
             <div class="flex items-center">
@@ -103,9 +103,32 @@ useHead({
           <section class="max-w-xl text-zinc-200/80">
             <p class="mb-8 mt-4">
               We're excited to announce the release of Hoppscotch v2026.8.0!
-              This update makes the collection runner data-driven and smooths
-              out cookie handling — and it arrives alongside a companion
-              Hoppscotch MCP Server.
+              This update unifies REST and GraphQL into a single workspace,
+              makes the collection runner data-driven, and smooths out cookie
+              handling — and it arrives alongside a companion Hoppscotch MCP
+              Server.
+            </p>
+            <hr
+              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
+            />
+            <h4 class="mb-4 text-white">
+              A unified REST and GraphQL workspace
+            </h4>
+            <p class="mb-8 mt-4">
+              REST and GraphQL now share a single workspace. You can create,
+              switch between, and manage both kinds of requests from the same
+              tabbed interface, instead of moving between separate pages.
+              GraphQL brings its tooling with it — the schema explorer and
+              search, schema docs, headers and authorization, variables, and
+              subscriptions with their live log — and subscriptions now also
+              work with servers that speak the newer
+              <code class="rounded bg-zinc-800 px-1 py-0.5 text-sm"
+                >graphql-transport-ws</code
+              >
+              protocol. A single collection can now mix REST requests with
+              GraphQL queries and mutations in one run. The unified workspace is
+              on by default; if you'd rather keep GraphQL on its own page for
+              now, you can turn it off under Experiments in Settings.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"

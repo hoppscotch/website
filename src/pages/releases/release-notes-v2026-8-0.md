@@ -1,7 +1,7 @@
 ---
 name: "Release Notes - v2026.8.0"
 title: "Release Notes - v2026.8.0"
-description: "Data-driven collection runs, more predictable cookie handling, fixes, and a companion Hoppscotch MCP Server..."
+description: "A unified REST and GraphQL workspace, data-driven collection runs, more predictable cookie handling, desktop fixes, and a companion Hoppscotch MCP Server..."
 image: /images/release-2026-8-0.png
 meta:
   - created_at: "2026-08-25"
@@ -12,9 +12,9 @@ author: "James George"
 <ReleaseHeader/>
 <VersionBadge version="v2026.8.0" date="August 25th 2026"/>
 
-## Release Notes - v2026.8.0: Data-Driven Collection Runs, Cookie Fixes, and the MCP Server
+## Release Notes - v2026.8.0: Unified REST and GraphQL Workspace, Data-Driven Runs, and the MCP Server
 
-Hoppscotch v2026.8.0 makes the collection runner data-driven, improves cookie handling, ships a couple more fixes, and launches a companion Hoppscotch MCP Server. 🚀
+Hoppscotch v2026.8.0 unifies REST and GraphQL into a single workspace, makes the collection runner data-driven, improves cookie handling, ships a couple more fixes, and launches a companion Hoppscotch MCP Server. 🚀
 
 <TypeBadge type="new features"/>
 <TypeBadge type="improvements"/>
@@ -25,6 +25,10 @@ Hoppscotch v2026.8.0 makes the collection runner data-driven, improves cookie ha
 <br />
 
 ### Highlights
+
+- **Unified REST and GraphQL Workspace:** REST and GraphQL now live in a single tabbed workspace, so you can create, switch between, and manage both from the same place instead of separate pages. GraphQL brings its tooling with it — schema explorer and search, schema docs, headers and authorization, variables, and subscriptions with their live log — and subscriptions now also support the `graphql-transport-ws` protocol. A single collection can mix REST requests with GraphQL queries and mutations in one run. The unified workspace is on by default, with a toggle under Experiments in Settings.
+
+<br /><br />
 
 - **Data-Driven Collection Runs:** Attach a CSV or JSON data file to a collection run and the runner executes the collection once per row, exposing each row's columns as iteration variables that take priority for that iteration and are never saved. You can also run a subset of requests and export the run results as JSON.
 
@@ -56,6 +60,10 @@ This release brings some of our most requested capabilities together while conti
 
 <Row>
   <Added>
+    <li>Unified REST and GraphQL workspace with both request types in one tabbed interface</li>
+    <li>GraphQL tooling inside the unified workspace: schema explorer and search, schema docs, headers/auth, variables, and subscriptions with a live log</li>
+    <li><code>graphql-transport-ws</code> support for GraphQL subscriptions alongside <code>graphql-ws</code></li>
+    <li>Collection runs can mix REST requests with GraphQL queries and mutations, with inherited scripts and auth</li>
     <li>Data-driven collection runs via CSV/JSON datasets with per-iteration variables</li>
     <li>Request-subset selection and JSON export for collection runs</li>
     <li>Hoppscotch MCP server for AI host integrations across collections, requests, environments, teams, and import/export</li>
