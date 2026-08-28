@@ -137,8 +137,7 @@ useHead({
               tool takes a raw method and URL, applies any authentication you
               pass, and substitutes environment variables into the URL, the
               header values, and the body. Substitution reads your personal
-              environments, on Hoppscotch Cloud and self-hosted alike. A team
-              environment id is rejected as not found.
+              environments. A team environment id is rejected as not found.
             </p>
             <p class="mb-8 mt-4">
               Because it is a real HTTP client, it ships with a guard. By
