@@ -13,17 +13,17 @@ useHead({
     {
       name: "description",
       content:
-        "The Hoppscotch Model Context Protocol (MCP) server lets an AI agent in a host such as Claude Code or Cursor drive your collections, requests, environments, and teams, run real API requests, and generate code, on Cloud or self-hosted.",
+        "The Hoppscotch Model Context Protocol (MCP) server lets an AI agent in a host such as Claude Code or Codex drive your collections, requests, environments, and teams, run real API requests, and generate code, on Cloud or self-hosted.",
     },
     {
       property: "og:description",
       content:
-        "The Hoppscotch Model Context Protocol (MCP) server lets an AI agent in a host such as Claude Code or Cursor drive your collections, requests, environments, and teams, run real API requests, and generate code, on Cloud or self-hosted.",
+        "The Hoppscotch Model Context Protocol (MCP) server lets an AI agent in a host such as Claude Code or Codex drive your collections, requests, environments, and teams, run real API requests, and generate code, on Cloud or self-hosted.",
     },
     {
       name: "twitter:description",
       content:
-        "The Hoppscotch Model Context Protocol (MCP) server lets an AI agent in a host such as Claude Code or Cursor drive your collections, requests, environments, and teams, run real API requests, and generate code, on Cloud or self-hosted.",
+        "The Hoppscotch Model Context Protocol (MCP) server lets an AI agent in a host such as Claude Code or Codex drive your collections, requests, environments, and teams, run real API requests, and generate code, on Cloud or self-hosted.",
     },
     {
       property: "og:image",
@@ -71,7 +71,7 @@ useHead({
                   >
                 </li>
                 <span class="mx-2 text-zinc-400/20">|</span>
-                <span class="text-zinc-200/20">August 25, 2026</span>
+                <span class="text-zinc-200/20">August 28, 2026</span>
               </ul>
             </div>
             <h3 class="mb-8">
@@ -110,8 +110,8 @@ useHead({
               Context Protocol, or MCP, is an open standard that lets an AI
               agent call external tools through a defined interface. With the
               server running, a host, meaning the app you run the agent in, such
-              as Claude Code, Claude Desktop, or Cursor, can work with
-              Hoppscotch directly, from the same window where you write code.
+              as Claude Code, Codex, or Claude Desktop, can work with Hoppscotch
+              directly, from the same window where you write code.
             </p>
             <p class="mb-8 mt-4">
               The server turns your Hoppscotch workspace into tools an agent can
@@ -328,7 +328,8 @@ useHead({
             <h4 class="mb-4 text-white">Getting started</h4>
             <p class="mb-8 mt-4">
               The server runs as a local process your host starts. Point your
-              MCP host at it with one command:
+              MCP host at it. For hosts that read a config file (Claude Desktop,
+              or a project .mcp.json):
             </p>
             <pre
               class="overflow-x-auto whitespace-pre-wrap rounded-md border border-neutral-800 bg-neutral-900 p-4"
@@ -360,7 +361,7 @@ useHead({
               with your instance address. You need Node 22 or newer. Per-client
               setup for the different hosts lives in the
               <a
-                href="https://docs.hoppscotch.io"
+                href="https://docs.hoppscotch.io/documentation/clients/mcp-server/overview#connecting-your-mcp-host"
                 target="_blank"
                 class="border-b border-zinc-200 transition hover:text-zinc-50"
                 >Hoppscotch documentation</a

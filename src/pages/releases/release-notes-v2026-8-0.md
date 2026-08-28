@@ -4,13 +4,13 @@ title: "Release Notes - v2026.8.0"
 description: "A unified REST and GraphQL workspace, data-driven collection runs and more predictable cookie handling, alongside the new Hoppscotch MCP Server..."
 image: /images/release-2026-8-0.png
 meta:
-  - created_at: "2026-08-25"
-  - published_at: "2026-08-25"
+  - created_at: "2026-08-28"
+  - published_at: "2026-08-28"
 author: "James George"
 ---
 
 <ReleaseHeader/>
-<VersionBadge version="v2026.8.0" date="August 25th 2026"/>
+<VersionBadge version="v2026.8.0" date="August 28th 2026"/>
 
 ## Release Notes - v2026.8.0: Unified REST and GraphQL Workspace, Data-Driven Collection Runs, and the Hoppscotch MCP Server
 
