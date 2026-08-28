@@ -1,7 +1,7 @@
 ---
 name: "Release Notes - v2026.8.0"
 title: "Release Notes - v2026.8.0"
-description: "A unified REST and GraphQL workspace, data-driven collection runs, more predictable cookie handling, desktop fixes, and a companion Hoppscotch MCP Server..."
+description: "A unified REST and GraphQL workspace, data-driven collection runs, more predictable cookie handling and a companion Hoppscotch MCP Server..."
 image: /images/release-2026-8-0.png
 meta:
   - created_at: "2026-08-25"
@@ -12,7 +12,7 @@ author: "James George"
 <ReleaseHeader/>
 <VersionBadge version="v2026.8.0" date="August 25th 2026"/>
 
-## Release Notes - v2026.8.0: Unified REST and GraphQL Workspace, Data-Driven Runs, and the MCP Server
+## Release Notes - v2026.8.0: Unified REST and GraphQL Workspace, Data-Driven Collection Runs and more
 
 Hoppscotch v2026.8.0 unifies REST and GraphQL into a single workspace, makes the collection runner data-driven, improves cookie handling, ships a couple more fixes, and launches a companion Hoppscotch MCP Server. 🚀
 
@@ -42,7 +42,7 @@ Hoppscotch v2026.8.0 unifies REST and GraphQL into a single workspace, makes the
 
 <br /><br />
 
-- **Hoppscotch MCP Server Launch:** A companion Model Context Protocol (MCP) server lets AI hosts like Claude Code, Claude Desktop, and Cursor work with your Hoppscotch workspace — reading and writing collections, requests, and environments, executing and validating requests, and generating code and documentation — with network guards and profile-based tool scoping to keep control in your hands.
+- **Companion Launch — Hoppscotch MCP Server:** A companion Model Context Protocol (MCP) server lets AI hosts like Claude Code, Claude Desktop, and Cursor work with your Hoppscotch workspace — reading and writing collections, requests, and environments, executing and validating requests, and generating code and documentation — with network guards and profile-based tool scoping to keep control in your hands.
 
 <br /><br />
 
@@ -66,11 +66,6 @@ This release brings some of our most requested capabilities together while conti
     <li>Collection runs can mix REST requests with GraphQL queries and mutations, with inherited scripts and auth</li>
     <li>Data-driven collection runs via CSV/JSON datasets with per-iteration variables</li>
     <li>Request-subset selection and JSON export for collection runs</li>
-    <li>Hoppscotch MCP server for AI host integrations across collections, requests, environments, teams, and import/export</li>
-    <li><code>execute_request</code> and <code>validate_response</code> MCP tools with outbound network guards</li>
-    <li><code>generate_code</code> and <code>generate_documentation</code> MCP tools</li>
-    <li>Tool profile modes: <code>minimal</code>, <code>core</code>, <code>standard</code>, and <code>full</code></li>
-    <li>Browser-based device login and self-hosted targeting via <code>HOPPSCOTCH_SERVER_URL</code></li>
   </Added>
   <Fixed>
     <li>Response cookies without a <code>Domain</code> attribute are now treated as host-only instead of leaking to subdomains</li>

@@ -1,32 +1,31 @@
 <script setup lang="ts">
 useHead({
-  title:
-    "Hoppscotch v2026.8.0: Unified REST and GraphQL Workspace, Data-Driven Collection Runs and more",
+  title: "Hoppscotch v2026.8.0: Unified REST and GraphQL Workspace and more",
   meta: [
     {
       property: "og:title",
       content:
-        "Hoppscotch v2026.8.0: Unified REST and GraphQL Workspace, Data-Driven Collection Runs and more",
+        "Hoppscotch v2026.8.0: Unified REST and GraphQL Workspace and more",
     },
     {
       name: "twitter:title",
       content:
-        "Hoppscotch v2026.8.0: Unified REST and GraphQL Workspace, Data-Driven Collection Runs and more",
+        "Hoppscotch v2026.8.0: Unified REST and GraphQL Workspace and more",
     },
     {
       name: "description",
       content:
-        "We're excited to announce Hoppscotch v2026.8.0 — REST and GraphQL now share a unified workspace, the collection runner is data-driven, cookie handling is more predictable, and a companion Hoppscotch MCP Server launches alongside.",
+        "We're excited to announce Hoppscotch v2026.8.0, featuring a unified REST and GraphQL workspace, data-driven collection runs, and cookie handling fixes, alongside a companion Hoppscotch MCP Server.",
     },
     {
       property: "og:description",
       content:
-        "We're excited to announce Hoppscotch v2026.8.0 — REST and GraphQL now share a unified workspace, the collection runner is data-driven, cookie handling is more predictable, and a companion Hoppscotch MCP Server launches alongside.",
+        "We're excited to announce Hoppscotch v2026.8.0, featuring a unified REST and GraphQL workspace, data-driven collection runs, and cookie handling fixes, alongside a companion Hoppscotch MCP Server.",
     },
     {
       name: "twitter:description",
       content:
-        "We're excited to announce Hoppscotch v2026.8.0 — REST and GraphQL now share a unified workspace, the collection runner is data-driven, cookie handling is more predictable, and a companion Hoppscotch MCP Server launches alongside.",
+        "We're excited to announce Hoppscotch v2026.8.0, featuring a unified REST and GraphQL workspace, data-driven collection runs, and cookie handling fixes, alongside a companion Hoppscotch MCP Server.",
     },
     {
       property: "og:image",
@@ -73,8 +72,8 @@ useHead({
               <span
                 class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text text-transparent"
               >
-                Hoppscotch v2026.8.0: Unified REST and GraphQL Workspace,
-                Data-Driven Collection Runs and more
+                Hoppscotch v2026.8.0: Unified REST and GraphQL Workspace and
+                more
               </span>
             </h3>
             <div class="flex items-center">
