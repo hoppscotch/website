@@ -1,31 +1,32 @@
 <script setup lang="ts">
 useHead({
-  title: "Hoppscotch v2026.8.0: Unified REST and GraphQL Workspace and more",
+  title:
+    "Hoppscotch v2026.8.0: Unified REST and GraphQL Workspace, MCP Server and more",
   meta: [
     {
       property: "og:title",
       content:
-        "Hoppscotch v2026.8.0: Unified REST and GraphQL Workspace and more",
+        "Hoppscotch v2026.8.0: Unified REST and GraphQL Workspace, MCP Server and more",
     },
     {
       name: "twitter:title",
       content:
-        "Hoppscotch v2026.8.0: Unified REST and GraphQL Workspace and more",
+        "Hoppscotch v2026.8.0: Unified REST and GraphQL Workspace, MCP Server and more",
     },
     {
       name: "description",
       content:
-        "We're excited to announce Hoppscotch v2026.8.0, featuring a unified REST and GraphQL workspace, data-driven collection runs, and cookie handling fixes, alongside a companion Hoppscotch MCP Server.",
+        "We're excited to announce Hoppscotch v2026.8.0, featuring a unified REST and GraphQL workspace, data-driven collection runs, and cookie handling fixes, alongside the new Hoppscotch MCP Server.",
     },
     {
       property: "og:description",
       content:
-        "We're excited to announce Hoppscotch v2026.8.0, featuring a unified REST and GraphQL workspace, data-driven collection runs, and cookie handling fixes, alongside a companion Hoppscotch MCP Server.",
+        "We're excited to announce Hoppscotch v2026.8.0, featuring a unified REST and GraphQL workspace, data-driven collection runs, and cookie handling fixes, alongside the new Hoppscotch MCP Server.",
     },
     {
       name: "twitter:description",
       content:
-        "We're excited to announce Hoppscotch v2026.8.0, featuring a unified REST and GraphQL workspace, data-driven collection runs, and cookie handling fixes, alongside a companion Hoppscotch MCP Server.",
+        "We're excited to announce Hoppscotch v2026.8.0, featuring a unified REST and GraphQL workspace, data-driven collection runs, and cookie handling fixes, alongside the new Hoppscotch MCP Server.",
     },
     {
       property: "og:image",
@@ -72,8 +73,8 @@ useHead({
               <span
                 class="block max-w-max bg-gradient-to-r from-white via-white/80 to-white/30 bg-clip-text text-transparent"
               >
-                Hoppscotch v2026.8.0: Unified REST and GraphQL Workspace and
-                more
+                Hoppscotch v2026.8.0: Unified REST and GraphQL Workspace, MCP
+                Server and more
               </span>
             </h3>
             <div class="flex items-center">
@@ -104,8 +105,7 @@ useHead({
               We're excited to announce the release of Hoppscotch v2026.8.0!
               This update unifies REST and GraphQL into a single workspace,
               makes the collection runner data-driven, and smooths out cookie
-              handling — and it arrives alongside a companion Hoppscotch MCP
-              Server.
+              handling — and it arrives alongside the new Hoppscotch MCP Server.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
@@ -128,6 +128,27 @@ useHead({
               GraphQL queries and mutations in one run. The unified workspace is
               on by default; if you'd rather keep GraphQL on its own page for
               now, you can turn it off under Experiments in Settings.
+            </p>
+            <hr
+              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
+            />
+            <h4 class="mb-4 text-white">
+              Introducing the Hoppscotch MCP Server
+            </h4>
+            <p class="mb-8 mt-4">
+              Alongside this release, we launched the Hoppscotch MCP Server. It
+              lets an AI agent in a tool like Claude or Cursor work with your
+              Hoppscotch collections, requests, and environments. See the
+              dedicated announcement for what it does, where it works, and how
+              to set it up.
+            </p>
+            <p class="mb-8">
+              <a
+                href="/blog/introducing-hoppscotch-mcp-server"
+                class="border-b border-zinc-200 transition hover:text-zinc-50"
+              >
+                Read the dedicated announcement →</a
+              >
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
@@ -178,27 +199,6 @@ useHead({
                 class="border-b border-zinc-200 transition hover:text-zinc-50"
               >
                 Get the latest version →</a
-              >
-            </p>
-            <hr
-              class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
-            />
-            <h4 class="mb-4 text-white">
-              Companion launch: Hoppscotch MCP Server
-            </h4>
-            <p class="mb-8 mt-4">
-              Alongside this release, we launched the Hoppscotch MCP Server. It
-              lets an AI agent in a tool like Claude or Cursor work with your
-              Hoppscotch collections, requests, and environments. See the
-              dedicated announcement for what it does, where it works, and how
-              to set it up.
-            </p>
-            <p class="mb-8">
-              <a
-                href="/blog/introducing-hoppscotch-mcp-server"
-                class="border-b border-zinc-200 transition hover:text-zinc-50"
-              >
-                Read the dedicated announcement →</a
               >
             </p>
             <hr
