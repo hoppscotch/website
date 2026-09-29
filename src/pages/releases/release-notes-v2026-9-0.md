@@ -4,17 +4,17 @@ title: "Release Notes - v2026.9.0"
 description: "Enterprise Cloud, agentic AI assistance for enterprise customers, and more..."
 image: /images/release-2026-9-0.png
 meta:
-  - created_at: "2026-09-29"
-  - published_at: "2026-09-29"
+  - created_at: "2026-09-30"
+  - published_at: "2026-09-30"
 author: "Liyas Thomas"
 ---
 
 <ReleaseHeader/>
-<VersionBadge version="v2026.9.0" date="September 29th 2026"/>
+<VersionBadge version="v2026.9.0" date="September 30th 2026"/>
 
 ## Release Notes - v2026.9.0: Enterprise Cloud, Agentic AI, and more
 
-Hoppscotch v2026.9.0 introduces Enterprise Cloud for organizations that need stronger identity, security, and governance controls, alongside an agentic AI bot that can act on API work for Enterprise Cloud and Enterprise Self-Host customers. 🚀
+Hoppscotch v2026.9.0 introduces Enterprise Cloud for organizations that need stronger identity, security, and governance controls, alongside an AI Assistant that can act on API work for Enterprise Cloud and Enterprise Self-Host customers. 🚀
 
 <TypeBadge type="new features"/>
 
@@ -28,7 +28,7 @@ Hoppscotch v2026.9.0 introduces Enterprise Cloud for organizations that need str
 
 <br /><br />
 
-- **Agentic AI Bot:** Use an assistant that understands the active request, response, environment, and collections, then uses Hoppscotch tools to edit and run requests, manage tabs, create environments, organize collections, publish documentation, and manage mock servers.
+- **AI Assistant:** Use an assistant that understands the active request, response, environment, and collections, then uses Hoppscotch tools to edit and run requests, manage tabs, create environments, organize collections, publish documentation, and manage mock servers.
 
 <br /><br />
 
@@ -36,7 +36,7 @@ Hoppscotch v2026.9.0 introduces Enterprise Cloud for organizations that need str
 
 <br /><br />
 
-The AI bot is available in Enterprise Cloud and Enterprise Self-Host. This release lays the foundation for more enterprise governance and AI capabilities across Cloud and Self-Host.
+The AI Assistant is available in Enterprise Cloud and Enterprise Self-Host. This release lays the foundation for more enterprise governance and AI capabilities across Cloud and Self-Host.
 
 <br/>
 
@@ -48,7 +48,7 @@ The AI bot is available in Enterprise Cloud and Enterprise Self-Host. This relea
   <Added>
     <li>Enterprise Cloud tier for organizations</li>
     <li>Enterprise identity, access, audit, and support capabilities</li>
-    <li>Agentic AI bot for Enterprise Cloud and Enterprise Self-Host</li>
+    <li>AI Assistant for Enterprise Cloud and Enterprise Self-Host</li>
     <li>AI skills and configurable provider connections</li>
   </Added>
 </Row>

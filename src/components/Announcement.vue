@@ -7,7 +7,7 @@
       <span
         class="inline-flex max-w-max items-center justify-center bg-gradient-to-br from-zinc-50 to-zinc-600 bg-clip-text text-transparent"
       >
-        <span class="mr-2">✦</span> New: Enterprise Cloud + AI bot
+        <span class="mr-2">✦</span> New: Enterprise Cloud + AI Assistant
       </span>
     </RouterLink>
   </div>
