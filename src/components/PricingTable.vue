@@ -16,19 +16,20 @@ const cloudTiers = [
     description:
       "Everything you need to get started with API testing. Perfect for individuals and small teams.",
     features: [
-      "Unlimited workspaces",
-      "Unlimited collections",
-      "Unlimited requests",
-      "Unlimited runners",
+      "REST, GraphQL, and realtime API testing",
+      "Personal workspace",
+      "Collections and environments",
+      "Pre-request scripts and tests",
+      "Collection runner",
       "Community support",
     ],
     featured: false,
   },
   {
-    name: "Organization",
-    id: "tier-organization",
+    name: "Business",
+    id: "tier-business",
     cta: "Create an organization",
-    href: "https://hoppscotch.io",
+    href: "https://hoppscotch.io/orgs",
     price: { monthly: "$8", annually: "$6" },
     unit: {
       monthly: "per user/month, billed monthly",
@@ -38,8 +39,41 @@ const cloudTiers = [
       "Crafted for teams and organizations seeking an unparalleled API testing experience.",
     features: [
       "Everything in free plan",
-      "Admin Dashboard",
-      "Dedicated Support",
+      "Team workspaces and real-time collaboration",
+      "Shared collections and environments",
+      "API documentation publishing",
+      "API mocking",
+      "Code snippets",
+      "MCP server support",
+      "Admin dashboard",
+      "Email support",
+      "Custom payment options",
+    ],
+    featured: false,
+  },
+  {
+    name: "Enterprise",
+    id: "tier-enterprise",
+    cta: "Create an organization",
+    href: "https://hoppscotch.io/orgs",
+    price: { monthly: "$14", annually: "$11" },
+    unit: {
+      monthly: "per user/month, billed monthly",
+      annually: "per user/month, billed annually",
+    },
+    description:
+      "A cloud-based enterprise API testing experience with advanced security and support.",
+    features: [
+      "Everything in business plan",
+      "Identity and Access Management",
+      "Role-based access controls",
+      "SAML-based SSO and OpenID Connect",
+      "SCIM user and group provisioning",
+      "AI Agent features",
+      "Audit logs",
+      "Domain whitelisting and site protection",
+      "Advanced admin controls",
+      "Priority support via Slack Connect",
       "Custom payment options",
     ],
     featured: true,
@@ -59,10 +93,12 @@ const selfhostTiers = [
     description:
       "Everything you need to get started with API testing, perfect for hobbyists and small teams.",
     features: [
-      "Unlimited workspaces",
-      "Unlimited collections",
-      "Unlimited requests",
-      "Unlimited runners",
+      "REST, GraphQL, and realtime API testing",
+      "Personal workspace",
+      "Collections and environments",
+      "Pre-request scripts and tests",
+      "Collection runner",
+      "Open-source community edition",
       "Community support",
     ],
     featured: false,
@@ -78,14 +114,24 @@ const selfhostTiers = [
       annually: "per user/year, billed annually",
     },
     description:
-      "Crafted for teams and enterprises seeking an unparalleled API testing experience.",
+      "A self-hosted enterprise API testing experience with advanced security and support.",
     features: [
       "Everything in free plan",
+      "On-premise deployment",
+      "Advanced admin dashboard",
+      "Team workspaces and collaboration",
+      "Shared collections and environments",
+      "Role-based access controls",
+      "API documentation publishing",
+      "API mocking",
+      "MCP server support",
       "Identity and Access Management",
-      "Single-Sign-On",
-      "Audit Logs",
-      "Dedicated Support",
-      "Custom payment options",
+      "SAML-based SSO and OpenID Connect",
+      "SCIM user and group provisioning",
+      "Audit logs",
+      "Domain whitelisting and site protection",
+      "Advanced admin controls",
+      "Priority support via Slack Connect",
     ],
     featured: true,
   },
@@ -118,15 +164,15 @@ const selfhostTiers = [
         <!-- Pricing tabs -->
         <div class="relative">
           <!-- Tabs -->
-          <div class="mb-16 flex justify-center">
+          <div class="mb-16 flex flex-col items-center gap-2">
             <fieldset
-              class="grid grid-cols-2 rounded-full bg-zinc-900 p-1 text-center text-xs font-semibold text-zinc-400"
+              class="grid shrink-0 grid-cols-2 rounded-full bg-zinc-900 p-1 text-center text-xs font-semibold text-zinc-400"
             >
               <legend class="sr-only">Platform</legend>
               <label
-                class="cursor-pointer rounded-full px-3 py-2 transition hover:text-zinc-400"
+                class="cursor-pointer whitespace-nowrap rounded-full px-3 py-2 transition hover:text-zinc-400"
                 :class="{
-                  '!bg-zinc-950 !text-zinc-50': platform === 'cloud',
+                  '!bg-zinc-200 !text-zinc-950': platform === 'cloud',
                 }"
               >
                 <input
@@ -139,9 +185,9 @@ const selfhostTiers = [
                 <span>Cloud</span>
               </label>
               <label
-                class="cursor-pointer rounded-full px-3 py-2 transition hover:text-zinc-400"
+                class="cursor-pointer whitespace-nowrap rounded-full px-3 py-2 transition hover:text-zinc-400"
                 :class="{
-                  '!bg-zinc-950 !text-zinc-50': platform === 'selfhost',
+                  '!bg-zinc-200 !text-zinc-950': platform === 'selfhost',
                 }"
               >
                 <input
@@ -154,10 +200,50 @@ const selfhostTiers = [
                 <span>Self-Host</span>
               </label>
             </fieldset>
+            <fieldset
+              class="grid shrink-0 grid-cols-2 rounded-full bg-zinc-900 p-1 text-center text-xs font-semibold text-zinc-400"
+            >
+              <legend class="sr-only">Plan Period</legend>
+              <label
+                class="cursor-pointer whitespace-nowrap rounded-full px-3 py-2 transition hover:text-zinc-400"
+                :class="{
+                  '!bg-zinc-950 !text-zinc-50': planPeriod === 'annually',
+                }"
+              >
+                <input
+                  v-model="planPeriod"
+                  type="radio"
+                  name="planPeriod"
+                  value="annually"
+                  class="sr-only"
+                />
+                <span>Annually</span>
+              </label>
+              <label
+                class="cursor-pointer whitespace-nowrap rounded-full px-3 py-2 transition hover:text-zinc-400"
+                :class="{
+                  '!bg-zinc-950 !text-zinc-50': planPeriod === 'monthly',
+                }"
+              >
+                <input
+                  v-model="planPeriod"
+                  type="radio"
+                  name="planPeriod"
+                  value="monthly"
+                  class="sr-only"
+                />
+                <span>Monthly</span>
+              </label>
+            </fieldset>
           </div>
           <!-- Content -->
           <div
-            class="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2"
+            class="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:grid-cols-2 sm:gap-y-0"
+            :class="
+              platform === 'cloud'
+                ? 'lg:max-w-6xl lg:grid-cols-3'
+                : 'lg:max-w-4xl lg:grid-cols-2'
+            "
           >
             <div
               v-for="(tier, index) in platform === 'cloud'
@@ -171,54 +257,13 @@ const selfhostTiers = [
                 tier.featured
                   ? ''
                   : index === 0
-                    ? 'rounded-t-3xl sm:rounded-b-none lg:rounded-bl-3xl lg:rounded-tr-none'
-                    : 'sm:rounded-t-none lg:rounded-bl-none lg:rounded-tr-3xl',
+                    ? 'lg:rounded-bl-3xl lg:rounded-br-none lg:rounded-tr-none'
+                    : index === 1 && platform === 'cloud'
+                      ? 'lg:rounded-l-3xl lg:rounded-r-none'
+                      : 'lg:rounded-bl-none lg:rounded-tr-3xl',
                 'rounded-3xl p-8 ring-1 ring-zinc-800 backdrop-blur-md',
               ]"
             >
-              <!-- Plan period toggle -->
-              <div v-if="tier.featured" class="flex justify-center">
-                <fieldset
-                  class="mb-4 grid w-full grid-cols-2 rounded-lg bg-zinc-200 p-2 text-center text-xs font-semibold text-zinc-500"
-                >
-                  <legend class="sr-only">Plan Period</legend>
-                  <label
-                    class="cursor-pointer rounded-md p-2 transition hover:text-zinc-500"
-                    :class="{
-                      '!bg-zinc-800 !text-zinc-50': planPeriod === 'annually',
-                    }"
-                  >
-                    <input
-                      v-model="planPeriod"
-                      type="radio"
-                      name="planPeriod"
-                      value="annually"
-                      class="sr-only"
-                    />
-                    <span
-                      >Annually
-                      {{
-                        platform === "cloud" ? "(25% OFF)" : "(2-Months FREE)"
-                      }}</span
-                    >
-                  </label>
-                  <label
-                    class="cursor-pointer rounded-md p-2 transition hover:text-zinc-500"
-                    :class="{
-                      '!bg-zinc-800 !text-zinc-50': planPeriod === 'monthly',
-                    }"
-                  >
-                    <input
-                      v-model="planPeriod"
-                      type="radio"
-                      name="planPeriod"
-                      value="monthly"
-                      class="sr-only"
-                    />
-                    <span>Monthly</span>
-                  </label>
-                </fieldset>
-              </div>
               <h4
                 :id="tier.id"
                 :class="[

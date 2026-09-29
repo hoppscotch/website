@@ -1,13 +1,19 @@
 <script setup lang="ts">
 import blogs from "../data/blogList.json"
 
+const parseBlogDate = (date: string) => {
+  const [year, month, day] = date.split("-").map(Number)
+
+  return new Date(year, month - 1, day)
+}
+
 const sortedBlogs = computed(() => {
   try {
     const clonedBlogs = [...blogs]
 
     return clonedBlogs.sort((a, b) => {
-      const dateA = new Date(a.date).getTime()
-      const dateB = new Date(b.date).getTime()
+      const dateA = parseBlogDate(a.date).getTime()
+      const dateB = parseBlogDate(b.date).getTime()
 
       return dateB - dateA
     })
@@ -86,7 +92,7 @@ const sortedBlogs = computed(() => {
             <span class="mx-2 text-zinc-400/20">|</span>
             <span class="text-zinc-200/20">
               {{
-                new Date(blog.date).toLocaleDateString("en-US", {
+                parseBlogDate(blog.date).toLocaleDateString("en-US", {
                   month: "long",
                   day: "numeric",
                   year: "numeric",

@@ -13,6 +13,7 @@ interface Testimonial {
 const active = ref<number>(0)
 const autorotate = ref<boolean>(true)
 const autorotateTiming = ref<number>(7000)
+let autorotateInterval: ReturnType<typeof setInterval> | undefined
 
 const items = ref<Testimonial[]>([
   {
@@ -38,9 +39,15 @@ const items = ref<Testimonial[]>([
 
 onMounted(() => {
   if (autorotate.value) {
-    setInterval(() => {
+    autorotateInterval = setInterval(() => {
       active.value = (active.value + 1) % items.value.length
     }, autorotateTiming.value)
+  }
+})
+
+onUnmounted(() => {
+  if (autorotateInterval) {
+    clearInterval(autorotateInterval)
   }
 })
 </script>
