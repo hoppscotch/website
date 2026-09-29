@@ -1,13 +1,19 @@
 <script setup lang="ts">
 import releases from "../../../data/releasesList.json"
 
+const parseReleaseDate = (date: string) => {
+  const [year, month, day] = date.split("-").map(Number)
+
+  return new Date(year, month - 1, day)
+}
+
 const sortedReleases = computed(() => {
   try {
     const clonedReleases = [...releases]
 
     return clonedReleases.sort((a, b) => {
-      const dateA = new Date(a.published_at).getTime()
-      const dateB = new Date(b.published_at).getTime()
+      const dateA = parseReleaseDate(a.published_at).getTime()
+      const dateB = parseReleaseDate(b.published_at).getTime()
 
       return dateB - dateA
     })
@@ -86,11 +92,14 @@ const sortedReleases = computed(() => {
             <span class="mx-2 text-zinc-400/20">|</span>
             <span class="text-zinc-200/20">
               {{
-                new Date(release.published_at).toLocaleDateString("en-US", {
+                parseReleaseDate(release.published_at).toLocaleDateString(
+                  "en-US",
+                  {
                   month: "long",
                   day: "numeric",
                   year: "numeric",
-                })
+                  },
+                )
               }}
             </span>
           </div>

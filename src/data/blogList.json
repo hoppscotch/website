@@ -1,5 +1,18 @@
 [
   {
+    "slug": "hoppscotch-v2026-9-0",
+    "title": "Hoppscotch v2026.9.0: Enterprise Cloud, AI Bot and more",
+    "description": "Hoppscotch v2026.9.0 introduces the Enterprise Cloud tier and an agentic AI bot for Enterprise Cloud and Enterprise Self-Host.",
+    "banner": "blog-v2026-9-0.png",
+    "date": "2026-09-29",
+    "author": {
+      "name": "Liyas Thomas",
+      "image": "blog-author-01.jpg"
+    },
+    "styles": "md:col-span-12",
+    "tags": ["Product"]
+  },
+  {
     "slug": "introducing-hoppscotch-mcp-server",
     "title": "Introducing the Hoppscotch MCP Server",
     "description": "The Hoppscotch Model Context Protocol (MCP) server lets an AI agent in a host such as Claude Code or Codex drive your collections, requests, environments, and teams, run real API requests, and generate code, across Cloud or self-hosted offerings.",
@@ -7,9 +20,9 @@
     "date": "2026-08-28",
     "author": {
       "name": "James George",
-      "image": "blog-author-03.jpeg"
+      "image": "blog-author-01.jpg"
     },
-    "styles": "md:col-span-12",
+    "styles": "md:col-span-6",
     "tags": ["Product", "Engineering"]
   },
   {
@@ -87,7 +100,7 @@
       "name": "Liyas Thomas",
       "image": "blog-author-01.jpg"
     },
-    "styles": "md:col-span-12",
+    "styles": "md:col-span-6",
     "tags": ["Product"]
   },
   {
@@ -412,7 +425,7 @@
       "name": "Liyas Thomas",
       "image": "blog-author-01.jpg"
     },
-    "styles": "md:col-span-12",
+    "styles": "md:col-span-6",
     "tags": ["Product", "Engineering"]
   }
 ]

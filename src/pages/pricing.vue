@@ -45,7 +45,6 @@ useHead({
 <template>
   <PricingTable />
   <!-- <ComparrisionTable /> -->
-  <!-- <Clients /> -->
   <Testimonials />
   <Cta />
 </template>
