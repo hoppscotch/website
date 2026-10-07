@@ -21,6 +21,7 @@ const cloudTiers = [
       "Collections and environments",
       "Pre-request scripts and tests",
       "Collection runner",
+      "Code snippets",
       "Community support",
     ],
     featured: false,
@@ -43,7 +44,6 @@ const cloudTiers = [
       "Shared collections and environments",
       "API documentation publishing",
       "API mocking",
-      "Code snippets",
       "MCP server support",
       "Admin dashboard",
       "Email support",
@@ -94,7 +94,6 @@ const selfhostTiers = [
       "Everything you need to get started with API testing, perfect for hobbyists and small teams.",
     features: [
       "REST, GraphQL, and realtime API testing",
-      "Personal workspace",
       "Collections and environments",
       "Pre-request scripts and tests",
       "Collection runner",
