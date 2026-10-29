@@ -30,7 +30,7 @@ const cloudTiers = [
     name: "Business",
     id: "tier-business",
     cta: "Create an organization",
-    href: "https://hoppscotch.io/orgs",
+    href: "https://hoppscotch.io",
     price: { monthly: "$8", annually: "$6" },
     unit: {
       monthly: "per user/month, billed monthly",
@@ -55,7 +55,7 @@ const cloudTiers = [
     name: "Enterprise",
     id: "tier-enterprise",
     cta: "Create an organization",
-    href: "https://hoppscotch.io/orgs",
+    href: "https://hoppscotch.io",
     price: { monthly: "$14", annually: "$11" },
     unit: {
       monthly: "per user/month, billed monthly",

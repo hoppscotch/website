@@ -82,9 +82,9 @@ useHead({
             <p class="mb-8 mt-4">
               We're excited to announce Hoppscotch v2026.10.0. This release
               brings the AI Assistant to Enterprise organizations, a
-              browser-based sign-in flow for Enterprise orgs on the desktop
-              app, and system trust store support so the desktop app works
-              seamlessly with your organization's certificates.
+              browser-based sign-in flow for Enterprise orgs on the desktop app,
+              and system trust store support so the desktop app works seamlessly
+              with your organization's certificates.
             </p>
             <hr
               class="my-12 h-px border-t-0 bg-gradient-to-r from-transparent via-zinc-500/20"
@@ -94,9 +94,9 @@ useHead({
             </h4>
             <p class="mb-8 mt-4">
               The AI Assistant we introduced in v2026.9.0 is now available for
-              Enterprise organizations. Members of an Enterprise org can use
-              the agentic chat interface docked inside Hoppscotch to edit
-              requests, run and save them, write tests, manage environments and
+              Enterprise organizations. Members of an Enterprise org can use the
+              agentic chat interface docked inside Hoppscotch to edit requests,
+              run and save them, write tests, manage environments and
               collections, and more, right from their organization workspace.
             </p>
             <p class="mb-8">
@@ -105,12 +105,12 @@ useHead({
                 >Settings &gt; AI experiments</strong
               >
               and connect the provider that works for your organization,
-              including Anthropic, OpenAI, Bedrock, Azure, or a compatible
-              local runtime.
+              including Anthropic, OpenAI, Bedrock, Azure, or a compatible local
+              runtime.
             </p>
             <p class="mb-8">
               <a
-                href="https://hoppscotch.io/orgs"
+                href="https://hoppscotch.io"
                 target="_blank"
                 class="border-b border-zinc-200 transition hover:text-zinc-50"
               >
@@ -125,16 +125,15 @@ useHead({
             </h4>
             <p class="mb-8 mt-4">
               Signing in to an Enterprise organization from the desktop app is
-              now much smoother. Instead of entering credentials inside the
-              app, the desktop app opens your default browser where you sign in
-              with your organization's identity provider, and then hands the
-              session back to the app securely over the local loopback
-              interface.
+              now much smoother. Instead of entering credentials inside the app,
+              the desktop app opens your default browser where you sign in with
+              your organization's identity provider, and then hands the session
+              back to the app securely over the local loopback interface.
             </p>
             <p class="mb-8">
-              This makes signing in with your organization's single sign-on
-              more reliable, so you can get back to work in Hoppscotch with
-              fewer connection hiccups.
+              This makes signing in with your organization's single sign-on more
+              reliable, so you can get back to work in Hoppscotch with fewer
+              connection hiccups.
             </p>
             <p class="mb-8">
               <a

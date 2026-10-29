@@ -140,7 +140,7 @@ useHead({
             </p>
             <p class="mb-8">
               <a
-                href="https://hoppscotch.io/orgs"
+                href="https://hoppscotch.io"
                 target="_blank"
                 class="border-b border-zinc-200 transition hover:text-zinc-50"
               >
