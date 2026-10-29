@@ -1,5 +1,21 @@
 [
   {
+    "name": "Release Notes - v2026.10.0",
+    "description": "AI Assistant for Enterprise organizations, browser sign-in on desktop, system trust store support, and more...",
+    "image": "release-2026-10-0.png",
+    "created_at": "2026-10-29",
+    "published_at": "2026-10-29",
+    "author": {
+      "name": "Liyas Thomas",
+      "image": "blog-author-01.jpg"
+    },
+    "slug": "release-notes-v2026-10-0",
+    "title": "Release Notes - v2026.10.0",
+    "banner": "release-2026-10-0.png",
+    "styles": "md:col-span-6",
+    "tags": []
+  },
+  {
     "name": "Release Notes - v2026.9.0",
     "description": "Enterprise Cloud, AI Assistant for enterprise customers, and more...",
     "image": "release-2026-9-0.png",

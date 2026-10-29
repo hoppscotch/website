@@ -1,5 +1,18 @@
 [
   {
+    "slug": "hoppscotch-v2026-10-0",
+    "title": "Hoppscotch v2026.10.0: AI Assistant for Enterprise Orgs, Desktop Browser Sign-In, System Trust Store and more",
+    "description": "Hoppscotch v2026.10.0 brings the AI Assistant to Enterprise organizations, browser sign-in for Enterprise orgs on desktop, and system trust store support for the desktop app.",
+    "banner": "blog-v2026-10-0.png",
+    "date": "2026-10-29",
+    "author": {
+      "name": "Liyas Thomas",
+      "image": "blog-author-01.jpg"
+    },
+    "styles": "md:col-span-12",
+    "tags": ["Product"]
+  },
+  {
     "slug": "hoppscotch-v2026-9-0",
     "title": "Hoppscotch v2026.9.0: Enterprise Cloud, AI Assistant and more",
     "description": "Hoppscotch v2026.9.0 introduces the Enterprise Cloud tier and an AI Assistant for Enterprise Cloud and Enterprise Self-Host.",
@@ -9,7 +22,7 @@
       "name": "Liyas Thomas",
       "image": "blog-author-01.jpg"
     },
-    "styles": "md:col-span-12",
+    "styles": "md:col-span-6",
     "tags": ["Product"]
   },
   {
